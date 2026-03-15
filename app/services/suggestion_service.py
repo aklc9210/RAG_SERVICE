@@ -1,0 +1,107 @@
+# services/suggestion_service.py
+# Migrated from AI_service/app/services/suggestion_service.py — imports updated only
+from typing import List, Dict, Any
+
+
+class SuggestionService:
+    """Generates suggestions for related ingredients and dishes."""
+
+    def __init__(self, ontology_service, unit_converter, validation_service=None):
+        self.ontology = ontology_service
+        self.converter = unit_converter
+        self.validator = validation_service
+
+    def get_suggestions(
+        self,
+        current_ingredient_ids: List[str],
+        dish_name: str = ""
+    ) -> List[Dict[str, Any]]:
+
+        if not current_ingredient_ids:
+            return []
+
+        if not self.validator:
+            return []
+
+        excluded_ids = self._build_exclusion_set(current_ingredient_ids)
+        allowed_categories = self._get_allowed_categories(dish_name)
+
+        raw_suggestions = self.validator.suggest_ingredients(
+            seed_ids=current_ingredient_ids,
+            allowed_categories=allowed_categories,
+            ban_ids=excluded_ids,
+            top_k=5,
+            ingredients=self.ontology.ingredients
+        )
+
+        suggestions = []
+        for sug in raw_suggestions:
+            ing_data = self.ontology.get_ingredient(sug['id'])
+            if not ing_data:
+                continue
+
+            suggestion_item = {
+                'ingredient_id': sug['id'],
+                'vietnamese_name': ing_data.get('vietnamese_name') or ing_data.get('name_vi', ''),
+                'name': ing_data.get('name') or ing_data.get('name_en', ''),
+                'category': ing_data.get('category', 'other'),
+                'unit': '',
+                'score': sug['score'],
+            }
+
+            converted = self.converter.normalize_ingredients([suggestion_item])
+            if converted:
+                suggestions.append(converted[0])
+
+        return suggestions
+
+    def find_similar_dishes(
+        self,
+        ingredient_ids: List[str],
+        min_match: int = 3
+    ) -> List[Dict[str, Any]]:
+        return self.ontology.search_similar_dishes(
+            ing_ids=ingredient_ids,
+            min_match=min_match
+        )
+
+    def _build_exclusion_set(self, current_ids: List[str]) -> set:
+        excluded = set(current_ids)
+
+        for ing_id in current_ids:
+            ing_data = self.ontology.get_ingredient(ing_id)
+            if not ing_data:
+                continue
+
+            category = ing_data.get('category', '')
+
+            if category in {'protein', 'meat', 'seafood', 'fresh_meat', 'seafood_&_fish_balls'}:
+                protein_ids = self.ontology.get_ingredients_by_category(
+                    ['protein', 'meat', 'seafood', 'fresh_meat', 'seafood_&_fish_balls']
+                )
+                excluded.update(protein_ids)
+
+            if category in {'starch', 'grain', 'grains_staples', 'cereals_grains'}:
+                starch_ids = self.ontology.get_ingredients_by_category(
+                    ['starch', 'grain', 'grains_staples', 'cereals_grains']
+                )
+                excluded.update(starch_ids)
+
+        return excluded
+
+    def _get_allowed_categories(self, dish_name: str) -> set:
+        if not dish_name:
+            return set()
+
+        dish_lower = dish_name.lower()
+
+        salad_keywords = ['salad', 'sa lát', 'gỏi', 'nộm']
+        if any(kw in dish_lower for kw in salad_keywords):
+            return {'vegetable', 'herb', 'spice', 'condiment', 'protein', 'other', 'vegetables'}
+
+        soup_keywords = ['soup', 'súp', 'canh', 'cháo', 'phở']
+        if any(kw in dish_lower for kw in soup_keywords):
+            return {'vegetable', 'protein', 'meat', 'seafood', 'herb', 'spice', 'other',
+                    'vegetables', 'fresh_meat', 'seafood_&_fish_balls', 'seasonings'}
+
+        return set()

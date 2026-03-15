@@ -1,0 +1,1033 @@
+{
+  "meta": {
+    "timestamp": "2026-03-16T01:12:16",
+    "optimization": "option2_keep_warm_objects + option3_ollama_keep_alive",
+    "model": "qwen2.5:7b",
+    "ollama_keep_alive": "30m",
+    "reuse_shared_retriever": "1",
+    "recipe_top_k": "5",
+    "recipe_context_chars": "350",
+    "extract_max_tokens": "256",
+    "recipe_max_tokens": "768",
+    "case_count": 10
+  },
+  "cases": [
+    {
+      "dish_id": "dish0001",
+      "dish_name": "Canh nghêu thì là",
+      "elapsed_s": 288.7,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 9,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.6923,
+        "recall": 0.9,
+        "f1": 0.7826,
+        "pred_count": 13,
+        "gt_count": 10
+      },
+      "ground_truth_ingredients": [
+        "Nghêu",
+        "Cà chua",
+        "Hành lá",
+        "Thì là",
+        "Khế",
+        "Ớt sừng",
+        "Hành tím",
+        "Dầu ăn",
+        "Muối",
+        "Đường",
+        "Hạt nêm"
+      ],
+      "retrieved_ingredients": [
+        "nghêu",
+        "cà chua",
+        "hành lá",
+        "thì là",
+        "ớt hiểm",
+        "rượu trắng",
+        "nước mắm",
+        "muối",
+        "khế",
+        "hành tím",
+        "dầu ăn",
+        "hạt nêm",
+        "bột ngọt",
+        "đường"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh nghêu thì là",
+        "top_k_docs": [
+          {
+            "id": "dish0652_b_ingredients",
+            "score": 0.896285,
+            "entity_id": "dish0652",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh nghêu thì là cà chua",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh nghêu thì là cà chua\nNguyen lieu chinh: Nghêu\nNguyen lieu phu: Hành lá, Thì là, Cà chua, Sả\nGia vi: Ớt hiểm, Rượu trắng, Nước mắm, Muối"
+          },
+          {
+            "id": "dish0001_b_ingredients",
+            "score": 0.888815,
+            "entity_id": "dish0001",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh nghêu thì là",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh nghêu thì là\nNguyen lieu chinh: Nghêu, Cà chua, Hành lá\nNguyen lieu phu: Thì là, Khế, Hành tím\nGia vi: Ớt sừng, Dầu ăn, Muối, Đường, Hạt nêm"
+          },
+          {
+            "id": "dish0383_b_ingredients",
+            "score": 0.88461,
+            "entity_id": "dish0383",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh nghêu nấu ngót",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh nghêu nấu ngót\nNguyen lieu chinh: Nghêu, Cà chua, Thơm\nNguyen lieu phu: Rau cần tây, Hành tím\nGia vi: Dầu ăn, Muối, Hạt nêm, Bột ngọt, Đường"
+          },
+          {
+            "id": "dish0120_b_ingredients",
+            "score": 0.882071,
+            "entity_id": "dish0120",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cá khoai thì là",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cá khoai thì là\nNguyen lieu chinh: Cá khoai, Rau thì là, Hành lá\nNguyen lieu phu: Ngò rí, Hành tím\nGia vi: Dầu ăn, Hạt nêm, Muối, Bột ngọt, Tiêu xay"
+          },
+          {
+            "id": "dish0168_b_ingredients",
+            "score": 0.880179,
+            "entity_id": "dish0168",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cải xanh nấu nghêu",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cải xanh nấu nghêu\nNguyen lieu chinh: Cải bẹ xanh, Nghêu\nGia vi: Ớt, Gừng, Dầu ăn, Muối, Bột ngọt, Hạt nêm, Đường, Tiêu xay"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0002",
+      "dish_name": "Móng giò nấu canh chua",
+      "elapsed_s": 331.85,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 5,
+        "fp": 16,
+        "fn": 11,
+        "precision": 0.2381,
+        "recall": 0.3125,
+        "f1": 0.2703,
+        "pred_count": 21,
+        "gt_count": 16
+      },
+      "ground_truth_ingredients": [
+        "Chân giò trước",
+        "Me",
+        "Hành tím",
+        "Sả",
+        "Gốc ngò rí/Húng quế",
+        "Gốc ngò gai",
+        "Cà chua",
+        "Cần tây",
+        "Ớt",
+        "Bún khô",
+        "Muối",
+        "Đường",
+        "Nước mắm ngon 40 độ đạm",
+        "Bột nêm",
+        "Bột ngọt",
+        "Giấm/Chanh"
+      ],
+      "retrieved_ingredients": [
+        "Móng giò heo",
+        "Sả",
+        "Hành tím",
+        "Ớt",
+        "Dầu hào",
+        "Nước mắm",
+        "Dầu ăn",
+        "Muối",
+        "Đường",
+        "Hạt nêm",
+        "Tiêu",
+        "Hành lá",
+        "Măng khô",
+        "Sườn vai",
+        "Hành khô",
+        "Đu đủ xanh",
+        "Ngò rí",
+        "Nước dừa",
+        "Hành tím",
+        "Hạt nêm",
+        "Măng tươi",
+        "Hành lá",
+        "Hành tím băm",
+        "Giấm",
+        "rau canh chua"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Móng giò",
+        "top_k_docs": [
+          {
+            "id": "dish6051_b_ingredients",
+            "score": 0.881784,
+            "entity_id": "dish6051",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Móng giò kho sả ớt",
+            "name_en": "",
+            "category": "mon kho",
+            "text": "Mon: Móng giò kho sả ớt\nNguyen lieu chinh: Móng giò heo, Sả, Hành tím\nNguyen lieu phu: Hành lá\nGia vi: Ớt, Dầu hào, Nước mắm, Dầu ăn, Muối, Đường, Hạt nêm, Tiêu"
+          },
+          {
+            "id": "dish0389_b_ingredients",
+            "score": 0.877755,
+            "entity_id": "dish0389",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh măng khô giò heo",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh măng khô giò heo\nNguyen lieu chinh: Măng khô, Móng giò\nNguyen lieu phu: Sườn vai, Hành tươi\nGia vi: Hành khô, Dầu ăn, Mì chính, Nước mắm"
+          },
+          {
+            "id": "dish0207_b_ingredients",
+            "score": 0.875455,
+            "entity_id": "dish0207",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm đu đủ",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Chân giò hầm đu đủ\nNguyen lieu chinh: Móng giò\nNguyen lieu phu: Đu đủ xanh, Ngò rí\nGia vi: Đường, Nước mắm"
+          },
+          {
+            "id": "dish0637_b_ingredients",
+            "score": 0.874936,
+            "entity_id": "dish0637",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm măng khô",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Chân giò hầm măng khô\nNguyen lieu chinh: Chân giò, Măng khô\nNguyen lieu phu: Nước dừa, Hành tím, Hành lá\nGia vi: Dầu ăn, Nước mắm, Hạt nêm/muối"
+          },
+          {
+            "id": "dish0593_b_ingredients",
+            "score": 0.874854,
+            "entity_id": "dish0593",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm măng tươi",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Chân giò hầm măng tươi\nNguyen lieu chinh: Giò heo, Măng tươi\nNguyen lieu phu: Hành lá\nGia vi: Hành tím băm, Giấm, Dầu ăn, Nước mắm, Muối, Tiêu xay, Hạt nêm"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0003",
+      "dish_name": "Canh cải thảo thịt bò",
+      "elapsed_s": 227.77,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9474,
+        "pred_count": 9,
+        "gt_count": 10
+      },
+      "ground_truth_ingredients": [
+        "Cải thảo",
+        "Thịt bò",
+        "Hành lá",
+        "Tỏi",
+        "Gừng",
+        "Dầu ăn",
+        "Dầu hào",
+        "Muối",
+        "Hạt nêm",
+        "Bột ngọt",
+        "Tiêu"
+      ],
+      "retrieved_ingredients": [
+        "Cải thảo",
+        "Thịt bò",
+        "Hành lá",
+        "Tỏi",
+        "Gừng",
+        "Dầu ăn",
+        "Dầu hào",
+        "Muối",
+        "Hạt nêm",
+        "Bột ngọt"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh cải thảo thịt bò",
+        "top_k_docs": [
+          {
+            "id": "dish0003_b_ingredients",
+            "score": 0.907131,
+            "entity_id": "dish0003",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cải thảo thịt bò",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cải thảo thịt bò\nNguyen lieu chinh: Cải thảo, Thịt bò, Hành lá\nGia vi: Tỏi, Gừng, Dầu ăn, Dầu hào, Muối, Hạt nêm, Bột ngọt, Tiêu"
+          },
+          {
+            "id": "dish0170_b_ingredients",
+            "score": 0.877964,
+            "entity_id": "dish0170",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh thịt bò củ cải kiểu Hàn Quốc",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh thịt bò củ cải kiểu Hàn Quốc\nNguyen lieu chinh: Thịt bò\nNguyen lieu phu: Củ cải trắng, Hành boa rô\nGia vi: Rượu trắng, Nước tương, Muối"
+          },
+          {
+            "id": "dish0193_b_ingredients",
+            "score": 0.875999,
+            "entity_id": "dish0193",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cải thảo thịt bằm",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cải thảo thịt bằm\nNguyen lieu chinh: Cải thảo, Thịt heo, Nấm mèo\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Dầu ăn, Nước mắm, Muối, Hạt nêm, Bột ngọt, Tiêu xay"
+          },
+          {
+            "id": "dish0329_b_ingredients",
+            "score": 0.875874,
+            "entity_id": "dish0329",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cải thảo tôm khô",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cải thảo tôm khô\nNguyen lieu chinh: Cải thảo, Tôm khô\nNguyen lieu phu: Hành lá\nGia vi: Muối, Hạt nêm, Bột ngọt, Tiêu xay"
+          },
+          {
+            "id": "dish0498_b_ingredients",
+            "score": 0.875337,
+            "entity_id": "dish0498",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cải thảo nấu tôm tươi",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cải thảo nấu tôm tươi\nNguyen lieu chinh: Cải thảo, Tôm tươi\nNguyen lieu phu: Hành lá, Ngò rí\nGia vi: Muối, Đường, Bột ngọt, Tiêu xay"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0004",
+      "dish_name": "Lá bứa nấu canh chua",
+      "elapsed_s": 307.84,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 7,
+        "fp": 14,
+        "fn": 3,
+        "precision": 0.3333,
+        "recall": 0.7,
+        "f1": 0.4516,
+        "pred_count": 21,
+        "gt_count": 10
+      },
+      "ground_truth_ingredients": [
+        "Lá bứa non",
+        "Cá",
+        "Hoa chuối",
+        "Hành tím",
+        "Tỏi",
+        "Ớt",
+        "Muối",
+        "Đường",
+        "Bột ngọt",
+        "Nước mắm"
+      ],
+      "retrieved_ingredients": [
+        "Cà chua",
+        "Cua đồng",
+        "Rau thì là",
+        "Hành tím",
+        "Mẻ chua",
+        "Dầu màu điều",
+        "Nước mắm",
+        "Dầu ăn",
+        "Muối/ tiêu xay",
+        "Thịt heo",
+        "Cá basa",
+        "Giá đỗ",
+        "Thơm",
+        "Ruột me chín",
+        "Ớt",
+        "Nước mắm",
+        "Dầu ăn",
+        "Muối",
+        "Đường",
+        "Bột ngọt",
+        "Hạt nêm",
+        "Hành lá",
+        "Rau ngổ",
+        "lá bứa non"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh chua",
+        "top_k_docs": [
+          {
+            "id": "dish0109_b_ingredients",
+            "score": 0.880681,
+            "entity_id": "dish0109",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cua chua",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cua chua\nNguyen lieu chinh: Cua đồng, Cà chua\nNguyen lieu phu: Rau thì là, Hành tím, Mẻ chua, Dầu màu điều\nGia vi: Nước mắm, Dầu ăn, Muối/ tiêu xay"
+          },
+          {
+            "id": "dish0520_b_ingredients",
+            "score": 0.877003,
+            "entity_id": "dish0520",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cà chua thịt băm",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cà chua thịt băm\nNguyen lieu chinh: Thịt heo, Cà chua\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Dầu ăn, Muối, Hạt nêm, Tiêu xay"
+          },
+          {
+            "id": "dish0630_b_ingredients",
+            "score": 0.876886,
+            "entity_id": "dish0630",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh chua cá ba sa",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh chua cá ba sa\nNguyen lieu chinh: Cá basa, Cà chua, Giá đỗ, Thơm\nNguyen lieu phu: Dọc mùng, Đậu bắp, Hành lá và rau ngổ\nGia vi: Ruột me chín, Ớt, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt"
+          },
+          {
+            "id": "dish0655_a_identity",
+            "score": 0.876829,
+            "entity_id": "dish0655",
+            "type": "dish",
+            "doc_type": "a_identity",
+            "name_vi": "Canh cà chua trứng thịt bằm",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Loai: mon an\nTen mon: Canh cà chua trứng thịt bằm\nTen chuan hoa: canh ca chua trung thit bam\nDanh muc: mon canh"
+          },
+          {
+            "id": "dish9564_b_ingredients",
+            "score": 0.876726,
+            "entity_id": "dish9564",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Cơm cà chua",
+            "name_en": "",
+            "category": "ngay le tet",
+            "text": "Mon: Cơm cà chua\nNguyen lieu: Gạo, Cà chua"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0005",
+      "dish_name": "Nấu canh hàu cà chua",
+      "elapsed_s": 240.89,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "pred_count": 11,
+        "gt_count": 11
+      },
+      "ground_truth_ingredients": [
+        "Hàu tươi",
+        "Cà chua",
+        "Dứa",
+        "Hành lá",
+        "Thì là",
+        "Hành khô",
+        "Ớt hiểm",
+        "Nước mắm",
+        "Hạt nêm",
+        "Hạt tiêu",
+        "Dầu ăn"
+      ],
+      "retrieved_ingredients": [
+        "Hàu tươi",
+        "Cà chua",
+        "Dứa",
+        "Hành lá",
+        "Thì là",
+        "Hành khô",
+        "Ớt hiểm",
+        "Nước mắm",
+        "Hạt nêm",
+        "Hạt tiêu",
+        "Dầu ăn"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh hàu cà chua",
+        "top_k_docs": [
+          {
+            "id": "dish0005_b_ingredients",
+            "score": 0.881346,
+            "entity_id": "dish0005",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Nấu canh hàu cà chua",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Nấu canh hàu cà chua\nNguyen lieu chinh: Hàu tươi, Cà chua, Dứa\nNguyen lieu phu: Hành lá, Thì là\nGia vi: Hành khô, Ớt hiểm, Nước mắm, Hạt nêm, Hạt tiêu, Dầu ăn"
+          },
+          {
+            "id": "dish0174_b_ingredients",
+            "score": 0.880677,
+            "entity_id": "dish0174",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh hàu nấu măng chua",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh hàu nấu măng chua\nNguyen lieu chinh: Măng củ chua, Cà chua\nNguyen lieu phu: Củ hành hoa, Thì là, Húng quế\nGia vi: Ruột hàu, Ớt, Hành khô, Nước mắm, Gừng, Bột mì, Dầu ăn"
+          },
+          {
+            "id": "dish0189_b_ingredients",
+            "score": 0.879473,
+            "entity_id": "dish0189",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh hàu",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh hàu\nNguyen lieu chinh: Dọc mùng, Cà chua\nNguyen lieu phu: Lá tía tô\nGia vi: Ruột hàu sữa, Hành khô, Lá lốt, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm"
+          },
+          {
+            "id": "dish0793_b_ingredients",
+            "score": 0.878411,
+            "entity_id": "dish0793",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Hàu nấu canh chua",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Hàu nấu canh chua\nNguyen lieu chinh: Thịt hàu, Thơm\nNguyen lieu phu: Cà chua, Me chua, Hành lá, Hành tím\nGia vi: Ớt, Dầu ăn"
+          },
+          {
+            "id": "dish0527_b_ingredients",
+            "score": 0.873949,
+            "entity_id": "dish0527",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh hàu rong biển",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh hàu rong biển\nNguyen lieu chinh: Hàu sữa, Rong biển khô, Đậu hũ trắng\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Gừng, Dầu ăn, Muối, Tiêu, Bột canh"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0006",
+      "dish_name": "Canh xương bò hầm khoai tây",
+      "elapsed_s": 239.34,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "pred_count": 9,
+        "gt_count": 9
+      },
+      "ground_truth_ingredients": [
+        "Xương bò",
+        "Khoai tây",
+        "Cà rốt",
+        "Rau thì là",
+        "Hành tím",
+        "Gừng",
+        "Nước mắm",
+        "Hạt nêm",
+        "Muối",
+        "Bột ngọt"
+      ],
+      "retrieved_ingredients": [
+        "Xương bò",
+        "Khoai tây",
+        "Cà rốt",
+        "Gừng",
+        "Hành tím",
+        "Nước mắm",
+        "Hạt nêm",
+        "Muối",
+        "Bột ngọt",
+        "Rau thì là",
+        "khoai tây"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh xương bò hầm",
+        "top_k_docs": [
+          {
+            "id": "dish0006_b_ingredients",
+            "score": 0.88923,
+            "entity_id": "dish0006",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh xương bò hầm khoai tây",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh xương bò hầm khoai tây\nNguyen lieu chinh: Xương bò, Khoai tây\nNguyen lieu phu: Rau thì là, Hành tím\nGia vi: Cà rốt, Gừng, Nước mắm, Hạt nêm, Muối, Bột ngọt"
+          },
+          {
+            "id": "dish0076_b_ingredients",
+            "score": 0.885993,
+            "entity_id": "dish0076",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh rau củ hầm xương",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh rau củ hầm xương\nNguyen lieu chinh: Xương heo, Khoai tây\nNguyen lieu phu: Su su, Hành tím\nGia vi: Cà rốt, Dầu ăn, Nước mắm, Tiêu, Muối, Hạt nêm"
+          },
+          {
+            "id": "dish0143_b_ingredients",
+            "score": 0.885687,
+            "entity_id": "dish0143",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh bắp hầm xương",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh bắp hầm xương\nNguyen lieu chinh: Xương, Bắp Mỹ\nNguyen lieu phu: Khoai tây, Cà chua, Hành lá cắt nhỏ\nGia vi: Cà rốt, Hành tím băm, Hạt nêm, Muối"
+          },
+          {
+            "id": "dish0561_b_ingredients",
+            "score": 0.882432,
+            "entity_id": "dish0561",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh xương hầm khoai tây cà rốt",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh xương hầm khoai tây cà rốt\nNguyen lieu chinh: Xương heo, Khoai tây\nNguyen lieu phu: Hành lá, Ngò rí, Hành tím\nGia vi: Cà rốt, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu xay"
+          },
+          {
+            "id": "dish0379_b_ingredients",
+            "score": 0.882295,
+            "entity_id": "dish0379",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh cà rốt hầm xương",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh cà rốt hầm xương\nNguyen lieu chinh: Xương heo, Hành tím\nNguyen lieu phu: Hành lá, Ngò rí\nGia vi: Cà rốt, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu xay"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0007",
+      "dish_name": "Canh đậu que",
+      "elapsed_s": 223.01,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "pred_count": 8,
+        "gt_count": 10
+      },
+      "ground_truth_ingredients": [
+        "Đậu que",
+        "Cà chua",
+        "Hành lá",
+        "Ngò rí",
+        "Hành tím",
+        "Nước lọc",
+        "Dầu ăn",
+        "Muối",
+        "Hạt nêm",
+        "Đường",
+        "Tiêu"
+      ],
+      "retrieved_ingredients": [
+        "Đậu que",
+        "Cà chua",
+        "Hành lá",
+        "Dầu ăn",
+        "Muối",
+        "Hạt nêm",
+        "Đường",
+        "Tiêu",
+        "Nước lọc"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh đậu que",
+        "top_k_docs": [
+          {
+            "id": "dish0007_b_ingredients",
+            "score": 0.887665,
+            "entity_id": "dish0007",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh đậu que",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh đậu que\nNguyen lieu chinh: Đậu que, Cà chua, Hành lá\nNguyen lieu phu: Ngò rí, Hành tím, Nước lọc\nGia vi: Dầu ăn, Muối, Hạt nêm, Đường, Tiêu"
+          },
+          {
+            "id": "dish10388_b_ingredients",
+            "score": 0.881365,
+            "entity_id": "dish10388",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chè bánh canh ngọt nhân đậu",
+            "name_en": "",
+            "category": "mon trang mieng",
+            "text": "Mon: Chè bánh canh ngọt nhân đậu\nNguyen lieu: Đậu xanh cà vỏ, Đậu phộng rang\nGia vi: Bột năng, Gừng, Dầu ăn, Đường"
+          },
+          {
+            "id": "dish5218_b_ingredients",
+            "score": 0.876999,
+            "entity_id": "dish5218",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Bắp bò xào đậu que",
+            "name_en": "",
+            "category": "mon xao",
+            "text": "Mon: Bắp bò xào đậu que\nNguyen lieu chinh: Thịt bắp bò, Đậu que\nGia vi: Tỏi, Nước tương, Dầu ăn, Dầu hào, Bột ngọt, Hạt nêm, Muối, Đường, Tiêu xay"
+          },
+          {
+            "id": "dish4028_b_ingredients",
+            "score": 0.875825,
+            "entity_id": "dish4028",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Thịt cuộn đậu que nướng",
+            "name_en": "",
+            "category": "mon nuong",
+            "text": "Mon: Thịt cuộn đậu que nướng\nNguyen lieu chinh: Đậu que\nNguyen lieu phu: Thịt xông khói\nGia vi: Đường nâu, Bơ thực vật"
+          },
+          {
+            "id": "dish5008_b_ingredients",
+            "score": 0.875044,
+            "entity_id": "dish5008",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Tim gà xào đậu que (đậu cô ve)",
+            "name_en": "",
+            "category": "mon xao",
+            "text": "Mon: Tim gà xào đậu que (đậu cô ve)\nNguyen lieu chinh: Tim gà, Đậu que, Nấm mỡ, Hành tây\nNguyen lieu phu: Hành lá\nGia vi: Tỏi, Chanh, Bột nêm, Đường, Tiêu, Bột ngọt, Dầu hào, Nước tương, Dầu ăn, Rượu trắng"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0008",
+      "dish_name": "Canh đậu xanh",
+      "elapsed_s": 209.66,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 7,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.875,
+        "recall": 0.7778,
+        "f1": 0.8235,
+        "pred_count": 8,
+        "gt_count": 9
+      },
+      "ground_truth_ingredients": [
+        "Bí đỏ",
+        "Đậu xanh",
+        "Thịt băm",
+        "Hành tím",
+        "Muối",
+        "Bột canh",
+        "Nước mắm",
+        "Nước",
+        "Dầu ăn hoặc mỡ heo"
+      ],
+      "retrieved_ingredients": [
+        "Đậu xanh",
+        "Bí đỏ",
+        "Muối",
+        "Bột canh",
+        "Nước mắm",
+        "Dầu ăn",
+        "Hành tím",
+        "Thịt băm"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Canh đậu xanh",
+        "top_k_docs": [
+          {
+            "id": "dish10482_b_ingredients",
+            "score": 0.886901,
+            "entity_id": "dish10482",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chè kho đậu xanh",
+            "name_en": "",
+            "category": "mon trang mieng",
+            "text": "Mon: Chè kho đậu xanh\nNguyen lieu chinh: Đậu xanh cà vỏ\nGia vi: Nước cốt dừa, Đường, Muối"
+          },
+          {
+            "id": "dish0008_b_ingredients",
+            "score": 0.886874,
+            "entity_id": "dish0008",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh đậu xanh",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh đậu xanh\nNguyen lieu chinh: Bí đỏ, Đậu xanh\nNguyen lieu phu: Thịt băm, Hành tím, Nước\nGia vi: Muối, Bột canh, Nước mắm, Dầu ăn hoặc mỡ heo"
+          },
+          {
+            "id": "dish10388_b_ingredients",
+            "score": 0.879719,
+            "entity_id": "dish10388",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chè bánh canh ngọt nhân đậu",
+            "name_en": "",
+            "category": "mon trang mieng",
+            "text": "Mon: Chè bánh canh ngọt nhân đậu\nNguyen lieu: Đậu xanh cà vỏ, Đậu phộng rang\nGia vi: Bột năng, Gừng, Dầu ăn, Đường"
+          },
+          {
+            "id": "dish1183_b_ingredients",
+            "score": 0.879507,
+            "entity_id": "dish1183",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Bánh gối nhân đậu xanh",
+            "name_en": "",
+            "category": "mon banh",
+            "text": "Mon: Bánh gối nhân đậu xanh\nNguyen lieu phu: Đậu xanh\nGia vi: Bột mì, Bột nếp, Bột gạo, Đường, Muối, Bột nghệ"
+          },
+          {
+            "id": "dish0863_b_ingredients",
+            "score": 0.878248,
+            "entity_id": "dish0863",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Bánh in đậu xanh",
+            "name_en": "",
+            "category": "mon banh",
+            "text": "Mon: Bánh in đậu xanh\nNguyen lieu chinh: Đậu xanh không vỏ\nGia vi: Bột bánh dẻo, Dầu ăn, Đường, Muối"
+          }
+        ]
+      }
+    },
+    {
+      "dish_id": "dish0009",
+      "dish_name": "Lá vông vang nấu canh chua",
+      "elapsed_s": 83.39,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 5,
+        "fp": 16,
+        "fn": 6,
+        "precision": 0.2381,
+        "recall": 0.4545,
+        "f1": 0.3125,
+        "pred_count": 21,
+        "gt_count": 11
+      },
+      "ground_truth_ingredients": [
+        "Mực tươi",
+        "Lá vông vang",
+        "Cà chua",
+        "Hành khô",
+        "Gừng nhỏ",
+        "Ớt cay",
+        "Bột nêm",
+        "Bột ngọt",
+        "Đường",
+        "Nước mắm",
+        "Tiêu xay"
+      ],
+      "retrieved_ingredients": [
+        "Cà chua",
+        "Cua đồng",
+        "Rau thì là",
+        "Hành tím",
+        "Mẻ chua",
+        "Dầu màu điều",
+        "Nước mắm",
+        "Dầu ăn",
+        "Muối/ tiêu xay",
+        "Thịt heo",
+        "Cá basa",
+        "Giá đỗ",
+        "Thơm",
+        "Ruột me chín",
+        "Ớt",
+        "Nước mắm",
+        "Dầu ăn",
+        "Muối",
+        "Đường",
+        "Bột ngọt",
+        "Hạt nêm",
+        "Hành lá",
+        "Rau ngổ",
+        "lá vông vang"
+      ],
+      "retrieval_output": {
+        "query": "",
+        "top_k_docs": []
+      }
+    },
+    {
+      "dish_id": "dish0010",
+      "dish_name": "Chân giò hầm bí xanh",
+      "elapsed_s": 176.16,
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8889,
+        "f1": 0.9412,
+        "pred_count": 8,
+        "gt_count": 9
+      },
+      "ground_truth_ingredients": [
+        "Chân giò heo",
+        "Bí xanh",
+        "Hành lá",
+        "Hành tím",
+        "Gừng",
+        "Dầu ăn",
+        "Muối",
+        "Hạt nêm",
+        "Bột ngọt",
+        "Tiêu"
+      ],
+      "retrieved_ingredients": [
+        "chân giò heo",
+        "bí xanh",
+        "hành lá",
+        "gừng",
+        "dầu ăn",
+        "muối",
+        "hạt nêm",
+        "bột ngọt",
+        "tiêu"
+      ],
+      "retrieval_output": {
+        "query": "Tìm đúng món: Chân giò hầm bí xanh",
+        "top_k_docs": [
+          {
+            "id": "dish0010_b_ingredients",
+            "score": 0.910109,
+            "entity_id": "dish0010",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm bí xanh",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Chân giò hầm bí xanh\nNguyen lieu chinh: Chân giò heo, Bí xanh, Hành lá\nNguyen lieu phu: Hành tím\nGia vi: Gừng, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu"
+          },
+          {
+            "id": "dish0449_b_ingredients",
+            "score": 0.904715,
+            "entity_id": "dish0449",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm bí đỏ",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Chân giò hầm bí đỏ\nNguyen lieu chinh: Chân giò heo, Bí đỏ, Hành lá\nNguyen lieu phu: Hành tím\nGia vi: Gừng, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu"
+          },
+          {
+            "id": "dish3212_b_ingredients",
+            "score": 0.887225,
+            "entity_id": "dish3212",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm kiểu Ý",
+            "name_en": "",
+            "category": "mon nuoc",
+            "text": "Mon: Chân giò hầm kiểu Ý\nNguyen lieu chinh: Chân bê, Hành tây\nNguyen lieu phu: Cần tây, Cây hương thảo, Cỏ xạ hương, Nước dùng gà\nGia vi: Cà rốt, Bột mì, Sốt cà chua, Tỏi, Bột bắp, Rượu vang trắng"
+          },
+          {
+            "id": "dish0691_b_ingredients",
+            "score": 0.886881,
+            "entity_id": "dish0691",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Canh chân giò hầm đậu xanh",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Canh chân giò hầm đậu xanh\nNguyen lieu chinh: Chân móng giò, Đậu xanh\nNguyen lieu phu: Hành tím\nGia vi: Dầu ăn, Nước mắm, Hạt nêm, Bột ngọt, Muối"
+          },
+          {
+            "id": "dish0761_b_ingredients",
+            "score": 0.886489,
+            "entity_id": "dish0761",
+            "type": "dish",
+            "doc_type": "b_ingredients",
+            "name_vi": "Chân giò hầm đậu đỏ",
+            "name_en": "",
+            "category": "mon canh",
+            "text": "Mon: Chân giò hầm đậu đỏ\nNguyen lieu chinh: Đậu đỏ, Chân giò heo\nNguyen lieu phu: Hành lá/ngò cắt nhỏ\nGia vi: Hành tím băm, Dầu ăn, Hạt nêm, Muối"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "avg_elapsed_s": 232.86,
+    "min_elapsed_s": 83.39,
+    "max_elapsed_s": 331.85,
+    "avg_f1": 0.7418,
+    "min_f1": 0.2703,
+    "max_f1": 1.0
+  }
+}

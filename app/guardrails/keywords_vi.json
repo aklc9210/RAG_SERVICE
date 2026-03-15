@@ -1,0 +1,6 @@
+{
+  "_comment": "This file is DEPRECATED and no longer used for prompt injection detection.",
+  "_note": "General security checks (prompt injection, banned words) are now handled by AWS Bedrock Guardrails Word Filters.",
+  "_migration": "To add banned terms, configure them in AWS Bedrock Guardrails Console instead of this file.",
+  "banned_terms": []
+}

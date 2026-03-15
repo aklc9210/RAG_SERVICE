@@ -1,0 +1,3122 @@
+{
+  "mode": "test",
+  "queries": [
+    {
+      "query": {
+        "original": "món canh nào có me và cà chua",
+        "cleaned": "món canh nào có me và cà chua",
+        "lowercased": "món canh nào có me và cà chua",
+        "normalized": "mon canh nao co me va ca chua",
+        "intent": "dish"
+      },
+      "settings": {
+        "top_k": 10,
+        "grouped": true,
+        "type_filter": "dish",
+        "category_filter": null
+      },
+      "raw_matches_count": 40,
+      "raw_matches": [
+        {
+          "id": "dish0546_a_identity",
+          "score": 0.87009,
+          "entity_id": "dish0546",
+          "type": "dish",
+          "doc_type": "a_identity",
+          "name_vi": "Canh chua cá mè (công thức được chia sẻ từ người dùng)",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Loai: mon an\nTen mon: Canh chua cá mè (công thức được chia sẻ từ người dùng)\nTen chuan hoa: canh chua ca me cong thuc duoc chia se tu nguoi dung\nDanh muc: mon canh"
+        },
+        {
+          "id": "dish0622_b_ingredients",
+          "score": 0.869133,
+          "entity_id": "dish0622",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá bạc má dưa chua và cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá bạc má dưa chua và cà chua\nNguyen lieu chinh: Cá bạc má, Cà chua, Dưa chua\nNguyen lieu phu: Nước dưa chua, Hành tím, Hành lá\nGia vi: Dầu ăn, Muối, Đường, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish0546_b_ingredients",
+          "score": 0.868492,
+          "entity_id": "dish0546",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua cá mè (công thức được chia sẻ từ người dùng)",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua cá mè (công thức được chia sẻ từ người dùng)\nNguyen lieu chinh: Cá mè, Cà chua, Cây bạc hà, Đậu bắp\nNguyen lieu phu: Thơm, Giá đỗ, Hành lá, Ngò ôm, Hành tím, Me vắt\nGia vi: Nước mắm, Dầu ăn, Muối, Bột ngọt, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "dish0630_b_ingredients",
+          "score": 0.867846,
+          "entity_id": "dish0630",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua cá ba sa",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua cá ba sa\nNguyen lieu chinh: Cá basa, Cà chua, Giá đỗ, Thơm\nNguyen lieu phu: Dọc mùng, Đậu bắp, Hành lá và rau ngổ\nGia vi: Ruột me chín, Ớt, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt"
+        },
+        {
+          "id": "dish0164_b_ingredients",
+          "score": 0.867613,
+          "entity_id": "dish0164",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cải cúc với cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cải cúc với cà chua\nNguyen lieu chinh: Cải cúc, Cà chua\nNguyen lieu phu: Thịt băm, Hành lá\nGia vi: Nước mắm, Dầu ăn, Muối, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish0762_b_ingredients",
+          "score": 0.867329,
+          "entity_id": "dish0762",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua mực nấu khế",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua mực nấu khế\nNguyen lieu chinh: Mực nang, Thịt heo xay, Khế chua, Hành tây, Cà chua\nNguyen lieu phu: Thơm, Hành tím cắt lát, Ngò gai/rau quế, Hành lá\nGia vi: Ớt sừng, Nước cốt chanh, Nước mắm, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu"
+        },
+        {
+          "id": "dish0259_b_ingredients",
+          "score": 0.866438,
+          "entity_id": "dish0259",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cà chua trứng (canh mây)",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cà chua trứng (canh mây)\nNguyen lieu chinh: Cà chua\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Trứng, Nước mắm, Dầu ăn, Muối, Hạt nêm, Tiêu"
+        },
+        {
+          "id": "dish0065_b_ingredients",
+          "score": 0.861851,
+          "entity_id": "dish0065",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá nấu chua kiểu Miền Bắc",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá nấu chua kiểu Miền Bắc\nNguyen lieu chinh: Đầu cá, Cà chua, Dọc\nNguyen lieu phu: Hành lá, Thì là\nGia vi: Hành khô, Dầu ăn, Muối, Hạt nêm, Mì chính, Nước mắm"
+        },
+        {
+          "id": "dish0655_b_ingredients",
+          "score": 0.861594,
+          "entity_id": "dish0655",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cà chua trứng thịt bằm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cà chua trứng thịt bằm\nNguyen lieu chinh: Thịt heo bằm, Trứng vịt, Cà chua\nNguyen lieu phu: Hành tím, Hành lá, Ngò\nGia vi: Dầu ăn, Muối, Hạt nêm, Tiêu, Bột ngọt"
+        },
+        {
+          "id": "dish0520_b_ingredients",
+          "score": 0.860972,
+          "entity_id": "dish0520",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cà chua thịt băm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cà chua thịt băm\nNguyen lieu chinh: Thịt heo, Cà chua\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Dầu ăn, Muối, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "dish0445_b_ingredients",
+          "score": 0.86062,
+          "entity_id": "dish0445",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá lăng nấu măng chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá lăng nấu măng chua\nNguyen lieu chinh: Cá lăng, Cà chua, Khế\nNguyen lieu phu: Măng chua, Rau om/ rau ngò gai\nGia vi: Ớt sừng, Hành tím băm, Dầu ăn, Nước mắm, Muối, Đường, Bột ngọt, Muối hạt"
+        },
+        {
+          "id": "dish0458_b_ingredients",
+          "score": 0.859826,
+          "entity_id": "dish0458",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua cá khoai",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua cá khoai\nNguyen lieu chinh: Cá khoai, Cà chua, Hành tím, Hành lá\nNguyen lieu phu: Thì là, Nghệ, Quả sấu\nGia vi: Gừng, Ớt, Dầu ăn, Giấm, Đường, Muối, Hạt nêm"
+        },
+        {
+          "id": "dish0687_b_ingredients",
+          "score": 0.859604,
+          "entity_id": "dish0687",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh hẹ với đậu hũ và nấm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh hẹ với đậu hũ và nấm\nNguyen lieu chinh: Lá hẹ, Đậu hũ trắng, Tôm khô\nNguyen lieu phu: Nấm bào ngư, Hành tím\nGia vi: Cà rốt, Tỏi, Dầu ăn, Nước mắm, Hạt nêm, Bột ngọt, Đường, Muối"
+        },
+        {
+          "id": "dish0119_b_ingredients",
+          "score": 0.859487,
+          "entity_id": "dish0119",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá khoai cải cúc",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá khoai cải cúc\nNguyen lieu chinh: Cá khoai, Cải cúc, Hành tím\nNguyen lieu phu: Nước lọc\nGia vi: Nước mắm, Dầu ăn, Tiêu xay, Muối, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish5791_b_ingredients",
+          "score": 0.859399,
+          "entity_id": "dish5791",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá thu kho củ cải và bí đỏ",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Cá thu kho củ cải và bí đỏ\nNguyen lieu chinh: Cá thu, Củ cải trắng, Bí đỏ, Hành tây\nNguyen lieu phu: Hành lá\nGia vi: Rượu Sake, Ớt sừng, Ớt bột, Tỏi băm, Gừng, Muối, Nước tương, Đường, Tương ớt"
+        },
+        {
+          "id": "dish0801_b_ingredients",
+          "score": 0.85911,
+          "entity_id": "dish0801",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua cá lóc nấu khế",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua cá lóc nấu khế\nNguyen lieu chinh: Cá lóc, Khế, Cà chua\nNguyen lieu phu: Bắp chuối, Ngò gai, Hành lá\nGia vi: Hạt nêm, Nước mắm, Đường trắng, Tiêu."
+        },
+        {
+          "id": "dish0488_b_ingredients",
+          "score": 0.859097,
+          "entity_id": "dish0488",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh khoai sọ chay với nấm và đậu hũ",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh khoai sọ chay với nấm và đậu hũ\nNguyen lieu chinh: Khoai sọ, Hạt sen khô, Nấm hương khô\nNguyen lieu phu: Đậu trắng, Nấm bào ngư, Đậu hũ non, Ngò rí, Hành boa rô\nGia vi: Hạt nêm chay, Dầu ăn, Muối/ tiêu"
+        },
+        {
+          "id": "dish4437_b_ingredients",
+          "score": 0.858831,
+          "entity_id": "dish4437",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Hà sốt cà chua",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Hà sốt cà chua\nNguyen lieu chinh: Hà tươi\nNguyen lieu phu: Cà chua, Hành lá và rau mùi\nGia vi: Hành khô, Bột canh, Dầu ăn"
+        },
+        {
+          "id": "dish0783_b_ingredients",
+          "score": 0.858777,
+          "entity_id": "dish0783",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cải bẹ xanh thịt viên",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cải bẹ xanh thịt viên\nNguyen lieu chinh: Cải bẹ xanh, Thịt bằm, Giò sống\nNguyen lieu phu: Nấm rơm, Nấm mèo, Lòng đỏ trứng gà, Nước hầm xương, Dầu mè\nGia vi: Cà rốt, Hành tím băm, Gừng thái sợi, Hạt nêm, Nước tương, Đường, Tiêu xay, Dầu ăn"
+        },
+        {
+          "id": "dish0685_b_ingredients",
+          "score": 0.858487,
+          "entity_id": "dish0685",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cua rau cải",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cua rau cải\nNguyen lieu chinh: Cua đồng\nNguyen lieu phu: Cải xanh, Hành tím cắt lát\nGia vi: Dầu ăn, Nước mắm, Muối/ bột ngọt"
+        },
+        {
+          "id": "dish0652_b_ingredients",
+          "score": 0.858435,
+          "entity_id": "dish0652",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh nghêu thì là cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh nghêu thì là cà chua\nNguyen lieu chinh: Nghêu\nNguyen lieu phu: Hành lá, Thì là, Cà chua, Sả\nGia vi: Ớt hiểm, Rượu trắng, Nước mắm, Muối"
+        },
+        {
+          "id": "dish0650_b_ingredients",
+          "score": 0.858302,
+          "entity_id": "dish0650",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh khoai tây cà rốt thịt băm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh khoai tây cà rốt thịt băm\nNguyen lieu chinh: Thịt heo băm, Khoai tây\nNguyen lieu phu: Hành lá, Hành tím\nGia vi: Cà rốt, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu xay"
+        },
+        {
+          "id": "dish0736_b_ingredients",
+          "score": 0.858246,
+          "entity_id": "dish0736",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá lóc nấu mẻ",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá lóc nấu mẻ\nNguyen lieu chinh: Cá lóc, Mẻ, Cà chua\nNguyen lieu phu: Hành tím, Thì là, Hành lá, Nghệ\nGia vi: Dầu ăn, Nước mắm, Bột canh/ đường"
+        },
+        {
+          "id": "dish0648_b_ingredients",
+          "score": 0.857976,
+          "entity_id": "dish0648",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cà chua trứng đậu hũ",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cà chua trứng đậu hũ\nNguyen lieu chinh: Cà chua, Đậu hũ trắng\nNguyen lieu phu: Hành lá/ ngò rí\nGia vi: Trứng gà, Ớt, Nước mắm, Dầu ăn, Hạt nêm, Đường, Bột ngọt"
+        },
+        {
+          "id": "dish0121_b_ingredients",
+          "score": 0.857971,
+          "entity_id": "dish0121",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá chạch nấu canh chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Cá chạch nấu canh chua\nNguyen lieu chinh: Cá chạch, Cần tây, Rau húng quế, Dọc mùng, Cà chua\nNguyen lieu phu: Giá đỗ, Dứa, Hành tím, Sả\nGia vi: Tỏi, Ớt hiểm, Chanh, Dầu ăn, Nước mắm, Đường, Muối, Bột ngọt"
+        },
+        {
+          "id": "dish0634_b_ingredients",
+          "score": 0.857919,
+          "entity_id": "dish0634",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh thịt bò nấu khế",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh thịt bò nấu khế\nNguyen lieu chinh: Thịt bò, Giò sống, Khế, Cà chua bi\nNguyen lieu phu: Rau ngò gai, Rau ngò ôm\nGia vi: Rượu trắng, Tinh bột khoai, Tỏi băm, Dầu ăn, Tiêu, Hạt nêm, Muối, Đường"
+        },
+        {
+          "id": "dish0571_b_ingredients",
+          "score": 0.857776,
+          "entity_id": "dish0571",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh bầu nấu cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh bầu nấu cà chua\nNguyen lieu chinh: Cà chua, Bầu, Đậu hũ non\nNguyen lieu phu: Hành lá, Ngò rí, Giá đỗ, Nấm bào ngư\nGia vi: Ớt, Dầu ăn, Hạt nêm chay, Đường, Muối, Bột ngọt"
+        },
+        {
+          "id": "dish0744_b_ingredients",
+          "score": 0.857574,
+          "entity_id": "dish0744",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua cá hú",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua cá hú\nNguyen lieu chinh: Cá hú, Đậu bắp, Dọc mùng, Giá đỗ, Thơm\nNguyen lieu phu: Cà chua, Me vắt, Rau thơm đi kèm\nGia vi: Hành băm, Tỏi băm, Ớt, Muối hạt, Giấm, Dầu ăn, Nước mắm, Muối, Đường, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish0488_a_identity",
+          "score": 0.857485,
+          "entity_id": "dish0488",
+          "type": "dish",
+          "doc_type": "a_identity",
+          "name_vi": "Canh khoai sọ chay với nấm và đậu hũ",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Loai: mon an\nTen mon: Canh khoai sọ chay với nấm và đậu hũ\nTen chuan hoa: canh khoai so chay voi nam va dau hu\nDanh muc: mon canh"
+        },
+        {
+          "id": "dish0463_b_ingredients",
+          "score": 0.857327,
+          "entity_id": "dish0463",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cà chua nấm kim châm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cà chua nấm kim châm\nNguyen lieu chinh: Cà chua, Nấm kim châm, Hành tím\nNguyen lieu phu: Nước lọc\nGia vi: Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "dish0456_b_ingredients",
+          "score": 0.857242,
+          "entity_id": "dish0456",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cà chua thịt bò",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cà chua thịt bò\nNguyen lieu chinh: Thịt bò, Cà chua, Hành lá\nNguyen lieu phu: Ngò rí, Ngò gai\nGia vi: Tỏi băm, Hành tím băm, Đường, Muối, Tiêu, Bột ngọt, Dầu ăn, Nước mắm"
+        },
+        {
+          "id": "dish0409_b_ingredients",
+          "score": 0.856935,
+          "entity_id": "dish0409",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh nấm đậu hũ non với hẹ và thịt băm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh nấm đậu hũ non với hẹ và thịt băm\nNguyen lieu chinh: Thịt heo xay, Nấm kim châm, Nấm bào ngư\nNguyen lieu phu: Đậu hũ non, Hẹ, Hành tím\nGia vi: Dầu ăn, Nước mắm, Tiêu, Muối, Hạt nêm"
+        },
+        {
+          "id": "dish0164_a_identity",
+          "score": 0.856905,
+          "entity_id": "dish0164",
+          "type": "dish",
+          "doc_type": "a_identity",
+          "name_vi": "Canh cải cúc với cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Loai: mon an\nTen mon: Canh cải cúc với cà chua\nTen chuan hoa: canh cai cuc voi ca chua\nDanh muc: mon canh"
+        },
+        {
+          "id": "dish0289_b_ingredients",
+          "score": 0.856807,
+          "entity_id": "dish0289",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá chim nấu chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá chim nấu chua\nNguyen lieu chinh: Cá chim trắng, Khế chua, Hành tím\nNguyen lieu phu: Hành lá, Ngò rí\nGia vi: Ớt tiêu, Dầu ăn, Muối, Hạt nêm, Tiêu xay, Bột ngọt"
+        },
+        {
+          "id": "dish0594_b_ingredients",
+          "score": 0.856671,
+          "entity_id": "dish0594",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cá ngát nấu măng chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cá ngát nấu măng chua\nNguyen lieu chinh: Cá ngát, Măng chua, Cà chua\nNguyen lieu phu: Hành lá, Ngổ\nGia vi: Ớt, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish0298_b_ingredients",
+          "score": 0.856625,
+          "entity_id": "dish0298",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh nấm hải sản",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh nấm hải sản\nNguyen lieu chinh: Nấm hải sản, Cà chua\nNguyen lieu phu: Dứa, Hành lá, Mùi tàu\nGia vi: Nước cốt me, Dầu ăn, Muối/ bột ngọt"
+        },
+        {
+          "id": "dish0677_b_ingredients",
+          "score": 0.856591,
+          "entity_id": "dish0677",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh măng chua cá hồi",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh măng chua cá hồi\nNguyen lieu chinh: Cá hồi, Măng chua, Cà chua\nNguyen lieu phu: Hành lá, Hành tím, Nước vo gạo\nGia vi: Dầu ăn, Bột canh, Muối, Hạt nêm, Tiêu xay, Đường"
+        },
+        {
+          "id": "dish0040_b_ingredients",
+          "score": 0.856512,
+          "entity_id": "dish0040",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh chua thịt băm",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh chua thịt băm\nNguyen lieu chinh: Thịt heo xay, Cà chua, Khóm, Giá đỗ\nNguyen lieu phu: Rau thơm, Nước\nGia vi: Tỏi, Ớt sừng, Nước mắm, Đường, Muối, Bột ngọt, Nước cốt tắc hoặc nước cốt me, Dầu ăn"
+        },
+        {
+          "id": "dish0109_b_ingredients",
+          "score": 0.856483,
+          "entity_id": "dish0109",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh cua chua",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh cua chua\nNguyen lieu chinh: Cua đồng, Cà chua\nNguyen lieu phu: Rau thì là, Hành tím, Mẻ chua, Dầu màu điều\nGia vi: Nước mắm, Dầu ăn, Muối/ tiêu xay"
+        },
+        {
+          "id": "dish0199_b_ingredients",
+          "score": 0.856432,
+          "entity_id": "dish0199",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh măng chua chay mọc",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh măng chua chay mọc\nNguyen lieu chinh: Hem chay, Măng chua, Cà chua\nNguyen lieu phu: Tắc, Rau quế\nGia vi: Bột mì căn, Hành phi, Dầu ăn, Bột tỏi, Hạt nêm chay, Nước mắm chay, Đường/ tiêu xay"
+        }
+      ],
+      "grouped_count": 10,
+      "grouped_matches": [
+        {
+          "entity_id": "dish0546",
+          "type": "dish",
+          "name_vi": "Canh chua cá mè (công thức được chia sẻ từ người dùng)",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.87009,
+          "matched_docs": [
+            {
+              "id": "dish0546_a_identity",
+              "doc_type": "a_identity",
+              "score": 0.87009,
+              "text": "Loai: mon an\nTen mon: Canh chua cá mè (công thức được chia sẻ từ người dùng)\nTen chuan hoa: canh chua ca me cong thuc duoc chia se tu nguoi dung\nDanh muc: mon canh"
+            },
+            {
+              "id": "dish0546_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.868492,
+              "text": "Mon: Canh chua cá mè (công thức được chia sẻ từ người dùng)\nNguyen lieu chinh: Cá mè, Cà chua, Cây bạc hà, Đậu bắp\nNguyen lieu phu: Thơm, Giá đỗ, Hành lá, Ngò ôm, Hành tím, Me vắt\nGia vi: Nước mắm, Dầu ăn, Muối, Bột ngọt, Hạt nêm, Tiêu xay"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0622",
+          "type": "dish",
+          "name_vi": "Canh cá bạc má dưa chua và cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.869133,
+          "matched_docs": [
+            {
+              "id": "dish0622_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.869133,
+              "text": "Mon: Canh cá bạc má dưa chua và cà chua\nNguyen lieu chinh: Cá bạc má, Cà chua, Dưa chua\nNguyen lieu phu: Nước dưa chua, Hành tím, Hành lá\nGia vi: Dầu ăn, Muối, Đường, Hạt nêm, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0630",
+          "type": "dish",
+          "name_vi": "Canh chua cá ba sa",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.867846,
+          "matched_docs": [
+            {
+              "id": "dish0630_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.867846,
+              "text": "Mon: Canh chua cá ba sa\nNguyen lieu chinh: Cá basa, Cà chua, Giá đỗ, Thơm\nNguyen lieu phu: Dọc mùng, Đậu bắp, Hành lá và rau ngổ\nGia vi: Ruột me chín, Ớt, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0164",
+          "type": "dish",
+          "name_vi": "Canh cải cúc với cà chua",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.867613,
+          "matched_docs": [
+            {
+              "id": "dish0164_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.867613,
+              "text": "Mon: Canh cải cúc với cà chua\nNguyen lieu chinh: Cải cúc, Cà chua\nNguyen lieu phu: Thịt băm, Hành lá\nGia vi: Nước mắm, Dầu ăn, Muối, Hạt nêm, Bột ngọt"
+            },
+            {
+              "id": "dish0164_a_identity",
+              "doc_type": "a_identity",
+              "score": 0.856905,
+              "text": "Loai: mon an\nTen mon: Canh cải cúc với cà chua\nTen chuan hoa: canh cai cuc voi ca chua\nDanh muc: mon canh"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0762",
+          "type": "dish",
+          "name_vi": "Canh chua mực nấu khế",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.867329,
+          "matched_docs": [
+            {
+              "id": "dish0762_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.867329,
+              "text": "Mon: Canh chua mực nấu khế\nNguyen lieu chinh: Mực nang, Thịt heo xay, Khế chua, Hành tây, Cà chua\nNguyen lieu phu: Thơm, Hành tím cắt lát, Ngò gai/rau quế, Hành lá\nGia vi: Ớt sừng, Nước cốt chanh, Nước mắm, Dầu ăn, Muối, Hạt nêm, Bột ngọt, Tiêu"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0259",
+          "type": "dish",
+          "name_vi": "Canh cà chua trứng (canh mây)",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.866438,
+          "matched_docs": [
+            {
+              "id": "dish0259_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.866438,
+              "text": "Mon: Canh cà chua trứng (canh mây)\nNguyen lieu chinh: Cà chua\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Trứng, Nước mắm, Dầu ăn, Muối, Hạt nêm, Tiêu"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0065",
+          "type": "dish",
+          "name_vi": "Canh cá nấu chua kiểu Miền Bắc",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.861851,
+          "matched_docs": [
+            {
+              "id": "dish0065_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.861851,
+              "text": "Mon: Canh cá nấu chua kiểu Miền Bắc\nNguyen lieu chinh: Đầu cá, Cà chua, Dọc\nNguyen lieu phu: Hành lá, Thì là\nGia vi: Hành khô, Dầu ăn, Muối, Hạt nêm, Mì chính, Nước mắm"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0655",
+          "type": "dish",
+          "name_vi": "Canh cà chua trứng thịt bằm",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.861594,
+          "matched_docs": [
+            {
+              "id": "dish0655_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.861594,
+              "text": "Mon: Canh cà chua trứng thịt bằm\nNguyen lieu chinh: Thịt heo bằm, Trứng vịt, Cà chua\nNguyen lieu phu: Hành tím, Hành lá, Ngò\nGia vi: Dầu ăn, Muối, Hạt nêm, Tiêu, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0520",
+          "type": "dish",
+          "name_vi": "Canh cà chua thịt băm",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.860972,
+          "matched_docs": [
+            {
+              "id": "dish0520_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.860972,
+              "text": "Mon: Canh cà chua thịt băm\nNguyen lieu chinh: Thịt heo, Cà chua\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Dầu ăn, Muối, Hạt nêm, Tiêu xay"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0445",
+          "type": "dish",
+          "name_vi": "Canh cá lăng nấu măng chua",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.86062,
+          "matched_docs": [
+            {
+              "id": "dish0445_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.86062,
+              "text": "Mon: Canh cá lăng nấu măng chua\nNguyen lieu chinh: Cá lăng, Cà chua, Khế\nNguyen lieu phu: Măng chua, Rau om/ rau ngò gai\nGia vi: Ớt sừng, Hành tím băm, Dầu ăn, Nước mắm, Muối, Đường, Bột ngọt, Muối hạt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "original": "hành tím là gì",
+        "cleaned": "hành tím là gì",
+        "lowercased": "hành tím là gì",
+        "normalized": "hanh tim la gi",
+        "intent": "ingredient"
+      },
+      "settings": {
+        "top_k": 10,
+        "grouped": true,
+        "type_filter": "ingredient",
+        "category_filter": null
+      },
+      "raw_matches_count": 40,
+      "raw_matches": [
+        {
+          "id": "ingre02804",
+          "score": 0.853003,
+          "entity_id": "ingre02804",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím ấn độ",
+          "name_en": "Garlic Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím ấn độ\nTen tieng Anh: Garlic Onion\nTen chuan hoa: hanh tim an do\nTu dong nghia: hành tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02546",
+          "score": 0.853003,
+          "entity_id": "ingre02546",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím ấn độ",
+          "name_en": "Garlic Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím ấn độ\nTen tieng Anh: Garlic Onion\nTen chuan hoa: hanh tim an do\nTu dong nghia: hành tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre01887",
+          "score": 0.844026,
+          "entity_id": "ingre01887",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "củ hành tím",
+          "name_en": "Purple onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: củ hành tím\nTen tieng Anh: Purple onion\nTen chuan hoa: cu hanh tim\nTu dong nghia: tỏi, hành tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02784",
+          "score": 0.843574,
+          "entity_id": "ingre02784",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím loại lớn",
+          "name_en": "Spring Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím loại lớn\nTen tieng Anh: Spring Onion\nTen chuan hoa: hanh tim loai lon\nTu dong nghia: tỏi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02666",
+          "score": 0.843076,
+          "entity_id": "ingre02666",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành hành tím",
+          "name_en": "Purple Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành hành tím\nTen tieng Anh: Purple Onion\nTen chuan hoa: hanh hanh tim\nTu dong nghia: tím, hành tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02662",
+          "score": 0.842413,
+          "entity_id": "ingre02662",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành củ tím",
+          "name_en": "Purple onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành củ tím\nTen tieng Anh: Purple onion\nTen chuan hoa: hanh cu tim\nTu dong nghia: tỏi tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05908",
+          "score": 0.841457,
+          "entity_id": "ingre05908",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "sả băm/ hành tím băm/ tỏi băm/ hành tây băm",
+          "name_en": "Garlic minced/Green onion minced/Ginger minced/ Onion minced",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: sả băm/ hành tím băm/ tỏi băm/ hành tây băm\nTen tieng Anh: Garlic minced/Green onion minced/Ginger minced/ Onion minced\nTen chuan hoa: sa bam hanh tim bam toi bam hanh tay bam\nTu dong nghia: tỏi băm nhỏ, hành tây xắt nhỏ, hành tím xắt nhuyễn\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02852",
+          "score": 0.840324,
+          "entity_id": "ingre02852",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hánh tím",
+          "name_en": "Shallot",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hánh tím\nTen tieng Anh: Shallot\nTen chuan hoa: hanh tim\nTu dong nghia: tỏiivated user Làm lại yêu cầu cũ với từ \"hành tím\".\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02799",
+          "score": 0.839991,
+          "entity_id": "ingre02799",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím và tỏi",
+          "name_en": "Green onion and garlic",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím và tỏi\nTen tieng Anh: Green onion and garlic\nTen chuan hoa: hanh tim va toi\nTu dong nghia: tỏi bạch, tỏi cái, tỏi tây\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02788",
+          "score": 0.839665,
+          "entity_id": "ingre02788",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím nhỏ",
+          "name_en": "Green Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím nhỏ\nTen tieng Anh: Green Onion\nTen chuan hoa: hanh tim nho\nTu dong nghia: tỏi nhỏ\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre01888",
+          "score": 0.839598,
+          "entity_id": "ingre01888",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "củ hành tăm",
+          "name_en": "Fresh bamboo shoots",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: củ hành tăm\nTen tieng Anh: Fresh bamboo shoots\nTen chuan hoa: cu hanh tam\nTu dong nghia: cây hành tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre07108",
+          "score": 0.839164,
+          "entity_id": "ingre07108",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "tỏi và hành tím băm",
+          "name_en": "Garlic and Finely Chopped Shallot",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: tỏi và hành tím băm\nTen tieng Anh: Garlic and Finely Chopped Shallot\nTen chuan hoa: toi va hanh tim bam\nTu dong nghia: tỏi băm, hành tím xắt nhuyễn\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02786",
+          "score": 0.838687,
+          "entity_id": "ingre02786",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím lớn",
+          "name_en": "Spring Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím lớn\nTen tieng Anh: Spring Onion\nTen chuan hoa: hanh tim lon\nTu dong nghia: tỏi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02800",
+          "score": 0.838381,
+          "entity_id": "ingre02800",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím và tỏi băm",
+          "name_en": "Green onion and minced garlic",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím và tỏi băm\nTen tieng Anh: Green onion and minced garlic\nTen chuan hoa: hanh tim va toi bam\nTu dong nghia: tỏi băm, tỏi xắt nhuyễn, tỏi đập dập\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02711",
+          "score": 0.837601,
+          "entity_id": "ingre02711",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành lá/ tỏi băm/ hành tím băm",
+          "name_en": "Chives/Garlic Paste/Scallion Paste",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành lá/ tỏi băm/ hành tím băm\nTen tieng Anh: Chives/Garlic Paste/Scallion Paste\nTen chuan hoa: hanh la toi bam hanh tim bam\nTu dong nghia: tỏi băm, hành tây băm, tỏi xắt nhuyễn\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02810",
+          "score": 0.83753,
+          "entity_id": "ingre02810",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/tỏi",
+          "name_en": "Garlic",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/tỏi\nTen tieng Anh: Garlic\nTen chuan hoa: hanh tim toi\nTu dong nghia: tỏi băm, tỏi non, tỏi tây\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02808",
+          "score": 0.836756,
+          "entity_id": "ingre02808",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/ tỏi/ hành lá",
+          "name_en": "Garlic/Scallions/Green Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/ tỏi/ hành lá\nTen tieng Anh: Garlic/Scallions/Green Onion\nTen chuan hoa: hanh tim toi hanh la\nTu dong nghia: tỏi bạch, tỏi tây, hành phi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02780",
+          "score": 0.836692,
+          "entity_id": "ingre02780",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím cỡ lớn",
+          "name_en": "Large Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím cỡ lớn\nTen tieng Anh: Large Onion\nTen chuan hoa: hanh tim co lon\nTu dong nghia: tỏi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02715",
+          "score": 0.836486,
+          "entity_id": "ingre02715",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành lá/hành tím",
+          "name_en": "Green Onion/Purple Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành lá/hành tím\nTen tieng Anh: Green Onion/Purple Onion\nTen chuan hoa: hanh la hanh tim\nTu dong nghia: tỏi nhánh\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre07109",
+          "score": 0.836295,
+          "entity_id": "ingre07109",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "tỏi và hành tím băm nhỏ",
+          "name_en": "Garlic and Finely Chopped Green Onion",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: tỏi và hành tím băm nhỏ\nTen tieng Anh: Garlic and Finely Chopped Green Onion\nTen chuan hoa: toi va hanh tim bam nho\nTu dong nghia: tỏi băm, hành tím băm\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02761",
+          "score": 0.836198,
+          "entity_id": "ingre02761",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tây tím",
+          "name_en": "Purple onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tây tím\nTen tieng Anh: Purple onion\nTen chuan hoa: hanh tay tim\nTu dong nghia: tỏi tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02795",
+          "score": 0.836023,
+          "entity_id": "ingre02795",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím tươi",
+          "name_en": "Green Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím tươi\nTen tieng Anh: Green Onion\nTen chuan hoa: hanh tim tuoi\nTu dong nghia: tỏi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02798",
+          "score": 0.835279,
+          "entity_id": "ingre02798",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím và hành phi",
+          "name_en": "Green onion and fried onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím và hành phi\nTen tieng Anh: Green onion and fried onion\nTen chuan hoa: hanh tim va hanh phi\nTu dong nghia: tỏi, hành lá\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02783",
+          "score": 0.835186,
+          "entity_id": "ingre02783",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím khô",
+          "name_en": "Dry Shallot",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím khô\nTen tieng Anh: Dry Shallot\nTen chuan hoa: hanh tim kho\nTu dong nghia: tỏi khô\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02771",
+          "score": 0.834777,
+          "entity_id": "ingre02771",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím bào",
+          "name_en": "Green Onion Finely Chopped",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím bào\nTen tieng Anh: Green Onion Finely Chopped\nTen chuan hoa: hanh tim bao\nTu dong nghia: tỏi băm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02770",
+          "score": 0.833686,
+          "entity_id": "ingre02770",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím 30 g hành lá",
+          "name_en": "Green Onion 30 g Green Onion",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím 30 g hành lá\nTen tieng Anh: Green Onion 30 g Green Onion\nTen chuan hoa: hanh tim 30 g hanh la\nTu dong nghia: tỏi, hành phi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre07129",
+          "score": 0.833517,
+          "entity_id": "ingre07129",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "tỏi/ớt/hành tím",
+          "name_en": "Garlic/Chili/Purple Onion",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: tỏi/ớt/hành tím\nTen tieng Anh: Garlic/Chili/Purple Onion\nTen chuan hoa: toi ot hanh tim\nTu dong nghia: tỏi tây, tỏi bắc, tỏi vàng\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02807",
+          "score": 0.833461,
+          "entity_id": "ingre02807",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/ tỏi băm",
+          "name_en": "Garlic minced/Green onion minced",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/ tỏi băm\nTen tieng Anh: Garlic minced/Green onion minced\nTen chuan hoa: hanh tim toi bam\nTu dong nghia: tỏi băm, hành tím băm\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02806",
+          "score": 0.833445,
+          "entity_id": "ingre02806",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/ tỏi",
+          "name_en": "Garlic/Scallion",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/ tỏi\nTen tieng Anh: Garlic/Scallion\nTen chuan hoa: hanh tim toi\nTu dong nghia: tỏi băm, tỏi non, tỏi tây\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre07107",
+          "score": 0.833184,
+          "entity_id": "ingre07107",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "tỏi và hành tím",
+          "name_en": "Garlic and Green Onion",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: tỏi và hành tím\nTen tieng Anh: Garlic and Green Onion\nTen chuan hoa: toi va hanh tim\nTu dong nghia: tỏi tây, hành dương\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02796",
+          "score": 0.833155,
+          "entity_id": "ingre02796",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím tỏi giã nhuyễn",
+          "name_en": "Chopped Scallion and Garlic",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím tỏi giã nhuyễn\nTen tieng Anh: Chopped Scallion and Garlic\nTen chuan hoa: hanh tim toi gia nhuyen\nTu dong nghia: tỏi băm, hành tím băm, tỏi băm nhuyễn\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02779",
+          "score": 0.832923,
+          "entity_id": "ingre02779",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím cỡ bự",
+          "name_en": "Large garlic",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím cỡ bự\nTen tieng Anh: Large garlic\nTen chuan hoa: hanh tim co bu\nTu dong nghia: tỏi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02805",
+          "score": 0.832779,
+          "entity_id": "ingre02805",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/ gừng",
+          "name_en": "Green Onion/Ginger",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/ gừng\nTen tieng Anh: Green Onion/Ginger\nTen chuan hoa: hanh tim gung\nTu dong nghia: gừng tươi, hành tây, tỏi\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre05128",
+          "score": 0.832628,
+          "entity_id": "ingre05128",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "phần trắng hành lá",
+          "name_en": "Green Onion White Part",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: phần trắng hành lá\nTen tieng Anh: Green Onion White Part\nTen chuan hoa: phan trang hanh la\nTu dong nghia: phần.White hành, hành tím\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02776",
+          "score": 0.832561,
+          "entity_id": "ingre02776",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím băm nhỏ",
+          "name_en": "Chopped Green Onion",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím băm nhỏ\nTen tieng Anh: Chopped Green Onion\nTen chuan hoa: hanh tim bam nho\nTu dong nghia: tỏi băm nhỏ\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre04575",
+          "score": 0.831898,
+          "entity_id": "ingre04575",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "nước cốt hành tím",
+          "name_en": "Garlic juice",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: nước cốt hành tím\nTen tieng Anh: Garlic juice\nTen chuan hoa: nuoc cot hanh tim\nTu dong nghia: nước hành tím, nước cốt tỏi\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02797",
+          "score": 0.831891,
+          "entity_id": "ingre02797",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím tỏi ớt băm",
+          "name_en": "Garlic Finely Chopped Green Onion Chili",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím tỏi ớt băm\nTen tieng Anh: Garlic Finely Chopped Green Onion Chili\nTen chuan hoa: hanh tim toi ot bam\nTu dong nghia: băm hành tím tỏi ớt\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02789",
+          "score": 0.83143,
+          "entity_id": "ingre02789",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím phi",
+          "name_en": "Green onion fried",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím phi\nTen tieng Anh: Green onion fried\nTen chuan hoa: hanh tim phi\nTu dong nghia: tỏi phi\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02811",
+          "score": 0.831318,
+          "entity_id": "ingre02811",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/tỏi băm",
+          "name_en": "Garlic minced",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/tỏi băm\nTen tieng Anh: Garlic minced\nTen chuan hoa: hanh tim toi bam\nTu dong nghia: tỏi băm, hành băm\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre02809",
+          "score": 0.830828,
+          "entity_id": "ingre02809",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành tím/ tỏi/ lá chanh",
+          "name_en": "Garlic/Scallion/Lime Leaves",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím/ tỏi/ lá chanh\nTen tieng Anh: Garlic/Scallion/Lime Leaves\nTen chuan hoa: hanh tim toi la chanh\nTu dong nghia: tỏi băm, tỏi non, tỏi tây\nDanh muc: vegetables"
+        }
+      ],
+      "grouped_count": 10,
+      "grouped_matches": [
+        {
+          "entity_id": "ingre02546",
+          "type": "ingredient",
+          "name_vi": "hành tím ấn độ",
+          "name_en": "Garlic Onion",
+          "category": "vegetables",
+          "best_score": 0.853003,
+          "matched_docs": [
+            {
+              "id": "ingre02546",
+              "doc_type": "ingredient_doc",
+              "score": 0.853003,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím ấn độ\nTen tieng Anh: Garlic Onion\nTen chuan hoa: hanh tim an do\nTu dong nghia: hành tím\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02804",
+          "type": "ingredient",
+          "name_vi": "hành tím ấn độ",
+          "name_en": "Garlic Onion",
+          "category": "vegetables",
+          "best_score": 0.853003,
+          "matched_docs": [
+            {
+              "id": "ingre02804",
+              "doc_type": "ingredient_doc",
+              "score": 0.853003,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím ấn độ\nTen tieng Anh: Garlic Onion\nTen chuan hoa: hanh tim an do\nTu dong nghia: hành tím\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre01887",
+          "type": "ingredient",
+          "name_vi": "củ hành tím",
+          "name_en": "Purple onion",
+          "category": "vegetables",
+          "best_score": 0.844026,
+          "matched_docs": [
+            {
+              "id": "ingre01887",
+              "doc_type": "ingredient_doc",
+              "score": 0.844026,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: củ hành tím\nTen tieng Anh: Purple onion\nTen chuan hoa: cu hanh tim\nTu dong nghia: tỏi, hành tím\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02784",
+          "type": "ingredient",
+          "name_vi": "hành tím loại lớn",
+          "name_en": "Spring Onion",
+          "category": "vegetables",
+          "best_score": 0.843574,
+          "matched_docs": [
+            {
+              "id": "ingre02784",
+              "doc_type": "ingredient_doc",
+              "score": 0.843574,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím loại lớn\nTen tieng Anh: Spring Onion\nTen chuan hoa: hanh tim loai lon\nTu dong nghia: tỏi\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02666",
+          "type": "ingredient",
+          "name_vi": "hành hành tím",
+          "name_en": "Purple Onion",
+          "category": "vegetables",
+          "best_score": 0.843076,
+          "matched_docs": [
+            {
+              "id": "ingre02666",
+              "doc_type": "ingredient_doc",
+              "score": 0.843076,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành hành tím\nTen tieng Anh: Purple Onion\nTen chuan hoa: hanh hanh tim\nTu dong nghia: tím, hành tím\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02662",
+          "type": "ingredient",
+          "name_vi": "hành củ tím",
+          "name_en": "Purple onion",
+          "category": "vegetables",
+          "best_score": 0.842413,
+          "matched_docs": [
+            {
+              "id": "ingre02662",
+              "doc_type": "ingredient_doc",
+              "score": 0.842413,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành củ tím\nTen tieng Anh: Purple onion\nTen chuan hoa: hanh cu tim\nTu dong nghia: tỏi tím\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05908",
+          "type": "ingredient",
+          "name_vi": "sả băm/ hành tím băm/ tỏi băm/ hành tây băm",
+          "name_en": "Garlic minced/Green onion minced/Ginger minced/ Onion minced",
+          "category": "seasonings",
+          "best_score": 0.841457,
+          "matched_docs": [
+            {
+              "id": "ingre05908",
+              "doc_type": "ingredient_doc",
+              "score": 0.841457,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: sả băm/ hành tím băm/ tỏi băm/ hành tây băm\nTen tieng Anh: Garlic minced/Green onion minced/Ginger minced/ Onion minced\nTen chuan hoa: sa bam hanh tim bam toi bam hanh tay bam\nTu dong nghia: tỏi băm nhỏ, hành tây xắt nhỏ, hành tím xắt nhuyễn\nDanh muc: seasonings"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02852",
+          "type": "ingredient",
+          "name_vi": "hánh tím",
+          "name_en": "Shallot",
+          "category": "vegetables",
+          "best_score": 0.840324,
+          "matched_docs": [
+            {
+              "id": "ingre02852",
+              "doc_type": "ingredient_doc",
+              "score": 0.840324,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hánh tím\nTen tieng Anh: Shallot\nTen chuan hoa: hanh tim\nTu dong nghia: tỏiivated user Làm lại yêu cầu cũ với từ \"hành tím\".\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02799",
+          "type": "ingredient",
+          "name_vi": "hành tím và tỏi",
+          "name_en": "Green onion and garlic",
+          "category": "seasonings",
+          "best_score": 0.839991,
+          "matched_docs": [
+            {
+              "id": "ingre02799",
+              "doc_type": "ingredient_doc",
+              "score": 0.839991,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím và tỏi\nTen tieng Anh: Green onion and garlic\nTen chuan hoa: hanh tim va toi\nTu dong nghia: tỏi bạch, tỏi cái, tỏi tây\nDanh muc: seasonings"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02788",
+          "type": "ingredient",
+          "name_vi": "hành tím nhỏ",
+          "name_en": "Green Onion",
+          "category": "vegetables",
+          "best_score": 0.839665,
+          "matched_docs": [
+            {
+              "id": "ingre02788",
+              "doc_type": "ingredient_doc",
+              "score": 0.839665,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành tím nhỏ\nTen tieng Anh: Green Onion\nTen chuan hoa: hanh tim nho\nTu dong nghia: tỏi nhỏ\nDanh muc: vegetables"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "original": "món nào có sả",
+        "cleaned": "món nào có sả",
+        "lowercased": "món nào có sả",
+        "normalized": "mon nao co sa",
+        "intent": "dish"
+      },
+      "settings": {
+        "top_k": 10,
+        "grouped": true,
+        "type_filter": "dish",
+        "category_filter": null
+      },
+      "raw_matches_count": 40,
+      "raw_matches": [
+        {
+          "id": "dish6149_b_ingredients",
+          "score": 0.877712,
+          "entity_id": "dish6149",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt heo kho sả",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt heo kho sả\nNguyen lieu chinh: Thịt heo, Sả\nGia vi: Ớt, Tỏi, Sa tế ớt, Nước mắm, Dầu ăn, Hạt nêm, Đường, Muối, Bột ngọt"
+        },
+        {
+          "id": "dish6702_b_ingredients",
+          "score": 0.871491,
+          "entity_id": "dish6702",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt heo chiên sả",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt heo chiên sả\nNguyen lieu chinh: Thịt ba rọi heo, Sả\nGia vi: Hành phi, Ớt bột, Nước mắm, Đường, Giấm, Dầu ăn, Hạt nêm"
+        },
+        {
+          "id": "dish6205_b_ingredients",
+          "score": 0.870502,
+          "entity_id": "dish6205",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Vịt kho sả",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Vịt kho sả\nNguyen lieu chinh: Thịt vịt, Hành tím\nNguyen lieu phu: Sả cây\nGia vi: Ớt, Tỏi, Chanh, Nước mắm, Nước màu thốt nốt, Dầu ăn, Hạt nêm, Muối, Bột ngọt"
+        },
+        {
+          "id": "dish7161_b_ingredients",
+          "score": 0.869591,
+          "entity_id": "dish7161",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá đổng chiên sả",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Cá đổng chiên sả\nNguyen lieu chinh: Cá đổng, Sả\nGia vi: Rượu trắng, Dầu ăn, Muối, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish0381_b_ingredients",
+          "score": 0.869112,
+          "entity_id": "dish0381",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Sườn bò hầm sả",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Sườn bò hầm sả\nNguyen lieu chinh: Sườn bò, Khoai môn, Hành lá\nNguyen lieu phu: Sả\nGia vi: Sa tế tôm, Tương xay, Gừng, Tỏi băm, Dầu ăn, Muối, Hạt nêm, Đường"
+        },
+        {
+          "id": "dish7686_b_ingredients",
+          "score": 0.867972,
+          "entity_id": "dish7686",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ốc nhảy hấp sả",
+          "name_en": "",
+          "category": "mon hap",
+          "text": "Mon: Ốc nhảy hấp sả\nNguyen lieu chinh: Ốc nhảy, Sả\nGia vi: Ớt hiểm, Nước mắm, Nước cốt tắc, Gừng băm, Ớt băm, Đường, Muối, Bột ngọt"
+        },
+        {
+          "id": "dish6671_b_ingredients",
+          "score": 0.866857,
+          "entity_id": "dish6671",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt xay bọc sả chiên",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt xay bọc sả chiên\nNguyen lieu chinh: Thịt vai heo, Sả, Hành tím\nGia vi: Tỏi, Bột năng, Nước mắm, Muối, Đường, Bột ngọt, Tiêu, Dầu ăn"
+        },
+        {
+          "id": "dish6226_b_ingredients",
+          "score": 0.866541,
+          "entity_id": "dish6226",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ếch kho sả ớt",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Ếch kho sả ớt\nNguyen lieu chinh: Thịt ếch, Sả\nGia vi: Ớt tươi, Rượu trắng, Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish6598_b_ingredients",
+          "score": 0.866267,
+          "entity_id": "dish6598",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Tôm khô sả ớt",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Tôm khô sả ớt\nNguyen lieu chinh: Tôm, Lá sả\nGia vi: Gừng, Bột tỏi, Bột nghệ, Bột ớt, Rượu trắng, Nước mắm, Dầu ăn, Đường, Muối, Hạt nêm"
+        },
+        {
+          "id": "dish7320_b_ingredients",
+          "score": 0.865703,
+          "entity_id": "dish7320",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Tôm chiên sả",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Tôm chiên sả\nNguyen lieu chinh: Tôm tươi, Sả\nGia vi: Ớt, Tỏi, Bột chiên giòn, Bột chiên xù, Dầu ăn, Hạt nêm, Đường, Bột ngọt, Muối"
+        },
+        {
+          "id": "dish6577_b_ingredients",
+          "score": 0.865231,
+          "entity_id": "dish6577",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt bọc sả chiên",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt bọc sả chiên\nNguyen lieu chinh: Thịt heo xay, Sả cây\nGia vi: Tương ớt, Dầu hào, Nước mắm, Sa tế ớt, Hạt nêm, Tiêu xay, Bột ngọt, Đường"
+        },
+        {
+          "id": "dish4918_b_ingredients",
+          "score": 0.8648,
+          "entity_id": "dish4918",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ếch xào sả ớt cà ri",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Ếch xào sả ớt cà ri\nNguyen lieu chinh: Thịt ếch, Sả, Hành lá\nNguyen lieu phu: Ngò rí, Hành tím\nGia vi: Ớt, Tỏi, Rượu trắng, Bột cà ri, Dầu ăn, Nước mắm, Muối, Tiêu, Đường, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish3345_b_ingredients",
+          "score": 0.864707,
+          "entity_id": "dish3345",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gà hầm sả củ cải nấm rơm",
+          "name_en": "",
+          "category": "mon nuoc",
+          "text": "Mon: Gà hầm sả củ cải nấm rơm\nNguyen lieu chinh: Gà, Củ cải trắng, Nấm rơm\nNguyen lieu phu: Sả\nGia vi: Ớt hiểm, Tỏi băm, Sả băm, Hành tím băm, Nước mắm, Bột nghệ, Sa tế, Muối hạt, Muối, Đường, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish3113_b_ingredients",
+          "score": 0.864699,
+          "entity_id": "dish3113",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gà nòi hầm sả",
+          "name_en": "",
+          "category": "mon nuoc",
+          "text": "Mon: Gà nòi hầm sả\nNguyen lieu chinh: Gà nòi, Sả, Hành tím\nNguyen lieu phu: Ít Củ tùy chọn, Hành lá và ngò rí\nGia vi: Ớt tươi, Bột ngọt, Hạt nêm, Tiêu xay, Đường cát, Muối, Bột nghệ, Nước mắm ngon, Sa tế"
+        },
+        {
+          "id": "dish6689_b_ingredients",
+          "score": 0.864637,
+          "entity_id": "dish6689",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gà rán ướp sả",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Gà rán ướp sả\nNguyen lieu chinh: Đùi gà, Sả, Hành tím\nGia vi: Gừng, Bột nếp rang, Bột tỏi, Bột ớt, Bột bắp, Nước mắm, Nước cốt chanh, Dầu hào, Dầu ăn, Muối, Đường, Tiêu xay"
+        },
+        {
+          "id": "dish3982_b_ingredients",
+          "score": 0.864178,
+          "entity_id": "dish3982",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ cuộn sả",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Ba chỉ cuộn sả\nNguyen lieu chinh: Thịt ba chỉ, Sả, Hành tím\nNguyen lieu phu: Ngò gai, Ngò rí, Húng lủi, Mắc khén\nGia vi: Ớt xiêm xanh, Tỏi, Ớt bột, Giấm ăn, Muối, Đường, Bột ngọt, Tiêu"
+        },
+        {
+          "id": "dish0707_b_ingredients",
+          "score": 0.864144,
+          "entity_id": "dish0707",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Canh gà hầm sả chay",
+          "name_en": "",
+          "category": "mon canh",
+          "text": "Mon: Canh gà hầm sả chay\nNguyen lieu chinh: Đùi gà chay\nNguyen lieu phu: Nấm rơm, Sả, Đậu hũ trắng\nGia vi: Cà rốt, Củ cải muối, Gừng, Gừng băm, Sả băm, Hạt nêm chay, Dầu ăn thực vật, Nước mắm chay, Muối/ đường"
+        },
+        {
+          "id": "dish7608_b_ingredients",
+          "score": 0.864092,
+          "entity_id": "dish7608",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ốc hấp sả nước cốt dừa",
+          "name_en": "",
+          "category": "mon hap",
+          "text": "Mon: Ốc hấp sả nước cốt dừa\nNguyen lieu chinh: Ốc bưu, Dừa tươi, Tắc\nNguyen lieu phu: Sả\nGia vi: Tỏi, Ớt, Lá chanh, Dầu ăn, Nước mắm, Đường, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish7865_b_ingredients",
+          "score": 0.864024,
+          "entity_id": "dish7865",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Bò hầm sả",
+          "name_en": "",
+          "category": "mon lau",
+          "text": "Mon: Bò hầm sả\nNguyen lieu chinh: Nạm bò, Thịt cổ bò, Xương bò\nNguyen lieu phu: Sả, Cải trắng, Hành tím, Đậu hũ, Mướp hương\nGia vi: Gừng, Muối, Đường"
+        },
+        {
+          "id": "dish4864_b_ingredients",
+          "score": 0.863994,
+          "entity_id": "dish4864",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ốc mỡ xào sả",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Ốc mỡ xào sả\nNguyen lieu chinh: Ốc mỡ, Sả\nGia vi: Sa tế ớt, Bơ thực vật, Muối, Đường, Bột ngọt"
+        },
+        {
+          "id": "dish5235_b_ingredients",
+          "score": 0.86331,
+          "entity_id": "dish5235",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt heo xào sả ớt",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Thịt heo xào sả ớt\nNguyen lieu chinh: Thịt heo, Sả\nGia vi: Ớt, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt"
+        },
+        {
+          "id": "dish7611_b_ingredients",
+          "score": 0.863272,
+          "entity_id": "dish7611",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Lưỡi bò hấp sả",
+          "name_en": "",
+          "category": "mon hap",
+          "text": "Mon: Lưỡi bò hấp sả\nNguyen lieu chinh: Lưỡi bò, Hành tây\nNguyen lieu phu: Sả, Hành tím\nGia vi: Ớt tươi, Bột ngọt, Hạt nêm, Muối"
+        },
+        {
+          "id": "dish8611_b_ingredients",
+          "score": 0.862957,
+          "entity_id": "dish8611",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Bò hấp sả thơm",
+          "name_en": "",
+          "category": "mon tu bo",
+          "text": "Mon: Bò hấp sả thơm\nNguyen lieu chinh: Thịt bắp bò, Sả cây\nNguyen lieu phu: Thơm, Rau sống ăn kèm, Bánh tráng\nGia vi: Ớt, Mắm nêm, Bột ngọt & đường & hạt nêm"
+        },
+        {
+          "id": "dish6023_b_ingredients",
+          "score": 0.862912,
+          "entity_id": "dish6023",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gà kho sả ớt",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Gà kho sả ớt\nNguyen lieu chinh: Sả\nGia vi: Ớt đỏ, Bột nghệ, Nước mắm, Muối hạt, Muối, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish7524_b_ingredients",
+          "score": 0.862286,
+          "entity_id": "dish7524",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ghẹ hấp sả",
+          "name_en": "",
+          "category": "mon hap",
+          "text": "Mon: Ghẹ hấp sả\nNguyen lieu chinh: Ghẹ\nNguyen lieu phu: Sả\nGia vi: Gừng, Dầu ăn, Rau răm/ dưa chuột ăn kèm"
+        },
+        {
+          "id": "dish5520_b_ingredients",
+          "score": 0.862267,
+          "entity_id": "dish5520",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt xào sả ớt chay",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Thịt xào sả ớt chay\nNguyen lieu chinh: Bánh mì\nNguyen lieu phu: Dưa leo, Sả, Hành tím\nGia vi: Cà rốt, Ớt bột, Đường, Hạt nêm chay, Nước mắm chay"
+        },
+        {
+          "id": "dish8615_b_ingredients",
+          "score": 0.861682,
+          "entity_id": "dish8615",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Đuôi bò hầm sa tế",
+          "name_en": "",
+          "category": "mon tu bo",
+          "text": "Mon: Đuôi bò hầm sa tế\nNguyen lieu chinh: Đuôi bò, Sả, Hành tím\nNguyen lieu phu: Sả tươi\nGia vi: Tỏi, Ớt, Bột cà ri, Sa tế, Đường, Muối, Tiêu, Bột ngọt"
+        },
+        {
+          "id": "dish4109_b_ingredients",
+          "score": 0.861554,
+          "entity_id": "dish4109",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt heo nướng sả",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Thịt heo nướng sả\nNguyen lieu chinh: Thịt ba chỉ, Sả\nNguyen lieu phu: Nước màu, Mật ong\nGia vi: Tỏi to, Hành khô, Nước mắm, Dầu ăn, Muối, Đường, Hạt nêm"
+        },
+        {
+          "id": "dish3127_b_ingredients",
+          "score": 0.861424,
+          "entity_id": "dish3127",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gà hầm sả miền Tây",
+          "name_en": "",
+          "category": "mon nuoc",
+          "text": "Mon: Gà hầm sả miền Tây\nNguyen lieu chinh: Gà ta, Sả cây, Củ cải trắng, Đu đủ xanh\nNguyen lieu phu: Hành tím, Hành tây, Dầu điều\nGia vi: Gừng, Bột nghệ, Muối, Hạt nêm, Đường, Bột ngọt, Nước mắm, Tiêu"
+        },
+        {
+          "id": "dish7877_b_ingredients",
+          "score": 0.861401,
+          "entity_id": "dish7877",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Lẩu bò nướng hầm sả",
+          "name_en": "",
+          "category": "mon lau",
+          "text": "Mon: Lẩu bò nướng hầm sả\nNguyen lieu chinh: Chân bò, Cải trắng, Hành tây, Sả\nGia vi: Gừng, Ớt sừng, Ớt hiểm, Ớt xiêm, Chanh, Đường phèn, Muối, Đường, Tiêu, Hạt nêm"
+        },
+        {
+          "id": "dish3480_b_ingredients",
+          "score": 0.860997,
+          "entity_id": "dish3480",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Đuôi bò hầm sả",
+          "name_en": "",
+          "category": "mon nuoc",
+          "text": "Mon: Đuôi bò hầm sả\nNguyen lieu chinh: Đuôi bò, Sả, Củ cải trắng, Hành tây\nNguyen lieu phu: Hành tím\nGia vi: Quế, Hoa hồi, Gừng, Ớt, Tỏi, Bột cà ri, Ớt bột, Chanh, Dầu ăn, Đường nâu, Nước mắm, Tiêu xay, Đường, Muối, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish4926_b_ingredients",
+          "score": 0.860986,
+          "entity_id": "dish4926",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ếch xào sả ớt",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Ếch xào sả ớt\nNguyen lieu chinh: Thịt ếch, Sả\nGia vi: Ớt, Hành tím băm, Nước mắm, Dầu ăn, Đường, Muối, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish4817_b_ingredients",
+          "score": 0.860945,
+          "entity_id": "dish4817",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Bò xào sả nghệ",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Bò xào sả nghệ\nNguyen lieu chinh: Bắp bò, Sả\nGia vi: Bột nghệ, Dầu ăn, Nước mắm, Đường, Bột nêm, Muối, Bột ngọt, Tiêu xay"
+        },
+        {
+          "id": "dish4682_b_ingredients",
+          "score": 0.860729,
+          "entity_id": "dish4682",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ếch xào sả nghệ",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Ếch xào sả nghệ\nNguyen lieu chinh: Ếch, Sả\nNguyen lieu phu: Nước màu\nGia vi: Tỏi, Ớt sừng, Bột nghệ, Dầu ăn, Nước mắm, Đường, Muối, Hạt nêm"
+        },
+        {
+          "id": "dish3900_b_ingredients",
+          "score": 0.860386,
+          "entity_id": "dish3900",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Mực lụi nướng sả",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Mực lụi nướng sả\nNguyen lieu chinh: Thịt xay, Giò sống, Mực ống\nNguyen lieu phu: Lá dứa, Sả, Tắc\nGia vi: Ớt sừng, Bột ớt, Tiêu, Nước mắm, Đường, Tương ớt, Bột nêm"
+        },
+        {
+          "id": "dish7670_b_ingredients",
+          "score": 0.860384,
+          "entity_id": "dish7670",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Bề bề hấp sả",
+          "name_en": "",
+          "category": "mon hap",
+          "text": "Mon: Bề bề hấp sả\nNguyen lieu chinh: Bề bề, Sả\nNguyen lieu phu: Tắc, Sữa đặc\nGia vi: Ớt trái, Đường, Tiêu xay, Bột ngọt, Muối"
+        },
+        {
+          "id": "dish4562_b_ingredients",
+          "score": 0.860375,
+          "entity_id": "dish4562",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Mực xào cà ri sả ớt",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Mực xào cà ri sả ớt\nNguyen lieu chinh: Mực, Sả\nGia vi: Ớt hiểm, Rượu trắng, Dầu hào, Tỏi, Hạt nêm, Tiêu xay, Đường, Bột cà ri"
+        },
+        {
+          "id": "dish5778_b_ingredients",
+          "score": 0.859917,
+          "entity_id": "dish5778",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá chạch kho sả nghệ",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Cá chạch kho sả nghệ\nNguyen lieu chinh: Cá chạch, Sả, Dứa\nNguyen lieu phu: Hành tím, Hành lá\nGia vi: Ớt, Tỏi, Hạt nêm, Nước mắm, Dầu ăn, Bột nghệ"
+        },
+        {
+          "id": "dish6812_b_ingredients",
+          "score": 0.859404,
+          "entity_id": "dish6812",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba rọi chiên sả ớt bằng nồi chiên không dầu",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Ba rọi chiên sả ớt bằng nồi chiên không dầu\nNguyen lieu chinh: Thịt ba rọi, Sả\nGia vi: Ớt, Dầu ăn, Nước mắm, Đường, Bột ngọt, Hạt nêm"
+        },
+        {
+          "id": "dish4149_b_ingredients",
+          "score": 0.859291,
+          "entity_id": "dish4149",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Chạo cá bọc sả",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Chạo cá bọc sả\nNguyen lieu chinh: Phi lê cá rô phi, Sả, Hành tím\nNguyen lieu phu: Hành lá, Ngò rí\nGia vi: Trứng gà, Tỏi, Ớt sừng, Bột năng, Dầu hào, Nước mắm, Bột ngọt, Tiêu xay, Hạt nêm"
+        }
+      ],
+      "grouped_count": 10,
+      "grouped_matches": [
+        {
+          "entity_id": "dish6149",
+          "type": "dish",
+          "name_vi": "Thịt heo kho sả",
+          "name_en": "",
+          "category": "mon kho",
+          "best_score": 0.877712,
+          "matched_docs": [
+            {
+              "id": "dish6149_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.877712,
+              "text": "Mon: Thịt heo kho sả\nNguyen lieu chinh: Thịt heo, Sả\nGia vi: Ớt, Tỏi, Sa tế ớt, Nước mắm, Dầu ăn, Hạt nêm, Đường, Muối, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6702",
+          "type": "dish",
+          "name_vi": "Thịt heo chiên sả",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.871491,
+          "matched_docs": [
+            {
+              "id": "dish6702_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.871491,
+              "text": "Mon: Thịt heo chiên sả\nNguyen lieu chinh: Thịt ba rọi heo, Sả\nGia vi: Hành phi, Ớt bột, Nước mắm, Đường, Giấm, Dầu ăn, Hạt nêm"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6205",
+          "type": "dish",
+          "name_vi": "Vịt kho sả",
+          "name_en": "",
+          "category": "mon kho",
+          "best_score": 0.870502,
+          "matched_docs": [
+            {
+              "id": "dish6205_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.870502,
+              "text": "Mon: Vịt kho sả\nNguyen lieu chinh: Thịt vịt, Hành tím\nNguyen lieu phu: Sả cây\nGia vi: Ớt, Tỏi, Chanh, Nước mắm, Nước màu thốt nốt, Dầu ăn, Hạt nêm, Muối, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish7161",
+          "type": "dish",
+          "name_vi": "Cá đổng chiên sả",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.869591,
+          "matched_docs": [
+            {
+              "id": "dish7161_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.869591,
+              "text": "Mon: Cá đổng chiên sả\nNguyen lieu chinh: Cá đổng, Sả\nGia vi: Rượu trắng, Dầu ăn, Muối, Bột ngọt, Hạt nêm"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish0381",
+          "type": "dish",
+          "name_vi": "Sườn bò hầm sả",
+          "name_en": "",
+          "category": "mon canh",
+          "best_score": 0.869112,
+          "matched_docs": [
+            {
+              "id": "dish0381_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.869112,
+              "text": "Mon: Sườn bò hầm sả\nNguyen lieu chinh: Sườn bò, Khoai môn, Hành lá\nNguyen lieu phu: Sả\nGia vi: Sa tế tôm, Tương xay, Gừng, Tỏi băm, Dầu ăn, Muối, Hạt nêm, Đường"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish7686",
+          "type": "dish",
+          "name_vi": "Ốc nhảy hấp sả",
+          "name_en": "",
+          "category": "mon hap",
+          "best_score": 0.867972,
+          "matched_docs": [
+            {
+              "id": "dish7686_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.867972,
+              "text": "Mon: Ốc nhảy hấp sả\nNguyen lieu chinh: Ốc nhảy, Sả\nGia vi: Ớt hiểm, Nước mắm, Nước cốt tắc, Gừng băm, Ớt băm, Đường, Muối, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6671",
+          "type": "dish",
+          "name_vi": "Thịt xay bọc sả chiên",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.866857,
+          "matched_docs": [
+            {
+              "id": "dish6671_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.866857,
+              "text": "Mon: Thịt xay bọc sả chiên\nNguyen lieu chinh: Thịt vai heo, Sả, Hành tím\nGia vi: Tỏi, Bột năng, Nước mắm, Muối, Đường, Bột ngọt, Tiêu, Dầu ăn"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6226",
+          "type": "dish",
+          "name_vi": "Ếch kho sả ớt",
+          "name_en": "",
+          "category": "mon kho",
+          "best_score": 0.866541,
+          "matched_docs": [
+            {
+              "id": "dish6226_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.866541,
+              "text": "Mon: Ếch kho sả ớt\nNguyen lieu chinh: Thịt ếch, Sả\nGia vi: Ớt tươi, Rượu trắng, Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6598",
+          "type": "dish",
+          "name_vi": "Tôm khô sả ớt",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.866267,
+          "matched_docs": [
+            {
+              "id": "dish6598_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.866267,
+              "text": "Mon: Tôm khô sả ớt\nNguyen lieu chinh: Tôm, Lá sả\nGia vi: Gừng, Bột tỏi, Bột nghệ, Bột ớt, Rượu trắng, Nước mắm, Dầu ăn, Đường, Muối, Hạt nêm"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish7320",
+          "type": "dish",
+          "name_vi": "Tôm chiên sả",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.865703,
+          "matched_docs": [
+            {
+              "id": "dish7320_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.865703,
+              "text": "Mon: Tôm chiên sả\nNguyen lieu chinh: Tôm tươi, Sả\nGia vi: Ớt, Tỏi, Bột chiên giòn, Bột chiên xù, Dầu ăn, Hạt nêm, Đường, Bột ngọt, Muối"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "original": "ba chỉ bò",
+        "cleaned": "ba chỉ bò",
+        "lowercased": "ba chỉ bò",
+        "normalized": "ba chi bo",
+        "intent": null
+      },
+      "settings": {
+        "top_k": 10,
+        "grouped": true,
+        "type_filter": null,
+        "category_filter": null
+      },
+      "raw_matches_count": 40,
+      "raw_matches": [
+        {
+          "id": "dish3864_b_ingredients",
+          "score": 0.864911,
+          "entity_id": "dish3864",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ bò nướng sa tế",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Ba chỉ bò nướng sa tế\nNguyen lieu chinh: Thịt ba chỉ bò, Ngò, Sả\nNguyen lieu phu: Hành tím, Hành tây, Mật ong, Siro ngô\nGia vi: Ớt sừng xanh, Ớt sừng đỏ, Tỏi, Sa tế, Nước tương, Nước mắm, Nước cốt chanh, Đường, Hạt nêm, Tiêu"
+        },
+        {
+          "id": "dish6838_b_ingredients",
+          "score": 0.864591,
+          "entity_id": "dish6838",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ cuộn bì chiên giòn",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt ba chỉ cuộn bì chiên giòn\nNguyen lieu chinh: Thịt ba chỉ\nGia vi: Ngũ vị hương, Muối, Giấm, Tiêu"
+        },
+        {
+          "id": "dish5853_b_ingredients",
+          "score": 0.862292,
+          "entity_id": "dish5853",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá basa kho thịt ba chỉ",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Cá basa kho thịt ba chỉ\nNguyen lieu chinh: Cá basa, Thịt ba chỉ\nNguyen lieu phu: Nước dừa tươi, Hành lá cắt nhỏ\nGia vi: Hành tím băm, Tỏi băm, Ớt hiểm, Nước mắm, Nước cốt chanh/giấm, Muối, Đường, Hạt nêm, Tiêu, Bột ngọt"
+        },
+        {
+          "id": "dish4162_b_ingredients",
+          "score": 0.861796,
+          "entity_id": "dish4162",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ bò cuộn nấm kim châm nướng",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Ba chỉ bò cuộn nấm kim châm nướng\nNguyen lieu chinh: Ba chỉ bò Mỹ, Nấm kim châm\nGia vi: Hành tím băm, Dầu hào, Nước tương, Dầu ăn, Hạt nêm, Muối, Đường, Tiêu xay"
+        },
+        {
+          "id": "dish8627_b_ingredients",
+          "score": 0.860876,
+          "entity_id": "dish8627",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ bò cuộn nấm kim châm",
+          "name_en": "",
+          "category": "mon tu bo",
+          "text": "Mon: Ba chỉ bò cuộn nấm kim châm\nNguyen lieu chinh: Ba chỉ bò\nNguyen lieu phu: Nấm kim châm\nGia vi: Ớt chuông, Dầu ăn, Hạt nêm, Muối, Tiêu xay"
+        },
+        {
+          "id": "dish5994_b_ingredients",
+          "score": 0.857009,
+          "entity_id": "dish5994",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá bống kho thịt ba chỉ",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Cá bống kho thịt ba chỉ\nNguyen lieu chinh: Cá bống, Thịt ba chỉ, Hành lá\nNguyen lieu phu: Hành tím, Nước dừa\nGia vi: Ớt, Nước mắm, Dầu ăn, Tiêu, Đường, Hạt nêm, Muối"
+        },
+        {
+          "id": "dish7403_b_ingredients",
+          "score": 0.856891,
+          "entity_id": "dish7403",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ áp chảo da giòn sốt balsamic",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt ba chỉ áp chảo da giòn sốt balsamic\nNguyen lieu chinh: Thịt ba rọi\nNguyen lieu phu: Mật ong\nGia vi: Dầu ăn, Tỏi băm, Nước tương, Giấm balsamic"
+        },
+        {
+          "id": "dish3929_b_ingredients",
+          "score": 0.855545,
+          "entity_id": "dish3929",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ 1 nắng chiên giòn",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Thịt ba chỉ 1 nắng chiên giòn\nNguyen lieu chinh: Thịt ba chỉ, Sả\nNguyen lieu phu: Dầu điều\nGia vi: Tỏi, Ngũ vị hương, Ớt bột, Dầu ăn, Nước mắm, Muối, Đường, Hạt nêm, Bột ngọt, Tiêu"
+        },
+        {
+          "id": "dish6218_b_ingredients",
+          "score": 0.854996,
+          "entity_id": "dish6218",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ kho dưa chua",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt ba chỉ kho dưa chua\nNguyen lieu chinh: Thịt ba chỉ heo, Dưa chua, Hành tím\nGia vi: Ớt tươi, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "dish3969_b_ingredients",
+          "score": 0.854368,
+          "entity_id": "dish3969",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Bò cuộn nấm kim châm bằng nồi chiên không dầu",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Bò cuộn nấm kim châm bằng nồi chiên không dầu\nNguyen lieu: Ba chỉ bò Mỹ, Nấm kim châm\nGia vi: Muối"
+        },
+        {
+          "id": "dish4814_b_ingredients",
+          "score": 0.854279,
+          "entity_id": "dish4814",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ xào sả ớt",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Thịt ba chỉ xào sả ớt\nNguyen lieu chinh: Thịt ba chỉ, Sả\nNguyen lieu phu: Hành tím\nGia vi: Ớt, Tỏi, Dầu ăn, Nước mắm, Muối, Đường, Bột ngọt, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "dish5733_b_ingredients",
+          "score": 0.854133,
+          "entity_id": "dish5733",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ kho bầu muối chua (dưa bầu)",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt ba chỉ kho bầu muối chua (dưa bầu)\nNguyen lieu chinh: Thịt ba chỉ, Hành tím\nNguyen lieu phu: Hành lá\nGia vi: Bầu muối chua, Tỏi, Tiêu sọ, Dầu hào, Đường thốt nốt, Nước mắm, Dầu ăn, Muối, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish6356_b_ingredients",
+          "score": 0.853712,
+          "entity_id": "dish6356",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ sốt tắc",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Ba chỉ sốt tắc\nNguyen lieu chinh: Thịt ba chỉ, Bia, Hành lá\nNguyen lieu phu: Tắc, Sả\nGia vi: Gừng, Tỏi, Dầu hào, Bột tỏi, Bột ớt đỏ ít cay, Tiêu bột, Bột ngô, Nước mắm, Đường nâu, Muối tôm, Ớt sừng"
+        },
+        {
+          "id": "dish7990_b_ingredients",
+          "score": 0.853643,
+          "entity_id": "dish7990",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ trộn chua ngọt kiểu Việt",
+          "name_en": "",
+          "category": "mon goi - salad",
+          "text": "Mon: Thịt ba chỉ trộn chua ngọt kiểu Việt\nNguyen lieu chinh: Thịt ba chỉ, Sả\nNguyen lieu phu: Hành lá cắt nhỏ, Dầu mè\nGia vi: Gừng, Ớt băm, Nước cốt chanh, Nước mắm, Bột canh, Đường"
+        },
+        {
+          "id": "dish5864_b_ingredients",
+          "score": 0.853506,
+          "entity_id": "dish5864",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ rim nước mắm",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt ba chỉ rim nước mắm\nNguyen lieu chinh: Thịt ba chỉ\nNguyen lieu phu: Hành lá\nGia vi: Tỏi băm, Hành tím băm, Rượu gạo, Nước mắm, Dầu ăn, Ớt bột, Tiêu xay, Đường, Hạt nêm, Bột ngọt"
+        },
+        {
+          "id": "dish6152_b_ingredients",
+          "score": 0.853122,
+          "entity_id": "dish6152",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ kho tiêu",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt ba chỉ kho tiêu\nNguyen lieu chinh: Thịt ba chỉ\nGia vi: Ớt, Hành tím băm, Tỏi băm, Nước mắm, Tiêu hạt, Muối, Đường, Bột ngọt, Hạt nêm, Tiêu"
+        },
+        {
+          "id": "ingre06281",
+          "score": 0.852984,
+          "entity_id": "ingre06281",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "thịt ba chỉ heo cắt nhỏ",
+          "name_en": "Pork belly chopped small",
+          "category": "fresh_meat",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: thịt ba chỉ heo cắt nhỏ\nTen tieng Anh: Pork belly chopped small\nTen chuan hoa: thit ba chi heo cat nho\nTu dong nghia: ba rọi, thịt ba chỉ\nDanh muc: fresh_meat"
+        },
+        {
+          "id": "ingre00007",
+          "score": 0.852679,
+          "entity_id": "ingre00007",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "ba chỉ bò mỹ",
+          "name_en": "Beef brisket",
+          "category": "fresh_meat",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: ba chỉ bò mỹ\nTen tieng Anh: Beef brisket\nTen chuan hoa: ba chi bo my\nTu dong nghia: thịt ba chỉ, thịt bò Mỹ\nDanh muc: fresh_meat"
+        },
+        {
+          "id": "dish6656_b_ingredients",
+          "score": 0.852338,
+          "entity_id": "dish6656",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ rang muối",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt ba chỉ rang muối\nNguyen lieu chinh: Thịt ba chỉ\nNguyen lieu phu: Ngò rí\nGia vi: Tỏi, Ớt, Muối hạt, Tiêu hạt"
+        },
+        {
+          "id": "dish4390_b_ingredients",
+          "score": 0.85227,
+          "entity_id": "dish4390",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ chiên giòn",
+          "name_en": "",
+          "category": "mon chao",
+          "text": "Mon: Ba chỉ chiên giòn\nNguyen lieu chinh: Thịt ba chỉ\nNguyen lieu phu: Rau mùi\nGia vi: Tỏi, Ớt xanh, Nước cốt chanh, Giấm trắng, Muối, Đường, Nước mắm, Bột ngọt, Dầu ăn"
+        },
+        {
+          "id": "dish5945_b_ingredients",
+          "score": 0.852174,
+          "entity_id": "dish5945",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Cá bớp kho thịt ba chỉ",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Cá bớp kho thịt ba chỉ\nNguyen lieu chinh: Cá bớp, Thịt ba chỉ\nNguyen lieu phu: Hành tím\nGia vi: Ớt, Gia vị kho cá, Nước mắm, Dầu ăn, Muối/ tiêu"
+        },
+        {
+          "id": "ingre06276",
+          "score": 0.850889,
+          "entity_id": "ingre06276",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "thịt ba chỉ bò",
+          "name_en": "Beef belly",
+          "category": "fresh_meat",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: thịt ba chỉ bò\nTen tieng Anh: Beef belly\nTen chuan hoa: thit ba chi bo\nTu dong nghia: ba chỉ, thịt bò ba chỉ\nDanh muc: fresh_meat"
+        },
+        {
+          "id": "dish8222_b_ingredients",
+          "score": 0.850206,
+          "entity_id": "dish8222",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Nộm sứa thịt ba chỉ",
+          "name_en": "",
+          "category": "mon goi - salad",
+          "text": "Mon: Nộm sứa thịt ba chỉ\nNguyen lieu chinh: Sứa\nNguyen lieu phu: Thịt ba chỉ\nGia vi: Hành tây & cà rốt & giá đỗ, Chanh, Hành & mùi tàu & ớt"
+        },
+        {
+          "id": "dish5829_b_ingredients",
+          "score": 0.850062,
+          "entity_id": "dish5829",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ kho trứng gà",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt ba chỉ kho trứng gà\nNguyen lieu chinh: Thịt ba chỉ, Nước dừa tươi khoảng, Hành tím\nNguyen lieu phu: Ngò rí\nGia vi: Trứng gà, Bột nghệ, Ớt bột, Ớt, Dầu ăn, Muối, Đường, Hạt nêm, Bột ngọt, Tiêu, Nước mắm"
+        },
+        {
+          "id": "ingre00006",
+          "score": 0.849908,
+          "entity_id": "ingre00006",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "ba chỉ bò",
+          "name_en": "Beef brisket",
+          "category": "fresh_meat",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: ba chỉ bò\nTen tieng Anh: Beef brisket\nTen chuan hoa: ba chi bo\nTu dong nghia: ba rọi\nDanh muc: fresh_meat"
+        },
+        {
+          "id": "dish4789_b_ingredients",
+          "score": 0.849751,
+          "entity_id": "dish4789",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt bò xào bông thiên lý",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Thịt bò xào bông thiên lý\nNguyen lieu chinh: Thịt ba chỉ bò, Bông thiên lý\nGia vi: Tỏi, Nước tương, Dầu hào, Dầu ăn, Hạt nêm, Đường, Bột ngọt, Tiêu"
+        },
+        {
+          "id": "dish6994_b_ingredients",
+          "score": 0.849672,
+          "entity_id": "dish6994",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ rang cháy cạnh",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt ba chỉ rang cháy cạnh\nNguyen lieu chinh: Thịt ba chỉ\nNguyen lieu phu: Hành lá, Hành tím\nGia vi: Ớt tươi, Nước mắm, Hạt tiêu, Dầu ăn, Đường, Muối, Bột ngọt, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "ingre00008",
+          "score": 0.849548,
+          "entity_id": "ingre00008",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "ba chỉ rút sườn",
+          "name_en": "Pork ribeye",
+          "category": "fresh_meat",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: ba chỉ rút sườn\nTen tieng Anh: Pork ribeye\nTen chuan hoa: ba chi rut suon\nTu dong nghia: thịt ba chỉ\nDanh muc: fresh_meat"
+        },
+        {
+          "id": "dish3982_b_ingredients",
+          "score": 0.849251,
+          "entity_id": "dish3982",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ cuộn sả",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Ba chỉ cuộn sả\nNguyen lieu chinh: Thịt ba chỉ, Sả, Hành tím\nNguyen lieu phu: Ngò gai, Ngò rí, Húng lủi, Mắc khén\nGia vi: Ớt xiêm xanh, Tỏi, Ớt bột, Giấm ăn, Muối, Đường, Bột ngọt, Tiêu"
+        },
+        {
+          "id": "dish8320_b_ingredients",
+          "score": 0.849165,
+          "entity_id": "dish8320",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gỏi bò ba khía",
+          "name_en": "",
+          "category": "mon goi - salad",
+          "text": "Mon: Gỏi bò ba khía\nNguyen lieu chinh: Thịt bò, Ba khía, Chuối chát, Cà chua\nNguyen lieu phu: Hành tây, Me chua, Rau răm, Đậu phộng rang\nGia vi: Tỏi, Ớt, Nước cốt chanh, Dầu ăn, Nước mắm, Muối, Bột ngọt, Đường"
+        },
+        {
+          "id": "dish6714_b_ingredients",
+          "score": 0.849106,
+          "entity_id": "dish6714",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "thịt chiên ngũ vị sốt bơ tỏi cay",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: thịt chiên ngũ vị sốt bơ tỏi cay\nNguyen lieu chinh: Thịt ba chỉ\nNguyen lieu phu: Bơ\nGia vi: Ngũ vị hương, Nước mắm, Bột ngọt, Tiêu, Hạt nêm, Tỏi băm, Ớt băm"
+        },
+        {
+          "id": "dish4576_b_ingredients",
+          "score": 0.848758,
+          "entity_id": "dish4576",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Củ hũ dừa xào thịt ba chỉ",
+          "name_en": "",
+          "category": "mon xao",
+          "text": "Mon: Củ hũ dừa xào thịt ba chỉ\nNguyen lieu chinh: Củ hũ dừa non, Thịt ba chỉ rút xương\nNguyen lieu phu: Hành tây, Rau nêm\nGia vi: Cà rốt, Tỏi băm, Ớt sừng, Hành tím băm, Hạt nêm, Tiêu, Đường, Nước mắm, Bột ngọt, Giấm gạo"
+        },
+        {
+          "id": "dish6172_b_ingredients",
+          "score": 0.848597,
+          "entity_id": "dish6172",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ rim mặn ngọt",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Thịt ba chỉ rim mặn ngọt\nNguyen lieu chinh: Thịt ba chỉ, Hành tím\nNguyen lieu phu: Hành ngò, Mè trắng\nGia vi: Tỏi, Ớt tươi, Dầu ăn, Nước mắm, Muối, Đường, Hạt nêm, Tiêu xay"
+        },
+        {
+          "id": "dish6896_b_ingredients",
+          "score": 0.848357,
+          "entity_id": "dish6896",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gõ xoài thịt ba chỉ chiên",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Gõ xoài thịt ba chỉ chiên\nNguyen lieu chinh: Thịt ba rọi, Hành lá, Dầu màu điều\nNguyen lieu phu: Xoài xanh, Nước tắc, Rau răm\nGia vi: Gừng, Hành tím/tỏi, Giấm/Muối, Muối tôm, Tỏi phi, Ngũ vị hương, Đường/hạt nêm, Nước mắm/nước tương/tương ớt, Đường/Hạt nêm/Bột ngọt, Ớt băm/ớt cắt sợi"
+        },
+        {
+          "id": "dish8322_b_ingredients",
+          "score": 0.848309,
+          "entity_id": "dish8322",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Gỏi bò rau mầm",
+          "name_en": "",
+          "category": "mon goi - salad",
+          "text": "Mon: Gỏi bò rau mầm\nNguyen lieu chinh: Thịt ba chỉ bò, Rau mầm\nGia vi: Tỏi, Ớt, Nước cốt chanh, Dầu hào, Dầu ăn, Nước tương, Nước mắm, Muối, Đường, Bột ngọt, Hạt nêm, Tiêu"
+        },
+        {
+          "id": "dish6694_b_ingredients",
+          "score": 0.847932,
+          "entity_id": "dish6694",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt bò cuộn nấm kim châm sốt cà chua",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Thịt bò cuộn nấm kim châm sốt cà chua\nNguyen lieu chinh: Ba chỉ bò, Nấm kim châm\nNguyen lieu phu: Cà chua\nGia vi: Ớt chuông, Hành tỏi băm, Tương ớt, Nước mắm, Dầu ăn, Muối, Hạt nêm, Tiêu xay, Đường, Bột ngọt"
+        },
+        {
+          "id": "dish5960_b_ingredients",
+          "score": 0.84729,
+          "entity_id": "dish5960",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Mực kho thịt ba chỉ",
+          "name_en": "",
+          "category": "mon kho",
+          "text": "Mon: Mực kho thịt ba chỉ\nNguyen lieu chinh: Mực tươi, Thịt ba chỉ, Hành tím\nNguyen lieu phu: Hành lá\nGia vi: Ớt tươi, Tương đen, Tương ớt, Nước mắm, Dầu hào, Dầu ăn, Giấm ăn, Muối, Hạt nêm, Đường, Bột ngọt"
+        },
+        {
+          "id": "dish3925_b_ingredients",
+          "score": 0.847266,
+          "entity_id": "dish3925",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Thịt ba chỉ nướng Hàn Quốc",
+          "name_en": "",
+          "category": "mon nuong",
+          "text": "Mon: Thịt ba chỉ nướng Hàn Quốc\nNguyen lieu chinh: Thịt ba chỉ heo, Hành lá\nNguyen lieu phu: Mè rang, Dầu mè, Rau sống\nGia vi: Đường cát, Tương đậu Doenjang, Tương ớt Gochujang, Nước tương, Tỏi băm, Ớt khô"
+        },
+        {
+          "id": "dish8683_b_ingredients",
+          "score": 0.847234,
+          "entity_id": "dish8683",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Bò bít tết sốt rượu vang",
+          "name_en": "",
+          "category": "mon tu bo",
+          "text": "Mon: Bò bít tết sốt rượu vang\nNguyen lieu chinh: Thịt bò\nNguyen lieu phu: Cỏ xạ hương, Bơ chảy, Bơ lạt\nGia vi: Bột mì, Rượu vang đỏ, Muối/Tiêu xay, Dầu ăn"
+        },
+        {
+          "id": "dish7185_b_ingredients",
+          "score": 0.84711,
+          "entity_id": "dish7185",
+          "type": "dish",
+          "doc_type": "b_ingredients",
+          "name_vi": "Ba chỉ chiên vừng",
+          "name_en": "",
+          "category": "mon chien",
+          "text": "Mon: Ba chỉ chiên vừng\nNguyen lieu chinh: Thịt ba chỉ\nNguyen lieu phu: Vừng trắng\nGia vi: Bột ớt, Trứng gà, Dầu ăn, Bột chiên giòn, Bột ngũ vị hương, Tiêu xay, Bột tỏi, Nước tương, Dầu hào, Muối, Giấm"
+        }
+      ],
+      "grouped_count": 10,
+      "grouped_matches": [
+        {
+          "entity_id": "dish3864",
+          "type": "dish",
+          "name_vi": "Ba chỉ bò nướng sa tế",
+          "name_en": "",
+          "category": "mon nuong",
+          "best_score": 0.864911,
+          "matched_docs": [
+            {
+              "id": "dish3864_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.864911,
+              "text": "Mon: Ba chỉ bò nướng sa tế\nNguyen lieu chinh: Thịt ba chỉ bò, Ngò, Sả\nNguyen lieu phu: Hành tím, Hành tây, Mật ong, Siro ngô\nGia vi: Ớt sừng xanh, Ớt sừng đỏ, Tỏi, Sa tế, Nước tương, Nước mắm, Nước cốt chanh, Đường, Hạt nêm, Tiêu"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6838",
+          "type": "dish",
+          "name_vi": "Thịt ba chỉ cuộn bì chiên giòn",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.864591,
+          "matched_docs": [
+            {
+              "id": "dish6838_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.864591,
+              "text": "Mon: Thịt ba chỉ cuộn bì chiên giòn\nNguyen lieu chinh: Thịt ba chỉ\nGia vi: Ngũ vị hương, Muối, Giấm, Tiêu"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish5853",
+          "type": "dish",
+          "name_vi": "Cá basa kho thịt ba chỉ",
+          "name_en": "",
+          "category": "mon kho",
+          "best_score": 0.862292,
+          "matched_docs": [
+            {
+              "id": "dish5853_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.862292,
+              "text": "Mon: Cá basa kho thịt ba chỉ\nNguyen lieu chinh: Cá basa, Thịt ba chỉ\nNguyen lieu phu: Nước dừa tươi, Hành lá cắt nhỏ\nGia vi: Hành tím băm, Tỏi băm, Ớt hiểm, Nước mắm, Nước cốt chanh/giấm, Muối, Đường, Hạt nêm, Tiêu, Bột ngọt"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish4162",
+          "type": "dish",
+          "name_vi": "Ba chỉ bò cuộn nấm kim châm nướng",
+          "name_en": "",
+          "category": "mon nuong",
+          "best_score": 0.861796,
+          "matched_docs": [
+            {
+              "id": "dish4162_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.861796,
+              "text": "Mon: Ba chỉ bò cuộn nấm kim châm nướng\nNguyen lieu chinh: Ba chỉ bò Mỹ, Nấm kim châm\nGia vi: Hành tím băm, Dầu hào, Nước tương, Dầu ăn, Hạt nêm, Muối, Đường, Tiêu xay"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish8627",
+          "type": "dish",
+          "name_vi": "Ba chỉ bò cuộn nấm kim châm",
+          "name_en": "",
+          "category": "mon tu bo",
+          "best_score": 0.860876,
+          "matched_docs": [
+            {
+              "id": "dish8627_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.860876,
+              "text": "Mon: Ba chỉ bò cuộn nấm kim châm\nNguyen lieu chinh: Ba chỉ bò\nNguyen lieu phu: Nấm kim châm\nGia vi: Ớt chuông, Dầu ăn, Hạt nêm, Muối, Tiêu xay"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish5994",
+          "type": "dish",
+          "name_vi": "Cá bống kho thịt ba chỉ",
+          "name_en": "",
+          "category": "mon kho",
+          "best_score": 0.857009,
+          "matched_docs": [
+            {
+              "id": "dish5994_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.857009,
+              "text": "Mon: Cá bống kho thịt ba chỉ\nNguyen lieu chinh: Cá bống, Thịt ba chỉ, Hành lá\nNguyen lieu phu: Hành tím, Nước dừa\nGia vi: Ớt, Nước mắm, Dầu ăn, Tiêu, Đường, Hạt nêm, Muối"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish7403",
+          "type": "dish",
+          "name_vi": "Thịt ba chỉ áp chảo da giòn sốt balsamic",
+          "name_en": "",
+          "category": "mon chien",
+          "best_score": 0.856891,
+          "matched_docs": [
+            {
+              "id": "dish7403_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.856891,
+              "text": "Mon: Thịt ba chỉ áp chảo da giòn sốt balsamic\nNguyen lieu chinh: Thịt ba rọi\nNguyen lieu phu: Mật ong\nGia vi: Dầu ăn, Tỏi băm, Nước tương, Giấm balsamic"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish3929",
+          "type": "dish",
+          "name_vi": "Thịt ba chỉ 1 nắng chiên giòn",
+          "name_en": "",
+          "category": "mon nuong",
+          "best_score": 0.855545,
+          "matched_docs": [
+            {
+              "id": "dish3929_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.855545,
+              "text": "Mon: Thịt ba chỉ 1 nắng chiên giòn\nNguyen lieu chinh: Thịt ba chỉ, Sả\nNguyen lieu phu: Dầu điều\nGia vi: Tỏi, Ngũ vị hương, Ớt bột, Dầu ăn, Nước mắm, Muối, Đường, Hạt nêm, Bột ngọt, Tiêu"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish6218",
+          "type": "dish",
+          "name_vi": "Thịt ba chỉ kho dưa chua",
+          "name_en": "",
+          "category": "mon kho",
+          "best_score": 0.854996,
+          "matched_docs": [
+            {
+              "id": "dish6218_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.854996,
+              "text": "Mon: Thịt ba chỉ kho dưa chua\nNguyen lieu chinh: Thịt ba chỉ heo, Dưa chua, Hành tím\nGia vi: Ớt tươi, Nước mắm, Dầu ăn, Muối, Đường, Bột ngọt, Hạt nêm, Tiêu xay"
+            }
+          ]
+        },
+        {
+          "entity_id": "dish3969",
+          "type": "dish",
+          "name_vi": "Bò cuộn nấm kim châm bằng nồi chiên không dầu",
+          "name_en": "",
+          "category": "mon nuong",
+          "best_score": 0.854368,
+          "matched_docs": [
+            {
+              "id": "dish3969_b_ingredients",
+              "doc_type": "b_ingredients",
+              "score": 0.854368,
+              "text": "Mon: Bò cuộn nấm kim châm bằng nồi chiên không dầu\nNguyen lieu: Ba chỉ bò Mỹ, Nấm kim châm\nGia vi: Muối"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "original": "nguyên liệu rau răm",
+        "cleaned": "nguyên liệu rau răm",
+        "lowercased": "nguyên liệu rau răm",
+        "normalized": "nguyen lieu rau ram",
+        "intent": "ingredient"
+      },
+      "settings": {
+        "top_k": 10,
+        "grouped": true,
+        "type_filter": "ingredient",
+        "category_filter": null
+      },
+      "raw_matches_count": 40,
+      "raw_matches": [
+        {
+          "id": "ingre05363",
+          "score": 0.870181,
+          "entity_id": "ingre05363",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm ăn kèm và lạc rang",
+          "name_en": "Coriander and Fried Peanuts",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm ăn kèm và lạc rang\nTen tieng Anh: Coriander and Fried Peanuts\nTen chuan hoa: rau ram an kem va lac rang\nTu dong nghia: rau mùi, mùi, lạc phay\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05356",
+          "score": 0.863491,
+          "entity_id": "ingre05356",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau quế/ rau răm",
+          "name_en": "Cilantro",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau quế/ rau răm\nTen tieng Anh: Cilantro\nTen chuan hoa: rau que rau ram\nTu dong nghia: rừng răm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05361",
+          "score": 0.861305,
+          "entity_id": "ingre05361",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm và hành lá",
+          "name_en": "Coriander and cilantro",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm và hành lá\nTen tieng Anh: Coriander and cilantro\nTen chuan hoa: rau ram va hanh la\nTu dong nghia: rau thơm, hành mùi\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05362",
+          "score": 0.860455,
+          "entity_id": "ingre05362",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm và húng quế",
+          "name_en": "Coriander and Sage",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm và húng quế\nTen tieng Anh: Coriander and Sage\nTen chuan hoa: rau ram va hung que\nTu dong nghia: răm, quế\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05370",
+          "score": 0.85921,
+          "entity_id": "ingre05370",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/ thì là",
+          "name_en": "Parsley/Coriander",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ thì là\nTen tieng Anh: Parsley/Coriander\nTen chuan hoa: rau ram thi la\nTu dong nghia: răm, là\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02708",
+          "score": 0.857869,
+          "entity_id": "ingre02708",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành lá/ rau răm/ rau ngổ/ rau húng",
+          "name_en": "Parsley/Cilantro/Mugwort/Garlic Chives",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành lá/ rau răm/ rau ngổ/ rau húng\nTen tieng Anh: Parsley/Cilantro/Mugwort/Garlic Chives\nTen chuan hoa: hanh la rau ram rau ngo rau hung\nTu dong nghia: rau thơm, rau mùi, rau sống\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05359",
+          "score": 0.857501,
+          "entity_id": "ingre05359",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm",
+          "name_en": "Vietnamese coriander",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm\nTen tieng Anh: Vietnamese coriander\nTen chuan hoa: rau ram\nTu dong nghia: răm, răm đắng\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05366",
+          "score": 0.857318,
+          "entity_id": "ingre05366",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/ hành lá",
+          "name_en": "Parsley/Cilantro",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ hành lá\nTen tieng Anh: Parsley/Cilantro\nTen chuan hoa: rau ram hanh la\nTu dong nghia: hành lá, rau mùi, rau thơm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05365",
+          "score": 0.856889,
+          "entity_id": "ingre05365",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/ dưa chuột ăn kèm",
+          "name_en": "Coriander/Cucumber",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ dưa chuột ăn kèm\nTen tieng Anh: Coriander/Cucumber\nTen chuan hoa: rau ram dua chuot an kem\nTu dong nghia: dưa leo\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05272",
+          "score": 0.85657,
+          "entity_id": "ingre05272",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau húng/ rau răm",
+          "name_en": "Parsley",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau húng/ rau răm\nTen tieng Anh: Parsley\nTen chuan hoa: rau hung rau ram\nTu dong nghia: rừng răm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05360",
+          "score": 0.855294,
+          "entity_id": "ingre05360",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm băm nhuyễn",
+          "name_en": "Mint",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm băm nhuyễn\nTen tieng Anh: Mint\nTen chuan hoa: rau ram bam nhuyen\nTu dong nghia: rau thơm băm nhuyễn\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05371",
+          "score": 0.855218,
+          "entity_id": "ingre05371",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/húng quế",
+          "name_en": "Cilantro",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/húng quế\nTen tieng Anh: Cilantro\nTen chuan hoa: rau ram hung que\nTu dong nghia: húng thơm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05368",
+          "score": 0.854711,
+          "entity_id": "ingre05368",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/ lá quế",
+          "name_en": "Cilantro/Leaves of Bay Laurel",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ lá quế\nTen tieng Anh: Cilantro/Leaves of Bay Laurel\nTen chuan hoa: rau ram la que\nTu dong nghia: lá lốt\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05364",
+          "score": 0.854027,
+          "entity_id": "ingre05364",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm.",
+          "name_en": "Vietnamese coriander",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm.\nTen tieng Anh: Vietnamese coriander\nTen chuan hoa: rau ram\nTu dong nghia: răm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre02721",
+          "score": 0.85329,
+          "entity_id": "ingre02721",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành lá/rau răm",
+          "name_en": "Parsley/Garlic Chives",
+          "category": "others",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành lá/rau răm\nTen tieng Anh: Parsley/Garlic Chives\nTen chuan hoa: hanh la rau ram\nTu dong nghia: rau thơm, rau mùi\nDanh muc: others"
+        },
+        {
+          "id": "ingre06238",
+          "score": 0.852488,
+          "entity_id": "ingre06238",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "thì là/rau răm",
+          "name_en": "Thai basil/rumex rivularis",
+          "category": "others",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: thì là/rau răm\nTen tieng Anh: Thai basil/rumex rivularis\nTen chuan hoa: thi la rau ram\nTu dong nghia: rau ngò, ngò, rau thơm\nDanh muc: others"
+        },
+        {
+          "id": "ingre02707",
+          "score": 0.852467,
+          "entity_id": "ingre02707",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "hành lá/ rau răm",
+          "name_en": "Parsley/Cilantro",
+          "category": "others",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: hành lá/ rau răm\nTen tieng Anh: Parsley/Cilantro\nTen chuan hoa: hanh la rau ram\nTu dong nghia: rau thơm, rau mùi\nDanh muc: others"
+        },
+        {
+          "id": "ingre05357",
+          "score": 0.85158,
+          "entity_id": "ingre05357",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau râm",
+          "name_en": "Vietnamese coriander",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau râm\nTen tieng Anh: Vietnamese coriander\nTen chuan hoa: rau ram\nTu dong nghia: rau răm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre04955",
+          "score": 0.84934,
+          "entity_id": "ingre04955",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "nấm rơm băm nhỏ",
+          "name_en": "Shiitake Mushrooms Finely Chopped",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: nấm rơm băm nhỏ\nTen tieng Anh: Shiitake Mushrooms Finely Chopped\nTen chuan hoa: nam rom bam nho\nTu dong nghia: nấm rơm, nấm đùi gà, nấm hương băm nhỏ\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05372",
+          "score": 0.848821,
+          "entity_id": "ingre05372",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau rắm",
+          "name_en": "Vietnamese coriander",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau rắm\nTen tieng Anh: Vietnamese coriander\nTen chuan hoa: rau ram\nTu dong nghia: rau diếp cá\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05413",
+          "score": 0.848642,
+          "entity_id": "ingre05413",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau xà lách roman",
+          "name_en": "Romaine Lettuce",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau xà lách roman\nTen tieng Anh: Romaine Lettuce\nTen chuan hoa: rau xa lach roman\nTu dong nghia: ruc xà lách, xà lách, ruc roman\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05367",
+          "score": 0.847862,
+          "entity_id": "ingre05367",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/ húng lủi/ diếp cá",
+          "name_en": "Parsley/Cilantro/Cress",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ húng lủi/ diếp cá\nTen tieng Anh: Parsley/Cilantro/Cress\nTen chuan hoa: rau ram hung lui diep ca\nTu dong nghia: rau diếp, húng quế\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05600",
+          "score": 0.846854,
+          "entity_id": "ingre05600",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rạm",
+          "name_en": "Centella",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rạm\nTen tieng Anh: Centella\nTen chuan hoa: ram\nTu dong nghia: rựa\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre00220",
+          "score": 0.846708,
+          "entity_id": "ingre00220",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "bánh đa cuốn chả ram",
+          "name_en": "Spring roll wrapper with pork floss",
+          "category": "grains_staples",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: bánh đa cuốn chả ram\nTen tieng Anh: Spring roll wrapper with pork floss\nTen chuan hoa: banh da cuon cha ram\nTu dong nghia: bột gạo, bánh tráng, chả lụa\nDanh muc: grains_staples"
+        },
+        {
+          "id": "ingre05369",
+          "score": 0.845871,
+          "entity_id": "ingre05369",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau răm/ ngò rí",
+          "name_en": "Parsley",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ ngò rí\nTen tieng Anh: Parsley\nTen chuan hoa: rau ram ngo ri\nTu dong nghia: ngò, ngò đắng\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre04957",
+          "score": 0.845369,
+          "entity_id": "ingre04957",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "nấm rơm thái nhỏ",
+          "name_en": "Shiitake mushroom slices",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: nấm rơm thái nhỏ\nTen tieng Anh: Shiitake mushroom slices\nTen chuan hoa: nam rom thai nho\nTu dong nghia: nấm hương, nấm đùi gà\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre00361",
+          "score": 0.845276,
+          "entity_id": "ingre00361",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "bún tươi/ rau ăn kèm/ hành phi",
+          "name_en": "Fresh vermicelli / accompaniment vegetables / fried shallots",
+          "category": "grains_staples",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: bún tươi/ rau ăn kèm/ hành phi\nTen tieng Anh: Fresh vermicelli / accompaniment vegetables / fried shallots\nTen chuan hoa: bun tuoi rau an kem hanh phi\nTu dong nghia: bột ngọt, mì chính, hành tím\nDanh muc: grains_staples"
+        },
+        {
+          "id": "ingre03983",
+          "score": 0.844369,
+          "entity_id": "ingre03983",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "mì ramen",
+          "name_en": "Ramen noodles",
+          "category": "grains_staples",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: mì ramen\nTen tieng Anh: Ramen noodles\nTen chuan hoa: mi ramen\nTu dong nghia: mì sợi Nhật Bản\nDanh muc: grains_staples"
+        },
+        {
+          "id": "ingre07367",
+          "score": 0.843932,
+          "entity_id": "ingre07367",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "xà lách roman",
+          "name_en": "Romaine lettuce",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: xà lách roman\nTen tieng Anh: Romaine lettuce\nTen chuan hoa: xa lach roman\nTu dong nghia: rucotta\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre04911",
+          "score": 0.843899,
+          "entity_id": "ingre04911",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "nấm hương - nấm rơm - nấm kim châm",
+          "name_en": "Shiitake - Straw - Bamboo Shoots",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: nấm hương - nấm rơm - nấm kim châm\nTen tieng Anh: Shiitake - Straw - Bamboo Shoots\nTen chuan hoa: nam huong nam rom nam kim cham\nTu dong nghia: nấm hương, nấm rơm, nấm kim châm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre07352",
+          "score": 0.843853,
+          "entity_id": "ingre07352",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "xà lách & rau thơm & dưa leo",
+          "name_en": "Lettuce & Herb & Cucumber",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: xà lách & rau thơm & dưa leo\nTen tieng Anh: Lettuce & Herb & Cucumber\nTen chuan hoa: xa lach rau thom dua leo\nTu dong nghia: xà lách iceberg, rau mùi, rau húng quế\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05438",
+          "score": 0.84335,
+          "entity_id": "ingre05438",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "riềng băm",
+          "name_en": "Garlic Paste",
+          "category": "seasonings",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: riềng băm\nTen tieng Anh: Garlic Paste\nTen chuan hoa: rieng bam\nTu dong nghia: riềng xắt nhuyễn\nDanh muc: seasonings"
+        },
+        {
+          "id": "ingre05414",
+          "score": 0.842443,
+          "entity_id": "ingre05414",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau xà lách xoong",
+          "name_en": "Spring Salad Greens",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau xà lách xoong\nTen tieng Anh: Spring Salad Greens\nTen chuan hoa: rau xa lach xoong\nTu dong nghia: xà lách xoong\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre05601",
+          "score": 0.842126,
+          "entity_id": "ingre05601",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rạm tươi",
+          "name_en": "Fresh shrimp",
+          "category": "fresh_fruits",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rạm tươi\nTen tieng Anh: Fresh shrimp\nTen chuan hoa: ram tuoi\nTu dong nghia: mật gấu bear's paw\nDanh muc: fresh_fruits"
+        },
+        {
+          "id": "ingre07202",
+          "score": 0.842114,
+          "entity_id": "ingre07202",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "vắt mì ramen",
+          "name_en": "Noodle juice",
+          "category": "grains_staples",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: vắt mì ramen\nTen tieng Anh: Noodle juice\nTen chuan hoa: vat mi ramen\nTu dong nghia: mì ramen, mì udon, mì sợi\nDanh muc: grains_staples"
+        },
+        {
+          "id": "ingre01914",
+          "score": 0.842045,
+          "entity_id": "ingre01914",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "củ riềng băm",
+          "name_en": "GalangalPaste",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: củ riềng băm\nTen tieng Anh: GalangalPaste\nTen chuan hoa: cu rieng bam\nTu dong nghia: riềng băm\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre07323",
+          "score": 0.841993,
+          "entity_id": "ingre07323",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "xà lách/ rau thơm",
+          "name_en": "Leafy Greens/Herbs",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: xà lách/ rau thơm\nTen tieng Anh: Leafy Greens/Herbs\nTen chuan hoa: xa lach rau thom\nTu dong nghia: rau má\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre07353",
+          "score": 0.841795,
+          "entity_id": "ingre07353",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "xà lách & rau thơm & xoài",
+          "name_en": "Lettuce & Herb & Mango",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: xà lách & rau thơm & xoài\nTen tieng Anh: Lettuce & Herb & Mango\nTen chuan hoa: xa lach rau thom xoai\nTu dong nghia: xà lách iceberg, rau mùi, rau húng quế\nDanh muc: vegetables"
+        },
+        {
+          "id": "ingre06620",
+          "score": 0.841735,
+          "entity_id": "ingre06620",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "tiêu hạt rang",
+          "name_en": "Roasted Cayenne Pepper Seeds",
+          "category": "snacks",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: tiêu hạt rang\nTen tieng Anh: Roasted Cayenne Pepper Seeds\nTen chuan hoa: tieu hat rang\nTu dong nghia: tắc kè, tiêu đen\nDanh muc: snacks"
+        },
+        {
+          "id": "ingre05231",
+          "score": 0.841648,
+          "entity_id": "ingre05231",
+          "type": "ingredient",
+          "doc_type": "ingredient_doc",
+          "name_vi": "rau cải mầm",
+          "name_en": "Mung Bean Sprout Greens",
+          "category": "vegetables",
+          "text": "Loai: nguyen lieu\nTen nguyen lieu: rau cải mầm\nTen tieng Anh: Mung Bean Sprout Greens\nTen chuan hoa: rau cai mam\nTu dong nghia: mầm cải\nDanh muc: vegetables"
+        }
+      ],
+      "grouped_count": 10,
+      "grouped_matches": [
+        {
+          "entity_id": "ingre05363",
+          "type": "ingredient",
+          "name_vi": "rau răm ăn kèm và lạc rang",
+          "name_en": "Coriander and Fried Peanuts",
+          "category": "vegetables",
+          "best_score": 0.870181,
+          "matched_docs": [
+            {
+              "id": "ingre05363",
+              "doc_type": "ingredient_doc",
+              "score": 0.870181,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm ăn kèm và lạc rang\nTen tieng Anh: Coriander and Fried Peanuts\nTen chuan hoa: rau ram an kem va lac rang\nTu dong nghia: rau mùi, mùi, lạc phay\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05356",
+          "type": "ingredient",
+          "name_vi": "rau quế/ rau răm",
+          "name_en": "Cilantro",
+          "category": "vegetables",
+          "best_score": 0.863491,
+          "matched_docs": [
+            {
+              "id": "ingre05356",
+              "doc_type": "ingredient_doc",
+              "score": 0.863491,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau quế/ rau răm\nTen tieng Anh: Cilantro\nTen chuan hoa: rau que rau ram\nTu dong nghia: rừng răm\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05361",
+          "type": "ingredient",
+          "name_vi": "rau răm và hành lá",
+          "name_en": "Coriander and cilantro",
+          "category": "vegetables",
+          "best_score": 0.861305,
+          "matched_docs": [
+            {
+              "id": "ingre05361",
+              "doc_type": "ingredient_doc",
+              "score": 0.861305,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm và hành lá\nTen tieng Anh: Coriander and cilantro\nTen chuan hoa: rau ram va hanh la\nTu dong nghia: rau thơm, hành mùi\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05362",
+          "type": "ingredient",
+          "name_vi": "rau răm và húng quế",
+          "name_en": "Coriander and Sage",
+          "category": "vegetables",
+          "best_score": 0.860455,
+          "matched_docs": [
+            {
+              "id": "ingre05362",
+              "doc_type": "ingredient_doc",
+              "score": 0.860455,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm và húng quế\nTen tieng Anh: Coriander and Sage\nTen chuan hoa: rau ram va hung que\nTu dong nghia: răm, quế\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05370",
+          "type": "ingredient",
+          "name_vi": "rau răm/ thì là",
+          "name_en": "Parsley/Coriander",
+          "category": "vegetables",
+          "best_score": 0.85921,
+          "matched_docs": [
+            {
+              "id": "ingre05370",
+              "doc_type": "ingredient_doc",
+              "score": 0.85921,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ thì là\nTen tieng Anh: Parsley/Coriander\nTen chuan hoa: rau ram thi la\nTu dong nghia: răm, là\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre02708",
+          "type": "ingredient",
+          "name_vi": "hành lá/ rau răm/ rau ngổ/ rau húng",
+          "name_en": "Parsley/Cilantro/Mugwort/Garlic Chives",
+          "category": "vegetables",
+          "best_score": 0.857869,
+          "matched_docs": [
+            {
+              "id": "ingre02708",
+              "doc_type": "ingredient_doc",
+              "score": 0.857869,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: hành lá/ rau răm/ rau ngổ/ rau húng\nTen tieng Anh: Parsley/Cilantro/Mugwort/Garlic Chives\nTen chuan hoa: hanh la rau ram rau ngo rau hung\nTu dong nghia: rau thơm, rau mùi, rau sống\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05359",
+          "type": "ingredient",
+          "name_vi": "rau răm",
+          "name_en": "Vietnamese coriander",
+          "category": "vegetables",
+          "best_score": 0.857501,
+          "matched_docs": [
+            {
+              "id": "ingre05359",
+              "doc_type": "ingredient_doc",
+              "score": 0.857501,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm\nTen tieng Anh: Vietnamese coriander\nTen chuan hoa: rau ram\nTu dong nghia: răm, răm đắng\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05366",
+          "type": "ingredient",
+          "name_vi": "rau răm/ hành lá",
+          "name_en": "Parsley/Cilantro",
+          "category": "vegetables",
+          "best_score": 0.857318,
+          "matched_docs": [
+            {
+              "id": "ingre05366",
+              "doc_type": "ingredient_doc",
+              "score": 0.857318,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ hành lá\nTen tieng Anh: Parsley/Cilantro\nTen chuan hoa: rau ram hanh la\nTu dong nghia: hành lá, rau mùi, rau thơm\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05365",
+          "type": "ingredient",
+          "name_vi": "rau răm/ dưa chuột ăn kèm",
+          "name_en": "Coriander/Cucumber",
+          "category": "vegetables",
+          "best_score": 0.856889,
+          "matched_docs": [
+            {
+              "id": "ingre05365",
+              "doc_type": "ingredient_doc",
+              "score": 0.856889,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau răm/ dưa chuột ăn kèm\nTen tieng Anh: Coriander/Cucumber\nTen chuan hoa: rau ram dua chuot an kem\nTu dong nghia: dưa leo\nDanh muc: vegetables"
+            }
+          ]
+        },
+        {
+          "entity_id": "ingre05272",
+          "type": "ingredient",
+          "name_vi": "rau húng/ rau răm",
+          "name_en": "Parsley",
+          "category": "vegetables",
+          "best_score": 0.85657,
+          "matched_docs": [
+            {
+              "id": "ingre05272",
+              "doc_type": "ingredient_doc",
+              "score": 0.85657,
+              "text": "Loai: nguyen lieu\nTen nguyen lieu: rau húng/ rau răm\nTen tieng Anh: Parsley\nTen chuan hoa: rau hung rau ram\nTu dong nghia: rừng răm\nDanh muc: vegetables"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
