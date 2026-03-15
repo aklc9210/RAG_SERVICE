@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07200.json",
   "name_vi": "vảy cá trắm",
-  "name_en": "Fish scale片",
+  "name_en": "",
   "name_normalized": "vay ca tram",
   "synonyms": [
     "vảy cá"
@@ -12,6 +12,9 @@
     "vay ca"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

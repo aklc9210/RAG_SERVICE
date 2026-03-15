@@ -63,8 +63,7 @@
     "Fresh cream",
     "Dark chocolate",
     "Table Salt",
-    "Sugar Powder",
-    "Vernonia花粉"
+    "Sugar Powder"
   ],
   "ingredient_names_normalized": [
     "trung ga co lon",
@@ -82,7 +81,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

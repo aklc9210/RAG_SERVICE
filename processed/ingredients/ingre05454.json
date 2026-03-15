@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05454.json",
   "name_vi": "rong biển cắt sợi",
-  "name_en": "Kelp丝状切片",
+  "name_en": "",
   "name_normalized": "rong bien cat soi",
   "synonyms": [
     "tảo biển cắt sợi"
@@ -12,6 +12,9 @@
     "tao bien cat soi"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

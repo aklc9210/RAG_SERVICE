@@ -35,7 +35,6 @@
     "Banana",
     "Rice glutinous",
     "Coconut milk",
-    "Arrowroot粉",
     "Banana leaf"
   ],
   "ingredient_names_normalized": [
@@ -47,7 +46,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

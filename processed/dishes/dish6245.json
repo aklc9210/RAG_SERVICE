@@ -53,7 +53,6 @@
     "Đường"
   ],
   "ingredient_names_en": [
-    "Pond罗非鱼 (Note: This is a direct translation based on the Vietnamese name \"cá rô đồng\". The exact English name might vary",
     "Soy sauce",
     "Lemongrass",
     "Ginger",
@@ -82,7 +81,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

@@ -47,9 +47,6 @@
   ],
   "ingredient_names_en": [
     "Oatmeal Powder",
-    "Cinnamon粉",
-    "Baking Powder",
-    "Baking soda",
     "Banana",
     "Coconut oil",
     "Honey",
@@ -72,6 +69,8 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],
   "correction_log": []

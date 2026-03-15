@@ -90,10 +90,8 @@
   "ingredient_names_en": [
     "All-purpose flour",
     "Gelatin powder",
-    "Cinnamon粉",
     "Ginger powder",
     "Cinnamon powder",
-    "Basil粉",
     "Baking powder",
     "Baking soda",
     "Ginger cookie",
@@ -142,6 +140,8 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],
   "correction_log": []

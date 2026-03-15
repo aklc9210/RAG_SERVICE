@@ -39,8 +39,7 @@
     "Mustard greens",
     "Chicken egg",
     "Sausage",
-    "Chicken mushroom",
-    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains"
+    "Chicken mushroom"
   ],
   "ingredient_names_normalized": [
     "mi tron miliket",
@@ -53,6 +52,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

@@ -25,7 +25,6 @@
   ],
   "ingredient_names_en": [
     "Canned Cocktail Fruit",
-    "All-purpose cream -> Sour cream",
     "Sweetened Condensed Milk"
   ],
   "ingredient_names_normalized": [
@@ -36,6 +35,7 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],

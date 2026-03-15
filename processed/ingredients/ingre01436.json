@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01436.json",
   "name_vi": "cà rốt thái sợi",
-  "name_en": "Carrot丝状丁",
+  "name_en": "",
   "name_normalized": "ca rot thai soi",
   "synonyms": [
     "sợi cà rốt"
@@ -12,6 +12,9 @@
     "soi ca rot"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

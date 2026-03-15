@@ -47,7 +47,6 @@
     "Chicken egg",
     "Onion",
     "Chives",
-    "Pate -> Pâté",
     "Ground pepper",
     "Hot Sauce",
     "Soy Sauce",
@@ -68,6 +67,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

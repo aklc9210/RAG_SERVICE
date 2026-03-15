@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05581.json",
   "name_vi": "rượu trắng và rượu mai quế lộ",
-  "name_en": "White wine and Mai Khiết露酒",
+  "name_en": "",
   "name_normalized": "ruou trang va ruou mai que lo",
   "synonyms": [
     "rượu vang",
@@ -14,6 +14,9 @@
     "ruou hoa qua"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

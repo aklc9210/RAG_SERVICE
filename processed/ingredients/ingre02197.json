@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02197.json",
   "name_vi": "dừa sợi bào nhỏ",
-  "name_en": "Coconut丝状丝条",
+  "name_en": "",
   "name_normalized": "dua soi bao nho",
   "synonyms": [
     "dừa nạo nhỏ"
@@ -12,6 +12,9 @@
     "dua nao nho"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

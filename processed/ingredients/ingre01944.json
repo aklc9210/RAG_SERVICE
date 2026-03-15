@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01944.json",
   "name_vi": "dashi",
-  "name_en": "No translation needed as \"dashi\" is already in English. It refers to 大豆 (soybean broth) in Japanese cuisine.",
+  "name_en": "",
   "name_normalized": "dashi",
   "synonyms": [
     "đao phay"
@@ -12,6 +12,9 @@
     "dao phay"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

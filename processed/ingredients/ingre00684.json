@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00684.json",
   "name_vi": "bột há cảo",
-  "name_en": "Shrimp粉",
+  "name_en": "",
   "name_normalized": "bot ha cao",
   "synonyms": [
     "bột đế",
@@ -14,6 +14,9 @@
     "bot vo dumpling"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

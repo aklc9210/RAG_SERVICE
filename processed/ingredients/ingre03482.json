@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03482.json",
   "name_vi": "lá nguyện quế",
-  "name_en": "Sassafras叶",
+  "name_en": "",
   "name_normalized": "la nguyen que",
   "synonyms": [
     "lá quế"
@@ -12,6 +12,9 @@
     "la que"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

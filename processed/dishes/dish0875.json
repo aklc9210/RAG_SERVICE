@@ -61,7 +61,6 @@
   "ingredient_names_en": [
     "All-purpose flour",
     "Oreo cookie",
-    "White Chocolate Chip",
     "Brown Sugar",
     "White sugar",
     "Melted butter",
@@ -71,7 +70,6 @@
     "Salt",
     "Baking soda",
     "Baking powder",
-    "Cinnamon粉",
     "Corn starch"
   ],
   "ingredient_names_normalized": [
@@ -92,7 +90,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

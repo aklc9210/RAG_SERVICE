@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01038.json",
   "name_vi": "cacao ngòi",
-  "name_en": "Cocoa利用您的上下文，\"cacao ngòi\" 应该翻译为 \"Cocoa\". 但是，如果这是指某种特定",
+  "name_en": "",
   "name_normalized": "cacao ngoi",
   "synonyms": [
     "cacao"
@@ -12,6 +12,9 @@
     "cacao"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

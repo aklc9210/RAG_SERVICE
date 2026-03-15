@@ -39,8 +39,7 @@
     "Whipping cream",
     "Sweetened Condensed Milk",
     "Coconut milk",
-    "Roasted Peanut",
-    "Coconut丝纤维"
+    "Roasted Peanut"
   ],
   "ingredient_names_normalized": [
     "bo sap",
@@ -52,7 +51,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

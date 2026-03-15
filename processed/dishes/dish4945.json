@@ -56,8 +56,6 @@
     "Tiêu xay"
   ],
   "ingredient_names_en": [
-    "Black Ink Pasta Casa Rinaldi",
-    "Cuttlefish片预制",
     "Shrimp",
     "Tomato",
     "Tomato sauce",
@@ -87,7 +85,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

@@ -67,8 +67,7 @@
     "Lemon juice",
     "Strawberry jam",
     "Sugar Powder",
-    "Sugar",
-    "Colorful candy-decoration巧克力糖果装饰"
+    "Sugar"
   ],
   "ingredient_names_normalized": [
     "cream chesse",
@@ -87,7 +86,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

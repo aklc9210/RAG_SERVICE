@@ -51,8 +51,7 @@
     "Chicken egg",
     "Sugar",
     "Fat-free Milk",
-    "Gelatin",
-    "Kiwi -> Kiwi"
+    "Gelatin"
   ],
   "ingredient_names_normalized": [
     "bot mi",
@@ -68,6 +67,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02515.json",
   "name_vi": "gừng sợi",
-  "name_en": "Ginger丝-> Ginger丝 (Note: The original \"sợi\" refers to \"thread\" or \"strand\" in Chinese, which is why",
+  "name_en": "",
   "name_normalized": "gung soi",
   "synonyms": [
     "gừng thái sợi"
@@ -13,6 +13,7 @@
   ],
   "category": "seasonings",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

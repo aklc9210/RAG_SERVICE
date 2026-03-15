@@ -37,13 +37,11 @@
     "Đậu phộng rang giã nhỏ"
   ],
   "ingredient_names_en": [
-    "Cinnamon卷饼",
     "Dark chocolate",
     "Chocolate chip",
     "Heavy cream",
     "Coconut oil",
-    "Vanilla extract",
-    "Peanut碎片"
+    "Vanilla extract"
   ],
   "ingredient_names_normalized": [
     "banh oc que",
@@ -56,7 +54,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02495.json",
   "name_vi": "gừng băm/tỏi băm/hành băm",
-  "name_en": "Ginger minced/蒜末/洋葱末",
+  "name_en": "",
   "name_normalized": "gung bam toi bam hanh bam",
   "synonyms": [
     "gừng băm",
@@ -16,7 +16,10 @@
     "hanh bam"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": [
     {
       "field": "name_normalized",

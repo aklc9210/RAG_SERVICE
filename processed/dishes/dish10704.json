@@ -97,7 +97,6 @@
     "Beef",
     "Fresh shrimp",
     "Rib Pork",
-    "Beef丸子",
     "Shrimp",
     "Dried Shrimp",
     "Cabbage",
@@ -148,6 +147,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

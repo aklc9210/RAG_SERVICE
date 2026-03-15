@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07317.json",
   "name_vi": "whipping cream dạng bột",
-  "name_en": "Whipping cream powder",
+  "name_en": "",
   "name_normalized": "whipping cream dang bot",
   "synonyms": [
     "kem đánh"
@@ -12,6 +12,9 @@
     "kem danh"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

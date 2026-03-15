@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00547.json",
   "name_vi": "bột bánh red velvet",
-  "name_en": "Red Velvet Cake Flour",
+  "name_en": "",
   "name_normalized": "bot banh red velvet",
   "synonyms": [
     "bột bánh velvet"
@@ -12,6 +12,9 @@
     "bot banh velvet"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

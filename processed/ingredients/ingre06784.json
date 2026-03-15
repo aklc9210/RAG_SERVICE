@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06784.json",
   "name_vi": "trân châu 3q caramel",
-  "name_en": "Caramel珍珠糖",
+  "name_en": "",
   "name_normalized": "tran chau 3q caramel",
   "synonyms": [
     "trân châu caramel"
@@ -12,6 +12,9 @@
     "tran chau caramel"
   ],
   "category": "candies",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

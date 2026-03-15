@@ -96,7 +96,6 @@
   ],
   "ingredient_names_en": [
     "Rib Steak",
-    "Pate -> Pâté",
     "Sausage",
     "Green corn",
     "Mushroom",
@@ -152,6 +151,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

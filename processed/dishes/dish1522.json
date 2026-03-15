@@ -53,7 +53,6 @@
     "Bittermelon",
     "Glutinous rice flour",
     "Green Soybeans Skin-On",
-    "Coconut丝纤维",
     "White sesame",
     "Vanilla",
     "Sugar",
@@ -77,7 +76,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

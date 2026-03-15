@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00093.json",
   "name_vi": "bánh kem khuôn 15 cm",
-  "name_en": "Cake mold 15 cm",
+  "name_en": "",
   "name_normalized": "banh kem khuon 15 cm",
   "synonyms": [
     "bánh khuôn 15 cm"
@@ -12,6 +12,9 @@
     "banh khuon 15 cm"
   ],
   "category": "cakes",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

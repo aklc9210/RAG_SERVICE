@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00712.json",
   "name_vi": "bột khoai sợi",
-  "name_en": "Sago粉",
+  "name_en": "",
   "name_normalized": "bot khoai soi",
   "synonyms": [
     "bột sợi khoai môn"
@@ -12,6 +12,9 @@
     "bot soi khoai mon"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

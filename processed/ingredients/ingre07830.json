@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07830.json",
   "name_vi": "đậu tương lên men hàn quốc",
-  "name_en": "Kimchi豆腐乳",
+  "name_en": "",
   "name_normalized": "dau tuong len men han quoc",
   "synonyms": [
     "nước tương Hàn Quốc"
@@ -12,6 +12,9 @@
     "nuoc tuong han quoc"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -43,7 +43,6 @@
   "ingredient_names_en": [
     "White Rice",
     "Clean Crab Meat",
-    "Shrimp肉",
     "Cheese",
     "Chicken egg",
     "Scallion",
@@ -63,6 +62,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

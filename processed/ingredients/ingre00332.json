@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00332.json",
   "name_vi": "bột whey protein",
-  "name_en": "Whey protein powder",
+  "name_en": "",
   "name_normalized": "bot whey protein",
   "synonyms": [
     "protein whey"
@@ -12,6 +12,9 @@
     "protein whey"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -42,7 +42,6 @@
   "ingredient_names_en": [
     "Baguette",
     "Vegetable oil",
-    "Miso酱",
     "Hot Sauce",
     "Fish Sauce",
     "Shrimp paste",
@@ -61,7 +60,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

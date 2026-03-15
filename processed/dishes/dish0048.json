@@ -50,7 +50,6 @@
     "Bánh tráng sống"
   ],
   "ingredient_names_en": [
-    "Don -> Don (This doesn't seem to be a Vietnamese ingredient name. Could you please provide more context or check the spelling?)",
     "Onion",
     "Garlic",
     "Scallion",
@@ -58,8 +57,7 @@
     "Fish Sauce",
     "Seasoning",
     "Cornstarch",
-    "Stir-fried rice paper",
-    "Fresh春卷"
+    "Stir-fried rice paper"
   ],
   "ingredient_names_normalized": [
     "don",
@@ -77,6 +75,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

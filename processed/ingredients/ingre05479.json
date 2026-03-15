@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05479.json",
   "name_vi": "rong sụn gai",
-  "name_en": "刺菜",
+  "name_en": "",
   "name_normalized": "rong sun gai",
   "synonyms": [
     "rong sụn",
@@ -14,6 +14,9 @@
     "rong bien sun gai"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05785.json",
   "name_vi": "sting",
-  "name_en": "Sting does not correspond to any common Vietnamese ingredient. If you meant to provide a Vietnamese ingredient name, please clarify and I'll be happy to help",
+  "name_en": "",
   "name_normalized": "sting",
   "synonyms": [
     "cây gai",
@@ -14,6 +14,9 @@
     "display none"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

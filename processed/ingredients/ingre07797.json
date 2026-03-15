@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07797.json",
   "name_vi": "đậu phộng rang giã nhỏ",
-  "name_en": "Peanut碎片",
+  "name_en": "",
   "name_normalized": "dau phong rang gia nho",
   "synonyms": [
     "bơ lạc",
@@ -16,6 +16,9 @@
     "lac gia"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

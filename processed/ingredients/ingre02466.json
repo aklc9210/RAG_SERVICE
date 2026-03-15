@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02466.json",
   "name_vi": "gạo tẻ thơm",
-  "name_en": "香米",
+  "name_en": "",
   "name_normalized": "gao te thom",
   "synonyms": [
     "gạo thơm",
@@ -14,6 +14,9 @@
     "gao ngon"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

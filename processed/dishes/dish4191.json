@@ -46,7 +46,6 @@
   "ingredient_names_en": [
     "Mozzarella Cheese",
     "Beef tenderloin",
-    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
     "Korean chili paste",
     "Minced Garlic",
     "Soy Sauce",
@@ -68,6 +67,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

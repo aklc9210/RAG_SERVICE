@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00785.json",
   "name_vi": "bột mì số 8 hoặc bột cake flour",
-  "name_en": "Cake Flour",
+  "name_en": "",
   "name_normalized": "bot mi so 8 hoac bot cake flour",
   "synonyms": [
     "bột số 8",
@@ -16,6 +16,9 @@
     "bot micake"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

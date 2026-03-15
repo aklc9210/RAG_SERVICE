@@ -68,7 +68,6 @@
     "Pork sausage",
     "Shrimp paste",
     "Ground Beef",
-    "Shrimpガイガイ",
     "Chicken egg",
     "Dried Shrimp",
     "Pig blood",
@@ -101,7 +100,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

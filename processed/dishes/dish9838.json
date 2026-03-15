@@ -53,10 +53,8 @@
     "Cucumber",
     "Fresh Milk",
     "Sugarcane",
-    "Pandan叶",
     "Cilantro",
     "Rehmannia",
-    "Sago粉",
     "Corn starch",
     "Brown Sugar",
     "Black sugar",
@@ -77,7 +75,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

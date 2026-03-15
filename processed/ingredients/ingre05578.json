@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05578.json",
   "name_vi": "rượu trắng ngâm kỷ tử",
-  "name_en": "Rice Wine Infused with枸杞 (Goji Berries)",
+  "name_en": "",
   "name_normalized": "ruou trang ngam ky tu",
   "synonyms": [
     "rượu ngâm kỷ tử"
@@ -12,6 +12,9 @@
     "ruou ngam ky tu"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

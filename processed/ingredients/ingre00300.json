@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00300.json",
   "name_vi": "bột báng",
-  "name_en": "Arrowroot粉",
+  "name_en": "",
   "name_normalized": "bot bang",
   "synonyms": [
     "bột ngô"
@@ -12,6 +12,9 @@
     "bot ngo"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

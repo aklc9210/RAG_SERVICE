@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05076.json",
   "name_vi": "phô mai gruyere",
-  "name_en": "Gruyère",
+  "name_en": "",
   "name_normalized": "pho mai gruyere",
   "synonyms": [
     "phô mai gruyère"
@@ -12,6 +12,9 @@
     "pho mai gruyere"
   ],
   "category": "ice_cream_&_cheese",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

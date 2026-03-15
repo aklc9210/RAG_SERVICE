@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04364.json",
   "name_vi": "ngô bao tử",
-  "name_en": "Corn stomach包裹玉米胃不是常见的食物表达方式，可能是表述有误。正确的翻译可能是“甜玉米”或“corn”。请确认是否",
+  "name_en": "",
   "name_normalized": "ngo bao tu",
   "synonyms": [
     "bắp ngô"
@@ -12,6 +12,9 @@
     "bap ngo"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

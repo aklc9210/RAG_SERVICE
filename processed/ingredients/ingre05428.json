@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05428.json",
   "name_vi": "rau ăn kèm: cà tím; rau muống; mướp; bông súng; rau đắng",
-  "name_en": "Accompanying vegetables: eggplant; water spinach; bitter melon; Chinese broccoli; bitter gourd",
+  "name_en": "",
   "name_normalized": "rau an kem ca tim rau muong muop bong sung rau dang",
   "synonyms": [
     "cà tím chuối bắp",
@@ -16,7 +16,10 @@
     "bong sung hoa sung"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": [
     {
       "field": "name_normalized",

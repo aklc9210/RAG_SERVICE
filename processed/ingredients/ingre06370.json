@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06370.json",
   "name_vi": "thịt dưa hấu",
-  "name_en": "Watermelon肉",
+  "name_en": "",
   "name_normalized": "thit dua hau",
   "synonyms": [
     "dưa hấu"
@@ -12,6 +12,9 @@
     "dua hau"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

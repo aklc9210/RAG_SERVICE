@@ -80,7 +80,6 @@
     "Bột ngọt"
   ],
   "ingredient_names_en": [
-    "Goat肉",
     "Mutton Fat",
     "Lamb ribs",
     "Yam",
@@ -90,7 +89,6 @@
     "Onion",
     "Lemongrass",
     "Ginger",
-    "Dried Rose花瓣",
     "Peach Sauce",
     "Dried Pepper",
     "Basil",
@@ -128,6 +126,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

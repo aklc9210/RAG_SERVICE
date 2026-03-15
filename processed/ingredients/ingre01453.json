@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01453.json",
   "name_vi": "cành hoa hồng",
-  "name_en": "Rosa bush枝条",
+  "name_en": "",
   "name_normalized": "canh hoa hong",
   "synonyms": [
     "hoa hồng tươi"
@@ -12,6 +12,9 @@
     "hoa hong tuoi"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -39,7 +39,6 @@
   ],
   "ingredient_names_en": [
     "Ripe coconut butter",
-    "Chocolate水上翻译有些问题，正确的翻译应该是\"Water Chocolate\"或者根据具体意思可能是\"Milk Chocolate Water\"等，但通常我们直接翻译",
     "Lemon juice",
     "Sweetened Condensed Milk",
     "Whipping cream",
@@ -57,7 +56,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

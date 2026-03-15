@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00517.json",
   "name_vi": "bột bread flour",
-  "name_en": "Bread Flour",
+  "name_en": "",
   "name_normalized": "bot bread flour",
   "synonyms": [
     "bột mì dành cho bánh mì"
@@ -12,6 +12,9 @@
     "bot mi danh cho banh mi"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

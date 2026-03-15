@@ -110,7 +110,6 @@
     "Vegetarian fish sauce",
     "Lime juice",
     "Hot Sauce",
-    "Miso酱",
     "Vegetarian soy sauce",
     "Sugar"
   ],
@@ -142,7 +141,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

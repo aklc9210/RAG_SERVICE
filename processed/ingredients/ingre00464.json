@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00464.json",
   "name_vi": "bắp cải trắng bào sợi",
-  "name_en": "Cabbage丝切",
+  "name_en": "",
   "name_normalized": "bap cai trang bao soi",
   "synonyms": [
     "bắp cải trắng xắt sợi"
@@ -12,6 +12,9 @@
     "bap cai trang xat soi"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

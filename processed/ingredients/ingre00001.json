@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00001.json",
   "name_vi": "all purpose cream",
-  "name_en": "All-purpose cream -> Sour cream",
+  "name_en": "",
   "name_normalized": "all purpose cream",
   "synonyms": [
     "kem đánh trứng"
@@ -13,6 +13,7 @@
   ],
   "category": "others",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

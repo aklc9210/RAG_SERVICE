@@ -45,7 +45,6 @@
   ],
   "ingredient_names_en": [
     "Oat",
-    "Kiwi -> Kiwi",
     "Strawberry",
     "Chia Seeds",
     "Lemon",
@@ -68,6 +67,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

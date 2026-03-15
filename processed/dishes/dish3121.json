@@ -87,7 +87,6 @@
     "Glass noodle",
     "Glutinous Rice Cake",
     "Sliced cheese",
-    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
     "Ground Pork",
     "Sausage",
     "Tofu",
@@ -130,6 +129,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

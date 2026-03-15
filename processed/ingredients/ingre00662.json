@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00662.json",
   "name_vi": "bột gia vị tom yum",
-  "name_en": "Tom Yum Seasoning",
+  "name_en": "",
   "name_normalized": "bot gia vi tom yum",
   "synonyms": [
     "bột vị chua cay"
@@ -12,6 +12,9 @@
     "bot vi chua cay"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

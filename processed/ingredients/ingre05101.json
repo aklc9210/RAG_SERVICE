@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05101.json",
   "name_vi": "phô mai mozzarella và parmesan",
-  "name_en": "Mozzarella and Parmesan cheese",
+  "name_en": "",
   "name_normalized": "pho mai mozzarella va parmesan",
   "synonyms": [
     "phô mai = phô mai",
@@ -16,6 +16,9 @@
     "parmesan parmesan"
   ],
   "category": "ice_cream_&_cheese",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02937.json",
   "name_vi": "hạt dẻ cười cán vụn",
-  "name_en": "Vernonia花粉",
+  "name_en": "",
   "name_normalized": "hat de cuoi can vun",
   "synonyms": [
     "hạt điều",
@@ -16,6 +16,9 @@
     "hat de le"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01651.json",
   "name_vi": "cá viên hành ớt",
-  "name_en": "Cá viên hành ớt -> Fish dumplings with garlic and chili",
+  "name_en": "",
   "name_normalized": "ca vien hanh ot",
   "synonyms": [
     "cá viên phộng ớt"
@@ -13,6 +13,7 @@
   ],
   "category": "seafood_&_fish_balls",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

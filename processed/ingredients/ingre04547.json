@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04547.json",
   "name_vi": "nước cốt chanh/giấm",
-  "name_en": "Lime/J醋酸汁",
+  "name_en": "",
   "name_normalized": "nuoc cot chanh giam",
   "synonyms": [
     "dấm",
@@ -16,7 +16,10 @@
     "nuoc cot quyt"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
+  ],
   "correction_log": [
     {
       "field": "name_normalized",

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03477.json",
   "name_vi": "lá mơ thái nhỏ",
-  "name_en": "Mint叶",
+  "name_en": "",
   "name_normalized": "la mo thai nho",
   "synonyms": [
     "lá mơ non"
@@ -12,6 +12,9 @@
     "la mo non"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

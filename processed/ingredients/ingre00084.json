@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00084.json",
   "name_vi": "bánh dừa sấy",
-  "name_en": "Coconut片",
+  "name_en": "",
   "name_normalized": "banh dua say",
   "synonyms": [
     "bánh dừa khô"
@@ -12,6 +12,9 @@
     "banh dua kho"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

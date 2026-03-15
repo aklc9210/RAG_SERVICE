@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03984.json",
   "name_vi": "mì ramen hoặc mì udon ăn liền",
-  "name_en": "Instant ramen or instant udon",
+  "name_en": "",
   "name_normalized": "mi ramen hoac mi udon an lien",
   "synonyms": [
     "mì tôm",
@@ -14,6 +14,9 @@
     "mi chin san"
   ],
   "category": "instant_foods",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

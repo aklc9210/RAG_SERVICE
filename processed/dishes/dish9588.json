@@ -35,7 +35,6 @@
     "Cucumber",
     "Chinese Hawthorn",
     "Red apple",
-    "Pandan叶",
     "Brown Sugar"
   ],
   "ingredient_names_normalized": [
@@ -47,7 +46,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

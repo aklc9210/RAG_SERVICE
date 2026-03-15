@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03986.json",
   "name_vi": "mì ramen matcha",
-  "name_en": "Matcha Ramen Noodles",
+  "name_en": "",
   "name_normalized": "mi ramen matcha",
   "synonyms": [
     "mì sợi ramen matcha",
@@ -16,6 +16,9 @@
     "ramen matcha"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

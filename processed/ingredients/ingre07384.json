@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07384.json",
   "name_vi": "xì dầu lee kum kee",
-  "name_en": "Soy Sauce Lee Kum Kee",
+  "name_en": "",
   "name_normalized": "xi dau lee kum kee",
   "synonyms": [
     "mắm tôm"
@@ -12,6 +12,9 @@
     "mam tom"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

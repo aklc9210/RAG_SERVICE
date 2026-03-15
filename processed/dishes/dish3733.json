@@ -91,7 +91,6 @@
   "ingredient_names_en": [
     "Broken rice",
     "Pork Belly",
-    "Pandan叶",
     "Scallion",
     "Lemongrass",
     "Garlic",
@@ -142,6 +141,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

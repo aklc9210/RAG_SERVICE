@@ -60,7 +60,6 @@
     "Rice glutinous",
     "Carp",
     "Pepper",
-    "Pandan叶",
     "Peanut-colored food coloring",
     "Chili powder",
     "Garlic oil",
@@ -87,7 +86,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

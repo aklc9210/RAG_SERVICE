@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04268.json",
   "name_vi": "mực lá cắt hoa sơ chế sẵn",
-  "name_en": "Cuttlefish片预制",
+  "name_en": "",
   "name_normalized": "muc la cat hoa so che san",
   "synonyms": [
     "mực lá cắt hoa"
@@ -12,6 +12,9 @@
     "muc la cat hoa"
   ],
   "category": "seafood_&_fish_balls",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

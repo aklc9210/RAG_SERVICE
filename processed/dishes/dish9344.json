@@ -62,7 +62,6 @@
     "Heavy cream"
   ],
   "ingredient_names_en": [
-    "Crepe Mix Powder",
     "Cocoa powder",
     "Black sesame soup",
     "Egg",
@@ -72,7 +71,6 @@
     "Sugar",
     "Raspberry-flavored syrup",
     "Mango",
-    "Kiwi -> Kiwi",
     "Strawberry",
     "Papaya",
     "Fresh chocolate",
@@ -98,6 +96,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

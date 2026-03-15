@@ -43,8 +43,7 @@
     "Sweet Potato",
     "Dried shiitake mushrooms",
     "Brown Sugar",
-    "Coconut Powder",
-    "Pandan叶"
+    "Coconut Powder"
   ],
   "ingredient_names_normalized": [
     "com dua nuoc",
@@ -57,7 +56,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

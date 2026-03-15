@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05453.json",
   "name_vi": "rong biển cuộn kimbap",
-  "name_en": "Seaweed卷Kimchi",
+  "name_en": "",
   "name_normalized": "rong bien cuon kimbap",
   "synonyms": [
     "kim báp"
@@ -12,6 +12,9 @@
     "kim bap"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

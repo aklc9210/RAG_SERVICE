@@ -64,7 +64,6 @@
     "Butter",
     "Gelatin",
     "White chocolate",
-    "Topping cream -> Topping cream",
     "Matcha Tea",
     "Greek yogurt",
     "Fat-free Milk",
@@ -92,6 +91,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

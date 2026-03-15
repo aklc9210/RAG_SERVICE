@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01003.json",
   "name_vi": "bột đinh hương",
-  "name_en": "Basil粉",
+  "name_en": "",
   "name_normalized": "bot dinh huong",
   "synonyms": [
     "bột quế"
@@ -12,6 +12,9 @@
     "bot que"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07054.json",
   "name_vi": "tần dày lá",
-  "name_en": "Perilla叶",
+  "name_en": "",
   "name_normalized": "tan day la",
   "synonyms": [
     "lá húng quế"
@@ -12,6 +12,9 @@
     "la hung que"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

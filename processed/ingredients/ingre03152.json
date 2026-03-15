@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03152.json",
   "name_vi": "kem thực vật ít béo",
-  "name_en": "Low-fat植物奶Cream",
+  "name_en": "",
   "name_normalized": "kem thuc vat it beo",
   "synonyms": [
     "kem đa năng"
@@ -12,6 +12,9 @@
     "kem da nang"
   ],
   "category": "ice_cream_&_cheese",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

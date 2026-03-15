@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02525.json",
   "name_vi": "gừng xắt sợi",
-  "name_en": "Ginger丝切-> Ginger丝切 (Note: This is a direct translation of the action and ingredient. A more natural English phrasing would be",
+  "name_en": "",
   "name_normalized": "gung xat soi",
   "synonyms": [
     "gừng thái sợi"
@@ -13,6 +13,7 @@
   ],
   "category": "seasonings",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

@@ -68,7 +68,6 @@
     "Barbecue Sauce",
     "Hot Sauce",
     "Black Soy Sauce",
-    "Miso酱",
     "Honey",
     "Soy Sauce",
     "Sake Plum Ginger Wine",
@@ -96,7 +95,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02043.json",
   "name_vi": "dừa non bào sợi",
-  "name_en": "Coconut丝嫩肉丝",
+  "name_en": "",
   "name_normalized": "dua non bao soi",
   "synonyms": [
     "dừa xanh",
@@ -14,6 +14,9 @@
     "soi dua"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

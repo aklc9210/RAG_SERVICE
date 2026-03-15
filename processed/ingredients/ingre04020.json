@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04020.json",
   "name_vi": "mì ý mực đen casa rinaldi",
-  "name_en": "Black Ink Pasta Casa Rinaldi",
+  "name_en": "",
   "name_normalized": "mi y muc den casa rinaldi",
   "synonyms": [
     "mì ý",
@@ -16,6 +16,9 @@
     "muc den"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -35,8 +35,7 @@
     "Hazel Nut",
     "Fresh Milk",
     "Sugar",
-    "Vanilla",
-    "Sour cream -> Sour cream"
+    "Vanilla"
   ],
   "ingredient_names_normalized": [
     "hat hanh nhan",
@@ -48,6 +47,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

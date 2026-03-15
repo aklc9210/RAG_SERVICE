@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00206.json",
   "name_vi": "bánh tráng sống",
-  "name_en": "Fresh春卷",
+  "name_en": "",
   "name_normalized": "banh trang song",
   "synonyms": [
     "bánh tráng nướng"
@@ -12,6 +12,9 @@
     "banh trang nuong"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

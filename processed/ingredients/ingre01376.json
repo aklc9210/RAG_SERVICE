@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01376.json",
   "name_vi": "cà chua:",
-  "name_en": "Tomato ->",
+  "name_en": "",
   "name_normalized": "ca chua",
   "synonyms": [
     "dưa chua",
@@ -15,7 +15,8 @@
   ],
   "category": "vegetables",
   "audit_flags": [
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

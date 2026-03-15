@@ -62,12 +62,10 @@
     "Fat-free Milk",
     "Cooking oil",
     "All-purpose flour",
-    "Cream tar tar does not have a direct translation as it is likely a specific dish or preparation rather than a common ingredient. However, if we break it",
     "Corn starch",
     "Vanilla powder",
     "Lemongrass Extract",
     "Ginger",
-    "Pandan叶",
     "Coconut milk",
     "Butter",
     "White Sugar",
@@ -92,6 +90,8 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],
   "correction_log": []

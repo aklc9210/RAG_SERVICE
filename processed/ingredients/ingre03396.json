@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03396.json",
   "name_vi": "lá chùm ngây",
-  "name_en": "Basil叶",
+  "name_en": "",
   "name_normalized": "la chum ngay",
   "synonyms": [
     "lá đắng"
@@ -12,6 +12,9 @@
     "la dang"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

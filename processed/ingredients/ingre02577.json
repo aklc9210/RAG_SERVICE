@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02577.json",
   "name_vi": "hoa chuối thái sợi",
-  "name_en": "Banana flower丝状切片",
+  "name_en": "",
   "name_normalized": "hoa chuoi thai soi",
   "synonyms": [
     "hoa chuối xắt sợi"
@@ -12,6 +12,9 @@
     "hoa chuoi xat soi"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

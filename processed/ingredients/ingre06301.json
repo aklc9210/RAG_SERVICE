@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06301.json",
   "name_vi": "thịt bò (bắp",
-  "name_en": "Beef (Cabbage ->)",
+  "name_en": "",
   "name_normalized": "thit bo bap",
   "synonyms": [
     "bắp ngô"
@@ -13,6 +13,7 @@
   ],
   "category": "fresh_meat",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04985.json",
   "name_vi": "nếp cái hoa vàng",
-  "name_en": "Golden糯米",
+  "name_en": "",
   "name_normalized": "nep cai hoa vang",
   "synonyms": [
     "cơm nếp",
@@ -16,6 +16,9 @@
     "nep vang"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

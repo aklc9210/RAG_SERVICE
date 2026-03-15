@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01404.json",
   "name_vi": "cà phê nguyên hạt :",
-  "name_en": "Whole coffee beans ->",
+  "name_en": "",
   "name_normalized": "ca phe nguyen hat",
   "synonyms": [
     "bột cà phê",
@@ -15,6 +15,7 @@
   ],
   "category": "beverages",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

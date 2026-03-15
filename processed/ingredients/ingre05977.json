@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05977.json",
   "name_vi": "sốt miso dashi",
-  "name_en": "Miso Dashi Sauce",
+  "name_en": "",
   "name_normalized": "sot miso dashi",
   "synonyms": [
     "súp men"
@@ -12,6 +12,9 @@
     "sup men"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

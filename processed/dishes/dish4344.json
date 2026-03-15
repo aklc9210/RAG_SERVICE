@@ -53,7 +53,6 @@
   "ingredient_names_en": [
     "Broken rice",
     "Pork",
-    "Pandan叶",
     "Honey",
     "Coconut milk",
     "Lemon juice",
@@ -79,6 +78,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

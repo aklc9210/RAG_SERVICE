@@ -30,7 +30,6 @@
   ],
   "ingredient_names_en": [
     "Mint Syrup",
-    "Sting does not correspond to any common Vietnamese ingredient. If you meant to provide a Vietnamese ingredient name, please clarify and I'll be happy to help",
     "Agar powder",
     "Cheese Cow Smile"
   ],
@@ -42,7 +41,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

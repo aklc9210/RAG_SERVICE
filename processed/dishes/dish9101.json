@@ -53,7 +53,6 @@
     "Gia vị (muối/tiêu/dầu mè ăn kèm"
   ],
   "ingredient_names_en": [
-    "Shrimp肉",
     "Beef Bones",
     "Corn",
     "Chicken breast",
@@ -81,7 +80,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

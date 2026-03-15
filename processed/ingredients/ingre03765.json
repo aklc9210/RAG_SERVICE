@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03765.json",
   "name_vi": "muối hồng kông",
-  "name_en": "Hong Kong salt",
+  "name_en": "",
   "name_normalized": "muoi hong kong",
   "synonyms": [
     "mặn hong kong"
@@ -12,6 +12,9 @@
     "man hong kong"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

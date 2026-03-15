@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03640.json",
   "name_vi": "mayonnaise/ tương ớt",
-  "name_en": "Mayonnaise/ Tương ớt -> Hot sauce",
+  "name_en": "",
   "name_normalized": "mayonnaise tuong ot",
   "synonyms": [
     "tương ớt",
@@ -15,6 +15,7 @@
   ],
   "category": "seasonings",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

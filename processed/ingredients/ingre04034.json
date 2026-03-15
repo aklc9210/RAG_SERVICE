@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04034.json",
   "name_vi": "mít lột sẵn",
-  "name_en": "Pineappleリング柚子",
+  "name_en": "",
   "name_normalized": "mit lot san",
   "synonyms": [
     "mít luộc sẵn"
@@ -12,6 +12,9 @@
     "mit luoc san"
   ],
   "category": "fresh_fruits",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

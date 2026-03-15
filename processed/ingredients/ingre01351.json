@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01351.json",
   "name_vi": "cuống họng heo",
-  "name_en": "Pig's throat菜",
+  "name_en": "",
   "name_normalized": "cuong hong heo",
   "synonyms": [
     "gan heo"
@@ -12,6 +12,9 @@
     "gan heo"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

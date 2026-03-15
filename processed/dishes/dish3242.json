@@ -60,13 +60,10 @@
   ],
   "ingredient_names_en": [
     "Pennyroyal",
-    "Miso酱",
     "Hot Sauce",
-    "Soy Sauce Lee Kum Kee",
     "Soy Sauce",
     "Green onion fried",
     "Garlic and Shallot Fried",
-    "Pâté Gan",
     "Sweetened Condensed Milk",
     "Sake Plum Ginger Wine",
     "Mayonnaise Sauce",
@@ -91,7 +88,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

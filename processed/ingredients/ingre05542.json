@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05542.json",
   "name_vi": "rượu light rum",
-  "name_en": "Light Rum",
+  "name_en": "",
   "name_normalized": "ruou light rum",
   "synonyms": [
     "rượu rum nhẹ"
@@ -12,6 +12,9 @@
     "ruou rum nhe"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

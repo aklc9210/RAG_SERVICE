@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02187.json",
   "name_vi": "dừa nạo sợi",
-  "name_en": "Coconut丝纤维",
+  "name_en": "",
   "name_normalized": "dua nao soi",
   "synonyms": [
     "dừa xiêm",
@@ -14,6 +14,9 @@
     "soi dua"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06969.json",
   "name_vi": "tôm xay",
-  "name_en": "Ground虾饺 (Note: There seems to be a mismatch in the translation request. \"tôm xay\" typically translates to \"Ground shrimp\"",
+  "name_en": "",
   "name_normalized": "tom xay",
   "synonyms": [
     "tôm băm"
@@ -12,6 +12,9 @@
     "tom bam"
   ],
   "category": "seafood_&_fish_balls",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

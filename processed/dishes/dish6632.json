@@ -53,7 +53,6 @@
     "Chicken thigh",
     "Puffed Rice Powder",
     "Cooking oil",
-    "Miso酱",
     "Hot Sauce",
     "Culantro",
     "Garlic",
@@ -78,6 +77,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00109.json",
   "name_vi": "bánh mì gối",
-  "name_en": "枕形面包",
+  "name_en": "",
   "name_normalized": "banh mi goi",
   "synonyms": [
     "bánh mì nướng",
@@ -16,6 +16,9 @@
     "banh mi sandwich"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

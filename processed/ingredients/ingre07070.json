@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07070.json",
   "name_vi": "tỏi bóc vỏ",
-  "name_en": "Garlic剥皮",
+  "name_en": "",
   "name_normalized": "toi boc vo",
   "synonyms": [
     "tỏi băm",
@@ -16,6 +16,9 @@
     "toi dap dap"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

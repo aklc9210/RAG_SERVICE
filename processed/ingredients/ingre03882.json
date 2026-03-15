@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03882.json",
   "name_vi": "màu thực phẩm tùy ý",
-  "name_en": "Food coloring任意选择",
+  "name_en": "",
   "name_normalized": "mau thuc pham tuy y",
   "synonyms": [
     "kem đa dụng"
@@ -12,6 +12,9 @@
     "kem da dung"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

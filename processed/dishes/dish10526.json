@@ -43,9 +43,7 @@
   "ingredient_names_en": [
     "Dark chocolate",
     "Sweetened Condensed Milk",
-    "Chocolate Nutella Confection",
     "Chocolate candy",
-    "Chocolate碎片",
     "Cocoa powder",
     "Chocolate syrup",
     "Chocolate brownie"
@@ -62,7 +60,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

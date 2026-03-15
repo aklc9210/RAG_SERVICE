@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06307.json",
   "name_vi": "thịt bò cắt sợi",
-  "name_en": "Beef丝切片",
+  "name_en": "",
   "name_normalized": "thit bo cat soi",
   "synonyms": [
     "thịt bò xé phay"
@@ -12,6 +12,9 @@
     "thit bo xe phay"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

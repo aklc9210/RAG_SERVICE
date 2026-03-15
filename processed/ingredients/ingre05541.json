@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05541.json",
   "name_vi": "rượu kahlua",
-  "name_en": "Kahlua酒",
+  "name_en": "",
   "name_normalized": "ruou kahlua",
   "synonyms": [
     "kem cà phê đen"
@@ -12,6 +12,9 @@
     "kem ca phe den"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03981.json",
   "name_vi": "mì quảng",
-  "name_en": "Mì Quảng",
+  "name_en": "",
   "name_normalized": "mi quang",
   "synonyms": [
     "bánh canh",
@@ -16,6 +16,9 @@
     "banh pho"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

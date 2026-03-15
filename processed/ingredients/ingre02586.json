@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02586.json",
   "name_vi": "hoa hồi khô",
-  "name_en": "Dried Rose花瓣",
+  "name_en": "",
   "name_normalized": "hoa hoi kho",
   "synonyms": [
     "hoa hồi"
@@ -12,6 +12,9 @@
     "hoa hoi"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

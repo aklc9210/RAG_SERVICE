@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00545.json",
   "name_vi": "bột bánh plain muffin remix",
-  "name_en": "Plain Muffin Mix",
+  "name_en": "",
   "name_normalized": "bot banh plain muffin remix",
   "synonyms": [
     "bột nở",
@@ -16,6 +16,9 @@
     "bot banh mi"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

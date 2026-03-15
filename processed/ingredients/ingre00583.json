@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00583.json",
   "name_vi": "bột cake flour",
-  "name_en": "Cake flour",
+  "name_en": "",
   "name_normalized": "bot cake flour",
   "synonyms": [
     "bột mìCake flour"
@@ -12,6 +12,9 @@
     "bot micake flour"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

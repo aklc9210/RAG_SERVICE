@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03835.json",
   "name_vi": "muối; đường; bột ngọt; tiêu xay; hạt nêm",
-  "name_en": "Salt; Sugar; Monosodium Glutamate; Ground Pepper; Seasoning Powder ->",
+  "name_en": "",
   "name_normalized": "muoi duong bot ngot tieu xay hat nem",
   "synonyms": [
     "bột nở",
@@ -17,6 +17,7 @@
   ],
   "category": "seasonings",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

@@ -86,10 +86,7 @@
     "Chicken egg",
     "All-purpose flour",
     "Cocoa Powder",
-    "Baking soda",
-    "Baking powder",
     "Dark chocolate",
-    "Whipping Cream",
     "White chocolate",
     "Gelatin Powder (or Leaf)",
     "Water",
@@ -123,7 +120,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

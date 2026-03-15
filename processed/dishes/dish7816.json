@@ -104,14 +104,11 @@
     "Tiêu xay"
   ],
   "ingredient_names_en": [
-    "Instant ramen or instant udon",
     "Sausage",
     "Rice cake slices",
-    "Kimchi豆腐乳",
     "Rice Noodles",
     "Rice wine or Soju",
     "Roasted Soybeans",
-    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
     "Korean chili powder",
     "Kelp Powder",
     "Mushroom",
@@ -168,6 +165,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

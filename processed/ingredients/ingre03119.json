@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03119.json",
   "name_vi": "katsuobushi",
-  "name_en": "Katsuobushi -> Dried bonito",
+  "name_en": "",
   "name_normalized": "katsuobushi",
   "synonyms": [
     "tôm khô",
@@ -17,6 +17,7 @@
   ],
   "category": "seasonings",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

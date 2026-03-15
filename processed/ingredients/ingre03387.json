@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03387.json",
   "name_vi": "lá chuối khô gói bánh",
-  "name_en": "Dried Banana Leaf包裹Breadcrumb",
+  "name_en": "",
   "name_normalized": "la chuoi kho goi banh",
   "synonyms": [
     "lá chuối gói bánh"
@@ -12,6 +12,9 @@
     "la chuoi goi banh"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

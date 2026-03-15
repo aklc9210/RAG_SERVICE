@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05572.json",
   "name_vi": "rượu triple sec",
-  "name_en": "Triple Sec",
+  "name_en": "",
   "name_normalized": "ruou triple sec",
   "synonyms": [
     "kem bơ"
@@ -12,6 +12,9 @@
     "kem bo"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -68,7 +68,6 @@
     "Pork",
     "Onion",
     "Scallion",
-    "Ginger丝切片",
     "Roasted White Sesame",
     "Green Pepper",
     "Red pepper",
@@ -103,7 +102,8 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

@@ -50,7 +50,6 @@
     "sticky rice",
     "Glutinous rice flour",
     "Rice flour",
-    "Pandan叶",
     "Green pea skin rubbed",
     "Pork belly",
     "Shallot",
@@ -73,6 +72,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

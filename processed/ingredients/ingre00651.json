@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00651.json",
   "name_vi": "bột garam masala",
-  "name_en": "Garam Masala Powder",
+  "name_en": "",
   "name_normalized": "bot garam masala",
   "synonyms": [
     "không"
@@ -12,6 +12,9 @@
     "khong"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

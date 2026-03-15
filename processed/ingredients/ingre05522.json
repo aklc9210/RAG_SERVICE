@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05522.json",
   "name_vi": "rượu bạc hà",
-  "name_en": "Mint酒",
+  "name_en": "",
   "name_normalized": "ruou bac ha",
   "synonyms": [
     "kem bạc hà"
@@ -12,6 +12,9 @@
     "kem bac ha"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -61,7 +61,6 @@
     "Lemon juice",
     "Soy Sauce",
     "Cured Meat Coloring Water",
-    "Rice Wine Infused with枸杞 (Goji Berries)",
     "Pepper",
     "Salt",
     "Cooking oil"
@@ -83,7 +82,8 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

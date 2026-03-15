@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03240.json",
   "name_vi": "khô bò sợi",
-  "name_en": "Beef丝干制品",
+  "name_en": "",
   "name_normalized": "kho bo soi",
   "synonyms": [
     "thịt bò khô",
@@ -16,6 +16,9 @@
     "bo xat soi"
   ],
   "category": "dried_fruits",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

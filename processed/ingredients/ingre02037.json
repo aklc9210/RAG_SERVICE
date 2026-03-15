@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02037.json",
   "name_vi": "dưa lưới vàng",
-  "name_en": "Yellow Watermelon Sponge瓜茄瓜",
+  "name_en": "",
   "name_normalized": "dua luoi vang",
   "synonyms": [
     "dưa chuột vàng"
@@ -12,6 +12,9 @@
     "dua chuot vang"
   ],
   "category": "fresh_fruits",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -54,7 +54,6 @@
     "Almond milk",
     "Maple tree syrup",
     "Roasted Peanut",
-    "Topping cream -> Topping cream",
     "Salt",
     "Ice cube"
   ],
@@ -73,6 +72,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

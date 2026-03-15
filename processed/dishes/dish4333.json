@@ -22,8 +22,7 @@
     "Rượu gừng"
   ],
   "ingredient_names_en": [
-    "Pork skin",
-    "Ginger酒"
+    "Pork skin"
   ],
   "ingredient_names_normalized": [
     "bi lon",
@@ -31,7 +30,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

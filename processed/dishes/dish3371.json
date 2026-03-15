@@ -64,7 +64,6 @@
   "ingredient_names_en": [
     "Dried Fish Bladder",
     "Chicken breast",
-    "Shrimp肉",
     "Shrimp",
     "Chicken egg",
     "Scallion",
@@ -98,6 +97,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

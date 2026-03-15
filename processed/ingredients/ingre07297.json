@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07297.json",
   "name_vi": "vụn socola",
-  "name_en": "Chocolate碎片",
+  "name_en": "",
   "name_normalized": "vun socola",
   "synonyms": [
     "vụn chocolate"
@@ -12,6 +12,9 @@
     "vun chocolate"
   ],
   "category": "candies",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

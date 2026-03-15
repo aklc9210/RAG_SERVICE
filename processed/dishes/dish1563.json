@@ -51,8 +51,7 @@
     "Sugar Powder",
     "Lemon",
     "Salt",
-    "Honey",
-    "Cinnamon粉"
+    "Honey"
   ],
   "ingredient_names_normalized": [
     "bot mi da dung",
@@ -67,7 +66,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

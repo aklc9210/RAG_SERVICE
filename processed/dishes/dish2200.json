@@ -42,9 +42,7 @@
   ],
   "ingredient_names_en": [
     "Apple",
-    "Cinnamon粉",
     "Cinnamon powder",
-    "Basil粉",
     "Heavy cream",
     "Chicken egg",
     "Sugar",
@@ -62,7 +60,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

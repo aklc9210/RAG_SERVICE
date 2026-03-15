@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07902.json",
   "name_vi": "đồ trang trí bánh",
-  "name_en": "Cake装饰",
+  "name_en": "",
   "name_normalized": "do trang tri banh",
   "synonyms": [
     "hoa quả sấy",
@@ -16,6 +16,9 @@
     "kem tuoi"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

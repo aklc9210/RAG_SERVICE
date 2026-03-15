@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06142.json",
   "name_vi": "sữa topping base",
-  "name_en": "Soy Milk Topping Base",
+  "name_en": "",
   "name_normalized": "sua topping base",
   "synonyms": [
     "kem topping",
@@ -16,6 +16,9 @@
     "kem trang tri"
   ],
   "category": "milk",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

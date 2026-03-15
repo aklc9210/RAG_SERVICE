@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06061.json",
   "name_vi": "sợi mì ý",
-  "name_en": "Italian noodle丝",
+  "name_en": "",
   "name_normalized": "soi mi y",
   "synonyms": [
     "mì ống"
@@ -12,6 +12,9 @@
     "mi ong"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

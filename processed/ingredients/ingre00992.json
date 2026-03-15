@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00992.json",
   "name_vi": "bột whipping cream",
-  "name_en": "Whipping Cream Powder",
+  "name_en": "",
   "name_normalized": "bot whipping cream",
   "synonyms": [
     "kem whipping"
@@ -12,6 +12,9 @@
     "kem whipping"
   ],
   "category": "milk",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

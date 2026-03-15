@@ -37,7 +37,6 @@
   "ingredient_names_en": [
     "Cucumber",
     "Brown Sugar",
-    "Pandan叶",
     "Rehmannia",
     "Dried Chrysanthemum Flowers",
     "Chinese Hawthorn"
@@ -52,7 +51,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

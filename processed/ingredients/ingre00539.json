@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00539.json",
   "name_vi": "bột bánh ngàn lớp - puff pastry",
-  "name_en": "puff pastry",
+  "name_en": "",
   "name_normalized": "bot banh ngan lop puff pastry",
   "synonyms": [
     "bột nướng",
@@ -16,7 +16,10 @@
     "bot mi nuong"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": [
     {
       "field": "name_normalized",

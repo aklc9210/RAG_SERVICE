@@ -43,7 +43,6 @@
     "Whipping cream",
     "Fat-free Milk",
     "Salt",
-    "Topping cream -> Topping cream",
     "Sugar"
   ],
   "ingredient_names_normalized": [
@@ -58,6 +57,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

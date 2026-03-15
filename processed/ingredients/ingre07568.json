@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07568.json",
   "name_vi": "đùi vịt",
-  "name_en": "鸭腿",
+  "name_en": "",
   "name_normalized": "dui vit",
   "synonyms": [
     "vịt đùi"
@@ -12,6 +12,9 @@
     "vit dui"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -54,7 +54,6 @@
     "Fresh sausage",
     "Potato starch",
     "Baking powder",
-    "Cinnamon粉",
     "Food coloring",
     "Cooking oil",
     "Fish Sauce",
@@ -77,7 +76,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

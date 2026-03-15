@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05597.json",
   "name_vi": "rượu white rum",
-  "name_en": "White Rum",
+  "name_en": "",
   "name_normalized": "ruou white rum",
   "synonyms": [
     "whisky",
@@ -14,6 +14,9 @@
     "rum trang"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

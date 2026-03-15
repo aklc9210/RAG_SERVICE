@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00292.json",
   "name_vi": "bông súp lơ",
-  "name_en": "Broccoli花椰菜",
+  "name_en": "",
   "name_normalized": "bong sup lo",
   "synonyms": [
     "bắp cải trắng"
@@ -12,6 +12,9 @@
     "bap cai trang"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

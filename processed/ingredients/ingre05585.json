@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05585.json",
   "name_vi": "rượu trắng:",
-  "name_en": "White Rum: ->",
+  "name_en": "",
   "name_normalized": "ruou trang",
   "synonyms": [
     "vodka"
@@ -13,7 +13,8 @@
   ],
   "category": "alcoholic_beverages",
   "audit_flags": [
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

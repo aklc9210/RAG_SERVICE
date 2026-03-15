@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02501.json",
   "name_vi": "gừng cắt sợi",
-  "name_en": "Ginger丝切片",
+  "name_en": "",
   "name_normalized": "gung cat soi",
   "synonyms": [
     "gừng thái sợi"
@@ -12,6 +12,9 @@
     "gung thai soi"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

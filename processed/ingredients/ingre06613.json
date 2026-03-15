@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06613.json",
   "name_vi": "tiêu nhánh",
-  "name_en": "Basil枝条 -> Basil Branches",
+  "name_en": "",
   "name_normalized": "tieu nhanh",
   "synonyms": [
     "tỏi nhánh"
@@ -13,6 +13,7 @@
   ],
   "category": "vegetables",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

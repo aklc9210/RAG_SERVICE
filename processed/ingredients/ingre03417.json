@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03417.json",
   "name_vi": "lá dứa",
-  "name_en": "Pandan叶",
+  "name_en": "",
   "name_normalized": "la dua",
   "synonyms": [
     "đá gừng"
@@ -12,6 +12,9 @@
     "da gung"
   ],
   "category": "fresh_fruits",
-  "audit_flags": [],
+  "audit_flags": [
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
+  ],
   "correction_log": []
 }

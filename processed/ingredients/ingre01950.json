@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01950.json",
   "name_vi": "don",
-  "name_en": "Don -> Don (This doesn't seem to be a Vietnamese ingredient name. Could you please provide more context or check the spelling?)",
+  "name_en": "",
   "name_normalized": "don",
   "synonyms": [
     "dạ米"
@@ -13,6 +13,7 @@
   ],
   "category": "others",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

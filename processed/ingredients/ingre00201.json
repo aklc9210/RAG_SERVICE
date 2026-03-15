@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00201.json",
   "name_vi": "bánh tráng nướng",
-  "name_en": "Grilled春卷",
+  "name_en": "",
   "name_normalized": "banh trang nuong",
   "synonyms": [
     "bánh tráng phơi太阳☉"
@@ -12,6 +12,9 @@
     "banh trang phoi"
   ],
   "category": "snacks",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

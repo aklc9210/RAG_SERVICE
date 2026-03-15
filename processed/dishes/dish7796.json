@@ -29,7 +29,6 @@
     "Dừa xiêm"
   ],
   "ingredient_names_en": [
-    "Duck肉 600g 山药 或 薯蓣",
     "Apple cider vinegar",
     "Shiitake - Straw - Bamboo Shoots",
     "Jackfruit"
@@ -42,7 +41,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

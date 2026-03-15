@@ -69,7 +69,6 @@
     "This is already in English, no translation needed.",
     "Purple onion",
     "Garlic",
-    "Ginger/蒜",
     "Green Bell Pepper",
     "Red bell pepper",
     "Moonseed",
@@ -77,7 +76,6 @@
     "Fresh cilantro",
     "Lemon",
     "Mayonnaise",
-    "Miso酱",
     "Butter",
     "Cooking oil",
     "Salt/Pepper"
@@ -102,7 +100,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

@@ -63,14 +63,11 @@
     "Sugar",
     "Salt",
     "Vanilla",
-    "Cake Flour",
     "Honey",
     "Almond flour",
     "Butter",
     "Baking Powder",
     "Lemon juice",
-    "Whipping cream - heated to 60 degrees",
-    "Sweetened Warm Milk -> Unsweetened Warm Milk",
     "Chicken truffle",
     "Corn starch"
   ],
@@ -93,6 +90,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

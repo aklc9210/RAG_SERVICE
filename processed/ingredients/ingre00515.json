@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00515.json",
   "name_vi": "bột baking soda",
-  "name_en": "Baking soda",
+  "name_en": "",
   "name_normalized": "bot baking soda",
   "synonyms": [
     "bột nở"
@@ -12,6 +12,9 @@
     "bot no"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

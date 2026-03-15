@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01330.json",
   "name_vi": "cream tar tar",
-  "name_en": "Cream tar tar does not have a direct translation as it is likely a specific dish or preparation rather than a common ingredient. However, if we break it",
+  "name_en": "",
   "name_normalized": "cream tar tar",
   "synonyms": [
     "kem đánh"
@@ -12,6 +12,9 @@
     "kem danh"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

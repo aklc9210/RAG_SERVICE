@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00851.json",
   "name_vi": "bột năng :",
-  "name_en": "Cornstarch : ->",
+  "name_en": "",
   "name_normalized": "bot nang",
   "synonyms": [
     "bột corn starch",
@@ -17,7 +17,8 @@
   ],
   "category": "grains_staples",
   "audit_flags": [
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

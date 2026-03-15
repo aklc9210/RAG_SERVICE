@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06209.json",
   "name_vi": "thanh long đỏ:",
-  "name_en": "Red cucumber: ->",
+  "name_en": "",
   "name_normalized": "thanh long do",
   "synonyms": [
     "dưa hấu đỏ"
@@ -13,7 +13,8 @@
   ],
   "category": "fresh_fruits",
   "audit_flags": [
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

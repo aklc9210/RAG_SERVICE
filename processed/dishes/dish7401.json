@@ -74,14 +74,12 @@
     "Garlic and Shallot Fried",
     "Chopped Pepper",
     "Chopped Shallot Garlic",
-    "Ginger丝切片",
     "Sesame oil",
     "Puffed Seasoned Powder",
     "Soy Sauce",
     "Rice vinegar",
     "Sugar",
     "Hot Sauce",
-    "Miso酱",
     "White wine",
     "Cooking oil",
     "Cinnamon basil"
@@ -107,7 +105,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

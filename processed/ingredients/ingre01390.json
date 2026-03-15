@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01390.json",
   "name_vi": "cà phê cold brew",
-  "name_en": "Cold Brew Coffee",
+  "name_en": "",
   "name_normalized": "ca phe cold brew",
   "synonyms": [
     "cà phê lạnh"
@@ -12,6 +12,9 @@
     "ca phe lanh"
   ],
   "category": "beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

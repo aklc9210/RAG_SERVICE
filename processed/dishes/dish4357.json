@@ -47,8 +47,7 @@
     "Onion finely chopped",
     "Salt",
     "Garlic powder",
-    "White Pepper",
-    "Miso酱"
+    "White Pepper"
   ],
   "ingredient_names_normalized": [
     "thit bo xay sieu nac",
@@ -62,7 +61,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

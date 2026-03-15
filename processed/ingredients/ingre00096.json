@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00096.json",
   "name_vi": "bánh lady finger",
-  "name_en": "Ladyfinger萼片",
+  "name_en": "",
   "name_normalized": "banh lady finger",
   "synonyms": [
     "kem bông nhạt"
@@ -12,6 +12,9 @@
     "kem bong nhat"
   ],
   "category": "cakes",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

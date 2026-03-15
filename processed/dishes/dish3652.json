@@ -36,7 +36,6 @@
   ],
   "ingredient_names_en": [
     "Butter cookie",
-    "All-purpose cream -> Sour cream",
     "Sweetened Condensed Milk",
     "Fat-free Milk",
     "Cocoa powder",
@@ -53,6 +52,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

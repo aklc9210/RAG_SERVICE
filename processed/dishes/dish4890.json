@@ -48,7 +48,6 @@
   ],
   "ingredient_names_en": [
     "Pork belly",
-    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
     "Onion",
     "Shallot",
     "Garlic",
@@ -73,6 +72,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

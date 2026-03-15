@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05196.json",
   "name_vi": "qủa trứn gà",
-  "name_en": "Trung gà -> Eggplant",
+  "name_en": "",
   "name_normalized": "qua trun ga",
   "synonyms": [
     "trứng gà"
@@ -13,6 +13,7 @@
   ],
   "category": "fresh_fruits",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

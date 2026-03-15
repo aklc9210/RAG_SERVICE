@@ -76,7 +76,6 @@
     "Fresh enoki mushrooms",
     "Carrot",
     "Fresh Ginger",
-    "Pandan叶",
     "Minced Garlic",
     "Ginger",
     "Shallot",
@@ -112,6 +111,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

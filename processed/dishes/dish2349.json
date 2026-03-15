@@ -48,7 +48,6 @@
     "Cream cheese",
     "Butter",
     "Brown Sugar",
-    "Cinnamon粉",
     "Sugar Powder",
     "Chicken egg",
     "Vanilla extract",
@@ -67,7 +66,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

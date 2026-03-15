@@ -61,7 +61,6 @@
     "Fish Sauce",
     "Roasted Cayenne Pepper",
     "Garlic powder",
-    "Cinnamon粉",
     "Red yeast powder",
     "Sugar",
     "Seasoning",
@@ -86,7 +85,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

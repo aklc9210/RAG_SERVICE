@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05520.json",
   "name_vi": "rượu baileys irish cream",
-  "name_en": "Baileys Irish Cream",
+  "name_en": "",
   "name_normalized": "ruou baileys irish cream",
   "synonyms": [
     "kem Ireland"
@@ -12,6 +12,9 @@
     "kem ireland"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

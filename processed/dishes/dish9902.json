@@ -63,7 +63,6 @@
     "Chinese Basil",
     "Sage",
     "Wormwood",
-    "Pandan叶",
     "Bamboo root",
     "Corn silk",
     "Chinese Hawthorn",
@@ -93,6 +92,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

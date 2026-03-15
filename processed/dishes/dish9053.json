@@ -54,7 +54,6 @@
     "Corn starch",
     "Wheat Flour",
     "Cornstarch",
-    "Cinnamon粉",
     "Garlic powder",
     "Chili powder",
     "Sugar",
@@ -76,7 +75,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

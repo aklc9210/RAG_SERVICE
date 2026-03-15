@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00231.json",
   "name_vi": "bã đậu nành",
-  "name_en": "Soybean渣",
+  "name_en": "",
   "name_normalized": "ba dau nanh",
   "synonyms": [
     "bã đậu"
@@ -12,6 +12,9 @@
     "ba dau"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

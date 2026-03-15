@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03277.json",
   "name_vi": "kim chi",
-  "name_en": "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+  "name_en": "",
   "name_normalized": "kim chi",
   "synonyms": [
     "kim bắp"
@@ -13,6 +13,7 @@
   ],
   "category": "others",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

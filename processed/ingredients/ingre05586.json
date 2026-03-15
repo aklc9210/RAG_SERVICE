@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05586.json",
   "name_vi": "rượu táo",
-  "name_en": "Apple酒",
+  "name_en": "",
   "name_normalized": "ruou tao",
   "synonyms": [
     "rượu mận",
@@ -14,6 +14,9 @@
     "ruou mo"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

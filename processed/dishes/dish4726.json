@@ -49,7 +49,6 @@
   "ingredient_names_en": [
     "Chicken feet",
     "Hot Sauce",
-    "Miso酱",
     "Korean chili paste",
     "Roasted Sesame Seeds",
     "Minced Garlic",
@@ -72,7 +71,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

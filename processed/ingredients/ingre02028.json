@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02028.json",
   "name_vi": "dưa leo sợi",
-  "name_en": "Cucumber丝瓜",
+  "name_en": "",
   "name_normalized": "dua leo soi",
   "synonyms": [
     "dưa chuột sợi"
@@ -12,6 +12,9 @@
     "dua chuot soi"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

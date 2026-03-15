@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00291.json",
   "name_vi": "bông súng",
-  "name_en": "Mallow花椰菜",
+  "name_en": "",
   "name_normalized": "bong sung",
   "synonyms": [
     "tái chua"
@@ -12,6 +12,9 @@
     "tai chua"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

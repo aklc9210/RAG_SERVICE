@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05536.json",
   "name_vi": "rượu gừng",
-  "name_en": "Ginger酒",
+  "name_en": "",
   "name_normalized": "ruou gung",
   "synonyms": [
     "rượu gừng chaud"
@@ -12,6 +12,9 @@
     "ruou gung chaud"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

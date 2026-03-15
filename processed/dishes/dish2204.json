@@ -21,8 +21,7 @@
     "Bột baking soda"
   ],
   "ingredient_names_en": [
-    "White Sugar",
-    "Baking soda"
+    "White Sugar"
   ],
   "ingredient_names_normalized": [
     "duong cat trang",
@@ -30,7 +29,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

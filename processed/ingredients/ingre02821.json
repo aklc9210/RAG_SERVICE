@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02821.json",
   "name_vi": "hành tỏi phi sẵn",
-  "name_en": "Garlic and Shallot Sautéed",
+  "name_en": "",
   "name_normalized": "hanh toi phi san",
   "synonyms": [
     "tỏi phi",
@@ -14,6 +14,9 @@
     "hanh phi"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

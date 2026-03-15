@@ -46,11 +46,9 @@
   "ingredient_names_en": [
     "Whipping Cream",
     "Dark chocolate:",
-    "Whole coffee beans ->",
     "Vanilla extract:",
     "Fresh Milk",
     "Egg yolk:",
-    "White Rum: ->",
     "Salt:",
     "White sugar:"
   ],
@@ -68,7 +66,8 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

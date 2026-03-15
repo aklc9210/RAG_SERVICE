@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05779.json",
   "name_vi": "sour cream",
-  "name_en": "Sour cream -> Sour cream",
+  "name_en": "",
   "name_normalized": "sour cream",
   "synonyms": [
     "kem chua",
@@ -15,6 +15,7 @@
   ],
   "category": "others",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

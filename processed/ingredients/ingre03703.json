@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03703.json",
   "name_vi": "mirin",
-  "name_en": "Mirin -> Mirin (already in English)",
+  "name_en": "",
   "name_normalized": "mirin",
   "synonyms": [
     "khuốc",
@@ -15,6 +15,7 @@
   ],
   "category": "seasonings",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

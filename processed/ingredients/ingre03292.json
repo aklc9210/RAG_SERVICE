@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03292.json",
   "name_vi": "kiwi/ dâu tây/ việt quất",
-  "name_en": "Kiwi/đào/táo -> Kiwi/Strawberry/Raspberry",
+  "name_en": "",
   "name_normalized": "kiwi dau tay viet quat",
   "synonyms": [
     "dâu tây",
@@ -17,6 +17,7 @@
   ],
   "category": "fresh_fruits",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

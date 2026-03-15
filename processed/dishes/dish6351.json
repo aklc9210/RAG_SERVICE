@@ -67,10 +67,7 @@
     "Mackerel",
     "Tomato",
     "Tomato sauce",
-    "Miso酱",
     "Turmeric Powder",
-    "Ginger酒",
-    "Ginger/干燥蒜/大蒜/辣椒/罗勒/葱",
     "Salt",
     "Seasoning Powder",
     "Soy Sauce",
@@ -100,7 +97,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

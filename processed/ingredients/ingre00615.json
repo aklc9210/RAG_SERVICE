@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00615.json",
   "name_vi": "bột cream of tartar",
-  "name_en": "Cream of Tartar Powder",
+  "name_en": "",
   "name_normalized": "bot cream of tartar",
   "synonyms": [
     "bột axit cacbonic"
@@ -12,6 +12,9 @@
     "bot axit cacbonic"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -106,7 +106,6 @@
     "Chicken egg",
     "Water",
     "Cooking oil",
-    "Red Da Lat Pepper",
     "Carrot",
     "Onion",
     "Cinnamon",
@@ -118,7 +117,6 @@
     "Black vinegar",
     "Hot Sauce",
     "Soy sauce",
-    "Miso酱",
     "Roasted Sesame Seeds"
   ],
   "ingredient_names_normalized": [
@@ -152,7 +150,8 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

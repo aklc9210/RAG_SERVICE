@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00957.json",
   "name_vi": "bột tom yum",
-  "name_en": "Tom Yum Powder",
+  "name_en": "",
   "name_normalized": "bot tom yum",
   "synonyms": [
     "bột nêm",
@@ -14,6 +14,9 @@
     "bot ngot"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

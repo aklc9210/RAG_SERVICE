@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06150.json",
   "name_vi": "sữa tươi không đường - đun nóng 60 độ",
-  "name_en": "Sweetened Warm Milk -> Unsweetened Warm Milk",
+  "name_en": "",
   "name_normalized": "sua tuoi khong duong dun nong 60 do",
   "synonyms": [
     "kem tươi không đường",
@@ -15,6 +15,7 @@
   ],
   "category": "milk",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

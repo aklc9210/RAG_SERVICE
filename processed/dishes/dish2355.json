@@ -58,8 +58,7 @@
     "Salt",
     "Water",
     "Cooking oil",
-    "White sugar",
-    "Basil叶"
+    "White sugar"
   ],
   "ingredient_names_normalized": [
     "bot mi so 8",
@@ -77,6 +76,8 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],
   "correction_log": [

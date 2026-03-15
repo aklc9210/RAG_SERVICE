@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06056.json",
   "name_vi": "sợi hủ tiếu khô",
-  "name_en": "Glass noodle丝粉",
+  "name_en": "",
   "name_normalized": "soi hu tieu kho",
   "synonyms": [
     "mì tôm",
@@ -14,6 +14,9 @@
     "mi kho"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

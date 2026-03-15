@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02990.json",
   "name_vi": "hạt ngô non",
-  "name_en": "Corn胚芽",
+  "name_en": "",
   "name_normalized": "hat ngo non",
   "synonyms": [
     "ngô non"
@@ -12,6 +12,9 @@
     "ngo non"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

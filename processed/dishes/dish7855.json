@@ -69,7 +69,6 @@
     "Instant noodles (Korean)",
     "Korean fish cake",
     "Sausage",
-    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
     "Tofu",
     "Beef",
     "Cheese Slice",
@@ -103,6 +102,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

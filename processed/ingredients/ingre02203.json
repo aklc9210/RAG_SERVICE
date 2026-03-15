@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre02203.json",
   "name_vi": "dừa tươi nạo sợi",
-  "name_en": "Coconut丝",
+  "name_en": "",
   "name_normalized": "dua tuoi nao soi",
   "synonyms": [
     "dừa xiêm",
@@ -14,6 +14,9 @@
     "soi dua"
   ],
   "category": "fresh_fruits",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

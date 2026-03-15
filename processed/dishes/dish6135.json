@@ -60,7 +60,6 @@
     "Green banana",
     "Chopped Scallion",
     "Minced Garlic",
-    "Ginger丝切-> Ginger丝切 (Note: This is a direct translation of the action and ingredient. A more natural English phrasing would be",
     "Fresh chili",
     "Food coloring",
     "Fish Sauce",
@@ -88,6 +87,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

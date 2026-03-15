@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00599.json",
   "name_vi": "bột chiên giòn aji-quick",
-  "name_en": "Puffed Ají Powder",
+  "name_en": "",
   "name_normalized": "bot chien gion aji quick",
   "synonyms": [
     "bột nở",
@@ -16,7 +16,10 @@
     "bot danh trung"
   ],
   "category": "instant_foods",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": [
     {
       "field": "name_normalized",

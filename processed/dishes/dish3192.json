@@ -79,7 +79,6 @@
   "ingredient_names_en": [
     "Noodle",
     "Beef",
-    "Shrimp肉",
     "Fresh sausage",
     "Onion",
     "Ginger",
@@ -123,6 +122,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03539.json",
   "name_vi": "lá trà xanh tươi",
-  "name_en": "Fresh绿茶叶",
+  "name_en": "",
   "name_normalized": "la tra xanh tuoi",
   "synonyms": [
     "lá trà xanh"
@@ -12,6 +12,9 @@
     "la tra xanh"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -65,7 +65,6 @@
     "Chicken mushroom",
     "Glass noodle",
     "Passionfruit",
-    "Sago粉",
     "Tofu cheese",
     "Spring roll wrapper",
     "Five-Spice Powder",
@@ -97,6 +96,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

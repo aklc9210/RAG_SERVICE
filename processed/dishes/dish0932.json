@@ -35,8 +35,7 @@
     "Royal rice",
     "Sugar",
     "Coconut grated",
-    "Cornstarch",
-    "Pandan叶"
+    "Cornstarch"
   ],
   "ingredient_names_normalized": [
     "nep ngu",
@@ -47,7 +46,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

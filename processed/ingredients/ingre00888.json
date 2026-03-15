@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00888.json",
   "name_vi": "bột quế",
-  "name_en": "Cinnamon粉",
+  "name_en": "",
   "name_normalized": "bot que",
   "synonyms": [
     "bột quế gia truyền"
@@ -12,6 +12,9 @@
     "bot que gia truyen"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

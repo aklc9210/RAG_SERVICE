@@ -37,10 +37,8 @@
     "Muối"
   ],
   "ingredient_names_en": [
-    "Red Velvet Cake Flour",
     "All-purpose flour",
     "Butter",
-    "Cocoa利用您的上下文，\"cacao ngòi\" 应该翻译为 \"Cocoa\". 但是，如果这是指某种特定",
     "Green pumpkin seed",
     "Egg",
     "Salt"
@@ -57,6 +55,8 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],
   "correction_log": []

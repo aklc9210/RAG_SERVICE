@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre08095.json",
   "name_vi": "ớt đà lạt đỏ",
-  "name_en": "Red Da Lat Pepper",
+  "name_en": "",
   "name_normalized": "ot da lat do",
   "synonyms": [
     "ớt đỏ"
@@ -12,6 +12,9 @@
     "ot do"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

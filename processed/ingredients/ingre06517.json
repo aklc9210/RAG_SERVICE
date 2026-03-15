@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06517.json",
   "name_vi": "thịt vịt 600g khoai môn hoặc khoai sọ",
-  "name_en": "Duck肉 600g 山药 或 薯蓣",
+  "name_en": "",
   "name_normalized": "thit vit 600g khoai mon hoac khoai so",
   "synonyms": [
     "thịt con vịt",
@@ -16,6 +16,9 @@
     "tom hum nho"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

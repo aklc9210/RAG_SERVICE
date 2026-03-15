@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06872.json",
   "name_vi": "tàu hũ ki lá",
-  "name_en": "Tofu ki lá",
+  "name_en": "",
   "name_normalized": "tau hu ki la",
   "synonyms": [
     "tàu hũ ki",
@@ -16,6 +16,9 @@
     "dau hu"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

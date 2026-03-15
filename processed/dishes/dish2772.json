@@ -46,7 +46,6 @@
   "ingredient_names_en": [
     "Plain Yogurt",
     "Fresh cream",
-    "Kiwi -> Kiwi",
     "Kiwi juice",
     "Vanilla essence",
     "Gelatin",
@@ -68,6 +67,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

@@ -66,8 +66,7 @@
     "vinegar",
     "Fish Sauce",
     "Soy sauce",
-    "Cooking oil",
-    "Salt/ Sugar/ Pepper ->"
+    "Cooking oil"
   ],
   "ingredient_names_normalized": [
     "rau ma",
@@ -87,6 +86,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": [

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00269.json",
   "name_vi": "bò viên",
-  "name_en": "Beef丸子",
+  "name_en": "",
   "name_normalized": "bo vien",
   "synonyms": [
     "thịt viên",
@@ -14,6 +14,9 @@
     "vien bo"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

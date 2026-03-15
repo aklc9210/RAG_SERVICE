@@ -86,7 +86,6 @@
     "Pepper",
     "Garlic",
     "Carrot",
-    "Coconut丝嫩肉丝",
     "Roasted White Sesame",
     "Roasted Peanut",
     "Garlic Fried",
@@ -118,7 +117,8 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

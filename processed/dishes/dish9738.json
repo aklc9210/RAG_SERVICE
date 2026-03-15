@@ -47,7 +47,6 @@
     "Pickled peach",
     "Black Tea Concentrate",
     "Whipping cream",
-    "Topping cream -> Topping cream",
     "Apricot syrup",
     "Vanilla powder",
     "Palm Sugar Water",
@@ -68,6 +67,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

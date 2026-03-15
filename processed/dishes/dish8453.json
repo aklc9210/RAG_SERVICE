@@ -48,7 +48,6 @@
     "Chicken",
     "Onion",
     "Parsley",
-    "No translation needed as \"dashi\" is already in English. It refers to 大豆 (soybean broth) in Japanese cuisine.",
     "Mirin Wine",
     "Sake",
     "Soy Sauce",
@@ -67,7 +66,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

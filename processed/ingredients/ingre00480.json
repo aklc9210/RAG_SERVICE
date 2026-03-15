@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre00480.json",
   "name_vi": "bắp mỹ non",
-  "name_en": "Corn苗",
+  "name_en": "",
   "name_normalized": "bap my non",
   "synonyms": [
     "bắp non"
@@ -12,6 +12,9 @@
     "bap non"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

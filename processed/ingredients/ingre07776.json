@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07776.json",
   "name_vi": "đậu nành lông",
-  "name_en": "Hair豆",
+  "name_en": "",
   "name_normalized": "dau nanh long",
   "synonyms": [
     "đậu đũa"
@@ -12,6 +12,9 @@
     "dau dua"
   ],
   "category": "grains_staples",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

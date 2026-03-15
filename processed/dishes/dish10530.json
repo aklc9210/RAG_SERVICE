@@ -38,8 +38,7 @@
     "White sugar",
     "Coconut milk",
     "Water",
-    "Mango",
-    "Kiwi -> Kiwi"
+    "Mango"
   ],
   "ingredient_names_normalized": [
     "bot rau cau",
@@ -52,6 +51,7 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],

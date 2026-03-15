@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05569.json",
   "name_vi": "rượu sweet vermouth",
-  "name_en": "Sweet Vermouth",
+  "name_en": "",
   "name_normalized": "ruou sweet vermouth",
   "synonyms": [
     "kem vermouth ngọt"
@@ -12,6 +12,9 @@
     "kem vermouth ngot"
   ],
   "category": "alcoholic_beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

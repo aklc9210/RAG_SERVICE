@@ -62,7 +62,6 @@
     "Coconut milk",
     "Coconut shredded",
     "Dried Coconut Rice",
-    "Pandan叶",
     "White sesame",
     "White sugar",
     "Brown Sugar",
@@ -87,6 +86,8 @@
   "grouping_mode": "combined",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation",
     "ingredient_grouping_low_confidence"
   ],
   "correction_log": []

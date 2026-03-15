@@ -71,11 +71,9 @@
     "Tiêu"
   ],
   "ingredient_names_en": [
-    "Mì Quảng",
     "Rib Steak",
     "Shrimp",
     "Quail egg",
-    "Peanut碎片",
     "Chopped Scallion",
     "Riced Cake",
     "Chopped Green Onion",
@@ -112,7 +110,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": []
 }

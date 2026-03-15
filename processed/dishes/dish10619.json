@@ -55,14 +55,12 @@
   "ingredient_names_en": [
     "Noodle sheet",
     "Ground Beef",
-    "Corn stomach包裹玉米胃不是常见的食物表达方式，可能是表述有误。正确的翻译可能是“甜玉米”或“corn”。请确认是否",
     "Carrot",
     "Cucumber",
     "Onion",
     "Lemongrass",
     "Minced Garlic",
     "Soy sauce",
-    "Miso酱",
     "Cooking oil",
     "Seasoned Salt/Powdered Pepper"
   ],
@@ -82,7 +80,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

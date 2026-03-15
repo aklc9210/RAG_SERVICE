@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03474.json",
   "name_vi": "lá mùi tây",
-  "name_en": "Basil叶",
+  "name_en": "",
   "name_normalized": "la mui tay",
   "synonyms": [
     "lá hương thảo"
@@ -12,6 +12,9 @@
     "la huong thao"
   ],
   "category": "vegetables",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

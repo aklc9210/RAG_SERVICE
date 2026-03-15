@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03702.json",
   "name_vi": "milo hoặc bột cacao",
-  "name_en": "Milo or Cocoa Powder -> Milo or Cocoa Powder",
+  "name_en": "",
   "name_normalized": "milo hoac bot cacao",
   "synonyms": [
     "bột cacao"
@@ -13,6 +13,7 @@
   ],
   "category": "milk",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre05793.json",
   "name_vi": "sugar syrup",
-  "name_en": "Sugar syrup -> Simple syrup",
+  "name_en": "",
   "name_normalized": "sugar syrup",
   "synonyms": [
     "dịch đường",
@@ -15,6 +15,7 @@
   ],
   "category": "others",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

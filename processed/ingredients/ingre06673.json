@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06673.json",
   "name_vi": "tokbokki",
-  "name_en": "Tokbokki -> Hot dog noodles",
+  "name_en": "",
   "name_normalized": "tokbokki",
   "synonyms": [
     "miến cay"
@@ -13,6 +13,7 @@
   ],
   "category": "snacks",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

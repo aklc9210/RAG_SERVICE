@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04539.json",
   "name_vi": "nước cốt chanh 50 gr lá bạc hà",
-  "name_en": "Lime juice 50 gr Mint leaves",
+  "name_en": "",
   "name_normalized": "nuoc cot chanh 50 gr la bac ha",
   "synonyms": [
     "nước cốt chanh tươi",
@@ -14,6 +14,9 @@
     "la bac ha tuoi"
   ],
   "category": "beverages",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

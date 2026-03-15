@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre01107.json",
   "name_vi": "chao bông mai",
-  "name_en": "Buddha's рукola",
+  "name_en": "",
   "name_normalized": "chao bong mai",
   "synonyms": [
     "chao bông lai"
@@ -12,6 +12,9 @@
     "chao bong lai"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

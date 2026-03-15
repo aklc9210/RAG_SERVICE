@@ -38,9 +38,7 @@
     "Beer",
     "Butter and Sugar Sauce",
     "Salted butter",
-    "Sweetened Condensed Milk",
-    "Topping cream -> Topping cream",
-    "Cinnamon粉"
+    "Sweetened Condensed Milk"
   ],
   "ingredient_names_normalized": [
     "bia",
@@ -53,6 +51,7 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

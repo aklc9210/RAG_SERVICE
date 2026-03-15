@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre04224.json",
   "name_vi": "mứt chocolate nutella",
-  "name_en": "Chocolate Nutella Confection",
+  "name_en": "",
   "name_normalized": "mut chocolate nutella",
   "synonyms": [
     "mứt giònNutella"
@@ -12,6 +12,9 @@
     "mut gionnutella"
   ],
   "category": "candies",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

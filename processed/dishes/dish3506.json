@@ -55,8 +55,7 @@
     "Mirin Wine",
     "Soy Sauce",
     "Sugar",
-    "Kosher Salt",
-    "Katsuobushi -> Dried bonito"
+    "Kosher Salt"
   ],
   "ingredient_names_normalized": [
     "mi udon",
@@ -73,7 +72,8 @@
   "grouping_mode": "split",
   "audit_flags": [
     "missing_name_en",
-    "needs_manual_review_translation"
+    "needs_manual_review_translation",
+    "sanitized_invalid_english"
   ],
   "correction_log": [
     {

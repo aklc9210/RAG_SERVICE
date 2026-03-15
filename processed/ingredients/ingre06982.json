@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06982.json",
   "name_vi": "tương cà",
-  "name_en": "Miso酱",
+  "name_en": "",
   "name_normalized": "tuong ca",
   "synonyms": [
     "tôm chua",
@@ -16,6 +16,9 @@
     "nuoc cham ca"
   ],
   "category": "seasonings",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

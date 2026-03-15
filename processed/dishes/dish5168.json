@@ -49,7 +49,6 @@
     "Garlic",
     "Cooking oil",
     "Soy Sauce",
-    "Miso酱",
     "Soy Sauce/Sugar"
   ],
   "ingredient_names_normalized": [
@@ -65,7 +64,9 @@
   ],
   "grouping_mode": "split",
   "audit_flags": [
-    "missing_name_en"
+    "missing_name_en",
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
   ],
   "correction_log": [
     {

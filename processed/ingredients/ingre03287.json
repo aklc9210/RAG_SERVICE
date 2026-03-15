@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre03287.json",
   "name_vi": "kiwi",
-  "name_en": "Kiwi -> Kiwi",
+  "name_en": "",
   "name_normalized": "kiwi",
   "synonyms": [
     "ổi chuột"
@@ -13,6 +13,7 @@
   ],
   "category": "fresh_fruits",
   "audit_flags": [
+    "sanitized_invalid_english",
     "needs_manual_review_translation"
   ],
   "correction_log": []

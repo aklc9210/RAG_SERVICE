@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre06347.json",
   "name_vi": "thịt chôm chôm rừng",
-  "name_en": "Dragonfruit肉",
+  "name_en": "",
   "name_normalized": "thit chom chom rung",
   "synonyms": [
     "thịt dê"
@@ -12,6 +12,9 @@
     "thit de"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

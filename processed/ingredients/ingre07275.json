@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07275.json",
   "name_vi": "vỏ tôm",
-  "name_en": "Shrimp壳",
+  "name_en": "",
   "name_normalized": "vo tom",
   "synonyms": [
     "cùi tôm"
@@ -12,6 +12,9 @@
     "cui tom"
   ],
   "category": "others",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }

@@ -3,7 +3,7 @@
   "type": "ingredient",
   "source_file": "kb_old/ingredients/ingre07428.json",
   "name_vi": "xương sụm",
-  "name_en": "Shrimpガイガイ",
+  "name_en": "",
   "name_normalized": "xuong sum",
   "synonyms": [
     "xương sườn"
@@ -12,6 +12,9 @@
     "xuong suon"
   ],
   "category": "fresh_meat",
-  "audit_flags": [],
+  "audit_flags": [
+    "sanitized_invalid_english",
+    "needs_manual_review_translation"
+  ],
   "correction_log": []
 }
