@@ -1,0 +1,53 @@
+{
+  "id": "dish9656",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9656.json",
+  "name_vi": "Tàu hủ matcha",
+  "name_en": "",
+  "name_normalized": "tau hu matcha",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Tàu hủ",
+    "Đá viên"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột matcha ô long",
+    "Sữa hạt hoặc sữa đậu nành hoặc sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00738",
+    "ingre06127",
+    "ingre06174",
+    "ingre06880",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Bột matcha ô long",
+    "Sữa hạt hoặc sữa đậu nành hoặc sữa tươi không đường",
+    "Sữa đặc",
+    "Tàu hủ",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Matcha Green Tea Powder",
+    "Almond milk or soy milk or unsweetened fresh milk",
+    "Sweetened Condensed Milk",
+    "Tofu",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "bot matcha o long",
+    "sua hat hoac sua dau nanh hoac sua tuoi khong duong",
+    "sua dac",
+    "tau hu",
+    "da vien"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

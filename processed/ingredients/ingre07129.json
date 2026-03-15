@@ -1,0 +1,29 @@
+{
+  "id": "ingre07129",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07129.json",
+  "name_vi": "tỏi/ớt/hành tím",
+  "name_en": "Garlic/Chili/Purple Onion",
+  "name_normalized": "toi ot hanh tim",
+  "synonyms": [
+    "tỏi tây",
+    "tỏi bắc",
+    "tỏi vàng"
+  ],
+  "synonyms_normalized": [
+    "toi tay",
+    "toi bac",
+    "toi vang"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi/ot/hanh tim",
+      "new": "toi ot hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

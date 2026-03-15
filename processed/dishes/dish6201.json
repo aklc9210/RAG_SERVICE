@@ -1,0 +1,96 @@
+{
+  "id": "dish6201",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6201.json",
+  "name_vi": "Cá bạc má sốt cà chua",
+  "name_en": "",
+  "name_normalized": "ca bac ma sot ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá bạc má",
+    "Cà chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01476",
+    "ingre01354",
+    "ingre02673",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06644",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá bạc má",
+    "Cà chua",
+    "Hành lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike conger",
+    "Tomato",
+    "Scallion",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Ground pepper",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca bac ma",
+    "ca chua",
+    "hanh la",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu xay",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

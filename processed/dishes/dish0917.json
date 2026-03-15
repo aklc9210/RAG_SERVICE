@@ -1,0 +1,87 @@
+{
+  "id": "dish0917",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0917.json",
+  "name_vi": "Bánh xoài đào Jollibee",
+  "name_en": "",
+  "name_normalized": "banh xoai dao jollibee",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Xoài chín",
+    "Đào ngâm"
+  ],
+  "secondary_ingredients": [
+    "Shortening thực vật/ mỡ lợn",
+    "Nước lọc",
+    "Màu thực phẩm màu vàng"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột ngô",
+    "Sữa bột",
+    "Dầu ăn",
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07332",
+    "ingre07512",
+    "ingre00813",
+    "ingre05657",
+    "ingre06083",
+    "ingre04665",
+    "ingre02124",
+    "ingre06801",
+    "ingre03873"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Xoài chín",
+    "Đào ngâm",
+    "Bột ngô",
+    "Shortening thực vật/ mỡ lợn",
+    "Sữa bột",
+    "Nước lọc",
+    "Dầu ăn",
+    "Trứng",
+    "Màu thực phẩm màu vàng"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Mango",
+    "Pickled peach",
+    "Corn flour",
+    "Vegetable Shortening/Pork Fat",
+    "Milk Powder",
+    "Tap water",
+    "Cooking oil",
+    "Egg",
+    "Yellow food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "xoai chin",
+    "dao ngam",
+    "bot ngo",
+    "shortening thuc vat mo lon",
+    "sua bot",
+    "nuoc loc",
+    "dau an",
+    "trung",
+    "mau thuc pham mau vang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "shortening thuc vat/ mo lon",
+      "new": "shortening thuc vat mo lon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Shortening thực vật/ mỡ lợn"
+    }
+  ]
+}

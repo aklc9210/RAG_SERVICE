@@ -1,0 +1,101 @@
+{
+  "id": "dish0575",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0575.json",
+  "name_vi": "Canh hạt sen",
+  "name_en": "",
+  "name_normalized": "canh hat sen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hạt sen",
+    "Nấm hương tươi",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ trắng",
+    "Hành tím",
+    "Rau ngò"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03029",
+    "ingre04916",
+    "ingre04953",
+    "ingre07755",
+    "ingre01419",
+    "ingre02768",
+    "ingre05321",
+    "ingre02124",
+    "ingre00587",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Hạt sen",
+    "Nấm hương tươi",
+    "Nấm rơm",
+    "Đậu hũ trắng",
+    "Cà rốt",
+    "Hành tím",
+    "Rau ngò",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Lotus seed",
+    "Fresh Shiitake Mushrooms",
+    "Strawberry mushroom",
+    "Tofu",
+    "Carrot",
+    "Shallot",
+    "Culantro",
+    "Cooking oil",
+    "Cornstarch",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "hat sen",
+    "nam huong tuoi",
+    "nam rom",
+    "dau hu trang",
+    "ca rot",
+    "hanh tim",
+    "rau ngo",
+    "dau an",
+    "bot canh",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre05470",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05470.json",
+  "name_vi": "rong biển/mè rang",
+  "name_en": "Kelp/Mixed Nuts",
+  "name_normalized": "rong bien me rang",
+  "synonyms": [
+    "mè rang",
+    "rong biển rang"
+  ],
+  "synonyms_normalized": [
+    "me rang",
+    "rong bien rang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rong bien/me rang",
+      "new": "rong bien me rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

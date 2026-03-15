@@ -1,0 +1,117 @@
+{
+  "id": "dish10628",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10628.json",
+  "name_vi": "Bì cuốn chay từ tàu hũ ky và đậu hũ",
+  "name_en": "",
+  "name_normalized": "bi cuon chay tu tau hu ky va dau hu",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Sắn",
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Tàu hủ ky",
+    "Đậu hủ chiên",
+    "Xà lách",
+    "Húng lủi hoặc húng quế",
+    "Hành tím",
+    "Thính gạo rang",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Đường",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre05936",
+    "ingre03208",
+    "ingre01419",
+    "ingre06883",
+    "ingre07763",
+    "ingre07351",
+    "ingre02860",
+    "ingre02768",
+    "ingre06242",
+    "ingre07583",
+    "ingre02997",
+    "ingre04790",
+    "ingre03746",
+    "ingre02093",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Sắn",
+    "Khoai môn",
+    "Cà rốt",
+    "Tàu hủ ky",
+    "Đậu hủ chiên",
+    "Xà lách",
+    "Húng lủi hoặc húng quế",
+    "Hành tím",
+    "Thính gạo rang",
+    "Đường",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Muối",
+    "Dầu màu điều",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Yam",
+    "Carrot",
+    "Tofu cheese",
+    "Fried tofu",
+    "Lettuce",
+    "Peppermint or Sage",
+    "Shallot",
+    "Rice flour",
+    "Sugar",
+    "Vegetarian Seasoning",
+    "Soy Sauce",
+    "Salt",
+    "Peanut-colored food coloring",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "san",
+    "khoai mon",
+    "ca rot",
+    "tau hu ky",
+    "dau hu chien",
+    "xa lach",
+    "hung lui hoac hung que",
+    "hanh tim",
+    "thinh gao rang",
+    "duong",
+    "hat nem chay",
+    "nuoc tuong",
+    "muoi",
+    "dau mau dieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

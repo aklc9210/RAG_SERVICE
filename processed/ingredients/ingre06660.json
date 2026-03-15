@@ -1,0 +1,27 @@
+{
+  "id": "ingre06660",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06660.json",
+  "name_vi": "tiêu/ hạt nêm",
+  "name_en": "Salt/Soy Sauce",
+  "name_normalized": "tieu hat nem",
+  "synonyms": [
+    "hạt điều",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "hat dieu",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu/ hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

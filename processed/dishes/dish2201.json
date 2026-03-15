@@ -1,0 +1,91 @@
+{
+  "id": "dish2201",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2201.json",
+  "name_vi": "Cheesecake bưởi cam (không cần lò nướng)",
+  "name_en": "",
+  "name_normalized": "cheesecake buoi cam khong can lo nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bưởi hồng",
+    "Cam vàng",
+    "Kem phô mai"
+  ],
+  "secondary_ingredients": [
+    "Kem sữa tươi",
+    "Lá gelatin",
+    "Bánh quy bơ lạt",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Đường",
+    "Chiết xuất vani",
+    "Nước chanh",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00425",
+    "ingre01053",
+    "ingre03137",
+    "ingre03147",
+    "ingre03428",
+    "ingre07583",
+    "ingre00146",
+    "ingre00382",
+    "ingre01139",
+    "ingre04509",
+    "ingre07589"
+  ],
+  "ingredient_names_vi": [
+    "Bưởi hồng",
+    "Cam vàng",
+    "Kem phô mai",
+    "Kem sữa tươi",
+    "Lá gelatin",
+    "Đường",
+    "Bánh quy bơ lạt",
+    "Bơ lạt",
+    "Chiết xuất vani",
+    "Nước chanh",
+    "Đường bột"
+  ],
+  "ingredient_names_en": [
+    "Pink Pomelo",
+    "Orange",
+    "Cottage Cheese",
+    "Sweetened Condensed Milk",
+    "Gelatin leaf",
+    "Sugar",
+    "Shortbread Cookie",
+    "Butter",
+    "Vanilla extract",
+    "Lemon juice",
+    "Sugar Powder"
+  ],
+  "ingredient_names_normalized": [
+    "buoi hong",
+    "cam vang",
+    "kem pho mai",
+    "kem sua tuoi",
+    "la gelatin",
+    "duong",
+    "banh quy bo lat",
+    "bo lat",
+    "chiet xuat vani",
+    "nuoc chanh",
+    "duong bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cheesecake buoi cam (khong can lo nuong)",
+      "new": "cheesecake buoi cam khong can lo nuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

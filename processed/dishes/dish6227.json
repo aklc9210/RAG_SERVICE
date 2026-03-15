@@ -1,0 +1,91 @@
+{
+  "id": "dish6227",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6227.json",
+  "name_vi": "Cá mòi hộp kho trứng cút",
+  "name_en": "",
+  "name_normalized": "ca moi hop kho trung cut",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá mòi đóng hộp",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01566",
+    "ingre06816",
+    "ingre07063",
+    "ingre02768",
+    "ingre08055",
+    "ingre05354",
+    "ingre04790",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Cá mòi đóng hộp",
+    "Trứng cút",
+    "Tỏi",
+    "Hành tím",
+    "Ớt sừng",
+    "Rau quế",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp paste",
+    "Quail egg",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Sage",
+    "Soy Sauce",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca moi dong hop",
+    "trung cut",
+    "toi",
+    "hanh tim",
+    "ot sung",
+    "rau que",
+    "nuoc tuong",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

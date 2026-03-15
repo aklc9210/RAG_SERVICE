@@ -1,0 +1,121 @@
+{
+  "id": "dish7772",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7772.json",
+  "name_vi": "Lẩu gà chanh ớt",
+  "name_en": "",
+  "name_normalized": "lau ga chanh ot",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gà ta",
+    "Xương gà",
+    "Củ cải trắng",
+    "Cải thảo"
+  ],
+  "secondary_ingredients": [
+    "Rau muống",
+    "Hành lá",
+    "Sả",
+    "Bắp chuối bào",
+    "Rau húng quế",
+    "Bún"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Ớt xiêm xanh",
+    "Ớt hiểm đỏ",
+    "Ớt sừng",
+    "Bột chanh"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre07421",
+    "ingre01868",
+    "ingre01793",
+    "ingre05289",
+    "ingre02673",
+    "ingre05900",
+    "ingre00453",
+    "ingre05265",
+    "ingre02774",
+    "ingre08092",
+    "ingre08034",
+    "ingre08055",
+    "ingre00338",
+    "ingre00593"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Xương gà",
+    "Củ cải trắng",
+    "Cải thảo",
+    "Rau muống",
+    "Hành lá",
+    "Sả",
+    "Bắp chuối bào",
+    "Rau húng quế",
+    "Hành tím băm",
+    "Ớt xiêm xanh",
+    "Ớt hiểm đỏ",
+    "Ớt sừng",
+    "Bún",
+    "Bột chanh"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Chicken bone",
+    "White radish",
+    "Cabbage",
+    "Watercress",
+    "Scallion",
+    "Lemongrass",
+    "Banana sprout",
+    "Sage Herb",
+    "Chopped Scallion",
+    "Green chili",
+    "Red Thai chili",
+    "Hot pepper",
+    "Noodle",
+    "Lemon powder"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "xuong ga",
+    "cu cai trang",
+    "cai thao",
+    "rau muong",
+    "hanh la",
+    "sa",
+    "bap chuoi bao",
+    "rau hung que",
+    "hanh tim bam",
+    "ot xiem xanh",
+    "ot hiem do",
+    "ot sung",
+    "bun",
+    "bot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

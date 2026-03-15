@@ -1,0 +1,174 @@
+{
+  "id": "dish6896",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6896.json",
+  "name_vi": "Gõ xoài thịt ba chỉ chiên",
+  "name_en": "",
+  "name_normalized": "go xoai thit ba chi chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Hành lá",
+    "Dầu màu điều"
+  ],
+  "secondary_ingredients": [
+    "Xoài xanh",
+    "Nước tắc",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành tím/tỏi",
+    "Giấm/Muối",
+    "Muối tôm",
+    "Tỏi phi",
+    "Ngũ vị hương",
+    "Đường/hạt nêm",
+    "Nước mắm/nước tương/tương ớt",
+    "Đường/Hạt nêm/Bột ngọt",
+    "Ớt băm/ớt cắt sợi"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre02485",
+    "ingre02673",
+    "ingre02093",
+    "ingre02810",
+    "ingre02384",
+    "ingre07342",
+    "ingre03786",
+    "ingre04817",
+    "ingre07096",
+    "ingre05359",
+    "ingre04381",
+    "ingre07688",
+    "ingre04716",
+    "ingre07689",
+    "ingre07975"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Gừng",
+    "Hành lá",
+    "Dầu màu điều",
+    "Hành tím/tỏi",
+    "Giấm/Muối",
+    "Xoài xanh",
+    "Muối tôm",
+    "Nước tắc",
+    "Tỏi phi",
+    "Rau răm",
+    "Ngũ vị hương",
+    "Đường/hạt nêm",
+    "Nước mắm/nước tương/tương ớt",
+    "Đường/Hạt nêm/Bột ngọt",
+    "Ớt băm/ớt cắt sợi"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Ginger",
+    "Scallion",
+    "Peanut-colored food coloring",
+    "Garlic",
+    "Vinegar/Salt",
+    "Green mango",
+    "Shrimp salt",
+    "Lime juice",
+    "Garlic flakes",
+    "Vietnamese coriander",
+    "Five-Spice Powder",
+    "Soy Sauce/Salt",
+    "Fish Sauce/Soy Sauce/Hot Sauce",
+    "Soy Sauce/Salt/Powdered Monosodium Glutamate",
+    "Chili Powder/Sliced Chili"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "gung",
+    "hanh la",
+    "dau mau dieu",
+    "hanh tim toi",
+    "giam muoi",
+    "xoai xanh",
+    "muoi tom",
+    "nuoc tac",
+    "toi phi",
+    "rau ram",
+    "ngu vi huong",
+    "duong hat nem",
+    "nuoc mam nuoc tuong tuong ot",
+    "duong hat nem bot ngot",
+    "ot bam ot cat soi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/toi",
+      "new": "hanh tim toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/tỏi"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "giam/muoi",
+      "new": "giam muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Giấm/Muối"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/hạt nêm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc mam/nuoc tuong/tuong ot",
+      "new": "nuoc mam nuoc tuong tuong ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước mắm/nước tương/tương ớt"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/hat nem/bot ngot",
+      "new": "duong hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/Hạt nêm/Bột ngọt"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ot bam/ot cat soi",
+      "new": "ot bam ot cat soi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ớt băm/ớt cắt sợi"
+    }
+  ]
+}

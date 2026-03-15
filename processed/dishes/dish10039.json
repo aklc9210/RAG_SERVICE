@@ -1,0 +1,57 @@
+{
+  "id": "dish10039",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10039.json",
+  "name_vi": "Nước cam nha đam",
+  "name_en": "",
+  "name_normalized": "nuoc cam nha dam",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Cam sành"
+  ],
+  "secondary_ingredients": [
+    "Nha đam"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01047",
+    "ingre04395",
+    "ingre01079",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cam sành",
+    "Nha đam",
+    "Chanh",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Sweet Orange",
+    "Aloe vera",
+    "Lemon",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cam sanh",
+    "nha dam",
+    "chanh",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

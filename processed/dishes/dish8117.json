@@ -1,0 +1,90 @@
+{
+  "id": "dish8117",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8117.json",
+  "name_vi": "Gỏi hàu điếu",
+  "name_en": "",
+  "name_normalized": "goi hau dieu",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Hàu điếu",
+    "Hành tím to"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Ớt",
+    "Bột ớt",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02847",
+    "ingre02794",
+    "ingre05900",
+    "ingre03370",
+    "ingre07966",
+    "ingre07057",
+    "ingre01015",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Hàu điếu",
+    "Hành tím to",
+    "Sả",
+    "Lá chanh",
+    "Ớt",
+    "Tắc",
+    "Bột ớt",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Scallops",
+    "Spring Onion",
+    "Lemongrass",
+    "Lime leaf",
+    "Pepper",
+    "Tamarind",
+    "Red Pepper Powder",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "hau dieu",
+    "hanh tim to",
+    "sa",
+    "la chanh",
+    "ot",
+    "tac",
+    "bot ot",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

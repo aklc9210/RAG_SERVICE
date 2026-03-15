@@ -1,0 +1,78 @@
+{
+  "id": "dish7233",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7233.json",
+  "name_vi": "Bánh tôm chay khoai môn",
+  "name_en": "",
+  "name_normalized": "banh tom chay khoai mon",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai môn",
+    "Tôm chay"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre06935",
+    "ingre02673",
+    "ingre00598",
+    "ingre02997",
+    "ingre07583",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Tôm chay",
+    "Hành lá",
+    "Bột chiên giòn",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Vegetarian shrimp",
+    "Scallion",
+    "Puffed Rice Powder",
+    "Vegetarian Seasoning",
+    "Sugar",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "tom chay",
+    "hanh la",
+    "bot chien gion",
+    "hat nem chay",
+    "duong",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

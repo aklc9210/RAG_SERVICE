@@ -1,0 +1,57 @@
+{
+  "id": "dish3886",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3886.json",
+  "name_vi": "Cá sòng nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "ca song nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá sòng"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01618",
+    "ingre02080",
+    "ingre05900",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá sòng",
+    "Dầu hào",
+    "Sả",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pangasius",
+    "Soy sauce",
+    "Lemongrass",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca song",
+    "dau hao",
+    "sa",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish7745",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7745.json",
+  "name_vi": "Lẩu khế",
+  "name_en": "",
+  "name_normalized": "lau khe",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Khế chua",
+    "Cá",
+    "Thịt bắp bò"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Xương gà"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Sa tế"
+  ],
+  "ingredient_ids": [
+    "ingre03269",
+    "ingre01454",
+    "ingre06332",
+    "ingre02485",
+    "ingre05900",
+    "ingre04531",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre05621",
+    "ingre07421"
+  ],
+  "ingredient_names_vi": [
+    "Khế chua",
+    "Cá",
+    "Thịt bắp bò",
+    "Gừng",
+    "Sả",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Sa tế",
+    "Xương gà"
+  ],
+  "ingredient_names_en": [
+    "Tamarind",
+    "Fish",
+    "Beef",
+    "Ginger",
+    "Lemongrass",
+    "Lemon juice",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "Chicken bone"
+  ],
+  "ingredient_names_normalized": [
+    "khe chua",
+    "ca",
+    "thit bap bo",
+    "gung",
+    "sa",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "sa te",
+    "xuong ga"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish4851",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4851.json",
+  "name_vi": "Lòng heo xào dứa (thơm)",
+  "name_en": "",
+  "name_normalized": "long heo xao dua thom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng heo non",
+    "Dứa",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Muối hạt"
+  ],
+  "ingredient_ids": [
+    "ingre03573",
+    "ingre02151",
+    "ingre02768",
+    "ingre02673",
+    "ingre01079",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre00587",
+    "ingre03760"
+  ],
+  "ingredient_names_vi": [
+    "Lòng heo non",
+    "Dứa",
+    "Hành tím",
+    "Hành lá",
+    "Chanh",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Muối hạt"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Pineapple",
+    "Shallot",
+    "Scallion",
+    "Lemon",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Cornstarch",
+    "Fenugreek seeds"
+  ],
+  "ingredient_names_normalized": [
+    "long heo non",
+    "dua",
+    "hanh tim",
+    "hanh la",
+    "chanh",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "bot canh",
+    "muoi hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "long heo xao dua (thom)",
+      "new": "long heo xao dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

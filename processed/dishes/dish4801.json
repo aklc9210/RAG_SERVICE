@@ -1,0 +1,62 @@
+{
+  "id": "dish4801",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4801.json",
+  "name_vi": "Mắm ruốc ăn trái cây",
+  "name_en": "",
+  "name_normalized": "mam ruoc an trai cay",
+  "category": "mon xao",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Mắm ruốc",
+    "Hành tím băm",
+    "Ớt băm",
+    "Tỏi băm",
+    "Nước cốt thơm",
+    "Đường thôt nốt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04151",
+    "ingre02774",
+    "ingre07971",
+    "ingre07071",
+    "ingre04588",
+    "ingre07645",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mắm ruốc",
+    "Hành tím băm",
+    "Ớt băm",
+    "Tỏi băm",
+    "Nước cốt thơm",
+    "Đường thôt nốt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp paste",
+    "Chopped Scallion",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Lime juice",
+    "Brown sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mam ruoc",
+    "hanh tim bam",
+    "ot bam",
+    "toi bam",
+    "nuoc cot thom",
+    "duong thot not",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

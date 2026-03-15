@@ -1,0 +1,93 @@
+{
+  "id": "dish6091",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6091.json",
+  "name_vi": "Mực rim nước dừa",
+  "name_en": "",
+  "name_normalized": "muc rim nuoc dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Mực ống",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre07063",
+    "ingre02768",
+    "ingre04622",
+    "ingre07977",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Tỏi",
+    "Hành tím",
+    "Nước dừa",
+    "Ớt bột",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Garlic",
+    "Shallot",
+    "Coconut water",
+    "Chili powder",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "toi",
+    "hanh tim",
+    "nuoc dua",
+    "ot bot",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

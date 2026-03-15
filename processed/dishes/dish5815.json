@@ -1,0 +1,107 @@
+{
+  "id": "dish5815",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5815.json",
+  "name_vi": "Cá lăng om dưa chua",
+  "name_en": "",
+  "name_normalized": "ca lang om dua chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Đầu cá lăng",
+    "Dứa",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nghệ tươi",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Dưa cải muối chua",
+    "Cà rốt",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07708",
+    "ingre02008",
+    "ingre02151",
+    "ingre01354",
+    "ingre01419",
+    "ingre02768",
+    "ingre04308",
+    "ingre07966",
+    "ingre05385",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá lăng",
+    "Dưa cải muối chua",
+    "Dứa",
+    "Cà chua",
+    "Cà rốt",
+    "Hành tím",
+    "Nghệ tươi",
+    "Ớt",
+    "Rau thơm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pike perch head",
+    "Pickled Chinese Cabbage",
+    "Pineapple",
+    "Tomato",
+    "Carrot",
+    "Shallot",
+    "Ginger",
+    "Pepper",
+    "Basil",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca lang",
+    "dua cai muoi chua",
+    "dua",
+    "ca chua",
+    "ca rot",
+    "hanh tim",
+    "nghe tuoi",
+    "ot",
+    "rau thom",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

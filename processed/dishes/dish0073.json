@@ -1,0 +1,98 @@
+{
+  "id": "dish0073",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0073.json",
+  "name_vi": "Bồ câu hầm bí đỏ",
+  "name_en": "",
+  "name_normalized": "bo cau ham bi do",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bồ câu",
+    "Bí đỏ",
+    "Hạt sen tươi"
+  ],
+  "secondary_ingredients": [
+    "Kỷ tử",
+    "Mùi tàu",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00500",
+    "ingre00253",
+    "ingre03032",
+    "ingre03334",
+    "ingre04057",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bồ câu",
+    "Bí đỏ",
+    "Hạt sen tươi",
+    "Kỷ tử",
+    "Mùi tàu",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Pumpkin",
+    "Fresh lotus seeds",
+    "Goji berries",
+    "Chinese herb",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bo cau",
+    "bi do",
+    "hat sen tuoi",
+    "ky tu",
+    "mui tau",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish8069",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8069.json",
+  "name_vi": "Gỏi khế bao tử heo - nộm khế dạ dày lợn",
+  "name_en": "",
+  "name_normalized": "goi khe bao tu heo nom khe da day lon",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Khế"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre03268",
+    "ingre01419",
+    "ingre02741",
+    "ingre02485",
+    "ingre07966",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre02124",
+    "ingre05574",
+    "ingre02355"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Khế",
+    "Cà rốt",
+    "Hành tây",
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Giấm"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Kumquat",
+    "Carrot",
+    "Onion",
+    "Ginger",
+    "Pepper",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "Cooking oil",
+    "White wine",
+    "Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "khe",
+    "ca rot",
+    "hanh tay",
+    "gung",
+    "ot",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "duong",
+    "dau an",
+    "ruou trang",
+    "giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi khe bao tu heo - nom khe da day lon",
+      "new": "goi khe bao tu heo nom khe da day lon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

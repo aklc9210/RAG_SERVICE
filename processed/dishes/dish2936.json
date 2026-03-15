@@ -1,0 +1,66 @@
+{
+  "id": "dish2936",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2936.json",
+  "name_vi": "Bánh Meringue cookie - bánh quy giòn xốp",
+  "name_en": "",
+  "name_normalized": "banh meringue cookie banh quy gion xop",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Màu thực phẩm",
+    "Nước nóng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Đường bột",
+    "Bột vani",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07589",
+    "ingre00983",
+    "ingre03865",
+    "ingre04538",
+    "ingre04738"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường bột",
+    "Bột vani",
+    "Màu thực phẩm",
+    "Nước cốt chanh",
+    "Nước nóng"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Sugar Powder",
+    "Vanilla powder",
+    "Food coloring",
+    "Lemon juice",
+    "Hot water"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong bot",
+    "bot vani",
+    "mau thuc pham",
+    "nuoc cot chanh",
+    "nuoc nong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh meringue cookie - banh quy gion xop",
+      "new": "banh meringue cookie banh quy gion xop",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

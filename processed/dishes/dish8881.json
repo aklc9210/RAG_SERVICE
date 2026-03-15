@@ -1,0 +1,98 @@
+{
+  "id": "dish8881",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8881.json",
+  "name_vi": "Bánh tráng kẹp Đà Nẵng",
+  "name_en": "",
+  "name_normalized": "banh trang kep da nang",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng dừa",
+    "Khô bò",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Trứng cút",
+    "Pa tê gan"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Nước sốt khô bò đen",
+    "Ớt sa tế",
+    "Nước cốt tắc",
+    "Muối",
+    "Đường trắng",
+    "Ớt khô"
+  ],
+  "ingredient_ids": [
+    "ingre00191",
+    "ingre03238",
+    "ingre02673",
+    "ingre02730",
+    "ingre06816",
+    "ingre05014",
+    "ingre04760",
+    "ingre08050",
+    "ingre04591",
+    "ingre03746",
+    "ingre07652",
+    "ingre08039"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng dừa",
+    "Khô bò",
+    "Hành lá",
+    "Hành phi",
+    "Trứng cút",
+    "Pa tê gan",
+    "Nước sốt khô bò đen",
+    "Ớt sa tế",
+    "Nước cốt tắc",
+    "Muối",
+    "Đường trắng",
+    "Ớt khô"
+  ],
+  "ingredient_names_en": [
+    "Coconut rice paper",
+    "Beef jerky",
+    "Scallion",
+    "Garlic Fried",
+    "Quail egg",
+    "Pate Ganache",
+    "Black Beef Dry Sauce",
+    "Bird's Eye Chili",
+    "Tamarind juice",
+    "Salt",
+    "White sugar",
+    "Dried Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang dua",
+    "kho bo",
+    "hanh la",
+    "hanh phi",
+    "trung cut",
+    "pa te gan",
+    "nuoc sot kho bo den",
+    "ot sa te",
+    "nuoc cot tac",
+    "muoi",
+    "duong trang",
+    "ot kho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

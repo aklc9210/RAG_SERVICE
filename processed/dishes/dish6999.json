@@ -1,0 +1,92 @@
+{
+  "id": "dish6999",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6999.json",
+  "name_vi": "Cách làm gà roti bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "cach lam ga roti bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ngũ vị hương",
+    "Bột cà ri",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02768",
+    "ingre04381",
+    "ingre00631",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Hành tím",
+    "Ngũ vị hương",
+    "Bột cà ri",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Shallot",
+    "Five-Spice Powder",
+    "Curry powder",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "hanh tim",
+    "ngu vi huong",
+    "bot ca ri",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

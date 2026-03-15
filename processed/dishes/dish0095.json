@@ -1,0 +1,109 @@
+{
+  "id": "dish0095",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0095.json",
+  "name_vi": "Canh trai nấu bầu",
+  "name_en": "",
+  "name_normalized": "canh trai nau bau",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Trai",
+    "Bầu"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Tương hột",
+    "Muối",
+    "Hạt nêm",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre06682",
+    "ingre00440",
+    "ingre02485",
+    "ingre02768",
+    "ingre02673",
+    "ingre05359",
+    "ingre02124",
+    "ingre06994",
+    "ingre03746",
+    "ingre02995",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Trai",
+    "Bầu",
+    "Gừng",
+    "Hành tím",
+    "Hành lá",
+    "Rau răm",
+    "Dầu ăn",
+    "Tương hột",
+    "Muối",
+    "Hạt nêm",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Green pea",
+    "Zucchini",
+    "Ginger",
+    "Shallot",
+    "Scallion",
+    "Vietnamese coriander",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "trai",
+    "bau",
+    "gung",
+    "hanh tim",
+    "hanh la",
+    "rau ram",
+    "dau an",
+    "tuong hot",
+    "muoi",
+    "hat nem",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

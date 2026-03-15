@@ -1,0 +1,87 @@
+{
+  "id": "dish4235",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4235.json",
+  "name_vi": "Đùi gà tây nướng mật ong",
+  "name_en": "",
+  "name_normalized": "dui ga tay nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Đùi gà tây",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ngũ vị hương",
+    "Tương ớt",
+    "Dầu hào",
+    "Sa tế tươi",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre07561",
+    "ingre02768",
+    "ingre07063",
+    "ingre03929",
+    "ingre04381",
+    "ingre07028",
+    "ingre02080",
+    "ingre05628",
+    "ingre02104",
+    "ingre04790"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà tây",
+    "Hành tím",
+    "Tỏi",
+    "Mè rang",
+    "Ngũ vị hương",
+    "Tương ớt",
+    "Dầu hào",
+    "Sa tế tươi",
+    "Dầu oliu",
+    "Nước tương"
+  ],
+  "ingredient_names_en": [
+    "Thigh Chicken",
+    "Shallot",
+    "Garlic",
+    "Roasted Sesame Seeds",
+    "Five-Spice Powder",
+    "Hot Sauce",
+    "Soy sauce",
+    "Fresh chili paste",
+    "Olive oil"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga tay",
+    "hanh tim",
+    "toi",
+    "me rang",
+    "ngu vi huong",
+    "tuong ot",
+    "dau hao",
+    "sa te tuoi",
+    "dau oliu",
+    "nuoc tuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish3893",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3893.json",
+  "name_vi": "Ớt chuông nướng trứng",
+  "name_en": "",
+  "name_normalized": "ot chuong nuong trung",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cà chua",
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Mozzarella",
+    "Phô mai Chedder",
+    "Dầu thực vật",
+    "Lòng đỏ trứng",
+    "Hành lá",
+    "Thịt xông khói"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Muối",
+    "Tiêu",
+    "Bột tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre07999",
+    "ingre01354",
+    "ingre04945",
+    "ingre05092",
+    "ingre05069",
+    "ingre02113",
+    "ingre03583",
+    "ingre02673",
+    "ingre03746",
+    "ingre06523",
+    "ingre06612",
+    "ingre00978"
+  ],
+  "ingredient_names_vi": [
+    "Ớt chuông",
+    "Cà chua",
+    "Nấm mỡ",
+    "Phô mai Mozzarella",
+    "Phô mai Chedder",
+    "Dầu thực vật",
+    "Lòng đỏ trứng",
+    "Hành lá",
+    "Muối",
+    "Thịt xông khói",
+    "Tiêu",
+    "Bột tỏi"
+  ],
+  "ingredient_names_en": [
+    "Bell pepper",
+    "Tomato",
+    "Fried mushroom",
+    "Mozzarella cheese",
+    "Cheddar cheese",
+    "Vegetable oil",
+    "Egg yolk",
+    "Scallion",
+    "Salt",
+    "Smoked Pork",
+    "Pepper",
+    "Garlic powder"
+  ],
+  "ingredient_names_normalized": [
+    "ot chuong",
+    "ca chua",
+    "nam mo",
+    "pho mai mozzarella",
+    "pho mai chedder",
+    "dau thuc vat",
+    "long do trung",
+    "hanh la",
+    "muoi",
+    "thit xong khoi",
+    "tieu",
+    "bot toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

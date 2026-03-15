@@ -1,0 +1,25 @@
+{
+  "id": "ingre02122",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02122.json",
+  "name_vi": "dầu ô-liu",
+  "name_en": "Olive oil",
+  "name_normalized": "dau o liu",
+  "synonyms": [
+    "dầu oliu"
+  ],
+  "synonyms_normalized": [
+    "dau oliu"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau o-liu",
+      "new": "dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

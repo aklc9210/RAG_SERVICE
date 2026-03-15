@@ -1,0 +1,78 @@
+{
+  "id": "dish1112",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1112.json",
+  "name_vi": "Bánh bông lan trà xanh bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh bong lan tra xanh bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột bắp",
+    "Bột trà xanh",
+    "Đường",
+    "Trứng gà",
+    "Chanh",
+    "Muối",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00564",
+    "ingre00961",
+    "ingre07583",
+    "ingre06823",
+    "ingre00367",
+    "ingre01079",
+    "ingre03746",
+    "ingre07140",
+    "ingre06144"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột bắp",
+    "Bột trà xanh",
+    "Đường",
+    "Trứng gà",
+    "Bơ",
+    "Chanh",
+    "Muối",
+    "Vani",
+    "Sữa tươi"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Corn starch",
+    "Green tea powder",
+    "Sugar",
+    "Chicken egg",
+    "Butter",
+    "Lemon",
+    "Salt",
+    "Vanilla",
+    "Fresh Milk"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot bap",
+    "bot tra xanh",
+    "duong",
+    "trung ga",
+    "bo",
+    "chanh",
+    "muoi",
+    "vani",
+    "sua tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

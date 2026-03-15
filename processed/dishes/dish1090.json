@@ -1,0 +1,83 @@
+{
+  "id": "dish1090",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1090.json",
+  "name_vi": "Bánh táo thuần chay",
+  "name_en": "",
+  "name_normalized": "banh tao thuan chay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Táo xanh",
+    "Dầu dừa",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Tinh bột bắp",
+    "Bột quế",
+    "Vỏ chanh bào",
+    "Đường bột",
+    "Đường",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre06562",
+    "ingre00888",
+    "ingre06908",
+    "ingre07254",
+    "ingre02067",
+    "ingre00382",
+    "ingre07589",
+    "ingre07583",
+    "ingre03746",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Tinh bột bắp",
+    "Bột quế",
+    "Táo xanh",
+    "Vỏ chanh bào",
+    "Dầu dừa",
+    "Bơ lạt",
+    "Đường bột",
+    "Đường",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Corn starch",
+    "Cinnamon粉",
+    "Green apple",
+    "Lemon zest",
+    "Coconut oil",
+    "Butter",
+    "Sugar Powder",
+    "Sugar",
+    "Salt",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "tinh bot bap",
+    "bot que",
+    "tao xanh",
+    "vo chanh bao",
+    "dau dua",
+    "bo lat",
+    "duong bot",
+    "duong",
+    "muoi",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

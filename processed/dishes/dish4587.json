@@ -1,0 +1,76 @@
+{
+  "id": "dish4587",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4587.json",
+  "name_vi": "Dạ dày xào rau răm",
+  "name_en": "",
+  "name_normalized": "da day xao rau ram",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dạ dày heo"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Giấm ăn",
+    "Dầu ăn",
+    "Bột canh",
+    "Bột ngọt/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre02047",
+    "ingre05359",
+    "ingre02377",
+    "ingre02124",
+    "ingre00587",
+    "ingre00826"
+  ],
+  "ingredient_names_vi": [
+    "Dạ dày heo",
+    "Rau răm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Bột canh",
+    "Bột ngọt/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Vietnamese coriander",
+    "vinegar",
+    "Cooking oil",
+    "Cornstarch",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "da day heo",
+    "rau ram",
+    "giam an",
+    "dau an",
+    "bot canh",
+    "bot ngot muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ muoi",
+      "new": "bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ muối"
+    }
+  ]
+}

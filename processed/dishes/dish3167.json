@@ -1,0 +1,98 @@
+{
+  "id": "dish3167",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3167.json",
+  "name_vi": "Cháo canh cá lóc",
+  "name_en": "",
+  "name_normalized": "chao canh ca loc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá lóc",
+    "Bánh canh khô",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Trứng cút",
+    "Cải xanh",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre00076",
+    "ingre07742",
+    "ingre06816",
+    "ingre01797",
+    "ingre02768",
+    "ingre07966",
+    "ingre07063",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Bánh canh khô",
+    "Đậu hũ chiên",
+    "Trứng cút",
+    "Cải xanh",
+    "Hành tím",
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Dry noodle soup",
+    "Fried Tofu",
+    "Quail egg",
+    "Cabbage",
+    "Shallot",
+    "Pepper",
+    "Garlic",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "banh canh kho",
+    "dau hu chien",
+    "trung cut",
+    "cai xanh",
+    "hanh tim",
+    "ot",
+    "toi",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "dish3340",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3340.json",
+  "name_vi": "Cà ri mực kiểu Hong Kong",
+  "name_en": "",
+  "name_normalized": "ca ri muc kieu hong kong",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mực",
+    "Nước dùng gà",
+    "Sữa bay hơi"
+  ],
+  "secondary_ingredients": [
+    "Hành tây tím",
+    "Lá cà ri tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột cà ri Ấn Độ",
+    "Bột thì là Ai Cập",
+    "Bột nghệ",
+    "Quế",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre04607",
+    "ingre06080",
+    "ingre02761",
+    "ingre07063",
+    "ingre03403",
+    "ingre00635",
+    "ingre00942",
+    "ingre00804",
+    "ingre05186",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Nước dùng gà",
+    "Sữa bay hơi",
+    "Hành tây tím",
+    "Tỏi",
+    "Lá cà ri tươi",
+    "Bột cà ri Ấn Độ",
+    "Bột thì là Ai Cập",
+    "Bột nghệ",
+    "Quế",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Chicken broth",
+    "Evaporated milk",
+    "Purple onion",
+    "Garlic",
+    "Fresh Curry Leaf",
+    "Indian curry powder",
+    "Basil powder",
+    "Turmeric Powder",
+    "Cinnamon",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "nuoc dung ga",
+    "sua bay hoi",
+    "hanh tay tim",
+    "toi",
+    "la ca ri tuoi",
+    "bot ca ri an do",
+    "bot thi la ai cap",
+    "bot nghe",
+    "que",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

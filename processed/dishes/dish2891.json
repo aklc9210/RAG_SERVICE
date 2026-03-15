@@ -1,0 +1,63 @@
+{
+  "id": "dish2891",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2891.json",
+  "name_vi": "Bánh trung thu dẻo",
+  "name_en": "",
+  "name_normalized": "banh trung thu deo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mứt bí",
+    "Lạp xưởng",
+    "Hạt dưa",
+    "Hạt vừng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột dẻo",
+    "Nước đường",
+    "Tinh dầu hoa bưởi"
+  ],
+  "ingredient_ids": [
+    "ingre00648",
+    "ingre04858",
+    "ingre06602",
+    "ingre04218",
+    "ingre03618",
+    "ingre02929",
+    "ingre03055"
+  ],
+  "ingredient_names_vi": [
+    "Bột dẻo",
+    "Nước đường",
+    "Tinh dầu hoa bưởi",
+    "Mứt bí",
+    "Lạp xưởng",
+    "Hạt dưa",
+    "Hạt vừng"
+  ],
+  "ingredient_names_en": [
+    "Sticky Rice Flour",
+    "Sugar water",
+    "Buddha's Hand Citrus Essential Oil",
+    "Pumpkin candy",
+    "Sausage",
+    "Watermelon Seed",
+    "Sunflower seeds"
+  ],
+  "ingredient_names_normalized": [
+    "bot deo",
+    "nuoc duong",
+    "tinh dau hoa buoi",
+    "mut bi",
+    "lap xuong",
+    "hat dua",
+    "hat vung"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre00826",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00826.json",
+  "name_vi": "bột ngọt/ muối",
+  "name_en": "Soy Sauce/Salt",
+  "name_normalized": "bot ngot muoi",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot/ muoi",
+      "new": "bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

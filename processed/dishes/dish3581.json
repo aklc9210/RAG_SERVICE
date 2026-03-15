@@ -1,0 +1,82 @@
+{
+  "id": "dish3581",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3581.json",
+  "name_vi": "Kem chuối trái cây",
+  "name_en": "",
+  "name_normalized": "kem chuoi trai cay",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Chuối xiêm",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Mít",
+    "Dâu tây",
+    "Sữa tươi",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01194",
+    "ingre00367",
+    "ingre04031",
+    "ingre01961",
+    "ingre00849",
+    "ingre04554",
+    "ingre06144",
+    "ingre06174",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Chuối xiêm",
+    "Bơ",
+    "Mít",
+    "Dâu tây",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Sữa tươi",
+    "Sữa đặc",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Dragonfruit",
+    "Butter",
+    "Pineapple",
+    "Strawberry",
+    "Cornstarch",
+    "Coconut milk",
+    "Fresh Milk",
+    "Sweetened Condensed Milk",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi xiem",
+    "bo",
+    "mit",
+    "dau tay",
+    "bot nang",
+    "nuoc cot dua",
+    "sua tuoi",
+    "sua dac",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish0579",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0579.json",
+  "name_vi": "Canh hoa chuối nấu xương",
+  "name_en": "",
+  "name_normalized": "canh hoa chuoi nau xuong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương đuôi heo",
+    "Hoa chuối"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Mùi tàu"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Nước mắm",
+    "Bột canh",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07431",
+    "ingre02575",
+    "ingre02774",
+    "ingre02673",
+    "ingre04057",
+    "ingre04694",
+    "ingre00587",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Xương đuôi heo",
+    "Hoa chuối",
+    "Hành tím băm",
+    "Hành lá",
+    "Mùi tàu",
+    "Nước mắm",
+    "Bột canh",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork Rib Bone",
+    "Banana flower",
+    "Chopped Scallion",
+    "Scallion",
+    "Chinese herb",
+    "Fish Sauce",
+    "Cornstarch",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong duoi heo",
+    "hoa chuoi",
+    "hanh tim bam",
+    "hanh la",
+    "mui tau",
+    "nuoc mam",
+    "bot canh",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

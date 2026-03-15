@@ -1,0 +1,68 @@
+{
+  "id": "dish2913",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2913.json",
+  "name_vi": "Bánh mì Kaya",
+  "name_en": "",
+  "name_normalized": "banh mi kaya",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lá dứa",
+    "Bánh mì sandwich",
+    "Bơ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Đường thốt nốt",
+    "Đường trắng",
+    "Muối",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre04554",
+    "ingre07647",
+    "ingre07652",
+    "ingre03746",
+    "ingre03417",
+    "ingre06823",
+    "ingre00117",
+    "ingre00367"
+  ],
+  "ingredient_names_vi": [
+    "Nước cốt dừa",
+    "Đường thốt nốt",
+    "Đường trắng",
+    "Muối",
+    "Lá dứa",
+    "Trứng gà",
+    "Bánh mì sandwich",
+    "Bơ"
+  ],
+  "ingredient_names_en": [
+    "Coconut milk",
+    "Cane Sugar",
+    "White sugar",
+    "Salt",
+    "Pandan叶",
+    "Chicken egg",
+    "Sandwich bread",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc cot dua",
+    "duong thot not",
+    "duong trang",
+    "muoi",
+    "la dua",
+    "trung ga",
+    "banh mi sandwich",
+    "bo"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

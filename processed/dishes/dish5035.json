@@ -1,0 +1,97 @@
+{
+  "id": "dish5035",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5035.json",
+  "name_vi": "Bò xào lăn nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "bo xao lan nuoc cot dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Húng quế tây - Basil",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng",
+    "Lá chanh",
+    "Nước cốt dừa",
+    "Sốt cà ri đỏ",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre07063",
+    "ingre08055",
+    "ingre02865",
+    "ingre04343",
+    "ingre03370",
+    "ingre04554",
+    "ingre05955",
+    "ingre04538",
+    "ingre04694",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Tỏi",
+    "Ớt sừng",
+    "Húng quế tây - Basil",
+    "Ngò rí",
+    "Lá chanh",
+    "Nước cốt dừa",
+    "Sốt cà ri đỏ",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Garlic",
+    "Hot pepper",
+    "Basil",
+    "Parsley",
+    "Lime leaf",
+    "Coconut milk",
+    "Red Curry Sauce",
+    "Lemon juice",
+    "Fish Sauce",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "toi",
+    "ot sung",
+    "hung que tay basil",
+    "ngo ri",
+    "la chanh",
+    "nuoc cot dua",
+    "sot ca ri do",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hung que tay - basil",
+      "new": "hung que tay basil",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Húng quế tây - Basil"
+    }
+  ]
+}

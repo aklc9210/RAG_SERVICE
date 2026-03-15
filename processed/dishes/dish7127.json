@@ -1,0 +1,102 @@
+{
+  "id": "dish7127",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7127.json",
+  "name_vi": "Thịt thỏ chiên vừng",
+  "name_en": "",
+  "name_normalized": "thit tho chien vung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thỏ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Lá mắc mật",
+    "Vừng",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước cốt dừa",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Bột năng",
+    "Rượu trắng",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06548",
+    "ingre05900",
+    "ingre07063",
+    "ingre03479",
+    "ingre07299",
+    "ingre04554",
+    "ingre02134",
+    "ingre02080",
+    "ingre04381",
+    "ingre00849",
+    "ingre05574",
+    "ingre06644",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thỏ",
+    "Sả",
+    "Tỏi",
+    "Lá mắc mật",
+    "Vừng",
+    "Nước cốt dừa",
+    "Dầu điều",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Bột năng",
+    "Rượu trắng",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rabbit",
+    "Lemongrass",
+    "Garlic",
+    "Dandelion leaf",
+    "Sesame",
+    "Coconut milk",
+    "Peanut oil",
+    "Soy sauce",
+    "Five-Spice Powder",
+    "Cornstarch",
+    "White wine",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tho",
+    "sa",
+    "toi",
+    "la mac mat",
+    "vung",
+    "nuoc cot dua",
+    "dau dieu",
+    "dau hao",
+    "ngu vi huong",
+    "bot nang",
+    "ruou trang",
+    "tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

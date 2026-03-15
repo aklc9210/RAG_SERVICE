@@ -1,0 +1,62 @@
+{
+  "id": "dish0511",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0511.json",
+  "name_vi": "Súp bí đỏ thịt heo",
+  "name_en": "",
+  "name_normalized": "sup bi do thit heo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đỏ"
+  ],
+  "secondary_ingredients": [
+    "Thịt heo băm",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre06403",
+    "ingre07071",
+    "ingre02094",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Thịt heo băm",
+    "Tỏi băm",
+    "Dầu mè",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Ground Pork",
+    "Minced Garlic",
+    "Sesame oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "thit heo bam",
+    "toi bam",
+    "dau me",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

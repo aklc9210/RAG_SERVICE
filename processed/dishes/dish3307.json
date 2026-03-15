@@ -1,0 +1,109 @@
+{
+  "id": "dish3307",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3307.json",
+  "name_vi": "Bún riêu cua bắp bò",
+  "name_en": "",
+  "name_normalized": "bun rieu cua bap bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cua đồng",
+    "Xương ống",
+    "Bắp bò"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành lá",
+    "Lá mùi tàu",
+    "Hành tím",
+    "Bún tươi",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre07433",
+    "ingre00450",
+    "ingre01354",
+    "ingre02673",
+    "ingre02485",
+    "ingre03473",
+    "ingre02768",
+    "ingre00357",
+    "ingre02134",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Xương ống",
+    "Bắp bò",
+    "Cà chua",
+    "Hành lá",
+    "Gừng",
+    "Lá mùi tàu",
+    "Hành tím",
+    "Bún tươi",
+    "Dầu điều",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Tube bone",
+    "Beef",
+    "Tomato",
+    "Scallion",
+    "Ginger",
+    "Chinese Parsley",
+    "Shallot",
+    "Fresh noodle",
+    "Peanut oil",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "xuong ong",
+    "bap bo",
+    "ca chua",
+    "hanh la",
+    "gung",
+    "la mui tau",
+    "hanh tim",
+    "bun tuoi",
+    "dau dieu",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish1308",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1308.json",
+  "name_vi": "Pudding xoài",
+  "name_en": "",
+  "name_normalized": "pudding xoai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gelatin",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Kem tươi",
+    "Gelatin",
+    "Xoài",
+    "Sữa chua"
+  ],
+  "seasonings": [
+    "Vani",
+    "Sữa tươi không đường -",
+    "Đường",
+    "Nước cốt chanh dây đậm đặc"
+  ],
+  "ingredient_ids": [
+    "ingre02253",
+    "ingre03584",
+    "ingre07140",
+    "ingre06149",
+    "ingre07583",
+    "ingre03157",
+    "ingre07329",
+    "ingre04541",
+    "ingre06088"
+  ],
+  "ingredient_names_vi": [
+    "Gelatin",
+    "Lòng đỏ trứng gà",
+    "Vani",
+    "Sữa tươi không đường -",
+    "Đường",
+    "Kem tươi",
+    "Xoài",
+    "Nước cốt chanh dây đậm đặc",
+    "Sữa chua"
+  ],
+  "ingredient_names_en": [
+    "Gelatin",
+    "Egg yolk",
+    "Vanilla",
+    "Fat-free Milk",
+    "Sugar",
+    "Fresh cream",
+    "Mango",
+    "Passionfruit pulp",
+    "Yogurt"
+  ],
+  "ingredient_names_normalized": [
+    "gelatin",
+    "long do trung ga",
+    "vani",
+    "sua tuoi khong duong",
+    "duong",
+    "kem tuoi",
+    "xoai",
+    "nuoc cot chanh day dam dac",
+    "sua chua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua tuoi khong duong -",
+      "new": "sua tuoi khong duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa tươi không đường -"
+    }
+  ]
+}

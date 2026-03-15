@@ -1,0 +1,76 @@
+{
+  "id": "dish2711",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2711.json",
+  "name_vi": "Bánh cornet socola - bánh ốc kem socola",
+  "name_en": "",
+  "name_normalized": "banh cornet socola banh oc kem socola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Kem tươi"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Muối",
+    "Bột cacao",
+    "Trứng",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre07583",
+    "ingre03746",
+    "ingre00576",
+    "ingre06801",
+    "ingre06147",
+    "ingre03157"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Đường",
+    "Muối",
+    "Bột cacao",
+    "Trứng",
+    "Sữa tươi không đường",
+    "Kem tươi"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Sugar",
+    "Salt",
+    "Cocoa powder",
+    "Egg",
+    "Fat-free Milk",
+    "Fresh cream"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "duong",
+    "muoi",
+    "bot cacao",
+    "trung",
+    "sua tuoi khong duong",
+    "kem tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cornet socola - banh oc kem socola",
+      "new": "banh cornet socola banh oc kem socola",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07410",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07410.json",
+  "name_vi": "xúc xích/pepperoni",
+  "name_en": "Sausage/Pepperoni",
+  "name_normalized": "xuc xich pepperoni",
+  "synonyms": [
+    "thịt viên",
+    "xúc xích thịt",
+    "pate viên"
+  ],
+  "synonyms_normalized": [
+    "thit vien",
+    "xuc xich thit",
+    "pate vien"
+  ],
+  "category": "cold_cuts:_sausages_&_ham",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xuc xich/pepperoni",
+      "new": "xuc xich pepperoni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

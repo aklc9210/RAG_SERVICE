@@ -1,0 +1,25 @@
+{
+  "id": "ingre02843",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02843.json",
+  "name_vi": "hàu sữa:",
+  "name_en": "Mussel",
+  "name_normalized": "hau sua",
+  "synonyms": [
+    "hàu tươi"
+  ],
+  "synonyms_normalized": [
+    "hau tuoi"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hau sua:",
+      "new": "hau sua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

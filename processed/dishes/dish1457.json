@@ -1,0 +1,58 @@
+{
+  "id": "dish1457",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1457.json",
+  "name_vi": "Bánh trứng hành",
+  "name_en": "",
+  "name_normalized": "banh trung hanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hành lá",
+    "Nấm kim châm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Gia vị nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre02673",
+    "ingre04921",
+    "ingre02296"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Hành lá",
+    "Nấm kim châm",
+    "Gia vị nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Scallion",
+    "Mushroom",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "hanh la",
+    "nam kim cham",
+    "gia vi nem"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

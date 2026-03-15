@@ -1,0 +1,82 @@
+{
+  "id": "dish7847",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7847.json",
+  "name_vi": "Lẩu cháo gà nấm đông cô",
+  "name_en": "",
+  "name_normalized": "lau chao ga nam dong co",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gà",
+    "Hạt sen"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh",
+    "Lòng đỏ trứng gà",
+    "Nấm đông cô khô",
+    "Nấm kim châm",
+    "Gạo nếp + gạo tẻ"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Gừng băm"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03029",
+    "ingre07836",
+    "ingre03584",
+    "ingre02774",
+    "ingre02492",
+    "ingre04969",
+    "ingre04921",
+    "ingre02451"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Hạt sen",
+    "Đậu xanh",
+    "Lòng đỏ trứng gà",
+    "Hành tím băm",
+    "Gừng băm",
+    "Nấm đông cô khô",
+    "Nấm kim châm",
+    "Gạo nếp + gạo tẻ"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lotus seed",
+    "Green beans",
+    "Egg yolk",
+    "Chopped Scallion",
+    "Ginger paste",
+    "Dried shiitake mushrooms",
+    "Mushroom",
+    "Glutinous Rice and Non-glutinous Rice"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "hat sen",
+    "dau xanh",
+    "long do trung ga",
+    "hanh tim bam",
+    "gung bam",
+    "nam dong co kho",
+    "nam kim cham",
+    "gao nep gao te"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gao nep + gao te",
+      "new": "gao nep gao te",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gạo nếp + gạo tẻ"
+    }
+  ]
+}

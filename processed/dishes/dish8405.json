@@ -1,0 +1,87 @@
+{
+  "id": "dish8405",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8405.json",
+  "name_vi": "Chân gà ngâm sả tắc",
+  "name_en": "",
+  "name_normalized": "chan ga ngam sa tac",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà",
+    "Sả",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Giấm ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre05900",
+    "ingre07057",
+    "ingre02485",
+    "ingre07966",
+    "ingre02377",
+    "ingre04694",
+    "ingre04665",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Sả",
+    "Tắc",
+    "Gừng",
+    "Ớt",
+    "Giấm ăn",
+    "Nước mắm",
+    "Nước lọc",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Lemongrass",
+    "Tamarind",
+    "Ginger",
+    "Pepper",
+    "vinegar",
+    "Fish Sauce",
+    "Tap water",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "sa",
+    "tac",
+    "gung",
+    "ot",
+    "giam an",
+    "nuoc mam",
+    "nuoc loc",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

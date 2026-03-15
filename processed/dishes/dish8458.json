@@ -1,0 +1,131 @@
+{
+  "id": "dish8458",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8458.json",
+  "name_vi": "Gà nấu rượu nếp",
+  "name_en": "",
+  "name_normalized": "ga nau ruou nep",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà ta",
+    "Nấm rơm",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Nước dừa tươi",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Rượu nếp",
+    "Cà rốt",
+    "Gừng",
+    "Ớt hiểm",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre05554",
+    "ingre04953",
+    "ingre04930",
+    "ingre01419",
+    "ingre02673",
+    "ingre04343",
+    "ingre02485",
+    "ingre08026",
+    "ingre02768",
+    "ingre07063",
+    "ingre04626",
+    "ingre02094",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Rượu nếp",
+    "Nấm rơm",
+    "Nấm mèo",
+    "Cà rốt",
+    "Hành lá",
+    "Ngò rí",
+    "Gừng",
+    "Ớt hiểm",
+    "Hành tím",
+    "Tỏi",
+    "Nước dừa tươi",
+    "Dầu mè",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Rice wine",
+    "Strawberry mushroom",
+    "Mushroom",
+    "Carrot",
+    "Scallion",
+    "Parsley",
+    "Ginger",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Coconut water",
+    "Sesame oil",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "ruou nep",
+    "nam rom",
+    "nam meo",
+    "ca rot",
+    "hanh la",
+    "ngo ri",
+    "gung",
+    "ot hiem",
+    "hanh tim",
+    "toi",
+    "nuoc dua tuoi",
+    "dau me",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

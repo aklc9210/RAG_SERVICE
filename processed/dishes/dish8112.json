@@ -1,0 +1,83 @@
+{
+  "id": "dish8112",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8112.json",
+  "name_vi": "Gỏi xoài bao tử heo",
+  "name_en": "",
+  "name_normalized": "goi xoai bao tu heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Xoài"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Rau răm",
+    "Rau húng quế",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre07329",
+    "ingre02020",
+    "ingre01419",
+    "ingre05359",
+    "ingre05265",
+    "ingre07057",
+    "ingre07966",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Xoài",
+    "Dưa leo",
+    "Cà rốt",
+    "Rau răm",
+    "Rau húng quế",
+    "Tắc",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Mango",
+    "Cucumber",
+    "Carrot",
+    "Vietnamese coriander",
+    "Sage Herb",
+    "Tamarind",
+    "Pepper",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "xoai",
+    "dua leo",
+    "ca rot",
+    "rau ram",
+    "rau hung que",
+    "tac",
+    "ot",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

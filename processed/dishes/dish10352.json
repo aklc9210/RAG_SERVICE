@@ -1,0 +1,50 @@
+{
+  "id": "dish10352",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10352.json",
+  "name_vi": "Thạch rau câu dưa hấu (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "thach rau cau dua hau cong thuc duoc chia se tu nguoi dung",
+  "category": "mon trang mieng",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Dưa hấu"
+  ],
+  "seasonings": [
+    "Bột rau câu",
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre02015",
+    "ingre00892",
+    "ingre07635"
+  ],
+  "ingredient_names_vi": [
+    "Dưa hấu",
+    "Bột rau câu",
+    "Đường phèn"
+  ],
+  "ingredient_names_en": [
+    "Watermelon",
+    "Agar agar",
+    "Brown Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dua hau",
+    "bot rau cau",
+    "duong phen"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thach rau cau dua hau (cong thuc duoc chia se tu nguoi dung)",
+      "new": "thach rau cau dua hau cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

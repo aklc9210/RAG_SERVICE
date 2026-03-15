@@ -1,0 +1,57 @@
+{
+  "id": "dish3839",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3839.json",
+  "name_vi": "Cá hồi nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca hoi nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Phi lê cá hồi"
+  ],
+  "secondary_ingredients": [
+    "Hạt mắc khén"
+  ],
+  "seasonings": [
+    "Ớt khô",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05034",
+    "ingre02983",
+    "ingre08039",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá hồi",
+    "Hạt mắc khén",
+    "Ớt khô",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Star Anise",
+    "Dried Pepper",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca hoi",
+    "hat mac khen",
+    "ot kho",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

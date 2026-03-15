@@ -1,0 +1,131 @@
+{
+  "id": "dish8319",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8319.json",
+  "name_vi": "Gỏi nấm tuyết tôm thịt dưa leo bắp cải",
+  "name_en": "",
+  "name_normalized": "goi nam tuyet tom thit dua leo bap cai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Nấm tuyết",
+    "Thịt ba chỉ",
+    "Mực",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Bắp cải tím",
+    "Hành tây",
+    "Rau răm",
+    "Hành tím",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Tỏi phi",
+    "Giấm ăn",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04962",
+    "ingre06275",
+    "ingre04264",
+    "ingre06930",
+    "ingre01419",
+    "ingre02020",
+    "ingre00468",
+    "ingre02741",
+    "ingre05359",
+    "ingre02768",
+    "ingre02485",
+    "ingre07096",
+    "ingre07791",
+    "ingre02377",
+    "ingre05574",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Nấm tuyết",
+    "Thịt ba chỉ",
+    "Mực",
+    "Tôm",
+    "Cà rốt",
+    "Dưa leo",
+    "Bắp cải tím",
+    "Hành tây",
+    "Rau răm",
+    "Hành tím",
+    "Gừng",
+    "Tỏi phi",
+    "Đậu phộng rang",
+    "Giấm ăn",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Pork belly",
+    "Squid",
+    "Shrimp",
+    "Carrot",
+    "Cucumber",
+    "Purple cabbage",
+    "Onion",
+    "Vietnamese coriander",
+    "Shallot",
+    "Ginger",
+    "Garlic flakes",
+    "Roasted Peanut",
+    "vinegar",
+    "White wine",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam tuyet",
+    "thit ba chi",
+    "muc",
+    "tom",
+    "ca rot",
+    "dua leo",
+    "bap cai tim",
+    "hanh tay",
+    "rau ram",
+    "hanh tim",
+    "gung",
+    "toi phi",
+    "dau phong rang",
+    "giam an",
+    "ruou trang",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

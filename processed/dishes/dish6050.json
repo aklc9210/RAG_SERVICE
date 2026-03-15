@@ -1,0 +1,87 @@
+{
+  "id": "dish6050",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6050.json",
+  "name_vi": "Cá mú kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca mu kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá mú",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt tươi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01568",
+    "ingre08078",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá mú",
+    "Ớt tươi",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Snapper",
+    "Fresh chili",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca mu",
+    "ot tuoi",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

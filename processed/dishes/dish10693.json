@@ -1,0 +1,94 @@
+{
+  "id": "dish10693",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10693.json",
+  "name_vi": "Bánh tráng trộn tóp mỡ",
+  "name_en": "",
+  "name_normalized": "banh trang tron top mo",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Giấm",
+    "Sả băm/ hành tím băm/ tỏi băm/ hành tây băm",
+    "Tương ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre04192",
+    "ingre05621",
+    "ingre02355",
+    "ingre05908",
+    "ingre07028",
+    "ingre02673",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Mỡ heo",
+    "Sa tế",
+    "Giấm",
+    "Sả băm/ hành tím băm/ tỏi băm/ hành tây băm",
+    "Tương ớt",
+    "Hành lá",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Pork fat",
+    "Fish sauce",
+    "Vinegar",
+    "Garlic minced/Green onion minced/Ginger minced/ Onion minced",
+    "Hot Sauce",
+    "Scallion",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "mo heo",
+    "sa te",
+    "giam",
+    "sa bam hanh tim bam toi bam hanh tay bam",
+    "tuong ot",
+    "hanh la",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sa bam/ hanh tim bam/ toi bam/ hanh tay bam",
+      "new": "sa bam hanh tim bam toi bam hanh tay bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sả băm/ hành tím băm/ tỏi băm/ hành tây băm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

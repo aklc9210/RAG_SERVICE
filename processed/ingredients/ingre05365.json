@@ -1,0 +1,25 @@
+{
+  "id": "ingre05365",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05365.json",
+  "name_vi": "rau răm/ dưa chuột ăn kèm",
+  "name_en": "Coriander/Cucumber",
+  "name_normalized": "rau ram dua chuot an kem",
+  "synonyms": [
+    "dưa leo"
+  ],
+  "synonyms_normalized": [
+    "dua leo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ram/ dua chuot an kem",
+      "new": "rau ram dua chuot an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish6698",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6698.json",
+  "name_vi": "Cải thảo cuốn thịt chiên",
+  "name_en": "",
+  "name_normalized": "cai thao cuon thit chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cải thảo",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột chiên xù",
+    "Bột mì",
+    "Trứng gà",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước tương",
+    "Dầu hào",
+    "Đường",
+    "Nước mắm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01793",
+    "ingre06414",
+    "ingre00609",
+    "ingre00759",
+    "ingre06823",
+    "ingre04343",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04790",
+    "ingre02080",
+    "ingre07583",
+    "ingre04694",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cải thảo",
+    "Thịt heo xay",
+    "Bột chiên xù",
+    "Bột mì",
+    "Trứng gà",
+    "Ngò rí",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước tương",
+    "Dầu hào",
+    "Đường",
+    "Nước mắm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Ground Pork",
+    "Puffed Rice Powder",
+    "Wheat Flour",
+    "Chicken egg",
+    "Parsley",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Soy Sauce",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "cai thao",
+    "thit heo xay",
+    "bot chien xu",
+    "bot mi",
+    "trung ga",
+    "ngo ri",
+    "toi",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc tuong",
+    "dau hao",
+    "duong",
+    "nuoc mam",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "dish9640",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9640.json",
+  "name_vi": "Trà me muối ớt",
+  "name_en": "",
+  "name_normalized": "tra me muoi ot",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Me",
+    "Nước sôi"
+  ],
+  "secondary_ingredients": [
+    "Trà lài",
+    "Tắc",
+    "Ô mai me",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Đường",
+    "Đường cát",
+    "Muối ớt"
+  ],
+  "ingredient_ids": [
+    "ingre03643",
+    "ingre04743",
+    "ingre07583",
+    "ingre06706",
+    "ingre07597",
+    "ingre07057",
+    "ingre03800",
+    "ingre07476",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Me",
+    "Nước sôi",
+    "Đường",
+    "Trà lài",
+    "Đường cát",
+    "Tắc",
+    "Muối ớt",
+    "Ô mai me",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Tamarind",
+    "Boiling water",
+    "Sugar",
+    "Spearmint",
+    "Hot Salted Pepper",
+    "Mango pickle",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "me",
+    "nuoc soi",
+    "duong",
+    "tra lai",
+    "duong cat",
+    "tac",
+    "muoi ot",
+    "o mai me",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

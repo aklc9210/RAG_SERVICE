@@ -1,0 +1,86 @@
+{
+  "id": "dish1273",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1273.json",
+  "name_vi": "Bánh quy phô mai mặn (bánh quy AFC)",
+  "name_en": "",
+  "name_normalized": "banh quy pho mai man banh quy afc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Hành ngò"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Trứng gà",
+    "Bột nổi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00367",
+    "ingre06823",
+    "ingre00866",
+    "ingre02724",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bơ",
+    "Trứng gà",
+    "Bột nổi",
+    "Hành ngò",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Butter",
+    "Chicken egg",
+    "Baking powder",
+    "Chives",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bo",
+    "trung ga",
+    "bot noi",
+    "hanh ngo",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy pho mai man (banh quy afc)",
+      "new": "banh quy pho mai man banh quy afc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

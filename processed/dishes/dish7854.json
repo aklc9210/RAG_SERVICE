@@ -1,0 +1,113 @@
+{
+  "id": "dish7854",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7854.json",
+  "name_vi": "Lẩu lươn nấu mẻ",
+  "name_en": "",
+  "name_normalized": "lau luon nau me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Lươn",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Rau sống các loại",
+    "Cơm mẻ"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Tỏi",
+    "Tỏi phi",
+    "Ớt sừng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre02768",
+    "ingre02730",
+    "ingre07063",
+    "ingre07096",
+    "ingre08055",
+    "ingre01354",
+    "ingre05380",
+    "ingre01753",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Hành tím",
+    "Hành phi",
+    "Tỏi",
+    "Tỏi phi",
+    "Ớt sừng",
+    "Cà chua",
+    "Rau sống các loại",
+    "Cơm mẻ",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Shallot",
+    "Garlic Fried",
+    "Garlic",
+    "Garlic flakes",
+    "Hot pepper",
+    "Tomato",
+    "Leafy Greens",
+    "Glutinous Rice",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "hanh tim",
+    "hanh phi",
+    "toi",
+    "toi phi",
+    "ot sung",
+    "ca chua",
+    "rau song cac loai",
+    "com me",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

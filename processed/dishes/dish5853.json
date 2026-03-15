@@ -1,0 +1,107 @@
+{
+  "id": "dish5853",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5853.json",
+  "name_vi": "Cá basa kho thịt ba chỉ",
+  "name_en": "",
+  "name_normalized": "ca basa kho thit ba chi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá basa",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Hành lá cắt nhỏ"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Tỏi băm",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Nước cốt chanh/giấm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01458",
+    "ingre06275",
+    "ingre02774",
+    "ingre07071",
+    "ingre08026",
+    "ingre04626",
+    "ingre02683",
+    "ingre04694",
+    "ingre04547",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá basa",
+    "Thịt ba chỉ",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Ớt hiểm",
+    "Nước dừa tươi",
+    "Hành lá cắt nhỏ",
+    "Nước mắm",
+    "Nước cốt chanh/giấm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Basa fish",
+    "Pork belly",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Hot pepper",
+    "Coconut water",
+    "Chopped Green Onion",
+    "Fish Sauce",
+    "Lime/J醋酸汁",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca basa",
+    "thit ba chi",
+    "hanh tim bam",
+    "toi bam",
+    "ot hiem",
+    "nuoc dua tuoi",
+    "hanh la cat nho",
+    "nuoc mam",
+    "nuoc cot chanh giam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc cot chanh/giam",
+      "new": "nuoc cot chanh giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước cốt chanh/giấm"
+    }
+  ]
+}

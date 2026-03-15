@@ -1,0 +1,113 @@
+{
+  "id": "dish3228",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3228.json",
+  "name_vi": "Nui giò heo thịt băm",
+  "name_en": "",
+  "name_normalized": "nui gio heo thit bam",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chân giò",
+    "Thịt băm",
+    "Hành củ"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Giá",
+    "Xà lách",
+    "Hành",
+    "Ngò",
+    "Nui"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Bột canh",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre06329",
+    "ingre02661",
+    "ingre01419",
+    "ingre01868",
+    "ingre02329",
+    "ingre07351",
+    "ingre02636",
+    "ingre04326",
+    "ingre04450",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre00587",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Thịt băm",
+    "Hành củ",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Giá",
+    "Xà lách",
+    "Hành",
+    "Ngò",
+    "Nui",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Bột canh",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Minced meat",
+    "Garlic bulb",
+    "Carrot",
+    "White radish",
+    "Mint",
+    "Lettuce",
+    "Garlic",
+    "Cilantro",
+    "Rice noodles",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Cornstarch",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "thit bam",
+    "hanh cu",
+    "ca rot",
+    "cu cai trang",
+    "gia",
+    "xa lach",
+    "hanh",
+    "ngo",
+    "nui",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "bot canh",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    }
+  ]
+}

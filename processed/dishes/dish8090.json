@@ -1,0 +1,76 @@
+{
+  "id": "dish8090",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8090.json",
+  "name_vi": "Salad dưa hấu, dưa leo, ớt chuông",
+  "name_en": "",
+  "name_normalized": "salad dua hau dua leo ot chuong",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Dưa hấu",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Ớt cay Jalapeno",
+    "Muối",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre02015",
+    "ingre02020",
+    "ingre07999",
+    "ingre07997",
+    "ingre02741",
+    "ingre04343",
+    "ingre03746",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Dưa hấu",
+    "Dưa leo",
+    "Ớt chuông",
+    "Ớt cay Jalapeno",
+    "Hành tây",
+    "Ngò rí",
+    "Muối",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Watermelon",
+    "Cucumber",
+    "Bell pepper",
+    "Jalapeño辣椒",
+    "Onion",
+    "Parsley",
+    "Salt",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "dua hau",
+    "dua leo",
+    "ot chuong",
+    "ot cay jalapeno",
+    "hanh tay",
+    "ngo ri",
+    "muoi",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "salad dua hau, dua leo, ot chuong",
+      "new": "salad dua hau dua leo ot chuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

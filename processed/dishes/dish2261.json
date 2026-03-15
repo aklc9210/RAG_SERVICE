@@ -1,0 +1,72 @@
+{
+  "id": "dish2261",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2261.json",
+  "name_vi": "Bánh mì nướng ăn kèm bơ",
+  "name_en": "",
+  "name_normalized": "banh mi nuong an kem bo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh mì men",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Mè đen"
+  ],
+  "seasonings": [
+    "Ớt khô",
+    "Chanh",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00111",
+    "ingre00367",
+    "ingre03941",
+    "ingre08039",
+    "ingre01079",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì men",
+    "Bơ",
+    "Mè đen",
+    "Ớt khô",
+    "Chanh",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Sourdough bread",
+    "Butter",
+    "Black sesame seeds",
+    "Dried Pepper",
+    "Lemon",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi men",
+    "bo",
+    "me den",
+    "ot kho",
+    "chanh",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

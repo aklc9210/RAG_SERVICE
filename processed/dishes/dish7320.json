@@ -1,0 +1,90 @@
+{
+  "id": "dish7320",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7320.json",
+  "name_vi": "Tôm chiên sả",
+  "name_en": "",
+  "name_normalized": "tom chien sa",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm tươi",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre00598",
+    "ingre00609",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "sa",
+    "ot",
+    "toi",
+    "bot chien gion",
+    "bot chien xu",
+    "dau an",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre04883",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04883.json",
+  "name_vi": "nước: 300ml",
+  "name_en": "Water: 300ml",
+  "name_normalized": "nuoc 300ml",
+  "synonyms": [
+    "nước lọc"
+  ],
+  "synonyms_normalized": [
+    "nuoc loc"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc: 300ml",
+      "new": "nuoc 300ml",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

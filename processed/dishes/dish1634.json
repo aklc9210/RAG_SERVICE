@@ -1,0 +1,107 @@
+{
+  "id": "dish1634",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1634.json",
+  "name_vi": "Bánh bông lan cà phê socola",
+  "name_en": "",
+  "name_normalized": "banh bong lan ca phe socola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kem béo dạng đặc độ béo trên 30%",
+    "Cream cheese",
+    "Tinh chất vani",
+    "Siro socola",
+    "Nước nóng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột cacao nguyên chất",
+    "Bột cà phê",
+    "Bột nở",
+    "Tinh bột bắp",
+    "Sữa tươi không đường",
+    "Dầu ăn hướng dương",
+    "Đường cát trắng",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00578",
+    "ingre00620",
+    "ingre00867",
+    "ingre06562",
+    "ingre03123",
+    "ingre01324",
+    "ingre06147",
+    "ingre02129",
+    "ingre06592",
+    "ingre05711",
+    "ingre07601",
+    "ingre07589",
+    "ingre04738"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột cacao nguyên chất",
+    "Bột cà phê",
+    "Bột nở",
+    "Tinh bột bắp",
+    "Kem béo dạng đặc độ béo trên 30%",
+    "Cream cheese",
+    "Sữa tươi không đường",
+    "Dầu ăn hướng dương",
+    "Tinh chất vani",
+    "Siro socola",
+    "Đường cát trắng",
+    "Đường bột",
+    "Nước nóng"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Cocoa Powder",
+    "Coffee powder",
+    "Baking powder",
+    "Corn starch",
+    "Heavy Cream",
+    "Cream cheese",
+    "Fat-free Milk",
+    "Sunflower oil",
+    "Vanilla extract",
+    "Chocolate syrup",
+    "White Sugar",
+    "Sugar Powder",
+    "Hot water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot cacao nguyen chat",
+    "bot ca phe",
+    "bot no",
+    "tinh bot bap",
+    "kem beo dang dac do beo tren 30",
+    "cream cheese",
+    "sua tuoi khong duong",
+    "dau an huong duong",
+    "tinh chat vani",
+    "siro socola",
+    "duong cat trang",
+    "duong bot",
+    "nuoc nong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem beo dang dac do beo tren 30%",
+      "new": "kem beo dang dac do beo tren 30",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem béo dạng đặc độ béo trên 30%"
+    }
+  ]
+}

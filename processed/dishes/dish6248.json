@@ -1,0 +1,86 @@
+{
+  "id": "dish6248",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6248.json",
+  "name_vi": "Mực trứng rim nước mắm",
+  "name_en": "",
+  "name_normalized": "muc trung rim nuoc mam",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Mực",
+    "Hành lá/ ngò rí"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre07063",
+    "ingre02702",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Tỏi",
+    "Hành lá/ ngò rí",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Garlic",
+    "Chives",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "toi",
+    "hanh la ngo ri",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

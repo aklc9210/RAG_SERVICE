@@ -1,0 +1,93 @@
+{
+  "id": "dish6219",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6219.json",
+  "name_vi": "Cá nục kho tỏi ớt",
+  "name_en": "",
+  "name_normalized": "ca nuc kho toi ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Bột điều",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre07966",
+    "ingre07063",
+    "ingre02673",
+    "ingre02124",
+    "ingre01004",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Ớt",
+    "Tỏi",
+    "Hành lá",
+    "Dầu ăn",
+    "Bột điều",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pepper",
+    "Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Cochineal powder",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "ot",
+    "toi",
+    "hanh la",
+    "dau an",
+    "bot dieu",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "tieu xay",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

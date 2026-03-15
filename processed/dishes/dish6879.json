@@ -1,0 +1,72 @@
+{
+  "id": "dish6879",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6879.json",
+  "name_vi": "Đậu hũ chiên giòn chấm mắm tôm",
+  "name_en": "",
+  "name_normalized": "dau hu chien gion cham mam tom",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Rau ăn kèm",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Ớt",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre04159",
+    "ingre07057",
+    "ingre07966",
+    "ingre05420",
+    "ingre02020",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Mắm tôm",
+    "Tắc",
+    "Ớt",
+    "Rau ăn kèm",
+    "Dưa leo",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Shrimp paste",
+    "Tamarind",
+    "Pepper",
+    "Side vegetable",
+    "Cucumber",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "mam tom",
+    "tac",
+    "ot",
+    "rau an kem",
+    "dua leo",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish6337",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6337.json",
+  "name_vi": "Ức gà cuộn nấm kim châm chiên áp chảo",
+  "name_en": "",
+  "name_normalized": "uc ga cuon nam kim cham chien ap chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Nấm kim châm",
+    "Hành tím",
+    "Dầu olive"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre04921",
+    "ingre02768",
+    "ingre02485",
+    "ingre02106",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Nấm kim châm",
+    "Hành tím",
+    "Gừng",
+    "Dầu olive",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Mushroom",
+    "Shallot",
+    "Ginger",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "nam kim cham",
+    "hanh tim",
+    "gung",
+    "dau olive",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

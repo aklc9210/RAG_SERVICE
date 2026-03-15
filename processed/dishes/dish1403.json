@@ -1,0 +1,88 @@
+{
+  "id": "dish1403",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1403.json",
+  "name_vi": "Bánh Bà Lai",
+  "name_en": "",
+  "name_normalized": "banh ba lai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Nước lá dứa",
+    "Đậu xanh không vỏ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Muối",
+    "Vani",
+    "Đường trắng",
+    "Bột gạo",
+    "Bột năng",
+    "Bột mì đa dụng",
+    "Bột cacao",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre03746",
+    "ingre07140",
+    "ingre07652",
+    "ingre06174",
+    "ingre00668",
+    "ingre00849",
+    "ingre00791",
+    "ingre00576",
+    "ingre04660",
+    "ingre07846",
+    "ingre04554"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Muối",
+    "Vani",
+    "Đường trắng",
+    "Sữa đặc",
+    "Bột gạo",
+    "Bột năng",
+    "Bột mì đa dụng",
+    "Bột cacao",
+    "Nước lá dứa",
+    "Đậu xanh không vỏ",
+    "Nước cốt dừa"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Salt",
+    "Vanilla",
+    "White sugar",
+    "Sweetened Condensed Milk",
+    "Rice flour",
+    "Cornstarch",
+    "All-purpose flour",
+    "Cocoa powder",
+    "Pineapple leaf juice",
+    "Green peas",
+    "Coconut milk"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "muoi",
+    "vani",
+    "duong trang",
+    "sua dac",
+    "bot gao",
+    "bot nang",
+    "bot mi da dung",
+    "bot cacao",
+    "nuoc la dua",
+    "dau xanh khong vo",
+    "nuoc cot dua"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

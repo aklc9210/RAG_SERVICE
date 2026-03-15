@@ -1,0 +1,116 @@
+{
+  "id": "dish8577",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8577.json",
+  "name_vi": "Cháo yến mạch thịt bò",
+  "name_en": "",
+  "name_normalized": "chao yen mach thit bo",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Yến mạch",
+    "Thịt bò băm",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Ngò",
+    "Phô mai",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Nước dùng",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07453",
+    "ingre06303",
+    "ingre01419",
+    "ingre00282",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre04326",
+    "ingre05054",
+    "ingre02104",
+    "ingre04602",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Yến mạch",
+    "Thịt bò băm",
+    "Cà rốt",
+    "Bông cải xanh",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Ngò",
+    "Phô mai",
+    "Dầu oliu",
+    "Nước dùng",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Oat",
+    "Ground Beef",
+    "Carrot",
+    "Cabbage",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Cilantro",
+    "Cheese",
+    "Olive oil",
+    "Chicken Stock",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "yen mach",
+    "thit bo bam",
+    "ca rot",
+    "bong cai xanh",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "ngo",
+    "pho mai",
+    "dau oliu",
+    "nuoc dung",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

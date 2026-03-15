@@ -1,0 +1,29 @@
+{
+  "id": "ingre06476",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06476.json",
+  "name_vi": "thịt nạc vai/ thịt nạc đùi",
+  "name_en": "Pork Shoulder/ Pork Leg",
+  "name_normalized": "thit nac vai thit nac dui",
+  "synonyms": [
+    "thịt ba chỉ",
+    "thịt đùi",
+    "thịt vai"
+  ],
+  "synonyms_normalized": [
+    "thit ba chi",
+    "thit dui",
+    "thit vai"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit nac vai/ thit nac dui",
+      "new": "thit nac vai thit nac dui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre02715",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02715.json",
+  "name_vi": "hành lá/hành tím",
+  "name_en": "Green Onion/Purple Onion",
+  "name_normalized": "hanh la hanh tim",
+  "synonyms": [
+    "tỏi nhánh"
+  ],
+  "synonyms_normalized": [
+    "toi nhanh"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/hanh tim",
+      "new": "hanh la hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

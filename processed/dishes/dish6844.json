@@ -1,0 +1,115 @@
+{
+  "id": "dish6844",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6844.json",
+  "name_vi": "Scotch egg - thịt bọc trứng lòng đào chiên",
+  "name_en": "",
+  "name_normalized": "scotch egg thit boc trung long dao chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt nạc vai heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Cà chua",
+    "Ngò"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì",
+    "Bột chiên xù",
+    "Giấm ăn",
+    "Ớt bột",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06472",
+    "ingre06823",
+    "ingre00759",
+    "ingre00609",
+    "ingre02673",
+    "ingre01354",
+    "ingre04326",
+    "ingre02377",
+    "ingre07977",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc vai heo",
+    "Trứng gà",
+    "Bột mì",
+    "Bột chiên xù",
+    "Hành lá",
+    "Cà chua",
+    "Ngò",
+    "Giấm ăn",
+    "Ớt bột",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork Shoulder",
+    "Chicken egg",
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Scallion",
+    "Tomato",
+    "Cilantro",
+    "vinegar",
+    "Chili powder",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac vai heo",
+    "trung ga",
+    "bot mi",
+    "bot chien xu",
+    "hanh la",
+    "ca chua",
+    "ngo",
+    "giam an",
+    "ot bot",
+    "dau an",
+    "hat nem",
+    "duong",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "scotch egg - thit boc trung long dao chien",
+      "new": "scotch egg thit boc trung long dao chien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

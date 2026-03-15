@@ -1,0 +1,78 @@
+{
+  "id": "dish2218",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2218.json",
+  "name_vi": "Bánh milo trái dừa",
+  "name_en": "",
+  "name_normalized": "banh milo trai dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước dừa",
+    "Cơm dừa non",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 8",
+    "Bột milo",
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Trứng gà",
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre00741",
+    "ingre00564",
+    "ingre04622",
+    "ingre04554",
+    "ingre01736",
+    "ingre06823",
+    "ingre00382",
+    "ingre07583",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Bột milo",
+    "Bột bắp",
+    "Nước dừa",
+    "Nước cốt dừa",
+    "Cơm dừa non",
+    "Trứng gà",
+    "Bơ lạt",
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Milo powder",
+    "Corn starch",
+    "Coconut water",
+    "Coconut milk",
+    "Coconut Rice Sprout",
+    "Chicken egg",
+    "Butter",
+    "Sugar",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "bot milo",
+    "bot bap",
+    "nuoc dua",
+    "nuoc cot dua",
+    "com dua non",
+    "trung ga",
+    "bo lat",
+    "duong",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

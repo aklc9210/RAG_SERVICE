@@ -1,0 +1,82 @@
+{
+  "id": "dish6583",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6583.json",
+  "name_vi": "Thịt thăn bò áp chảo",
+  "name_en": "",
+  "name_normalized": "thit than bo ap chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Sả tươi",
+    "Cây hương thảo",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Bột ngũ vị hương",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre07063",
+    "ingre05917",
+    "ingre02485",
+    "ingre01699",
+    "ingre02080",
+    "ingre02104",
+    "ingre00815",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Tỏi",
+    "Sả tươi",
+    "Gừng",
+    "Cây hương thảo",
+    "Dầu hào",
+    "Dầu oliu",
+    "Bột ngũ vị hương",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Garlic",
+    "Fresh Ginger",
+    "Ginger",
+    "Mint",
+    "Soy sauce",
+    "Olive oil",
+    "Five-Spice Powder",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "toi",
+    "sa tuoi",
+    "gung",
+    "cay huong thao",
+    "dau hao",
+    "dau oliu",
+    "bot ngu vi huong",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

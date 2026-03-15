@@ -1,0 +1,96 @@
+{
+  "id": "dish0287",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0287.json",
+  "name_vi": "Canh mọc chua",
+  "name_en": "",
+  "name_normalized": "canh moc chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Mọc",
+    "Đậu hũ",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí",
+    "Nước hầm xương"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột hạt điều",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04175",
+    "ingre07740",
+    "ingre01354",
+    "ingre02768",
+    "ingre04343",
+    "ingre04647",
+    "ingre02124",
+    "ingre04694",
+    "ingre00697",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Mọc",
+    "Đậu hũ",
+    "Cà chua",
+    "Hành tím",
+    "Ngò rí",
+    "Nước hầm xương",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột hạt điều",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Herb",
+    "Tofu",
+    "Tomato",
+    "Shallot",
+    "Parsley",
+    "Bone broth",
+    "Cooking oil",
+    "Fish Sauce",
+    "Peanut powder",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "moc",
+    "dau hu",
+    "ca chua",
+    "hanh tim",
+    "ngo ri",
+    "nuoc ham xuong",
+    "dau an",
+    "nuoc mam",
+    "bot hat dieu",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

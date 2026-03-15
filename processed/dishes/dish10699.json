@@ -1,0 +1,118 @@
+{
+  "id": "dish10699",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10699.json",
+  "name_vi": "Bì cuốn thịt khìa",
+  "name_en": "",
+  "name_normalized": "bi cuon thit khia",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo",
+    "Da heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Rau các loại"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Giấm",
+    "Rượu trắng",
+    "Tỏi phi vàng",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Củ cải và cà rốt ngâm chua"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre01935",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre04626",
+    "ingre02355",
+    "ingre05574",
+    "ingre07099",
+    "ingre02124",
+    "ingre05221",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995",
+    "ingre01871"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Da heo",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Nước dừa tươi",
+    "Giấm",
+    "Rượu trắng",
+    "Tỏi phi vàng",
+    "Dầu ăn",
+    "Rau các loại",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Củ cải và cà rốt ngâm chua"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Pork skin",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Coconut water",
+    "Vinegar",
+    "White wine",
+    "Garlic Fried Golden",
+    "Cooking oil",
+    "Mixed Greens",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "Seasoning",
+    "Pickled Radish and Carrot"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "da heo",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "nuoc dua tuoi",
+    "giam",
+    "ruou trang",
+    "toi phi vang",
+    "dau an",
+    "rau cac loai",
+    "duong",
+    "muoi",
+    "tieu",
+    "hat nem",
+    "cu cai va ca rot ngam chua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

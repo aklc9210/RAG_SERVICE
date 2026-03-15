@@ -1,0 +1,78 @@
+{
+  "id": "dish0165",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0165.json",
+  "name_vi": "Canh rau cần nấu tôm",
+  "name_en": "",
+  "name_normalized": "canh rau can nau tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau cần nước",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05239",
+    "ingre06963",
+    "ingre02673",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Rau cần nước",
+    "Tôm tươi",
+    "Hành lá",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Water celery",
+    "Fresh shrimp",
+    "Scallion",
+    "Salt",
+    "Seasoning",
+    "Ground pepper",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "rau can nuoc",
+    "tom tuoi",
+    "hanh la",
+    "muoi",
+    "hat nem",
+    "tieu xay",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

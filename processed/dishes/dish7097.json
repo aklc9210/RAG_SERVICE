@@ -1,0 +1,83 @@
+{
+  "id": "dish7097",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7097.json",
+  "name_vi": "Mực chiên trứng muối",
+  "name_en": "",
+  "name_normalized": "muc chien trung muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực ống"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Lòng đỏ trứng muối",
+    "Bột năng",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre06823",
+    "ingre03587",
+    "ingre00849",
+    "ingre00367",
+    "ingre00978",
+    "ingre05359",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Trứng gà",
+    "Lòng đỏ trứng muối",
+    "Bột năng",
+    "Bơ",
+    "Bột tỏi",
+    "Rau răm",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Chicken egg",
+    "Salted Egg Yolk",
+    "Cornstarch",
+    "Butter",
+    "Garlic powder",
+    "Vietnamese coriander",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "trung ga",
+    "long do trung muoi",
+    "bot nang",
+    "bo",
+    "bot toi",
+    "rau ram",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

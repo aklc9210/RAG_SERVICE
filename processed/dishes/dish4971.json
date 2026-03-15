@@ -1,0 +1,77 @@
+{
+  "id": "dish4971",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4971.json",
+  "name_vi": "Lá sách bò xào dưa chua",
+  "name_en": "",
+  "name_normalized": "la sach bo xao dua chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lá sách bò",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Cải chua",
+    "Hành ngò"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03521",
+    "ingre01354",
+    "ingre01777",
+    "ingre02724",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Lá sách bò",
+    "Cà chua",
+    "Cải chua",
+    "Hành ngò",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef leaf",
+    "Tomato",
+    "Pickled cabbage",
+    "Chives",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "la sach bo",
+    "ca chua",
+    "cai chua",
+    "hanh ngo",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

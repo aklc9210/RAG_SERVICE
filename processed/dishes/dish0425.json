@@ -1,0 +1,83 @@
+{
+  "id": "dish0425",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0425.json",
+  "name_vi": "Canh kim chi đầu cá hồi",
+  "name_en": "",
+  "name_normalized": "canh kim chi dau ca hoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đầu cá hồi",
+    "Kim chi",
+    "Rau ngò ôm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Sốt kim chi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07706",
+    "ingre03277",
+    "ingre05332",
+    "ingre07063",
+    "ingre07966",
+    "ingre05965",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá hồi",
+    "Kim chi",
+    "Rau ngò ôm",
+    "Tỏi",
+    "Ớt",
+    "Sốt kim chi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Salmon head",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Parsley",
+    "Garlic",
+    "Pepper",
+    "Kimchi sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca hoi",
+    "kim chi",
+    "rau ngo om",
+    "toi",
+    "ot",
+    "sot kim chi",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

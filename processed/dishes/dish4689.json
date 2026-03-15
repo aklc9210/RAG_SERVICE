@@ -1,0 +1,108 @@
+{
+  "id": "dish4689",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4689.json",
+  "name_vi": "Rạm rang muối trắng",
+  "name_en": "",
+  "name_normalized": "ram rang muoi trang",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rạm",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột muối rang",
+    "Bột bắp",
+    "Hành tím băm",
+    "Gừng băm",
+    "Tỏi băm",
+    "Lá lốt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05600",
+    "ingre00745",
+    "ingre03584",
+    "ingre00564",
+    "ingre02774",
+    "ingre02492",
+    "ingre07071",
+    "ingre03461",
+    "ingre02673",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Rạm",
+    "Bột muối rang",
+    "Lòng đỏ trứng gà",
+    "Bột bắp",
+    "Hành tím băm",
+    "Gừng băm",
+    "Tỏi băm",
+    "Lá lốt",
+    "Hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Centella",
+    "Rice Flour Powder",
+    "Egg yolk",
+    "Corn starch",
+    "Chopped Scallion",
+    "Ginger paste",
+    "Minced Garlic",
+    "Cinnamon Leaf",
+    "Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ram",
+    "bot muoi rang",
+    "long do trung ga",
+    "bot bap",
+    "hanh tim bam",
+    "gung bam",
+    "toi bam",
+    "la lot",
+    "hanh la",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

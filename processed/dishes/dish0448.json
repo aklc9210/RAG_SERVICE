@@ -1,0 +1,73 @@
+{
+  "id": "dish0448",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0448.json",
+  "name_vi": "Canh dưa leo xương heo",
+  "name_en": "",
+  "name_normalized": "canh dua leo xuong heo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương heo",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre02020",
+    "ingre02673",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Dưa leo",
+    "Hành lá",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Cucumber",
+    "Scallion",
+    "Sugar",
+    "Seasoning",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "dua leo",
+    "hanh la",
+    "duong",
+    "hat nem",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

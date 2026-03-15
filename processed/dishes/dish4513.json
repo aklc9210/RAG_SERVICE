@@ -1,0 +1,74 @@
+{
+  "id": "dish4513",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4513.json",
+  "name_vi": "Rau tiến vua xào thịt heo (thịt lợn)",
+  "name_en": "",
+  "name_normalized": "rau tien vua xao thit heo thit lon",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rau tiến vua khô",
+    "Thịt heo ba chỉ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt ngọt",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre05400",
+    "ingre06399",
+    "ingre07063",
+    "ingre08046",
+    "ingre04790",
+    "ingre03746",
+    "ingre07583",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Rau tiến vua khô",
+    "Thịt heo ba chỉ",
+    "Tỏi",
+    "Ớt ngọt",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Royal vegetable dried菜皇干菜",
+    "Pork belly",
+    "Garlic",
+    "Sweet Pepper",
+    "Soy Sauce",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "rau tien vua kho",
+    "thit heo ba chi",
+    "toi",
+    "ot ngot",
+    "nuoc tuong",
+    "muoi",
+    "duong",
+    "dau hao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau tien vua xao thit heo (thit lon)",
+      "new": "rau tien vua xao thit heo thit lon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

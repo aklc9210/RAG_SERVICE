@@ -1,0 +1,97 @@
+{
+  "id": "dish2744",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2744.json",
+  "name_vi": "Bánh mochi nhân kem hương vani",
+  "name_en": "",
+  "name_normalized": "banh mochi nhan kem huong vani",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi nóng",
+    "Tinh chất vani",
+    "Heavy cream (70 - 80% béo)",
+    "Đườn",
+    "Nước nóng"
+  ],
+  "seasonings": [
+    "Đường",
+    "Bột bắp",
+    "Bột gạo nếp",
+    "Muối",
+    "Cốt bánh bông lan"
+  ],
+  "ingredient_ids": [
+    "ingre03584",
+    "ingre07583",
+    "ingre06174",
+    "ingre00564",
+    "ingre06158",
+    "ingre06592",
+    "ingre02559",
+    "ingre00673",
+    "ingre07582",
+    "ingre03746",
+    "ingre04738",
+    "ingre01842"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng gà",
+    "Đường",
+    "Sữa đặc",
+    "Bột bắp",
+    "Sữa tươi nóng",
+    "Tinh chất vani",
+    "Heavy cream (70 - 80% béo)",
+    "Bột gạo nếp",
+    "Đườn",
+    "Muối",
+    "Nước nóng",
+    "Cốt bánh bông lan"
+  ],
+  "ingredient_names_en": [
+    "Egg yolk",
+    "Sugar",
+    "Sweetened Condensed Milk",
+    "Corn starch",
+    "Warm milk",
+    "Vanilla extract",
+    "Heavy Cream",
+    "sticky rice flour",
+    "Dragonfruit",
+    "Salt",
+    "Hot water",
+    "Vanilla essence"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung ga",
+    "duong",
+    "sua dac",
+    "bot bap",
+    "sua tuoi nong",
+    "tinh chat vani",
+    "heavy cream 70 80 beo",
+    "bot gao nep",
+    "duon",
+    "muoi",
+    "nuoc nong",
+    "cot banh bong lan"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "heavy cream (70 - 80% beo)",
+      "new": "heavy cream 70 80 beo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Heavy cream (70 - 80% béo)"
+    }
+  ]
+}

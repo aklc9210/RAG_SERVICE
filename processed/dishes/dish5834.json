@@ -1,0 +1,95 @@
+{
+  "id": "dish5834",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5834.json",
+  "name_vi": "Dưa cải chua kho quẹt",
+  "name_en": "",
+  "name_normalized": "dua cai chua kho quet",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cải chua",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Bột ớt",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01777",
+    "ingre02768",
+    "ingre02673",
+    "ingre07966",
+    "ingre01015",
+    "ingre04697",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cải chua",
+    "Hành tím",
+    "Hành lá",
+    "Ớt",
+    "Bột ớt",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pickled cabbage",
+    "Shallot",
+    "Scallion",
+    "Pepper",
+    "Red Pepper Powder",
+    "Vegetarian fish sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "cai chua",
+    "hanh tim",
+    "hanh la",
+    "ot",
+    "bot ot",
+    "nuoc mam chay",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish6483",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6483.json",
+  "name_vi": "Cá lóc chiên mắm xoài",
+  "name_en": "",
+  "name_normalized": "ca loc chien mam xoai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá lóc",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau sống"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt sừng",
+    "Bột chiên giòn",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre07342",
+    "ingre01079",
+    "ingre08055",
+    "ingre00598",
+    "ingre05379",
+    "ingre04694",
+    "ingre02124",
+    "ingre00831"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Xoài xanh",
+    "Chanh",
+    "Ớt sừng",
+    "Bột chiên giòn",
+    "Rau sống",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Green mango",
+    "Lemon",
+    "Hot pepper",
+    "Puffed Rice Powder",
+    "Fresh herbs",
+    "Fish Sauce",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "xoai xanh",
+    "chanh",
+    "ot sung",
+    "bot chien gion",
+    "rau song",
+    "nuoc mam",
+    "dau an",
+    "bot ngot duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

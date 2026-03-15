@@ -1,0 +1,102 @@
+{
+  "id": "dish7699",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7699.json",
+  "name_vi": "Xôi mặn chay",
+  "name_en": "",
+  "name_normalized": "xoi man chay",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Nếp",
+    "Hạt sen",
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương tươi",
+    "Hành boa rô",
+    "Bắp cải",
+    "Dầu đậu nành",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước tương",
+    "Đường/muối",
+    "Dầu ăn",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre03029",
+    "ingre04945",
+    "ingre04916",
+    "ingre01419",
+    "ingre02645",
+    "ingre00457",
+    "ingre02138",
+    "ingre04790",
+    "ingre07690",
+    "ingre02124",
+    "ingre02997",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Hạt sen",
+    "Nấm mỡ",
+    "Nấm hương tươi",
+    "Cà rốt",
+    "Hành boa rô",
+    "Bắp cải",
+    "Dầu đậu nành",
+    "Nước tương",
+    "Đường/muối",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Lotus seed",
+    "Fried mushroom",
+    "Fresh Shiitake Mushrooms",
+    "Carrot",
+    "Garlic",
+    "Cabbage",
+    "Soybean oil",
+    "Soy Sauce",
+    "Sugar/Salt",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "hat sen",
+    "nam mo",
+    "nam huong tuoi",
+    "ca rot",
+    "hanh boa ro",
+    "bap cai",
+    "dau dau nanh",
+    "nuoc tuong",
+    "duong muoi",
+    "dau an",
+    "hat nem chay",
+    "la chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

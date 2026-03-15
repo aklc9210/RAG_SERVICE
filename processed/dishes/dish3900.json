@@ -1,0 +1,102 @@
+{
+  "id": "dish3900",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3900.json",
+  "name_vi": "Mực lụi nướng sả",
+  "name_en": "",
+  "name_normalized": "muc lui nuong sa",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt xay",
+    "Giò sống",
+    "Mực ống"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Bột ớt",
+    "Tiêu",
+    "Nước mắm",
+    "Đường",
+    "Tương ớt",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06521",
+    "ingre02350",
+    "ingre04281",
+    "ingre03417",
+    "ingre05900",
+    "ingre08055",
+    "ingre01015",
+    "ingre06612",
+    "ingre04694",
+    "ingre07583",
+    "ingre07057",
+    "ingre07028",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xay",
+    "Giò sống",
+    "Mực ống",
+    "Lá dứa",
+    "Sả",
+    "Ớt sừng",
+    "Bột ớt",
+    "Tiêu",
+    "Nước mắm",
+    "Đường",
+    "Tắc",
+    "Tương ớt",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Ground Beef",
+    "Fresh sausage",
+    "Tube squid",
+    "Pandan叶",
+    "Lemongrass",
+    "Hot pepper",
+    "Red Pepper Powder",
+    "Pepper",
+    "Fish Sauce",
+    "Sugar",
+    "Tamarind",
+    "Hot Sauce",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit xay",
+    "gio song",
+    "muc ong",
+    "la dua",
+    "sa",
+    "ot sung",
+    "bot ot",
+    "tieu",
+    "nuoc mam",
+    "duong",
+    "tac",
+    "tuong ot",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

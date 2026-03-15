@@ -1,0 +1,29 @@
+{
+  "id": "ingre05583",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05583.json",
+  "name_vi": "rượu trắng/ gừng tươi/ chanh/ muối hạt",
+  "name_en": "White Rum/Fresh Ginger/Lemon/Zagharot",
+  "name_normalized": "ruou trang gung tuoi chanh muoi hat",
+  "synonyms": [
+    "rượu vang",
+    "gừng đỏ",
+    "nước cốt chanh"
+  ],
+  "synonyms_normalized": [
+    "ruou vang",
+    "gung do",
+    "nuoc cot chanh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ruou trang/ gung tuoi/ chanh/ muoi hat",
+      "new": "ruou trang gung tuoi chanh muoi hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

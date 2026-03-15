@@ -1,0 +1,66 @@
+{
+  "id": "dish9978",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9978.json",
+  "name_vi": "Cà phê matcha - matcha espresso",
+  "name_en": "",
+  "name_normalized": "ca phe matcha matcha espresso",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Matcha",
+    "Nước nóng",
+    "Đá đập nhuyễn"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột cà phê espresso",
+    "Nước đường",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00621",
+    "ingre03638",
+    "ingre04738",
+    "ingre04858",
+    "ingre06147",
+    "ingre07530"
+  ],
+  "ingredient_names_vi": [
+    "Bột cà phê espresso",
+    "Matcha",
+    "Nước nóng",
+    "Nước đường",
+    "Sữa tươi không đường",
+    "Đá đập nhuyễn"
+  ],
+  "ingredient_names_en": [
+    "Espresso Powder",
+    "Matcha",
+    "Hot water",
+    "Sugar water",
+    "Fat-free Milk",
+    "Mortar and pestle"
+  ],
+  "ingredient_names_normalized": [
+    "bot ca phe espresso",
+    "matcha",
+    "nuoc nong",
+    "nuoc duong",
+    "sua tuoi khong duong",
+    "da dap nhuyen"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca phe matcha - matcha espresso",
+      "new": "ca phe matcha matcha espresso",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

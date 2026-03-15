@@ -1,0 +1,106 @@
+{
+  "id": "dish8395",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8395.json",
+  "name_vi": "Gỏi củ hủ dừa tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi cu hu dua tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Củ hủ dừa",
+    "Thịt ba chỉ",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Rau răm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Cà rốt",
+    "Rượu trắng",
+    "Gừng",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01892",
+    "ingre06275",
+    "ingre06963",
+    "ingre07071",
+    "ingre07971",
+    "ingre01419",
+    "ingre02020",
+    "ingre05359",
+    "ingre05574",
+    "ingre02485",
+    "ingre02768",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Củ hủ dừa",
+    "Thịt ba chỉ",
+    "Tôm tươi",
+    "Tỏi băm",
+    "Ớt băm",
+    "Cà rốt",
+    "Dưa leo",
+    "Rau răm",
+    "Rượu trắng",
+    "Gừng",
+    "Hành tím",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Coconut cabbage",
+    "Pork belly",
+    "Fresh shrimp",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Carrot",
+    "Cucumber",
+    "Vietnamese coriander",
+    "White wine",
+    "Ginger",
+    "Shallot",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "cu hu dua",
+    "thit ba chi",
+    "tom tuoi",
+    "toi bam",
+    "ot bam",
+    "ca rot",
+    "dua leo",
+    "rau ram",
+    "ruou trang",
+    "gung",
+    "hanh tim",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

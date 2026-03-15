@@ -1,0 +1,102 @@
+{
+  "id": "dish6143",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6143.json",
+  "name_vi": "Cà ri ức gà",
+  "name_en": "",
+  "name_normalized": "ca ri uc ga",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Ức gà không xương",
+    "Khoai lang"
+  ],
+  "secondary_ingredients": [
+    "Bún gạo lứt",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Tỏi",
+    "Bột cà ri",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre08107",
+    "ingre03186",
+    "ingre04554",
+    "ingre00343",
+    "ingre05900",
+    "ingre07063",
+    "ingre00631",
+    "ingre00849",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà không xương",
+    "Khoai lang",
+    "Nước cốt dừa",
+    "Bún gạo lứt",
+    "Sả",
+    "Tỏi",
+    "Bột cà ri",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast without bone",
+    "Sweet Potato",
+    "Coconut milk",
+    "Brown Rice Vermicelli",
+    "Lemongrass",
+    "Garlic",
+    "Curry powder",
+    "Cornstarch",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga khong xuong",
+    "khoai lang",
+    "nuoc cot dua",
+    "bun gao lut",
+    "sa",
+    "toi",
+    "bot ca ri",
+    "bot nang",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

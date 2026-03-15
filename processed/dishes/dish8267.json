@@ -1,0 +1,106 @@
+{
+  "id": "dish8267",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8267.json",
+  "name_vi": "Gỏi dưa leo bao tử heo",
+  "name_en": "",
+  "name_normalized": "goi dua leo bao tu heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Dạ dày heo",
+    "Dưa leo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Rau răm",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Ớt gừng",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre02047",
+    "ingre02020",
+    "ingre02741",
+    "ingre05900",
+    "ingre08024",
+    "ingre07063",
+    "ingre05359",
+    "ingre05302",
+    "ingre04538",
+    "ingre04694",
+    "ingre07583",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Dạ dày heo",
+    "Dưa leo",
+    "Hành tây",
+    "Sả",
+    "Ớt gừng",
+    "Tỏi",
+    "Rau răm",
+    "Rau mùi",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Cucumber",
+    "Onion",
+    "Lemongrass",
+    "Ginger Pepper",
+    "Garlic",
+    "Vietnamese coriander",
+    "Mint",
+    "Lemon juice",
+    "Fish Sauce",
+    "Sugar",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "da day heo",
+    "dua leo",
+    "hanh tay",
+    "sa",
+    "ot gung",
+    "toi",
+    "rau ram",
+    "rau mui",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "duong",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish9292",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9292.json",
+  "name_vi": "Muối ớt rau răm",
+  "name_en": "",
+  "name_normalized": "muoi ot rau ram",
+  "category": "an vat",
+  "main_ingredients": [
+    "Rau răm",
+    "Lá giang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05359",
+    "ingre03430",
+    "ingre07063",
+    "ingre07966",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Rau răm",
+    "Lá giang",
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Vietnamese coriander",
+    "Japanese Laurel Leaf",
+    "Garlic",
+    "Pepper",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "rau ram",
+    "la giang",
+    "toi",
+    "ot",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

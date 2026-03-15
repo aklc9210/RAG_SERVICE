@@ -1,0 +1,97 @@
+{
+  "id": "dish7718",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7718.json",
+  "name_vi": "Gà hấp lá é",
+  "name_en": "",
+  "name_normalized": "ga hap la e",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gà",
+    "Lá é",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt hiểm",
+    "Bột canh",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03552",
+    "ingre07057",
+    "ingre05900",
+    "ingre07071",
+    "ingre02774",
+    "ingre08026",
+    "ingre02134",
+    "ingre00587",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá é",
+    "Tắc",
+    "Sả",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt hiểm",
+    "Dầu điều",
+    "Bột canh",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Vietnamese coriander",
+    "Tamarind",
+    "Lemongrass",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Hot pepper",
+    "Peanut oil",
+    "Cornstarch",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la e",
+    "tac",
+    "sa",
+    "toi bam",
+    "hanh tim bam",
+    "ot hiem",
+    "dau dieu",
+    "bot canh",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

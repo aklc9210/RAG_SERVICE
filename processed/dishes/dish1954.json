@@ -1,0 +1,123 @@
+{
+  "id": "dish1954",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1954.json",
+  "name_vi": "Hamburger thanh long bò",
+  "name_en": "",
+  "name_normalized": "hamburger thanh long bo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt bò xay",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Men khô",
+    "Phô mai cheddar",
+    "Cà chua",
+    "Xà lách",
+    "Hạt mè trắng"
+  ],
+  "seasonings": [
+    "Bột mì số 13",
+    "Thanh long ruột đỏ",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Mayonnaise/ tương ớt",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre06205",
+    "ingre06324",
+    "ingre00382",
+    "ingre06083",
+    "ingre06147",
+    "ingre03674",
+    "ingre05064",
+    "ingre06823",
+    "ingre01354",
+    "ingre07351",
+    "ingre02974",
+    "ingre03640",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Thanh long ruột đỏ",
+    "Thịt bò xay",
+    "Bơ lạt",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Men khô",
+    "Phô mai cheddar",
+    "Trứng gà",
+    "Cà chua",
+    "Xà lách",
+    "Hạt mè trắng",
+    "Mayonnaise/ tương ớt",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Red-fleshed tamarind",
+    "Ground Beef",
+    "Butter",
+    "Milk Powder",
+    "Fat-free Milk",
+    "Dried yeast",
+    "Cheddar cheese",
+    "Chicken egg",
+    "Tomato",
+    "Lettuce",
+    "White Sesame Seeds",
+    "Mayonnaise/ Tương ớt -> Hot sauce",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "thanh long ruot do",
+    "thit bo xay",
+    "bo lat",
+    "sua bot",
+    "sua tuoi khong duong",
+    "men kho",
+    "pho mai cheddar",
+    "trung ga",
+    "ca chua",
+    "xa lach",
+    "hat me trang",
+    "mayonnaise tuong ot",
+    "duong",
+    "muoi",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mayonnaise/ tuong ot",
+      "new": "mayonnaise tuong ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mayonnaise/ tương ớt"
+    }
+  ]
+}

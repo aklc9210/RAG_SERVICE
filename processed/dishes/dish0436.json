@@ -1,0 +1,71 @@
+{
+  "id": "dish0436",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0436.json",
+  "name_vi": "Canh ngao cải ngọt (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "canh ngao cai ngot cong thuc duoc chia se tu nguoi dung",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau cải xanh",
+    "Ngao"
+  ],
+  "secondary_ingredients": [
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Bột canh",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05236",
+    "ingre04301",
+    "ingre02485",
+    "ingre00587",
+    "ingre03746",
+    "ingre00819",
+    "ingre04821"
+  ],
+  "ingredient_names_vi": [
+    "Rau cải xanh",
+    "Ngao",
+    "Gừng",
+    "Bột canh",
+    "Muối",
+    "Bột ngọt",
+    "Nước vo gạo"
+  ],
+  "ingredient_names_en": [
+    "Green cabbage",
+    "Clam",
+    "Ginger",
+    "Cornstarch",
+    "Salt",
+    "MSG",
+    "Rice washing water"
+  ],
+  "ingredient_names_normalized": [
+    "rau cai xanh",
+    "ngao",
+    "gung",
+    "bot canh",
+    "muoi",
+    "bot ngot",
+    "nuoc vo gao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh ngao cai ngot (cong thuc duoc chia se tu nguoi dung)",
+      "new": "canh ngao cai ngot cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

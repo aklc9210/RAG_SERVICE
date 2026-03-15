@@ -1,0 +1,27 @@
+{
+  "id": "ingre05764",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05764.json",
+  "name_vi": "socola đen 70%",
+  "name_en": "Dark Chocolate 70%",
+  "name_normalized": "socola den 70",
+  "synonyms": [
+    "kem socola đen 70%",
+    "socola 70 độ đen"
+  ],
+  "synonyms_normalized": [
+    "kem socola den 70",
+    "socola 70 do den"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola den 70%",
+      "new": "socola den 70",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

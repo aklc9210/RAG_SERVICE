@@ -1,0 +1,99 @@
+{
+  "id": "dish6066",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6066.json",
+  "name_vi": "Cá bạc má kho măng",
+  "name_en": "",
+  "name_normalized": "ca bac ma kho mang",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá bạc má",
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước mắm",
+    "Chanh",
+    "Muối/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01476",
+    "ingre04091",
+    "ingre02673",
+    "ingre02768",
+    "ingre07966",
+    "ingre02093",
+    "ingre04694",
+    "ingre01079",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá bạc má",
+    "Măng tươi",
+    "Hành lá",
+    "Hành tím",
+    "Ớt",
+    "Dầu màu điều",
+    "Nước mắm",
+    "Chanh",
+    "Muối/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike conger",
+    "Fresh bamboo shoots",
+    "Scallion",
+    "Shallot",
+    "Pepper",
+    "Peanut-colored food coloring",
+    "Fish Sauce",
+    "Lemon",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca bac ma",
+    "mang tuoi",
+    "hanh la",
+    "hanh tim",
+    "ot",
+    "dau mau dieu",
+    "nuoc mam",
+    "chanh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Bột ngọt"
+    }
+  ]
+}

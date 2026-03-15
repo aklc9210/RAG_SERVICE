@@ -1,0 +1,29 @@
+{
+  "id": "ingre06418",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06418.json",
+  "name_vi": "thịt heo xay:",
+  "name_en": "Ground Pork",
+  "name_normalized": "thit heo xay",
+  "synonyms": [
+    "thịt nạc",
+    "thịt xay",
+    "thịt heo xay"
+  ],
+  "synonyms_normalized": [
+    "thit nac",
+    "thit xay",
+    "thit heo xay"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit heo xay:",
+      "new": "thit heo xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dish8315",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8315.json",
+  "name_vi": "Gỏi thịt bò rau càng cua",
+  "name_en": "",
+  "name_normalized": "goi thit bo rau cang cua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bò",
+    "Rau càng cua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Ớt băm",
+    "Tỏi băm",
+    "Giấm",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre05219",
+    "ingre02730",
+    "ingre02741",
+    "ingre02768",
+    "ingre01354",
+    "ingre07971",
+    "ingre07071",
+    "ingre02355",
+    "ingre04790",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Rau càng cua",
+    "Hành phi",
+    "Hành tây",
+    "Hành tím",
+    "Cà chua",
+    "Ớt băm",
+    "Tỏi băm",
+    "Giấm",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Water spinach",
+    "Garlic Fried",
+    "Onion",
+    "Shallot",
+    "Tomato",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Vinegar",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "rau cang cua",
+    "hanh phi",
+    "hanh tay",
+    "hanh tim",
+    "ca chua",
+    "ot bam",
+    "toi bam",
+    "giam",
+    "nuoc tuong",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

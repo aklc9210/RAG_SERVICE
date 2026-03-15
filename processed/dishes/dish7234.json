@@ -1,0 +1,117 @@
+{
+  "id": "dish7234",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7234.json",
+  "name_vi": "Cánh gà chiên tỏi",
+  "name_en": "",
+  "name_normalized": "canh ga chien toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cánh gà",
+    "Hành tây",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng",
+    "Lá chanh",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre02741",
+    "ingre07063",
+    "ingre05900",
+    "ingre08055",
+    "ingre03370",
+    "ingre04538",
+    "ingre03936",
+    "ingre02124",
+    "ingre04694",
+    "ingre04381",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Hành tây",
+    "Tỏi",
+    "Sả",
+    "Ớt sừng",
+    "Lá chanh",
+    "Nước cốt chanh",
+    "Mè trắng rang",
+    "Dầu ăn",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Onion",
+    "Garlic",
+    "Lemongrass",
+    "Hot pepper",
+    "Lime leaf",
+    "Lemon juice",
+    "Roasted White Sesame",
+    "Cooking oil",
+    "Fish Sauce",
+    "Five-Spice Powder",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "hanh tay",
+    "toi",
+    "sa",
+    "ot sung",
+    "la chanh",
+    "nuoc cot chanh",
+    "me trang rang",
+    "dau an",
+    "nuoc mam",
+    "ngu vi huong",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

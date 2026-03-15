@@ -1,0 +1,101 @@
+{
+  "id": "dish6449",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6449.json",
+  "name_vi": "Chân gà chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "chan ga chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chân gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Chanh",
+    "Ngũ vị hương",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Bột canh",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre07966",
+    "ingre01079",
+    "ingre04381",
+    "ingre00598",
+    "ingre02124",
+    "ingre00587",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Chanh",
+    "Ngũ vị hương",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Bột canh",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Pepper",
+    "Lemon",
+    "Five-Spice Powder",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Cornstarch",
+    "Seasoning",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "sa",
+    "toi",
+    "gung",
+    "ot",
+    "chanh",
+    "ngu vi huong",
+    "bot chien gion",
+    "dau an",
+    "bot canh",
+    "hat nem",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

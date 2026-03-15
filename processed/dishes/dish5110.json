@@ -1,0 +1,101 @@
+{
+  "id": "dish5110",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5110.json",
+  "name_vi": "Bí đao xào trứng",
+  "name_en": "",
+  "name_normalized": "bi dao xao trung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bí đao",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tương ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00247",
+    "ingre02673",
+    "ingre02768",
+    "ingre07028",
+    "ingre02124",
+    "ingre04694",
+    "ingre04665",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bí đao",
+    "Hành lá",
+    "Hành tím",
+    "Tương ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước lọc",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Cucumber",
+    "Scallion",
+    "Shallot",
+    "Hot Sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Tap water",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bi dao",
+    "hanh la",
+    "hanh tim",
+    "tuong ot",
+    "dau an",
+    "nuoc mam",
+    "nuoc loc",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

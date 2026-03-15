@@ -1,0 +1,118 @@
+{
+  "id": "dish3288",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3288.json",
+  "name_vi": "Phở bò chay",
+  "name_en": "",
+  "name_normalized": "pho bo chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bò lát chay",
+    "Bánh phở",
+    "Cải trắng",
+    "Sắn"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cần tây",
+    "Hành tím",
+    "Nước"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Đường phèn",
+    "Gừng",
+    "Hồi",
+    "Quế",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00266",
+    "ingre00139",
+    "ingre01796",
+    "ingre05936",
+    "ingre01419",
+    "ingre02741",
+    "ingre01812",
+    "ingre07635",
+    "ingre02485",
+    "ingre02768",
+    "ingre03097",
+    "ingre05186",
+    "ingre04490",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bò lát chay",
+    "Bánh phở",
+    "Cải trắng",
+    "Sắn",
+    "Cà rốt",
+    "Hành tây",
+    "Cần tây",
+    "Đường phèn",
+    "Gừng",
+    "Hành tím",
+    "Hồi",
+    "Quế",
+    "Nước",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Tofu Steak",
+    "Noodle sheet",
+    "Cabbage",
+    "Yam",
+    "Carrot",
+    "Onion",
+    "Celery",
+    "Brown Sugar",
+    "Ginger",
+    "Shallot",
+    "Sage",
+    "Cinnamon",
+    "Water",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat chay",
+    "banh pho",
+    "cai trang",
+    "san",
+    "ca rot",
+    "hanh tay",
+    "can tay",
+    "duong phen",
+    "gung",
+    "hanh tim",
+    "hoi",
+    "que",
+    "nuoc",
+    "hat nem chay",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

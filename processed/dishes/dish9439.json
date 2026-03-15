@@ -1,0 +1,111 @@
+{
+  "id": "dish9439",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9439.json",
+  "name_vi": "Lạp gà cay",
+  "name_en": "",
+  "name_normalized": "lap ga cay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Má đùi gà",
+    "Chao đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Màu đỏ thực phẩm"
+  ],
+  "seasonings": [
+    "Ớt bột thường",
+    "Bột ngũ vị hương",
+    "Tỏi",
+    "Gừng",
+    "Đường",
+    "Bột gia vị xá xíu",
+    "Ớt bột Hàn Quốc",
+    "Rượu mai quế lộ",
+    "Muối/bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03911",
+    "ingre01111",
+    "ingre07988",
+    "ingre00815",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre07583",
+    "ingre03908",
+    "ingre00663",
+    "ingre07983",
+    "ingre05543",
+    "ingre03823"
+  ],
+  "ingredient_names_vi": [
+    "Má đùi gà",
+    "Chao đậu hũ",
+    "Ớt bột thường",
+    "Bột ngũ vị hương",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Đường",
+    "Màu đỏ thực phẩm",
+    "Bột gia vị xá xíu",
+    "Ớt bột Hàn Quốc",
+    "Rượu mai quế lộ",
+    "Muối/bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Fermented Tofu",
+    "Chili Powder",
+    "Five-Spice Powder",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Sugar",
+    "Red food color",
+    "Fish Sauce Powder",
+    "Korean chili powder",
+    "Sake Plum Ginger Wine",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ma dui ga",
+    "chao dau hu",
+    "ot bot thuong",
+    "bot ngu vi huong",
+    "hanh tim",
+    "toi",
+    "gung",
+    "duong",
+    "mau do thuc pham",
+    "bot gia vi xa xiu",
+    "ot bot han quoc",
+    "ruou mai que lo",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/bột ngọt"
+    }
+  ]
+}

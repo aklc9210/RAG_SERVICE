@@ -1,0 +1,73 @@
+{
+  "id": "dish8072",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8072.json",
+  "name_vi": "Gỏi đu đủ tôm khô",
+  "name_en": "",
+  "name_normalized": "goi du du tom kho",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Đu đủ xanh",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07500",
+    "ingre06941",
+    "ingre01079",
+    "ingre05359",
+    "ingre07966",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ xanh",
+    "Tôm khô",
+    "Chanh",
+    "Rau răm",
+    "Ớt",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Green papaya",
+    "Dried Shrimp",
+    "Lemon",
+    "Vietnamese coriander",
+    "Pepper",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "du du xanh",
+    "tom kho",
+    "chanh",
+    "rau ram",
+    "ot",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

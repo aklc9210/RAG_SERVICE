@@ -1,0 +1,93 @@
+{
+  "id": "dish2506",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2506.json",
+  "name_vi": "Bánh xèo gạo lứt đậu lăng",
+  "name_en": "",
+  "name_normalized": "banh xeo gao lut dau lang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hạt đậu lăng"
+  ],
+  "secondary_ingredients": [
+    "Dứa",
+    "Hành lá",
+    "Nước",
+    "Nước dừa tươi",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Bột gạo lứt",
+    "Bột nghệ",
+    "Muối",
+    "Cà rốt",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00671",
+    "ingre03076",
+    "ingre00804",
+    "ingre03746",
+    "ingre01419",
+    "ingre02151",
+    "ingre02673",
+    "ingre04490",
+    "ingre04626",
+    "ingre04694",
+    "ingre02094"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo lứt",
+    "Hạt đậu lăng",
+    "Bột nghệ",
+    "Muối",
+    "Cà rốt",
+    "Dứa",
+    "Hành lá",
+    "Nước",
+    "Nước dừa tươi",
+    "Nước mắm",
+    "Dầu mè"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice Flour",
+    "Fenugreek seeds",
+    "Turmeric Powder",
+    "Salt",
+    "Carrot",
+    "Pineapple",
+    "Scallion",
+    "Water",
+    "Coconut water",
+    "Fish Sauce",
+    "Sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao lut",
+    "hat dau lang",
+    "bot nghe",
+    "muoi",
+    "ca rot",
+    "dua",
+    "hanh la",
+    "nuoc",
+    "nuoc dua tuoi",
+    "nuoc mam",
+    "dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

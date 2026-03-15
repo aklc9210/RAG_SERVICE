@@ -1,0 +1,52 @@
+{
+  "id": "dish3784",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3784.json",
+  "name_vi": "Bọ biển nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "bo bien nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bọ biển",
+    "Hành lá",
+    "Đậu phộng rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre00496",
+    "ingre02673",
+    "ingre07791"
+  ],
+  "ingredient_names_vi": [
+    "Bọ biển",
+    "Hành lá",
+    "Đậu phộng rang"
+  ],
+  "ingredient_names_en": [
+    "Kelp",
+    "Scallion",
+    "Roasted Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "bo bien",
+    "hanh la",
+    "dau phong rang"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

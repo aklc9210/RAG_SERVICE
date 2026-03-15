@@ -1,0 +1,97 @@
+{
+  "id": "dish0199",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0199.json",
+  "name_vi": "Canh măng chua chay mọc",
+  "name_en": "",
+  "name_normalized": "canh mang chua chay moc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hem chay",
+    "Măng chua",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Rau quế"
+  ],
+  "seasonings": [
+    "Bột mì căn",
+    "Hành phi",
+    "Dầu ăn",
+    "Bột tỏi",
+    "Hạt nêm chay",
+    "Nước mắm chay",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02562",
+    "ingre04072",
+    "ingre01354",
+    "ingre00764",
+    "ingre07057",
+    "ingre05354",
+    "ingre02730",
+    "ingre02124",
+    "ingre00978",
+    "ingre02997",
+    "ingre04697",
+    "ingre07685"
+  ],
+  "ingredient_names_vi": [
+    "Hem chay",
+    "Măng chua",
+    "Cà chua",
+    "Bột mì căn",
+    "Tắc",
+    "Rau quế",
+    "Hành phi",
+    "Dầu ăn",
+    "Bột tỏi",
+    "Hạt nêm chay",
+    "Nước mắm chay",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Hot pepper",
+    "Pickled bamboo shoots",
+    "Tomato",
+    "Wheat flour",
+    "Tamarind",
+    "Sage",
+    "Garlic Fried",
+    "Cooking oil",
+    "Garlic powder",
+    "Vegetarian Seasoning",
+    "Vegetarian fish sauce",
+    "Cinnamon Powder"
+  ],
+  "ingredient_names_normalized": [
+    "hem chay",
+    "mang chua",
+    "ca chua",
+    "bot mi can",
+    "tac",
+    "rau que",
+    "hanh phi",
+    "dau an",
+    "bot toi",
+    "hat nem chay",
+    "nuoc mam chay",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu xay"
+    }
+  ]
+}

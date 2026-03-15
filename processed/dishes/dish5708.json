@@ -1,0 +1,100 @@
+{
+  "id": "dish5708",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5708.json",
+  "name_vi": "Cá nheo kho riềng",
+  "name_en": "",
+  "name_normalized": "ca nheo kho rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nheo",
+    "Riềng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước tương",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01591",
+    "ingre05436",
+    "ingre05900",
+    "ingre06233",
+    "ingre07966",
+    "ingre04165",
+    "ingre04790",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá nheo",
+    "Riềng",
+    "Sả",
+    "Thì là",
+    "Ớt",
+    "Mẻ",
+    "Nước tương",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Milkfish",
+    "Galangal",
+    "Lemongrass",
+    "Dill",
+    "Pepper",
+    "Tamarind",
+    "Soy Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca nheo",
+    "rieng",
+    "sa",
+    "thi la",
+    "ot",
+    "me",
+    "nuoc tuong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

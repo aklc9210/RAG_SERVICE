@@ -1,0 +1,72 @@
+{
+  "id": "dish4122",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4122.json",
+  "name_vi": "Sườn cừu nướng kiểu Pháp",
+  "name_en": "",
+  "name_normalized": "suon cuu nuong kieu phap",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn cừu",
+    "Lá hương thảo"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tương ớt",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05878",
+    "ingre03445",
+    "ingre04343",
+    "ingre07063",
+    "ingre07028",
+    "ingre02120",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cừu",
+    "Lá hương thảo",
+    "Ngò rí",
+    "Tỏi",
+    "Tương ớt",
+    "Dầu ô liu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Lamb ribs",
+    "Mint",
+    "Parsley",
+    "Garlic",
+    "Hot Sauce",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "suon cuu",
+    "la huong thao",
+    "ngo ri",
+    "toi",
+    "tuong ot",
+    "dau o liu",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

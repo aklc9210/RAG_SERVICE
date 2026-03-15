@@ -1,0 +1,101 @@
+{
+  "id": "dish6229",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6229.json",
+  "name_vi": "Cá cơm kho cay",
+  "name_en": "",
+  "name_normalized": "ca com kho cay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá cơm tươi",
+    "Mỡ heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01510",
+    "ingre04192",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá cơm tươi",
+    "Mỡ heo",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fresh rice fish",
+    "Pork fat",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca com tuoi",
+    "mo heo",
+    "hanh tim",
+    "toi",
+    "ot",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

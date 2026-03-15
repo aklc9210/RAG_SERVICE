@@ -1,0 +1,82 @@
+{
+  "id": "dish7670",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7670.json",
+  "name_vi": "Bề bề hấp sả",
+  "name_en": "",
+  "name_normalized": "be be hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Bề bề",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Ớt trái",
+    "Đường",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00494",
+    "ingre05900",
+    "ingre07057",
+    "ingre07968",
+    "ingre06174",
+    "ingre07583",
+    "ingre06644",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bề bề",
+    "Sả",
+    "Tắc",
+    "Ớt trái",
+    "Sữa đặc",
+    "Đường",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Lemongrass",
+    "Tamarind",
+    "Pepper fruit",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Ground pepper",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "be be",
+    "sa",
+    "tac",
+    "ot trai",
+    "sua dac",
+    "duong",
+    "tieu xay",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

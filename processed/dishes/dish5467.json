@@ -1,0 +1,86 @@
+{
+  "id": "dish5467",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5467.json",
+  "name_vi": "Ốc hương sốt trứng muối",
+  "name_en": "",
+  "name_normalized": "oc huong sot trung muoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc hương",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Ớt",
+    "Gừng gọt vỏ",
+    "Tỏi băm",
+    "Rượu trắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07944",
+    "ingre03587",
+    "ingre00382",
+    "ingre07966",
+    "ingre02505",
+    "ingre07071",
+    "ingre05574",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ốc hương",
+    "Lòng đỏ trứng muối",
+    "Bơ lạt",
+    "Ớt",
+    "Gừng gọt vỏ",
+    "Tỏi băm",
+    "Rượu trắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Salted Egg Yolk",
+    "Butter",
+    "Pepper",
+    "Ginger",
+    "Minced Garlic",
+    "White wine",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "oc huong",
+    "long do trung muoi",
+    "bo lat",
+    "ot",
+    "gung got vo",
+    "toi bam",
+    "ruou trang",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

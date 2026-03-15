@@ -1,0 +1,98 @@
+{
+  "id": "dish3160",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3160.json",
+  "name_vi": "Bánh canh chả cá thu",
+  "name_en": "",
+  "name_normalized": "banh canh cha ca thu",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chả cá thu",
+    "Bánh canh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Nước dùng",
+    "Tỏi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01278",
+    "ingre00071",
+    "ingre04602",
+    "ingre02768",
+    "ingre07063",
+    "ingre04343",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre04694",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Chả cá thu",
+    "Bánh canh",
+    "Nước dùng",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cod fish sausage",
+    "Snail Soup",
+    "Chicken Stock",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Fish Sauce",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "cha ca thu",
+    "banh canh",
+    "nuoc dung",
+    "hanh tim",
+    "toi",
+    "ngo ri",
+    "muoi",
+    "duong",
+    "hat nem",
+    "nuoc mam",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

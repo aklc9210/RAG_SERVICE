@@ -1,0 +1,109 @@
+{
+  "id": "dish3420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3420.json",
+  "name_vi": "bánh đa cua",
+  "name_en": "",
+  "name_normalized": "banh da cua",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bánh đa đỏ",
+    "Cua đồng xay",
+    "Sườn"
+  ],
+  "secondary_ingredients": [
+    "Thịt lợn xay",
+    "Chả cá - mỡ phần - tôm khô",
+    "G Rau mu",
+    "Cà chua",
+    "G rau s",
+    "Mộc nhĩ",
+    "Hành lá - mùi tàu"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Hành khô",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00225",
+    "ingre01345",
+    "ingre05871",
+    "ingre06438",
+    "ingre01269",
+    "ingre02232",
+    "ingre01354",
+    "ingre02233",
+    "ingre04179",
+    "ingre03461",
+    "ingre02667",
+    "ingre02676",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa đỏ",
+    "Cua đồng xay",
+    "Sườn",
+    "Thịt lợn xay",
+    "Chả cá - mỡ phần - tôm khô",
+    "G Rau mu",
+    "Cà chua",
+    "G rau s",
+    "Mộc nhĩ",
+    "Lá lốt",
+    "Hành khô",
+    "Hành lá - mùi tàu",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Red vermicelli",
+    "Prawns minced",
+    "Ribs",
+    "Ground Pork",
+    "Fish Cake - Fat Part - Dried Shrimp",
+    "Green onions",
+    "Tomato",
+    "Mushroom",
+    "Cinnamon Leaf",
+    "Garlic Powder",
+    "Chives",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "banh da do",
+    "cua dong xay",
+    "suon",
+    "thit lon xay",
+    "cha ca mo phan tom kho",
+    "g rau mu",
+    "ca chua",
+    "g rau s",
+    "moc nhi",
+    "la lot",
+    "hanh kho",
+    "hanh la mui tau",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cha ca - mo phan - tom kho",
+      "new": "cha ca mo phan tom kho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chả cá - mỡ phần - tôm khô"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la - mui tau",
+      "new": "hanh la mui tau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá - mùi tàu"
+    }
+  ]
+}

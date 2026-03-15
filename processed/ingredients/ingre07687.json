@@ -1,0 +1,29 @@
+{
+  "id": "ingre07687",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07687.json",
+  "name_vi": "đường/bột ngọt",
+  "name_en": "Sugar/MSG",
+  "name_normalized": "duong bot ngot",
+  "synonyms": [
+    "bột ngọt",
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

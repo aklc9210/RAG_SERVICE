@@ -1,0 +1,27 @@
+{
+  "id": "ingre01906",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01906.json",
+  "name_vi": "củ ngải bún: 1 củ nhỏ nghệ 100 hoa chuối bào ăn kèm",
+  "name_en": "Turmeric: 1 small piece Banana flower sliced to eat with",
+  "name_normalized": "cu ngai bun 1 cu nho nghe 100 hoa chuoi bao an kem",
+  "synonyms": [
+    "cây ngải búp",
+    "ngải búp"
+  ],
+  "synonyms_normalized": [
+    "cay ngai bup",
+    "ngai bup"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cu ngai bun: 1 cu nho nghe 100 hoa chuoi bao an kem",
+      "new": "cu ngai bun 1 cu nho nghe 100 hoa chuoi bao an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

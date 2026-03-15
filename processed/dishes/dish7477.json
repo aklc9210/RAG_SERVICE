@@ -1,0 +1,117 @@
+{
+  "id": "dish7477",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7477.json",
+  "name_vi": "Cá viên chiên",
+  "name_en": "",
+  "name_normalized": "ca vien chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá ba sa phi lê"
+  ],
+  "secondary_ingredients": [
+    "Hành",
+    "Rau ngò mùi",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột chiên sử dụng để chiên bắp",
+    "Dưa chuột",
+    "Ớt đỏ",
+    "Tỏi",
+    "Đường cát trắng",
+    "Bột ngọt",
+    "Tiêu",
+    "Muối ăn",
+    "Tương ớt",
+    "Sốt mayonnaise"
+  ],
+  "ingredient_ids": [
+    "ingre01457",
+    "ingre06823",
+    "ingre00598",
+    "ingre00608",
+    "ingre02000",
+    "ingre08097",
+    "ingre02636",
+    "ingre05326",
+    "ingre02768",
+    "ingre07063",
+    "ingre07601",
+    "ingre00819",
+    "ingre06612",
+    "ingre03798",
+    "ingre07028",
+    "ingre05970"
+  ],
+  "ingredient_names_vi": [
+    "Cá ba sa phi lê",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột chiên sử dụng để chiên bắp",
+    "Dưa chuột",
+    "Ớt đỏ",
+    "Hành",
+    "Rau ngò mùi",
+    "Hành tím",
+    "Tỏi",
+    "Đường cát trắng",
+    "Bột ngọt",
+    "Tiêu",
+    "Muối ăn",
+    "Tương ớt",
+    "Sốt mayonnaise"
+  ],
+  "ingredient_names_en": [
+    "Tilapia Fillet",
+    "Chicken egg",
+    "Puffed Rice Powder",
+    "Cornstarch",
+    "Cucumber",
+    "Red pepper",
+    "Garlic",
+    "Parsley",
+    "Shallot",
+    "White Sugar",
+    "MSG",
+    "Pepper",
+    "Table Salt",
+    "Hot Sauce",
+    "Mayonnaise Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca ba sa phi le",
+    "trung ga",
+    "bot chien gion",
+    "bot chien su dung de chien bap",
+    "dua chuot",
+    "ot do",
+    "hanh",
+    "rau ngo mui",
+    "hanh tim",
+    "toi",
+    "duong cat trang",
+    "bot ngot",
+    "tieu",
+    "muoi an",
+    "tuong ot",
+    "sot mayonnaise"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

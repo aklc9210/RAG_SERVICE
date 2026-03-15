@@ -1,0 +1,29 @@
+{
+  "id": "ingre02674",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02674.json",
+  "name_vi": "hành lá & rau mùi",
+  "name_en": "Chives & Mint",
+  "name_normalized": "hanh la rau mui",
+  "synonyms": [
+    "cây hành",
+    "cây mùi"
+  ],
+  "synonyms_normalized": [
+    "cay hanh",
+    "cay mui"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la & rau mui",
+      "new": "hanh la rau mui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

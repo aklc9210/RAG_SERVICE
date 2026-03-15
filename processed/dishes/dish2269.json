@@ -1,0 +1,89 @@
+{
+  "id": "dish2269",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2269.json",
+  "name_vi": "Bánh quy socola M&M yến mạch hồ đào",
+  "name_en": "",
+  "name_normalized": "banh quy socola m m yen mach ho dao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Yến mạch",
+    "Hồ đào",
+    "Bơ lạt",
+    "Sữa đặc",
+    "Socola M&M"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường nâu",
+    "Baking soda",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07628",
+    "ingre07453",
+    "ingre03096",
+    "ingre00382",
+    "ingre06174",
+    "ingre05747",
+    "ingre00018",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Đường nâu",
+    "Yến mạch",
+    "Hồ đào",
+    "Bơ lạt",
+    "Sữa đặc",
+    "Socola M&M",
+    "Baking soda",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Brown Sugar",
+    "Oat",
+    "Peach",
+    "Butter",
+    "Sweetened Condensed Milk",
+    "M&M Chocolate",
+    "Baking soda",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "duong nau",
+    "yen mach",
+    "ho dao",
+    "bo lat",
+    "sua dac",
+    "socola m m",
+    "baking soda",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy socola m&m yen mach ho dao",
+      "new": "banh quy socola m m yen mach ho dao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola m&m",
+      "new": "socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola M&M"
+    }
+  ]
+}

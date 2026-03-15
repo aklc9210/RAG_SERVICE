@@ -1,0 +1,106 @@
+{
+  "id": "dish3138",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3138.json",
+  "name_vi": "Bánh canh vịt nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "banh canh vit nuoc cot dua",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt ức vịt",
+    "Tôm tươi",
+    "Gạch tôm"
+  ],
+  "secondary_ingredients": [
+    "Xương vịt",
+    "Nước lọc",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Nước cốt dừa cốt nhất",
+    "Nước cốt dừa cốt dão",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre06547",
+    "ingre06963",
+    "ingre02433",
+    "ingre07429",
+    "ingre00668",
+    "ingre00849",
+    "ingre04557",
+    "ingre04556",
+    "ingre04665",
+    "ingre02673",
+    "ingre02768",
+    "ingre07071"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức vịt",
+    "Tôm tươi",
+    "Gạch tôm",
+    "Xương vịt",
+    "Bột gạo",
+    "Bột năng",
+    "Nước cốt dừa cốt nhất",
+    "Nước cốt dừa cốt dão",
+    "Nước lọc",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi băm"
+  ],
+  "ingredient_names_en": [
+    "Duck breast",
+    "Fresh shrimp",
+    "Shrimp paste",
+    "Duck bone",
+    "Rice flour",
+    "Cornstarch",
+    "Coconut Milk",
+    "Coconut juice",
+    "Tap water",
+    "Scallion",
+    "Shallot",
+    "Minced Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc vit",
+    "tom tuoi",
+    "gach tom",
+    "xuong vit",
+    "bot gao",
+    "bot nang",
+    "nuoc cot dua cot nhat",
+    "nuoc cot dua cot dao",
+    "nuoc loc",
+    "hanh la",
+    "hanh tim",
+    "toi bam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

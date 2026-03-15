@@ -1,0 +1,112 @@
+{
+  "id": "dish5829",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5829.json",
+  "name_vi": "Thịt ba chỉ kho trứng gà",
+  "name_en": "",
+  "name_normalized": "thit ba chi kho trung ga",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Nước dừa tươi khoảng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột nghệ",
+    "Ớt bột",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre06823",
+    "ingre04627",
+    "ingre02768",
+    "ingre00804",
+    "ingre07977",
+    "ingre07966",
+    "ingre04343",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Trứng gà",
+    "Nước dừa tươi khoảng",
+    "Hành tím",
+    "Bột nghệ",
+    "Ớt bột",
+    "Ớt",
+    "Ngò rí",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Chicken egg",
+    "Fresh coconut water",
+    "Shallot",
+    "Turmeric Powder",
+    "Chili powder",
+    "Pepper",
+    "Parsley",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "trung ga",
+    "nuoc dua tuoi khoang",
+    "hanh tim",
+    "bot nghe",
+    "ot bot",
+    "ot",
+    "ngo ri",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

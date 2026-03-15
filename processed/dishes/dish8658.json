@@ -1,0 +1,104 @@
+{
+  "id": "dish8658",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8658.json",
+  "name_vi": "Bò bít tết (Beefsteak) sốt kem nấm",
+  "name_en": "",
+  "name_normalized": "bo bit tet beefsteak sot kem nam",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Nấm mỡ",
+    "Măng tây"
+  ],
+  "secondary_ingredients": [
+    "Cỏ xạ hương",
+    "Hương thảo",
+    "Kem sữa béo",
+    "Bơ lạt",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sữa tươi không đường",
+    "Bột năng",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre04945",
+    "ingre04088",
+    "ingre07063",
+    "ingre01827",
+    "ingre02881",
+    "ingre06147",
+    "ingre03143",
+    "ingre00382",
+    "ingre00849",
+    "ingre02120",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Nấm mỡ",
+    "Măng tây",
+    "Tỏi",
+    "Cỏ xạ hương",
+    "Hương thảo",
+    "Sữa tươi không đường",
+    "Kem sữa béo",
+    "Bơ lạt",
+    "Bột năng",
+    "Dầu ô liu",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Fried mushroom",
+    "Asparagus",
+    "Garlic",
+    "Mugwort",
+    "Mint",
+    "Fat-free Milk",
+    "Heavy Cream",
+    "Butter",
+    "Cornstarch",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "nam mo",
+    "mang tay",
+    "toi",
+    "co xa huong",
+    "huong thao",
+    "sua tuoi khong duong",
+    "kem sua beo",
+    "bo lat",
+    "bot nang",
+    "dau o liu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo bit tet (beefsteak) sot kem nam",
+      "new": "bo bit tet beefsteak sot kem nam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

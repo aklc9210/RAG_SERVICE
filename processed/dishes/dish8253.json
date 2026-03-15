@@ -1,0 +1,77 @@
+{
+  "id": "dish8253",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8253.json",
+  "name_vi": "Gỏi bắp bò hoa chuối",
+  "name_en": "",
+  "name_normalized": "goi bap bo hoa chuoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Hoa chuối",
+    "Bắp bò"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm :",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02575",
+    "ingre00450",
+    "ingre01079",
+    "ingre07966",
+    "ingre05386",
+    "ingre04694",
+    "ingre04665",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Hoa chuối",
+    "Bắp bò",
+    "Chanh",
+    "Ớt",
+    "Rau thơm :",
+    "Nước mắm",
+    "Nước lọc",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Banana flower",
+    "Beef",
+    "Lemon",
+    "Pepper",
+    "Basil",
+    "Fish Sauce",
+    "Tap water",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "hoa chuoi",
+    "bap bo",
+    "chanh",
+    "ot",
+    "rau thom",
+    "nuoc mam",
+    "nuoc loc",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau thom :",
+      "new": "rau thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau thơm :"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dish6390",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6390.json",
+  "name_vi": "Má heo chiên giòn",
+  "name_en": "",
+  "name_normalized": "ma heo chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt má heo",
+    "Sả cây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Rượu trắng",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06439",
+    "ingre05909",
+    "ingre02768",
+    "ingre02124",
+    "ingre05574",
+    "ingre02355",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt má heo",
+    "Sả cây",
+    "Hành tím",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pig cheek meat",
+    "Fresh Ginger",
+    "Shallot",
+    "Cooking oil",
+    "White wine",
+    "Vinegar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit ma heo",
+    "sa cay",
+    "hanh tim",
+    "dau an",
+    "ruou trang",
+    "giam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

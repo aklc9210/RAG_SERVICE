@@ -1,0 +1,117 @@
+{
+  "id": "dish9457",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9457.json",
+  "name_vi": "Khô trâu",
+  "name_en": "",
+  "name_normalized": "kho trau",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt trâu",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Bột ớt",
+    "Bột nghệ",
+    "Ngũ vị hương",
+    "Rượu Mai quế lộ",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06506",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre02093",
+    "ingre01015",
+    "ingre00804",
+    "ingre04381",
+    "ingre05543",
+    "ingre02355",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt trâu",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Dầu màu điều",
+    "Bột ớt",
+    "Bột nghệ",
+    "Ngũ vị hương",
+    "Rượu Mai quế lộ",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Peanut-colored food coloring",
+    "Red Pepper Powder",
+    "Turmeric Powder",
+    "Five-Spice Powder",
+    "Sake Plum Ginger Wine",
+    "Vinegar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit trau",
+    "sa",
+    "toi",
+    "gung",
+    "dau mau dieu",
+    "bot ot",
+    "bot nghe",
+    "ngu vi huong",
+    "ruou mai que lo",
+    "giam",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

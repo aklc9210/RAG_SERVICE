@@ -1,0 +1,46 @@
+{
+  "id": "dish7496",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7496.json",
+  "name_vi": "trứng trộn phô mai bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "trung tron pho mai bang lo vi song",
+  "category": "mon chien",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Phô mai bào mỏng."
+  ],
+  "seasonings": [
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre06801",
+    "ingre05059"
+  ],
+  "ingredient_names_vi": [
+    "Trứng",
+    "Phô mai bào mỏng."
+  ],
+  "ingredient_names_en": [
+    "Egg",
+    "Shredded cheese."
+  ],
+  "ingredient_names_normalized": [
+    "trung",
+    "pho mai bao mong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "pho mai bao mong.",
+      "new": "pho mai bao mong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Phô mai bào mỏng."
+    }
+  ]
+}

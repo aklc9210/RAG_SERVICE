@@ -1,0 +1,25 @@
+{
+  "id": "ingre02676",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02676.json",
+  "name_vi": "hành lá - mùi tàu",
+  "name_en": "Chives",
+  "name_normalized": "hanh la mui tau",
+  "synonyms": [
+    "mùi tàu"
+  ],
+  "synonyms_normalized": [
+    "mui tau"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la - mui tau",
+      "new": "hanh la mui tau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

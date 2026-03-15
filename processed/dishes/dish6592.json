@@ -1,0 +1,86 @@
+{
+  "id": "dish6592",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6592.json",
+  "name_vi": "Chả bề bề",
+  "name_en": "",
+  "name_normalized": "cha be be",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bề bề",
+    "Tôm nõn"
+  ],
+  "secondary_ingredients": [
+    "Giò sống",
+    "Sả",
+    "Hành tím",
+    "Nấm hương"
+  ],
+  "seasonings": [
+    "Tiêu",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre00494",
+    "ingre06947",
+    "ingre02350",
+    "ingre05900",
+    "ingre02768",
+    "ingre04910",
+    "ingre06612",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Bề bề",
+    "Tôm nõn",
+    "Giò sống",
+    "Sả",
+    "Hành tím",
+    "Nấm hương",
+    "Tiêu",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Shrimp Roe",
+    "Fresh sausage",
+    "Lemongrass",
+    "Shallot",
+    "Mushroom",
+    "Pepper",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "be be",
+    "tom non",
+    "gio song",
+    "sa",
+    "hanh tim",
+    "nam huong",
+    "tieu",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

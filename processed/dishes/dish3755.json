@@ -1,0 +1,86 @@
+{
+  "id": "dish3755",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3755.json",
+  "name_vi": "Diềm heo nướng",
+  "name_en": "",
+  "name_normalized": "diem heo nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Diềm heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Muối",
+    "Nước mắm",
+    "Tiêu",
+    "Hạt nêm",
+    "Sa tế"
+  ],
+  "ingredient_ids": [
+    "ingre01949",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre03746",
+    "ingre04124",
+    "ingre04694",
+    "ingre06612",
+    "ingre02995",
+    "ingre05621"
+  ],
+  "ingredient_names_vi": [
+    "Diềm heo",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Muối",
+    "Mật ong",
+    "Nước mắm",
+    "Tiêu",
+    "Hạt nêm",
+    "Sa tế"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Salt",
+    "Honey",
+    "Fish Sauce",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "diem heo",
+    "sa",
+    "toi",
+    "gung",
+    "muoi",
+    "mat ong",
+    "nuoc mam",
+    "tieu",
+    "hat nem",
+    "sa te"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

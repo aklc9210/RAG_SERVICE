@@ -1,0 +1,120 @@
+{
+  "id": "dish5321",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5321.json",
+  "name_vi": "Sườn sụn heo xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "suon sun heo xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sườn sụn heo",
+    "Thơm/ dứa",
+    "Cà chua",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Húng quế",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05896",
+    "ingre06253",
+    "ingre01354",
+    "ingre04974",
+    "ingre02862",
+    "ingre02768",
+    "ingre07063",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sườn sụn heo",
+    "Thơm/ dứa",
+    "Cà chua",
+    "Nấm đùi gà",
+    "Húng quế",
+    "Hành tím",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork cartilage",
+    "Pineapple",
+    "Tomato",
+    "Chicken mushroom",
+    "Cinnamon basil",
+    "Shallot",
+    "Garlic",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "suon sun heo",
+    "thom dua",
+    "ca chua",
+    "nam dui ga",
+    "hung que",
+    "hanh tim",
+    "toi",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thom/ dua",
+      "new": "thom dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thơm/ dứa"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

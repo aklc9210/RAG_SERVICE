@@ -1,0 +1,61 @@
+{
+  "id": "dish1810",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1810.json",
+  "name_vi": "Bánh mì từ sake (sa kê)",
+  "name_en": "",
+  "name_normalized": "banh mi tu sake sa ke",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sake",
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre05635",
+    "ingre06174",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Sake",
+    "Sữa đặc",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Sake",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "sake",
+    "sua dac",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi tu sake (sa ke)",
+      "new": "banh mi tu sake sa ke",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

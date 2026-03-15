@@ -1,0 +1,67 @@
+{
+  "id": "dish10559",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10559.json",
+  "name_vi": "Dưa bông điên điển",
+  "name_en": "",
+  "name_normalized": "dua bong dien dien",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Bông điên điển"
+  ],
+  "secondary_ingredients": [
+    "Nước vo gạo",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00296",
+    "ingre08055",
+    "ingre04821",
+    "ingre02355",
+    "ingre07680",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bông điên điển",
+    "Ớt sừng",
+    "Nước vo gạo",
+    "Giấm",
+    "Đường/ muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Dandelion flower",
+    "Hot pepper",
+    "Rice washing water",
+    "Vinegar",
+    "Sugar/Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bong dien dien",
+    "ot sung",
+    "nuoc vo gao",
+    "giam",
+    "duong muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

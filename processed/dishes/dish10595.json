@@ -1,0 +1,112 @@
+{
+  "id": "dish10595",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10595.json",
+  "name_vi": "Mì trộn thịt bằm",
+  "name_en": "",
+  "name_normalized": "mi tron thit bam",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Mì gói",
+    "Thịt xay",
+    "Súp lơ xanh"
+  ],
+  "secondary_ingredients": [
+    "Giá đỗ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Bột bắp",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03963",
+    "ingre06521",
+    "ingre06823",
+    "ingre05844",
+    "ingre02337",
+    "ingre01419",
+    "ingre02673",
+    "ingre00564",
+    "ingre04790",
+    "ingre07028",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Mì gói",
+    "Thịt xay",
+    "Trứng gà",
+    "Súp lơ xanh",
+    "Giá đỗ",
+    "Cà rốt",
+    "Hành lá",
+    "Bột bắp",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Ground Beef",
+    "Chicken egg",
+    "Green cabbage",
+    "Bean sprouts",
+    "Carrot",
+    "Scallion",
+    "Corn starch",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mi goi",
+    "thit xay",
+    "trung ga",
+    "sup lo xanh",
+    "gia do",
+    "ca rot",
+    "hanh la",
+    "bot bap",
+    "nuoc tuong",
+    "tuong ot",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish1491",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1491.json",
+  "name_vi": "Bánh Soufflé vani trứng",
+  "name_en": "",
+  "name_normalized": "banh souffle vani trung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Đường cát trắng",
+    "Bột mì số 8",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07601",
+    "ingre00783",
+    "ingre00382",
+    "ingre06147",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường cát trắng",
+    "Bột mì số 8",
+    "Bơ lạt",
+    "Sữa tươi không đường",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "White Sugar",
+    "All-purpose flour",
+    "Butter",
+    "Fat-free Milk",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong cat trang",
+    "bot mi so 8",
+    "bo lat",
+    "sua tuoi khong duong",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

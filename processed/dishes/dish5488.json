@@ -1,0 +1,116 @@
+{
+  "id": "dish5488",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5488.json",
+  "name_vi": "Miến xào tôm sốt trứng muối",
+  "name_en": "",
+  "name_normalized": "mien xao tom sot trung muoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Miến",
+    "Dầu mè",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Dầu điều",
+    "Xà lách xoong"
+  ],
+  "seasonings": [
+    "Trứng muối",
+    "Trứng gà . 100 g Bột chiên giòn",
+    "Tỏi băm",
+    "Bột bắp",
+    "Cà rốt",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường trắng",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03710",
+    "ingre06849",
+    "ingre02094",
+    "ingre06963",
+    "ingre06826",
+    "ingre02134",
+    "ingre07071",
+    "ingre00564",
+    "ingre01419",
+    "ingre07370",
+    "ingre02995",
+    "ingre06612",
+    "ingre07652",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Miến",
+    "Trứng muối",
+    "Dầu mè",
+    "Tôm tươi",
+    "Trứng gà . 100 g Bột chiên giòn",
+    "Dầu điều",
+    "Tỏi băm",
+    "Bột bắp",
+    "Cà rốt",
+    "Xà lách xoong",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường trắng",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rice vermicelli",
+    "Pickled egg",
+    "Sesame oil",
+    "Fresh shrimp",
+    "Chicken egg. 100 g fried bread crumb",
+    "Peanut oil",
+    "Minced Garlic",
+    "Corn starch",
+    "Carrot",
+    "Spring onion",
+    "Seasoning",
+    "Pepper",
+    "White sugar",
+    "Soy Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mien",
+    "trung muoi",
+    "dau me",
+    "tom tuoi",
+    "trung ga 100 g bot chien gion",
+    "dau dieu",
+    "toi bam",
+    "bot bap",
+    "ca rot",
+    "xa lach xoong",
+    "hat nem",
+    "tieu",
+    "duong trang",
+    "nuoc tuong",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "trung ga . 100 g bot chien gion",
+      "new": "trung ga 100 g bot chien gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Trứng gà . 100 g Bột chiên giòn"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "dish5945",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5945.json",
+  "name_vi": "Cá bớp kho thịt ba chỉ",
+  "name_en": "",
+  "name_normalized": "ca bop kho thit ba chi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá bớp",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gia vị kho cá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01481",
+    "ingre06275",
+    "ingre07966",
+    "ingre02768",
+    "ingre02287",
+    "ingre04694",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Cá bớp",
+    "Thịt ba chỉ",
+    "Ớt",
+    "Hành tím",
+    "Gia vị kho cá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Swordfish",
+    "Pork belly",
+    "Pepper",
+    "Shallot",
+    "Fish Sauce Seasoning",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca bop",
+    "thit ba chi",
+    "ot",
+    "hanh tim",
+    "gia vi kho ca",
+    "nuoc mam",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

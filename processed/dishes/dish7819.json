@@ -1,0 +1,108 @@
+{
+  "id": "dish7819",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7819.json",
+  "name_vi": "Lẩu cá khoai chua cay",
+  "name_en": "",
+  "name_normalized": "lau ca khoai chua cay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá khoai",
+    "Thịt nạc dăm xay",
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Nước dùng gà",
+    "Lá húng quế",
+    "Lá chúng",
+    "Bún tươi",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước cốt chanh",
+    "Hạt nêm",
+    "Bột gia vị nêm sẵn lẩu thái"
+  ],
+  "ingredient_ids": [
+    "ingre01536",
+    "ingre06461",
+    "ingre01354",
+    "ingre02741",
+    "ingre05900",
+    "ingre07966",
+    "ingre04538",
+    "ingre04607",
+    "ingre03439",
+    "ingre03401",
+    "ingre00357",
+    "ingre05420",
+    "ingre02995",
+    "ingre00661"
+  ],
+  "ingredient_names_vi": [
+    "Cá khoai",
+    "Thịt nạc dăm xay",
+    "Cà chua",
+    "Hành tây",
+    "Sả",
+    "Ớt",
+    "Nước cốt chanh",
+    "Nước dùng gà",
+    "Lá húng quế",
+    "Lá chúng",
+    "Bún tươi",
+    "Rau ăn kèm",
+    "Hạt nêm",
+    "Bột gia vị nêm sẵn lẩu thái"
+  ],
+  "ingredient_names_en": [
+    "Potato fish",
+    "Ground Pork Shoulder",
+    "Tomato",
+    "Onion",
+    "Lemongrass",
+    "Pepper",
+    "Lemon juice",
+    "Chicken broth",
+    "Rosemary",
+    "Lamb's Quarter",
+    "Fresh noodle",
+    "Side vegetable",
+    "Seasoning",
+    "Prepared Thai Hot Pot Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca khoai",
+    "thit nac dam xay",
+    "ca chua",
+    "hanh tay",
+    "sa",
+    "ot",
+    "nuoc cot chanh",
+    "nuoc dung ga",
+    "la hung que",
+    "la chung",
+    "bun tuoi",
+    "rau an kem",
+    "hat nem",
+    "bot gia vi nem san lau thai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

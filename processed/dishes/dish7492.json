@@ -1,0 +1,86 @@
+{
+  "id": "dish7492",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7492.json",
+  "name_vi": "Trứng đậu nành",
+  "name_en": "",
+  "name_normalized": "trung dau nanh",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bã đậu nành"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Muối",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00231",
+    "ingre06823",
+    "ingre04910",
+    "ingre02673",
+    "ingre02768",
+    "ingre03746",
+    "ingre00838",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bã đậu nành",
+    "Trứng gà",
+    "Nấm hương",
+    "Hành lá",
+    "Hành tím",
+    "Muối",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Soybean渣",
+    "Chicken egg",
+    "Mushroom",
+    "Scallion",
+    "Shallot",
+    "Salt",
+    "Seasoning Powder",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ba dau nanh",
+    "trung ga",
+    "nam huong",
+    "hanh la",
+    "hanh tim",
+    "muoi",
+    "bot nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

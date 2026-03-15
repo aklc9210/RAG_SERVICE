@@ -1,0 +1,93 @@
+{
+  "id": "dish8029",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8029.json",
+  "name_vi": "Salad táo kiểu Thái",
+  "name_en": "",
+  "name_normalized": "salad tao kieu thai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Táo",
+    "Đậu đũa"
+  ],
+  "secondary_ingredients": [
+    "Cà chua bi",
+    "Hành tím",
+    "Ruốc sấy",
+    "Đậu phộng rang",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06890",
+    "ingre01419",
+    "ingre07867",
+    "ingre01355",
+    "ingre02768",
+    "ingre07966",
+    "ingre05489",
+    "ingre04694",
+    "ingre07583",
+    "ingre07791",
+    "ingre04343"
+  ],
+  "ingredient_names_vi": [
+    "Táo",
+    "Cà rốt",
+    "Đậu đũa",
+    "Cà chua bi",
+    "Hành tím",
+    "Ớt",
+    "Ruốc sấy",
+    "Nước mắm",
+    "Đường",
+    "Đậu phộng rang",
+    "Ngò rí"
+  ],
+  "ingredient_names_en": [
+    "Apple",
+    "Carrot",
+    "Green beans",
+    "Tomato",
+    "Shallot",
+    "Pepper",
+    "Dried fish paste",
+    "Fish Sauce",
+    "Sugar",
+    "Roasted Peanut",
+    "Parsley"
+  ],
+  "ingredient_names_normalized": [
+    "tao",
+    "ca rot",
+    "dau dua",
+    "ca chua bi",
+    "hanh tim",
+    "ot",
+    "ruoc say",
+    "nuoc mam",
+    "duong",
+    "dau phong rang",
+    "ngo ri"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

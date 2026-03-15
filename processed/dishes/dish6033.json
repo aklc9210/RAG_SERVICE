@@ -1,0 +1,83 @@
+{
+  "id": "dish6033",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6033.json",
+  "name_vi": "Cá lăng kho nghệ",
+  "name_en": "",
+  "name_normalized": "ca lang kho nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lăng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre00804",
+    "ingre07063",
+    "ingre02768",
+    "ingre01079",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Bột nghệ",
+    "Tỏi",
+    "Hành tím",
+    "Chanh",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Turmeric Powder",
+    "Garlic",
+    "Shallot",
+    "Lemon",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "bot nghe",
+    "toi",
+    "hanh tim",
+    "chanh",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

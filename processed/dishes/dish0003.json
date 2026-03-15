@@ -1,0 +1,92 @@
+{
+  "id": "dish0003",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0003.json",
+  "name_vi": "Canh cải thảo thịt bò",
+  "name_en": "",
+  "name_normalized": "canh cai thao thit bo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cải thảo",
+    "Thịt bò",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01793",
+    "ingre06300",
+    "ingre02673",
+    "ingre07063",
+    "ingre02485",
+    "ingre02124",
+    "ingre02080",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cải thảo",
+    "Thịt bò",
+    "Hành lá",
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Beef",
+    "Scallion",
+    "Garlic",
+    "Ginger",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai thao",
+    "thit bo",
+    "hanh la",
+    "toi",
+    "gung",
+    "dau an",
+    "dau hao",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

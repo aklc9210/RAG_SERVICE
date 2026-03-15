@@ -1,0 +1,25 @@
+{
+  "id": "ingre06824",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06824.json",
+  "name_vi": "trứng gà (tách riêng lòng trắng và lòng đỏ)",
+  "name_en": "Chicken egg (separate the white and yolk)",
+  "name_normalized": "trung ga tach rieng long trang va long do",
+  "synonyms": [
+    "trứng (tách riêng lòng trắng và lòng đỏ)"
+  ],
+  "synonyms_normalized": [
+    "trung tach rieng long trang va long do"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung ga (tach rieng long trang va long do)",
+      "new": "trung ga tach rieng long trang va long do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

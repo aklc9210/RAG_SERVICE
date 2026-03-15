@@ -1,0 +1,71 @@
+{
+  "id": "dish5576",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5576.json",
+  "name_vi": "Thịt kho keo",
+  "name_en": "",
+  "name_normalized": "thit kho keo",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

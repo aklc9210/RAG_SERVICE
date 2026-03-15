@@ -1,0 +1,82 @@
+{
+  "id": "dish9276",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9276.json",
+  "name_vi": "Bánh lọt sương sáo",
+  "name_en": "",
+  "name_normalized": "banh lot suong sao",
+  "category": "an vat",
+  "main_ingredients": [
+    "Hạt lựu",
+    "Lá dứa",
+    "Dầu chuối"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bột gạo",
+    "Nước cốt dừa",
+    "Bột sương sáo",
+    "Đường thốt nốt",
+    "Muối/ đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre00668",
+    "ingre04554",
+    "ingre00922",
+    "ingre02967",
+    "ingre03417",
+    "ingre07647",
+    "ingre02060",
+    "ingre03819"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Bột gạo",
+    "Nước cốt dừa",
+    "Bột sương sáo",
+    "Hạt lựu",
+    "Lá dứa",
+    "Đường thốt nốt",
+    "Dầu chuối",
+    "Muối/ đường cát"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Rice flour",
+    "Coconut milk",
+    "Sago粉",
+    "Raisin",
+    "Pandan叶",
+    "Cane Sugar",
+    "Palm oil",
+    "Salt/Granulated Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "bot gao",
+    "nuoc cot dua",
+    "bot suong sao",
+    "hat luu",
+    "la dua",
+    "duong thot not",
+    "dau chuoi",
+    "muoi duong cat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong cat",
+      "new": "muoi duong cat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường cát"
+    }
+  ]
+}

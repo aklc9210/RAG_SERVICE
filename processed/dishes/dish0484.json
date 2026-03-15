@@ -1,0 +1,73 @@
+{
+  "id": "dish0484",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0484.json",
+  "name_vi": "Canh cải ngồng thịt băm",
+  "name_en": "",
+  "name_normalized": "canh cai ngong thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Cải ngồng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre01788",
+    "ingre02768",
+    "ingre02124",
+    "ingre02995",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Cải ngồng",
+    "Hành tím",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Chinese cabbage",
+    "Shallot",
+    "Cooking oil",
+    "Seasoning",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "cai ngong",
+    "hanh tim",
+    "dau an",
+    "hat nem",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

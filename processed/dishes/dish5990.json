@@ -1,0 +1,103 @@
+{
+  "id": "dish5990",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5990.json",
+  "name_vi": "Thịt bò kho củ cải",
+  "name_en": "",
+  "name_normalized": "thit bo kho cu cai",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt bò",
+    "Củ cải"
+  ],
+  "secondary_ingredients": [
+    "Thảo quả",
+    "Hành lá",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hoa hồi",
+    "Hành khô",
+    "Tỏi",
+    "Ớt khô",
+    "Tiêu hạt",
+    "Xì dầu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01860",
+    "ingre02485",
+    "ingre06271",
+    "ingre02584",
+    "ingre02673",
+    "ingre02667",
+    "ingre07063",
+    "ingre08039",
+    "ingre06619",
+    "ingre07381",
+    "ingre02124",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Củ cải",
+    "Gừng",
+    "Thảo quả",
+    "Hoa hồi",
+    "Hành lá",
+    "Hành khô",
+    "Tỏi",
+    "Ớt khô",
+    "Tiêu hạt",
+    "Xì dầu",
+    "Dầu ăn",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Radish",
+    "Ginger",
+    "Star anise",
+    "Rose",
+    "Scallion",
+    "Garlic Powder",
+    "Garlic",
+    "Dried Pepper",
+    "Cumin Seeds",
+    "Soy Sauce",
+    "Cooking oil",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "cu cai",
+    "gung",
+    "thao qua",
+    "hoa hoi",
+    "hanh la",
+    "hanh kho",
+    "toi",
+    "ot kho",
+    "tieu hat",
+    "xi dau",
+    "dau an",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

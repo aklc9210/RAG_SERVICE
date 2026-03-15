@@ -1,0 +1,115 @@
+{
+  "id": "dish0163",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0163.json",
+  "name_vi": "Gà nấu chao",
+  "name_en": "",
+  "name_normalized": "ga nau chao",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gà ta",
+    "Khoai môn",
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Nấm rơm",
+    "Sả xay",
+    "Rau ngò gai/ rau om"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Nước mắm",
+    "Tỏi xay",
+    "Ớt",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre03208",
+    "ingre01106",
+    "ingre05621",
+    "ingre04694",
+    "ingre06174",
+    "ingre04953",
+    "ingre07113",
+    "ingre05918",
+    "ingre07966",
+    "ingre05325",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Khoai môn",
+    "Chao",
+    "Sa tế",
+    "Nước mắm",
+    "Sữa đặc",
+    "Nấm rơm",
+    "Tỏi xay",
+    "Sả xay",
+    "Ớt",
+    "Rau ngò gai/ rau om",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Yam",
+    "Pickled plum",
+    "Fish sauce",
+    "Sweetened Condensed Milk",
+    "Strawberry mushroom",
+    "Garlic Paste",
+    "Pepper",
+    "Sage Herb / Oregano",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "khoai mon",
+    "chao",
+    "sa te",
+    "nuoc mam",
+    "sua dac",
+    "nam rom",
+    "toi xay",
+    "sa xay",
+    "ot",
+    "rau ngo gai rau om",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ngo gai/ rau om",
+      "new": "rau ngo gai rau om",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau ngò gai/ rau om"
+    }
+  ]
+}

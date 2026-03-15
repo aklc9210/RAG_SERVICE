@@ -1,0 +1,63 @@
+{
+  "id": "dish3147",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3147.json",
+  "name_vi": "Nấm lộc nhung",
+  "name_en": "",
+  "name_normalized": "nam loc nhung",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nấm lộc nhung"
+  ],
+  "secondary_ingredients": [
+    "Mì gói",
+    "Rau cải",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre04928",
+    "ingre03952",
+    "ingre05225",
+    "ingre02768",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Nấm lộc nhung",
+    "Mì gói",
+    "Rau cải",
+    "Hành tím",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Noodle Packet",
+    "Cabbage",
+    "Shallot",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam loc nhung",
+    "mi goi",
+    "rau cai",
+    "hanh tim",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

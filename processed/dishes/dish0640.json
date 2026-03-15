@@ -1,0 +1,102 @@
+{
+  "id": "dish0640",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0640.json",
+  "name_vi": "Gân bò hầm đu đủ",
+  "name_en": "",
+  "name_normalized": "gan bo ham du du",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gân bò",
+    "Đu đủ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre07491",
+    "ingre05900",
+    "ingre04343",
+    "ingre02485",
+    "ingre07063",
+    "ingre02124",
+    "ingre02080",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Đu đủ",
+    "Sả",
+    "Ngò rí",
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Papaya",
+    "Lemongrass",
+    "Parsley",
+    "Ginger",
+    "Garlic",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "du du",
+    "sa",
+    "ngo ri",
+    "gung",
+    "toi",
+    "dau an",
+    "dau hao",
+    "muoi",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

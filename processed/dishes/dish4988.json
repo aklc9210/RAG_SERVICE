@@ -1,0 +1,86 @@
+{
+  "id": "dish4988",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4988.json",
+  "name_vi": "Sò lông xào sả ớt",
+  "name_en": "",
+  "name_normalized": "so long xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sò lông",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Bột nghệ",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05820",
+    "ingre05900",
+    "ingre07071",
+    "ingre00804",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sò lông",
+    "Sả",
+    "Tỏi băm",
+    "Bột nghệ",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Lamb's liver",
+    "Lemongrass",
+    "Minced Garlic",
+    "Turmeric Powder",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "so long",
+    "sa",
+    "toi bam",
+    "bot nghe",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

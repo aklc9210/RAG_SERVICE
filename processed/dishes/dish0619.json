@@ -1,0 +1,128 @@
+{
+  "id": "dish0619",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0619.json",
+  "name_vi": "Canh lá đắng với lòng lợn",
+  "name_en": "",
+  "name_normalized": "canh la dang voi long lon",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Lá đắng",
+    "Lòng lợn",
+    "Gan lợn",
+    "Tiết lợn"
+  ],
+  "secondary_ingredients": [
+    "Mắc khén",
+    "Cơm mẻ",
+    "Hành tím",
+    "Nghệ",
+    "Sả"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Giấm ăn",
+    "Bột ngọt/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03555",
+    "ingre03574",
+    "ingre02243",
+    "ingre06670",
+    "ingre04130",
+    "ingre01753",
+    "ingre04159",
+    "ingre02768",
+    "ingre07063",
+    "ingre04304",
+    "ingre05900",
+    "ingre07966",
+    "ingre02124",
+    "ingre02377",
+    "ingre00826"
+  ],
+  "ingredient_names_vi": [
+    "Lá đắng",
+    "Lòng lợn",
+    "Gan lợn",
+    "Tiết lợn",
+    "Mắc khén",
+    "Cơm mẻ",
+    "Mắm tôm",
+    "Hành tím",
+    "Tỏi",
+    "Nghệ",
+    "Sả",
+    "Ớt",
+    "Dầu ăn",
+    "Giấm ăn",
+    "Bột ngọt/ muối"
+  ],
+  "ingredient_names_en": [
+    "Bitter Leaf",
+    "Pork liver",
+    "Pig's blood",
+    "Pandan",
+    "Glutinous Rice",
+    "Shrimp paste",
+    "Shallot",
+    "Garlic",
+    "Turmeric",
+    "Lemongrass",
+    "Pepper",
+    "Cooking oil",
+    "vinegar",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "la dang",
+    "long lon",
+    "gan lon",
+    "tiet lon",
+    "mac khen",
+    "com me",
+    "mam tom",
+    "hanh tim",
+    "toi",
+    "nghe",
+    "sa",
+    "ot",
+    "dau an",
+    "giam an",
+    "bot ngot muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ muoi",
+      "new": "bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ muối"
+    }
+  ]
+}

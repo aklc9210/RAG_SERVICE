@@ -1,0 +1,25 @@
+{
+  "id": "ingre05582",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05582.json",
+  "name_vi": "rượu trắng/ dầu mè",
+  "name_en": "White wine/sesame oil",
+  "name_normalized": "ruou trang dau me",
+  "synonyms": [
+    "dầu thầu dầu"
+  ],
+  "synonyms_normalized": [
+    "dau thau dau"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ruou trang/ dau me",
+      "new": "ruou trang dau me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

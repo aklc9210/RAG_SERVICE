@@ -1,0 +1,116 @@
+{
+  "id": "dish6049",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6049.json",
+  "name_vi": "Sườn cốt lết rim nước tương (xì dầu)",
+  "name_en": "",
+  "name_normalized": "suon cot let rim nuoc tuong xi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sườn cốt lết",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Bột ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường cát vàng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05876",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre04790",
+    "ingre02080",
+    "ingre07028",
+    "ingre01015",
+    "ingre01079",
+    "ingre02124",
+    "ingre02995",
+    "ingre07602",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cốt lết",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Bột ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường cát vàng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Lettuce Spare Ribs",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Red Pepper Powder",
+    "Lemon",
+    "Cooking oil",
+    "Seasoning",
+    "Yellow Sand Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon cot let",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "nuoc tuong",
+    "dau hao",
+    "tuong ot",
+    "bot ot",
+    "chanh",
+    "dau an",
+    "hat nem",
+    "duong cat vang",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "suon cot let rim nuoc tuong (xi dau)",
+      "new": "suon cot let rim nuoc tuong xi dau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

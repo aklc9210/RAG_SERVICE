@@ -1,0 +1,102 @@
+{
+  "id": "dish3349",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3349.json",
+  "name_vi": "Bún nước lèo",
+  "name_en": "",
+  "name_normalized": "bun nuoc leo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún tươi",
+    "Cá lóc",
+    "Tôm sú"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Bắp chuối",
+    "Giá đỗ",
+    "Hẹ",
+    "Húng quế",
+    "Sả",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Mắm cá linh",
+    "Ớt",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre01549",
+    "ingre06953",
+    "ingre04142",
+    "ingre04626",
+    "ingre00452",
+    "ingre02337",
+    "ingre03085",
+    "ingre02862",
+    "ingre05900",
+    "ingre07966",
+    "ingre01079",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Cá lóc",
+    "Tôm sú",
+    "Mắm cá linh",
+    "Nước dừa tươi",
+    "Bắp chuối",
+    "Giá đỗ",
+    "Hẹ",
+    "Húng quế",
+    "Sả",
+    "Ớt",
+    "Chanh",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Gilthead seabream",
+    "Shrimp",
+    "Pike Conger Fish Sauce",
+    "Coconut water",
+    "Banana",
+    "Bean sprouts",
+    "Garlic Chives",
+    "Cinnamon basil",
+    "Lemongrass",
+    "Pepper",
+    "Lemon",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "ca loc",
+    "tom su",
+    "mam ca linh",
+    "nuoc dua tuoi",
+    "bap chuoi",
+    "gia do",
+    "he",
+    "hung que",
+    "sa",
+    "ot",
+    "chanh",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish0427",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0427.json",
+  "name_vi": "Canh gà ác chanh muối",
+  "name_en": "",
+  "name_normalized": "canh ga ac chanh muoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gà ác",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Chanh muối",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02411",
+    "ingre01088",
+    "ingre01868",
+    "ingre02768",
+    "ingre02673",
+    "ingre04343",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà ác",
+    "Chanh muối",
+    "Củ cải trắng",
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chinese Gooseberry",
+    "Pickled Lime",
+    "White radish",
+    "Shallot",
+    "Scallion",
+    "Parsley",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga ac",
+    "chanh muoi",
+    "cu cai trang",
+    "hanh tim",
+    "hanh la",
+    "ngo ri",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

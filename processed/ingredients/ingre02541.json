@@ -1,0 +1,29 @@
+{
+  "id": "ingre02541",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02541.json",
+  "name_vi": "hành lá",
+  "name_en": "Scallion",
+  "name_normalized": "hanh la",
+  "synonyms": [
+    "cây hành",
+    "lá hành"
+  ],
+  "synonyms_normalized": [
+    "cay hanh",
+    "la hanh"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

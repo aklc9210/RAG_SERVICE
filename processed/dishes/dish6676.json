@@ -1,0 +1,52 @@
+{
+  "id": "dish6676",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6676.json",
+  "name_vi": "Cách làm khoai tây bọc xúc xích chiên",
+  "name_en": "",
+  "name_normalized": "cach lam khoai tay boc xuc xich chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai tây",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt bột;muối;dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre07396",
+    "ingre07992"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Xúc xích",
+    "Ớt bột;muối;dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Sausage",
+    "Chili powder;salt;vegetable oil"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "xuc xich",
+    "ot bot muoi dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ot bot;muoi;dau an",
+      "new": "ot bot muoi dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ớt bột;muối;dầu ăn"
+    }
+  ]
+}

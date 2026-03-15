@@ -1,0 +1,76 @@
+{
+  "id": "dish2056",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2056.json",
+  "name_vi": "Bánh bông lan Đài Loan sữa chua chanh",
+  "name_en": "",
+  "name_normalized": "banh bong lan dai loan sua chua chanh",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Bột làm bánh (Cake Flour)",
+    "Sữa chua không đường",
+    "Nước cốt chanh",
+    "Vỏ chanh vàng bào",
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre06100",
+    "ingre04538",
+    "ingre07260",
+    "ingre04124",
+    "ingre06823",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake Flour)",
+    "Sữa chua không đường",
+    "Nước cốt chanh",
+    "Vỏ chanh vàng bào",
+    "Mật ong",
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Plain Yogurt",
+    "Lemon juice",
+    "Orange peel shredded",
+    "Honey",
+    "Chicken egg",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "sua chua khong duong",
+    "nuoc cot chanh",
+    "vo chanh vang bao",
+    "mat ong",
+    "trung ga",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    }
+  ]
+}

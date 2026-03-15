@@ -1,0 +1,89 @@
+{
+  "id": "dish6473",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6473.json",
+  "name_vi": "Cơm kẹp - burger cơm",
+  "name_en": "",
+  "name_normalized": "com kep burger com",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm",
+    "Ức gà phi lê"
+  ],
+  "secondary_ingredients": [
+    "Rong biển khô"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Cà chua/ dưa leo/ xà lách/ tương cà"
+  ],
+  "ingredient_ids": [
+    "ingre01724",
+    "ingre08109",
+    "ingre06823",
+    "ingre00759",
+    "ingre05457",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre01375"
+  ],
+  "ingredient_names_vi": [
+    "Cơm",
+    "Ức gà phi lê",
+    "Trứng gà",
+    "Bột mì",
+    "Rong biển khô",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Cà chua/ dưa leo/ xà lách/ tương cà"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Chicken breast",
+    "Chicken egg",
+    "Wheat Flour",
+    "Kelp Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Tomato/Cucumber/Lettuce/Corn Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "com",
+    "uc ga phi le",
+    "trung ga",
+    "bot mi",
+    "rong bien kho",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "ca chua dua leo xa lach tuong ca"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "com kep - burger com",
+      "new": "com kep burger com",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ca chua/ dua leo/ xa lach/ tuong ca",
+      "new": "ca chua dua leo xa lach tuong ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cà chua/ dưa leo/ xà lách/ tương cà"
+    }
+  ]
+}

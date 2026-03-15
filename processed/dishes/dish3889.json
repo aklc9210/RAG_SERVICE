@@ -1,0 +1,84 @@
+{
+  "id": "dish3889",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3889.json",
+  "name_vi": "Nấm đùi gà nướng bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "nam dui ga nuong bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Nấm đùi gà",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hành phi",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre02673",
+    "ingre02730",
+    "ingre04790",
+    "ingre07028",
+    "ingre02080",
+    "ingre02124",
+    "ingre07684"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Hành lá",
+    "Hành phi",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Scallion",
+    "Garlic Fried",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Sugar/Clove Hints"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "hanh la",
+    "hanh phi",
+    "nuoc tuong",
+    "tuong ot",
+    "dau hao",
+    "dau an",
+    "duong tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu hat",
+      "new": "duong tieu hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu hạt"
+    }
+  ]
+}

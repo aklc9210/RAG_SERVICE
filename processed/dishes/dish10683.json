@@ -1,0 +1,106 @@
+{
+  "id": "dish10683",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10683.json",
+  "name_vi": "Thịt luộc cuốn bánh tráng",
+  "name_en": "",
+  "name_normalized": "thit luoc cuon banh trang",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo",
+    "Bún",
+    "Bánh tráng"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Hành tím",
+    "Rau xà lách",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre00338",
+    "ingre00178",
+    "ingre01079",
+    "ingre07057",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre05410",
+    "ingre05420",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Bún",
+    "Bánh tráng",
+    "Chanh",
+    "Tắc",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Rau xà lách",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Noodle",
+    "Rice Paper",
+    "Lemon",
+    "Tamarind",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "lettuce",
+    "Side vegetable",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "bun",
+    "banh trang",
+    "chanh",
+    "tac",
+    "ot",
+    "toi",
+    "hanh tim",
+    "rau xa lach",
+    "rau an kem",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

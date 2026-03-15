@@ -1,0 +1,98 @@
+{
+  "id": "dish4084",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4084.json",
+  "name_vi": "Cá lăng nướng riềng mẻ",
+  "name_en": "",
+  "name_normalized": "ca lang nuong rieng me",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá lăng",
+    "Riềng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mẻ",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Mắm tôm",
+    "Nước nghệ xay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre05436",
+    "ingre02768",
+    "ingre07063",
+    "ingre04165",
+    "ingre04159",
+    "ingre04728",
+    "ingre02124",
+    "ingre02093",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Riềng",
+    "Hành tím",
+    "Tỏi",
+    "Mẻ",
+    "Mắm tôm",
+    "Nước nghệ xay",
+    "Dầu ăn",
+    "Dầu màu điều",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Galangal",
+    "Shallot",
+    "Garlic",
+    "Tamarind",
+    "Shrimp paste",
+    "Turmeric Paste",
+    "Cooking oil",
+    "Peanut-colored food coloring",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "rieng",
+    "hanh tim",
+    "toi",
+    "me",
+    "mam tom",
+    "nuoc nghe xay",
+    "dau an",
+    "dau mau dieu",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

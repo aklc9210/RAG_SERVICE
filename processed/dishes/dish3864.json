@@ -1,0 +1,130 @@
+{
+  "id": "dish3864",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3864.json",
+  "name_vi": "Ba chỉ bò nướng sa tế",
+  "name_en": "",
+  "name_normalized": "ba chi bo nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ bò",
+    "Ngò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành tây",
+    "Mật ong",
+    "Siro ngô"
+  ],
+  "seasonings": [
+    "Ớt sừng xanh",
+    "Ớt sừng đỏ",
+    "Tỏi",
+    "Sa tế",
+    "Nước tương",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06276",
+    "ingre08068",
+    "ingre08071",
+    "ingre04326",
+    "ingre05900",
+    "ingre02768",
+    "ingre07063",
+    "ingre02741",
+    "ingre05621",
+    "ingre04124",
+    "ingre04790",
+    "ingre04694",
+    "ingre04538",
+    "ingre05705",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ bò",
+    "Ớt sừng xanh",
+    "Ớt sừng đỏ",
+    "Ngò",
+    "Sả",
+    "Hành tím",
+    "Tỏi",
+    "Hành tây",
+    "Sa tế",
+    "Mật ong",
+    "Nước tương",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Siro ngô",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef belly",
+    "Green Horn Pepper",
+    "Red Hot Pepper",
+    "Cilantro",
+    "Lemongrass",
+    "Shallot",
+    "Garlic",
+    "Onion",
+    "Fish sauce",
+    "Honey",
+    "Soy Sauce",
+    "Lemon juice",
+    "Corn syrup",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi bo",
+    "ot sung xanh",
+    "ot sung do",
+    "ngo",
+    "sa",
+    "hanh tim",
+    "toi",
+    "hanh tay",
+    "sa te",
+    "mat ong",
+    "nuoc tuong",
+    "nuoc mam",
+    "nuoc cot chanh",
+    "siro ngo",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

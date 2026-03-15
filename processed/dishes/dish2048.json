@@ -1,0 +1,88 @@
+{
+  "id": "dish2048",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2048.json",
+  "name_vi": "Bánh bèo ngọt đậu xanh",
+  "name_en": "",
+  "name_normalized": "banh beo ngot dau xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hành lá",
+    "Lá dứa",
+    "Đậu xanh không vỏ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Đường thốt nốt",
+    "Đường cát",
+    "Nước cốt dão",
+    "Nước cốt đặc",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre07647",
+    "ingre07597",
+    "ingre02673",
+    "ingre03417",
+    "ingre04553",
+    "ingre04596",
+    "ingre07846",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Đường thốt nốt",
+    "Đường cát",
+    "Hành lá",
+    "Lá dứa",
+    "Nước cốt dão",
+    "Nước cốt đặc",
+    "Đậu xanh không vỏ",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Cane Sugar",
+    "Sugar",
+    "Scallion",
+    "Pandan叶",
+    "Lime juice",
+    "Concentrated juice",
+    "Green peas",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "duong thot not",
+    "duong cat",
+    "hanh la",
+    "la dua",
+    "nuoc cot dao",
+    "nuoc cot dac",
+    "dau xanh khong vo",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07120",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07120.json",
+  "name_vi": "tỏi/ chanh/ ớt/ vừng/ lạc/ rau kinh giới/ lá bạc hà",
+  "name_en": "Garlic/Lemon/Capsicum/Sesame Seeds/Peanuts/Mint/Basil",
+  "name_normalized": "toi chanh ot vung lac rau kinh gioi la bac ha",
+  "synonyms": [
+    "tỏi non",
+    "tỏi tây",
+    "chanh tươi"
+  ],
+  "synonyms_normalized": [
+    "toi non",
+    "toi tay",
+    "chanh tuoi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi/ chanh/ ot/ vung/ lac/ rau kinh gioi/ la bac ha",
+      "new": "toi chanh ot vung lac rau kinh gioi la bac ha",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

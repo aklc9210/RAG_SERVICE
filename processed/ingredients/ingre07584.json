@@ -1,0 +1,27 @@
+{
+  "id": "ingre07584",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07584.json",
+  "name_vi": "đường - bột canh - muối - bột ngọt",
+  "name_en": "Soy Sauce - Sugar - Salt - Monosodium Glutamate",
+  "name_normalized": "duong bot canh muoi bot ngot",
+  "synonyms": [
+    "bột ngọt",
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong - bot canh - muoi - bot ngot",
+      "new": "duong bot canh muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

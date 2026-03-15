@@ -1,0 +1,29 @@
+{
+  "id": "ingre07805",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07805.json",
+  "name_vi": "đậu phộng rang/hành phi",
+  "name_en": "Roasted Peanuts/ Fried Garlic",
+  "name_normalized": "dau phong rang hanh phi",
+  "synonyms": [
+    "bơ phộng",
+    "lạc phi",
+    "hạt điều phi"
+  ],
+  "synonyms_normalized": [
+    "bo phong",
+    "lac phi",
+    "hat dieu phi"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau phong rang/hanh phi",
+      "new": "dau phong rang hanh phi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

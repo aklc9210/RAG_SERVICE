@@ -1,0 +1,29 @@
+{
+  "id": "ingre05517",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05517.json",
+  "name_vi": "rượu 42 - 45 độ",
+  "name_en": "Spirits",
+  "name_normalized": "ruou 42 45 do",
+  "synonyms": [
+    "whisky",
+    "scotch",
+    "vodka"
+  ],
+  "synonyms_normalized": [
+    "whisky",
+    "scotch",
+    "vodka"
+  ],
+  "category": "alcoholic_beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ruou 42 - 45 do",
+      "new": "ruou 42 45 do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

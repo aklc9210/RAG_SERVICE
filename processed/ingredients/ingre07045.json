@@ -1,0 +1,29 @@
+{
+  "id": "ingre07045",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07045.json",
+  "name_vi": "tương ớt/ tương cà/ dầu hào",
+  "name_en": "Hot Sauce/Soy Sauce/Peanut Sauce",
+  "name_normalized": "tuong ot tuong ca dau hao",
+  "synonyms": [
+    "tỏi ớt",
+    "nước ớt",
+    "nước mắm ớt"
+  ],
+  "synonyms_normalized": [
+    "toi ot",
+    "nuoc ot",
+    "nuoc mam ot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong ot/ tuong ca/ dau hao",
+      "new": "tuong ot tuong ca dau hao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

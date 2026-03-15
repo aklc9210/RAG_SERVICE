@@ -1,0 +1,61 @@
+{
+  "id": "dish3700",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3700.json",
+  "name_vi": "Kem chuối dâu tây bằng máy ép chậm",
+  "name_en": "",
+  "name_normalized": "kem chuoi dau tay bang may ep cham",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Bánh quy cracker/ bánh quy giòn"
+  ],
+  "secondary_ingredients": [
+    "Dâu tây",
+    "Chuối",
+    "Siro dâu tây",
+    "Phô mai"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre00149",
+    "ingre01961",
+    "ingre01160",
+    "ingre05690",
+    "ingre05054"
+  ],
+  "ingredient_names_vi": [
+    "Bánh quy cracker/ bánh quy giòn",
+    "Dâu tây",
+    "Chuối",
+    "Siro dâu tây",
+    "Phô mai"
+  ],
+  "ingredient_names_en": [
+    "Cracker",
+    "Strawberry",
+    "Banana",
+    "Strawberry syrup",
+    "Cheese"
+  ],
+  "ingredient_names_normalized": [
+    "banh quy cracker banh quy gion",
+    "dau tay",
+    "chuoi",
+    "siro dau tay",
+    "pho mai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "banh quy cracker/ banh quy gion",
+      "new": "banh quy cracker banh quy gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bánh quy cracker/ bánh quy giòn"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "dish10514",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10514.json",
+  "name_vi": "Thạch xoài chín",
+  "name_en": "",
+  "name_normalized": "thach xoai chin",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Xoài chín"
+  ],
+  "secondary_ingredients": [
+    "Cơm dừa sấy khô"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre07332",
+    "ingre00564",
+    "ingre01744",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Xoài chín",
+    "Bột bắp",
+    "Cơm dừa sấy khô",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Mango",
+    "Corn starch",
+    "Dried Coconut Rice",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xoai chin",
+    "bot bap",
+    "com dua say kho",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

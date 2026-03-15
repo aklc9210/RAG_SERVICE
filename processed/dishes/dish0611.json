@@ -1,0 +1,96 @@
+{
+  "id": "dish0611",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0611.json",
+  "name_vi": "Canh súp rau củ thập cẩm",
+  "name_en": "",
+  "name_normalized": "canh sup rau cu thap cam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Đậu cô ve",
+    "Đậu hà lan"
+  ],
+  "secondary_ingredients": [
+    "Bắp hạt",
+    "Cà chua đóng lon",
+    "Lá thảo mộc",
+    "Lá nguyệt quế ép khô",
+    "Rau thơm xay nhuyễn",
+    "Nước hầm xương",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre07732",
+    "ingre07736",
+    "ingre00474",
+    "ingre07071",
+    "ingre01374",
+    "ingre03535",
+    "ingre03485",
+    "ingre05390",
+    "ingre04647",
+    "ingre02104",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Đậu cô ve",
+    "Đậu hà lan",
+    "Bắp hạt",
+    "Tỏi băm",
+    "Cà chua đóng lon",
+    "Lá thảo mộc",
+    "Lá nguyệt quế ép khô",
+    "Rau thơm xay nhuyễn",
+    "Nước hầm xương",
+    "Dầu oliu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Cowpea",
+    "Green beans",
+    "Cornmeal",
+    "Minced Garlic",
+    "Tomato in a can",
+    "Mint",
+    "Dry Arborvitae Leaves",
+    "Bone broth",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "dau co ve",
+    "dau ha lan",
+    "bap hat",
+    "toi bam",
+    "ca chua dong lon",
+    "la thao moc",
+    "la nguyet que ep kho",
+    "rau thom xay nhuyen",
+    "nuoc ham xuong",
+    "dau oliu",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

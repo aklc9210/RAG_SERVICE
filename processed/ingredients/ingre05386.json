@@ -1,0 +1,27 @@
+{
+  "id": "ingre05386",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05386.json",
+  "name_vi": "rau thơm :",
+  "name_en": "Basil",
+  "name_normalized": "rau thom",
+  "synonyms": [
+    "cây thơm",
+    "thảo quả"
+  ],
+  "synonyms_normalized": [
+    "cay thom",
+    "thao qua"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau thom :",
+      "new": "rau thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

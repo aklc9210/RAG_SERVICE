@@ -1,0 +1,62 @@
+{
+  "id": "dish4255",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4255.json",
+  "name_vi": "Cua hoàng đế nướng",
+  "name_en": "",
+  "name_normalized": "cua hoang de nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Chân cua hoàng đế"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột ớt",
+    "Tỏi băm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01228",
+    "ingre00379",
+    "ingre01015",
+    "ingre07071",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Chân cua hoàng đế",
+    "Bơ lạt",
+    "Bột ớt",
+    "Tỏi băm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp swimmeret",
+    "Butter",
+    "Red Pepper Powder",
+    "Minced Garlic",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "chan cua hoang de",
+    "bo lat",
+    "bot ot",
+    "toi bam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

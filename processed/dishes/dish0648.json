@@ -1,0 +1,87 @@
+{
+  "id": "dish0648",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0648.json",
+  "name_vi": "Canh cà chua trứng đậu hũ",
+  "name_en": "",
+  "name_normalized": "canh ca chua trung dau hu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cà chua",
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01354",
+    "ingre07755",
+    "ingre06823",
+    "ingre02702",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cà chua",
+    "Đậu hũ trắng",
+    "Trứng gà",
+    "Hành lá/ ngò rí",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tomato",
+    "Tofu",
+    "Chicken egg",
+    "Chives",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua",
+    "dau hu trang",
+    "trung ga",
+    "hanh la ngo ri",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

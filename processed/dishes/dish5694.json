@@ -1,0 +1,96 @@
+{
+  "id": "dish5694",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5694.json",
+  "name_vi": "Cá chép kho gừng sả",
+  "name_en": "",
+  "name_normalized": "ca chep kho gung sa",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chép",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng",
+    "Nước cốt chanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre02485",
+    "ingre05900",
+    "ingre08055",
+    "ingre04538",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Gừng",
+    "Sả",
+    "Ớt sừng",
+    "Nước cốt chanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Ginger",
+    "Lemongrass",
+    "Hot pepper",
+    "Lemon juice",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "gung",
+    "sa",
+    "ot sung",
+    "nuoc cot chanh",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

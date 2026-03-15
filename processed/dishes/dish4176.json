@@ -1,0 +1,129 @@
+{
+  "id": "dish4176",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4176.json",
+  "name_vi": "Bò đun (bò nướng lụi)",
+  "name_en": "",
+  "name_normalized": "bo dun bo nuong lui",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt bò phi lê",
+    "Bánh hỏi",
+    "Mỡ lợn",
+    "Hành tây",
+    "Chuối chát"
+  ],
+  "secondary_ingredients": [
+    "Khế chua",
+    "Xà lách",
+    "Thơm",
+    "Dưa leo",
+    "Củ cải trắng",
+    "Sả",
+    "Đậu phộng giã nhuyễn"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre06318",
+    "ingre00091",
+    "ingre04203",
+    "ingre02741",
+    "ingre01162",
+    "ingre03269",
+    "ingre07351",
+    "ingre06247",
+    "ingre02020",
+    "ingre01419",
+    "ingre01868",
+    "ingre05900",
+    "ingre07071",
+    "ingre07971",
+    "ingre07787",
+    "ingre04694",
+    "ingre02355"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò phi lê",
+    "Bánh hỏi",
+    "Mỡ lợn",
+    "Hành tây",
+    "Chuối chát",
+    "Khế chua",
+    "Xà lách",
+    "Thơm",
+    "Dưa leo",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Sả",
+    "Tỏi băm",
+    "Ớt băm",
+    "Đậu phộng giã nhuyễn",
+    "Nước mắm",
+    "Giấm"
+  ],
+  "ingredient_names_en": [
+    "Beef sirloin",
+    "Rice Cake",
+    "Pork fat",
+    "Onion",
+    "Bittermelon",
+    "Tamarind",
+    "Lettuce",
+    "Basil",
+    "Cucumber",
+    "Carrot",
+    "White radish",
+    "Lemongrass",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Peanut Paste",
+    "Fish Sauce",
+    "Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo phi le",
+    "banh hoi",
+    "mo lon",
+    "hanh tay",
+    "chuoi chat",
+    "khe chua",
+    "xa lach",
+    "thom",
+    "dua leo",
+    "ca rot",
+    "cu cai trang",
+    "sa",
+    "toi bam",
+    "ot bam",
+    "dau phong gia nhuyen",
+    "nuoc mam",
+    "giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo dun (bo nuong lui)",
+      "new": "bo dun bo nuong lui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

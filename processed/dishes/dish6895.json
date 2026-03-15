@@ -1,0 +1,75 @@
+{
+  "id": "dish6895",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6895.json",
+  "name_vi": "Đậu phụ - đậu hũ chiên trứng muối",
+  "name_en": "",
+  "name_normalized": "dau phu dau hu chien trung muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu phụ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07810",
+    "ingre03587",
+    "ingre06147",
+    "ingre02768",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phụ",
+    "Lòng đỏ trứng muối",
+    "Sữa tươi không đường",
+    "Hành tím",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Salted Egg Yolk",
+    "Fat-free Milk",
+    "Shallot",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "dau phu",
+    "long do trung muoi",
+    "sua tuoi khong duong",
+    "hanh tim",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau phu - dau hu chien trung muoi",
+      "new": "dau phu dau hu chien trung muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish4802",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4802.json",
+  "name_vi": "Tép xúc bánh đa",
+  "name_en": "",
+  "name_normalized": "tep xuc banh da",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bánh đa",
+    "Tép tươi",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00218",
+    "ingre06922",
+    "ingre06247",
+    "ingre02741",
+    "ingre02673",
+    "ingre07063",
+    "ingre07966",
+    "ingre02134",
+    "ingre04694",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa",
+    "Tép tươi",
+    "Thơm",
+    "Hành tây",
+    "Hành lá",
+    "Tỏi",
+    "Ớt",
+    "Dầu điều",
+    "Nước mắm",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rice noodle",
+    "Fresh shrimp",
+    "Basil",
+    "Onion",
+    "Scallion",
+    "Garlic",
+    "Pepper",
+    "Peanut oil",
+    "Fish Sauce",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh da",
+    "tep tuoi",
+    "thom",
+    "hanh tay",
+    "hanh la",
+    "toi",
+    "ot",
+    "dau dieu",
+    "nuoc mam",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

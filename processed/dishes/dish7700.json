@@ -1,0 +1,139 @@
+{
+  "id": "dish7700",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7700.json",
+  "name_vi": "Chả ốc hấp lá chuối",
+  "name_en": "",
+  "name_normalized": "cha oc hap la chuoi",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ốc nhồi",
+    "Giò sống",
+    "Thịt xay",
+    "Nấm hương khô",
+    "Nấm mộc nhĩ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Lá chuối tươi",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Lá lốt",
+    "Bột canh",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07951",
+    "ingre02350",
+    "ingre06521",
+    "ingre04913",
+    "ingre04944",
+    "ingre05900",
+    "ingre02485",
+    "ingre02768",
+    "ingre07966",
+    "ingre03390",
+    "ingre03461",
+    "ingre00587",
+    "ingre02673",
+    "ingre04694",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Ốc nhồi",
+    "Giò sống",
+    "Thịt xay",
+    "Nấm hương khô",
+    "Nấm mộc nhĩ",
+    "Sả",
+    "Gừng",
+    "Hành tím",
+    "Ớt",
+    "Lá chuối tươi",
+    "Lá lốt",
+    "Bột canh",
+    "Hành lá",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Prawn Mussel",
+    "Fresh sausage",
+    "Ground Beef",
+    "Dried Shiitake Mushrooms",
+    "Mushroom",
+    "Lemongrass",
+    "Ginger",
+    "Shallot",
+    "Pepper",
+    "Fresh Banana Leaf",
+    "Cinnamon Leaf",
+    "Cornstarch",
+    "Scallion",
+    "Fish Sauce",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "oc nhoi",
+    "gio song",
+    "thit xay",
+    "nam huong kho",
+    "nam moc nhi",
+    "sa",
+    "gung",
+    "hanh tim",
+    "ot",
+    "la chuoi tuoi",
+    "la lot",
+    "bot canh",
+    "hanh la",
+    "nuoc mam",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

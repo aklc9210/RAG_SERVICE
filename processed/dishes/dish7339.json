@@ -1,0 +1,116 @@
+{
+  "id": "dish7339",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7339.json",
+  "name_vi": "Chả giò gà rau củ",
+  "name_en": "",
+  "name_normalized": "cha gio ga rau cu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Bánh tráng cuốn chả giò",
+    "Bắp cải"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt chuông",
+    "Ớt xanh",
+    "Tỏi",
+    "Gừng",
+    "Tương ớt",
+    "Nước tương",
+    "Tinh bột bắp",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre00187",
+    "ingre00457",
+    "ingre01419",
+    "ingre07999",
+    "ingre08083",
+    "ingre07063",
+    "ingre02673",
+    "ingre02485",
+    "ingre07028",
+    "ingre04790",
+    "ingre06562",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Bánh tráng cuốn chả giò",
+    "Bắp cải",
+    "Cà rốt",
+    "Ớt chuông",
+    "Ớt xanh",
+    "Tỏi",
+    "Hành lá",
+    "Gừng",
+    "Tương ớt",
+    "Nước tương",
+    "Tinh bột bắp",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Spring roll wrappers filled with pork sausage",
+    "Cabbage",
+    "Carrot",
+    "Bell pepper",
+    "Green Pepper",
+    "Garlic",
+    "Scallion",
+    "Ginger",
+    "Hot Sauce",
+    "Soy Sauce",
+    "Corn starch",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "banh trang cuon cha gio",
+    "bap cai",
+    "ca rot",
+    "ot chuong",
+    "ot xanh",
+    "toi",
+    "hanh la",
+    "gung",
+    "tuong ot",
+    "nuoc tuong",
+    "tinh bot bap",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

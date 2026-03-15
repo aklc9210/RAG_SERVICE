@@ -1,0 +1,83 @@
+{
+  "id": "dish0747",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0747.json",
+  "name_vi": "Canh mồng tơi nấu thịt heo băm",
+  "name_en": "",
+  "name_normalized": "canh mong toi nau thit heo bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt heo băm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mồng tơi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06403",
+    "ingre04176",
+    "ingre02124",
+    "ingre02768",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo băm",
+    "Mồng tơi",
+    "Dầu ăn",
+    "Hành tím",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Mustard greens",
+    "Cooking oil",
+    "Shallot",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo bam",
+    "mong toi",
+    "dau an",
+    "hanh tim",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

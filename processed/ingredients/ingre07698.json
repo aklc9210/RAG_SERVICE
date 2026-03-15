@@ -1,0 +1,29 @@
+{
+  "id": "ingre07698",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07698.json",
+  "name_vi": "đường;nước mắm;hạt nêm;bột ngọt",
+  "name_en": "Sugar;Fish Sauce;Seasoning Powder;Monosodium Glutamate",
+  "name_normalized": "duong nuoc mam hat nem bot ngot",
+  "synonyms": [
+    "bột ngọt",
+    "giấm",
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "giam",
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong;nuoc mam;hat nem;bot ngot",
+      "new": "duong nuoc mam hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

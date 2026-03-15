@@ -1,0 +1,98 @@
+{
+  "id": "dish4827",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4827.json",
+  "name_vi": "Đậu hũ non xào tôm",
+  "name_en": "",
+  "name_normalized": "dau hu non xao tom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Đậu hũ non",
+    "Hành lá",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Ngao",
+    "Đậu Hà Lan"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Tinh bột bắp",
+    "Rượu mirin",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07752",
+    "ingre02673",
+    "ingre06930",
+    "ingre04301",
+    "ingre01419",
+    "ingre07736",
+    "ingre02485",
+    "ingre06562",
+    "ingre05545",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ non",
+    "Hành lá",
+    "Tôm",
+    "Ngao",
+    "Cà rốt",
+    "Đậu Hà Lan",
+    "Gừng",
+    "Tinh bột bắp",
+    "Rượu mirin",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Firm Tofu",
+    "Scallion",
+    "Shrimp",
+    "Clam",
+    "Carrot",
+    "Green beans",
+    "Ginger",
+    "Corn starch",
+    "Mirin Wine",
+    "Cooking oil",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu non",
+    "hanh la",
+    "tom",
+    "ngao",
+    "ca rot",
+    "dau ha lan",
+    "gung",
+    "tinh bot bap",
+    "ruou mirin",
+    "dau an",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

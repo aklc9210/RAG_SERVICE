@@ -1,0 +1,118 @@
+{
+  "id": "dish7886",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7886.json",
+  "name_vi": "Lẩu cá linh",
+  "name_en": "",
+  "name_normalized": "lau ca linh",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá linh",
+    "Chả cá viên",
+    "Me xanh"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Thơm",
+    "Hành tím cắt lát",
+    "Rau nhúng lẩu",
+    "Hành lá",
+    "Ngò gai và rau ngổ"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi băm",
+    "Muối",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01544",
+    "ingre01284",
+    "ingre03664",
+    "ingre07966",
+    "ingre01354",
+    "ingre06247",
+    "ingre07071",
+    "ingre02777",
+    "ingre05341",
+    "ingre02673",
+    "ingre04332",
+    "ingre03746",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá linh",
+    "Chả cá viên",
+    "Me xanh",
+    "Ớt",
+    "Cà chua",
+    "Thơm",
+    "Tỏi băm",
+    "Hành tím cắt lát",
+    "Rau nhúng lẩu",
+    "Hành lá",
+    "Ngò gai và rau ngổ",
+    "Muối",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Fish cake pellet",
+    "Spinach",
+    "Pepper",
+    "Tomato",
+    "Basil",
+    "Minced Garlic",
+    "Green onion slices",
+    "Boiling vegetables",
+    "Scallion",
+    "Cilantro and Herb",
+    "Salt",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca linh",
+    "cha ca vien",
+    "me xanh",
+    "ot",
+    "ca chua",
+    "thom",
+    "toi bam",
+    "hanh tim cat lat",
+    "rau nhung lau",
+    "hanh la",
+    "ngo gai va rau ngo",
+    "muoi",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

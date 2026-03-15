@@ -1,0 +1,77 @@
+{
+  "id": "dish0631",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0631.json",
+  "name_vi": "Canh khổ qua rừng nhồi thịt",
+  "name_en": "",
+  "name_normalized": "canh kho qua rung nhoi thit",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khổ qua rừng",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03273",
+    "ingre06398",
+    "ingre02702",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua rừng",
+    "Thịt heo",
+    "Hành lá/ ngò rí",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Pork",
+    "Chives",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua rung",
+    "thit heo",
+    "hanh la ngo ri",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

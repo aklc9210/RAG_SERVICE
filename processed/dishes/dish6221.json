@@ -1,0 +1,88 @@
+{
+  "id": "dish6221",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6221.json",
+  "name_vi": "Thịt kho măng tươi",
+  "name_en": "",
+  "name_normalized": "thit kho mang tuoi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Ớt bột",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre04091",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre07977",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Măng tươi",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Ớt bột",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Fresh bamboo shoots",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Chili powder",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "mang tuoi",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "ot bot",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

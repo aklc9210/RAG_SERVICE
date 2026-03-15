@@ -1,0 +1,106 @@
+{
+  "id": "dish3426",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3426.json",
+  "name_vi": "Bún ngan",
+  "name_en": "",
+  "name_normalized": "bun ngan",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún",
+    "Ngan",
+    "Măng chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00338",
+    "ingre04299",
+    "ingre04072",
+    "ingre02485",
+    "ingre02673",
+    "ingre02768",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bún",
+    "Ngan",
+    "Măng chua",
+    "Gừng",
+    "Hành lá",
+    "Hành tím",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Noodle",
+    "Lamb",
+    "Pickled bamboo shoots",
+    "Ginger",
+    "Scallion",
+    "Shallot",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bun",
+    "ngan",
+    "mang chua",
+    "gung",
+    "hanh la",
+    "hanh tim",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

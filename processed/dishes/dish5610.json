@@ -1,0 +1,106 @@
+{
+  "id": "dish5610",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5610.json",
+  "name_vi": "Cá chẽm kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca chem kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Khứa cá chẽm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tiêu hạt",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Bột ngọt",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03275",
+    "ingre06619",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02673",
+    "ingre04694",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644",
+    "ingre04672"
+  ],
+  "ingredient_names_vi": [
+    "Khứa cá chẽm",
+    "Tiêu hạt",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Hành lá",
+    "Nước mắm",
+    "Bột ngọt",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Nước màu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Cumin Seeds",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Scallion",
+    "Fish Sauce",
+    "MSG",
+    "Sugar",
+    "Salt",
+    "Ground pepper",
+    "Food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "khua ca chem",
+    "tieu hat",
+    "hanh tim",
+    "toi",
+    "ot",
+    "hanh la",
+    "nuoc mam",
+    "bot ngot",
+    "duong",
+    "muoi",
+    "tieu xay",
+    "nuoc mau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

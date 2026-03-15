@@ -1,0 +1,108 @@
+{
+  "id": "dish1935",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1935.json",
+  "name_vi": "Bánh gối vỏ sò nhân tôm thịt khoai",
+  "name_en": "",
+  "name_normalized": "banh goi vo so nhan tom thit khoai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ nhạt",
+    "Thịt heo xay",
+    "Thịt tôm"
+  ],
+  "secondary_ingredients": [
+    "Khoai môn",
+    "Hành tây",
+    "Nấm mèo khô",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00402",
+    "ingre06414",
+    "ingre06509",
+    "ingre03208",
+    "ingre02741",
+    "ingre04936",
+    "ingre02768",
+    "ingre07977",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ nhạt",
+    "Thịt heo xay",
+    "Thịt tôm",
+    "Khoai môn",
+    "Hành tây",
+    "Nấm mèo khô",
+    "Hành tím",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Margarine",
+    "Ground Pork",
+    "Shrimp",
+    "Yam",
+    "Onion",
+    "Dried cat's ear mushroom",
+    "Shallot",
+    "Chili powder",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo nhat",
+    "thit heo xay",
+    "thit tom",
+    "khoai mon",
+    "hanh tay",
+    "nam meo kho",
+    "hanh tim",
+    "ot bot",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dish1236",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1236.json",
+  "name_vi": "Bánh bông lan sữa chua",
+  "name_en": "",
+  "name_normalized": "banh bong lan sua chua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Trứng gà to",
+    "Dầu oliu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột bắp",
+    "Sữa chua không đường",
+    "Đường ăn kiêng",
+    "Muối hồng",
+    "Vani",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00564",
+    "ingre06838",
+    "ingre06100",
+    "ingre07664",
+    "ingre03763",
+    "ingre07140",
+    "ingre02104",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột bắp",
+    "Trứng gà to",
+    "Sữa chua không đường",
+    "Đường ăn kiêng",
+    "Muối hồng",
+    "Vani",
+    "Dầu oliu",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Corn starch",
+    "Chicken egg",
+    "Plain Yogurt",
+    "Sugar substitute",
+    "Pink salt",
+    "Vanilla",
+    "Olive oil",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot bap",
+    "trung ga to",
+    "sua chua khong duong",
+    "duong an kieng",
+    "muoi hong",
+    "vani",
+    "dau oliu",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

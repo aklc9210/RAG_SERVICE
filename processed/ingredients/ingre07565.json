@@ -1,0 +1,29 @@
+{
+  "id": "ingre07565",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07565.json",
+  "name_vi": "đùi gà:",
+  "name_en": "Chicken thigh:",
+  "name_normalized": "dui ga",
+  "synonyms": [
+    "thịt gà hông",
+    "chân giò gà"
+  ],
+  "synonyms_normalized": [
+    "thit ga hong",
+    "chan gio ga"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dui ga:",
+      "new": "dui ga",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

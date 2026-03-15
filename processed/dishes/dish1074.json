@@ -1,0 +1,65 @@
+{
+  "id": "dish1074",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1074.json",
+  "name_vi": "Bánh mì mây - bánh bông lan mây",
+  "name_en": "",
+  "name_normalized": "banh mi may banh bong lan may",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Màu thực phẩm"
+  ],
+  "seasonings": [
+    "Lòng trắng trứng gà",
+    "Muối",
+    "Đường",
+    "Bột bắp",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre03580",
+    "ingre03746",
+    "ingre07583",
+    "ingre00564",
+    "ingre07140",
+    "ingre03865"
+  ],
+  "ingredient_names_vi": [
+    "Lòng trắng trứng gà",
+    "Muối",
+    "Đường",
+    "Bột bắp",
+    "Vani",
+    "Màu thực phẩm"
+  ],
+  "ingredient_names_en": [
+    "Egg white",
+    "Salt",
+    "Sugar",
+    "Corn starch",
+    "Vanilla",
+    "Food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "long trang trung ga",
+    "muoi",
+    "duong",
+    "bot bap",
+    "vani",
+    "mau thuc pham"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi may - banh bong lan may",
+      "new": "banh mi may banh bong lan may",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

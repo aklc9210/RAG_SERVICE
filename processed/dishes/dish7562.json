@@ -1,0 +1,108 @@
+{
+  "id": "dish7562",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7562.json",
+  "name_vi": "Há cảo bằng bánh tráng",
+  "name_en": "",
+  "name_normalized": "ha cao bang banh trang",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Thịt heo xay",
+    "Tôm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Gừng băm nhuyễn",
+    "Tỏi băm nhuyễn",
+    "Bột bắp",
+    "Chanh",
+    "Tương ớt",
+    "Ớt sa tế",
+    "Muối",
+    "Đường",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre06414",
+    "ingre06930",
+    "ingre02673",
+    "ingre02493",
+    "ingre07072",
+    "ingre00564",
+    "ingre01079",
+    "ingre07028",
+    "ingre08050",
+    "ingre03746",
+    "ingre07583",
+    "ingre04790",
+    "ingre02094"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Thịt heo xay",
+    "Tôm",
+    "Hành lá",
+    "Gừng băm nhuyễn",
+    "Tỏi băm nhuyễn",
+    "Bột bắp",
+    "Chanh",
+    "Tương ớt",
+    "Ớt sa tế",
+    "Muối",
+    "Đường",
+    "Nước tương",
+    "Dầu mè"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Ground Pork",
+    "Shrimp",
+    "Scallion",
+    "Ginger paste",
+    "Minced garlic",
+    "Corn starch",
+    "Lemon",
+    "Hot Sauce",
+    "Bird's Eye Chili",
+    "Salt",
+    "Sugar",
+    "Soy Sauce",
+    "Sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "thit heo xay",
+    "tom",
+    "hanh la",
+    "gung bam nhuyen",
+    "toi bam nhuyen",
+    "bot bap",
+    "chanh",
+    "tuong ot",
+    "ot sa te",
+    "muoi",
+    "duong",
+    "nuoc tuong",
+    "dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

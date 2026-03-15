@@ -1,0 +1,106 @@
+{
+  "id": "dish0748",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0748.json",
+  "name_vi": "Canh thịt bò nấu nấm kim châm",
+  "name_en": "",
+  "name_normalized": "canh thit bo nau nam kim cham",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt ba chỉ bò",
+    "Nấm kim châm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu hũ non"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06276",
+    "ingre04921",
+    "ingre02673",
+    "ingre02768",
+    "ingre07752",
+    "ingre01419",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ bò",
+    "Nấm kim châm",
+    "Hành lá",
+    "Hành tím",
+    "Đậu hũ non",
+    "Cà rốt",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef belly",
+    "Mushroom",
+    "Scallion",
+    "Shallot",
+    "Firm Tofu",
+    "Carrot",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi bo",
+    "nam kim cham",
+    "hanh la",
+    "hanh tim",
+    "dau hu non",
+    "ca rot",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

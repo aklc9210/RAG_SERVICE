@@ -1,0 +1,56 @@
+{
+  "id": "dish9270",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9270.json",
+  "name_vi": "Mận Hà Nội sấy khô cay",
+  "name_en": "",
+  "name_normalized": "man ha noi say kho cay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Mận Hà Nội"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột ớt",
+    "Nước cốt chanh",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04115",
+    "ingre01015",
+    "ingre04538",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Mận Hà Nội",
+    "Bột ớt",
+    "Nước cốt chanh",
+    "Đường/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Loquat",
+    "Red Pepper Powder",
+    "Lemon juice",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "man ha noi",
+    "bot ot",
+    "nuoc cot chanh",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

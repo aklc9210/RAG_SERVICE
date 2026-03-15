@@ -1,0 +1,112 @@
+{
+  "id": "dish8513",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8513.json",
+  "name_vi": "Gà ủ muối bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ga u muoi bang noi chien khong dau",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Nấm kim châm"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Gừng",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Bột nghệ",
+    "Muối hạt",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04921",
+    "ingre03370",
+    "ingre02485",
+    "ingre02741",
+    "ingre05900",
+    "ingre07063",
+    "ingre04538",
+    "ingre00804",
+    "ingre03760",
+    "ingre07966",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06619"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Nấm kim châm",
+    "Lá chanh",
+    "Gừng",
+    "Hành tây",
+    "Sả",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Bột nghệ",
+    "Muối hạt",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Mushroom",
+    "Lime leaf",
+    "Ginger",
+    "Onion",
+    "Lemongrass",
+    "Garlic",
+    "Lemon juice",
+    "Turmeric Powder",
+    "Fenugreek seeds",
+    "Pepper",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Cumin Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "nam kim cham",
+    "la chanh",
+    "gung",
+    "hanh tay",
+    "sa",
+    "toi",
+    "nuoc cot chanh",
+    "bot nghe",
+    "muoi hat",
+    "ot",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

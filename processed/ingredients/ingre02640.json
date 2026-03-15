@@ -1,0 +1,29 @@
+{
+  "id": "ingre02640",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02640.json",
+  "name_vi": "hành & mùi tàu & ớt",
+  "name_en": "Garlic & Shallots & Chili",
+  "name_normalized": "hanh mui tau ot",
+  "synonyms": [
+    "tỏi",
+    "tỏi tây",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "toi",
+    "toi tay",
+    "ot chuong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh & mui tau & ot",
+      "new": "hanh mui tau ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

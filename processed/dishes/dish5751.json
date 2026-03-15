@@ -1,0 +1,92 @@
+{
+  "id": "dish5751",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5751.json",
+  "name_vi": "Trứng cá thu kho thơm",
+  "name_en": "",
+  "name_normalized": "trung ca thu kho thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Trứng cá thu",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Thơm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Giấm gạo lên men",
+    "Ớt bột",
+    "Đường trắng",
+    "Tiêu",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06814",
+    "ingre02768",
+    "ingre07966",
+    "ingre06247",
+    "ingre02485",
+    "ingre02363",
+    "ingre07977",
+    "ingre07652",
+    "ingre06612",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cá thu",
+    "Hành tím",
+    "Ớt",
+    "Thơm",
+    "Gừng",
+    "Giấm gạo lên men",
+    "Ớt bột",
+    "Đường trắng",
+    "Tiêu",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Salmon Roe",
+    "Shallot",
+    "Pepper",
+    "Basil",
+    "Ginger",
+    "Rice Fermented Vinegar",
+    "Chili powder",
+    "White sugar",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ca thu",
+    "hanh tim",
+    "ot",
+    "thom",
+    "gung",
+    "giam gao len men",
+    "ot bot",
+    "duong trang",
+    "tieu",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

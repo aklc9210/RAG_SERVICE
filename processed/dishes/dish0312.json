@@ -1,0 +1,131 @@
+{
+  "id": "dish0312",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0312.json",
+  "name_vi": "Canh cải bó xôi bò viên",
+  "name_en": "",
+  "name_normalized": "canh cai bo xoi bo vien",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cải bó xôi",
+    "Thịt bò băm",
+    "Khoai lang",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Gừng",
+    "Bột mì",
+    "Kỉ tử",
+    "Nước tương",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01771",
+    "ingre06303",
+    "ingre03186",
+    "ingre02768",
+    "ingre07071",
+    "ingre02485",
+    "ingre00759",
+    "ingre03332",
+    "ingre02673",
+    "ingre04343",
+    "ingre04790",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cải bó xôi",
+    "Thịt bò băm",
+    "Khoai lang",
+    "Hành tím",
+    "Tỏi băm",
+    "Gừng",
+    "Bột mì",
+    "Kỉ tử",
+    "Hành lá",
+    "Ngò rí",
+    "Nước tương",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Bokchoy",
+    "Ground Beef",
+    "Sweet Potato",
+    "Shallot",
+    "Minced Garlic",
+    "Ginger",
+    "Wheat Flour",
+    "Cinnamon",
+    "Scallion",
+    "Parsley",
+    "Soy Sauce",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "cai bo xoi",
+    "thit bo bam",
+    "khoai lang",
+    "hanh tim",
+    "toi bam",
+    "gung",
+    "bot mi",
+    "ki tu",
+    "hanh la",
+    "ngo ri",
+    "nuoc tuong",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

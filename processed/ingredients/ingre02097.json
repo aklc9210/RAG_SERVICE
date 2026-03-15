@@ -1,0 +1,25 @@
+{
+  "id": "ingre02097",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02097.json",
+  "name_vi": "dầu mè đen.",
+  "name_en": "Black Sesame Oil",
+  "name_normalized": "dau me den",
+  "synonyms": [
+    "dầu mè"
+  ],
+  "synonyms_normalized": [
+    "dau me"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau me den.",
+      "new": "dau me den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

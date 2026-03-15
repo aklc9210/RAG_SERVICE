@@ -1,0 +1,106 @@
+{
+  "id": "dish7312",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7312.json",
+  "name_vi": "Gà Popcorn - gà rán kiểu Đài Loan",
+  "name_en": "",
+  "name_normalized": "ga popcorn ga ran kieu dai loan",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Má đùi gà",
+    "Húng tây"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Rượu nấu ăn",
+    "Tỏi băm",
+    "Gừng băm",
+    "Chanh",
+    "Nước tương",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03911",
+    "ingre00849",
+    "ingre05552",
+    "ingre02867",
+    "ingre07071",
+    "ingre02492",
+    "ingre01079",
+    "ingre04790",
+    "ingre00815",
+    "ingre02094",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Má đùi gà",
+    "Bột năng",
+    "Rượu nấu ăn",
+    "Húng tây",
+    "Tỏi băm",
+    "Gừng băm",
+    "Chanh",
+    "Nước tương",
+    "Bột ngũ vị hương",
+    "Dầu mè",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Cornstarch",
+    "Cooking wine",
+    "Basil",
+    "Minced Garlic",
+    "Ginger paste",
+    "Lemon",
+    "Soy Sauce",
+    "Five-Spice Powder",
+    "Sesame oil",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ma dui ga",
+    "bot nang",
+    "ruou nau an",
+    "hung tay",
+    "toi bam",
+    "gung bam",
+    "chanh",
+    "nuoc tuong",
+    "bot ngu vi huong",
+    "dau me",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ga popcorn - ga ran kieu dai loan",
+      "new": "ga popcorn ga ran kieu dai loan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

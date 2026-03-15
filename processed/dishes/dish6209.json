@@ -1,0 +1,93 @@
+{
+  "id": "dish6209",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6209.json",
+  "name_vi": "Thịt cuộn măng hầm",
+  "name_en": "",
+  "name_normalized": "thit cuon mang ham",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Măng tươi",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre04091",
+    "ingre04974",
+    "ingre02673",
+    "ingre00849",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Măng tươi",
+    "Nấm đùi gà",
+    "Hành lá",
+    "Bột năng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Fresh bamboo shoots",
+    "Chicken mushroom",
+    "Scallion",
+    "Cornstarch",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "mang tuoi",
+    "nam dui ga",
+    "hanh la",
+    "bot nang",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

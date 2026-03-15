@@ -1,0 +1,67 @@
+{
+  "id": "dish6759",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6759.json",
+  "name_vi": "Heo quay da giòn",
+  "name_en": "",
+  "name_normalized": "heo quay da gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo ba rọi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối",
+    "Bột ngũ vị hương",
+    "Hạt tiêu trắng",
+    "Gừng",
+    "Giấm."
+  ],
+  "ingredient_ids": [
+    "ingre06402",
+    "ingre03746",
+    "ingre00815",
+    "ingre03046",
+    "ingre02485",
+    "ingre02382"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo ba rọi",
+    "Muối",
+    "Bột ngũ vị hương",
+    "Hạt tiêu trắng",
+    "Gừng",
+    "Giấm."
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Salt",
+    "Five-Spice Powder",
+    "White Pepper",
+    "Ginger",
+    "Vinegar."
+  ],
+  "ingredient_names_normalized": [
+    "thit heo ba roi",
+    "muoi",
+    "bot ngu vi huong",
+    "hat tieu trang",
+    "gung",
+    "giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "giam.",
+      "new": "giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Giấm."
+    }
+  ]
+}

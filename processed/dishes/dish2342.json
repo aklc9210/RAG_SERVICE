@@ -1,0 +1,82 @@
+{
+  "id": "dish2342",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2342.json",
+  "name_vi": "bánh bò hấp bằng bột pha sẵn",
+  "name_en": "",
+  "name_normalized": "banh bo hap bang bot pha san",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Màu thực phẩm",
+    "Lá dứa",
+    "Đậu phộng rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh bò",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Đường phèn",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00524",
+    "ingre00849",
+    "ingre04554",
+    "ingre03865",
+    "ingre03417",
+    "ingre07791",
+    "ingre07635",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh bò",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Màu thực phẩm",
+    "Lá dứa",
+    "Đậu phộng rang",
+    "Đường phèn",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Bánh bò flour",
+    "Cornstarch",
+    "Coconut milk",
+    "Food coloring",
+    "Pandan叶",
+    "Roasted Peanut",
+    "Brown Sugar",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh bo",
+    "bot nang",
+    "nuoc cot dua",
+    "mau thuc pham",
+    "la dua",
+    "dau phong rang",
+    "duong phen",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

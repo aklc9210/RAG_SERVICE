@@ -1,0 +1,100 @@
+{
+  "id": "dish9504",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9504.json",
+  "name_vi": "Rong biển cuộn miến chay",
+  "name_en": "",
+  "name_normalized": "rong bien cuon mien chay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Hành lá",
+    "Măng tây"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương tươi",
+    "Nấm bào ngư",
+    "Miến khô"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01419",
+    "ingre02673",
+    "ingre04088",
+    "ingre04916",
+    "ingre04894",
+    "ingre03716",
+    "ingre00598",
+    "ingre00609",
+    "ingre02124",
+    "ingre02997",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Cà rốt",
+    "Hành lá",
+    "Măng tây",
+    "Nấm hương tươi",
+    "Nấm bào ngư",
+    "Miến khô",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Scallion",
+    "Asparagus",
+    "Fresh Shiitake Mushrooms",
+    "Oyster mushroom",
+    "Rice Noodles",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca rot",
+    "hanh la",
+    "mang tay",
+    "nam huong tuoi",
+    "nam bao ngu",
+    "mien kho",
+    "bot chien gion",
+    "bot chien xu",
+    "dau an",
+    "hat nem chay",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

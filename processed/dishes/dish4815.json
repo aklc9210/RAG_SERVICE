@@ -1,0 +1,85 @@
+{
+  "id": "dish4815",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4815.json",
+  "name_vi": "Thịt bò xào rau ngổ",
+  "name_en": "",
+  "name_normalized": "thit bo xao rau ngo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Rau ngổ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Giấm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre05336",
+    "ingre02768",
+    "ingre07063",
+    "ingre04790",
+    "ingre02080",
+    "ingre02355",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Rau ngổ",
+    "Hành tím",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Giấm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Culantro",
+    "Shallot",
+    "Garlic",
+    "Soy Sauce",
+    "Vinegar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "rau ngo",
+    "hanh tim",
+    "toi",
+    "nuoc tuong",
+    "dau hao",
+    "giam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

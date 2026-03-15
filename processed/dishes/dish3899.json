@@ -1,0 +1,96 @@
+{
+  "id": "dish3899",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3899.json",
+  "name_vi": "Vịt nướng lá mắc mật",
+  "name_en": "",
+  "name_normalized": "vit nuong la mac mat",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt",
+    "Lá mắc mật",
+    "Trái mắc mật"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Quế cây",
+    "Hoa hồi",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre03479",
+    "ingre06767",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre05188",
+    "ingre02584",
+    "ingre04124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Lá mắc mật",
+    "Trái mắc mật",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Quế cây",
+    "Hoa hồi",
+    "Mật ong",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Dandelion leaf",
+    "Bitter Orange",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Cinnamon",
+    "Rose",
+    "Honey",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "la mac mat",
+    "trai mac mat",
+    "gung",
+    "toi",
+    "hanh tim",
+    "que cay",
+    "hoa hoi",
+    "mat ong",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

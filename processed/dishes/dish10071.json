@@ -1,0 +1,63 @@
+{
+  "id": "dish10071",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10071.json",
+  "name_vi": "Cà phê ca cao",
+  "name_en": "",
+  "name_normalized": "ca phe ca cao",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Nước nóng",
+    "Kẹo marshmallow"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột cà phê pha phin",
+    "Bột ca cao nguyên chất",
+    "Đường cát trắng",
+    "Sữa tươi không đường",
+    "Sốt socola"
+  ],
+  "ingredient_ids": [
+    "ingre00626",
+    "ingre00574",
+    "ingre07601",
+    "ingre06147",
+    "ingre04738",
+    "ingre03314",
+    "ingre05999"
+  ],
+  "ingredient_names_vi": [
+    "Bột cà phê pha phin",
+    "Bột ca cao nguyên chất",
+    "Đường cát trắng",
+    "Sữa tươi không đường",
+    "Nước nóng",
+    "Kẹo marshmallow",
+    "Sốt socola"
+  ],
+  "ingredient_names_en": [
+    "Coffee powder",
+    "Cocoa Powder",
+    "White Sugar",
+    "Fat-free Milk",
+    "Hot water",
+    "Marshmallow",
+    "Chocolate sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot ca phe pha phin",
+    "bot ca cao nguyen chat",
+    "duong cat trang",
+    "sua tuoi khong duong",
+    "nuoc nong",
+    "keo marshmallow",
+    "sot socola"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

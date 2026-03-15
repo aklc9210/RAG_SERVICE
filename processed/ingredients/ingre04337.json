@@ -1,0 +1,27 @@
+{
+  "id": "ingre04337",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04337.json",
+  "name_vi": "ngò gai/ thì là",
+  "name_en": "Parsley/Coriander",
+  "name_normalized": "ngo gai thi la",
+  "synonyms": [
+    "thì là đinh",
+    "ngò đinh"
+  ],
+  "synonyms_normalized": [
+    "thi la dinh",
+    "ngo dinh"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo gai/ thi la",
+      "new": "ngo gai thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

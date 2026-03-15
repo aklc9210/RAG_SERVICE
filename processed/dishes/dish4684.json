@@ -1,0 +1,106 @@
+{
+  "id": "dish4684",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4684.json",
+  "name_vi": "Nấm rơm xào sả ớt",
+  "name_en": "",
+  "name_normalized": "nam rom xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm rơm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu thực vật"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04953",
+    "ingre05905",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04697",
+    "ingre02997",
+    "ingre02113",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Nấm rơm",
+    "Sả băm",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Dầu thực vật",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Strawberry mushroom",
+    "Garlic Paste",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Vegetable oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "nam rom",
+    "sa bam",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nuoc mam chay",
+    "hat nem chay",
+    "dau thuc vat",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

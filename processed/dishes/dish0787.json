@@ -1,0 +1,92 @@
+{
+  "id": "dish0787",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0787.json",
+  "name_vi": "Canh chua cá tầm",
+  "name_en": "",
+  "name_normalized": "canh chua ca tam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá tầm",
+    "Măng chua",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Sấu tươi",
+    "Hành",
+    "Rau mùi",
+    "Nghệ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre01646",
+    "ingre04072",
+    "ingre06247",
+    "ingre01354",
+    "ingre05930",
+    "ingre02636",
+    "ingre07063",
+    "ingre05302",
+    "ingre02485",
+    "ingre04304",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Cá tầm",
+    "Măng chua",
+    "Thơm",
+    "Cà chua",
+    "Sấu tươi",
+    "Hành",
+    "Tỏi",
+    "Rau mùi",
+    "Gừng",
+    "Nghệ",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Sturgeon",
+    "Pickled bamboo shoots",
+    "Basil",
+    "Tomato",
+    "Fresh sour sop",
+    "Garlic",
+    "Mint",
+    "Ginger",
+    "Turmeric",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "ca tam",
+    "mang chua",
+    "thom",
+    "ca chua",
+    "sau tuoi",
+    "hanh",
+    "toi",
+    "rau mui",
+    "gung",
+    "nghe",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

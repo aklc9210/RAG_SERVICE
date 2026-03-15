@@ -1,0 +1,85 @@
+{
+  "id": "dish8211",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8211.json",
+  "name_vi": "Gỏi đu đủ khô bò (bò hít)",
+  "name_en": "",
+  "name_normalized": "goi du du kho bo bo hit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Đu đủ xanh",
+    "Thịt bò khô"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Ớt sa tế",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07500",
+    "ingre06311",
+    "ingre05359",
+    "ingre07791",
+    "ingre08050",
+    "ingre04538",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ xanh",
+    "Thịt bò khô",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Ớt sa tế",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Green papaya",
+    "Dried Beef",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Bird's Eye Chili",
+    "Lemon juice",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "du du xanh",
+    "thit bo kho",
+    "rau ram",
+    "dau phong rang",
+    "ot sa te",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi du du kho bo (bo hit)",
+      "new": "goi du du kho bo bo hit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

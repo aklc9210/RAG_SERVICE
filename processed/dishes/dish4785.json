@@ -1,0 +1,103 @@
+{
+  "id": "dish4785",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4785.json",
+  "name_vi": "Mực khô xào sả ớt",
+  "name_en": "",
+  "name_normalized": "muc kho xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực khô",
+    "Sả",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Nước mắm",
+    "Rượu trắng",
+    "Sa tế"
+  ],
+  "ingredient_ids": [
+    "ingre04266",
+    "ingre05900",
+    "ingre02768",
+    "ingre02485",
+    "ingre07063",
+    "ingre07966",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612",
+    "ingre04694",
+    "ingre05574",
+    "ingre05621"
+  ],
+  "ingredient_names_vi": [
+    "Mực khô",
+    "Sả",
+    "Hành tím",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Nước mắm",
+    "Rượu trắng",
+    "Sa tế"
+  ],
+  "ingredient_names_en": [
+    "Dried squid",
+    "Lemongrass",
+    "Shallot",
+    "Ginger",
+    "Garlic",
+    "Pepper",
+    "Seasoning",
+    "MSG",
+    "Fish Sauce",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "muc kho",
+    "sa",
+    "hanh tim",
+    "gung",
+    "toi",
+    "ot",
+    "hat nem",
+    "bot ngot",
+    "tieu",
+    "nuoc mam",
+    "ruou trang",
+    "sa te"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

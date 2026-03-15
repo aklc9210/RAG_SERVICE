@@ -1,0 +1,93 @@
+{
+  "id": "dish6997",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6997.json",
+  "name_vi": "Cá hố chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "ca ho chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hố"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Ớt bột",
+    "Bột nghệ",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01524",
+    "ingre05905",
+    "ingre07977",
+    "ingre02673",
+    "ingre00804",
+    "ingre02774",
+    "ingre07071",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá hố",
+    "Sả băm",
+    "Ớt bột",
+    "Hành lá",
+    "Bột nghệ",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mudfish",
+    "Garlic Paste",
+    "Chili powder",
+    "Scallion",
+    "Turmeric Powder",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca ho",
+    "sa bam",
+    "ot bot",
+    "hanh la",
+    "bot nghe",
+    "hanh tim bam",
+    "toi bam",
+    "dau an",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

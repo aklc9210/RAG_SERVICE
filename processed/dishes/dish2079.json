@@ -1,0 +1,93 @@
+{
+  "id": "dish2079",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2079.json",
+  "name_vi": "Bánh mì bơ tỏi phủ phô mai",
+  "name_en": "",
+  "name_normalized": "banh mi bo toi phu pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Men nở instant"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mozzarella",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì số 13",
+    "Sốt mayonnaise",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Tỏi băm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre00382",
+    "ingre03687",
+    "ingre05092",
+    "ingre05970",
+    "ingre06147",
+    "ingre06823",
+    "ingre07071",
+    "ingre02673",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Bơ lạt",
+    "Men nở instant",
+    "Phô mai mozzarella",
+    "Sốt mayonnaise",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Tỏi băm",
+    "Hành lá",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Butter",
+    "Instant Yeast",
+    "Mozzarella cheese",
+    "Mayonnaise Sauce",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Minced Garlic",
+    "Scallion",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "bo lat",
+    "men no instant",
+    "pho mai mozzarella",
+    "sot mayonnaise",
+    "sua tuoi khong duong",
+    "trung ga",
+    "toi bam",
+    "hanh la",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

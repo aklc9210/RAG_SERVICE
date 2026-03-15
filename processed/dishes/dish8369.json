@@ -1,0 +1,88 @@
+{
+  "id": "dish8369",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8369.json",
+  "name_vi": "Gỏi cá ngừ đại dương",
+  "name_en": "",
+  "name_normalized": "goi ca ngu dai duong",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xoài"
+  ],
+  "secondary_ingredients": [
+    "Xà lách",
+    "Cải bẹ xanh",
+    "Ngò gai",
+    "Đậu phộng sống"
+  ],
+  "seasonings": [
+    "Cá ngừ đại dương phi lê",
+    "Gừng",
+    "Rượu trắng",
+    "Nước tương",
+    "Mù tạt"
+  ],
+  "ingredient_ids": [
+    "ingre01590",
+    "ingre02485",
+    "ingre07329",
+    "ingre07351",
+    "ingre01775",
+    "ingre04329",
+    "ingre07806",
+    "ingre05574",
+    "ingre04790",
+    "ingre04050"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngừ đại dương phi lê",
+    "Gừng",
+    "Xoài",
+    "Xà lách",
+    "Cải bẹ xanh",
+    "Ngò gai",
+    "Đậu phộng sống",
+    "Rượu trắng",
+    "Nước tương",
+    "Mù tạt"
+  ],
+  "ingredient_names_en": [
+    "Tuna Fillet",
+    "Ginger",
+    "Mango",
+    "Lettuce",
+    "Green cabbage",
+    "Culantro",
+    "Peanuts",
+    "White wine",
+    "Soy Sauce",
+    "Mustard"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngu dai duong phi le",
+    "gung",
+    "xoai",
+    "xa lach",
+    "cai be xanh",
+    "ngo gai",
+    "dau phong song",
+    "ruou trang",
+    "nuoc tuong",
+    "mu tat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

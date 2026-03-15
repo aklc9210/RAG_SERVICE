@@ -1,0 +1,87 @@
+{
+  "id": "dish9227",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9227.json",
+  "name_vi": "Tương ớt",
+  "name_en": "",
+  "name_normalized": "tuong ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Táo"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Bột năng",
+    "Giấm táo",
+    "Dầu ăn",
+    "Đường",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre08055",
+    "ingre07063",
+    "ingre02741",
+    "ingre01354",
+    "ingre06890",
+    "ingre00849",
+    "ingre02372",
+    "ingre02124",
+    "ingre07583",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Ớt sừng",
+    "Tỏi",
+    "Hành tây",
+    "Cà chua",
+    "Táo",
+    "Bột năng",
+    "Giấm táo",
+    "Dầu ăn",
+    "Đường",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Hot pepper",
+    "Garlic",
+    "Onion",
+    "Tomato",
+    "Apple",
+    "Cornstarch",
+    "Apple vinegar",
+    "Cooking oil",
+    "Sugar",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ot sung",
+    "toi",
+    "hanh tay",
+    "ca chua",
+    "tao",
+    "bot nang",
+    "giam tao",
+    "dau an",
+    "duong",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish3785",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3785.json",
+  "name_vi": "Bò lụi chay",
+  "name_en": "",
+  "name_normalized": "bo lui chay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bò lát chay",
+    "Củ sắn",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Sốt ướp đồ nướng",
+    "Hạt nêm chay",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00266",
+    "ingre01920",
+    "ingre02673",
+    "ingre03929",
+    "ingre06174",
+    "ingre06043",
+    "ingre02997",
+    "ingre04697",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bò lát chay",
+    "Củ sắn",
+    "Hành lá",
+    "Mè rang",
+    "Sữa đặc",
+    "Sốt ướp đồ nướng",
+    "Hạt nêm chay",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Tofu Steak",
+    "Yam",
+    "Scallion",
+    "Roasted Sesame Seeds",
+    "Sweetened Condensed Milk",
+    "Barbecue marinade",
+    "Vegetarian Seasoning",
+    "Vegetarian fish sauce",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat chay",
+    "cu san",
+    "hanh la",
+    "me rang",
+    "sua dac",
+    "sot uop do nuong",
+    "hat nem chay",
+    "nuoc mam chay",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

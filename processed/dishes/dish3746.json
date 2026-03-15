@@ -1,0 +1,113 @@
+{
+  "id": "dish3746",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3746.json",
+  "name_vi": "Cá nục nướng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ca nuc nuong noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá nục",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm",
+    "Bánh tráng mỏng"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Đường",
+    "Dầu hào",
+    "Muối",
+    "Bột ngọt",
+    "Bột ớt khô",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre04694",
+    "ingre07583",
+    "ingre02080",
+    "ingre03746",
+    "ingre00819",
+    "ingre01024",
+    "ingre06644",
+    "ingre02124",
+    "ingre01079",
+    "ingre05420",
+    "ingre00198"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Đường",
+    "Dầu hào",
+    "Muối",
+    "Bột ngọt",
+    "Bột ớt khô",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Chanh",
+    "Rau ăn kèm",
+    "Bánh tráng mỏng"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Fish Sauce",
+    "Sugar",
+    "Soy sauce",
+    "Salt",
+    "MSG",
+    "Dry Chili Powder",
+    "Ground pepper",
+    "Cooking oil",
+    "Lemon",
+    "Side vegetable",
+    "Thin rice paper"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "hanh tim",
+    "toi",
+    "gung",
+    "nuoc mam",
+    "duong",
+    "dau hao",
+    "muoi",
+    "bot ngot",
+    "bot ot kho",
+    "tieu xay",
+    "dau an",
+    "chanh",
+    "rau an kem",
+    "banh trang mong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

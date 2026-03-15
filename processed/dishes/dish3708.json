@@ -1,0 +1,84 @@
+{
+  "id": "dish3708",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3708.json",
+  "name_vi": "Nước chấm vịt nướng",
+  "name_en": "",
+  "name_normalized": "nuoc cham vit nuong",
+  "category": "mon nuong",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Quất"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Nước mắm",
+    "Xì dầu",
+    "Ớt",
+    "Hành băm",
+    "Tỏi băm",
+    "Tiêu",
+    "Đường",
+    "Hành băm/ tỏi băm/ tiêu/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05621",
+    "ingre04694",
+    "ingre07381",
+    "ingre07966",
+    "ingre05182",
+    "ingre02657",
+    "ingre07071",
+    "ingre06612",
+    "ingre07583",
+    "ingre02659"
+  ],
+  "ingredient_names_vi": [
+    "Sa tế",
+    "Nước mắm",
+    "Xì dầu",
+    "Ớt",
+    "Quất",
+    "Hành băm",
+    "Tỏi băm",
+    "Tiêu",
+    "Đường",
+    "Hành băm/ tỏi băm/ tiêu/ đường"
+  ],
+  "ingredient_names_en": [
+    "Fish sauce",
+    "Soy Sauce",
+    "Pepper",
+    "Kumquat",
+    "Chopped Garlic",
+    "Minced Garlic",
+    "Sugar",
+    "Chopped Garlic/Chopped Onion/Black Pepper/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sa te",
+    "nuoc mam",
+    "xi dau",
+    "ot",
+    "quat",
+    "hanh bam",
+    "toi bam",
+    "tieu",
+    "duong",
+    "hanh bam toi bam tieu duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh bam/ toi bam/ tieu/ duong",
+      "new": "hanh bam toi bam tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành băm/ tỏi băm/ tiêu/ đường"
+    }
+  ]
+}

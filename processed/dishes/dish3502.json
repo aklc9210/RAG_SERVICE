@@ -1,0 +1,110 @@
+{
+  "id": "dish3502",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3502.json",
+  "name_vi": "Phở bò (nấu với gói gia vị phở)",
+  "name_en": "",
+  "name_normalized": "pho bo nau voi goi gia vi pho",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Phở",
+    "Thịt bò",
+    "Xương heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Rau ăn phở"
+  ],
+  "seasonings": [
+    "Gia vị nấu phở bò",
+    "Gừng",
+    "Đường phèn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05135",
+    "ingre06300",
+    "ingre07422",
+    "ingre02306",
+    "ingre02741",
+    "ingre02768",
+    "ingre02485",
+    "ingre07635",
+    "ingre05430",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Phở",
+    "Thịt bò",
+    "Xương heo",
+    "Gia vị nấu phở bò",
+    "Hành tây",
+    "Hành tím",
+    "Gừng",
+    "Đường phèn",
+    "Rau ăn phở",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Beef",
+    "Pork bone",
+    "Beef Phở Seasoning",
+    "Onion",
+    "Shallot",
+    "Ginger",
+    "Brown Sugar",
+    "Basil",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "pho",
+    "thit bo",
+    "xuong heo",
+    "gia vi nau pho bo",
+    "hanh tay",
+    "hanh tim",
+    "gung",
+    "duong phen",
+    "rau an pho",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pho bo (nau voi goi gia vi pho)",
+      "new": "pho bo nau voi goi gia vi pho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

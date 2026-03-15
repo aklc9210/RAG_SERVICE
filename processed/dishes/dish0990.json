@@ -1,0 +1,83 @@
+{
+  "id": "dish0990",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0990.json",
+  "name_vi": "Bánh ít nhân đậu xanh",
+  "name_en": "",
+  "name_normalized": "banh it nhan dau xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Dầu dừa",
+    "Hành tím",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Đường thốt nốt",
+    "Dầu ăn",
+    "Gừng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre07836",
+    "ingre07647",
+    "ingre02124",
+    "ingre02067",
+    "ingre02485",
+    "ingre02768",
+    "ingre03746",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Đậu xanh",
+    "Đường thốt nốt",
+    "Dầu ăn",
+    "Dầu dừa",
+    "Gừng",
+    "Hành tím",
+    "Muối",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Green beans",
+    "Cane Sugar",
+    "Cooking oil",
+    "Coconut oil",
+    "Ginger",
+    "Shallot",
+    "Salt",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "dau xanh",
+    "duong thot not",
+    "dau an",
+    "dau dua",
+    "gung",
+    "hanh tim",
+    "muoi",
+    "la chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dish6232",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6232.json",
+  "name_vi": "Cà ri heo chôm chôm",
+  "name_en": "",
+  "name_normalized": "ca ri heo chom chom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt heo",
+    "Chôm chôm",
+    "Thơm",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hạt ngò",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng",
+    "Tỏi",
+    "Lá chanh",
+    "Bột cà ri",
+    "Bột nghệ",
+    "Nước cốt dừa",
+    "Nước dùng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre01251",
+    "ingre06247",
+    "ingre02741",
+    "ingre02485",
+    "ingre08055",
+    "ingre07063",
+    "ingre02987",
+    "ingre04343",
+    "ingre03370",
+    "ingre00631",
+    "ingre00804",
+    "ingre04554",
+    "ingre04602",
+    "ingre04694",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Chôm chôm",
+    "Thơm",
+    "Hành tây",
+    "Gừng",
+    "Ớt sừng",
+    "Tỏi",
+    "Hạt ngò",
+    "Ngò rí",
+    "Lá chanh",
+    "Bột cà ri",
+    "Bột nghệ",
+    "Nước cốt dừa",
+    "Nước dùng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Pineapple",
+    "Basil",
+    "Onion",
+    "Ginger",
+    "Hot pepper",
+    "Garlic",
+    "Cilantro Seeds",
+    "Parsley",
+    "Lime leaf",
+    "Curry powder",
+    "Turmeric Powder",
+    "Coconut milk",
+    "Chicken Stock",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "chom chom",
+    "thom",
+    "hanh tay",
+    "gung",
+    "ot sung",
+    "toi",
+    "hat ngo",
+    "ngo ri",
+    "la chanh",
+    "bot ca ri",
+    "bot nghe",
+    "nuoc cot dua",
+    "nuoc dung",
+    "nuoc mam",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

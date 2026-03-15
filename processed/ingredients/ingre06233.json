@@ -1,0 +1,27 @@
+{
+  "id": "ingre06233",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06233.json",
+  "name_vi": "thì là",
+  "name_en": "Dill",
+  "name_normalized": "thi la",
+  "synonyms": [
+    "cây thì là"
+  ],
+  "synonyms_normalized": [
+    "cay thi la"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

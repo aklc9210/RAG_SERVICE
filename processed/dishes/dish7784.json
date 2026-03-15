@@ -1,0 +1,111 @@
+{
+  "id": "dish7784",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7784.json",
+  "name_vi": "Bò nhúng ớt",
+  "name_en": "",
+  "name_normalized": "bo nhung ot",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt bò",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Ớt hiểm",
+    "Tỏi",
+    "Mắm ruốc",
+    "Nước mắm",
+    "Giấm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre05621",
+    "ingre02741",
+    "ingre08026",
+    "ingre05900",
+    "ingre07063",
+    "ingre04151",
+    "ingre04694",
+    "ingre02355",
+    "ingre02093",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Sa tế",
+    "Hành tây",
+    "Ớt hiểm",
+    "Sả",
+    "Tỏi",
+    "Mắm ruốc",
+    "Nước mắm",
+    "Giấm",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Fish sauce",
+    "Onion",
+    "Hot pepper",
+    "Lemongrass",
+    "Garlic",
+    "Shrimp paste",
+    "Vinegar",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "sa te",
+    "hanh tay",
+    "ot hiem",
+    "sa",
+    "toi",
+    "mam ruoc",
+    "nuoc mam",
+    "giam",
+    "dau mau dieu",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

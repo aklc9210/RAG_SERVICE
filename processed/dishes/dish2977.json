@@ -1,0 +1,110 @@
+{
+  "id": "dish2977",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2977.json",
+  "name_vi": "Ngôi nhà bánh quy gừng",
+  "name_en": "",
+  "name_normalized": "ngoi nha banh quy gung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mật ong",
+    "Bơ nhạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Muối",
+    "Baking soda",
+    "Bột gừng",
+    "Bột quế",
+    "Đường nâu",
+    "Trứng gà",
+    "Vani",
+    "Đường bột (đường xay)",
+    "Màu thực phẩm (1 giọt)",
+    "Lòng trắng trứng"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre03746",
+    "ingre00018",
+    "ingre00678",
+    "ingre00888",
+    "ingre07628",
+    "ingre04124",
+    "ingre00402",
+    "ingre06823",
+    "ingre07140",
+    "ingre07590",
+    "ingre03866",
+    "ingre03579"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Muối",
+    "Baking soda",
+    "Bột gừng",
+    "Bột quế",
+    "Đường nâu",
+    "Mật ong",
+    "Bơ nhạt",
+    "Trứng gà",
+    "Vani",
+    "Đường bột (đường xay)",
+    "Màu thực phẩm (1 giọt)",
+    "Lòng trắng trứng"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Salt",
+    "Baking soda",
+    "Ginger powder",
+    "Cinnamon粉",
+    "Brown Sugar",
+    "Honey",
+    "Margarine",
+    "Chicken egg",
+    "Vanilla",
+    "Sugar Powder",
+    "Food coloring (1 drop)",
+    "Egg white"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "muoi",
+    "baking soda",
+    "bot gung",
+    "bot que",
+    "duong nau",
+    "mat ong",
+    "bo nhat",
+    "trung ga",
+    "vani",
+    "duong bot duong xay",
+    "mau thuc pham 1 giot",
+    "long trang trung"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong bot (duong xay)",
+      "new": "duong bot duong xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường bột (đường xay)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mau thuc pham (1 giot)",
+      "new": "mau thuc pham 1 giot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Màu thực phẩm (1 giọt)"
+    }
+  ]
+}

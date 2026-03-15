@@ -1,0 +1,29 @@
+{
+  "id": "ingre01212",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01212.json",
+  "name_vi": "chà bông/ màu thực phẩm/ socola đen",
+  "name_en": "Pork sausage/food coloring/black chocolate",
+  "name_normalized": "cha bong mau thuc pham socola den",
+  "synonyms": [
+    "chà bông xiên",
+    "chà bông nướng",
+    "chà bông xé phay"
+  ],
+  "synonyms_normalized": [
+    "cha bong xien",
+    "cha bong nuong",
+    "cha bong xe phay"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha bong/ mau thuc pham/ socola den",
+      "new": "cha bong mau thuc pham socola den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

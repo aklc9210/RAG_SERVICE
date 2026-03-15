@@ -1,0 +1,75 @@
+{
+  "id": "dish8554",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8554.json",
+  "name_vi": "Khô bò viên",
+  "name_en": "",
+  "name_normalized": "kho bo vien",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Hạt thì là"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột ớt",
+    "Rượu trắng",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03036",
+    "ingre01015",
+    "ingre05574",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Hạt thì là",
+    "Bột ớt",
+    "Rượu trắng",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Turmeric seeds",
+    "Red Pepper Powder",
+    "White wine",
+    "Soy Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "hat thi la",
+    "bot ot",
+    "ruou trang",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay"
+    }
+  ]
+}

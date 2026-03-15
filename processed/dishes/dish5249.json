@@ -1,0 +1,83 @@
+{
+  "id": "dish5249",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5249.json",
+  "name_vi": "Su su xào tôm",
+  "name_en": "",
+  "name_normalized": "su su xao tom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Su su",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05790",
+    "ingre06963",
+    "ingre02673",
+    "ingre02080",
+    "ingre02124",
+    "ingre06644",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Su su",
+    "Tôm tươi",
+    "Hành lá",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Bamboo shoot",
+    "Fresh shrimp",
+    "Scallion",
+    "Soy sauce",
+    "Cooking oil",
+    "Ground pepper",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "su su",
+    "tom tuoi",
+    "hanh la",
+    "dau hao",
+    "dau an",
+    "tieu xay",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

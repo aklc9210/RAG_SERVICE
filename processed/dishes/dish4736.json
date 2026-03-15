@@ -1,0 +1,87 @@
+{
+  "id": "dish4736",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4736.json",
+  "name_vi": "Ốc hương xào dừa",
+  "name_en": "",
+  "name_normalized": "oc huong xao dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc hương",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07944",
+    "ingre04554",
+    "ingre05900",
+    "ingre07063",
+    "ingre02124",
+    "ingre04821",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Ốc hương",
+    "Nước cốt dừa",
+    "Sả",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước vo gạo",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Coconut milk",
+    "Lemongrass",
+    "Garlic",
+    "Cooking oil",
+    "Rice washing water",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "oc huong",
+    "nuoc cot dua",
+    "sa",
+    "toi",
+    "dau an",
+    "nuoc vo gao",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

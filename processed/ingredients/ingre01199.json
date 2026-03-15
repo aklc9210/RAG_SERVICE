@@ -1,0 +1,29 @@
+{
+  "id": "ingre01199",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01199.json",
+  "name_vi": "chuối/nho",
+  "name_en": "Banana/Grape",
+  "name_normalized": "chuoi nho",
+  "synonyms": [
+    "dâu",
+    "quả dâu",
+    "chuối hột"
+  ],
+  "synonyms_normalized": [
+    "dau",
+    "qua dau",
+    "chuoi hot"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chuoi/nho",
+      "new": "chuoi nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

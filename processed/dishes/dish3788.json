@@ -1,0 +1,101 @@
+{
+  "id": "dish3788",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3788.json",
+  "name_vi": "Thịt heo nướng chao",
+  "name_en": "",
+  "name_normalized": "thit heo nuong chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt vai heo",
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Xà lách/ rau thơm",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Sa tế",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06513",
+    "ingre01106",
+    "ingre07063",
+    "ingre02768",
+    "ingre07323",
+    "ingre02080",
+    "ingre02134",
+    "ingre05621",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vai heo",
+    "Chao",
+    "Tỏi",
+    "Hành tím",
+    "Xà lách/ rau thơm",
+    "Dầu hào",
+    "Dầu điều",
+    "Sa tế",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork shoulder",
+    "Pickled plum",
+    "Garlic",
+    "Shallot",
+    "Leafy Greens/Herbs",
+    "Soy sauce",
+    "Peanut oil",
+    "Fish sauce",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit vai heo",
+    "chao",
+    "toi",
+    "hanh tim",
+    "xa lach rau thom",
+    "dau hao",
+    "dau dieu",
+    "sa te",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach/ rau thom",
+      "new": "xa lach rau thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách/ rau thơm"
+    }
+  ]
+}

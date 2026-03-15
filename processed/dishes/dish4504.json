@@ -1,0 +1,84 @@
+{
+  "id": "dish4504",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4504.json",
+  "name_vi": "Vẹm xanh xào sả ớt",
+  "name_en": "",
+  "name_normalized": "vem xanh xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Vẹm xanh tách vỏ",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07209",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Vẹm xanh tách vỏ",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Green Mussel Shells",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "vem xanh tach vo",
+    "sa",
+    "toi",
+    "ot",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre02743",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02743.json",
+  "name_vi": "hành tây & cà rốt & giá đỗ",
+  "name_en": "Onion & Carrot & Mung Bean Sprouts",
+  "name_normalized": "hanh tay ca rot gia do",
+  "synonyms": [
+    "cà gai",
+    "cà pháo",
+    "giá"
+  ],
+  "synonyms_normalized": [
+    "ca gai",
+    "ca phao",
+    "gia"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tay & ca rot & gia do",
+      "new": "hanh tay ca rot gia do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

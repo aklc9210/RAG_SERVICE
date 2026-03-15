@@ -1,0 +1,29 @@
+{
+  "id": "ingre03177",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03177.json",
+  "name_vi": "kem whipping cream:",
+  "name_en": "Whipping Cream",
+  "name_normalized": "kem whipping cream",
+  "synonyms": [
+    "kem pha chế",
+    "kem đánh",
+    "kem tươi whipping"
+  ],
+  "synonyms_normalized": [
+    "kem pha che",
+    "kem danh",
+    "kem tuoi whipping"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem whipping cream:",
+      "new": "kem whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

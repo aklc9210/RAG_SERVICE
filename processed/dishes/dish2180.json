@@ -1,0 +1,67 @@
+{
+  "id": "dish2180",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2180.json",
+  "name_vi": "Bánh tét chuối mini",
+  "name_en": "",
+  "name_normalized": "banh tet chuoi mini",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp"
+  ],
+  "secondary_ingredients": [
+    "Đậu đen",
+    "Đậu xanh cà vỏ",
+    "Chuối"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07863",
+    "ingre07841",
+    "ingre01160",
+    "ingre04554",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu đen",
+    "Đậu xanh cà vỏ",
+    "Chuối",
+    "Nước cốt dừa",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Black beans",
+    "Green Soybeans Skin-On",
+    "Banana",
+    "Coconut milk",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau den",
+    "dau xanh ca vo",
+    "chuoi",
+    "nuoc cot dua",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

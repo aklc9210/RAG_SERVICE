@@ -1,0 +1,95 @@
+{
+  "id": "dish4342",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4342.json",
+  "name_vi": "Thịt trâu nướng",
+  "name_en": "",
+  "name_normalized": "thit trau nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt trâu",
+    "Lá lốp",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Hành khô",
+    "Dầu hào",
+    "Đường",
+    "Dầu ăn",
+    "Nước mắm",
+    "Sa tế",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06506",
+    "ingre03460",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre02667",
+    "ingre02080",
+    "ingre07583",
+    "ingre02124",
+    "ingre04694",
+    "ingre05621",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt trâu",
+    "Lá lốp",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Hành khô",
+    "Dầu hào",
+    "Đường",
+    "Dầu ăn",
+    "Nước mắm",
+    "Sa tế",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Rubberleaf",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Garlic Powder",
+    "Soy sauce",
+    "Sugar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit trau",
+    "la lop",
+    "sa",
+    "gung",
+    "toi",
+    "hanh kho",
+    "dau hao",
+    "duong",
+    "dau an",
+    "nuoc mam",
+    "sa te",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

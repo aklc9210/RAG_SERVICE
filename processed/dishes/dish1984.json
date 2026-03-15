@@ -1,0 +1,73 @@
+{
+  "id": "dish1984",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1984.json",
+  "name_vi": "Bánh mì yến mạch nguyên cám",
+  "name_en": "",
+  "name_normalized": "banh mi yen mach nguyen cam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Yến mạch cán dẹt",
+    "Men nở instant",
+    "Mật ong",
+    "Bơ lạt",
+    "Mè trắng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì nguyên cám",
+    "Bột mì đa dụng",
+    "Bột hỗ trợ kích men nhanh",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00771",
+    "ingre00791",
+    "ingre07456",
+    "ingre00699",
+    "ingre03687",
+    "ingre04124",
+    "ingre00382",
+    "ingre03935",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì nguyên cám",
+    "Bột mì đa dụng",
+    "Yến mạch cán dẹt",
+    "Bột hỗ trợ kích men nhanh",
+    "Men nở instant",
+    "Mật ong",
+    "Bơ lạt",
+    "Mè trắng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Whole Grain Flour",
+    "All-purpose flour",
+    "Oat flakes",
+    "Fast Acting Yeast Powder",
+    "Instant Yeast",
+    "Honey",
+    "Butter",
+    "White sesame",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi nguyen cam",
+    "bot mi da dung",
+    "yen mach can det",
+    "bot ho tro kich men nhanh",
+    "men no instant",
+    "mat ong",
+    "bo lat",
+    "me trang",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

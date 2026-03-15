@@ -1,0 +1,60 @@
+{
+  "id": "dish1889",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1889.json",
+  "name_vi": "Tokbokki (Bánh gạo Hàn Quốc)",
+  "name_en": "",
+  "name_normalized": "tokbokki banh gao han quoc",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước ấm"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột nếp",
+    "Bột năng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00859",
+    "ingre00849",
+    "ingre03746",
+    "ingre04879"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột nếp",
+    "Bột năng",
+    "Muối",
+    "Nước ấm"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Glutinous rice flour",
+    "Cornstarch",
+    "Salt",
+    "Warm water"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nep",
+    "bot nang",
+    "muoi",
+    "nuoc am"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tokbokki (banh gao han quoc)",
+      "new": "tokbokki banh gao han quoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

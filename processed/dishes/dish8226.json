@@ -1,0 +1,92 @@
+{
+  "id": "dish8226",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8226.json",
+  "name_vi": "Salad xoài dưa leo",
+  "name_en": "",
+  "name_normalized": "salad xoai dua leo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xoài",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò rí",
+    "Bạc hà",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Gừng nhỏ",
+    "Nước cốt chanh",
+    "Bột ớt",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07329",
+    "ingre02020",
+    "ingre07999",
+    "ingre02741",
+    "ingre02512",
+    "ingre04343",
+    "ingre00430",
+    "ingre04538",
+    "ingre04124",
+    "ingre01015",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Xoài",
+    "Dưa leo",
+    "Ớt chuông",
+    "Hành tây",
+    "Gừng nhỏ",
+    "Ngò rí",
+    "Bạc hà",
+    "Nước cốt chanh",
+    "Mật ong",
+    "Bột ớt",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mango",
+    "Cucumber",
+    "Bell pepper",
+    "Onion",
+    "Ginger",
+    "Parsley",
+    "Mint",
+    "Lemon juice",
+    "Honey",
+    "Red Pepper Powder",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xoai",
+    "dua leo",
+    "ot chuong",
+    "hanh tay",
+    "gung nho",
+    "ngo ri",
+    "bac ha",
+    "nuoc cot chanh",
+    "mat ong",
+    "bot ot",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

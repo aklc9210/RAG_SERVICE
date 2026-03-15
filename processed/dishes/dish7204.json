@@ -1,0 +1,102 @@
+{
+  "id": "dish7204",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7204.json",
+  "name_vi": "Bánh xèo Bình Định nhân tôm mực",
+  "name_en": "",
+  "name_normalized": "banh xeo binh dinh nhan tom muc",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực ống",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Bia",
+    "Cải bẹ xanh",
+    "Giá",
+    "Hẹ",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre04281",
+    "ingre06930",
+    "ingre00033",
+    "ingre01775",
+    "ingre02329",
+    "ingre03085",
+    "ingre02741",
+    "ingre07071",
+    "ingre07971",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Mực ống",
+    "Tôm",
+    "Bia",
+    "Cải bẹ xanh",
+    "Giá",
+    "Hẹ",
+    "Hành tây",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Tube squid",
+    "Shrimp",
+    "Beer",
+    "Green cabbage",
+    "Mint",
+    "Garlic Chives",
+    "Onion",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "muc ong",
+    "tom",
+    "bia",
+    "cai be xanh",
+    "gia",
+    "he",
+    "hanh tay",
+    "toi bam",
+    "ot bam",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

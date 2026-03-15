@@ -1,0 +1,94 @@
+{
+  "id": "dish2720",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2720.json",
+  "name_vi": "Bánh cornet - bánh ốc kem vani",
+  "name_en": "",
+  "name_normalized": "banh cornet banh oc kem vani",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Lòng đỏ trứng"
+  ],
+  "secondary_ingredients": [
+    "Kem tươi"
+  ],
+  "seasonings": [
+    "Bột bánh",
+    "Muối",
+    "Đường",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Chiết xuất va-ni"
+  ],
+  "ingredient_ids": [
+    "ingre00521",
+    "ingre00382",
+    "ingre03583",
+    "ingre03746",
+    "ingre07583",
+    "ingre00564",
+    "ingre06147",
+    "ingre06823",
+    "ingre01138",
+    "ingre03157"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh",
+    "Bơ lạt",
+    "Lòng đỏ trứng",
+    "Muối",
+    "Đường",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Chiết xuất va-ni",
+    "Kem tươi"
+  ],
+  "ingredient_names_en": [
+    "Bread flour",
+    "Butter",
+    "Egg yolk",
+    "Salt",
+    "Sugar",
+    "Corn starch",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Vanilla extract",
+    "Fresh cream"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh",
+    "bo lat",
+    "long do trung",
+    "muoi",
+    "duong",
+    "bot bap",
+    "sua tuoi khong duong",
+    "trung ga",
+    "chiet xuat va ni",
+    "kem tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cornet - banh oc kem vani",
+      "new": "banh cornet banh oc kem vani",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chiết xuất va-ni"
+    }
+  ]
+}

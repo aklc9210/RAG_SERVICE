@@ -1,0 +1,29 @@
+{
+  "id": "ingre02385",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02385.json",
+  "name_vi": "giấm/nước cốt chanh",
+  "name_en": "Vinegar/Lime Juice",
+  "name_normalized": "giam nuoc cot chanh",
+  "synonyms": [
+    "nước chanh",
+    "chanh ta",
+    "chanh tươi"
+  ],
+  "synonyms_normalized": [
+    "nuoc chanh",
+    "chanh ta",
+    "chanh tuoi"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "giam/nuoc cot chanh",
+      "new": "giam nuoc cot chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

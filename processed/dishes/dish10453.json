@@ -1,0 +1,54 @@
+{
+  "id": "dish10453",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10453.json",
+  "name_vi": "Sữa chua từ sữa tươi (ủ bằng ánh nắng mặt trời)",
+  "name_en": "",
+  "name_normalized": "sua chua tu sua tuoi u bang anh nang mat troi",
+  "category": "mon trang mieng",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi có đường",
+    "Sữa chua có đường",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06146",
+    "ingre06091",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi có đường",
+    "Sữa chua có đường",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Sweetened Yogurt",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi co duong",
+    "sua chua co duong",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua chua tu sua tuoi (u bang anh nang mat troi)",
+      "new": "sua chua tu sua tuoi u bang anh nang mat troi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

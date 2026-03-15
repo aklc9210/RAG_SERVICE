@@ -1,0 +1,79 @@
+{
+  "id": "dish9382",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9382.json",
+  "name_vi": "Giò mỡ (giò nây)",
+  "name_en": "",
+  "name_normalized": "gio mo gio nay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Lá chuối/ dây lạc"
+  ],
+  "seasonings": [
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu giã nhỏ"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre04694",
+    "ingre06618",
+    "ingre03393"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu giã nhỏ",
+    "Lá chuối/ dây lạc"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Fish Sauce",
+    "Garlic minced",
+    "Banana leaf/Vine leaf"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "nuoc mam",
+    "tieu gia nho",
+    "la chuoi day lac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gio mo (gio nay)",
+      "new": "gio mo gio nay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la chuoi/ day lac",
+      "new": "la chuoi day lac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá chuối/ dây lạc"
+    }
+  ]
+}

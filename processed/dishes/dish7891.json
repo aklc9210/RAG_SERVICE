@@ -1,0 +1,120 @@
+{
+  "id": "dish7891",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7891.json",
+  "name_vi": "Lẩu mắm cá tra",
+  "name_en": "",
+  "name_normalized": "lau mam ca tra",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá tra",
+    "Cà tím",
+    "Khổ qua"
+  ],
+  "secondary_ingredients": [
+    "Đậu bắp",
+    "Rau ăn lẩu",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mắm cá sặc",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01634",
+    "ingre04144",
+    "ingre01444",
+    "ingre03271",
+    "ingre07729",
+    "ingre05429",
+    "ingre05900",
+    "ingre02768",
+    "ingre08055",
+    "ingre07969",
+    "ingre07071",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá tra",
+    "Mắm cá sặc",
+    "Cà tím",
+    "Khổ qua",
+    "Đậu bắp",
+    "Rau ăn lẩu",
+    "Sả",
+    "Hành tím",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pangasius",
+    "Fish Sauce",
+    "Purple cabbage",
+    "Bitter Melon",
+    "Green beans",
+    "Watercress",
+    "Lemongrass",
+    "Shallot",
+    "Hot pepper",
+    "Minced Garlic",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca tra",
+    "mam ca sac",
+    "ca tim",
+    "kho qua",
+    "dau bap",
+    "rau an lau",
+    "sa",
+    "hanh tim",
+    "ot sung",
+    "ot hiem",
+    "toi bam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

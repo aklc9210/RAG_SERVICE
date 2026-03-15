@@ -1,0 +1,77 @@
+{
+  "id": "dish3971",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3971.json",
+  "name_vi": "Tôm nướng mật ong",
+  "name_en": "",
+  "name_normalized": "tom nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Tôm",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Vỏ chanh bào",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre04124",
+    "ingre04538",
+    "ingre07254",
+    "ingre07071",
+    "ingre02120",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Mật ong",
+    "Nước cốt chanh",
+    "Vỏ chanh bào",
+    "Tỏi băm",
+    "Dầu ô liu",
+    "Dầu ăn",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Honey",
+    "Lemon juice",
+    "Lemon zest",
+    "Minced Garlic",
+    "Olive oil",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "mat ong",
+    "nuoc cot chanh",
+    "vo chanh bao",
+    "toi bam",
+    "dau o liu",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu"
+    }
+  ]
+}

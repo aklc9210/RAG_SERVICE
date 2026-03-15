@@ -1,0 +1,106 @@
+{
+  "id": "dish3282",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3282.json",
+  "name_vi": "Bún cá kiểu Lào",
+  "name_en": "",
+  "name_normalized": "bun ca kieu lao",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá phi lê",
+    "Vỏ tôm"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải",
+    "Rau ăn kèm",
+    "Hành tím",
+    "Riềng",
+    "Nghệ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Tỏi",
+    "Ớt",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01605",
+    "ingre07275",
+    "ingre04554",
+    "ingre00457",
+    "ingre05420",
+    "ingre02768",
+    "ingre07063",
+    "ingre05436",
+    "ingre07966",
+    "ingre04304",
+    "ingre01079",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Cá phi lê",
+    "Vỏ tôm",
+    "Nước cốt dừa",
+    "Bắp cải",
+    "Rau ăn kèm",
+    "Hành tím",
+    "Tỏi",
+    "Riềng",
+    "Ớt",
+    "Nghệ",
+    "Chanh",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Cod fillet",
+    "Shrimp壳",
+    "Coconut milk",
+    "Cabbage",
+    "Side vegetable",
+    "Shallot",
+    "Garlic",
+    "Galangal",
+    "Pepper",
+    "Turmeric",
+    "Lemon",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "ca phi le",
+    "vo tom",
+    "nuoc cot dua",
+    "bap cai",
+    "rau an kem",
+    "hanh tim",
+    "toi",
+    "rieng",
+    "ot",
+    "nghe",
+    "chanh",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

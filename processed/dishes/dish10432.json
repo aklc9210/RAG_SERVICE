@@ -1,0 +1,96 @@
+{
+  "id": "dish10432",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10432.json",
+  "name_vi": "Chè hoa cau với bột sắn dây (chè táo xọn)",
+  "name_en": "",
+  "name_normalized": "che hoa cau voi bot san day che tao xon",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Đậu xanh tách vỏ",
+    "Củ năng",
+    "Lá dứa"
+  ],
+  "secondary_ingredients": [
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Bột gạo",
+    "Bột sắn dây",
+    "Bột năng",
+    "Bột hương hoa bưởi",
+    "Đường phèn",
+    "Đường cát trắng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07852",
+    "ingre01910",
+    "ingre03417",
+    "ingre04554",
+    "ingre00668",
+    "ingre00928",
+    "ingre00849",
+    "ingre00687",
+    "ingre06592",
+    "ingre07635",
+    "ingre07601",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh tách vỏ",
+    "Củ năng",
+    "Lá dứa",
+    "Nước cốt dừa",
+    "Bột gạo",
+    "Bột sắn dây",
+    "Bột năng",
+    "Bột hương hoa bưởi",
+    "Tinh chất vani",
+    "Đường phèn",
+    "Đường cát trắng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Green split peas",
+    "Rutabaga",
+    "Pandan叶",
+    "Coconut milk",
+    "Rice flour",
+    "Tapioca starch",
+    "Cornstarch",
+    "Bouquet Garni Spice Mix",
+    "Vanilla extract",
+    "Brown Sugar",
+    "White Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh tach vo",
+    "cu nang",
+    "la dua",
+    "nuoc cot dua",
+    "bot gao",
+    "bot san day",
+    "bot nang",
+    "bot huong hoa buoi",
+    "tinh chat vani",
+    "duong phen",
+    "duong cat trang",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "che hoa cau voi bot san day (che tao xon)",
+      "new": "che hoa cau voi bot san day che tao xon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

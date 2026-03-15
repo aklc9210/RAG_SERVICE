@@ -1,0 +1,68 @@
+{
+  "id": "dish4674",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4674.json",
+  "name_vi": "Nhộng xào mắm hành",
+  "name_en": "",
+  "name_normalized": "nhong xao mam hanh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nhộng tằm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04446",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Nhộng tằm",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Silkworm moth larvae",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "nhong tam",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

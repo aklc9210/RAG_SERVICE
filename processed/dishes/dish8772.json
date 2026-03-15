@@ -1,0 +1,82 @@
+{
+  "id": "dish8772",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8772.json",
+  "name_vi": "Tai heo ngâm sả tắc",
+  "name_en": "",
+  "name_normalized": "tai heo ngam sa tac",
+  "category": "an vat",
+  "main_ingredients": [
+    "Tai heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt chỉ thiên",
+    "Giấm",
+    "Đường",
+    "Nước mắm",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre05900",
+    "ingre08055",
+    "ingre08017",
+    "ingre07057",
+    "ingre02355",
+    "ingre07583",
+    "ingre04694",
+    "ingre02485"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Sả",
+    "Ớt sừng",
+    "Ớt chỉ thiên",
+    "Tắc",
+    "Giấm",
+    "Đường",
+    "Nước mắm",
+    "Gừng"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Lemongrass",
+    "Hot pepper",
+    "Bird's eye chili",
+    "Tamarind",
+    "Vinegar",
+    "Sugar",
+    "Fish Sauce",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "sa",
+    "ot sung",
+    "ot chi thien",
+    "tac",
+    "giam",
+    "duong",
+    "nuoc mam",
+    "gung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

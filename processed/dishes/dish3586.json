@@ -1,0 +1,71 @@
+{
+  "id": "dish3586",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3586.json",
+  "name_vi": "Kem lá dứa (lá nếp)",
+  "name_en": "",
+  "name_normalized": "kem la dua la nep",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Lá dứa"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Corn syrup"
+  ],
+  "seasonings": [
+    "Sữa tươi có đường",
+    "Trứng gà",
+    "Hương vani",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03417",
+    "ingre06146",
+    "ingre07313",
+    "ingre06823",
+    "ingre02886",
+    "ingre01321",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Lá dứa",
+    "Sữa tươi có đường",
+    "Whipping cream",
+    "Trứng gà",
+    "Hương vani",
+    "Corn syrup",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pandan叶",
+    "Sweetened Condensed Milk",
+    "Whipping cream",
+    "Chicken egg",
+    "Vanilla",
+    "Corn syrup",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "la dua",
+    "sua tuoi co duong",
+    "whipping cream",
+    "trung ga",
+    "huong vani",
+    "corn syrup",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem la dua (la nep)",
+      "new": "kem la dua la nep",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

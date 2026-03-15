@@ -1,0 +1,106 @@
+{
+  "id": "dish1867",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1867.json",
+  "name_vi": "Bánh Papparoti - Mexican Buns - Coffee Buns",
+  "name_en": "",
+  "name_normalized": "banh papparoti mexican buns coffee buns",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men làm bánh mì"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột bánh mì",
+    "Bột mì",
+    "Bột bánh bông lan",
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Đường",
+    "Đường bột",
+    "Muối",
+    "Bột cacao",
+    "Bột cà phê hòa tan"
+  ],
+  "ingredient_ids": [
+    "ingre00536",
+    "ingre00759",
+    "ingre00526",
+    "ingre00791",
+    "ingre03678",
+    "ingre06823",
+    "ingre06083",
+    "ingre06147",
+    "ingre00382",
+    "ingre07583",
+    "ingre07589",
+    "ingre03746",
+    "ingre00576",
+    "ingre00623"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh mì",
+    "Bột mì",
+    "Bột bánh bông lan",
+    "Bột mì đa dụng",
+    "Men làm bánh mì",
+    "Trứng gà",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Đường",
+    "Đường bột",
+    "Muối",
+    "Bột cacao",
+    "Bột cà phê hòa tan"
+  ],
+  "ingredient_names_en": [
+    "Bread flour",
+    "Wheat Flour",
+    "Baking powder",
+    "All-purpose flour",
+    "Bread yeast",
+    "Chicken egg",
+    "Milk Powder",
+    "Fat-free Milk",
+    "Butter",
+    "Sugar",
+    "Sugar Powder",
+    "Salt",
+    "Cocoa powder",
+    "Instant coffee"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh mi",
+    "bot mi",
+    "bot banh bong lan",
+    "bot mi da dung",
+    "men lam banh mi",
+    "trung ga",
+    "sua bot",
+    "sua tuoi khong duong",
+    "bo lat",
+    "duong",
+    "duong bot",
+    "muoi",
+    "bot cacao",
+    "bot ca phe hoa tan"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh papparoti - mexican buns - coffee buns",
+      "new": "banh papparoti mexican buns coffee buns",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

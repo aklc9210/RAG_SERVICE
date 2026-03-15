@@ -1,0 +1,29 @@
+{
+  "id": "ingre06841",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06841.json",
+  "name_vi": "trứng gà.",
+  "name_en": "Chicken egg.",
+  "name_normalized": "trung ga",
+  "synonyms": [
+    "trứng",
+    "trứng gia cầm"
+  ],
+  "synonyms_normalized": [
+    "trung",
+    "trung gia cam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung ga.",
+      "new": "trung ga",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

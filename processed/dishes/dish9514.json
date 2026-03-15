@@ -1,0 +1,113 @@
+{
+  "id": "dish9514",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9514.json",
+  "name_vi": "Cá lóc hấp tương",
+  "name_en": "",
+  "name_normalized": "ca loc hap tuong",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Cá lóc",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá",
+    "Nấm mèo",
+    "Bún tàu"
+  ],
+  "seasonings": [
+    "Tương hột",
+    "Cà rốt",
+    "Gừng",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Rượu trắng",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre06275",
+    "ingre06994",
+    "ingre01419",
+    "ingre02741",
+    "ingre02673",
+    "ingre04930",
+    "ingre00355",
+    "ingre02485",
+    "ingre02774",
+    "ingre07071",
+    "ingre05574",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Thịt ba chỉ",
+    "Tương hột",
+    "Cà rốt",
+    "Hành tây",
+    "Hành lá",
+    "Nấm mèo",
+    "Bún tàu",
+    "Gừng",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Rượu trắng",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Pork belly",
+    "Soy sauce",
+    "Carrot",
+    "Onion",
+    "Scallion",
+    "Mushroom",
+    "Noodle",
+    "Ginger",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "White wine",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "thit ba chi",
+    "tuong hot",
+    "ca rot",
+    "hanh tay",
+    "hanh la",
+    "nam meo",
+    "bun tau",
+    "gung",
+    "hanh tim bam",
+    "toi bam",
+    "ruou trang",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

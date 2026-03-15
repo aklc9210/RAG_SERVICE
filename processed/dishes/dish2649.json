@@ -1,0 +1,105 @@
+{
+  "id": "dish2649",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2649.json",
+  "name_vi": "Bánh puff pastry pie nhân socola",
+  "name_en": "",
+  "name_normalized": "banh puff pastry pie nhan socola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước lạnh"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt để lạnh",
+    "Bơ lạt",
+    "Tinh chất vani",
+    "Socola (bạn có thể sử dụng tùy thích loại socola mình thích)"
+  ],
+  "seasonings": [
+    "Đường",
+    "Muối",
+    "Bột làm bánh (bột mì số 8)",
+    "Đường bột",
+    "Trứng",
+    "Bột hạnh nhân",
+    "Bột làm bánh"
+  ],
+  "ingredient_ids": [
+    "ingre04664",
+    "ingre07583",
+    "ingre03746",
+    "ingre00719",
+    "ingre00392",
+    "ingre00382",
+    "ingre07589",
+    "ingre06801",
+    "ingre06592",
+    "ingre00691",
+    "ingre00716",
+    "ingre05735"
+  ],
+  "ingredient_names_vi": [
+    "Nước lạnh",
+    "Đường",
+    "Muối",
+    "Bột làm bánh (bột mì số 8)",
+    "Bơ lạt để lạnh",
+    "Bơ lạt",
+    "Đường bột",
+    "Trứng",
+    "Tinh chất vani",
+    "Bột hạnh nhân",
+    "Bột làm bánh",
+    "Socola (bạn có thể sử dụng tùy thích loại socola mình thích)"
+  ],
+  "ingredient_names_en": [
+    "Cold water",
+    "Sugar",
+    "Salt",
+    "Bread Flour",
+    "Cold Butter",
+    "Butter",
+    "Sugar Powder",
+    "Egg",
+    "Vanilla extract",
+    "Almond flour",
+    "Baking powder",
+    "Chocolate"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc lanh",
+    "duong",
+    "muoi",
+    "bot lam banh bot mi so 8",
+    "bo lat de lanh",
+    "bo lat",
+    "duong bot",
+    "trung",
+    "tinh chat vani",
+    "bot hanh nhan",
+    "bot lam banh",
+    "socola ban co the su dung tuy thich loai socola minh thich"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (bot mi so 8)",
+      "new": "bot lam banh bot mi so 8",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (bột mì số 8)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola (ban co the su dung tuy thich loai socola minh thich)",
+      "new": "socola ban co the su dung tuy thich loai socola minh thich",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola (bạn có thể sử dụng tùy thích loại socola mình thích)"
+    }
+  ]
+}

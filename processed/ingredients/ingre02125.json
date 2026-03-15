@@ -1,0 +1,25 @@
+{
+  "id": "ingre02125",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02125.json",
+  "name_vi": "dầu ăn .",
+  "name_en": "Cooking oil",
+  "name_normalized": "dau an",
+  "synonyms": [
+    "dầu thực vật"
+  ],
+  "synonyms_normalized": [
+    "dau thuc vat"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau an .",
+      "new": "dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

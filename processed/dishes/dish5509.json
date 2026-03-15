@@ -1,0 +1,83 @@
+{
+  "id": "dish5509",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5509.json",
+  "name_vi": "Gan heo xào giá hẹ",
+  "name_en": "",
+  "name_normalized": "gan heo xao gia he",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Gan heo",
+    "Giá"
+  ],
+  "secondary_ingredients": [
+    "Hẹ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Đường",
+    "Tiêu",
+    "Tỏi",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02242",
+    "ingre02329",
+    "ingre03085",
+    "ingre02080",
+    "ingre07583",
+    "ingre06612",
+    "ingre02768",
+    "ingre07063",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gan heo",
+    "Giá",
+    "Hẹ",
+    "Dầu hào",
+    "Đường",
+    "Tiêu",
+    "Hành tím",
+    "Tỏi",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Mint",
+    "Garlic Chives",
+    "Soy sauce",
+    "Sugar",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "gan heo",
+    "gia",
+    "he",
+    "dau hao",
+    "duong",
+    "tieu",
+    "hanh tim",
+    "toi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

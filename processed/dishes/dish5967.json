@@ -1,0 +1,78 @@
+{
+  "id": "dish5967",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5967.json",
+  "name_vi": "Gà kho mặn ngọt",
+  "name_en": "",
+  "name_normalized": "ga kho man ngot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hạt nêm",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02768",
+    "ingre07966",
+    "ingre02995",
+    "ingre07583",
+    "ingre04694",
+    "ingre02124",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Hành tím",
+    "Ớt",
+    "Hạt nêm",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Shallot",
+    "Pepper",
+    "Seasoning",
+    "Sugar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "hanh tim",
+    "ot",
+    "hat nem",
+    "duong",
+    "nuoc mam",
+    "dau an",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

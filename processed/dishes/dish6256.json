@@ -1,0 +1,138 @@
+{
+  "id": "dish6256",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6256.json",
+  "name_vi": "Cá nục kho me",
+  "name_en": "",
+  "name_normalized": "ca nuc kho me",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Hành lá",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Me",
+    "Nước màu",
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Ớt",
+    "Hành phi",
+    "Ớt bột",
+    "Nước tương",
+    "Nước mắm",
+    "Nước cốt gà",
+    "Dầu hành phi",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre02673",
+    "ingre05359",
+    "ingre02774",
+    "ingre07966",
+    "ingre03643",
+    "ingre02730",
+    "ingre07977",
+    "ingre04790",
+    "ingre04694",
+    "ingre04672",
+    "ingre04622",
+    "ingre04572",
+    "ingre02077",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Hành lá",
+    "Rau răm",
+    "Hành tím băm",
+    "Ớt",
+    "Me",
+    "Hành phi",
+    "Ớt bột",
+    "Nước tương",
+    "Nước mắm",
+    "Nước màu",
+    "Nước dừa",
+    "Nước cốt gà",
+    "Dầu hành phi",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Scallion",
+    "Vietnamese coriander",
+    "Chopped Scallion",
+    "Pepper",
+    "Tamarind",
+    "Garlic Fried",
+    "Chili powder",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Food coloring",
+    "Coconut water",
+    "Chicken broth",
+    "Garlic oil",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "hanh la",
+    "rau ram",
+    "hanh tim bam",
+    "ot",
+    "me",
+    "hanh phi",
+    "ot bot",
+    "nuoc tuong",
+    "nuoc mam",
+    "nuoc mau",
+    "nuoc dua",
+    "nuoc cot ga",
+    "dau hanh phi",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

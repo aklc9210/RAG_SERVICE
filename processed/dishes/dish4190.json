@@ -1,0 +1,88 @@
+{
+  "id": "dish4190",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4190.json",
+  "name_vi": "Gà kem sốt nấm",
+  "name_en": "",
+  "name_normalized": "ga kem sot nam",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt gà",
+    "Nấm mỡ tươi"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Dầu oliu",
+    "Rau thì là",
+    "Rau mùi Tây",
+    "Hành lá",
+    "Heavy Cream"
+  ],
+  "seasonings": [
+    "Bột tỏi",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre04946",
+    "ingre00978",
+    "ingre00382",
+    "ingre02104",
+    "ingre05383",
+    "ingre05311",
+    "ingre02673",
+    "ingre07063",
+    "ingre02558"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Nấm mỡ tươi",
+    "Bột tỏi",
+    "Bơ lạt",
+    "Dầu oliu",
+    "Rau thì là",
+    "Rau mùi Tây",
+    "Hành lá",
+    "Tỏi",
+    "Heavy Cream"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Fresh fatty mushroom",
+    "Garlic powder",
+    "Butter",
+    "Olive oil",
+    "Basil",
+    "Cilantro",
+    "Scallion",
+    "Garlic",
+    "Heavy cream"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "nam mo tuoi",
+    "bot toi",
+    "bo lat",
+    "dau oliu",
+    "rau thi la",
+    "rau mui tay",
+    "hanh la",
+    "toi",
+    "heavy cream"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

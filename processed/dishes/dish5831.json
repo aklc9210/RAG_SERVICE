@@ -1,0 +1,92 @@
+{
+  "id": "dish5831",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5831.json",
+  "name_vi": "Cá basa kho sả ớt",
+  "name_en": "",
+  "name_normalized": "ca basa kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá basa",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Tiêu xay",
+    "Tương ớt",
+    "Đường vàng",
+    "Nước mắm",
+    "Bột nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01458",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre06644",
+    "ingre07028",
+    "ingre07661",
+    "ingre04694",
+    "ingre00838",
+    "ingre02124",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Cá basa",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Tiêu xay",
+    "Tương ớt",
+    "Đường vàng",
+    "Nước mắm",
+    "Bột nêm",
+    "Dầu ăn",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Basa fish",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Ground pepper",
+    "Hot Sauce",
+    "Yellow Sugar",
+    "Fish Sauce",
+    "Seasoning Powder",
+    "Cooking oil",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "ca basa",
+    "sa",
+    "toi",
+    "ot",
+    "tieu xay",
+    "tuong ot",
+    "duong vang",
+    "nuoc mam",
+    "bot nem",
+    "dau an",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "dish3003",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3003.json",
+  "name_vi": "Bánh ngàn lớp​ nhân gà sốt XO Hồng Kông",
+  "name_en": "",
+  "name_normalized": "banh ngan lop nhan ga sot xo hong kong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Ức gà",
+    "Hành tây cắt nhỏ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh ngàn lớp - puff pastry",
+    "Xì dầu",
+    "Trứng đánh tan",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Bột bắp",
+    "Sốt XO"
+  ],
+  "ingredient_ids": [
+    "ingre00539",
+    "ingre08103",
+    "ingre02754",
+    "ingre07381",
+    "ingre06860",
+    "ingre04790",
+    "ingre07583",
+    "ingre03746",
+    "ingre00564",
+    "ingre06024"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh ngàn lớp - puff pastry",
+    "Ức gà",
+    "Hành tây cắt nhỏ",
+    "Xì dầu",
+    "Trứng đánh tan",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Bột bắp",
+    "Sốt XO"
+  ],
+  "ingredient_names_en": [
+    "puff pastry",
+    "Chicken breast",
+    "Onion chopped",
+    "Soy Sauce",
+    "Beaten Egg",
+    "Sugar",
+    "Salt",
+    "Corn starch",
+    "Horseradish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh ngan lop puff pastry",
+    "uc ga",
+    "hanh tay cat nho",
+    "xi dau",
+    "trung danh tan",
+    "nuoc tuong",
+    "duong",
+    "muoi",
+    "bot bap",
+    "sot xo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot banh ngan lop - puff pastry",
+      "new": "bot banh ngan lop puff pastry",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột bánh ngàn lớp - puff pastry"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "dish7833",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7833.json",
+  "name_vi": "Lẩu cá trê",
+  "name_en": "",
+  "name_normalized": "lau ca tre",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá trê",
+    "Thơm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Rau ăn kèm",
+    "Nấm kim châm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước cốt tắc",
+    "Sa tế",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre06247",
+    "ingre01354",
+    "ingre07966",
+    "ingre05900",
+    "ingre04591",
+    "ingre02768",
+    "ingre05420",
+    "ingre04921",
+    "ingre05621",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Thơm",
+    "Cà chua",
+    "Ớt",
+    "Sả",
+    "Nước cốt tắc",
+    "Hành tím",
+    "Rau ăn kèm",
+    "Nấm kim châm",
+    "Sa tế",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Basil",
+    "Tomato",
+    "Pepper",
+    "Lemongrass",
+    "Tamarind juice",
+    "Shallot",
+    "Side vegetable",
+    "Mushroom",
+    "Fish sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "thom",
+    "ca chua",
+    "ot",
+    "sa",
+    "nuoc cot tac",
+    "hanh tim",
+    "rau an kem",
+    "nam kim cham",
+    "sa te",
+    "dau an",
+    "muoi",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

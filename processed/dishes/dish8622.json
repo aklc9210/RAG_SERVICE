@@ -1,0 +1,132 @@
+{
+  "id": "dish8622",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8622.json",
+  "name_vi": "Bò sốt vang không cần rượu",
+  "name_en": "",
+  "name_normalized": "bo sot vang khong can ruou",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cà chua",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Hành lá/ ngò rí",
+    "Bia",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi/ gừng băm nhuyễn",
+    "Bột ngũ vị hương",
+    "Bột năng",
+    "Nước mắm",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01354",
+    "ingre03222",
+    "ingre01419",
+    "ingre02741",
+    "ingre02768",
+    "ingre02702",
+    "ingre07121",
+    "ingre00033",
+    "ingre00815",
+    "ingre00849",
+    "ingre02134",
+    "ingre04694",
+    "ingre00829"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cà chua",
+    "Khoai tây",
+    "Cà rốt",
+    "Hành tây",
+    "Hành tím",
+    "Hành lá/ ngò rí",
+    "Tỏi/ gừng băm nhuyễn",
+    "Bia",
+    "Bột ngũ vị hương",
+    "Bột năng",
+    "Dầu điều",
+    "Nước mắm",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tomato",
+    "Potato",
+    "Carrot",
+    "Onion",
+    "Shallot",
+    "Chives",
+    "Garlic/Finely Chopped Ginger",
+    "Beer",
+    "Five-Spice Powder",
+    "Cornstarch",
+    "Peanut oil",
+    "Fish Sauce",
+    "Monkfish Powder/Cracked Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca chua",
+    "khoai tay",
+    "ca rot",
+    "hanh tay",
+    "hanh tim",
+    "hanh la ngo ri",
+    "toi gung bam nhuyen",
+    "bia",
+    "bot ngu vi huong",
+    "bot nang",
+    "dau dieu",
+    "nuoc mam",
+    "bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ gung bam nhuyen",
+      "new": "toi gung bam nhuyen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ gừng băm nhuyễn"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu xay",
+      "new": "bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu xay"
+    }
+  ]
+}

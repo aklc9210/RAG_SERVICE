@@ -1,0 +1,72 @@
+{
+  "id": "dish0397",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0397.json",
+  "name_vi": "Gà hầm củ sen",
+  "name_en": "",
+  "name_normalized": "ga ham cu sen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Củ sen"
+  ],
+  "secondary_ingredients": [
+    "Ngưu báng"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Rượu mirin",
+    "Giấm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06216",
+    "ingre01348",
+    "ingre04383",
+    "ingre04790",
+    "ingre05545",
+    "ingre02355",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Củ sen",
+    "Ngưu báng",
+    "Nước tương",
+    "Rượu mirin",
+    "Giấm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lotus root",
+    "Elderberry",
+    "Soy Sauce",
+    "Mirin Wine",
+    "Vinegar",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "cu sen",
+    "nguu bang",
+    "nuoc tuong",
+    "ruou mirin",
+    "giam",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

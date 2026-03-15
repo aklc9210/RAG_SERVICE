@@ -1,0 +1,25 @@
+{
+  "id": "ingre01043",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01043.json",
+  "name_vi": "cafe vani chiết xuất (crepe trà xanh)",
+  "name_en": "Green Tea Extract Vanilla Flavor",
+  "name_normalized": "cafe vani chiet xuat crepe tra xanh",
+  "synonyms": [
+    "kem vani chiết xuất (crepe trà xanh)"
+  ],
+  "synonyms_normalized": [
+    "kem vani chiet xuat crepe tra xanh"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cafe vani chiet xuat (crepe tra xanh)",
+      "new": "cafe vani chiet xuat crepe tra xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

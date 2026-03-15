@@ -1,0 +1,142 @@
+{
+  "id": "dish3264",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3264.json",
+  "name_vi": "Bún sườn chua ngọt",
+  "name_en": "",
+  "name_normalized": "bun suon chua ngot",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sườn heo",
+    "Giò sống",
+    "Bún tươi",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Dứa",
+    "Me",
+    "Hành tím",
+    "Hành lá",
+    "Rau xà lách/ Giá"
+  ],
+  "seasonings": [
+    "Tỏi phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre02350",
+    "ingre00357",
+    "ingre01354",
+    "ingre02151",
+    "ingre03643",
+    "ingre02768",
+    "ingre07096",
+    "ingre02673",
+    "ingre05415",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Giò sống",
+    "Bún tươi",
+    "Cà chua",
+    "Dứa",
+    "Me",
+    "Hành tím",
+    "Tỏi phi",
+    "Hành lá",
+    "Rau xà lách/ Giá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Fresh sausage",
+    "Fresh noodle",
+    "Tomato",
+    "Pineapple",
+    "Tamarind",
+    "Shallot",
+    "Garlic flakes",
+    "Scallion",
+    "Leaf Lettuce/Cucumber",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Ground pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "gio song",
+    "bun tuoi",
+    "ca chua",
+    "dua",
+    "me",
+    "hanh tim",
+    "toi phi",
+    "hanh la",
+    "rau xa lach gia",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "tieu xay",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau xa lach/ gia",
+      "new": "rau xa lach gia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau xà lách/ Giá"
+    }
+  ]
+}

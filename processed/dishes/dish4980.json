@@ -1,0 +1,66 @@
+{
+  "id": "dish4980",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4980.json",
+  "name_vi": "Nhộng rang lá chanh",
+  "name_en": "",
+  "name_normalized": "nhong rang la chanh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nhộng tằm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lá chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04446",
+    "ingre03370",
+    "ingre04694",
+    "ingre02124",
+    "ingre00587",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Nhộng tằm",
+    "Lá chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Silkworm moth larvae",
+    "Lime leaf",
+    "Fish Sauce",
+    "Cooking oil",
+    "Cornstarch",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "nhong tam",
+    "la chanh",
+    "nuoc mam",
+    "dau an",
+    "bot canh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

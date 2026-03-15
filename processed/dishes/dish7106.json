@@ -1,0 +1,116 @@
+{
+  "id": "dish7106",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7106.json",
+  "name_vi": "Cơm chiên tôm trứng",
+  "name_en": "",
+  "name_normalized": "com chien tom trung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm trắng",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Bắp Mỹ",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01767",
+    "ingre06930",
+    "ingre06823",
+    "ingre01419",
+    "ingre00479",
+    "ingre02768",
+    "ingre02673",
+    "ingre02124",
+    "ingre04790",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cơm trắng",
+    "Tôm",
+    "Trứng gà",
+    "Cà rốt",
+    "Bắp Mỹ",
+    "Hành tím",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "White Rice",
+    "Shrimp",
+    "Chicken egg",
+    "Carrot",
+    "Corn",
+    "Shallot",
+    "Scallion",
+    "Cooking oil",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com trang",
+    "tom",
+    "trung ga",
+    "ca rot",
+    "bap my",
+    "hanh tim",
+    "hanh la",
+    "dau an",
+    "nuoc tuong",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

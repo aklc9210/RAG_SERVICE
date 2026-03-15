@@ -1,0 +1,61 @@
+{
+  "id": "dish10715",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10715.json",
+  "name_vi": "Nước chấm mắm nêm",
+  "name_en": "",
+  "name_normalized": "nuoc cham mam nem",
+  "category": "mon cuon - tron",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Dứa/ thơm"
+  ],
+  "seasonings": [
+    "Mắm nêm",
+    "Tỏi",
+    "Ớt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04148",
+    "ingre02161",
+    "ingre07063",
+    "ingre07966",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Mắm nêm",
+    "Dứa/ thơm",
+    "Tỏi",
+    "Ớt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Fish sauce",
+    "Pineapple",
+    "Garlic",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mam nem",
+    "dua thom",
+    "toi",
+    "ot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dua/ thom",
+      "new": "dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dứa/ thơm"
+    }
+  ]
+}

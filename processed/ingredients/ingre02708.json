@@ -1,0 +1,29 @@
+{
+  "id": "ingre02708",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02708.json",
+  "name_vi": "hành lá/ rau răm/ rau ngổ/ rau húng",
+  "name_en": "Parsley/Cilantro/Mugwort/Garlic Chives",
+  "name_normalized": "hanh la rau ram rau ngo rau hung",
+  "synonyms": [
+    "rau thơm",
+    "rau mùi",
+    "rau sống"
+  ],
+  "synonyms_normalized": [
+    "rau thom",
+    "rau mui",
+    "rau song"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ rau ram/ rau ngo/ rau hung",
+      "new": "hanh la rau ram rau ngo rau hung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

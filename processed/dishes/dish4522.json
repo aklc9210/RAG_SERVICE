@@ -1,0 +1,112 @@
+{
+  "id": "dish4522",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4522.json",
+  "name_vi": "Cồi sò điệp xào nấm cải",
+  "name_en": "",
+  "name_normalized": "coi so diep xao nam cai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cồi sò điệp",
+    "Nấm ngọc châm",
+    "Cải thìa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước"
+  ],
+  "seasonings": [
+    "Tiêu",
+    "Muối",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Đường",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre01853",
+    "ingre04950",
+    "ingre01792",
+    "ingre06612",
+    "ingre03746",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02485",
+    "ingre02124",
+    "ingre02080",
+    "ingre04694",
+    "ingre07583",
+    "ingre00564",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Cồi sò điệp",
+    "Nấm ngọc châm",
+    "Cải thìa",
+    "Tiêu",
+    "Muối",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Đường",
+    "Bột bắp",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Mushroom stem",
+    "Mushroom",
+    "Chinese cabbage",
+    "Pepper",
+    "Salt",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Cooking oil",
+    "Soy sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Corn starch",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "coi so diep",
+    "nam ngoc cham",
+    "cai thia",
+    "tieu",
+    "muoi",
+    "hanh tim",
+    "toi",
+    "ot",
+    "gung",
+    "dau an",
+    "dau hao",
+    "nuoc mam",
+    "duong",
+    "bot bap",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

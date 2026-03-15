@@ -1,0 +1,103 @@
+{
+  "id": "dish3727",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3727.json",
+  "name_vi": "Sườn cốt lết nướng mật ong",
+  "name_en": "",
+  "name_normalized": "suon cot let nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Mật ong",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Sườn cốt lết",
+    "Sả băm",
+    "Bột ngũ vị hương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05876",
+    "ingre05905",
+    "ingre02768",
+    "ingre00815",
+    "ingre06174",
+    "ingre04124",
+    "ingre02080",
+    "ingre02094",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cốt lết",
+    "Sả băm",
+    "Hành tím",
+    "Bột ngũ vị hương",
+    "Sữa đặc",
+    "Mật ong",
+    "Dầu hào",
+    "Dầu mè",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Lettuce Spare Ribs",
+    "Garlic Paste",
+    "Shallot",
+    "Five-Spice Powder",
+    "Sweetened Condensed Milk",
+    "Honey",
+    "Soy sauce",
+    "Sesame oil",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon cot let",
+    "sa bam",
+    "hanh tim",
+    "bot ngu vi huong",
+    "sua dac",
+    "mat ong",
+    "dau hao",
+    "dau me",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

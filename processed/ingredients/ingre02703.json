@@ -1,0 +1,29 @@
+{
+  "id": "ingre02703",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02703.json",
+  "name_vi": "hành lá/ ngò rí/ rau thơm",
+  "name_en": "Chives",
+  "name_normalized": "hanh la ngo ri rau thom",
+  "synonyms": [
+    "ngò",
+    "rau mùi",
+    "rau thơm nhàائية"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "rau mui",
+    "rau thom nha"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ ngo ri/ rau thom",
+      "new": "hanh la ngo ri rau thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

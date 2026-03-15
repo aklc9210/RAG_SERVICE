@@ -1,0 +1,112 @@
+{
+  "id": "dish1938",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1938.json",
+  "name_vi": "Bánh gối nhân cà ri",
+  "name_en": "",
+  "name_normalized": "banh goi nhan ca ri",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Khoai tây nhỏ",
+    "Khoai lang nhỏ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Vỏ bánh gối"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt bột",
+    "Bột cà ri",
+    "Nước mắm",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre01419",
+    "ingre03230",
+    "ingre03198",
+    "ingre02741",
+    "ingre02768",
+    "ingre07228",
+    "ingre07977",
+    "ingre00631",
+    "ingre04694",
+    "ingre04554",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Cà rốt",
+    "Khoai tây nhỏ",
+    "Khoai lang nhỏ",
+    "Hành tây",
+    "Hành tím",
+    "Vỏ bánh gối",
+    "Ớt bột",
+    "Bột cà ri",
+    "Nước mắm",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Carrot",
+    "Small Potato",
+    "Onion",
+    "Shallot",
+    "Puff pastry casing",
+    "Chili powder",
+    "Curry powder",
+    "Fish Sauce",
+    "Coconut milk",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "ca rot",
+    "khoai tay nho",
+    "khoai lang nho",
+    "hanh tay",
+    "hanh tim",
+    "vo banh goi",
+    "ot bot",
+    "bot ca ri",
+    "nuoc mam",
+    "nuoc cot dua",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

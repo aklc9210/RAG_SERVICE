@@ -1,0 +1,117 @@
+{
+  "id": "dish7817",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7817.json",
+  "name_vi": "Lẩu cua biển nấu chao",
+  "name_en": "",
+  "name_normalized": "lau cua bien nau chao",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cua biển",
+    "Dừa",
+    "Khoai môn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Chao",
+    "Rau muống",
+    "Cải xanh",
+    "Màu dầu điều"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước chao",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01335",
+    "ingre02162",
+    "ingre03208",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre01106",
+    "ingre04515",
+    "ingre05289",
+    "ingre01797",
+    "ingre03849",
+    "ingre02124",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cua biển",
+    "Dừa",
+    "Khoai môn",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Chao",
+    "Nước chao",
+    "Rau muống",
+    "Cải xanh",
+    "Màu dầu điều",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Coconut",
+    "Yam",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Pickled plum",
+    "Fish sauce",
+    "Watercress",
+    "Cabbage",
+    "Peanut oil color",
+    "Cooking oil",
+    "MSG",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cua bien",
+    "dua",
+    "khoai mon",
+    "sa",
+    "ot",
+    "toi",
+    "chao",
+    "nuoc chao",
+    "rau muong",
+    "cai xanh",
+    "mau dau dieu",
+    "dau an",
+    "bot ngot",
+    "duong",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

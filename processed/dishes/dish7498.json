@@ -1,0 +1,71 @@
+{
+  "id": "dish7498",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7498.json",
+  "name_vi": "Bánh quẩy - Giò cháo quẩy",
+  "name_en": "",
+  "name_normalized": "banh quay gio chao quay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sữa",
+    "Bơ mềm",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Trứng",
+    "Muối",
+    "Bột nở"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre06801",
+    "ingre03746",
+    "ingre00867",
+    "ingre06078",
+    "ingre00400",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Trứng",
+    "Muối",
+    "Bột nở",
+    "Sữa",
+    "Bơ mềm",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Egg",
+    "Salt",
+    "Baking powder",
+    "Milk",
+    "Soft butter",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "trung",
+    "muoi",
+    "bot no",
+    "sua",
+    "bo mem",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quay - gio chao quay",
+      "new": "banh quay gio chao quay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish4196",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4196.json",
+  "name_vi": "Khoai tây nướng phô mai kiểu Pháp - Potatoes gratin",
+  "name_en": "",
+  "name_normalized": "khoai tay nuong pho mai kieu phap potatoes gratin",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Khoai tây vàng",
+    "Phô mai cheddar trắng"
+  ],
+  "secondary_ingredients": [
+    "Bơ nhạt",
+    "Sữa ít béo"
+  ],
+  "seasonings": [
+    "Bột ngô",
+    "Muối kosher",
+    "Tỏi",
+    "Tiêu tươi"
+  ],
+  "ingredient_ids": [
+    "ingre03233",
+    "ingre05068",
+    "ingre00402",
+    "ingre06166",
+    "ingre00813",
+    "ingre03769",
+    "ingre07063",
+    "ingre06638"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây vàng",
+    "Phô mai cheddar trắng",
+    "Bơ nhạt",
+    "Sữa ít béo",
+    "Bột ngô",
+    "Muối kosher",
+    "Tỏi",
+    "Tiêu tươi"
+  ],
+  "ingredient_names_en": [
+    "Yellow Potato",
+    "White Cheddar Cheese",
+    "Margarine",
+    "Low-fat milk",
+    "Corn flour",
+    "Kosher Salt",
+    "Garlic",
+    "Fresh Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay vang",
+    "pho mai cheddar trang",
+    "bo nhat",
+    "sua it beo",
+    "bot ngo",
+    "muoi kosher",
+    "toi",
+    "tieu tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "khoai tay nuong pho mai kieu phap - potatoes gratin",
+      "new": "khoai tay nuong pho mai kieu phap potatoes gratin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

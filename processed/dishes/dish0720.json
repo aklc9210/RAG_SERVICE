@@ -1,0 +1,103 @@
+{
+  "id": "dish0720",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0720.json",
+  "name_vi": "Canh dưa chua đậu phụ chay",
+  "name_en": "",
+  "name_normalized": "canh dua chua dau phu chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cà chua chín",
+    "Đậu phụ"
+  ],
+  "secondary_ingredients": [
+    "Nấm linh chi trắng",
+    "Hành boa rô",
+    "Rau om",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Dưa cải muối chua",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02008",
+    "ingre01357",
+    "ingre07810",
+    "ingre04927",
+    "ingre02645",
+    "ingre08055",
+    "ingre05348",
+    "ingre04329",
+    "ingre02124",
+    "ingre04697",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Dưa cải muối chua",
+    "Cà chua chín",
+    "Đậu phụ",
+    "Nấm linh chi trắng",
+    "Hành boa rô",
+    "Ớt sừng",
+    "Rau om",
+    "Ngò gai",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pickled Chinese Cabbage",
+    "Ripe Tomato",
+    "Tofu",
+    "Reishi White Mushroom",
+    "Garlic",
+    "Hot pepper",
+    "Water spinach",
+    "Culantro",
+    "Cooking oil",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dua cai muoi chua",
+    "ca chua chin",
+    "dau phu",
+    "nam linh chi trang",
+    "hanh boa ro",
+    "ot sung",
+    "rau om",
+    "ngo gai",
+    "dau an",
+    "nuoc mam chay",
+    "hat nem chay",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

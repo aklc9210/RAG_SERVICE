@@ -1,0 +1,53 @@
+{
+  "id": "dish1265",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1265.json",
+  "name_vi": "Bánh nếp phô mai",
+  "name_en": "",
+  "name_normalized": "banh nep pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Phô mai",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Sữa tươi không đường",
+    "Đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre06147",
+    "ingre07597",
+    "ingre05054",
+    "ingre00382"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Sữa tươi không đường",
+    "Đường cát",
+    "Phô mai",
+    "Bơ lạt"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Fat-free Milk",
+    "Sugar",
+    "Cheese",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "sua tuoi khong duong",
+    "duong cat",
+    "pho mai",
+    "bo lat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

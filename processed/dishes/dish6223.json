@@ -1,0 +1,82 @@
+{
+  "id": "dish6223",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6223.json",
+  "name_vi": "Thịt kho mắm ruốc",
+  "name_en": "",
+  "name_normalized": "thit kho mam ruoc",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Mắm ruốc",
+    "Ớt hiểm",
+    "Tỏi",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre04151",
+    "ingre05900",
+    "ingre08026",
+    "ingre07063",
+    "ingre08097",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Mắm ruốc",
+    "Sả",
+    "Ớt hiểm",
+    "Tỏi",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shrimp paste",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic",
+    "Red pepper",
+    "Cooking oil",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "mam ruoc",
+    "sa",
+    "ot hiem",
+    "toi",
+    "ot do",
+    "dau an",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

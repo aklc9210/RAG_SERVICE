@@ -1,0 +1,72 @@
+{
+  "id": "dish3099",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3099.json",
+  "name_vi": "Chè xanh đánh",
+  "name_en": "",
+  "name_normalized": "che xanh danh",
+  "category": "mon che",
+  "main_ingredients": [
+    "Đậu xanh cà"
+  ],
+  "secondary_ingredients": [
+    "Món ăn kèm"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Đường",
+    "Vani",
+    "Bột năng",
+    "Muối/ lá dứa"
+  ],
+  "ingredient_ids": [
+    "ingre07839",
+    "ingre04554",
+    "ingre07583",
+    "ingre07140",
+    "ingre00849",
+    "ingre03813",
+    "ingre04041"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh cà",
+    "Nước cốt dừa",
+    "Đường",
+    "Vani",
+    "Bột năng",
+    "Muối/ lá dứa",
+    "Món ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Green pea pod",
+    "Coconut milk",
+    "Sugar",
+    "Vanilla",
+    "Cornstarch",
+    "Salt/Lemongrass Leaves",
+    "Side dish"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh ca",
+    "nuoc cot dua",
+    "duong",
+    "vani",
+    "bot nang",
+    "muoi la dua",
+    "mon an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ la dua",
+      "new": "muoi la dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ lá dứa"
+    }
+  ]
+}

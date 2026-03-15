@@ -1,0 +1,118 @@
+{
+  "id": "dish3319",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3319.json",
+  "name_vi": "Nui sườn heo thịt viên",
+  "name_en": "",
+  "name_normalized": "nui suon heo thit vien",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương sườn heo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Thịt heo xay",
+    "Trứng cút",
+    "Ngò rí",
+    "Nui"
+  ],
+  "seasonings": [
+    "Nước cốt gà",
+    "Cà rốt",
+    "Hành tím băm",
+    "Hành phi",
+    "Hạt nêm gà",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07427",
+    "ingre04572",
+    "ingre02741",
+    "ingre01419",
+    "ingre02673",
+    "ingre06414",
+    "ingre02774",
+    "ingre06816",
+    "ingre04343",
+    "ingre02730",
+    "ingre04450",
+    "ingre03000",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Xương sườn heo",
+    "Nước cốt gà",
+    "Hành tây",
+    "Cà rốt",
+    "Hành lá",
+    "Thịt heo xay",
+    "Hành tím băm",
+    "Trứng cút",
+    "Ngò rí",
+    "Hành phi",
+    "Nui",
+    "Hạt nêm gà",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork rib",
+    "Chicken broth",
+    "Onion",
+    "Carrot",
+    "Scallion",
+    "Ground Pork",
+    "Chopped Scallion",
+    "Quail egg",
+    "Parsley",
+    "Garlic Fried",
+    "Rice noodles",
+    "Chicken Seasoning",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "xuong suon heo",
+    "nuoc cot ga",
+    "hanh tay",
+    "ca rot",
+    "hanh la",
+    "thit heo xay",
+    "hanh tim bam",
+    "trung cut",
+    "ngo ri",
+    "hanh phi",
+    "nui",
+    "hat nem ga",
+    "muoi",
+    "duong",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

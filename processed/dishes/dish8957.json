@@ -1,0 +1,116 @@
+{
+  "id": "dish8957",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8957.json",
+  "name_vi": "Phở cuốn chay",
+  "name_en": "",
+  "name_normalized": "pho cuon chay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Chả chay"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô",
+    "Nấm mèo",
+    "Rau xà lách",
+    "Hành lá",
+    "Nước"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột bắp",
+    "Bột năng",
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Nước cốt chanh",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00564",
+    "ingre00849",
+    "ingre01260",
+    "ingre04966",
+    "ingre04930",
+    "ingre05410",
+    "ingre07063",
+    "ingre07966",
+    "ingre02673",
+    "ingre04490",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583",
+    "ingre04538",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột bắp",
+    "Bột năng",
+    "Chả chay",
+    "Nấm đông cô",
+    "Nấm mèo",
+    "Rau xà lách",
+    "Tỏi",
+    "Ớt",
+    "Hành lá",
+    "Nước",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Nước cốt chanh",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Corn starch",
+    "Cornstarch",
+    "Vegetarian sausage",
+    "Mushroom",
+    "lettuce",
+    "Garlic",
+    "Pepper",
+    "Scallion",
+    "Water",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot bap",
+    "bot nang",
+    "cha chay",
+    "nam dong co",
+    "nam meo",
+    "rau xa lach",
+    "toi",
+    "ot",
+    "hanh la",
+    "nuoc",
+    "hat nem chay",
+    "muoi",
+    "duong",
+    "nuoc cot chanh",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

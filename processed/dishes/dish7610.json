@@ -1,0 +1,67 @@
+{
+  "id": "dish7610",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7610.json",
+  "name_vi": "Trứng hấp sữa",
+  "name_en": "",
+  "name_normalized": "trung hap sua",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Sữa tươi",
+    "Ức gà",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Rượu trắng",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06144",
+    "ingre08103",
+    "ingre07396",
+    "ingre05574",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Sữa tươi",
+    "Ức gà",
+    "Xúc xích",
+    "Rượu trắng",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Fresh Milk",
+    "Chicken breast",
+    "Sausage",
+    "White wine",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "sua tuoi",
+    "uc ga",
+    "xuc xich",
+    "ruou trang",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

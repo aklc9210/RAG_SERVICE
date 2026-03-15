@@ -1,0 +1,158 @@
+{
+  "id": "dish0002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0002.json",
+  "name_vi": "Móng giò nấu canh chua",
+  "name_en": "",
+  "name_normalized": "mong gio nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Chân giò trước",
+    "Me",
+    "Hành tím",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Gốc ngò rí/Húng quế",
+    "Gốc ngò gai",
+    "Cà chua",
+    "Cần tây",
+    "Bún khô"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Nước mắm ngon 40 độ đạm",
+    "Bột nêm",
+    "Bột ngọt",
+    "Giấm/Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01237",
+    "ingre03643",
+    "ingre02768",
+    "ingre05900",
+    "ingre02483",
+    "ingre02481",
+    "ingre01354",
+    "ingre01812",
+    "ingre07966",
+    "ingre00346",
+    "ingre03746",
+    "ingre07583",
+    "ingre04707",
+    "ingre00838",
+    "ingre00819",
+    "ingre02383"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò trước",
+    "Me",
+    "Hành tím",
+    "Sả",
+    "Gốc ngò rí/Húng quế",
+    "Gốc ngò gai",
+    "Cà chua",
+    "Cần tây",
+    "Ớt",
+    "Bún khô",
+    "Muối",
+    "Đường",
+    "Nước mắm ngon 40 độ đạm",
+    "Bột nêm",
+    "Bột ngọt",
+    "Giấm/Chanh"
+  ],
+  "ingredient_names_en": [
+    "Front pork hock",
+    "Tamarind",
+    "Shallot",
+    "Lemongrass",
+    "Cilantro",
+    "Sage",
+    "Tomato",
+    "Celery",
+    "Pepper",
+    "Dry vermicelli",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "Seasoning Powder",
+    "MSG",
+    "Vinegar/Lime"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio truoc",
+    "me",
+    "hanh tim",
+    "sa",
+    "goc ngo ri hung que",
+    "goc ngo gai",
+    "ca chua",
+    "can tay",
+    "ot",
+    "bun kho",
+    "muoi",
+    "duong",
+    "nuoc mam ngon 40 do dam",
+    "bot nem",
+    "bot ngot",
+    "giam chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Front pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò trước"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "goc ngo ri/hung que",
+      "new": "goc ngo ri hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gốc ngò rí/Húng quế"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "giam/chanh",
+      "new": "giam chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Giấm/Chanh"
+    }
+  ]
+}

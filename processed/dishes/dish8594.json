@@ -1,0 +1,126 @@
+{
+  "id": "dish8594",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8594.json",
+  "name_vi": "Lẩu bò nhúng giấm (dấm)",
+  "name_en": "",
+  "name_normalized": "lau bo nhung giam dam",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Thơm",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Giấm",
+    "Đường phèn",
+    "Mắm nêm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre06247",
+    "ingre02741",
+    "ingre07063",
+    "ingre02768",
+    "ingre05900",
+    "ingre08026",
+    "ingre04626",
+    "ingre02355",
+    "ingre07635",
+    "ingre04148",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Thơm",
+    "Hành tây",
+    "Tỏi",
+    "Hành tím",
+    "Sả",
+    "Ớt hiểm",
+    "Nước dừa tươi",
+    "Giấm",
+    "Đường phèn",
+    "Mắm nêm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Basil",
+    "Onion",
+    "Garlic",
+    "Shallot",
+    "Lemongrass",
+    "Hot pepper",
+    "Coconut water",
+    "Vinegar",
+    "Brown Sugar",
+    "Fish sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "thom",
+    "hanh tay",
+    "toi",
+    "hanh tim",
+    "sa",
+    "ot hiem",
+    "nuoc dua tuoi",
+    "giam",
+    "duong phen",
+    "mam nem",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lau bo nhung giam (dam)",
+      "new": "lau bo nhung giam dam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

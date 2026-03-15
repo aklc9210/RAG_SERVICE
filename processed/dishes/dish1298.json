@@ -1,0 +1,66 @@
+{
+  "id": "dish1298",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1298.json",
+  "name_vi": "Bánh mì keto",
+  "name_en": "",
+  "name_normalized": "banh mi keto",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Trứng gà (tách riêng lòng trắng và lòng đỏ)"
+  ],
+  "seasonings": [
+    "Bột hạnh nhân",
+    "Bột tartar",
+    "Bơ đã làm tan chảy",
+    "Baking soda",
+    "Giấm táo"
+  ],
+  "ingredient_ids": [
+    "ingre00691",
+    "ingre06824",
+    "ingre00938",
+    "ingre00414",
+    "ingre00018",
+    "ingre02372"
+  ],
+  "ingredient_names_vi": [
+    "Bột hạnh nhân",
+    "Trứng gà (tách riêng lòng trắng và lòng đỏ)",
+    "Bột tartar",
+    "Bơ đã làm tan chảy",
+    "Baking soda",
+    "Giấm táo"
+  ],
+  "ingredient_names_en": [
+    "Almond flour",
+    "Chicken egg (separate the white and yolk)",
+    "Baking Powder",
+    "Melted Butter",
+    "Baking soda",
+    "Apple vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "bot hanh nhan",
+    "trung ga tach rieng long trang va long do",
+    "bot tartar",
+    "bo da lam tan chay",
+    "baking soda",
+    "giam tao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "trung ga (tach rieng long trang va long do)",
+      "new": "trung ga tach rieng long trang va long do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Trứng gà (tách riêng lòng trắng và lòng đỏ)"
+    }
+  ]
+}

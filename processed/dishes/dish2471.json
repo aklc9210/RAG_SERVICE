@@ -1,0 +1,73 @@
+{
+  "id": "dish2471",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2471.json",
+  "name_vi": "Bánh mì bơ cà phê",
+  "name_en": "",
+  "name_normalized": "banh mi bo ca phe",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Men khô",
+    "Cà phê đen hòa tan"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Đường đen",
+    "Muối",
+    "Sữa bột nguyên kem"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre06147",
+    "ingre00382",
+    "ingre06823",
+    "ingre07668",
+    "ingre03746",
+    "ingre06087",
+    "ingre03674",
+    "ingre01413"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Trứng gà",
+    "Đường đen",
+    "Muối",
+    "Sữa bột nguyên kem",
+    "Men khô",
+    "Cà phê đen hòa tan"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Fat-free Milk",
+    "Butter",
+    "Chicken egg",
+    "Black sugar",
+    "Salt",
+    "Whole Milk Powder",
+    "Dried yeast",
+    "Instant coffee"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "sua tuoi khong duong",
+    "bo lat",
+    "trung ga",
+    "duong den",
+    "muoi",
+    "sua bot nguyen kem",
+    "men kho",
+    "ca phe den hoa tan"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish10316",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10316.json",
+  "name_vi": "Cách làm chè bột lọc nhân đậu phộng (lạc)",
+  "name_en": "",
+  "name_normalized": "cach lam che bot loc nhan dau phong lac",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Nước cốt dừa",
+    "Đường",
+    "Gừng cắt sợi",
+    "Vani",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre07781",
+    "ingre04554",
+    "ingre07583",
+    "ingre04622",
+    "ingre02501",
+    "ingre07140",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Đậu phộng",
+    "Nước cốt dừa",
+    "Đường",
+    "Nước dừa",
+    "Gừng cắt sợi",
+    "Vani",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Peanut",
+    "Coconut milk",
+    "Sugar",
+    "Coconut water",
+    "Ginger丝切片",
+    "Vanilla",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "dau phong",
+    "nuoc cot dua",
+    "duong",
+    "nuoc dua",
+    "gung cat soi",
+    "vani",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam che bot loc nhan dau phong (lac)",
+      "new": "cach lam che bot loc nhan dau phong lac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

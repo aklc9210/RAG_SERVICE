@@ -1,0 +1,97 @@
+{
+  "id": "dish9289",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9289.json",
+  "name_vi": "Sốt XO",
+  "name_en": "",
+  "name_normalized": "sot xo",
+  "category": "an vat",
+  "main_ingredients": [
+    "Tôm khô",
+    "Cồi sò điệp khô",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt tươi",
+    "Ớt khô",
+    "Ớt bột hàn quốc",
+    "Xì dầu",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06941",
+    "ingre01854",
+    "ingre02768",
+    "ingre07063",
+    "ingre08078",
+    "ingre08039",
+    "ingre07983",
+    "ingre07381",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Tôm khô",
+    "Cồi sò điệp khô",
+    "Hành tím",
+    "Tỏi",
+    "Ớt tươi",
+    "Ớt khô",
+    "Ớt bột hàn quốc",
+    "Xì dầu",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Dried Shrimp",
+    "Dried sea urchin Roe",
+    "Shallot",
+    "Garlic",
+    "Fresh chili",
+    "Dried Pepper",
+    "Korean chili powder",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "tom kho",
+    "coi so diep kho",
+    "hanh tim",
+    "toi",
+    "ot tuoi",
+    "ot kho",
+    "ot bot han quoc",
+    "xi dau",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

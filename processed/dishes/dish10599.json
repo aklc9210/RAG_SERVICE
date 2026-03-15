@@ -1,0 +1,112 @@
+{
+  "id": "dish10599",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10599.json",
+  "name_vi": "Mít trộn chay Đà Nẵng",
+  "name_en": "",
+  "name_normalized": "mit tron chay da nang",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Mít non",
+    "Đậu phộng",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm tỏi ớt làm sẵn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04035",
+    "ingre07781",
+    "ingre05359",
+    "ingre04329",
+    "ingre01079",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre04713",
+    "ingre00831"
+  ],
+  "ingredient_names_vi": [
+    "Mít non",
+    "Đậu phộng",
+    "Rau răm",
+    "Ngò gai",
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Nước mắm tỏi ớt làm sẵn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_names_en": [
+    "Young banana blossom",
+    "Peanut",
+    "Vietnamese coriander",
+    "Culantro",
+    "Lemon",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Ready-made garlic chili fish sauce",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mit non",
+    "dau phong",
+    "rau ram",
+    "ngo gai",
+    "chanh",
+    "toi",
+    "ot",
+    "hanh tim",
+    "nuoc mam toi ot lam san",
+    "bot ngot duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

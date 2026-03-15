@@ -1,0 +1,82 @@
+{
+  "id": "dish6262",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6262.json",
+  "name_vi": "Ếch om củ chuối",
+  "name_en": "",
+  "name_normalized": "ech om cu chuoi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ếch"
+  ],
+  "secondary_ingredients": [
+    "Đậu phụ",
+    "Củ chuối",
+    "Mẻ đặc",
+    "Mỡ heo"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Ớt",
+    "Gia vị mì tôm chua cay",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre03461",
+    "ingre07810",
+    "ingre01858",
+    "ingre07966",
+    "ingre04172",
+    "ingre04192",
+    "ingre02295",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Lá lốt",
+    "Đậu phụ",
+    "Củ chuối",
+    "Ớt",
+    "Mẻ đặc",
+    "Mỡ heo",
+    "Gia vị mì tôm chua cay",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Cinnamon Leaf",
+    "Tofu",
+    "Banana",
+    "Pepper",
+    "Tamarind",
+    "Pork fat",
+    "Hot Pasta Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "la lot",
+    "dau phu",
+    "cu chuoi",
+    "ot",
+    "me dac",
+    "mo heo",
+    "gia vi mi tom chua cay",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

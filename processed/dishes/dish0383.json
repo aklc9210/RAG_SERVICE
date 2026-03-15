@@ -1,0 +1,96 @@
+{
+  "id": "dish0383",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0383.json",
+  "name_vi": "Canh nghêu nấu ngót",
+  "name_en": "",
+  "name_normalized": "canh ngheu nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Nghêu",
+    "Cà chua",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Rau cần tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04303",
+    "ingre01354",
+    "ingre06247",
+    "ingre05242",
+    "ingre02768",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Nghêu",
+    "Cà chua",
+    "Thơm",
+    "Rau cần tây",
+    "Hành tím",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Tomato",
+    "Basil",
+    "Celery Weed",
+    "Shallot",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ngheu",
+    "ca chua",
+    "thom",
+    "rau can tay",
+    "hanh tim",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

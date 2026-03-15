@@ -1,0 +1,66 @@
+{
+  "id": "dish10475",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10475.json",
+  "name_vi": "Chè xoài Hong Kong - Mango sago",
+  "name_en": "",
+  "name_normalized": "che xoai hong kong mango sago",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Xoài chín"
+  ],
+  "secondary_ingredients": [
+    "Bưởi",
+    "Hạt sago"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07332",
+    "ingre00424",
+    "ingre03028",
+    "ingre04554",
+    "ingre06147",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Xoài chín",
+    "Bưởi",
+    "Hạt sago",
+    "Nước cốt dừa",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Mango",
+    "Orange",
+    "Sago pellet",
+    "Coconut milk",
+    "Fat-free Milk",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "xoai chin",
+    "buoi",
+    "hat sago",
+    "nuoc cot dua",
+    "sua tuoi khong duong",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "che xoai hong kong - mango sago",
+      "new": "che xoai hong kong mango sago",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

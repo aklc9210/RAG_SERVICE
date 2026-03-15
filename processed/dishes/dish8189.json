@@ -1,0 +1,125 @@
+{
+  "id": "dish8189",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8189.json",
+  "name_vi": "Gỏi chân gà ngó sen",
+  "name_en": "",
+  "name_normalized": "goi chan ga ngo sen",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chân gà",
+    "Ngó sen",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Tắc",
+    "Rau răm",
+    "Húng lủi",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Gừng",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre04361",
+    "ingre01419",
+    "ingre02020",
+    "ingre07966",
+    "ingre05900",
+    "ingre07057",
+    "ingre02485",
+    "ingre05359",
+    "ingre02859",
+    "ingre07063",
+    "ingre04694",
+    "ingre03929",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Ngó sen",
+    "Cà rốt",
+    "Dưa leo",
+    "Ớt",
+    "Sả",
+    "Tắc",
+    "Gừng",
+    "Rau răm",
+    "Húng lủi",
+    "Tỏi",
+    "Nước mắm",
+    "Mè rang",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Lotus leaf",
+    "Carrot",
+    "Cucumber",
+    "Pepper",
+    "Lemongrass",
+    "Tamarind",
+    "Ginger",
+    "Vietnamese coriander",
+    "Peppermint",
+    "Garlic",
+    "Fish Sauce",
+    "Roasted Sesame Seeds",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "ngo sen",
+    "ca rot",
+    "dua leo",
+    "ot",
+    "sa",
+    "tac",
+    "gung",
+    "rau ram",
+    "hung lui",
+    "toi",
+    "nuoc mam",
+    "me rang",
+    "muoi",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

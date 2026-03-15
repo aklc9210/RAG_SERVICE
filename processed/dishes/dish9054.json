@@ -1,0 +1,89 @@
+{
+  "id": "dish9054",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9054.json",
+  "name_vi": "Bánh đúc gân lá dứa - bánh đúc ngọt",
+  "name_en": "",
+  "name_normalized": "banh duc gan la dua banh duc ngot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Lá dứa",
+    "Mè rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bột gạo",
+    "Tinh bột bắp",
+    "Nước cốt dừa",
+    "Đường thốt nốt",
+    "Gừng cắt lát",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre00668",
+    "ingre06562",
+    "ingre04554",
+    "ingre07647",
+    "ingre02497",
+    "ingre03417",
+    "ingre03929",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Bột gạo",
+    "Tinh bột bắp",
+    "Nước cốt dừa",
+    "Đường thốt nốt",
+    "Gừng cắt lát",
+    "Lá dứa",
+    "Mè rang",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Rice flour",
+    "Corn starch",
+    "Coconut milk",
+    "Cane Sugar",
+    "Ginger Slices",
+    "Pandan叶",
+    "Roasted Sesame Seeds",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "bot gao",
+    "tinh bot bap",
+    "nuoc cot dua",
+    "duong thot not",
+    "gung cat lat",
+    "la dua",
+    "me rang",
+    "duong muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh duc gan la dua - banh duc ngot",
+      "new": "banh duc gan la dua banh duc ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

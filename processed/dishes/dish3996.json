@@ -1,0 +1,82 @@
+{
+  "id": "dish3996",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3996.json",
+  "name_vi": "Thịt ngan nướng riềng mẻ",
+  "name_en": "",
+  "name_normalized": "thit ngan nuong rieng me",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ngan",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Rượu trắng",
+    "Muối",
+    "Bột ngọt",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre04299",
+    "ingre05900",
+    "ingre05436",
+    "ingre04165",
+    "ingre02485",
+    "ingre05574",
+    "ingre03746",
+    "ingre00819",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Ngan",
+    "Sả",
+    "Riềng",
+    "Mẻ",
+    "Gừng",
+    "Rượu trắng",
+    "Muối",
+    "Bột ngọt",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Lamb",
+    "Lemongrass",
+    "Galangal",
+    "Tamarind",
+    "Ginger",
+    "White wine",
+    "Salt",
+    "MSG",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "ngan",
+    "sa",
+    "rieng",
+    "me",
+    "gung",
+    "ruou trang",
+    "muoi",
+    "bot ngot",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

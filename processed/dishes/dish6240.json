@@ -1,0 +1,97 @@
+{
+  "id": "dish6240",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6240.json",
+  "name_vi": "Thịt kho dầu hào",
+  "name_en": "",
+  "name_normalized": "thit kho dau hao",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Giấm",
+    "Dầu hào",
+    "Tương ớt cay",
+    "Tương ớt ngọt",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre02355",
+    "ingre02080",
+    "ingre07029",
+    "ingre07039",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Giấm",
+    "Dầu hào",
+    "Tương ớt cay",
+    "Tương ớt ngọt",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Vinegar",
+    "Soy sauce",
+    "Hot chili sauce",
+    "Sweet Chili Sauce",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "giam",
+    "dau hao",
+    "tuong ot cay",
+    "tuong ot ngot",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre06112",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06112.json",
+  "name_vi": "sữa chua:",
+  "name_en": "Yogurt:",
+  "name_normalized": "sua chua",
+  "synonyms": [
+    "đậu phộng",
+    "đậu xanh"
+  ],
+  "synonyms_normalized": [
+    "dau phong",
+    "dau xanh"
+  ],
+  "category": "milk",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua chua:",
+      "new": "sua chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

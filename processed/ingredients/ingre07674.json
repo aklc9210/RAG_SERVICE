@@ -1,0 +1,25 @@
+{
+  "id": "ingre07674",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07674.json",
+  "name_vi": "đường/ bột canh",
+  "name_en": "Cornstarch",
+  "name_normalized": "duong bot canh",
+  "synonyms": [
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ bot canh",
+      "new": "duong bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

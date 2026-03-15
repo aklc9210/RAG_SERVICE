@@ -1,0 +1,64 @@
+{
+  "id": "dish7796",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7796.json",
+  "name_vi": "Lẩu vịt nước dừa (hoặc nước cốt dừa)",
+  "name_en": "",
+  "name_normalized": "lau vit nuoc dua hoac nuoc cot dua",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt vịt 600g Khoai môn hoặc khoai sọ"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương - nấm rơm - nấm kim châm",
+    "Dừa xiêm"
+  ],
+  "seasonings": [
+    "Dấm bỗng"
+  ],
+  "ingredient_ids": [
+    "ingre06517",
+    "ingre02049",
+    "ingre04911",
+    "ingre02210"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt 600g Khoai môn hoặc khoai sọ",
+    "Dấm bỗng",
+    "Nấm hương - nấm rơm - nấm kim châm",
+    "Dừa xiêm"
+  ],
+  "ingredient_names_en": [
+    "Duck肉 600g 山药 或 薯蓣",
+    "Apple cider vinegar",
+    "Shiitake - Straw - Bamboo Shoots",
+    "Jackfruit"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit 600g khoai mon hoac khoai so",
+    "dam bong",
+    "nam huong nam rom nam kim cham",
+    "dua xiem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lau vit nuoc dua (hoac nuoc cot dua)",
+      "new": "lau vit nuoc dua hoac nuoc cot dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nam huong - nam rom - nam kim cham",
+      "new": "nam huong nam rom nam kim cham",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nấm hương - nấm rơm - nấm kim châm"
+    }
+  ]
+}

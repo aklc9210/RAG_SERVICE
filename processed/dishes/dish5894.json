@@ -1,0 +1,93 @@
+{
+  "id": "dish5894",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5894.json",
+  "name_vi": "Cá nục kho dưa chua",
+  "name_en": "",
+  "name_normalized": "ca nuc kho dua chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Dưa cải chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Ớt",
+    "Hành phi",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre02006",
+    "ingre04694",
+    "ingre07966",
+    "ingre02768",
+    "ingre02730",
+    "ingre04672",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Dưa cải chua",
+    "Nước mắm",
+    "Ớt",
+    "Hành tím",
+    "Hành phi",
+    "Nước màu",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pickled Chinese cabbage",
+    "Fish Sauce",
+    "Pepper",
+    "Shallot",
+    "Garlic Fried",
+    "Food coloring",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "dua cai chua",
+    "nuoc mam",
+    "ot",
+    "hanh tim",
+    "hanh phi",
+    "nuoc mau",
+    "dau an",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

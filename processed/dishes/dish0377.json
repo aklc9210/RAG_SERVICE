@@ -1,0 +1,63 @@
+{
+  "id": "dish0377",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0377.json",
+  "name_vi": "Canh trai nấu mồng tơi",
+  "name_en": "",
+  "name_normalized": "canh trai nau mong toi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Trai"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Rau mồng tơi",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06682",
+    "ingre05320",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Trai",
+    "Rau mồng tơi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Green pea",
+    "Mint",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "trai",
+    "rau mong toi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

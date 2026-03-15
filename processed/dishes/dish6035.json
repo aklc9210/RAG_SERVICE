@@ -1,0 +1,130 @@
+{
+  "id": "dish6035",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6035.json",
+  "name_vi": "Cá chép kho riềng",
+  "name_en": "",
+  "name_normalized": "ca chep kho rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chép",
+    "Thịt ba chỉ",
+    "Riềng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nghệ"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Dầu hào",
+    "Muối",
+    "Đường",
+    "Bột nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre06275",
+    "ingre05436",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre04304",
+    "ingre07966",
+    "ingre04538",
+    "ingre02124",
+    "ingre04694",
+    "ingre02080",
+    "ingre03746",
+    "ingre07583",
+    "ingre00838",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Thịt ba chỉ",
+    "Riềng",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Nghệ",
+    "Ớt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Dầu hào",
+    "Muối",
+    "Đường",
+    "Bột nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Pork belly",
+    "Galangal",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Turmeric",
+    "Pepper",
+    "Lemon juice",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning Powder",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "thit ba chi",
+    "rieng",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "nghe",
+    "ot",
+    "nuoc cot chanh",
+    "dau an",
+    "nuoc mam",
+    "dau hao",
+    "muoi",
+    "duong",
+    "bot nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

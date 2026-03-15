@@ -1,0 +1,67 @@
+{
+  "id": "dish7025",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7025.json",
+  "name_vi": "Tôm chiên bơ tỏi",
+  "name_en": "",
+  "name_normalized": "tom chien bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre01015",
+    "ingre00382",
+    "ingre07063",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Bột ớt",
+    "Bơ lạt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Red Pepper Powder",
+    "Butter",
+    "Garlic",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "bot ot",
+    "bo lat",
+    "toi",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

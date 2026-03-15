@@ -1,0 +1,82 @@
+{
+  "id": "dish8058",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8058.json",
+  "name_vi": "Nộm sứa su hào",
+  "name_en": "",
+  "name_normalized": "nom sua su hao",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa"
+  ],
+  "secondary_ingredients": [
+    "Su hào",
+    "Rau bạc hà",
+    "Mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Chanh",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06071",
+    "ingre01419",
+    "ingre05787",
+    "ingre08055",
+    "ingre01079",
+    "ingre05207",
+    "ingre03925",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Sứa",
+    "Cà rốt",
+    "Su hào",
+    "Ớt sừng",
+    "Chanh",
+    "Rau bạc hà",
+    "Mè",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Jellyfish",
+    "Carrot",
+    "Hot pepper",
+    "Lemon",
+    "Mint",
+    "Tamarind",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "sua",
+    "ca rot",
+    "su hao",
+    "ot sung",
+    "chanh",
+    "rau bac ha",
+    "me",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

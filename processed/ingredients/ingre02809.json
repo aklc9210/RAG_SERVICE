@@ -1,0 +1,29 @@
+{
+  "id": "ingre02809",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02809.json",
+  "name_vi": "hành tím/ tỏi/ lá chanh",
+  "name_en": "Garlic/Scallion/Lime Leaves",
+  "name_normalized": "hanh tim toi la chanh",
+  "synonyms": [
+    "tỏi băm",
+    "tỏi non",
+    "tỏi tây"
+  ],
+  "synonyms_normalized": [
+    "toi bam",
+    "toi non",
+    "toi tay"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tim/ toi/ la chanh",
+      "new": "hanh tim toi la chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

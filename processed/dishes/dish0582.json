@@ -1,0 +1,96 @@
+{
+  "id": "dish0582",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0582.json",
+  "name_vi": "Canh ngó khoai nấu sườn",
+  "name_en": "",
+  "name_normalized": "canh ngo khoai nau suon",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ngó khoai",
+    "Sườn heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04359",
+    "ingre05882",
+    "ingre02768",
+    "ingre02673",
+    "ingre04343",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ngó khoai",
+    "Sườn heo",
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Rib Pork",
+    "Shallot",
+    "Scallion",
+    "Parsley",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ngo khoai",
+    "suon heo",
+    "hanh tim",
+    "hanh la",
+    "ngo ri",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish1941",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1941.json",
+  "name_vi": "Bánh quy tôm khô",
+  "name_en": "",
+  "name_normalized": "banh quy tom kho",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Ruốc khô",
+    "Tôm khô",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì số 13",
+    "Bột phô mai",
+    "Đường bột",
+    "Trứng gà",
+    "Ớt bột",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre00879",
+    "ingre00382",
+    "ingre05487",
+    "ingre06941",
+    "ingre07589",
+    "ingre06823",
+    "ingre02673",
+    "ingre07977",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Bột phô mai",
+    "Bơ lạt",
+    "Ruốc khô",
+    "Tôm khô",
+    "Đường bột",
+    "Trứng gà",
+    "Hành lá",
+    "Ớt bột",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Mozzarella cheese powder",
+    "Butter",
+    "Dried fish paste",
+    "Dried Shrimp",
+    "Sugar Powder",
+    "Chicken egg",
+    "Scallion",
+    "Chili powder",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "bot pho mai",
+    "bo lat",
+    "ruoc kho",
+    "tom kho",
+    "duong bot",
+    "trung ga",
+    "hanh la",
+    "ot bot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

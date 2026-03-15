@@ -1,0 +1,87 @@
+{
+  "id": "dish4547",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4547.json",
+  "name_vi": "Khoai tây xào nấm",
+  "name_en": "",
+  "name_normalized": "khoai tay xao nam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Khoai tây bi",
+    "Nấm bào ngư"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03224",
+    "ingre04894",
+    "ingre08008",
+    "ingre08014",
+    "ingre02741",
+    "ingre02645",
+    "ingre04790",
+    "ingre02124",
+    "ingre02997",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây bi",
+    "Nấm bào ngư",
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Hành tây",
+    "Hành boa rô",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Oyster mushroom",
+    "Green Bell Pepper",
+    "Red bell pepper",
+    "Onion",
+    "Garlic",
+    "Soy Sauce",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay bi",
+    "nam bao ngu",
+    "ot chuong xanh",
+    "ot chuong do",
+    "hanh tay",
+    "hanh boa ro",
+    "nuoc tuong",
+    "dau an",
+    "hat nem chay",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish10359",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10359.json",
+  "name_vi": "Chè đỗ đen (đậu đen) bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "che do den dau den bang noi ap suat",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Đậu đen"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa"
+  ],
+  "seasonings": [
+    "Bột khoai",
+    "Bột báng",
+    "Bột năng",
+    "Bột nước cốt dừa",
+    "Vani",
+    "Đường phèn",
+    "Đường cát trắng"
+  ],
+  "ingredient_ids": [
+    "ingre07863",
+    "ingre00708",
+    "ingre00519",
+    "ingre00849",
+    "ingre00855",
+    "ingre03417",
+    "ingre07140",
+    "ingre07635",
+    "ingre07601"
+  ],
+  "ingredient_names_vi": [
+    "Đậu đen",
+    "Bột khoai",
+    "Bột báng",
+    "Bột năng",
+    "Bột nước cốt dừa",
+    "Lá dứa",
+    "Vani",
+    "Đường phèn",
+    "Đường cát trắng"
+  ],
+  "ingredient_names_en": [
+    "Black beans",
+    "Potato starch",
+    "Arrowroot粉",
+    "Cornstarch",
+    "Coconut Milk Powder",
+    "Pandan叶",
+    "Vanilla",
+    "Brown Sugar",
+    "White Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau den",
+    "bot khoai",
+    "bot bang",
+    "bot nang",
+    "bot nuoc cot dua",
+    "la dua",
+    "vani",
+    "duong phen",
+    "duong cat trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "che do den (dau den) bang noi ap suat",
+      "new": "che do den dau den bang noi ap suat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

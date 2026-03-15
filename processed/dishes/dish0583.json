@@ -1,0 +1,73 @@
+{
+  "id": "dish0583",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0583.json",
+  "name_vi": "Canh riêu cua nấu mẻ",
+  "name_en": "",
+  "name_normalized": "canh rieu cua nau me",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cua đồng",
+    "Hẹ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mẻ chua"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre03085",
+    "ingre02768",
+    "ingre04166",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Hẹ",
+    "Hành tím",
+    "Mẻ chua",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Garlic Chives",
+    "Shallot",
+    "Tamarind",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "he",
+    "hanh tim",
+    "me chua",
+    "dau an",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

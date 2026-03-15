@@ -1,0 +1,97 @@
+{
+  "id": "dish6733",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6733.json",
+  "name_vi": "Vịt chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "vit chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Vịt"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Hạt nêm",
+    "Bột tỏi",
+    "Bột ớt",
+    "Bột gừng",
+    "Ớt",
+    "Tỏi",
+    "Đường",
+    "Nước mắm",
+    "Bột cà ri"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre02995",
+    "ingre00978",
+    "ingre01015",
+    "ingre00678",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre02134",
+    "ingre07583",
+    "ingre04694",
+    "ingre00631"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Hạt nêm",
+    "Bột tỏi",
+    "Bột ớt",
+    "Bột gừng",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Dầu điều",
+    "Đường",
+    "Nước mắm",
+    "Bột cà ri"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Seasoning",
+    "Garlic powder",
+    "Red Pepper Powder",
+    "Ginger powder",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Peanut oil",
+    "Sugar",
+    "Fish Sauce",
+    "Curry powder"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "hat nem",
+    "bot toi",
+    "bot ot",
+    "bot gung",
+    "sa",
+    "ot",
+    "toi",
+    "dau dieu",
+    "duong",
+    "nuoc mam",
+    "bot ca ri"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

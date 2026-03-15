@@ -1,0 +1,27 @@
+{
+  "id": "ingre06236",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06236.json",
+  "name_vi": "thì là/ hành lá",
+  "name_en": "Thai basil/Coriander",
+  "name_normalized": "thi la hanh la",
+  "synonyms": [
+    "hành lá",
+    "hành ngò"
+  ],
+  "synonyms_normalized": [
+    "hanh la",
+    "hanh ngo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thi la/ hanh la",
+      "new": "thi la hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

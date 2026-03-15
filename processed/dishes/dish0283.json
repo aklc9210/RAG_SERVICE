@@ -1,0 +1,76 @@
+{
+  "id": "dish0283",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0283.json",
+  "name_vi": "Canh cua nấu bầu",
+  "name_en": "",
+  "name_normalized": "canh cua nau bau",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bầu"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc thịt cua đồng",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Tỏi",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00440",
+    "ingre04667",
+    "ingre02124",
+    "ingre07063",
+    "ingre02673",
+    "ingre00831"
+  ],
+  "ingredient_names_vi": [
+    "Bầu",
+    "Nước lọc thịt cua đồng",
+    "Dầu ăn",
+    "Tỏi",
+    "Hành lá",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_names_en": [
+    "Zucchini",
+    "Dried River Crab Meat",
+    "Cooking oil",
+    "Garlic",
+    "Scallion",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bau",
+    "nuoc loc thit cua dong",
+    "dau an",
+    "toi",
+    "hanh la",
+    "bot ngot duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

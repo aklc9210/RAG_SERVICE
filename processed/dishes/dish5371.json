@@ -1,0 +1,96 @@
+{
+  "id": "dish5371",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5371.json",
+  "name_vi": "Vịt quay xào cải chua",
+  "name_en": "",
+  "name_normalized": "vit quay xao cai chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt vịt quay",
+    "Cải chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Tỏi băm",
+    "Bột ngọt/ đường",
+    "Dầu ăn",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre06520",
+    "ingre01777",
+    "ingre02673",
+    "ingre02741",
+    "ingre02485",
+    "ingre07966",
+    "ingre07071",
+    "ingre00831",
+    "ingre02124",
+    "ingre04790"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt quay",
+    "Cải chua",
+    "Hành lá",
+    "Hành tây",
+    "Gừng",
+    "Ớt",
+    "Tỏi băm",
+    "Bột ngọt/ đường",
+    "Dầu ăn",
+    "Nước tương"
+  ],
+  "ingredient_names_en": [
+    "Roast Duck Meat",
+    "Pickled cabbage",
+    "Scallion",
+    "Onion",
+    "Ginger",
+    "Pepper",
+    "Minced Garlic",
+    "Soy Sauce/Sugar",
+    "Cooking oil",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit quay",
+    "cai chua",
+    "hanh la",
+    "hanh tay",
+    "gung",
+    "ot",
+    "toi bam",
+    "bot ngot duong",
+    "dau an",
+    "nuoc tuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

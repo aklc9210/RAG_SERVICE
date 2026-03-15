@@ -1,0 +1,25 @@
+{
+  "id": "ingre04861",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04861.json",
+  "name_vi": "nước đường bánh nướng (hoặc thay bằng mật ong)",
+  "name_en": "Sweetened Condensed Milk (or Honey)",
+  "name_normalized": "nuoc duong banh nuong hoac thay bang mat ong",
+  "synonyms": [
+    "mật ong"
+  ],
+  "synonyms_normalized": [
+    "mat ong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc duong banh nuong (hoac thay bang mat ong)",
+      "new": "nuoc duong banh nuong hoac thay bang mat ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

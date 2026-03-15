@@ -1,0 +1,78 @@
+{
+  "id": "dish7251",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7251.json",
+  "name_vi": "Chả cá gói lá chuối",
+  "name_en": "",
+  "name_normalized": "cha ca goi la chuoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chả cá thác lác",
+    "Lá chuối"
+  ],
+  "secondary_ingredients": [
+    "Thì là"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01280",
+    "ingre03385",
+    "ingre06233",
+    "ingre02774",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chả cá thác lác",
+    "Lá chuối",
+    "Thì là",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Fish cake",
+    "Banana leaf",
+    "Dill",
+    "Chopped Scallion",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "cha ca thac lac",
+    "la chuoi",
+    "thi la",
+    "hanh tim bam",
+    "dau an",
+    "muoi",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

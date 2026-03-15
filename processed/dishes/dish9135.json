@@ -1,0 +1,97 @@
+{
+  "id": "dish9135",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9135.json",
+  "name_vi": "Bánh mì nướng muối ớt bằng chảo",
+  "name_en": "",
+  "name_normalized": "banh mi nuong muoi ot bang chao",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh mì",
+    "Xúc xích",
+    "Trứng cút bóc vỏ"
+  ],
+  "secondary_ingredients": [
+    "Tép khô",
+    "Chà bông",
+    "Bơ",
+    "Hành lá cắt nhỏ"
+  ],
+  "seasonings": [
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Ớt bột",
+    "Sốt Mayonnaise",
+    "Đường/Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00100",
+    "ingre07396",
+    "ingre06817",
+    "ingre06918",
+    "ingre01202",
+    "ingre00367",
+    "ingre02683",
+    "ingre05626",
+    "ingre02124",
+    "ingre07977",
+    "ingre05970",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì",
+    "Xúc xích",
+    "Trứng cút bóc vỏ",
+    "Tép khô",
+    "Chà bông",
+    "Bơ",
+    "Hành lá cắt nhỏ",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Ớt bột",
+    "Sốt Mayonnaise",
+    "Đường/Muối"
+  ],
+  "ingredient_names_en": [
+    "Baguette",
+    "Sausage",
+    "Salmon Roe",
+    "Dried shrimp",
+    "Pork floss",
+    "Butter",
+    "Chopped Green Onion",
+    "Shrimp paste",
+    "Cooking oil",
+    "Chili powder",
+    "Mayonnaise Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi",
+    "xuc xich",
+    "trung cut boc vo",
+    "tep kho",
+    "cha bong",
+    "bo",
+    "hanh la cat nho",
+    "sa te tom",
+    "dau an",
+    "ot bot",
+    "sot mayonnaise",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/Muối"
+    }
+  ]
+}

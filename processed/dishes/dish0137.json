@@ -1,0 +1,103 @@
+{
+  "id": "dish0137",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0137.json",
+  "name_vi": "Gà nấu chôm chôm",
+  "name_en": "",
+  "name_normalized": "ga nau chom chom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Chôm chôm chưa chín",
+    "Ngò ôm"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Hành tím",
+    "Nước sôi"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre01252",
+    "ingre04356",
+    "ingre07966",
+    "ingre07057",
+    "ingre01079",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583",
+    "ingre04743"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Chôm chôm chưa chín",
+    "Ngò ôm",
+    "Ớt",
+    "Tắc",
+    "Chanh",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Nước sôi"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Unripe passionfruit",
+    "Parsley",
+    "Pepper",
+    "Tamarind",
+    "Lemon",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Sugar",
+    "Boiling water"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "chom chom chua chin",
+    "ngo om",
+    "ot",
+    "tac",
+    "chanh",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "duong",
+    "nuoc soi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

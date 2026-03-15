@@ -1,0 +1,77 @@
+{
+  "id": "dish3720",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3720.json",
+  "name_vi": "Chân gà nướng mật ong bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "chan ga nuong mat ong bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Chân gà",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Dầu hào",
+    "Sa tế tôm",
+    "Sốt thịt nướng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre04124",
+    "ingre02124",
+    "ingre02080",
+    "ingre05626",
+    "ingre06004",
+    "ingre05900",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Mật ong",
+    "Dầu ăn",
+    "Dầu hào",
+    "Sa tế tôm",
+    "Sốt thịt nướng",
+    "Sả",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Honey",
+    "Cooking oil",
+    "Soy sauce",
+    "Shrimp paste",
+    "Barbecue sauce",
+    "Lemongrass",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "mat ong",
+    "dau an",
+    "dau hao",
+    "sa te tom",
+    "sot thit nuong",
+    "sa",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

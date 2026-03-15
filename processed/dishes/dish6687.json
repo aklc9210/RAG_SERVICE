@@ -1,0 +1,107 @@
+{
+  "id": "dish6687",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6687.json",
+  "name_vi": "Tai heo chiên giòn",
+  "name_en": "",
+  "name_normalized": "tai heo chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tai heo"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Giấm",
+    "Rượu gừng",
+    "Baking soda",
+    "Rượu mai quế lộ",
+    "Gừng",
+    "Dầu ăn",
+    "Ớt xay",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre02355",
+    "ingre05536",
+    "ingre00018",
+    "ingre05543",
+    "ingre05900",
+    "ingre02485",
+    "ingre02741",
+    "ingre02124",
+    "ingre08087",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Giấm",
+    "Rượu gừng",
+    "Baking soda",
+    "Rượu mai quế lộ",
+    "Sả",
+    "Gừng",
+    "Hành tây",
+    "Dầu ăn",
+    "Ớt xay",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Vinegar",
+    "Ginger酒",
+    "Baking soda",
+    "Sake Plum Ginger Wine",
+    "Lemongrass",
+    "Ginger",
+    "Onion",
+    "Cooking oil",
+    "Ground Chili Pepper",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "giam",
+    "ruou gung",
+    "baking soda",
+    "ruou mai que lo",
+    "sa",
+    "gung",
+    "hanh tay",
+    "dau an",
+    "ot xay",
+    "duong",
+    "muoi",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

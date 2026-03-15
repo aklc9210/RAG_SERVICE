@@ -1,0 +1,93 @@
+{
+  "id": "dish2512",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2512.json",
+  "name_vi": "Bánh gạo xào cay thịt bò",
+  "name_en": "",
+  "name_normalized": "banh gao xao cay thit bo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt bò",
+    "Bánh gạo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Xì dầu",
+    "Hạt nêm",
+    "Tỏi băm",
+    "Rượu gạo Hàn Quốc",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre00085",
+    "ingre07999",
+    "ingre02673",
+    "ingre07381",
+    "ingre02995",
+    "ingre07071",
+    "ingre05533",
+    "ingre02094",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Bánh gạo",
+    "Ớt chuông",
+    "Hành lá",
+    "Xì dầu",
+    "Hạt nêm",
+    "Tỏi băm",
+    "Rượu gạo Hàn Quốc",
+    "Dầu mè",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Glutinous Rice Cake",
+    "Bell pepper",
+    "Scallion",
+    "Soy Sauce",
+    "Seasoning",
+    "Minced Garlic",
+    "Korean rice wine",
+    "Sesame oil",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "banh gao",
+    "ot chuong",
+    "hanh la",
+    "xi dau",
+    "hat nem",
+    "toi bam",
+    "ruou gao han quoc",
+    "dau me",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

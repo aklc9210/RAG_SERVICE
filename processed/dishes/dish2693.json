@@ -1,0 +1,86 @@
+{
+  "id": "dish2693",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2693.json",
+  "name_vi": "Bánh pancake kem cháy - Creame brulee pancake",
+  "name_en": "",
+  "name_normalized": "banh pancake kem chay creame brulee pancake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Đậu xuất vani"
+  ],
+  "seasonings": [
+    "Đường",
+    "Tinh bột ngô",
+    "Sữa tươi không đường nóng",
+    "Chiết xuất vani",
+    "Sữa tươi không đường",
+    "Bột bánh",
+    "Bột nở",
+    "Lòng trắng trứng"
+  ],
+  "ingredient_ids": [
+    "ingre03584",
+    "ingre07583",
+    "ingre06569",
+    "ingre06154",
+    "ingre07862",
+    "ingre01139",
+    "ingre06147",
+    "ingre00521",
+    "ingre00867",
+    "ingre03579"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng gà",
+    "Đường",
+    "Tinh bột ngô",
+    "Sữa tươi không đường nóng",
+    "Đậu xuất vani",
+    "Chiết xuất vani",
+    "Sữa tươi không đường",
+    "Bột bánh",
+    "Bột nở",
+    "Lòng trắng trứng"
+  ],
+  "ingredient_names_en": [
+    "Egg yolk",
+    "Sugar",
+    "Corn starch",
+    "Hot Unsweetened Fresh Milk",
+    "Vanilla bean",
+    "Vanilla extract",
+    "Fat-free Milk",
+    "Bread flour",
+    "Baking powder",
+    "Egg white"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung ga",
+    "duong",
+    "tinh bot ngo",
+    "sua tuoi khong duong nong",
+    "dau xuat vani",
+    "chiet xuat vani",
+    "sua tuoi khong duong",
+    "bot banh",
+    "bot no",
+    "long trang trung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh pancake kem chay - creame brulee pancake",
+      "new": "banh pancake kem chay creame brulee pancake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

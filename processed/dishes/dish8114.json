@@ -1,0 +1,92 @@
+{
+  "id": "dish8114",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8114.json",
+  "name_vi": "Salad bắp cải tí hon hạt hồ đào",
+  "name_en": "",
+  "name_normalized": "salad bap cai ti hon hat ho dao",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bắp cải tí hon",
+    "Dầu ô liu",
+    "Hạt hồ đào"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Nam việt quất hoặc nho khô"
+  ],
+  "seasonings": [
+    "Phô mai ricotta",
+    "Giấm balsamic",
+    "Bột quế",
+    "Tỏi băm",
+    "Muối/tiêu",
+    "Đường nâu"
+  ],
+  "ingredient_ids": [
+    "ingre00467",
+    "ingre02120",
+    "ingre02955",
+    "ingre05111",
+    "ingre02356",
+    "ingre04124",
+    "ingre00888",
+    "ingre04290",
+    "ingre07071",
+    "ingre03826",
+    "ingre07628"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải tí hon",
+    "Dầu ô liu",
+    "Hạt hồ đào",
+    "Phô mai ricotta",
+    "Giấm balsamic",
+    "Mật ong",
+    "Bột quế",
+    "Nam việt quất hoặc nho khô",
+    "Tỏi băm",
+    "Muối/tiêu",
+    "Đường nâu"
+  ],
+  "ingredient_names_en": [
+    "Mini cabbage",
+    "Olive oil",
+    "Apricot kernel",
+    "Ricotta cheese",
+    "Balsamic vinegar",
+    "Honey",
+    "Cinnamon粉",
+    "Dried cranberries or raisins",
+    "Minced Garlic",
+    "Salt/Pepper",
+    "Brown Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai ti hon",
+    "dau o liu",
+    "hat ho dao",
+    "pho mai ricotta",
+    "giam balsamic",
+    "mat ong",
+    "bot que",
+    "nam viet quat hoac nho kho",
+    "toi bam",
+    "muoi tieu",
+    "duong nau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

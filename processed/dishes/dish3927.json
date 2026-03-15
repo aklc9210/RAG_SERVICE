@@ -1,0 +1,104 @@
+{
+  "id": "dish3927",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3927.json",
+  "name_vi": "Ốc tỏi nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "oc toi nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Ốc tỏi",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07955",
+    "ingre02673",
+    "ingre07063",
+    "ingre02768",
+    "ingre05900",
+    "ingre07781",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc tỏi",
+    "Hành lá",
+    "Tỏi",
+    "Hành tím",
+    "Sả",
+    "Đậu phộng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Garlic snail",
+    "Scallion",
+    "Garlic",
+    "Shallot",
+    "Lemongrass",
+    "Peanut",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc toi",
+    "hanh la",
+    "toi",
+    "hanh tim",
+    "sa",
+    "dau phong",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

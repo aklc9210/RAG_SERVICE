@@ -1,0 +1,93 @@
+{
+  "id": "dish5367",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5367.json",
+  "name_vi": "Tôm hùm xào mì sốt XO",
+  "name_en": "",
+  "name_normalized": "tom hum xao mi sot xo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì sợi khô",
+    "Tôm hùm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Lòng trắng trứng gà",
+    "Bột bắp",
+    "Nước sốt xào",
+    "Nước sốt bò lúc lắc",
+    "Sốt XO",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03994",
+    "ingre06940",
+    "ingre02673",
+    "ingre02741",
+    "ingre08055",
+    "ingre03580",
+    "ingre00564",
+    "ingre04776",
+    "ingre04754",
+    "ingre06024",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì sợi khô",
+    "Tôm hùm",
+    "Hành lá",
+    "Hành tây",
+    "Ớt sừng",
+    "Lòng trắng trứng gà",
+    "Bột bắp",
+    "Nước sốt xào",
+    "Nước sốt bò lúc lắc",
+    "Sốt XO",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Dry noodle strands",
+    "Prawn",
+    "Scallion",
+    "Onion",
+    "Hot pepper",
+    "Egg white",
+    "Corn starch",
+    "Stir-fry sauce",
+    "Beef Jus",
+    "Horseradish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi soi kho",
+    "tom hum",
+    "hanh la",
+    "hanh tay",
+    "ot sung",
+    "long trang trung ga",
+    "bot bap",
+    "nuoc sot xao",
+    "nuoc sot bo luc lac",
+    "sot xo",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

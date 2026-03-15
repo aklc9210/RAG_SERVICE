@@ -1,0 +1,54 @@
+{
+  "id": "dish5370",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5370.json",
+  "name_vi": "Mì xào pate",
+  "name_en": "",
+  "name_normalized": "mi xao pate",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì"
+  ],
+  "secondary_ingredients": [
+    "Pate"
+  ],
+  "seasonings": [
+    "Gia vị mì",
+    "Sa tế mì",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03950",
+    "ingre05020",
+    "ingre02293",
+    "ingre05625",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì",
+    "Pate",
+    "Gia vị mì",
+    "Sa tế mì",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Pate -> Pâté",
+    "Noodles Seasoning",
+    "Shredded noodle salad",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi",
+    "pate",
+    "gia vi mi",
+    "sa te mi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

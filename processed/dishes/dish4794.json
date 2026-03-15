@@ -1,0 +1,83 @@
+{
+  "id": "dish4794",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4794.json",
+  "name_vi": "Thịt bò xào tỏi tây",
+  "name_en": "",
+  "name_normalized": "thit bo xao toi tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi tây",
+    "Tỏi",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre07104",
+    "ingre02673",
+    "ingre07063",
+    "ingre06644",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Tỏi tây",
+    "Hành lá",
+    "Tỏi",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Bokchoy",
+    "Scallion",
+    "Garlic",
+    "Ground pepper",
+    "Seasoning",
+    "Sugar",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "toi tay",
+    "hanh la",
+    "toi",
+    "tieu xay",
+    "hat nem",
+    "duong",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

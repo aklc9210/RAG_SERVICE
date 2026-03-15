@@ -1,0 +1,83 @@
+{
+  "id": "dish9420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9420.json",
+  "name_vi": "Xôi xốm hạt sen mỡ gà",
+  "name_en": "",
+  "name_normalized": "xoi xom hat sen mo ga",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Đậu xanh bóc vỏ",
+    "Hạt sen tươi"
+  ],
+  "secondary_ingredients": [
+    "Cốm",
+    "Lá dứa",
+    "Dừa nạo sợi",
+    "Nước dừa tươi",
+    "Mỡ gà"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07542",
+    "ingre03032",
+    "ingre01831",
+    "ingre03417",
+    "ingre02187",
+    "ingre04626",
+    "ingre04554",
+    "ingre04189",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh bóc vỏ",
+    "Hạt sen tươi",
+    "Cốm",
+    "Lá dứa",
+    "Dừa nạo sợi",
+    "Nước dừa tươi",
+    "Nước cốt dừa",
+    "Mỡ gà",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Green beans peeled",
+    "Fresh lotus seeds",
+    "Rice cake",
+    "Pandan叶",
+    "Coconut丝纤维",
+    "Coconut water",
+    "Coconut milk",
+    "Chicken fat",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh boc vo",
+    "hat sen tuoi",
+    "com",
+    "la dua",
+    "dua nao soi",
+    "nuoc dua tuoi",
+    "nuoc cot dua",
+    "mo ga",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish4064",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4064.json",
+  "name_vi": "Bao tử nướng sa tế mật ong",
+  "name_en": "",
+  "name_normalized": "bao tu nuong sa te mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Muối",
+    "Tỏi phi",
+    "Tiêu",
+    "Ớt sa tế",
+    "Nước tương",
+    "Nước mắm",
+    "Hành tím băm",
+    "Ớt bột",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre05900",
+    "ingre02485",
+    "ingre03746",
+    "ingre07096",
+    "ingre06612",
+    "ingre08050",
+    "ingre04790",
+    "ingre04694",
+    "ingre02774",
+    "ingre07977",
+    "ingre04124",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Sả",
+    "Gừng",
+    "Muối",
+    "Tỏi phi",
+    "Tiêu",
+    "Ớt sa tế",
+    "Nước tương",
+    "Nước mắm",
+    "Hành tím băm",
+    "Ớt bột",
+    "Mật ong",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Lemongrass",
+    "Ginger",
+    "Salt",
+    "Garlic flakes",
+    "Pepper",
+    "Bird's Eye Chili",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Chopped Scallion",
+    "Chili powder",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "sa",
+    "gung",
+    "muoi",
+    "toi phi",
+    "tieu",
+    "ot sa te",
+    "nuoc tuong",
+    "nuoc mam",
+    "hanh tim bam",
+    "ot bot",
+    "mat ong",
+    "dau hao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

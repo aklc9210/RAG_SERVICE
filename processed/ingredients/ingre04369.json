@@ -1,0 +1,25 @@
+{
+  "id": "ingre04369",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04369.json",
+  "name_vi": "ngô ngọt/bắp",
+  "name_en": "Sweet Corn/Corn",
+  "name_normalized": "ngo ngot bap",
+  "synonyms": [
+    "bắp ngô"
+  ],
+  "synonyms_normalized": [
+    "bap ngo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo ngot/bap",
+      "new": "ngo ngot bap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

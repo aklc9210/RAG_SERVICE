@@ -1,0 +1,106 @@
+{
+  "id": "dish3953",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3953.json",
+  "name_vi": "Thịt xiên lá móc mật",
+  "name_en": "",
+  "name_normalized": "thit xien la moc mat",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Lá mắc mật"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Sả",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu hào",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Tương cà chua",
+    "Ớt bột"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre03479",
+    "ingre02485",
+    "ingre02741",
+    "ingre02768",
+    "ingre05900",
+    "ingre04124",
+    "ingre02080",
+    "ingre04694",
+    "ingre04381",
+    "ingre06985",
+    "ingre07977"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Lá mắc mật",
+    "Gừng",
+    "Hành tây",
+    "Hành tím",
+    "Sả",
+    "Mật ong",
+    "Dầu hào",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Tương cà chua",
+    "Ớt bột"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Dandelion leaf",
+    "Ginger",
+    "Onion",
+    "Shallot",
+    "Lemongrass",
+    "Honey",
+    "Soy sauce",
+    "Fish Sauce",
+    "Five-Spice Powder",
+    "Soybean Sauce",
+    "Chili powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "la mac mat",
+    "gung",
+    "hanh tay",
+    "hanh tim",
+    "sa",
+    "mat ong",
+    "dau hao",
+    "nuoc mam",
+    "ngu vi huong",
+    "tuong ca chua",
+    "ot bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

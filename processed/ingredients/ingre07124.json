@@ -1,0 +1,27 @@
+{
+  "id": "ingre07124",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07124.json",
+  "name_vi": "tỏi/ ớt băm nhỏ",
+  "name_en": "Garlic/Fine Chili Paste",
+  "name_normalized": "toi ot bam nho",
+  "synonyms": [
+    "tỏi băm",
+    "ớt băm"
+  ],
+  "synonyms_normalized": [
+    "toi bam",
+    "ot bam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi/ ot bam nho",
+      "new": "toi ot bam nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

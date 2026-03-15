@@ -1,0 +1,121 @@
+{
+  "id": "dish3128",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3128.json",
+  "name_vi": "Bún mọc sườn",
+  "name_en": "",
+  "name_normalized": "bun moc suon",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún tươi",
+    "Sườn heo",
+    "Mọc",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Rau ăn kèm",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Bột canh",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre05882",
+    "ingre04175",
+    "ingre07742",
+    "ingre01868",
+    "ingre05420",
+    "ingre02768",
+    "ingre02673",
+    "ingre02730",
+    "ingre00587",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Sườn heo",
+    "Mọc",
+    "Đậu hũ chiên",
+    "Củ cải trắng",
+    "Rau ăn kèm",
+    "Hành tím",
+    "Hành lá",
+    "Hành phi",
+    "Bột canh",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Rib Pork",
+    "Herb",
+    "Fried Tofu",
+    "White radish",
+    "Side vegetable",
+    "Shallot",
+    "Scallion",
+    "Garlic Fried",
+    "Cornstarch",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "suon heo",
+    "moc",
+    "dau hu chien",
+    "cu cai trang",
+    "rau an kem",
+    "hanh tim",
+    "hanh la",
+    "hanh phi",
+    "bot canh",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

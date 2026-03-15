@@ -1,0 +1,119 @@
+{
+  "id": "dish6661",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6661.json",
+  "name_vi": "Chân giò chiên giòn",
+  "name_en": "",
+  "name_normalized": "chan gio chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chân giò",
+    "Hành tây",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Hạt tiêu",
+    "Ớt băm",
+    "Tỏi băm",
+    "Nước cốt chanh",
+    "Giấm",
+    "Đường/Muối",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre02741",
+    "ingre05436",
+    "ingre03370",
+    "ingre03043",
+    "ingre07971",
+    "ingre07071",
+    "ingre05900",
+    "ingre04538",
+    "ingre02355",
+    "ingre07690",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Hành tây",
+    "Riềng",
+    "Lá chanh",
+    "Hạt tiêu",
+    "Ớt băm",
+    "Tỏi băm",
+    "Sả",
+    "Nước cốt chanh",
+    "Giấm",
+    "Đường/Muối",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Onion",
+    "Galangal",
+    "Lime leaf",
+    "Pepper",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Lemongrass",
+    "Lemon juice",
+    "Vinegar",
+    "Sugar/Salt",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "hanh tay",
+    "rieng",
+    "la chanh",
+    "hat tieu",
+    "ot bam",
+    "toi bam",
+    "sa",
+    "nuoc cot chanh",
+    "giam",
+    "duong muoi",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/Muối"
+    }
+  ]
+}

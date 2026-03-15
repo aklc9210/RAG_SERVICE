@@ -1,0 +1,68 @@
+{
+  "id": "dish0828",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0828.json",
+  "name_vi": "Bánh mướt bằng bột gạo",
+  "name_en": "",
+  "name_normalized": "banh muot bang bot gao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hành lá",
+    "Hành tăm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre02673",
+    "ingre02813",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Hành lá",
+    "Hành tăm",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Scallion",
+    "Garlic",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "hanh la",
+    "hanh tam",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

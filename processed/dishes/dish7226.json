@@ -1,0 +1,104 @@
+{
+  "id": "dish7226",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7226.json",
+  "name_vi": "Chân giò chiên muối",
+  "name_en": "",
+  "name_normalized": "chan gio chien muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chân giò",
+    "Hành tăm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Tương đen",
+    "Tương ớt",
+    "Bột tỏi",
+    "Bột gừng",
+    "Bột nở",
+    "Nước tương",
+    "Dầu ăn",
+    "Giấm",
+    "Muối/Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre07063",
+    "ingre02813",
+    "ingre07012",
+    "ingre07028",
+    "ingre00978",
+    "ingre00678",
+    "ingre00867",
+    "ingre04790",
+    "ingre02124",
+    "ingre02355",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Tỏi",
+    "Hành tăm",
+    "Tương đen",
+    "Tương ớt",
+    "Bột tỏi",
+    "Bột gừng",
+    "Bột nở",
+    "Nước tương",
+    "Dầu ăn",
+    "Giấm",
+    "Muối/Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Garlic",
+    "Black Soy Sauce",
+    "Hot Sauce",
+    "Garlic powder",
+    "Ginger powder",
+    "Baking powder",
+    "Soy Sauce",
+    "Cooking oil",
+    "Vinegar",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "toi",
+    "hanh tam",
+    "tuong den",
+    "tuong ot",
+    "bot toi",
+    "bot gung",
+    "bot no",
+    "nuoc tuong",
+    "dau an",
+    "giam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Đường"
+    }
+  ]
+}

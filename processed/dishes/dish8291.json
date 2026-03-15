@@ -1,0 +1,118 @@
+{
+  "id": "dish8291",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8291.json",
+  "name_vi": "Gỏi gà ngó sen",
+  "name_en": "",
+  "name_normalized": "goi ga ngo sen",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Gà",
+    "Ngó sen",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Hành phi",
+    "Tương ớt",
+    "Giấm",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04361",
+    "ingre01419",
+    "ingre02741",
+    "ingre08055",
+    "ingre05359",
+    "ingre07791",
+    "ingre02730",
+    "ingre07028",
+    "ingre02355",
+    "ingre04694",
+    "ingre04538",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Ngó sen",
+    "Cà rốt",
+    "Hành tây",
+    "Ớt sừng",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Hành phi",
+    "Tương ớt",
+    "Giấm",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lotus leaf",
+    "Carrot",
+    "Onion",
+    "Hot pepper",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Garlic Fried",
+    "Hot Sauce",
+    "Vinegar",
+    "Fish Sauce",
+    "Lemon juice",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "ngo sen",
+    "ca rot",
+    "hanh tay",
+    "ot sung",
+    "rau ram",
+    "dau phong rang",
+    "hanh phi",
+    "tuong ot",
+    "giam",
+    "nuoc mam",
+    "nuoc cot chanh",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

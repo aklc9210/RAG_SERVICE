@@ -1,0 +1,101 @@
+{
+  "id": "dish6246",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6246.json",
+  "name_vi": "Cá trê kho gừng nghệ sả",
+  "name_en": "",
+  "name_normalized": "ca tre kho gung nghe sa",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Nước mắm",
+    "Tiêu",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre05900",
+    "ingre02485",
+    "ingre02768",
+    "ingre08026",
+    "ingre02124",
+    "ingre00804",
+    "ingre04694",
+    "ingre06612",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Sả",
+    "Gừng",
+    "Hành tím",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Nước mắm",
+    "Tiêu",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Lemongrass",
+    "Ginger",
+    "Shallot",
+    "Hot pepper",
+    "Cooking oil",
+    "Turmeric Powder",
+    "Fish Sauce",
+    "Pepper",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "sa",
+    "gung",
+    "hanh tim",
+    "ot hiem",
+    "dau an",
+    "bot nghe",
+    "nuoc mam",
+    "tieu",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

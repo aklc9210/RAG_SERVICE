@@ -1,0 +1,83 @@
+{
+  "id": "dish6174",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6174.json",
+  "name_vi": "Cá chốt kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca chot kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cá chốt",
+    "Tiêu xanh",
+    "Tỏi",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01506",
+    "ingre06640",
+    "ingre07063",
+    "ingre02768",
+    "ingre01079",
+    "ingre04672",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá chốt",
+    "Tiêu xanh",
+    "Tỏi",
+    "Hành tím",
+    "Chanh",
+    "Nước màu",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Green pepper",
+    "Garlic",
+    "Shallot",
+    "Lemon",
+    "Food coloring",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca chot",
+    "tieu xanh",
+    "toi",
+    "hanh tim",
+    "chanh",
+    "nuoc mau",
+    "dau an",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

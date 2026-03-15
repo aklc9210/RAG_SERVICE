@@ -1,0 +1,108 @@
+{
+  "id": "dish7797",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7797.json",
+  "name_vi": "Lẩu cá lóc nấu nấm",
+  "name_en": "",
+  "name_normalized": "lau ca loc nau nam",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá lóc",
+    "Nấm rơm",
+    "Rau đắng"
+  ],
+  "secondary_ingredients": [
+    "Đầu hành",
+    "Hành tím",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Rau bồ ngót",
+    "Nước mắm",
+    "Gừng nhỏ",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn",
+    "Muối",
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre04953",
+    "ingre05432",
+    "ingre05212",
+    "ingre07714",
+    "ingre02768",
+    "ingre02741",
+    "ingre04694",
+    "ingre02512",
+    "ingre02995",
+    "ingre07583",
+    "ingre02124",
+    "ingre03746",
+    "ingre05574"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Nấm rơm",
+    "Rau đắng",
+    "Rau bồ ngót",
+    "Đầu hành",
+    "Hành tím",
+    "Hành tây",
+    "Nước mắm",
+    "Gừng nhỏ",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn",
+    "Muối",
+    "Rượu trắng"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Strawberry mushroom",
+    "Bitter Melon",
+    "Amaranth greens",
+    "Garlic cloves",
+    "Shallot",
+    "Onion",
+    "Fish Sauce",
+    "Ginger",
+    "Seasoning",
+    "Sugar",
+    "Cooking oil",
+    "Salt",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "nam rom",
+    "rau dang",
+    "rau bo ngot",
+    "dau hanh",
+    "hanh tim",
+    "hanh tay",
+    "nuoc mam",
+    "gung nho",
+    "hat nem",
+    "duong",
+    "dau an",
+    "muoi",
+    "ruou trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

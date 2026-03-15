@@ -1,0 +1,86 @@
+{
+  "id": "dish1301",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1301.json",
+  "name_vi": "Bánh khoai lang chiên xù",
+  "name_en": "",
+  "name_normalized": "banh khoai lang chien xu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên xù",
+    "Bột năng",
+    "Bột nếp",
+    "Bột gạo",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03186",
+    "ingre00609",
+    "ingre00849",
+    "ingre00859",
+    "ingre00668",
+    "ingre00759",
+    "ingre06147",
+    "ingre00804",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang",
+    "Bột chiên xù",
+    "Bột năng",
+    "Bột nếp",
+    "Bột gạo",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Puffed Rice Powder",
+    "Cornstarch",
+    "Glutinous rice flour",
+    "Rice flour",
+    "Wheat Flour",
+    "Fat-free Milk",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang",
+    "bot chien xu",
+    "bot nang",
+    "bot nep",
+    "bot gao",
+    "bot mi",
+    "sua tuoi khong duong",
+    "bot nghe",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

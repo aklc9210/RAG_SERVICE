@@ -1,0 +1,123 @@
+{
+  "id": "dish3287",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3287.json",
+  "name_vi": "Bánh canh đuôi heo",
+  "name_en": "",
+  "name_normalized": "banh canh duoi heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sợi bánh canh",
+    "Đuôi heo",
+    "Giò heo",
+    "Gan heo",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Ngò rí",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi phi",
+    "Chanh",
+    "Ớt đỏ",
+    "Giấm ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06050",
+    "ingre07502",
+    "ingre02346",
+    "ingre02242",
+    "ingre06941",
+    "ingre01868",
+    "ingre04343",
+    "ingre02673",
+    "ingre07096",
+    "ingre01079",
+    "ingre08097",
+    "ingre02377",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sợi bánh canh",
+    "Đuôi heo",
+    "Giò heo",
+    "Gan heo",
+    "Tôm khô",
+    "Củ cải trắng",
+    "Ngò rí",
+    "Hành lá",
+    "Tỏi phi",
+    "Chanh",
+    "Ớt đỏ",
+    "Giấm ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Vermicelli",
+    "Pork tail",
+    "Pork sausage",
+    "Pork liver",
+    "Dried Shrimp",
+    "White radish",
+    "Parsley",
+    "Scallion",
+    "Garlic flakes",
+    "Lemon",
+    "Red pepper",
+    "vinegar",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "soi banh canh",
+    "duoi heo",
+    "gio heo",
+    "gan heo",
+    "tom kho",
+    "cu cai trang",
+    "ngo ri",
+    "hanh la",
+    "toi phi",
+    "chanh",
+    "ot do",
+    "giam an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

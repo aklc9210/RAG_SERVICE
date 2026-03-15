@@ -1,0 +1,83 @@
+{
+  "id": "dish5835",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5835.json",
+  "name_vi": "Sốt cà ri xanh Thái Lan",
+  "name_en": "",
+  "name_normalized": "sot ca ri xanh thai lan",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Xả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí",
+    "Hạt ngò",
+    "Hạt thìa là"
+  ],
+  "seasonings": [
+    "Ớt xanh",
+    "Gừng",
+    "Muối",
+    "Lá chanh kaffir"
+  ],
+  "ingredient_ids": [
+    "ingre08083",
+    "ingre07440",
+    "ingre02485",
+    "ingre02768",
+    "ingre04358",
+    "ingre02987",
+    "ingre03039",
+    "ingre03746",
+    "ingre03377"
+  ],
+  "ingredient_names_vi": [
+    "Ớt xanh",
+    "Xả",
+    "Gừng",
+    "Hành tím",
+    "Ngò rí",
+    "Hạt ngò",
+    "Hạt thìa là",
+    "Muối",
+    "Lá chanh kaffir"
+  ],
+  "ingredient_names_en": [
+    "Green Pepper",
+    "Basil",
+    "Ginger",
+    "Shallot",
+    "Cilantro",
+    "Cilantro Seeds",
+    "Star Anise",
+    "Salt",
+    "Kaffir Lime Leaf"
+  ],
+  "ingredient_names_normalized": [
+    "ot xanh",
+    "xa",
+    "gung",
+    "hanh tim",
+    "ngo ri",
+    "hat ngo",
+    "hat thia la",
+    "muoi",
+    "la chanh kaffir"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

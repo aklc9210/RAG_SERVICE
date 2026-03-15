@@ -1,0 +1,66 @@
+{
+  "id": "dish2777",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2777.json",
+  "name_vi": "Bánh kem cam - bánh gato cam",
+  "name_en": "",
+  "name_normalized": "banh kem cam banh gato cam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cam vàng Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Màu thực phẩm cam",
+    "Bánh kem khuôn 15 cm"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước đường"
+  ],
+  "ingredient_ids": [
+    "ingre01054",
+    "ingre07313",
+    "ingre07583",
+    "ingre03867",
+    "ingre04858",
+    "ingre00093"
+  ],
+  "ingredient_names_vi": [
+    "Cam vàng Mỹ",
+    "Whipping cream",
+    "Đường",
+    "Màu thực phẩm cam",
+    "Nước đường",
+    "Bánh kem khuôn 15 cm"
+  ],
+  "ingredient_names_en": [
+    "Orange",
+    "Whipping cream",
+    "Sugar",
+    "Food dye orange",
+    "Sugar water",
+    "Cake mold 15 cm"
+  ],
+  "ingredient_names_normalized": [
+    "cam vang my",
+    "whipping cream",
+    "duong",
+    "mau thuc pham cam",
+    "nuoc duong",
+    "banh kem khuon 15 cm"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kem cam - banh gato cam",
+      "new": "banh kem cam banh gato cam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

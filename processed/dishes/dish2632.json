@@ -1,0 +1,98 @@
+{
+  "id": "dish2632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2632.json",
+  "name_vi": "Bánh tằm xíu mại cốt dừa",
+  "name_en": "",
+  "name_normalized": "banh tam xiu mai cot dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt nạc đùi",
+    "Bì heo",
+    "Thính gạo"
+  ],
+  "secondary_ingredients": [
+    "Xíu mại",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Bột năng",
+    "Bột làm bánh cuốn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tỏi phi"
+  ],
+  "ingredient_ids": [
+    "ingre06479",
+    "ingre00233",
+    "ingre06241",
+    "ingre04554",
+    "ingre00849",
+    "ingre00722",
+    "ingre07390",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre07096",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc đùi",
+    "Bì heo",
+    "Thính gạo",
+    "Nước cốt dừa",
+    "Bột năng",
+    "Bột làm bánh cuốn",
+    "Xíu mại",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tỏi phi",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Pork skin",
+    "Rice flour",
+    "Coconut milk",
+    "Cornstarch",
+    "Wrapping cake powder",
+    "Pork dumplings",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Garlic flakes",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dui",
+    "bi heo",
+    "thinh gao",
+    "nuoc cot dua",
+    "bot nang",
+    "bot lam banh cuon",
+    "xiu mai",
+    "muoi",
+    "duong",
+    "hat nem",
+    "toi phi",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

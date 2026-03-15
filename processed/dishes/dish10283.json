@@ -1,0 +1,62 @@
+{
+  "id": "dish10283",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10283.json",
+  "name_vi": "Nước ép giá đỗ dứa củ đậu",
+  "name_en": "",
+  "name_normalized": "nuoc ep gia do dua cu dau",
+  "category": "nuoc ep",
+  "main_ingredients": [
+    "Giá đỗ"
+  ],
+  "secondary_ingredients": [
+    "Dứa/ thơm",
+    "Củ đậu nhỏ",
+    "Lá bạc hà"
+  ],
+  "seasonings": [
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre02337",
+    "ingre02161",
+    "ingre01927",
+    "ingre02485",
+    "ingre03365"
+  ],
+  "ingredient_names_vi": [
+    "Giá đỗ",
+    "Dứa/ thơm",
+    "Củ đậu nhỏ",
+    "Gừng",
+    "Lá bạc hà"
+  ],
+  "ingredient_names_en": [
+    "Bean sprouts",
+    "Pineapple",
+    "Daikon",
+    "Ginger",
+    "Mint Leaf"
+  ],
+  "ingredient_names_normalized": [
+    "gia do",
+    "dua thom",
+    "cu dau nho",
+    "gung",
+    "la bac ha"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dua/ thom",
+      "new": "dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dứa/ thơm"
+    }
+  ]
+}

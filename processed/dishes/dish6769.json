@@ -1,0 +1,103 @@
+{
+  "id": "dish6769",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6769.json",
+  "name_vi": "Hoành thánh chay chiên nhân cà tím",
+  "name_en": "",
+  "name_normalized": "hoanh thanh chay chien nhan ca tim",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Vỏ hoành thánh",
+    "Cà tím"
+  ],
+  "secondary_ingredients": [
+    "Ngò",
+    "Hành lá",
+    "Nấm đông cô",
+    "Miến",
+    "Dầu thực vật",
+    "Nước ấm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối",
+    "Đường",
+    "Nước tương",
+    "Bột ngũ vị hương"
+  ],
+  "ingredient_ids": [
+    "ingre07265",
+    "ingre01444",
+    "ingre07063",
+    "ingre04326",
+    "ingre02673",
+    "ingre04966",
+    "ingre03710",
+    "ingre02113",
+    "ingre03746",
+    "ingre07583",
+    "ingre04790",
+    "ingre00815",
+    "ingre04879"
+  ],
+  "ingredient_names_vi": [
+    "Vỏ hoành thánh",
+    "Cà tím",
+    "Tỏi",
+    "Ngò",
+    "Hành lá",
+    "Nấm đông cô",
+    "Miến",
+    "Dầu thực vật",
+    "Muối",
+    "Đường",
+    "Nước tương",
+    "Bột ngũ vị hương",
+    "Nước ấm"
+  ],
+  "ingredient_names_en": [
+    "Springroll wrapper",
+    "Purple cabbage",
+    "Garlic",
+    "Cilantro",
+    "Scallion",
+    "Mushroom",
+    "Rice vermicelli",
+    "Vegetable oil",
+    "Salt",
+    "Sugar",
+    "Soy Sauce",
+    "Five-Spice Powder",
+    "Warm water"
+  ],
+  "ingredient_names_normalized": [
+    "vo hoanh thanh",
+    "ca tim",
+    "toi",
+    "ngo",
+    "hanh la",
+    "nam dong co",
+    "mien",
+    "dau thuc vat",
+    "muoi",
+    "duong",
+    "nuoc tuong",
+    "bot ngu vi huong",
+    "nuoc am"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

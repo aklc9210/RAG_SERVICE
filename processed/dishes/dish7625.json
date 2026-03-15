@@ -1,0 +1,93 @@
+{
+  "id": "dish7625",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7625.json",
+  "name_vi": "Chả tôm Huế",
+  "name_en": "",
+  "name_normalized": "cha tom hue",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Tôm",
+    "Mỡ heo",
+    "Trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Hành tím",
+    "Dầu hạt điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu",
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre04192",
+    "ingre06853",
+    "ingre04626",
+    "ingre02768",
+    "ingre07063",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612",
+    "ingre07635",
+    "ingre02091"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Mỡ heo",
+    "Trứng vịt",
+    "Nước dừa tươi",
+    "Hành tím",
+    "Tỏi",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu",
+    "Đường phèn",
+    "Dầu hạt điều"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pork fat",
+    "Quail egg",
+    "Coconut water",
+    "Shallot",
+    "Garlic",
+    "Salt",
+    "MSG",
+    "Pepper",
+    "Brown Sugar",
+    "Peanut oil"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "mo heo",
+    "trung vit",
+    "nuoc dua tuoi",
+    "hanh tim",
+    "toi",
+    "muoi",
+    "bot ngot",
+    "tieu",
+    "duong phen",
+    "dau hat dieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

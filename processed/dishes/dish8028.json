@@ -1,0 +1,108 @@
+{
+  "id": "dish8028",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8028.json",
+  "name_vi": "Chạo ngan",
+  "name_en": "",
+  "name_normalized": "chao ngan",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ngan",
+    "Sả",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Khế",
+    "Rau trộn gỏi",
+    "Mè"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Rượu",
+    "Nước mắm",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04299",
+    "ingre05900",
+    "ingre05436",
+    "ingre02485",
+    "ingre01079",
+    "ingre03268",
+    "ingre05402",
+    "ingre03925",
+    "ingre05515",
+    "ingre04694",
+    "ingre00829"
+  ],
+  "ingredient_names_vi": [
+    "Ngan",
+    "Sả",
+    "Riềng",
+    "Gừng",
+    "Chanh",
+    "Khế",
+    "Rau trộn gỏi",
+    "Mè",
+    "Rượu",
+    "Nước mắm",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Lamb",
+    "Lemongrass",
+    "Galangal",
+    "Ginger",
+    "Lemon",
+    "Kumquat",
+    "Mixed Salad Vegetables",
+    "Tamarind",
+    "Rum",
+    "Fish Sauce",
+    "Monkfish Powder/Cracked Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ngan",
+    "sa",
+    "rieng",
+    "gung",
+    "chanh",
+    "khe",
+    "rau tron goi",
+    "me",
+    "ruou",
+    "nuoc mam",
+    "bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu xay",
+      "new": "bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu xay"
+    }
+  ]
+}

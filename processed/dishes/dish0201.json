@@ -1,0 +1,101 @@
+{
+  "id": "dish0201",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0201.json",
+  "name_vi": "Giò heo hầm củ cải muối",
+  "name_en": "",
+  "name_normalized": "gio heo ham cu cai muoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Giò heo",
+    "Dừa xiêm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Củ cải muối",
+    "Chanh",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02346",
+    "ingre01865",
+    "ingre02210",
+    "ingre02768",
+    "ingre01079",
+    "ingre02673",
+    "ingre07966",
+    "ingre04343",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Giò heo",
+    "Củ cải muối",
+    "Dừa xiêm",
+    "Hành tím",
+    "Chanh",
+    "Hành lá",
+    "Ớt",
+    "Ngò rí",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Pickled radish",
+    "Jackfruit",
+    "Shallot",
+    "Lemon",
+    "Scallion",
+    "Pepper",
+    "Parsley",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "gio heo",
+    "cu cai muoi",
+    "dua xiem",
+    "hanh tim",
+    "chanh",
+    "hanh la",
+    "ot",
+    "ngo ri",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

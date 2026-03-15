@@ -1,0 +1,108 @@
+{
+  "id": "dish8000",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8000.json",
+  "name_vi": "Gỏi gà ủ muối với măng cụt và rau củ",
+  "name_en": "",
+  "name_normalized": "goi ga u muoi voi mang cut va rau cu",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Măng cụt xanh",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Lạc rang"
+  ],
+  "seasonings": [
+    "Gà ủ muối",
+    "Cà rốt",
+    "Hành khô",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Tương ớt",
+    "Nước mắm",
+    "Giấm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02414",
+    "ingre04078",
+    "ingre01419",
+    "ingre02741",
+    "ingre05359",
+    "ingre02667",
+    "ingre07063",
+    "ingre07966",
+    "ingre03609",
+    "ingre04538",
+    "ingre07028",
+    "ingre04694",
+    "ingre02355",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Gà ủ muối",
+    "Măng cụt xanh",
+    "Cà rốt",
+    "Hành tây",
+    "Rau răm",
+    "Hành khô",
+    "Tỏi",
+    "Ớt",
+    "Lạc rang",
+    "Nước cốt chanh",
+    "Tương ớt",
+    "Nước mắm",
+    "Giấm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Salted Chicken",
+    "Starfruit",
+    "Carrot",
+    "Onion",
+    "Vietnamese coriander",
+    "Garlic Powder",
+    "Garlic",
+    "Pepper",
+    "Roasted Peanut",
+    "Lemon juice",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Vinegar",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ga u muoi",
+    "mang cut xanh",
+    "ca rot",
+    "hanh tay",
+    "rau ram",
+    "hanh kho",
+    "toi",
+    "ot",
+    "lac rang",
+    "nuoc cot chanh",
+    "tuong ot",
+    "nuoc mam",
+    "giam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "dish10141",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10141.json",
+  "name_vi": "Sinh tố bí đao",
+  "name_en": "",
+  "name_normalized": "sinh to bi dao",
+  "category": "sinh to",
+  "main_ingredients": [
+    "Bí đao",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00247",
+    "ingre07680",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bí đao",
+    "Đường/ muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Sugar/Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bi dao",
+    "duong muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

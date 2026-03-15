@@ -1,0 +1,103 @@
+{
+  "id": "dish4948",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4948.json",
+  "name_vi": "Ếch xào củ chuối",
+  "name_en": "",
+  "name_normalized": "ech xao cu chuoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ếch",
+    "Thịt ba chỉ",
+    "Củ chuối"
+  ],
+  "secondary_ingredients": [
+    "Quất",
+    "Hành tím",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre06275",
+    "ingre01858",
+    "ingre05182",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre00804",
+    "ingre04165",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Thịt ba chỉ",
+    "Củ chuối",
+    "Quất",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Bột nghệ",
+    "Mẻ",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Pork belly",
+    "Banana",
+    "Kumquat",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Turmeric Powder",
+    "Tamarind",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "thit ba chi",
+    "cu chuoi",
+    "quat",
+    "toi",
+    "ot",
+    "hanh tim",
+    "bot nghe",
+    "me",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

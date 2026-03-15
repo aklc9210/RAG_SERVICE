@@ -1,0 +1,76 @@
+{
+  "id": "dish1968",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1968.json",
+  "name_vi": "Bánh chiffon sầu riêng",
+  "name_en": "",
+  "name_normalized": "banh chiffon sau rieng",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt sầu riêng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh (Cake Flour)",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Cream of tartar",
+    "Dầu ăn",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre06492",
+    "ingre06823",
+    "ingre06147",
+    "ingre01328",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake Flour)",
+    "Thịt sầu riêng",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Cream of tartar",
+    "Dầu ăn",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Sundried Meat",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Cream of tartar",
+    "Cooking oil",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "thit sau rieng",
+    "trung ga",
+    "sua tuoi khong duong",
+    "cream of tartar",
+    "dau an",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    }
+  ]
+}

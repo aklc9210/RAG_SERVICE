@@ -1,0 +1,111 @@
+{
+  "id": "dish8508",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8508.json",
+  "name_vi": "Chân gà tàu xì",
+  "name_en": "",
+  "name_normalized": "chan ga tau xi",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà",
+    "Dấm gạo"
+  ],
+  "secondary_ingredients": [
+    "Dầu vừng"
+  ],
+  "seasonings": [
+    "Baking soda/ muối nở",
+    "Gừng",
+    "Tỏi",
+    "Quế",
+    "Hoa hồi",
+    "Bột năng",
+    "Dầu ăn",
+    "Xì dầu",
+    "Dầu hào",
+    "Tương đậu đen",
+    "Bột ngũ vị hương",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre00020",
+    "ingre02050",
+    "ingre02485",
+    "ingre07063",
+    "ingre05186",
+    "ingre02584",
+    "ingre00849",
+    "ingre02124",
+    "ingre07381",
+    "ingre02080",
+    "ingre07023",
+    "ingre02119",
+    "ingre00815",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Baking soda/ muối nở",
+    "Dấm gạo",
+    "Gừng",
+    "Tỏi",
+    "Quế",
+    "Hoa hồi",
+    "Bột năng",
+    "Dầu ăn",
+    "Xì dầu",
+    "Dầu hào",
+    "Tương đậu đen",
+    "Dầu vừng",
+    "Bột ngũ vị hương",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Baking Soda",
+    "Rice vinegar",
+    "Ginger",
+    "Garlic",
+    "Cinnamon",
+    "Rose",
+    "Cornstarch",
+    "Cooking oil",
+    "Soy Sauce",
+    "Black soybean sauce",
+    "Honey",
+    "Five-Spice Powder",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "baking soda muoi no",
+    "dam gao",
+    "gung",
+    "toi",
+    "que",
+    "hoa hoi",
+    "bot nang",
+    "dau an",
+    "xi dau",
+    "dau hao",
+    "tuong dau den",
+    "dau vung",
+    "bot ngu vi huong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking soda/ muoi no",
+      "new": "baking soda muoi no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking soda/ muối nở"
+    }
+  ]
+}

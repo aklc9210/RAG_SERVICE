@@ -1,0 +1,112 @@
+{
+  "id": "dish7933",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7933.json",
+  "name_vi": "Dê nhúng dấm tía tô",
+  "name_en": "",
+  "name_normalized": "de nhung dam tia to",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt dê",
+    "Bún tươi",
+    "Lá tía tô",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Rau ăn kèm",
+    "Mè rang",
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Giấm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Mắm nêm",
+    "Đường phèn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre00357",
+    "ingre03544",
+    "ingre06247",
+    "ingre07071",
+    "ingre02741",
+    "ingre05420",
+    "ingre03929",
+    "ingre04622",
+    "ingre02355",
+    "ingre05574",
+    "ingre02124",
+    "ingre04148",
+    "ingre07635",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Bún tươi",
+    "Lá tía tô",
+    "Thơm",
+    "Tỏi băm",
+    "Hành tây",
+    "Rau ăn kèm",
+    "Mè rang",
+    "Nước dừa",
+    "Giấm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Mắm nêm",
+    "Đường phèn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Fresh noodle",
+    "Cilantro",
+    "Basil",
+    "Minced Garlic",
+    "Onion",
+    "Side vegetable",
+    "Roasted Sesame Seeds",
+    "Coconut water",
+    "Vinegar",
+    "White wine",
+    "Cooking oil",
+    "Fish sauce",
+    "Brown Sugar",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "bun tuoi",
+    "la tia to",
+    "thom",
+    "toi bam",
+    "hanh tay",
+    "rau an kem",
+    "me rang",
+    "nuoc dua",
+    "giam",
+    "ruou trang",
+    "dau an",
+    "mam nem",
+    "duong phen",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

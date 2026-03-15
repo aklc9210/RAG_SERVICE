@@ -1,0 +1,98 @@
+{
+  "id": "dish3181",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3181.json",
+  "name_vi": "Tonkotsu Ramen truyền thống",
+  "name_en": "",
+  "name_normalized": "tonkotsu ramen truyen thong",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mì ramen",
+    "Thịt heo",
+    "Thịt ba rọi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nấm mèo",
+    "Giá đỗ",
+    "Nước hầm gà",
+    "Nước dùng dashi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Nước tương shoyu",
+    "Sữa đậu nành không đường",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre03983",
+    "ingre06398",
+    "ingre06289",
+    "ingre02673",
+    "ingre04930",
+    "ingre06823",
+    "ingre02337",
+    "ingre04644",
+    "ingre04606",
+    "ingre04805",
+    "ingre06171",
+    "ingre07071"
+  ],
+  "ingredient_names_vi": [
+    "Mì ramen",
+    "Thịt heo",
+    "Thịt ba rọi",
+    "Hành lá",
+    "Nấm mèo",
+    "Trứng gà",
+    "Giá đỗ",
+    "Nước hầm gà",
+    "Nước dùng dashi",
+    "Nước tương shoyu",
+    "Sữa đậu nành không đường",
+    "Tỏi băm"
+  ],
+  "ingredient_names_en": [
+    "Ramen noodles",
+    "Pork",
+    "Pork belly",
+    "Scallion",
+    "Mushroom",
+    "Chicken egg",
+    "Bean sprouts",
+    "Chicken broth",
+    "Dashi Broth",
+    "Soy Sauce",
+    "Unsweetened Soy Milk",
+    "Minced Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "mi ramen",
+    "thit heo",
+    "thit ba roi",
+    "hanh la",
+    "nam meo",
+    "trung ga",
+    "gia do",
+    "nuoc ham ga",
+    "nuoc dung dashi",
+    "nuoc tuong shoyu",
+    "sua dau nanh khong duong",
+    "toi bam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

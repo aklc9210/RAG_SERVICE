@@ -1,0 +1,92 @@
+{
+  "id": "dish5294",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5294.json",
+  "name_vi": "Ốc móng tay xào miến",
+  "name_en": "",
+  "name_normalized": "oc mong tay xao mien",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc móng tay",
+    "Rau muống",
+    "Miến"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07948",
+    "ingre05289",
+    "ingre03710",
+    "ingre02702",
+    "ingre07063",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Ốc móng tay",
+    "Rau muống",
+    "Miến",
+    "Hành lá/ ngò rí",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Watercress",
+    "Rice vermicelli",
+    "Chives",
+    "Garlic",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "oc mong tay",
+    "rau muong",
+    "mien",
+    "hanh la ngo ri",
+    "toi",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "dish0869",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0869.json",
+  "name_vi": "Cupcake bông lan trứng muối",
+  "name_en": "",
+  "name_normalized": "cupcake bong lan trung muoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Trứng gà cỡ vừa"
+  ],
+  "secondary_ingredients": [
+    "Tinh chất vani",
+    "Phô mai kem",
+    "Kem tươi",
+    "Chà bông/ màu thực phẩm/ socola đen"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Đường",
+    "Bột mì đa dụng",
+    "Muối",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Đường bột",
+    "Rượu trắng/ dầu mè"
+  ],
+  "ingredient_ids": [
+    "ingre03587",
+    "ingre06828",
+    "ingre07583",
+    "ingre00791",
+    "ingre03746",
+    "ingre02124",
+    "ingre06147",
+    "ingre06592",
+    "ingre05077",
+    "ingre03157",
+    "ingre07589",
+    "ingre01212",
+    "ingre05582"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng muối",
+    "Trứng gà cỡ vừa",
+    "Đường",
+    "Bột mì đa dụng",
+    "Muối",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Tinh chất vani",
+    "Phô mai kem",
+    "Kem tươi",
+    "Đường bột",
+    "Chà bông/ màu thực phẩm/ socola đen",
+    "Rượu trắng/ dầu mè"
+  ],
+  "ingredient_names_en": [
+    "Salted Egg Yolk",
+    "Medium chicken egg",
+    "Sugar",
+    "All-purpose flour",
+    "Salt",
+    "Cooking oil",
+    "Fat-free Milk",
+    "Vanilla extract",
+    "Cheese",
+    "Fresh cream",
+    "Sugar Powder",
+    "Pork sausage/food coloring/black chocolate",
+    "White wine/sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung muoi",
+    "trung ga co vua",
+    "duong",
+    "bot mi da dung",
+    "muoi",
+    "dau an",
+    "sua tuoi khong duong",
+    "tinh chat vani",
+    "pho mai kem",
+    "kem tuoi",
+    "duong bot",
+    "cha bong mau thuc pham socola den",
+    "ruou trang dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cha bong/ mau thuc pham/ socola den",
+      "new": "cha bong mau thuc pham socola den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chà bông/ màu thực phẩm/ socola đen"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ruou trang/ dau me",
+      "new": "ruou trang dau me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rượu trắng/ dầu mè"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dish3717",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3717.json",
+  "name_vi": "Thịt xá xíu bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "thit xa xiu bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mạch nha"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Nước tương",
+    "Rượu Mai Quế Lộ",
+    "Bột ngũ vị hương",
+    "Bột nước màu Thái",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre07063",
+    "ingre02768",
+    "ingre02080",
+    "ingre04790",
+    "ingre05543",
+    "ingre00815",
+    "ingre00857",
+    "ingre04109",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Tỏi",
+    "Hành tím",
+    "Dầu hào",
+    "Nước tương",
+    "Rượu Mai Quế Lộ",
+    "Bột ngũ vị hương",
+    "Bột nước màu Thái",
+    "Mạch nha",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Garlic",
+    "Shallot",
+    "Soy sauce",
+    "Sake Plum Ginger Wine",
+    "Five-Spice Powder",
+    "Food coloring powder",
+    "Molasses",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "toi",
+    "hanh tim",
+    "dau hao",
+    "nuoc tuong",
+    "ruou mai que lo",
+    "bot ngu vi huong",
+    "bot nuoc mau thai",
+    "mach nha",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

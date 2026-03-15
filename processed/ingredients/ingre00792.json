@@ -1,0 +1,25 @@
+{
+  "id": "ingre00792",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00792.json",
+  "name_vi": "bột mì đa dụng (sử dụng cho phần bột bánh)",
+  "name_en": "All-purpose flour (for the dough part)",
+  "name_normalized": "bot mi da dung su dung cho phan bot banh",
+  "synonyms": [
+    "bột đa năng"
+  ],
+  "synonyms_normalized": [
+    "bot da nang"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot mi da dung (su dung cho phan bot banh)",
+      "new": "bot mi da dung su dung cho phan bot banh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

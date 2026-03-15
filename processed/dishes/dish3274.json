@@ -1,0 +1,122 @@
+{
+  "id": "dish3274",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3274.json",
+  "name_vi": "Mì Quảng gà",
+  "name_en": "",
+  "name_normalized": "mi quang ga",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mì quảng",
+    "Gà",
+    "Trứng cút",
+    "Nước dừa",
+    "Đậu phộng rang"
+  ],
+  "secondary_ingredients": [
+    "Bánh tráng mè nướng",
+    "Dầu màu điều",
+    "Nước dừa tươi",
+    "Hành lá",
+    "Hành tây",
+    "Củ nén",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Nước mắm",
+    "Đường phèn",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03981",
+    "ingre02392",
+    "ingre06816",
+    "ingre04622",
+    "ingre07791",
+    "ingre00196",
+    "ingre00804",
+    "ingre02093",
+    "ingre04626",
+    "ingre02673",
+    "ingre02741",
+    "ingre01908",
+    "ingre05420",
+    "ingre04694",
+    "ingre07635",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mì quảng",
+    "Gà",
+    "Trứng cút",
+    "Nước dừa",
+    "Đậu phộng rang",
+    "Bánh tráng mè nướng",
+    "Bột nghệ",
+    "Dầu màu điều",
+    "Nước dừa tươi",
+    "Hành lá",
+    "Hành tây",
+    "Củ nén",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Đường phèn",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mì Quảng",
+    "Chicken",
+    "Quail egg",
+    "Coconut water",
+    "Roasted Peanut",
+    "Roasted Sesame Rice Paper",
+    "Turmeric Powder",
+    "Peanut-colored food coloring",
+    "Scallion",
+    "Onion",
+    "Celery",
+    "Side vegetable",
+    "Fish Sauce",
+    "Brown Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mi quang",
+    "ga",
+    "trung cut",
+    "nuoc dua",
+    "dau phong rang",
+    "banh trang me nuong",
+    "bot nghe",
+    "dau mau dieu",
+    "nuoc dua tuoi",
+    "hanh la",
+    "hanh tay",
+    "cu nen",
+    "rau an kem",
+    "nuoc mam",
+    "duong phen",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

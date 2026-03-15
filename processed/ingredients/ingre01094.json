@@ -1,0 +1,29 @@
+{
+  "id": "ingre01094",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01094.json",
+  "name_vi": "chanh tươi/ muối/ tắt / cơm mẻ",
+  "name_en": "Lime/Fresh Lime/Salt/Dried Rice Cake",
+  "name_normalized": "chanh tuoi muoi tat com me",
+  "synonyms": [
+    "chanh vắt",
+    "muối ăn",
+    "gạo đã lên men"
+  ],
+  "synonyms_normalized": [
+    "chanh vat",
+    "muoi an",
+    "gao da len men"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh tuoi/ muoi/ tat / com me",
+      "new": "chanh tuoi muoi tat com me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

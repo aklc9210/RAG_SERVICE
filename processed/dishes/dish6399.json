@@ -1,0 +1,91 @@
+{
+  "id": "dish6399",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6399.json",
+  "name_vi": "Cơm chiên cá mặn",
+  "name_en": "",
+  "name_normalized": "com chien ca man",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khô cá đù"
+  ],
+  "secondary_ingredients": [
+    "Cơm phơi khô",
+    "Cơm nấu chín",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Đường",
+    "Nước tương",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre03260",
+    "ingre01761",
+    "ingre01760",
+    "ingre07583",
+    "ingre04790",
+    "ingre02673",
+    "ingre02768",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Khô cá đù",
+    "Cơm phơi khô",
+    "Cơm nấu chín",
+    "Đường",
+    "Nước tương",
+    "Hành lá",
+    "Hành tím",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Dried Mackerel",
+    "Dried rice",
+    "Cooked Rice",
+    "Sugar",
+    "Soy Sauce",
+    "Scallion",
+    "Shallot",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "kho ca du",
+    "com phoi kho",
+    "com nau chin",
+    "duong",
+    "nuoc tuong",
+    "hanh la",
+    "hanh tim",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

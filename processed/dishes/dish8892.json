@@ -1,0 +1,123 @@
+{
+  "id": "dish8892",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8892.json",
+  "name_vi": "Bánh tráng lụi Tây Nguyên",
+  "name_en": "",
+  "name_normalized": "banh trang lui tay nguyen",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Bánh tráng",
+    "Nấm mèo",
+    "Củ sắn"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Sả cây",
+    "Me vắt"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt chuông",
+    "Hành tím băm nhuyễn",
+    "Tỏi băm nhuyễn",
+    "Ớt sa tế khô",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre00178",
+    "ingre04930",
+    "ingre01920",
+    "ingre01419",
+    "ingre07999",
+    "ingre02775",
+    "ingre07072",
+    "ingre02673",
+    "ingre05909",
+    "ingre03663",
+    "ingre08051",
+    "ingre07028",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Bánh tráng",
+    "Nấm mèo",
+    "Củ sắn",
+    "Cà rốt",
+    "Ớt chuông",
+    "Hành tím băm nhuyễn",
+    "Tỏi băm nhuyễn",
+    "Hành lá",
+    "Sả cây",
+    "Me vắt",
+    "Ớt sa tế khô",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Rice Paper",
+    "Mushroom",
+    "Yam",
+    "Carrot",
+    "Bell pepper",
+    "Chopped Scallion",
+    "Minced garlic",
+    "Scallion",
+    "Fresh Ginger",
+    "Lemon juice",
+    "Bird's Eye Chili Powder",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "banh trang",
+    "nam meo",
+    "cu san",
+    "ca rot",
+    "ot chuong",
+    "hanh tim bam nhuyen",
+    "toi bam nhuyen",
+    "hanh la",
+    "sa cay",
+    "me vat",
+    "ot sa te kho",
+    "tuong ot",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

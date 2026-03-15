@@ -1,0 +1,90 @@
+{
+  "id": "dish5106",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5106.json",
+  "name_vi": "Thịt dê xào sả ớt",
+  "name_en": "",
+  "name_normalized": "thit de xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt dê"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre07966",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre02080",
+    "ingre02134",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Ớt",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Dầu điều",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Pepper",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Soy sauce",
+    "Peanut oil",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "ot",
+    "sa",
+    "toi",
+    "gung",
+    "dau hao",
+    "dau dieu",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish1586",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1586.json",
+  "name_vi": "Bánh tét lá cẩm hột vịt muối",
+  "name_en": "",
+  "name_normalized": "banh tet la cam hot vit muoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo nếp"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh",
+    "Lá cẩm"
+  ],
+  "seasonings": [
+    "Trứng muối",
+    "Rượu mai quế lộ",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre06849",
+    "ingre07836",
+    "ingre03412",
+    "ingre05543",
+    "ingre00849",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Trứng muối",
+    "Đậu xanh",
+    "Lá cẩm",
+    "Rượu mai quế lộ",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Pickled egg",
+    "Green beans",
+    "Mint",
+    "Sake Plum Ginger Wine",
+    "Cornstarch",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "trung muoi",
+    "dau xanh",
+    "la cam",
+    "ruou mai que lo",
+    "bot nang",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

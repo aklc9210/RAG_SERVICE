@@ -1,0 +1,91 @@
+{
+  "id": "dish9428",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9428.json",
+  "name_vi": "Cá diêu hồng cuộn củ kiệu (dưa kiệu)",
+  "name_en": "",
+  "name_normalized": "ca dieu hong cuon cu kieu dua kieu",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Phi lê cá điêu hồng",
+    "Thịt xông khói",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Dưa kiệu",
+    "Lá hương thảo"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt băm",
+    "Bột chiên giòn",
+    "Tương ớt",
+    "Sốt mayonnaise",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05042",
+    "ingre06523",
+    "ingre02350",
+    "ingre02019",
+    "ingre02485",
+    "ingre07971",
+    "ingre03445",
+    "ingre00598",
+    "ingre07028",
+    "ingre05970",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá điêu hồng",
+    "Thịt xông khói",
+    "Giò sống",
+    "Dưa kiệu",
+    "Gừng",
+    "Ớt băm",
+    "Lá hương thảo",
+    "Bột chiên giòn",
+    "Tương ớt",
+    "Sốt mayonnaise",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Red snapper fillet",
+    "Smoked Pork",
+    "Fresh sausage",
+    "Cucumber",
+    "Ginger",
+    "Chopped Pepper",
+    "Mint",
+    "Puffed Rice Powder",
+    "Hot Sauce",
+    "Mayonnaise Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca dieu hong",
+    "thit xong khoi",
+    "gio song",
+    "dua kieu",
+    "gung",
+    "ot bam",
+    "la huong thao",
+    "bot chien gion",
+    "tuong ot",
+    "sot mayonnaise",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca dieu hong cuon cu kieu (dua kieu)",
+      "new": "ca dieu hong cuon cu kieu dua kieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

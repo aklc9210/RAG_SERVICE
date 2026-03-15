@@ -1,0 +1,130 @@
+{
+  "id": "dish3217",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3217.json",
+  "name_vi": "Bún gầu bò xáo sả",
+  "name_en": "",
+  "name_normalized": "bun gau bo xao sa",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt gầu bò",
+    "Bún tươi",
+    "Hành tây",
+    "Sả",
+    "Hành lá/ ngò rí"
+  ],
+  "secondary_ingredients": [
+    "Gói",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sa tế ớt",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06397",
+    "ingre00357",
+    "ingre02741",
+    "ingre05900",
+    "ingre02702",
+    "ingre07063",
+    "ingre05630",
+    "ingre05574",
+    "ingre02417",
+    "ingre05420",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gầu bò",
+    "Bún tươi",
+    "Hành tây",
+    "Sả",
+    "Hành lá/ ngò rí",
+    "Tỏi",
+    "Sa tế ớt",
+    "Rượu trắng",
+    "Gói",
+    "Rau ăn kèm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef brisket",
+    "Fresh noodle",
+    "Onion",
+    "Lemongrass",
+    "Chives",
+    "Garlic",
+    "Pickled Chili Pepper",
+    "White wine",
+    "Packet/Package",
+    "Side vegetable",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit gau bo",
+    "bun tuoi",
+    "hanh tay",
+    "sa",
+    "hanh la ngo ri",
+    "toi",
+    "sa te ot",
+    "ruou trang",
+    "goi",
+    "rau an kem",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

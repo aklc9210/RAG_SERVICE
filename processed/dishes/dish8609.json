@@ -1,0 +1,87 @@
+{
+  "id": "dish8609",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8609.json",
+  "name_vi": "Bò bít tết bơ tỏi",
+  "name_en": "",
+  "name_normalized": "bo bit tet bo toi",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Măng tây",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Hương thảo",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột bắp",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre04088",
+    "ingre00382",
+    "ingre07063",
+    "ingre03222",
+    "ingre00564",
+    "ingre02881",
+    "ingre02120",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Măng tây",
+    "Bơ lạt",
+    "Tỏi",
+    "Khoai tây",
+    "Bột bắp",
+    "Hương thảo",
+    "Dầu ô liu",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Asparagus",
+    "Butter",
+    "Garlic",
+    "Potato",
+    "Corn starch",
+    "Mint",
+    "Olive oil",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "mang tay",
+    "bo lat",
+    "toi",
+    "khoai tay",
+    "bot bap",
+    "huong thao",
+    "dau o liu",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

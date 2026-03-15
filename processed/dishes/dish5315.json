@@ -1,0 +1,98 @@
+{
+  "id": "dish5315",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5315.json",
+  "name_vi": "Xúc xích sốt phô mai cay",
+  "name_en": "",
+  "name_normalized": "xuc xich sot pho mai cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Xúc xích",
+    "Phô mai lát",
+    "Phô mai sợi"
+  ],
+  "secondary_ingredients": [
+    "Cải thảo",
+    "Hành baro",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột ớt",
+    "Nước tương",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07396",
+    "ingre05080",
+    "ingre05113",
+    "ingre01793",
+    "ingre02642",
+    "ingre01015",
+    "ingre04790",
+    "ingre07028",
+    "ingre06984",
+    "ingre02673",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Xúc xích",
+    "Phô mai lát",
+    "Phô mai sợi",
+    "Cải thảo",
+    "Hành baro",
+    "Bột ớt",
+    "Nước tương",
+    "Tương ớt",
+    "Tương cà",
+    "Hành lá",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Sausage",
+    "Sliced cheese",
+    "String Cheese",
+    "Cabbage",
+    "Garlic",
+    "Red Pepper Powder",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Miso酱",
+    "Scallion",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "xuc xich",
+    "pho mai lat",
+    "pho mai soi",
+    "cai thao",
+    "hanh baro",
+    "bot ot",
+    "nuoc tuong",
+    "tuong ot",
+    "tuong ca",
+    "hanh la",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

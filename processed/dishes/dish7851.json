@@ -1,0 +1,118 @@
+{
+  "id": "dish7851",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7851.json",
+  "name_vi": "Lẩu hàu",
+  "name_en": "",
+  "name_normalized": "lau hau",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Kim chi",
+    "Hàu",
+    "Hành boa-rô",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Súp lơ",
+    "Nước kim chi",
+    "Các loại nấm"
+  ],
+  "seasonings": [
+    "Tỏi gừng băm",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03277",
+    "ingre02837",
+    "ingre02650",
+    "ingre02741",
+    "ingre05842",
+    "ingre04654",
+    "ingre07088",
+    "ingre01670",
+    "ingre07036",
+    "ingre07977",
+    "ingre04790",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Kim chi",
+    "Hàu",
+    "Hành boa-rô",
+    "Hành tây",
+    "Súp lơ",
+    "Nước kim chi",
+    "Tỏi gừng băm",
+    "Các loại nấm",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Mussel",
+    "Garlic",
+    "Onion",
+    "Broccoli",
+    "Kimchi brine",
+    "Garlic and Ginger Finely Chopped",
+    "Mushrooms",
+    "Korean chili paste",
+    "Chili powder",
+    "Soy Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "kim chi",
+    "hau",
+    "hanh boa ro",
+    "hanh tay",
+    "sup lo",
+    "nuoc kim chi",
+    "toi gung bam",
+    "cac loai nam",
+    "tuong ot han quoc",
+    "ot bot",
+    "nuoc tuong",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa-ro",
+      "new": "hanh boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa-rô"
+    }
+  ]
+}

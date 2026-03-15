@@ -1,0 +1,106 @@
+{
+  "id": "dish1774",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1774.json",
+  "name_vi": "Bánh đúc nóng từ cơm nguội",
+  "name_en": "",
+  "name_normalized": "banh duc nong tu com nguoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Thịt heo xay",
+    "Nấm mèo băm nhuyễn"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre06414",
+    "ingre04934",
+    "ingre02768",
+    "ingre02673",
+    "ingre00849",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Thịt heo xay",
+    "Nấm mèo băm nhuyễn",
+    "Hành tím",
+    "Hành lá",
+    "Bột năng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Ground Pork",
+    "Mince Cat's Ear Mushrooms",
+    "Shallot",
+    "Scallion",
+    "Cornstarch",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Pepper",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "thit heo xay",
+    "nam meo bam nhuyen",
+    "hanh tim",
+    "hanh la",
+    "bot nang",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "tieu",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

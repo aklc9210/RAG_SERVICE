@@ -1,0 +1,87 @@
+{
+  "id": "dish1000",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1000.json",
+  "name_vi": "Bánh bao chay chiên",
+  "name_en": "",
+  "name_normalized": "banh bao chay chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Củ sắn"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nấm bào ngư",
+    "Nấm đông cô khô",
+    "Chả lụa chay"
+  ],
+  "seasonings": [
+    "Bột bánh bao",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00522",
+    "ingre06147",
+    "ingre01920",
+    "ingre02741",
+    "ingre04894",
+    "ingre04969",
+    "ingre01294",
+    "ingre02124",
+    "ingre02997",
+    "ingre07685"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh bao",
+    "Sữa tươi không đường",
+    "Củ sắn",
+    "Hành tây",
+    "Nấm bào ngư",
+    "Nấm đông cô khô",
+    "Chả lụa chay",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Baking Powder",
+    "Fat-free Milk",
+    "Yam",
+    "Onion",
+    "Oyster mushroom",
+    "Dried shiitake mushrooms",
+    "Vegetarian blood sausage",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Cinnamon Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh bao",
+    "sua tuoi khong duong",
+    "cu san",
+    "hanh tay",
+    "nam bao ngu",
+    "nam dong co kho",
+    "cha lua chay",
+    "dau an",
+    "hat nem chay",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu xay"
+    }
+  ]
+}

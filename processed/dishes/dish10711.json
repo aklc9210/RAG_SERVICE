@@ -1,0 +1,112 @@
+{
+  "id": "dish10711",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10711.json",
+  "name_vi": "Bún trộn thịt lợn",
+  "name_en": "",
+  "name_normalized": "bun tron thit lon",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo",
+    "Bún tươi",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Chả",
+    "Xà lách",
+    "Rau húng quế",
+    "Rau thơm",
+    "Đậu phộng rang thơm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Cà rốt và củ cải trắng ngâm chua",
+    "Giấm ăn",
+    "Nước mắm",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre00357",
+    "ingre02485",
+    "ingre02020",
+    "ingre01257",
+    "ingre07063",
+    "ingre07966",
+    "ingre07351",
+    "ingre05265",
+    "ingre05385",
+    "ingre01438",
+    "ingre07801",
+    "ingre02377",
+    "ingre04694",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Bún tươi",
+    "Gừng",
+    "Dưa leo",
+    "Chả",
+    "Tỏi",
+    "Ớt",
+    "Xà lách",
+    "Rau húng quế",
+    "Rau thơm",
+    "Cà rốt và củ cải trắng ngâm chua",
+    "Đậu phộng rang thơm",
+    "Giấm ăn",
+    "Nước mắm",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Fresh noodle",
+    "Ginger",
+    "Cucumber",
+    "Sausage",
+    "Garlic",
+    "Pepper",
+    "Lettuce",
+    "Sage Herb",
+    "Basil",
+    "Carrot and pickled white radish",
+    "Peanutsalyzed",
+    "vinegar",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "bun tuoi",
+    "gung",
+    "dua leo",
+    "cha",
+    "toi",
+    "ot",
+    "xa lach",
+    "rau hung que",
+    "rau thom",
+    "ca rot va cu cai trang ngam chua",
+    "dau phong rang thom",
+    "giam an",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

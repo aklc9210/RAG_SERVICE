@@ -1,0 +1,108 @@
+{
+  "id": "dish6849",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6849.json",
+  "name_vi": "Cá hồi áp chảo sốt me",
+  "name_en": "",
+  "name_normalized": "ca hoi ap chao sot me",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hồi",
+    "Bơ lạnh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Nước cốt me",
+    "Chanh",
+    "Ớt sừng",
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre04581",
+    "ingre01079",
+    "ingre00381",
+    "ingre08055",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre04343",
+    "ingre05574",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Nước cốt me",
+    "Chanh",
+    "Bơ lạnh",
+    "Ớt sừng",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Ngò rí",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Lime juice",
+    "Lemon",
+    "Cold butter",
+    "Hot pepper",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Parsley",
+    "White wine",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "nuoc cot me",
+    "chanh",
+    "bo lanh",
+    "ot sung",
+    "gung",
+    "toi",
+    "hanh tim",
+    "ngo ri",
+    "ruou trang",
+    "dau an",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

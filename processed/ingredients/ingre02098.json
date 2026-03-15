@@ -1,0 +1,27 @@
+{
+  "id": "ingre02098",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02098.json",
+  "name_vi": "dầu mè.",
+  "name_en": "Sesame oil.",
+  "name_normalized": "dau me",
+  "synonyms": [
+    "dầu vừng"
+  ],
+  "synonyms_normalized": [
+    "dau vung"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau me.",
+      "new": "dau me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish0219",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0219.json",
+  "name_vi": "Cá cam nấu canh chua",
+  "name_en": "",
+  "name_normalized": "ca cam nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá cam",
+    "Giá"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Thơm",
+    "Dọc mùng",
+    "Đậu bắp",
+    "Rau quế",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi phi",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01482",
+    "ingre01079",
+    "ingre02329",
+    "ingre01354",
+    "ingre06247",
+    "ingre02147",
+    "ingre07729",
+    "ingre05354",
+    "ingre04329",
+    "ingre07096",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá cam",
+    "Chanh",
+    "Giá",
+    "Cà chua",
+    "Thơm",
+    "Dọc mùng",
+    "Đậu bắp",
+    "Rau quế",
+    "Ngò gai",
+    "Tỏi phi",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Orange fish",
+    "Lemon",
+    "Mint",
+    "Tomato",
+    "Basil",
+    "Water spinach",
+    "Green beans",
+    "Sage",
+    "Culantro",
+    "Garlic flakes",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca cam",
+    "chanh",
+    "gia",
+    "ca chua",
+    "thom",
+    "doc mung",
+    "dau bap",
+    "rau que",
+    "ngo gai",
+    "toi phi",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dish10566",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10566.json",
+  "name_vi": "Nhút Thanh Chương (nhút mít non)",
+  "name_en": "",
+  "name_normalized": "nhut thanh chuong nhut mit non",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Mít non"
+  ],
+  "secondary_ingredients": [
+    "Sả cây"
+  ],
+  "seasonings": [
+    "Muối hạt",
+    "Ớt cay",
+    "Tỏi",
+    "Chanh tươi"
+  ],
+  "ingredient_ids": [
+    "ingre04035",
+    "ingre03760",
+    "ingre05909",
+    "ingre07993",
+    "ingre07063",
+    "ingre01091"
+  ],
+  "ingredient_names_vi": [
+    "Mít non",
+    "Muối hạt",
+    "Sả cây",
+    "Ớt cay",
+    "Tỏi",
+    "Chanh tươi"
+  ],
+  "ingredient_names_en": [
+    "Young banana blossom",
+    "Fenugreek seeds",
+    "Fresh Ginger",
+    "Hot pepper",
+    "Garlic",
+    "Lime"
+  ],
+  "ingredient_names_normalized": [
+    "mit non",
+    "muoi hat",
+    "sa cay",
+    "ot cay",
+    "toi",
+    "chanh tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nhut thanh chuong (nhut mit non)",
+      "new": "nhut thanh chuong nhut mit non",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

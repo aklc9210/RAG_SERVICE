@@ -1,0 +1,72 @@
+{
+  "id": "dish8161",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8161.json",
+  "name_vi": "Rocket salad dưa leo lựu",
+  "name_en": "",
+  "name_normalized": "rocket salad dua leo luu",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau xà lách rocket",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Lựu",
+    "Cà chua bi",
+    "Hành tây tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05412",
+    "ingre02020",
+    "ingre03629",
+    "ingre01355",
+    "ingre02761",
+    "ingre01079",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Rau xà lách rocket",
+    "Dưa leo",
+    "Lựu",
+    "Cà chua bi",
+    "Hành tây tím",
+    "Chanh",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rocket Salad",
+    "Cucumber",
+    "Pomegranate",
+    "Tomato",
+    "Purple onion",
+    "Lemon",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "rau xa lach rocket",
+    "dua leo",
+    "luu",
+    "ca chua bi",
+    "hanh tay tim",
+    "chanh",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

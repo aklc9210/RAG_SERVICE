@@ -1,0 +1,111 @@
+{
+  "id": "dish6119",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6119.json",
+  "name_vi": "Cá ngân kho cà chua",
+  "name_en": "",
+  "name_normalized": "ca ngan kho ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá ngân",
+    "Cà chua",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01576",
+    "ingre01354",
+    "ingre02768",
+    "ingre07063",
+    "ingre08026",
+    "ingre02673",
+    "ingre02124",
+    "ingre04672",
+    "ingre04694",
+    "ingre04538",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngân",
+    "Cà chua",
+    "Hành tím",
+    "Tỏi",
+    "Ớt hiểm",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước màu",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Silver perch",
+    "Tomato",
+    "Shallot",
+    "Garlic",
+    "Hot pepper",
+    "Scallion",
+    "Cooking oil",
+    "Food coloring",
+    "Fish Sauce",
+    "Lemon juice",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngan",
+    "ca chua",
+    "hanh tim",
+    "toi",
+    "ot hiem",
+    "hanh la",
+    "dau an",
+    "nuoc mau",
+    "nuoc mam",
+    "nuoc cot chanh",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "dish6438",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6438.json",
+  "name_vi": "Cánh gà chiên xá xị",
+  "name_en": "",
+  "name_normalized": "canh ga chien xa xi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cánh gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Nước ngọt xá xị",
+    "Bột chiên giòn",
+    "Ớt khô",
+    "Tỏi băm",
+    "Gừng mài",
+    "Tương ớt Hàn Quốc",
+    "Tương cà",
+    "Nước tỏi",
+    "Nước tương",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre04737",
+    "ingre00598",
+    "ingre08039",
+    "ingre07071",
+    "ingre02509",
+    "ingre02673",
+    "ingre03936",
+    "ingre07036",
+    "ingre06984",
+    "ingre04818",
+    "ingre04790",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Nước ngọt xá xị",
+    "Bột chiên giòn",
+    "Ớt khô",
+    "Tỏi băm",
+    "Gừng mài",
+    "Hành lá",
+    "Mè trắng rang",
+    "Tương ớt Hàn Quốc",
+    "Tương cà",
+    "Nước tỏi",
+    "Nước tương",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Soda",
+    "Puffed Rice Powder",
+    "Dried Pepper",
+    "Minced Garlic",
+    "Ginger Powder",
+    "Scallion",
+    "Roasted White Sesame",
+    "Korean chili paste",
+    "Miso酱",
+    "Garlic water",
+    "Soy Sauce",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "nuoc ngot xa xi",
+    "bot chien gion",
+    "ot kho",
+    "toi bam",
+    "gung mai",
+    "hanh la",
+    "me trang rang",
+    "tuong ot han quoc",
+    "tuong ca",
+    "nuoc toi",
+    "nuoc tuong",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

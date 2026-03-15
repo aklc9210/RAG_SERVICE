@@ -1,0 +1,86 @@
+{
+  "id": "dish0534",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0534.json",
+  "name_vi": "Canh rau lang nấu tôm",
+  "name_en": "",
+  "name_normalized": "canh rau lang nau tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau khoai lang",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mắm ruốc",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05276",
+    "ingre06963",
+    "ingre02768",
+    "ingre04151",
+    "ingre07977",
+    "ingre02124",
+    "ingre04694",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Rau khoai lang",
+    "Tôm tươi",
+    "Hành tím",
+    "Mắm ruốc",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato Leaves",
+    "Fresh shrimp",
+    "Shallot",
+    "Shrimp paste",
+    "Chili powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "rau khoai lang",
+    "tom tuoi",
+    "hanh tim",
+    "mam ruoc",
+    "ot bot",
+    "dau an",
+    "nuoc mam",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

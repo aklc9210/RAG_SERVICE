@@ -1,0 +1,88 @@
+{
+  "id": "dish1766",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1766.json",
+  "name_vi": "Há cảo hấp nhân tôm thịt",
+  "name_en": "",
+  "name_normalized": "ha cao hap nhan tom thit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Tôm xay"
+  ],
+  "secondary_ingredients": [
+    "Củ sắn",
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Bột tàn mì",
+    "Bột năng",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre06969",
+    "ingre00970",
+    "ingre00849",
+    "ingre01920",
+    "ingre02673",
+    "ingre02094",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Tôm xay",
+    "Bột tàn mì",
+    "Bột năng",
+    "Củ sắn",
+    "Hành lá",
+    "Dầu mè",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Ground虾饺 (Note: There seems to be a mismatch in the translation request. \"tôm xay\" typically translates to \"Ground shrimp\"",
+    "Baking Soda",
+    "Cornstarch",
+    "Yam",
+    "Scallion",
+    "Sesame oil",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "tom xay",
+    "bot tan mi",
+    "bot nang",
+    "cu san",
+    "hanh la",
+    "dau me",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

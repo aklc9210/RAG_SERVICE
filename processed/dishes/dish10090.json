@@ -1,0 +1,56 @@
+{
+  "id": "dish10090",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10090.json",
+  "name_vi": "Trà sương mù London fog tea - trà bá tước",
+  "name_en": "",
+  "name_normalized": "tra suong mu london fog tea tra ba tuoc",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Trà túi lọc"
+  ],
+  "secondary_ingredients": [
+    "Nước nóng",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre06723",
+    "ingre04738",
+    "ingre06147",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Trà túi lọc",
+    "Nước nóng",
+    "Sữa tươi không đường",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Tea Bag",
+    "Hot water",
+    "Fat-free Milk",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "tra tui loc",
+    "nuoc nong",
+    "sua tuoi khong duong",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tra suong mu london fog tea - tra ba tuoc",
+      "new": "tra suong mu london fog tea tra ba tuoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

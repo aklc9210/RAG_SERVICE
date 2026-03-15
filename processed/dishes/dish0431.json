@@ -1,0 +1,68 @@
+{
+  "id": "dish0431",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0431.json",
+  "name_vi": "Bồ câu hấp nước dừa",
+  "name_en": "",
+  "name_normalized": "bo cau hap nuoc dua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bồ câu"
+  ],
+  "secondary_ingredients": [
+    "Dừa",
+    "Nước dừa",
+    "Táo đỏ khô",
+    "Táo đỏ"
+  ],
+  "seasonings": [
+    "Muối - đường - bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00500",
+    "ingre02162",
+    "ingre04622",
+    "ingre06912",
+    "ingre06911",
+    "ingre03749"
+  ],
+  "ingredient_names_vi": [
+    "Bồ câu",
+    "Dừa",
+    "Nước dừa",
+    "Táo đỏ khô",
+    "Táo đỏ",
+    "Muối - đường - bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Coconut",
+    "Coconut water",
+    "Dried Persimmon",
+    "Red apple",
+    "Salt - Sugar - Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "bo cau",
+    "dua",
+    "nuoc dua",
+    "tao do kho",
+    "tao do",
+    "muoi duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi - duong - bot ngot",
+      "new": "muoi duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối - đường - bột ngọt"
+    }
+  ]
+}

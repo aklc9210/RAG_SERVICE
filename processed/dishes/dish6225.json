@@ -1,0 +1,101 @@
+{
+  "id": "dish6225",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6225.json",
+  "name_vi": "Nấm rơm kho đậu hũ",
+  "name_en": "",
+  "name_normalized": "nam rom kho dau hu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Đậu hũ trắng",
+    "Nấm rơm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07755",
+    "ingre04953",
+    "ingre02673",
+    "ingre07966",
+    "ingre02768",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ trắng",
+    "Nấm rơm",
+    "Hành lá",
+    "Ớt",
+    "Hành tím",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Strawberry mushroom",
+    "Scallion",
+    "Pepper",
+    "Shallot",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu trang",
+    "nam rom",
+    "hanh la",
+    "ot",
+    "hanh tim",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

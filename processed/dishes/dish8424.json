@@ -1,0 +1,108 @@
+{
+  "id": "dish8424",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8424.json",
+  "name_vi": "Miến trộn gà xé dưa leo",
+  "name_en": "",
+  "name_normalized": "mien tron ga xe dua leo",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Miến khô",
+    "Thịt gà",
+    "Dưa leo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Tương ớt",
+    "Tương đen ăn phở",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03716",
+    "ingre06380",
+    "ingre02020",
+    "ingre02673",
+    "ingre04343",
+    "ingre07791",
+    "ingre07028",
+    "ingre07014",
+    "ingre02124",
+    "ingre04538",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Miến khô",
+    "Thịt gà",
+    "Dưa leo",
+    "Hành lá",
+    "Ngò rí",
+    "Đậu phộng rang",
+    "Tương ớt",
+    "Tương đen ăn phở",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice Noodles",
+    "Chicken",
+    "Cucumber",
+    "Scallion",
+    "Parsley",
+    "Roasted Peanut",
+    "Hot Sauce",
+    "Black bean sauce",
+    "Cooking oil",
+    "Lemon juice",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "mien kho",
+    "thit ga",
+    "dua leo",
+    "hanh la",
+    "ngo ri",
+    "dau phong rang",
+    "tuong ot",
+    "tuong den an pho",
+    "dau an",
+    "nuoc cot chanh",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "dish4124",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4124.json",
+  "name_vi": "Gà nướng lá chanh bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ga nuong la chanh bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Gừng",
+    "Ớt",
+    "Rượu trắng",
+    "Muốt hạt",
+    "Bột ớt",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03370",
+    "ingre02673",
+    "ingre02768",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre05574",
+    "ingre03839",
+    "ingre01015",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá chanh",
+    "Hành lá",
+    "Hành tím",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Rượu trắng",
+    "Muốt hạt",
+    "Bột ớt",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lime leaf",
+    "Scallion",
+    "Shallot",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "White wine",
+    "Mustard Seed",
+    "Red Pepper Powder",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la chanh",
+    "hanh la",
+    "hanh tim",
+    "gung",
+    "sa",
+    "ot",
+    "ruou trang",
+    "muot hat",
+    "bot ot",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

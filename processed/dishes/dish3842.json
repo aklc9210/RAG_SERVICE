@@ -1,0 +1,77 @@
+{
+  "id": "dish3842",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3842.json",
+  "name_vi": "Cá nục nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "ca nuc nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá nục",
+    "Xà lách"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Xoài xanh",
+    "Táo xanh hoặc khế xanh",
+    "Dưa leo",
+    "Me"
+  ],
+  "seasonings": [
+    "Cà rốt"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre07351",
+    "ingre05385",
+    "ingre01419",
+    "ingre07342",
+    "ingre06909",
+    "ingre02020",
+    "ingre03643"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Xà lách",
+    "Rau thơm",
+    "Cà rốt",
+    "Xoài xanh",
+    "Táo xanh hoặc khế xanh",
+    "Dưa leo",
+    "Me"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Lettuce",
+    "Basil",
+    "Carrot",
+    "Green mango",
+    "Green apple or unripe persimmon",
+    "Cucumber",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "xa lach",
+    "rau thom",
+    "ca rot",
+    "xoai xanh",
+    "tao xanh hoac khe xanh",
+    "dua leo",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

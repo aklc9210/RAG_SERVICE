@@ -1,0 +1,53 @@
+{
+  "id": "dish2721",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2721.json",
+  "name_vi": "Bánh dưa leo",
+  "name_en": "",
+  "name_normalized": "banh dua leo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước",
+    "Cơm dừa sấy khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dưa chuột",
+    "Đường",
+    "Bột rau câu"
+  ],
+  "ingredient_ids": [
+    "ingre02000",
+    "ingre04490",
+    "ingre07583",
+    "ingre00892",
+    "ingre01744"
+  ],
+  "ingredient_names_vi": [
+    "Dưa chuột",
+    "Nước",
+    "Đường",
+    "Bột rau câu",
+    "Cơm dừa sấy khô"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Water",
+    "Sugar",
+    "Agar agar",
+    "Dried Coconut Rice"
+  ],
+  "ingredient_names_normalized": [
+    "dua chuot",
+    "nuoc",
+    "duong",
+    "bot rau cau",
+    "com dua say kho"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

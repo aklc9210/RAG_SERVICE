@@ -1,0 +1,98 @@
+{
+  "id": "dish8463",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8463.json",
+  "name_vi": "Gà nấu rượu trắng",
+  "name_en": "",
+  "name_normalized": "ga nau ruou trang",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Táo tàu đỏ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu kho thịt"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước tương",
+    "Rượu trắng ngâm kỷ tử",
+    "Tiêu",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre06904",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre04538",
+    "ingre04790",
+    "ingre04680",
+    "ingre05578",
+    "ingre06612",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Táo tàu đỏ",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước tương",
+    "Nước màu kho thịt",
+    "Rượu trắng ngâm kỷ tử",
+    "Tiêu",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Red Cured Plum",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Lemon juice",
+    "Soy Sauce",
+    "Cured Meat Coloring Water",
+    "Rice Wine Infused with枸杞 (Goji Berries)",
+    "Pepper",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "tao tau do",
+    "gung",
+    "hanh tim",
+    "toi",
+    "nuoc cot chanh",
+    "nuoc tuong",
+    "nuoc mau kho thit",
+    "ruou trang ngam ky tu",
+    "tieu",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

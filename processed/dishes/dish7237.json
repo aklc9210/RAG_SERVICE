@@ -1,0 +1,53 @@
+{
+  "id": "dish7237",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7237.json",
+  "name_vi": "Trứng bác",
+  "name_en": "",
+  "name_normalized": "trung bac",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sữa tươi",
+    "Bơ lạt",
+    "Phô mai Mozzarella"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06144",
+    "ingre00382",
+    "ingre05092",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Sữa tươi",
+    "Bơ lạt",
+    "Phô mai Mozzarella",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Fresh Milk",
+    "Butter",
+    "Mozzarella cheese",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "sua tuoi",
+    "bo lat",
+    "pho mai mozzarella",
+    "tieu xay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

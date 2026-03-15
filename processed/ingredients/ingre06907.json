@@ -1,0 +1,25 @@
+{
+  "id": "ingre06907",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06907.json",
+  "name_vi": "táo tây:",
+  "name_en": "Celery",
+  "name_normalized": "tao tay",
+  "synonyms": [
+    "cây su su"
+  ],
+  "synonyms_normalized": [
+    "cay su su"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tao tay:",
+      "new": "tao tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish5387",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5387.json",
+  "name_vi": "Vịt xào gừng",
+  "name_en": "",
+  "name_normalized": "vit xao gung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt đùi vịt",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Rượu",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06535",
+    "ingre02485",
+    "ingre02768",
+    "ingre05515",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi vịt",
+    "Gừng",
+    "Hành tím",
+    "Rượu",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Duck thigh",
+    "Ginger",
+    "Shallot",
+    "Rum",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui vit",
+    "gung",
+    "hanh tim",
+    "ruou",
+    "dau hao",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

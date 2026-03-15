@@ -1,0 +1,123 @@
+{
+  "id": "dish3725",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3725.json",
+  "name_vi": "Thịt xiên lá móc mật (mắc mật) bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "thit xien la moc mat mac mat bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Lá móc mật",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ngũ vị hương",
+    "Tương ớt",
+    "Ớt bột",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường nâu"
+  ],
+  "ingredient_ids": [
+    "ingre06214",
+    "ingre03345",
+    "ingre05651",
+    "ingre06680",
+    "ingre02548",
+    "ingre04381",
+    "ingre07028",
+    "ingre07977",
+    "ingre04581",
+    "ingre04459",
+    "ingre04124",
+    "ingre01946",
+    "ingre02124",
+    "ingre07628"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Lá móc mật",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Ngũ vị hương",
+    "Tương ớt",
+    "Ớt bột",
+    "Nước cốt me",
+    "Nước mắm",
+    "Mật ong",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường nâu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Burdock Leaf",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "Five-Spice Powder",
+    "Hot Sauce",
+    "Chili powder",
+    "Lime juice",
+    "Fish Sauce",
+    "Honey",
+    "Soy sauce",
+    "Cooking oil",
+    "Brown Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "la moc mat",
+    "sa",
+    "toi",
+    "hanh tim",
+    "ngu vi huong",
+    "tuong ot",
+    "ot bot",
+    "nuoc cot me",
+    "nuoc mam",
+    "mat ong",
+    "dau hao",
+    "dau an",
+    "duong nau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit xien la moc mat (mac mat) bang noi chien khong dau",
+      "new": "thit xien la moc mat mac mat bang noi chien khong dau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish4242",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4242.json",
+  "name_vi": "Cá hồi nướng teriyaki",
+  "name_en": "",
+  "name_normalized": "ca hoi nuong teriyaki",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá hồi phi lê",
+    "Bí ngòi xanh"
+  ],
+  "secondary_ingredients": [
+    "Mứt dẻo",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Đường nâu",
+    "Nước tương",
+    "Rượu nấu ăn",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01529",
+    "ingre00239",
+    "ingre07063",
+    "ingre02485",
+    "ingre07628",
+    "ingre04790",
+    "ingre04231",
+    "ingre05552",
+    "ingre02124",
+    "ingre02094",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi phi lê",
+    "Bí ngòi xanh",
+    "Tỏi",
+    "Gừng",
+    "Đường nâu",
+    "Nước tương",
+    "Mứt dẻo",
+    "Rượu nấu ăn",
+    "Dầu ăn",
+    "Dầu mè",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Green bitter melon",
+    "Garlic",
+    "Ginger",
+    "Brown Sugar",
+    "Soy Sauce",
+    "Jelly candy",
+    "Cooking wine",
+    "Cooking oil",
+    "Sesame oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi phi le",
+    "bi ngoi xanh",
+    "toi",
+    "gung",
+    "duong nau",
+    "nuoc tuong",
+    "mut deo",
+    "ruou nau an",
+    "dau an",
+    "dau me",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "dish9360",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9360.json",
+  "name_vi": "Bơ đậu phộng - bơ lạc",
+  "name_en": "",
+  "name_normalized": "bo dau phong bo lac",
+  "category": "an vat",
+  "main_ingredients": [
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Muối",
+    "Dầu ăn",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre03746",
+    "ingre02124",
+    "ingre07589",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Muối",
+    "Dầu ăn",
+    "Đường bột",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Salt",
+    "Cooking oil",
+    "Sugar Powder",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "muoi",
+    "dau an",
+    "duong bot",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo dau phong - bo lac",
+      "new": "bo dau phong bo lac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

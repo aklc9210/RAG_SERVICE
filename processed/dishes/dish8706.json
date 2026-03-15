@@ -1,0 +1,96 @@
+{
+  "id": "dish8706",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8706.json",
+  "name_vi": "Khô bò chay từ chân nấm",
+  "name_en": "",
+  "name_normalized": "kho bo chay tu chan nam",
+  "category": "mon chay",
+  "main_ingredients": [
+    "Chân nấm hương khô",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Tương ớt",
+    "Bột ớt",
+    "Nước mắm chay",
+    "Ngũ vị hương",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01243",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre07028",
+    "ingre01015",
+    "ingre04697",
+    "ingre04381",
+    "ingre07583",
+    "ingre00819",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân nấm hương khô",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Tương ớt",
+    "Bột ớt",
+    "Nước mắm chay",
+    "Ngũ vị hương",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dried Shiitake Mushroom Stem",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Hot Sauce",
+    "Red Pepper Powder",
+    "Vegetarian fish sauce",
+    "Five-Spice Powder",
+    "Sugar",
+    "MSG",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan nam huong kho",
+    "sa",
+    "toi",
+    "ot",
+    "tuong ot",
+    "bot ot",
+    "nuoc mam chay",
+    "ngu vi huong",
+    "duong",
+    "bot ngot",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

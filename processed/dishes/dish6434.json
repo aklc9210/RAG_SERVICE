@@ -1,0 +1,73 @@
+{
+  "id": "dish6434",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6434.json",
+  "name_vi": "Ba khía rang muối ớt",
+  "name_en": "",
+  "name_normalized": "ba khia rang muoi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ba khía"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00009",
+    "ingre08026",
+    "ingre02768",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ba khía",
+    "Ớt hiểm",
+    "Hành tím",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Hot pepper",
+    "Shallot",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ba khia",
+    "ot hiem",
+    "hanh tim",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

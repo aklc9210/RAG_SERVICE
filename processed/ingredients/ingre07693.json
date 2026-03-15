@@ -1,0 +1,29 @@
+{
+  "id": "ingre07693",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07693.json",
+  "name_vi": "đường:",
+  "name_en": "Sugar:",
+  "name_normalized": "duong",
+  "synonyms": [
+    "cửu ly",
+    "mật ong cạn"
+  ],
+  "synonyms_normalized": [
+    "cuu ly",
+    "mat ong can"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong:",
+      "new": "duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

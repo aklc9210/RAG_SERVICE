@@ -1,0 +1,63 @@
+{
+  "id": "dish2730",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2730.json",
+  "name_vi": "Bánh mì marble socola",
+  "name_en": "",
+  "name_normalized": "banh mi marble socola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men Instant",
+    "Sữa",
+    "Bơ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Đường",
+    "Muối",
+    "Bột ca cao"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre07583",
+    "ingre03746",
+    "ingre03672",
+    "ingre06078",
+    "ingre00367",
+    "ingre00572"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Đường",
+    "Muối",
+    "Men Instant",
+    "Sữa",
+    "Bơ",
+    "Bột ca cao"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Sugar",
+    "Salt",
+    "Instant yeast",
+    "Milk",
+    "Butter",
+    "Cocoa powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "duong",
+    "muoi",
+    "men instant",
+    "sua",
+    "bo",
+    "bot ca cao"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

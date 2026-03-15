@@ -1,0 +1,99 @@
+{
+  "id": "dish0282",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0282.json",
+  "name_vi": "Canh chua cá chẽm",
+  "name_en": "",
+  "name_normalized": "canh chua ca chem",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chẽm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Dọc mùng",
+    "Bông điên điển",
+    "Đậu bắp",
+    "Sả",
+    "Ngò ôm",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre01503",
+    "ingre01354",
+    "ingre02147",
+    "ingre00296",
+    "ingre07729",
+    "ingre05900",
+    "ingre04356",
+    "ingre04329",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Cá chẽm",
+    "Cà chua",
+    "Dọc mùng",
+    "Bông điên điển",
+    "Đậu bắp",
+    "Sả",
+    "Ngò ôm",
+    "Ngò gai",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Whitingsmith Fish",
+    "Tomato",
+    "Water spinach",
+    "Dandelion flower",
+    "Green beans",
+    "Lemongrass",
+    "Parsley",
+    "Culantro",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca chem",
+    "ca chua",
+    "doc mung",
+    "bong dien dien",
+    "dau bap",
+    "sa",
+    "ngo om",
+    "ngo gai",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dish1490",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1490.json",
+  "name_vi": "Bánh quy hình con ma",
+  "name_en": "",
+  "name_normalized": "banh quy hinh con ma",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07589",
+    "ingre00382",
+    "ingre06823",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Bơ lạt",
+    "Trứng gà",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Sugar Powder",
+    "Butter",
+    "Chicken egg",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "duong bot",
+    "bo lat",
+    "trung ga",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

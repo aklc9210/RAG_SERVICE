@@ -1,0 +1,66 @@
+{
+  "id": "dish7004",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7004.json",
+  "name_vi": "Nước chấm bánh xèo",
+  "name_en": "",
+  "name_normalized": "nuoc cham banh xeo",
+  "category": "mon chien",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Ớt băm",
+    "Tỏi băm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04694",
+    "ingre04626",
+    "ingre04538",
+    "ingre07971",
+    "ingre07071",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Nước mắm",
+    "Nước dừa tươi",
+    "Nước cốt chanh",
+    "Ớt băm",
+    "Tỏi băm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fish Sauce",
+    "Coconut water",
+    "Lemon juice",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc mam",
+    "nuoc dua tuoi",
+    "nuoc cot chanh",
+    "ot bam",
+    "toi bam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish3519",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3519.json",
+  "name_vi": "Bánh lọt mặn giò heo",
+  "name_en": "",
+  "name_normalized": "banh lot man gio heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Giò heo",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Ngò rí",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bánh lọt bột gạo",
+    "Củ cải muối",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối hạt",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02346",
+    "ingre00099",
+    "ingre01868",
+    "ingre04953",
+    "ingre01865",
+    "ingre04343",
+    "ingre02673",
+    "ingre07071",
+    "ingre02124",
+    "ingre03760",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Giò heo",
+    "Bánh lọt bột gạo",
+    "Củ cải trắng",
+    "Nấm rơm",
+    "Củ cải muối",
+    "Ngò rí",
+    "Hành lá",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối hạt",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Glutinous Rice Cake",
+    "White radish",
+    "Strawberry mushroom",
+    "Pickled radish",
+    "Parsley",
+    "Scallion",
+    "Minced Garlic",
+    "Cooking oil",
+    "Fenugreek seeds",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "gio heo",
+    "banh lot bot gao",
+    "cu cai trang",
+    "nam rom",
+    "cu cai muoi",
+    "ngo ri",
+    "hanh la",
+    "toi bam",
+    "dau an",
+    "muoi hat",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

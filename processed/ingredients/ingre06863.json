@@ -1,0 +1,29 @@
+{
+  "id": "ingre06863",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06863.json",
+  "name_vi": "trứng-",
+  "name_en": "Egg-",
+  "name_normalized": "trung",
+  "synonyms": [
+    "trứng gà",
+    "trứng vịt"
+  ],
+  "synonyms_normalized": [
+    "trung ga",
+    "trung vit"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung-",
+      "new": "trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

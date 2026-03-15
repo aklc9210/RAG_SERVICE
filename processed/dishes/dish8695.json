@@ -1,0 +1,87 @@
+{
+  "id": "dish8695",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8695.json",
+  "name_vi": "Bánh đa xào chay",
+  "name_en": "",
+  "name_normalized": "banh da xao chay",
+  "category": "mon chay",
+  "main_ingredients": [
+    "Bánh đa khô",
+    "Đậu phụ trắng",
+    "Đậu que"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Ngò rí",
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00221",
+    "ingre07814",
+    "ingre07818",
+    "ingre04953",
+    "ingre01787",
+    "ingre04343",
+    "ingre02645",
+    "ingre02124",
+    "ingre04790",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa khô",
+    "Đậu phụ trắng",
+    "Đậu que",
+    "Nấm rơm",
+    "Cải ngọt",
+    "Ngò rí",
+    "Hành boa rô",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice Noodle Sheets",
+    "Tofu",
+    "Green beans",
+    "Strawberry mushroom",
+    "Sweet cabbage",
+    "Parsley",
+    "Garlic",
+    "Cooking oil",
+    "Soy Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "banh da kho",
+    "dau phu trang",
+    "dau que",
+    "nam rom",
+    "cai ngot",
+    "ngo ri",
+    "hanh boa ro",
+    "dau an",
+    "nuoc tuong",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

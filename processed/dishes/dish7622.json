@@ -1,0 +1,57 @@
+{
+  "id": "dish7622",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7622.json",
+  "name_vi": "Bầu luộc chấm chao",
+  "name_en": "",
+  "name_normalized": "bau luoc cham chao",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Bầu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01106",
+    "ingre00440",
+    "ingre07966",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Chao",
+    "Bầu",
+    "Ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pickled plum",
+    "Zucchini",
+    "Pepper",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chao",
+    "bau",
+    "ot",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

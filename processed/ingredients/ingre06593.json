@@ -1,0 +1,29 @@
+{
+  "id": "ingre06593",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06593.json",
+  "name_vi": "tinh chất vani (1 hoặc 2 giọt)",
+  "name_en": "Vanilla extract (1 or 2 drops)",
+  "name_normalized": "tinh chat vani 1 hoac 2 giot",
+  "synonyms": [
+    "kem vani",
+    "vani",
+    "tinh dầu vani"
+  ],
+  "synonyms_normalized": [
+    "kem vani",
+    "vani",
+    "tinh dau vani"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tinh chat vani (1 hoac 2 giot)",
+      "new": "tinh chat vani 1 hoac 2 giot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

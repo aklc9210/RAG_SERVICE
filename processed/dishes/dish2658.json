@@ -1,0 +1,58 @@
+{
+  "id": "dish2658",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2658.json",
+  "name_vi": "Bánh mì cá sấu",
+  "name_en": "",
+  "name_normalized": "banh mi ca sau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước ấm",
+    "Men nở instant"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre04879",
+    "ingre03687",
+    "ingre03746",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Nước ấm",
+    "Men nở instant",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Warm water",
+    "Instant Yeast",
+    "Salt",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "nuoc am",
+    "men no instant",
+    "muoi",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish8581",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8581.json",
+  "name_vi": "Cà ri bò Ấn Độ",
+  "name_en": "",
+  "name_normalized": "ca ri bo an do",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Bắp bò",
+    "Lá cà ri"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Hành tím",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Bột cà ri",
+    "Ớt sừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre00631",
+    "ingre03402",
+    "ingre05900",
+    "ingre08055",
+    "ingre02741",
+    "ingre07063",
+    "ingre02768",
+    "ingre02093",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Bột cà ri",
+    "Lá cà ri",
+    "Sả",
+    "Ớt sừng",
+    "Hành tây",
+    "Tỏi",
+    "Hành tím",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Curry powder",
+    "Curry leaf",
+    "Lemongrass",
+    "Hot pepper",
+    "Onion",
+    "Garlic",
+    "Shallot",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "bot ca ri",
+    "la ca ri",
+    "sa",
+    "ot sung",
+    "hanh tay",
+    "toi",
+    "hanh tim",
+    "dau mau dieu",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

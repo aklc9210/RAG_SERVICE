@@ -1,0 +1,106 @@
+{
+  "id": "dish4957",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4957.json",
+  "name_vi": "Ốc nhảy xào bơ tỏi",
+  "name_en": "",
+  "name_normalized": "oc nhay xao bo toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc nhảy",
+    "Sả",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Tương ớt",
+    "Ớt băm",
+    "Tỏi băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07950",
+    "ingre05900",
+    "ingre02485",
+    "ingre00382",
+    "ingre07966",
+    "ingre07028",
+    "ingre07971",
+    "ingre07071",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc nhảy",
+    "Sả",
+    "Gừng",
+    "Bơ lạt",
+    "Ớt",
+    "Tương ớt",
+    "Ớt băm",
+    "Tỏi băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Jumping snail",
+    "Lemongrass",
+    "Ginger",
+    "Butter",
+    "Pepper",
+    "Hot Sauce",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc nhay",
+    "sa",
+    "gung",
+    "bo lat",
+    "ot",
+    "tuong ot",
+    "ot bam",
+    "toi bam",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

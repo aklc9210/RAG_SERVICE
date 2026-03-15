@@ -1,0 +1,29 @@
+{
+  "id": "ingre01104",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01104.json",
+  "name_vi": "chanh/tỏi và ớt",
+  "name_en": "Lime/Garlic and Chili",
+  "name_normalized": "chanh toi va ot",
+  "synonyms": [
+    "chanh tươi",
+    "tỏi non",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "chanh tuoi",
+    "toi non",
+    "ot chuong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh/toi va ot",
+      "new": "chanh toi va ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

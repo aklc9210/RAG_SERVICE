@@ -1,0 +1,82 @@
+{
+  "id": "dish3933",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3933.json",
+  "name_vi": "Sườn nướng dầu hào",
+  "name_en": "",
+  "name_normalized": "suon nuong dau hao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn non",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Hạt nêm",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre02080",
+    "ingre06174",
+    "ingre04124",
+    "ingre02995",
+    "ingre04790"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Sữa đặc",
+    "Mật ong",
+    "Hạt nêm",
+    "Nước tương"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Soy sauce",
+    "Sweetened Condensed Milk",
+    "Honey",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "hanh tim",
+    "toi",
+    "gung",
+    "dau hao",
+    "sua dac",
+    "mat ong",
+    "hat nem",
+    "nuoc tuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

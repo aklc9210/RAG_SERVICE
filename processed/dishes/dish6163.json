@@ -1,0 +1,90 @@
+{
+  "id": "dish6163",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6163.json",
+  "name_vi": "Giò gà (chả lụa gà) bằng máy xay sinh tố",
+  "name_en": "",
+  "name_normalized": "gio ga cha lua ga bang may xay sinh to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Phi lê thịt đùi gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bắp",
+    "Bột nở",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05045",
+    "ingre00564",
+    "ingre00867",
+    "ingre00978",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê thịt đùi gà",
+    "Bột bắp",
+    "Bột nở",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh fillet",
+    "Corn starch",
+    "Baking powder",
+    "Garlic powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "phi le thit dui ga",
+    "bot bap",
+    "bot no",
+    "bot toi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gio ga (cha lua ga) bang may xay sinh to",
+      "new": "gio ga cha lua ga bang may xay sinh to",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

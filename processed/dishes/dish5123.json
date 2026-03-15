@@ -1,0 +1,143 @@
+{
+  "id": "dish5123",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5123.json",
+  "name_vi": "Thịt nai xào lăn",
+  "name_en": "",
+  "name_normalized": "thit nai xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt nai",
+    "Nấm mèo khô",
+    "Hành tây",
+    "Ngò gai/ Ngò ôm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Nước dão dừa"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Bột cà ri",
+    "Bột nghệ",
+    "Nước cốt dừa",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06447",
+    "ingre04936",
+    "ingre02741",
+    "ingre07966",
+    "ingre04334",
+    "ingre02768",
+    "ingre05900",
+    "ingre02485",
+    "ingre00631",
+    "ingre00804",
+    "ingre04601",
+    "ingre04554",
+    "ingre05574",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nai",
+    "Nấm mèo khô",
+    "Hành tây",
+    "Ớt",
+    "Ngò gai/ Ngò ôm",
+    "Hành tím",
+    "Sả",
+    "Gừng",
+    "Bột cà ri",
+    "Bột nghệ",
+    "Nước dão dừa",
+    "Nước cốt dừa",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Deer meat",
+    "Dried cat's ear mushroom",
+    "Onion",
+    "Pepper",
+    "Parsley",
+    "Shallot",
+    "Lemongrass",
+    "Ginger",
+    "Curry powder",
+    "Turmeric Powder",
+    "Coconut water",
+    "Coconut milk",
+    "White wine",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit nai",
+    "nam meo kho",
+    "hanh tay",
+    "ot",
+    "ngo gai ngo om",
+    "hanh tim",
+    "sa",
+    "gung",
+    "bot ca ri",
+    "bot nghe",
+    "nuoc dao dua",
+    "nuoc cot dua",
+    "ruou trang",
+    "dau an",
+    "hat nem",
+    "duong",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo gai/ ngo om",
+      "new": "ngo gai ngo om",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò gai/ Ngò ôm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

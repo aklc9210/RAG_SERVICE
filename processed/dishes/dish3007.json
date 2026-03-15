@@ -1,0 +1,53 @@
+{
+  "id": "dish3007",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3007.json",
+  "name_vi": "Bánh Flan bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "banh flan bang lo vi song",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06147",
+    "ingre06174",
+    "ingre07583",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Đường",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "sua tuoi khong duong",
+    "sua dac",
+    "duong",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

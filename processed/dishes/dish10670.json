@@ -1,0 +1,71 @@
+{
+  "id": "dish10670",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10670.json",
+  "name_vi": "Trứng cuộn rau củ (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "trung cuon rau cu cong thuc duoc chia se tu nguoi dung",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Đậu que"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Cà rốt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06801",
+    "ingre02350",
+    "ingre07818",
+    "ingre01419",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Trứng",
+    "Giò sống",
+    "Đậu que",
+    "Cà rốt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Egg",
+    "Fresh sausage",
+    "Green beans",
+    "Carrot",
+    "Cooking oil",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "trung",
+    "gio song",
+    "dau que",
+    "ca rot",
+    "dau an",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung cuon rau cu (cong thuc duoc chia se tu nguoi dung)",
+      "new": "trung cuon rau cu cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dish10252",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10252.json",
+  "name_vi": "Nước ép táo ổi",
+  "name_en": "",
+  "name_normalized": "nuoc ep tao oi",
+  "category": "nuoc ep",
+  "main_ingredients": [
+    "Táo"
+  ],
+  "secondary_ingredients": [
+    "Ổi",
+    "Sữa đặc",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06890",
+    "ingre07963",
+    "ingre06174",
+    "ingre07522",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Táo",
+    "Ổi",
+    "Sữa đặc",
+    "Đá viên",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Apple",
+    "Papaya",
+    "Sweetened Condensed Milk",
+    "Ice cube",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tao",
+    "oi",
+    "sua dac",
+    "da vien",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

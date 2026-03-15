@@ -1,0 +1,111 @@
+{
+  "id": "dish5001",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5001.json",
+  "name_vi": "Mì xào gà rau củ",
+  "name_en": "",
+  "name_normalized": "mi xao ga rau cu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì trứng",
+    "Thịt gà",
+    "Bắp cải tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Cà rốt",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Ớt khô",
+    "Bột bắp",
+    "Tỏi",
+    "Dầu ăn",
+    "Tiêu/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04001",
+    "ingre06380",
+    "ingre00468",
+    "ingre08008",
+    "ingre08014",
+    "ingre01419",
+    "ingre04124",
+    "ingre04790",
+    "ingre02080",
+    "ingre07028",
+    "ingre08039",
+    "ingre00564",
+    "ingre07063",
+    "ingre02124",
+    "ingre06661"
+  ],
+  "ingredient_names_vi": [
+    "Mì trứng",
+    "Thịt gà",
+    "Bắp cải tím",
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Cà rốt",
+    "Mật ong",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Ớt khô",
+    "Bột bắp",
+    "Tỏi",
+    "Dầu ăn",
+    "Tiêu/ muối"
+  ],
+  "ingredient_names_en": [
+    "Egg noodles",
+    "Chicken",
+    "Purple cabbage",
+    "Green Bell Pepper",
+    "Red bell pepper",
+    "Carrot",
+    "Honey",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Dried Pepper",
+    "Corn starch",
+    "Garlic",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi trung",
+    "thit ga",
+    "bap cai tim",
+    "ot chuong xanh",
+    "ot chuong do",
+    "ca rot",
+    "mat ong",
+    "nuoc tuong",
+    "dau hao",
+    "tuong ot",
+    "ot kho",
+    "bot bap",
+    "toi",
+    "dau an",
+    "tieu muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ muoi",
+      "new": "tieu muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ muối"
+    }
+  ]
+}

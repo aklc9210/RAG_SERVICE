@@ -1,0 +1,72 @@
+{
+  "id": "dish3734",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3734.json",
+  "name_vi": "Sốt phô mai trứng muối",
+  "name_en": "",
+  "name_normalized": "sot pho mai trung muoi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Phô mai",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Lá oregano",
+    "Bột bắp",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03587",
+    "ingre06144",
+    "ingre05054",
+    "ingre03495",
+    "ingre06174",
+    "ingre00564",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng muối",
+    "Sữa tươi",
+    "Phô mai",
+    "Lá oregano",
+    "Sữa đặc",
+    "Bột bắp",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Salted Egg Yolk",
+    "Fresh Milk",
+    "Cheese",
+    "Oregano",
+    "Sweetened Condensed Milk",
+    "Corn starch",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung muoi",
+    "sua tuoi",
+    "pho mai",
+    "la oregano",
+    "sua dac",
+    "bot bap",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

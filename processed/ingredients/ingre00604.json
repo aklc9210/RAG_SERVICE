@@ -1,0 +1,29 @@
+{
+  "id": "ingre00604",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00604.json",
+  "name_vi": "bột chiên giòn/ bột mì/ bột nếp/ bột bắp",
+  "name_en": "Puffed Rice Flour/All-Purpose Flour/Sticky Rice Flour/Corn Flour",
+  "name_normalized": "bot chien gion bot mi bot nep bot bap",
+  "synonyms": [
+    "bột nở",
+    "bột chiên",
+    "bột ngô"
+  ],
+  "synonyms_normalized": [
+    "bot no",
+    "bot chien",
+    "bot ngo"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot chien gion/ bot mi/ bot nep/ bot bap",
+      "new": "bot chien gion bot mi bot nep bot bap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

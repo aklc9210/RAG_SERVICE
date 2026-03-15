@@ -1,0 +1,65 @@
+{
+  "id": "dish4687",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4687.json",
+  "name_vi": "Bông cải (súp lơ) xào cà rốt",
+  "name_en": "",
+  "name_normalized": "bong cai sup lo xao ca rot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bông cải"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00280",
+    "ingre01419",
+    "ingre02124",
+    "ingre02997",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bông cải",
+    "Cà rốt",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Carrot",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bong cai",
+    "ca rot",
+    "dau an",
+    "hat nem chay",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bong cai (sup lo) xao ca rot",
+      "new": "bong cai sup lo xao ca rot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

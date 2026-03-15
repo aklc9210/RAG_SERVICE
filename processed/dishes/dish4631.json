@@ -1,0 +1,67 @@
+{
+  "id": "dish4631",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4631.json",
+  "name_vi": "Rau muống xào thịt heo",
+  "name_en": "",
+  "name_normalized": "rau muong xao thit heo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rau muống"
+  ],
+  "secondary_ingredients": [
+    "Thịt heo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05289",
+    "ingre06398",
+    "ingre07063",
+    "ingre02124",
+    "ingre02080",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Rau muống",
+    "Thịt heo",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "Watercress",
+    "Pork",
+    "Garlic",
+    "Cooking oil",
+    "Soy sauce",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "rau muong",
+    "thit heo",
+    "toi",
+    "dau an",
+    "dau hao",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish0588",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0588.json",
+  "name_vi": "Súp bí đỏ phô mai",
+  "name_en": "",
+  "name_normalized": "sup bi do pho mai",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Bánh mì",
+    "Nước dùng gà"
+  ],
+  "secondary_ingredients": [
+    "Phô mai parmesan",
+    "Phô mai mascarpone",
+    "Hành boa rô",
+    "Hành tây",
+    "Lá xô thơm",
+    "Lá hương thảo",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre00100",
+    "ingre04607",
+    "ingre05104",
+    "ingre05083",
+    "ingre07063",
+    "ingre02645",
+    "ingre02741",
+    "ingre03548",
+    "ingre03445",
+    "ingre02120",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Bánh mì",
+    "Nước dùng gà",
+    "Phô mai parmesan",
+    "Phô mai mascarpone",
+    "Tỏi",
+    "Hành boa rô",
+    "Hành tây",
+    "Lá xô thơm",
+    "Lá hương thảo",
+    "Dầu ô liu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Baguette",
+    "Chicken broth",
+    "Parmesan Cheese",
+    "Mascarpone Cheese",
+    "Garlic",
+    "Onion",
+    "Sage Leaves",
+    "Mint",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "banh mi",
+    "nuoc dung ga",
+    "pho mai parmesan",
+    "pho mai mascarpone",
+    "toi",
+    "hanh boa ro",
+    "hanh tay",
+    "la xo thom",
+    "la huong thao",
+    "dau o liu",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

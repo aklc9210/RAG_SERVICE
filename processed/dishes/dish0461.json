@@ -1,0 +1,88 @@
+{
+  "id": "dish0461",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0461.json",
+  "name_vi": "Canh ốc nấu lá tía tô",
+  "name_en": "",
+  "name_normalized": "canh oc nau la tia to",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ốc bươu",
+    "Cà chua",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Tía tô",
+    "Nước lọc",
+    "Nước mẻ"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Tỏi",
+    "Ớt hiểm",
+    "Đường; bột ngọt; hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07935",
+    "ingre01354",
+    "ingre07742",
+    "ingre06925",
+    "ingre02124",
+    "ingre07063",
+    "ingre08026",
+    "ingre04665",
+    "ingre04722",
+    "ingre07694"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu",
+    "Cà chua",
+    "Đậu hũ chiên",
+    "Tía tô",
+    "Dầu ăn",
+    "Tỏi",
+    "Ớt hiểm",
+    "Nước lọc",
+    "Nước mẻ",
+    "Đường; bột ngọt; hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Piranha",
+    "Tomato",
+    "Fried Tofu",
+    "Cilantro",
+    "Cooking oil",
+    "Garlic",
+    "Hot pepper",
+    "Tap water",
+    "Fish sauce",
+    "Sugar; MSG; Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou",
+    "ca chua",
+    "dau hu chien",
+    "tia to",
+    "dau an",
+    "toi",
+    "ot hiem",
+    "nuoc loc",
+    "nuoc me",
+    "duong bot ngot hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong; bot ngot; hat nem",
+      "new": "duong bot ngot hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường; bột ngọt; hạt nêm"
+    }
+  ]
+}

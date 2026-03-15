@@ -1,0 +1,96 @@
+{
+  "id": "dish4466",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4466.json",
+  "name_vi": "Bê xào sả ớt hành tây",
+  "name_en": "",
+  "name_normalized": "be xao sa ot hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bê",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Gia vị xào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06298",
+    "ingre05900",
+    "ingre07966",
+    "ingre02741",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre02322",
+    "ingre02124",
+    "ingre05385"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bê",
+    "Sả",
+    "Ớt",
+    "Hành tây",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Gia vị xào",
+    "Dầu ăn",
+    "Rau thơm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lemongrass",
+    "Pepper",
+    "Onion",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Stir-fried Seasoning",
+    "Cooking oil",
+    "Basil"
+  ],
+  "ingredient_names_normalized": [
+    "thit be",
+    "sa",
+    "ot",
+    "hanh tay",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "gia vi xao",
+    "dau an",
+    "rau thom"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre06674",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06674.json",
+  "name_vi": "tokbokki - bánh gạo",
+  "name_en": "Rice cake",
+  "name_normalized": "tokbokki banh gao",
+  "synonyms": [
+    "bánh gạo"
+  ],
+  "synonyms_normalized": [
+    "banh gao"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tokbokki - banh gao",
+      "new": "tokbokki banh gao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

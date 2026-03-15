@@ -1,0 +1,91 @@
+{
+  "id": "dish4114",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4114.json",
+  "name_vi": "Ốc bươu nướng tiêu xanh",
+  "name_en": "",
+  "name_normalized": "oc buou nuong tieu xanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ốc bươu"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tiêu xanh",
+    "Gừng",
+    "Ớt sừng",
+    "Tỏi",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07935",
+    "ingre06640",
+    "ingre02485",
+    "ingre08055",
+    "ingre07063",
+    "ingre02768",
+    "ingre07028",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu",
+    "Tiêu xanh",
+    "Gừng",
+    "Ớt sừng",
+    "Tỏi",
+    "Hành tím",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Piranha",
+    "Green pepper",
+    "Ginger",
+    "Hot pepper",
+    "Garlic",
+    "Shallot",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou",
+    "tieu xanh",
+    "gung",
+    "ot sung",
+    "toi",
+    "hanh tim",
+    "tuong ot",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

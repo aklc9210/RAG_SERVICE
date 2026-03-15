@@ -1,0 +1,25 @@
+{
+  "id": "ingre03418",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03418.json",
+  "name_vi": "lá dứa (1 nhỏ)",
+  "name_en": "Lemongrass",
+  "name_normalized": "la dua 1 nho",
+  "synonyms": [
+    "đá gừng"
+  ],
+  "synonyms_normalized": [
+    "da gung"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la dua (1 nho)",
+      "new": "la dua 1 nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

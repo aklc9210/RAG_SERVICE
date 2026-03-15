@@ -1,0 +1,78 @@
+{
+  "id": "dish5356",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5356.json",
+  "name_vi": "Nấm kim châm xào chay",
+  "name_en": "",
+  "name_normalized": "nam kim cham xao chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm kim châm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Xì dầu",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04921",
+    "ingre02768",
+    "ingre04343",
+    "ingre07381",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Nấm kim châm",
+    "Hành tím",
+    "Ngò rí",
+    "Xì dầu",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Shallot",
+    "Parsley",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam kim cham",
+    "hanh tim",
+    "ngo ri",
+    "xi dau",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

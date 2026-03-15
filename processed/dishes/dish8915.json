@@ -1,0 +1,103 @@
+{
+  "id": "dish8915",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8915.json",
+  "name_vi": "Bánh tráng nướng chay",
+  "name_en": "",
+  "name_normalized": "banh trang nuong chay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Chả lụa chay",
+    "Sườn non chay",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Sữa tươi không đường",
+    "Sa tế",
+    "Đường",
+    "Ớt bột",
+    "Sốt mayonnaise",
+    "Dầu ăn",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre07755",
+    "ingre00598",
+    "ingre06147",
+    "ingre01294",
+    "ingre05890",
+    "ingre02673",
+    "ingre05621",
+    "ingre07583",
+    "ingre07977",
+    "ingre05970",
+    "ingre02124",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Đậu hũ trắng",
+    "Bột chiên giòn",
+    "Sữa tươi không đường",
+    "Chả lụa chay",
+    "Sườn non chay",
+    "Hành lá",
+    "Sa tế",
+    "Đường",
+    "Ớt bột",
+    "Sốt mayonnaise",
+    "Dầu ăn",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Tofu",
+    "Puffed Rice Powder",
+    "Fat-free Milk",
+    "Vegetarian blood sausage",
+    "Vegetable spare ribs",
+    "Scallion",
+    "Fish sauce",
+    "Sugar",
+    "Chili powder",
+    "Mayonnaise Sauce",
+    "Cooking oil",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "dau hu trang",
+    "bot chien gion",
+    "sua tuoi khong duong",
+    "cha lua chay",
+    "suon non chay",
+    "hanh la",
+    "sa te",
+    "duong",
+    "ot bot",
+    "sot mayonnaise",
+    "dau an",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07373",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07373.json",
+  "name_vi": "xà lách/ cà chua",
+  "name_en": "Mixed Lettuce/Tomato",
+  "name_normalized": "xa lach ca chua",
+  "synonyms": [
+    "xà lách lá",
+    "xà lách ăn",
+    "cà chua đỏ"
+  ],
+  "synonyms_normalized": [
+    "xa lach la",
+    "xa lach an",
+    "ca chua do"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach/ ca chua",
+      "new": "xa lach ca chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

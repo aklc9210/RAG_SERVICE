@@ -1,0 +1,142 @@
+{
+  "id": "dish3488",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3488.json",
+  "name_vi": "Bún bò tái",
+  "name_en": "",
+  "name_normalized": "bun bo tai",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún tươi",
+    "Nạm bò",
+    "Đùi bò",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Dầu màu điều",
+    "Rau răm",
+    "Hành lá",
+    "Ngò rí",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Đường phèn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre04889",
+    "ingre07548",
+    "ingre02768",
+    "ingre02485",
+    "ingre05900",
+    "ingre02741",
+    "ingre02093",
+    "ingre05359",
+    "ingre02673",
+    "ingre04343",
+    "ingre05385",
+    "ingre07635",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Nạm bò",
+    "Đùi bò",
+    "Hành tím",
+    "Gừng",
+    "Sả",
+    "Hành tây",
+    "Dầu màu điều",
+    "Rau răm",
+    "Hành lá",
+    "Ngò rí",
+    "Rau thơm",
+    "Đường phèn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Beef mince",
+    "Beef thigh",
+    "Shallot",
+    "Ginger",
+    "Lemongrass",
+    "Onion",
+    "Peanut-colored food coloring",
+    "Vietnamese coriander",
+    "Scallion",
+    "Parsley",
+    "Basil",
+    "Brown Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "nam bo",
+    "dui bo",
+    "hanh tim",
+    "gung",
+    "sa",
+    "hanh tay",
+    "dau mau dieu",
+    "rau ram",
+    "hanh la",
+    "ngo ri",
+    "rau thom",
+    "duong phen",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish3292",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3292.json",
+  "name_vi": "Phở bò bằng gói gia vị sẵn",
+  "name_en": "",
+  "name_normalized": "pho bo bang goi gia vi san",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Phở tươi",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Nạm bò",
+    "Hành tây",
+    "Giá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Đường phèn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05137",
+    "ingre06300",
+    "ingre04889",
+    "ingre02485",
+    "ingre02741",
+    "ingre02329",
+    "ingre07635",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Phở tươi",
+    "Thịt bò",
+    "Nạm bò",
+    "Gừng",
+    "Hành tây",
+    "Giá",
+    "Đường phèn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Fresh Vermicelli",
+    "Beef",
+    "Beef mince",
+    "Ginger",
+    "Onion",
+    "Mint",
+    "Brown Sugar",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "pho tuoi",
+    "thit bo",
+    "nam bo",
+    "gung",
+    "hanh tay",
+    "gia",
+    "duong phen",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

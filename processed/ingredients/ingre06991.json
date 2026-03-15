@@ -1,0 +1,29 @@
+{
+  "id": "ingre06991",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06991.json",
+  "name_vi": "tương cà/ ớt",
+  "name_en": "Miso/Garlic Sauce",
+  "name_normalized": "tuong ca ot",
+  "synonyms": [
+    "tương ớt",
+    "nước ớt",
+    "nước mắm ớt"
+  ],
+  "synonyms_normalized": [
+    "tuong ot",
+    "nuoc ot",
+    "nuoc mam ot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong ca/ ot",
+      "new": "tuong ca ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

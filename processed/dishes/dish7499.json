@@ -1,0 +1,108 @@
+{
+  "id": "dish7499",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7499.json",
+  "name_vi": "Cật heo hấp cách thủy",
+  "name_en": "",
+  "name_normalized": "cat heo hap cach thuy",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cật heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Gốc ngò rí",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Gừng nhỏ",
+    "Tỏi",
+    "Ớt khô",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Muối",
+    "Rượu trắng",
+    "Chanh",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre01815",
+    "ingre02512",
+    "ingre02768",
+    "ingre07063",
+    "ingre02482",
+    "ingre08039",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612",
+    "ingre03746",
+    "ingre05574",
+    "ingre01079",
+    "ingre02355",
+    "ingre04343"
+  ],
+  "ingredient_names_vi": [
+    "Cật heo",
+    "Gừng nhỏ",
+    "Hành tím",
+    "Tỏi",
+    "Gốc ngò rí",
+    "Ớt khô",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Muối",
+    "Rượu trắng",
+    "Chanh",
+    "Giấm",
+    "Ngò rí"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Pennyroyal",
+    "Dried Pepper",
+    "Seasoning",
+    "MSG",
+    "Pepper",
+    "Salt",
+    "White wine",
+    "Lemon",
+    "Vinegar",
+    "Parsley"
+  ],
+  "ingredient_names_normalized": [
+    "cat heo",
+    "gung nho",
+    "hanh tim",
+    "toi",
+    "goc ngo ri",
+    "ot kho",
+    "hat nem",
+    "bot ngot",
+    "tieu",
+    "muoi",
+    "ruou trang",
+    "chanh",
+    "giam",
+    "ngo ri"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

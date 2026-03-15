@@ -1,0 +1,25 @@
+{
+  "id": "ingre04338",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04338.json",
+  "name_vi": "ngò gai/húng lủi",
+  "name_en": "Pennyroyal/Húng lủi",
+  "name_normalized": "ngo gai hung lui",
+  "synonyms": [
+    "húng thơm"
+  ],
+  "synonyms_normalized": [
+    "hung thom"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo gai/hung lui",
+      "new": "ngo gai hung lui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

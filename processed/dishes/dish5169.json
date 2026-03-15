@@ -1,0 +1,76 @@
+{
+  "id": "dish5169",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5169.json",
+  "name_vi": "Su hào xào lòng gà",
+  "name_en": "",
+  "name_normalized": "su hao xao long ga",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bộ lòng gà"
+  ],
+  "secondary_ingredients": [
+    "Su hào",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00505",
+    "ingre05787",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre03742"
+  ],
+  "ingredient_names_vi": [
+    "Bộ lòng gà",
+    "Su hào",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken liver",
+    "Carrot",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bo long ga",
+    "su hao",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

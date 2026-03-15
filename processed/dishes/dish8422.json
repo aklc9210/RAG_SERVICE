@@ -1,0 +1,126 @@
+{
+  "id": "dish8422",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8422.json",
+  "name_vi": "Cháo gà tía tô",
+  "name_en": "",
+  "name_normalized": "chao ga tia to",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Đậu xanh hạt",
+    "Gạo tẻ",
+    "Lá tía tô"
+  ],
+  "secondary_ingredients": [
+    "Lá quế",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Gừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre07844",
+    "ingre02464",
+    "ingre03544",
+    "ingre03500",
+    "ingre02673",
+    "ingre07966",
+    "ingre01079",
+    "ingre02485",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Đậu xanh hạt",
+    "Gạo tẻ",
+    "Lá tía tô",
+    "Lá quế",
+    "Hành lá",
+    "Ớt",
+    "Chanh",
+    "Gừng",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Green Beans",
+    "White Rice",
+    "Cilantro",
+    "Bayleaf",
+    "Scallion",
+    "Pepper",
+    "Lemon",
+    "Ginger",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "dau xanh hat",
+    "gao te",
+    "la tia to",
+    "la que",
+    "hanh la",
+    "ot",
+    "chanh",
+    "gung",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish8350",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8350.json",
+  "name_vi": "Gỏi lưỡi heo đu đủ",
+  "name_en": "",
+  "name_normalized": "goi luoi heo du du",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Lưỡi heo",
+    "Đu đủ xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt sừng",
+    "Tỏi",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03605",
+    "ingre07500",
+    "ingre01079",
+    "ingre08055",
+    "ingre07063",
+    "ingre05359",
+    "ingre07791",
+    "ingre02730",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lưỡi heo",
+    "Đu đủ xanh",
+    "Chanh",
+    "Ớt sừng",
+    "Tỏi",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork chop",
+    "Green papaya",
+    "Lemon",
+    "Hot pepper",
+    "Garlic",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Garlic Fried",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luoi heo",
+    "du du xanh",
+    "chanh",
+    "ot sung",
+    "toi",
+    "rau ram",
+    "dau phong rang",
+    "hanh phi",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

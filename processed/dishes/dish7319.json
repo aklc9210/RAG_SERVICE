@@ -1,0 +1,88 @@
+{
+  "id": "dish7319",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7319.json",
+  "name_vi": "Cá rún kho nước dừa",
+  "name_en": "",
+  "name_normalized": "ca run kho nuoc dua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá rún",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01613",
+    "ingre04626",
+    "ingre07966",
+    "ingre07063",
+    "ingre02673",
+    "ingre04672",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá rún",
+    "Nước dừa tươi",
+    "Ớt",
+    "Tỏi",
+    "Hành lá",
+    "Nước màu",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Coconut water",
+    "Pepper",
+    "Garlic",
+    "Scallion",
+    "Food coloring",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca run",
+    "nuoc dua tuoi",
+    "ot",
+    "toi",
+    "hanh la",
+    "nuoc mau",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish8767",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8767.json",
+  "name_vi": "Ghẹ sữa rim",
+  "name_en": "",
+  "name_normalized": "ghe sua rim",
+  "category": "an vat",
+  "main_ingredients": [
+    "Ghẹ sữa"
+  ],
+  "secondary_ingredients": [
+    "Me"
+  ],
+  "seasonings": [
+    "Tỏi ớt",
+    "Đường thốt nốt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Ớt bột",
+    "Bột khô"
+  ],
+  "ingredient_ids": [
+    "ingre02270",
+    "ingre07117",
+    "ingre07647",
+    "ingre02124",
+    "ingre04694",
+    "ingre03643",
+    "ingre00819",
+    "ingre07977",
+    "ingre00714"
+  ],
+  "ingredient_names_vi": [
+    "Ghẹ sữa",
+    "Tỏi ớt",
+    "Đường thốt nốt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Me",
+    "Bột ngọt",
+    "Ớt bột",
+    "Bột khô"
+  ],
+  "ingredient_names_en": [
+    "Milk shrimp",
+    "Garlic Chili",
+    "Cane Sugar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Tamarind",
+    "MSG",
+    "Chili powder",
+    "Dry powder"
+  ],
+  "ingredient_names_normalized": [
+    "ghe sua",
+    "toi ot",
+    "duong thot not",
+    "dau an",
+    "nuoc mam",
+    "me",
+    "bot ngot",
+    "ot bot",
+    "bot kho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

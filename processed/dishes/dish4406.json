@@ -1,0 +1,97 @@
+{
+  "id": "dish4406",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4406.json",
+  "name_vi": "Thịt bò xào khế",
+  "name_en": "",
+  "name_normalized": "thit bo xao khe",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Khế chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ rau răm"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Gừng",
+    "Bột nêm",
+    "Đường",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03269",
+    "ingre08055",
+    "ingre02707",
+    "ingre07063",
+    "ingre02485",
+    "ingre00838",
+    "ingre07583",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Khế chua",
+    "Ớt sừng",
+    "Hành lá/ rau răm",
+    "Tỏi",
+    "Gừng",
+    "Bột nêm",
+    "Đường",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tamarind",
+    "Hot pepper",
+    "Parsley/Cilantro",
+    "Garlic",
+    "Ginger",
+    "Seasoning Powder",
+    "Sugar",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "khe chua",
+    "ot sung",
+    "hanh la rau ram",
+    "toi",
+    "gung",
+    "bot nem",
+    "duong",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau ram",
+      "new": "hanh la rau ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ rau răm"
+    }
+  ]
+}

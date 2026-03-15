@@ -1,0 +1,62 @@
+{
+  "id": "dish1632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1632.json",
+  "name_vi": "Bánh khoai môn chiên giòn",
+  "name_en": "",
+  "name_normalized": "banh khoai mon chien gion",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre00598",
+    "ingre03935",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Bột chiên giòn",
+    "Mè trắng",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Puffed Rice Powder",
+    "White sesame",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "bot chien gion",
+    "me trang",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

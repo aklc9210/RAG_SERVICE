@@ -1,0 +1,110 @@
+{
+  "id": "dish0490",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0490.json",
+  "name_vi": "Canh chua cá dứa",
+  "name_en": "",
+  "name_normalized": "canh chua ca dua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá dứa",
+    "Cà chua",
+    "Bắp cải",
+    "Bắp chuối"
+  ],
+  "secondary_ingredients": [
+    "Rau muống",
+    "Bông đũa",
+    "Giá",
+    "Đậu bắp",
+    "Đậu rồng",
+    "Rau thơm các loại",
+    "Rau mùi",
+    "Me chua"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01518",
+    "ingre01354",
+    "ingre00457",
+    "ingre00452",
+    "ingre05289",
+    "ingre00297",
+    "ingre02329",
+    "ingre07729",
+    "ingre07821",
+    "ingre05388",
+    "ingre07966",
+    "ingre05302",
+    "ingre03644",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá dứa",
+    "Cà chua",
+    "Bắp cải",
+    "Bắp chuối",
+    "Rau muống",
+    "Bông đũa",
+    "Giá",
+    "Đậu bắp",
+    "Đậu rồng",
+    "Rau thơm các loại",
+    "Ớt",
+    "Rau mùi",
+    "Me chua",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pineapple fish",
+    "Tomato",
+    "Cabbage",
+    "Banana",
+    "Watercress",
+    "Bamboo shoot buds",
+    "Mint",
+    "Green beans",
+    "Dragon bean",
+    "Herbs Various Types",
+    "Pepper",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca dua",
+    "ca chua",
+    "bap cai",
+    "bap chuoi",
+    "rau muong",
+    "bong dua",
+    "gia",
+    "dau bap",
+    "dau rong",
+    "rau thom cac loai",
+    "ot",
+    "rau mui",
+    "me chua",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

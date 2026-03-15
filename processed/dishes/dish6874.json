@@ -1,0 +1,83 @@
+{
+  "id": "dish6874",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6874.json",
+  "name_vi": "Trứng chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "trung chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hành lá",
+    "Dầu màu điều"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Nước mắm",
+    "Ớt sừng",
+    "Đường",
+    "Muối",
+    "Bột ngũ vị hương",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre04694",
+    "ingre02673",
+    "ingre08055",
+    "ingre07583",
+    "ingre03746",
+    "ingre00815",
+    "ingre06644",
+    "ingre02093"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Nước mắm",
+    "Hành lá",
+    "Ớt sừng",
+    "Đường",
+    "Muối",
+    "Bột ngũ vị hương",
+    "Tiêu xay",
+    "Dầu màu điều"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Fish Sauce",
+    "Scallion",
+    "Hot pepper",
+    "Sugar",
+    "Salt",
+    "Five-Spice Powder",
+    "Ground pepper",
+    "Peanut-colored food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "nuoc mam",
+    "hanh la",
+    "ot sung",
+    "duong",
+    "muoi",
+    "bot ngu vi huong",
+    "tieu xay",
+    "dau mau dieu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

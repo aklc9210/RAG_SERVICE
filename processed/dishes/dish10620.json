@@ -1,0 +1,93 @@
+{
+  "id": "dish10620",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10620.json",
+  "name_vi": "Cải xanh cuốn tôm thịt",
+  "name_en": "",
+  "name_normalized": "cai xanh cuon tom thit",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Cải cay",
+    "Thịt heo",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Đậu que",
+    "Dưa leo",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước cốt tắc",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01776",
+    "ingre06398",
+    "ingre06930",
+    "ingre07818",
+    "ingre02020",
+    "ingre02673",
+    "ingre07071",
+    "ingre07971",
+    "ingre04591",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cải cay",
+    "Thịt heo",
+    "Tôm",
+    "Đậu que",
+    "Dưa leo",
+    "Hành lá",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước cốt tắc",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Mustard greens",
+    "Pork",
+    "Shrimp",
+    "Green beans",
+    "Cucumber",
+    "Scallion",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Tamarind juice",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "cai cay",
+    "thit heo",
+    "tom",
+    "dau que",
+    "dua leo",
+    "hanh la",
+    "toi bam",
+    "ot bam",
+    "nuoc cot tac",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ingre04546",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04546.json",
+  "name_vi": "nước cốt chanh/ giấm",
+  "name_en": "Lemon juice/Vinegar",
+  "name_normalized": "nuoc cot chanh giam",
+  "synonyms": [
+    "dấm",
+    "nước cốt cam",
+    "nước cốt quýt"
+  ],
+  "synonyms_normalized": [
+    "dam",
+    "nuoc cot cam",
+    "nuoc cot quyt"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc cot chanh/ giam",
+      "new": "nuoc cot chanh giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

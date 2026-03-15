@@ -1,0 +1,27 @@
+{
+  "id": "ingre02383",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02383.json",
+  "name_vi": "giấm/chanh",
+  "name_en": "Vinegar/Lime",
+  "name_normalized": "giam chanh",
+  "synonyms": [
+    "chanh tươi",
+    "giấm ăn"
+  ],
+  "synonyms_normalized": [
+    "chanh tuoi",
+    "giam an"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "giam/chanh",
+      "new": "giam chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

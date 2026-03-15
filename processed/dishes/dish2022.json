@@ -1,0 +1,87 @@
+{
+  "id": "dish2022",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2022.json",
+  "name_vi": "Bánh gói lá chuối miền Trung",
+  "name_en": "",
+  "name_normalized": "banh goi la chuoi mien trung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Đầu hành cắt nhỏ",
+    "Hành lá cắt nhỏ",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Nước cốt dừa",
+    "Bột năng",
+    "Nước bột gạo",
+    "Dầu ăn",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre07836",
+    "ingre00668",
+    "ingre04554",
+    "ingre00849",
+    "ingre04499",
+    "ingre07716",
+    "ingre02683",
+    "ingre02124",
+    "ingre03828",
+    "ingre03929"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh",
+    "Bột gạo",
+    "Nước cốt dừa",
+    "Bột năng",
+    "Nước bột gạo",
+    "Đầu hành cắt nhỏ",
+    "Hành lá cắt nhỏ",
+    "Dầu ăn",
+    "Muối/đường",
+    "Mè rang"
+  ],
+  "ingredient_names_en": [
+    "Green beans",
+    "Rice flour",
+    "Coconut milk",
+    "Cornstarch",
+    "Rice starch water",
+    "Chopped Garlic",
+    "Chopped Green Onion",
+    "Cooking oil",
+    "Salt/Sugar",
+    "Roasted Sesame Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh",
+    "bot gao",
+    "nuoc cot dua",
+    "bot nang",
+    "nuoc bot gao",
+    "dau hanh cat nho",
+    "hanh la cat nho",
+    "dau an",
+    "muoi duong",
+    "me rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

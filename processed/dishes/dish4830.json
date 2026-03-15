@@ -1,0 +1,109 @@
+{
+  "id": "dish4830",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4830.json",
+  "name_vi": "Cải ngọt xào nấm",
+  "name_en": "",
+  "name_normalized": "cai ngot xao nam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm đùi gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Dầu ăn",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01787",
+    "ingre04974",
+    "ingre02768",
+    "ingre02673",
+    "ingre04329",
+    "ingre02124",
+    "ingre02081",
+    "ingre02997",
+    "ingre00819",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cải ngọt",
+    "Nấm đùi gà",
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai",
+    "Dầu ăn",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Sweet cabbage",
+    "Chicken mushroom",
+    "Shallot",
+    "Scallion",
+    "Culantro",
+    "Cooking oil",
+    "Vegetarian soy sauce",
+    "Vegetarian Seasoning",
+    "MSG",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai ngot",
+    "nam dui ga",
+    "hanh tim",
+    "hanh la",
+    "ngo gai",
+    "dau an",
+    "dau hao chay",
+    "hat nem chay",
+    "bot ngot",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

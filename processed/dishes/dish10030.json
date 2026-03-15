@@ -1,0 +1,62 @@
+{
+  "id": "dish10030",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10030.json",
+  "name_vi": "Trà đào sả tắc",
+  "name_en": "",
+  "name_normalized": "tra dao sa tac",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Trà xanh túi lọc"
+  ],
+  "secondary_ingredients": [
+    "Đào ngâm",
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06736",
+    "ingre07512",
+    "ingre05900",
+    "ingre07057",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Trà xanh túi lọc",
+    "Đào ngâm",
+    "Sả",
+    "Tắc",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Green tea sachet",
+    "Pickled peach",
+    "Lemongrass",
+    "Tamarind",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tra xanh tui loc",
+    "dao ngam",
+    "sa",
+    "tac",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

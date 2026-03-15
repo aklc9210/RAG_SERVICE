@@ -1,0 +1,87 @@
+{
+  "id": "dish8410",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8410.json",
+  "name_vi": "Cánh gà rang muối",
+  "name_en": "",
+  "name_normalized": "canh ga rang muoi",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Cánh gà",
+    "Gạo nếp",
+    "Gạo tẻ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Bột chiên giòn hoặc bột mì",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối hạt",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre02450",
+    "ingre02464",
+    "ingre00601",
+    "ingre05900",
+    "ingre02995",
+    "ingre06612",
+    "ingre03760",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Gạo nếp",
+    "Gạo tẻ",
+    "Bột chiên giòn hoặc bột mì",
+    "Sả",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối hạt",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "sticky rice",
+    "White Rice",
+    "Puffed Rice Flour or Wheat Flour",
+    "Lemongrass",
+    "Seasoning",
+    "Pepper",
+    "Fenugreek seeds",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "gao nep",
+    "gao te",
+    "bot chien gion hoac bot mi",
+    "sa",
+    "hat nem",
+    "tieu",
+    "muoi hat",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "dish4270",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4270.json",
+  "name_vi": "Ốc gai nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "oc gai nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ốc gai"
+  ],
+  "secondary_ingredients": [
+    "Hành lá băm",
+    "Sả",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07940",
+    "ingre02678",
+    "ingre05900",
+    "ingre02124",
+    "ingre02995",
+    "ingre04821"
+  ],
+  "ingredient_names_vi": [
+    "Ốc gai",
+    "Hành lá băm",
+    "Sả",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước vo gạo"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Chopped Green Onion",
+    "Lemongrass",
+    "Cooking oil",
+    "Seasoning",
+    "Rice washing water"
+  ],
+  "ingredient_names_normalized": [
+    "oc gai",
+    "hanh la bam",
+    "sa",
+    "dau an",
+    "hat nem",
+    "nuoc vo gao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

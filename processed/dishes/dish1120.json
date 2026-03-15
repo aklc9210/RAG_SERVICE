@@ -1,0 +1,92 @@
+{
+  "id": "dish1120",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1120.json",
+  "name_vi": "Bánh gối chay",
+  "name_en": "",
+  "name_normalized": "banh goi chay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Củ sắn",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô",
+    "Cá bóng chay",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Bơ thực vật",
+    "Muối",
+    "Đường",
+    "Hạt nêm chay",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre01920",
+    "ingre04930",
+    "ingre04966",
+    "ingre01472",
+    "ingre02673",
+    "ingre00407",
+    "ingre03746",
+    "ingre07583",
+    "ingre02997",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Củ sắn",
+    "Nấm mèo",
+    "Nấm đông cô",
+    "Cá bóng chay",
+    "Hành lá",
+    "Bơ thực vật",
+    "Muối",
+    "Đường",
+    "Hạt nêm chay",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Yam",
+    "Mushroom",
+    "Mackerel",
+    "Scallion",
+    "Vegetable oil",
+    "Salt",
+    "Sugar",
+    "Vegetarian Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "cu san",
+    "nam meo",
+    "nam dong co",
+    "ca bong chay",
+    "hanh la",
+    "bo thuc vat",
+    "muoi",
+    "duong",
+    "hat nem chay",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

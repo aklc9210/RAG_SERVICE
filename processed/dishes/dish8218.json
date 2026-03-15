@@ -1,0 +1,106 @@
+{
+  "id": "dish8218",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8218.json",
+  "name_vi": "Gỏi su hào cà rốt tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi su hao ca rot tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Su hào",
+    "Thịt heo",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Rau răm/húng quế",
+    "Me chín",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Gừng",
+    "Hành phi",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05787",
+    "ingre01419",
+    "ingre06398",
+    "ingre06963",
+    "ingre05371",
+    "ingre08055",
+    "ingre02485",
+    "ingre03647",
+    "ingre07791",
+    "ingre02730",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Su hào",
+    "Cà rốt",
+    "Thịt heo",
+    "Tôm tươi",
+    "Rau răm/húng quế",
+    "Ớt sừng",
+    "Gừng",
+    "Me chín",
+    "Đậu phộng rang",
+    "Hành phi",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Pork",
+    "Fresh shrimp",
+    "Cilantro",
+    "Hot pepper",
+    "Ginger",
+    "Ripe mango",
+    "Roasted Peanut",
+    "Garlic Fried",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "su hao",
+    "ca rot",
+    "thit heo",
+    "tom tuoi",
+    "rau ram hung que",
+    "ot sung",
+    "gung",
+    "me chin",
+    "dau phong rang",
+    "hanh phi",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ram/hung que",
+      "new": "rau ram hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau răm/húng quế"
+    }
+  ]
+}

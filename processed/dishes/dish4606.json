@@ -1,0 +1,72 @@
+{
+  "id": "dish4606",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4606.json",
+  "name_vi": "Bắp cải xào đậu hũ",
+  "name_en": "",
+  "name_normalized": "bap cai xao dau hu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp cải",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Xì dầu",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre07742",
+    "ingre04343",
+    "ingre07381",
+    "ingre02124",
+    "ingre02997",
+    "ingre00829"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Đậu hũ chiên",
+    "Ngò rí",
+    "Xì dầu",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Fried Tofu",
+    "Parsley",
+    "Soy Sauce",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Monkfish Powder/Cracked Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "dau hu chien",
+    "ngo ri",
+    "xi dau",
+    "dau an",
+    "hat nem chay",
+    "bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu xay",
+      "new": "bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "dish6824",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6824.json",
+  "name_vi": "Chim bồ câu quay ngũ vị bằng dầu",
+  "name_en": "",
+  "name_normalized": "chim bo cau quay ngu vi bang dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chim bồ câu",
+    "Mắc mật",
+    "Thảo quả"
+  ],
+  "secondary_ingredients": [
+    "Mạch nha",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Quế",
+    "Chanh",
+    "Giấm",
+    "Hồi đinh hương",
+    "Gừng",
+    "Rượu trắng",
+    "Nước tương",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Bột ngọt/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01124",
+    "ingre07966",
+    "ingre04132",
+    "ingre05186",
+    "ingre06271",
+    "ingre01079",
+    "ingre04109",
+    "ingre02355",
+    "ingre05900",
+    "ingre03099",
+    "ingre02485",
+    "ingre05574",
+    "ingre04790",
+    "ingre04381",
+    "ingre00587",
+    "ingre00831",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Chim bồ câu",
+    "Ớt",
+    "Mắc mật",
+    "Quế",
+    "Thảo quả",
+    "Chanh",
+    "Mạch nha",
+    "Giấm",
+    "Sả",
+    "Hồi đinh hương",
+    "Gừng",
+    "Rượu trắng",
+    "Nước tương",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Bột ngọt/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Pepper",
+    "Honeywort",
+    "Cinnamon",
+    "Star anise",
+    "Lemon",
+    "Molasses",
+    "Vinegar",
+    "Lemongrass",
+    "Ginger",
+    "White wine",
+    "Soy Sauce",
+    "Five-Spice Powder",
+    "Cornstarch",
+    "Soy Sauce/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "chim bo cau",
+    "ot",
+    "mac mat",
+    "que",
+    "thao qua",
+    "chanh",
+    "mach nha",
+    "giam",
+    "sa",
+    "hoi dinh huong",
+    "gung",
+    "ruou trang",
+    "nuoc tuong",
+    "ngu vi huong",
+    "bot canh",
+    "bot ngot duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

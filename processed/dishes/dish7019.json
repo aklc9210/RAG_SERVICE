@@ -1,0 +1,107 @@
+{
+  "id": "dish7019",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7019.json",
+  "name_vi": "Cơm chiên trái tim",
+  "name_en": "",
+  "name_normalized": "com chien trai tim",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm",
+    "Thịt bò",
+    "Thịt gà",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Cải bó xôi",
+    "Nho khô",
+    "Sả"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Bột cà ri",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01724",
+    "ingre06300",
+    "ingre06380",
+    "ingre00282",
+    "ingre01771",
+    "ingre06823",
+    "ingre04398",
+    "ingre07063",
+    "ingre05900",
+    "ingre00631",
+    "ingre04790",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cơm",
+    "Thịt bò",
+    "Thịt gà",
+    "Bông cải xanh",
+    "Cải bó xôi",
+    "Trứng gà",
+    "Nho khô",
+    "Tỏi",
+    "Sả",
+    "Bột cà ri",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Beef",
+    "Chicken",
+    "Cabbage",
+    "Bokchoy",
+    "Chicken egg",
+    "Dried grape",
+    "Garlic",
+    "Lemongrass",
+    "Curry powder",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "com",
+    "thit bo",
+    "thit ga",
+    "bong cai xanh",
+    "cai bo xoi",
+    "trung ga",
+    "nho kho",
+    "toi",
+    "sa",
+    "bot ca ri",
+    "nuoc tuong",
+    "nuoc mam",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

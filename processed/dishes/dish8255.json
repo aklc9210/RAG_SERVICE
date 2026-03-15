@@ -1,0 +1,100 @@
+{
+  "id": "dish8255",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8255.json",
+  "name_vi": "Gỏi cá lăng sông Đà",
+  "name_en": "",
+  "name_normalized": "goi ca lang song da",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá lăng",
+    "Tép",
+    "Thịt xay"
+  ],
+  "secondary_ingredients": [
+    "Gạo",
+    "Lá mắc mật",
+    "Bắp chuối",
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Ớt",
+    "Đường/ hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre06915",
+    "ingre06521",
+    "ingre02436",
+    "ingre03370",
+    "ingre03479",
+    "ingre00452",
+    "ingre05900",
+    "ingre07966",
+    "ingre07678",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Tép",
+    "Thịt xay",
+    "Gạo",
+    "Lá chanh",
+    "Lá mắc mật",
+    "Bắp chuối",
+    "Sả",
+    "Ớt",
+    "Đường/ hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Shrimp",
+    "Ground Beef",
+    "Rice",
+    "Lime leaf",
+    "Dandelion leaf",
+    "Banana",
+    "Lemongrass",
+    "Pepper",
+    "Soy Sauce/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "tep",
+    "thit xay",
+    "gao",
+    "la chanh",
+    "la mac mat",
+    "bap chuoi",
+    "sa",
+    "ot",
+    "duong hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

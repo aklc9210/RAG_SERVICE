@@ -1,0 +1,83 @@
+{
+  "id": "dish0240",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0240.json",
+  "name_vi": "Gân bò hầm thuốc bắc",
+  "name_en": "",
+  "name_normalized": "gan bo ham thuoc bac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gân bò",
+    "Thuốc bắc"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Hột vịt lộn",
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre06223",
+    "ingre03110",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Thuốc bắc",
+    "Hột vịt lộn",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Chinese medicine",
+    "Peanut",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "thuoc bac",
+    "hot vit lon",
+    "gung",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

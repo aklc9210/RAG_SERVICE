@@ -1,0 +1,65 @@
+{
+  "id": "dish4059",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4059.json",
+  "name_vi": "cá chép nướng bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ca chep nuong bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá chép"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre05900",
+    "ingre00587",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Sả",
+    "Bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Lemongrass",
+    "Cornstarch",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "sa",
+    "bot canh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

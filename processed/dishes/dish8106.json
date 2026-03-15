@@ -1,0 +1,118 @@
+{
+  "id": "dish8106",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8106.json",
+  "name_vi": "Salad cải xoăn sốt kem",
+  "name_en": "",
+  "name_normalized": "salad cai xoan sot kem",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tempeh",
+    "Nụ bạch hoa ngâm",
+    "Dầu ô liu"
+  ],
+  "secondary_ingredients": [
+    "Cải xoăn",
+    "Siro cây phong"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Men dinh dưỡng",
+    "Sốt xông khói",
+    "Sốt bơ vừng",
+    "Nước cốt chanh",
+    "Giấm táo",
+    "Mù tạt",
+    "Bột tỏi",
+    "Tương ớt",
+    "Muối; tiêu",
+    "Bột ớt"
+  ],
+  "ingredient_ids": [
+    "ingre04790",
+    "ingre06196",
+    "ingre05003",
+    "ingre02120",
+    "ingre03670",
+    "ingre01800",
+    "ingre06028",
+    "ingre05942",
+    "ingre04538",
+    "ingre02372",
+    "ingre04050",
+    "ingre00978",
+    "ingre07028",
+    "ingre03833",
+    "ingre05688",
+    "ingre01015"
+  ],
+  "ingredient_names_vi": [
+    "Nước tương",
+    "Tempeh",
+    "Nụ bạch hoa ngâm",
+    "Dầu ô liu",
+    "Men dinh dưỡng",
+    "Cải xoăn",
+    "Sốt xông khói",
+    "Sốt bơ vừng",
+    "Nước cốt chanh",
+    "Giấm táo",
+    "Mù tạt",
+    "Bột tỏi",
+    "Tương ớt",
+    "Muối; tiêu",
+    "Siro cây phong",
+    "Bột ớt"
+  ],
+  "ingredient_names_en": [
+    "Soy Sauce",
+    "Tempeh",
+    "Dried Jasmine Flowers",
+    "Olive oil",
+    "Nutritional yeast",
+    "Bokchoy",
+    "Barbecue sauce",
+    "Hummus",
+    "Lemon juice",
+    "Apple vinegar",
+    "Mustard",
+    "Garlic powder",
+    "Hot Sauce",
+    "Salt; Pepper",
+    "Maple tree syrup",
+    "Red Pepper Powder"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc tuong",
+    "tempeh",
+    "nu bach hoa ngam",
+    "dau o liu",
+    "men dinh duong",
+    "cai xoan",
+    "sot xong khoi",
+    "sot bo vung",
+    "nuoc cot chanh",
+    "giam tao",
+    "mu tat",
+    "bot toi",
+    "tuong ot",
+    "muoi tieu",
+    "siro cay phong",
+    "bot ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi; tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối; tiêu"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish4087",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4087.json",
+  "name_vi": "Cá cuốn lá lốt",
+  "name_en": "",
+  "name_normalized": "ca cuon la lot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Phi lê cá lóc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lá lốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05035",
+    "ingre03461",
+    "ingre02774",
+    "ingre07071",
+    "ingre04694",
+    "ingre02124",
+    "ingre06662"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá lóc",
+    "Lá lốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu/ đường"
+  ],
+  "ingredient_names_en": [
+    "Bass fillet",
+    "Cinnamon Leaf",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Pepper/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca loc",
+    "la lot",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc mam",
+    "dau an",
+    "tieu duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ duong",
+      "new": "tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ đường"
+    }
+  ]
+}

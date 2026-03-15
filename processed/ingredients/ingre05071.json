@@ -1,0 +1,25 @@
+{
+  "id": "ingre05071",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05071.json",
+  "name_vi": "phô mai con bò cười:",
+  "name_en": "Cheese Cow Smile",
+  "name_normalized": "pho mai con bo cuoi",
+  "synonyms": [
+    "phô mai cười"
+  ],
+  "synonyms_normalized": [
+    "pho mai cuoi"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pho mai con bo cuoi:",
+      "new": "pho mai con bo cuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

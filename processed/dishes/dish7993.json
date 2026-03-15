@@ -1,0 +1,102 @@
+{
+  "id": "dish7993",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7993.json",
+  "name_vi": "Gỏi gà rau càng cua",
+  "name_en": "",
+  "name_normalized": "goi ga rau cang cua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Gà",
+    "Rau càng cua",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Hành phi",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre05219",
+    "ingre05900",
+    "ingre02485",
+    "ingre01079",
+    "ingre07781",
+    "ingre02730",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Rau càng cua",
+    "Sả",
+    "Gừng",
+    "Chanh",
+    "Đậu phộng",
+    "Hành phi",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Water spinach",
+    "Lemongrass",
+    "Ginger",
+    "Lemon",
+    "Peanut",
+    "Garlic Fried",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "rau cang cua",
+    "sa",
+    "gung",
+    "chanh",
+    "dau phong",
+    "hanh phi",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dish3645",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3645.json",
+  "name_vi": "Kem cà phê cốt dừa",
+  "name_en": "",
+  "name_normalized": "kem ca phe cot dua",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Mật ong",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Bột cà phê",
+    "Bột gelatin"
+  ],
+  "ingredient_ids": [
+    "ingre04554",
+    "ingre00620",
+    "ingre04124",
+    "ingre00652",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Nước cốt dừa",
+    "Bột cà phê",
+    "Mật ong",
+    "Bột gelatin",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Coconut milk",
+    "Coffee powder",
+    "Honey",
+    "Gelatin powder",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc cot dua",
+    "bot ca phe",
+    "mat ong",
+    "bot gelatin",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish5775",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5775.json",
+  "name_vi": "Gà hầm hoa atiso",
+  "name_en": "",
+  "name_normalized": "ga ham hoa atiso",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Gà ta",
+    "Hoa atiso tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Táo đỏ khô"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre02568",
+    "ingre02768",
+    "ingre06912",
+    "ingre07071",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Hoa atiso tươi",
+    "Hành tím",
+    "Táo đỏ khô",
+    "Tỏi băm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Artichoke Flower",
+    "Shallot",
+    "Dried Persimmon",
+    "Minced Garlic",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "hoa atiso tuoi",
+    "hanh tim",
+    "tao do kho",
+    "toi bam",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

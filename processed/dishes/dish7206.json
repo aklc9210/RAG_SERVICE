@@ -1,0 +1,129 @@
+{
+  "id": "dish7206",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7206.json",
+  "name_vi": "Bánh xèo Đà Nẵng",
+  "name_en": "",
+  "name_normalized": "banh xeo da nang",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Giá đỗ",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Gan heo",
+    "Thịt xay",
+    "Nước soda",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Trứng gà",
+    "Tương hột",
+    "Bột năng",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre06823",
+    "ingre02337",
+    "ingre06930",
+    "ingre06275",
+    "ingre02242",
+    "ingre06521",
+    "ingre04741",
+    "ingre02673",
+    "ingre02768",
+    "ingre06994",
+    "ingre00849",
+    "ingre00804",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Trứng gà",
+    "Giá đỗ",
+    "Tôm",
+    "Thịt ba chỉ",
+    "Gan heo",
+    "Thịt xay",
+    "Nước soda",
+    "Hành lá",
+    "Hành tím",
+    "Tương hột",
+    "Bột năng",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Chicken egg",
+    "Bean sprouts",
+    "Shrimp",
+    "Pork belly",
+    "Pork liver",
+    "Ground Beef",
+    "Soda",
+    "Scallion",
+    "Shallot",
+    "Soy sauce",
+    "Cornstarch",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "trung ga",
+    "gia do",
+    "tom",
+    "thit ba chi",
+    "gan heo",
+    "thit xay",
+    "nuoc soda",
+    "hanh la",
+    "hanh tim",
+    "tuong hot",
+    "bot nang",
+    "bot nghe",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

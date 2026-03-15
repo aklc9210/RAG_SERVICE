@@ -1,0 +1,101 @@
+{
+  "id": "dish4161",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4161.json",
+  "name_vi": "Vịt quay Bắc Kinh",
+  "name_en": "",
+  "name_normalized": "vit quay bac kinh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Rượu nấu ăn",
+    "Ngũ vị hương",
+    "Đường mạch nha",
+    "Dấm trắng",
+    "Tương xay",
+    "Đường",
+    "Bột ngọt",
+    "Muối",
+    "Bột năng"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre07063",
+    "ingre02768",
+    "ingre02080",
+    "ingre05552",
+    "ingre04381",
+    "ingre07621",
+    "ingre02051",
+    "ingre07008",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746",
+    "ingre00849"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Tỏi",
+    "Hành tím",
+    "Dầu hào",
+    "Rượu nấu ăn",
+    "Ngũ vị hương",
+    "Đường mạch nha",
+    "Dấm trắng",
+    "Tương xay",
+    "Đường",
+    "Bột ngọt",
+    "Muối",
+    "Bột năng"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Garlic",
+    "Shallot",
+    "Soy sauce",
+    "Cooking wine",
+    "Five-Spice Powder",
+    "Molasses",
+    "White vinegar",
+    "Sugar",
+    "MSG",
+    "Salt",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "toi",
+    "hanh tim",
+    "dau hao",
+    "ruou nau an",
+    "ngu vi huong",
+    "duong mach nha",
+    "dam trang",
+    "tuong xay",
+    "duong",
+    "bot ngot",
+    "muoi",
+    "bot nang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

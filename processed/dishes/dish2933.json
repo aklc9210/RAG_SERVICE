@@ -1,0 +1,87 @@
+{
+  "id": "dish2933",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2933.json",
+  "name_vi": "Baumkuchen cuộn không cần lò nướng",
+  "name_en": "",
+  "name_normalized": "baumkuchen cuon khong can lo nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng",
+    "Mật ong",
+    "Sữa tươi",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lòng trắng trứng",
+    "Đường",
+    "Nước cốt chanh",
+    "Vani",
+    "Bột mì đa dụng",
+    "Baking power - bột nở"
+  ],
+  "ingredient_ids": [
+    "ingre03579",
+    "ingre07583",
+    "ingre04538",
+    "ingre03583",
+    "ingre07140",
+    "ingre04124",
+    "ingre00791",
+    "ingre00017",
+    "ingre06144",
+    "ingre00382"
+  ],
+  "ingredient_names_vi": [
+    "Lòng trắng trứng",
+    "Đường",
+    "Nước cốt chanh",
+    "Lòng đỏ trứng",
+    "Vani",
+    "Mật ong",
+    "Bột mì đa dụng",
+    "Baking power - bột nở",
+    "Sữa tươi",
+    "Bơ lạt"
+  ],
+  "ingredient_names_en": [
+    "Egg white",
+    "Sugar",
+    "Lemon juice",
+    "Egg yolk",
+    "Vanilla",
+    "Honey",
+    "All-purpose flour",
+    "Baking Powder",
+    "Fresh Milk",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "long trang trung",
+    "duong",
+    "nuoc cot chanh",
+    "long do trung",
+    "vani",
+    "mat ong",
+    "bot mi da dung",
+    "baking power bot no",
+    "sua tuoi",
+    "bo lat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking power - bot no",
+      "new": "baking power bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking power - bột nở"
+    }
+  ]
+}

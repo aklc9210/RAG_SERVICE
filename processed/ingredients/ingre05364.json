@@ -1,0 +1,34 @@
+{
+  "id": "ingre05364",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05364.json",
+  "name_vi": "rau răm.",
+  "name_en": "Vietnamese coriander",
+  "name_normalized": "rau ram",
+  "synonyms": [
+    "răm"
+  ],
+  "synonyms_normalized": [
+    "ram"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ram.",
+      "new": "rau ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

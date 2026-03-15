@@ -1,0 +1,96 @@
+{
+  "id": "dish4972",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4972.json",
+  "name_vi": "Nấm bào ngư xào thịt heo",
+  "name_en": "",
+  "name_normalized": "nam bao ngu xao thit heo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm bào ngư",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột canh",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre06398",
+    "ingre07063",
+    "ingre07966",
+    "ingre02673",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124",
+    "ingre00587",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Thịt heo",
+    "Tỏi",
+    "Ớt",
+    "Hành lá",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột canh",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Pork",
+    "Garlic",
+    "Pepper",
+    "Scallion",
+    "Fish Sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Cornstarch",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "thit heo",
+    "toi",
+    "ot",
+    "hanh la",
+    "nuoc mam",
+    "dau hao",
+    "dau an",
+    "bot canh",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

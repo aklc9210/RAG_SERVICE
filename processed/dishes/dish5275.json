@@ -1,0 +1,56 @@
+{
+  "id": "dish5275",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5275.json",
+  "name_vi": "Rau nhút xào tỏi",
+  "name_en": "",
+  "name_normalized": "rau nhut xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rau nhút"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05342",
+    "ingre07063",
+    "ingre02124",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Rau nhút",
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Water spinach",
+    "Garlic",
+    "Cooking oil",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "rau nhut",
+    "toi",
+    "dau an",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

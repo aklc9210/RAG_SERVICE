@@ -1,0 +1,86 @@
+{
+  "id": "dish6368",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6368.json",
+  "name_vi": "Tôm sốt mayonnaise trái thơm",
+  "name_en": "",
+  "name_normalized": "tom sot mayonnaise trai thom",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thơm",
+    "Tôm sú tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sốt mayonnaise",
+    "Sữa đặc có đường",
+    "Giấm gạo",
+    "Bột chiên giòn",
+    "Bột bắp",
+    "Bột năng",
+    "Lòng trắng trứng gà",
+    "Muối/ dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06247",
+    "ingre06954",
+    "ingre05970",
+    "ingre06175",
+    "ingre02362",
+    "ingre00598",
+    "ingre00564",
+    "ingre00849",
+    "ingre03580",
+    "ingre03809"
+  ],
+  "ingredient_names_vi": [
+    "Thơm",
+    "Tôm sú tươi",
+    "Sốt mayonnaise",
+    "Sữa đặc có đường",
+    "Giấm gạo",
+    "Bột chiên giòn",
+    "Bột bắp",
+    "Bột năng",
+    "Lòng trắng trứng gà",
+    "Muối/ dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Basil",
+    "Fresh shrimp",
+    "Mayonnaise Sauce",
+    "Sweetened Condensed Milk",
+    "Rice vinegar",
+    "Puffed Rice Powder",
+    "Corn starch",
+    "Cornstarch",
+    "Egg white",
+    "Table salt/Oil"
+  ],
+  "ingredient_names_normalized": [
+    "thom",
+    "tom su tuoi",
+    "sot mayonnaise",
+    "sua dac co duong",
+    "giam gao",
+    "bot chien gion",
+    "bot bap",
+    "bot nang",
+    "long trang trung ga",
+    "muoi dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ dau an",
+      "new": "muoi dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ dầu ăn"
+    }
+  ]
+}

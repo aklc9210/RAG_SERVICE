@@ -1,0 +1,83 @@
+{
+  "id": "dish6758",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6758.json",
+  "name_vi": "Bánh xếp mandu nhân kim chi Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "banh xep mandu nhan kim chi han quoc",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt bò",
+    "Vỏ bánh mandu"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ khuôn trắng",
+    "Kim chi",
+    "Hành tây",
+    "Hành lá",
+    "Miến Hàn Quốc"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi lớn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre07231",
+    "ingre07746",
+    "ingre03277",
+    "ingre02741",
+    "ingre02673",
+    "ingre03714",
+    "ingre02485",
+    "ingre07092"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Vỏ bánh mandu",
+    "Đậu hũ khuôn trắng",
+    "Kim chi",
+    "Hành tây",
+    "Hành lá",
+    "Miến Hàn Quốc",
+    "Gừng",
+    "Tỏi lớn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Mandu wrapper",
+    "Tofu mold",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Onion",
+    "Scallion",
+    "Korean vermicelli",
+    "Ginger",
+    "Large Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "vo banh mandu",
+    "dau hu khuon trang",
+    "kim chi",
+    "hanh tay",
+    "hanh la",
+    "mien han quoc",
+    "gung",
+    "toi lon"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

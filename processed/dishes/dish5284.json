@@ -1,0 +1,67 @@
+{
+  "id": "dish5284",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5284.json",
+  "name_vi": "Đậu hũ xào giá hẹ chay",
+  "name_en": "",
+  "name_normalized": "dau hu xao gia he chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Giá",
+    "Hẹ"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Bột ngọt/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre07755",
+    "ingre02329",
+    "ingre03085",
+    "ingre02124",
+    "ingre02997",
+    "ingre00826"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ trắng",
+    "Giá",
+    "Hẹ",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Bột ngọt/ muối"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Mint",
+    "Garlic Chives",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu trang",
+    "gia",
+    "he",
+    "dau an",
+    "hat nem chay",
+    "bot ngot muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ muoi",
+      "new": "bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ muối"
+    }
+  ]
+}

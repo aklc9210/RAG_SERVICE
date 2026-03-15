@@ -1,0 +1,72 @@
+{
+  "id": "dish7575",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7575.json",
+  "name_vi": "Sò huyết hấp sả",
+  "name_en": "",
+  "name_normalized": "so huyet hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Sò huyết",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre05819",
+    "ingre05900",
+    "ingre07966",
+    "ingre04821",
+    "ingre03746",
+    "ingre07583",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Sò huyết",
+    "Sả",
+    "Ớt",
+    "Nước vo gạo",
+    "Muối",
+    "Đường",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Blood clam",
+    "Lemongrass",
+    "Pepper",
+    "Rice washing water",
+    "Salt",
+    "Sugar",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "so huyet",
+    "sa",
+    "ot",
+    "nuoc vo gao",
+    "muoi",
+    "duong",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

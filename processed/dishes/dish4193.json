@@ -1,0 +1,131 @@
+{
+  "id": "dish4193",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4193.json",
+  "name_vi": "Bò lúc lắc nướng sa tế",
+  "name_en": "",
+  "name_normalized": "bo luc lac nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt thăn bò Mỹ",
+    "Dầu điều"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sữa đặc",
+    "Sả",
+    "Hành tím",
+    "Chao",
+    "Vừng trắng rang vàng"
+  ],
+  "seasonings": [
+    "Sa tế tôm cay",
+    "Rượu Thiệu Hưng",
+    "Nước mắm ngon",
+    "Xì dầu",
+    "Đường nâu",
+    "Tiêu bột",
+    "Gừng nhỏ",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre06498",
+    "ingre05627",
+    "ingre05571",
+    "ingre02134",
+    "ingre04706",
+    "ingre07381",
+    "ingre02741",
+    "ingre07628",
+    "ingre06174",
+    "ingre05900",
+    "ingre06615",
+    "ingre02512",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre01106",
+    "ingre07305"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò Mỹ",
+    "Sa tế tôm cay",
+    "Rượu Thiệu Hưng",
+    "Dầu điều",
+    "Nước mắm ngon",
+    "Xì dầu",
+    "Hành tây",
+    "Đường nâu",
+    "Sữa đặc",
+    "Sả",
+    "Tiêu bột",
+    "Gừng nhỏ",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Chao",
+    "Vừng trắng rang vàng"
+  ],
+  "ingredient_names_en": [
+    "Beef sirloin",
+    "Hot Shrimp Paste",
+    "Saffron",
+    "Peanut oil",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Onion",
+    "Brown Sugar",
+    "Sweetened Condensed Milk",
+    "Lemongrass",
+    "Salt",
+    "Ginger",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Pickled plum",
+    "Yellow-roasted sesame seeds"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo my",
+    "sa te tom cay",
+    "ruou thieu hung",
+    "dau dieu",
+    "nuoc mam ngon",
+    "xi dau",
+    "hanh tay",
+    "duong nau",
+    "sua dac",
+    "sa",
+    "tieu bot",
+    "gung nho",
+    "ot",
+    "hanh tim",
+    "toi",
+    "chao",
+    "vung trang rang vang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre01811",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01811.json",
+  "name_vi": "cần tàu/rau quế",
+  "name_en": "Sage",
+  "name_normalized": "can tau rau que",
+  "synonyms": [
+    "rau cần tàu"
+  ],
+  "synonyms_normalized": [
+    "rau can tau"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "can tau/rau que",
+      "new": "can tau rau que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

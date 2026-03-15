@@ -1,0 +1,66 @@
+{
+  "id": "dish8301",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8301.json",
+  "name_vi": "Đu đủ ngâm mắm nêm",
+  "name_en": "",
+  "name_normalized": "du du ngam mam nem",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Đu đủ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Mắm nêm",
+    "Ớt",
+    "Tỏi",
+    "Muối hạt",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre07491",
+    "ingre04148",
+    "ingre07966",
+    "ingre07063",
+    "ingre03760",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ",
+    "Mắm nêm",
+    "Ớt",
+    "Tỏi",
+    "Muối hạt",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Papaya",
+    "Fish sauce",
+    "Pepper",
+    "Garlic",
+    "Fenugreek seeds",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "du du",
+    "mam nem",
+    "ot",
+    "toi",
+    "muoi hat",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

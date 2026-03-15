@@ -1,0 +1,78 @@
+{
+  "id": "dish1574",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1574.json",
+  "name_vi": "Bánh tét trứng muối",
+  "name_en": "",
+  "name_normalized": "banh tet trung muoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo ba chỉ",
+    "Gạo nếp"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh cà vỏ",
+    "Hành tím",
+    "Lá chuối gói bánh",
+    "Dây lạt buộc bánh"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Rau ngót"
+  ],
+  "ingredient_ids": [
+    "ingre06399",
+    "ingre02450",
+    "ingre07841",
+    "ingre03587",
+    "ingre05334",
+    "ingre02768",
+    "ingre03386",
+    "ingre01980"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo ba chỉ",
+    "Gạo nếp",
+    "Đậu xanh cà vỏ",
+    "Lòng đỏ trứng muối",
+    "Rau ngót",
+    "Hành tím",
+    "Lá chuối gói bánh",
+    "Dây lạt buộc bánh"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "sticky rice",
+    "Green Soybeans Skin-On",
+    "Salted Egg Yolk",
+    "Spinach",
+    "Shallot",
+    "Banana leaf",
+    "String Cheese"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo ba chi",
+    "gao nep",
+    "dau xanh ca vo",
+    "long do trung muoi",
+    "rau ngot",
+    "hanh tim",
+    "la chuoi goi banh",
+    "day lat buoc banh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

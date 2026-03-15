@@ -1,0 +1,105 @@
+{
+  "id": "dish4894",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4894.json",
+  "name_vi": "Ốc bươu um sả ớt",
+  "name_en": "",
+  "name_normalized": "oc buou um sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc bươu đen",
+    "Hành tím",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lá chanh",
+    "Gừng",
+    "Ớt",
+    "Ớt xay",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07937",
+    "ingre02768",
+    "ingre05900",
+    "ingre03370",
+    "ingre02485",
+    "ingre07966",
+    "ingre08087",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu đen",
+    "Hành tím",
+    "Sả",
+    "Lá chanh",
+    "Gừng",
+    "Ớt",
+    "Ớt xay",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Black Snail Mussel",
+    "Shallot",
+    "Lemongrass",
+    "Lime leaf",
+    "Ginger",
+    "Pepper",
+    "Ground Chili Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou den",
+    "hanh tim",
+    "sa",
+    "la chanh",
+    "gung",
+    "ot",
+    "ot xay",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

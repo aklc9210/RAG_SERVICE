@@ -1,0 +1,116 @@
+{
+  "id": "dish4263",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4263.json",
+  "name_vi": "Heo quay lá mắc mật",
+  "name_en": "",
+  "name_normalized": "heo quay la mac mat",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Lá mắc mật",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hạt mắc khén"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Tỏi",
+    "Lá chanh",
+    "Giấm",
+    "Muối hột",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre03479",
+    "ingre05900",
+    "ingre07966",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre03370",
+    "ingre02983",
+    "ingre02355",
+    "ingre03766",
+    "ingre00819",
+    "ingre02995",
+    "ingre06619"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Lá mắc mật",
+    "Sả",
+    "Ớt",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Lá chanh",
+    "Hạt mắc khén",
+    "Giấm",
+    "Muối hột",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Dandelion leaf",
+    "Lemongrass",
+    "Pepper",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Lime leaf",
+    "Star Anise",
+    "Vinegar",
+    "Sea salt",
+    "MSG",
+    "Seasoning",
+    "Cumin Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "la mac mat",
+    "sa",
+    "ot",
+    "gung",
+    "toi",
+    "hanh tim",
+    "la chanh",
+    "hat mac khen",
+    "giam",
+    "muoi hot",
+    "bot ngot",
+    "hat nem",
+    "tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

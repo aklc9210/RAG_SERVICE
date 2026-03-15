@@ -1,0 +1,79 @@
+{
+  "id": "dish10211",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10211.json",
+  "name_vi": "Lẩu trà sữa",
+  "name_en": "",
+  "name_normalized": "lau tra sua",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Hồng trà",
+    "Khoai dẻo"
+  ],
+  "secondary_ingredients": [
+    "Đậu đỏ",
+    "Kiwi",
+    "Dâu tây",
+    "Khoai môn",
+    "Sữa đậu nành",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Trân châu đường đen"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre03103",
+    "ingre03184",
+    "ingre07868",
+    "ingre03287",
+    "ingre01961",
+    "ingre03208",
+    "ingre06170",
+    "ingre06144",
+    "ingre06791"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Hồng trà",
+    "Khoai dẻo",
+    "Đậu đỏ",
+    "Kiwi",
+    "Dâu tây",
+    "Khoai môn",
+    "Sữa đậu nành",
+    "Sữa tươi",
+    "Trân châu đường đen"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Red Tea",
+    "Sweet Potato",
+    "Red beans",
+    "Kiwi -> Kiwi",
+    "Strawberry",
+    "Yam",
+    "Soy milk",
+    "Fresh Milk",
+    "Black Sugar Boba"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "hong tra",
+    "khoai deo",
+    "dau do",
+    "kiwi",
+    "dau tay",
+    "khoai mon",
+    "sua dau nanh",
+    "sua tuoi",
+    "tran chau duong den"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

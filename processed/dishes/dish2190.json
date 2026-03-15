@@ -1,0 +1,60 @@
+{
+  "id": "dish2190",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2190.json",
+  "name_vi": "Kem từ lòng trắng trứng - Royal Icing",
+  "name_en": "",
+  "name_normalized": "kem tu long trang trung royal icing",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước"
+  ],
+  "seasonings": [
+    "Đường",
+    "Lòng trắng trứng gà",
+    "Nước cốt chanh",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07583",
+    "ingre03580",
+    "ingre04490",
+    "ingre04538",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đường",
+    "Lòng trắng trứng gà",
+    "Nước",
+    "Nước cốt chanh",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sugar",
+    "Egg white",
+    "Water",
+    "Lemon juice",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "duong",
+    "long trang trung ga",
+    "nuoc",
+    "nuoc cot chanh",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem tu long trang trung - royal icing",
+      "new": "kem tu long trang trung royal icing",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

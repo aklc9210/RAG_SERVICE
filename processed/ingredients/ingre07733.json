@@ -1,0 +1,27 @@
+{
+  "id": "ingre07733",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07733.json",
+  "name_vi": "đậu cô-ve",
+  "name_en": "Green beans",
+  "name_normalized": "dau co ve",
+  "synonyms": [
+    "đậu đũa"
+  ],
+  "synonyms_normalized": [
+    "dau dua"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau co-ve",
+      "new": "dau co ve",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

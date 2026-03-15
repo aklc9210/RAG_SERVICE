@@ -1,0 +1,106 @@
+{
+  "id": "dish0543",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0543.json",
+  "name_vi": "Canh cá song nấu dứa",
+  "name_en": "",
+  "name_normalized": "canh ca song nau dua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá song",
+    "Dứa",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Sấu",
+    "Thì là",
+    "Hành tím",
+    "Nước"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Gừng",
+    "Ớt khô xay",
+    "Tiêu xay",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre01616",
+    "ingre02151",
+    "ingre01354",
+    "ingre05925",
+    "ingre06233",
+    "ingre08078",
+    "ingre02485",
+    "ingre02768",
+    "ingre08042",
+    "ingre06644",
+    "ingre00587",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Cá song",
+    "Dứa",
+    "Cà chua",
+    "Sấu",
+    "Thì là",
+    "Ớt tươi",
+    "Gừng",
+    "Hành tím",
+    "Ớt khô xay",
+    "Tiêu xay",
+    "Bột canh",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Pineapple",
+    "Tomato",
+    "Sour sop",
+    "Dill",
+    "Fresh chili",
+    "Ginger",
+    "Shallot",
+    "Dried Ground Chili",
+    "Ground pepper",
+    "Cornstarch",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "ca song",
+    "dua",
+    "ca chua",
+    "sau",
+    "thi la",
+    "ot tuoi",
+    "gung",
+    "hanh tim",
+    "ot kho xay",
+    "tieu xay",
+    "bot canh",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

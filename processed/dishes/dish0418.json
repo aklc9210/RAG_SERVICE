@@ -1,0 +1,81 @@
+{
+  "id": "dish0418",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0418.json",
+  "name_vi": "Cá ngân nấu ngót",
+  "name_en": "",
+  "name_normalized": "ca ngan nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá ngân",
+    "Cá chua"
+  ],
+  "secondary_ingredients": [
+    "Cần tây",
+    "Hành lá",
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01576",
+    "ingre01489",
+    "ingre01812",
+    "ingre02673",
+    "ingre02862",
+    "ingre04694",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngân",
+    "Cá chua",
+    "Cần tây",
+    "Hành lá",
+    "Húng quế",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Silver perch",
+    "Tuna",
+    "Celery",
+    "Scallion",
+    "Cinnamon basil",
+    "Fish Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngan",
+    "ca chua",
+    "can tay",
+    "hanh la",
+    "hung que",
+    "nuoc mam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dish4003",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4003.json",
+  "name_vi": "Cách ướp gà nướng than hoa ngon",
+  "name_en": "",
+  "name_normalized": "cach uop ga nuong than hoa ngon",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà ta đã làm sạch lông",
+    "Sả",
+    "Rau sống",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Than hoa",
+    "Cà tím",
+    "Khoai cao",
+    "Hành lá cắt nhuyễn"
+  ],
+  "seasonings": [
+    "Muối tiêu",
+    "Chanh",
+    "Bột ngọt",
+    "Tỏi",
+    "Muối hột",
+    "Đường",
+    "Dầu ăn",
+    "Ớt sừng trâu"
+  ],
+  "ingredient_ids": [
+    "ingre02406",
+    "ingre05900",
+    "ingre05379",
+    "ingre02020",
+    "ingre03783",
+    "ingre01079",
+    "ingre00819",
+    "ingre07063",
+    "ingre03766",
+    "ingre06197",
+    "ingre07583",
+    "ingre01444",
+    "ingre03183",
+    "ingre02124",
+    "ingre08066",
+    "ingre02682"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta đã làm sạch lông",
+    "Sả",
+    "Rau sống",
+    "Dưa leo",
+    "Muối tiêu",
+    "Chanh",
+    "Bột ngọt",
+    "Tỏi",
+    "Muối hột",
+    "Than hoa",
+    "Đường",
+    "Cà tím",
+    "Khoai cao",
+    "Dầu ăn",
+    "Ớt sừng trâu",
+    "Hành lá cắt nhuyễn"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Lemongrass",
+    "Fresh herbs",
+    "Cucumber",
+    "Salt Pepper",
+    "Lemon",
+    "MSG",
+    "Garlic",
+    "Sea salt",
+    "Rosemary",
+    "Sugar",
+    "Purple cabbage",
+    "Yam",
+    "Cooking oil",
+    "Hot pepper",
+    "Chopped Green Onion"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta da lam sach long",
+    "sa",
+    "rau song",
+    "dua leo",
+    "muoi tieu",
+    "chanh",
+    "bot ngot",
+    "toi",
+    "muoi hot",
+    "than hoa",
+    "duong",
+    "ca tim",
+    "khoai cao",
+    "dau an",
+    "ot sung trau",
+    "hanh la cat nhuyen"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

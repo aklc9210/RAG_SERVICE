@@ -1,0 +1,85 @@
+{
+  "id": "dish5132",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5132.json",
+  "name_vi": "Thịt bò xào súp lơ xanh - bông cải xanh",
+  "name_en": "",
+  "name_normalized": "thit bo xao sup lo xanh bong cai xanh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Súp lơ xanh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre05844",
+    "ingre07063",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Súp lơ xanh",
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Green cabbage",
+    "Garlic",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "sup lo xanh",
+    "toi",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit bo xao sup lo xanh - bong cai xanh",
+      "new": "thit bo xao sup lo xanh bong cai xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

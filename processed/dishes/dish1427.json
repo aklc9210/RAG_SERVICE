@@ -1,0 +1,73 @@
+{
+  "id": "dish1427",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1427.json",
+  "name_vi": "Bánh ướt bằng bánh tráng",
+  "name_en": "",
+  "name_normalized": "banh uot bang banh trang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Chả lụa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau sống"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre01292",
+    "ingre02768",
+    "ingre07966",
+    "ingre07583",
+    "ingre04694",
+    "ingre05379"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Chả lụa",
+    "Hành tím",
+    "Ớt",
+    "Đường",
+    "Nước mắm",
+    "Rau sống"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Pork floss",
+    "Shallot",
+    "Pepper",
+    "Sugar",
+    "Fish Sauce",
+    "Fresh herbs"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "cha lua",
+    "hanh tim",
+    "ot",
+    "duong",
+    "nuoc mam",
+    "rau song"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

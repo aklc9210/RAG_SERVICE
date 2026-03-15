@@ -1,0 +1,71 @@
+{
+  "id": "dish2163",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2163.json",
+  "name_vi": "Bánh cupcake socola không đường, không bột, không lò nướng",
+  "name_en": "",
+  "name_normalized": "banh cupcake socola khong duong khong bot khong lo nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh oreo"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Whipping cream",
+    "Socola đen",
+    "Dâu tây"
+  ],
+  "seasonings": [
+    "Bột nở",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00128",
+    "ingre00867",
+    "ingre00382",
+    "ingre07313",
+    "ingre06147",
+    "ingre05763",
+    "ingre01961"
+  ],
+  "ingredient_names_vi": [
+    "Bánh oreo",
+    "Bột nở",
+    "Bơ lạt",
+    "Whipping cream",
+    "Sữa tươi không đường",
+    "Socola đen",
+    "Dâu tây"
+  ],
+  "ingredient_names_en": [
+    "Oreo cookie",
+    "Baking powder",
+    "Butter",
+    "Whipping cream",
+    "Fat-free Milk",
+    "Dark chocolate",
+    "Strawberry"
+  ],
+  "ingredient_names_normalized": [
+    "banh oreo",
+    "bot no",
+    "bo lat",
+    "whipping cream",
+    "sua tuoi khong duong",
+    "socola den",
+    "dau tay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cupcake socola khong duong, khong bot, khong lo nuong",
+      "new": "banh cupcake socola khong duong khong bot khong lo nuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

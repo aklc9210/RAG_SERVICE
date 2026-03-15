@@ -1,0 +1,63 @@
+{
+  "id": "dish2162",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2162.json",
+  "name_vi": "Bánh biscotti red velvet",
+  "name_en": "",
+  "name_normalized": "banh biscotti red velvet",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Cacao ngòi",
+    "Hạt bí xanh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh red velvet",
+    "Bột mì số 8",
+    "Trứng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00547",
+    "ingre00783",
+    "ingre00367",
+    "ingre01038",
+    "ingre02907",
+    "ingre06801",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh red velvet",
+    "Bột mì số 8",
+    "Bơ",
+    "Cacao ngòi",
+    "Hạt bí xanh",
+    "Trứng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Red Velvet Cake Flour",
+    "All-purpose flour",
+    "Butter",
+    "Cocoa利用您的上下文，\"cacao ngòi\" 应该翻译为 \"Cocoa\". 但是，如果这是指某种特定",
+    "Green pumpkin seed",
+    "Egg",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh red velvet",
+    "bot mi so 8",
+    "bo",
+    "cacao ngoi",
+    "hat bi xanh",
+    "trung",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

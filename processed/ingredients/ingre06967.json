@@ -1,0 +1,29 @@
+{
+  "id": "ingre06967",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06967.json",
+  "name_vi": "tôm tươi:",
+  "name_en": "Fresh shrimp:",
+  "name_normalized": "tom tuoi",
+  "synonyms": [
+    "cua nhieu",
+    "cua thit"
+  ],
+  "synonyms_normalized": [
+    "cua nhieu",
+    "cua thit"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tom tuoi:",
+      "new": "tom tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish0759",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0759.json",
+  "name_vi": "Giò hầm rau củ",
+  "name_en": "",
+  "name_normalized": "gio ham rau cu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Giò heo",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Dền",
+    "Hành lá",
+    "Ngò"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02346",
+    "ingre01419",
+    "ingre03222",
+    "ingre02144",
+    "ingre02774",
+    "ingre02673",
+    "ingre04326",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Giò heo",
+    "Cà rốt",
+    "Khoai tây",
+    "Dền",
+    "Hành tím băm",
+    "Hành lá",
+    "Ngò",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Carrot",
+    "Potato",
+    "Bitter Melon",
+    "Chopped Scallion",
+    "Scallion",
+    "Cilantro",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gio heo",
+    "ca rot",
+    "khoai tay",
+    "den",
+    "hanh tim bam",
+    "hanh la",
+    "ngo",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

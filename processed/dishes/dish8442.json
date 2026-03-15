@@ -1,0 +1,98 @@
+{
+  "id": "dish8442",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8442.json",
+  "name_vi": "Gà hấp mướp (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "ga hap muop cong thuc duoc chia se tu nguoi dung",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Mướp hương"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Lá chanh",
+    "Ớt",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04104",
+    "ingre01079",
+    "ingre03370",
+    "ingre07966",
+    "ingre02768",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Mướp hương",
+    "Chanh",
+    "Lá chanh",
+    "Ớt",
+    "Hành tím",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Luffa",
+    "Lemon",
+    "Lime leaf",
+    "Pepper",
+    "Shallot",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "muop huong",
+    "chanh",
+    "la chanh",
+    "ot",
+    "hanh tim",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ga hap muop (cong thuc duoc chia se tu nguoi dung)",
+      "new": "ga hap muop cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

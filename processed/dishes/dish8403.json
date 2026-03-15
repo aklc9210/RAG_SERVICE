@@ -1,0 +1,101 @@
+{
+  "id": "dish8403",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8403.json",
+  "name_vi": "Chân gà ngâm mắm",
+  "name_en": "",
+  "name_normalized": "chan ga ngam mam",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nước lọc",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre08055",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre04665",
+    "ingre07522",
+    "ingre05574",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Ớt sừng",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Nước lọc",
+    "Đá viên",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Tap water",
+    "Ice cube",
+    "White wine",
+    "Fish Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "ot sung",
+    "hanh tim",
+    "toi",
+    "sa",
+    "nuoc loc",
+    "da vien",
+    "ruou trang",
+    "nuoc mam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

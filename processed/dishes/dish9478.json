@@ -1,0 +1,77 @@
+{
+  "id": "dish9478",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9478.json",
+  "name_vi": "Khoai tây nghiền KFC",
+  "name_en": "",
+  "name_normalized": "khoai tay nghien kfc",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Cream cheese",
+    "Phô mai sợi cheddar",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Sữa tươi có đường",
+    "Dầu hào",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00564",
+    "ingre01324",
+    "ingre05114",
+    "ingre06146",
+    "ingre00382",
+    "ingre02080",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bột bắp",
+    "Cream cheese",
+    "Phô mai sợi cheddar",
+    "Sữa tươi có đường",
+    "Bơ lạt",
+    "Dầu hào",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Corn starch",
+    "Cream cheese",
+    "Cheddar Cheese String",
+    "Sweetened Condensed Milk",
+    "Butter",
+    "Soy sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bot bap",
+    "cream cheese",
+    "pho mai soi cheddar",
+    "sua tuoi co duong",
+    "bo lat",
+    "dau hao",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

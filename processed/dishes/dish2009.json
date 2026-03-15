@@ -1,0 +1,68 @@
+{
+  "id": "dish2009",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2009.json",
+  "name_vi": "Bánh sò madeleine trà xanh",
+  "name_en": "",
+  "name_normalized": "banh so madeleine tra xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột matcha",
+    "Baking powder",
+    "Trứng gà",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00736",
+    "ingre00013",
+    "ingre06823",
+    "ingre00382",
+    "ingre06144",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột matcha",
+    "Baking powder",
+    "Trứng gà",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Matcha Powder",
+    "Baking powder",
+    "Chicken egg",
+    "Butter",
+    "Fresh Milk",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot matcha",
+    "baking powder",
+    "trung ga",
+    "bo lat",
+    "sua tuoi",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

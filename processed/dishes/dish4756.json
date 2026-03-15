@@ -1,0 +1,91 @@
+{
+  "id": "dish4756",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4756.json",
+  "name_vi": "Cải rổ xào tỏi",
+  "name_en": "",
+  "name_normalized": "cai ro xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cải rổ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sốt mayonnaise",
+    "Tỏi",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Tỏi (1/2 băm nhuyễn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01791",
+    "ingre05970",
+    "ingre07063",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre07068"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cải rổ",
+    "Sốt mayonnaise",
+    "Tỏi",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Tỏi (1/2 băm nhuyễn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Chinese cabbage",
+    "Mayonnaise Sauce",
+    "Garlic",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper",
+    "Garlic (1/2 minced)"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "cai ro",
+    "sot mayonnaise",
+    "toi",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "toi 1 2 bam nhuyen"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi (1/2 bam nhuyen",
+      "new": "toi 1 2 bam nhuyen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi (1/2 băm nhuyễn"
+    }
+  ]
+}

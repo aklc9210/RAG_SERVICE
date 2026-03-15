@@ -1,0 +1,27 @@
+{
+  "id": "ingre02313",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02313.json",
+  "name_vi": "gia vị thêm như đường; muối; bột ngọt; nước mắm",
+  "name_en": "Additional seasonings such as sugar; salt; monosodium glutamate; fish sauce",
+  "name_normalized": "gia vi them nhu duong muoi bot ngot nuoc mam",
+  "synonyms": [
+    "muối nở",
+    "bột nở"
+  ],
+  "synonyms_normalized": [
+    "muoi no",
+    "bot no"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gia vi them nhu duong; muoi; bot ngot; nuoc mam",
+      "new": "gia vi them nhu duong muoi bot ngot nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

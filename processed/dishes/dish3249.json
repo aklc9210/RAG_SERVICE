@@ -1,0 +1,108 @@
+{
+  "id": "dish3249",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3249.json",
+  "name_vi": "Vịt hầm hạt sen",
+  "name_en": "",
+  "name_normalized": "vit ham hat sen",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Vịt",
+    "Thịt xay",
+    "Hạt sen",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Nấm hải sản",
+    "Cơm trắng",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Gừng",
+    "Rượu trắng",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Bột canh",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre06521",
+    "ingre03029",
+    "ingre04930",
+    "ingre04917",
+    "ingre01787",
+    "ingre01767",
+    "ingre02485",
+    "ingre05574",
+    "ingre02768",
+    "ingre04381",
+    "ingre02124",
+    "ingre00587",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Thịt xay",
+    "Hạt sen",
+    "Nấm mèo",
+    "Nấm hải sản",
+    "Cải ngọt",
+    "Cơm trắng",
+    "Gừng",
+    "Rượu trắng",
+    "Hành tím",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Bột canh",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Ground Beef",
+    "Lotus seed",
+    "Mushroom",
+    "Seafood mushrooms",
+    "Sweet cabbage",
+    "White Rice",
+    "Ginger",
+    "White wine",
+    "Shallot",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Cornstarch",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "thit xay",
+    "hat sen",
+    "nam meo",
+    "nam hai san",
+    "cai ngot",
+    "com trang",
+    "gung",
+    "ruou trang",
+    "hanh tim",
+    "ngu vi huong",
+    "dau an",
+    "bot canh",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

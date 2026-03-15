@@ -1,0 +1,25 @@
+{
+  "id": "ingre05368",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05368.json",
+  "name_vi": "rau răm/ lá quế",
+  "name_en": "Cilantro/Leaves of Bay Laurel",
+  "name_normalized": "rau ram la que",
+  "synonyms": [
+    "lá lốt"
+  ],
+  "synonyms_normalized": [
+    "la lot"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ram/ la que",
+      "new": "rau ram la que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

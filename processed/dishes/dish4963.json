@@ -1,0 +1,118 @@
+{
+  "id": "dish4963",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4963.json",
+  "name_vi": "Thịt heo xào cay Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "thit heo xao cay han quoc",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt heo",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng rang",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Gừng cắt sợi",
+    "Ớt xanh",
+    "Ớt đỏ",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre02741",
+    "ingre02673",
+    "ingre02501",
+    "ingre03936",
+    "ingre08083",
+    "ingre08097",
+    "ingre02774",
+    "ingre07071",
+    "ingre07036",
+    "ingre07983",
+    "ingre02094",
+    "ingre04790",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Hành tây",
+    "Hành lá",
+    "Gừng cắt sợi",
+    "Mè trắng rang",
+    "Ớt xanh",
+    "Ớt đỏ",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc",
+    "Dầu mè",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Onion",
+    "Scallion",
+    "Ginger丝切片",
+    "Roasted White Sesame",
+    "Green Pepper",
+    "Red pepper",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Korean chili paste",
+    "Korean chili powder",
+    "Sesame oil",
+    "Soy Sauce",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "hanh tay",
+    "hanh la",
+    "gung cat soi",
+    "me trang rang",
+    "ot xanh",
+    "ot do",
+    "hanh tim bam",
+    "toi bam",
+    "tuong ot han quoc",
+    "ot bot han quoc",
+    "dau me",
+    "nuoc tuong",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

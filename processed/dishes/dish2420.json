@@ -1,0 +1,66 @@
+{
+  "id": "dish2420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2420.json",
+  "name_vi": "Bánh chuối không cần bột, trứng và đường",
+  "name_en": "",
+  "name_normalized": "banh chuoi khong can bot trung va duong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh quy"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Socola đen",
+    "Chuối chín",
+    "Bơ"
+  ],
+  "seasonings": [
+    "Bột nở"
+  ],
+  "ingredient_ids": [
+    "ingre00031",
+    "ingre05863",
+    "ingre05763",
+    "ingre01159",
+    "ingre00367",
+    "ingre00867"
+  ],
+  "ingredient_names_vi": [
+    "Bánh quy",
+    "Sữa tươi",
+    "Socola đen",
+    "Chuối chín",
+    "Bơ",
+    "Bột nở"
+  ],
+  "ingredient_names_en": [
+    "Cookie",
+    "Fresh Milk",
+    "Dark chocolate",
+    "Banana",
+    "Butter",
+    "Baking powder"
+  ],
+  "ingredient_names_normalized": [
+    "banh quy",
+    "sua tuoi",
+    "socola den",
+    "chuoi chin",
+    "bo",
+    "bot no"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh chuoi khong can bot, trung va duong",
+      "new": "banh chuoi khong can bot trung va duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

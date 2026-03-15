@@ -1,0 +1,101 @@
+{
+  "id": "dish8358",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8358.json",
+  "name_vi": "Da heo (bì heo) ngâm sả tắc",
+  "name_en": "",
+  "name_normalized": "da heo bi heo ngam sa tac",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Da heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Chanh",
+    "Giấm ăn",
+    "Chanh tươi",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01935",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre02485",
+    "ingre01079",
+    "ingre02377",
+    "ingre01091",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Da heo",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Chanh",
+    "Giấm ăn",
+    "Chanh tươi",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pork skin",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Ginger",
+    "Lemon",
+    "vinegar",
+    "Lime",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "da heo",
+    "sa",
+    "ot",
+    "toi",
+    "gung",
+    "chanh",
+    "giam an",
+    "chanh tuoi",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "da heo (bi heo) ngam sa tac",
+      "new": "da heo bi heo ngam sa tac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

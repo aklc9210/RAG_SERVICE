@@ -1,0 +1,85 @@
+{
+  "id": "dish7375",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7375.json",
+  "name_vi": "Chả ngao (nghêu) chiên giòn",
+  "name_en": "",
+  "name_normalized": "cha ngao ngheu chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ngao",
+    "Mỡ"
+  ],
+  "secondary_ingredients": [
+    "Giò sống",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Hành băm",
+    "Ớt băm",
+    "Hạt tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04301",
+    "ingre04185",
+    "ingre02350",
+    "ingre02657",
+    "ingre07971",
+    "ingre05359",
+    "ingre03043",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ngao",
+    "Mỡ",
+    "Giò sống",
+    "Hành băm",
+    "Ớt băm",
+    "Rau răm",
+    "Hạt tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Lard",
+    "Fresh sausage",
+    "Chopped Garlic",
+    "Chopped Pepper",
+    "Vietnamese coriander",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ngao",
+    "mo",
+    "gio song",
+    "hanh bam",
+    "ot bam",
+    "rau ram",
+    "hat tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha ngao (ngheu) chien gion",
+      "new": "cha ngao ngheu chien gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

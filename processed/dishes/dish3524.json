@@ -1,0 +1,112 @@
+{
+  "id": "dish3524",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3524.json",
+  "name_vi": "Cà ri nai",
+  "name_en": "",
+  "name_normalized": "ca ri nai",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sả",
+    "Thịt nai"
+  ],
+  "secondary_ingredients": [
+    "Dầu điều",
+    "Nước dừa tươi",
+    "Khoai tây",
+    "Khoai môn"
+  ],
+  "seasonings": [
+    "Hành băm",
+    "Tỏi băm",
+    "Cà ri bột",
+    "Cà ri dầu",
+    "Nước cốt dừa",
+    "Nước cốt gừng",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05900",
+    "ingre06447",
+    "ingre02657",
+    "ingre07071",
+    "ingre01416",
+    "ingre01417",
+    "ingre02134",
+    "ingre04554",
+    "ingre04626",
+    "ingre04573",
+    "ingre03222",
+    "ingre03208",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sả",
+    "Thịt nai",
+    "Hành băm",
+    "Tỏi băm",
+    "Cà ri bột",
+    "Cà ri dầu",
+    "Dầu điều",
+    "Nước cốt dừa",
+    "Nước dừa tươi",
+    "Nước cốt gừng",
+    "Khoai tây",
+    "Khoai môn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Lemongrass",
+    "Deer meat",
+    "Chopped Garlic",
+    "Minced Garlic",
+    "Curry powder",
+    "Curry Oil",
+    "Peanut oil",
+    "Coconut milk",
+    "Coconut water",
+    "Ginger Juice",
+    "Potato",
+    "Yam",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "sa",
+    "thit nai",
+    "hanh bam",
+    "toi bam",
+    "ca ri bot",
+    "ca ri dau",
+    "dau dieu",
+    "nuoc cot dua",
+    "nuoc dua tuoi",
+    "nuoc cot gung",
+    "khoai tay",
+    "khoai mon",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

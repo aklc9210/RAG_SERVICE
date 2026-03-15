@@ -1,0 +1,87 @@
+{
+  "id": "dish4267",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4267.json",
+  "name_vi": "Mực ống nhồi sả nướng sa tế",
+  "name_en": "",
+  "name_normalized": "muc ong nhoi sa nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Mực ống",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Giấm ăn",
+    "Muối ớt xanh",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre05900",
+    "ingre05621",
+    "ingre02094",
+    "ingre02134",
+    "ingre02377",
+    "ingre03804",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Sả",
+    "Sa tế",
+    "Dầu mè",
+    "Dầu điều",
+    "Giấm ăn",
+    "Muối ớt xanh",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Lemongrass",
+    "Fish sauce",
+    "Sesame oil",
+    "Peanut oil",
+    "vinegar",
+    "Green chili salt",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "sa",
+    "sa te",
+    "dau me",
+    "dau dieu",
+    "giam an",
+    "muoi ot xanh",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

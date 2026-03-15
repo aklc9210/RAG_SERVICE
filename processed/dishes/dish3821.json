@@ -1,0 +1,83 @@
+{
+  "id": "dish3821",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3821.json",
+  "name_vi": "Cá mú nướng bơ chanh",
+  "name_en": "",
+  "name_normalized": "ca mu nuong bo chanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá mú trân châu"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Dầu ăn",
+    "Bơ thực vật",
+    "Nước cốt chanh",
+    "Đường",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01569",
+    "ingre02485",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre00407",
+    "ingre04538",
+    "ingre07583",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Cá mú trân châu",
+    "Gừng",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Bơ thực vật",
+    "Nước cốt chanh",
+    "Đường",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Pearl Grouper",
+    "Ginger",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Vegetable oil",
+    "Lemon juice",
+    "Sugar",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca mu tran chau",
+    "gung",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "bo thuc vat",
+    "nuoc cot chanh",
+    "duong",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

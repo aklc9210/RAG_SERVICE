@@ -1,0 +1,77 @@
+{
+  "id": "dish2051",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2051.json",
+  "name_vi": "Bánh scone mặn phô mai hành",
+  "name_en": "",
+  "name_normalized": "banh scone man pho mai hanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Hành lá boa rô",
+    "Phô mai cheddar"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh (Cake flour)",
+    "Baking powder",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre00013",
+    "ingre00382",
+    "ingre06823",
+    "ingre02677",
+    "ingre05064",
+    "ingre06147",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake flour)",
+    "Baking powder",
+    "Bơ lạt",
+    "Trứng gà",
+    "Hành lá boa rô",
+    "Phô mai cheddar",
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Baking powder",
+    "Butter",
+    "Chicken egg",
+    "Basil",
+    "Cheddar cheese",
+    "Fat-free Milk",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "baking powder",
+    "bo lat",
+    "trung ga",
+    "hanh la boa ro",
+    "pho mai cheddar",
+    "sua tuoi khong duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake flour)"
+    }
+  ]
+}

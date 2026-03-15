@@ -1,0 +1,72 @@
+{
+  "id": "dish7653",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7653.json",
+  "name_vi": "Bánh tráng hấp hành",
+  "name_en": "",
+  "name_normalized": "banh trang hap hanh",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dầu ăn",
+    "Tỏi ớt băm",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre02673",
+    "ingre02124",
+    "ingre07118",
+    "ingre04694",
+    "ingre04538",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Hành lá",
+    "Dầu ăn",
+    "Tỏi ớt băm",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Scallion",
+    "Cooking oil",
+    "Minced chili garlic",
+    "Fish Sauce",
+    "Lemon juice",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "hanh la",
+    "dau an",
+    "toi ot bam",
+    "nuoc mam",
+    "nuoc cot chanh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

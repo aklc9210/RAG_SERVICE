@@ -1,0 +1,57 @@
+{
+  "id": "dish9991",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9991.json",
+  "name_vi": "Nước chanh sả mật ong",
+  "name_en": "",
+  "name_normalized": "nuoc chanh sa mat ong",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sả",
+    "Mật ong",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01079",
+    "ingre05900",
+    "ingre04124",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Chanh",
+    "Sả",
+    "Mật ong",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Lemon",
+    "Lemongrass",
+    "Honey",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "chanh",
+    "sa",
+    "mat ong",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

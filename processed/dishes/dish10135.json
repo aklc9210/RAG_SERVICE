@@ -1,0 +1,79 @@
+{
+  "id": "dish10135",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10135.json",
+  "name_vi": "Sinh tố tắc (quất)",
+  "name_en": "",
+  "name_normalized": "sinh to tac quat",
+  "category": "sinh to",
+  "main_ingredients": [
+    "Tắc/ quất chín",
+    "Lựu"
+  ],
+  "secondary_ingredients": [
+    "Chuối chín",
+    "Xoài chín",
+    "Sữa tươi nguyên kem"
+  ],
+  "seasonings": [
+    "Đường bột",
+    "Ớt bột Cayenne"
+  ],
+  "ingredient_ids": [
+    "ingre07061",
+    "ingre03629",
+    "ingre01163",
+    "ingre07332",
+    "ingre06157",
+    "ingre07589",
+    "ingre07980"
+  ],
+  "ingredient_names_vi": [
+    "Tắc/ quất chín",
+    "Lựu",
+    "Chuối chín",
+    "Xoài chín",
+    "Sữa tươi nguyên kem",
+    "Đường bột",
+    "Ớt bột Cayenne"
+  ],
+  "ingredient_names_en": [
+    "Tangerine",
+    "Pomegranate",
+    "Banana",
+    "Mango",
+    "Whole Milk Powder",
+    "Sugar Powder",
+    "Cayenne Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tac quat chin",
+    "luu",
+    "chuoi chin",
+    "xoai chin",
+    "sua tuoi nguyen kem",
+    "duong bot",
+    "ot bot cayenne"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to tac (quat)",
+      "new": "sinh to tac quat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tac/ quat chin",
+      "new": "tac quat chin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tắc/ quất chín"
+    }
+  ]
+}

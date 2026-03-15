@@ -1,0 +1,129 @@
+{
+  "id": "dish5318",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5318.json",
+  "name_vi": "Lươn xào lăn",
+  "name_en": "",
+  "name_normalized": "luon xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lươn",
+    "Bún tàu",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Ngò gai",
+    "Rau om",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Tỏi",
+    "Ớt hiểm",
+    "Bột canh",
+    "Nước mắm",
+    "Bột cà ri",
+    "Đường; bột ngọt; muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre00355",
+    "ingre04936",
+    "ingre04554",
+    "ingre01354",
+    "ingre04329",
+    "ingre05348",
+    "ingre05900",
+    "ingre07063",
+    "ingre08026",
+    "ingre00587",
+    "ingre04694",
+    "ingre00631",
+    "ingre07695",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Bún tàu",
+    "Nấm mèo khô",
+    "Nước cốt dừa",
+    "Cà chua",
+    "Ngò gai",
+    "Rau om",
+    "Sả",
+    "Tỏi",
+    "Ớt hiểm",
+    "Bột canh",
+    "Nước mắm",
+    "Bột cà ri",
+    "Đường; bột ngọt; muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Noodle",
+    "Dried cat's ear mushroom",
+    "Coconut milk",
+    "Tomato",
+    "Culantro",
+    "Water spinach",
+    "Lemongrass",
+    "Garlic",
+    "Hot pepper",
+    "Cornstarch",
+    "Fish Sauce",
+    "Curry powder",
+    "Sugar; MSG; Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "bun tau",
+    "nam meo kho",
+    "nuoc cot dua",
+    "ca chua",
+    "ngo gai",
+    "rau om",
+    "sa",
+    "toi",
+    "ot hiem",
+    "bot canh",
+    "nuoc mam",
+    "bot ca ri",
+    "duong bot ngot muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong; bot ngot; muoi",
+      "new": "duong bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường; bột ngọt; muối"
+    }
+  ]
+}

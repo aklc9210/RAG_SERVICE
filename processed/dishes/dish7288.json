@@ -1,0 +1,120 @@
+{
+  "id": "dish7288",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7288.json",
+  "name_vi": "Vịt rang riềng",
+  "name_en": "",
+  "name_normalized": "vit rang rieng",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Vịt",
+    "Sả",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Bột chiên giòn",
+    "Bột nghệ",
+    "Bột năng",
+    "Bột bắp",
+    "Rượu",
+    "Bột canh",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre05900",
+    "ingre05436",
+    "ingre07966",
+    "ingre02768",
+    "ingre00598",
+    "ingre00804",
+    "ingre00849",
+    "ingre00564",
+    "ingre05515",
+    "ingre02094",
+    "ingre00587",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Sả",
+    "Riềng",
+    "Ớt",
+    "Hành tím",
+    "Bột chiên giòn",
+    "Bột nghệ",
+    "Bột năng",
+    "Bột bắp",
+    "Rượu",
+    "Dầu mè",
+    "Bột canh",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Lemongrass",
+    "Galangal",
+    "Pepper",
+    "Shallot",
+    "Puffed Rice Powder",
+    "Turmeric Powder",
+    "Cornstarch",
+    "Corn starch",
+    "Rum",
+    "Sesame oil",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "sa",
+    "rieng",
+    "ot",
+    "hanh tim",
+    "bot chien gion",
+    "bot nghe",
+    "bot nang",
+    "bot bap",
+    "ruou",
+    "dau me",
+    "bot canh",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

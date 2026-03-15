@@ -1,0 +1,111 @@
+{
+  "id": "dish8305",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8305.json",
+  "name_vi": "Gỏi xoài tôm khô",
+  "name_en": "",
+  "name_normalized": "goi xoai tom kho",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tôm khô",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí",
+    "Rau xá lách",
+    "Rau húng",
+    "Đậu phộng rang",
+    "Hạt điều rang"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt sừng đỏ",
+    "Tỏi",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06941",
+    "ingre07342",
+    "ingre01079",
+    "ingre08071",
+    "ingre07063",
+    "ingre02768",
+    "ingre04343",
+    "ingre05416",
+    "ingre05256",
+    "ingre07791",
+    "ingre03066",
+    "ingre02377",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Tôm khô",
+    "Xoài xanh",
+    "Chanh",
+    "Ớt sừng đỏ",
+    "Tỏi",
+    "Hành tím",
+    "Ngò rí",
+    "Rau xá lách",
+    "Rau húng",
+    "Đậu phộng rang",
+    "Hạt điều rang",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Dried Shrimp",
+    "Green mango",
+    "Lemon",
+    "Red Hot Pepper",
+    "Garlic",
+    "Shallot",
+    "Parsley",
+    "Watercress",
+    "Roasted Peanut",
+    "vinegar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tom kho",
+    "xoai xanh",
+    "chanh",
+    "ot sung do",
+    "toi",
+    "hanh tim",
+    "ngo ri",
+    "rau xa lach",
+    "rau hung",
+    "dau phong rang",
+    "hat dieu rang",
+    "giam an",
+    "dau an",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

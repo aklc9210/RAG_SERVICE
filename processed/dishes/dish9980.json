@@ -1,0 +1,71 @@
+{
+  "id": "dish9980",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9980.json",
+  "name_vi": "Siro húng quất (tắc) đường phèn lá hẹ",
+  "name_en": "",
+  "name_normalized": "siro hung quat tac duong phen la he",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Quất xanh"
+  ],
+  "secondary_ingredients": [
+    "Lá hẹ",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Lá húng chanh",
+    "Gừng",
+    "Đường phèn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03436",
+    "ingre05185",
+    "ingre03449",
+    "ingre04124",
+    "ingre02485",
+    "ingre07635",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lá húng chanh",
+    "Quất xanh",
+    "Lá hẹ",
+    "Mật ong",
+    "Gừng",
+    "Đường phèn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Lime basil",
+    "Green Mandarin Orange",
+    "Garlic Chives Leaves",
+    "Honey",
+    "Ginger",
+    "Brown Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "la hung chanh",
+    "quat xanh",
+    "la he",
+    "mat ong",
+    "gung",
+    "duong phen",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "siro hung quat (tac) duong phen la he",
+      "new": "siro hung quat tac duong phen la he",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

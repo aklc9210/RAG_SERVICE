@@ -1,0 +1,72 @@
+{
+  "id": "dish4922",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4922.json",
+  "name_vi": "Nấm linh chi xào ớt chuông",
+  "name_en": "",
+  "name_normalized": "nam linh chi xao ot chuong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm linh chi"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Ớt chuông đỏ",
+    "Ớt chuông xanh",
+    "Dầu ăn",
+    "Dầu hào chay",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04923",
+    "ingre08014",
+    "ingre08008",
+    "ingre02645",
+    "ingre02124",
+    "ingre02081",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Nấm linh chi",
+    "Ớt chuông đỏ",
+    "Ớt chuông xanh",
+    "Hành boa rô",
+    "Dầu ăn",
+    "Dầu hào chay",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Reishi mushroom",
+    "Red bell pepper",
+    "Green Bell Pepper",
+    "Garlic",
+    "Cooking oil",
+    "Vegetarian soy sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "nam linh chi",
+    "ot chuong do",
+    "ot chuong xanh",
+    "hanh boa ro",
+    "dau an",
+    "dau hao chay",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

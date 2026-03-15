@@ -1,0 +1,113 @@
+{
+  "id": "dish4328",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4328.json",
+  "name_vi": "Vịt quay da giòn nhồi nhân thập cẩm",
+  "name_en": "",
+  "name_normalized": "vit quay da gion nhoi nhan thap cam",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt",
+    "Thịt nạc gà",
+    "Thịt ba chỉ heo",
+    "Gan gà"
+  ],
+  "secondary_ingredients": [
+    "Bánh mì",
+    "Sữa tươi",
+    "Hạt dẻ",
+    "Nấm mỡ",
+    "Hành tây",
+    "Hành tím",
+    "Ngò rí",
+    "Phô mai tươi",
+    "Bơ",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre06463",
+    "ingre06280",
+    "ingre02241",
+    "ingre00100",
+    "ingre06144",
+    "ingre02934",
+    "ingre04945",
+    "ingre02741",
+    "ingre02768",
+    "ingre02485",
+    "ingre04343",
+    "ingre05118",
+    "ingre00367",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Thịt nạc gà",
+    "Thịt ba chỉ heo",
+    "Gan gà",
+    "Bánh mì",
+    "Sữa tươi",
+    "Hạt dẻ",
+    "Nấm mỡ",
+    "Hành tây",
+    "Hành tím",
+    "Gừng",
+    "Ngò rí",
+    "Phô mai tươi",
+    "Bơ",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Chicken thigh",
+    "Pork belly",
+    "Chicken liver",
+    "Baguette",
+    "Fresh Milk",
+    "Walnut",
+    "Fried mushroom",
+    "Onion",
+    "Shallot",
+    "Ginger",
+    "Parsley",
+    "Fresh cheese",
+    "Butter",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "thit nac ga",
+    "thit ba chi heo",
+    "gan ga",
+    "banh mi",
+    "sua tuoi",
+    "hat de",
+    "nam mo",
+    "hanh tay",
+    "hanh tim",
+    "gung",
+    "ngo ri",
+    "pho mai tuoi",
+    "bo",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

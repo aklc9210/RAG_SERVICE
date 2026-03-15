@@ -1,0 +1,73 @@
+{
+  "id": "dish1274",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1274.json",
+  "name_vi": "Bánh bao nhân phô mai sữa",
+  "name_en": "",
+  "name_normalized": "banh bao nhan pho mai sua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Phô mai",
+    "Men nở instant"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Đường",
+    "Bột bắp",
+    "Cà rốt",
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre07583",
+    "ingre00564",
+    "ingre01419",
+    "ingre03584",
+    "ingre05054",
+    "ingre06147",
+    "ingre03687",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Đường",
+    "Bột bắp",
+    "Cà rốt",
+    "Lòng đỏ trứng gà",
+    "Phô mai",
+    "Sữa tươi không đường",
+    "Men nở instant",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Sugar",
+    "Corn starch",
+    "Carrot",
+    "Egg yolk",
+    "Cheese",
+    "Fat-free Milk",
+    "Instant Yeast",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "duong",
+    "bot bap",
+    "ca rot",
+    "long do trung ga",
+    "pho mai",
+    "sua tuoi khong duong",
+    "men no instant",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

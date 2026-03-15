@@ -1,0 +1,96 @@
+{
+  "id": "dish7705",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7705.json",
+  "name_vi": "Ốc móng tay hấp sả",
+  "name_en": "",
+  "name_normalized": "oc mong tay hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ốc móng tay",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Thì là"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Chanh",
+    "Nước mắm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07948",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre08055",
+    "ingre06233",
+    "ingre01079",
+    "ingre04694",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Ốc móng tay",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Thì là",
+    "Chanh",
+    "Nước mắm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Hot pepper",
+    "Dill",
+    "Lemon",
+    "Fish Sauce",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "oc mong tay",
+    "sa",
+    "gung",
+    "toi",
+    "ot sung",
+    "thi la",
+    "chanh",
+    "nuoc mam",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

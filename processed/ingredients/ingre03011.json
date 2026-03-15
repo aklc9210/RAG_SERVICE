@@ -1,0 +1,27 @@
+{
+  "id": "ingre03011",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03011.json",
+  "name_vi": "hạt nêm/ tiêu",
+  "name_en": "Seasoning/Pepper",
+  "name_normalized": "hat nem tieu",
+  "synonyms": [
+    "mì chính",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/ tieu",
+      "new": "hat nem tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

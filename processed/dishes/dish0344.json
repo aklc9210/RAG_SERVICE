@@ -1,0 +1,93 @@
+{
+  "id": "dish0344",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0344.json",
+  "name_vi": "Canh vịt nấu măng",
+  "name_en": "",
+  "name_normalized": "canh vit nau mang",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Tỏi băm",
+    "Gừng băm",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre04091",
+    "ingre05574",
+    "ingre02768",
+    "ingre07071",
+    "ingre02492",
+    "ingre07583",
+    "ingre06612",
+    "ingre02995",
+    "ingre02124",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Măng tươi",
+    "Rượu trắng",
+    "Hành tím",
+    "Tỏi băm",
+    "Gừng băm",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Fresh bamboo shoots",
+    "White wine",
+    "Shallot",
+    "Minced Garlic",
+    "Ginger paste",
+    "Sugar",
+    "Pepper",
+    "Seasoning",
+    "Cooking oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "mang tuoi",
+    "ruou trang",
+    "hanh tim",
+    "toi bam",
+    "gung bam",
+    "duong",
+    "tieu",
+    "hat nem",
+    "dau an",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

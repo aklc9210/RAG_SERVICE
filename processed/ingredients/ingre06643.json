@@ -1,0 +1,27 @@
+{
+  "id": "ingre06643",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06643.json",
+  "name_vi": "tiêu xanh:",
+  "name_en": "Green pepper",
+  "name_normalized": "tieu xanh",
+  "synonyms": [
+    "tắc kè",
+    "tiêu hạt"
+  ],
+  "synonyms_normalized": [
+    "tac ke",
+    "tieu hat"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu xanh:",
+      "new": "tieu xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish7324",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7324.json",
+  "name_vi": "Cá diêu hồng sốt cà chua",
+  "name_en": "",
+  "name_normalized": "ca dieu hong sot ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Cà chua",
+    "Thì là"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre01354",
+    "ingre06233",
+    "ingre04343",
+    "ingre02673",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Cà chua",
+    "Thì là",
+    "Ngò rí",
+    "Hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Tomato",
+    "Dill",
+    "Parsley",
+    "Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "ca chua",
+    "thi la",
+    "ngo ri",
+    "hanh la",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

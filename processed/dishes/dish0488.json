@@ -1,0 +1,92 @@
+{
+  "id": "dish0488",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0488.json",
+  "name_vi": "Canh khoai sọ chay với nấm và đậu hũ",
+  "name_en": "",
+  "name_normalized": "canh khoai so chay voi nam va dau hu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai sọ",
+    "Hạt sen khô",
+    "Nấm hương khô"
+  ],
+  "secondary_ingredients": [
+    "Đậu trắng",
+    "Nấm bào ngư",
+    "Đậu hũ non",
+    "Ngò rí",
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03221",
+    "ingre03031",
+    "ingre04913",
+    "ingre07824",
+    "ingre04894",
+    "ingre07752",
+    "ingre04343",
+    "ingre02645",
+    "ingre02997",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Khoai sọ",
+    "Hạt sen khô",
+    "Nấm hương khô",
+    "Đậu trắng",
+    "Nấm bào ngư",
+    "Đậu hũ non",
+    "Ngò rí",
+    "Hành boa rô",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Jicama",
+    "Lotus seed",
+    "Dried Shiitake Mushrooms",
+    "White bean",
+    "Oyster mushroom",
+    "Firm Tofu",
+    "Parsley",
+    "Garlic",
+    "Vegetarian Seasoning",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai so",
+    "hat sen kho",
+    "nam huong kho",
+    "dau trang",
+    "nam bao ngu",
+    "dau hu non",
+    "ngo ri",
+    "hanh boa ro",
+    "hat nem chay",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

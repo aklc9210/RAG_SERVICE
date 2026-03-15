@@ -1,0 +1,27 @@
+{
+  "id": "ingre07127",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07127.json",
+  "name_vi": "tỏi/hành tím",
+  "name_en": "Garlic/Scallion",
+  "name_normalized": "toi hanh tim",
+  "synonyms": [
+    "tỏi tây",
+    "hành hoa"
+  ],
+  "synonyms_normalized": [
+    "toi tay",
+    "hanh hoa"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi/hanh tim",
+      "new": "toi hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "dish1540",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1540.json",
+  "name_vi": "Bánh pancake bằng chảo chống dính",
+  "name_en": "",
+  "name_normalized": "banh pancake bang chao chong dinh",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Bột nở",
+    "Vani",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00564",
+    "ingre06823",
+    "ingre00867",
+    "ingre07140",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Bột nở",
+    "Vani",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Chicken egg",
+    "Baking powder",
+    "Vanilla",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot bap",
+    "trung ga",
+    "bot no",
+    "vani",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

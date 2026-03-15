@@ -1,0 +1,86 @@
+{
+  "id": "dish7145",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7145.json",
+  "name_vi": "Khô mực chiên tiêu",
+  "name_en": "",
+  "name_normalized": "kho muc chien tieu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Tiêu",
+    "Tiêu xanh",
+    "Ớt đỏ",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04266",
+    "ingre06612",
+    "ingre06640",
+    "ingre02768",
+    "ingre08097",
+    "ingre07063",
+    "ingre02124",
+    "ingre05359"
+  ],
+  "ingredient_names_vi": [
+    "Mực khô",
+    "Tiêu",
+    "Tiêu xanh",
+    "Hành tím",
+    "Ớt đỏ",
+    "Tỏi",
+    "Dầu ăn",
+    "Rau răm"
+  ],
+  "ingredient_names_en": [
+    "Dried squid",
+    "Pepper",
+    "Green pepper",
+    "Shallot",
+    "Red pepper",
+    "Garlic",
+    "Cooking oil",
+    "Vietnamese coriander"
+  ],
+  "ingredient_names_normalized": [
+    "muc kho",
+    "tieu",
+    "tieu xanh",
+    "hanh tim",
+    "ot do",
+    "toi",
+    "dau an",
+    "rau ram"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

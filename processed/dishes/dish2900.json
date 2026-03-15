@@ -1,0 +1,58 @@
+{
+  "id": "dish2900",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2900.json",
+  "name_vi": "Bánh men",
+  "name_en": "",
+  "name_normalized": "banh men",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lá dứa",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bột gạo",
+    "Đường bột",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre00668",
+    "ingre03417",
+    "ingre07589",
+    "ingre04554",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Bột gạo",
+    "Lá dứa",
+    "Đường bột",
+    "Nước cốt dừa",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Rice flour",
+    "Pandan叶",
+    "Sugar Powder",
+    "Coconut milk",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "bot gao",
+    "la dua",
+    "duong bot",
+    "nuoc cot dua",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

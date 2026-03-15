@@ -1,0 +1,83 @@
+{
+  "id": "dish0732",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0732.json",
+  "name_vi": "Cá nheo nấu canh chua măng",
+  "name_en": "",
+  "name_normalized": "ca nheo nau canh chua mang",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá nheo",
+    "Măng chua"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01591",
+    "ingre04072",
+    "ingre01354",
+    "ingre02768",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá nheo",
+    "Măng chua",
+    "Cà chua",
+    "Hành tím",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Milkfish",
+    "Pickled bamboo shoots",
+    "Tomato",
+    "Shallot",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca nheo",
+    "mang chua",
+    "ca chua",
+    "hanh tim",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

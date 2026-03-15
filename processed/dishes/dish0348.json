@@ -1,0 +1,87 @@
+{
+  "id": "dish0348",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0348.json",
+  "name_vi": "Canh chua chay",
+  "name_en": "",
+  "name_normalized": "canh chua chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Me chua",
+    "Giá",
+    "Dọc mùng"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Thơm",
+    "Đậu hũ",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hạt nêm chay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03644",
+    "ingre02329",
+    "ingre02147",
+    "ingre01354",
+    "ingre06247",
+    "ingre07740",
+    "ingre04329",
+    "ingre07966",
+    "ingre02997",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Me chua",
+    "Giá",
+    "Dọc mùng",
+    "Cà chua",
+    "Thơm",
+    "Đậu hũ",
+    "Ngò gai",
+    "Ớt",
+    "Hạt nêm chay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mint",
+    "Water spinach",
+    "Tomato",
+    "Basil",
+    "Tofu",
+    "Culantro",
+    "Pepper",
+    "Vegetarian Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "me chua",
+    "gia",
+    "doc mung",
+    "ca chua",
+    "thom",
+    "dau hu",
+    "ngo gai",
+    "ot",
+    "hat nem chay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

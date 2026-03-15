@@ -1,0 +1,106 @@
+{
+  "id": "dish5766",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5766.json",
+  "name_vi": "Thịt kho sung",
+  "name_en": "",
+  "name_normalized": "thit kho sung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Trái sung",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Nước mắm",
+    "Tương ớt",
+    "Ngũ vị hương",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre06771",
+    "ingre02768",
+    "ingre07966",
+    "ingre04694",
+    "ingre07028",
+    "ingre04381",
+    "ingre05574",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Trái sung",
+    "Hành tím",
+    "Ớt",
+    "Nước mắm",
+    "Tương ớt",
+    "Ngũ vị hương",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Raspberry",
+    "Shallot",
+    "Pepper",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Five-Spice Powder",
+    "White wine",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "trai sung",
+    "hanh tim",
+    "ot",
+    "nuoc mam",
+    "tuong ot",
+    "ngu vi huong",
+    "ruou trang",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

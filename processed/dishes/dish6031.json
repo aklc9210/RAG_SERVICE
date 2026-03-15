@@ -1,0 +1,117 @@
+{
+  "id": "dish6031",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6031.json",
+  "name_vi": "Đùi gà rô ti",
+  "name_en": "",
+  "name_normalized": "dui ga ro ti",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Đùi gà",
+    "Hành tím",
+    "Nước dừa xiêm"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Dầu hào",
+    "Nước tương",
+    "Nước mắm",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre02768",
+    "ingre07063",
+    "ingre04629",
+    "ingre04381",
+    "ingre00587",
+    "ingre04124",
+    "ingre02080",
+    "ingre04790",
+    "ingre04694",
+    "ingre07028",
+    "ingre06984",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Hành tím",
+    "Tỏi",
+    "Nước dừa xiêm",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Mật ong",
+    "Dầu hào",
+    "Nước tương",
+    "Nước mắm",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Shallot",
+    "Garlic",
+    "Coconut water",
+    "Five-Spice Powder",
+    "Cornstarch",
+    "Honey",
+    "Soy sauce",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Miso酱",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "hanh tim",
+    "toi",
+    "nuoc dua xiem",
+    "ngu vi huong",
+    "bot canh",
+    "mat ong",
+    "dau hao",
+    "nuoc tuong",
+    "nuoc mam",
+    "tuong ot",
+    "tuong ca",
+    "dau an",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish5394",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5394.json",
+  "name_vi": "Cá trê xào lăn",
+  "name_en": "",
+  "name_normalized": "ca tre xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cá trê",
+    "Hành tây",
+    "Đậu phộng rang",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi băm",
+    "Bột nghệ",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre02741",
+    "ingre07791",
+    "ingre05900",
+    "ingre07966",
+    "ingre07071",
+    "ingre00804",
+    "ingre04622",
+    "ingre04581",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Hành tây",
+    "Đậu phộng rang",
+    "Sả",
+    "Ớt",
+    "Tỏi băm",
+    "Bột nghệ",
+    "Nước dừa",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Onion",
+    "Roasted Peanut",
+    "Lemongrass",
+    "Pepper",
+    "Minced Garlic",
+    "Turmeric Powder",
+    "Coconut water",
+    "Lime juice",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "hanh tay",
+    "dau phong rang",
+    "sa",
+    "ot",
+    "toi bam",
+    "bot nghe",
+    "nuoc dua",
+    "nuoc cot me",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

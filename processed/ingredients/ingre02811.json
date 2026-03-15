@@ -1,0 +1,29 @@
+{
+  "id": "ingre02811",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02811.json",
+  "name_vi": "hành tím/tỏi băm",
+  "name_en": "Garlic minced",
+  "name_normalized": "hanh tim toi bam",
+  "synonyms": [
+    "tỏi băm",
+    "hành băm"
+  ],
+  "synonyms_normalized": [
+    "toi bam",
+    "hanh bam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tim/toi bam",
+      "new": "hanh tim toi bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

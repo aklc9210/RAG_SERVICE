@@ -1,0 +1,86 @@
+{
+  "id": "dish1338",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1338.json",
+  "name_vi": "Bánh Pateso",
+  "name_en": "",
+  "name_normalized": "banh pateso",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt ba rọi hoặc thịt nạc vai",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Ngò"
+  ],
+  "seasonings": [
+    "Pate gan",
+    "Bột ngàn lớp Puff Pastry",
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre06292",
+    "ingre02741",
+    "ingre02768",
+    "ingre02673",
+    "ingre04326",
+    "ingre05021",
+    "ingre00810",
+    "ingre06801"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi hoặc thịt nạc vai",
+    "Hành tây",
+    "Hành tím",
+    "Hành lá",
+    "Ngò",
+    "Pate gan",
+    "Bột ngàn lớp Puff Pastry",
+    "Trứng"
+  ],
+  "ingredient_names_en": [
+    "Pork belly or pork shoulder",
+    "Onion",
+    "Shallot",
+    "Scallion",
+    "Cilantro",
+    "Pâté Gan",
+    "Puff Pastry",
+    "Egg"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi hoac thit nac vai",
+    "hanh tay",
+    "hanh tim",
+    "hanh la",
+    "ngo",
+    "pate gan",
+    "bot ngan lop puff pastry",
+    "trung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

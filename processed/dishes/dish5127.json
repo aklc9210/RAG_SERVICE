@@ -1,0 +1,117 @@
+{
+  "id": "dish5127",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5127.json",
+  "name_vi": "Mì trứng xào thịt bò",
+  "name_en": "",
+  "name_normalized": "mi trung xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì trứng",
+    "Thịt bò",
+    "Cải xanh",
+    "Hẹ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Mắm nêm",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04001",
+    "ingre06300",
+    "ingre01797",
+    "ingre03085",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre07057",
+    "ingre04148",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mì trứng",
+    "Thịt bò",
+    "Cải xanh",
+    "Hẹ",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Tắc",
+    "Mắm nêm",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Egg noodles",
+    "Beef",
+    "Cabbage",
+    "Garlic Chives",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Tamarind",
+    "Fish sauce",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi trung",
+    "thit bo",
+    "cai xanh",
+    "he",
+    "hanh tim",
+    "toi",
+    "ot",
+    "tac",
+    "mam nem",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

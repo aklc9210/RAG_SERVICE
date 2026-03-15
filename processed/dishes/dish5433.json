@@ -1,0 +1,112 @@
+{
+  "id": "dish5433",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5433.json",
+  "name_vi": "Cua biển rang me chua ngọt",
+  "name_en": "",
+  "name_normalized": "cua bien rang me chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cua biển",
+    "Me"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột bắp",
+    "Ớt",
+    "Tỏi",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre01335",
+    "ingre03643",
+    "ingre00598",
+    "ingre00564",
+    "ingre05359",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre02485",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Cua biển",
+    "Me",
+    "Bột chiên giòn",
+    "Bột bắp",
+    "Rau răm",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Tamarind",
+    "Puffed Rice Powder",
+    "Corn starch",
+    "Vietnamese coriander",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Ginger",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "cua bien",
+    "me",
+    "bot chien gion",
+    "bot bap",
+    "rau ram",
+    "sa",
+    "ot",
+    "toi",
+    "gung",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

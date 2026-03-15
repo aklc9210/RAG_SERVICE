@@ -1,0 +1,71 @@
+{
+  "id": "dish1144",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1144.json",
+  "name_vi": "Bánh Dorayaki (bánh rán Doremon)",
+  "name_en": "",
+  "name_normalized": "banh dorayaki banh ran doremon",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu đỏ",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00867",
+    "ingre07868",
+    "ingre06823",
+    "ingre04124",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Đậu đỏ",
+    "Trứng gà",
+    "Mật ong",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Baking powder",
+    "Red beans",
+    "Chicken egg",
+    "Honey",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot no",
+    "dau do",
+    "trung ga",
+    "mat ong",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh dorayaki (banh ran doremon)",
+      "new": "banh dorayaki banh ran doremon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

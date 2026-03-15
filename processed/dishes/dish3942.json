@@ -1,0 +1,96 @@
+{
+  "id": "dish3942",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3942.json",
+  "name_vi": "Cá hồi nướng giấy bạc với măng tây",
+  "name_en": "",
+  "name_normalized": "ca hoi nuong giay bac voi mang tay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá hồi",
+    "Măng tây"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Hành boa rô",
+    "Hành tây",
+    "Bơ"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Bột ớt",
+    "Dầu ăn",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre04088",
+    "ingre03370",
+    "ingre06233",
+    "ingre02645",
+    "ingre02741",
+    "ingre00367",
+    "ingre01015",
+    "ingre02124",
+    "ingre06660"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Măng tây",
+    "Lá chanh",
+    "Thì là",
+    "Hành boa rô",
+    "Hành tây",
+    "Bơ",
+    "Bột ớt",
+    "Dầu ăn",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Asparagus",
+    "Lime leaf",
+    "Dill",
+    "Garlic",
+    "Onion",
+    "Butter",
+    "Red Pepper Powder",
+    "Cooking oil",
+    "Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "mang tay",
+    "la chanh",
+    "thi la",
+    "hanh boa ro",
+    "hanh tay",
+    "bo",
+    "bot ot",
+    "dau an",
+    "tieu hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dish4428",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4428.json",
+  "name_vi": "Ốc xào măng đậu",
+  "name_en": "",
+  "name_normalized": "oc xao mang dau",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc lác",
+    "Măng chua",
+    "Chuối xanh"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ",
+    "Dừa bào sợi",
+    "Nước sôi",
+    "Sả",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Nước cốt dừa",
+    "Tương ớt",
+    "Sả băm",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre07946",
+    "ingre04072",
+    "ingre01191",
+    "ingre07740",
+    "ingre03461",
+    "ingre02164",
+    "ingre04554",
+    "ingre07028",
+    "ingre04743",
+    "ingre05900",
+    "ingre05905",
+    "ingre07966",
+    "ingre04821"
+  ],
+  "ingredient_names_vi": [
+    "Ốc lác",
+    "Măng chua",
+    "Chuối xanh",
+    "Đậu hũ",
+    "Lá lốt",
+    "Dừa bào sợi",
+    "Nước cốt dừa",
+    "Tương ớt",
+    "Nước sôi",
+    "Sả",
+    "Sả băm",
+    "Ớt",
+    "Nước vo gạo"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Pickled bamboo shoots",
+    "Green banana",
+    "Tofu",
+    "Cinnamon Leaf",
+    "Coconut shred",
+    "Coconut milk",
+    "Hot Sauce",
+    "Boiling water",
+    "Lemongrass",
+    "Garlic Paste",
+    "Pepper",
+    "Rice washing water"
+  ],
+  "ingredient_names_normalized": [
+    "oc lac",
+    "mang chua",
+    "chuoi xanh",
+    "dau hu",
+    "la lot",
+    "dua bao soi",
+    "nuoc cot dua",
+    "tuong ot",
+    "nuoc soi",
+    "sa",
+    "sa bam",
+    "ot",
+    "nuoc vo gao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

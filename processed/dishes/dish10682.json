@@ -1,0 +1,73 @@
+{
+  "id": "dish10682",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10682.json",
+  "name_vi": "Chả cuốn lá bưởi",
+  "name_en": "",
+  "name_normalized": "cha cuon la buoi",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo",
+    "Lá bưởi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre03363",
+    "ingre02768",
+    "ingre04694",
+    "ingre03746",
+    "ingre06644",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Lá bưởi",
+    "Hành tím",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Lemon Grass",
+    "Shallot",
+    "Fish Sauce",
+    "Salt",
+    "Ground pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "la buoi",
+    "hanh tim",
+    "nuoc mam",
+    "muoi",
+    "tieu xay",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

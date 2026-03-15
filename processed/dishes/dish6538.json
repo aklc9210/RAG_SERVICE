@@ -1,0 +1,96 @@
+{
+  "id": "dish6538",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6538.json",
+  "name_vi": "Cá thu áp chảo",
+  "name_en": "",
+  "name_normalized": "ca thu ap chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá thu",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01625",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre02020",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá thu",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Dưa leo",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Codfish",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Cucumber",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca thu",
+    "hanh tim",
+    "toi",
+    "sa",
+    "dua leo",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

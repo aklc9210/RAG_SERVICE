@@ -1,0 +1,92 @@
+{
+  "id": "dish4809",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4809.json",
+  "name_vi": "Cải xoong xào tôm",
+  "name_en": "",
+  "name_normalized": "cai xoong xao tom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cải xoong",
+    "Tôm tươi",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng",
+    "Hành tím băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ớt",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01798",
+    "ingre06963",
+    "ingre04974",
+    "ingre07063",
+    "ingre08055",
+    "ingre02774",
+    "ingre04343",
+    "ingre02080",
+    "ingre02124",
+    "ingre01015",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cải xoong",
+    "Tôm tươi",
+    "Nấm đùi gà",
+    "Tỏi",
+    "Ớt sừng",
+    "Hành tím băm",
+    "Ngò rí",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ớt",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Bokchoy",
+    "Fresh shrimp",
+    "Chicken mushroom",
+    "Garlic",
+    "Hot pepper",
+    "Chopped Scallion",
+    "Parsley",
+    "Soy sauce",
+    "Cooking oil",
+    "Red Pepper Powder",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "cai xoong",
+    "tom tuoi",
+    "nam dui ga",
+    "toi",
+    "ot sung",
+    "hanh tim bam",
+    "ngo ri",
+    "dau hao",
+    "dau an",
+    "bot ot",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

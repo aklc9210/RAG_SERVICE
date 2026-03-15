@@ -1,0 +1,98 @@
+{
+  "id": "dish6158",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6158.json",
+  "name_vi": "Thịt kho củ kiệu",
+  "name_en": "",
+  "name_normalized": "thit kho cu kieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt nạc dăm",
+    "Củ kiệu ngâm chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tiêu xanh",
+    "Hành tím băm",
+    "Nước tương",
+    "Dầu ăn",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06459",
+    "ingre01899",
+    "ingre06640",
+    "ingre02673",
+    "ingre02774",
+    "ingre04790",
+    "ingre02093",
+    "ingre02124",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc dăm",
+    "Củ kiệu ngâm chua",
+    "Tiêu xanh",
+    "Hành lá",
+    "Hành tím băm",
+    "Nước tương",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Pickled Korean radish",
+    "Green pepper",
+    "Scallion",
+    "Chopped Scallion",
+    "Soy Sauce",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dam",
+    "cu kieu ngam chua",
+    "tieu xanh",
+    "hanh la",
+    "hanh tim bam",
+    "nuoc tuong",
+    "dau mau dieu",
+    "dau an",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

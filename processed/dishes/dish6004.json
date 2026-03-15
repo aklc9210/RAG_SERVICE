@@ -1,0 +1,86 @@
+{
+  "id": "dish6004",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6004.json",
+  "name_vi": "Cà ri cua",
+  "name_en": "",
+  "name_normalized": "ca ri cua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Bột cà ri",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre01333",
+    "ingre07063",
+    "ingre02741",
+    "ingre07966",
+    "ingre05900",
+    "ingre02768",
+    "ingre00631",
+    "ingre04554"
+  ],
+  "ingredient_names_vi": [
+    "Cua",
+    "Tỏi",
+    "Hành tây",
+    "Ớt",
+    "Sả",
+    "Hành tím",
+    "Bột cà ri",
+    "Nước cốt dừa"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Garlic",
+    "Onion",
+    "Pepper",
+    "Lemongrass",
+    "Shallot",
+    "Curry powder",
+    "Coconut milk"
+  ],
+  "ingredient_names_normalized": [
+    "cua",
+    "toi",
+    "hanh tay",
+    "ot",
+    "sa",
+    "hanh tim",
+    "bot ca ri",
+    "nuoc cot dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

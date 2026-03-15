@@ -1,0 +1,25 @@
+{
+  "id": "ingre00831",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00831.json",
+  "name_vi": "bột ngọt/ đường",
+  "name_en": "Soy Sauce/Sugar",
+  "name_normalized": "bot ngot duong",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

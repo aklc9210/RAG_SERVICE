@@ -1,0 +1,82 @@
+{
+  "id": "dish3322",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3322.json",
+  "name_vi": "Mì phô mai tôm",
+  "name_en": "",
+  "name_normalized": "mi pho mai tom",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mì tôm",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mozzarella",
+    "Phô mai cheddar",
+    "Sữa tươi",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04003",
+    "ingre06930",
+    "ingre05092",
+    "ingre05064",
+    "ingre06144",
+    "ingre02741",
+    "ingre07063",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Mì tôm",
+    "Tôm",
+    "Phô mai mozzarella",
+    "Phô mai cheddar",
+    "Sữa tươi",
+    "Hành tây",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Shrimp",
+    "Mozzarella cheese",
+    "Cheddar cheese",
+    "Fresh Milk",
+    "Onion",
+    "Garlic",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "mi tom",
+    "tom",
+    "pho mai mozzarella",
+    "pho mai cheddar",
+    "sua tuoi",
+    "hanh tay",
+    "toi",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

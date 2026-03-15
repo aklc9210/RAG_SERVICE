@@ -1,0 +1,111 @@
+{
+  "id": "dish5171",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5171.json",
+  "name_vi": "Ốc móng tay sốt trứng muối",
+  "name_en": "",
+  "name_normalized": "oc mong tay sot trung muoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc móng tay"
+  ],
+  "secondary_ingredients": [
+    "Phô mai cheddar",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Sữa tươi không đường",
+    "Tỏi",
+    "Ớt",
+    "Bột năng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07948",
+    "ingre03587",
+    "ingre06147",
+    "ingre05064",
+    "ingre07063",
+    "ingre07966",
+    "ingre05359",
+    "ingre07791",
+    "ingre00849",
+    "ingre06174",
+    "ingre04694",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Ốc móng tay",
+    "Lòng đỏ trứng muối",
+    "Sữa tươi không đường",
+    "Phô mai cheddar",
+    "Tỏi",
+    "Ớt",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Bột năng",
+    "Sữa đặc",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Salted Egg Yolk",
+    "Fat-free Milk",
+    "Cheddar cheese",
+    "Garlic",
+    "Pepper",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Cornstarch",
+    "Sweetened Condensed Milk",
+    "Fish Sauce",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "oc mong tay",
+    "long do trung muoi",
+    "sua tuoi khong duong",
+    "pho mai cheddar",
+    "toi",
+    "ot",
+    "rau ram",
+    "dau phong rang",
+    "bot nang",
+    "sua dac",
+    "nuoc mam",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

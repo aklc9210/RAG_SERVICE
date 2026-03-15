@@ -1,0 +1,97 @@
+{
+  "id": "dish7280",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7280.json",
+  "name_vi": "Cơm chiên xá xíu",
+  "name_en": "",
+  "name_normalized": "com chien xa xiu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt nạc dăm",
+    "Cơm trắng",
+    "Cải bẹ trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ngũ vị hương",
+    "Dầu hào",
+    "Tương ớt",
+    "Nước tương",
+    "Hắc xì dầu",
+    "Tỏi",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06459",
+    "ingre01767",
+    "ingre01774",
+    "ingre04381",
+    "ingre02080",
+    "ingre07028",
+    "ingre04790",
+    "ingre03084",
+    "ingre07063",
+    "ingre02768",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc dăm",
+    "Cơm trắng",
+    "Cải bẹ trắng",
+    "Ngũ vị hương",
+    "Dầu hào",
+    "Tương ớt",
+    "Nước tương",
+    "Hắc xì dầu",
+    "Tỏi",
+    "Hành tím",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "White Rice",
+    "White cabbage",
+    "Five-Spice Powder",
+    "Soy sauce",
+    "Hot Sauce",
+    "Black soy sauce",
+    "Garlic",
+    "Shallot",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dam",
+    "com trang",
+    "cai be trang",
+    "ngu vi huong",
+    "dau hao",
+    "tuong ot",
+    "nuoc tuong",
+    "hac xi dau",
+    "toi",
+    "hanh tim",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

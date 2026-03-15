@@ -1,0 +1,87 @@
+{
+  "id": "dish0994",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0994.json",
+  "name_vi": "Bánh mì hạt óc chó chà là",
+  "name_en": "",
+  "name_normalized": "banh mi hat oc cho cha la",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Quả óc chó",
+    "Quả chà là"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bột nở",
+    "Bột cà phê",
+    "Chiết xuất vani",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre05181",
+    "ingre05155",
+    "ingre06823",
+    "ingre06147",
+    "ingre00382",
+    "ingre00867",
+    "ingre00620",
+    "ingre01139",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Quả óc chó",
+    "Quả chà là",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Bột nở",
+    "Bột cà phê",
+    "Chiết xuất vani",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Walnut",
+    "Starfruit",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Butter",
+    "Baking powder",
+    "Coffee powder",
+    "Vanilla extract",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "qua oc cho",
+    "qua cha la",
+    "trung ga",
+    "sua tuoi khong duong",
+    "bo lat",
+    "bot no",
+    "bot ca phe",
+    "chiet xuat vani",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

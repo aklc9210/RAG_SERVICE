@@ -1,0 +1,27 @@
+{
+  "id": "ingre02899",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02899.json",
+  "name_vi": "hạnh nhân/ hạt điều rang",
+  "name_en": "Roasted almond/hickory nut",
+  "name_normalized": "hanh nhan hat dieu rang",
+  "synonyms": [
+    "hạt dẻ",
+    "lạc rang"
+  ],
+  "synonyms_normalized": [
+    "hat de",
+    "lac rang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh nhan/ hat dieu rang",
+      "new": "hanh nhan hat dieu rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

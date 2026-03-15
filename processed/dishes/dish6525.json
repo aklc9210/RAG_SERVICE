@@ -1,0 +1,77 @@
+{
+  "id": "dish6525",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6525.json",
+  "name_vi": "Đậu phụ cuốn lá lốt",
+  "name_en": "",
+  "name_normalized": "dau phu cuon la lot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nấm đông cô khô"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Cà rốt",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre03461",
+    "ingre01419",
+    "ingre02741",
+    "ingre04969",
+    "ingre02124",
+    "ingre04790",
+    "ingre03823"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Lá lốt",
+    "Cà rốt",
+    "Hành tây",
+    "Nấm đông cô khô",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Cinnamon Leaf",
+    "Carrot",
+    "Onion",
+    "Dried shiitake mushrooms",
+    "Cooking oil",
+    "Soy Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "la lot",
+    "ca rot",
+    "hanh tay",
+    "nam dong co kho",
+    "dau an",
+    "nuoc tuong",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish8794",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8794.json",
+  "name_vi": "Súp chả cá Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "sup cha ca han quoc",
+  "category": "an vat",
+  "main_ingredients": [
+    "Chả cá Hàn Quốc",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành ba rô",
+    "Tảo bẹ khô",
+    "Cá cơm khô"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01274",
+    "ingre01868",
+    "ingre02741",
+    "ingre02641",
+    "ingre07063",
+    "ingre07048",
+    "ingre01508",
+    "ingre04790",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Chả cá Hàn Quốc",
+    "Củ cải trắng",
+    "Hành tây",
+    "Hành ba rô",
+    "Tỏi",
+    "Tảo bẹ khô",
+    "Cá cơm khô",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Korean fish cake",
+    "White radish",
+    "Onion",
+    "Leek",
+    "Garlic",
+    "Dried kelp",
+    "Dried rice fish",
+    "Soy Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cha ca han quoc",
+    "cu cai trang",
+    "hanh tay",
+    "hanh ba ro",
+    "toi",
+    "tao be kho",
+    "ca com kho",
+    "nuoc tuong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

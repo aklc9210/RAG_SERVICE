@@ -1,0 +1,105 @@
+{
+  "id": "dish9441",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9441.json",
+  "name_vi": "Cách làm giò dăm bông thịt heo",
+  "name_en": "",
+  "name_normalized": "cach lam gio dam bong thit heo",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt thăn",
+    "Gia heo",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Hành",
+    "Hành tím",
+    "Rễ ngò rí",
+    "Ấp xanh"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Bột năng",
+    "Tiêu đen",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06496",
+    "ingre02272",
+    "ingre02350",
+    "ingre02636",
+    "ingre07063",
+    "ingre02768",
+    "ingre05610",
+    "ingre07928",
+    "ingre04694",
+    "ingre00849",
+    "ingre06653",
+    "ingre00831"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn",
+    "Gia heo",
+    "Giò sống",
+    "Hành",
+    "Tỏi",
+    "Hành tím",
+    "Rễ ngò rí",
+    "Ấp xanh",
+    "Nước mắm",
+    "Bột năng",
+    "Tiêu đen",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Pork",
+    "Fresh sausage",
+    "Garlic",
+    "Shallot",
+    "Parsley root",
+    "Green bean",
+    "Fish Sauce",
+    "Cornstarch",
+    "Black Pepper",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit than",
+    "gia heo",
+    "gio song",
+    "hanh",
+    "toi",
+    "hanh tim",
+    "re ngo ri",
+    "ap xanh",
+    "nuoc mam",
+    "bot nang",
+    "tieu den",
+    "bot ngot duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

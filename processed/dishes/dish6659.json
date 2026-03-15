@@ -1,0 +1,78 @@
+{
+  "id": "dish6659",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6659.json",
+  "name_vi": "Trứng chiên hến",
+  "name_en": "",
+  "name_normalized": "trung chien hen",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hến",
+    "Trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03090",
+    "ingre06853",
+    "ingre02673",
+    "ingre08097",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Hến",
+    "Trứng vịt",
+    "Hành lá",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Clam shell.CompareTag(\"Answer\")",
+    "Quail egg",
+    "Scallion",
+    "Red pepper",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "hen",
+    "trung vit",
+    "hanh la",
+    "ot do",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

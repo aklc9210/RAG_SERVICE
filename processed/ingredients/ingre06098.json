@@ -1,0 +1,29 @@
+{
+  "id": "ingre06098",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06098.json",
+  "name_vi": "sữa chua hy lạp:",
+  "name_en": "Greek yogurt:",
+  "name_normalized": "sua chua hy lap",
+  "synonyms": [
+    "kem chua",
+    "kem chua hy lạp"
+  ],
+  "synonyms_normalized": [
+    "kem chua",
+    "kem chua hy lap"
+  ],
+  "category": "yogurt",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua chua hy lap:",
+      "new": "sua chua hy lap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

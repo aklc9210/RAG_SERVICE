@@ -1,0 +1,86 @@
+{
+  "id": "dish7591",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7591.json",
+  "name_vi": "Cua hấp muối",
+  "name_en": "",
+  "name_normalized": "cua hap muoi",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cua biển",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối hột",
+    "Chanh",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01335",
+    "ingre03766",
+    "ingre05900",
+    "ingre01079",
+    "ingre07966",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cua biển",
+    "Muối hột",
+    "Sả",
+    "Chanh",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Sea salt",
+    "Lemongrass",
+    "Lemon",
+    "Pepper",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cua bien",
+    "muoi hot",
+    "sa",
+    "chanh",
+    "ot",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

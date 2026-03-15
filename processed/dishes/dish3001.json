@@ -1,0 +1,83 @@
+{
+  "id": "dish3001",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3001.json",
+  "name_vi": "Bánh sô cô la bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "banh so co la bang lo vi song",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Ca cao"
+  ],
+  "secondary_ingredients": [
+    "Sữa chua",
+    "Sữa tươi",
+    "Sô cô la lỏng"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Trứng",
+    "Bột nở",
+    "Vani nước",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre06801",
+    "ingre01033",
+    "ingre00867",
+    "ingre06088",
+    "ingre06144",
+    "ingre05829",
+    "ingre07146",
+    "ingre03746",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Trứng",
+    "Ca cao",
+    "Bột nở",
+    "Sữa chua",
+    "Sữa tươi",
+    "Sô cô la lỏng",
+    "Vani nước",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Egg",
+    "Cocoa",
+    "Baking powder",
+    "Yogurt",
+    "Fresh Milk",
+    "Melted chocolate",
+    "Vanilla water",
+    "Salt",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "trung",
+    "ca cao",
+    "bot no",
+    "sua chua",
+    "sua tuoi",
+    "so co la long",
+    "vani nuoc",
+    "muoi",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish8999",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8999.json",
+  "name_vi": "Ghẹ ngâm tương (Ganjang gejang)",
+  "name_en": "",
+  "name_normalized": "ghe ngam tuong ganjang gejang",
+  "category": "an vat",
+  "main_ingredients": [
+    "Ghẹ biển",
+    "Táo đỏ",
+    "Tảo bẹ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Siro gạo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt đỏ",
+    "Ớt xanh",
+    "Nước tương",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02268",
+    "ingre06911",
+    "ingre07047",
+    "ingre02741",
+    "ingre07063",
+    "ingre02485",
+    "ingre08097",
+    "ingre08083",
+    "ingre04790",
+    "ingre05694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ghẹ biển",
+    "Táo đỏ",
+    "Tảo bẹ",
+    "Hành tây",
+    "Tỏi",
+    "Gừng",
+    "Ớt đỏ",
+    "Ớt xanh",
+    "Nước tương",
+    "Siro gạo",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Red apple",
+    "Kelp",
+    "Onion",
+    "Garlic",
+    "Ginger",
+    "Red pepper",
+    "Green Pepper",
+    "Soy Sauce",
+    "Rice syrup",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ghe bien",
+    "tao do",
+    "tao be",
+    "hanh tay",
+    "toi",
+    "gung",
+    "ot do",
+    "ot xanh",
+    "nuoc tuong",
+    "siro gao",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ghe ngam tuong (ganjang gejang)",
+      "new": "ghe ngam tuong ganjang gejang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

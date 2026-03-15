@@ -1,0 +1,78 @@
+{
+  "id": "dish1313",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1313.json",
+  "name_vi": "Bánh Hotteok",
+  "name_en": "",
+  "name_normalized": "banh hotteok",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Vừng trắng rang chín",
+    "Óc cho rang chín",
+    "Hạnh nhân rang chín"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Sữa tươi không đường",
+    "Đường bột",
+    "Muối",
+    "Men nở",
+    "Đường nâu",
+    "Bột quế"
+  ],
+  "ingredient_ids": [
+    "ingre00723",
+    "ingre06147",
+    "ingre07589",
+    "ingre03746",
+    "ingre03686",
+    "ingre07628",
+    "ingre00888",
+    "ingre07303",
+    "ingre07468",
+    "ingre02896"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh mì",
+    "Sữa tươi không đường",
+    "Đường bột",
+    "Muối",
+    "Men nở",
+    "Đường nâu",
+    "Bột quế",
+    "Vừng trắng rang chín",
+    "Óc cho rang chín",
+    "Hạnh nhân rang chín"
+  ],
+  "ingredient_names_en": [
+    "Bread Flour",
+    "Fat-free Milk",
+    "Sugar Powder",
+    "Salt",
+    "Baking Powder",
+    "Brown Sugar",
+    "Cinnamon粉",
+    "Toasted White Sesame",
+    "Braised Liver",
+    "Roasted almond"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh mi",
+    "sua tuoi khong duong",
+    "duong bot",
+    "muoi",
+    "men no",
+    "duong nau",
+    "bot que",
+    "vung trang rang chin",
+    "oc cho rang chin",
+    "hanh nhan rang chin"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

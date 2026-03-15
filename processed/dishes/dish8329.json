@@ -1,0 +1,93 @@
+{
+  "id": "dish8329",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8329.json",
+  "name_vi": "Gỏi đu đủ tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi du du tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Đu đủ",
+    "Tôm",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng giã"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Hành phi",
+    "Nước mắm",
+    "Nước cốt tắc",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07491",
+    "ingre06930",
+    "ingre06275",
+    "ingre05359",
+    "ingre07071",
+    "ingre07971",
+    "ingre07785",
+    "ingre02730",
+    "ingre04694",
+    "ingre04591",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ",
+    "Tôm",
+    "Thịt ba chỉ",
+    "Rau răm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Đậu phộng giã",
+    "Hành phi",
+    "Nước mắm",
+    "Nước cốt tắc",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Papaya",
+    "Shrimp",
+    "Pork belly",
+    "Vietnamese coriander",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Peanut Paste",
+    "Garlic Fried",
+    "Fish Sauce",
+    "Tamarind juice",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "du du",
+    "tom",
+    "thit ba chi",
+    "rau ram",
+    "toi bam",
+    "ot bam",
+    "dau phong gia",
+    "hanh phi",
+    "nuoc mam",
+    "nuoc cot tac",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

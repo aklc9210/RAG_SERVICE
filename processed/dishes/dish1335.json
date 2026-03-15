@@ -1,0 +1,61 @@
+{
+  "id": "dish1335",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1335.json",
+  "name_vi": "Bánh roti Ấn Độ - Chapati",
+  "name_en": "",
+  "name_normalized": "banh roti an do chapati",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00367",
+    "ingre03746",
+    "ingre02124",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bơ",
+    "Muối",
+    "Dầu ăn",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Butter",
+    "Salt",
+    "Cooking oil",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bo",
+    "muoi",
+    "dau an",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh roti an do - chapati",
+      "new": "banh roti an do chapati",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

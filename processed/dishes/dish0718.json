@@ -1,0 +1,92 @@
+{
+  "id": "dish0718",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0718.json",
+  "name_vi": "Tim heo hầm thuốc bắc",
+  "name_en": "",
+  "name_normalized": "tim heo ham thuoc bac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tim heo",
+    "Thuốc bắc"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt tươi",
+    "Tỏi",
+    "Gừng",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06558",
+    "ingre06223",
+    "ingre01419",
+    "ingre05900",
+    "ingre08078",
+    "ingre07063",
+    "ingre02485",
+    "ingre04343",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Tim heo",
+    "Thuốc bắc",
+    "Cà rốt",
+    "Sả",
+    "Ớt tươi",
+    "Tỏi",
+    "Gừng",
+    "Ngò rí",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Chinese medicine",
+    "Carrot",
+    "Lemongrass",
+    "Fresh chili",
+    "Garlic",
+    "Ginger",
+    "Parsley",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tim heo",
+    "thuoc bac",
+    "ca rot",
+    "sa",
+    "ot tuoi",
+    "toi",
+    "gung",
+    "ngo ri",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

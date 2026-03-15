@@ -1,0 +1,123 @@
+{
+  "id": "dish7309",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7309.json",
+  "name_vi": "Nem công",
+  "name_en": "",
+  "name_normalized": "nem cong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Bún gạo khô",
+    "Bánh tráng cuốn chả giò",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Cải trắng",
+    "Khoai môn",
+    "Bí đao",
+    "Hánh tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Tỏi",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre00341",
+    "ingre00187",
+    "ingre04930",
+    "ingre06823",
+    "ingre01419",
+    "ingre01796",
+    "ingre03208",
+    "ingre00247",
+    "ingre02851",
+    "ingre02768",
+    "ingre07063",
+    "ingre08078",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Bún gạo khô",
+    "Bánh tráng cuốn chả giò",
+    "Nấm mèo",
+    "Trứng gà",
+    "Cà rốt",
+    "Cải trắng",
+    "Khoai môn",
+    "Bí đao",
+    "Hánh tây",
+    "Hành tím",
+    "Tỏi",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Dry rice noodles",
+    "Spring roll wrappers filled with pork sausage",
+    "Mushroom",
+    "Chicken egg",
+    "Carrot",
+    "Cabbage",
+    "Yam",
+    "Cucumber",
+    "Leek",
+    "Shallot",
+    "Garlic",
+    "Fresh chili",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "bun gao kho",
+    "banh trang cuon cha gio",
+    "nam meo",
+    "trung ga",
+    "ca rot",
+    "cai trang",
+    "khoai mon",
+    "bi dao",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "ot tuoi",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

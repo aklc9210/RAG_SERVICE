@@ -1,0 +1,97 @@
+{
+  "id": "dish5883",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5883.json",
+  "name_vi": "Cá trê kho lá nghệ",
+  "name_en": "",
+  "name_normalized": "ca tre kho la nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê",
+    "Lá nghệ"
+  ],
+  "secondary_ingredients": [
+    "Lá sả",
+    "Lá đinh lăng",
+    "Hành tím",
+    "Nước màu kho cá"
+  ],
+  "seasonings": [
+    "Lá gừng",
+    "Gừng",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre03480",
+    "ingre03432",
+    "ingre03523",
+    "ingre03554",
+    "ingre02485",
+    "ingre02768",
+    "ingre04679",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Lá nghệ",
+    "Lá gừng",
+    "Lá sả",
+    "Lá đinh lăng",
+    "Gừng",
+    "Hành tím",
+    "Nước màu kho cá",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Ginger leaf",
+    "Citronella Grass",
+    "Echinacea Leaf",
+    "Ginger",
+    "Shallot",
+    "Crayfish Coloring Sauce",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "la nghe",
+    "la gung",
+    "la sa",
+    "la dinh lang",
+    "gung",
+    "hanh tim",
+    "nuoc mau kho ca",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

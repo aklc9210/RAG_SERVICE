@@ -1,0 +1,113 @@
+{
+  "id": "dish7273",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7273.json",
+  "name_vi": "Sandwich kẹp chả tôm",
+  "name_en": "",
+  "name_normalized": "sandwich kep cha tom",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bánh mì sandwich",
+    "Tôm sú",
+    "Tôm đông lạnh",
+    "Mỡ gáy"
+  ],
+  "secondary_ingredients": [
+    "Hành tây tím",
+    "Cà chua",
+    "Ngò tây",
+    "Xà lách"
+  ],
+  "seasonings": [
+    "Lòng trắng trứng gà",
+    "Bột xù",
+    "Sốt Mayonnaise",
+    "Dầu ăn",
+    "Tỏi",
+    "Đường/hạt nêm",
+    "Tiêu xanh"
+  ],
+  "ingredient_ids": [
+    "ingre00117",
+    "ingre06953",
+    "ingre06971",
+    "ingre04190",
+    "ingre03580",
+    "ingre00995",
+    "ingre02761",
+    "ingre01354",
+    "ingre04351",
+    "ingre05970",
+    "ingre07351",
+    "ingre02124",
+    "ingre07063",
+    "ingre07688",
+    "ingre06640"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì sandwich",
+    "Tôm sú",
+    "Tôm đông lạnh",
+    "Mỡ gáy",
+    "Lòng trắng trứng gà",
+    "Bột xù",
+    "Hành tây tím",
+    "Cà chua",
+    "Ngò tây",
+    "Sốt Mayonnaise",
+    "Xà lách",
+    "Dầu ăn",
+    "Tỏi",
+    "Đường/hạt nêm",
+    "Tiêu xanh"
+  ],
+  "ingredient_names_en": [
+    "Sandwich bread",
+    "Shrimp",
+    "Frozen shrimp",
+    "Pork fat",
+    "Egg white",
+    "Crumbed",
+    "Purple onion",
+    "Tomato",
+    "Chives",
+    "Mayonnaise Sauce",
+    "Lettuce",
+    "Cooking oil",
+    "Garlic",
+    "Soy Sauce/Salt",
+    "Green pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi sandwich",
+    "tom su",
+    "tom dong lanh",
+    "mo gay",
+    "long trang trung ga",
+    "bot xu",
+    "hanh tay tim",
+    "ca chua",
+    "ngo tay",
+    "sot mayonnaise",
+    "xa lach",
+    "dau an",
+    "toi",
+    "duong hat nem",
+    "tieu xanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/hạt nêm"
+    }
+  ]
+}

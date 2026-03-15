@@ -1,0 +1,71 @@
+{
+  "id": "dish6507",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6507.json",
+  "name_vi": "Cá diêu hồng chiên mắm xoài",
+  "name_en": "",
+  "name_normalized": "ca dieu hong chien mam xoai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre07342",
+    "ingre07966",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Xoài xanh",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Green mango",
+    "Pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "xoai xanh",
+    "ot",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

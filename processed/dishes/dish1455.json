@@ -1,0 +1,77 @@
+{
+  "id": "dish1455",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1455.json",
+  "name_vi": "Bánh gối nhân thịt",
+  "name_en": "",
+  "name_normalized": "banh goi nhan thit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Vỏ bánh gối",
+    "Thịt nạc xay"
+  ],
+  "secondary_ingredients": [
+    "Giá đỗ",
+    "Nấm mèo"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột chiên giòn",
+    "Muối/ tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07228",
+    "ingre06477",
+    "ingre02337",
+    "ingre01419",
+    "ingre04930",
+    "ingre00598",
+    "ingre03815",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Vỏ bánh gối",
+    "Thịt nạc xay",
+    "Giá đỗ",
+    "Cà rốt",
+    "Nấm mèo",
+    "Bột chiên giòn",
+    "Muối/ tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Puff pastry casing",
+    "Ground Beef",
+    "Bean sprouts",
+    "Carrot",
+    "Mushroom",
+    "Puffed Rice Powder",
+    "Ground Salt/Paprika",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "vo banh goi",
+    "thit nac xay",
+    "gia do",
+    "ca rot",
+    "nam meo",
+    "bot chien gion",
+    "muoi tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

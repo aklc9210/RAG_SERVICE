@@ -1,0 +1,81 @@
+{
+  "id": "dish8337",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8337.json",
+  "name_vi": "Gỏi nấm mèo (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "goi nam meo cong thuc duoc chia se tu nguoi dung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Nấm mèo",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Rau húng quế",
+    "Sả tươi"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Tương ớt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04930",
+    "ingre02020",
+    "ingre01419",
+    "ingre01079",
+    "ingre05265",
+    "ingre05917",
+    "ingre07028",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mèo",
+    "Dưa leo",
+    "Cà rốt",
+    "Chanh",
+    "Rau húng quế",
+    "Sả tươi",
+    "Tương ớt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Cucumber",
+    "Carrot",
+    "Lemon",
+    "Sage Herb",
+    "Fresh Ginger",
+    "Hot Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nam meo",
+    "dua leo",
+    "ca rot",
+    "chanh",
+    "rau hung que",
+    "sa tuoi",
+    "tuong ot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi nam meo (cong thuc duoc chia se tu nguoi dung)",
+      "new": "goi nam meo cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

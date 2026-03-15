@@ -1,0 +1,71 @@
+{
+  "id": "dish6078",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6078.json",
+  "name_vi": "Mực sữa rim me",
+  "name_en": "",
+  "name_normalized": "muc sua rim me",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Me"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Mực sữa hấp muối",
+    "Ớt băm",
+    "Tỏi băm",
+    "Đường",
+    "Bột bắp",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04276",
+    "ingre03643",
+    "ingre07971",
+    "ingre07071",
+    "ingre07583",
+    "ingre00564",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mực sữa hấp muối",
+    "Me",
+    "Ớt băm",
+    "Tỏi băm",
+    "Đường",
+    "Bột bắp",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp Cake Steamed with Salt",
+    "Tamarind",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Sugar",
+    "Corn starch",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "muc sua hap muoi",
+    "me",
+    "ot bam",
+    "toi bam",
+    "duong",
+    "bot bap",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

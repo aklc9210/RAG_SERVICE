@@ -1,0 +1,78 @@
+{
+  "id": "dish1064",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1064.json",
+  "name_vi": "Bánh muffin việt quất sữa chua",
+  "name_en": "",
+  "name_normalized": "banh muffin viet quat sua chua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dầu oliu",
+    "Sữa chua",
+    "Việt quất"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Nước cốt chanh",
+    "Đường",
+    "Bột nở",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00759",
+    "ingre06147",
+    "ingre04538",
+    "ingre02104",
+    "ingre07583",
+    "ingre06088",
+    "ingre00867",
+    "ingre03746",
+    "ingre07172"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Nước cốt chanh",
+    "Dầu oliu",
+    "Đường",
+    "Sữa chua",
+    "Bột nở",
+    "Muối",
+    "Việt quất"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Wheat Flour",
+    "Fat-free Milk",
+    "Lemon juice",
+    "Olive oil",
+    "Sugar",
+    "Yogurt",
+    "Baking powder",
+    "Salt",
+    "Blueberry"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot mi",
+    "sua tuoi khong duong",
+    "nuoc cot chanh",
+    "dau oliu",
+    "duong",
+    "sua chua",
+    "bot no",
+    "muoi",
+    "viet quat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

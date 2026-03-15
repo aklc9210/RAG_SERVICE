@@ -1,0 +1,91 @@
+{
+  "id": "dish0918",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0918.json",
+  "name_vi": "Bánh tráng dừa",
+  "name_en": "",
+  "name_normalized": "banh trang dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dừa vụn sấy khô",
+    "Mè",
+    "Nước",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre02208",
+    "ingre03925",
+    "ingre04554",
+    "ingre04490",
+    "ingre03746",
+    "ingre06612",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Dừa vụn sấy khô",
+    "Mè",
+    "Nước cốt dừa",
+    "Nước",
+    "Muối",
+    "Tiêu",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Dried Coconut Flakes",
+    "Tamarind",
+    "Coconut milk",
+    "Water",
+    "Salt",
+    "Pepper",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "dua vun say kho",
+    "me",
+    "nuoc cot dua",
+    "nuoc",
+    "muoi",
+    "tieu",
+    "hanh tim"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

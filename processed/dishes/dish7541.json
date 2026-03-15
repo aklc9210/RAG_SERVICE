@@ -1,0 +1,101 @@
+{
+  "id": "dish7541",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7541.json",
+  "name_vi": "Má heo hấp hành",
+  "name_en": "",
+  "name_normalized": "ma heo hap hanh",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Xương má heo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành phi",
+    "Tỏi",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre07424",
+    "ingre02673",
+    "ingre02485",
+    "ingre02730",
+    "ingre02768",
+    "ingre07063",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Xương má heo",
+    "Hành lá",
+    "Gừng",
+    "Hành phi",
+    "Hành tím",
+    "Tỏi",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Pork rib",
+    "Scallion",
+    "Ginger",
+    "Garlic Fried",
+    "Shallot",
+    "Garlic",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "xuong ma heo",
+    "hanh la",
+    "gung",
+    "hanh phi",
+    "hanh tim",
+    "toi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

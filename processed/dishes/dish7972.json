@@ -1,0 +1,98 @@
+{
+  "id": "dish7972",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7972.json",
+  "name_vi": "Sứa sốt thái",
+  "name_en": "",
+  "name_normalized": "sua sot thai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa",
+    "Xoài keo",
+    "Ngò rí"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt xiêm",
+    "Ớt hiểm",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Ớt bột",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre06071",
+    "ingre07337",
+    "ingre04343",
+    "ingre04329",
+    "ingre08090",
+    "ingre08026",
+    "ingre07583",
+    "ingre04694",
+    "ingre07028",
+    "ingre07977",
+    "ingre07063",
+    "ingre07057"
+  ],
+  "ingredient_names_vi": [
+    "Sứa",
+    "Xoài keo",
+    "Ngò rí",
+    "Ngò gai",
+    "Ớt xiêm",
+    "Ớt hiểm",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Ớt bột",
+    "Tỏi",
+    "Tắc"
+  ],
+  "ingredient_names_en": [
+    "Jellyfish",
+    "Palm Sap Lemon",
+    "Parsley",
+    "Culantro",
+    "Chili pepper",
+    "Hot pepper",
+    "Sugar",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Chili powder",
+    "Garlic",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "sua",
+    "xoai keo",
+    "ngo ri",
+    "ngo gai",
+    "ot xiem",
+    "ot hiem",
+    "duong",
+    "nuoc mam",
+    "tuong ot",
+    "ot bot",
+    "toi",
+    "tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

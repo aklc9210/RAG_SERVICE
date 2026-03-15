@@ -1,0 +1,81 @@
+{
+  "id": "dish6226",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6226.json",
+  "name_vi": "Ếch kho sả ớt",
+  "name_en": "",
+  "name_normalized": "ech kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ếch",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt tươi",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre05900",
+    "ingre08078",
+    "ingre05574",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Sả",
+    "Ớt tươi",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Lemongrass",
+    "Fresh chili",
+    "White wine",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "sa",
+    "ot tuoi",
+    "ruou trang",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

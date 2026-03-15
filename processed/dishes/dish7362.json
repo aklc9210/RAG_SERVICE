@@ -1,0 +1,103 @@
+{
+  "id": "dish7362",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7362.json",
+  "name_vi": "Bánh xèo tôm nhảy",
+  "name_en": "",
+  "name_normalized": "banh xeo tom nhay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Lá hẹ",
+    "Giá đỗ",
+    "Rau xà lách",
+    "Rau thơm",
+    "Bánh tráng cuốn"
+  ],
+  "seasonings": [
+    "Bột bánh xèo",
+    "Nước cốt dừa",
+    "Tiêu",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00552",
+    "ingre06930",
+    "ingre04554",
+    "ingre02673",
+    "ingre03449",
+    "ingre02337",
+    "ingre05410",
+    "ingre05385",
+    "ingre00186",
+    "ingre06612",
+    "ingre07583",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh xèo",
+    "Tôm",
+    "Nước cốt dừa",
+    "Hành lá",
+    "Lá hẹ",
+    "Giá đỗ",
+    "Rau xà lách",
+    "Rau thơm",
+    "Bánh tráng cuốn",
+    "Tiêu",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Soy flour",
+    "Shrimp",
+    "Coconut milk",
+    "Scallion",
+    "Garlic Chives Leaves",
+    "Bean sprouts",
+    "lettuce",
+    "Basil",
+    "Spring roll wrapper",
+    "Pepper",
+    "Sugar",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh xeo",
+    "tom",
+    "nuoc cot dua",
+    "hanh la",
+    "la he",
+    "gia do",
+    "rau xa lach",
+    "rau thom",
+    "banh trang cuon",
+    "tieu",
+    "duong",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

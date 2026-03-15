@@ -1,0 +1,71 @@
+{
+  "id": "dish2827",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2827.json",
+  "name_vi": "Cách làm Granola bar - thanh ngũ cốc",
+  "name_en": "",
+  "name_normalized": "cach lam granola bar thanh ngu coc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Yến mạch",
+    "Hạnh nhân"
+  ],
+  "secondary_ingredients": [
+    "G bí",
+    "Mật ong",
+    "G chà là sấy",
+    "G mơ sấy"
+  ],
+  "seasonings": [
+    "G hướng dương"
+  ],
+  "ingredient_ids": [
+    "ingre07453",
+    "ingre02889",
+    "ingre02220",
+    "ingre02217",
+    "ingre04124",
+    "ingre02218",
+    "ingre02222"
+  ],
+  "ingredient_names_vi": [
+    "Yến mạch",
+    "Hạnh nhân",
+    "G hướng dương",
+    "G bí",
+    "Mật ong",
+    "G chà là sấy",
+    "G mơ sấy"
+  ],
+  "ingredient_names_en": [
+    "Oat",
+    "Almond",
+    "Sunflower",
+    "Green pepper",
+    "Honey",
+    "Staranberry",
+    "Dried plum"
+  ],
+  "ingredient_names_normalized": [
+    "yen mach",
+    "hanh nhan",
+    "g huong duong",
+    "g bi",
+    "mat ong",
+    "g cha la say",
+    "g mo say"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam granola bar - thanh ngu coc",
+      "new": "cach lam granola bar thanh ngu coc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

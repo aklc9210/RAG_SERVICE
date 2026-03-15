@@ -1,0 +1,25 @@
+{
+  "id": "ingre05382",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05382.json",
+  "name_vi": "rau sống ăn kèm (dưa leo",
+  "name_en": "Cucumber",
+  "name_normalized": "rau song an kem dua leo",
+  "synonyms": [
+    "dưa chuột"
+  ],
+  "synonyms_normalized": [
+    "dua chuot"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau song an kem (dua leo",
+      "new": "rau song an kem dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

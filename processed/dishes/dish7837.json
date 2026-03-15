@@ -1,0 +1,101 @@
+{
+  "id": "dish7837",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7837.json",
+  "name_vi": "Lẩu cua bầu",
+  "name_en": "",
+  "name_normalized": "lau cua bau",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cua gạch",
+    "Bầu",
+    "Nước xương hầm"
+  ],
+  "secondary_ingredients": [
+    "Nấm kim châm",
+    "Hành tím",
+    "Hành/ngò"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01337",
+    "ingre00440",
+    "ingre04829",
+    "ingre04921",
+    "ingre02768",
+    "ingre02833",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cua gạch",
+    "Bầu",
+    "Nước xương hầm",
+    "Nấm kim châm",
+    "Hành tím",
+    "Hành/ngò",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Scallop",
+    "Zucchini",
+    "Stock broth",
+    "Mushroom",
+    "Shallot",
+    "Chives/Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cua gach",
+    "bau",
+    "nuoc xuong ham",
+    "nam kim cham",
+    "hanh tim",
+    "hanh ngo",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh/ngo",
+      "new": "hanh ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành/ngò"
+    }
+  ]
+}

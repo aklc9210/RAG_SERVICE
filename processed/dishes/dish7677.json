@@ -1,0 +1,45 @@
+{
+  "id": "dish7677",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7677.json",
+  "name_vi": "Quinoa (diêm mạch) nấu bằng nồi cơm điện",
+  "name_en": "",
+  "name_normalized": "quinoa diem mach nau bang noi com dien",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Quinoa",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre05145",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Quinoa",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Quinoa",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "quinoa",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "quinoa (diem mach) nau bang noi com dien",
+      "new": "quinoa diem mach nau bang noi com dien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

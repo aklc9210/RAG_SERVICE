@@ -1,0 +1,68 @@
+{
+  "id": "dish2028",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2028.json",
+  "name_vi": "Bánh gạo nhân chuối hấp bột",
+  "name_en": "",
+  "name_normalized": "banh gao nhan chuoi hap bot",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Chuối",
+    "Tinh chất vani",
+    "Lá chuối"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Nước cốt dừa",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00668",
+    "ingre01160",
+    "ingre04554",
+    "ingre06592",
+    "ingre07583",
+    "ingre03746",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Chuối",
+    "Nước cốt dừa",
+    "Tinh chất vani",
+    "Đường",
+    "Muối",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Rice flour",
+    "Banana",
+    "Coconut milk",
+    "Vanilla extract",
+    "Sugar",
+    "Salt",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot gao",
+    "chuoi",
+    "nuoc cot dua",
+    "tinh chat vani",
+    "duong",
+    "muoi",
+    "la chuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

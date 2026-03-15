@@ -1,0 +1,27 @@
+{
+  "id": "ingre06649",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06649.json",
+  "name_vi": "tiêu xay/ đường",
+  "name_en": "Ground pepper/sugar",
+  "name_normalized": "tieu xay duong",
+  "synonyms": [
+    "bột tiêu",
+    "tiêu bột"
+  ],
+  "synonyms_normalized": [
+    "bot tieu",
+    "tieu bot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu xay/ duong",
+      "new": "tieu xay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

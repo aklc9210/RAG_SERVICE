@@ -1,0 +1,108 @@
+{
+  "id": "dish5507",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5507.json",
+  "name_vi": "Ếch xào cà tím",
+  "name_en": "",
+  "name_normalized": "ech xao ca tim",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ếch",
+    "Cà tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Tía tô"
+  ],
+  "seasonings": [
+    "Gừng băm",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Đường",
+    "Hạt nêm",
+    "Bột canh",
+    "Mẻ nghệ",
+    "Ớt băm",
+    "Ớt sừng",
+    "Lá lốt"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre01444",
+    "ingre02492",
+    "ingre07071",
+    "ingre02774",
+    "ingre07583",
+    "ingre02995",
+    "ingre00587",
+    "ingre04168",
+    "ingre07971",
+    "ingre08055",
+    "ingre02673",
+    "ingre03461",
+    "ingre06925"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Cà tím",
+    "Gừng băm",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Đường",
+    "Hạt nêm",
+    "Bột canh",
+    "Mẻ nghệ",
+    "Ớt băm",
+    "Ớt sừng",
+    "Hành lá",
+    "Lá lốt",
+    "Tía tô"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Purple cabbage",
+    "Ginger paste",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Sugar",
+    "Seasoning",
+    "Cornstarch",
+    "Tamarind",
+    "Chopped Pepper",
+    "Hot pepper",
+    "Scallion",
+    "Cinnamon Leaf",
+    "Cilantro"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "ca tim",
+    "gung bam",
+    "toi bam",
+    "hanh tim bam",
+    "duong",
+    "hat nem",
+    "bot canh",
+    "me nghe",
+    "ot bam",
+    "ot sung",
+    "hanh la",
+    "la lot",
+    "tia to"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

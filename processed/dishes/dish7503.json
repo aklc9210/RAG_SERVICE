@@ -1,0 +1,92 @@
+{
+  "id": "dish7503",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7503.json",
+  "name_vi": "Mắm chưng cá linh thịt nạc với trứng",
+  "name_en": "",
+  "name_normalized": "mam chung ca linh thit nac voi trung",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Thịt nạc mềm",
+    "Trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Mắm cá linh",
+    "Tỏi",
+    "Ớt",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06467",
+    "ingre04142",
+    "ingre06853",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre00819",
+    "ingre07583",
+    "ingre06612",
+    "ingre03746",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc mềm",
+    "Mắm cá linh",
+    "Trứng vịt",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu",
+    "Muối",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Soft Beef Tenderloin",
+    "Pike Conger Fish Sauce",
+    "Quail egg",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "MSG",
+    "Sugar",
+    "Salt",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac mem",
+    "mam ca linh",
+    "trung vit",
+    "hanh tim",
+    "toi",
+    "ot",
+    "bot ngot",
+    "duong",
+    "tieu",
+    "muoi",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

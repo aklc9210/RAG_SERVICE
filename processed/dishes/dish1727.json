@@ -1,0 +1,98 @@
+{
+  "id": "dish1727",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1727.json",
+  "name_vi": "Bánh đúc gạo lứt",
+  "name_en": "",
+  "name_normalized": "banh duc gao lut",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Xương ống",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Mộc nhĩ khô",
+    "Nấm hương khô",
+    "Hành tím",
+    "Hành ngò"
+  ],
+  "seasonings": [
+    "Bột gạo lứt",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07433",
+    "ingre06414",
+    "ingre00671",
+    "ingre00849",
+    "ingre04180",
+    "ingre04913",
+    "ingre02768",
+    "ingre02724",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Xương ống",
+    "Thịt heo xay",
+    "Bột gạo lứt",
+    "Bột năng",
+    "Mộc nhĩ khô",
+    "Nấm hương khô",
+    "Hành tím",
+    "Hành ngò",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tube bone",
+    "Ground Pork",
+    "Brown Rice Flour",
+    "Cornstarch",
+    "Dried mushrooms",
+    "Dried Shiitake Mushrooms",
+    "Shallot",
+    "Chives",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "xuong ong",
+    "thit heo xay",
+    "bot gao lut",
+    "bot nang",
+    "moc nhi kho",
+    "nam huong kho",
+    "hanh tim",
+    "hanh ngo",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

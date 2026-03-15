@@ -1,0 +1,106 @@
+{
+  "id": "dish5456",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5456.json",
+  "name_vi": "Nui xào bò lúc lắc",
+  "name_en": "",
+  "name_normalized": "nui xao bo luc lac",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cần tây"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Tỏi băm",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước tương",
+    "Đường trắng",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04450",
+    "ingre06300",
+    "ingre08000",
+    "ingre08014",
+    "ingre02741",
+    "ingre01812",
+    "ingre07071",
+    "ingre07028",
+    "ingre06984",
+    "ingre02080",
+    "ingre02124",
+    "ingre04790",
+    "ingre07652",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Nui",
+    "Thịt bò",
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Hành tây",
+    "Cần tây",
+    "Tỏi băm",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước tương",
+    "Đường trắng",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice noodles",
+    "Beef",
+    "Green Bell Pepper",
+    "Red bell pepper",
+    "Onion",
+    "Celery",
+    "Minced Garlic",
+    "Hot Sauce",
+    "Miso酱",
+    "Soy sauce",
+    "Cooking oil",
+    "White sugar",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nui",
+    "thit bo",
+    "ot chuong xanh",
+    "ot chuong do",
+    "hanh tay",
+    "can tay",
+    "toi bam",
+    "tuong ot",
+    "tuong ca",
+    "dau hao",
+    "dau an",
+    "nuoc tuong",
+    "duong trang",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

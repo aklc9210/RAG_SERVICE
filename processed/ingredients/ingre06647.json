@@ -1,0 +1,25 @@
+{
+  "id": "ingre06647",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06647.json",
+  "name_vi": "tiêu xay/ hạt nêm",
+  "name_en": "Ground Pepper/Soy Sauce",
+  "name_normalized": "tieu xay hat nem",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu xay/ hat nem",
+      "new": "tieu xay hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

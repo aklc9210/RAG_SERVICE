@@ -1,0 +1,27 @@
+{
+  "id": "ingre00466",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00466.json",
+  "name_vi": "bắp cải trắng rí)",
+  "name_en": "Napa cabbage",
+  "name_normalized": "bap cai trang ri",
+  "synonyms": [
+    "bắp cải",
+    "cải trắng"
+  ],
+  "synonyms_normalized": [
+    "bap cai",
+    "cai trang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bap cai trang ri)",
+      "new": "bap cai trang ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

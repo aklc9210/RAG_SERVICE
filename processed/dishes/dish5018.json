@@ -1,0 +1,88 @@
+{
+  "id": "dish5018",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5018.json",
+  "name_vi": "Cơm thịt xào",
+  "name_en": "",
+  "name_normalized": "com thit xao",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt băm",
+    "Hành lá",
+    "Hạt bắp"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nấm mèo"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre06329",
+    "ingre02673",
+    "ingre02912",
+    "ingre02741",
+    "ingre01419",
+    "ingre04930",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Thịt băm",
+    "Hành lá",
+    "Hạt bắp",
+    "Hành tây",
+    "Cà rốt",
+    "Nấm mèo",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Minced meat",
+    "Scallion",
+    "Corn kernel",
+    "Onion",
+    "Carrot",
+    "Mushroom",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit bam",
+    "hanh la",
+    "hat bap",
+    "hanh tay",
+    "ca rot",
+    "nam meo",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "dau hao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

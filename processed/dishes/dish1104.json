@@ -1,0 +1,60 @@
+{
+  "id": "dish1104",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1104.json",
+  "name_vi": "Bánh đa mè đen (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "banh da me den cong thuc duoc chia se tu nguoi dung",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Mè đen"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre03941",
+    "ingre04554",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Mè đen",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Black sesame seeds",
+    "Coconut milk",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "me den",
+    "nuoc cot dua",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh da me den (cong thuc duoc chia se tu nguoi dung)",
+      "new": "banh da me den cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

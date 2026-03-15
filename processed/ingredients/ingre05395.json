@@ -1,0 +1,27 @@
+{
+  "id": "ingre05395",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05395.json",
+  "name_vi": "rau thơm/ ngò gai",
+  "name_en": "Sage Parsley",
+  "name_normalized": "rau thom ngo gai",
+  "synonyms": [
+    "ngò",
+    "ngò đắng"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "ngo dang"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau thom/ ngo gai",
+      "new": "rau thom ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

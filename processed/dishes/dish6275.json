@@ -1,0 +1,107 @@
+{
+  "id": "dish6275",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6275.json",
+  "name_vi": "Nấm rơm kho tiêu",
+  "name_en": "",
+  "name_normalized": "nam rom kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Nấm rơm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Nước tương",
+    "Nước mắm chay",
+    "Tương ớt",
+    "Bột nêm chay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04953",
+    "ingre08055",
+    "ingre02673",
+    "ingre07071",
+    "ingre02774",
+    "ingre04790",
+    "ingre04697",
+    "ingre07028",
+    "ingre00840",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Nấm rơm",
+    "Ớt sừng",
+    "Hành lá",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Nước tương",
+    "Nước mắm chay",
+    "Tương ớt",
+    "Bột nêm chay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Strawberry mushroom",
+    "Hot pepper",
+    "Scallion",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Soy Sauce",
+    "Vegetarian fish sauce",
+    "Hot Sauce",
+    "Vegetarian Seasoning Powder",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam rom",
+    "ot sung",
+    "hanh la",
+    "toi bam",
+    "hanh tim bam",
+    "nuoc tuong",
+    "nuoc mam chay",
+    "tuong ot",
+    "bot nem chay",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish0536",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0536.json",
+  "name_vi": "Sườn dê hầm thuốc bắc ngải cứu",
+  "name_en": "",
+  "name_normalized": "suon de ham thuoc bac ngai cuu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn dê",
+    "Thuốc bắc",
+    "Táo đỏ",
+    "Long nhãn"
+  ],
+  "secondary_ingredients": [
+    "Thục địa",
+    "Nước",
+    "Rau ngải cứu"
+  ],
+  "seasonings": [
+    "Quế/ hồi/ thảo quả",
+    "Rượu trắng",
+    "Gừng",
+    "Bột gừng",
+    "Bột nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05879",
+    "ingre06223",
+    "ingre06911",
+    "ingre03352",
+    "ingre06552",
+    "ingre05195",
+    "ingre04490",
+    "ingre05574",
+    "ingre05335",
+    "ingre02485",
+    "ingre00678",
+    "ingre00838",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn dê",
+    "Thuốc bắc",
+    "Táo đỏ",
+    "Long nhãn",
+    "Thục địa",
+    "Quế/ hồi/ thảo quả",
+    "Nước",
+    "Rượu trắng",
+    "Rau ngải cứu",
+    "Gừng",
+    "Bột gừng",
+    "Bột nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Goat ribs",
+    "Chinese medicine",
+    "Red apple",
+    "Longan",
+    "Rehmannia",
+    "Clove/Cinnamon/Bay Leaf",
+    "Water",
+    "White wine",
+    "Chinese Parsley Leaf",
+    "Ginger",
+    "Ginger powder",
+    "Seasoning Powder",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon de",
+    "thuoc bac",
+    "tao do",
+    "long nhan",
+    "thuc dia",
+    "que hoi thao qua",
+    "nuoc",
+    "ruou trang",
+    "rau ngai cuu",
+    "gung",
+    "bot gung",
+    "bot nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "que/ hoi/ thao qua",
+      "new": "que hoi thao qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Quế/ hồi/ thảo quả"
+    }
+  ]
+}

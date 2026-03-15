@@ -1,0 +1,75 @@
+{
+  "id": "dish9673",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9673.json",
+  "name_vi": "Ginger shot với thơm, cam và nghệ",
+  "name_en": "",
+  "name_normalized": "ginger shot voi thom cam va nghe",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Cam",
+    "Nghệ tươi"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh vàng",
+    "Tiêu xay",
+    "Ớt bột cayenne",
+    "Baking soda"
+  ],
+  "ingredient_ids": [
+    "ingre02485",
+    "ingre06247",
+    "ingre01046",
+    "ingre01096",
+    "ingre04308",
+    "ingre06644",
+    "ingre07980",
+    "ingre00018"
+  ],
+  "ingredient_names_vi": [
+    "Gừng",
+    "Thơm",
+    "Cam",
+    "Chanh vàng",
+    "Nghệ tươi",
+    "Tiêu xay",
+    "Ớt bột cayenne",
+    "Baking soda"
+  ],
+  "ingredient_names_en": [
+    "Ginger",
+    "Basil",
+    "Orange",
+    "Lemon",
+    "Ground pepper",
+    "Cayenne Pepper",
+    "Baking soda"
+  ],
+  "ingredient_names_normalized": [
+    "gung",
+    "thom",
+    "cam",
+    "chanh vang",
+    "nghe tuoi",
+    "tieu xay",
+    "ot bot cayenne",
+    "baking soda"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ginger shot voi thom, cam va nghe",
+      "new": "ginger shot voi thom cam va nghe",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

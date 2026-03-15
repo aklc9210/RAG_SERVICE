@@ -1,0 +1,27 @@
+{
+  "id": "ingre06320",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06320.json",
+  "name_vi": "thịt bò tái/thăn",
+  "name_en": "Beef Rare/ Tender",
+  "name_normalized": "thit bo tai than",
+  "synonyms": [
+    "thịt bò",
+    "bò"
+  ],
+  "synonyms_normalized": [
+    "thit bo",
+    "bo"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit bo tai/than",
+      "new": "thit bo tai than",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

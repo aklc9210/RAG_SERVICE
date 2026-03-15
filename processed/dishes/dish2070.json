@@ -1,0 +1,85 @@
+{
+  "id": "dish2070",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2070.json",
+  "name_vi": "Bánh Castella - bánh bông lan Đài Loan",
+  "name_en": "",
+  "name_normalized": "banh castella banh bong lan dai loan",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Bột bắp",
+    "Bột ca cao",
+    "Sữa tươi không đường",
+    "Trứng",
+    "Vani",
+    "Nước cốt chanh",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00564",
+    "ingre00572",
+    "ingre06147",
+    "ingre06801",
+    "ingre00382",
+    "ingre07140",
+    "ingre04538",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột bắp",
+    "Bột ca cao",
+    "Sữa tươi không đường",
+    "Trứng",
+    "Bơ lạt",
+    "Vani",
+    "Nước cốt chanh",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Corn starch",
+    "Cocoa powder",
+    "Fat-free Milk",
+    "Egg",
+    "Butter",
+    "Vanilla",
+    "Lemon juice",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot bap",
+    "bot ca cao",
+    "sua tuoi khong duong",
+    "trung",
+    "bo lat",
+    "vani",
+    "nuoc cot chanh",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh castella - banh bong lan dai loan",
+      "new": "banh castella banh bong lan dai loan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish6969",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6969.json",
+  "name_vi": "Chiên tóp mỡ không bị bắn",
+  "name_en": "",
+  "name_normalized": "chien top mo khong bi ban",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Da heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Tăm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Bột ngọt",
+    "Tỏi phi",
+    "Sate ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01935",
+    "ingre02485",
+    "ingre02768",
+    "ingre06978",
+    "ingre01079",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre07028",
+    "ingre00819",
+    "ingre07096",
+    "ingre05648"
+  ],
+  "ingredient_names_vi": [
+    "Da heo",
+    "Gừng",
+    "Hành tím",
+    "Tăm",
+    "Chanh",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Bột ngọt",
+    "Tỏi phi",
+    "Sate ớt"
+  ],
+  "ingredient_names_en": [
+    "Pork skin",
+    "Ginger",
+    "Shallot",
+    "Syrup",
+    "Lemon",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "Hot Sauce",
+    "MSG",
+    "Garlic flakes",
+    "Grilled Chili Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "da heo",
+    "gung",
+    "hanh tim",
+    "tam",
+    "chanh",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "tuong ot",
+    "bot ngot",
+    "toi phi",
+    "sate ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

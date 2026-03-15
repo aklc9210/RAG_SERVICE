@@ -1,0 +1,131 @@
+{
+  "id": "dish8115",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8115.json",
+  "name_vi": "Gỏi ngó sen tai heo",
+  "name_en": "",
+  "name_normalized": "goi ngo sen tai heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Ngó sen",
+    "Hành tím",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Hành tây",
+    "Rau rắm",
+    "Đậu phộng rang đập dập"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Hành phi sẵn",
+    "Ớt",
+    "Nhỏ dầu hành",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre04361",
+    "ingre02768",
+    "ingre02020",
+    "ingre01419",
+    "ingre07057",
+    "ingre02741",
+    "ingre05372",
+    "ingre02485",
+    "ingre07804",
+    "ingre02732",
+    "ingre07966",
+    "ingre04443",
+    "ingre07063",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Ngó sen",
+    "Hành tím",
+    "Dưa leo",
+    "Cà rốt",
+    "Tắc",
+    "Hành tây",
+    "Rau rắm",
+    "Gừng",
+    "Đậu phộng rang đập dập",
+    "Hành phi sẵn",
+    "Ớt",
+    "Nhỏ dầu hành",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Lotus leaf",
+    "Shallot",
+    "Cucumber",
+    "Carrot",
+    "Tamarind",
+    "Onion",
+    "Vietnamese coriander",
+    "Ginger",
+    "Peanut碎片",
+    "Chopped Garlic",
+    "Pepper",
+    "Garlic Oil",
+    "Garlic",
+    "Fish Sauce",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "ngo sen",
+    "hanh tim",
+    "dua leo",
+    "ca rot",
+    "tac",
+    "hanh tay",
+    "rau ram",
+    "gung",
+    "dau phong rang dap dap",
+    "hanh phi san",
+    "ot",
+    "nho dau hanh",
+    "toi",
+    "nuoc mam",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pennywort",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau rắm"
+    }
+  ]
+}

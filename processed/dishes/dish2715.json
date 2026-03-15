@@ -1,0 +1,63 @@
+{
+  "id": "dish2715",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2715.json",
+  "name_vi": "Bánh chiffon sữa chua chanh",
+  "name_en": "",
+  "name_normalized": "banh chiffon sua chua chanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dầu thực vật",
+    "Sữa chua",
+    "Cake flour"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng",
+    "Đường nhuyễn",
+    "Nước cốt chanh",
+    "Vỏ chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06801",
+    "ingre07627",
+    "ingre02113",
+    "ingre04538",
+    "ingre06088",
+    "ingre07253",
+    "ingre01045"
+  ],
+  "ingredient_names_vi": [
+    "Trứng",
+    "Đường nhuyễn",
+    "Dầu thực vật",
+    "Nước cốt chanh",
+    "Sữa chua",
+    "Vỏ chanh",
+    "Cake flour"
+  ],
+  "ingredient_names_en": [
+    "Egg",
+    "Sugar",
+    "Vegetable oil",
+    "Lemon juice",
+    "Yogurt",
+    "Lemon peel",
+    "Cake flour"
+  ],
+  "ingredient_names_normalized": [
+    "trung",
+    "duong nhuyen",
+    "dau thuc vat",
+    "nuoc cot chanh",
+    "sua chua",
+    "vo chanh",
+    "cake flour"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

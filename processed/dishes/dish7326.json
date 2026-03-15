@@ -1,0 +1,71 @@
+{
+  "id": "dish7326",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7326.json",
+  "name_vi": "Trứng cút chiên giòn bọc bí đỏ",
+  "name_en": "",
+  "name_normalized": "trung cut chien gion boc bi do",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng cút",
+    "Bí đỏ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Muối/ tiêu",
+    "Bột chiên xù",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre00253",
+    "ingre00791",
+    "ingre06823",
+    "ingre03814",
+    "ingre00609",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Bí đỏ",
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Muối/ tiêu",
+    "Bột chiên xù",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Pumpkin",
+    "All-purpose flour",
+    "Chicken egg",
+    "Salt/Pepper",
+    "Puffed Rice Powder",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "bi do",
+    "bot mi da dung",
+    "trung ga",
+    "muoi tieu",
+    "bot chien xu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

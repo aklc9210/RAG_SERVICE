@@ -1,0 +1,77 @@
+{
+  "id": "dish1067",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1067.json",
+  "name_vi": "Bánh mochi nhân kem sầu riêng",
+  "name_en": "",
+  "name_normalized": "banh mochi nhan kem sau rieng",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sầu riêng",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Nước cốt dành dành",
+    "Bột nếp",
+    "Bột bắp",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05932",
+    "ingre07313",
+    "ingre06147",
+    "ingre04550",
+    "ingre00859",
+    "ingre00564",
+    "ingre00382",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Sầu riêng",
+    "Whipping cream",
+    "Sữa tươi không đường",
+    "Nước cốt dành dành",
+    "Bột nếp",
+    "Bột bắp",
+    "Bơ lạt",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Durian",
+    "Whipping cream",
+    "Fat-free Milk",
+    "Starfruit juice",
+    "Glutinous rice flour",
+    "Corn starch",
+    "Butter",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sau rieng",
+    "whipping cream",
+    "sua tuoi khong duong",
+    "nuoc cot danh danh",
+    "bot nep",
+    "bot bap",
+    "bo lat",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

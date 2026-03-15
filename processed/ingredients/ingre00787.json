@@ -1,0 +1,27 @@
+{
+  "id": "ingre00787",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00787.json",
+  "name_vi": "bột mì số 8 – bột mì làm bánh ngọt",
+  "name_en": "Sweet面粉",
+  "name_normalized": "bot mi so 8 bot mi lam banh ngot",
+  "synonyms": [
+    "bột làm bánh ngọt",
+    "bột bánh ngọt"
+  ],
+  "synonyms_normalized": [
+    "bot lam banh ngot",
+    "bot banh ngot"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot mi so 8 - bot mi lam banh ngot",
+      "new": "bot mi so 8 bot mi lam banh ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

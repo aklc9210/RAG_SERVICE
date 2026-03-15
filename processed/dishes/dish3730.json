@@ -1,0 +1,78 @@
+{
+  "id": "dish3730",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3730.json",
+  "name_vi": "Thịt nai nướng",
+  "name_en": "",
+  "name_normalized": "thit nai nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt nai ba rọi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Đậu bắp"
+  ],
+  "seasonings": [
+    "Gia vị nêm Thịt Nướng",
+    "Sa tế",
+    "Dầu ăn",
+    "Ớt chuông"
+  ],
+  "ingredient_ids": [
+    "ingre06448",
+    "ingre02768",
+    "ingre02298",
+    "ingre05621",
+    "ingre06247",
+    "ingre07729",
+    "ingre02124",
+    "ingre07999"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nai ba rọi",
+    "Hành tím",
+    "Gia vị nêm Thịt Nướng",
+    "Sa tế",
+    "Thơm",
+    "Đậu bắp",
+    "Dầu ăn",
+    "Ớt chuông"
+  ],
+  "ingredient_names_en": [
+    "Sausage",
+    "Shallot",
+    "Barbecue Seasoning",
+    "Fish sauce",
+    "Basil",
+    "Green beans",
+    "Cooking oil",
+    "Bell pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit nai ba roi",
+    "hanh tim",
+    "gia vi nem thit nuong",
+    "sa te",
+    "thom",
+    "dau bap",
+    "dau an",
+    "ot chuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

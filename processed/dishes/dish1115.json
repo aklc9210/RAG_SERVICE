@@ -1,0 +1,101 @@
+{
+  "id": "dish1115",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1115.json",
+  "name_vi": "Bánh tart mặn - Quiche Lorain",
+  "name_en": "",
+  "name_normalized": "banh tart man quiche lorain",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Nước lạnh",
+    "Thịt xông khói",
+    "Hành tây",
+    "Hành boa rô",
+    "Kem whipping",
+    "Ngò tây"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Muối",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Tiêu",
+    "Nhục đậu khấu"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre03746",
+    "ingre04664",
+    "ingre06523",
+    "ingre02741",
+    "ingre02645",
+    "ingre03174",
+    "ingre06823",
+    "ingre06147",
+    "ingre06612",
+    "ingre04447",
+    "ingre04351"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Muối",
+    "Nước lạnh",
+    "Thịt xông khói",
+    "Hành tây",
+    "Hành boa rô",
+    "Kem whipping",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Tiêu",
+    "Nhục đậu khấu",
+    "Ngò tây"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Salt",
+    "Cold water",
+    "Smoked Pork",
+    "Onion",
+    "Garlic",
+    "Whipping cream",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Pepper",
+    "Cardamom",
+    "Chives"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "muoi",
+    "nuoc lanh",
+    "thit xong khoi",
+    "hanh tay",
+    "hanh boa ro",
+    "kem whipping",
+    "trung ga",
+    "sua tuoi khong duong",
+    "tieu",
+    "nhuc dau khau",
+    "ngo tay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh tart man - quiche lorain",
+      "new": "banh tart man quiche lorain",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

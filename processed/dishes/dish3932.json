@@ -1,0 +1,86 @@
+{
+  "id": "dish3932",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3932.json",
+  "name_vi": "Gà nướng Bản Đôn",
+  "name_en": "",
+  "name_normalized": "ga nuong ban don",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Củ nén",
+    "Hành tím",
+    "Nghệ"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04124",
+    "ingre01908",
+    "ingre02485",
+    "ingre02768",
+    "ingre04304",
+    "ingre01079",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Mật ong",
+    "Củ nén",
+    "Gừng",
+    "Hành tím",
+    "Nghệ",
+    "Chanh",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Honey",
+    "Celery",
+    "Ginger",
+    "Shallot",
+    "Turmeric",
+    "Lemon",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "mat ong",
+    "cu nen",
+    "gung",
+    "hanh tim",
+    "nghe",
+    "chanh",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

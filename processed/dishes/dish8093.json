@@ -1,0 +1,110 @@
+{
+  "id": "dish8093",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8093.json",
+  "name_vi": "Gỏi bò tái chanh hành tây",
+  "name_en": "",
+  "name_normalized": "goi bo tai chanh hanh tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bắp bò",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Mùi tàu/ húng quế/ rau thơm",
+    "Vừng trắng"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Hành khô",
+    "Tỏi",
+    "Ớt sừng",
+    "Tương ớt",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Giấm",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06332",
+    "ingre02741",
+    "ingre01079",
+    "ingre04058",
+    "ingre02667",
+    "ingre07063",
+    "ingre08055",
+    "ingre07302",
+    "ingre07028",
+    "ingre04694",
+    "ingre04538",
+    "ingre02355",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bắp bò",
+    "Hành tây",
+    "Chanh",
+    "Mùi tàu/ húng quế/ rau thơm",
+    "Hành khô",
+    "Tỏi",
+    "Ớt sừng",
+    "Vừng trắng",
+    "Tương ớt",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Giấm",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Onion",
+    "Lemon",
+    "Chinese parsley/Cinnamon basil/Herbantro",
+    "Garlic Powder",
+    "Garlic",
+    "Hot pepper",
+    "Branched Caraway Seeds",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Lemon juice",
+    "Vinegar",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bap bo",
+    "hanh tay",
+    "chanh",
+    "mui tau hung que rau thom",
+    "hanh kho",
+    "toi",
+    "ot sung",
+    "vung trang",
+    "tuong ot",
+    "nuoc mam",
+    "nuoc cot chanh",
+    "giam",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mui tau/ hung que/ rau thom",
+      "new": "mui tau hung que rau thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mùi tàu/ húng quế/ rau thơm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

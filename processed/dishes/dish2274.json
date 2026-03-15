@@ -1,0 +1,76 @@
+{
+  "id": "dish2274",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2274.json",
+  "name_vi": "Bánh xu xê gấc - bánh phu thê gấc",
+  "name_en": "",
+  "name_normalized": "banh xu xe gac banh phu the gac",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dừa nạo"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh",
+    "Gấc",
+    "Mè rang",
+    "Nước"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre02182",
+    "ingre07836",
+    "ingre02470",
+    "ingre07583",
+    "ingre02124",
+    "ingre03929",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Dừa nạo",
+    "Đậu xanh",
+    "Gấc",
+    "Đường",
+    "Dầu ăn",
+    "Mè rang",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Coconut grated",
+    "Green beans",
+    "Bittermelon",
+    "Sugar",
+    "Cooking oil",
+    "Roasted Sesame Seeds",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "dua nao",
+    "dau xanh",
+    "gac",
+    "duong",
+    "dau an",
+    "me rang",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh xu xe gac - banh phu the gac",
+      "new": "banh xu xe gac banh phu the gac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

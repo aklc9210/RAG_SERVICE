@@ -1,0 +1,102 @@
+{
+  "id": "dish7936",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7936.json",
+  "name_vi": "Lẩu tokbokki (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "lau tokbokki cong thuc duoc chia se tu nguoi dung",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Tokbokki",
+    "Cá nục khô",
+    "Viên thả lẩu"
+  ],
+  "secondary_ingredients": [
+    "Xúc xích",
+    "Mì tôm",
+    "Rong biển khô",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Sốt tương ớt Hàn Quốc",
+    "Tương ớt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06673",
+    "ingre01601",
+    "ingre07169",
+    "ingre07396",
+    "ingre06823",
+    "ingre04003",
+    "ingre05457",
+    "ingre02741",
+    "ingre06017",
+    "ingre07028",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tokbokki",
+    "Cá nục khô",
+    "Viên thả lẩu",
+    "Xúc xích",
+    "Trứng gà",
+    "Mì tôm",
+    "Rong biển khô",
+    "Hành tây",
+    "Sốt tương ớt Hàn Quốc",
+    "Tương ớt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tokbokki -> Hot dog noodles",
+    "Dried mackerel",
+    "Lamb dumplings",
+    "Sausage",
+    "Chicken egg",
+    "Noodle Soup",
+    "Kelp Powder",
+    "Onion",
+    "Korean chili sauce",
+    "Hot Sauce",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tokbokki",
+    "ca nuc kho",
+    "vien tha lau",
+    "xuc xich",
+    "trung ga",
+    "mi tom",
+    "rong bien kho",
+    "hanh tay",
+    "sot tuong ot han quoc",
+    "tuong ot",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lau tokbokki (cong thuc duoc chia se tu nguoi dung)",
+      "new": "lau tokbokki cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish2008",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2008.json",
+  "name_vi": "Bánh sò socola - madeleine chocolat",
+  "name_en": "",
+  "name_normalized": "banh so socola madeleine chocolat",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột cake flour",
+    "Baking powder",
+    "Baking soda",
+    "Trứng gà",
+    "Bơ đun chảy",
+    "Đường mịn",
+    "Chiết suất vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00584",
+    "ingre00013",
+    "ingre00018",
+    "ingre06823",
+    "ingre00412",
+    "ingre07623",
+    "ingre01131",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột cake flour",
+    "Baking powder",
+    "Baking soda",
+    "Trứng gà",
+    "Bơ đun chảy",
+    "Đường mịn",
+    "Chiết suất vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Baking powder",
+    "Baking soda",
+    "Chicken egg",
+    "Melted butter",
+    "Sugar",
+    "Vanilla extract",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot cake flour",
+    "baking powder",
+    "baking soda",
+    "trung ga",
+    "bo dun chay",
+    "duong min",
+    "chiet suat vani",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh so socola - madeleine chocolat",
+      "new": "banh so socola madeleine chocolat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

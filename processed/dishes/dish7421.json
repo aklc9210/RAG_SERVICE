@@ -1,0 +1,89 @@
+{
+  "id": "dish7421",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7421.json",
+  "name_vi": "Cơm kim chi phô mai jambon",
+  "name_en": "",
+  "name_normalized": "com kim chi pho mai jambon",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Phô mai mozzarella",
+    "Kim chi"
+  ],
+  "secondary_ingredients": [
+    "Hành hoa",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Giăm bông",
+    "Trứng gà",
+    "Tương ớt Hàn Quốc",
+    "Đường",
+    "Dầu ăn",
+    "Dầu hào",
+    "Bột ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01754",
+    "ingre05092",
+    "ingre03277",
+    "ingre02353",
+    "ingre06796",
+    "ingre02539",
+    "ingre07026",
+    "ingre07571",
+    "ingre01991",
+    "ingre01986",
+    "ingre00336",
+    "ingre01988"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Phô mai mozzarella",
+    "Kim chi",
+    "Giăm bông",
+    "Trứng gà",
+    "Hành hoa",
+    "Tương ớt Hàn Quốc",
+    "Đường",
+    "Dầu ăn",
+    "Dầu hào",
+    "Bột ớt",
+    "Dầu mè"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Mozzarella cheese",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Sausage",
+    "Chicken egg",
+    "Garlic",
+    "Korean chili paste",
+    "Sugar",
+    "Cooking oil",
+    "Soy sauce",
+    "Red Pepper Powder",
+    "Sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "pho mai mozzarella",
+    "kim chi",
+    "giam bong",
+    "trung ga",
+    "hanh hoa",
+    "tuong ot han quoc",
+    "duong",
+    "dau an",
+    "dau hao",
+    "bot ot",
+    "dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

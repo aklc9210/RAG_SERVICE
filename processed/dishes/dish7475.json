@@ -1,0 +1,88 @@
+{
+  "id": "dish7475",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7475.json",
+  "name_vi": "Sò điệp trứng cút",
+  "name_en": "",
+  "name_normalized": "so diep trung cut",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [
+    "Nước tắc",
+    "Còi sò điệp",
+    "Trứng cút",
+    "Đậu phộng."
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Ớt băm",
+    "Nước mắm",
+    "Bơ thực vật",
+    "Mỡ hành"
+  ],
+  "ingredient_ids": [
+    "ingre02124",
+    "ingre07971",
+    "ingre06174",
+    "ingre04694",
+    "ingre04817",
+    "ingre01706",
+    "ingre06816",
+    "ingre00407",
+    "ingre04199",
+    "ingre07809"
+  ],
+  "ingredient_names_vi": [
+    "Dầu ăn",
+    "Ớt băm",
+    "Sữa đặc",
+    "Nước mắm",
+    "Nước tắc",
+    "Còi sò điệp",
+    "Trứng cút",
+    "Bơ thực vật",
+    "Mỡ hành",
+    "Đậu phộng."
+  ],
+  "ingredient_names_en": [
+    "Cooking oil",
+    "Chopped Pepper",
+    "Sweetened Condensed Milk",
+    "Fish Sauce",
+    "Lime juice",
+    "Scallop",
+    "Quail egg",
+    "Vegetable oil",
+    "Chives butter",
+    "Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "dau an",
+    "ot bam",
+    "sua dac",
+    "nuoc mam",
+    "nuoc tac",
+    "coi so diep",
+    "trung cut",
+    "bo thuc vat",
+    "mo hanh",
+    "dau phong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau phong.",
+      "new": "dau phong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đậu phộng."
+    }
+  ]
+}

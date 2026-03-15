@@ -1,0 +1,25 @@
+{
+  "id": "ingre04931",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04931.json",
+  "name_vi": "nấm mèo (tai)",
+  "name_en": "Mushroom Ear",
+  "name_normalized": "nam meo tai",
+  "synonyms": [
+    "tai mèo"
+  ],
+  "synonyms_normalized": [
+    "tai meo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nam meo (tai)",
+      "new": "nam meo tai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "dish7845",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7845.json",
+  "name_vi": "Lẩu cá tầm nấu mẻ",
+  "name_en": "",
+  "name_normalized": "lau ca tam nau me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá tầm",
+    "Cơm mẻ",
+    "Bông súng"
+  ],
+  "secondary_ingredients": [
+    "Cần tàu",
+    "Rau ngổ",
+    "Ngò gai",
+    "Sả",
+    "Lá sả"
+  ],
+  "seasonings": [
+    "Bắp chuối hột",
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01646",
+    "ingre01753",
+    "ingre00455",
+    "ingre00291",
+    "ingre01809",
+    "ingre05336",
+    "ingre04329",
+    "ingre07063",
+    "ingre01079",
+    "ingre05900",
+    "ingre03523",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Cá tầm",
+    "Cơm mẻ",
+    "Bắp chuối hột",
+    "Bông súng",
+    "Cần tàu",
+    "Rau ngổ",
+    "Ngò gai",
+    "Tỏi",
+    "Chanh",
+    "Sả",
+    "Lá sả",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Sturgeon",
+    "Glutinous Rice",
+    "Corn:numel kernels",
+    "Mallow花椰菜",
+    "Chinese cabbage",
+    "Culantro",
+    "Garlic",
+    "Lemon",
+    "Lemongrass",
+    "Citronella Grass",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca tam",
+    "com me",
+    "bap chuoi hot",
+    "bong sung",
+    "can tau",
+    "rau ngo",
+    "ngo gai",
+    "toi",
+    "chanh",
+    "sa",
+    "la sa",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

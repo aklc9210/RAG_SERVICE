@@ -1,0 +1,122 @@
+{
+  "id": "dish8462",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8462.json",
+  "name_vi": "Kimbap ức gà rau củ",
+  "name_en": "",
+  "name_normalized": "kimbap uc ga rau cu",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Ức gà",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Rau xà lách",
+    "Thanh cua",
+    "Rong biển cuộn kimbap",
+    "Phô mai",
+    "Mật ong",
+    "Sữa chua",
+    "Lá nguyệt quế khô"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt chuông đỏ",
+    "Ớt chuông vàng",
+    "Rượu trắng",
+    "Nước cốt chanh",
+    "Tiêu hạt/ tiêu xay",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre06823",
+    "ingre02020",
+    "ingre08014",
+    "ingre08007",
+    "ingre05410",
+    "ingre06199",
+    "ingre05453",
+    "ingre05574",
+    "ingre05054",
+    "ingre04124",
+    "ingre06088",
+    "ingre04538",
+    "ingre03484",
+    "ingre06622",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Trứng gà",
+    "Dưa leo",
+    "Ớt chuông đỏ",
+    "Ớt chuông vàng",
+    "Rau xà lách",
+    "Thanh cua",
+    "Rong biển cuộn kimbap",
+    "Rượu trắng",
+    "Phô mai",
+    "Mật ong",
+    "Sữa chua",
+    "Nước cốt chanh",
+    "Lá nguyệt quế khô",
+    "Tiêu hạt/ tiêu xay",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Chicken egg",
+    "Cucumber",
+    "Red bell pepper",
+    "Yellow Bell Pepper",
+    "lettuce",
+    "Shrimp",
+    "Seaweed卷Kimchi",
+    "White wine",
+    "Cheese",
+    "Honey",
+    "Yogurt",
+    "Lemon juice",
+    "Dried Laurel Leaves",
+    "Black Pepper/Powder",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "trung ga",
+    "dua leo",
+    "ot chuong do",
+    "ot chuong vang",
+    "rau xa lach",
+    "thanh cua",
+    "rong bien cuon kimbap",
+    "ruou trang",
+    "pho mai",
+    "mat ong",
+    "sua chua",
+    "nuoc cot chanh",
+    "la nguyet que kho",
+    "tieu hat tieu xay",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu hat/ tieu xay",
+      "new": "tieu hat tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu hạt/ tiêu xay"
+    }
+  ]
+}

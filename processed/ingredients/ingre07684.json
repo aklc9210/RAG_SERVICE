@@ -1,0 +1,27 @@
+{
+  "id": "ingre07684",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07684.json",
+  "name_vi": "đường/ tiêu hạt",
+  "name_en": "Sugar/Clove Hints",
+  "name_normalized": "duong tieu hat",
+  "synonyms": [
+    "tiêu",
+    "hạt tiêu"
+  ],
+  "synonyms_normalized": [
+    "tieu",
+    "hat tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ tieu hat",
+      "new": "duong tieu hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

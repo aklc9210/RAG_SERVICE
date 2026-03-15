@@ -1,0 +1,110 @@
+{
+  "id": "dish5769",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5769.json",
+  "name_vi": "Trứng kho nước tương",
+  "name_en": "",
+  "name_normalized": "trung kho nuoc tuong",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Đường cát vàng",
+    "Bột ngọt",
+    "Bột ngũ vị hương",
+    "Tương ớt",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre02768",
+    "ingre07966",
+    "ingre02673",
+    "ingre04326",
+    "ingre03084",
+    "ingre04790",
+    "ingre07602",
+    "ingre00819",
+    "ingre00815",
+    "ingre07028",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Hành tím",
+    "Ớt",
+    "Hành lá",
+    "Ngò",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Đường cát vàng",
+    "Bột ngọt",
+    "Bột ngũ vị hương",
+    "Tương ớt",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Shallot",
+    "Pepper",
+    "Scallion",
+    "Cilantro",
+    "Black soy sauce",
+    "Soy Sauce",
+    "Yellow Sand Sugar",
+    "MSG",
+    "Five-Spice Powder",
+    "Hot Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "hanh tim",
+    "ot",
+    "hanh la",
+    "ngo",
+    "hac xi dau",
+    "nuoc tuong",
+    "duong cat vang",
+    "bot ngot",
+    "bot ngu vi huong",
+    "tuong ot",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

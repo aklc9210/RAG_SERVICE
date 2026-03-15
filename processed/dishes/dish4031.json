@@ -1,0 +1,77 @@
+{
+  "id": "dish4031",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4031.json",
+  "name_vi": "Thịt nướng mật ong",
+  "name_en": "",
+  "name_normalized": "thit nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm ăn kèm"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu hào",
+    "Muối/ tiêu",
+    "Hành tím băm",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre04124",
+    "ingre04694",
+    "ingre02080",
+    "ingre03814",
+    "ingre02774",
+    "ingre07071",
+    "ingre05391"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Mật ong",
+    "Nước mắm",
+    "Dầu hào",
+    "Muối/ tiêu",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Rau thơm ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Honey",
+    "Fish Sauce",
+    "Soy sauce",
+    "Salt/Pepper",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Basil"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "mat ong",
+    "nuoc mam",
+    "dau hao",
+    "muoi tieu",
+    "hanh tim bam",
+    "toi bam",
+    "rau thom an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

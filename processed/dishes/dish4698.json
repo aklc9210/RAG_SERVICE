@@ -1,0 +1,91 @@
+{
+  "id": "dish4698",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4698.json",
+  "name_vi": "Nấm đùi gà xào thịt bò",
+  "name_en": "",
+  "name_normalized": "nam dui ga xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm đùi gà",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre06300",
+    "ingre02741",
+    "ingre02673",
+    "ingre07071",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Thịt bò",
+    "Hành tây",
+    "Hành lá",
+    "Tỏi băm",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Beef",
+    "Onion",
+    "Scallion",
+    "Minced Garlic",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "thit bo",
+    "hanh tay",
+    "hanh la",
+    "toi bam",
+    "dau hao",
+    "nuoc mam",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

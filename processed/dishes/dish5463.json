@@ -1,0 +1,118 @@
+{
+  "id": "dish5463",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5463.json",
+  "name_vi": "Rươi xào củ niễng chuẩn vị Nam Định",
+  "name_en": "",
+  "name_normalized": "ruoi xao cu nieng chuan vi nam dinh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rươi",
+    "Củ niễng",
+    "Thịt ba chỉ",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Vỏ quýt",
+    "Hành lá",
+    "Lá gấc non",
+    "Rau thì là",
+    "Ngò"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Nước mắm",
+    "Tiêu",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05509",
+    "ingre01907",
+    "ingre06275",
+    "ingre02741",
+    "ingre06823",
+    "ingre07270",
+    "ingre02673",
+    "ingre03431",
+    "ingre05383",
+    "ingre04326",
+    "ingre04694",
+    "ingre06612",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Rươi",
+    "Củ niễng",
+    "Thịt ba chỉ",
+    "Hành tây",
+    "Trứng gà",
+    "Vỏ quýt",
+    "Hành lá",
+    "Lá gấc non",
+    "Rau thì là",
+    "Ngò",
+    "Nước mắm",
+    "Tiêu",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Dragonfly larvae",
+    "Celery",
+    "Pork belly",
+    "Onion",
+    "Chicken egg",
+    "Orange peel",
+    "Scallion",
+    "Young dragon fruit leaves",
+    "Basil",
+    "Cilantro",
+    "Fish Sauce",
+    "Pepper",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ruoi",
+    "cu nieng",
+    "thit ba chi",
+    "hanh tay",
+    "trung ga",
+    "vo quyt",
+    "hanh la",
+    "la gac non",
+    "rau thi la",
+    "ngo",
+    "nuoc mam",
+    "tieu",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

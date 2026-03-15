@@ -1,0 +1,106 @@
+{
+  "id": "dish0739",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0739.json",
+  "name_vi": "Canh mướp nấu thịt băm",
+  "name_en": "",
+  "name_normalized": "canh muop nau thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt heo băm",
+    "Giò sống",
+    "Mướp hương"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô",
+    "Hành lá",
+    "Ngò rí",
+    "Miến dong"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06403",
+    "ingre02350",
+    "ingre04104",
+    "ingre04966",
+    "ingre02673",
+    "ingre04343",
+    "ingre03711",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo băm",
+    "Giò sống",
+    "Mướp hương",
+    "Nấm đông cô",
+    "Hành lá",
+    "Ngò rí",
+    "Miến dong",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Fresh sausage",
+    "Luffa",
+    "Mushroom",
+    "Scallion",
+    "Parsley",
+    "Glass noodle",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo bam",
+    "gio song",
+    "muop huong",
+    "nam dong co",
+    "hanh la",
+    "ngo ri",
+    "mien dong",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

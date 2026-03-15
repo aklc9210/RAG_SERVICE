@@ -1,0 +1,111 @@
+{
+  "id": "dish8068",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8068.json",
+  "name_vi": "Gỏi hàu sốt Thái",
+  "name_en": "",
+  "name_normalized": "goi hau sot thai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Hàu sữa tươi",
+    "Sả",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Lá húng lủi",
+    "Hành tây nhỏ"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Đường",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Ớt bột",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre02842",
+    "ingre05900",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre07966",
+    "ingre07583",
+    "ingre04538",
+    "ingre04694",
+    "ingre07977",
+    "ingre07028",
+    "ingre03438",
+    "ingre02759"
+  ],
+  "ingredient_names_vi": [
+    "Hàu sữa tươi",
+    "Sả",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Đường",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Ớt bột",
+    "Tương ớt",
+    "Lá húng lủi",
+    "Hành tây nhỏ"
+  ],
+  "ingredient_names_en": [
+    "Fresh mussel",
+    "Lemongrass",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Pepper",
+    "Sugar",
+    "Lemon juice",
+    "Fish Sauce",
+    "Chili powder",
+    "Hot Sauce",
+    "Peppermint叶",
+    "Onion"
+  ],
+  "ingredient_names_normalized": [
+    "hau sua tuoi",
+    "sa",
+    "hanh tim",
+    "toi",
+    "gung",
+    "ot",
+    "duong",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "ot bot",
+    "tuong ot",
+    "la hung lui",
+    "hanh tay nho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

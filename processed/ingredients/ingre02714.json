@@ -1,0 +1,27 @@
+{
+  "id": "ingre02714",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02714.json",
+  "name_vi": "hành lá/gừng hồng/sốt takoyaki/sốt mayonnaise/rong biển khô/cá ngừ bào khô",
+  "name_en": "Green Onion/Ginger Red/Takoyaki Sauce/Mayonnaise Sauce/Dried Kelp/Canned Tuna",
+  "name_normalized": "hanh la gung hong sot takoyaki sot mayonnaise rong bien kho ca ngu bao kho",
+  "synonyms": [
+    "rong non",
+    "cá ngừ xắt nhỏ"
+  ],
+  "synonyms_normalized": [
+    "rong non",
+    "ca ngu xat nho"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/gung hong/sot takoyaki/sot mayonnaise/rong bien kho/ca ngu bao kho",
+      "new": "hanh la gung hong sot takoyaki sot mayonnaise rong bien kho ca ngu bao kho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

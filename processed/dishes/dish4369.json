@@ -1,0 +1,84 @@
+{
+  "id": "dish4369",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4369.json",
+  "name_vi": "Cháo má heo",
+  "name_en": "",
+  "name_normalized": "chao ma heo",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Đầu heo"
+  ],
+  "secondary_ingredients": [
+    "Gạo rang",
+    "Hành tây",
+    "Rau ngò",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Muối - đường - tiêu xay hành"
+  ],
+  "ingredient_ids": [
+    "ingre07713",
+    "ingre02457",
+    "ingre02741",
+    "ingre03753",
+    "ingre05321",
+    "ingre05359"
+  ],
+  "ingredient_names_vi": [
+    "Đầu heo",
+    "Gạo rang",
+    "Hành tây",
+    "Muối - đường - tiêu xay hành",
+    "Rau ngò",
+    "Rau răm"
+  ],
+  "ingredient_names_en": [
+    "Pork shoulder",
+    "Toasted Rice",
+    "Onion",
+    "Salt - Sugar - Ground Garlic Powder",
+    "Culantro",
+    "Vietnamese coriander"
+  ],
+  "ingredient_names_normalized": [
+    "dau heo",
+    "gao rang",
+    "hanh tay",
+    "muoi duong tieu xay hanh",
+    "rau ngo",
+    "rau ram"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi - duong - tieu xay hanh",
+      "new": "muoi duong tieu xay hanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối - đường - tiêu xay hành"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

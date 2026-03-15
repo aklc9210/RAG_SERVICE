@@ -1,0 +1,139 @@
+{
+  "id": "dish2674",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2674.json",
+  "name_vi": "Bánh trung thu trứng sữa nhân trứng muối tan chảy",
+  "name_en": "",
+  "name_normalized": "banh trung thu trung sua nhan trung muoi tan chay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gelatin",
+    "Kem tươi whipping cream (có thể thay bằng sữa tươi)"
+  ],
+  "secondary_ingredients": [
+    "Bơ nhạt",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột sư tử (custard powder)",
+    "Đường",
+    "Lòng đỏ trứng muối nghiền nhuyễn (hơn 1 quả)",
+    "Lòng đỏ trứng muối (gần 3 quả)",
+    "Bột mì số 8",
+    "Bột sư tử",
+    "Trứng đánh tan",
+    "Nước đường bánh nướng (hoặc thay bằng mật ong)",
+    "Bột ngô"
+  ],
+  "ingredient_ids": [
+    "ingre06147",
+    "ingre02253",
+    "ingre00920",
+    "ingre07583",
+    "ingre03166",
+    "ingre03592",
+    "ingre00402",
+    "ingre03588",
+    "ingre00783",
+    "ingre00919",
+    "ingre06860",
+    "ingre06174",
+    "ingre04861",
+    "ingre00813"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi không đường",
+    "Gelatin",
+    "Bột sư tử (custard powder)",
+    "Đường",
+    "Kem tươi whipping cream (có thể thay bằng sữa tươi)",
+    "Lòng đỏ trứng muối nghiền nhuyễn (hơn 1 quả)",
+    "Bơ nhạt",
+    "Lòng đỏ trứng muối (gần 3 quả)",
+    "Bột mì số 8",
+    "Bột sư tử",
+    "Trứng đánh tan",
+    "Sữa đặc",
+    "Nước đường bánh nướng (hoặc thay bằng mật ong)",
+    "Bột ngô"
+  ],
+  "ingredient_names_en": [
+    "Fat-free Milk",
+    "Gelatin",
+    "Custard Powder",
+    "Sugar",
+    "Fresh Cream (or Milk Cream)",
+    "Salted egg yolk paste (from more than 1 egg)",
+    "Margarine",
+    "Pickled Egg Yolk (about 3 pieces)",
+    "All-purpose flour",
+    "Tiger's milk powder",
+    "Beaten Egg",
+    "Sweetened Condensed Milk",
+    "Sweetened Condensed Milk (or Honey)",
+    "Corn flour"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi khong duong",
+    "gelatin",
+    "bot su tu custard powder",
+    "duong",
+    "kem tuoi whipping cream co the thay bang sua tuoi",
+    "long do trung muoi nghien nhuyen hon 1 qua",
+    "bo nhat",
+    "long do trung muoi gan 3 qua",
+    "bot mi so 8",
+    "bot su tu",
+    "trung danh tan",
+    "sua dac",
+    "nuoc duong banh nuong hoac thay bang mat ong",
+    "bot ngo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot su tu (custard powder)",
+      "new": "bot su tu custard powder",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột sư tử (custard powder)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi whipping cream (co the thay bang sua tuoi)",
+      "new": "kem tuoi whipping cream co the thay bang sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi whipping cream (có thể thay bằng sữa tươi)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "long do trung muoi nghien nhuyen (hon 1 qua)",
+      "new": "long do trung muoi nghien nhuyen hon 1 qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lòng đỏ trứng muối nghiền nhuyễn (hơn 1 quả)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "long do trung muoi (gan 3 qua)",
+      "new": "long do trung muoi gan 3 qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lòng đỏ trứng muối (gần 3 quả)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc duong banh nuong (hoac thay bang mat ong)",
+      "new": "nuoc duong banh nuong hoac thay bang mat ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước đường bánh nướng (hoặc thay bằng mật ong)"
+    }
+  ]
+}

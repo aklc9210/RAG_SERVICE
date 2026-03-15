@@ -1,0 +1,27 @@
+{
+  "id": "ingre05367",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05367.json",
+  "name_vi": "rau răm/ húng lủi/ diếp cá",
+  "name_en": "Parsley/Cilantro/Cress",
+  "name_normalized": "rau ram hung lui diep ca",
+  "synonyms": [
+    "rau diếp",
+    "húng quế"
+  ],
+  "synonyms_normalized": [
+    "rau diep",
+    "hung que"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ram/ hung lui/ diep ca",
+      "new": "rau ram hung lui diep ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

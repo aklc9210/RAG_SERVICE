@@ -1,0 +1,101 @@
+{
+  "id": "dish2041",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2041.json",
+  "name_vi": "Sakura cheesecake - cheesecake hoa anh đào",
+  "name_en": "",
+  "name_normalized": "sakura cheesecake cheesecake hoa anh dao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Vỏ bánh oreo",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Cream cheese",
+    "Gelatin lá",
+    "Whipping cream",
+    "Nước",
+    "Màu thực phẩm màu đỏ"
+  ],
+  "seasonings": [
+    "Hoa anh đào muối",
+    "Rượu Rum",
+    "Sữa chua không đường",
+    "Sữa tươi không đường",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02566",
+    "ingre07234",
+    "ingre00382",
+    "ingre01324",
+    "ingre02261",
+    "ingre07313",
+    "ingre05557",
+    "ingre06100",
+    "ingre06147",
+    "ingre04538",
+    "ingre07583",
+    "ingre04490",
+    "ingre03877"
+  ],
+  "ingredient_names_vi": [
+    "Hoa anh đào muối",
+    "Vỏ bánh oreo",
+    "Bơ lạt",
+    "Cream cheese",
+    "Gelatin lá",
+    "Whipping cream",
+    "Rượu Rum",
+    "Sữa chua không đường",
+    "Sữa tươi không đường",
+    "Nước cốt chanh",
+    "Đường",
+    "Nước",
+    "Màu thực phẩm màu đỏ"
+  ],
+  "ingredient_names_en": [
+    "Salted cherry blossom flowers",
+    "Oreo cookie shell",
+    "Butter",
+    "Cream cheese",
+    "Leaf gelatin",
+    "Whipping cream",
+    "Rum",
+    "Plain Yogurt",
+    "Fat-free Milk",
+    "Lemon juice",
+    "Sugar",
+    "Water",
+    "Red food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "hoa anh dao muoi",
+    "vo banh oreo",
+    "bo lat",
+    "cream cheese",
+    "gelatin la",
+    "whipping cream",
+    "ruou rum",
+    "sua chua khong duong",
+    "sua tuoi khong duong",
+    "nuoc cot chanh",
+    "duong",
+    "nuoc",
+    "mau thuc pham mau do"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sakura cheesecake - cheesecake hoa anh dao",
+      "new": "sakura cheesecake cheesecake hoa anh dao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

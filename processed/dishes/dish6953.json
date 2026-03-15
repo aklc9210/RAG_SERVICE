@@ -1,0 +1,67 @@
+{
+  "id": "dish6953",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6953.json",
+  "name_vi": "Tôm hùm cháy tỏi",
+  "name_en": "",
+  "name_normalized": "tom hum chay toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm hùm"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06940",
+    "ingre07063",
+    "ingre00382",
+    "ingre05626",
+    "ingre02124",
+    "ingre00831"
+  ],
+  "ingredient_names_vi": [
+    "Tôm hùm",
+    "Tỏi",
+    "Bơ lạt",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_names_en": [
+    "Prawn",
+    "Garlic",
+    "Butter",
+    "Shrimp paste",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tom hum",
+    "toi",
+    "bo lat",
+    "sa te tom",
+    "dau an",
+    "bot ngot duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

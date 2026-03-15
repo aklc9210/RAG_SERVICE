@@ -1,0 +1,82 @@
+{
+  "id": "dish0396",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0396.json",
+  "name_vi": "Củ chuối nấu ốc bươu",
+  "name_en": "",
+  "name_normalized": "cu chuoi nau oc buou",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ốc bươu",
+    "Củ chuối"
+  ],
+  "secondary_ingredients": [
+    "Nghệ",
+    "Rau tía tô",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Nước chanh muối",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07935",
+    "ingre01858",
+    "ingre04304",
+    "ingre03461",
+    "ingre05404",
+    "ingre05302",
+    "ingre04512",
+    "ingre04694",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu",
+    "Củ chuối",
+    "Nghệ",
+    "Lá lốt",
+    "Rau tía tô",
+    "Rau mùi",
+    "Nước chanh muối",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Piranha",
+    "Banana",
+    "Turmeric",
+    "Cinnamon Leaf",
+    "Cilantro",
+    "Mint",
+    "Salted Lime Water",
+    "Fish Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou",
+    "cu chuoi",
+    "nghe",
+    "la lot",
+    "rau tia to",
+    "rau mui",
+    "nuoc chanh muoi",
+    "nuoc mam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

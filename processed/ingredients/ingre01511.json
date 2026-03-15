@@ -1,0 +1,27 @@
+{
+  "id": "ingre01511",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01511.json",
+  "name_vi": "cá cơm: 300g",
+  "name_en": "Mackerel: 300g",
+  "name_normalized": "ca com 300g",
+  "synonyms": [
+    "cá cơ",
+    "cá cơm trắng"
+  ],
+  "synonyms_normalized": [
+    "ca co",
+    "ca com trang"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca com: 300g",
+      "new": "ca com 300g",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

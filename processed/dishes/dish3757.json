@@ -1,0 +1,123 @@
+{
+  "id": "dish3757",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3757.json",
+  "name_vi": "Thịt viên nướng",
+  "name_en": "",
+  "name_normalized": "thit vien nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hành tím",
+    "Sả cây"
+  ],
+  "secondary_ingredients": [
+    "Nước màu",
+    "Sữa đặc",
+    "Mật ong",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Thịt nạc giăm",
+    "Tỏi",
+    "Bột ngũ vị hương",
+    "Rượu mai quế lộ",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre06462",
+    "ingre02768",
+    "ingre07063",
+    "ingre05909",
+    "ingre00815",
+    "ingre05543",
+    "ingre04694",
+    "ingre04672",
+    "ingre02080",
+    "ingre06174",
+    "ingre04124",
+    "ingre02093",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644",
+    "ingre00564"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc giăm",
+    "Hành tím",
+    "Tỏi",
+    "Sả cây",
+    "Bột ngũ vị hương",
+    "Rượu mai quế lộ",
+    "Nước mắm",
+    "Nước màu",
+    "Dầu hào",
+    "Sữa đặc",
+    "Mật ong",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột bắp"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Shallot",
+    "Garlic",
+    "Fresh Ginger",
+    "Five-Spice Powder",
+    "Sake Plum Ginger Wine",
+    "Fish Sauce",
+    "Food coloring",
+    "Soy sauce",
+    "Sweetened Condensed Milk",
+    "Honey",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "MSG",
+    "Seasoning",
+    "Ground pepper",
+    "Corn starch"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac giam",
+    "hanh tim",
+    "toi",
+    "sa cay",
+    "bot ngu vi huong",
+    "ruou mai que lo",
+    "nuoc mam",
+    "nuoc mau",
+    "dau hao",
+    "sua dac",
+    "mat ong",
+    "dau mau dieu",
+    "dau an",
+    "bot ngot",
+    "hat nem",
+    "tieu xay",
+    "bot bap"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

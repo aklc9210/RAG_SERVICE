@@ -1,0 +1,125 @@
+{
+  "id": "dish6545",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6545.json",
+  "name_vi": "Sườn cốt lết sốt cà chua",
+  "name_en": "",
+  "name_normalized": "suon cot let sot ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà chua",
+    "Hành tây",
+    "Hành lá/ngò rí"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Sườn cốt lết",
+    "Tỏi",
+    "Chanh",
+    "Bột tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05876",
+    "ingre01354",
+    "ingre02741",
+    "ingre02719",
+    "ingre02768",
+    "ingre07063",
+    "ingre01079",
+    "ingre00978",
+    "ingre04790",
+    "ingre02080",
+    "ingre02094",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cốt lết",
+    "Cà chua",
+    "Hành tây",
+    "Hành lá/ngò rí",
+    "Hành tím",
+    "Tỏi",
+    "Chanh",
+    "Bột tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu mè",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Lettuce Spare Ribs",
+    "Tomato",
+    "Onion",
+    "Parsley",
+    "Shallot",
+    "Garlic",
+    "Lemon",
+    "Garlic powder",
+    "Soy Sauce",
+    "Sesame oil",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon cot let",
+    "ca chua",
+    "hanh tay",
+    "hanh la ngo ri",
+    "hanh tim",
+    "toi",
+    "chanh",
+    "bot toi",
+    "nuoc tuong",
+    "dau hao",
+    "dau me",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ngò rí"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

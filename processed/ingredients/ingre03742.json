@@ -1,0 +1,25 @@
+{
+  "id": "ingre03742",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03742.json",
+  "name_vi": "muối/ hạt nêm",
+  "name_en": "Table Salt/Soy Sauce",
+  "name_normalized": "muoi hat nem",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

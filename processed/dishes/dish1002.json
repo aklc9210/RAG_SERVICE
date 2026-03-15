@@ -1,0 +1,68 @@
+{
+  "id": "dish1002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1002.json",
+  "name_vi": "Bánh mì cuộn xúc xích",
+  "name_en": "",
+  "name_normalized": "banh mi cuon xuc xich",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Đường trắng",
+    "Muối",
+    "Men nở",
+    "Sữa tươi không đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre07652",
+    "ingre03746",
+    "ingre03686",
+    "ingre06147",
+    "ingre06823",
+    "ingre00382",
+    "ingre07396"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Đường trắng",
+    "Muối",
+    "Men nở",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Bơ lạt",
+    "Xúc xích"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "White sugar",
+    "Salt",
+    "Baking Powder",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Butter",
+    "Sausage"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "duong trang",
+    "muoi",
+    "men no",
+    "sua tuoi khong duong",
+    "trung ga",
+    "bo lat",
+    "xuc xich"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

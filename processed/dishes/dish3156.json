@@ -1,0 +1,113 @@
+{
+  "id": "dish3156",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3156.json",
+  "name_vi": "Phở bò Wagyu",
+  "name_en": "",
+  "name_normalized": "pho bo wagyu",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt bò Wagyu",
+    "Mỡ bò",
+    "Xương heo",
+    "Xương gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Vỏ cam hoặc vỏ quýt khô",
+    "Cánh hoa hồi",
+    "Củ cải trắng",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Đường phèn",
+    "Bột quế",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06323",
+    "ingre04186",
+    "ingre07422",
+    "ingre07421",
+    "ingre02741",
+    "ingre02485",
+    "ingre07249",
+    "ingre01691",
+    "ingre07635",
+    "ingre01868",
+    "ingre00888",
+    "ingre02673",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò Wagyu",
+    "Mỡ bò",
+    "Xương heo",
+    "Xương gà",
+    "Hành tây",
+    "Gừng",
+    "Vỏ cam hoặc vỏ quýt khô",
+    "Cánh hoa hồi",
+    "Đường phèn",
+    "Củ cải trắng",
+    "Bột quế",
+    "Hành lá",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Wagyu beef",
+    "Beef fat",
+    "Pork bone",
+    "Chicken bone",
+    "Onion",
+    "Ginger",
+    "Dried Orange or Lemon Peel",
+    "Rose petal",
+    "Brown Sugar",
+    "White radish",
+    "Cinnamon粉",
+    "Scallion",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo wagyu",
+    "mo bo",
+    "xuong heo",
+    "xuong ga",
+    "hanh tay",
+    "gung",
+    "vo cam hoac vo quyt kho",
+    "canh hoa hoi",
+    "duong phen",
+    "cu cai trang",
+    "bot que",
+    "hanh la",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

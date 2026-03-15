@@ -1,0 +1,62 @@
+{
+  "id": "dish9129",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9129.json",
+  "name_vi": "Mứt mãng cầu me",
+  "name_en": "",
+  "name_normalized": "mut mang cau me",
+  "category": "an vat",
+  "main_ingredients": [
+    "Mãng cầu xiêm"
+  ],
+  "secondary_ingredients": [
+    "Me"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Đường cát",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03924",
+    "ingre03643",
+    "ingre07977",
+    "ingre07597",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mãng cầu xiêm",
+    "Me",
+    "Ớt bột",
+    "Đường cát",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dragonfruit",
+    "Tamarind",
+    "Chili powder",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mang cau xiem",
+    "me",
+    "ot bot",
+    "duong cat",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish7687",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7687.json",
+  "name_vi": "Gà hấp ngải cứu",
+  "name_en": "",
+  "name_normalized": "ga hap ngai cuu",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gà",
+    "Lá ngải cứu",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Rượu trắng",
+    "Giấm",
+    "Muối",
+    "Tiêu",
+    "Bột ngot",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03489",
+    "ingre02768",
+    "ingre02485",
+    "ingre07966",
+    "ingre05574",
+    "ingre02355",
+    "ingre03746",
+    "ingre06612",
+    "ingre00807",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá ngải cứu",
+    "Hành tím",
+    "Gừng",
+    "Ớt",
+    "Rượu trắng",
+    "Giấm",
+    "Muối",
+    "Tiêu",
+    "Bột ngot",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Sage Leaf",
+    "Shallot",
+    "Ginger",
+    "Pepper",
+    "White wine",
+    "Vinegar",
+    "Salt",
+    "Sweetener",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la ngai cuu",
+    "hanh tim",
+    "gung",
+    "ot",
+    "ruou trang",
+    "giam",
+    "muoi",
+    "tieu",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

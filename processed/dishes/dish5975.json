@@ -1,0 +1,100 @@
+{
+  "id": "dish5975",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5975.json",
+  "name_vi": "Gân bò kho sả ớt",
+  "name_en": "",
+  "name_normalized": "gan bo kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Gân bò",
+    "Nước: 300ml"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Gừng",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre07071",
+    "ingre04883",
+    "ingre05900",
+    "ingre02485",
+    "ingre02995",
+    "ingre04694",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746",
+    "ingre08055"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Tỏi băm",
+    "Nước: 300ml",
+    "Sả",
+    "Gừng",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Ớt sừng"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Minced Garlic",
+    "Water: 300ml",
+    "Lemongrass",
+    "Ginger",
+    "Seasoning",
+    "Fish Sauce",
+    "Pepper",
+    "Sugar",
+    "Salt",
+    "Hot pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "toi bam",
+    "nuoc 300ml",
+    "sa",
+    "gung",
+    "hat nem",
+    "nuoc mam",
+    "tieu",
+    "duong",
+    "muoi",
+    "ot sung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc: 300ml",
+      "new": "nuoc 300ml",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước: 300ml"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

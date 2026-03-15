@@ -1,0 +1,105 @@
+{
+  "id": "dish6463",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6463.json",
+  "name_vi": "Đuôi heo rang muối",
+  "name_en": "",
+  "name_normalized": "duoi heo rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đuôi heo",
+    "Gạo tẻ",
+    "Gạo nếp"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh cà vỏ",
+    "Sả"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Chanh",
+    "Ớt tươi",
+    "Gừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07502",
+    "ingre02464",
+    "ingre02450",
+    "ingre07841",
+    "ingre00849",
+    "ingre01079",
+    "ingre08078",
+    "ingre05900",
+    "ingre02485",
+    "ingre02124",
+    "ingre04694",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Đuôi heo",
+    "Gạo tẻ",
+    "Gạo nếp",
+    "Đậu xanh cà vỏ",
+    "Bột năng",
+    "Chanh",
+    "Ớt tươi",
+    "Sả",
+    "Gừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork tail",
+    "White Rice",
+    "sticky rice",
+    "Green Soybeans Skin-On",
+    "Cornstarch",
+    "Lemon",
+    "Fresh chili",
+    "Lemongrass",
+    "Ginger",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "duoi heo",
+    "gao te",
+    "gao nep",
+    "dau xanh ca vo",
+    "bot nang",
+    "chanh",
+    "ot tuoi",
+    "sa",
+    "gung",
+    "dau an",
+    "nuoc mam",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish4469",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4469.json",
+  "name_vi": "Bò xào súp lơ (bông cải xanh)",
+  "name_en": "",
+  "name_normalized": "bo xao sup lo bong cai xanh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Súp lơ",
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng tươi",
+    "Tỏi",
+    "Bột ngô",
+    "Đường",
+    "Muối",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Rượu trắng/ rượu nấu ăn",
+    "Baking soda"
+  ],
+  "ingredient_ids": [
+    "ingre05842",
+    "ingre06497",
+    "ingre02518",
+    "ingre07063",
+    "ingre00813",
+    "ingre07583",
+    "ingre03746",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre06644",
+    "ingre05584",
+    "ingre00018"
+  ],
+  "ingredient_names_vi": [
+    "Súp lơ",
+    "Thịt thăn bò",
+    "Gừng tươi",
+    "Tỏi",
+    "Bột ngô",
+    "Đường",
+    "Muối",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Rượu trắng/ rượu nấu ăn",
+    "Baking soda"
+  ],
+  "ingredient_names_en": [
+    "Broccoli",
+    "Beef tenderloin",
+    "Ginger",
+    "Garlic",
+    "Corn flour",
+    "Sugar",
+    "Salt",
+    "Soy Sauce",
+    "Cooking oil",
+    "Ground pepper",
+    "White Wine/Sewing Wine",
+    "Baking soda"
+  ],
+  "ingredient_names_normalized": [
+    "sup lo",
+    "thit than bo",
+    "gung tuoi",
+    "toi",
+    "bot ngo",
+    "duong",
+    "muoi",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "tieu xay",
+    "ruou trang ruou nau an",
+    "baking soda"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo xao sup lo (bong cai xanh)",
+      "new": "bo xao sup lo bong cai xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ruou trang/ ruou nau an",
+      "new": "ruou trang ruou nau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rượu trắng/ rượu nấu ăn"
+    }
+  ]
+}

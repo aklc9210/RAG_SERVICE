@@ -1,0 +1,63 @@
+{
+  "id": "dish7571",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7571.json",
+  "name_vi": "Trứng hấp nước tương",
+  "name_en": "",
+  "name_normalized": "trung hap nuoc tuong",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Nước tương",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre02673",
+    "ingre02094",
+    "ingre04790",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Hành lá",
+    "Dầu mè",
+    "Nước tương",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Scallion",
+    "Sesame oil",
+    "Soy Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "hanh la",
+    "dau me",
+    "nuoc tuong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

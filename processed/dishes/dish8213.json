@@ -1,0 +1,81 @@
+{
+  "id": "dish8213",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8213.json",
+  "name_vi": "Cách làm gỏi vịt bắp cải, hành tây",
+  "name_en": "",
+  "name_normalized": "cach lam goi vit bap cai hanh tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Vịt",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02741",
+    "ingre01419",
+    "ingre02485",
+    "ingre07211",
+    "ingre05385",
+    "ingre07966",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Hành tây",
+    "Cà rốt",
+    "Gừng",
+    "Vịt",
+    "Rau thơm",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Onion",
+    "Carrot",
+    "Ginger",
+    "Duck",
+    "Basil",
+    "Pepper",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "hanh tay",
+    "ca rot",
+    "gung",
+    "vit",
+    "rau thom",
+    "ot",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam goi vit bap cai, hanh tay",
+      "new": "cach lam goi vit bap cai hanh tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

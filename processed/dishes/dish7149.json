@@ -1,0 +1,91 @@
+{
+  "id": "dish7149",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7149.json",
+  "name_vi": "Cá hồi sake chiên giòn",
+  "name_en": "",
+  "name_normalized": "ca hoi sake chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Phi lê cá hồi",
+    "Sake"
+  ],
+  "secondary_ingredients": [
+    "Thì là"
+  ],
+  "seasonings": [
+    "Chanh vàng",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Sốt mayonnaise",
+    "Tương ớt",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05034",
+    "ingre05635",
+    "ingre01096",
+    "ingre06233",
+    "ingre00598",
+    "ingre02124",
+    "ingre05970",
+    "ingre07028",
+    "ingre06660"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá hồi",
+    "Sake",
+    "Chanh vàng",
+    "Thì là",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Sốt mayonnaise",
+    "Tương ớt",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Sake",
+    "Lemon",
+    "Dill",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Mayonnaise Sauce",
+    "Hot Sauce",
+    "Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca hoi",
+    "sake",
+    "chanh vang",
+    "thi la",
+    "bot chien gion",
+    "dau an",
+    "sot mayonnaise",
+    "tuong ot",
+    "tieu hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ hạt nêm"
+    }
+  ]
+}

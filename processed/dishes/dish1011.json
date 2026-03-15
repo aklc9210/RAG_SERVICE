@@ -1,0 +1,87 @@
+{
+  "id": "dish1011",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1011.json",
+  "name_vi": "Bánh trôi nước khoai lang tím nhân đậu xanh",
+  "name_en": "",
+  "name_normalized": "banh troi nuoc khoai lang tim nhan dau xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh bóc vỏ",
+    "Khoai lang tím"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Gừng tươi",
+    "Hành phi",
+    "Bột vani",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre07837",
+    "ingre03200",
+    "ingre02518",
+    "ingre03929",
+    "ingre07791",
+    "ingre02730",
+    "ingre00983",
+    "ingre03818",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Đậu xanh bóc vỏ",
+    "Khoai lang tím",
+    "Gừng tươi",
+    "Mè rang",
+    "Đậu phộng rang",
+    "Hành phi",
+    "Bột vani",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Green beans peeled",
+    "Purple potato",
+    "Ginger",
+    "Roasted Sesame Seeds",
+    "Roasted Peanut",
+    "Garlic Fried",
+    "Vanilla powder",
+    "Salt/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "dau xanh boc vo",
+    "khoai lang tim",
+    "gung tuoi",
+    "me rang",
+    "dau phong rang",
+    "hanh phi",
+    "bot vani",
+    "muoi duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

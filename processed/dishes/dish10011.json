@@ -1,0 +1,43 @@
+{
+  "id": "dish10011",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10011.json",
+  "name_vi": "Trà vải",
+  "name_en": "",
+  "name_normalized": "tra vai",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Vải tươi",
+    "Trà ô long túi lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre07198",
+    "ingre07635",
+    "ingre06740"
+  ],
+  "ingredient_names_vi": [
+    "Vải tươi",
+    "Đường phèn",
+    "Trà ô long túi lọc"
+  ],
+  "ingredient_names_en": [
+    "Fresh grapefruit",
+    "Brown Sugar",
+    "Tea Bag"
+  ],
+  "ingredient_names_normalized": [
+    "vai tuoi",
+    "duong phen",
+    "tra o long tui loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

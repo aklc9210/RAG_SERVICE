@@ -1,0 +1,60 @@
+{
+  "id": "dish1594",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1594.json",
+  "name_vi": "Bánh nhãn (bánh bi, cà)",
+  "name_en": "",
+  "name_normalized": "banh nhan banh bi ca",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột nếp",
+    "Đường",
+    "Gừng tươi"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00859",
+    "ingre07583",
+    "ingre02518",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột nếp",
+    "Đường",
+    "Gừng tươi",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Glutinous rice flour",
+    "Sugar",
+    "Ginger",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot nep",
+    "duong",
+    "gung tuoi",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh nhan (banh bi, ca)",
+      "new": "banh nhan banh bi ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

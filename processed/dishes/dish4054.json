@@ -1,0 +1,93 @@
+{
+  "id": "dish4054",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4054.json",
+  "name_vi": "Gà nướng phô mai Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "ga nuong pho mai han quoc",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Phô mai Mozzarella",
+    "Bánh gạo"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột ớt đỏ",
+    "Nước tương",
+    "Tương ớt Gochujang Hàn Quốc",
+    "Tiêu xay",
+    "Tỏi lớn",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre05092",
+    "ingre00085",
+    "ingre01030",
+    "ingre04790",
+    "ingre07034",
+    "ingre04124",
+    "ingre06644",
+    "ingre07092",
+    "ingre02485",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Phô mai Mozzarella",
+    "Bánh gạo",
+    "Bột ớt đỏ",
+    "Nước tương",
+    "Tương ớt Gochujang Hàn Quốc",
+    "Mật ong",
+    "Tiêu xay",
+    "Tỏi lớn",
+    "Gừng",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Mozzarella cheese",
+    "Glutinous Rice Cake",
+    "Red Chili Powder",
+    "Soy Sauce",
+    "Korean Chili Paste",
+    "Honey",
+    "Ground pepper",
+    "Large Garlic",
+    "Ginger",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "pho mai mozzarella",
+    "banh gao",
+    "bot ot do",
+    "nuoc tuong",
+    "tuong ot gochujang han quoc",
+    "mat ong",
+    "tieu xay",
+    "toi lon",
+    "gung",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

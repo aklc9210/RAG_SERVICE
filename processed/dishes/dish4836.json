@@ -1,0 +1,113 @@
+{
+  "id": "dish4836",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4836.json",
+  "name_vi": "Mì xào ốc giác rau muống",
+  "name_en": "",
+  "name_normalized": "mi xao oc giac rau muong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc giác",
+    "Rau muống",
+    "Mì gói"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Ớt bột",
+    "Ớt sa tế",
+    "Tương ớt",
+    "Đường trắng",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07941",
+    "ingre05289",
+    "ingre03952",
+    "ingre07063",
+    "ingre02741",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre07977",
+    "ingre08050",
+    "ingre07028",
+    "ingre07652",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ốc giác",
+    "Rau muống",
+    "Mì gói",
+    "Tỏi",
+    "Hành tây",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Ớt bột",
+    "Ớt sa tế",
+    "Tương ớt",
+    "Đường trắng",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Watercress",
+    "Noodle Packet",
+    "Garlic",
+    "Onion",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Chili powder",
+    "Bird's Eye Chili",
+    "Hot Sauce",
+    "White sugar",
+    "Fish Sauce",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "oc giac",
+    "rau muong",
+    "mi goi",
+    "toi",
+    "hanh tay",
+    "gung",
+    "sa",
+    "ot",
+    "ot bot",
+    "ot sa te",
+    "tuong ot",
+    "duong trang",
+    "nuoc mam",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

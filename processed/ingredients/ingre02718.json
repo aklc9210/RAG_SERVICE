@@ -1,0 +1,27 @@
+{
+  "id": "ingre02718",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02718.json",
+  "name_vi": "hành lá/ngò gai/rau om",
+  "name_en": "Parsley",
+  "name_normalized": "hanh la ngo gai rau om",
+  "synonyms": [
+    "rau mùi",
+    "rau thơm"
+  ],
+  "synonyms_normalized": [
+    "rau mui",
+    "rau thom"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ngo gai/rau om",
+      "new": "hanh la ngo gai rau om",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

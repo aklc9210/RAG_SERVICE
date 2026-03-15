@@ -1,0 +1,102 @@
+{
+  "id": "dish0340",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0340.json",
+  "name_vi": "Canh bắp cải thịt viên",
+  "name_en": "",
+  "name_normalized": "canh bap cai thit vien",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bắp cải",
+    "Bông cải xanh",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Thịt băm",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre00282",
+    "ingre02350",
+    "ingre06329",
+    "ingre01419",
+    "ingre02774",
+    "ingre07071",
+    "ingre04694",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre02124",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Bông cải xanh",
+    "Giò sống",
+    "Thịt băm",
+    "Cà rốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Dầu ăn",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Fresh sausage",
+    "Minced meat",
+    "Carrot",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Cooking oil",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "bong cai xanh",
+    "gio song",
+    "thit bam",
+    "ca rot",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc mam",
+    "hat nem",
+    "muoi",
+    "duong",
+    "dau an",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

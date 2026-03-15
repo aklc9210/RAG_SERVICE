@@ -1,0 +1,96 @@
+{
+  "id": "dish4890",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4890.json",
+  "name_vi": "Thịt heo xào kim chi",
+  "name_en": "",
+  "name_normalized": "thit heo xao kim chi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Kim chi",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đầu hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre03277",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre07717",
+    "ingre04343",
+    "ingre07977",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Kim chi",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Đầu hành lá",
+    "Ngò rí",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Chive;top",
+    "Parsley",
+    "Chili powder",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "kim chi",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "dau hanh la",
+    "ngo ri",
+    "ot bot",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

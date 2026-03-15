@@ -1,0 +1,111 @@
+{
+  "id": "dish4907",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4907.json",
+  "name_vi": "Bồ câu xào mướp",
+  "name_en": "",
+  "name_normalized": "bo cau xao muop",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bồ câu",
+    "Mướp",
+    "Rau nhút"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu ăn",
+    "Nước tương",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00500",
+    "ingre04103",
+    "ingre05342",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre07028",
+    "ingre02124",
+    "ingre04790",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bồ câu",
+    "Mướp",
+    "Rau nhút",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu ăn",
+    "Nước tương",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Cucumber",
+    "Water spinach",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Soy Sauce",
+    "Seasoning",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bo cau",
+    "muop",
+    "rau nhut",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "tuong ot",
+    "dau an",
+    "nuoc tuong",
+    "hat nem",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

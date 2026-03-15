@@ -1,0 +1,62 @@
+{
+  "id": "dish4213",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4213.json",
+  "name_vi": "Sườn nướng mật ong bằng lò nướng",
+  "name_en": "",
+  "name_normalized": "suon nuong mat ong bang lo nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Hành khô",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05799",
+    "ingre03642",
+    "ingre07063",
+    "ingre02667",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Sườn",
+    "Mật ong",
+    "Tỏi",
+    "Hành khô",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ribs",
+    "Honey",
+    "Garlic",
+    "Garlic Powder",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon",
+    "mat ong",
+    "toi",
+    "hanh kho",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

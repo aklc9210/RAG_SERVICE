@@ -1,0 +1,113 @@
+{
+  "id": "dish3409",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3409.json",
+  "name_vi": "Phở gạo lứt nước lèo",
+  "name_en": "",
+  "name_normalized": "pho gao lut nuoc leo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Phở gạo lứt khô",
+    "Chả chay",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Mía",
+    "Hành tím",
+    "Hành tây",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Củ cải muối",
+    "Bạch đậu khấu",
+    "Hồi",
+    "Quế",
+    "Gừng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05136",
+    "ingre01260",
+    "ingre01868",
+    "ingre01419",
+    "ingre04910",
+    "ingre01865",
+    "ingre00438",
+    "ingre03097",
+    "ingre05186",
+    "ingre04025",
+    "ingre02485",
+    "ingre02768",
+    "ingre02741",
+    "ingre02094",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Phở gạo lứt khô",
+    "Chả chay",
+    "Củ cải trắng",
+    "Cà rốt",
+    "Nấm hương",
+    "Củ cải muối",
+    "Bạch đậu khấu",
+    "Hồi",
+    "Quế",
+    "Mía",
+    "Gừng",
+    "Hành tím",
+    "Hành tây",
+    "Dầu mè",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice Vermicelli",
+    "Vegetarian sausage",
+    "White radish",
+    "Carrot",
+    "Mushroom",
+    "Pickled radish",
+    "Star Anise",
+    "Sage",
+    "Cinnamon",
+    "Sugarcane",
+    "Ginger",
+    "Shallot",
+    "Onion",
+    "Sesame oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "pho gao lut kho",
+    "cha chay",
+    "cu cai trang",
+    "ca rot",
+    "nam huong",
+    "cu cai muoi",
+    "bach dau khau",
+    "hoi",
+    "que",
+    "mia",
+    "gung",
+    "hanh tim",
+    "hanh tay",
+    "dau me",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

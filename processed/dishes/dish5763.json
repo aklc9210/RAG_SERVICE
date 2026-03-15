@@ -1,0 +1,93 @@
+{
+  "id": "dish5763",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5763.json",
+  "name_vi": "Sườn chay kho nấm bào ngư",
+  "name_en": "",
+  "name_normalized": "suon chay kho nam bao ngu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn non chay",
+    "Nấm bào ngư trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Tương ớt",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05890",
+    "ingre04898",
+    "ingre07966",
+    "ingre02673",
+    "ingre02124",
+    "ingre04790",
+    "ingre02997",
+    "ingre07028",
+    "ingre03746",
+    "ingre07583",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non chay",
+    "Nấm bào ngư trắng",
+    "Ớt",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Tương ớt",
+    "Muối",
+    "Đường",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Vegetable spare ribs",
+    "White oyster mushroom",
+    "Pepper",
+    "Scallion",
+    "Cooking oil",
+    "Soy Sauce",
+    "Vegetarian Seasoning",
+    "Hot Sauce",
+    "Salt",
+    "Sugar",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "suon non chay",
+    "nam bao ngu trang",
+    "ot",
+    "hanh la",
+    "dau an",
+    "nuoc tuong",
+    "hat nem chay",
+    "tuong ot",
+    "muoi",
+    "duong",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

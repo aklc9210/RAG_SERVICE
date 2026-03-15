@@ -1,0 +1,98 @@
+{
+  "id": "dish8605",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8605.json",
+  "name_vi": "Óc bò chưng trứng",
+  "name_en": "",
+  "name_normalized": "oc bo chung trung",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Óc bò",
+    "Trứng gà ta",
+    "Ngò"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07467",
+    "ingre06837",
+    "ingre04326",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre04694",
+    "ingre02124",
+    "ingre06644",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Óc bò",
+    "Trứng gà ta",
+    "Ngò",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef liver",
+    "Chicken egg",
+    "Cilantro",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground pepper",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc bo",
+    "trung ga ta",
+    "ngo",
+    "hanh tim",
+    "toi",
+    "gung",
+    "nuoc mam",
+    "dau an",
+    "tieu xay",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

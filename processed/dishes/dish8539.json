@@ -1,0 +1,109 @@
+{
+  "id": "dish8539",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8539.json",
+  "name_vi": "Khô gà",
+  "name_en": "",
+  "name_normalized": "kho ga",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Gừng nhỏ",
+    "Lá chanh",
+    "Tỏi",
+    "Bột ớt",
+    "Bột ngũ vị hương",
+    "Nước mắm",
+    "Muối/ đường nâu"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre02512",
+    "ingre02768",
+    "ingre03370",
+    "ingre07063",
+    "ingre05900",
+    "ingre01015",
+    "ingre00815",
+    "ingre04694",
+    "ingre02134",
+    "ingre03820"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Gừng nhỏ",
+    "Hành tím",
+    "Lá chanh",
+    "Tỏi",
+    "Sả",
+    "Bột ớt",
+    "Bột ngũ vị hương",
+    "Nước mắm",
+    "Dầu điều",
+    "Muối/ đường nâu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Ginger",
+    "Shallot",
+    "Lime leaf",
+    "Garlic",
+    "Lemongrass",
+    "Red Pepper Powder",
+    "Five-Spice Powder",
+    "Fish Sauce",
+    "Peanut oil",
+    "Salt/Brown Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "gung nho",
+    "hanh tim",
+    "la chanh",
+    "toi",
+    "sa",
+    "bot ot",
+    "bot ngu vi huong",
+    "nuoc mam",
+    "dau dieu",
+    "muoi duong nau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong nau",
+      "new": "muoi duong nau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường nâu"
+    }
+  ]
+}

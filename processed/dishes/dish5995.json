@@ -1,0 +1,97 @@
+{
+  "id": "dish5995",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5995.json",
+  "name_vi": "Sườn kho trứng cút",
+  "name_en": "",
+  "name_normalized": "suon kho trung cut",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn non",
+    "Trứng cút",
+    "Nước dừa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre06816",
+    "ingre04622",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04672",
+    "ingre04694",
+    "ingre02995",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Trứng cút",
+    "Nước dừa",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước màu",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Quail egg",
+    "Coconut water",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Food coloring",
+    "Fish Sauce",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "trung cut",
+    "nuoc dua",
+    "toi",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc mau",
+    "nuoc mam",
+    "hat nem",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

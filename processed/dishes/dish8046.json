@@ -1,0 +1,113 @@
+{
+  "id": "dish8046",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8046.json",
+  "name_vi": "Nộm giá đỗ tim cật",
+  "name_en": "",
+  "name_normalized": "nom gia do tim cat",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cật heo",
+    "Gan heo",
+    "Giá đỗ",
+    "Rau thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rừng"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Sữa tươi không đường",
+    "Tương ớt",
+    "Nước cốt chanh",
+    "Muối",
+    "Đường",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01815",
+    "ingre02242",
+    "ingre02337",
+    "ingre05385",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre05616",
+    "ingre06147",
+    "ingre07028",
+    "ingre04538",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cật heo",
+    "Gan heo",
+    "Giá đỗ",
+    "Rau thơm",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Rừng",
+    "Sữa tươi không đường",
+    "Tương ớt",
+    "Nước cốt chanh",
+    "Muối",
+    "Đường",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Pork liver",
+    "Bean sprouts",
+    "Basil",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Forest",
+    "Fat-free Milk",
+    "Hot Sauce",
+    "Lemon juice",
+    "Salt",
+    "Sugar",
+    "Ground pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "cat heo",
+    "gan heo",
+    "gia do",
+    "rau thom",
+    "ot",
+    "toi",
+    "hanh tim",
+    "rung",
+    "sua tuoi khong duong",
+    "tuong ot",
+    "nuoc cot chanh",
+    "muoi",
+    "duong",
+    "tieu xay",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

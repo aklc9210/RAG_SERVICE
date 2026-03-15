@@ -1,0 +1,100 @@
+{
+  "id": "dish3149",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3149.json",
+  "name_vi": "Miến sườn cay",
+  "name_en": "",
+  "name_normalized": "mien suon cay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sườn cây",
+    "Miến"
+  ],
+  "secondary_ingredients": [
+    "Sả cây",
+    "Hành lá/ lá quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Đường",
+    "Sa tế",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05875",
+    "ingre03710",
+    "ingre07063",
+    "ingre08055",
+    "ingre08026",
+    "ingre05909",
+    "ingre02699",
+    "ingre04694",
+    "ingre07583",
+    "ingre05621",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cây",
+    "Miến",
+    "Tỏi",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Sả cây",
+    "Hành lá/ lá quế",
+    "Nước mắm",
+    "Đường",
+    "Sa tế",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rib骨imonial: The translation provided (Rib骨) seems incorrect as \"sườn cây\" specifically refers to a type of rib used in",
+    "Rice vermicelli",
+    "Garlic",
+    "Hot pepper",
+    "Fresh Ginger",
+    "Cilantro/Cinnamon Leaf",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon cay",
+    "mien",
+    "toi",
+    "ot sung",
+    "ot hiem",
+    "sa cay",
+    "hanh la la que",
+    "nuoc mam",
+    "duong",
+    "sa te",
+    "hat nem",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ la que",
+      "new": "hanh la la que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ lá quế"
+    }
+  ]
+}

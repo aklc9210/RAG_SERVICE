@@ -1,0 +1,92 @@
+{
+  "id": "dish2019",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2019.json",
+  "name_vi": "Bánh nếp nhân thịt",
+  "name_en": "",
+  "name_normalized": "banh nep nhan thit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Miến",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Dầu ăn",
+    "Tiêu",
+    "Bột ngọt",
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre06414",
+    "ingre04930",
+    "ingre04910",
+    "ingre03710",
+    "ingre02768",
+    "ingre02124",
+    "ingre06612",
+    "ingre00819",
+    "ingre04694",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Thịt heo xay",
+    "Nấm mèo",
+    "Nấm hương",
+    "Miến",
+    "Hành tím",
+    "Dầu ăn",
+    "Tiêu",
+    "Bột ngọt",
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Ground Pork",
+    "Mushroom",
+    "Rice vermicelli",
+    "Shallot",
+    "Cooking oil",
+    "Pepper",
+    "MSG",
+    "Fish Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "thit heo xay",
+    "nam meo",
+    "nam huong",
+    "mien",
+    "hanh tim",
+    "dau an",
+    "tieu",
+    "bot ngot",
+    "nuoc mam",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "dish0689",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0689.json",
+  "name_vi": "Súp vi cá mập",
+  "name_en": "",
+  "name_normalized": "sup vi ca map",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Vi cá mập"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Súp"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Rượu trắng",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07155",
+    "ingre02645",
+    "ingre02485",
+    "ingre05840",
+    "ingre05574",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Vi cá mập",
+    "Hành boa rô",
+    "Gừng",
+    "Súp",
+    "Rượu trắng",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Shark fin",
+    "Garlic",
+    "Ginger",
+    "Soup",
+    "White wine",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "vi ca map",
+    "hanh boa ro",
+    "gung",
+    "sup",
+    "ruou trang",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre03640",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03640.json",
+  "name_vi": "mayonnaise/ tương ớt",
+  "name_en": "Mayonnaise/ Tương ớt -> Hot sauce",
+  "name_normalized": "mayonnaise tuong ot",
+  "synonyms": [
+    "tương ớt",
+    "nước chấm cay"
+  ],
+  "synonyms_normalized": [
+    "tuong ot",
+    "nuoc cham cay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mayonnaise/ tuong ot",
+      "new": "mayonnaise tuong ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "dish8181",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8181.json",
+  "name_vi": "Nộm mực khô hoa chuối",
+  "name_en": "",
+  "name_normalized": "nom muc kho hoa chuoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Mực khô"
+  ],
+  "secondary_ingredients": [
+    "Bắp chuối",
+    "Khế",
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04266",
+    "ingre00452",
+    "ingre03268",
+    "ingre02862",
+    "ingre07966",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Mực khô",
+    "Bắp chuối",
+    "Khế",
+    "Húng quế",
+    "Ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Dried squid",
+    "Banana",
+    "Kumquat",
+    "Cinnamon basil",
+    "Pepper",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "muc kho",
+    "bap chuoi",
+    "khe",
+    "hung que",
+    "ot",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

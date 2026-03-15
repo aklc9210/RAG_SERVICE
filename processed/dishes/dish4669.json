@@ -1,0 +1,77 @@
+{
+  "id": "dish4669",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4669.json",
+  "name_vi": "Tim bò xào cần tây",
+  "name_en": "",
+  "name_normalized": "tim bo xao can tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tim bò",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cần tây",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06556",
+    "ingre02741",
+    "ingre01812",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre02094",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Tim bò",
+    "Hành tây",
+    "Cần tây",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Dầu mè",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef liver",
+    "Onion",
+    "Celery",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sesame oil",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tim bo",
+    "hanh tay",
+    "can tay",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "dau me",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish5962",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5962.json",
+  "name_vi": "Kho quẹt chay bằng bánh mì",
+  "name_en": "",
+  "name_normalized": "kho quet chay bang banh mi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bánh mì sandwich",
+    "Hành boa-rô cắt nhỏ",
+    "Nấm đông cô"
+  ],
+  "secondary_ingredients": [
+    "Rau luộc ăn kèm tùy thích"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tiêu xanh",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00117",
+    "ingre02652",
+    "ingre04966",
+    "ingre07966",
+    "ingre06640",
+    "ingre05283",
+    "ingre02124",
+    "ingre04697",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì sandwich",
+    "Hành boa-rô cắt nhỏ",
+    "Nấm đông cô",
+    "Ớt",
+    "Tiêu xanh",
+    "Rau luộc ăn kèm tùy thích",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Sandwich bread",
+    "Chopped Shallot",
+    "Mushroom",
+    "Pepper",
+    "Green pepper",
+    "Leafy Greens",
+    "Cooking oil",
+    "Vegetarian fish sauce",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi sandwich",
+    "hanh boa ro cat nho",
+    "nam dong co",
+    "ot",
+    "tieu xanh",
+    "rau luoc an kem tuy thich",
+    "dau an",
+    "nuoc mam chay",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa-ro cat nho",
+      "new": "hanh boa ro cat nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa-rô cắt nhỏ"
+    }
+  ]
+}

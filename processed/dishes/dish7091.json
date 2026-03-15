@@ -1,0 +1,77 @@
+{
+  "id": "dish7091",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7091.json",
+  "name_vi": "Mực chiên giòn bơ tỏi",
+  "name_en": "",
+  "name_normalized": "muc chien gion bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Bơ mặn"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre00399",
+    "ingre00598",
+    "ingre06823",
+    "ingre02485",
+    "ingre07063",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Bơ mặn",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Salted butter",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Ginger",
+    "Garlic",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "bo man",
+    "bot chien gion",
+    "trung ga",
+    "gung",
+    "toi",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

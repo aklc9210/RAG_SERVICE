@@ -1,0 +1,120 @@
+{
+  "id": "dish5111",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5111.json",
+  "name_vi": "Mì gói xào thịt bò",
+  "name_en": "",
+  "name_normalized": "mi goi xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Mì gói"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải",
+    "Hành tây",
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Cải ngọt",
+    "Tỏi",
+    "Dầu tỏi phi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước tương",
+    "Tương ớt",
+    "Tiêu xay/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03963",
+    "ingre01419",
+    "ingre01787",
+    "ingre00457",
+    "ingre02741",
+    "ingre04343",
+    "ingre07063",
+    "ingre02768",
+    "ingre02117",
+    "ingre02124",
+    "ingre02080",
+    "ingre04790",
+    "ingre07028",
+    "ingre06649"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Mì gói",
+    "Cà rốt",
+    "Cải ngọt",
+    "Bắp cải",
+    "Hành tây",
+    "Ngò rí",
+    "Tỏi",
+    "Hành tím",
+    "Dầu tỏi phi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước tương",
+    "Tương ớt",
+    "Tiêu xay/ đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Noodles",
+    "Carrot",
+    "Sweet cabbage",
+    "Cabbage",
+    "Onion",
+    "Parsley",
+    "Garlic",
+    "Shallot",
+    "Garlic oil",
+    "Cooking oil",
+    "Soy sauce",
+    "Hot Sauce",
+    "Ground pepper/sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "mi goi",
+    "ca rot",
+    "cai ngot",
+    "bap cai",
+    "hanh tay",
+    "ngo ri",
+    "toi",
+    "hanh tim",
+    "dau toi phi",
+    "dau an",
+    "dau hao",
+    "nuoc tuong",
+    "tuong ot",
+    "tieu xay duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ duong",
+      "new": "tieu xay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ đường"
+    }
+  ]
+}

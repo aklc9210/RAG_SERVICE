@@ -1,0 +1,91 @@
+{
+  "id": "dish2391",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2391.json",
+  "name_vi": "Bánh charlotte cherry",
+  "name_en": "",
+  "name_normalized": "banh charlotte cherry",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cherry",
+    "Bánh Sampa",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Whipping cream",
+    "Tinh chất vani",
+    "Gelatin lá",
+    "Bánh bông lan 12cm",
+    "Cherry (không bắt buộc)"
+  ],
+  "seasonings": [
+    "Đường",
+    "Tinh bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre01118",
+    "ingre00168",
+    "ingre03584",
+    "ingre06144",
+    "ingre07313",
+    "ingre07583",
+    "ingre06562",
+    "ingre06592",
+    "ingre02261",
+    "ingre00066",
+    "ingre01119"
+  ],
+  "ingredient_names_vi": [
+    "Cherry",
+    "Bánh Sampa",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi",
+    "Whipping cream",
+    "Đường",
+    "Tinh bột bắp",
+    "Tinh chất vani",
+    "Gelatin lá",
+    "Bánh bông lan 12cm",
+    "Cherry (không bắt buộc)"
+  ],
+  "ingredient_names_en": [
+    "Cherry",
+    "Samosa",
+    "Egg yolk",
+    "Fresh Milk",
+    "Whipping cream",
+    "Sugar",
+    "Corn starch",
+    "Vanilla extract",
+    "Leaf gelatin",
+    "Layer Cake 12cm"
+  ],
+  "ingredient_names_normalized": [
+    "cherry",
+    "banh sampa",
+    "long do trung ga",
+    "sua tuoi",
+    "whipping cream",
+    "duong",
+    "tinh bot bap",
+    "tinh chat vani",
+    "gelatin la",
+    "banh bong lan 12cm",
+    "cherry khong bat buoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cherry (khong bat buoc)",
+      "new": "cherry khong bat buoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cherry (không bắt buộc)"
+    }
+  ]
+}

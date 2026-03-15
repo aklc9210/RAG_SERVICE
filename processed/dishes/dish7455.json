@@ -1,0 +1,68 @@
+{
+  "id": "dish7455",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7455.json",
+  "name_vi": "Lươn chiên giòn lá lốp",
+  "name_en": "",
+  "name_normalized": "luon chien gion la lop",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Lươn"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre03461",
+    "ingre00598",
+    "ingre06823",
+    "ingre02768",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Lá lốt",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Hành tím",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Cinnamon Leaf",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Shallot",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "la lot",
+    "bot chien gion",
+    "trung ga",
+    "hanh tim",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "dish6861",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6861.json",
+  "name_vi": "Tokbokki chiên xù",
+  "name_en": "",
+  "name_normalized": "tokbokki chien xu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tokbokki - bánh gạo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre06674",
+    "ingre00598",
+    "ingre00609",
+    "ingre06801"
+  ],
+  "ingredient_names_vi": [
+    "Tokbokki - bánh gạo",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng"
+  ],
+  "ingredient_names_en": [
+    "Rice cake",
+    "Puffed Rice Powder",
+    "Egg"
+  ],
+  "ingredient_names_normalized": [
+    "tokbokki banh gao",
+    "bot chien gion",
+    "bot chien xu",
+    "trung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tokbokki - banh gao",
+      "new": "tokbokki banh gao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tokbokki - bánh gạo"
+    }
+  ]
+}

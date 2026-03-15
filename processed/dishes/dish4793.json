@@ -1,0 +1,82 @@
+{
+  "id": "dish4793",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4793.json",
+  "name_vi": "Cần tây xào tỏi",
+  "name_en": "",
+  "name_normalized": "can tay xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Đường/ muối",
+    "Dầu hào",
+    "Rượu Thiệu Hưng",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01812",
+    "ingre07063",
+    "ingre02485",
+    "ingre04694",
+    "ingre07680",
+    "ingre02080",
+    "ingre05571",
+    "ingre03936",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cần tây",
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Đường/ muối",
+    "Dầu hào",
+    "Rượu Thiệu Hưng",
+    "Mè trắng rang",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Celery",
+    "Garlic",
+    "Ginger",
+    "Fish Sauce",
+    "Sugar/Salt",
+    "Soy sauce",
+    "Saffron",
+    "Roasted White Sesame",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "can tay",
+    "toi",
+    "gung",
+    "nuoc mam",
+    "duong muoi",
+    "dau hao",
+    "ruou thieu hung",
+    "me trang rang",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish2918",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2918.json",
+  "name_vi": "Bánh nậm Huế",
+  "name_en": "",
+  "name_normalized": "banh nam hue",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tôm",
+    "Thịt nạc",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Bột màu điều"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre06930",
+    "ingre06455",
+    "ingre04490",
+    "ingre00754"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Tôm",
+    "Thịt nạc",
+    "Nước",
+    "Bột màu điều"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Shrimp",
+    "Pork Belly",
+    "Water",
+    "Caramel Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "tom",
+    "thit nac",
+    "nuoc",
+    "bot mau dieu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

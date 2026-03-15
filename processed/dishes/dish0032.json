@@ -1,0 +1,80 @@
+{
+  "id": "dish0032",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0032.json",
+  "name_vi": "Bí đao luộc",
+  "name_en": "",
+  "name_normalized": "bi dao luoc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đao"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi/ớt",
+    "Muối",
+    "Nước tương",
+    "Xì dầu"
+  ],
+  "ingredient_ids": [
+    "ingre00247",
+    "ingre02485",
+    "ingre02673",
+    "ingre07128",
+    "ingre03746",
+    "ingre04790",
+    "ingre07381"
+  ],
+  "ingredient_names_vi": [
+    "Bí đao",
+    "Gừng",
+    "Hành lá",
+    "Tỏi/ớt",
+    "Muối",
+    "Nước tương",
+    "Xì dầu"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Ginger",
+    "Scallion",
+    "Garlic/Capsicum",
+    "Salt",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bi dao",
+    "gung",
+    "hanh la",
+    "toi ot",
+    "muoi",
+    "nuoc tuong",
+    "xi dau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ot",
+      "new": "toi ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ớt"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "dish7914",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7914.json",
+  "name_vi": "Lẩu riêu cá chép giòn",
+  "name_en": "",
+  "name_normalized": "lau rieu ca chep gion",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá chép giòn",
+    "Hành tím",
+    "Nghệ tươi",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Hành tây",
+    "Ngải bún",
+    "Cơm mẻ",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01493",
+    "ingre02768",
+    "ingre04308",
+    "ingre01354",
+    "ingre06247",
+    "ingre02741",
+    "ingre01079",
+    "ingre04384",
+    "ingre01753",
+    "ingre05420",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép giòn",
+    "Hành tím",
+    "Nghệ tươi",
+    "Cà chua",
+    "Thơm",
+    "Hành tây",
+    "Chanh",
+    "Ngải bún",
+    "Cơm mẻ",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Glass carp",
+    "Shallot",
+    "Ginger",
+    "Tomato",
+    "Basil",
+    "Onion",
+    "Lemon",
+    "Glutinous Rice",
+    "Side vegetable",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep gion",
+    "hanh tim",
+    "nghe tuoi",
+    "ca chua",
+    "thom",
+    "hanh tay",
+    "chanh",
+    "ngai bun",
+    "com me",
+    "rau an kem",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

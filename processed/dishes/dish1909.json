@@ -1,0 +1,107 @@
+{
+  "id": "dish1909",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1909.json",
+  "name_vi": "Bánh trung thu rau câu nhân khoai môn",
+  "name_en": "",
+  "name_normalized": "banh trung thu rau cau nhan khoai mon",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai môn",
+    "Khoai lang tím"
+  ],
+  "secondary_ingredients": [
+    "Mứt bí",
+    "Hạt dưa rang vàng",
+    "Lá dứa",
+    "Cà phê sữa"
+  ],
+  "seasonings": [
+    "Trứng muối",
+    "Bột rau câu giòn",
+    "Bột mì đa dụng",
+    "Bột bánh dẻo",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Đường phèn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre03200",
+    "ingre06849",
+    "ingre00899",
+    "ingre00791",
+    "ingre00532",
+    "ingre04218",
+    "ingre02931",
+    "ingre03417",
+    "ingre01407",
+    "ingre04554",
+    "ingre02124",
+    "ingre07635",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Khoai lang tím",
+    "Trứng muối",
+    "Bột rau câu giòn",
+    "Bột mì đa dụng",
+    "Bột bánh dẻo",
+    "Mứt bí",
+    "Hạt dưa rang vàng",
+    "Lá dứa",
+    "Cà phê sữa",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Đường phèn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Purple potato",
+    "Pickled egg",
+    "Jello powder",
+    "All-purpose flour",
+    "Sweet Rice Flour",
+    "Pumpkin candy",
+    "Pumpkin Seeds Roasted Yellow",
+    "Pandan叶",
+    "Milk Coffee",
+    "Coconut milk",
+    "Cooking oil",
+    "Brown Sugar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "khoai lang tim",
+    "trung muoi",
+    "bot rau cau gion",
+    "bot mi da dung",
+    "bot banh deo",
+    "mut bi",
+    "hat dua rang vang",
+    "la dua",
+    "ca phe sua",
+    "nuoc cot dua",
+    "dau an",
+    "duong phen",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

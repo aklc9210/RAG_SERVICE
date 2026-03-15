@@ -1,0 +1,103 @@
+{
+  "id": "dish4338",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4338.json",
+  "name_vi": "Mực dồn thịt nướng",
+  "name_en": "",
+  "name_normalized": "muc don thit nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Mực ống",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt sừng",
+    "Sả băm",
+    "Hành tím băm",
+    "Sa tế",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước tương",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre06414",
+    "ingre06823",
+    "ingre04343",
+    "ingre04329",
+    "ingre08055",
+    "ingre05905",
+    "ingre02774",
+    "ingre05621",
+    "ingre07063",
+    "ingre04538",
+    "ingre04790",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Thịt heo xay",
+    "Trứng gà",
+    "Ngò rí",
+    "Ngò gai",
+    "Ớt sừng",
+    "Sả băm",
+    "Hành tím băm",
+    "Sa tế",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước tương",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Ground Pork",
+    "Chicken egg",
+    "Parsley",
+    "Culantro",
+    "Hot pepper",
+    "Garlic Paste",
+    "Chopped Scallion",
+    "Fish sauce",
+    "Garlic",
+    "Lemon juice",
+    "Soy Sauce",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "thit heo xay",
+    "trung ga",
+    "ngo ri",
+    "ngo gai",
+    "ot sung",
+    "sa bam",
+    "hanh tim bam",
+    "sa te",
+    "toi",
+    "nuoc cot chanh",
+    "nuoc tuong",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

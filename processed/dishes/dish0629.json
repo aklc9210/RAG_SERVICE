@@ -1,0 +1,106 @@
+{
+  "id": "dish0629",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0629.json",
+  "name_vi": "Canh bí đao nấu tép",
+  "name_en": "",
+  "name_normalized": "canh bi dao nau tep",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đao xanh",
+    "Tép tươi",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00252",
+    "ingre06922",
+    "ingre02673",
+    "ingre04343",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bí đao xanh",
+    "Tép tươi",
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Green squash",
+    "Fresh shrimp",
+    "Scallion",
+    "Parsley",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bi dao xanh",
+    "tep tuoi",
+    "hanh la",
+    "ngo ri",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

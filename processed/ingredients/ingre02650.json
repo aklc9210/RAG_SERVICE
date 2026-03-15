@@ -1,0 +1,25 @@
+{
+  "id": "ingre02650",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02650.json",
+  "name_vi": "hành boa-rô",
+  "name_en": "Garlic",
+  "name_normalized": "hanh boa ro",
+  "synonyms": [
+    "hành tây"
+  ],
+  "synonyms_normalized": [
+    "hanh tay"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh boa-ro",
+      "new": "hanh boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

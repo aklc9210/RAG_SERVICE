@@ -1,0 +1,98 @@
+{
+  "id": "dish8418",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8418.json",
+  "name_vi": "Gà hầm đậu đỏ",
+  "name_en": "",
+  "name_normalized": "ga ham dau do",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Đậu đỏ"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô khô",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre07868",
+    "ingre01419",
+    "ingre04967",
+    "ingre02768",
+    "ingre02485",
+    "ingre04790",
+    "ingre02124",
+    "ingre06644",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Đậu đỏ",
+    "Cà rốt",
+    "Nấm đông cô khô",
+    "Hành tím",
+    "Gừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Red beans",
+    "Carrot",
+    "Dried shiitake mushrooms",
+    "Shallot",
+    "Ginger",
+    "Soy Sauce",
+    "Cooking oil",
+    "Ground pepper",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "dau do",
+    "ca rot",
+    "nam dong co kho",
+    "hanh tim",
+    "gung",
+    "nuoc tuong",
+    "dau an",
+    "tieu xay",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

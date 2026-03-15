@@ -1,0 +1,81 @@
+{
+  "id": "dish1481",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1481.json",
+  "name_vi": "Bánh sừng bò (bánh croissant)",
+  "name_en": "",
+  "name_normalized": "banh sung bo banh croissant",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Men nở khô",
+    "Nước cốt chanh",
+    "Bơ đun chảy",
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Đường trắng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03688",
+    "ingre06144",
+    "ingre04538",
+    "ingre00412",
+    "ingre00791",
+    "ingre06823",
+    "ingre07652",
+    "ingre03746",
+    "ingre00382"
+  ],
+  "ingredient_names_vi": [
+    "Men nở khô",
+    "Sữa tươi",
+    "Nước cốt chanh",
+    "Bơ đun chảy",
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Đường trắng",
+    "Muối",
+    "Bơ lạt"
+  ],
+  "ingredient_names_en": [
+    "Baking Powder",
+    "Fresh Milk",
+    "Lemon juice",
+    "Melted butter",
+    "All-purpose flour",
+    "Chicken egg",
+    "White sugar",
+    "Salt",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "men no kho",
+    "sua tuoi",
+    "nuoc cot chanh",
+    "bo dun chay",
+    "bot mi da dung",
+    "trung ga",
+    "duong trang",
+    "muoi",
+    "bo lat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh sung bo (banh croissant)",
+      "new": "banh sung bo banh croissant",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

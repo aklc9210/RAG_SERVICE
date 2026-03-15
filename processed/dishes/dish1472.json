@@ -1,0 +1,85 @@
+{
+  "id": "dish1472",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1472.json",
+  "name_vi": "Bánh chị - Đặc sản Bình Dương",
+  "name_en": "",
+  "name_normalized": "banh chi dac san binh duong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước sôi",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Đường",
+    "Tương đen",
+    "Tương xí muội"
+  ],
+  "ingredient_ids": [
+    "ingre06941",
+    "ingre00849",
+    "ingre02673",
+    "ingre04743",
+    "ingre07583",
+    "ingre07012",
+    "ingre07009",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Tôm khô",
+    "Bột năng",
+    "Hành lá",
+    "Nước sôi",
+    "Đường",
+    "Tương đen",
+    "Tương xí muội",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Dried Shrimp",
+    "Cornstarch",
+    "Scallion",
+    "Boiling water",
+    "Sugar",
+    "Black Soy Sauce",
+    "Soy Sauce",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "tom kho",
+    "bot nang",
+    "hanh la",
+    "nuoc soi",
+    "duong",
+    "tuong den",
+    "tuong xi muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh chi - dac san binh duong",
+      "new": "banh chi dac san binh duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

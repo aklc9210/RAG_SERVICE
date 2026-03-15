@@ -1,0 +1,93 @@
+{
+  "id": "dish0257",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0257.json",
+  "name_vi": "Canh bầu nấu nấm tôm khô",
+  "name_en": "",
+  "name_normalized": "canh bau nau nam tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bầu",
+    "Nấm rơm",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00440",
+    "ingre04953",
+    "ingre06941",
+    "ingre02673",
+    "ingre04343",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Bầu",
+    "Nấm rơm",
+    "Tôm khô",
+    "Hành lá",
+    "Ngò rí",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Zucchini",
+    "Strawberry mushroom",
+    "Dried Shrimp",
+    "Scallion",
+    "Parsley",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bau",
+    "nam rom",
+    "tom kho",
+    "hanh la",
+    "ngo ri",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

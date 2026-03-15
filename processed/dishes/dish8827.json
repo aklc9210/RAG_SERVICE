@@ -1,0 +1,62 @@
+{
+  "id": "dish8827",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8827.json",
+  "name_vi": "Ruốc cá trắm đen",
+  "name_en": "",
+  "name_normalized": "ruoc ca tram den",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cá trắm đen"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu gấc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01642",
+    "ingre05900",
+    "ingre02074",
+    "ingre04694",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá trắm đen",
+    "Sả",
+    "Dầu gấc",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Black Perch",
+    "Lemongrass",
+    "Red bean oil",
+    "Fish Sauce",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca tram den",
+    "sa",
+    "dau gac",
+    "nuoc mam",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

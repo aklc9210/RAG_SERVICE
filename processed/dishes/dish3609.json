@@ -1,0 +1,147 @@
+{
+  "id": "dish3609",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3609.json",
+  "name_vi": "Kem cà phê chocolate chip",
+  "name_en": "",
+  "name_normalized": "kem ca phe chocolate chip",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Kem whipping cream:",
+    "Chocolate đen:"
+  ],
+  "secondary_ingredients": [
+    "Cà phê nguyên hạt :",
+    "Tinh chất vani:",
+    "Sữa tươi:"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng gà:",
+    "Rượu trắng:",
+    "Muối:",
+    "Đường trắng:"
+  ],
+  "ingredient_ids": [
+    "ingre03177",
+    "ingre01156",
+    "ingre01404",
+    "ingre06594",
+    "ingre06164",
+    "ingre03586",
+    "ingre05585",
+    "ingre03831",
+    "ingre07655"
+  ],
+  "ingredient_names_vi": [
+    "Kem whipping cream:",
+    "Chocolate đen:",
+    "Cà phê nguyên hạt :",
+    "Tinh chất vani:",
+    "Sữa tươi:",
+    "Lòng đỏ trứng gà:",
+    "Rượu trắng:",
+    "Muối:",
+    "Đường trắng:"
+  ],
+  "ingredient_names_en": [
+    "Whipping Cream",
+    "Dark chocolate:",
+    "Whole coffee beans ->",
+    "Vanilla extract:",
+    "Fresh Milk",
+    "Egg yolk:",
+    "White Rum: ->",
+    "Salt:",
+    "White sugar:"
+  ],
+  "ingredient_names_normalized": [
+    "kem whipping cream",
+    "chocolate den",
+    "ca phe nguyen hat",
+    "tinh chat vani",
+    "sua tuoi",
+    "long do trung ga",
+    "ruou trang",
+    "muoi",
+    "duong trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem whipping cream:",
+      "new": "kem whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem whipping cream:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chocolate den:",
+      "new": "chocolate den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chocolate đen:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ca phe nguyen hat :",
+      "new": "ca phe nguyen hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cà phê nguyên hạt :"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tinh chat vani:",
+      "new": "tinh chat vani",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tinh chất vani:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua tuoi:",
+      "new": "sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa tươi:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "long do trung ga:",
+      "new": "long do trung ga",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lòng đỏ trứng gà:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ruou trang:",
+      "new": "ruou trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rượu trắng:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi:",
+      "new": "muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong trang:",
+      "new": "duong trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường trắng:"
+    }
+  ]
+}

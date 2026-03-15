@@ -1,0 +1,27 @@
+{
+  "id": "ingre07975",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07975.json",
+  "name_vi": "ớt băm/ớt cắt sợi",
+  "name_en": "Chili Powder/Sliced Chili",
+  "name_normalized": "ot bam ot cat soi",
+  "synonyms": [
+    "ớt đinh",
+    "ớt xắt"
+  ],
+  "synonyms_normalized": [
+    "ot dinh",
+    "ot xat"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ot bam/ot cat soi",
+      "new": "ot bam ot cat soi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish5605",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5605.json",
+  "name_vi": "Cá trê om riềng mẻ",
+  "name_en": "",
+  "name_normalized": "ca tre om rieng me",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê",
+    "Riềng",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Mẻ",
+    "Rau răm",
+    "Hành hoa"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Ớt cay",
+    "Chanh",
+    "Nước mắm",
+    "Bột canh",
+    "Mì chính",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre05436",
+    "ingre04304",
+    "ingre04165",
+    "ingre05359",
+    "ingre02663",
+    "ingre02667",
+    "ingre07993",
+    "ingre01079",
+    "ingre04694",
+    "ingre00587",
+    "ingre03958",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Riềng",
+    "Nghệ",
+    "Mẻ",
+    "Rau răm",
+    "Hành hoa",
+    "Hành khô",
+    "Ớt cay",
+    "Chanh",
+    "Nước mắm",
+    "Bột canh",
+    "Mì chính",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Galangal",
+    "Turmeric",
+    "Tamarind",
+    "Vietnamese coriander",
+    "Garlic",
+    "Garlic Powder",
+    "Hot pepper",
+    "Lemon",
+    "Fish Sauce",
+    "Cornstarch",
+    "Soy Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "rieng",
+    "nghe",
+    "me",
+    "rau ram",
+    "hanh hoa",
+    "hanh kho",
+    "ot cay",
+    "chanh",
+    "nuoc mam",
+    "bot canh",
+    "mi chinh",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

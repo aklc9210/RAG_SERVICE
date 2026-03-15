@@ -1,0 +1,106 @@
+{
+  "id": "dish9388",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9388.json",
+  "name_vi": "Hủ tiếu khô chay với nấm",
+  "name_en": "",
+  "name_normalized": "hu tieu kho chay voi nam",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Nấm",
+    "Đậu hũ",
+    "Chả"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm/ giá"
+  ],
+  "seasonings": [
+    "Hủ tiếu",
+    "Hành tím băm",
+    "Tương đen",
+    "Tương ớt",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03111",
+    "ingre04892",
+    "ingre07740",
+    "ingre01257",
+    "ingre02774",
+    "ingre05427",
+    "ingre07012",
+    "ingre07028",
+    "ingre02080",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Hủ tiếu",
+    "Nấm",
+    "Đậu hũ",
+    "Chả",
+    "Hành tím băm",
+    "Rau ăn kèm/ giá",
+    "Tương đen",
+    "Tương ớt",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Noodle",
+    "Mushroom",
+    "Tofu",
+    "Sausage",
+    "Chopped Scallion",
+    "Bok Choy",
+    "Black Soy Sauce",
+    "Hot Sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "hu tieu",
+    "nam",
+    "dau hu",
+    "cha",
+    "hanh tim bam",
+    "rau an kem gia",
+    "tuong den",
+    "tuong ot",
+    "dau hao",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau an kem/ gia",
+      "new": "rau an kem gia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau ăn kèm/ giá"
+    }
+  ]
+}

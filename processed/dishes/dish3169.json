@@ -1,0 +1,96 @@
+{
+  "id": "dish3169",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3169.json",
+  "name_vi": "Bún mực Phú Yên",
+  "name_en": "",
+  "name_normalized": "bun muc phu yen",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mực cơm",
+    "Cà chua",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Bún tươi",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04265",
+    "ingre01354",
+    "ingre06247",
+    "ingre02673",
+    "ingre04343",
+    "ingre02768",
+    "ingre00357",
+    "ingre05420",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mực cơm",
+    "Cà chua",
+    "Thơm",
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Bún tươi",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Tomato",
+    "Basil",
+    "Scallion",
+    "Parsley",
+    "Shallot",
+    "Fresh noodle",
+    "Side vegetable",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "muc com",
+    "ca chua",
+    "thom",
+    "hanh la",
+    "ngo ri",
+    "hanh tim",
+    "bun tuoi",
+    "rau an kem",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

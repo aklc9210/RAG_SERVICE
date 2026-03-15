@@ -1,0 +1,101 @@
+{
+  "id": "dish6191",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6191.json",
+  "name_vi": "Cá diêu hồng kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca dieu hong kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre02673",
+    "ingre08055",
+    "ingre02768",
+    "ingre04626",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Hành lá",
+    "Ớt sừng",
+    "Hành tím",
+    "Nước dừa tươi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Scallion",
+    "Hot pepper",
+    "Shallot",
+    "Coconut water",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "hanh la",
+    "ot sung",
+    "hanh tim",
+    "nuoc dua tuoi",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

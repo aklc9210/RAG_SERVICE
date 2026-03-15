@@ -1,0 +1,141 @@
+{
+  "id": "dish6176",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6176.json",
+  "name_vi": "Cá lóc kho cà chua",
+  "name_en": "",
+  "name_normalized": "ca loc kho ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lóc",
+    "Cà chua",
+    "Thì là/ rau ngổ",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Bột canh",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre01354",
+    "ingre06237",
+    "ingre02673",
+    "ingre07966",
+    "ingre02768",
+    "ingre05900",
+    "ingre07063",
+    "ingre04694",
+    "ingre00587",
+    "ingre02355",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Cà chua",
+    "Thì là/ rau ngổ",
+    "Hành lá",
+    "Ớt",
+    "Hành tím",
+    "Sả",
+    "Tỏi",
+    "Nước mắm",
+    "Bột canh",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Tomato",
+    "Cilantro",
+    "Scallion",
+    "Pepper",
+    "Shallot",
+    "Lemongrass",
+    "Garlic",
+    "Fish Sauce",
+    "Cornstarch",
+    "Vinegar",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "ca chua",
+    "thi la rau ngo",
+    "hanh la",
+    "ot",
+    "hanh tim",
+    "sa",
+    "toi",
+    "nuoc mam",
+    "bot canh",
+    "giam",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thi la/ rau ngo",
+      "new": "thi la rau ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thì là/ rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

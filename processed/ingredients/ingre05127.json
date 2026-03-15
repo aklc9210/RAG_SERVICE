@@ -1,0 +1,25 @@
+{
+  "id": "ingre05127",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05127.json",
+  "name_vi": "phúc bồn tử tươi/dâu tây",
+  "name_en": "Strawberry",
+  "name_normalized": "phuc bon tu tuoi dau tay",
+  "synonyms": [
+    "dâu đỏ"
+  ],
+  "synonyms_normalized": [
+    "dau do"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "phuc bon tu tuoi/dau tay",
+      "new": "phuc bon tu tuoi dau tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

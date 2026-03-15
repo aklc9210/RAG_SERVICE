@@ -1,0 +1,27 @@
+{
+  "id": "ingre05372",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05372.json",
+  "name_vi": "rau rắm",
+  "name_en": "Vietnamese coriander",
+  "name_normalized": "rau ram",
+  "synonyms": [
+    "rau diếp cá"
+  ],
+  "synonyms_normalized": [
+    "rau diep ca"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Pennywort",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

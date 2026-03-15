@@ -1,0 +1,101 @@
+{
+  "id": "dish10692",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10692.json",
+  "name_vi": "Nem thịt heo (trưởi)",
+  "name_en": "",
+  "name_normalized": "nem thit heo truoi",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt thăn heo",
+    "Tàu chuối"
+  ],
+  "secondary_ingredients": [
+    "Bánh tráng"
+  ],
+  "seasonings": [
+    "Lá chùm ruột",
+    "Ớt hiểm",
+    "Tiêu xay",
+    "Tỏi",
+    "Tỏi băm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06500",
+    "ingre03398",
+    "ingre06866",
+    "ingre00178",
+    "ingre08026",
+    "ingre06644",
+    "ingre07063",
+    "ingre07071",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn heo",
+    "Lá chùm ruột",
+    "Tàu chuối",
+    "Bánh tráng",
+    "Ớt hiểm",
+    "Tiêu xay",
+    "Tỏi",
+    "Tỏi băm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork tenderloin",
+    "Palm Sap Leaf",
+    "Banana leaf",
+    "Rice Paper",
+    "Hot pepper",
+    "Ground pepper",
+    "Garlic",
+    "Minced Garlic",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit than heo",
+    "la chum ruot",
+    "tau chuoi",
+    "banh trang",
+    "ot hiem",
+    "tieu xay",
+    "toi",
+    "toi bam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nem thit heo (truoi)",
+      "new": "nem thit heo truoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

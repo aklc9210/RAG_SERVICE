@@ -1,0 +1,103 @@
+{
+  "id": "dish0046",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0046.json",
+  "name_vi": "Cá đuối nấu mẻ",
+  "name_en": "",
+  "name_normalized": "ca duoi nau me",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá đuối",
+    "Bắp chuối",
+    "Rau nêm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Cơm mẻ"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Giấm trắng",
+    "Chanh tươi",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01659",
+    "ingre00452",
+    "ingre05344",
+    "ingre02768",
+    "ingre01753",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02124",
+    "ingre02370",
+    "ingre01091",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối",
+    "Bắp chuối",
+    "Rau nêm",
+    "Hành tím",
+    "Cơm mẻ",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Giấm trắng",
+    "Chanh tươi",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Banana",
+    "Coriander",
+    "Shallot",
+    "Glutinous Rice",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Cooking oil",
+    "White vinegar",
+    "Lime",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi",
+    "bap chuoi",
+    "rau nem",
+    "hanh tim",
+    "com me",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "dau an",
+    "giam trang",
+    "chanh tuoi",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

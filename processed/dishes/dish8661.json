@@ -1,0 +1,81 @@
+{
+  "id": "dish8661",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8661.json",
+  "name_vi": "Gân bò hầm sả",
+  "name_en": "",
+  "name_normalized": "gan bo ham sa",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Gân bò",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dừa",
+    "Húng quế/ hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre01868",
+    "ingre05900",
+    "ingre02162",
+    "ingre02866",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Củ cải trắng",
+    "Sả",
+    "Dừa",
+    "Húng quế/ hành lá",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "White radish",
+    "Lemongrass",
+    "Coconut",
+    "Sage/Parsley",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "cu cai trang",
+    "sa",
+    "dua",
+    "hung que hanh la",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hung que/ hanh la",
+      "new": "hung que hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Húng quế/ hành lá"
+    }
+  ]
+}

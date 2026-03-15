@@ -1,0 +1,25 @@
+{
+  "id": "ingre00893",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00893.json",
+  "name_vi": "bột rau câu (1.5 gói)",
+  "name_en": "Agar powder (1.5 packets)",
+  "name_normalized": "bot rau cau 1 5 goi",
+  "synonyms": [
+    "bột làm rau câu"
+  ],
+  "synonyms_normalized": [
+    "bot lam rau cau"
+  ],
+  "category": "instant_foods",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot rau cau (1.5 goi)",
+      "new": "bot rau cau 1 5 goi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

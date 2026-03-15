@@ -1,0 +1,87 @@
+{
+  "id": "dish5674",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5674.json",
+  "name_vi": "Cá đối kho lạt",
+  "name_en": "",
+  "name_normalized": "ca doi kho lat",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá đối",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Rượu trắng",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01663",
+    "ingre02673",
+    "ingre07966",
+    "ingre05574",
+    "ingre04672",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá đối",
+    "Hành lá",
+    "Ớt",
+    "Rượu trắng",
+    "Nước màu",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Scallion",
+    "Pepper",
+    "White wine",
+    "Food coloring",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca doi",
+    "hanh la",
+    "ot",
+    "ruou trang",
+    "nuoc mau",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

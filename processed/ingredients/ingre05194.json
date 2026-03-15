@@ -1,0 +1,25 @@
+{
+  "id": "ingre05194",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05194.json",
+  "name_vi": "quế.đại hồi",
+  "name_en": "Sichuan pepper",
+  "name_normalized": "que dai hoi",
+  "synonyms": [
+    "quế đại hồi"
+  ],
+  "synonyms_normalized": [
+    "que dai hoi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "que.dai hoi",
+      "new": "que dai hoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

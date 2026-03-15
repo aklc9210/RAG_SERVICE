@@ -1,0 +1,101 @@
+{
+  "id": "dish10649",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10649.json",
+  "name_vi": "Phở trộn nấm chay",
+  "name_en": "",
+  "name_normalized": "pho tron nam chay",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Nấm",
+    "Bánh phở tươi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá cắt nhuyễn",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Xì dầu",
+    "Sốt cà chua",
+    "Dầu ăn",
+    "Ớt tươi và ớt bột",
+    "Muối/ tiêu xay/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04892",
+    "ingre00143",
+    "ingre02768",
+    "ingre07071",
+    "ingre02682",
+    "ingre07381",
+    "ingre05947",
+    "ingre02124",
+    "ingre03929",
+    "ingre08081",
+    "ingre03817"
+  ],
+  "ingredient_names_vi": [
+    "Nấm",
+    "Bánh phở tươi",
+    "Hành tím",
+    "Tỏi băm",
+    "Hành lá cắt nhuyễn",
+    "Xì dầu",
+    "Sốt cà chua",
+    "Dầu ăn",
+    "Mè rang",
+    "Ớt tươi và ớt bột",
+    "Muối/ tiêu xay/ đường"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Fresh Pho Noodle",
+    "Shallot",
+    "Minced Garlic",
+    "Chopped Green Onion",
+    "Soy Sauce",
+    "Tomato sauce",
+    "Cooking oil",
+    "Roasted Sesame Seeds",
+    "Fresh chili and chili powder",
+    "Ground Salt/Pepper/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam",
+    "banh pho tuoi",
+    "hanh tim",
+    "toi bam",
+    "hanh la cat nhuyen",
+    "xi dau",
+    "sot ca chua",
+    "dau an",
+    "me rang",
+    "ot tuoi va ot bot",
+    "muoi tieu xay duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay/ duong",
+      "new": "muoi tieu xay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay/ đường"
+    }
+  ]
+}

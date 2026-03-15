@@ -1,0 +1,100 @@
+{
+  "id": "dish6047",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6047.json",
+  "name_vi": "Bí đỏ kho chay với đậu Hà Lan",
+  "name_en": "",
+  "name_normalized": "bi do kho chay voi dau ha lan",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bí",
+    "Đậu Hà Lan"
+  ],
+  "secondary_ingredients": [
+    "Rau ngổ",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành boa rô khô",
+    "Dầu ăn",
+    "Nước tương",
+    "Tiêu xay",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00236",
+    "ingre07736",
+    "ingre02485",
+    "ingre05336",
+    "ingre04329",
+    "ingre02648",
+    "ingre02124",
+    "ingre04790",
+    "ingre06644",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bí",
+    "Đậu Hà Lan",
+    "Gừng",
+    "Rau ngổ",
+    "Ngò gai",
+    "Hành boa rô khô",
+    "Dầu ăn",
+    "Nước tương",
+    "Tiêu xay",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Courgette",
+    "Green beans",
+    "Ginger",
+    "Culantro",
+    "Dried shallot",
+    "Cooking oil",
+    "Soy Sauce",
+    "Ground pepper",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bi",
+    "dau ha lan",
+    "gung",
+    "rau ngo",
+    "ngo gai",
+    "hanh boa ro kho",
+    "dau an",
+    "nuoc tuong",
+    "tieu xay",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish10467",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10467.json",
+  "name_vi": "Chè khoai bí đỏ",
+  "name_en": "",
+  "name_normalized": "che khoai bi do",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Khoai lang tím"
+  ],
+  "secondary_ingredients": [
+    "Khoai môn",
+    "Lá dứa"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Nước cốt dừa",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre03200",
+    "ingre03208",
+    "ingre00849",
+    "ingre04554",
+    "ingre03417",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Khoai lang tím",
+    "Khoai môn",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Lá dứa",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Purple potato",
+    "Yam",
+    "Cornstarch",
+    "Coconut milk",
+    "Pandan叶",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "khoai lang tim",
+    "khoai mon",
+    "bot nang",
+    "nuoc cot dua",
+    "la dua",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish7997",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7997.json",
+  "name_vi": "Gỏi cá Nam Ô Đà Nẵng",
+  "name_en": "",
+  "name_normalized": "goi ca nam o da nang",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá trích"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Vừng/Mè trắng",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Giấm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01638",
+    "ingre02485",
+    "ingre07966",
+    "ingre07063",
+    "ingre05436",
+    "ingre01079",
+    "ingre07308",
+    "ingre02355",
+    "ingre07583",
+    "ingre02134",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cá trích",
+    "Gừng",
+    "Ớt",
+    "Tỏi",
+    "Riềng",
+    "Chanh",
+    "Vừng/Mè trắng",
+    "Giấm",
+    "Đường",
+    "Dầu điều",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Ginger",
+    "Pepper",
+    "Garlic",
+    "Galangal",
+    "Lemon",
+    "White sesame",
+    "Vinegar",
+    "Sugar",
+    "Peanut oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca trich",
+    "gung",
+    "ot",
+    "toi",
+    "rieng",
+    "chanh",
+    "vung me trang",
+    "giam",
+    "duong",
+    "dau dieu",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "vung/me trang",
+      "new": "vung me trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Vừng/Mè trắng"
+    }
+  ]
+}

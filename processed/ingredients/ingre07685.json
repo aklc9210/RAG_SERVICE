@@ -1,0 +1,27 @@
+{
+  "id": "ingre07685",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07685.json",
+  "name_vi": "đường/ tiêu xay",
+  "name_en": "Cinnamon Powder",
+  "name_normalized": "duong tieu xay",
+  "synonyms": [
+    "tiêu",
+    "đường xay"
+  ],
+  "synonyms_normalized": [
+    "tieu",
+    "duong xay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

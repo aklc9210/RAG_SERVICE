@@ -1,0 +1,68 @@
+{
+  "id": "dish1610",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1610.json",
+  "name_vi": "Bánh kẹp tàn ong lá dứa",
+  "name_en": "",
+  "name_normalized": "banh kep tan ong la dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Lá dứa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bột mì đa dụng",
+    "Sữa tươi có đường",
+    "Nước cốt dừa",
+    "Trứng gà",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre00791",
+    "ingre06146",
+    "ingre04554",
+    "ingre06823",
+    "ingre00382",
+    "ingre03417",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Bột mì đa dụng",
+    "Sữa tươi có đường",
+    "Nước cốt dừa",
+    "Trứng gà",
+    "Bơ lạt",
+    "Lá dứa",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "All-purpose flour",
+    "Sweetened Condensed Milk",
+    "Coconut milk",
+    "Chicken egg",
+    "Butter",
+    "Pandan叶",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "bot mi da dung",
+    "sua tuoi co duong",
+    "nuoc cot dua",
+    "trung ga",
+    "bo lat",
+    "la dua",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dish0286",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0286.json",
+  "name_vi": "Canh chua đầu cá thu rau muống",
+  "name_en": "",
+  "name_normalized": "canh chua dau ca thu rau muong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đầu cá thu",
+    "Rau muống",
+    "Bạc hà",
+    "Đậu bắp"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Me",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường phèn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07711",
+    "ingre05289",
+    "ingre00430",
+    "ingre07729",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre03643",
+    "ingre04694",
+    "ingre02124",
+    "ingre07635",
+    "ingre05385",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá thu",
+    "Rau muống",
+    "Bạc hà",
+    "Đậu bắp",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường phèn",
+    "Rau thơm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mackerel head",
+    "Watercress",
+    "Mint",
+    "Green beans",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Tamarind",
+    "Fish Sauce",
+    "Cooking oil",
+    "Brown Sugar",
+    "Basil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca thu",
+    "rau muong",
+    "bac ha",
+    "dau bap",
+    "toi",
+    "hanh tim",
+    "ot",
+    "me",
+    "nuoc mam",
+    "dau an",
+    "duong phen",
+    "rau thom",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

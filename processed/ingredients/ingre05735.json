@@ -1,0 +1,27 @@
+{
+  "id": "ingre05735",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05735.json",
+  "name_vi": "socola (bạn có thể sử dụng tùy thích loại socola mình thích)",
+  "name_en": "Chocolate",
+  "name_normalized": "socola ban co the su dung tuy thich loai socola minh thich",
+  "synonyms": [
+    "kem socola",
+    "bột socola"
+  ],
+  "synonyms_normalized": [
+    "kem socola",
+    "bot socola"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola (ban co the su dung tuy thich loai socola minh thich)",
+      "new": "socola ban co the su dung tuy thich loai socola minh thich",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dish2799",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2799.json",
+  "name_vi": "Bánh bông lan quatre quart hương cam",
+  "name_en": "",
+  "name_normalized": "banh bong lan quatre quart huong cam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cam tươi",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa bột",
+    "Bột nở",
+    "Muối",
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06083",
+    "ingre00867",
+    "ingre03746",
+    "ingre06823",
+    "ingre01052",
+    "ingre00791",
+    "ingre07583",
+    "ingre00382"
+  ],
+  "ingredient_names_vi": [
+    "Sữa bột",
+    "Bột nở",
+    "Muối",
+    "Trứng gà",
+    "Cam tươi",
+    "Bột mì đa dụng",
+    "Đường",
+    "Bơ lạt"
+  ],
+  "ingredient_names_en": [
+    "Milk Powder",
+    "Baking powder",
+    "Salt",
+    "Chicken egg",
+    "Fresh Orange",
+    "All-purpose flour",
+    "Sugar",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "sua bot",
+    "bot no",
+    "muoi",
+    "trung ga",
+    "cam tuoi",
+    "bot mi da dung",
+    "duong",
+    "bo lat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

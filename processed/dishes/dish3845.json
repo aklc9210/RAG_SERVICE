@@ -1,0 +1,83 @@
+{
+  "id": "dish3845",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3845.json",
+  "name_vi": "Chân giò hun khói",
+  "name_en": "",
+  "name_normalized": "chan gio hun khoi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Chân giò heo rút xương",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gia vị hun khói",
+    "Nước sốt nướng BBQ",
+    "Tương ớt",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01233",
+    "ingre02741",
+    "ingre02768",
+    "ingre02286",
+    "ingre04767",
+    "ingre07028",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò heo rút xương",
+    "Hành tây",
+    "Hành tím",
+    "Gia vị hun khói",
+    "Nước sốt nướng BBQ",
+    "Tương ớt",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter with bones removed",
+    "Onion",
+    "Shallot",
+    "Smoked Seasoning",
+    "Barbecue Grilled Sauce",
+    "Hot Sauce",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio heo rut xuong",
+    "hanh tay",
+    "hanh tim",
+    "gia vi hun khoi",
+    "nuoc sot nuong bbq",
+    "tuong ot",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

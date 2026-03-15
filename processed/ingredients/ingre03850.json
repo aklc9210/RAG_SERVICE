@@ -1,0 +1,25 @@
+{
+  "id": "ingre03850",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03850.json",
+  "name_vi": "màu dầu điều:",
+  "name_en": "Peanut oil color",
+  "name_normalized": "mau dau dieu",
+  "synonyms": [
+    "dầu dừa nén"
+  ],
+  "synonyms_normalized": [
+    "dau dua nen"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mau dau dieu:",
+      "new": "mau dau dieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

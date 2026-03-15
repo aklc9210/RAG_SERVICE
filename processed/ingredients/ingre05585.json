@@ -1,0 +1,27 @@
+{
+  "id": "ingre05585",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05585.json",
+  "name_vi": "rượu trắng:",
+  "name_en": "White Rum: ->",
+  "name_normalized": "ruou trang",
+  "synonyms": [
+    "vodka"
+  ],
+  "synonyms_normalized": [
+    "vodka"
+  ],
+  "category": "alcoholic_beverages",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ruou trang:",
+      "new": "ruou trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

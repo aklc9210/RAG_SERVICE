@@ -1,0 +1,107 @@
+{
+  "id": "dish6966",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6966.json",
+  "name_vi": "Gà rán giòn cay",
+  "name_en": "",
+  "name_normalized": "ga ran gion cay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Gà"
+  ],
+  "secondary_ingredients": [
+    "Nước đá lạnh"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Bột nở",
+    "Bột ớt Paprika",
+    "Bột tỏi",
+    "Bột gừng",
+    "Bột ớt thường",
+    "Sữa tươi không đường",
+    "Giấm",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre06801",
+    "ingre00791",
+    "ingre00564",
+    "ingre00867",
+    "ingre01025",
+    "ingre00978",
+    "ingre00678",
+    "ingre01028",
+    "ingre06147",
+    "ingre02355",
+    "ingre02124",
+    "ingre03814",
+    "ingre04855"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Trứng",
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Bột nở",
+    "Bột ớt Paprika",
+    "Bột tỏi",
+    "Bột gừng",
+    "Bột ớt thường",
+    "Sữa tươi không đường",
+    "Giấm",
+    "Dầu ăn",
+    "Muối/ tiêu",
+    "Nước đá lạnh"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Egg",
+    "All-purpose flour",
+    "Corn starch",
+    "Baking powder",
+    "Paprika Powder",
+    "Garlic powder",
+    "Ginger powder",
+    "Red Pepper Powder",
+    "Fat-free Milk",
+    "Vinegar",
+    "Cooking oil",
+    "Salt/Pepper",
+    "Ice cubes"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "trung",
+    "bot mi da dung",
+    "bot bap",
+    "bot no",
+    "bot ot paprika",
+    "bot toi",
+    "bot gung",
+    "bot ot thuong",
+    "sua tuoi khong duong",
+    "giam",
+    "dau an",
+    "muoi tieu",
+    "nuoc da lanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

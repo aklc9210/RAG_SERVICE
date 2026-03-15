@@ -1,0 +1,98 @@
+{
+  "id": "dish7162",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7162.json",
+  "name_vi": "Da gà chiên muối ớt",
+  "name_en": "",
+  "name_normalized": "da ga chien muoi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Da gà",
+    "Đậu xanh cà vỏ",
+    "Gạo tẻ"
+  ],
+  "secondary_ingredients": [
+    "Gạo nếp"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Rượu trắng",
+    "Ớt hiểm",
+    "Gừng",
+    "Tỏi",
+    "Bơ thực vật",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01934",
+    "ingre07841",
+    "ingre02464",
+    "ingre02450",
+    "ingre00849",
+    "ingre05574",
+    "ingre08026",
+    "ingre02485",
+    "ingre07063",
+    "ingre00369",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Da gà",
+    "Đậu xanh cà vỏ",
+    "Gạo tẻ",
+    "Gạo nếp",
+    "Bột năng",
+    "Rượu trắng",
+    "Ớt hiểm",
+    "Gừng",
+    "Tỏi",
+    "Bơ thực vật",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken skin",
+    "Green Soybeans Skin-On",
+    "White Rice",
+    "sticky rice",
+    "Cornstarch",
+    "White wine",
+    "Hot pepper",
+    "Ginger",
+    "Garlic",
+    "Avocado",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "da ga",
+    "dau xanh ca vo",
+    "gao te",
+    "gao nep",
+    "bot nang",
+    "ruou trang",
+    "ot hiem",
+    "gung",
+    "toi",
+    "bo thuc vat",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

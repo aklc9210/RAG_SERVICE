@@ -1,0 +1,106 @@
+{
+  "id": "dish6110",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6110.json",
+  "name_vi": "Cá chép om dưa",
+  "name_en": "",
+  "name_normalized": "ca chep om dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chép",
+    "Dưa chua",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Tóp mỡ",
+    "Cà chua bi",
+    "Hành tím",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre01998",
+    "ingre07742",
+    "ingre06927",
+    "ingre01355",
+    "ingre02768",
+    "ingre01079",
+    "ingre05420",
+    "ingre04538",
+    "ingre02124",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Dưa chua",
+    "Đậu hũ chiên",
+    "Tóp mỡ",
+    "Cà chua bi",
+    "Hành tím",
+    "Chanh",
+    "Rau ăn kèm",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Pickled cucumber",
+    "Fried Tofu",
+    "Pork rind",
+    "Tomato",
+    "Shallot",
+    "Lemon",
+    "Side vegetable",
+    "Lemon juice",
+    "Cooking oil",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "dua chua",
+    "dau hu chien",
+    "top mo",
+    "ca chua bi",
+    "hanh tim",
+    "chanh",
+    "rau an kem",
+    "nuoc cot chanh",
+    "dau an",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

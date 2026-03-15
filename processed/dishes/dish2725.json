@@ -1,0 +1,45 @@
+{
+  "id": "dish2725",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2725.json",
+  "name_vi": "Bánh trung thu Nhật Bản - Tsukimi Dango",
+  "name_en": "",
+  "name_normalized": "banh trung thu nhat ban tsukimi dango",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước ấm"
+  ],
+  "seasonings": [
+    "Bột gạo"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre04879"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Nước ấm"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Warm water"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "nuoc am"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh trung thu nhat ban - tsukimi dango",
+      "new": "banh trung thu nhat ban tsukimi dango",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

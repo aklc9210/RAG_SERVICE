@@ -1,0 +1,109 @@
+{
+  "id": "dish7672",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7672.json",
+  "name_vi": "Mắm cá thu chưng thịt bằm",
+  "name_en": "",
+  "name_normalized": "mam ca thu chung thit bam",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Mộc",
+    "Thịt xay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Thịt cá thu muối",
+    "Gừng",
+    "Rượu hoa tiêu",
+    "Rượu trắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06359",
+    "ingre04177",
+    "ingre06521",
+    "ingre02768",
+    "ingre02485",
+    "ingre02673",
+    "ingre05538",
+    "ingre05574",
+    "ingre04694",
+    "ingre02124",
+    "ingre00828"
+  ],
+  "ingredient_names_vi": [
+    "Thịt cá thu muối",
+    "Mộc",
+    "Thịt xay",
+    "Hành tím",
+    "Gừng",
+    "Hành lá",
+    "Rượu hoa tiêu",
+    "Rượu trắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pickled tuna meat",
+    "Wood",
+    "Ground Beef",
+    "Shallot",
+    "Ginger",
+    "Scallion",
+    "Star Anise",
+    "White wine",
+    "Fish Sauce",
+    "Cooking oil",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit ca thu muoi",
+    "moc",
+    "thit xay",
+    "hanh tim",
+    "gung",
+    "hanh la",
+    "ruou hoa tieu",
+    "ruou trang",
+    "nuoc mam",
+    "dau an",
+    "bot ngot tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu",
+      "new": "bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu"
+    }
+  ]
+}

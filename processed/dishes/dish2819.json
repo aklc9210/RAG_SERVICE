@@ -1,0 +1,73 @@
+{
+  "id": "dish2819",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2819.json",
+  "name_vi": "Bánh mì mật ong yến mạch",
+  "name_en": "",
+  "name_normalized": "banh mi mat ong yen mach",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mật ong nguyên chất",
+    "Men instant",
+    "Bơ lạt",
+    "Quả nam việt quất khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột yến mạch",
+    "Muối",
+    "Sữa bột",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00996",
+    "ingre03746",
+    "ingre06083",
+    "ingre04126",
+    "ingre03672",
+    "ingre06147",
+    "ingre00382",
+    "ingre05167"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột yến mạch",
+    "Muối",
+    "Sữa bột",
+    "Mật ong nguyên chất",
+    "Men instant",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Quả nam việt quất khô"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Oatmeal Powder",
+    "Salt",
+    "Milk Powder",
+    "Pure honey",
+    "Instant yeast",
+    "Fat-free Milk",
+    "Butter",
+    "Dried Vietnamese Plum"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot yen mach",
+    "muoi",
+    "sua bot",
+    "mat ong nguyen chat",
+    "men instant",
+    "sua tuoi khong duong",
+    "bo lat",
+    "qua nam viet quat kho"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre00361",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00361.json",
+  "name_vi": "bún tươi/ rau ăn kèm/ hành phi",
+  "name_en": "Fresh vermicelli / accompaniment vegetables / fried shallots",
+  "name_normalized": "bun tuoi rau an kem hanh phi",
+  "synonyms": [
+    "bột ngọt",
+    "mì chính",
+    "hành tím"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "mi chinh",
+    "hanh tim"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bun tuoi/ rau an kem/ hanh phi",
+      "new": "bun tuoi rau an kem hanh phi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

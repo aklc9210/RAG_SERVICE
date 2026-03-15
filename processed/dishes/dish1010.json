@@ -1,0 +1,53 @@
+{
+  "id": "dish1010",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1010.json",
+  "name_vi": "Panna cotta cam tươi",
+  "name_en": "",
+  "name_normalized": "panna cotta cam tuoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Whipping cream",
+    "Mật ong",
+    "Gelatin",
+    "Nước cam"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre06147",
+    "ingre07313",
+    "ingre04124",
+    "ingre02253",
+    "ingre04503"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi không đường",
+    "Whipping cream",
+    "Mật ong",
+    "Gelatin",
+    "Nước cam"
+  ],
+  "ingredient_names_en": [
+    "Fat-free Milk",
+    "Whipping cream",
+    "Honey",
+    "Gelatin",
+    "Orange juice"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi khong duong",
+    "whipping cream",
+    "mat ong",
+    "gelatin",
+    "nuoc cam"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

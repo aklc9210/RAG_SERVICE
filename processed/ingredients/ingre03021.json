@@ -1,0 +1,29 @@
+{
+  "id": "ingre03021",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03021.json",
+  "name_vi": "hạt nêm;hạt tiêu;muối;đường",
+  "name_en": "Seasoning;Pepper;Salt;Sugar",
+  "name_normalized": "hat nem hat tieu muoi duong",
+  "synonyms": [
+    "bột ngọt",
+    "bột nêm",
+    "bột tiêu"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "bot nem",
+    "bot tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem;hat tieu;muoi;duong",
+      "new": "hat nem hat tieu muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

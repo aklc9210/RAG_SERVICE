@@ -1,0 +1,117 @@
+{
+  "id": "dish5788",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5788.json",
+  "name_vi": "Vịt giả cầy bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "vit gia cay bang noi ap suat",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Vịt",
+    "Măng tươi",
+    "Sả",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Hàm tím băm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi băm",
+    "Tương hột",
+    "Cà ri dầu",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre04091",
+    "ingre05900",
+    "ingre07057",
+    "ingre07966",
+    "ingre07071",
+    "ingre02635",
+    "ingre06994",
+    "ingre07791",
+    "ingre01417",
+    "ingre04694",
+    "ingre04381",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Măng tươi",
+    "Sả",
+    "Tắc",
+    "Ớt",
+    "Tỏi băm",
+    "Hàm tím băm",
+    "Tương hột",
+    "Đậu phộng rang",
+    "Cà ri dầu",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Fresh bamboo shoots",
+    "Lemongrass",
+    "Tamarind",
+    "Pepper",
+    "Minced Garlic",
+    "Purple onion minced",
+    "Soy sauce",
+    "Roasted Peanut",
+    "Curry Oil",
+    "Fish Sauce",
+    "Five-Spice Powder",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "mang tuoi",
+    "sa",
+    "tac",
+    "ot",
+    "toi bam",
+    "ham tim bam",
+    "tuong hot",
+    "dau phong rang",
+    "ca ri dau",
+    "nuoc mam",
+    "ngu vi huong",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

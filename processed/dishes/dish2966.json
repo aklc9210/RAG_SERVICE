@@ -1,0 +1,66 @@
+{
+  "id": "dish2966",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2966.json",
+  "name_vi": "Bánh phô mai Tom & Jerry",
+  "name_en": "",
+  "name_normalized": "banh pho mai tom jerry",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Socola trắng"
+  ],
+  "secondary_ingredients": [
+    "Màu vàng thực phẩm",
+    "Cream cheese",
+    "Gelatin",
+    "Whipping Cream"
+  ],
+  "seasonings": [
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05758",
+    "ingre03897",
+    "ingre01324",
+    "ingre02253",
+    "ingre07583",
+    "ingre07313"
+  ],
+  "ingredient_names_vi": [
+    "Socola trắng",
+    "Màu vàng thực phẩm",
+    "Cream cheese",
+    "Gelatin",
+    "Đường",
+    "Whipping Cream"
+  ],
+  "ingredient_names_en": [
+    "White chocolate",
+    "Food coloring",
+    "Cream cheese",
+    "Gelatin",
+    "Sugar",
+    "Whipping cream"
+  ],
+  "ingredient_names_normalized": [
+    "socola trang",
+    "mau vang thuc pham",
+    "cream cheese",
+    "gelatin",
+    "duong",
+    "whipping cream"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh pho mai tom & jerry",
+      "new": "banh pho mai tom jerry",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

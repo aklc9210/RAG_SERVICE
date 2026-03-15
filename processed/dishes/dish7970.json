@@ -1,0 +1,87 @@
+{
+  "id": "dish7970",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7970.json",
+  "name_vi": "Nộm sứa thập cẩm",
+  "name_en": "",
+  "name_normalized": "nom sua thap cam",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa biển"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Dừa nạo"
+  ],
+  "seasonings": [
+    "Dưa chuột",
+    "Cà rốt",
+    "Tỏi/ chanh/ ớt/ vừng/ lạc/ rau kinh giới/ lá bạc hà",
+    "Nước mắm",
+    "Đường",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06072",
+    "ingre02000",
+    "ingre01419",
+    "ingre02741",
+    "ingre02182",
+    "ingre07120",
+    "ingre04694",
+    "ingre07583",
+    "ingre02355",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sứa biển",
+    "Dưa chuột",
+    "Cà rốt",
+    "Hành tây",
+    "Dừa nạo",
+    "Tỏi/ chanh/ ớt/ vừng/ lạc/ rau kinh giới/ lá bạc hà",
+    "Nước mắm",
+    "Đường",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Jellyfish",
+    "Cucumber",
+    "Carrot",
+    "Onion",
+    "Coconut grated",
+    "Garlic/Lemon/Capsicum/Sesame Seeds/Peanuts/Mint/Basil",
+    "Fish Sauce",
+    "Sugar",
+    "Vinegar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "sua bien",
+    "dua chuot",
+    "ca rot",
+    "hanh tay",
+    "dua nao",
+    "toi chanh ot vung lac rau kinh gioi la bac ha",
+    "nuoc mam",
+    "duong",
+    "giam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ chanh/ ot/ vung/ lac/ rau kinh gioi/ la bac ha",
+      "new": "toi chanh ot vung lac rau kinh gioi la bac ha",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ chanh/ ớt/ vừng/ lạc/ rau kinh giới/ lá bạc hà"
+    }
+  ]
+}

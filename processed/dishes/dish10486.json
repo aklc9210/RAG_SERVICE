@@ -1,0 +1,76 @@
+{
+  "id": "dish10486",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10486.json",
+  "name_vi": "Chè khoai mỡ (khoai tím) nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "che khoai mo khoai tim nuoc cot dua",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Khoai mỡ",
+    "Dừa nạo"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Lá dứa"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Vani",
+    "Bột năng",
+    "Đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre03219",
+    "ingre02182",
+    "ingre04626",
+    "ingre04554",
+    "ingre03417",
+    "ingre07140",
+    "ingre00849",
+    "ingre07597"
+  ],
+  "ingredient_names_vi": [
+    "Khoai mỡ",
+    "Dừa nạo",
+    "Nước dừa tươi",
+    "Nước cốt dừa",
+    "Lá dứa",
+    "Vani",
+    "Bột năng",
+    "Đường cát"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Coconut grated",
+    "Coconut water",
+    "Coconut milk",
+    "Pandan叶",
+    "Vanilla",
+    "Cornstarch",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mo",
+    "dua nao",
+    "nuoc dua tuoi",
+    "nuoc cot dua",
+    "la dua",
+    "vani",
+    "bot nang",
+    "duong cat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "che khoai mo (khoai tim) nuoc cot dua",
+      "new": "che khoai mo khoai tim nuoc cot dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

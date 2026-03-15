@@ -1,0 +1,93 @@
+{
+  "id": "dish6286",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6286.json",
+  "name_vi": "Cá nhồng kho nghệ",
+  "name_en": "",
+  "name_normalized": "ca nhong kho nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nhồng tươi",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột nêm",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01596",
+    "ingre04304",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre00819",
+    "ingre00838",
+    "ingre07583",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá nhồng tươi",
+    "Nghệ",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột nêm",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Turmeric",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "MSG",
+    "Seasoning Powder",
+    "Sugar",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca nhong tuoi",
+    "nghe",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "bot ngot",
+    "bot nem",
+    "duong",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

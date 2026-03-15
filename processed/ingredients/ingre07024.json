@@ -1,0 +1,27 @@
+{
+  "id": "ingre07024",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07024.json",
+  "name_vi": "tương đỏ/ tương đen",
+  "name_en": "Red Soy Sauce / Black Soy Sauce",
+  "name_normalized": "tuong do tuong den",
+  "synonyms": [
+    "mắm nêm",
+    "mắm ruốc"
+  ],
+  "synonyms_normalized": [
+    "mam nem",
+    "mam ruoc"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong do/ tuong den",
+      "new": "tuong do tuong den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dish9459",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9459.json",
+  "name_vi": "Bánh chưng (bánh tét) chiên nước",
+  "name_en": "",
+  "name_normalized": "banh chung banh tet chien nuoc",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Bánh chưng hoặc bánh tét",
+    "Mè rang",
+    "Nước Lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre00080",
+    "ingre03929",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bánh chưng hoặc bánh tét",
+    "Mè rang",
+    "Nước Lọc"
+  ],
+  "ingredient_names_en": [
+    "Steamed Rice Cake or Tet Cake",
+    "Roasted Sesame Seeds",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "banh chung hoac banh tet",
+    "me rang",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh chung (banh tet) chien nuoc",
+      "new": "banh chung banh tet chien nuoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

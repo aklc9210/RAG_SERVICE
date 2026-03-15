@@ -1,0 +1,53 @@
+{
+  "id": "dish4074",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4074.json",
+  "name_vi": "Bò cuộn hành nướng",
+  "name_en": "",
+  "name_normalized": "bo cuon hanh nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt thăn bò",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Rượu mirin"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre02673",
+    "ingre05545"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Hành lá",
+    "Rượu mirin"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Scallion",
+    "Mirin Wine"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "hanh la",
+    "ruou mirin"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

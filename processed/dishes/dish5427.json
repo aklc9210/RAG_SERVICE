@@ -1,0 +1,123 @@
+{
+  "id": "dish5427",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5427.json",
+  "name_vi": "Bún xào hải sản",
+  "name_en": "",
+  "name_normalized": "bun xao hai san",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bún khô",
+    "Tôm sú",
+    "Mực ống",
+    "Củ hồi",
+    "Cà chua bi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành tây",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt chuông vàng",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00346",
+    "ingre06953",
+    "ingre04281",
+    "ingre01891",
+    "ingre01355",
+    "ingre08007",
+    "ingre02768",
+    "ingre02741",
+    "ingre07063",
+    "ingre04343",
+    "ingre04538",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bún khô",
+    "Tôm sú",
+    "Mực ống",
+    "Củ hồi",
+    "Cà chua bi",
+    "Ớt chuông vàng",
+    "Hành tím",
+    "Hành tây",
+    "Tỏi",
+    "Ngò rí",
+    "Nước cốt chanh",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Shrimp",
+    "Tube squid",
+    "Carrot",
+    "Tomato",
+    "Yellow Bell Pepper",
+    "Shallot",
+    "Onion",
+    "Garlic",
+    "Parsley",
+    "Lemon juice",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bun kho",
+    "tom su",
+    "muc ong",
+    "cu hoi",
+    "ca chua bi",
+    "ot chuong vang",
+    "hanh tim",
+    "hanh tay",
+    "toi",
+    "ngo ri",
+    "nuoc cot chanh",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish4191",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4191.json",
+  "name_vi": "Bò nướng phô mai",
+  "name_en": "",
+  "name_normalized": "bo nuong pho mai",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Phô mai Mozarella",
+    "Thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Kim chi"
+  ],
+  "seasonings": [
+    "Tương ớt Hàn Quốc",
+    "Tỏi băm",
+    "Nước tương",
+    "Chanh",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05090",
+    "ingre06244",
+    "ingre03277",
+    "ingre07036",
+    "ingre07071",
+    "ingre04790",
+    "ingre01079",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Phô mai Mozarella",
+    "Thăn bò",
+    "Kim chi",
+    "Tương ớt Hàn Quốc",
+    "Tỏi băm",
+    "Nước tương",
+    "Chanh",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Mozzarella Cheese",
+    "Beef tenderloin",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Korean chili paste",
+    "Minced Garlic",
+    "Soy Sauce",
+    "Lemon",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "pho mai mozarella",
+    "than bo",
+    "kim chi",
+    "tuong ot han quoc",
+    "toi bam",
+    "nuoc tuong",
+    "chanh",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

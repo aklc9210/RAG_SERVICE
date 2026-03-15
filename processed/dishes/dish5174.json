@@ -1,0 +1,74 @@
+{
+  "id": "dish5174",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5174.json",
+  "name_vi": "Rau lang xào tỏi (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "rau lang xao toi cong thuc duoc chia se tu nguoi dung",
+  "category": "mon xao",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đọt rau lang",
+    "Tỏi",
+    "Tiêu xay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07895",
+    "ingre07063",
+    "ingre06644",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đọt rau lang",
+    "Tỏi",
+    "Tiêu xay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Bamboo shoot tips",
+    "Garlic",
+    "Ground pepper",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dot rau lang",
+    "toi",
+    "tieu xay",
+    "hat nem chay",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau lang xao toi (cong thuc duoc chia se tu nguoi dung)",
+      "new": "rau lang xao toi cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

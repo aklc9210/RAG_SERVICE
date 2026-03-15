@@ -1,0 +1,83 @@
+{
+  "id": "dish4334",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4334.json",
+  "name_vi": "Cá kèo nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca keo nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá kèo"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Rau đắng"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01069",
+    "ingre08055",
+    "ingre05359",
+    "ingre05432",
+    "ingre04481",
+    "ingre01991",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá kèo",
+    "Ớt sừng",
+    "Rau răm",
+    "Rau đắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Seabass",
+    "Hot pepper",
+    "Vietnamese coriander",
+    "Bitter Melon",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca keo",
+    "ot sung",
+    "rau ram",
+    "rau dang",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

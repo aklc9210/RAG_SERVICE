@@ -1,0 +1,76 @@
+{
+  "id": "dish4018",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4018.json",
+  "name_vi": "Cá nục nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "ca nuc nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá nục",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt xay",
+    "Sả băm",
+    "Ngũ vị hương",
+    "Dầu hào",
+    "Đường",
+    "Mỡ hành"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre05900",
+    "ingre08087",
+    "ingre05905",
+    "ingre04381",
+    "ingre02080",
+    "ingre07583",
+    "ingre04199"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Sả",
+    "Ớt xay",
+    "Sả băm",
+    "Ngũ vị hương",
+    "Dầu hào",
+    "Đường",
+    "Mỡ hành"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Lemongrass",
+    "Ground Chili Pepper",
+    "Garlic Paste",
+    "Five-Spice Powder",
+    "Soy sauce",
+    "Sugar",
+    "Chives butter"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "sa",
+    "ot xay",
+    "sa bam",
+    "ngu vi huong",
+    "dau hao",
+    "duong",
+    "mo hanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

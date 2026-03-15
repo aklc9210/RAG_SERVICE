@@ -1,0 +1,73 @@
+{
+  "id": "dish7157",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7157.json",
+  "name_vi": "Cua hoàng đế rang me với hành tây",
+  "name_en": "",
+  "name_normalized": "cua hoang de rang me voi hanh tay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cua hoàng đế",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Vắt me",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01339",
+    "ingre02741",
+    "ingre07201",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cua hoàng đế",
+    "Hành tây",
+    "Vắt me",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Onion",
+    "Lime juice",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "cua hoang de",
+    "hanh tay",
+    "vat me",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish3411",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3411.json",
+  "name_vi": "Bún chả mực",
+  "name_en": "",
+  "name_normalized": "bun cha muc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chả mực",
+    "Xương heo"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Thơm",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01299",
+    "ingre07422",
+    "ingre01354",
+    "ingre06247",
+    "ingre02673",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chả mực",
+    "Xương heo",
+    "Cà chua",
+    "Thơm",
+    "Hành lá",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Squid meat sausage",
+    "Pork bone",
+    "Tomato",
+    "Basil",
+    "Scallion",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "cha muc",
+    "xuong heo",
+    "ca chua",
+    "thom",
+    "hanh la",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

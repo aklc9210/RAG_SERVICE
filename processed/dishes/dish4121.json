@@ -1,0 +1,102 @@
+{
+  "id": "dish4121",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4121.json",
+  "name_vi": "Bún chả làm bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "bun cha lam bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Thịt nạc vai heo",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Bún tươi",
+    "Đu đủ xanh",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Giấm",
+    "Tỏi",
+    "Ớt",
+    "Gia vị ướp thịt nướng",
+    "Nước mắm",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre06472",
+    "ingre06414",
+    "ingre00357",
+    "ingre07500",
+    "ingre01419",
+    "ingre02355",
+    "ingre07063",
+    "ingre07966",
+    "ingre05420",
+    "ingre02325",
+    "ingre04694",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Thịt nạc vai heo",
+    "Thịt heo xay",
+    "Bún tươi",
+    "Đu đủ xanh",
+    "Cà rốt",
+    "Giấm",
+    "Tỏi",
+    "Ớt",
+    "Rau ăn kèm",
+    "Gia vị ướp thịt nướng",
+    "Nước mắm",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Pork Shoulder",
+    "Ground Pork",
+    "Fresh noodle",
+    "Green papaya",
+    "Carrot",
+    "Vinegar",
+    "Garlic",
+    "Pepper",
+    "Side vegetable",
+    "Marinade Seasoning",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "thit nac vai heo",
+    "thit heo xay",
+    "bun tuoi",
+    "du du xanh",
+    "ca rot",
+    "giam",
+    "toi",
+    "ot",
+    "rau an kem",
+    "gia vi uop thit nuong",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

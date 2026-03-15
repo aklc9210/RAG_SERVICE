@@ -1,0 +1,108 @@
+{
+  "id": "dish5336",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5336.json",
+  "name_vi": "Mực một nắng xào",
+  "name_en": "",
+  "name_normalized": "muc mot nang xao",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dưa leo",
+    "Hành tây",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Cần tàu",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mực một nắng",
+    "Ớt hiểm",
+    "Gừng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04271",
+    "ingre02020",
+    "ingre02741",
+    "ingre01354",
+    "ingre01809",
+    "ingre02768",
+    "ingre08026",
+    "ingre02485",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mực một nắng",
+    "Dưa leo",
+    "Hành tây",
+    "Cà chua",
+    "Cần tàu",
+    "Hành tím",
+    "Ớt hiểm",
+    "Gừng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Sun-dried squid",
+    "Cucumber",
+    "Onion",
+    "Tomato",
+    "Chinese cabbage",
+    "Shallot",
+    "Hot pepper",
+    "Ginger",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc mot nang",
+    "dua leo",
+    "hanh tay",
+    "ca chua",
+    "can tau",
+    "hanh tim",
+    "ot hiem",
+    "gung",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish7030",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7030.json",
+  "name_vi": "Bánh ướt heo quay bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh uot heo quay bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba chỉ heo"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Chanh",
+    "Hành phi",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Muối hạt",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre00668",
+    "ingre00849",
+    "ingre01079",
+    "ingre02730",
+    "ingre04694",
+    "ingre07071",
+    "ingre07971",
+    "ingre03760",
+    "ingre07680",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Bột gạo",
+    "Bột năng",
+    "Chanh",
+    "Hành phi",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Muối hạt",
+    "Đường/ Muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Rice flour",
+    "Cornstarch",
+    "Lemon",
+    "Garlic Fried",
+    "Fish Sauce",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Fenugreek seeds",
+    "Sugar/Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "bot gao",
+    "bot nang",
+    "chanh",
+    "hanh phi",
+    "nuoc mam",
+    "toi bam",
+    "ot bam",
+    "muoi hat",
+    "duong muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

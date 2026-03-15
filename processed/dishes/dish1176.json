@@ -1,0 +1,102 @@
+{
+  "id": "dish1176",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1176.json",
+  "name_vi": "Bánh gà chiên",
+  "name_en": "",
+  "name_normalized": "banh ga chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Mỡ heo",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Trứng",
+    "Dầu ăn",
+    "Ớt bột",
+    "Bột cà ri",
+    "Sốt mayonnaise",
+    "Bột chiên xù",
+    "Bột mì",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02350",
+    "ingre01419",
+    "ingre04192",
+    "ingre06801",
+    "ingre02124",
+    "ingre07791",
+    "ingre07977",
+    "ingre00631",
+    "ingre05970",
+    "ingre00609",
+    "ingre00759",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Giò sống",
+    "Cà rốt",
+    "Mỡ heo",
+    "Trứng",
+    "Dầu ăn",
+    "Đậu phộng rang",
+    "Ớt bột",
+    "Bột cà ri",
+    "Sốt mayonnaise",
+    "Bột chiên xù",
+    "Bột mì",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Fresh sausage",
+    "Carrot",
+    "Pork fat",
+    "Egg",
+    "Cooking oil",
+    "Roasted Peanut",
+    "Chili powder",
+    "Curry powder",
+    "Mayonnaise Sauce",
+    "Puffed Rice Powder",
+    "Wheat Flour",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "gio song",
+    "ca rot",
+    "mo heo",
+    "trung",
+    "dau an",
+    "dau phong rang",
+    "ot bot",
+    "bot ca ri",
+    "sot mayonnaise",
+    "bot chien xu",
+    "bot mi",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

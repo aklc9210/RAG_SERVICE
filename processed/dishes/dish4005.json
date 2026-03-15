@@ -1,0 +1,106 @@
+{
+  "id": "dish4005",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4005.json",
+  "name_vi": "Cá ngạnh nướng riềng sả",
+  "name_en": "",
+  "name_normalized": "ca nganh nuong rieng sa",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá ngạnh",
+    "Riềng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Ớt sa tế",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01577",
+    "ingre05436",
+    "ingre05900",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre08050",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngạnh",
+    "Riềng",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Ớt sa tế",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Galangal",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Bird's Eye Chili",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nganh",
+    "rieng",
+    "sa",
+    "toi",
+    "hanh tim",
+    "ot",
+    "ot sa te",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

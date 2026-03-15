@@ -1,0 +1,25 @@
+{
+  "id": "ingre04628",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04628.json",
+  "name_vi": "nước dừa tươi/nước lọc",
+  "name_en": "Fresh coconut water/purified water",
+  "name_normalized": "nuoc dua tuoi nuoc loc",
+  "synonyms": [
+    "nước cốt dừa"
+  ],
+  "synonyms_normalized": [
+    "nuoc cot dua"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc dua tuoi/nuoc loc",
+      "new": "nuoc dua tuoi nuoc loc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

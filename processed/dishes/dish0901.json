@@ -1,0 +1,103 @@
+{
+  "id": "dish0901",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0901.json",
+  "name_vi": "Bánh mì miến",
+  "name_en": "",
+  "name_normalized": "banh mi mien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh mì",
+    "Sợi miến",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Giá",
+    "Rau ngò rí",
+    "Rau râm"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Trứng gà",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00100",
+    "ingre06059",
+    "ingre04930",
+    "ingre02329",
+    "ingre08055",
+    "ingre07063",
+    "ingre06823",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644",
+    "ingre05328",
+    "ingre05357"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì",
+    "Sợi miến",
+    "Nấm mèo",
+    "Giá",
+    "Ớt sừng",
+    "Tỏi",
+    "Trứng gà",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Rau ngò rí",
+    "Rau râm"
+  ],
+  "ingredient_names_en": [
+    "Baguette",
+    "Arrowroot Powder",
+    "Mushroom",
+    "Mint",
+    "Hot pepper",
+    "Garlic",
+    "Chicken egg",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper",
+    "Parsley",
+    "Vietnamese coriander"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi",
+    "soi mien",
+    "nam meo",
+    "gia",
+    "ot sung",
+    "toi",
+    "trung ga",
+    "dau an",
+    "hat nem",
+    "duong",
+    "tieu xay",
+    "rau ngo ri",
+    "rau ram"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau râm"
+    }
+  ]
+}

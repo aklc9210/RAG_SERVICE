@@ -1,0 +1,88 @@
+{
+  "id": "dish5992",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5992.json",
+  "name_vi": "Thịt khâu nhục Quảng Đông",
+  "name_en": "",
+  "name_normalized": "thit khau nhuc quang dong",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Cải bẹ xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Rượu mirin",
+    "Đường phèn",
+    "Gừng",
+    "Bột bắp",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre01775",
+    "ingre04790",
+    "ingre02673",
+    "ingre05545",
+    "ingre07635",
+    "ingre02485",
+    "ingre00564",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Cải bẹ xanh",
+    "Nước tương",
+    "Hành lá",
+    "Rượu mirin",
+    "Đường phèn",
+    "Gừng",
+    "Bột bắp",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Green cabbage",
+    "Soy Sauce",
+    "Scallion",
+    "Mirin Wine",
+    "Brown Sugar",
+    "Ginger",
+    "Corn starch",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "cai be xanh",
+    "nuoc tuong",
+    "hanh la",
+    "ruou mirin",
+    "duong phen",
+    "gung",
+    "bot bap",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

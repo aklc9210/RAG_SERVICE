@@ -1,0 +1,99 @@
+{
+  "id": "dish8005",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8005.json",
+  "name_vi": "Chạo chân giò (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "chao chan gio cong thuc duoc chia se tu nguoi dung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt giò heo",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Lá cóc non/ lá sung",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06377",
+    "ingre05436",
+    "ingre07063",
+    "ingre07966",
+    "ingre04538",
+    "ingre03407",
+    "ingre03935",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt giò heo",
+    "Riềng",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Lá cóc non/ lá sung",
+    "Mè trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Galangal",
+    "Garlic",
+    "Pepper",
+    "Lemon juice",
+    "Mint Leaves",
+    "White sesame",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit gio heo",
+    "rieng",
+    "toi",
+    "ot",
+    "nuoc cot chanh",
+    "la coc non la sung",
+    "me trang",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chao chan gio (cong thuc duoc chia se tu nguoi dung)",
+      "new": "chao chan gio cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la coc non/ la sung",
+      "new": "la coc non la sung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá cóc non/ lá sung"
+    }
+  ]
+}

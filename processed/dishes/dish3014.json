@@ -1,0 +1,73 @@
+{
+  "id": "dish3014",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3014.json",
+  "name_vi": "Bánh bông lan bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "banh bong lan bang lo vi song",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa chua",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột",
+    "Bột nở",
+    "Trứng",
+    "Vani nước",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00509",
+    "ingre00867",
+    "ingre06801",
+    "ingre06088",
+    "ingre06144",
+    "ingre07146",
+    "ingre03746",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột",
+    "Bột nở",
+    "Trứng",
+    "Sữa chua",
+    "Sữa tươi",
+    "Vani nước",
+    "Muối",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Flour",
+    "Baking powder",
+    "Egg",
+    "Yogurt",
+    "Fresh Milk",
+    "Vanilla water",
+    "Salt",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot",
+    "bot no",
+    "trung",
+    "sua chua",
+    "sua tuoi",
+    "vani nuoc",
+    "muoi",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

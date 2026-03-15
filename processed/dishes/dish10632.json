@@ -1,0 +1,113 @@
+{
+  "id": "dish10632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10632.json",
+  "name_vi": "Bánh cuốn bằng nồi hơi",
+  "name_en": "",
+  "name_normalized": "banh cuon bang noi hoi",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [
+    "Củ sắn",
+    "Củ hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột bánh cuốn",
+    "Bột khoai tây",
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre00530",
+    "ingre00713",
+    "ingre04936",
+    "ingre01920",
+    "ingre01886",
+    "ingre07966",
+    "ingre07063",
+    "ingre01079",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Bột bánh cuốn",
+    "Bột khoai tây",
+    "Nấm mèo khô",
+    "Củ sắn",
+    "Củ hành tây",
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Wrapping cake powder",
+    "Potato starch",
+    "Dried cat's ear mushroom",
+    "Yam",
+    "Onion",
+    "Pepper",
+    "Garlic",
+    "Lemon",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "bot banh cuon",
+    "bot khoai tay",
+    "nam meo kho",
+    "cu san",
+    "cu hanh tay",
+    "ot",
+    "toi",
+    "chanh",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

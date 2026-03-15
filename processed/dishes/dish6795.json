@@ -1,0 +1,92 @@
+{
+  "id": "dish6795",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6795.json",
+  "name_vi": "Gà chiên bơ tỏi",
+  "name_en": "",
+  "name_normalized": "ga chien bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cánh gà",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng đập dập",
+    "Ớt",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu hào",
+    "Rượu"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre00367",
+    "ingre07063",
+    "ingre02768",
+    "ingre02526",
+    "ingre07966",
+    "ingre04790",
+    "ingre04694",
+    "ingre02080",
+    "ingre05515",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Bơ",
+    "Tỏi",
+    "Hành tím",
+    "Gừng đập dập",
+    "Ớt",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu hào",
+    "Rượu",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Butter",
+    "Garlic",
+    "Shallot",
+    "Ginger",
+    "Pepper",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Rum",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "bo",
+    "toi",
+    "hanh tim",
+    "gung dap dap",
+    "ot",
+    "nuoc tuong",
+    "nuoc mam",
+    "dau hao",
+    "ruou",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre06842",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06842.json",
+  "name_vi": "trứng gà/ trứng vịt",
+  "name_en": "Chicken egg/Duck egg",
+  "name_normalized": "trung ga trung vit",
+  "synonyms": [
+    "trứng",
+    "trứng cá",
+    "trứng chim"
+  ],
+  "synonyms_normalized": [
+    "trung",
+    "trung ca",
+    "trung chim"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung ga/ trung vit",
+      "new": "trung ga trung vit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

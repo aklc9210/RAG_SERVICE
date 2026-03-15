@@ -1,0 +1,81 @@
+{
+  "id": "dish1753",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1753.json",
+  "name_vi": "Bánh phu thê - bánh xu xê lá dứa",
+  "name_en": "",
+  "name_normalized": "banh phu the banh xu xe la dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh cà vỏ"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Cơm dừa tươi",
+    "Mè trắng rang",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre07841",
+    "ingre03417",
+    "ingre01745",
+    "ingre03936",
+    "ingre03385",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Đậu xanh cà vỏ",
+    "Lá dứa",
+    "Cơm dừa tươi",
+    "Mè trắng rang",
+    "Lá chuối",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Green Soybeans Skin-On",
+    "Pandan叶",
+    "Coconut Rice",
+    "Roasted White Sesame",
+    "Banana leaf",
+    "Cooking oil",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "dau xanh ca vo",
+    "la dua",
+    "com dua tuoi",
+    "me trang rang",
+    "la chuoi",
+    "dau an",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh phu the - banh xu xe la dua",
+      "new": "banh phu the banh xu xe la dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish3462",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3462.json",
+  "name_vi": "Bánh canh giò heo",
+  "name_en": "",
+  "name_normalized": "banh canh gio heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương ống",
+    "Giò heo"
+  ],
+  "secondary_ingredients": [
+    "Rau sống",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bánh canh bột gạo",
+    "Cà rốt",
+    "Tiêu xay",
+    "Ớt tươi",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07433",
+    "ingre02346",
+    "ingre00072",
+    "ingre01419",
+    "ingre05379",
+    "ingre06644",
+    "ingre02673",
+    "ingre08078",
+    "ingre02768",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Xương ống",
+    "Giò heo",
+    "Bánh canh bột gạo",
+    "Cà rốt",
+    "Rau sống",
+    "Tiêu xay",
+    "Hành lá",
+    "Ớt tươi",
+    "Hành tím",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Tube bone",
+    "Pork sausage",
+    "Rice noodle soup",
+    "Carrot",
+    "Fresh herbs",
+    "Ground pepper",
+    "Scallion",
+    "Fresh chili",
+    "Shallot",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "xuong ong",
+    "gio heo",
+    "banh canh bot gao",
+    "ca rot",
+    "rau song",
+    "tieu xay",
+    "hanh la",
+    "ot tuoi",
+    "hanh tim",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

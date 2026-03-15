@@ -1,0 +1,72 @@
+{
+  "id": "dish9397",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9397.json",
+  "name_vi": "Dưa món",
+  "name_en": "",
+  "name_normalized": "dua mon",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Đu đủ"
+  ],
+  "secondary_ingredients": [
+    "Củ kiệu",
+    "Hành tím",
+    "Su hào"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Đường cát",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre07491",
+    "ingre01419",
+    "ingre01895",
+    "ingre02768",
+    "ingre05787",
+    "ingre07597",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ",
+    "Cà rốt",
+    "Củ kiệu",
+    "Hành tím",
+    "Su hào",
+    "Đường cát",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Papaya",
+    "Carrot",
+    "Pickled radish",
+    "Shallot",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "du du",
+    "ca rot",
+    "cu kieu",
+    "hanh tim",
+    "su hao",
+    "duong cat",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

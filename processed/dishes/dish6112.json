@@ -1,0 +1,61 @@
+{
+  "id": "dish6112",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6112.json",
+  "name_vi": "Trứng kho nước tương (xì dầu)",
+  "name_en": "",
+  "name_normalized": "trung kho nuoc tuong xi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Trứng gà hoặc trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc",
+    "Hành lá cắt nhỏ"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre06829",
+    "ingre07583",
+    "ingre04665",
+    "ingre02683",
+    "ingre04790"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà hoặc trứng vịt",
+    "Đường",
+    "Nước lọc",
+    "Hành lá cắt nhỏ",
+    "Nước tương"
+  ],
+  "ingredient_names_en": [
+    "Chicken or Duck Egg",
+    "Sugar",
+    "Tap water",
+    "Chopped Green Onion",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga hoac trung vit",
+    "duong",
+    "nuoc loc",
+    "hanh la cat nho",
+    "nuoc tuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung kho nuoc tuong (xi dau)",
+      "new": "trung kho nuoc tuong xi dau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "dish10059",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10059.json",
+  "name_vi": "Sinh tố đào thơm (dứa)",
+  "name_en": "",
+  "name_normalized": "sinh to dao thom dua",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Đào"
+  ],
+  "secondary_ingredients": [
+    "Dứa cả vỏ",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Đường cát trắng"
+  ],
+  "ingredient_ids": [
+    "ingre07507",
+    "ingre02154",
+    "ingre04554",
+    "ingre07601",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Đào",
+    "Dứa cả vỏ",
+    "Nước cốt dừa",
+    "Đường cát trắng",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Peach",
+    "Pineapple",
+    "Coconut milk",
+    "White Sugar",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "dao",
+    "dua ca vo",
+    "nuoc cot dua",
+    "duong cat trang",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to dao thom (dua)",
+      "new": "sinh to dao thom dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

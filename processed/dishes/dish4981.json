@@ -1,0 +1,108 @@
+{
+  "id": "dish4981",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4981.json",
+  "name_vi": "Bí đao xào thịt heo",
+  "name_en": "",
+  "name_normalized": "bi dao xao thit heo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bí đao",
+    "Thịt heo",
+    "Ngò rí",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Bộ nghệ"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00247",
+    "ingre06398",
+    "ingre04343",
+    "ingre02673",
+    "ingre07063",
+    "ingre07966",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644",
+    "ingre00506",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bí đao",
+    "Thịt heo",
+    "Ngò rí",
+    "Hành lá",
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Bộ nghệ",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Pork",
+    "Parsley",
+    "Scallion",
+    "Garlic",
+    "Pepper",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Ground pepper",
+    "Turmeric",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bi dao",
+    "thit heo",
+    "ngo ri",
+    "hanh la",
+    "toi",
+    "ot",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "tieu xay",
+    "bo nghe",
+    "dau hao",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

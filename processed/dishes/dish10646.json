@@ -1,0 +1,98 @@
+{
+  "id": "dish10646",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10646.json",
+  "name_vi": "Bún khô trộn tôm",
+  "name_en": "",
+  "name_normalized": "bun kho tron tom",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bún khô",
+    "Tôm tươi",
+    "Đậu phộng rang"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau thơm và ngò gai"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00346",
+    "ingre06963",
+    "ingre07791",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre05389",
+    "ingre04538",
+    "ingre04694",
+    "ingre07583",
+    "ingre06644",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bún khô",
+    "Tôm tươi",
+    "Đậu phộng rang",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Rau thơm và ngò gai",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Fresh shrimp",
+    "Roasted Peanut",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Basil and Lemongrass",
+    "Lemon juice",
+    "Fish Sauce",
+    "Sugar",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bun kho",
+    "tom tuoi",
+    "dau phong rang",
+    "hanh tim",
+    "toi",
+    "ot",
+    "rau thom va ngo gai",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "duong",
+    "tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

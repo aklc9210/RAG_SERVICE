@@ -1,0 +1,97 @@
+{
+  "id": "dish0159",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0159.json",
+  "name_vi": "Súp gà kiểu Ý",
+  "name_en": "",
+  "name_normalized": "sup ga kieu y",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Dầu ô-liu",
+    "Xúc xích gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Lúa mạch xay",
+    "Đậu Hòa Lan",
+    "Ức gà bỏ da",
+    "Mùi tây tươi",
+    "Nước súp gà",
+    "Cải bó xôi"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi băm nhuyễn",
+    "Nước sốt cay"
+  ],
+  "ingredient_ids": [
+    "ingre02122",
+    "ingre07399",
+    "ingre02741",
+    "ingre01419",
+    "ingre07072",
+    "ingre03594",
+    "ingre07739",
+    "ingre08105",
+    "ingre04065",
+    "ingre04749",
+    "ingre01771",
+    "ingre04755"
+  ],
+  "ingredient_names_vi": [
+    "Dầu ô-liu",
+    "Xúc xích gà",
+    "Hành tây",
+    "Cà rốt",
+    "Tỏi băm nhuyễn",
+    "Lúa mạch xay",
+    "Đậu Hòa Lan",
+    "Ức gà bỏ da",
+    "Mùi tây tươi",
+    "Nước súp gà",
+    "Cải bó xôi",
+    "Nước sốt cay"
+  ],
+  "ingredient_names_en": [
+    "Olive oil",
+    "Chicken sausage",
+    "Onion",
+    "Carrot",
+    "Minced garlic",
+    "Oatmeal",
+    "Cowpea",
+    "Chicken breast skinless",
+    "Fresh Parsley",
+    "Chicken broth",
+    "Bokchoy",
+    "Hot sauce"
+  ],
+  "ingredient_names_normalized": [
+    "dau o liu",
+    "xuc xich ga",
+    "hanh tay",
+    "ca rot",
+    "toi bam nhuyen",
+    "lua mach xay",
+    "dau hoa lan",
+    "uc ga bo da",
+    "mui tay tuoi",
+    "nuoc sup ga",
+    "cai bo xoi",
+    "nuoc sot cay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau o-liu",
+      "new": "dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ô-liu"
+    }
+  ]
+}

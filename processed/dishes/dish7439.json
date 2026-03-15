@@ -1,0 +1,98 @@
+{
+  "id": "dish7439",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7439.json",
+  "name_vi": "Bánh crepe gà chiên",
+  "name_en": "",
+  "name_normalized": "banh crepe ga chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Trứng gà",
+    "Ớt hiểm",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre00791",
+    "ingre00668",
+    "ingre06823",
+    "ingre00457",
+    "ingre02741",
+    "ingre08026",
+    "ingre02673",
+    "ingre02995",
+    "ingre06612",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Trứng gà",
+    "Bắp cải",
+    "Hành tây",
+    "Ớt hiểm",
+    "Hành lá",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "All-purpose flour",
+    "Rice flour",
+    "Chicken egg",
+    "Cabbage",
+    "Onion",
+    "Hot pepper",
+    "Scallion",
+    "Seasoning",
+    "Pepper",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "bot mi da dung",
+    "bot gao",
+    "trung ga",
+    "bap cai",
+    "hanh tay",
+    "ot hiem",
+    "hanh la",
+    "hat nem",
+    "tieu",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

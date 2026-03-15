@@ -1,0 +1,99 @@
+{
+  "id": "dish0632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0632.json",
+  "name_vi": "Canh cá diêu hồng nấu ngót",
+  "name_en": "",
+  "name_normalized": "canh ca dieu hong nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Rau cần tàu",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Hành tím/ tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre01354",
+    "ingre05241",
+    "ingre02673",
+    "ingre01079",
+    "ingre02807",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Cà chua",
+    "Rau cần tàu",
+    "Hành lá",
+    "Chanh",
+    "Hành tím/ tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Tomato",
+    "Watercress",
+    "Scallion",
+    "Lemon",
+    "Garlic minced/Green onion minced",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "ca chua",
+    "rau can tau",
+    "hanh la",
+    "chanh",
+    "hanh tim toi bam",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ toi bam",
+      "new": "hanh tim toi bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ tỏi băm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

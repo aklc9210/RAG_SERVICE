@@ -1,0 +1,105 @@
+{
+  "id": "dish3987",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3987.json",
+  "name_vi": "Gà nướng sốt cay",
+  "name_en": "",
+  "name_normalized": "ga nuong sot cay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Tương ớt",
+    "Ớt bột",
+    "Dầu ăn",
+    "Sa tế cay",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre02080",
+    "ingre04124",
+    "ingre04381",
+    "ingre07028",
+    "ingre07977",
+    "ingre02124",
+    "ingre05622",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Dầu hào",
+    "Mật ong",
+    "Ngũ vị hương",
+    "Tương ớt",
+    "Ớt bột",
+    "Dầu ăn",
+    "Sa tế cay",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Soy sauce",
+    "Honey",
+    "Five-Spice Powder",
+    "Hot Sauce",
+    "Chili powder",
+    "Cooking oil",
+    "Hot chili paste",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "sa",
+    "ot",
+    "toi",
+    "dau hao",
+    "mat ong",
+    "ngu vi huong",
+    "tuong ot",
+    "ot bot",
+    "dau an",
+    "sa te cay",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

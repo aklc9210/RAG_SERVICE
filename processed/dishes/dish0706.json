@@ -1,0 +1,92 @@
+{
+  "id": "dish0706",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0706.json",
+  "name_vi": "Súp nấm cần tây",
+  "name_en": "",
+  "name_normalized": "sup nam can tay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Nấm mỡ",
+    "Cần tây",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Sữa đặc",
+    "Ngò tây",
+    "Cỏ xạ hương khô"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột mì",
+    "Bột nêm gà",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04945",
+    "ingre01812",
+    "ingre02741",
+    "ingre07063",
+    "ingre00367",
+    "ingre00759",
+    "ingre00842",
+    "ingre06174",
+    "ingre04351",
+    "ingre01828",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mỡ",
+    "Cần tây",
+    "Hành tây",
+    "Tỏi",
+    "Bơ",
+    "Bột mì",
+    "Bột nêm gà",
+    "Sữa đặc",
+    "Ngò tây",
+    "Cỏ xạ hương khô",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Fried mushroom",
+    "Celery",
+    "Onion",
+    "Garlic",
+    "Butter",
+    "Wheat Flour",
+    "Chicken Seasoning Powder",
+    "Sweetened Condensed Milk",
+    "Chives",
+    "Dried Mint",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam mo",
+    "can tay",
+    "hanh tay",
+    "toi",
+    "bo",
+    "bot mi",
+    "bot nem ga",
+    "sua dac",
+    "ngo tay",
+    "co xa huong kho",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

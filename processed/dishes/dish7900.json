@@ -1,0 +1,126 @@
+{
+  "id": "dish7900",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7900.json",
+  "name_vi": "Lẩu bò khoai môn",
+  "name_en": "",
+  "name_normalized": "lau bo khoai mon",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt bắp bò",
+    "Sườn bò",
+    "Khoai môn",
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Tàu hũ ky",
+    "Sả",
+    "Hành tây",
+    "Hành tím",
+    "Đầu hành lá",
+    "Vắt mì ăn liền",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Gia vị lẩu bò",
+    "Gừng",
+    "Dầu ăn",
+    "Giấm ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06332",
+    "ingre05872",
+    "ingre03208",
+    "ingre07755",
+    "ingre06874",
+    "ingre02289",
+    "ingre05900",
+    "ingre02741",
+    "ingre02768",
+    "ingre07717",
+    "ingre02485",
+    "ingre02124",
+    "ingre02377",
+    "ingre07205",
+    "ingre05420",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bắp bò",
+    "Sườn bò",
+    "Khoai môn",
+    "Đậu hũ trắng",
+    "Tàu hũ ky",
+    "Gia vị lẩu bò",
+    "Sả",
+    "Hành tây",
+    "Hành tím",
+    "Đầu hành lá",
+    "Gừng",
+    "Dầu ăn",
+    "Giấm ăn",
+    "Vắt mì ăn liền",
+    "Rau ăn kèm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Beef ribs",
+    "Yam",
+    "Tofu",
+    "Tofu Ky",
+    "Beef Hot Pot Seasoning",
+    "Lemongrass",
+    "Onion",
+    "Shallot",
+    "Chive;top",
+    "Ginger",
+    "Cooking oil",
+    "vinegar",
+    "Instant noodles",
+    "Side vegetable",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit bap bo",
+    "suon bo",
+    "khoai mon",
+    "dau hu trang",
+    "tau hu ky",
+    "gia vi lau bo",
+    "sa",
+    "hanh tay",
+    "hanh tim",
+    "dau hanh la",
+    "gung",
+    "dau an",
+    "giam an",
+    "vat mi an lien",
+    "rau an kem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

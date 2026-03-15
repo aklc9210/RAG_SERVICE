@@ -1,0 +1,74 @@
+{
+  "id": "dish1553",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1553.json",
+  "name_vi": "Bánh xèo kim chi Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "banh xeo kim chi han quoc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kim chi",
+    "Lá hẹ"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Nước"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột mì",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03277",
+    "ingre03449",
+    "ingre03929",
+    "ingre00598",
+    "ingre00759",
+    "ingre04790",
+    "ingre04490",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Kim chi",
+    "Lá hẹ",
+    "Mè rang",
+    "Bột chiên giòn",
+    "Bột mì",
+    "Nước tương",
+    "Nước",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Garlic Chives Leaves",
+    "Roasted Sesame Seeds",
+    "Puffed Rice Powder",
+    "Wheat Flour",
+    "Soy Sauce",
+    "Water",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kim chi",
+    "la he",
+    "me rang",
+    "bot chien gion",
+    "bot mi",
+    "nuoc tuong",
+    "nuoc",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

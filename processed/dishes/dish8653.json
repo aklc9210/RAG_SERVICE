@@ -1,0 +1,116 @@
+{
+  "id": "dish8653",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8653.json",
+  "name_vi": "Bò hầm cà chua",
+  "name_en": "",
+  "name_normalized": "bo ham ca chua",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cà chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nguyệt quế khô",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tiêu",
+    "Hoa hồi",
+    "Bột cà chua",
+    "Rượu trắng",
+    "Nước tương",
+    "Hắc xì dầu",
+    "Đường/ Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01354",
+    "ingre02673",
+    "ingre02485",
+    "ingre06612",
+    "ingre02584",
+    "ingre04324",
+    "ingre00619",
+    "ingre05574",
+    "ingre04790",
+    "ingre03084",
+    "ingre04343",
+    "ingre07680",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cà chua",
+    "Hành lá",
+    "Gừng",
+    "Tiêu",
+    "Hoa hồi",
+    "Nguyệt quế khô",
+    "Bột cà chua",
+    "Rượu trắng",
+    "Nước tương",
+    "Hắc xì dầu",
+    "Ngò rí",
+    "Đường/ Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tomato",
+    "Scallion",
+    "Ginger",
+    "Pepper",
+    "Rose",
+    "Dried laurel",
+    "Tomato powder",
+    "White wine",
+    "Soy Sauce",
+    "Black soy sauce",
+    "Parsley",
+    "Sugar/Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca chua",
+    "hanh la",
+    "gung",
+    "tieu",
+    "hoa hoi",
+    "nguyet que kho",
+    "bot ca chua",
+    "ruou trang",
+    "nuoc tuong",
+    "hac xi dau",
+    "ngo ri",
+    "duong muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish8265",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8265.json",
+  "name_vi": "Gỏi nấm đùi gà hoa phượng",
+  "name_en": "",
+  "name_normalized": "goi nam dui ga hoa phuong",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bôn Hoa phượng",
+    "Nấm đùi gà",
+    "Rau càng cua"
+  ],
+  "secondary_ingredients": [
+    "Hoa chuối",
+    "Thơm",
+    "Rau răm",
+    "Đậu phộng",
+    "Nước tắc"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước mắm chay",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00276",
+    "ingre04974",
+    "ingre05219",
+    "ingre02575",
+    "ingre06247",
+    "ingre05359",
+    "ingre07781",
+    "ingre07583",
+    "ingre04697",
+    "ingre07028",
+    "ingre04817"
+  ],
+  "ingredient_names_vi": [
+    "Bôn Hoa phượng",
+    "Nấm đùi gà",
+    "Rau càng cua",
+    "Hoa chuối",
+    "Thơm",
+    "Rau răm",
+    "Đậu phộng",
+    "Đường",
+    "Nước mắm chay",
+    "Tương ớt",
+    "Nước tắc"
+  ],
+  "ingredient_names_en": [
+    "Peony Flower",
+    "Chicken mushroom",
+    "Water spinach",
+    "Banana flower",
+    "Basil",
+    "Vietnamese coriander",
+    "Peanut",
+    "Sugar",
+    "Vegetarian fish sauce",
+    "Hot Sauce",
+    "Lime juice"
+  ],
+  "ingredient_names_normalized": [
+    "bon hoa phuong",
+    "nam dui ga",
+    "rau cang cua",
+    "hoa chuoi",
+    "thom",
+    "rau ram",
+    "dau phong",
+    "duong",
+    "nuoc mam chay",
+    "tuong ot",
+    "nuoc tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

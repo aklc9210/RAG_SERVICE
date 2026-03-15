@@ -1,0 +1,90 @@
+{
+  "id": "dish6009",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6009.json",
+  "name_vi": "Sake kho tiêu",
+  "name_en": "",
+  "name_normalized": "sake kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sake chín:"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tiêu xanh:",
+    "Nước mắm chay",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Đường",
+    "Tiêu hột",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05637",
+    "ingre06643",
+    "ingre04697",
+    "ingre04790",
+    "ingre02997",
+    "ingre07583",
+    "ingre06623",
+    "ingre04672",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Sake chín:",
+    "Tiêu xanh:",
+    "Nước mắm chay",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Đường",
+    "Tiêu hột",
+    "Nước màu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Red sake",
+    "Green pepper",
+    "Vegetarian fish sauce",
+    "Soy Sauce",
+    "Vegetarian Seasoning",
+    "Sugar",
+    "Red pepper",
+    "Food coloring",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "sake chin",
+    "tieu xanh",
+    "nuoc mam chay",
+    "nuoc tuong",
+    "hat nem chay",
+    "duong",
+    "tieu hot",
+    "nuoc mau",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sake chin:",
+      "new": "sake chin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sake chín:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xanh:",
+      "new": "tieu xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xanh:"
+    }
+  ]
+}

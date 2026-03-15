@@ -1,0 +1,93 @@
+{
+  "id": "dish6340",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6340.json",
+  "name_vi": "Cơm đảo gà rang",
+  "name_en": "",
+  "name_normalized": "com dao ga rang",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Gà chặt nhỏ",
+    "Cơm nguội"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Gừng",
+    "Lá chanh",
+    "Muối hột",
+    "Bột nêm",
+    "Dầu hào",
+    "Tiêu xay",
+    "Bột nghệ"
+  ],
+  "ingredient_ids": [
+    "ingre02393",
+    "ingre01755",
+    "ingre06823",
+    "ingre02768",
+    "ingre02485",
+    "ingre03370",
+    "ingre03766",
+    "ingre00838",
+    "ingre02080",
+    "ingre06644",
+    "ingre00804"
+  ],
+  "ingredient_names_vi": [
+    "Gà chặt nhỏ",
+    "Cơm nguội",
+    "Trứng gà",
+    "Hành tím",
+    "Gừng",
+    "Lá chanh",
+    "Muối hột",
+    "Bột nêm",
+    "Dầu hào",
+    "Tiêu xay",
+    "Bột nghệ"
+  ],
+  "ingredient_names_en": [
+    "Chicken diced",
+    "Cold Rice",
+    "Chicken egg",
+    "Shallot",
+    "Ginger",
+    "Lime leaf",
+    "Sea salt",
+    "Seasoning Powder",
+    "Soy sauce",
+    "Ground pepper",
+    "Turmeric Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ga chat nho",
+    "com nguoi",
+    "trung ga",
+    "hanh tim",
+    "gung",
+    "la chanh",
+    "muoi hot",
+    "bot nem",
+    "dau hao",
+    "tieu xay",
+    "bot nghe"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

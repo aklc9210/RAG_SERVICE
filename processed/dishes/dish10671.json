@@ -1,0 +1,123 @@
+{
+  "id": "dish10671",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10671.json",
+  "name_vi": "Cuốn diếp chay - cải bẹ xanh cuộn chay",
+  "name_en": "",
+  "name_normalized": "cuon diep chay cai be xanh cuon chay",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Cải bẹ xanh",
+    "Đậu hũ trắng",
+    "Nấm mèo",
+    "Nấm linh chi"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Bông hẹ",
+    "Đầu hành boa rô",
+    "Bơ đậu phộng",
+    "Mè trắng rang",
+    "Bún",
+    "Đồ chua"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Dầu hào",
+    "Tương bần",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01775",
+    "ingre07755",
+    "ingre04930",
+    "ingre04923",
+    "ingre04953",
+    "ingre00288",
+    "ingre07715",
+    "ingre04790",
+    "ingre02080",
+    "ingre06981",
+    "ingre00416",
+    "ingre03936",
+    "ingre00338",
+    "ingre07898",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cải bẹ xanh",
+    "Đậu hũ trắng",
+    "Nấm mèo",
+    "Nấm linh chi",
+    "Nấm rơm",
+    "Bông hẹ",
+    "Đầu hành boa rô",
+    "Nước tương",
+    "Dầu hào",
+    "Tương bần",
+    "Bơ đậu phộng",
+    "Mè trắng rang",
+    "Bún",
+    "Đồ chua",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Green cabbage",
+    "Tofu",
+    "Mushroom",
+    "Reishi mushroom",
+    "Strawberry mushroom",
+    "Garlic Chive Blossom",
+    "Scallion",
+    "Soy Sauce",
+    "Fish sauce",
+    "Peanut butter",
+    "Roasted White Sesame",
+    "Noodle",
+    "Pickled vegetables",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cai be xanh",
+    "dau hu trang",
+    "nam meo",
+    "nam linh chi",
+    "nam rom",
+    "bong he",
+    "dau hanh boa ro",
+    "nuoc tuong",
+    "dau hao",
+    "tuong ban",
+    "bo dau phong",
+    "me trang rang",
+    "bun",
+    "do chua",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cuon diep chay - cai be xanh cuon chay",
+      "new": "cuon diep chay cai be xanh cuon chay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

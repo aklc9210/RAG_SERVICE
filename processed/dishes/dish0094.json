@@ -1,0 +1,63 @@
+{
+  "id": "dish0094",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0094.json",
+  "name_vi": "Măng khô hầm xương heo bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "mang kho ham xuong heo bang noi ap suat",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương heo"
+  ],
+  "secondary_ingredients": [
+    "Măng khô",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre04081",
+    "ingre02673",
+    "ingre04694",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Măng khô",
+    "Hành lá",
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Dried bamboo shoots",
+    "Scallion",
+    "Fish Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "mang kho",
+    "hanh la",
+    "nuoc mam",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "dish5798",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5798.json",
+  "name_vi": "Cá mè om dưa chua",
+  "name_en": "",
+  "name_normalized": "ca me om dua chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá mè",
+    "Dưa chua",
+    "Cà chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Dừa xiêm"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Tỏi băm",
+    "Sa tế",
+    "Ớt",
+    "Hành phi",
+    "Dầu hào",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01560",
+    "ingre01998",
+    "ingre01354",
+    "ingre02673",
+    "ingre02124",
+    "ingre07071",
+    "ingre05621",
+    "ingre07966",
+    "ingre02210",
+    "ingre02730",
+    "ingre02080",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá mè",
+    "Dưa chua",
+    "Cà chua",
+    "Hành lá",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Sa tế",
+    "Ớt",
+    "Dừa xiêm",
+    "Hành phi",
+    "Dầu hào",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Pickled cucumber",
+    "Tomato",
+    "Scallion",
+    "Cooking oil",
+    "Minced Garlic",
+    "Fish sauce",
+    "Pepper",
+    "Jackfruit",
+    "Garlic Fried",
+    "Soy sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca me",
+    "dua chua",
+    "ca chua",
+    "hanh la",
+    "dau an",
+    "toi bam",
+    "sa te",
+    "ot",
+    "dua xiem",
+    "hanh phi",
+    "dau hao",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

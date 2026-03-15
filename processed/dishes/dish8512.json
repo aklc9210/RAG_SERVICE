@@ -1,0 +1,88 @@
+{
+  "id": "dish8512",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8512.json",
+  "name_vi": "Gà hấp nước mắm nhĩ",
+  "name_en": "",
+  "name_normalized": "ga hap nuoc mam nhi",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà ta nguyên con"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng băm",
+    "Tỏi nguyên tép",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt sừng trâu",
+    "Chanh",
+    "Tiêu xanh",
+    "Tiêu sọ"
+  ],
+  "ingredient_ids": [
+    "ingre02404",
+    "ingre02492",
+    "ingre07093",
+    "ingre07071",
+    "ingre02768",
+    "ingre02774",
+    "ingre08066",
+    "ingre01079",
+    "ingre06640",
+    "ingre06628"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta nguyên con",
+    "Gừng băm",
+    "Tỏi nguyên tép",
+    "Tỏi băm",
+    "Hành tím",
+    "Hành tím băm",
+    "Ớt sừng trâu",
+    "Chanh",
+    "Tiêu xanh",
+    "Tiêu sọ"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken whole",
+    "Ginger paste",
+    "Garlic Cloves",
+    "Minced Garlic",
+    "Shallot",
+    "Chopped Scallion",
+    "Hot pepper",
+    "Lemon",
+    "Green pepper",
+    "Bamboo shoot"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta nguyen con",
+    "gung bam",
+    "toi nguyen tep",
+    "toi bam",
+    "hanh tim",
+    "hanh tim bam",
+    "ot sung trau",
+    "chanh",
+    "tieu xanh",
+    "tieu so"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

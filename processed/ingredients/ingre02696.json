@@ -1,0 +1,29 @@
+{
+  "id": "ingre02696",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02696.json",
+  "name_vi": "hành lá/ hành phi",
+  "name_en": "Chives/Scallions",
+  "name_normalized": "hanh la hanh phi",
+  "synonyms": [
+    "tỏi phi",
+    "tỏi xắt nhỏ",
+    "tỏi băm"
+  ],
+  "synonyms_normalized": [
+    "toi phi",
+    "toi xat nho",
+    "toi bam"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ hanh phi",
+      "new": "hanh la hanh phi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dish5869",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5869.json",
+  "name_vi": "Trứng vịt, trứng gà luộc chay",
+  "name_en": "",
+  "name_normalized": "trung vit trung ga luoc chay",
+  "category": "mon kho",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Đậu xanh bỏ vỏ"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột rau câu giòn Agar"
+  ],
+  "ingredient_ids": [
+    "ingre07838",
+    "ingre06147",
+    "ingre00900"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh bỏ vỏ",
+    "Sữa tươi không đường",
+    "Bột rau câu giòn Agar"
+  ],
+  "ingredient_names_en": [
+    "Green peas",
+    "Fat-free Milk",
+    "Agar powder"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh bo vo",
+    "sua tuoi khong duong",
+    "bot rau cau gion agar"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung vit, trung ga luoc chay",
+      "new": "trung vit trung ga luoc chay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

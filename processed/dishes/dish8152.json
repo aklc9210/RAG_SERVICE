@@ -1,0 +1,106 @@
+{
+  "id": "dish8152",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8152.json",
+  "name_vi": "Xà lách (salad) trộn dầu giấm",
+  "name_en": "",
+  "name_normalized": "xa lach salad tron dau giam",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xà lách",
+    "Cà chua",
+    "Hành tây",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Giấm gạo",
+    "Tương ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07351",
+    "ingre01354",
+    "ingre02741",
+    "ingre02020",
+    "ingre07966",
+    "ingre07063",
+    "ingre04343",
+    "ingre02362",
+    "ingre07028",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Xà lách",
+    "Cà chua",
+    "Hành tây",
+    "Dưa leo",
+    "Ớt",
+    "Tỏi",
+    "Ngò rí",
+    "Giấm gạo",
+    "Tương ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Lettuce",
+    "Tomato",
+    "Onion",
+    "Cucumber",
+    "Pepper",
+    "Garlic",
+    "Parsley",
+    "Rice vinegar",
+    "Hot Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "xa lach",
+    "ca chua",
+    "hanh tay",
+    "dua leo",
+    "ot",
+    "toi",
+    "ngo ri",
+    "giam gao",
+    "tuong ot",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach (salad) tron dau giam",
+      "new": "xa lach salad tron dau giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

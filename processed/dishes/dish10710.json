@@ -1,0 +1,113 @@
+{
+  "id": "dish10710",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10710.json",
+  "name_vi": "Chả cá cuốn bánh tráng",
+  "name_en": "",
+  "name_normalized": "cha ca cuon banh trang",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Cá thác lác",
+    "Bánh tráng",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành lá",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Cà rốt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tỏi ớt băm nhuyễn",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01628",
+    "ingre00178",
+    "ingre01079",
+    "ingre02020",
+    "ingre01419",
+    "ingre04343",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre07119",
+    "ingre05420",
+    "ingre02995",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá thác lác",
+    "Bánh tráng",
+    "Chanh",
+    "Dưa leo",
+    "Cà rốt",
+    "Ngò rí",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tỏi ớt băm nhuyễn",
+    "Rau ăn kèm",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pomfret",
+    "Rice Paper",
+    "Lemon",
+    "Cucumber",
+    "Carrot",
+    "Parsley",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Minced garlic and chili",
+    "Side vegetable",
+    "Seasoning",
+    "Salt",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca thac lac",
+    "banh trang",
+    "chanh",
+    "dua leo",
+    "ca rot",
+    "ngo ri",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "toi ot bam nhuyen",
+    "rau an kem",
+    "hat nem",
+    "muoi",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

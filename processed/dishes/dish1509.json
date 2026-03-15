@@ -1,0 +1,91 @@
+{
+  "id": "dish1509",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1509.json",
+  "name_vi": "Bông lan kem trứng dừa nướng",
+  "name_en": "",
+  "name_normalized": "bong lan kem trung dua nuong",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Whipping cream"
+  ],
+  "seasonings": [
+    "Bột mì số 8",
+    "Bột bắp",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Chanh",
+    "Sữa tươi không đường",
+    "Bột kem trứng",
+    "Đường bột",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre00564",
+    "ingre06823",
+    "ingre04554",
+    "ingre01079",
+    "ingre07313",
+    "ingre06147",
+    "ingre00706",
+    "ingre07589",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Bột bắp",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Chanh",
+    "Whipping cream",
+    "Sữa tươi không đường",
+    "Bột kem trứng",
+    "Đường bột",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Chicken egg",
+    "Coconut milk",
+    "Lemon",
+    "Whipping cream",
+    "Fat-free Milk",
+    "Egg Custard Powder",
+    "Sugar Powder",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "bot bap",
+    "trung ga",
+    "nuoc cot dua",
+    "chanh",
+    "whipping cream",
+    "sua tuoi khong duong",
+    "bot kem trung",
+    "duong bot",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

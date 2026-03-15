@@ -1,0 +1,61 @@
+{
+  "id": "dish6837",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6837.json",
+  "name_vi": "Trứng chiên lá mơ",
+  "name_en": "",
+  "name_normalized": "trung chien la mo",
+  "category": "mon chien",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Lá mơ lông"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre03476",
+    "ingre01991",
+    "ingre00587",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Lá mơ lông",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Lamb's Quarter",
+    "Cooking oil",
+    "Cornstarch",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "la mo long",
+    "dau an",
+    "bot canh",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

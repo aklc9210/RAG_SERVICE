@@ -1,0 +1,111 @@
+{
+  "id": "dish10706",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10706.json",
+  "name_vi": "Mì trộn xá xíu",
+  "name_en": "",
+  "name_normalized": "mi tron xa xiu",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Mì khô",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Mạch nha",
+    "Dầu mè thơm",
+    "Rau xà lách",
+    "Giá",
+    "Dưa chua"
+  ],
+  "seasonings": [
+    "Sốt ướp thịt nướng xá xíu",
+    "Rượu mai quế lộ",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Bột bắp",
+    "Tỏi phi",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03971",
+    "ingre06398",
+    "ingre06040",
+    "ingre05543",
+    "ingre04109",
+    "ingre04790",
+    "ingre07028",
+    "ingre02080",
+    "ingre02095",
+    "ingre00564",
+    "ingre07096",
+    "ingre05410",
+    "ingre02329",
+    "ingre01998",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Mì khô",
+    "Thịt heo",
+    "Sốt ướp thịt nướng xá xíu",
+    "Rượu mai quế lộ",
+    "Mạch nha",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu mè thơm",
+    "Bột bắp",
+    "Tỏi phi",
+    "Rau xà lách",
+    "Giá",
+    "Dưa chua",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Dry noodles",
+    "Pork",
+    "Barbecue Marinate Sauce",
+    "Sake Plum Ginger Wine",
+    "Molasses",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Sesame oil",
+    "Corn starch",
+    "Garlic flakes",
+    "lettuce",
+    "Mint",
+    "Pickled cucumber",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi kho",
+    "thit heo",
+    "sot uop thit nuong xa xiu",
+    "ruou mai que lo",
+    "mach nha",
+    "nuoc tuong",
+    "tuong ot",
+    "dau hao",
+    "dau me thom",
+    "bot bap",
+    "toi phi",
+    "rau xa lach",
+    "gia",
+    "dua chua",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

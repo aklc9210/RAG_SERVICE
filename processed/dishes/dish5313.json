@@ -1,0 +1,82 @@
+{
+  "id": "dish5313",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5313.json",
+  "name_vi": "Rạm rang lá lốt",
+  "name_en": "",
+  "name_normalized": "ram rang la lot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rạm"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Ớt",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05600",
+    "ingre03461",
+    "ingre05900",
+    "ingre07966",
+    "ingre00849",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Rạm",
+    "Lá lốt",
+    "Sả",
+    "Ớt",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Centella",
+    "Cinnamon Leaf",
+    "Lemongrass",
+    "Pepper",
+    "Cornstarch",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ram",
+    "la lot",
+    "sa",
+    "ot",
+    "bot nang",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

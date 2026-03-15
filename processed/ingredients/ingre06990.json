@@ -1,0 +1,29 @@
+{
+  "id": "ingre06990",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06990.json",
+  "name_vi": "tương cà/ tương ớt",
+  "name_en": "Soy Sauce/Peanut Sauce",
+  "name_normalized": "tuong ca tuong ot",
+  "synonyms": [
+    "tôm chua",
+    "tương ớt chua",
+    "nước chấm chua"
+  ],
+  "synonyms_normalized": [
+    "tom chua",
+    "tuong ot chua",
+    "nuoc cham chua"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong ca/ tuong ot",
+      "new": "tuong ca tuong ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

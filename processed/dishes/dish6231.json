@@ -1,0 +1,112 @@
+{
+  "id": "dish6231",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6231.json",
+  "name_vi": "Thịt kho (om) cà pháo",
+  "name_en": "",
+  "name_normalized": "thit kho om ca phao",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba rọi heo",
+    "Cà pháo",
+    "Mẻ"
+  ],
+  "secondary_ingredients": [
+    "Rau quế",
+    "Hành lá",
+    "Riềng"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06291",
+    "ingre01382",
+    "ingre04165",
+    "ingre05354",
+    "ingre02673",
+    "ingre07063",
+    "ingre08026",
+    "ingre05436",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi heo",
+    "Cà pháo",
+    "Mẻ",
+    "Rau quế",
+    "Hành lá",
+    "Tỏi",
+    "Ớt hiểm",
+    "Riềng",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Hot pepper",
+    "Tamarind",
+    "Sage",
+    "Scallion",
+    "Garlic",
+    "Galangal",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi heo",
+    "ca phao",
+    "me",
+    "rau que",
+    "hanh la",
+    "toi",
+    "ot hiem",
+    "rieng",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit kho (om) ca phao",
+      "new": "thit kho om ca phao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

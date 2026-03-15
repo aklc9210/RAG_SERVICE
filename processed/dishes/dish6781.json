@@ -1,0 +1,80 @@
+{
+  "id": "dish6781",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6781.json",
+  "name_vi": "Đậu hũ rang muối sả",
+  "name_en": "",
+  "name_normalized": "dau hu rang muoi sa",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ",
+    "Gạo"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh cà vỏ",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre02436",
+    "ingre07841",
+    "ingre07977",
+    "ingre05900",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Gạo",
+    "Đậu xanh cà vỏ",
+    "Ớt bột",
+    "Sả",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Rice",
+    "Green Soybeans Skin-On",
+    "Chili powder",
+    "Lemongrass",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "gao",
+    "dau xanh ca vo",
+    "ot bot",
+    "sa",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

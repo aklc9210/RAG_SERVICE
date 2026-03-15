@@ -1,0 +1,81 @@
+{
+  "id": "dish4029",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4029.json",
+  "name_vi": "Vịt nướng Vân Đình",
+  "name_en": "",
+  "name_normalized": "vit nuong van dinh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Mật ong",
+    "Màu dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre07966",
+    "ingre04124",
+    "ingre03849"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Ớt",
+    "Mật ong",
+    "Màu dầu điều"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Pepper",
+    "Honey",
+    "Peanut oil color"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "hanh tim",
+    "toi",
+    "sa",
+    "ot",
+    "mat ong",
+    "mau dau dieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

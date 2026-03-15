@@ -1,0 +1,106 @@
+{
+  "id": "dish0756",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0756.json",
+  "name_vi": "Canh chua đầu cá hồi măng chua",
+  "name_en": "",
+  "name_normalized": "canh chua dau ca hoi mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đầu cá hồi",
+    "Cà chua",
+    "Măng chua"
+  ],
+  "secondary_ingredients": [
+    "Rau ngổ",
+    "Hành tím",
+    "Rau xà lách"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07706",
+    "ingre01354",
+    "ingre04072",
+    "ingre05336",
+    "ingre07966",
+    "ingre02768",
+    "ingre02485",
+    "ingre05410",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá hồi",
+    "Cà chua",
+    "Măng chua",
+    "Rau ngổ",
+    "Ớt",
+    "Hành tím",
+    "Gừng",
+    "Rau xà lách",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Salmon head",
+    "Tomato",
+    "Pickled bamboo shoots",
+    "Culantro",
+    "Pepper",
+    "Shallot",
+    "Ginger",
+    "lettuce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca hoi",
+    "ca chua",
+    "mang chua",
+    "rau ngo",
+    "ot",
+    "hanh tim",
+    "gung",
+    "rau xa lach",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

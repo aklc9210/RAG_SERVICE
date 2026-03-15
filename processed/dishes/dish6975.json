@@ -1,0 +1,107 @@
+{
+  "id": "dish6975",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6975.json",
+  "name_vi": "Cá tai tượng chiên xù",
+  "name_en": "",
+  "name_normalized": "ca tai tuong chien xu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bánh hỏi",
+    "Bánh tráng",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Xà lách",
+    "Chuối chát",
+    "Khế",
+    "Hành lá và kinh giới"
+  ],
+  "seasonings": [
+    "Cá tai tượng",
+    "Mắm nêm",
+    "Chanh/tỏi và ớt",
+    "Bột chiên giòn",
+    "Muối",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01623",
+    "ingre00091",
+    "ingre00178",
+    "ingre06247",
+    "ingre07351",
+    "ingre01162",
+    "ingre03268",
+    "ingre04148",
+    "ingre02686",
+    "ingre01104",
+    "ingre00598",
+    "ingre03746",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá tai tượng",
+    "Bánh hỏi",
+    "Bánh tráng",
+    "Thơm",
+    "Xà lách",
+    "Chuối chát",
+    "Khế",
+    "Mắm nêm",
+    "Hành lá và kinh giới",
+    "Chanh/tỏi và ớt",
+    "Bột chiên giòn",
+    "Muối",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pufferfish",
+    "Rice Cake",
+    "Rice Paper",
+    "Basil",
+    "Lettuce",
+    "Bittermelon",
+    "Kumquat",
+    "Fish sauce",
+    "Chives and Parsley",
+    "Lime/Garlic and Chili",
+    "Puffed Rice Powder",
+    "Salt",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca tai tuong",
+    "banh hoi",
+    "banh trang",
+    "thom",
+    "xa lach",
+    "chuoi chat",
+    "khe",
+    "mam nem",
+    "hanh la va kinh gioi",
+    "chanh toi va ot",
+    "bot chien gion",
+    "muoi",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chanh/toi va ot",
+      "new": "chanh toi va ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chanh/tỏi và ớt"
+    }
+  ]
+}

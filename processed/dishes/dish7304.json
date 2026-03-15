@@ -1,0 +1,93 @@
+{
+  "id": "dish7304",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7304.json",
+  "name_vi": "Bánh tôm chiên củ sắn",
+  "name_en": "",
+  "name_normalized": "banh tom chien cu san",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm đất",
+    "Thịt nạc",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Củ sắn",
+    "Hạt bắp Mỹ",
+    "Hẹ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt sừng",
+    "Tỏi",
+    "Bột chiên giòn"
+  ],
+  "ingredient_ids": [
+    "ingre06973",
+    "ingre06455",
+    "ingre06941",
+    "ingre06823",
+    "ingre01920",
+    "ingre02915",
+    "ingre03085",
+    "ingre08055",
+    "ingre07063",
+    "ingre02768",
+    "ingre00598"
+  ],
+  "ingredient_names_vi": [
+    "Tôm đất",
+    "Thịt nạc",
+    "Tôm khô",
+    "Trứng gà",
+    "Củ sắn",
+    "Hạt bắp Mỹ",
+    "Hẹ",
+    "Ớt sừng",
+    "Tỏi",
+    "Hành tím",
+    "Bột chiên giòn"
+  ],
+  "ingredient_names_en": [
+    "Earthworm",
+    "Pork Belly",
+    "Dried Shrimp",
+    "Chicken egg",
+    "Yam",
+    "Cornmeal",
+    "Garlic Chives",
+    "Hot pepper",
+    "Garlic",
+    "Shallot",
+    "Puffed Rice Powder"
+  ],
+  "ingredient_names_normalized": [
+    "tom dat",
+    "thit nac",
+    "tom kho",
+    "trung ga",
+    "cu san",
+    "hat bap my",
+    "he",
+    "ot sung",
+    "toi",
+    "hanh tim",
+    "bot chien gion"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish1695",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1695.json",
+  "name_vi": "Bánh cam - bánh rán nhân đậu xanh",
+  "name_en": "",
+  "name_normalized": "banh cam banh ran nhan dau xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh cà vỏ",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Bột gạo",
+    "Bột năng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00859",
+    "ingre00668",
+    "ingre00849",
+    "ingre07841",
+    "ingre03935",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bột nếp",
+    "Bột gạo",
+    "Bột năng",
+    "Đậu xanh cà vỏ",
+    "Mè trắng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Glutinous rice flour",
+    "Rice flour",
+    "Cornstarch",
+    "Green Soybeans Skin-On",
+    "White sesame",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bot nep",
+    "bot gao",
+    "bot nang",
+    "dau xanh ca vo",
+    "me trang",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cam - banh ran nhan dau xanh",
+      "new": "banh cam banh ran nhan dau xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

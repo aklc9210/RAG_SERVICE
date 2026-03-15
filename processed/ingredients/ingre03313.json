@@ -1,0 +1,25 @@
+{
+  "id": "ingre03313",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03313.json",
+  "name_vi": "kẹo m&m",
+  "name_en": "M&M Candy",
+  "name_normalized": "keo m m",
+  "synonyms": [
+    "kẹo sô cô la"
+  ],
+  "synonyms_normalized": [
+    "keo so co la"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "keo m&m",
+      "new": "keo m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

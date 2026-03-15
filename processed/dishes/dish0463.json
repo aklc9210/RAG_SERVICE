@@ -1,0 +1,88 @@
+{
+  "id": "dish0463",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0463.json",
+  "name_vi": "Canh cà chua nấm kim châm",
+  "name_en": "",
+  "name_normalized": "canh ca chua nam kim cham",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cà chua",
+    "Nấm kim châm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01354",
+    "ingre04921",
+    "ingre02768",
+    "ingre02124",
+    "ingre04665",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cà chua",
+    "Nấm kim châm",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước lọc",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Tomato",
+    "Mushroom",
+    "Shallot",
+    "Cooking oil",
+    "Tap water",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua",
+    "nam kim cham",
+    "hanh tim",
+    "dau an",
+    "nuoc loc",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

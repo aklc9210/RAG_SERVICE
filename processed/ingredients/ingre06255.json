@@ -1,0 +1,25 @@
+{
+  "id": "ingre06255",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06255.json",
+  "name_vi": "thơm:",
+  "name_en": "Basil",
+  "name_normalized": "thom",
+  "synonyms": [
+    "tỏi"
+  ],
+  "synonyms_normalized": [
+    "toi"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thom:",
+      "new": "thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

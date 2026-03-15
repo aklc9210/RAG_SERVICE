@@ -1,0 +1,89 @@
+{
+  "id": "dish4661",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4661.json",
+  "name_vi": "Thịt bò xào nấm hương (nấm đông cô)",
+  "name_en": "",
+  "name_normalized": "thit bo xao nam huong nam dong co",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Nấm hương"
+  ],
+  "secondary_ingredients": [
+    "Cải thìa",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre04910",
+    "ingre01792",
+    "ingre07063",
+    "ingre02485",
+    "ingre02124",
+    "ingre02080",
+    "ingre02094",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Nấm hương",
+    "Cải thìa",
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Dầu mè",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Mushroom",
+    "Chinese cabbage",
+    "Garlic",
+    "Ginger",
+    "Cooking oil",
+    "Soy sauce",
+    "Sesame oil",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "nam huong",
+    "cai thia",
+    "toi",
+    "gung",
+    "dau an",
+    "dau hao",
+    "dau me",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit bo xao nam huong (nam dong co)",
+      "new": "thit bo xao nam huong nam dong co",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

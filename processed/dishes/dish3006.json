@@ -1,0 +1,73 @@
+{
+  "id": "dish3006",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3006.json",
+  "name_vi": "Bánh bao trứng cút thịt heo",
+  "name_en": "",
+  "name_normalized": "banh bao trung cut thit heo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt đùi heo xay",
+    "Trứng cút đã luộc sẵn và bóc vỏ",
+    "Lạp xưởng."
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Men nở",
+    "Đường",
+    "Bột mì đa dụng"
+  ],
+  "ingredient_ids": [
+    "ingre06147",
+    "ingre03686",
+    "ingre07583",
+    "ingre00791",
+    "ingre06534",
+    "ingre06821",
+    "ingre03622"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi không đường",
+    "Men nở",
+    "Đường",
+    "Bột mì đa dụng",
+    "Thịt đùi heo xay",
+    "Trứng cút đã luộc sẵn và bóc vỏ",
+    "Lạp xưởng."
+  ],
+  "ingredient_names_en": [
+    "Fat-free Milk",
+    "Baking Powder",
+    "Sugar",
+    "All-purpose flour",
+    "Ground Pork Thigh",
+    "Boiled and peeled salted duck eggs",
+    "Sausage."
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi khong duong",
+    "men no",
+    "duong",
+    "bot mi da dung",
+    "thit dui heo xay",
+    "trung cut da luoc san va boc vo",
+    "lap xuong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "lap xuong.",
+      "new": "lap xuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lạp xưởng."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre00965",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00965.json",
+  "name_vi": "bột trà xanh/ bột củ dền/ bột cacao",
+  "name_en": "Green tea powder/Beet powder/Cocoa powder",
+  "name_normalized": "bot tra xanh bot cu den bot cacao",
+  "synonyms": [
+    "bột xanh",
+    "bột màu",
+    "bột sô cô la"
+  ],
+  "synonyms_normalized": [
+    "bot xanh",
+    "bot mau",
+    "bot so co la"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot tra xanh/ bot cu den/ bot cacao",
+      "new": "bot tra xanh bot cu den bot cacao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

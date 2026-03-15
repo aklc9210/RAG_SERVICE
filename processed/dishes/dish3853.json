@@ -1,0 +1,88 @@
+{
+  "id": "dish3853",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3853.json",
+  "name_vi": "Cơm bò bít tết kiểu Nhật",
+  "name_en": "",
+  "name_normalized": "com bo bit tet kieu nhat",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Nước cốt Yuzu",
+    "Shio Koji",
+    "Hành khô",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre04790",
+    "ingre04595",
+    "ingre05654",
+    "ingre02667",
+    "ingre02673",
+    "ingre02094",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Nước tương",
+    "Nước cốt Yuzu",
+    "Shio Koji",
+    "Hành khô",
+    "Hành lá",
+    "Dầu mè",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Soy Sauce",
+    "Yuzu Juice",
+    "Shiitake mushroom fermentate",
+    "Garlic Powder",
+    "Scallion",
+    "Sesame oil",
+    "Salt",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "nuoc tuong",
+    "nuoc cot yuzu",
+    "shio koji",
+    "hanh kho",
+    "hanh la",
+    "dau me",
+    "muoi",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "dish7896",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7896.json",
+  "name_vi": "Lẩu cá chình",
+  "name_en": "",
+  "name_normalized": "lau ca chinh",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá chình",
+    "Cà chua",
+    "Thơm",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nước dùng gà",
+    "Bún",
+    "Rau nấm ăn kèm",
+    "Hành lá/ngò gai"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Gia vị lẩu Thái",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01498",
+    "ingre01354",
+    "ingre06247",
+    "ingre02741",
+    "ingre05900",
+    "ingre07966",
+    "ingre07071",
+    "ingre02774",
+    "ingre02291",
+    "ingre04607",
+    "ingre00338",
+    "ingre05346",
+    "ingre07583",
+    "ingre03746",
+    "ingre02124",
+    "ingre02717"
+  ],
+  "ingredient_names_vi": [
+    "Cá chình",
+    "Cà chua",
+    "Thơm",
+    "Hành tây",
+    "Sả",
+    "Ớt",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Gia vị lẩu Thái",
+    "Nước dùng gà",
+    "Bún",
+    "Rau nấm ăn kèm",
+    "Đường",
+    "Muối",
+    "Dầu ăn",
+    "Hành lá/ngò gai"
+  ],
+  "ingredient_names_en": [
+    "Pufferfish",
+    "Tomato",
+    "Basil",
+    "Onion",
+    "Lemongrass",
+    "Pepper",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Thai hot pot seasoning",
+    "Chicken broth",
+    "Noodle",
+    "Accompanying mushrooms",
+    "Sugar",
+    "Salt",
+    "Cooking oil",
+    "Chives"
+  ],
+  "ingredient_names_normalized": [
+    "ca chinh",
+    "ca chua",
+    "thom",
+    "hanh tay",
+    "sa",
+    "ot",
+    "toi bam",
+    "hanh tim bam",
+    "gia vi lau thai",
+    "nuoc dung ga",
+    "bun",
+    "rau nam an kem",
+    "duong",
+    "muoi",
+    "dau an",
+    "hanh la ngo gai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ngo gai",
+      "new": "hanh la ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ngò gai"
+    }
+  ]
+}

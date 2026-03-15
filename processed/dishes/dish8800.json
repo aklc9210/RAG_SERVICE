@@ -1,0 +1,81 @@
+{
+  "id": "dish8800",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8800.json",
+  "name_vi": "Bánh bạch tuộc takoyaki",
+  "name_en": "",
+  "name_normalized": "banh bach tuoc takoyaki",
+  "category": "an vat",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Bạch tuộc"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Bột nở",
+    "Trứng",
+    "Đường",
+    "Muối",
+    "Xì dầu",
+    "Hành lá/gừng hồng/sốt takoyaki/sốt mayonnaise/rong biển khô/cá ngừ bào khô"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00668",
+    "ingre00867",
+    "ingre00434",
+    "ingre06801",
+    "ingre07583",
+    "ingre03746",
+    "ingre07381",
+    "ingre02714"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Bột nở",
+    "Bạch tuộc",
+    "Trứng",
+    "Đường",
+    "Muối",
+    "Xì dầu",
+    "Hành lá/gừng hồng/sốt takoyaki/sốt mayonnaise/rong biển khô/cá ngừ bào khô"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Rice flour",
+    "Baking powder",
+    "Squid",
+    "Egg",
+    "Sugar",
+    "Salt",
+    "Soy Sauce",
+    "Green Onion/Ginger Red/Takoyaki Sauce/Mayonnaise Sauce/Dried Kelp/Canned Tuna"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot gao",
+    "bot no",
+    "bach tuoc",
+    "trung",
+    "duong",
+    "muoi",
+    "xi dau",
+    "hanh la gung hong sot takoyaki sot mayonnaise rong bien kho ca ngu bao kho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/gung hong/sot takoyaki/sot mayonnaise/rong bien kho/ca ngu bao kho",
+      "new": "hanh la gung hong sot takoyaki sot mayonnaise rong bien kho ca ngu bao kho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/gừng hồng/sốt takoyaki/sốt mayonnaise/rong biển khô/cá ngừ bào khô"
+    }
+  ]
+}

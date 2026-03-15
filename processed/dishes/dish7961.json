@@ -1,0 +1,73 @@
+{
+  "id": "dish7961",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7961.json",
+  "name_vi": "Gỏi chuối cây",
+  "name_en": "",
+  "name_normalized": "goi chuoi cay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chuối cây",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Tắc"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt băm",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01164",
+    "ingre05359",
+    "ingre01079",
+    "ingre07057",
+    "ingre07971",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chuối cây",
+    "Rau răm",
+    "Chanh",
+    "Tắc",
+    "Ớt băm",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Banana tree",
+    "Vietnamese coriander",
+    "Lemon",
+    "Tamarind",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi cay",
+    "rau ram",
+    "chanh",
+    "tac",
+    "ot bam",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

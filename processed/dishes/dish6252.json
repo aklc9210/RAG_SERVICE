@@ -1,0 +1,102 @@
+{
+  "id": "dish6252",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6252.json",
+  "name_vi": "Cá chốt kho sả ớt",
+  "name_en": "",
+  "name_normalized": "ca chot kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Cá chốt",
+    "Ớt hiểm",
+    "Gừng băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Giấm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01506",
+    "ingre05900",
+    "ingre08026",
+    "ingre02492",
+    "ingre07071",
+    "ingre04672",
+    "ingre04694",
+    "ingre02355",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chốt",
+    "Sả",
+    "Ớt hiểm",
+    "Gừng băm",
+    "Tỏi băm",
+    "Nước màu",
+    "Nước mắm",
+    "Giấm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Lemongrass",
+    "Hot pepper",
+    "Ginger paste",
+    "Minced Garlic",
+    "Food coloring",
+    "Fish Sauce",
+    "Vinegar",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chot",
+    "sa",
+    "ot hiem",
+    "gung bam",
+    "toi bam",
+    "nuoc mau",
+    "nuoc mam",
+    "giam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

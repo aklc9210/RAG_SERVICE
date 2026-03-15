@@ -1,0 +1,93 @@
+{
+  "id": "dish5498",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5498.json",
+  "name_vi": "Mì ý sốt pesto",
+  "name_en": "",
+  "name_normalized": "mi y sot pesto",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì pasta",
+    "Hạt óc chó",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Lá Basil",
+    "Dầu oliu",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Phô mai Parmesan bột",
+    "Rượu vang trắng",
+    "Tỏi",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03980",
+    "ingre03060",
+    "ingre06930",
+    "ingre03359",
+    "ingre02104",
+    "ingre05107",
+    "ingre05589",
+    "ingre02768",
+    "ingre07063",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mì pasta",
+    "Hạt óc chó",
+    "Tôm",
+    "Lá Basil",
+    "Dầu oliu",
+    "Phô mai Parmesan bột",
+    "Rượu vang trắng",
+    "Hành tím",
+    "Tỏi",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pasta",
+    "Hazelnut",
+    "Shrimp",
+    "Basil",
+    "Olive oil",
+    "Parmesan cheese powder",
+    "White wine",
+    "Shallot",
+    "Garlic",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi pasta",
+    "hat oc cho",
+    "tom",
+    "la basil",
+    "dau oliu",
+    "pho mai parmesan bot",
+    "ruou vang trang",
+    "hanh tim",
+    "toi",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish9393",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9393.json",
+  "name_vi": "Dưa cải muối",
+  "name_en": "",
+  "name_normalized": "dua cai muoi",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Dưa cải"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Ớt",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre02005",
+    "ingre03746",
+    "ingre07583",
+    "ingre02768",
+    "ingre02673",
+    "ingre07966",
+    "ingre02355"
+  ],
+  "ingredient_names_vi": [
+    "Dưa cải",
+    "Muối",
+    "Đường",
+    "Hành tím",
+    "Hành lá",
+    "Ớt",
+    "Giấm"
+  ],
+  "ingredient_names_en": [
+    "Chinese cabbage",
+    "Salt",
+    "Sugar",
+    "Shallot",
+    "Scallion",
+    "Pepper",
+    "Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "dua cai",
+    "muoi",
+    "duong",
+    "hanh tim",
+    "hanh la",
+    "ot",
+    "giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

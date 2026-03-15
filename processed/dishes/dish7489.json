@@ -1,0 +1,88 @@
+{
+  "id": "dish7489",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7489.json",
+  "name_vi": "Xôi chiên nhân thịt",
+  "name_en": "",
+  "name_normalized": "xoi chien nhan thit",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt băm",
+    "Nấm mèo",
+    "Sắn"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Gạo nếp"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06329",
+    "ingre04930",
+    "ingre05936",
+    "ingre01419",
+    "ingre02768",
+    "ingre02450",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt băm",
+    "Nấm mèo",
+    "Sắn",
+    "Cà rốt",
+    "Hành tím",
+    "Gạo nếp",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Minced meat",
+    "Mushroom",
+    "Yam",
+    "Carrot",
+    "Shallot",
+    "sticky rice",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit bam",
+    "nam meo",
+    "san",
+    "ca rot",
+    "hanh tim",
+    "gao nep",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

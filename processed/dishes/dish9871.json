@@ -1,0 +1,59 @@
+{
+  "id": "dish9871",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9871.json",
+  "name_vi": "Cocktail Pink Lady",
+  "name_en": "",
+  "name_normalized": "cocktail pink lady",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sugar Syrup",
+    "Syrup Grenadine",
+    "Quả anh đào Maraschino"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Rượu Gin",
+    "Nước chanh",
+    "Lòng trắng trứng"
+  ],
+  "ingredient_ids": [
+    "ingre05528",
+    "ingre04509",
+    "ingre05793",
+    "ingre05805",
+    "ingre03579",
+    "ingre05151"
+  ],
+  "ingredient_names_vi": [
+    "Rượu Gin",
+    "Nước chanh",
+    "Sugar Syrup",
+    "Syrup Grenadine",
+    "Lòng trắng trứng",
+    "Quả anh đào Maraschino"
+  ],
+  "ingredient_names_en": [
+    "Gin",
+    "Lemon juice",
+    "Sugar syrup -> Simple syrup",
+    "Grenadine syrup",
+    "Egg white",
+    "Maraschino cherry"
+  ],
+  "ingredient_names_normalized": [
+    "ruou gin",
+    "nuoc chanh",
+    "sugar syrup",
+    "syrup grenadine",
+    "long trang trung",
+    "qua anh dao maraschino"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

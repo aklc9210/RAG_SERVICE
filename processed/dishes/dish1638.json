@@ -1,0 +1,68 @@
+{
+  "id": "dish1638",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1638.json",
+  "name_vi": "Bánh flan milo",
+  "name_en": "",
+  "name_normalized": "banh flan milo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Sữa milo",
+    "Nước lọc",
+    "Nước sôi",
+    "Đá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột sữa milo",
+    "Đường cát trắng"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00934",
+    "ingre06174",
+    "ingre06133",
+    "ingre04665",
+    "ingre04743",
+    "ingre07601",
+    "ingre07516"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột sữa milo",
+    "Sữa đặc",
+    "Sữa milo",
+    "Nước lọc",
+    "Nước sôi",
+    "Đường cát trắng",
+    "Đá"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Milo powder",
+    "Sweetened Condensed Milk",
+    "Milo",
+    "Tap water",
+    "Boiling water",
+    "White Sugar",
+    "Ice"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot sua milo",
+    "sua dac",
+    "sua milo",
+    "nuoc loc",
+    "nuoc soi",
+    "duong cat trang",
+    "da"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

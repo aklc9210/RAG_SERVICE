@@ -1,0 +1,29 @@
+{
+  "id": "ingre06658",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06658.json",
+  "name_vi": "tiêu.",
+  "name_en": "Pepper.",
+  "name_normalized": "tieu",
+  "synonyms": [
+    "tắc kè",
+    "hạt tiêu"
+  ],
+  "synonyms_normalized": [
+    "tac ke",
+    "hat tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu.",
+      "new": "tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

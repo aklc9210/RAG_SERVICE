@@ -1,0 +1,25 @@
+{
+  "id": "ingre05059",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05059.json",
+  "name_vi": "phô mai bào mỏng.",
+  "name_en": "Shredded cheese.",
+  "name_normalized": "pho mai bao mong",
+  "synonyms": [
+    "phô mai xắt mỏng"
+  ],
+  "synonyms_normalized": [
+    "pho mai xat mong"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pho mai bao mong.",
+      "new": "pho mai bao mong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07695",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07695.json",
+  "name_vi": "đường; bột ngọt; muối",
+  "name_en": "Sugar; MSG; Salt",
+  "name_normalized": "duong bot ngot muoi",
+  "synonyms": [
+    "bột ngọt",
+    "mì chính",
+    "muối nở"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "mi chinh",
+    "muoi no"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong; bot ngot; muoi",
+      "new": "duong bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

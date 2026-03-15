@@ -1,0 +1,91 @@
+{
+  "id": "dish10584",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10584.json",
+  "name_vi": "Bắp bò ngâm rau tiến vua",
+  "name_en": "",
+  "name_normalized": "bap bo ngam rau tien vua",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Rau tiến vua",
+    "Bắp bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Ớt chỉ thiên",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05399",
+    "ingre00450",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre08055",
+    "ingre08017",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Rau tiến vua",
+    "Bắp bò",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Ớt chỉ thiên",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Watercress",
+    "Beef",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Hot pepper",
+    "Bird's eye chili",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "rau tien vua",
+    "bap bo",
+    "sa",
+    "gung",
+    "toi",
+    "ot sung",
+    "ot chi thien",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

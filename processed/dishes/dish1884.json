@@ -1,0 +1,53 @@
+{
+  "id": "dish1884",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1884.json",
+  "name_vi": "Bánh mì mè đen bằng bột pha sẵn",
+  "name_en": "",
+  "name_normalized": "banh mi me den bang bot pha san",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mè đen",
+    "Bơ lạt",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh mì mè đen pha sẵn",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00537",
+    "ingre06823",
+    "ingre03941",
+    "ingre00382",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh mì mè đen pha sẵn",
+    "Trứng gà",
+    "Mè đen",
+    "Bơ lạt",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Black Sesame Pre-Mixed Flour",
+    "Chicken egg",
+    "Black sesame seeds",
+    "Butter",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh mi me den pha san",
+    "trung ga",
+    "me den",
+    "bo lat",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

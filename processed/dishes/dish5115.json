@@ -1,0 +1,88 @@
+{
+  "id": "dish5115",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5115.json",
+  "name_vi": "Nui xào thịt bằm",
+  "name_en": "",
+  "name_normalized": "nui xao thit bam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui khô",
+    "Thịt heo",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04452",
+    "ingre06398",
+    "ingre06247",
+    "ingre02673",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Nui khô",
+    "Thịt heo",
+    "Thơm",
+    "Hành lá",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Pork",
+    "Basil",
+    "Scallion",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nui kho",
+    "thit heo",
+    "thom",
+    "hanh la",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

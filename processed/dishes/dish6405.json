@@ -1,0 +1,61 @@
+{
+  "id": "dish6405",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6405.json",
+  "name_vi": "Tóp mỡ rim mắm tỏi ớt",
+  "name_en": "",
+  "name_normalized": "top mo rim mam toi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt băm nhỏ",
+    "Tỏi băm nhỏ",
+    "Nước mắm",
+    "Muối/Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04192",
+    "ingre07973",
+    "ingre07073",
+    "ingre04694",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Mỡ heo",
+    "Ớt băm nhỏ",
+    "Tỏi băm nhỏ",
+    "Nước mắm",
+    "Muối/Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork fat",
+    "Chopped Pepper",
+    "Minced garlic",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mo heo",
+    "ot bam nho",
+    "toi bam nho",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Đường"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "dish2909",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2909.json",
+  "name_vi": "Bánh bông lan đài loan - Castella socola",
+  "name_en": "",
+  "name_normalized": "banh bong lan dai loan castella socola",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Đường cát trắng",
+    "Bột ca cao",
+    "Bột mì đa dụng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre02124",
+    "ingre06147",
+    "ingre06592",
+    "ingre07601",
+    "ingre00572",
+    "ingre00791",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Tinh chất vani",
+    "Đường cát trắng",
+    "Bột ca cao",
+    "Bột mì đa dụng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Cooking oil",
+    "Fat-free Milk",
+    "Vanilla extract",
+    "White Sugar",
+    "Cocoa powder",
+    "All-purpose flour",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "dau an",
+    "sua tuoi khong duong",
+    "tinh chat vani",
+    "duong cat trang",
+    "bot ca cao",
+    "bot mi da dung",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bong lan dai loan - castella socola",
+      "new": "banh bong lan dai loan castella socola",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "dish2013",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2013.json",
+  "name_vi": "Bánh xèo ngọt",
+  "name_en": "",
+  "name_normalized": "banh xeo ngot",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dừa nạo sợi",
+    "Mè rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh xèo",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00552",
+    "ingre00804",
+    "ingre02187",
+    "ingre02124",
+    "ingre03929",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh xèo",
+    "Bột nghệ",
+    "Dừa nạo sợi",
+    "Dầu ăn",
+    "Mè rang",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Soy flour",
+    "Turmeric Powder",
+    "Coconut丝纤维",
+    "Cooking oil",
+    "Roasted Sesame Seeds",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh xeo",
+    "bot nghe",
+    "dua nao soi",
+    "dau an",
+    "me rang",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

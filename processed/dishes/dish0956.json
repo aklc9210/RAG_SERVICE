@@ -1,0 +1,91 @@
+{
+  "id": "dish0956",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0956.json",
+  "name_vi": "Bánh crepe dưa gang cuộn",
+  "name_en": "",
+  "name_normalized": "banh crepe dua gang cuon",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Kem tươi",
+    "Kem phô mai"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Muối",
+    "Đường",
+    "Bột bánh",
+    "Chiết xuất vani",
+    "Bột trà xanh",
+    "Sữa tươi không đường",
+    "Chiết xuất va-ni"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre03746",
+    "ingre07583",
+    "ingre00521",
+    "ingre01132",
+    "ingre00961",
+    "ingre06147",
+    "ingre00382",
+    "ingre03157",
+    "ingre03137",
+    "ingre01138"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Muối",
+    "Đường",
+    "Bột bánh",
+    "Chiết xuất vani",
+    "Bột trà xanh",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Kem tươi",
+    "Kem phô mai",
+    "Chiết xuất va-ni"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Salt",
+    "Sugar",
+    "Bread flour",
+    "Vanilla extract",
+    "Green tea powder",
+    "Fat-free Milk",
+    "Butter",
+    "Fresh cream",
+    "Cottage Cheese"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "muoi",
+    "duong",
+    "bot banh",
+    "chiet xuat vani",
+    "bot tra xanh",
+    "sua tuoi khong duong",
+    "bo lat",
+    "kem tuoi",
+    "kem pho mai",
+    "chiet xuat va ni"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chiết xuất va-ni"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "dish6144",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6144.json",
+  "name_vi": "Sốt kho tiêu",
+  "name_en": "",
+  "name_normalized": "sot kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá bống",
+    "Hành tím",
+    "Tóp mỡ",
+    "Cọng hành"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dầu ăn",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tương ớt",
+    "Ớt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02124",
+    "ingre07583",
+    "ingre04694",
+    "ingre00819",
+    "ingre02995",
+    "ingre07028",
+    "ingre01477",
+    "ingre02768",
+    "ingre07966",
+    "ingre06927",
+    "ingre01818",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Dầu ăn",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tương ớt",
+    "Cá bống",
+    "Hành tím",
+    "Ớt",
+    "Tóp mỡ",
+    "Cọng hành",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cooking oil",
+    "Sugar",
+    "Fish Sauce",
+    "MSG",
+    "Seasoning",
+    "Hot Sauce",
+    "Carp",
+    "Shallot",
+    "Pepper",
+    "Pork rind",
+    "Green Onion"
+  ],
+  "ingredient_names_normalized": [
+    "dau an",
+    "duong",
+    "nuoc mam",
+    "bot ngot",
+    "hat nem",
+    "tuong ot",
+    "ca bong",
+    "hanh tim",
+    "ot",
+    "top mo",
+    "cong hanh",
+    "tieu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

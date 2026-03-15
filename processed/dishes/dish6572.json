@@ -1,0 +1,93 @@
+{
+  "id": "dish6572",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6572.json",
+  "name_vi": "Khoai lang chiên vừng - mè đen",
+  "name_en": "",
+  "name_normalized": "khoai lang chien vung me den",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai lang",
+    "Vừng đen"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bột gạo",
+    "Bột nếp",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03186",
+    "ingre07306",
+    "ingre00849",
+    "ingre00668",
+    "ingre00859",
+    "ingre00759",
+    "ingre06147",
+    "ingre00804",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang",
+    "Vừng đen",
+    "Bột năng",
+    "Bột gạo",
+    "Bột nếp",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Black sesame seeds",
+    "Cornstarch",
+    "Rice flour",
+    "Glutinous rice flour",
+    "Wheat Flour",
+    "Fat-free Milk",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang",
+    "vung den",
+    "bot nang",
+    "bot gao",
+    "bot nep",
+    "bot mi",
+    "sua tuoi khong duong",
+    "bot nghe",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "khoai lang chien vung - me den",
+      "new": "khoai lang chien vung me den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

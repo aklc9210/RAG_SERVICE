@@ -1,0 +1,119 @@
+{
+  "id": "dish5833",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5833.json",
+  "name_vi": "Trứng cá ngừ kho tộ",
+  "name_en": "",
+  "name_normalized": "trung ca ngu kho to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Trứng cá ngừ",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Bột ớt",
+    "Tỏi băm/ hành băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06813",
+    "ingre02673",
+    "ingre07966",
+    "ingre02768",
+    "ingre01015",
+    "ingre04672",
+    "ingre07074",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cá ngừ",
+    "Hành lá",
+    "Ớt",
+    "Hành tím",
+    "Bột ớt",
+    "Nước màu",
+    "Tỏi băm/ hành băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Salmon Roe",
+    "Scallion",
+    "Pepper",
+    "Shallot",
+    "Red Pepper Powder",
+    "Food coloring",
+    "Chopped Garlic/Chopped Onion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ca ngu",
+    "hanh la",
+    "ot",
+    "hanh tim",
+    "bot ot",
+    "nuoc mau",
+    "toi bam hanh bam",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi bam/ hanh bam",
+      "new": "toi bam hanh bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi băm/ hành băm"
+    }
+  ]
+}

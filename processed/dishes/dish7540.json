@@ -1,0 +1,101 @@
+{
+  "id": "dish7540",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7540.json",
+  "name_vi": "Bê cuốn bánh tráng",
+  "name_en": "",
+  "name_normalized": "be cuon banh trang",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Bê"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Thơm",
+    "Mắm cái",
+    "Rau ăn kèm",
+    "Dưa leo",
+    "Giá",
+    "Khế chua",
+    "Chuối chát",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00232",
+    "ingre07063",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre06247",
+    "ingre04146",
+    "ingre05420",
+    "ingre02020",
+    "ingre02329",
+    "ingre03269",
+    "ingre01162",
+    "ingre07057"
+  ],
+  "ingredient_names_vi": [
+    "Bê",
+    "Tỏi",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Thơm",
+    "Mắm cái",
+    "Rau ăn kèm",
+    "Dưa leo",
+    "Giá",
+    "Khế chua",
+    "Chuối chát",
+    "Tắc"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Garlic",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Basil",
+    "Fish sauce",
+    "Side vegetable",
+    "Cucumber",
+    "Mint",
+    "Tamarind",
+    "Bittermelon"
+  ],
+  "ingredient_names_normalized": [
+    "be",
+    "toi",
+    "gung",
+    "sa",
+    "ot",
+    "thom",
+    "mam cai",
+    "rau an kem",
+    "dua leo",
+    "gia",
+    "khe chua",
+    "chuoi chat",
+    "tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

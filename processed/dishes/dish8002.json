@@ -1,0 +1,103 @@
+{
+  "id": "dish8002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8002.json",
+  "name_vi": "Nước chấm chẻo",
+  "name_en": "",
+  "name_normalized": "nuoc cham cheo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Thịt cá phi lê",
+    "Mẻ chua xay nhuyễn"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Hành tím",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Mẻ nghệ",
+    "Tỏi",
+    "Ớt",
+    "Mắm tôm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre06358",
+    "ingre04167",
+    "ingre04168",
+    "ingre05436",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04159",
+    "ingre02093",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Thịt cá phi lê",
+    "Mẻ chua xay nhuyễn",
+    "Mẻ nghệ",
+    "Riềng",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Mắm tôm",
+    "Dầu màu điều",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Tilapia Fillet",
+    "Pickle Paste",
+    "Tamarind",
+    "Galangal",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Shrimp paste",
+    "Peanut-colored food coloring",
+    "Seasoning",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "thit ca phi le",
+    "me chua xay nhuyen",
+    "me nghe",
+    "rieng",
+    "hanh tim",
+    "toi",
+    "ot",
+    "mam tom",
+    "dau mau dieu",
+    "hat nem",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

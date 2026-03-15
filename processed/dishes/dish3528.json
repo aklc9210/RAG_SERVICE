@@ -1,0 +1,110 @@
+{
+  "id": "dish3528",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3528.json",
+  "name_vi": "Mì Tây Tạng - Thukpa",
+  "name_en": "",
+  "name_normalized": "mi tay tang thukpa",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Ức gà",
+    "Mì ramen",
+    "Nước hầm gà"
+  ],
+  "secondary_ingredients": [
+    "Nấm mỡ",
+    "Hành tím",
+    "Bắp cải"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Cà rốt",
+    "Ớt hiểm xanh",
+    "Bột ớt",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre03983",
+    "ingre04644",
+    "ingre04945",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre01419",
+    "ingre08033",
+    "ingre00457",
+    "ingre01015",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Mì ramen",
+    "Nước hầm gà",
+    "Nấm mỡ",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Cà rốt",
+    "Ớt hiểm xanh",
+    "Bắp cải",
+    "Bột ớt",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Ramen noodles",
+    "Chicken broth",
+    "Fried mushroom",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Carrot",
+    "Green Thai chili",
+    "Cabbage",
+    "Red Pepper Powder",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "mi ramen",
+    "nuoc ham ga",
+    "nam mo",
+    "hanh tim",
+    "toi",
+    "gung",
+    "ca rot",
+    "ot hiem xanh",
+    "bap cai",
+    "bot ot",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi tay tang - thukpa",
+      "new": "mi tay tang thukpa",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

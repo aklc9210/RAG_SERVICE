@@ -1,0 +1,86 @@
+{
+  "id": "dish3877",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3877.json",
+  "name_vi": "Cá ồ nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca o nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá ồ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01666",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá ồ",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca o",
+    "hanh tim",
+    "toi",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "tieu",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

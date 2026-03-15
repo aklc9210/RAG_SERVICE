@@ -1,0 +1,93 @@
+{
+  "id": "dish6961",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6961.json",
+  "name_vi": "Chả cá lá lốt",
+  "name_en": "",
+  "name_normalized": "cha ca la lot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá rô",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Bột năng",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01608",
+    "ingre06398",
+    "ingre03461",
+    "ingre02768",
+    "ingre00849",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06644",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô",
+    "Thịt heo",
+    "Lá lốt",
+    "Hành tím",
+    "Bột năng",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Roach",
+    "Pork",
+    "Cinnamon Leaf",
+    "Shallot",
+    "Cornstarch",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Ground pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro",
+    "thit heo",
+    "la lot",
+    "hanh tim",
+    "bot nang",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu xay",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

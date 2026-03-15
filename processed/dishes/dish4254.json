@@ -1,0 +1,108 @@
+{
+  "id": "dish4254",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4254.json",
+  "name_vi": "Sườn cốt lết nướng sa tế bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "suon cot let nuong sa te bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hành tím",
+    "Mè trắng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sườn cốt lết",
+    "Sa tế tôm",
+    "Sa tế ớt khô",
+    "Ớt",
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu hạt",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05876",
+    "ingre05626",
+    "ingre05631",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre03935",
+    "ingre02080",
+    "ingre02124",
+    "ingre06619",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cốt lết",
+    "Sa tế tôm",
+    "Sa tế ớt khô",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Mè trắng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu hạt",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Lettuce Spare Ribs",
+    "Shrimp paste",
+    "Dry Chili Paste",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "White sesame",
+    "Soy sauce",
+    "Cooking oil",
+    "Cumin Seeds",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon cot let",
+    "sa te tom",
+    "sa te ot kho",
+    "ot",
+    "hanh tim",
+    "toi",
+    "me trang",
+    "dau hao",
+    "dau an",
+    "tieu hat",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

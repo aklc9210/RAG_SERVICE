@@ -1,0 +1,101 @@
+{
+  "id": "dish0162",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0162.json",
+  "name_vi": "Canh rau đay nấu tôm",
+  "name_en": "",
+  "name_normalized": "canh rau day nau tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau đay",
+    "Tôm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05431",
+    "ingre06930",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Rau đay",
+    "Tôm",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Mallowweed",
+    "Shrimp",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "rau day",
+    "tom",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

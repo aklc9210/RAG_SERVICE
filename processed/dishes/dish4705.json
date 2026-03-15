@@ -1,0 +1,75 @@
+{
+  "id": "dish4705",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4705.json",
+  "name_vi": "Cải bó xôi (rau chân vịt) xào tỏi",
+  "name_en": "",
+  "name_normalized": "cai bo xoi rau chan vit xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cải bó xôi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Baking soda",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01771",
+    "ingre07063",
+    "ingre02124",
+    "ingre00018",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cải bó xôi",
+    "Tỏi",
+    "Dầu ăn",
+    "Baking soda",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Bokchoy",
+    "Garlic",
+    "Cooking oil",
+    "Baking soda",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai bo xoi",
+    "toi",
+    "dau an",
+    "baking soda",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cai bo xoi (rau chan vit) xao toi",
+      "new": "cai bo xoi rau chan vit xao toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

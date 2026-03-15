@@ -1,0 +1,62 @@
+{
+  "id": "dish5378",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5378.json",
+  "name_vi": "Rau lang xào mẻ",
+  "name_en": "",
+  "name_normalized": "rau lang xao me",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rau lang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi cô đơn",
+    "Nước cốt mẻ",
+    "Dầu ăn",
+    "Muối/Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05282",
+    "ingre07083",
+    "ingre04583",
+    "ingre02124",
+    "ingre03825"
+  ],
+  "ingredient_names_vi": [
+    "Rau lang",
+    "Tỏi cô đơn",
+    "Nước cốt mẻ",
+    "Dầu ăn",
+    "Muối/Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Basil",
+    "Garlic Singles",
+    "Lime juice",
+    "Cooking oil",
+    "Seasoning Salt"
+  ],
+  "ingredient_names_normalized": [
+    "rau lang",
+    "toi co don",
+    "nuoc cot me",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Hạt nêm"
+    }
+  ]
+}

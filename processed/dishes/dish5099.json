@@ -1,0 +1,96 @@
+{
+  "id": "dish5099",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5099.json",
+  "name_vi": "Mực xào dưa leo",
+  "name_en": "",
+  "name_normalized": "muc xao dua leo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực tươi",
+    "Dưa leo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04278",
+    "ingre02020",
+    "ingre02673",
+    "ingre02768",
+    "ingre02080",
+    "ingre02124",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mực tươi",
+    "Dưa leo",
+    "Hành lá",
+    "Hành tím",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Fresh squid",
+    "Cucumber",
+    "Scallion",
+    "Shallot",
+    "Soy sauce",
+    "Cooking oil",
+    "Seasoning",
+    "MSG",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc tuoi",
+    "dua leo",
+    "hanh la",
+    "hanh tim",
+    "dau hao",
+    "dau an",
+    "hat nem",
+    "bot ngot",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

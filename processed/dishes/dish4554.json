@@ -1,0 +1,81 @@
+{
+  "id": "dish4554",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4554.json",
+  "name_vi": "Thịt lợn (thịt heo) xào gừng",
+  "name_en": "",
+  "name_normalized": "thit lon thit heo xao gung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt lợn"
+  ],
+  "secondary_ingredients": [
+    "Mật mía"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Rượu trắng",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06431",
+    "ingre02485",
+    "ingre04123",
+    "ingre05574",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt lợn",
+    "Gừng",
+    "Mật mía",
+    "Rượu trắng",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Ginger",
+    "Molasses",
+    "White wine",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit lon",
+    "gung",
+    "mat mia",
+    "ruou trang",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit lon (thit heo) xao gung",
+      "new": "thit lon thit heo xao gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dish8911",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8911.json",
+  "name_vi": "Kẹo lạc (kẹo đậu phộng)",
+  "name_en": "",
+  "name_normalized": "keo lac keo dau phong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Lạc"
+  ],
+  "secondary_ingredients": [
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre03607",
+    "ingre07583",
+    "ingre04538",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Lạc",
+    "Đường",
+    "Nước cốt chanh",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Sugar",
+    "Lemon juice",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "lac",
+    "duong",
+    "nuoc cot chanh",
+    "la chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "keo lac (keo dau phong)",
+      "new": "keo lac keo dau phong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

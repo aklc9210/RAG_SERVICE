@@ -1,0 +1,108 @@
+{
+  "id": "dish5667",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5667.json",
+  "name_vi": "Vịt nấu chanh muối",
+  "name_en": "",
+  "name_normalized": "vit nau chanh muoi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Vịt",
+    "Nước dừa",
+    "Nấm đông cô khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Chanh muối",
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre01088",
+    "ingre04622",
+    "ingre04969",
+    "ingre02485",
+    "ingre02741",
+    "ingre02673",
+    "ingre07063",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Chanh muối",
+    "Nước dừa",
+    "Nấm đông cô khô",
+    "Gừng",
+    "Hành tây",
+    "Hành lá",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Pickled Lime",
+    "Coconut water",
+    "Dried shiitake mushrooms",
+    "Ginger",
+    "Onion",
+    "Scallion",
+    "Garlic",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "chanh muoi",
+    "nuoc dua",
+    "nam dong co kho",
+    "gung",
+    "hanh tay",
+    "hanh la",
+    "toi",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

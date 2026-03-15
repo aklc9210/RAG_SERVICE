@@ -1,0 +1,102 @@
+{
+  "id": "dish0717",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0717.json",
+  "name_vi": "Tiết canh củ dền",
+  "name_en": "",
+  "name_normalized": "tiet canh cu den",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gan vịt",
+    "Lòng vịt",
+    "Củ dền"
+  ],
+  "secondary_ingredients": [
+    "Rau quế",
+    "Cuống họng heo",
+    "Đậu phộng rang",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Bột sương sáo",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02247",
+    "ingre03582",
+    "ingre01880",
+    "ingre05354",
+    "ingre01351",
+    "ingre07791",
+    "ingre01079",
+    "ingre02768",
+    "ingre00922",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gan vịt",
+    "Lòng vịt",
+    "Củ dền",
+    "Rau quế",
+    "Cuống họng heo",
+    "Đậu phộng rang",
+    "Chanh",
+    "Hành tím",
+    "Bột sương sáo",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Duck liver",
+    "Beetroot",
+    "Sage",
+    "Pig's throat菜",
+    "Roasted Peanut",
+    "Lemon",
+    "Shallot",
+    "Sago粉",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan vit",
+    "long vit",
+    "cu den",
+    "rau que",
+    "cuong hong heo",
+    "dau phong rang",
+    "chanh",
+    "hanh tim",
+    "bot suong sao",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

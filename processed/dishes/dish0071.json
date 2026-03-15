@@ -1,0 +1,83 @@
+{
+  "id": "dish0071",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0071.json",
+  "name_vi": "Canh cải bẹ xanh nấu tôm tươi",
+  "name_en": "",
+  "name_normalized": "canh cai be xanh nau tom tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cải bẹ xanh",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01775",
+    "ingre06963",
+    "ingre02673",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cải bẹ xanh",
+    "Tôm tươi",
+    "Hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Green cabbage",
+    "Fresh shrimp",
+    "Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai be xanh",
+    "tom tuoi",
+    "hanh la",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

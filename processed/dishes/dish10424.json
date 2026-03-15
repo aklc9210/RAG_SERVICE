@@ -1,0 +1,72 @@
+{
+  "id": "dish10424",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10424.json",
+  "name_vi": "Pudding vải custard",
+  "name_en": "",
+  "name_normalized": "pudding vai custard",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Vải"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Hạt lựu",
+    "Hạt dẻ cười/ hạnh nhân"
+  ],
+  "seasonings": [
+    "Bột custard",
+    "Sữa tươi không đường",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre07193",
+    "ingre00618",
+    "ingre06174",
+    "ingre06147",
+    "ingre07589",
+    "ingre02967",
+    "ingre02939"
+  ],
+  "ingredient_names_vi": [
+    "Vải",
+    "Bột custard",
+    "Sữa đặc",
+    "Sữa tươi không đường",
+    "Đường bột",
+    "Hạt lựu",
+    "Hạt dẻ cười/ hạnh nhân"
+  ],
+  "ingredient_names_en": [
+    "Peach",
+    "Custard powder",
+    "Sweetened Condensed Milk",
+    "Fat-free Milk",
+    "Sugar Powder",
+    "Raisin",
+    "Almond"
+  ],
+  "ingredient_names_normalized": [
+    "vai",
+    "bot custard",
+    "sua dac",
+    "sua tuoi khong duong",
+    "duong bot",
+    "hat luu",
+    "hat de cuoi hanh nhan"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat de cuoi/ hanh nhan",
+      "new": "hat de cuoi hanh nhan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt dẻ cười/ hạnh nhân"
+    }
+  ]
+}

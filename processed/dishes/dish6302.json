@@ -1,0 +1,105 @@
+{
+  "id": "dish6302",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6302.json",
+  "name_vi": "Cá chạch kho tương riềng",
+  "name_en": "",
+  "name_normalized": "ca chach kho tuong rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chạch",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Lá nghệ",
+    "Riềng",
+    "Nước dưa cải ngâm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Tương bần",
+    "Dầu ăn",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01501",
+    "ingre05900",
+    "ingre02485",
+    "ingre03480",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre05436",
+    "ingre06981",
+    "ingre02124",
+    "ingre03010",
+    "ingre04618"
+  ],
+  "ingredient_names_vi": [
+    "Cá chạch",
+    "Sả",
+    "Gừng",
+    "Lá nghệ",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Riềng",
+    "Tương bần",
+    "Dầu ăn",
+    "Hạt nêm/ muối",
+    "Nước dưa cải ngâm"
+  ],
+  "ingredient_names_en": [
+    "Crayfish",
+    "Lemongrass",
+    "Ginger",
+    "Ginger leaf",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Galangal",
+    "Fish sauce",
+    "Cooking oil",
+    "Seasoning/Salt",
+    "Pickled Cucumber Water"
+  ],
+  "ingredient_names_normalized": [
+    "ca chach",
+    "sa",
+    "gung",
+    "la nghe",
+    "toi",
+    "ot",
+    "chanh",
+    "rieng",
+    "tuong ban",
+    "dau an",
+    "hat nem muoi",
+    "nuoc dua cai ngam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

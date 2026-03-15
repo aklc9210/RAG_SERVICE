@@ -1,0 +1,27 @@
+{
+  "id": "ingre00833",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00833.json",
+  "name_vi": "bột ngọt…",
+  "name_en": "Monosodium Glutamate",
+  "name_normalized": "bot ngot",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot...",
+      "new": "bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

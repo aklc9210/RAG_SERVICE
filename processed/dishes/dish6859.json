@@ -1,0 +1,86 @@
+{
+  "id": "dish6859",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6859.json",
+  "name_vi": "Gà rán",
+  "name_en": "",
+  "name_normalized": "ga ran",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Má đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Đùi tỏi",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột tỏi",
+    "Bột ớt",
+    "Bột hành",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07566",
+    "ingre03911",
+    "ingre06823",
+    "ingre00598",
+    "ingre00978",
+    "ingre01015",
+    "ingre00682",
+    "ingre06144",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Đùi tỏi",
+    "Má đùi gà",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột tỏi",
+    "Bột ớt",
+    "Bột hành",
+    "Sữa tươi",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Garlic thigh",
+    "Chicken thigh",
+    "Chicken egg",
+    "Puffed Rice Powder",
+    "Garlic powder",
+    "Red Pepper Powder",
+    "Fresh Milk",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "dui toi",
+    "ma dui ga",
+    "trung ga",
+    "bot chien gion",
+    "bot toi",
+    "bot ot",
+    "bot hanh",
+    "sua tuoi",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

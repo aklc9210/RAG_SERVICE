@@ -1,0 +1,83 @@
+{
+  "id": "dish5280",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5280.json",
+  "name_vi": "Lòng dê xào dứa",
+  "name_en": "",
+  "name_normalized": "long de xao dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng dê",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03569",
+    "ingre02151",
+    "ingre04329",
+    "ingre07071",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Lòng dê",
+    "Dứa",
+    "Ngò gai",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Lamb's liver",
+    "Pineapple",
+    "Culantro",
+    "Minced Garlic",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "long de",
+    "dua",
+    "ngo gai",
+    "toi bam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish4647",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4647.json",
+  "name_vi": "Nui sốt kem cá hồi",
+  "name_en": "",
+  "name_normalized": "nui sot kem ca hoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui xoắn",
+    "Cá hồi",
+    "Kem tươi yến mạch"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Dầu olive",
+    "Phô mai",
+    "Lá húng tây"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Bột tỏi",
+    "Hạt nêm/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04454",
+    "ingre01527",
+    "ingre03167",
+    "ingre00382",
+    "ingre02106",
+    "ingre05054",
+    "ingre07071",
+    "ingre03442",
+    "ingre00978",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Nui xoắn",
+    "Cá hồi",
+    "Kem tươi yến mạch",
+    "Bơ lạt",
+    "Dầu olive",
+    "Phô mai",
+    "Tỏi băm",
+    "Lá húng tây",
+    "Bột tỏi",
+    "Hạt nêm/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Corkscrew Pasta",
+    "Salmon",
+    "Oat cream",
+    "Butter",
+    "Olive oil",
+    "Cheese",
+    "Minced Garlic",
+    "Basil",
+    "Garlic powder",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nui xoan",
+    "ca hoi",
+    "kem tuoi yen mach",
+    "bo lat",
+    "dau olive",
+    "pho mai",
+    "toi bam",
+    "la hung tay",
+    "bot toi",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ Tiêu xay"
+    }
+  ]
+}

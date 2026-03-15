@@ -1,0 +1,91 @@
+{
+  "id": "dish9508",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9508.json",
+  "name_vi": "Tàu hũ ky cuộn nấm kim châm sốt dầu hào",
+  "name_en": "",
+  "name_normalized": "tau hu ky cuon nam kim cham sot dau hao",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Tàu hũ ky khô",
+    "Nấm kim châm"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột bắp",
+    "Tương ớt",
+    "Tương cà",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06876",
+    "ingre04921",
+    "ingre01419",
+    "ingre04343",
+    "ingre00564",
+    "ingre07028",
+    "ingre06984",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hũ ky khô",
+    "Nấm kim châm",
+    "Cà rốt",
+    "Ngò rí",
+    "Bột bắp",
+    "Tương ớt",
+    "Tương cà",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Tofu皮干",
+    "Mushroom",
+    "Carrot",
+    "Parsley",
+    "Corn starch",
+    "Hot Sauce",
+    "Miso酱",
+    "Soy Sauce",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky kho",
+    "nam kim cham",
+    "ca rot",
+    "ngo ri",
+    "bot bap",
+    "tuong ot",
+    "tuong ca",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

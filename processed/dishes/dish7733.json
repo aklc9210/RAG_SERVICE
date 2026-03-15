@@ -1,0 +1,118 @@
+{
+  "id": "dish7733",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7733.json",
+  "name_vi": "Lẩu ghẹ nấu bầu",
+  "name_en": "",
+  "name_normalized": "lau ghe nau bau",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Ghẹ",
+    "Bầu",
+    "Tôm khô",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Cải thảo",
+    "Cà chua",
+    "Hành ngò",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Rau mồng tơi",
+    "Tiêu xanh",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02267",
+    "ingre00440",
+    "ingre06941",
+    "ingre04953",
+    "ingre01793",
+    "ingre05320",
+    "ingre01354",
+    "ingre02724",
+    "ingre02768",
+    "ingre06640",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Ghẹ",
+    "Bầu",
+    "Tôm khô",
+    "Nấm rơm",
+    "Cải thảo",
+    "Rau mồng tơi",
+    "Cà chua",
+    "Hành ngò",
+    "Hành tím",
+    "Tiêu xanh",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Zucchini",
+    "Dried Shrimp",
+    "Strawberry mushroom",
+    "Cabbage",
+    "Mint",
+    "Tomato",
+    "Chives",
+    "Shallot",
+    "Green pepper",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ghe",
+    "bau",
+    "tom kho",
+    "nam rom",
+    "cai thao",
+    "rau mong toi",
+    "ca chua",
+    "hanh ngo",
+    "hanh tim",
+    "tieu xanh",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

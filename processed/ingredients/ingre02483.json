@@ -1,0 +1,27 @@
+{
+  "id": "ingre02483",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02483.json",
+  "name_vi": "gốc ngò rí/húng quế",
+  "name_en": "Cilantro",
+  "name_normalized": "goc ngo ri hung que",
+  "synonyms": [
+    "ngò",
+    "húng quế"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "hung que"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goc ngo ri/hung que",
+      "new": "goc ngo ri hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

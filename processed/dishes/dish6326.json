@@ -1,0 +1,126 @@
+{
+  "id": "dish6326",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6326.json",
+  "name_vi": "Ba ba rang muối",
+  "name_en": "",
+  "name_normalized": "ba ba rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ba ba"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Lòng đỏ Trứng gà"
+  ],
+  "seasonings": [
+    "Bột rang muối",
+    "Bột tổng hợp",
+    "Lá lốt",
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Rượu trắng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Mì chính",
+    "Hạt tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00004",
+    "ingre00889",
+    "ingre00982",
+    "ingre03461",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre08055",
+    "ingre03584",
+    "ingre05574",
+    "ingre04694",
+    "ingre02995",
+    "ingre03958",
+    "ingre03043",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ba ba",
+    "Bột rang muối",
+    "Bột tổng hợp",
+    "Lá lốt",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Ớt sừng",
+    "Lòng đỏ Trứng gà",
+    "Rượu trắng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Mì chính",
+    "Hạt tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Softshell turtle",
+    "Salted Fried Flour Powder",
+    "Baking Powder",
+    "Cinnamon Leaf",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Egg yolk",
+    "White wine",
+    "Fish Sauce",
+    "Seasoning",
+    "Soy Sauce",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ba ba",
+    "bot rang muoi",
+    "bot tong hop",
+    "la lot",
+    "sa",
+    "gung",
+    "toi",
+    "hanh tim",
+    "ot sung",
+    "long do trung ga",
+    "ruou trang",
+    "nuoc mam",
+    "hat nem",
+    "mi chinh",
+    "hat tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

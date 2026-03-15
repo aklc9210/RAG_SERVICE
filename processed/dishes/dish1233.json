@@ -1,0 +1,57 @@
+{
+  "id": "dish1233",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1233.json",
+  "name_vi": "Kẹo socola đậu phộng",
+  "name_en": "",
+  "name_normalized": "keo socola dau phong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Socola sữa",
+    "Đậu phộng",
+    "Socola đen 70%"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03746",
+    "ingre05756",
+    "ingre07781",
+    "ingre05764"
+  ],
+  "ingredient_names_vi": [
+    "Muối",
+    "Socola sữa",
+    "Đậu phộng",
+    "Socola đen 70%"
+  ],
+  "ingredient_names_en": [
+    "Salt",
+    "Milk chocolate",
+    "Peanut",
+    "Dark Chocolate 70%"
+  ],
+  "ingredient_names_normalized": [
+    "muoi",
+    "socola sua",
+    "dau phong",
+    "socola den 70"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola den 70%",
+      "new": "socola den 70",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola đen 70%"
+    }
+  ]
+}

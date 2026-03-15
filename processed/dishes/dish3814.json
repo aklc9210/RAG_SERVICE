@@ -1,0 +1,109 @@
+{
+  "id": "dish3814",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3814.json",
+  "name_vi": "Cá lốc nướng ống tre",
+  "name_en": "",
+  "name_normalized": "ca loc nuong ong tre",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá lóc"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí",
+    "Nước vo gạo",
+    "Tre",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Lá lốt",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre02673",
+    "ingre04343",
+    "ingre03461",
+    "ingre04821",
+    "ingre03807",
+    "ingre06684",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí",
+    "Lá lốt",
+    "Nước vo gạo",
+    "Muối/ bột ngọt",
+    "Tre",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Scallion",
+    "Parsley",
+    "Cinnamon Leaf",
+    "Rice washing water",
+    "Monosodium Glutamate",
+    "Bamboo",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "ot",
+    "toi",
+    "hanh tim",
+    "hanh la",
+    "ngo ri",
+    "la lot",
+    "nuoc vo gao",
+    "muoi bot ngot",
+    "tre",
+    "la chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

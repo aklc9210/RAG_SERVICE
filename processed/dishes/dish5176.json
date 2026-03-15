@@ -1,0 +1,88 @@
+{
+  "id": "dish5176",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5176.json",
+  "name_vi": "Cải thảo xào nấm đùi gà",
+  "name_en": "",
+  "name_normalized": "cai thao xao nam dui ga",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm đùi gà",
+    "Cải thảo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre01793",
+    "ingre02673",
+    "ingre04343",
+    "ingre02124",
+    "ingre02997",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Cải thảo",
+    "Hành lá",
+    "Ngò rí",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Cabbage",
+    "Scallion",
+    "Parsley",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt",
+    "MSG",
+    "Ground pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "cai thao",
+    "hanh la",
+    "ngo ri",
+    "dau an",
+    "hat nem chay",
+    "muoi",
+    "bot ngot",
+    "tieu xay",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

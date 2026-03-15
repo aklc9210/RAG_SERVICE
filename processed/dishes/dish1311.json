@@ -1,0 +1,73 @@
+{
+  "id": "dish1311",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1311.json",
+  "name_vi": "Bánh mì nhân kem sữa",
+  "name_en": "",
+  "name_normalized": "banh mi nhan kem sua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ nhạt",
+    "Sữa tươi",
+    "Sữa đặc",
+    "Kem tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì gia dụng",
+    "Đường",
+    "Men nở",
+    "Muối",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00765",
+    "ingre07583",
+    "ingre03686",
+    "ingre03746",
+    "ingre06823",
+    "ingre00402",
+    "ingre06144",
+    "ingre06174",
+    "ingre03157"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì gia dụng",
+    "Đường",
+    "Men nở",
+    "Muối",
+    "Trứng gà",
+    "Bơ nhạt",
+    "Sữa tươi",
+    "Sữa đặc",
+    "Kem tươi"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Sugar",
+    "Baking Powder",
+    "Salt",
+    "Chicken egg",
+    "Margarine",
+    "Fresh Milk",
+    "Sweetened Condensed Milk",
+    "Fresh cream"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi gia dung",
+    "duong",
+    "men no",
+    "muoi",
+    "trung ga",
+    "bo nhat",
+    "sua tuoi",
+    "sua dac",
+    "kem tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

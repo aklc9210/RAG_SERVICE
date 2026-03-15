@@ -1,0 +1,83 @@
+{
+  "id": "dish2772",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2772.json",
+  "name_vi": "Mousse sữa chua kiwi",
+  "name_en": "",
+  "name_normalized": "mousse sua chua kiwi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kem tươi"
+  ],
+  "secondary_ingredients": [
+    "Kiwi",
+    "Nước ép kiwi",
+    "Gelatin"
+  ],
+  "seasonings": [
+    "Sữa chua không đường",
+    "Cốt bánh bông lan",
+    "Chiết xuất va-ni",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06100",
+    "ingre03157",
+    "ingre03287",
+    "ingre04840",
+    "ingre01842",
+    "ingre02253",
+    "ingre01138",
+    "ingre04538",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sữa chua không đường",
+    "Kem tươi",
+    "Kiwi",
+    "Nước ép kiwi",
+    "Cốt bánh bông lan",
+    "Gelatin",
+    "Chiết xuất va-ni",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Plain Yogurt",
+    "Fresh cream",
+    "Kiwi -> Kiwi",
+    "Kiwi juice",
+    "Vanilla essence",
+    "Gelatin",
+    "Vanilla extract",
+    "Lemon juice",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sua chua khong duong",
+    "kem tuoi",
+    "kiwi",
+    "nuoc ep kiwi",
+    "cot banh bong lan",
+    "gelatin",
+    "chiet xuat va ni",
+    "nuoc cot chanh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chiết xuất va-ni"
+    }
+  ]
+}

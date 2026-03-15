@@ -1,0 +1,81 @@
+{
+  "id": "dish6320",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6320.json",
+  "name_vi": "Cá hường chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "ca huong chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hường",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi băm",
+    "Nước cốt chanh",
+    "Mayonnaise",
+    "Bột nghệ",
+    "Bột canh",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01523",
+    "ingre05900",
+    "ingre07966",
+    "ingre07071",
+    "ingre04538",
+    "ingre03639",
+    "ingre00804",
+    "ingre00587",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá hường",
+    "Sả",
+    "Ớt",
+    "Tỏi băm",
+    "Nước cốt chanh",
+    "Mayonnaise",
+    "Bột nghệ",
+    "Bột canh",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Lemongrass",
+    "Pepper",
+    "Minced Garlic",
+    "Lemon juice",
+    "Mayonnaise",
+    "Turmeric Powder",
+    "Cornstarch",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca huong",
+    "sa",
+    "ot",
+    "toi bam",
+    "nuoc cot chanh",
+    "mayonnaise",
+    "bot nghe",
+    "bot canh",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

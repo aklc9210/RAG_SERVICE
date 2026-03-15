@@ -1,0 +1,121 @@
+{
+  "id": "dish3218",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3218.json",
+  "name_vi": "Bánh canh cá nục Đà Nẵng",
+  "name_en": "",
+  "name_normalized": "banh canh ca nuc da nang",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá nục",
+    "Chả cá thu chiên",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Củ cải trắng",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bánh canh bột gạo",
+    "Bột ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00072",
+    "ingre01598",
+    "ingre01279",
+    "ingre06816",
+    "ingre04329",
+    "ingre01868",
+    "ingre02741",
+    "ingre02768",
+    "ingre01015",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh canh bột gạo",
+    "Cá nục",
+    "Chả cá thu chiên",
+    "Trứng cút",
+    "Ngò gai",
+    "Củ cải trắng",
+    "Hành tây",
+    "Hành tím",
+    "Bột ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Rice noodle soup",
+    "Mackerel",
+    "Canned Cod Fish Cake",
+    "Quail egg",
+    "Culantro",
+    "White radish",
+    "Onion",
+    "Shallot",
+    "Red Pepper Powder",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh canh bot gao",
+    "ca nuc",
+    "cha ca thu chien",
+    "trung cut",
+    "ngo gai",
+    "cu cai trang",
+    "hanh tay",
+    "hanh tim",
+    "bot ot",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

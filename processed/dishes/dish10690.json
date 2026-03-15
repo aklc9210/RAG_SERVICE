@@ -1,0 +1,111 @@
+{
+  "id": "dish10690",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10690.json",
+  "name_vi": "Xôi cuộn sầu riêng",
+  "name_en": "",
+  "name_normalized": "xoi cuon sau rieng",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Nếp ngỗng",
+    "Sầu riêng",
+    "Bánh phồng nếp"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh cà còn vỏ",
+    "Đậu phộng",
+    "Dừa rám nạo sợi",
+    "Lá dứa",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Nước cốt dão",
+    "Bột năng",
+    "Bột gạo",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04991",
+    "ingre05932",
+    "ingre00134",
+    "ingre07840",
+    "ingre07781",
+    "ingre04554",
+    "ingre04553",
+    "ingre02192",
+    "ingre00849",
+    "ingre00668",
+    "ingre03417",
+    "ingre02673",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Nếp ngỗng",
+    "Sầu riêng",
+    "Bánh phồng nếp",
+    "Đậu xanh cà còn vỏ",
+    "Đậu phộng",
+    "Nước cốt dừa",
+    "Nước cốt dão",
+    "Dừa rám nạo sợi",
+    "Bột năng",
+    "Bột gạo",
+    "Lá dứa",
+    "Hành lá",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Goose rice",
+    "Durian",
+    "Sticky Rice Pancake",
+    "Green Soybeans Still in Pod",
+    "Peanut",
+    "Coconut milk",
+    "Lime juice",
+    "Coconut丝纤维",
+    "Cornstarch",
+    "Rice flour",
+    "Pandan叶",
+    "Scallion",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nep ngong",
+    "sau rieng",
+    "banh phong nep",
+    "dau xanh ca con vo",
+    "dau phong",
+    "nuoc cot dua",
+    "nuoc cot dao",
+    "dua ram nao soi",
+    "bot nang",
+    "bot gao",
+    "la dua",
+    "hanh la",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

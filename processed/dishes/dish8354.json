@@ -1,0 +1,112 @@
+{
+  "id": "dish8354",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8354.json",
+  "name_vi": "Chân gà ngâm sả tắc xoài",
+  "name_en": "",
+  "name_normalized": "chan ga ngam sa tac xoai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chân gà",
+    "Xoài non",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Ớt bột",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre07339",
+    "ingre01419",
+    "ingre05900",
+    "ingre07057",
+    "ingre07063",
+    "ingre02485",
+    "ingre07966",
+    "ingre04694",
+    "ingre02377",
+    "ingre02124",
+    "ingre07977",
+    "ingre07522",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Xoài non",
+    "Cà rốt",
+    "Sả",
+    "Tắc",
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Ớt bột",
+    "Đá viên",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Green mango",
+    "Carrot",
+    "Lemongrass",
+    "Tamarind",
+    "Garlic",
+    "Ginger",
+    "Pepper",
+    "Fish Sauce",
+    "vinegar",
+    "Cooking oil",
+    "Chili powder",
+    "Ice cube",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "xoai non",
+    "ca rot",
+    "sa",
+    "tac",
+    "toi",
+    "gung",
+    "ot",
+    "nuoc mam",
+    "giam an",
+    "dau an",
+    "ot bot",
+    "da vien",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

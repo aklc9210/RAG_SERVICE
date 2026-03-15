@@ -1,0 +1,52 @@
+{
+  "id": "dish6332",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6332.json",
+  "name_vi": "Tàu hũ chiên giòn",
+  "name_en": "",
+  "name_normalized": "tau hu chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ trắng",
+    "Nước đá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối/ bột mì"
+  ],
+  "ingredient_ids": [
+    "ingre07755",
+    "ingre03806",
+    "ingre04853"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ trắng",
+    "Muối/ bột mì",
+    "Nước đá"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Salt/FLOUR",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu trang",
+    "muoi bot mi",
+    "nuoc da"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot mi",
+      "new": "muoi bot mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột mì"
+    }
+  ]
+}

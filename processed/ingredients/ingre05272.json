@@ -1,0 +1,25 @@
+{
+  "id": "ingre05272",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05272.json",
+  "name_vi": "rau húng/ rau răm",
+  "name_en": "Parsley",
+  "name_normalized": "rau hung rau ram",
+  "synonyms": [
+    "rừng răm"
+  ],
+  "synonyms_normalized": [
+    "rung ram"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau hung/ rau ram",
+      "new": "rau hung rau ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

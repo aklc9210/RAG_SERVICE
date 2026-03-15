@@ -1,0 +1,62 @@
+{
+  "id": "dish8964",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8964.json",
+  "name_vi": "Đậu phộng rang mật ong bột quế bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "dau phong rang mat ong bot que bang noi chien khong dau",
+  "category": "an vat",
+  "main_ingredients": [
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột quế",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre04124",
+    "ingre00888",
+    "ingre04665",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Mật ong",
+    "Bột quế",
+    "Nước lọc",
+    "Đường/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Honey",
+    "Cinnamon粉",
+    "Tap water",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "mat ong",
+    "bot que",
+    "nuoc loc",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

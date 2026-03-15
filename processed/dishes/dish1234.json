@@ -1,0 +1,63 @@
+{
+  "id": "dish1234",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1234.json",
+  "name_vi": "Bánh hẹ",
+  "name_en": "",
+  "name_normalized": "banh he",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lá hẹ",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tinh bột khoai tây",
+    "Bột tàn mì",
+    "Bột bắp",
+    "Dầu tỏi phi",
+    "Rượu nấu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06566",
+    "ingre00970",
+    "ingre03449",
+    "ingre06963",
+    "ingre00564",
+    "ingre02117",
+    "ingre05552"
+  ],
+  "ingredient_names_vi": [
+    "Tinh bột khoai tây",
+    "Bột tàn mì",
+    "Lá hẹ",
+    "Tôm tươi",
+    "Bột bắp",
+    "Dầu tỏi phi",
+    "Rượu nấu ăn"
+  ],
+  "ingredient_names_en": [
+    "Potato starch",
+    "Baking Soda",
+    "Garlic Chives Leaves",
+    "Fresh shrimp",
+    "Corn starch",
+    "Garlic oil",
+    "Cooking wine"
+  ],
+  "ingredient_names_normalized": [
+    "tinh bot khoai tay",
+    "bot tan mi",
+    "la he",
+    "tom tuoi",
+    "bot bap",
+    "dau toi phi",
+    "ruou nau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

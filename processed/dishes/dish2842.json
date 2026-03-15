@@ -1,0 +1,186 @@
+{
+  "id": "dish2842",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2842.json",
+  "name_vi": "Bánh tart trái cây yến mạch",
+  "name_en": "",
+  "name_normalized": "banh tart trai cay yen mach",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Yến mạch:",
+    "Hạnh nhân:",
+    "Hạt bí:"
+  ],
+  "secondary_ingredients": [
+    "Dầu dừa:",
+    "Mật ong:",
+    "Sữa chua hy lạp:",
+    "Xoài:",
+    "Dâu:",
+    "Kiwi xanh:",
+    "Blueberries:"
+  ],
+  "seasonings": [
+    "Trứng gà:",
+    "Vani:"
+  ],
+  "ingredient_ids": [
+    "ingre07461",
+    "ingre02900",
+    "ingre02909",
+    "ingre02071",
+    "ingre04128",
+    "ingre06843",
+    "ingre07148",
+    "ingre06098",
+    "ingre07347",
+    "ingre01974",
+    "ingre03291",
+    "ingre00040"
+  ],
+  "ingredient_names_vi": [
+    "Yến mạch:",
+    "Hạnh nhân:",
+    "Hạt bí:",
+    "Dầu dừa:",
+    "Mật ong:",
+    "Trứng gà:",
+    "Vani:",
+    "Sữa chua hy lạp:",
+    "Xoài:",
+    "Dâu:",
+    "Kiwi xanh:",
+    "Blueberries:"
+  ],
+  "ingredient_names_en": [
+    "Oat",
+    "Almond",
+    "Pumpkin seed:",
+    "Coconut oil:",
+    "Honey",
+    "Chicken egg:",
+    "Vanilla",
+    "Greek yogurt:",
+    "Mango",
+    "Strawberry",
+    "Green kiwi",
+    "Blueberries"
+  ],
+  "ingredient_names_normalized": [
+    "yen mach",
+    "hanh nhan",
+    "hat bi",
+    "dau dua",
+    "mat ong",
+    "trung ga",
+    "vani",
+    "sua chua hy lap",
+    "xoai",
+    "dau",
+    "kiwi xanh",
+    "blueberries"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "yen mach:",
+      "new": "yen mach",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Yến mạch:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh nhan:",
+      "new": "hanh nhan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạnh nhân:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat bi:",
+      "new": "hat bi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt bí:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau dua:",
+      "new": "dau dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu dừa:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mat ong:",
+      "new": "mat ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mật ong:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "trung ga:",
+      "new": "trung ga",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Trứng gà:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "vani:",
+      "new": "vani",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Vani:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua chua hy lap:",
+      "new": "sua chua hy lap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa chua hy lạp:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xoai:",
+      "new": "xoai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xoài:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau:",
+      "new": "dau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dâu:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kiwi xanh:",
+      "new": "kiwi xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kiwi xanh:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "blueberries:",
+      "new": "blueberries",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Blueberries:"
+    }
+  ]
+}

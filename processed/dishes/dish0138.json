@@ -1,0 +1,123 @@
+{
+  "id": "dish0138",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0138.json",
+  "name_vi": "Súp gà rau củ",
+  "name_en": "",
+  "name_normalized": "sup ga rau cu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Bắp"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô khô",
+    "Trứng cút",
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Trứng gà",
+    "Gừng",
+    "Bột năng",
+    "Bột canh",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre00448",
+    "ingre01419",
+    "ingre06823",
+    "ingre04969",
+    "ingre06816",
+    "ingre02485",
+    "ingre02768",
+    "ingre02673",
+    "ingre04329",
+    "ingre00849",
+    "ingre00587",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Bắp",
+    "Cà rốt",
+    "Trứng gà",
+    "Nấm đông cô khô",
+    "Trứng cút",
+    "Gừng",
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai",
+    "Bột năng",
+    "Bột canh",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Corn",
+    "Carrot",
+    "Chicken egg",
+    "Dried shiitake mushrooms",
+    "Quail egg",
+    "Ginger",
+    "Shallot",
+    "Scallion",
+    "Culantro",
+    "Cornstarch",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "bap",
+    "ca rot",
+    "trung ga",
+    "nam dong co kho",
+    "trung cut",
+    "gung",
+    "hanh tim",
+    "hanh la",
+    "ngo gai",
+    "bot nang",
+    "bot canh",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

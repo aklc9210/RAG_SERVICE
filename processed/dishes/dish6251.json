@@ -1,0 +1,88 @@
+{
+  "id": "dish6251",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6251.json",
+  "name_vi": "Gà kho lá chanh",
+  "name_en": "",
+  "name_normalized": "ga kho la chanh",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Lá chanh",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre01079",
+    "ingre03370",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Chanh",
+    "Lá chanh",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lemon",
+    "Lime leaf",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "chanh",
+    "la chanh",
+    "ot",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish1012",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1012.json",
+  "name_vi": "Bánh khoai lang tím cuộn bằng bột nếp",
+  "name_en": "",
+  "name_normalized": "banh khoai lang tim cuon bang bot nep",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang tím",
+    "Sữa đặc",
+    "Lá chuối"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre03200",
+    "ingre06174",
+    "ingre02124",
+    "ingre07583",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Khoai lang tím",
+    "Sữa đặc",
+    "Dầu ăn",
+    "Đường",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Purple potato",
+    "Sweetened Condensed Milk",
+    "Cooking oil",
+    "Sugar",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "khoai lang tim",
+    "sua dac",
+    "dau an",
+    "duong",
+    "la chuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

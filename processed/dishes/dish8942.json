@@ -1,0 +1,96 @@
+{
+  "id": "dish8942",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8942.json",
+  "name_vi": "Kẹo nougat trà xanh - socola",
+  "name_en": "",
+  "name_normalized": "keo nougat tra xanh socola",
+  "category": "an vat",
+  "main_ingredients": [
+    "Kẹo marshmallow"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Hạt điều",
+    "Hạnh nhân nguyên hạt",
+    "Hạt bí",
+    "Nho khô",
+    "Việt quất khô",
+    "Mơ sấy dẻo",
+    "Nụ hồng sấy"
+  ],
+  "seasonings": [
+    "Bột trà xanh",
+    "Bột socola",
+    "Sữa bột nguyên kem"
+  ],
+  "ingredient_ids": [
+    "ingre00961",
+    "ingre00914",
+    "ingre03314",
+    "ingre00382",
+    "ingre06087",
+    "ingre03062",
+    "ingre02894",
+    "ingre02902",
+    "ingre04398",
+    "ingre07173",
+    "ingre04095",
+    "ingre05005"
+  ],
+  "ingredient_names_vi": [
+    "Bột trà xanh",
+    "Bột socola",
+    "Kẹo marshmallow",
+    "Bơ lạt",
+    "Sữa bột nguyên kem",
+    "Hạt điều",
+    "Hạnh nhân nguyên hạt",
+    "Hạt bí",
+    "Nho khô",
+    "Việt quất khô",
+    "Mơ sấy dẻo",
+    "Nụ hồng sấy"
+  ],
+  "ingredient_names_en": [
+    "Green tea powder",
+    "Chocolate powder",
+    "Marshmallow",
+    "Butter",
+    "Whole Milk Powder",
+    "Peanut",
+    "Almond",
+    "Pumpkin seed",
+    "Dried grape",
+    "Dried cranberry",
+    "Dried plum",
+    "Dried Rose Petals"
+  ],
+  "ingredient_names_normalized": [
+    "bot tra xanh",
+    "bot socola",
+    "keo marshmallow",
+    "bo lat",
+    "sua bot nguyen kem",
+    "hat dieu",
+    "hanh nhan nguyen hat",
+    "hat bi",
+    "nho kho",
+    "viet quat kho",
+    "mo say deo",
+    "nu hong say"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "keo nougat tra xanh - socola",
+      "new": "keo nougat tra xanh socola",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

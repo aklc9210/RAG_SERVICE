@@ -1,0 +1,67 @@
+{
+  "id": "dish7193",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7193.json",
+  "name_vi": "Mì căn chiên giòn",
+  "name_en": "",
+  "name_normalized": "mi can chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mì căn"
+  ],
+  "secondary_ingredients": [
+    "Vừng"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Tương ớt",
+    "Dầu ăn",
+    "Hạt nêm/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03960",
+    "ingre00598",
+    "ingre07299",
+    "ingre07028",
+    "ingre02124",
+    "ingre03014"
+  ],
+  "ingredient_names_vi": [
+    "Mì căn",
+    "Bột chiên giòn",
+    "Vừng",
+    "Tương ớt",
+    "Dầu ăn",
+    "Hạt nêm/ đường"
+  ],
+  "ingredient_names_en": [
+    "Glass noodle",
+    "Puffed Rice Powder",
+    "Sesame",
+    "Hot Sauce",
+    "Cooking oil",
+    "Seasoning/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mi can",
+    "bot chien gion",
+    "vung",
+    "tuong ot",
+    "dau an",
+    "hat nem duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ duong",
+      "new": "hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ đường"
+    }
+  ]
+}

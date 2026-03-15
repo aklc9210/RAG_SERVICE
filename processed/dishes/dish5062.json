@@ -1,0 +1,109 @@
+{
+  "id": "dish5062",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5062.json",
+  "name_vi": "Dồi trường xào cay",
+  "name_en": "",
+  "name_normalized": "doi truong xao cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dồi trường",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt chỉ thiên",
+    "Ớt sừng",
+    "Tương ớt hột",
+    "Dầu hào",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02148",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre08017",
+    "ingre08055",
+    "ingre02741",
+    "ingre07037",
+    "ingre02093",
+    "ingre02080",
+    "ingre03084",
+    "ingre04790",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Dồi trường",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Ớt chỉ thiên",
+    "Ớt sừng",
+    "Hành tây",
+    "Tương ớt hột",
+    "Dầu màu điều",
+    "Dầu hào",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork blood sausage",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Bird's eye chili",
+    "Hot pepper",
+    "Onion",
+    "Hot Sauce Seeds",
+    "Peanut-colored food coloring",
+    "Soy sauce",
+    "Black soy sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "doi truong",
+    "sa",
+    "gung",
+    "toi",
+    "ot chi thien",
+    "ot sung",
+    "hanh tay",
+    "tuong ot hot",
+    "dau mau dieu",
+    "dau hao",
+    "hac xi dau",
+    "nuoc tuong",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

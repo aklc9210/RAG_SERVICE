@@ -1,0 +1,87 @@
+{
+  "id": "dish7405",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7405.json",
+  "name_vi": "Cá lóc chay chiên chấm mắm gừng",
+  "name_en": "",
+  "name_normalized": "ca loc chay chien cham mam gung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ trắng",
+    "Tàu hũ ky tươi",
+    "Chả lụa chay"
+  ],
+  "secondary_ingredients": [
+    "Rong biển",
+    "Xà lách & rau thơm & xoài"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Cà rốt",
+    "Cốt chanh",
+    "Gừng",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre07755",
+    "ingre06878",
+    "ingre01294",
+    "ingre05448",
+    "ingre00598",
+    "ingre01419",
+    "ingre01847",
+    "ingre02485",
+    "ingre07966",
+    "ingre07353"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ trắng",
+    "Tàu hũ ky tươi",
+    "Chả lụa chay",
+    "Rong biển",
+    "Bột chiên giòn",
+    "Cà rốt",
+    "Cốt chanh",
+    "Gừng",
+    "Ớt",
+    "Xà lách & rau thơm & xoài"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Firm tofu",
+    "Vegetarian blood sausage",
+    "Kelp",
+    "Puffed Rice Powder",
+    "Carrot",
+    "Lime zest",
+    "Ginger",
+    "Pepper",
+    "Lettuce & Herb & Mango"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu trang",
+    "tau hu ky tuoi",
+    "cha lua chay",
+    "rong bien",
+    "bot chien gion",
+    "ca rot",
+    "cot chanh",
+    "gung",
+    "ot",
+    "xa lach rau thom xoai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach & rau thom & xoai",
+      "new": "xa lach rau thom xoai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách & rau thơm & xoài"
+    }
+  ]
+}

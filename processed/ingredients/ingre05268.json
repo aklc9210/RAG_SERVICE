@@ -1,0 +1,25 @@
+{
+  "id": "ingre05268",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05268.json",
+  "name_vi": "rau húng quế/ xà lách",
+  "name_en": "Basil/Cress",
+  "name_normalized": "rau hung que xa lach",
+  "synonyms": [
+    "xà lách tía"
+  ],
+  "synonyms_normalized": [
+    "xa lach tia"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau hung que/ xa lach",
+      "new": "rau hung que xa lach",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

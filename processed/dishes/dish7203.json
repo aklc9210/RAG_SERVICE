@@ -1,0 +1,103 @@
+{
+  "id": "dish7203",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7203.json",
+  "name_vi": "Sườn rim mặn ngọt",
+  "name_en": "",
+  "name_normalized": "suon rim man ngot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn non",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre02768",
+    "ingre07063",
+    "ingre07977",
+    "ingre04694",
+    "ingre04124",
+    "ingre02080",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Hành tím",
+    "Tỏi",
+    "Ớt bột",
+    "Nước mắm",
+    "Mật ong",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Shallot",
+    "Garlic",
+    "Chili powder",
+    "Fish Sauce",
+    "Honey",
+    "Soy sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "hanh tim",
+    "toi",
+    "ot bot",
+    "nuoc mam",
+    "mat ong",
+    "dau hao",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

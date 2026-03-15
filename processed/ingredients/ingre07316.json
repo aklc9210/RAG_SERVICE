@@ -1,0 +1,25 @@
+{
+  "id": "ingre07316",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07316.json",
+  "name_vi": "whipping cream - đun nóng 60 độ",
+  "name_en": "Whipping cream - heated to 60 degrees",
+  "name_normalized": "whipping cream dun nong 60 do",
+  "synonyms": [
+    "kem tươi đã đun"
+  ],
+  "synonyms_normalized": [
+    "kem tuoi da dun"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "whipping cream - dun nong 60 do",
+      "new": "whipping cream dun nong 60 do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

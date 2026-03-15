@@ -1,0 +1,87 @@
+{
+  "id": "dish0102",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0102.json",
+  "name_vi": "Canh bắp hầm sườn non",
+  "name_en": "",
+  "name_normalized": "canh bap ham suon non",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn non",
+    "Nấm đùi gà",
+    "Bắp Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre04974",
+    "ingre00479",
+    "ingre01419",
+    "ingre02702",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Nấm đùi gà",
+    "Bắp Mỹ",
+    "Cà rốt",
+    "Hành lá/ ngò rí",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Chicken mushroom",
+    "Corn",
+    "Carrot",
+    "Chives",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "nam dui ga",
+    "bap my",
+    "ca rot",
+    "hanh la ngo ri",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

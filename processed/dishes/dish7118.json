@@ -1,0 +1,86 @@
+{
+  "id": "dish7118",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7118.json",
+  "name_vi": "Sườn non rim mật ong",
+  "name_en": "",
+  "name_normalized": "suon non rim mat ong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn non",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Xì dầu",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04124",
+    "ingre07381",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Mật ong",
+    "Xì dầu",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Honey",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "hanh tim",
+    "toi",
+    "ot",
+    "mat ong",
+    "xi dau",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dish6277",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6277.json",
+  "name_vi": "Cá diếc kho khế chua",
+  "name_en": "",
+  "name_normalized": "ca diec kho khe chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá diếc",
+    "Khế chua",
+    "Nghệ tươi",
+    "Hành tăm"
+  ],
+  "secondary_ingredients": [
+    "Lá nghệ",
+    "Hành lá",
+    "Mật mía"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Lá gừng",
+    "Nước mắm cô đặc",
+    "Nước mắm ngâm với ớt",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01516",
+    "ingre03269",
+    "ingre07966",
+    "ingre04308",
+    "ingre02813",
+    "ingre03480",
+    "ingre03432",
+    "ingre02673",
+    "ingre04123",
+    "ingre04701",
+    "ingre04709",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre02995",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá diếc",
+    "Khế chua",
+    "Ớt",
+    "Nghệ tươi",
+    "Hành tăm",
+    "Lá nghệ",
+    "Lá gừng",
+    "Hành lá",
+    "Mật mía",
+    "Nước mắm cô đặc",
+    "Nước mắm ngâm với ớt",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Tamarind",
+    "Pepper",
+    "Ginger",
+    "Garlic",
+    "Ginger leaf",
+    "Scallion",
+    "Molasses",
+    "Concentrated Fish Sauce",
+    "Pickled fish sauce with chili",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca diec",
+    "khe chua",
+    "ot",
+    "nghe tuoi",
+    "hanh tam",
+    "la nghe",
+    "la gung",
+    "hanh la",
+    "mat mia",
+    "nuoc mam co dac",
+    "nuoc mam ngam voi ot",
+    "muoi",
+    "duong",
+    "tieu",
+    "hat nem",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

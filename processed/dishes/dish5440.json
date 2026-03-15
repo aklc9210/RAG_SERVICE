@@ -1,0 +1,78 @@
+{
+  "id": "dish5440",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5440.json",
+  "name_vi": "Hẹ xào trứng",
+  "name_en": "",
+  "name_normalized": "he xao trung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Trứng vịt",
+    "Lá hẹ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06853",
+    "ingre03449",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Trứng vịt",
+    "Lá hẹ",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Garlic Chives Leaves",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung vit",
+    "la he",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

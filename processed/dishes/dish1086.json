@@ -1,0 +1,58 @@
+{
+  "id": "dish1086",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1086.json",
+  "name_vi": "Bánh flan sữa tươi whipping cream",
+  "name_en": "",
+  "name_normalized": "banh flan sua tuoi whipping cream",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Whipping cream",
+    "Sữa tươi",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Đường",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07583",
+    "ingre07313",
+    "ingre01079",
+    "ingre06144",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường",
+    "Whipping cream",
+    "Chanh",
+    "Sữa tươi",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Sugar",
+    "Whipping cream",
+    "Lemon",
+    "Fresh Milk",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong",
+    "whipping cream",
+    "chanh",
+    "sua tuoi",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "dish2884",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2884.json",
+  "name_vi": "Macaron trà xanh - Matcha macaron",
+  "name_en": "",
+  "name_normalized": "macaron tra xanh matcha macaron",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước lọc",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường bột",
+    "Bột hạnh nhân",
+    "Lòng trắng trứng gà",
+    "Đường cát",
+    "Bột trà xanh",
+    "Lòng trắng trứng",
+    "Đường",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre07589",
+    "ingre00691",
+    "ingre03580",
+    "ingre07597",
+    "ingre00961",
+    "ingre03579",
+    "ingre07583",
+    "ingre04665",
+    "ingre00382",
+    "ingre06147"
+  ],
+  "ingredient_names_vi": [
+    "Đường bột",
+    "Bột hạnh nhân",
+    "Lòng trắng trứng gà",
+    "Đường cát",
+    "Bột trà xanh",
+    "Lòng trắng trứng",
+    "Đường",
+    "Nước lọc",
+    "Bơ lạt",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_names_en": [
+    "Sugar Powder",
+    "Almond flour",
+    "Egg white",
+    "Sugar",
+    "Green tea powder",
+    "Tap water",
+    "Butter",
+    "Fat-free Milk"
+  ],
+  "ingredient_names_normalized": [
+    "duong bot",
+    "bot hanh nhan",
+    "long trang trung ga",
+    "duong cat",
+    "bot tra xanh",
+    "long trang trung",
+    "duong",
+    "nuoc loc",
+    "bo lat",
+    "sua tuoi khong duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "macaron tra xanh - matcha macaron",
+      "new": "macaron tra xanh matcha macaron",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

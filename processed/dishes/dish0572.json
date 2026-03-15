@@ -1,0 +1,87 @@
+{
+  "id": "dish0572",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0572.json",
+  "name_vi": "Tiết canh dê",
+  "name_en": "",
+  "name_normalized": "tiet canh de",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tiết dê",
+    "Lưỡi dê",
+    "Sụn dê"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả",
+    "Đậu phộng rang",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06668",
+    "ingre03604",
+    "ingre06064",
+    "ingre02741",
+    "ingre02485",
+    "ingre05900",
+    "ingre07791",
+    "ingre03929",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Tiết dê",
+    "Lưỡi dê",
+    "Sụn dê",
+    "Hành tây",
+    "Gừng",
+    "Sả",
+    "Đậu phộng rang",
+    "Mè rang",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Goat blood sausage",
+    "Goat's liver",
+    "Shrimp cartilage",
+    "Onion",
+    "Ginger",
+    "Lemongrass",
+    "Roasted Peanut",
+    "Roasted Sesame Seeds",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tiet de",
+    "luoi de",
+    "sun de",
+    "hanh tay",
+    "gung",
+    "sa",
+    "dau phong rang",
+    "me rang",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dish10677",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10677.json",
+  "name_vi": "Gỏi cuốn thịt gà đơn giản",
+  "name_en": "",
+  "name_normalized": "goi cuon thit ga don gian",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Ức gà",
+    "Hành lá",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Bánh tráng",
+    "Xà lách mỡ",
+    "Ngò rí",
+    "Lá bạc hà",
+    "Hạt mè trắng đã rang",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Nước tương",
+    "Giấm gạo",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre02673",
+    "ingre02485",
+    "ingre02020",
+    "ingre00178",
+    "ingre07363",
+    "ingre04343",
+    "ingre03365",
+    "ingre02976",
+    "ingre07063",
+    "ingre05574",
+    "ingre04790",
+    "ingre02362",
+    "ingre02094",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Hành lá",
+    "Gừng",
+    "Dưa leo",
+    "Bánh tráng",
+    "Xà lách mỡ",
+    "Ngò rí",
+    "Lá bạc hà",
+    "Hạt mè trắng đã rang",
+    "Tỏi",
+    "Rượu trắng",
+    "Nước tương",
+    "Giấm gạo",
+    "Dầu mè",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Scallion",
+    "Ginger",
+    "Cucumber",
+    "Rice Paper",
+    "Romaine lettuce",
+    "Parsley",
+    "Mint Leaf",
+    "Roasted White Sesame Seeds",
+    "Garlic",
+    "White wine",
+    "Soy Sauce",
+    "Rice vinegar",
+    "Sesame oil",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "hanh la",
+    "gung",
+    "dua leo",
+    "banh trang",
+    "xa lach mo",
+    "ngo ri",
+    "la bac ha",
+    "hat me trang da rang",
+    "toi",
+    "ruou trang",
+    "nuoc tuong",
+    "giam gao",
+    "dau me",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

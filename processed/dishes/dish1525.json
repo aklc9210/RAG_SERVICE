@@ -1,0 +1,101 @@
+{
+  "id": "dish1525",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1525.json",
+  "name_vi": "Bánh chưng chiên sốt tiêu đen",
+  "name_en": "",
+  "name_normalized": "banh chung chien sot tieu den",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh chưng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Rau mùi",
+    "Rễ rau mùi"
+  ],
+  "seasonings": [
+    "Ớt khô",
+    "Tỏi",
+    "Gừng",
+    "Sốt tiêu đen",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00079",
+    "ingre08039",
+    "ingre07063",
+    "ingre02768",
+    "ingre02485",
+    "ingre02673",
+    "ingre05302",
+    "ingre05612",
+    "ingre06007",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bánh chưng",
+    "Ớt khô",
+    "Tỏi",
+    "Hành tím",
+    "Gừng",
+    "Hành lá",
+    "Rau mùi",
+    "Rễ rau mùi",
+    "Sốt tiêu đen",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Steamed Rice Cake",
+    "Dried Pepper",
+    "Garlic",
+    "Shallot",
+    "Ginger",
+    "Scallion",
+    "Mint",
+    "Umbelliferone",
+    "Black pepper sauce",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "banh chung",
+    "ot kho",
+    "toi",
+    "hanh tim",
+    "gung",
+    "hanh la",
+    "rau mui",
+    "re rau mui",
+    "sot tieu den",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

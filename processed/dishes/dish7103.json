@@ -1,0 +1,91 @@
+{
+  "id": "dish7103",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7103.json",
+  "name_vi": "Cá rô phi chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "ca ro phi chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá rô phi",
+    "Rau ăn kèm",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01610",
+    "ingre05420",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre01079",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô phi",
+    "Rau ăn kèm",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "tilapia",
+    "Side vegetable",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Lemon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro phi",
+    "rau an kem",
+    "sa",
+    "ot",
+    "toi",
+    "chanh",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

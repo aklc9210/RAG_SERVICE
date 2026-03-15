@@ -1,0 +1,70 @@
+{
+  "id": "dish4495",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4495.json",
+  "name_vi": "Cà tím xào thịt ba chỉ",
+  "name_en": "",
+  "name_normalized": "ca tim xao thit ba chi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cà tím",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Đường",
+    "Hành lá/ớt đỏ"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre06275",
+    "ingre07063",
+    "ingre04790",
+    "ingre02080",
+    "ingre07583",
+    "ingre02723"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Thịt ba chỉ",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Đường",
+    "Hành lá/ớt đỏ"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Pork belly",
+    "Garlic",
+    "Soy Sauce",
+    "Sugar",
+    "Green onion/red chili"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "thit ba chi",
+    "toi",
+    "nuoc tuong",
+    "dau hao",
+    "duong",
+    "hanh la ot do"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ot do",
+      "new": "hanh la ot do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ớt đỏ"
+    }
+  ]
+}

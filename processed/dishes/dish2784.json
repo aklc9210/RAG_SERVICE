@@ -1,0 +1,92 @@
+{
+  "id": "dish2784",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2784.json",
+  "name_vi": "bánh mochi nhân kem dâu tằm",
+  "name_en": "",
+  "name_normalized": "banh mochi nhan kem dau tam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dâu tằm",
+    "Kem tươi (Whipping Cream)"
+  ],
+  "secondary_ingredients": [
+    "Gelatin",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Nước cốt dâu tằm",
+    "Đường bột",
+    "Bột nếp",
+    "Nước cốt dừa",
+    "Đường",
+    "Dầu ăn",
+    "Bột ngô"
+  ],
+  "ingredient_ids": [
+    "ingre01971",
+    "ingre03158",
+    "ingre04552",
+    "ingre07589",
+    "ingre02253",
+    "ingre00859",
+    "ingre04665",
+    "ingre04554",
+    "ingre07583",
+    "ingre02124",
+    "ingre00813"
+  ],
+  "ingredient_names_vi": [
+    "Dâu tằm",
+    "Kem tươi (Whipping Cream)",
+    "Nước cốt dâu tằm",
+    "Đường bột",
+    "Gelatin",
+    "Bột nếp",
+    "Nước lọc",
+    "Nước cốt dừa",
+    "Đường",
+    "Dầu ăn",
+    "Bột ngô"
+  ],
+  "ingredient_names_en": [
+    "Raisin",
+    "Whipping Cream",
+    "Raspberry Juice",
+    "Sugar Powder",
+    "Gelatin",
+    "Glutinous rice flour",
+    "Tap water",
+    "Coconut milk",
+    "Sugar",
+    "Cooking oil",
+    "Corn flour"
+  ],
+  "ingredient_names_normalized": [
+    "dau tam",
+    "kem tuoi whipping cream",
+    "nuoc cot dau tam",
+    "duong bot",
+    "gelatin",
+    "bot nep",
+    "nuoc loc",
+    "nuoc cot dua",
+    "duong",
+    "dau an",
+    "bot ngo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi (whipping cream)",
+      "new": "kem tuoi whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi (Whipping Cream)"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish7332",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7332.json",
+  "name_vi": "Hành tây chiên giòn với trứng",
+  "name_en": "",
+  "name_normalized": "hanh tay chien gion voi trung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hành tây trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tây tím",
+    "Hành boa rô",
+    "Rau mùi tây",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột mì semolina",
+    "Tỏi",
+    "Trứng",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00776",
+    "ingre02760",
+    "ingre02761",
+    "ingre02645",
+    "ingre07063",
+    "ingre05311",
+    "ingre06801",
+    "ingre02120",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột mì semolina",
+    "Hành tây trắng",
+    "Hành tây tím",
+    "Hành boa rô",
+    "Tỏi",
+    "Rau mùi tây",
+    "Trứng",
+    "Dầu ô liu",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Semolina",
+    "White onion",
+    "Purple onion",
+    "Garlic",
+    "Cilantro",
+    "Egg",
+    "Olive oil",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot mi semolina",
+    "hanh tay trang",
+    "hanh tay tim",
+    "hanh boa ro",
+    "toi",
+    "rau mui tay",
+    "trung",
+    "dau o liu",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay"
+    }
+  ]
+}

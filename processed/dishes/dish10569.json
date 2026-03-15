@@ -1,0 +1,116 @@
+{
+  "id": "dish10569",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10569.json",
+  "name_vi": "Mực nhảy ăn sống",
+  "name_en": "",
+  "name_normalized": "muc nhay an song",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Mực nhảy",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Gốc ngò rí"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng cay",
+    "Tỏi",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Ớt bột",
+    "Bột ngọt",
+    "Nước cốt chanh",
+    "Mù tạt"
+  ],
+  "ingredient_ids": [
+    "ingre04275",
+    "ingre05900",
+    "ingre02485",
+    "ingre08059",
+    "ingre02768",
+    "ingre07063",
+    "ingre02482",
+    "ingre07583",
+    "ingre04694",
+    "ingre07028",
+    "ingre07977",
+    "ingre00819",
+    "ingre04538",
+    "ingre04050"
+  ],
+  "ingredient_names_vi": [
+    "Mực nhảy",
+    "Sả",
+    "Gừng",
+    "Ớt sừng cay",
+    "Hành tím",
+    "Tỏi",
+    "Gốc ngò rí",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Ớt bột",
+    "Bột ngọt",
+    "Nước cốt chanh",
+    "Mù tạt"
+  ],
+  "ingredient_names_en": [
+    "Cuttlefish",
+    "Lemongrass",
+    "Ginger",
+    "Hot cucumber pepper",
+    "Shallot",
+    "Garlic",
+    "Pennyroyal",
+    "Sugar",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Chili powder",
+    "MSG",
+    "Lemon juice",
+    "Mustard"
+  ],
+  "ingredient_names_normalized": [
+    "muc nhay",
+    "sa",
+    "gung",
+    "ot sung cay",
+    "hanh tim",
+    "toi",
+    "goc ngo ri",
+    "duong",
+    "nuoc mam",
+    "tuong ot",
+    "ot bot",
+    "bot ngot",
+    "nuoc cot chanh",
+    "mu tat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

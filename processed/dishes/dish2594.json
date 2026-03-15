@@ -1,0 +1,86 @@
+{
+  "id": "dish2594",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2594.json",
+  "name_vi": "Bánh mì Brioche - bánh mì hoa cúc bằng bột nguyên cám",
+  "name_en": "",
+  "name_normalized": "banh mi brioche banh mi hoa cuc bang bot nguyen cam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men instant",
+    "Sữa tươi ấm"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Bơ lạt",
+    "Hạnh nhân lát",
+    "Mè đen"
+  ],
+  "seasonings": [
+    "Bột bánh mì",
+    "Bột mì nguyên cám",
+    "Muối",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00536",
+    "ingre03672",
+    "ingre06162",
+    "ingre00771",
+    "ingre03746",
+    "ingre06823",
+    "ingre04124",
+    "ingre00382",
+    "ingre02892",
+    "ingre03941"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh mì",
+    "Men instant",
+    "Sữa tươi ấm",
+    "Bột mì nguyên cám",
+    "Muối",
+    "Trứng gà",
+    "Mật ong",
+    "Bơ lạt",
+    "Hạnh nhân lát",
+    "Mè đen"
+  ],
+  "ingredient_names_en": [
+    "Bread flour",
+    "Instant yeast",
+    "Warm milk",
+    "Whole Grain Flour",
+    "Salt",
+    "Chicken egg",
+    "Honey",
+    "Butter",
+    "Almond slice",
+    "Black sesame seeds"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh mi",
+    "men instant",
+    "sua tuoi am",
+    "bot mi nguyen cam",
+    "muoi",
+    "trung ga",
+    "mat ong",
+    "bo lat",
+    "hanh nhan lat",
+    "me den"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi brioche - banh mi hoa cuc bang bot nguyen cam",
+      "new": "banh mi brioche banh mi hoa cuc bang bot nguyen cam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

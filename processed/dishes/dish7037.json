@@ -1,0 +1,71 @@
+{
+  "id": "dish7037",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7037.json",
+  "name_vi": "Khô mực cháy tỏi",
+  "name_en": "",
+  "name_normalized": "kho muc chay toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khô mực"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tương ớt",
+    "Đường/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03262",
+    "ingre07071",
+    "ingre07971",
+    "ingre04694",
+    "ingre02124",
+    "ingre07028",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Khô mực",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tương ớt",
+    "Đường/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Dried squid",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Hot Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "kho muc",
+    "toi bam",
+    "ot bam",
+    "nuoc mam",
+    "dau an",
+    "tuong ot",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Bột ngọt"
+    }
+  ]
+}

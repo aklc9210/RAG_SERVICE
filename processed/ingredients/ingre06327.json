@@ -1,0 +1,29 @@
+{
+  "id": "ingre06327",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06327.json",
+  "name_vi": "thịt bò xay: 200g",
+  "name_en": "Ground Beef: 200g",
+  "name_normalized": "thit bo xay 200g",
+  "synonyms": [
+    "thịt nạc xay",
+    "xay bò",
+    "bò xay"
+  ],
+  "synonyms_normalized": [
+    "thit nac xay",
+    "xay bo",
+    "bo xay"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit bo xay: 200g",
+      "new": "thit bo xay 200g",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

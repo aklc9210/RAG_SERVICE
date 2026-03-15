@@ -1,0 +1,68 @@
+{
+  "id": "dish7170",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7170.json",
+  "name_vi": "Cá rán bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ca ran bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá diêu hồng"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre02673",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Hành lá",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Scallion",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "hanh la",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish5056",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5056.json",
+  "name_vi": "Lươn xào sả ớt trà khô",
+  "name_en": "",
+  "name_normalized": "luon xao sa ot tra kho",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lươn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Lá trà khô",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre05900",
+    "ingre07977",
+    "ingre03538",
+    "ingre02768",
+    "ingre02355",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Sả",
+    "Ớt bột",
+    "Lá trà khô",
+    "Hành tím",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Lemongrass",
+    "Chili powder",
+    "Dry Tea Leaves",
+    "Shallot",
+    "Vinegar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "sa",
+    "ot bot",
+    "la tra kho",
+    "hanh tim",
+    "giam",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

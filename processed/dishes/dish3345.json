@@ -1,0 +1,116 @@
+{
+  "id": "dish3345",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3345.json",
+  "name_vi": "Gà hầm sả củ cải nấm rơm",
+  "name_en": "",
+  "name_normalized": "ga ham sa cu cai nam rom",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Gà",
+    "Củ cải trắng",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Sả băm",
+    "Hành tím băm",
+    "Nước mắm",
+    "Bột nghệ",
+    "Sa tế",
+    "Muối hạt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre01868",
+    "ingre04953",
+    "ingre08026",
+    "ingre05900",
+    "ingre07071",
+    "ingre05905",
+    "ingre02774",
+    "ingre04694",
+    "ingre00804",
+    "ingre05621",
+    "ingre03760",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Củ cải trắng",
+    "Nấm rơm",
+    "Ớt hiểm",
+    "Sả",
+    "Tỏi băm",
+    "Sả băm",
+    "Hành tím băm",
+    "Nước mắm",
+    "Bột nghệ",
+    "Sa tế",
+    "Muối hạt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "White radish",
+    "Strawberry mushroom",
+    "Hot pepper",
+    "Lemongrass",
+    "Minced Garlic",
+    "Garlic Paste",
+    "Chopped Scallion",
+    "Fish Sauce",
+    "Turmeric Powder",
+    "Fenugreek seeds",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "cu cai trang",
+    "nam rom",
+    "ot hiem",
+    "sa",
+    "toi bam",
+    "sa bam",
+    "hanh tim bam",
+    "nuoc mam",
+    "bot nghe",
+    "sa te",
+    "muoi hat",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

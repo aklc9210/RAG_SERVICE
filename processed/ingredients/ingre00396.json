@@ -1,0 +1,29 @@
+{
+  "id": "ingre00396",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00396.json",
+  "name_vi": "bơ lạt; 500g bột chiên xù",
+  "name_en": "Butter; 500g Fried Bread Crumbs",
+  "name_normalized": "bo lat 500g bot chien xu",
+  "synonyms": [
+    "bơ",
+    "bột chiên xù",
+    "bột chiên"
+  ],
+  "synonyms_normalized": [
+    "bo",
+    "bot chien xu",
+    "bot chien"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo lat; 500g bot chien xu",
+      "new": "bo lat 500g bot chien xu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

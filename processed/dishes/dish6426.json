@@ -1,0 +1,77 @@
+{
+  "id": "dish6426",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6426.json",
+  "name_vi": "Tater Tots",
+  "name_en": "",
+  "name_normalized": "tater tots",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai tây",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Rau mùi tây",
+    "Hương thảo",
+    "Xạ hương"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Muối/Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00382",
+    "ingre00791",
+    "ingre05311",
+    "ingre02881",
+    "ingre07438",
+    "ingre03826",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bơ lạt",
+    "Bột mì đa dụng",
+    "Rau mùi tây",
+    "Hương thảo",
+    "Xạ hương",
+    "Muối/Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Butter",
+    "All-purpose flour",
+    "Cilantro",
+    "Mint",
+    "Sage",
+    "Salt/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bo lat",
+    "bot mi da dung",
+    "rau mui tay",
+    "huong thao",
+    "xa huong",
+    "muoi tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

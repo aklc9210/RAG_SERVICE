@@ -1,0 +1,25 @@
+{
+  "id": "ingre05971",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05971.json",
+  "name_vi": "sốt mayonnaise aji-mayo",
+  "name_en": "Mayonnaise Aji-Mayo",
+  "name_normalized": "sot mayonnaise aji mayo",
+  "synonyms": [
+    "sốt mayonaise aji-mayo"
+  ],
+  "synonyms_normalized": [
+    "sot mayonaise aji mayo"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sot mayonnaise aji-mayo",
+      "new": "sot mayonnaise aji mayo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish4887",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4887.json",
+  "name_vi": "Tokbokki sốt kem",
+  "name_en": "",
+  "name_normalized": "tokbokki sot kem",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt xông khói",
+    "Bánh gạo Hàn Quốc",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Phô mai parmesan",
+    "Hành tây",
+    "Nấm mỡ"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Dầu ăn",
+    "Tiêu/hạt nêm",
+    "Viên nước cốt gà"
+  ],
+  "ingredient_ids": [
+    "ingre06523",
+    "ingre00086",
+    "ingre07313",
+    "ingre05104",
+    "ingre02741",
+    "ingre04945",
+    "ingre07071",
+    "ingre02124",
+    "ingre06663",
+    "ingre07164"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xông khói",
+    "Bánh gạo Hàn Quốc",
+    "Whipping cream",
+    "Phô mai parmesan",
+    "Hành tây",
+    "Nấm mỡ",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Tiêu/hạt nêm",
+    "Viên nước cốt gà"
+  ],
+  "ingredient_names_en": [
+    "Smoked Pork",
+    "Rice cake",
+    "Whipping cream",
+    "Parmesan Cheese",
+    "Onion",
+    "Fried mushroom",
+    "Minced Garlic",
+    "Cooking oil",
+    "Fish Sauce/Soy Sauce",
+    "Chicken Juice Tablet"
+  ],
+  "ingredient_names_normalized": [
+    "thit xong khoi",
+    "banh gao han quoc",
+    "whipping cream",
+    "pho mai parmesan",
+    "hanh tay",
+    "nam mo",
+    "toi bam",
+    "dau an",
+    "tieu hat nem",
+    "vien nuoc cot ga"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/hạt nêm"
+    }
+  ]
+}

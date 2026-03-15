@@ -1,0 +1,70 @@
+{
+  "id": "dish7524",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7524.json",
+  "name_vi": "Ghẹ hấp sả",
+  "name_en": "",
+  "name_normalized": "ghe hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ghẹ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Rau răm/ dưa chuột ăn kèm"
+  ],
+  "ingredient_ids": [
+    "ingre02267",
+    "ingre05900",
+    "ingre02485",
+    "ingre02124",
+    "ingre05365"
+  ],
+  "ingredient_names_vi": [
+    "Ghẹ",
+    "Sả",
+    "Gừng",
+    "Dầu ăn",
+    "Rau răm/ dưa chuột ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Lemongrass",
+    "Ginger",
+    "Cooking oil",
+    "Coriander/Cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "ghe",
+    "sa",
+    "gung",
+    "dau an",
+    "rau ram dua chuot an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ram/ dua chuot an kem",
+      "new": "rau ram dua chuot an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau răm/ dưa chuột ăn kèm"
+    }
+  ]
+}

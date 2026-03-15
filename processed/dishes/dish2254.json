@@ -1,0 +1,82 @@
+{
+  "id": "dish2254",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2254.json",
+  "name_vi": "Tokbokki phô mai bằng gạo",
+  "name_en": "",
+  "name_normalized": "tokbokki pho mai bang gao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo",
+    "Phô mai sợi Mozzarella"
+  ],
+  "secondary_ingredients": [
+    "Xúc xích xông khói",
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre05115",
+    "ingre07408",
+    "ingre02645",
+    "ingre07036",
+    "ingre07983",
+    "ingre04790",
+    "ingre02124",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Phô mai sợi Mozzarella",
+    "Xúc xích xông khói",
+    "Hành boa rô",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Mozzarella string cheese",
+    "Smoked sausage",
+    "Garlic",
+    "Korean chili paste",
+    "Korean chili powder",
+    "Soy Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "pho mai soi mozzarella",
+    "xuc xich xong khoi",
+    "hanh boa ro",
+    "tuong ot han quoc",
+    "ot bot han quoc",
+    "nuoc tuong",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

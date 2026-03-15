@@ -1,0 +1,92 @@
+{
+  "id": "dish10684",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10684.json",
+  "name_vi": "Miến trộn hải sản",
+  "name_en": "",
+  "name_normalized": "mien tron hai san",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Miến tươi",
+    "Tôm",
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải tím",
+    "Cà chua bi",
+    "Hành tây",
+    "Cần tây"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03720",
+    "ingre06930",
+    "ingre04264",
+    "ingre00468",
+    "ingre01355",
+    "ingre02741",
+    "ingre01812",
+    "ingre07966",
+    "ingre04538",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Miến tươi",
+    "Tôm",
+    "Mực",
+    "Bắp cải tím",
+    "Cà chua bi",
+    "Hành tây",
+    "Cần tây",
+    "Ớt",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh vermicelli",
+    "Shrimp",
+    "Squid",
+    "Purple cabbage",
+    "Tomato",
+    "Onion",
+    "Celery",
+    "Pepper",
+    "Lemon juice",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mien tuoi",
+    "tom",
+    "muc",
+    "bap cai tim",
+    "ca chua bi",
+    "hanh tay",
+    "can tay",
+    "ot",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

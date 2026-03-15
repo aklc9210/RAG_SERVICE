@@ -1,0 +1,83 @@
+{
+  "id": "dish8613",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8613.json",
+  "name_vi": "Cháo thịt bò khoai tây",
+  "name_en": "",
+  "name_normalized": "chao thit bo khoai tay",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Gạo",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Hành tím",
+    "Rượi trắng"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre06300",
+    "ingre01419",
+    "ingre03222",
+    "ingre02768",
+    "ingre05514",
+    "ingre04790",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Thịt bò",
+    "Cà rốt",
+    "Khoai tây",
+    "Hành tím",
+    "Rượi trắng",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Beef",
+    "Carrot",
+    "Potato",
+    "Shallot",
+    "Rice Wine",
+    "Soy Sauce",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "thit bo",
+    "ca rot",
+    "khoai tay",
+    "hanh tim",
+    "ruoi trang",
+    "nuoc tuong",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

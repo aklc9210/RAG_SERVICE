@@ -1,0 +1,116 @@
+{
+  "id": "dish7923",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7923.json",
+  "name_vi": "Lẩu ly (lẩu cốc)",
+  "name_en": "",
+  "name_normalized": "lau ly lau coc",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Tôm",
+    "Chả cá",
+    "Chả mực",
+    "Viên thả lẩu"
+  ],
+  "secondary_ingredients": [
+    "Mì tôm",
+    "Bắp cải tím",
+    "Giá đỗ",
+    "Bắp mỹ"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Sả băm",
+    "Tương cà",
+    "Ớt bột Hàn Quốc",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre01268",
+    "ingre01299",
+    "ingre07169",
+    "ingre04003",
+    "ingre00468",
+    "ingre02337",
+    "ingre00479",
+    "ingre07071",
+    "ingre05905",
+    "ingre06984",
+    "ingre07983",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Chả cá",
+    "Chả mực",
+    "Viên thả lẩu",
+    "Mì tôm",
+    "Bắp cải tím",
+    "Giá đỗ",
+    "Bắp mỹ",
+    "Tỏi băm",
+    "Sả băm",
+    "Tương cà",
+    "Ớt bột Hàn Quốc",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Fish cake",
+    "Squid meat sausage",
+    "Lamb dumplings",
+    "Noodle Soup",
+    "Purple cabbage",
+    "Bean sprouts",
+    "Corn",
+    "Minced Garlic",
+    "Garlic Paste",
+    "Miso酱",
+    "Korean chili powder",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "cha ca",
+    "cha muc",
+    "vien tha lau",
+    "mi tom",
+    "bap cai tim",
+    "gia do",
+    "bap my",
+    "toi bam",
+    "sa bam",
+    "tuong ca",
+    "ot bot han quoc",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lau ly (lau coc)",
+      "new": "lau ly lau coc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

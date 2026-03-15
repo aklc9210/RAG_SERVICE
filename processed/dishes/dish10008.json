@@ -1,0 +1,62 @@
+{
+  "id": "dish10008",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10008.json",
+  "name_vi": "Cocktail dưa hấu",
+  "name_en": "",
+  "name_normalized": "cocktail dua hau",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Nước ép dưa hấu."
+  ],
+  "secondary_ingredients": [
+    "Lá bạc hà"
+  ],
+  "seasonings": [
+    "Rượu Gin",
+    "Siro đường",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre04837",
+    "ingre05528",
+    "ingre05723",
+    "ingre01079",
+    "ingre03365"
+  ],
+  "ingredient_names_vi": [
+    "Nước ép dưa hấu.",
+    "Rượu Gin",
+    "Siro đường",
+    "Chanh",
+    "Lá bạc hà"
+  ],
+  "ingredient_names_en": [
+    "Watermelon juice.",
+    "Gin",
+    "Sugar syrup",
+    "Lemon",
+    "Mint Leaf"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc ep dua hau",
+    "ruou gin",
+    "siro duong",
+    "chanh",
+    "la bac ha"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc ep dua hau.",
+      "new": "nuoc ep dua hau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước ép dưa hấu."
+    }
+  ]
+}

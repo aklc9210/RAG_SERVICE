@@ -1,0 +1,117 @@
+{
+  "id": "dish5277",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5277.json",
+  "name_vi": "Ốc bươu - ốc đắng xào tỏi",
+  "name_en": "",
+  "name_normalized": "oc buou oc dang xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07933",
+    "ingre07063",
+    "ingre05900",
+    "ingre05359",
+    "ingre07966",
+    "ingre01079",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Ốc",
+    "Tỏi",
+    "Sả",
+    "Rau răm",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Garlic",
+    "Lemongrass",
+    "Vietnamese coriander",
+    "Pepper",
+    "Lemon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc",
+    "toi",
+    "sa",
+    "rau ram",
+    "ot",
+    "chanh",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "oc buou - oc dang xao toi",
+      "new": "oc buou oc dang xao toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

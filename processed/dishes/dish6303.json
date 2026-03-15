@@ -1,0 +1,106 @@
+{
+  "id": "dish6303",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6303.json",
+  "name_vi": "Cá trê om chuối đậu",
+  "name_en": "",
+  "name_normalized": "ca tre om chuoi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê",
+    "Chuối xanh",
+    "Cà pháo"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ",
+    "Ngò gai",
+    "Mỡ"
+  ],
+  "seasonings": [
+    "Lá lốt/ Lá tía tô",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre01191",
+    "ingre01382",
+    "ingre07740",
+    "ingre04329",
+    "ingre04185",
+    "ingre03464",
+    "ingre00804",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Chuối xanh",
+    "Cà pháo",
+    "Đậu hũ",
+    "Ngò gai",
+    "Mỡ",
+    "Lá lốt/ Lá tía tô",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Green banana",
+    "Hot pepper",
+    "Tofu",
+    "Culantro",
+    "Lard",
+    "Cilantro/Coriander Leaf/Tam Leaf",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "chuoi xanh",
+    "ca phao",
+    "dau hu",
+    "ngo gai",
+    "mo",
+    "la lot la tia to",
+    "bot nghe",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la lot/ la tia to",
+      "new": "la lot la tia to",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá lốt/ Lá tía tô"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dish1315",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1315.json",
+  "name_vi": "Bánh bò rễ tre bằng bột pha sẵn",
+  "name_en": "",
+  "name_normalized": "banh bo re tre bang bot pha san",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Bột bánh bò pha sẵn",
+    "Nước cốt dừa",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00525",
+    "ingre04554",
+    "ingre03936",
+    "ingre00849",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh bò pha sẵn",
+    "Nước cốt dừa",
+    "Mè trắng rang",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Readymade春卷粉",
+    "Coconut milk",
+    "Roasted White Sesame",
+    "Cornstarch",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh bo pha san",
+    "nuoc cot dua",
+    "me trang rang",
+    "bot nang",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

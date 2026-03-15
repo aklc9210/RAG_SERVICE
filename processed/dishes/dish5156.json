@@ -1,0 +1,76 @@
+{
+  "id": "dish5156",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5156.json",
+  "name_vi": "Măng xào thịt ba chỉ",
+  "name_en": "",
+  "name_normalized": "mang xao thit ba chi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04091",
+    "ingre06275",
+    "ingre07063",
+    "ingre02673",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Măng tươi",
+    "Thịt ba chỉ",
+    "Tỏi",
+    "Hành lá",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh bamboo shoots",
+    "Pork belly",
+    "Garlic",
+    "Scallion",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "mang tuoi",
+    "thit ba chi",
+    "toi",
+    "hanh la",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

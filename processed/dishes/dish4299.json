@@ -1,0 +1,67 @@
+{
+  "id": "dish4299",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4299.json",
+  "name_vi": "Bào ngư nướng bơ",
+  "name_en": "",
+  "name_normalized": "bao ngu nuong bo",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bào ngư"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Sả",
+    "Hành lá băm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Hành phi"
+  ],
+  "ingredient_ids": [
+    "ingre00057",
+    "ingre00367",
+    "ingre05900",
+    "ingre02678",
+    "ingre07791",
+    "ingre02730"
+  ],
+  "ingredient_names_vi": [
+    "Bào ngư",
+    "Bơ",
+    "Sả",
+    "Hành lá băm",
+    "Đậu phộng rang",
+    "Hành phi"
+  ],
+  "ingredient_names_en": [
+    "Abalone",
+    "Butter",
+    "Lemongrass",
+    "Chopped Green Onion",
+    "Roasted Peanut",
+    "Garlic Fried"
+  ],
+  "ingredient_names_normalized": [
+    "bao ngu",
+    "bo",
+    "sa",
+    "hanh la bam",
+    "dau phong rang",
+    "hanh phi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

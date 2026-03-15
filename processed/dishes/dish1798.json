@@ -1,0 +1,102 @@
+{
+  "id": "dish1798",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1798.json",
+  "name_vi": "Bánh sinh nhật rau câu",
+  "name_en": "",
+  "name_normalized": "banh sinh nhat rau cau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dưa lưới",
+    "Xoài chín",
+    "Nhãn",
+    "Lá dứa",
+    "Màu hồng/ màu xanh thực phẩm",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu dẻo",
+    "Bột rau câu giòn",
+    "Thanh long ruột đỏ",
+    "Chanh dây",
+    "Nước cốt dừa",
+    "Sữa tươi có đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00897",
+    "ingre00899",
+    "ingre06205",
+    "ingre02033",
+    "ingre07332",
+    "ingre04434",
+    "ingre01081",
+    "ingre03417",
+    "ingre04554",
+    "ingre06146",
+    "ingre07583",
+    "ingre03856",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu dẻo",
+    "Bột rau câu giòn",
+    "Thanh long ruột đỏ",
+    "Dưa lưới",
+    "Xoài chín",
+    "Nhãn",
+    "Chanh dây",
+    "Lá dứa",
+    "Nước cốt dừa",
+    "Sữa tươi có đường",
+    "Đường",
+    "Màu hồng/ màu xanh thực phẩm",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Agar powder",
+    "Jello powder",
+    "Red-fleshed tamarind",
+    "Watermelon rind",
+    "Mango",
+    "Jujube",
+    "Watermelon vine tendril",
+    "Pandan叶",
+    "Coconut milk",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Food color/food coloring",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau deo",
+    "bot rau cau gion",
+    "thanh long ruot do",
+    "dua luoi",
+    "xoai chin",
+    "nhan",
+    "chanh day",
+    "la dua",
+    "nuoc cot dua",
+    "sua tuoi co duong",
+    "duong",
+    "mau hong mau xanh thuc pham",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mau hong/ mau xanh thuc pham",
+      "new": "mau hong mau xanh thuc pham",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Màu hồng/ màu xanh thực phẩm"
+    }
+  ]
+}

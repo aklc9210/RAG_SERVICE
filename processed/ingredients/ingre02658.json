@@ -1,0 +1,25 @@
+{
+  "id": "ingre02658",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02658.json",
+  "name_vi": "hành băm/ tỏi băm",
+  "name_en": "Chopped Garlic/Chopped Onion",
+  "name_normalized": "hanh bam toi bam",
+  "synonyms": [
+    "tỏi băm"
+  ],
+  "synonyms_normalized": [
+    "toi bam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh bam/ toi bam",
+      "new": "hanh bam toi bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

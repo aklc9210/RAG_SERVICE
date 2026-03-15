@@ -1,0 +1,118 @@
+{
+  "id": "dish4097",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4097.json",
+  "name_vi": "Cá nướng pa pỉnh tộp bằng bếp than",
+  "name_en": "",
+  "name_normalized": "ca nuong pa pinh top bang bep than",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá chép",
+    "Mắc khén",
+    "Hạt dổi"
+  ],
+  "secondary_ingredients": [
+    "Xả",
+    "Hành tím",
+    "Hành lá",
+    "Rau húng",
+    "Rau thì là",
+    "Mùi tàu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre04130",
+    "ingre02945",
+    "ingre07966",
+    "ingre07440",
+    "ingre07063",
+    "ingre02768",
+    "ingre02673",
+    "ingre05256",
+    "ingre05383",
+    "ingre04057",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Mắc khén",
+    "Hạt dổi",
+    "Ớt",
+    "Xả",
+    "Tỏi",
+    "Hành tím",
+    "Hành lá",
+    "Rau húng",
+    "Rau thì là",
+    "Mùi tàu",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Pandan",
+    "Clove",
+    "Pepper",
+    "Basil",
+    "Garlic",
+    "Shallot",
+    "Scallion",
+    "Parsley",
+    "Chinese herb",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "mac khen",
+    "hat doi",
+    "ot",
+    "xa",
+    "toi",
+    "hanh tim",
+    "hanh la",
+    "rau hung",
+    "rau thi la",
+    "mui tau",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

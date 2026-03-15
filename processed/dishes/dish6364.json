@@ -1,0 +1,101 @@
+{
+  "id": "dish6364",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6364.json",
+  "name_vi": "Cá tai tượng chiên xù cuốn bánh tráng",
+  "name_en": "",
+  "name_normalized": "ca tai tuong chien xu cuon banh trang",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bún tươi"
+  ],
+  "secondary_ingredients": [
+    "Chuối chát",
+    "Khế chua",
+    "Rau ăn kèm",
+    "Khóm",
+    "Bánh tráng cuốn"
+  ],
+  "seasonings": [
+    "Cá tai tượng",
+    "Dầu ăn",
+    "Tỏi/ ớt",
+    "Mắm nêm",
+    "Chanh tươi/ muối/ tắt / cơm mẻ"
+  ],
+  "ingredient_ids": [
+    "ingre01623",
+    "ingre02124",
+    "ingre00357",
+    "ingre01162",
+    "ingre03269",
+    "ingre05420",
+    "ingre03236",
+    "ingre07123",
+    "ingre04148",
+    "ingre01094",
+    "ingre00186"
+  ],
+  "ingredient_names_vi": [
+    "Cá tai tượng",
+    "Dầu ăn",
+    "Bún tươi",
+    "Chuối chát",
+    "Khế chua",
+    "Rau ăn kèm",
+    "Khóm",
+    "Tỏi/ ớt",
+    "Mắm nêm",
+    "Chanh tươi/ muối/ tắt / cơm mẻ",
+    "Bánh tráng cuốn"
+  ],
+  "ingredient_names_en": [
+    "Pufferfish",
+    "Cooking oil",
+    "Fresh noodle",
+    "Bittermelon",
+    "Tamarind",
+    "Side vegetable",
+    "Jujube",
+    "Garlic/Chili",
+    "Fish sauce",
+    "Lime/Fresh Lime/Salt/Dried Rice Cake",
+    "Spring roll wrapper"
+  ],
+  "ingredient_names_normalized": [
+    "ca tai tuong",
+    "dau an",
+    "bun tuoi",
+    "chuoi chat",
+    "khe chua",
+    "rau an kem",
+    "khom",
+    "toi ot",
+    "mam nem",
+    "chanh tuoi muoi tat com me",
+    "banh trang cuon"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ ot",
+      "new": "toi ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ ớt"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chanh tuoi/ muoi/ tat / com me",
+      "new": "chanh tuoi muoi tat com me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chanh tươi/ muối/ tắt / cơm mẻ"
+    }
+  ]
+}

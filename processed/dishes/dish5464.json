@@ -1,0 +1,138 @@
+{
+  "id": "dish5464",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5464.json",
+  "name_vi": "Thịt thỏ xào lăn",
+  "name_en": "",
+  "name_normalized": "thit tho xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt thỏ",
+    "Dừa tươi",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau ngổ",
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Rượu trắng",
+    "Tỏi",
+    "Sa tế",
+    "Bột nghệ",
+    "Gừng tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06504",
+    "ingre04554",
+    "ingre05574",
+    "ingre02198",
+    "ingre02741",
+    "ingre05336",
+    "ingre02768",
+    "ingre05900",
+    "ingre07063",
+    "ingre05621",
+    "ingre00804",
+    "ingre02518",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thỏ",
+    "Nước cốt dừa",
+    "Rượu trắng",
+    "Dừa tươi",
+    "Hành tây",
+    "Rau ngổ",
+    "Hành tím",
+    "Sả",
+    "Tỏi",
+    "Sa tế",
+    "Bột nghệ",
+    "Gừng tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rabbit肉",
+    "Coconut milk",
+    "White wine",
+    "Coconut",
+    "Onion",
+    "Culantro",
+    "Shallot",
+    "Lemongrass",
+    "Garlic",
+    "Fish sauce",
+    "Turmeric Powder",
+    "Ginger",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit tho",
+    "nuoc cot dua",
+    "ruou trang",
+    "dua tuoi",
+    "hanh tay",
+    "rau ngo",
+    "hanh tim",
+    "sa",
+    "toi",
+    "sa te",
+    "bot nghe",
+    "gung tuoi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

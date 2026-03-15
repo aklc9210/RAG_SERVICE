@@ -1,0 +1,86 @@
+{
+  "id": "dish2102",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2102.json",
+  "name_vi": "Bánh phu thê (bánh xu xê) hoa đậu biếc",
+  "name_en": "",
+  "name_normalized": "banh phu the banh xu xe hoa dau biec",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Hoa đậu biếc",
+    "Dừa nhỏ",
+    "Lá dứa",
+    "Nước lọc",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Đường",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07836",
+    "ingre00849",
+    "ingre07583",
+    "ingre02610",
+    "ingre02173",
+    "ingre02124",
+    "ingre03417",
+    "ingre03746",
+    "ingre04665",
+    "ingre03935"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh",
+    "Bột năng",
+    "Đường",
+    "Hoa đậu biếc",
+    "Dừa nhỏ",
+    "Dầu ăn",
+    "Lá dứa",
+    "Muối",
+    "Nước lọc",
+    "Mè trắng"
+  ],
+  "ingredient_names_en": [
+    "Green beans",
+    "Cornstarch",
+    "Sugar",
+    "Bluebell Flower",
+    "Coconut",
+    "Cooking oil",
+    "Pandan叶",
+    "Salt",
+    "Tap water",
+    "White sesame"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh",
+    "bot nang",
+    "duong",
+    "hoa dau biec",
+    "dua nho",
+    "dau an",
+    "la dua",
+    "muoi",
+    "nuoc loc",
+    "me trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh phu the (banh xu xe) hoa dau biec",
+      "new": "banh phu the banh xu xe hoa dau biec",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "dish5809",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5809.json",
+  "name_vi": "Cá basa kho cà chua",
+  "name_en": "",
+  "name_normalized": "ca basa kho ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá basa",
+    "Cà chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi cô đơn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Dầu ăn."
+  ],
+  "ingredient_ids": [
+    "ingre01458",
+    "ingre01354",
+    "ingre02673",
+    "ingre07083",
+    "ingre02768",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre02132"
+  ],
+  "ingredient_names_vi": [
+    "Cá basa",
+    "Cà chua",
+    "Hành lá",
+    "Tỏi cô đơn",
+    "Hành tím",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Dầu ăn."
+  ],
+  "ingredient_names_en": [
+    "Basa fish",
+    "Tomato",
+    "Scallion",
+    "Garlic Singles",
+    "Shallot",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Cooking oil."
+  ],
+  "ingredient_names_normalized": [
+    "ca basa",
+    "ca chua",
+    "hanh la",
+    "toi co don",
+    "hanh tim",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau an.",
+      "new": "dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ăn."
+    }
+  ]
+}

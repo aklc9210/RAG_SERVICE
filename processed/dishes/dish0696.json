@@ -1,0 +1,97 @@
+{
+  "id": "dish0696",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0696.json",
+  "name_vi": "Canh sườn nấu nấm rau củ",
+  "name_en": "",
+  "name_normalized": "canh suon nau nam rau cu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn non",
+    "Nấm hương khô",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Táo đỏ khô",
+    "Củ cải",
+    "Bắp",
+    "Hành lá/ ngò"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre04913",
+    "ingre02741",
+    "ingre06912",
+    "ingre01860",
+    "ingre01419",
+    "ingre00448",
+    "ingre02700",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Nấm hương khô",
+    "Hành tây",
+    "Táo đỏ khô",
+    "Củ cải",
+    "Cà rốt",
+    "Bắp",
+    "Hành lá/ ngò",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Dried Shiitake Mushrooms",
+    "Onion",
+    "Dried Persimmon",
+    "Radish",
+    "Carrot",
+    "Corn",
+    "Chives",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "nam huong kho",
+    "hanh tay",
+    "tao do kho",
+    "cu cai",
+    "ca rot",
+    "bap",
+    "hanh la ngo",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo",
+      "new": "hanh la ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò"
+    }
+  ]
+}

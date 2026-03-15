@@ -1,0 +1,118 @@
+{
+  "id": "dish7925",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7925.json",
+  "name_vi": "Lẩu mắm cá lóc",
+  "name_en": "",
+  "name_normalized": "lau mam ca loc",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá lóc",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Rau đắng",
+    "Cà tím",
+    "Cù Nèo",
+    "Cọng súng",
+    "Khổ qua",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mắm cá lóc",
+    "Ớt",
+    "Tỏi",
+    "Đường-hạt nêm-tiêu-bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04143",
+    "ingre01549",
+    "ingre04953",
+    "ingre05432",
+    "ingre01444",
+    "ingre01714",
+    "ingre01820",
+    "ingre03271",
+    "ingre05900",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre07672"
+  ],
+  "ingredient_names_vi": [
+    "Mắm cá lóc",
+    "Cá lóc",
+    "Nấm rơm",
+    "Rau đắng",
+    "Cà tím",
+    "Cù Nèo",
+    "Cọng súng",
+    "Khổ qua",
+    "Sả",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Đường-hạt nêm-tiêu-bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fishpond Fish Sauce",
+    "Gilthead seabream",
+    "Strawberry mushroom",
+    "Bitter Melon",
+    "Purple cabbage",
+    "Artichoke",
+    "Watercress",
+    "Lemongrass",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Soy Sauce-Sugar-Black Pepper-Soybean Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "mam ca loc",
+    "ca loc",
+    "nam rom",
+    "rau dang",
+    "ca tim",
+    "cu neo",
+    "cong sung",
+    "kho qua",
+    "sa",
+    "ot",
+    "hanh tim",
+    "toi",
+    "duong hat nem tieu bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong-hat nem-tieu-bot ngot",
+      "new": "duong hat nem tieu bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường-hạt nêm-tiêu-bột ngọt"
+    }
+  ]
+}

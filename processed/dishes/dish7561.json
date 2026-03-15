@@ -1,0 +1,67 @@
+{
+  "id": "dish7561",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7561.json",
+  "name_vi": "Xôi sầu riêng đậu xanh",
+  "name_en": "",
+  "name_normalized": "xoi sau rieng dau xanh",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Sầu riêng"
+  ],
+  "secondary_ingredients": [
+    "Nếp",
+    "Đậu xanh",
+    "Lá dứa"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05932",
+    "ingre04983",
+    "ingre07836",
+    "ingre04554",
+    "ingre03417",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Sầu riêng",
+    "Nếp",
+    "Đậu xanh",
+    "Nước cốt dừa",
+    "Lá dứa",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Durian",
+    "Rice glutinous",
+    "Green beans",
+    "Coconut milk",
+    "Pandan叶",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "sau rieng",
+    "nep",
+    "dau xanh",
+    "nuoc cot dua",
+    "la dua",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

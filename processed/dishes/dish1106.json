@@ -1,0 +1,68 @@
+{
+  "id": "dish1106",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1106.json",
+  "name_vi": "Bánh tiêu",
+  "name_en": "",
+  "name_normalized": "banh tieu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men khô",
+    "Mè trắng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Đường cát trắng",
+    "Đường vani",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00867",
+    "ingre03674",
+    "ingre03926",
+    "ingre07601",
+    "ingre07659",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Men khô",
+    "Mè trắng",
+    "Đường cát trắng",
+    "Đường vani",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Baking powder",
+    "Dried yeast",
+    "White sesame",
+    "White Sugar",
+    "Vanilla sugar",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot no",
+    "men kho",
+    "me trang",
+    "duong cat trang",
+    "duong vani",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

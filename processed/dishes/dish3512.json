@@ -1,0 +1,101 @@
+{
+  "id": "dish3512",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3512.json",
+  "name_vi": "Bánh canh bột xắt chay",
+  "name_en": "",
+  "name_normalized": "banh canh bot xat chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nấm rơm",
+    "Sườn non chay",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Bột mì",
+    "Nước cốt dừa",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre00759",
+    "ingre04953",
+    "ingre05890",
+    "ingre04554",
+    "ingre02673",
+    "ingre04697",
+    "ingre02124",
+    "ingre02997",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Bột mì",
+    "Nấm rơm",
+    "Sườn non chay",
+    "Nước cốt dừa",
+    "Hành lá",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Wheat Flour",
+    "Strawberry mushroom",
+    "Vegetable spare ribs",
+    "Coconut milk",
+    "Scallion",
+    "Vegetarian fish sauce",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "bot mi",
+    "nam rom",
+    "suon non chay",
+    "nuoc cot dua",
+    "hanh la",
+    "nuoc mam chay",
+    "dau an",
+    "hat nem chay",
+    "duong tieu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish4393",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4393.json",
+  "name_vi": "Cháo bồ câu bằng nồi cơm điện",
+  "name_en": "",
+  "name_normalized": "chao bo cau bang noi com dien",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Chim bồ câu",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hành khô",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột canh",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre01124",
+    "ingre02673",
+    "ingre02667",
+    "ingre02124",
+    "ingre02995",
+    "ingre00587",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Chim bồ câu",
+    "Hành lá",
+    "Hành khô",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột canh",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Pigeon",
+    "Scallion",
+    "Garlic Powder",
+    "Cooking oil",
+    "Seasoning",
+    "Cornstarch",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "chim bo cau",
+    "hanh la",
+    "hanh kho",
+    "dau an",
+    "hat nem",
+    "bot canh",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

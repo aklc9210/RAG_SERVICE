@@ -1,0 +1,101 @@
+{
+  "id": "dish4903",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4903.json",
+  "name_vi": "Mì xào tôm mực",
+  "name_en": "",
+  "name_normalized": "mi xao tom muc",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì gói",
+    "Tôm",
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Cải xanh",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03963",
+    "ingre06930",
+    "ingre04264",
+    "ingre01797",
+    "ingre02673",
+    "ingre02768",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mì gói",
+    "Tôm",
+    "Mực",
+    "Cải xanh",
+    "Hành lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Shrimp",
+    "Squid",
+    "Cabbage",
+    "Scallion",
+    "Shallot",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi goi",
+    "tom",
+    "muc",
+    "cai xanh",
+    "hanh la",
+    "hanh tim",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

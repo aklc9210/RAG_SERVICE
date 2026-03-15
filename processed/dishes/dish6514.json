@@ -1,0 +1,99 @@
+{
+  "id": "dish6514",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6514.json",
+  "name_vi": "Vịt quay chảo",
+  "name_en": "",
+  "name_normalized": "vit quay chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Vịt",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Quế khâu",
+    "Sả",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Hoa hồi",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre02768",
+    "ingre02485",
+    "ingre07063",
+    "ingre02584",
+    "ingre05191",
+    "ingre01079",
+    "ingre05900",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Hành tím",
+    "Gừng",
+    "Tỏi",
+    "Hoa hồi",
+    "Quế khâu",
+    "Chanh",
+    "Sả",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Shallot",
+    "Ginger",
+    "Garlic",
+    "Rose",
+    "Clove",
+    "Lemon",
+    "Lemongrass",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "hanh tim",
+    "gung",
+    "toi",
+    "hoa hoi",
+    "que khau",
+    "chanh",
+    "sa",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

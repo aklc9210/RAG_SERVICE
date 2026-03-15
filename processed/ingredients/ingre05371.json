@@ -1,0 +1,25 @@
+{
+  "id": "ingre05371",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05371.json",
+  "name_vi": "rau răm/húng quế",
+  "name_en": "Cilantro",
+  "name_normalized": "rau ram hung que",
+  "synonyms": [
+    "húng thơm"
+  ],
+  "synonyms_normalized": [
+    "hung thom"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ram/hung que",
+      "new": "rau ram hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

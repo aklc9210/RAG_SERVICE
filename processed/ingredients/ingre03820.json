@@ -1,0 +1,25 @@
+{
+  "id": "ingre03820",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03820.json",
+  "name_vi": "muối/ đường nâu",
+  "name_en": "Salt/Brown Sugar",
+  "name_normalized": "muoi duong nau",
+  "synonyms": [
+    "đường phèn"
+  ],
+  "synonyms_normalized": [
+    "duong phen"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ duong nau",
+      "new": "muoi duong nau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

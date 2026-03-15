@@ -1,0 +1,106 @@
+{
+  "id": "dish8235",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8235.json",
+  "name_vi": "Gỏi gà hành tây dưa leo",
+  "name_en": "",
+  "name_normalized": "goi ga hanh tay dua leo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Gà",
+    "Dưa leo",
+    "Rau thơm các loại"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Đồ chua"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Giấm táo",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre02020",
+    "ingre05388",
+    "ingre02741",
+    "ingre02768",
+    "ingre07966",
+    "ingre07063",
+    "ingre07898",
+    "ingre02372",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Dưa leo",
+    "Rau thơm các loại",
+    "Hành tây",
+    "Hành tím",
+    "Ớt",
+    "Tỏi",
+    "Đồ chua",
+    "Giấm táo",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Cucumber",
+    "Herbs Various Types",
+    "Onion",
+    "Shallot",
+    "Pepper",
+    "Garlic",
+    "Pickled vegetables",
+    "Apple vinegar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "dua leo",
+    "rau thom cac loai",
+    "hanh tay",
+    "hanh tim",
+    "ot",
+    "toi",
+    "do chua",
+    "giam tao",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

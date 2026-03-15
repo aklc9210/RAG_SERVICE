@@ -1,0 +1,68 @@
+{
+  "id": "dish1194",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1194.json",
+  "name_vi": "Bánh mì sandwich nhân khoai lang phô mai",
+  "name_en": "",
+  "name_normalized": "banh mi sandwich nhan khoai lang pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang",
+    "Bánh mì mềm",
+    "Phô mai"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột bắp",
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00564",
+    "ingre06823",
+    "ingre03186",
+    "ingre00112",
+    "ingre05054",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột bắp",
+    "Trứng gà",
+    "Khoai lang",
+    "Bánh mì mềm",
+    "Phô mai",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Corn starch",
+    "Chicken egg",
+    "Sweet Potato",
+    "Soft bread",
+    "Cheese",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot bap",
+    "trung ga",
+    "khoai lang",
+    "banh mi mem",
+    "pho mai",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish0198",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0198.json",
+  "name_vi": "Canh cải ngọt tôm khô",
+  "name_en": "",
+  "name_normalized": "canh cai ngot tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01787",
+    "ingre06941",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre06644",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cải ngọt",
+    "Tôm khô",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Sweet cabbage",
+    "Dried Shrimp",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Ground pepper",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "cai ngot",
+    "tom kho",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "tieu xay",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

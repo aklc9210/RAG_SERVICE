@@ -1,0 +1,82 @@
+{
+  "id": "dish1517",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1517.json",
+  "name_vi": "Bánh bông lan Đài Loan Castella Matcha",
+  "name_en": "",
+  "name_normalized": "banh bong lan dai loan castella matcha",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Siro bắp",
+    "Tinh chất vani",
+    "Dâu tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột matcha",
+    "Baking powder",
+    "Lòng trắng trứng gà",
+    "Sữa tươi không đường",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00736",
+    "ingre00013",
+    "ingre03580",
+    "ingre06147",
+    "ingre05676",
+    "ingre06592",
+    "ingre07680",
+    "ingre01970"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột matcha",
+    "Baking powder",
+    "Lòng trắng trứng gà",
+    "Sữa tươi không đường",
+    "Siro bắp",
+    "Tinh chất vani",
+    "Đường/ muối",
+    "Dâu tươi"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Matcha Powder",
+    "Baking powder",
+    "Egg white",
+    "Fat-free Milk",
+    "Corn syrup",
+    "Vanilla extract",
+    "Sugar/Salt",
+    "Strawberry"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot matcha",
+    "baking powder",
+    "long trang trung ga",
+    "sua tuoi khong duong",
+    "siro bap",
+    "tinh chat vani",
+    "duong muoi",
+    "dau tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

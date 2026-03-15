@@ -1,0 +1,83 @@
+{
+  "id": "dish7024",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7024.json",
+  "name_vi": "Tôm chiên trứng",
+  "name_en": "",
+  "name_normalized": "tom chien trung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm thẻ"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột bắp",
+    "Sữa tươi có đường",
+    "Dầu ăn",
+    "Muối tiêu",
+    "Nước tương",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06796",
+    "ingre06956",
+    "ingre02673",
+    "ingre00303",
+    "ingre05864",
+    "ingre01991",
+    "ingre03783",
+    "ingre04790",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Tôm thẻ",
+    "Hành lá",
+    "Bột bắp",
+    "Sữa tươi có đường",
+    "Dầu ăn",
+    "Muối tiêu",
+    "Nước tương",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Prawn",
+    "Scallion",
+    "Corn starch",
+    "Sweetened Condensed Milk",
+    "Cooking oil",
+    "Salt Pepper",
+    "Soy Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "tom the",
+    "hanh la",
+    "bot bap",
+    "sua tuoi co duong",
+    "dau an",
+    "muoi tieu",
+    "nuoc tuong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

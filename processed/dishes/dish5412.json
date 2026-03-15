@@ -1,0 +1,122 @@
+{
+  "id": "dish5412",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5412.json",
+  "name_vi": "Miến xào măng khô",
+  "name_en": "",
+  "name_normalized": "mien xao mang kho",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Miến",
+    "Măng khô",
+    "Nấm đông cô khô",
+    "Nấm mèo",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Chả lụa",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Dầu hào",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03710",
+    "ingre04081",
+    "ingre04969",
+    "ingre04930",
+    "ingre06941",
+    "ingre01292",
+    "ingre01419",
+    "ingre02673",
+    "ingre07063",
+    "ingre02080",
+    "ingre04790",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Miến",
+    "Măng khô",
+    "Nấm đông cô khô",
+    "Nấm mèo",
+    "Tôm khô",
+    "Chả lụa",
+    "Cà rốt",
+    "Hành lá",
+    "Tỏi",
+    "Dầu hào",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice vermicelli",
+    "Dried bamboo shoots",
+    "Dried shiitake mushrooms",
+    "Mushroom",
+    "Dried Shrimp",
+    "Pork floss",
+    "Carrot",
+    "Scallion",
+    "Garlic",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mien",
+    "mang kho",
+    "nam dong co kho",
+    "nam meo",
+    "tom kho",
+    "cha lua",
+    "ca rot",
+    "hanh la",
+    "toi",
+    "dau hao",
+    "nuoc tuong",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

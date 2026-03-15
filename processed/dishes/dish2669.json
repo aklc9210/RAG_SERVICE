@@ -1,0 +1,88 @@
+{
+  "id": "dish2669",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2669.json",
+  "name_vi": "Bánh mì cuộn thịt nguội bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh mi cuon thit nguoi bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Thịt xông khói",
+    "Phô mai",
+    "Hành lá",
+    "Kem tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Đường",
+    "Muối",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre06823",
+    "ingre07583",
+    "ingre03746",
+    "ingre03687",
+    "ingre06523",
+    "ingre05054",
+    "ingre02673",
+    "ingre06147",
+    "ingre03157"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Đường",
+    "Muối",
+    "Men nở instant",
+    "Thịt xông khói",
+    "Phô mai",
+    "Hành lá",
+    "Sữa tươi không đường",
+    "Kem tươi"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Chicken egg",
+    "Sugar",
+    "Salt",
+    "Instant Yeast",
+    "Smoked Pork",
+    "Cheese",
+    "Scallion",
+    "Fat-free Milk",
+    "Fresh cream"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "trung ga",
+    "duong",
+    "muoi",
+    "men no instant",
+    "thit xong khoi",
+    "pho mai",
+    "hanh la",
+    "sua tuoi khong duong",
+    "kem tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

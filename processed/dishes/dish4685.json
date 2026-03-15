@@ -1,0 +1,66 @@
+{
+  "id": "dish4685",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4685.json",
+  "name_vi": "Mì Ý sốt dầu tỏi - Spaghetti Aglio e Olio truyền thống",
+  "name_en": "",
+  "name_normalized": "mi y sot dau toi spaghetti aglio e olio truyen thong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì Ý"
+  ],
+  "secondary_ingredients": [
+    "Dầu ô liu",
+    "Ngò tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04019",
+    "ingre02120",
+    "ingre07063",
+    "ingre04351",
+    "ingre07977",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mì Ý",
+    "Dầu ô liu",
+    "Tỏi",
+    "Ngò tây",
+    "Ớt bột",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Spaghetti",
+    "Olive oil",
+    "Garlic",
+    "Chives",
+    "Chili powder",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mi y",
+    "dau o liu",
+    "toi",
+    "ngo tay",
+    "ot bot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi y sot dau toi - spaghetti aglio e olio truyen thong",
+      "new": "mi y sot dau toi spaghetti aglio e olio truyen thong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

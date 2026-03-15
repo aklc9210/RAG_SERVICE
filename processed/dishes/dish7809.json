@@ -1,0 +1,130 @@
+{
+  "id": "dish7809",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7809.json",
+  "name_vi": "Lẩu cá mè",
+  "name_en": "",
+  "name_normalized": "lau ca me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Đầu cá mè",
+    "Giá",
+    "Đậu bắp",
+    "Cà chua",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Rau ăn kèm",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07709",
+    "ingre02329",
+    "ingre07729",
+    "ingre01354",
+    "ingre06247",
+    "ingre07966",
+    "ingre02673",
+    "ingre02768",
+    "ingre05420",
+    "ingre02124",
+    "ingre02093",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá mè",
+    "Giá",
+    "Đậu bắp",
+    "Cà chua",
+    "Thơm",
+    "Ớt",
+    "Hành lá",
+    "Hành tím",
+    "Rau ăn kèm",
+    "Dầu ăn",
+    "Dầu màu điều",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Catfish head",
+    "Mint",
+    "Green beans",
+    "Tomato",
+    "Basil",
+    "Pepper",
+    "Scallion",
+    "Shallot",
+    "Side vegetable",
+    "Cooking oil",
+    "Peanut-colored food coloring",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca me",
+    "gia",
+    "dau bap",
+    "ca chua",
+    "thom",
+    "ot",
+    "hanh la",
+    "hanh tim",
+    "rau an kem",
+    "dau an",
+    "dau mau dieu",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

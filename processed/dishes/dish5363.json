@@ -1,0 +1,103 @@
+{
+  "id": "dish5363",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5363.json",
+  "name_vi": "Phở xào tim gà",
+  "name_en": "",
+  "name_normalized": "pho xao tim ga",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bánh phở",
+    "Tim gà",
+    "Nấm hải sản"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cần tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Bột sắn dây",
+    "Giấm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00139",
+    "ingre06557",
+    "ingre04917",
+    "ingre01419",
+    "ingre02741",
+    "ingre01812",
+    "ingre07063",
+    "ingre02768",
+    "ingre00928",
+    "ingre02355",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bánh phở",
+    "Tim gà",
+    "Nấm hải sản",
+    "Cà rốt",
+    "Hành tây",
+    "Cần tây",
+    "Tỏi",
+    "Hành tím",
+    "Bột sắn dây",
+    "Giấm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Noodle sheet",
+    "Chicken heart",
+    "Seafood mushrooms",
+    "Carrot",
+    "Onion",
+    "Celery",
+    "Garlic",
+    "Shallot",
+    "Tapioca starch",
+    "Vinegar",
+    "Cooking oil",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh pho",
+    "tim ga",
+    "nam hai san",
+    "ca rot",
+    "hanh tay",
+    "can tay",
+    "toi",
+    "hanh tim",
+    "bot san day",
+    "giam",
+    "dau an",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

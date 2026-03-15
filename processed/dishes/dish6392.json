@@ -1,0 +1,107 @@
+{
+  "id": "dish6392",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6392.json",
+  "name_vi": "Thỏ rang muối",
+  "name_en": "",
+  "name_normalized": "tho rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thỏ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Lòng đỏ trứng gà"
+  ],
+  "seasonings": [
+    "Bột rau mùi",
+    "Bột nấm",
+    "Rượu gừng",
+    "Hạt tiêu",
+    "Mì chính",
+    "Hành khô",
+    "Muối rang",
+    "Dầu ăn",
+    "Chanh",
+    "Bột năng",
+    "Lá chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06548",
+    "ingre00907",
+    "ingre00858",
+    "ingre05536",
+    "ingre03043",
+    "ingre03958",
+    "ingre02667",
+    "ingre05900",
+    "ingre03776",
+    "ingre02124",
+    "ingre01079",
+    "ingre03584",
+    "ingre00849",
+    "ingre03370"
+  ],
+  "ingredient_names_vi": [
+    "Thỏ",
+    "Bột rau mùi",
+    "Bột nấm",
+    "Rượu gừng",
+    "Hạt tiêu",
+    "Mì chính",
+    "Hành khô",
+    "Sả",
+    "Muối rang",
+    "Dầu ăn",
+    "Chanh",
+    "Lòng đỏ trứng gà",
+    "Bột năng",
+    "Lá chanh"
+  ],
+  "ingredient_names_en": [
+    "Rabbit",
+    "Basil powder",
+    "Mushroom powder",
+    "Ginger酒",
+    "Pepper",
+    "Soy Sauce",
+    "Garlic Powder",
+    "Lemongrass",
+    "Rice Bran Oil Salt",
+    "Cooking oil",
+    "Lemon",
+    "Egg yolk",
+    "Cornstarch",
+    "Lime leaf"
+  ],
+  "ingredient_names_normalized": [
+    "tho",
+    "bot rau mui",
+    "bot nam",
+    "ruou gung",
+    "hat tieu",
+    "mi chinh",
+    "hanh kho",
+    "sa",
+    "muoi rang",
+    "dau an",
+    "chanh",
+    "long do trung ga",
+    "bot nang",
+    "la chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

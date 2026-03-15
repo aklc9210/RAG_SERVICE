@@ -1,0 +1,83 @@
+{
+  "id": "dish1900",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1900.json",
+  "name_vi": "Bánh tacos oreo",
+  "name_en": "",
+  "name_normalized": "banh tacos oreo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh oreo",
+    "Bơ nhạt",
+    "Kem sữa tươi",
+    "Sữa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột cake flour",
+    "Bột bread flour",
+    "Bột cacao",
+    "Bột cacao đen",
+    "Trứng",
+    "Sốt socola",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00584",
+    "ingre00517",
+    "ingre00576",
+    "ingre00580",
+    "ingre00128",
+    "ingre00402",
+    "ingre06801",
+    "ingre03147",
+    "ingre06078",
+    "ingre05999",
+    "ingre07589"
+  ],
+  "ingredient_names_vi": [
+    "Bột cake flour",
+    "Bột bread flour",
+    "Bột cacao",
+    "Bột cacao đen",
+    "Bánh oreo",
+    "Bơ nhạt",
+    "Trứng",
+    "Kem sữa tươi",
+    "Sữa",
+    "Sốt socola",
+    "Đường bột"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Bread Flour",
+    "Cocoa powder",
+    "Dark cocoa powder",
+    "Oreo cookie",
+    "Margarine",
+    "Egg",
+    "Sweetened Condensed Milk",
+    "Milk",
+    "Chocolate sauce",
+    "Sugar Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot cake flour",
+    "bot bread flour",
+    "bot cacao",
+    "bot cacao den",
+    "banh oreo",
+    "bo nhat",
+    "trung",
+    "kem sua tuoi",
+    "sua",
+    "sot socola",
+    "duong bot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dish0050",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0050.json",
+  "name_vi": "Trứng cá nấu canh chua",
+  "name_en": "",
+  "name_normalized": "trung ca nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Trứng cá",
+    "Dưa cải chua",
+    "Hành tím nhỏ"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng tươi",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước tương",
+    "Mì chính",
+    "Bột canh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06808",
+    "ingre02006",
+    "ingre02788",
+    "ingre02518",
+    "ingre08055",
+    "ingre01354",
+    "ingre02673",
+    "ingre02124",
+    "ingre04790",
+    "ingre03958",
+    "ingre00587",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cá",
+    "Dưa cải chua",
+    "Hành tím nhỏ",
+    "Gừng tươi",
+    "Ớt sừng",
+    "Cà chua",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước tương",
+    "Mì chính",
+    "Bột canh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Eggfish",
+    "Pickled Chinese cabbage",
+    "Green Onion",
+    "Ginger",
+    "Hot pepper",
+    "Tomato",
+    "Scallion",
+    "Cooking oil",
+    "Soy Sauce",
+    "Cornstarch",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "trung ca",
+    "dua cai chua",
+    "hanh tim nho",
+    "gung tuoi",
+    "ot sung",
+    "ca chua",
+    "hanh la",
+    "dau an",
+    "nuoc tuong",
+    "mi chinh",
+    "bot canh",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

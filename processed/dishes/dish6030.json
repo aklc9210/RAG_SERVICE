@@ -1,0 +1,107 @@
+{
+  "id": "dish6030",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6030.json",
+  "name_vi": "Gà kho xì dầu (nước tương)",
+  "name_en": "",
+  "name_normalized": "ga kho xi dau nuoc tuong",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng nhỏ",
+    "Ớt",
+    "Tỏi",
+    "Rượu trắng",
+    "Dầu hào",
+    "Xì dầu",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02512",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre05574",
+    "ingre02080",
+    "ingre07381",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Gừng nhỏ",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Rượu trắng",
+    "Dầu hào",
+    "Xì dầu",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "White wine",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "gung nho",
+    "sa",
+    "ot",
+    "toi",
+    "ruou trang",
+    "dau hao",
+    "xi dau",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ga kho xi dau (nuoc tuong)",
+      "new": "ga kho xi dau nuoc tuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

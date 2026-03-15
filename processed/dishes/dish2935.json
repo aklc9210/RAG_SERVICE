@@ -1,0 +1,68 @@
+{
+  "id": "dish2935",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2935.json",
+  "name_vi": "Bánh thịt xông khói cuộn phô mai",
+  "name_en": "",
+  "name_normalized": "banh thit xong khoi cuon pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt xông khói",
+    "Phô mai"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột chiên xù",
+    "Trứng gà",
+    "Sốt mayonnaise",
+    "Sữa tươi không đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00609",
+    "ingre06523",
+    "ingre05054",
+    "ingre06823",
+    "ingre05970",
+    "ingre06147",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột chiên xù",
+    "Thịt xông khói",
+    "Phô mai",
+    "Trứng gà",
+    "Sốt mayonnaise",
+    "Sữa tươi không đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Smoked Pork",
+    "Cheese",
+    "Chicken egg",
+    "Mayonnaise Sauce",
+    "Fat-free Milk",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot chien xu",
+    "thit xong khoi",
+    "pho mai",
+    "trung ga",
+    "sot mayonnaise",
+    "sua tuoi khong duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish9029",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9029.json",
+  "name_vi": "Chà bông cá lóc",
+  "name_en": "",
+  "name_normalized": "cha bong ca loc",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cá lóc",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre05574",
+    "ingre02134",
+    "ingre04694",
+    "ingre07583",
+    "ingre06612",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Rượu trắng",
+    "Dầu điều",
+    "Nước mắm",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "White wine",
+    "Peanut oil",
+    "Fish Sauce",
+    "Sugar",
+    "Pepper",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "hanh tim",
+    "toi",
+    "gung",
+    "ruou trang",
+    "dau dieu",
+    "nuoc mam",
+    "duong",
+    "tieu",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

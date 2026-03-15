@@ -1,0 +1,27 @@
+{
+  "id": "ingre07683",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07683.json",
+  "name_vi": "đường/ tiêu",
+  "name_en": "Sugar/Pepper",
+  "name_normalized": "duong tieu",
+  "synonyms": [
+    "tiêu",
+    "gia vị hạt tiêu"
+  ],
+  "synonyms_normalized": [
+    "tieu",
+    "gia vi hat tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

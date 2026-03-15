@@ -1,0 +1,67 @@
+{
+  "id": "dish10133",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10133.json",
+  "name_vi": "Sinh tố lúa mạch",
+  "name_en": "",
+  "name_normalized": "sinh to lua mach",
+  "category": "sinh to",
+  "main_ingredients": [
+    "Lúa mạch đen"
+  ],
+  "secondary_ingredients": [
+    "Bơ đậu phộng",
+    "Hạnh nhân/ hạt điều rang"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Đường đen",
+    "Bột quế"
+  ],
+  "ingredient_ids": [
+    "ingre03595",
+    "ingre06147",
+    "ingre00416",
+    "ingre07668",
+    "ingre00888",
+    "ingre02899"
+  ],
+  "ingredient_names_vi": [
+    "Lúa mạch đen",
+    "Sữa tươi không đường",
+    "Bơ đậu phộng",
+    "Đường đen",
+    "Bột quế",
+    "Hạnh nhân/ hạt điều rang"
+  ],
+  "ingredient_names_en": [
+    "Oat",
+    "Fat-free Milk",
+    "Peanut butter",
+    "Black sugar",
+    "Cinnamon粉",
+    "Roasted almond/hickory nut"
+  ],
+  "ingredient_names_normalized": [
+    "lua mach den",
+    "sua tuoi khong duong",
+    "bo dau phong",
+    "duong den",
+    "bot que",
+    "hanh nhan hat dieu rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh nhan/ hat dieu rang",
+      "new": "hanh nhan hat dieu rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạnh nhân/ hạt điều rang"
+    }
+  ]
+}

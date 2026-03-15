@@ -1,0 +1,29 @@
+{
+  "id": "ingre03949",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03949.json",
+  "name_vi": "mè/vừng đen",
+  "name_en": "Black sesame seeds",
+  "name_normalized": "me vung den",
+  "synonyms": [
+    "mè đen",
+    "vừng",
+    "hạt vừng"
+  ],
+  "synonyms_normalized": [
+    "me den",
+    "vung",
+    "hat vung"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "me/vung den",
+      "new": "me vung den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

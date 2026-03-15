@@ -1,0 +1,129 @@
+{
+  "id": "dish8640",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8640.json",
+  "name_vi": "Gân bò ngâm sả ớt",
+  "name_en": "",
+  "name_normalized": "gan bo ngam sa ot",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Gân bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Muối",
+    "Ớt",
+    "Gừng",
+    "Rượu trắng",
+    "Giấm",
+    "Đường",
+    "Giấm tinh luyện",
+    "Nước mắm ngon",
+    "Tỏi",
+    "Ớt hiểm",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre03746",
+    "ingre05900",
+    "ingre07966",
+    "ingre02485",
+    "ingre05574",
+    "ingre02355",
+    "ingre07583",
+    "ingre02368",
+    "ingre04706",
+    "ingre05436",
+    "ingre02768",
+    "ingre07063",
+    "ingre08026",
+    "ingre08055"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Muối",
+    "Sả",
+    "Ớt",
+    "Gừng",
+    "Rượu trắng",
+    "Giấm",
+    "Đường",
+    "Giấm tinh luyện",
+    "Nước mắm ngon",
+    "Riềng",
+    "Hành tím",
+    "Tỏi",
+    "Ớt hiểm",
+    "Ớt sừng"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Salt",
+    "Lemongrass",
+    "Pepper",
+    "Ginger",
+    "White wine",
+    "Vinegar",
+    "Sugar",
+    "Rice vinegar",
+    "Fish Sauce",
+    "Galangal",
+    "Shallot",
+    "Garlic",
+    "Hot pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "muoi",
+    "sa",
+    "ot",
+    "gung",
+    "ruou trang",
+    "giam",
+    "duong",
+    "giam tinh luyen",
+    "nuoc mam ngon",
+    "rieng",
+    "hanh tim",
+    "toi",
+    "ot hiem",
+    "ot sung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

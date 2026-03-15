@@ -1,0 +1,76 @@
+{
+  "id": "dish0311",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0311.json",
+  "name_vi": "Gân bò hầm khoai tây cà rốt",
+  "name_en": "",
+  "name_normalized": "gan bo ham khoai tay ca rot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gân bò",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Su hào"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre03222",
+    "ingre05787",
+    "ingre01419",
+    "ingre02485",
+    "ingre04790",
+    "ingre02124",
+    "ingre03016"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Khoai tây",
+    "Su hào",
+    "Cà rốt",
+    "Gừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Potato",
+    "Carrot",
+    "Ginger",
+    "Soy Sauce",
+    "Cooking oil",
+    "Seasoning/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "khoai tay",
+    "su hao",
+    "ca rot",
+    "gung",
+    "nuoc tuong",
+    "dau an",
+    "hat nem tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/tieu",
+      "new": "hat nem tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/tiêu"
+    }
+  ]
+}

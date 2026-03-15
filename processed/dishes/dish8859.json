@@ -1,0 +1,61 @@
+{
+  "id": "dish8859",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8859.json",
+  "name_vi": "Sữa chua dâu tây (yaourt dâu tây)",
+  "name_en": "",
+  "name_normalized": "sua chua dau tay yaourt dau tay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Dâu tây"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Sữa chua không đường",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01961",
+    "ingre06174",
+    "ingre06100",
+    "ingre06147",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Dâu tây",
+    "Sữa đặc",
+    "Sữa chua không đường",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Strawberry",
+    "Sweetened Condensed Milk",
+    "Plain Yogurt",
+    "Fat-free Milk",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau tay",
+    "sua dac",
+    "sua chua khong duong",
+    "sua tuoi khong duong",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua chua dau tay (yaourt dau tay)",
+      "new": "sua chua dau tay yaourt dau tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

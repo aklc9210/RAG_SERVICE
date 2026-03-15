@@ -1,0 +1,82 @@
+{
+  "id": "dish8230",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8230.json",
+  "name_vi": "Gỏi trái điều thịt heo",
+  "name_en": "",
+  "name_normalized": "goi trai dieu thit heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Trái điều",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Lá quế"
+  ],
+  "seasonings": [
+    "Ớt băm",
+    "Hành phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06779",
+    "ingre06275",
+    "ingre03500",
+    "ingre07971",
+    "ingre02730",
+    "ingre02124",
+    "ingre04694",
+    "ingre02355",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Trái điều",
+    "Thịt ba chỉ",
+    "Lá quế",
+    "Ớt băm",
+    "Hành phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Sesame",
+    "Pork belly",
+    "Bayleaf",
+    "Chopped Pepper",
+    "Garlic Fried",
+    "Cooking oil",
+    "Fish Sauce",
+    "Vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "trai dieu",
+    "thit ba chi",
+    "la que",
+    "ot bam",
+    "hanh phi",
+    "dau an",
+    "nuoc mam",
+    "giam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

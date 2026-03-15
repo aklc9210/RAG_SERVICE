@@ -1,0 +1,111 @@
+{
+  "id": "dish7104",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7104.json",
+  "name_vi": "Vịt sốt me",
+  "name_en": "",
+  "name_normalized": "vit sot me",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đùi vịt",
+    "Nước me",
+    "Rau húng lủi",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Giấm",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07568",
+    "ingre04671",
+    "ingre05262",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre02485",
+    "ingre02355",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Đùi vịt",
+    "Nước me",
+    "Rau húng lủi",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Giấm",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "鸭腿",
+    "Tamarind water",
+    "Peppermint",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Ginger",
+    "Vinegar",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Ground pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "dui vit",
+    "nuoc me",
+    "rau hung lui",
+    "sa",
+    "ot",
+    "toi",
+    "gung",
+    "giam",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "tieu xay",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

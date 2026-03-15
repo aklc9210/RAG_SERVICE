@@ -1,0 +1,98 @@
+{
+  "id": "dish7485",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7485.json",
+  "name_vi": "Thịt ba rọi chiên giòn kiểu Thái",
+  "name_en": "",
+  "name_normalized": "thit ba roi chien gion kieu thai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Giấm ăn",
+    "Muối",
+    "Nước tương",
+    "Nước mắm",
+    "Đường",
+    "Ngũ vị hương",
+    "Chanh",
+    "Sả băm"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre02768",
+    "ingre02377",
+    "ingre03746",
+    "ingre04790",
+    "ingre04694",
+    "ingre07583",
+    "ingre04381",
+    "ingre01079",
+    "ingre05905",
+    "ingre03929",
+    "ingre04343"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Hành tím",
+    "Giấm ăn",
+    "Muối",
+    "Nước tương",
+    "Nước mắm",
+    "Đường",
+    "Ngũ vị hương",
+    "Chanh",
+    "Sả băm",
+    "Mè rang",
+    "Ngò rí"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shallot",
+    "vinegar",
+    "Salt",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Five-Spice Powder",
+    "Lemon",
+    "Garlic Paste",
+    "Roasted Sesame Seeds",
+    "Parsley"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "hanh tim",
+    "giam an",
+    "muoi",
+    "nuoc tuong",
+    "nuoc mam",
+    "duong",
+    "ngu vi huong",
+    "chanh",
+    "sa bam",
+    "me rang",
+    "ngo ri"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

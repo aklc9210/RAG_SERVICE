@@ -1,0 +1,92 @@
+{
+  "id": "dish8666",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8666.json",
+  "name_vi": "Lòng bò luộc",
+  "name_en": "",
+  "name_normalized": "long bo luoc",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Lòng bò",
+    "Đu đủ non"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Khóm",
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Mắm nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03567",
+    "ingre07498",
+    "ingre02485",
+    "ingre07057",
+    "ingre03236",
+    "ingre05900",
+    "ingre04148",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Lòng bò",
+    "Đu đủ non",
+    "Gừng",
+    "Tắc",
+    "Khóm",
+    "Sả",
+    "Mắm nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef tripe",
+    "Green papaya",
+    "Ginger",
+    "Tamarind",
+    "Jujube",
+    "Lemongrass",
+    "Fish sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "long bo",
+    "du du non",
+    "gung",
+    "tac",
+    "khom",
+    "sa",
+    "mam nem",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

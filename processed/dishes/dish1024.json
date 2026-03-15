@@ -1,0 +1,68 @@
+{
+  "id": "dish1024",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1024.json",
+  "name_vi": "Bánh cupcake bông lan mật ong",
+  "name_en": "",
+  "name_normalized": "banh cupcake bong lan mat ong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Mật ong",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Trứng gà",
+    "Vani",
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre06823",
+    "ingre00382",
+    "ingre04124",
+    "ingre06144",
+    "ingre07140",
+    "ingre07583",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Trứng gà",
+    "Bơ lạt",
+    "Mật ong",
+    "Sữa tươi",
+    "Vani",
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Chicken egg",
+    "Butter",
+    "Honey",
+    "Fresh Milk",
+    "Vanilla",
+    "Sugar",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "trung ga",
+    "bo lat",
+    "mat ong",
+    "sua tuoi",
+    "vani",
+    "duong",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

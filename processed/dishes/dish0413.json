@@ -1,0 +1,83 @@
+{
+  "id": "dish0413",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0413.json",
+  "name_vi": "Canh củ cải muối (xá bấu)",
+  "name_en": "",
+  "name_normalized": "canh cu cai muoi xa bau",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương cổ heo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Củ cải muối",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01865",
+    "ingre07418",
+    "ingre07071",
+    "ingre02673",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Củ cải muối",
+    "Xương cổ heo",
+    "Tỏi băm",
+    "Hành lá",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pickled radish",
+    "Pork neck bone",
+    "Minced Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cu cai muoi",
+    "xuong co heo",
+    "toi bam",
+    "hanh la",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh cu cai muoi (xa bau)",
+      "new": "canh cu cai muoi xa bau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

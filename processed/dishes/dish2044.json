@@ -1,0 +1,86 @@
+{
+  "id": "dish2044",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2044.json",
+  "name_vi": "Bánh kem (bánh gato) dâu tây",
+  "name_en": "",
+  "name_normalized": "banh kem banh gato dau tay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dâu tây"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt tan chảy",
+    "Whipping cream",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Tinh bột bắp",
+    "Trứng gà",
+    "Đường",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre06562",
+    "ingre01961",
+    "ingre06823",
+    "ingre00388",
+    "ingre07313",
+    "ingre07583",
+    "ingre03746",
+    "ingre06592",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Tinh bột bắp",
+    "Dâu tây",
+    "Trứng gà",
+    "Bơ lạt tan chảy",
+    "Whipping cream",
+    "Đường",
+    "Muối",
+    "Tinh chất vani",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Strawberry",
+    "Chicken egg",
+    "Melted Butter",
+    "Whipping cream",
+    "Sugar",
+    "Salt",
+    "Vanilla extract",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "tinh bot bap",
+    "dau tay",
+    "trung ga",
+    "bo lat tan chay",
+    "whipping cream",
+    "duong",
+    "muoi",
+    "tinh chat vani",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kem (banh gato) dau tay",
+      "new": "banh kem banh gato dau tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

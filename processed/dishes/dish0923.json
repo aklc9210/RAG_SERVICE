@@ -1,0 +1,82 @@
+{
+  "id": "dish0923",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0923.json",
+  "name_vi": "Bánh sinh nhật Tiramisu",
+  "name_en": "",
+  "name_normalized": "banh sinh nhat tiramisu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Phô mai mascarpone/Kem tươi đánh bông",
+    "Kem tươi whipping cream",
+    "Cà phê đen"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Đường cát",
+    "Bột mì",
+    "Vani",
+    "Bột nở"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07597",
+    "ingre00759",
+    "ingre00367",
+    "ingre07140",
+    "ingre00867",
+    "ingre05086",
+    "ingre03165",
+    "ingre01411"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường cát",
+    "Bột mì",
+    "Bơ",
+    "Vani",
+    "Bột nở",
+    "Phô mai mascarpone/Kem tươi đánh bông",
+    "Kem tươi whipping cream",
+    "Cà phê đen"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Sugar",
+    "Wheat Flour",
+    "Butter",
+    "Vanilla",
+    "Baking powder",
+    "Mascarpone/Fresh Whipped Cream",
+    "Whipping Cream",
+    "Black Coffee"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong cat",
+    "bot mi",
+    "bo",
+    "vani",
+    "bot no",
+    "pho mai mascarpone kem tuoi danh bong",
+    "kem tuoi whipping cream",
+    "ca phe den"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "pho mai mascarpone/kem tuoi danh bong",
+      "new": "pho mai mascarpone kem tuoi danh bong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Phô mai mascarpone/Kem tươi đánh bông"
+    }
+  ]
+}

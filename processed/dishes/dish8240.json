@@ -1,0 +1,102 @@
+{
+  "id": "dish8240",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8240.json",
+  "name_vi": "Nộm sứa hành tây",
+  "name_en": "",
+  "name_normalized": "nom sua hanh tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa đóng gói",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Xoài xanh",
+    "Hành tây",
+    "Rau thơm",
+    "Đậu phộng",
+    "Mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06076",
+    "ingre01419",
+    "ingre02020",
+    "ingre07342",
+    "ingre02741",
+    "ingre05385",
+    "ingre07071",
+    "ingre07971",
+    "ingre04694",
+    "ingre07781",
+    "ingre03925",
+    "ingre04538",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sứa đóng gói",
+    "Cà rốt",
+    "Dưa leo",
+    "Xoài xanh",
+    "Hành tây",
+    "Rau thơm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước mắm",
+    "Đậu phộng",
+    "Mè",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Canned jelly",
+    "Carrot",
+    "Cucumber",
+    "Green mango",
+    "Onion",
+    "Basil",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Peanut",
+    "Tamarind",
+    "Lemon juice",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sua dong goi",
+    "ca rot",
+    "dua leo",
+    "xoai xanh",
+    "hanh tay",
+    "rau thom",
+    "toi bam",
+    "ot bam",
+    "nuoc mam",
+    "dau phong",
+    "me",
+    "nuoc cot chanh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

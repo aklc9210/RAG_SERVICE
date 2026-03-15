@@ -1,0 +1,106 @@
+{
+  "id": "dish0124",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0124.json",
+  "name_vi": "Cá bò nấu canh chua",
+  "name_en": "",
+  "name_normalized": "ca bo nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá bò",
+    "Dọc mùng",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Nghệ",
+    "Hành tím",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Lá lốt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01467",
+    "ingre02147",
+    "ingre01354",
+    "ingre04304",
+    "ingre02768",
+    "ingre07966",
+    "ingre03461",
+    "ingre04329",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá bò",
+    "Dọc mùng",
+    "Cà chua",
+    "Nghệ",
+    "Hành tím",
+    "Ớt",
+    "Lá lốt",
+    "Ngò gai",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Water spinach",
+    "Tomato",
+    "Turmeric",
+    "Shallot",
+    "Pepper",
+    "Cinnamon Leaf",
+    "Culantro",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca bo",
+    "doc mung",
+    "ca chua",
+    "nghe",
+    "hanh tim",
+    "ot",
+    "la lot",
+    "ngo gai",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

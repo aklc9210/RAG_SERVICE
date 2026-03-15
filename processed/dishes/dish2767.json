@@ -1,0 +1,113 @@
+{
+  "id": "dish2767",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2767.json",
+  "name_vi": "Bánh Crepe trà xanh",
+  "name_en": "",
+  "name_normalized": "banh crepe tra xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Trứn cỡ vừa",
+    "Bơ lạt",
+    "Cafe vani chiết xuất (Crepe trà xanh)"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi ấm",
+    "Cafe vani chiết xuất",
+    "Gelatin (Kem trứng)",
+    "Kem tươi để lạnh (Kem trứng)"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột mì đa dụng",
+    "Bột trà xanh nguyên chất",
+    "Đường",
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre06800",
+    "ingre06147",
+    "ingre00382",
+    "ingre01043",
+    "ingre00791",
+    "ingre00963",
+    "ingre07583",
+    "ingre06801",
+    "ingre06162",
+    "ingre01042",
+    "ingre02255",
+    "ingre03170"
+  ],
+  "ingredient_names_vi": [
+    "Trứn cỡ vừa",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Cafe vani chiết xuất (Crepe trà xanh)",
+    "Bột mì đa dụng",
+    "Bột trà xanh nguyên chất",
+    "Đường",
+    "Trứng",
+    "Sữa tươi ấm",
+    "Cafe vani chiết xuất",
+    "Gelatin (Kem trứng)",
+    "Kem tươi để lạnh (Kem trứng)"
+  ],
+  "ingredient_names_en": [
+    "Medium onion",
+    "Fat-free Milk",
+    "Butter",
+    "Green Tea Extract Vanilla Flavor",
+    "All-purpose flour",
+    "Green Matcha Powder",
+    "Sugar",
+    "Egg",
+    "Warm milk",
+    "Vanilla extract",
+    "Egg white gelatin",
+    "Cold Beat Cream Cheese"
+  ],
+  "ingredient_names_normalized": [
+    "trun co vua",
+    "sua tuoi khong duong",
+    "bo lat",
+    "cafe vani chiet xuat crepe tra xanh",
+    "bot mi da dung",
+    "bot tra xanh nguyen chat",
+    "duong",
+    "trung",
+    "sua tuoi am",
+    "cafe vani chiet xuat",
+    "gelatin kem trung",
+    "kem tuoi de lanh kem trung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cafe vani chiet xuat (crepe tra xanh)",
+      "new": "cafe vani chiet xuat crepe tra xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cafe vani chiết xuất (Crepe trà xanh)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gelatin (kem trung)",
+      "new": "gelatin kem trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gelatin (Kem trứng)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi de lanh (kem trung)",
+      "new": "kem tuoi de lanh kem trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi để lạnh (Kem trứng)"
+    }
+  ]
+}

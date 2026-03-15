@@ -1,0 +1,103 @@
+{
+  "id": "dish9444",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9444.json",
+  "name_vi": "Lạp xưởng bi",
+  "name_en": "",
+  "name_normalized": "lap xuong bi",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt nạc heo",
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ruột heo muối",
+    "Tỏi",
+    "Rượu ấp xanh",
+    "Rượu mai quế lộ",
+    "Rượu trắng",
+    "Đường",
+    "Tiêu đen",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06464",
+    "ingre04192",
+    "ingre05499",
+    "ingre07063",
+    "ingre02768",
+    "ingre05598",
+    "ingre05543",
+    "ingre05574",
+    "ingre07583",
+    "ingre06653",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc heo",
+    "Mỡ heo",
+    "Ruột heo muối",
+    "Tỏi",
+    "Hành tím",
+    "Rượu ấp xanh",
+    "Rượu mai quế lộ",
+    "Rượu trắng",
+    "Đường",
+    "Tiêu đen",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork Shoulder",
+    "Pork fat",
+    "Salted Pork Intestine",
+    "Garlic",
+    "Shallot",
+    "Green fermented liquor",
+    "Sake Plum Ginger Wine",
+    "White wine",
+    "Sugar",
+    "Black Pepper",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac heo",
+    "mo heo",
+    "ruot heo muoi",
+    "toi",
+    "hanh tim",
+    "ruou ap xanh",
+    "ruou mai que lo",
+    "ruou trang",
+    "duong",
+    "tieu den",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

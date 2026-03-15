@@ -1,0 +1,96 @@
+{
+  "id": "dish0650",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0650.json",
+  "name_vi": "Canh khoai tây cà rốt thịt băm",
+  "name_en": "",
+  "name_normalized": "canh khoai tay ca rot thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt heo băm",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06403",
+    "ingre03222",
+    "ingre01419",
+    "ingre02673",
+    "ingre02768",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo băm",
+    "Khoai tây",
+    "Cà rốt",
+    "Hành lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Potato",
+    "Carrot",
+    "Scallion",
+    "Shallot",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo bam",
+    "khoai tay",
+    "ca rot",
+    "hanh la",
+    "hanh tim",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

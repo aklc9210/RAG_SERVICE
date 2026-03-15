@@ -1,0 +1,110 @@
+{
+  "id": "dish6579",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6579.json",
+  "name_vi": "Cơm bò xì xèo",
+  "name_en": "",
+  "name_normalized": "com bo xi xeo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm trắng",
+    "Thịt ba chỉ bò",
+    "Bắp Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Phô mai mozzarella",
+    "Hành lá",
+    "Mật ong",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ tiêu đen"
+  ],
+  "ingredient_ids": [
+    "ingre01767",
+    "ingre06276",
+    "ingre00479",
+    "ingre00382",
+    "ingre05092",
+    "ingre07071",
+    "ingre02673",
+    "ingre04790",
+    "ingre02080",
+    "ingre04124",
+    "ingre03935",
+    "ingre02124",
+    "ingre07686"
+  ],
+  "ingredient_names_vi": [
+    "Cơm trắng",
+    "Thịt ba chỉ bò",
+    "Bắp Mỹ",
+    "Bơ lạt",
+    "Phô mai mozzarella",
+    "Tỏi băm",
+    "Hành lá",
+    "Nước tương",
+    "Dầu hào",
+    "Mật ong",
+    "Mè trắng",
+    "Dầu ăn",
+    "Đường/ tiêu đen"
+  ],
+  "ingredient_names_en": [
+    "White Rice",
+    "Beef belly",
+    "Corn",
+    "Butter",
+    "Mozzarella cheese",
+    "Minced Garlic",
+    "Scallion",
+    "Soy Sauce",
+    "Honey",
+    "White sesame",
+    "Cooking oil",
+    "Sugar/Black Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com trang",
+    "thit ba chi bo",
+    "bap my",
+    "bo lat",
+    "pho mai mozzarella",
+    "toi bam",
+    "hanh la",
+    "nuoc tuong",
+    "dau hao",
+    "mat ong",
+    "me trang",
+    "dau an",
+    "duong tieu den"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu den",
+      "new": "duong tieu den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu đen"
+    }
+  ]
+}

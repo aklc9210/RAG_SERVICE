@@ -1,0 +1,90 @@
+{
+  "id": "dish6959",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6959.json",
+  "name_vi": "Bún nước tương đậu hũ",
+  "name_en": "",
+  "name_normalized": "bun nuoc tuong dau hu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bún tươi",
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Xà lách/ Rau thơm/ Diếp cá",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre07740",
+    "ingre02020",
+    "ingre07376",
+    "ingre07781",
+    "ingre07966",
+    "ingre04790",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Đậu hũ",
+    "Dưa leo",
+    "Xà lách/ Rau thơm/ Diếp cá",
+    "Đậu phộng",
+    "Ớt",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Tofu",
+    "Cucumber",
+    "Leafy Greens/Herbs/Chinese Parsley",
+    "Peanut",
+    "Pepper",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "dau hu",
+    "dua leo",
+    "xa lach rau thom diep ca",
+    "dau phong",
+    "ot",
+    "nuoc tuong",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach/ rau thom/ diep ca",
+      "new": "xa lach rau thom diep ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách/ Rau thơm/ Diếp cá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

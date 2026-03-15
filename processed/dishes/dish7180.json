@@ -1,0 +1,71 @@
+{
+  "id": "dish7180",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7180.json",
+  "name_vi": "Cá phèn chiên mắm tỏi ớt",
+  "name_en": "",
+  "name_normalized": "ca phen chien mam toi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá phèn"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt đỏ",
+    "Tỏi",
+    "Nước mắm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01606",
+    "ingre08097",
+    "ingre07063",
+    "ingre04694",
+    "ingre02377",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá phèn",
+    "Ớt đỏ",
+    "Tỏi",
+    "Nước mắm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Dried fish",
+    "Red pepper",
+    "Garlic",
+    "Fish Sauce",
+    "vinegar",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca phen",
+    "ot do",
+    "toi",
+    "nuoc mam",
+    "giam an",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

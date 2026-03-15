@@ -1,0 +1,102 @@
+{
+  "id": "dish3320",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3320.json",
+  "name_vi": "Hủ tiếu Thái chay",
+  "name_en": "",
+  "name_normalized": "hu tieu thai chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nấm đùi gà mini",
+    "Nấm bạch tuyết",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Cà chua",
+    "Sả",
+    "Riềng",
+    "Satế chay",
+    "Dầu màu điều",
+    "Nước tắc"
+  ],
+  "seasonings": [
+    "Ớt băm",
+    "Đường",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre04977",
+    "ingre04903",
+    "ingre07742",
+    "ingre06247",
+    "ingre01354",
+    "ingre05900",
+    "ingre05436",
+    "ingre07971",
+    "ingre07583",
+    "ingre02997",
+    "ingre05650",
+    "ingre02093",
+    "ingre04817"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà mini",
+    "Nấm bạch tuyết",
+    "Đậu hũ chiên",
+    "Thơm",
+    "Cà chua",
+    "Sả",
+    "Riềng",
+    "Ớt băm",
+    "Đường",
+    "Hạt nêm chay",
+    "Satế chay",
+    "Dầu màu điều",
+    "Nước tắc"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh mushroom",
+    "Mushroom",
+    "Fried Tofu",
+    "Basil",
+    "Tomato",
+    "Lemongrass",
+    "Galangal",
+    "Chopped Pepper",
+    "Sugar",
+    "Vegetarian Seasoning",
+    "Vegetarian satay",
+    "Peanut-colored food coloring",
+    "Lime juice"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga mini",
+    "nam bach tuyet",
+    "dau hu chien",
+    "thom",
+    "ca chua",
+    "sa",
+    "rieng",
+    "ot bam",
+    "duong",
+    "hat nem chay",
+    "sate chay",
+    "dau mau dieu",
+    "nuoc tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

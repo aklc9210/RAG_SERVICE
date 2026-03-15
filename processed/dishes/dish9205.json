@@ -1,0 +1,56 @@
+{
+  "id": "dish9205",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9205.json",
+  "name_vi": "Thạch rau câu cam tươi (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "thach rau cau cam tuoi cong thuc duoc chia se tu nguoi dung",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cam tươi",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu giòn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00899",
+    "ingre01052",
+    "ingre07583",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu giòn",
+    "Cam tươi",
+    "Đường",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Jello powder",
+    "Fresh Orange",
+    "Sugar",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau gion",
+    "cam tuoi",
+    "duong",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thach rau cau cam tuoi (cong thuc duoc chia se tu nguoi dung)",
+      "new": "thach rau cau cam tuoi cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

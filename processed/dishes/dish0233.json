@@ -1,0 +1,100 @@
+{
+  "id": "dish0233",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0233.json",
+  "name_vi": "Canh su hào nấu xương",
+  "name_en": "",
+  "name_normalized": "canh su hao nau xuong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương heo",
+    "Su hào"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím",
+    "Ngò rí/ hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre05787",
+    "ingre01419",
+    "ingre01354",
+    "ingre02768",
+    "ingre04346",
+    "ingre02124",
+    "ingre04694",
+    "ingre00587",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Su hào",
+    "Cà rốt",
+    "Cà chua",
+    "Hành tím",
+    "Ngò rí/ hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Carrot",
+    "Tomato",
+    "Shallot",
+    "Parsley/Green Onion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Cornstarch",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "su hao",
+    "ca rot",
+    "ca chua",
+    "hanh tim",
+    "ngo ri hanh la",
+    "dau an",
+    "nuoc mam",
+    "bot canh",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo ri/ hanh la",
+      "new": "ngo ri hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò rí/ hành lá"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "dish7208",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7208.json",
+  "name_vi": "Đậu hũ muối chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "dau hu muoi chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ",
+    "Đậu hủ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Hạt nêm chay",
+    "Bột nghệ",
+    "Tiêu sọ",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre07762",
+    "ingre05900",
+    "ingre08026",
+    "ingre02997",
+    "ingre00804",
+    "ingre06628",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Đậu hủ",
+    "Sả",
+    "Ớt hiểm",
+    "Hạt nêm chay",
+    "Bột nghệ",
+    "Tiêu sọ",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Lemongrass",
+    "Hot pepper",
+    "Vegetarian Seasoning",
+    "Turmeric Powder",
+    "Bamboo shoot",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "sa",
+    "ot hiem",
+    "hat nem chay",
+    "bot nghe",
+    "tieu so",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

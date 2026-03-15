@@ -1,0 +1,113 @@
+{
+  "id": "dish7658",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7658.json",
+  "name_vi": "Cơm bồ câu",
+  "name_en": "",
+  "name_normalized": "com bo cau",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Thịt bồ câu phi lê",
+    "Gạo ST21",
+    "Nấm đông cô khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Gừng",
+    "Tỏi",
+    "Rượu hoa cúc",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06338",
+    "ingre02458",
+    "ingre04969",
+    "ingre04554",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre04343",
+    "ingre05537",
+    "ingre04694",
+    "ingre02094",
+    "ingre02124",
+    "ingre06612",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bồ câu phi lê",
+    "Gạo ST21",
+    "Nấm đông cô khô",
+    "Nước cốt dừa",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí",
+    "Rượu hoa cúc",
+    "Nước mắm",
+    "Dầu mè",
+    "Dầu ăn",
+    "Tiêu",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pigeon breast",
+    "Basmati Rice",
+    "Dried shiitake mushrooms",
+    "Coconut milk",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Chrysanthemum wine",
+    "Fish Sauce",
+    "Sesame oil",
+    "Cooking oil",
+    "Pepper",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo cau phi le",
+    "gao st21",
+    "nam dong co kho",
+    "nuoc cot dua",
+    "gung",
+    "hanh tim",
+    "toi",
+    "ngo ri",
+    "ruou hoa cuc",
+    "nuoc mam",
+    "dau me",
+    "dau an",
+    "tieu",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

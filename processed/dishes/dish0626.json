@@ -1,0 +1,78 @@
+{
+  "id": "dish0626",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0626.json",
+  "name_vi": "Cá chua nấu lá giang",
+  "name_en": "",
+  "name_normalized": "ca chua nau la giang",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chua",
+    "Lá giang"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01489",
+    "ingre03430",
+    "ingre02768",
+    "ingre08026",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chua",
+    "Lá giang",
+    "Hành tím",
+    "Ớt hiểm",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tuna",
+    "Japanese Laurel Leaf",
+    "Shallot",
+    "Hot pepper",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua",
+    "la giang",
+    "hanh tim",
+    "ot hiem",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

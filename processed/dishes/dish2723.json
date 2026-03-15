@@ -1,0 +1,112 @@
+{
+  "id": "dish2723",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2723.json",
+  "name_vi": "Bánh bông lan cuộn chuối Tokyo nhân custard",
+  "name_en": "",
+  "name_normalized": "banh bong lan cuon chuoi tokyo nhan custard",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Chuối chín",
+    "Lòng đỏ trứng gà",
+    "Chuối cắt lát (hoặc 2 quả)",
+    "Nước nóng"
+  ],
+  "seasonings": [
+    "Đường Caster",
+    "Bột làm bánh (bột mì số 13)",
+    "Lòng trắng trứng",
+    "Tinh chất vani (1 hoặc 2 giọt)",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03584",
+    "ingre06144",
+    "ingre07595",
+    "ingre00718",
+    "ingre01163",
+    "ingre03579",
+    "ingre06593",
+    "ingre01166",
+    "ingre04738",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng gà",
+    "Sữa tươi",
+    "Đường Caster",
+    "Bột làm bánh (bột mì số 13)",
+    "Chuối chín",
+    "Lòng trắng trứng",
+    "Tinh chất vani (1 hoặc 2 giọt)",
+    "Chuối cắt lát (hoặc 2 quả)",
+    "Nước nóng",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Egg yolk",
+    "Fresh Milk",
+    "Caster Sugar",
+    "Bread Flour",
+    "Banana",
+    "Egg white",
+    "Vanilla extract (1 or 2 drops)",
+    "Banana Slices (or 2 bananas)",
+    "Hot water",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung ga",
+    "sua tuoi",
+    "duong caster",
+    "bot lam banh bot mi so 13",
+    "chuoi chin",
+    "long trang trung",
+    "tinh chat vani 1 hoac 2 giot",
+    "chuoi cat lat hoac 2 qua",
+    "nuoc nong",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (bot mi so 13)",
+      "new": "bot lam banh bot mi so 13",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (bột mì số 13)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tinh chat vani (1 hoac 2 giot)",
+      "new": "tinh chat vani 1 hoac 2 giot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tinh chất vani (1 hoặc 2 giọt)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (bot mi so 13)",
+      "new": "bot lam banh bot mi so 13",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (bột mì số 13)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chuoi cat lat (hoac 2 qua)",
+      "new": "chuoi cat lat hoac 2 qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chuối cắt lát (hoặc 2 quả)"
+    }
+  ]
+}

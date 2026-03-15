@@ -1,0 +1,61 @@
+{
+  "id": "dish10558",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10558.json",
+  "name_vi": "Mắm cua đồng",
+  "name_en": "",
+  "name_normalized": "mam cua dong",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Cua đồng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "toi",
+    "ot",
+    "chanh",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "dish1542",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1542.json",
+  "name_vi": "Crinkle cookies - bánh quy tuyết",
+  "name_en": "",
+  "name_normalized": "crinkle cookies banh quy tuyet",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột cacao",
+    "Bột nở",
+    "Trứng gà",
+    "Đường bột",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00576",
+    "ingre00867",
+    "ingre06823",
+    "ingre07589",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột cacao",
+    "Bột nở",
+    "Trứng gà",
+    "Đường bột",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Cocoa powder",
+    "Baking powder",
+    "Chicken egg",
+    "Sugar Powder",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot cacao",
+    "bot no",
+    "trung ga",
+    "duong bot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "crinkle cookies - banh quy tuyet",
+      "new": "crinkle cookies banh quy tuyet",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

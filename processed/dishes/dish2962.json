@@ -1,0 +1,78 @@
+{
+  "id": "dish2962",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2962.json",
+  "name_vi": "Bánh bí đỏ hấp dẻo mịn",
+  "name_en": "",
+  "name_normalized": "banh bi do hap deo min",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Tôm bạc"
+  ],
+  "secondary_ingredients": [
+    "Bí đỏ",
+    "Hành lá",
+    "Ngò rí",
+    "Nấm mèo"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột nếp"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre06932",
+    "ingre00253",
+    "ingre02673",
+    "ingre04343",
+    "ingre04930",
+    "ingre06823",
+    "ingre00859"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Tôm bạc",
+    "Bí đỏ",
+    "Hành lá",
+    "Ngò rí",
+    "Nấm mèo",
+    "Trứng gà",
+    "Bột nếp"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Silver shrimp",
+    "Pumpkin",
+    "Scallion",
+    "Parsley",
+    "Mushroom",
+    "Chicken egg",
+    "Glutinous rice flour"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "tom bac",
+    "bi do",
+    "hanh la",
+    "ngo ri",
+    "nam meo",
+    "trung ga",
+    "bot nep"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

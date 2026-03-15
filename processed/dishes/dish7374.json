@@ -1,0 +1,45 @@
+{
+  "id": "dish7374",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7374.json",
+  "name_vi": "Ngao (nghêu) cháy tỏi",
+  "name_en": "",
+  "name_normalized": "ngao ngheu chay toi",
+  "category": "mon chien",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Ngao"
+  ],
+  "seasonings": [
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre04301",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Ngao",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "ngao",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngao (ngheu) chay toi",
+      "new": "ngao ngheu chay toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

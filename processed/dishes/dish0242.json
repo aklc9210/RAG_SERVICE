@@ -1,0 +1,108 @@
+{
+  "id": "dish0242",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0242.json",
+  "name_vi": "Súp măng tây cua",
+  "name_en": "",
+  "name_normalized": "sup mang tay cua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt cua",
+    "Măng tây",
+    "Thịt gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Rượu",
+    "Tiêu hạt",
+    "Muối",
+    "Bột năng",
+    "Giấm",
+    "Đường phèn",
+    "Lòng trắng trứng",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06349",
+    "ingre04088",
+    "ingre06380",
+    "ingre02741",
+    "ingre02768",
+    "ingre05515",
+    "ingre06619",
+    "ingre03746",
+    "ingre00849",
+    "ingre02355",
+    "ingre07635",
+    "ingre03579",
+    "ingre02094",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt cua",
+    "Măng tây",
+    "Thịt gà",
+    "Hành tây",
+    "Hành tím",
+    "Rượu",
+    "Tiêu hạt",
+    "Muối",
+    "Bột năng",
+    "Giấm",
+    "Đường phèn",
+    "Lòng trắng trứng",
+    "Dầu mè",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp肉",
+    "Asparagus",
+    "Chicken",
+    "Onion",
+    "Shallot",
+    "Rum",
+    "Cumin Seeds",
+    "Salt",
+    "Cornstarch",
+    "Vinegar",
+    "Brown Sugar",
+    "Egg white",
+    "Sesame oil",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit cua",
+    "mang tay",
+    "thit ga",
+    "hanh tay",
+    "hanh tim",
+    "ruou",
+    "tieu hat",
+    "muoi",
+    "bot nang",
+    "giam",
+    "duong phen",
+    "long trang trung",
+    "dau me",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

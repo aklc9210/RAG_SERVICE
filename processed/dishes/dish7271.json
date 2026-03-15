@@ -1,0 +1,82 @@
+{
+  "id": "dish7271",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7271.json",
+  "name_vi": "Trứng chiên phô mai thịt xông khói",
+  "name_en": "",
+  "name_normalized": "trung chien pho mai thit xong khoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Phô mai cheddar bào sợi"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mozzarella",
+    "Ba rọi xông khói",
+    "Cà chua",
+    "Hành tây",
+    "Hành boa-rô"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre05065",
+    "ingre05092",
+    "ingre00011",
+    "ingre01354",
+    "ingre02741",
+    "ingre02650",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Phô mai cheddar bào sợi",
+    "Phô mai mozzarella",
+    "Ba rọi xông khói",
+    "Cà chua",
+    "Hành tây",
+    "Hành boa-rô",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Shredded Cheddar Cheese",
+    "Mozzarella cheese",
+    "Smoked bacon",
+    "Tomato",
+    "Onion",
+    "Garlic",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "pho mai cheddar bao soi",
+    "pho mai mozzarella",
+    "ba roi xong khoi",
+    "ca chua",
+    "hanh tay",
+    "hanh boa ro",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa-ro",
+      "new": "hanh boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa-rô"
+    }
+  ]
+}

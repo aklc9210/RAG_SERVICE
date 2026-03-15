@@ -1,0 +1,61 @@
+{
+  "id": "dish10291",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10291.json",
+  "name_vi": "Nước ép rau bina, cần tây",
+  "name_en": "",
+  "name_normalized": "nuoc ep rau bina can tay",
+  "category": "nuoc ep",
+  "main_ingredients": [
+    "Rau bina"
+  ],
+  "secondary_ingredients": [
+    "Cần tây",
+    "Táo",
+    "Dưa leo baby"
+  ],
+  "seasonings": [
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre05199",
+    "ingre01812",
+    "ingre06890",
+    "ingre01079",
+    "ingre02021"
+  ],
+  "ingredient_names_vi": [
+    "Rau bina",
+    "Cần tây",
+    "Táo",
+    "Chanh",
+    "Dưa leo baby"
+  ],
+  "ingredient_names_en": [
+    "Spinach",
+    "Celery",
+    "Apple",
+    "Lemon",
+    "Baby cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "rau bina",
+    "can tay",
+    "tao",
+    "chanh",
+    "dua leo baby"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc ep rau bina, can tay",
+      "new": "nuoc ep rau bina can tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

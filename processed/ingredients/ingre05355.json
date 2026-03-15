@@ -1,0 +1,25 @@
+{
+  "id": "ingre05355",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05355.json",
+  "name_vi": "rau quế/ ngò gai",
+  "name_en": "Sage Herb",
+  "name_normalized": "rau que ngo gai",
+  "synonyms": [
+    "ngò đắng"
+  ],
+  "synonyms_normalized": [
+    "ngo dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau que/ ngo gai",
+      "new": "rau que ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish4962",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4962.json",
+  "name_vi": "Nấm mỡ xào muối tiêu",
+  "name_en": "",
+  "name_normalized": "nam mo xao muoi tieu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí băm"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Hành boa - rô băm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04945",
+    "ingre08008",
+    "ingre08014",
+    "ingre02644",
+    "ingre04344",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mỡ",
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Hành boa - rô băm",
+    "Ngò rí băm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Fried mushroom",
+    "Green Bell Pepper",
+    "Red bell pepper",
+    "Chopped Shallot",
+    "Chopped cilantro",
+    "Sugar",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam mo",
+    "ot chuong xanh",
+    "ot chuong do",
+    "hanh boa ro bam",
+    "ngo ri bam",
+    "duong",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa - ro bam",
+      "new": "hanh boa ro bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa - rô băm"
+    }
+  ]
+}

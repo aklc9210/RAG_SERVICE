@@ -1,0 +1,121 @@
+{
+  "id": "dish1061",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1061.json",
+  "name_vi": "Bánh mì bò nướng campuchia",
+  "name_en": "",
+  "name_normalized": "banh mi bo nuong campuchia",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt thăn bò",
+    "Đu đủ bào sợi",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Gốc ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt bào sợi",
+    "Tiêu sọ",
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Giấm ăn",
+    "Nước tương",
+    "Đường cát",
+    "Đường thốt nốt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre07493",
+    "ingre01422",
+    "ingre03584",
+    "ingre06628",
+    "ingre08026",
+    "ingre05900",
+    "ingre07071",
+    "ingre02774",
+    "ingre02482",
+    "ingre02080",
+    "ingre02124",
+    "ingre02377",
+    "ingre04790",
+    "ingre07597",
+    "ingre07647",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Đu đủ bào sợi",
+    "Cà rốt bào sợi",
+    "Lòng đỏ trứng gà",
+    "Tiêu sọ",
+    "Ớt hiểm",
+    "Sả",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Gốc ngò rí",
+    "Dầu hào",
+    "Dầu ăn",
+    "Giấm ăn",
+    "Nước tương",
+    "Đường cát",
+    "Đường thốt nốt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Mango Strands",
+    "Carrot shredded",
+    "Egg yolk",
+    "Bamboo shoot",
+    "Hot pepper",
+    "Lemongrass",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Pennyroyal",
+    "Soy sauce",
+    "Cooking oil",
+    "vinegar",
+    "Sugar",
+    "Cane Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "du du bao soi",
+    "ca rot bao soi",
+    "long do trung ga",
+    "tieu so",
+    "ot hiem",
+    "sa",
+    "toi bam",
+    "hanh tim bam",
+    "goc ngo ri",
+    "dau hao",
+    "dau an",
+    "giam an",
+    "nuoc tuong",
+    "duong cat",
+    "duong thot not",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

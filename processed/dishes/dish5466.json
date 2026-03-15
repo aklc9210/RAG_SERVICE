@@ -1,0 +1,106 @@
+{
+  "id": "dish5466",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5466.json",
+  "name_vi": "Bạch tuộc xào cay",
+  "name_en": "",
+  "name_normalized": "bach tuoc xao cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Hành tây",
+    "Hành Boa rô"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè",
+    "Mật ong",
+    "Rong biển/mè rang"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Tương ớt Hàn Quốc",
+    "Tương cà",
+    "Dầu hào",
+    "Nước tương",
+    "Ớt bột",
+    "Giấm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre02741",
+    "ingre07071",
+    "ingre02645",
+    "ingre07036",
+    "ingre06984",
+    "ingre02094",
+    "ingre02080",
+    "ingre04790",
+    "ingre04124",
+    "ingre07977",
+    "ingre02355",
+    "ingre02124",
+    "ingre05470"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Hành tây",
+    "Tỏi băm",
+    "Hành Boa rô",
+    "Tương ớt Hàn Quốc",
+    "Tương cà",
+    "Dầu mè",
+    "Dầu hào",
+    "Nước tương",
+    "Mật ong",
+    "Ớt bột",
+    "Giấm",
+    "Dầu ăn",
+    "Rong biển/mè rang"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Onion",
+    "Minced Garlic",
+    "Garlic",
+    "Korean chili paste",
+    "Miso酱",
+    "Sesame oil",
+    "Soy sauce",
+    "Honey",
+    "Chili powder",
+    "Vinegar",
+    "Cooking oil",
+    "Kelp/Mixed Nuts"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "hanh tay",
+    "toi bam",
+    "hanh boa ro",
+    "tuong ot han quoc",
+    "tuong ca",
+    "dau me",
+    "dau hao",
+    "nuoc tuong",
+    "mat ong",
+    "ot bot",
+    "giam",
+    "dau an",
+    "rong bien me rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rong bien/me rang",
+      "new": "rong bien me rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rong biển/mè rang"
+    }
+  ]
+}

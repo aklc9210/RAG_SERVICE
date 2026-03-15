@@ -1,0 +1,103 @@
+{
+  "id": "dish5685",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5685.json",
+  "name_vi": "Cá tràu kho tộ",
+  "name_en": "",
+  "name_normalized": "ca trau kho to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá tràu",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Hành hoa",
+    "Mật mía"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hành khô",
+    "Gừng",
+    "Dầu ăn",
+    "Đường",
+    "Tiêu xanh",
+    "Nước mắm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01635",
+    "ingre07966",
+    "ingre04304",
+    "ingre02667",
+    "ingre02485",
+    "ingre06233",
+    "ingre02663",
+    "ingre02124",
+    "ingre04123",
+    "ingre07583",
+    "ingre06640",
+    "ingre04694",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá tràu",
+    "Ớt",
+    "Nghệ",
+    "Hành khô",
+    "Gừng",
+    "Thì là",
+    "Hành hoa",
+    "Dầu ăn",
+    "Mật mía",
+    "Đường",
+    "Tiêu xanh",
+    "Nước mắm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Pepper",
+    "Turmeric",
+    "Garlic Powder",
+    "Ginger",
+    "Dill",
+    "Garlic",
+    "Cooking oil",
+    "Molasses",
+    "Sugar",
+    "Green pepper",
+    "Fish Sauce",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca trau",
+    "ot",
+    "nghe",
+    "hanh kho",
+    "gung",
+    "thi la",
+    "hanh hoa",
+    "dau an",
+    "mat mia",
+    "duong",
+    "tieu xanh",
+    "nuoc mam",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish5580",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5580.json",
+  "name_vi": "Cá dìa kho thơm",
+  "name_en": "",
+  "name_normalized": "ca dia kho thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá dìa",
+    "Thơm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Củ nén"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Ớt bột",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01517",
+    "ingre06247",
+    "ingre02673",
+    "ingre08026",
+    "ingre07977",
+    "ingre01908",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá dìa",
+    "Thơm",
+    "Hành lá",
+    "Ớt hiểm",
+    "Ớt bột",
+    "Củ nén",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Mudfish",
+    "Basil",
+    "Scallion",
+    "Hot pepper",
+    "Chili powder",
+    "Celery",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca dia",
+    "thom",
+    "hanh la",
+    "ot hiem",
+    "ot bot",
+    "cu nen",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07376",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07376.json",
+  "name_vi": "xà lách/ rau thơm/ diếp cá",
+  "name_en": "Leafy Greens/Herbs/Chinese Parsley",
+  "name_normalized": "xa lach rau thom diep ca",
+  "synonyms": [
+    "rau diếp",
+    "diếp",
+    "rau sống"
+  ],
+  "synonyms_normalized": [
+    "rau diep",
+    "diep",
+    "rau song"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach/ rau thom/ diep ca",
+      "new": "xa lach rau thom diep ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

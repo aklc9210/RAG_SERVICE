@@ -1,0 +1,101 @@
+{
+  "id": "dish5388",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5388.json",
+  "name_vi": "Ốc len xào dừa",
+  "name_en": "",
+  "name_normalized": "oc len xao dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc len",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Sả",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Ớt",
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07945",
+    "ingre04554",
+    "ingre04626",
+    "ingre03417",
+    "ingre05900",
+    "ingre05359",
+    "ingre07966",
+    "ingre07063",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ốc len",
+    "Nước cốt dừa",
+    "Nước dừa tươi",
+    "Lá dứa",
+    "Sả",
+    "Rau răm",
+    "Ớt",
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Coconut milk",
+    "Coconut water",
+    "Pandan叶",
+    "Lemongrass",
+    "Vietnamese coriander",
+    "Pepper",
+    "Garlic",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "oc len",
+    "nuoc cot dua",
+    "nuoc dua tuoi",
+    "la dua",
+    "sa",
+    "rau ram",
+    "ot",
+    "toi",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

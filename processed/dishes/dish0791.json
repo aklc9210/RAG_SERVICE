@@ -1,0 +1,107 @@
+{
+  "id": "dish0791",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0791.json",
+  "name_vi": "Canh Tom Yum",
+  "name_en": "",
+  "name_normalized": "canh tom yum",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm sú",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Củ riềng",
+    "Hành tây",
+    "Nước me"
+  ],
+  "seasonings": [
+    "Sốt cà chua",
+    "Nước cốt dừa",
+    "Lá chanh",
+    "Ớt",
+    "Nước mắm",
+    "Chanh",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06953",
+    "ingre04953",
+    "ingre05947",
+    "ingre04554",
+    "ingre05900",
+    "ingre03370",
+    "ingre01913",
+    "ingre02741",
+    "ingre07966",
+    "ingre04694",
+    "ingre04671",
+    "ingre01079",
+    "ingre07063",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tôm sú",
+    "Nấm rơm",
+    "Sốt cà chua",
+    "Nước cốt dừa",
+    "Sả",
+    "Lá chanh",
+    "Củ riềng",
+    "Hành tây",
+    "Ớt",
+    "Nước mắm",
+    "Nước me",
+    "Chanh",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Strawberry mushroom",
+    "Tomato sauce",
+    "Coconut milk",
+    "Lemongrass",
+    "Lime leaf",
+    "Galangal",
+    "Onion",
+    "Pepper",
+    "Fish Sauce",
+    "Tamarind water",
+    "Lemon",
+    "Garlic",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tom su",
+    "nam rom",
+    "sot ca chua",
+    "nuoc cot dua",
+    "sa",
+    "la chanh",
+    "cu rieng",
+    "hanh tay",
+    "ot",
+    "nuoc mam",
+    "nuoc me",
+    "chanh",
+    "toi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

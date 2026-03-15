@@ -1,0 +1,25 @@
+{
+  "id": "ingre01119",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01119.json",
+  "name_vi": "cherry (không bắt buộc)",
+  "name_en": "Cherry",
+  "name_normalized": "cherry khong bat buoc",
+  "synonyms": [
+    "cam đỏ"
+  ],
+  "synonyms_normalized": [
+    "cam do"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cherry (khong bat buoc)",
+      "new": "cherry khong bat buoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

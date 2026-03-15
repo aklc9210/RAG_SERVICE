@@ -1,0 +1,76 @@
+{
+  "id": "dish0354",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0354.json",
+  "name_vi": "Canh nghêu nấu rau muống",
+  "name_en": "",
+  "name_normalized": "canh ngheu nau rau muong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Nghêu"
+  ],
+  "secondary_ingredients": [
+    "Rau muống",
+    "Củ nén"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04303",
+    "ingre05289",
+    "ingre01908",
+    "ingre04694",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Nghêu",
+    "Rau muống",
+    "Củ nén",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Watercress",
+    "Celery",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ngheu",
+    "rau muong",
+    "cu nen",
+    "nuoc mam",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

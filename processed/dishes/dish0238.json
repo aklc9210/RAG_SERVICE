@@ -1,0 +1,117 @@
+{
+  "id": "dish0238",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0238.json",
+  "name_vi": "Gà ác hầm sâm",
+  "name_en": "",
+  "name_normalized": "ga ac ham sam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gà ác",
+    "Củ sâm nhỏ",
+    "Củ sen",
+    "Hạt sen"
+  ],
+  "secondary_ingredients": [
+    "Gạo lứt rang",
+    "Trứng cút",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Dầu hào",
+    "Nước tương",
+    "Rượu",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02411",
+    "ingre01919",
+    "ingre01916",
+    "ingre03029",
+    "ingre02445",
+    "ingre06816",
+    "ingre01419",
+    "ingre02485",
+    "ingre02768",
+    "ingre02080",
+    "ingre04790",
+    "ingre05515",
+    "ingre02995",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Gà ác",
+    "Củ sâm nhỏ",
+    "Củ sen",
+    "Hạt sen",
+    "Gạo lứt rang",
+    "Trứng cút",
+    "Cà rốt",
+    "Gừng",
+    "Hành tím",
+    "Dầu hào",
+    "Nước tương",
+    "Rượu",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chinese Gooseberry",
+    "Ginseng root",
+    "Lotus root",
+    "Lotus seed",
+    "Toasted Brown Rice",
+    "Quail egg",
+    "Carrot",
+    "Ginger",
+    "Shallot",
+    "Soy sauce",
+    "Rum",
+    "Seasoning",
+    "Salt",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ga ac",
+    "cu sam nho",
+    "cu sen",
+    "hat sen",
+    "gao lut rang",
+    "trung cut",
+    "ca rot",
+    "gung",
+    "hanh tim",
+    "dau hao",
+    "nuoc tuong",
+    "ruou",
+    "hat nem",
+    "muoi",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

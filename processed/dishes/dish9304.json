@@ -1,0 +1,44 @@
+{
+  "id": "dish9304",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9304.json",
+  "name_vi": "Ngô (bắp) luộc",
+  "name_en": "",
+  "name_normalized": "ngo bap luoc",
+  "category": "an vat",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ngô ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04368",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ngô ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sweet Corn",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ngo ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo (bap) luoc",
+      "new": "ngo bap luoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

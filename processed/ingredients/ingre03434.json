@@ -1,0 +1,29 @@
+{
+  "id": "ingre03434",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03434.json",
+  "name_vi": "lá gừng tươi/ hành lá",
+  "name_en": "Ginger Leaf/Chives",
+  "name_normalized": "la gung tuoi hanh la",
+  "synonyms": [
+    "hành lá",
+    "ngò",
+    "rau mùi"
+  ],
+  "synonyms_normalized": [
+    "hanh la",
+    "ngo",
+    "rau mui"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la gung tuoi/ hanh la",
+      "new": "la gung tuoi hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

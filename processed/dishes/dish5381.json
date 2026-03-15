@@ -1,0 +1,101 @@
+{
+  "id": "dish5381",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5381.json",
+  "name_vi": "Mì xào tôm kiểu Thái",
+  "name_en": "",
+  "name_normalized": "mi xao tom kieu thai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì ý",
+    "Tôm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tương ớt",
+    "Sốt mayonnaise",
+    "Bột ớt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04019",
+    "ingre06930",
+    "ingre02768",
+    "ingre07063",
+    "ingre04343",
+    "ingre07028",
+    "ingre05970",
+    "ingre01015",
+    "ingre04538",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Mì ý",
+    "Tôm",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí",
+    "Tương ớt",
+    "Sốt mayonnaise",
+    "Bột ớt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Spaghetti",
+    "Shrimp",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Hot Sauce",
+    "Mayonnaise Sauce",
+    "Red Pepper Powder",
+    "Lemon juice",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi y",
+    "tom",
+    "hanh tim",
+    "toi",
+    "ngo ri",
+    "tuong ot",
+    "sot mayonnaise",
+    "bot ot",
+    "nuoc cot chanh",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

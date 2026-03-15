@@ -1,0 +1,97 @@
+{
+  "id": "dish6427",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6427.json",
+  "name_vi": "Dồi thịt heo sả ớt chiên",
+  "name_en": "",
+  "name_normalized": "doi thit heo sa ot chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Lòng non heo",
+    "Thịt heo băm"
+  ],
+  "secondary_ingredients": [
+    "Rau quế/ rau răm"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Ớt băm",
+    "Tiêu xanh",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03578",
+    "ingre06403",
+    "ingre05905",
+    "ingre07971",
+    "ingre06640",
+    "ingre05356",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lòng non heo",
+    "Thịt heo băm",
+    "Sả băm",
+    "Ớt băm",
+    "Tiêu xanh",
+    "Rau quế/ rau răm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Ground Pork",
+    "Garlic Paste",
+    "Chopped Pepper",
+    "Green pepper",
+    "Cilantro",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "long non heo",
+    "thit heo bam",
+    "sa bam",
+    "ot bam",
+    "tieu xanh",
+    "rau que rau ram",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau que/ rau ram",
+      "new": "rau que rau ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau quế/ rau răm"
+    }
+  ]
+}

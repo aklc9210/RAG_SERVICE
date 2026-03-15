@@ -1,0 +1,73 @@
+{
+  "id": "dish0741",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0741.json",
+  "name_vi": "Canh nấm tuyết",
+  "name_en": "",
+  "name_normalized": "canh nam tuyet",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Nước",
+    "Nấm tuyết"
+  ],
+  "secondary_ingredients": [
+    "Táo đỏ",
+    "Kỷ tử",
+    "Xương gà"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04490",
+    "ingre04962",
+    "ingre06911",
+    "ingre03334",
+    "ingre01419",
+    "ingre07421",
+    "ingre03825"
+  ],
+  "ingredient_names_vi": [
+    "Nước",
+    "Nấm tuyết",
+    "Táo đỏ",
+    "Kỷ tử",
+    "Cà rốt",
+    "Xương gà",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Water",
+    "Mushroom",
+    "Red apple",
+    "Goji berries",
+    "Carrot",
+    "Chicken bone",
+    "Seasoning Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc",
+    "nam tuyet",
+    "tao do",
+    "ky tu",
+    "ca rot",
+    "xuong ga",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/hạt nêm"
+    }
+  ]
+}

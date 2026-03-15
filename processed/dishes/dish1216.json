@@ -1,0 +1,67 @@
+{
+  "id": "dish1216",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1216.json",
+  "name_vi": "Bánh nếp đường đen",
+  "name_en": "",
+  "name_normalized": "banh nep duong den",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mè",
+    "Hạnh nhân"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Đường trắng",
+    "Đường đen",
+    "Bột chiên xù"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre07652",
+    "ingre07668",
+    "ingre03925",
+    "ingre02889",
+    "ingre00609"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Đường trắng",
+    "Đường đen",
+    "Mè",
+    "Hạnh nhân",
+    "Bột chiên xù"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "White sugar",
+    "Black sugar",
+    "Tamarind",
+    "Almond",
+    "Puffed Rice Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "duong trang",
+    "duong den",
+    "me",
+    "hanh nhan",
+    "bot chien xu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

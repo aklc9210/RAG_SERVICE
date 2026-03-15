@@ -1,0 +1,87 @@
+{
+  "id": "dish6097",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6097.json",
+  "name_vi": "Thịt kho đông",
+  "name_en": "",
+  "name_normalized": "thit kho dong",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt chân giò rút xương",
+    "Bì heo",
+    "Nấm hương"
+  ],
+  "secondary_ingredients": [
+    "Mộc nhĩ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Hạt tiêu",
+    "Gia vị",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06344",
+    "ingre00233",
+    "ingre04910",
+    "ingre04179",
+    "ingre02768",
+    "ingre04694",
+    "ingre03043",
+    "ingre02276",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt chân giò rút xương",
+    "Bì heo",
+    "Nấm hương",
+    "Mộc nhĩ",
+    "Hành tím",
+    "Nước mắm",
+    "Hạt tiêu",
+    "Gia vị",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork shin trotter",
+    "Pork skin",
+    "Mushroom",
+    "Shallot",
+    "Fish Sauce",
+    "Pepper",
+    "Spice",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit chan gio rut xuong",
+    "bi heo",
+    "nam huong",
+    "moc nhi",
+    "hanh tim",
+    "nuoc mam",
+    "hat tieu",
+    "gia vi",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

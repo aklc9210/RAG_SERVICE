@@ -1,0 +1,83 @@
+{
+  "id": "dish7949",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7949.json",
+  "name_vi": "Nộm ngan (gỏi ngan)",
+  "name_en": "",
+  "name_normalized": "nom ngan goi ngan",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ngan"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Mè rang sẵn"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Đường - bột canh - muối - bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04299",
+    "ingre02485",
+    "ingre05359",
+    "ingre01079",
+    "ingre07584",
+    "ingre03931"
+  ],
+  "ingredient_names_vi": [
+    "Ngan",
+    "Gừng",
+    "Rau răm",
+    "Chanh",
+    "Đường - bột canh - muối - bột ngọt",
+    "Mè rang sẵn"
+  ],
+  "ingredient_names_en": [
+    "Lamb",
+    "Ginger",
+    "Vietnamese coriander",
+    "Lemon",
+    "Soy Sauce - Sugar - Salt - Monosodium Glutamate",
+    "Roasted Sesame Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "ngan",
+    "gung",
+    "rau ram",
+    "chanh",
+    "duong bot canh muoi bot ngot",
+    "me rang san"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nom ngan (goi ngan)",
+      "new": "nom ngan goi ngan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong - bot canh - muoi - bot ngot",
+      "new": "duong bot canh muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường - bột canh - muối - bột ngọt"
+    }
+  ]
+}

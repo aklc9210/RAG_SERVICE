@@ -1,0 +1,71 @@
+{
+  "id": "dish2951",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2951.json",
+  "name_vi": "bánh flan phô mai - Cheese Flan nướng",
+  "name_en": "",
+  "name_normalized": "banh flan pho mai cheese flan nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Kem phô mai"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường cát",
+    "Chanh",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre07597",
+    "ingre01079",
+    "ingre06823",
+    "ingre03584",
+    "ingre06147",
+    "ingre03137",
+    "ingre07140"
+  ],
+  "ingredient_names_vi": [
+    "Đường cát",
+    "Chanh",
+    "Trứng gà",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi không đường",
+    "Kem phô mai",
+    "Vani"
+  ],
+  "ingredient_names_en": [
+    "Sugar",
+    "Lemon",
+    "Chicken egg",
+    "Egg yolk",
+    "Fat-free Milk",
+    "Cottage Cheese",
+    "Vanilla"
+  ],
+  "ingredient_names_normalized": [
+    "duong cat",
+    "chanh",
+    "trung ga",
+    "long do trung ga",
+    "sua tuoi khong duong",
+    "kem pho mai",
+    "vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh flan pho mai - cheese flan nuong",
+      "new": "banh flan pho mai cheese flan nuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

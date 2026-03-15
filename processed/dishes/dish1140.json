@@ -1,0 +1,77 @@
+{
+  "id": "dish1140",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1140.json",
+  "name_vi": "Bánh cupcake bông lan sữa đặc",
+  "name_en": "",
+  "name_normalized": "banh cupcake bong lan sua dac",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Bột làm bánh (Cake Flour)",
+    "Trứng gà",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre06174",
+    "ingre06823",
+    "ingre04538",
+    "ingre06592",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake Flour)",
+    "Sữa đặc",
+    "Trứng gà",
+    "Nước cốt chanh",
+    "Tinh chất vani",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Sweetened Condensed Milk",
+    "Chicken egg",
+    "Lemon juice",
+    "Vanilla extract",
+    "Cooking oil",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "sua dac",
+    "trung ga",
+    "nuoc cot chanh",
+    "tinh chat vani",
+    "dau an",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    }
+  ]
+}

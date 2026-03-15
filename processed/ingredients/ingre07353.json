@@ -1,0 +1,29 @@
+{
+  "id": "ingre07353",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07353.json",
+  "name_vi": "xà lách & rau thơm & xoài",
+  "name_en": "Lettuce & Herb & Mango",
+  "name_normalized": "xa lach rau thom xoai",
+  "synonyms": [
+    "xà lách iceberg",
+    "rau mùi",
+    "rau húng quế"
+  ],
+  "synonyms_normalized": [
+    "xa lach iceberg",
+    "rau mui",
+    "rau hung que"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach & rau thom & xoai",
+      "new": "xa lach rau thom xoai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

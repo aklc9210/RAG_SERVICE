@@ -1,0 +1,27 @@
+{
+  "id": "ingre03748",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03748.json",
+  "name_vi": "muối - tiêu xay - đường - hạt nêm - bột ngọt",
+  "name_en": "Salt - Ground Pepper - Sugar - Seasoning Powder - Monosodium Glutamate",
+  "name_normalized": "muoi tieu xay duong hat nem bot ngot",
+  "synonyms": [
+    "bột ngọt",
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi - tieu xay - duong - hat nem - bot ngot",
+      "new": "muoi tieu xay duong hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

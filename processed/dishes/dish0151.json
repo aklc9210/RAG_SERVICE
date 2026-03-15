@@ -1,0 +1,117 @@
+{
+  "id": "dish0151",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0151.json",
+  "name_vi": "Canh ngao nấu đậu phụ",
+  "name_en": "",
+  "name_normalized": "canh ngao nau dau phu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ngao",
+    "Đậu phụ"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím",
+    "Rau răm",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Đậu tương xay",
+    "Ớt",
+    "Lá lốt",
+    "Dầu ăn",
+    "Bột ngọt/ bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04301",
+    "ingre07810",
+    "ingre07831",
+    "ingre01354",
+    "ingre07966",
+    "ingre02768",
+    "ingre05359",
+    "ingre03461",
+    "ingre02673",
+    "ingre02124",
+    "ingre00824"
+  ],
+  "ingredient_names_vi": [
+    "Ngao",
+    "Đậu phụ",
+    "Đậu tương xay",
+    "Cà chua",
+    "Ớt",
+    "Hành tím",
+    "Rau răm",
+    "Lá lốt",
+    "Hành lá",
+    "Dầu ăn",
+    "Bột ngọt/ bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Tofu",
+    "Soybean paste",
+    "Tomato",
+    "Pepper",
+    "Shallot",
+    "Vietnamese coriander",
+    "Cinnamon Leaf",
+    "Scallion",
+    "Cooking oil",
+    "Monosodium Glutamate/Soy Sauce Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ngao",
+    "dau phu",
+    "dau tuong xay",
+    "ca chua",
+    "ot",
+    "hanh tim",
+    "rau ram",
+    "la lot",
+    "hanh la",
+    "dau an",
+    "bot ngot bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ bot nem",
+      "new": "bot ngot bot nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ bột nêm"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dish2146",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2146.json",
+  "name_vi": "Bánh bông lan từ bánh quy socola M&M",
+  "name_en": "",
+  "name_normalized": "banh bong lan tu banh quy socola m m",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh quy M&M",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Socola chips",
+    "Socola M&M",
+    "Socola đen bẻ nhỏ",
+    "Socola đen"
+  ],
+  "seasonings": [
+    "Cốt bánh bông lan vanilla",
+    "Cốt bánh bông lan socola",
+    "Đường nâu",
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Sữa tươi không đường",
+    "Chiết xuất vanilla",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01844",
+    "ingre01843",
+    "ingre00153",
+    "ingre00382",
+    "ingre07628",
+    "ingre00791",
+    "ingre07589",
+    "ingre06147",
+    "ingre05740",
+    "ingre05747",
+    "ingre05765",
+    "ingre05763",
+    "ingre01141",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cốt bánh bông lan vanilla",
+    "Cốt bánh bông lan socola",
+    "Bánh quy M&M",
+    "Bơ lạt",
+    "Đường nâu",
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Sữa tươi không đường",
+    "Socola chips",
+    "Socola M&M",
+    "Socola đen bẻ nhỏ",
+    "Socola đen",
+    "Chiết xuất vanilla",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Vanilla sponge cake essence",
+    "Chocolate sponge cake",
+    "M&M Cookies",
+    "Butter",
+    "Brown Sugar",
+    "All-purpose flour",
+    "Sugar Powder",
+    "Fat-free Milk",
+    "Chocolate chips",
+    "M&M Chocolate",
+    "Dark chocolate chopped",
+    "Dark chocolate",
+    "Vanilla extract",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cot banh bong lan vanilla",
+    "cot banh bong lan socola",
+    "banh quy m m",
+    "bo lat",
+    "duong nau",
+    "bot mi da dung",
+    "duong bot",
+    "sua tuoi khong duong",
+    "socola chips",
+    "socola m m",
+    "socola den be nho",
+    "socola den",
+    "chiet xuat vanilla",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bong lan tu banh quy socola m&m",
+      "new": "banh bong lan tu banh quy socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "banh quy m&m",
+      "new": "banh quy m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bánh quy M&M"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola m&m",
+      "new": "socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola M&M"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish6899",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6899.json",
+  "name_vi": "Ruốc sốt me tỏi",
+  "name_en": "",
+  "name_normalized": "ruoc sot me toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Con ruốc khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Mắm ruốc",
+    "Cốt me",
+    "Ớt bột",
+    "Đường thốt nốt",
+    "Hành/tỏi băm",
+    "Tỏi phi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01319",
+    "ingre04151",
+    "ingre01851",
+    "ingre07977",
+    "ingre07647",
+    "ingre02834",
+    "ingre07096",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Con ruốc khô",
+    "Mắm ruốc",
+    "Cốt me",
+    "Ớt bột",
+    "Đường thốt nốt",
+    "Hành/tỏi băm",
+    "Tỏi phi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Dried shrimp",
+    "Shrimp paste",
+    "Kumquat",
+    "Chili powder",
+    "Cane Sugar",
+    "Chopped Garlic/Garlic Cloves",
+    "Garlic flakes",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "con ruoc kho",
+    "mam ruoc",
+    "cot me",
+    "ot bot",
+    "duong thot not",
+    "hanh toi bam",
+    "toi phi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh/toi bam",
+      "new": "hanh toi bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành/tỏi băm"
+    }
+  ]
+}

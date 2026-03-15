@@ -1,0 +1,91 @@
+{
+  "id": "dish8080",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8080.json",
+  "name_vi": "Gỏi bào ngư rong nho",
+  "name_en": "",
+  "name_normalized": "goi bao ngu rong nho",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bào ngư",
+    "Rong nho tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Nước tương",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00057",
+    "ingre05475",
+    "ingre02485",
+    "ingre07966",
+    "ingre02768",
+    "ingre02673",
+    "ingre07057",
+    "ingre04790",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Bào ngư",
+    "Rong nho tươi",
+    "Gừng",
+    "Ớt",
+    "Hành tím",
+    "Hành lá",
+    "Tắc",
+    "Nước tương",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Abalone",
+    "Watercress",
+    "Ginger",
+    "Pepper",
+    "Shallot",
+    "Scallion",
+    "Tamarind",
+    "Soy Sauce",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bao ngu",
+    "rong nho tuoi",
+    "gung",
+    "ot",
+    "hanh tim",
+    "hanh la",
+    "tac",
+    "nuoc tuong",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dish10162",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10162.json",
+  "name_vi": "Cà phê bọt biển cốt dừa (Dalgona coffee)",
+  "name_en": "",
+  "name_normalized": "ca phe bot bien cot dua dalgona coffee",
+  "category": "sinh to",
+  "main_ingredients": [
+    "Đen hòa tan"
+  ],
+  "secondary_ingredients": [
+    "Nước sôi",
+    "Sữa đặc",
+    "Đá lạnh"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre07485",
+    "ingre07583",
+    "ingre04743",
+    "ingre04554",
+    "ingre06174",
+    "ingre07519"
+  ],
+  "ingredient_names_vi": [
+    "Đen hòa tan",
+    "Đường",
+    "Nước sôi",
+    "Nước cốt dừa",
+    "Sữa đặc",
+    "Đá lạnh"
+  ],
+  "ingredient_names_en": [
+    "Dissolved Black",
+    "Sugar",
+    "Boiling water",
+    "Coconut milk",
+    "Sweetened Condensed Milk",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "den hoa tan",
+    "duong",
+    "nuoc soi",
+    "nuoc cot dua",
+    "sua dac",
+    "da lanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca phe bot bien cot dua (dalgona coffee)",
+      "new": "ca phe bot bien cot dua dalgona coffee",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

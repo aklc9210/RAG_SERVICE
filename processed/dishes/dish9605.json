@@ -1,0 +1,42 @@
+{
+  "id": "dish9605",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9605.json",
+  "name_vi": "Nước ép mía",
+  "name_en": "",
+  "name_normalized": "nuoc ep mia",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Mía",
+    "Tắc",
+    "Đá viên"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre04025",
+    "ingre07057",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Mía",
+    "Tắc",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Sugarcane",
+    "Tamarind",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "mia",
+    "tac",
+    "da vien"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

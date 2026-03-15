@@ -1,0 +1,25 @@
+{
+  "id": "ingre06516",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06516.json",
+  "name_vi": "thịt vịt .",
+  "name_en": "Duck Meat",
+  "name_normalized": "thit vit",
+  "synonyms": [
+    "thịt con vịt"
+  ],
+  "synonyms_normalized": [
+    "thit con vit"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit vit .",
+      "new": "thit vit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

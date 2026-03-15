@@ -1,0 +1,100 @@
+{
+  "id": "dish5365",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5365.json",
+  "name_vi": "Cá đuối xào lăn",
+  "name_en": "",
+  "name_normalized": "ca duoi xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cá đuối làm sẵn",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Bột cà ri",
+    "Bột ngũ vị hương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01660",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre00631",
+    "ingre00815",
+    "ingre04694",
+    "ingre02124",
+    "ingre02355",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối làm sẵn",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Bột cà ri",
+    "Bột ngũ vị hương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Canned fish",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Curry powder",
+    "Five-Spice Powder",
+    "Fish Sauce",
+    "Cooking oil",
+    "Vinegar",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi lam san",
+    "sa",
+    "ot",
+    "toi",
+    "bot ca ri",
+    "bot ngu vi huong",
+    "nuoc mam",
+    "dau an",
+    "giam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

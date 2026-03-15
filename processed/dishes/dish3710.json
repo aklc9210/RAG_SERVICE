@@ -1,0 +1,92 @@
+{
+  "id": "dish3710",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3710.json",
+  "name_vi": "Ếch nướng Tri Tôn",
+  "name_en": "",
+  "name_normalized": "ech nuong tri ton",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ếch"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nghệ",
+    "Lá hương nhu"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Tỏi",
+    "Ớt",
+    "Lá chanh",
+    "Nước cốt dừa",
+    "Sa tế",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre02667",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre04304",
+    "ingre03443",
+    "ingre03370",
+    "ingre04554",
+    "ingre05621",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Hành khô",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Nghệ",
+    "Lá hương nhu",
+    "Lá chanh",
+    "Nước cốt dừa",
+    "Sa tế",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Garlic Powder",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Turmeric",
+    "Basil",
+    "Lime leaf",
+    "Coconut milk",
+    "Fish sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "hanh kho",
+    "toi",
+    "ot",
+    "sa",
+    "nghe",
+    "la huong nhu",
+    "la chanh",
+    "nuoc cot dua",
+    "sa te",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

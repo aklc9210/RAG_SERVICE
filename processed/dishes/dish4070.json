@@ -1,0 +1,86 @@
+{
+  "id": "dish4070",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4070.json",
+  "name_vi": "Sườn nướng ngũ vị",
+  "name_en": "",
+  "name_normalized": "suon nuong ngu vi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn non"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Bột ngũ vị hương",
+    "Tỏi",
+    "Tương cà",
+    "Dầu sa tế",
+    "Hạt nêm/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre00815",
+    "ingre07063",
+    "ingre02768",
+    "ingre06984",
+    "ingre04124",
+    "ingre02110",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Bột ngũ vị hương",
+    "Tỏi",
+    "Hành tím",
+    "Tương cà",
+    "Mật ong",
+    "Dầu sa tế",
+    "Hạt nêm/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Five-Spice Powder",
+    "Garlic",
+    "Shallot",
+    "Miso酱",
+    "Honey",
+    "Bird's Eye Chili Paste",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "bot ngu vi huong",
+    "toi",
+    "hanh tim",
+    "tuong ca",
+    "mat ong",
+    "dau sa te",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ Muối"
+    }
+  ]
+}

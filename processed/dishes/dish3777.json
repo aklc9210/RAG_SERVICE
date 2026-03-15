@@ -1,0 +1,121 @@
+{
+  "id": "dish3777",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3777.json",
+  "name_vi": "Vịt quay chao",
+  "name_en": "",
+  "name_normalized": "vit quay chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Đùi vịt",
+    "Chao",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước",
+    "Sả",
+    "Sữa đặc",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Sate cay",
+    "Dầu ăn",
+    "Dầu hào",
+    "Đường vàng",
+    "Đường",
+    "Bột ngọt",
+    "Tỏi",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre07568",
+    "ingre01106",
+    "ingre05645",
+    "ingre02768",
+    "ingre02124",
+    "ingre04490",
+    "ingre02080",
+    "ingre07661",
+    "ingre05900",
+    "ingre06174",
+    "ingre07583",
+    "ingre00819",
+    "ingre04665",
+    "ingre07063",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Đùi vịt",
+    "Chao",
+    "Sate cay",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước",
+    "Dầu hào",
+    "Đường vàng",
+    "Sả",
+    "Sữa đặc",
+    "Đường",
+    "Bột ngọt",
+    "Nước lọc",
+    "Tỏi",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "鸭腿",
+    "Pickled plum",
+    "Hot satay",
+    "Shallot",
+    "Cooking oil",
+    "Water",
+    "Soy sauce",
+    "Yellow Sugar",
+    "Lemongrass",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "MSG",
+    "Tap water",
+    "Garlic",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dui vit",
+    "chao",
+    "sate cay",
+    "hanh tim",
+    "dau an",
+    "nuoc",
+    "dau hao",
+    "duong vang",
+    "sa",
+    "sua dac",
+    "duong",
+    "bot ngot",
+    "nuoc loc",
+    "toi",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

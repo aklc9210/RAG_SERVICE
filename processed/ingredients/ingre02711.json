@@ -1,0 +1,29 @@
+{
+  "id": "ingre02711",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02711.json",
+  "name_vi": "hành lá/ tỏi băm/ hành tím băm",
+  "name_en": "Chives/Garlic Paste/Scallion Paste",
+  "name_normalized": "hanh la toi bam hanh tim bam",
+  "synonyms": [
+    "tỏi băm",
+    "hành tây băm",
+    "tỏi xắt nhuyễn"
+  ],
+  "synonyms_normalized": [
+    "toi bam",
+    "hanh tay bam",
+    "toi xat nhuyen"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ toi bam/ hanh tim bam",
+      "new": "hanh la toi bam hanh tim bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish4072",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4072.json",
+  "name_vi": "Sườn nướng phô mai Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "suon nuong pho mai han quoc",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn heo",
+    "Phô mai Mozzarella",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nguyệt quế khô"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt bột",
+    "Nước tương",
+    "Tiêu hạt",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre05092",
+    "ingre02673",
+    "ingre07063",
+    "ingre02485",
+    "ingre02741",
+    "ingre04324",
+    "ingre07977",
+    "ingre04790",
+    "ingre06619",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Phô mai Mozzarella",
+    "Hành lá",
+    "Tỏi",
+    "Gừng",
+    "Hành tây",
+    "Nguyệt quế khô",
+    "Ớt bột",
+    "Nước tương",
+    "Tiêu hạt",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Mozzarella cheese",
+    "Scallion",
+    "Garlic",
+    "Ginger",
+    "Onion",
+    "Dried laurel",
+    "Chili powder",
+    "Soy Sauce",
+    "Cumin Seeds",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "pho mai mozzarella",
+    "hanh la",
+    "toi",
+    "gung",
+    "hanh tay",
+    "nguyet que kho",
+    "ot bot",
+    "nuoc tuong",
+    "tieu hat",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

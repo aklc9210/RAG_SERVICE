@@ -1,0 +1,56 @@
+{
+  "id": "dish1264",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1264.json",
+  "name_vi": "Panna cotta chanh dây (chanh leo)",
+  "name_en": "",
+  "name_normalized": "panna cotta chanh day chanh leo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mật ong",
+    "Gelatin"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Chanh dây"
+  ],
+  "ingredient_ids": [
+    "ingre06147",
+    "ingre04124",
+    "ingre01081",
+    "ingre02253"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi không đường",
+    "Mật ong",
+    "Chanh dây",
+    "Gelatin"
+  ],
+  "ingredient_names_en": [
+    "Fat-free Milk",
+    "Honey",
+    "Watermelon vine tendril",
+    "Gelatin"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi khong duong",
+    "mat ong",
+    "chanh day",
+    "gelatin"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "panna cotta chanh day (chanh leo)",
+      "new": "panna cotta chanh day chanh leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

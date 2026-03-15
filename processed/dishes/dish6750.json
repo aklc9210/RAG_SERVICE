@@ -1,0 +1,67 @@
+{
+  "id": "dish6750",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6750.json",
+  "name_vi": "Khoai tây chiên bơ tỏi",
+  "name_en": "",
+  "name_normalized": "khoai tay chien bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Lá hương thảo khô",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Bơ thực vật",
+    "Tỏi",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00407",
+    "ingre07063",
+    "ingre03446",
+    "ingre02120",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bơ thực vật",
+    "Tỏi",
+    "Lá hương thảo khô",
+    "Dầu ô liu",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Vegetable oil",
+    "Garlic",
+    "Dry Mint Leaves",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bo thuc vat",
+    "toi",
+    "la huong thao kho",
+    "dau o liu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

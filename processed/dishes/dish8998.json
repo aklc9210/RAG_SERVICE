@@ -1,0 +1,83 @@
+{
+  "id": "dish8998",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8998.json",
+  "name_vi": "Trứng in hình vân đá cẩm thạch (trứng ngâm trà)",
+  "name_en": "",
+  "name_normalized": "trung in hinh van da cam thach trung ngam tra",
+  "category": "an vat",
+  "main_ingredients": [
+    "Trà túi lọc"
+  ],
+  "secondary_ingredients": [
+    "Cánh hồi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Xuyên tiêu",
+    "Quế",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06723",
+    "ingre07349",
+    "ingre01695",
+    "ingre05186",
+    "ingre03084",
+    "ingre04790",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Trà túi lọc",
+    "Xuyên tiêu",
+    "Cánh hồi",
+    "Quế",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Tea Bag",
+    "Szechuan Pepper",
+    "Cinnamon",
+    "Black soy sauce",
+    "Soy Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "tra tui loc",
+    "xuyen tieu",
+    "canh hoi",
+    "que",
+    "hac xi dau",
+    "nuoc tuong",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung in hinh van da cam thach (trung ngam tra)",
+      "new": "trung in hinh van da cam thach trung ngam tra",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

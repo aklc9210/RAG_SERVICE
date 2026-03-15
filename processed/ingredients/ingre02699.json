@@ -1,0 +1,25 @@
+{
+  "id": "ingre02699",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02699.json",
+  "name_vi": "hành lá/ lá quế",
+  "name_en": "Cilantro/Cinnamon Leaf",
+  "name_normalized": "hanh la la que",
+  "synonyms": [
+    "lá diếp cá"
+  ],
+  "synonyms_normalized": [
+    "la diep ca"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ la que",
+      "new": "hanh la la que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

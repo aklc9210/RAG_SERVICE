@@ -1,0 +1,81 @@
+{
+  "id": "dish8570",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8570.json",
+  "name_vi": "Bò sốt tiêu xanh",
+  "name_en": "",
+  "name_normalized": "bo sot tieu xanh",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò phi lê"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tiêu xanh",
+    "Cà rốt",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu hào",
+    "Muối - tiêu xay - đường - hạt nêm - bột ngọt",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06318",
+    "ingre06640",
+    "ingre01419",
+    "ingre07028",
+    "ingre06984",
+    "ingre02080",
+    "ingre03748",
+    "ingre07063",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò phi lê",
+    "Tiêu xanh",
+    "Cà rốt",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu hào",
+    "Muối - tiêu xay - đường - hạt nêm - bột ngọt",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef sirloin",
+    "Green pepper",
+    "Carrot",
+    "Hot Sauce",
+    "Miso酱",
+    "Soy sauce",
+    "Salt - Ground Pepper - Sugar - Seasoning Powder - Monosodium Glutamate",
+    "Garlic",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo phi le",
+    "tieu xanh",
+    "ca rot",
+    "tuong ot",
+    "tuong ca",
+    "dau hao",
+    "muoi tieu xay duong hat nem bot ngot",
+    "toi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi - tieu xay - duong - hat nem - bot ngot",
+      "new": "muoi tieu xay duong hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối - tiêu xay - đường - hạt nêm - bột ngọt"
+    }
+  ]
+}

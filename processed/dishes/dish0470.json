@@ -1,0 +1,88 @@
+{
+  "id": "dish0470",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0470.json",
+  "name_vi": "Cá giò nấu canh chua",
+  "name_en": "",
+  "name_normalized": "ca gio nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá giò",
+    "Măng chua",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01519",
+    "ingre04072",
+    "ingre01354",
+    "ingre07090",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá giò",
+    "Măng chua",
+    "Cà chua",
+    "Tỏi lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Pickled bamboo shoots",
+    "Tomato",
+    "Garlic Leaves",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca gio",
+    "mang chua",
+    "ca chua",
+    "toi la",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

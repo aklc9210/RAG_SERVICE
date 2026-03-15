@@ -1,0 +1,67 @@
+{
+  "id": "dish3548",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3548.json",
+  "name_vi": "Kem chuối từ bột gạo nếp",
+  "name_en": "",
+  "name_normalized": "kem chuoi tu bot gao nep",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Chuối"
+  ],
+  "secondary_ingredients": [
+    "Dầu chuối",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Sữa tươi có đường",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01160",
+    "ingre00859",
+    "ingre06146",
+    "ingre02060",
+    "ingre07680",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Chuối",
+    "Bột nếp",
+    "Sữa tươi có đường",
+    "Dầu chuối",
+    "Đường/ muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Banana",
+    "Glutinous rice flour",
+    "Sweetened Condensed Milk",
+    "Palm oil",
+    "Sugar/Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi",
+    "bot nep",
+    "sua tuoi co duong",
+    "dau chuoi",
+    "duong muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

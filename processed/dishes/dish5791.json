@@ -1,0 +1,108 @@
+{
+  "id": "dish5791",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5791.json",
+  "name_vi": "Cá thu kho củ cải và bí đỏ",
+  "name_en": "",
+  "name_normalized": "ca thu kho cu cai va bi do",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá thu",
+    "Củ cải trắng",
+    "Bí đỏ",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Rượu Sake",
+    "Ớt sừng",
+    "Ớt bột",
+    "Tỏi băm",
+    "Gừng",
+    "Muối",
+    "Nước tương",
+    "Đường",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01625",
+    "ingre01868",
+    "ingre00253",
+    "ingre02741",
+    "ingre02673",
+    "ingre05564",
+    "ingre08055",
+    "ingre07977",
+    "ingre07071",
+    "ingre02485",
+    "ingre03746",
+    "ingre04790",
+    "ingre07583",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Cá thu",
+    "Củ cải trắng",
+    "Bí đỏ",
+    "Hành tây",
+    "Hành lá",
+    "Rượu Sake",
+    "Ớt sừng",
+    "Ớt bột",
+    "Tỏi băm",
+    "Gừng",
+    "Muối",
+    "Nước tương",
+    "Đường",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Codfish",
+    "White radish",
+    "Pumpkin",
+    "Onion",
+    "Scallion",
+    "Sake",
+    "Hot pepper",
+    "Chili powder",
+    "Minced Garlic",
+    "Ginger",
+    "Salt",
+    "Soy Sauce",
+    "Sugar",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca thu",
+    "cu cai trang",
+    "bi do",
+    "hanh tay",
+    "hanh la",
+    "ruou sake",
+    "ot sung",
+    "ot bot",
+    "toi bam",
+    "gung",
+    "muoi",
+    "nuoc tuong",
+    "duong",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

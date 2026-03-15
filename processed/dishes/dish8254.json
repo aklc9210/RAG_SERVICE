@@ -1,0 +1,131 @@
+{
+  "id": "dish8254",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8254.json",
+  "name_vi": "Gỏi bồn bồn gà xé",
+  "name_en": "",
+  "name_normalized": "goi bon bon ga xe",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt gà nguyên con",
+    "Hành tây",
+    "Hành tím",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước cốt chanh",
+    "Giấm",
+    "Nước mắm",
+    "Muối hột",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06384",
+    "ingre01419",
+    "ingre02741",
+    "ingre02768",
+    "ingre05359",
+    "ingre08026",
+    "ingre07071",
+    "ingre07971",
+    "ingre07791",
+    "ingre04538",
+    "ingre02355",
+    "ingre04694",
+    "ingre03766",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà nguyên con",
+    "Cà rốt",
+    "Hành tây",
+    "Hành tím",
+    "Rau răm",
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Đậu phộng rang",
+    "Nước cốt chanh",
+    "Giấm",
+    "Nước mắm",
+    "Muối hột",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Whole Chicken",
+    "Carrot",
+    "Onion",
+    "Shallot",
+    "Vietnamese coriander",
+    "Hot pepper",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Roasted Peanut",
+    "Lemon juice",
+    "Vinegar",
+    "Fish Sauce",
+    "Sea salt",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga nguyen con",
+    "ca rot",
+    "hanh tay",
+    "hanh tim",
+    "rau ram",
+    "ot hiem",
+    "toi bam",
+    "ot bam",
+    "dau phong rang",
+    "nuoc cot chanh",
+    "giam",
+    "nuoc mam",
+    "muoi hot",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

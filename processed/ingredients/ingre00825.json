@@ -1,0 +1,25 @@
+{
+  "id": "ingre00825",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00825.json",
+  "name_vi": "bột ngọt/ hạt nêm",
+  "name_en": "Monosodium Glutamate/Soy Sauce Powder",
+  "name_normalized": "bot ngot hat nem",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot/ hat nem",
+      "new": "bot ngot hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

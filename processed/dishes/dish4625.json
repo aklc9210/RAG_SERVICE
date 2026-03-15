@@ -1,0 +1,89 @@
+{
+  "id": "dish4625",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4625.json",
+  "name_vi": "Ốc bươu xào thơm",
+  "name_en": "",
+  "name_normalized": "oc buou xao thom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc bươu",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Lá chúc",
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07935",
+    "ingre06247",
+    "ingre03399",
+    "ingre05900",
+    "ingre08026",
+    "ingre07057",
+    "ingre08055",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu",
+    "Thơm",
+    "Lá chúc",
+    "Sả",
+    "Ớt hiểm",
+    "Tắc",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Piranha",
+    "Basil",
+    "Sage Leaf",
+    "Lemongrass",
+    "Hot pepper",
+    "Tamarind",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou",
+    "thom",
+    "la chuc",
+    "sa",
+    "ot hiem",
+    "tac",
+    "ot sung",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

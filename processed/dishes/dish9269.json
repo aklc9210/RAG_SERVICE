@@ -1,0 +1,71 @@
+{
+  "id": "dish9269",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9269.json",
+  "name_vi": "Nước sốt sả rau ngò rí",
+  "name_en": "",
+  "name_normalized": "nuoc sot sa rau ngo ri",
+  "category": "an vat",
+  "main_ingredients": [
+    "Ngò rí",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04343",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre01079",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Ngò rí",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Parsley",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Lemon",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ngo ri",
+    "sa",
+    "ot",
+    "toi",
+    "chanh",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

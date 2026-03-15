@@ -1,0 +1,106 @@
+{
+  "id": "dish5920",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5920.json",
+  "name_vi": "Cá trê lai nấu giả cầy",
+  "name_en": "",
+  "name_normalized": "ca tre lai nau gia cay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê lai",
+    "Sả",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Bột nghệ",
+    "Giấm ăn",
+    "Mắm tôm",
+    "Hạt nêm",
+    "Muối hạt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01637",
+    "ingre05900",
+    "ingre05436",
+    "ingre02768",
+    "ingre01079",
+    "ingre00804",
+    "ingre02377",
+    "ingre04165",
+    "ingre04159",
+    "ingre02995",
+    "ingre03760",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê lai",
+    "Sả",
+    "Riềng",
+    "Hành tím",
+    "Chanh",
+    "Bột nghệ",
+    "Giấm ăn",
+    "Mẻ",
+    "Mắm tôm",
+    "Hạt nêm",
+    "Muối hạt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Catfish Hybrid",
+    "Lemongrass",
+    "Galangal",
+    "Shallot",
+    "Lemon",
+    "Turmeric Powder",
+    "vinegar",
+    "Tamarind",
+    "Shrimp paste",
+    "Seasoning",
+    "Fenugreek seeds",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre lai",
+    "sa",
+    "rieng",
+    "hanh tim",
+    "chanh",
+    "bot nghe",
+    "giam an",
+    "me",
+    "mam tom",
+    "hat nem",
+    "muoi hat",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

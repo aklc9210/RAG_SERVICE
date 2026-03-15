@@ -1,0 +1,117 @@
+{
+  "id": "dish4212",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4212.json",
+  "name_vi": "Chim cút quay lá móc mật",
+  "name_en": "",
+  "name_normalized": "chim cut quay la moc mat",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Chim cút",
+    "Lá móc mật"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều",
+    "Mật ong",
+    "Húng lìu"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Tỏi",
+    "Dầu hào",
+    "Tương cà",
+    "Tương ớt",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Rượu",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01128",
+    "ingre03470",
+    "ingre02667",
+    "ingre07063",
+    "ingre02080",
+    "ingre02093",
+    "ingre06984",
+    "ingre07028",
+    "ingre04694",
+    "ingre04124",
+    "ingre04381",
+    "ingre02857",
+    "ingre00587",
+    "ingre05515",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Chim cút",
+    "Lá móc mật",
+    "Hành khô",
+    "Tỏi",
+    "Dầu hào",
+    "Dầu màu điều",
+    "Tương cà",
+    "Tương ớt",
+    "Nước mắm",
+    "Mật ong",
+    "Ngũ vị hương",
+    "Húng lìu",
+    "Bột canh",
+    "Rượu",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Burdock Leaf",
+    "Garlic Powder",
+    "Garlic",
+    "Soy sauce",
+    "Peanut-colored food coloring",
+    "Miso酱",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Honey",
+    "Five-Spice Powder",
+    "Peppermint",
+    "Cornstarch",
+    "Rum",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "chim cut",
+    "la moc mat",
+    "hanh kho",
+    "toi",
+    "dau hao",
+    "dau mau dieu",
+    "tuong ca",
+    "tuong ot",
+    "nuoc mam",
+    "mat ong",
+    "ngu vi huong",
+    "hung liu",
+    "bot canh",
+    "ruou",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "dish0688",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0688.json",
+  "name_vi": "Canh cá basa nấu măng chua",
+  "name_en": "",
+  "name_normalized": "canh ca basa nau mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá basa",
+    "Măng chua",
+    "Cà chua",
+    "Me chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò gai",
+    "Ngò om"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước cốt chanh hoặc giấm"
+  ],
+  "ingredient_ids": [
+    "ingre01458",
+    "ingre04072",
+    "ingre01354",
+    "ingre03644",
+    "ingre07063",
+    "ingre02768",
+    "ingre04329",
+    "ingre04340",
+    "ingre08026",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre02124",
+    "ingre04542"
+  ],
+  "ingredient_names_vi": [
+    "Cá basa",
+    "Măng chua",
+    "Cà chua",
+    "Me chua",
+    "Tỏi",
+    "Hành tím",
+    "Ngò gai",
+    "Ngò om",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước cốt chanh hoặc giấm"
+  ],
+  "ingredient_names_en": [
+    "Basa fish",
+    "Pickled bamboo shoots",
+    "Tomato",
+    "Mint",
+    "Garlic",
+    "Shallot",
+    "Culantro",
+    "Parsley",
+    "Hot pepper",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Cooking oil",
+    "Lemon juice or vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "ca basa",
+    "mang chua",
+    "ca chua",
+    "me chua",
+    "toi",
+    "hanh tim",
+    "ngo gai",
+    "ngo om",
+    "ot hiem",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "dau an",
+    "nuoc cot chanh hoac giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

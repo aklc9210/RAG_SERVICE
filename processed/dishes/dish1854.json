@@ -1,0 +1,73 @@
+{
+  "id": "dish1854",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1854.json",
+  "name_vi": "Bánh mì tinh than tre",
+  "name_en": "",
+  "name_normalized": "banh mi tinh than tre",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Nước lọc",
+    "Nước lạnh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Bột tinh than tre",
+    "Trứng gà",
+    "Đường",
+    "Muối",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre00723",
+    "ingre00954",
+    "ingre03687",
+    "ingre06823",
+    "ingre04665",
+    "ingre04664",
+    "ingre07583",
+    "ingre03746",
+    "ingre02355"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh mì",
+    "Bột tinh than tre",
+    "Men nở instant",
+    "Trứng gà",
+    "Nước lọc",
+    "Nước lạnh",
+    "Đường",
+    "Muối",
+    "Giấm"
+  ],
+  "ingredient_names_en": [
+    "Bread Flour",
+    "Bamboo charcoal powder",
+    "Instant Yeast",
+    "Chicken egg",
+    "Tap water",
+    "Cold water",
+    "Sugar",
+    "Salt",
+    "Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh mi",
+    "bot tinh than tre",
+    "men no instant",
+    "trung ga",
+    "nuoc loc",
+    "nuoc lanh",
+    "duong",
+    "muoi",
+    "giam"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

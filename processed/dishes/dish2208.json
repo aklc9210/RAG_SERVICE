@@ -1,0 +1,63 @@
+{
+  "id": "dish2208",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2208.json",
+  "name_vi": "Bánh mì Sandwich matcha trà xanh",
+  "name_en": "",
+  "name_normalized": "banh mi sandwich matcha tra xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Men nở instant",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Bột trà xanh",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre00961",
+    "ingre00382",
+    "ingre03687",
+    "ingre06144",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Bột trà xanh",
+    "Bơ lạt",
+    "Men nở instant",
+    "Sữa tươi",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Green tea powder",
+    "Butter",
+    "Instant Yeast",
+    "Fresh Milk",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "bot tra xanh",
+    "bo lat",
+    "men no instant",
+    "sua tuoi",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish9101",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9101.json",
+  "name_vi": "Súp cua",
+  "name_en": "",
+  "name_normalized": "sup cua",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt cua",
+    "Xương để hầm lấy nước dùng",
+    "Bắp mỹ"
+  ],
+  "secondary_ingredients": [
+    "Thịt ức gà",
+    "Nấm đông cô",
+    "Nấm tuyết",
+    "Trứng cút luộc sẵn c vỏ",
+    "Trứng bắc thảo bóc vỏ",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột năng",
+    "Gia vị (muối/tiêu/dầu mè ăn kèm"
+  ],
+  "ingredient_ids": [
+    "ingre06349",
+    "ingre07432",
+    "ingre00479",
+    "ingre06544",
+    "ingre04966",
+    "ingre04962",
+    "ingre06823",
+    "ingre00849",
+    "ingre06819",
+    "ingre06805",
+    "ingre05302",
+    "ingre02279"
+  ],
+  "ingredient_names_vi": [
+    "Thịt cua",
+    "Xương để hầm lấy nước dùng",
+    "Bắp mỹ",
+    "Thịt ức gà",
+    "Nấm đông cô",
+    "Nấm tuyết",
+    "Trứng gà",
+    "Bột năng",
+    "Trứng cút luộc sẵn c vỏ",
+    "Trứng bắc thảo bóc vỏ",
+    "Rau mùi",
+    "Gia vị (muối/tiêu/dầu mè ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp肉",
+    "Beef Bones",
+    "Corn",
+    "Chicken breast",
+    "Mushroom",
+    "Chicken egg",
+    "Cornstarch",
+    "Boiled Quail Eggs with Shells",
+    "Egg with peeled shell",
+    "Mint",
+    "Seasoning (salt/paprika/sesame oil)"
+  ],
+  "ingredient_names_normalized": [
+    "thit cua",
+    "xuong de ham lay nuoc dung",
+    "bap my",
+    "thit uc ga",
+    "nam dong co",
+    "nam tuyet",
+    "trung ga",
+    "bot nang",
+    "trung cut luoc san c vo",
+    "trung bac thao boc vo",
+    "rau mui",
+    "gia vi muoi tieu dau me an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gia vi (muoi/tieu/dau me an kem",
+      "new": "gia vi muoi tieu dau me an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gia vị (muối/tiêu/dầu mè ăn kèm"
+    }
+  ]
+}

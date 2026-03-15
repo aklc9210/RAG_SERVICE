@@ -1,0 +1,100 @@
+{
+  "id": "dish5324",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5324.json",
+  "name_vi": "Ốc bươu xào lá lốt",
+  "name_en": "",
+  "name_normalized": "oc buou xao la lot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc bươu",
+    "Lá tía tô"
+  ],
+  "secondary_ingredients": [
+    "Rau bạc hà",
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Ớt",
+    "Tỏi",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07935",
+    "ingre03461",
+    "ingre03544",
+    "ingre05207",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre08055",
+    "ingre02124",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu",
+    "Lá lốt",
+    "Lá tía tô",
+    "Rau bạc hà",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Piranha",
+    "Cinnamon Leaf",
+    "Cilantro",
+    "Mint",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Hot pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou",
+    "la lot",
+    "la tia to",
+    "rau bac ha",
+    "sa",
+    "ot",
+    "toi",
+    "ot sung",
+    "dau an",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

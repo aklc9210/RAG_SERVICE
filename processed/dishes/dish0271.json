@@ -1,0 +1,91 @@
+{
+  "id": "dish0271",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0271.json",
+  "name_vi": "Bồ câu hầm đậu đen hạt sen",
+  "name_en": "",
+  "name_normalized": "bo cau ham dau den hat sen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bồ câu",
+    "Đậu gà"
+  ],
+  "secondary_ingredients": [
+    "Đậu đen",
+    "Hạt sen",
+    "Kỷ tử",
+    "Củ hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột nêm rau củ",
+    "Muối/ hạt tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00500",
+    "ingre07735",
+    "ingre07863",
+    "ingre03029",
+    "ingre03334",
+    "ingre01886",
+    "ingre02673",
+    "ingre00844",
+    "ingre03812"
+  ],
+  "ingredient_names_vi": [
+    "Bồ câu",
+    "Đậu gà",
+    "Đậu đen",
+    "Hạt sen",
+    "Kỷ tử",
+    "Củ hành tây",
+    "Hành lá",
+    "Bột nêm rau củ",
+    "Muối/ hạt tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Green beans",
+    "Black beans",
+    "Lotus seed",
+    "Goji berries",
+    "Onion",
+    "Scallion",
+    "Vegetable Seasoning Powder",
+    "Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "bo cau",
+    "dau ga",
+    "dau den",
+    "hat sen",
+    "ky tu",
+    "cu hanh tay",
+    "hanh la",
+    "bot nem rau cu",
+    "muoi hat tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat tieu",
+      "new": "muoi hat tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt tiêu"
+    }
+  ]
+}

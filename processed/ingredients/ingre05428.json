@@ -1,0 +1,29 @@
+{
+  "id": "ingre05428",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05428.json",
+  "name_vi": "rau ăn kèm: cà tím; rau muống; mướp; bông súng; rau đắng",
+  "name_en": "Accompanying vegetables: eggplant; water spinach; bitter melon; Chinese broccoli; bitter gourd",
+  "name_normalized": "rau an kem ca tim rau muong muop bong sung rau dang",
+  "synonyms": [
+    "cà tím chuối bắp",
+    "mướp đắng",
+    "bông súng hoa súng"
+  ],
+  "synonyms_normalized": [
+    "ca tim chuoi bap",
+    "muop dang",
+    "bong sung hoa sung"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau an kem: ca tim; rau muong; muop; bong sung; rau dang",
+      "new": "rau an kem ca tim rau muong muop bong sung rau dang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

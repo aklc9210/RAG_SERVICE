@@ -1,0 +1,29 @@
+{
+  "id": "ingre07375",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07375.json",
+  "name_vi": "xà lách/ dưa leo/ ớt sừng/ ngò rí",
+  "name_en": "Leaf lettuce/Pearl cucumber/Capsicum/Coriander",
+  "name_normalized": "xa lach dua leo ot sung ngo ri",
+  "synonyms": [
+    "dưa chuột",
+    "ớt chuông",
+    "ngò đắng"
+  ],
+  "synonyms_normalized": [
+    "dua chuot",
+    "ot chuong",
+    "ngo dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach/ dua leo/ ot sung/ ngo ri",
+      "new": "xa lach dua leo ot sung ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

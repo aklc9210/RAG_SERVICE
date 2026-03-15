@@ -1,0 +1,77 @@
+{
+  "id": "dish4368",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4368.json",
+  "name_vi": "Cháo gạo lứt giảm cân",
+  "name_en": "",
+  "name_normalized": "chao gao lut giam can",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Gạo lứt trắng",
+    "Gạo lứt đen"
+  ],
+  "secondary_ingredients": [
+    "Đậu đỏ",
+    "Lạc đỏ",
+    "Hạt sen khô",
+    "Táo đỏ",
+    "Kỷ tử"
+  ],
+  "seasonings": [
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02446",
+    "ingre02447",
+    "ingre07868",
+    "ingre03616",
+    "ingre03031",
+    "ingre06911",
+    "ingre03334",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gạo lứt trắng",
+    "Gạo lứt đen",
+    "Đậu đỏ",
+    "Lạc đỏ",
+    "Hạt sen khô",
+    "Táo đỏ",
+    "Kỷ tử",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice",
+    "Black Brown Rice",
+    "Red beans",
+    "Red Lentil",
+    "Lotus seed",
+    "Red apple",
+    "Goji berries",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao lut trang",
+    "gao lut den",
+    "dau do",
+    "lac do",
+    "hat sen kho",
+    "tao do",
+    "ky tu",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

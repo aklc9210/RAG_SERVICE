@@ -1,0 +1,102 @@
+{
+  "id": "dish6581",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6581.json",
+  "name_vi": "Cách làm bún chả giò với chả giò mua sẵn",
+  "name_en": "",
+  "name_normalized": "cach lam bun cha gio voi cha gio mua san",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bún tươi",
+    "Chả giò",
+    "Chả quế"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Dưa leo",
+    "Tắc",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre01286",
+    "ingre01302",
+    "ingre05385",
+    "ingre02020",
+    "ingre01079",
+    "ingre07057",
+    "ingre07966",
+    "ingre07063",
+    "ingre07781",
+    "ingre04694",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Chả giò",
+    "Chả quế",
+    "Rau thơm",
+    "Dưa leo",
+    "Chanh",
+    "Tắc",
+    "Ớt",
+    "Tỏi",
+    "Đậu phộng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Spring roll",
+    "Sausage",
+    "Basil",
+    "Cucumber",
+    "Lemon",
+    "Tamarind",
+    "Pepper",
+    "Garlic",
+    "Peanut",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "cha gio",
+    "cha que",
+    "rau thom",
+    "dua leo",
+    "chanh",
+    "tac",
+    "ot",
+    "toi",
+    "dau phong",
+    "nuoc mam",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

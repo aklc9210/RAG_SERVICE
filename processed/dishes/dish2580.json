@@ -1,0 +1,78 @@
+{
+  "id": "dish2580",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2580.json",
+  "name_vi": "Bánh mì cuộn len nhân nho sữa chua",
+  "name_en": "",
+  "name_normalized": "banh mi cuon len nhan nho sua chua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Sữa bột nguyên kem",
+    "Muối",
+    "Đường",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Vani",
+    "Sữa chua không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre06087",
+    "ingre03746",
+    "ingre03687",
+    "ingre07583",
+    "ingre06147",
+    "ingre06823",
+    "ingre00382",
+    "ingre07140",
+    "ingre06100"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Sữa bột nguyên kem",
+    "Muối",
+    "Men nở instant",
+    "Đường",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Bơ lạt",
+    "Vani",
+    "Sữa chua không đường"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Whole Milk Powder",
+    "Salt",
+    "Instant Yeast",
+    "Sugar",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Butter",
+    "Vanilla",
+    "Plain Yogurt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "sua bot nguyen kem",
+    "muoi",
+    "men no instant",
+    "duong",
+    "sua tuoi khong duong",
+    "trung ga",
+    "bo lat",
+    "vani",
+    "sua chua khong duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish0263",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0263.json",
+  "name_vi": "Canh su su sườn non",
+  "name_en": "",
+  "name_normalized": "canh su su suon non",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Su su",
+    "Sườn non"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ rau ngò"
+  ],
+  "seasonings": [
+    "Đường phèn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05790",
+    "ingre05888",
+    "ingre02706",
+    "ingre07635",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Su su",
+    "Sườn non",
+    "Hành lá/ rau ngò",
+    "Đường phèn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Bamboo shoot",
+    "Rib Steak",
+    "Chives",
+    "Brown Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "su su",
+    "suon non",
+    "hanh la rau ngo",
+    "duong phen",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau ngo",
+      "new": "hanh la rau ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ rau ngò"
+    }
+  ]
+}

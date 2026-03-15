@@ -1,0 +1,105 @@
+{
+  "id": "dish6857",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6857.json",
+  "name_vi": "Cá trắm sốt chua ngọt",
+  "name_en": "",
+  "name_normalized": "ca tram sot chua ngot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá trắm"
+  ],
+  "secondary_ingredients": [
+    "Hành",
+    "Nước",
+    "Hành lá",
+    "Thì là"
+  ],
+  "seasonings": [
+    "Ớt chuông đỏ",
+    "Ớt chuông xanh",
+    "Ớt chuông vàng",
+    "Dầu ăn",
+    "Tỏi",
+    "Gừng",
+    "Sốt xườn xào chua ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01641",
+    "ingre08014",
+    "ingre08008",
+    "ingre08007",
+    "ingre02124",
+    "ingre07063",
+    "ingre02636",
+    "ingre02485",
+    "ingre06029",
+    "ingre04490",
+    "ingre02673",
+    "ingre06233"
+  ],
+  "ingredient_names_vi": [
+    "Cá trắm",
+    "Ớt chuông đỏ",
+    "Ớt chuông xanh",
+    "Ớt chuông vàng",
+    "Dầu ăn",
+    "Tỏi",
+    "Hành",
+    "Gừng",
+    "Sốt xườn xào chua ngọt",
+    "Nước",
+    "Hành lá",
+    "Thì là"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Red bell pepper",
+    "Green Bell Pepper",
+    "Yellow Bell Pepper",
+    "Cooking oil",
+    "Garlic",
+    "Ginger",
+    "Barbecue Sauce",
+    "Water",
+    "Scallion",
+    "Dill"
+  ],
+  "ingredient_names_normalized": [
+    "ca tram",
+    "ot chuong do",
+    "ot chuong xanh",
+    "ot chuong vang",
+    "dau an",
+    "toi",
+    "hanh",
+    "gung",
+    "sot xuon xao chua ngot",
+    "nuoc",
+    "hanh la",
+    "thi la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

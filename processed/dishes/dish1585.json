@@ -1,0 +1,77 @@
+{
+  "id": "dish1585",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1585.json",
+  "name_vi": "Bánh mì hoa cúc",
+  "name_en": "",
+  "name_normalized": "banh mi hoa cuc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Hạnh nhân"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Tinh dầu hoa cam",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre03687",
+    "ingre06823",
+    "ingre06147",
+    "ingre00382",
+    "ingre02889",
+    "ingre06604",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Men nở instant",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Hạnh nhân",
+    "Tinh dầu hoa cam",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Instant Yeast",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Butter",
+    "Almond",
+    "Orange essential oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "men no instant",
+    "trung ga",
+    "sua tuoi khong duong",
+    "bo lat",
+    "hanh nhan",
+    "tinh dau hoa cam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

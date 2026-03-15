@@ -1,0 +1,93 @@
+{
+  "id": "dish5337",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5337.json",
+  "name_vi": "Dồi trường xào dưa cải - cải chua",
+  "name_en": "",
+  "name_normalized": "doi truong xao dua cai cai chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dồi trường",
+    "Cải chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Sa tế",
+    "Gừng",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre02148",
+    "ingre01777",
+    "ingre08055",
+    "ingre05621",
+    "ingre02768",
+    "ingre02485",
+    "ingre07071",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Dồi trường",
+    "Cải chua",
+    "Ớt sừng",
+    "Sa tế",
+    "Hành tím",
+    "Gừng",
+    "Tỏi băm",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Pork blood sausage",
+    "Pickled cabbage",
+    "Hot pepper",
+    "Fish sauce",
+    "Shallot",
+    "Ginger",
+    "Minced Garlic",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "doi truong",
+    "cai chua",
+    "ot sung",
+    "sa te",
+    "hanh tim",
+    "gung",
+    "toi bam",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "doi truong xao dua cai - cai chua",
+      "new": "doi truong xao dua cai cai chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

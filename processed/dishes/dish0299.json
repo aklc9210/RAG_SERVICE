@@ -1,0 +1,92 @@
+{
+  "id": "dish0299",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0299.json",
+  "name_vi": "Canh xà lách xoong Nhật nấu thịt băm",
+  "name_en": "",
+  "name_normalized": "canh xa lach xoong nhat nau thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xà lách xoong",
+    "Thịt nạc dăm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07370",
+    "ingre06459",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Xà lách xoong",
+    "Thịt nạc dăm",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Spring onion",
+    "Pork Belly",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "xa lach xoong",
+    "thit nac dam",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "tieu",
+    "duong",
+    "hat nem",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

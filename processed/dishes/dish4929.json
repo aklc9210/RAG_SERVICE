@@ -1,0 +1,89 @@
+{
+  "id": "dish4929",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4929.json",
+  "name_vi": "Ốc cà na xào bơ tỏi",
+  "name_en": "",
+  "name_normalized": "oc ca na xao bo toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc cà na",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Ớt hiểm",
+    "Bơ thực vật",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07938",
+    "ingre05900",
+    "ingre07071",
+    "ingre07971",
+    "ingre08026",
+    "ingre00407",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ốc cà na",
+    "Sả",
+    "Tỏi băm",
+    "Ớt băm",
+    "Ớt hiểm",
+    "Bơ thực vật",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Prallels-shellwhel",
+    "Lemongrass",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Hot pepper",
+    "Vegetable oil",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "oc ca na",
+    "sa",
+    "toi bam",
+    "ot bam",
+    "ot hiem",
+    "bo thuc vat",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

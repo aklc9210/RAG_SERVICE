@@ -1,0 +1,83 @@
+{
+  "id": "dish4959",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4959.json",
+  "name_vi": "Trứng cút lộn xào me",
+  "name_en": "",
+  "name_normalized": "trung cut lon xao me",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Trứng cút lộn",
+    "Me chín"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột năng",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06820",
+    "ingre03647",
+    "ingre07063",
+    "ingre05359",
+    "ingre00849",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút lộn",
+    "Me chín",
+    "Tỏi",
+    "Rau răm",
+    "Bột năng",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Fried Quail's Egg",
+    "Ripe mango",
+    "Garlic",
+    "Vietnamese coriander",
+    "Cornstarch",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut lon",
+    "me chin",
+    "toi",
+    "rau ram",
+    "bot nang",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

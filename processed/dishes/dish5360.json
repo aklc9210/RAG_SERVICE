@@ -1,0 +1,91 @@
+{
+  "id": "dish5360",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5360.json",
+  "name_vi": "Hải sâm xào nấm đông cô",
+  "name_en": "",
+  "name_normalized": "hai sam xao nam dong co",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hải sâm",
+    "Nấm đông cô",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Bột bắp",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03083",
+    "ingre04966",
+    "ingre00282",
+    "ingre02485",
+    "ingre07063",
+    "ingre00564",
+    "ingre02124",
+    "ingre02080",
+    "ingre04790",
+    "ingre04672",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Hải sâm",
+    "Nấm đông cô",
+    "Bông cải xanh",
+    "Gừng",
+    "Tỏi",
+    "Bột bắp",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước tương",
+    "Nước màu",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Sea cucumber",
+    "Mushroom",
+    "Cabbage",
+    "Ginger",
+    "Garlic",
+    "Corn starch",
+    "Cooking oil",
+    "Soy sauce",
+    "Food coloring",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "hai sam",
+    "nam dong co",
+    "bong cai xanh",
+    "gung",
+    "toi",
+    "bot bap",
+    "dau an",
+    "dau hao",
+    "nuoc tuong",
+    "nuoc mau",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

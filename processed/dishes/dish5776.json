@@ -1,0 +1,124 @@
+{
+  "id": "dish5776",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5776.json",
+  "name_vi": "Cá thu kho mặn ngọt",
+  "name_en": "",
+  "name_normalized": "ca thu kho man ngot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá thu",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Nước trà xanh pha loãng"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Nước màu đường",
+    "Tương ớt",
+    "Tỏi",
+    "Ớt tươi",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01625",
+    "ingre04626",
+    "ingre04694",
+    "ingre04685",
+    "ingre07028",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre08078",
+    "ingre04786",
+    "ingre07583",
+    "ingre06612",
+    "ingre02124",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Cá thu",
+    "Nước dừa tươi",
+    "Nước mắm",
+    "Nước màu đường",
+    "Tương ớt",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Ớt tươi",
+    "Nước trà xanh pha loãng",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Codfish",
+    "Coconut water",
+    "Fish Sauce",
+    "Food coloring suger",
+    "Hot Sauce",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Fresh chili",
+    "Diluted green tea",
+    "Sugar",
+    "Pepper",
+    "Cooking oil",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca thu",
+    "nuoc dua tuoi",
+    "nuoc mam",
+    "nuoc mau duong",
+    "tuong ot",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "ot tuoi",
+    "nuoc tra xanh pha loang",
+    "duong",
+    "tieu",
+    "dau an",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

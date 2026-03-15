@@ -1,0 +1,81 @@
+{
+  "id": "dish2173",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2173.json",
+  "name_vi": "Bánh kem dâu tây kiểu Pháp - fraiser cake",
+  "name_en": "",
+  "name_normalized": "banh kem dau tay kieu phap fraiser cake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gelatin",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Tinh chất vani",
+    "Kem tươi",
+    "Bánh quy",
+    "Dâu tây tươi"
+  ],
+  "seasonings": [
+    "Đường bột",
+    "Bột bắp",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre02253",
+    "ingre03584",
+    "ingre07589",
+    "ingre00564",
+    "ingre06147",
+    "ingre06592",
+    "ingre03157",
+    "ingre00144",
+    "ingre01964"
+  ],
+  "ingredient_names_vi": [
+    "Gelatin",
+    "Lòng đỏ trứng gà",
+    "Đường bột",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Tinh chất vani",
+    "Kem tươi",
+    "Bánh quy",
+    "Dâu tây tươi"
+  ],
+  "ingredient_names_en": [
+    "Gelatin",
+    "Egg yolk",
+    "Sugar Powder",
+    "Corn starch",
+    "Fat-free Milk",
+    "Vanilla extract",
+    "Fresh cream",
+    "Cookie",
+    "Strawberry"
+  ],
+  "ingredient_names_normalized": [
+    "gelatin",
+    "long do trung ga",
+    "duong bot",
+    "bot bap",
+    "sua tuoi khong duong",
+    "tinh chat vani",
+    "kem tuoi",
+    "banh quy",
+    "dau tay tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kem dau tay kieu phap - fraiser cake",
+      "new": "banh kem dau tay kieu phap fraiser cake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dish2586",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2586.json",
+  "name_vi": "Cách làm bánh tráng, hủ tiếu từ gạo lứt",
+  "name_en": "",
+  "name_normalized": "cach lam banh trang hu tieu tu gao lut",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo lứt"
+  ],
+  "secondary_ingredients": [
+    "Nước sôi",
+    "Nước lạnh"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Bột đậu xanh",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02442",
+    "ingre00849",
+    "ingre01014",
+    "ingre04743",
+    "ingre04664",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gạo lứt",
+    "Bột năng",
+    "Bột đậu xanh",
+    "Nước sôi",
+    "Nước lạnh",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice",
+    "Cornstarch",
+    "Green bean flour",
+    "Boiling water",
+    "Cold water",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gao lut",
+    "bot nang",
+    "bot dau xanh",
+    "nuoc soi",
+    "nuoc lanh",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam banh trang, hu tieu tu gao lut",
+      "new": "cach lam banh trang hu tieu tu gao lut",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

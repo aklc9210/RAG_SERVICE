@@ -1,0 +1,102 @@
+{
+  "id": "dish0694",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0694.json",
+  "name_vi": "Canh chua rau lang",
+  "name_en": "",
+  "name_normalized": "canh chua rau lang",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đầu cá hồi",
+    "Rau lang",
+    "Bông súng"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Me",
+    "Lá quế"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi",
+    "Dầu ăn",
+    "Giấm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07706",
+    "ingre05282",
+    "ingre00291",
+    "ingre01354",
+    "ingre03643",
+    "ingre03500",
+    "ingre08026",
+    "ingre07063",
+    "ingre02124",
+    "ingre02355",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá hồi",
+    "Rau lang",
+    "Bông súng",
+    "Cà chua",
+    "Me",
+    "Lá quế",
+    "Ớt hiểm",
+    "Tỏi",
+    "Dầu ăn",
+    "Giấm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Salmon head",
+    "Basil",
+    "Mallow花椰菜",
+    "Tomato",
+    "Tamarind",
+    "Bayleaf",
+    "Hot pepper",
+    "Garlic",
+    "Cooking oil",
+    "Vinegar",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca hoi",
+    "rau lang",
+    "bong sung",
+    "ca chua",
+    "me",
+    "la que",
+    "ot hiem",
+    "toi",
+    "dau an",
+    "giam",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

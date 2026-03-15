@@ -1,0 +1,78 @@
+{
+  "id": "dish6566",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6566.json",
+  "name_vi": "Cá lồ ồ chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "ca lo o chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá lồ ồ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Đường",
+    "Muối hột",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01555",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre04694",
+    "ingre07583",
+    "ingre03766",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá lồ ồ",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Nước mắm",
+    "Đường",
+    "Muối hột",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Fish Sauce",
+    "Sugar",
+    "Sea salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca lo o",
+    "toi",
+    "ot",
+    "hanh tim",
+    "nuoc mam",
+    "duong",
+    "muoi hot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre06826",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06826.json",
+  "name_vi": "trứng gà . 100 g bột chiên giòn",
+  "name_en": "Chicken egg. 100 g fried bread crumb",
+  "name_normalized": "trung ga 100 g bot chien gion",
+  "synonyms": [
+    "trứng con",
+    "bột rán"
+  ],
+  "synonyms_normalized": [
+    "trung con",
+    "bot ran"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung ga . 100 g bot chien gion",
+      "new": "trung ga 100 g bot chien gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

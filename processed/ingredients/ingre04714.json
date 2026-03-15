@@ -1,0 +1,27 @@
+{
+  "id": "ingre04714",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04714.json",
+  "name_vi": "nước mắm.",
+  "name_en": "Fish Sauce",
+  "name_normalized": "nuoc mam",
+  "synonyms": [
+    "mắm",
+    "mắm ruốc"
+  ],
+  "synonyms_normalized": [
+    "mam",
+    "mam ruoc"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc mam.",
+      "new": "nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

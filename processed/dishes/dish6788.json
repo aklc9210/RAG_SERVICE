@@ -1,0 +1,56 @@
+{
+  "id": "dish6788",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6788.json",
+  "name_vi": "Sake chiên bằng bột chiên chuối",
+  "name_en": "",
+  "name_normalized": "sake chien bang bot chien chuoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sake"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên chuối",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05635",
+    "ingre00597",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Sake",
+    "Bột chiên chuối",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Sake",
+    "Banana fritter powder",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "sake",
+    "bot chien chuoi",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

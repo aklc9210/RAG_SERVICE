@@ -1,0 +1,88 @@
+{
+  "id": "dish5325",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5325.json",
+  "name_vi": "Bún xào trứng",
+  "name_en": "",
+  "name_normalized": "bun xao trung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bún khô",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau cải",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00346",
+    "ingre06823",
+    "ingre02741",
+    "ingre01419",
+    "ingre05225",
+    "ingre02768",
+    "ingre02124",
+    "ingre02080",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bún khô",
+    "Trứng gà",
+    "Hành tây",
+    "Cà rốt",
+    "Rau cải",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Chicken egg",
+    "Onion",
+    "Carrot",
+    "Cabbage",
+    "Shallot",
+    "Cooking oil",
+    "Soy sauce",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bun kho",
+    "trung ga",
+    "hanh tay",
+    "ca rot",
+    "rau cai",
+    "hanh tim",
+    "dau an",
+    "dau hao",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "dish5563",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5563.json",
+  "name_vi": "Bò kho sả nghệ",
+  "name_en": "",
+  "name_normalized": "bo kho sa nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Nạm bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nghệ tươi"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04889",
+    "ingre05900",
+    "ingre08055",
+    "ingre04308",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre07688"
+  ],
+  "ingredient_names_vi": [
+    "Nạm bò",
+    "Sả",
+    "Ớt sừng",
+    "Nghệ tươi",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef mince",
+    "Lemongrass",
+    "Hot pepper",
+    "Ginger",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nam bo",
+    "sa",
+    "ot sung",
+    "nghe tuoi",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre03020",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03020.json",
+  "name_vi": "hạt nêm; đường; muối; bột ngọt; đường phèn; dầu mè",
+  "name_en": "Seasoning; Sugar; Salt; Monosodium Glutamate; Molasses; Sesame Oil",
+  "name_normalized": "hat nem duong muoi bot ngot duong phen dau me",
+  "synonyms": [
+    "muối nở",
+    "bột ngọt",
+    "đường cát"
+  ],
+  "synonyms_normalized": [
+    "muoi no",
+    "bot ngot",
+    "duong cat"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem; duong; muoi; bot ngot; duong phen; dau me",
+      "new": "hat nem duong muoi bot ngot duong phen dau me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

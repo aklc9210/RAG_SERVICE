@@ -1,0 +1,105 @@
+{
+  "id": "dish8316",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8316.json",
+  "name_vi": "Salad sò điệp và bơ",
+  "name_en": "",
+  "name_normalized": "salad so diep va bo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cồi sò điệp",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Lá húng tây",
+    "Hành tây",
+    "Dầu ô-liu",
+    "Cà chua",
+    "Dầu thực vật"
+  ],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Tỏi",
+    "Ớt Jalapeno",
+    "Giấm Balsamic",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01853",
+    "ingre00367",
+    "ingre04538",
+    "ingre03442",
+    "ingre07063",
+    "ingre02741",
+    "ingre02122",
+    "ingre08036",
+    "ingre01354",
+    "ingre02113",
+    "ingre02356",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Cồi sò điệp",
+    "Bơ",
+    "Nước cốt chanh",
+    "Lá húng tây",
+    "Tỏi",
+    "Hành tây",
+    "Dầu ô-liu",
+    "Ớt Jalapeno",
+    "Cà chua",
+    "Dầu thực vật",
+    "Giấm Balsamic",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mushroom stem",
+    "Butter",
+    "Lemon juice",
+    "Basil",
+    "Garlic",
+    "Onion",
+    "Olive oil",
+    "Jalapeño",
+    "Tomato",
+    "Vegetable oil",
+    "Balsamic vinegar",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "coi so diep",
+    "bo",
+    "nuoc cot chanh",
+    "la hung tay",
+    "toi",
+    "hanh tay",
+    "dau o liu",
+    "ot jalapeno",
+    "ca chua",
+    "dau thuc vat",
+    "giam balsamic",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau o-liu",
+      "new": "dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ô-liu"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

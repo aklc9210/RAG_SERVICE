@@ -1,0 +1,25 @@
+{
+  "id": "ingre01105",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01105.json",
+  "name_vi": "chanh:",
+  "name_en": "Lemon",
+  "name_normalized": "chanh",
+  "synonyms": [
+    "cam tươi"
+  ],
+  "synonyms_normalized": [
+    "cam tuoi"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh:",
+      "new": "chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish10226",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10226.json",
+  "name_vi": "Matcha latte thạch trà xanh",
+  "name_en": "",
+  "name_normalized": "matcha latte thach tra xanh",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Nước ấm",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột matcha",
+    "Đường",
+    "Bột rau câu dẻo",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00736",
+    "ingre04879",
+    "ingre07583",
+    "ingre00897",
+    "ingre04124",
+    "ingre06147"
+  ],
+  "ingredient_names_vi": [
+    "Bột matcha",
+    "Nước ấm",
+    "Đường",
+    "Bột rau câu dẻo",
+    "Mật ong",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_names_en": [
+    "Matcha Powder",
+    "Warm water",
+    "Sugar",
+    "Agar powder",
+    "Honey",
+    "Fat-free Milk"
+  ],
+  "ingredient_names_normalized": [
+    "bot matcha",
+    "nuoc am",
+    "duong",
+    "bot rau cau deo",
+    "mat ong",
+    "sua tuoi khong duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

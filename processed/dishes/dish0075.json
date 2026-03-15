@@ -1,0 +1,66 @@
+{
+  "id": "dish0075",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0075.json",
+  "name_vi": "Canh cải cúc (tần ô) tôm sú",
+  "name_en": "",
+  "name_normalized": "canh cai cuc tan o tom su",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm sú"
+  ],
+  "secondary_ingredients": [
+    "Tần ô",
+    "Hành lá cắt khúc"
+  ],
+  "seasonings": [
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06953",
+    "ingre07055",
+    "ingre02681",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Tôm sú",
+    "Tần ô",
+    "Hành lá cắt khúc",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Cranberry",
+    "Chopped Green Onion",
+    "MSG",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tom su",
+    "tan o",
+    "hanh la cat khuc",
+    "bot ngot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh cai cuc (tan o) tom su",
+      "new": "canh cai cuc tan o tom su",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

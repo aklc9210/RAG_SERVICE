@@ -1,0 +1,98 @@
+{
+  "id": "dish0679",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0679.json",
+  "name_vi": "Canh mực nấu chua",
+  "name_en": "",
+  "name_normalized": "canh muc nau chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Mực nang sữa",
+    "Cà chua",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04274",
+    "ingre01354",
+    "ingre06247",
+    "ingre02673",
+    "ingre04343",
+    "ingre02774",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mực nang sữa",
+    "Cà chua",
+    "Thơm",
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím băm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cuttlefish",
+    "Tomato",
+    "Basil",
+    "Scallion",
+    "Parsley",
+    "Chopped Scallion",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "muc nang sua",
+    "ca chua",
+    "thom",
+    "hanh la",
+    "ngo ri",
+    "hanh tim bam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

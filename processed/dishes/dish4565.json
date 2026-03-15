@@ -1,0 +1,77 @@
+{
+  "id": "dish4565",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4565.json",
+  "name_vi": "Sụn heo xào sa tế",
+  "name_en": "",
+  "name_normalized": "sun heo xao sa te",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sụn heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Sa tế",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06066",
+    "ingre01419",
+    "ingre05621",
+    "ingre07063",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sụn heo",
+    "Cà rốt",
+    "Sa tế",
+    "Tỏi",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork cartilage",
+    "Carrot",
+    "Fish sauce",
+    "Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sun heo",
+    "ca rot",
+    "sa te",
+    "toi",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

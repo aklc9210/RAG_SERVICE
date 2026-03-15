@@ -1,0 +1,29 @@
+{
+  "id": "ingre01103",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01103.json",
+  "name_vi": "chanh/ ớt tươi",
+  "name_en": "Lime/Fresh Chili",
+  "name_normalized": "chanh ot tuoi",
+  "synonyms": [
+    "chanh tươi",
+    "ớt",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "chanh tuoi",
+    "ot",
+    "ot chuong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh/ ot tuoi",
+      "new": "chanh ot tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish2728",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2728.json",
+  "name_vi": "Bánh trung thu Philippine - Hopia",
+  "name_en": "",
+  "name_normalized": "banh trung thu philippine hopia",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu đỏ"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Shortening",
+    "Khoai lang tím"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre07868",
+    "ingre00759",
+    "ingre07583",
+    "ingre06174",
+    "ingre05656",
+    "ingre06823",
+    "ingre03200"
+  ],
+  "ingredient_names_vi": [
+    "Đậu đỏ",
+    "Bột mì",
+    "Đường",
+    "Sữa đặc",
+    "Shortening",
+    "Trứng gà",
+    "Khoai lang tím"
+  ],
+  "ingredient_names_en": [
+    "Red beans",
+    "Wheat Flour",
+    "Sugar",
+    "Sweetened Condensed Milk",
+    "Shortening",
+    "Chicken egg",
+    "Purple potato"
+  ],
+  "ingredient_names_normalized": [
+    "dau do",
+    "bot mi",
+    "duong",
+    "sua dac",
+    "shortening",
+    "trung ga",
+    "khoai lang tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh trung thu philippine - hopia",
+      "new": "banh trung thu philippine hopia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

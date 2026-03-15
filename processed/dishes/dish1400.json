@@ -1,0 +1,53 @@
+{
+  "id": "dish1400",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1400.json",
+  "name_vi": "Bánh Yokan đậu đỏ truyền thống",
+  "name_en": "",
+  "name_normalized": "banh yokan dau do truyen thong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hạt đậu đỏ",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu Agar",
+    "Đường trắng",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre00894",
+    "ingre03081",
+    "ingre07652",
+    "ingre04665",
+    "ingre02485"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu Agar",
+    "Hạt đậu đỏ",
+    "Đường trắng",
+    "Nước lọc",
+    "Gừng"
+  ],
+  "ingredient_names_en": [
+    "Agar powder",
+    "Red Lentil Seeds",
+    "White sugar",
+    "Tap water",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau agar",
+    "hat dau do",
+    "duong trang",
+    "nuoc loc",
+    "gung"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

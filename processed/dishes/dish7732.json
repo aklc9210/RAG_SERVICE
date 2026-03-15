@@ -1,0 +1,119 @@
+{
+  "id": "dish7732",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7732.json",
+  "name_vi": "Lẩu xương heo (xí quách heo)",
+  "name_en": "",
+  "name_normalized": "lau xuong heo xi quach heo",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Huyết heo",
+    "Củ cải"
+  ],
+  "secondary_ingredients": [
+    "Nấm linh chi trắng",
+    "Nấm linh chi nâu",
+    "Cải thảo",
+    "Rau tần ô",
+    "Hành tây",
+    "Hành lá/ ngò gai"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bắp ngọt",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02629",
+    "ingre01419",
+    "ingre01860",
+    "ingre00483",
+    "ingre04927",
+    "ingre04924",
+    "ingre01793",
+    "ingre05407",
+    "ingre02741",
+    "ingre02701",
+    "ingre02730",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Huyết heo",
+    "Cà rốt",
+    "Củ cải",
+    "Bắp ngọt",
+    "Nấm linh chi trắng",
+    "Nấm linh chi nâu",
+    "Cải thảo",
+    "Rau tần ô",
+    "Hành tây",
+    "Hành lá/ ngò gai",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pig blood",
+    "Carrot",
+    "Radish",
+    "Sweet corn",
+    "Reishi White Mushroom",
+    "Brown Reishi Mushroom",
+    "Cabbage",
+    "Cilantro",
+    "Onion",
+    "Chives",
+    "Garlic Fried",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "huyet heo",
+    "ca rot",
+    "cu cai",
+    "bap ngot",
+    "nam linh chi trang",
+    "nam linh chi nau",
+    "cai thao",
+    "rau tan o",
+    "hanh tay",
+    "hanh la ngo gai",
+    "hanh phi",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lau xuong heo (xi quach heo)",
+      "new": "lau xuong heo xi quach heo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo gai",
+      "new": "hanh la ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò gai"
+    }
+  ]
+}

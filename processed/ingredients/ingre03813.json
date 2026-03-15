@@ -1,0 +1,25 @@
+{
+  "id": "ingre03813",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03813.json",
+  "name_vi": "muối/ lá dứa",
+  "name_en": "Salt/Lemongrass Leaves",
+  "name_normalized": "muoi la dua",
+  "synonyms": [
+    "lá lốt"
+  ],
+  "synonyms_normalized": [
+    "la lot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ la dua",
+      "new": "muoi la dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

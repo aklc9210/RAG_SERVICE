@@ -1,0 +1,96 @@
+{
+  "id": "dish4298",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4298.json",
+  "name_vi": "Stuffing bánh mì ngô - Cornbread",
+  "name_en": "",
+  "name_normalized": "stuffing banh mi ngo cornbread",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bơ",
+    "Cần tây",
+    "Thịt xông khói"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Bánh mì ngô",
+    "Nước hầm gà tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Lá rosemary khô",
+    "Lá thyme khô",
+    "Trứng gà",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00367",
+    "ingre01812",
+    "ingre06523",
+    "ingre02741",
+    "ingre07063",
+    "ingre03513",
+    "ingre03528",
+    "ingre00115",
+    "ingre06823",
+    "ingre04645",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bơ",
+    "Cần tây",
+    "Thịt xông khói",
+    "Hành tây",
+    "Tỏi",
+    "Lá rosemary khô",
+    "Lá thyme khô",
+    "Bánh mì ngô",
+    "Trứng gà",
+    "Nước hầm gà tây",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Celery",
+    "Smoked Pork",
+    "Onion",
+    "Garlic",
+    "Rosemary Dry Leaves",
+    "Dried Thyme Leaves",
+    "Corn bread",
+    "Chicken egg",
+    "Chicken broth",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bo",
+    "can tay",
+    "thit xong khoi",
+    "hanh tay",
+    "toi",
+    "la rosemary kho",
+    "la thyme kho",
+    "banh mi ngo",
+    "trung ga",
+    "nuoc ham ga tay",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "stuffing banh mi ngo - cornbread",
+      "new": "stuffing banh mi ngo cornbread",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

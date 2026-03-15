@@ -1,0 +1,61 @@
+{
+  "id": "dish9352",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9352.json",
+  "name_vi": "Bỏng gạo - nếp nổ",
+  "name_en": "",
+  "name_normalized": "bong gao nep no",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bỏng gạo"
+  ],
+  "secondary_ingredients": [
+    "Mè đen",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Đường nâu",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre00499",
+    "ingre07628",
+    "ingre03941",
+    "ingre03935",
+    "ingre02485"
+  ],
+  "ingredient_names_vi": [
+    "Bỏng gạo",
+    "Đường nâu",
+    "Mè đen",
+    "Mè trắng",
+    "Gừng"
+  ],
+  "ingredient_names_en": [
+    "Rice paper",
+    "Brown Sugar",
+    "Black sesame seeds",
+    "White sesame",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "bong gao",
+    "duong nau",
+    "me den",
+    "me trang",
+    "gung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bong gao - nep no",
+      "new": "bong gao nep no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

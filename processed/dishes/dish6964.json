@@ -1,0 +1,97 @@
+{
+  "id": "dish6964",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6964.json",
+  "name_vi": "Bao tử cá basa chiên giòn",
+  "name_en": "",
+  "name_normalized": "bao tu ca basa chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bao tử cá"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối tiêu",
+    "Tiêu",
+    "Bột ngọt",
+    "Đường",
+    "Nước mắm",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00022",
+    "ingre00598",
+    "ingre02124",
+    "ingre02995",
+    "ingre03783",
+    "ingre06612",
+    "ingre00819",
+    "ingre07583",
+    "ingre04694",
+    "ingre07057",
+    "ingre05359",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử cá",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối tiêu",
+    "Tiêu",
+    "Bột ngọt",
+    "Đường",
+    "Nước mắm",
+    "Tắc",
+    "Rau răm",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Cá mesenteric",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Seasoning",
+    "Salt Pepper",
+    "Pepper",
+    "MSG",
+    "Sugar",
+    "Fish Sauce",
+    "Tamarind",
+    "Vietnamese coriander"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu ca",
+    "bot chien gion",
+    "dau an",
+    "hat nem",
+    "muoi tieu",
+    "tieu",
+    "bot ngot",
+    "duong",
+    "nuoc mam",
+    "tac",
+    "rau ram",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

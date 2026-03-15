@@ -1,0 +1,29 @@
+{
+  "id": "ingre02812",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02812.json",
+  "name_vi": "hành tím/tỏi/tóp mỡ phi",
+  "name_en": "Garlic/Green Onion/Pork Fat Bits",
+  "name_normalized": "hanh tim toi top mo phi",
+  "synonyms": [
+    "tỏi phi",
+    "hành phi",
+    "tỏi băm"
+  ],
+  "synonyms_normalized": [
+    "toi phi",
+    "hanh phi",
+    "toi bam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tim/toi/top mo phi",
+      "new": "hanh tim toi top mo phi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

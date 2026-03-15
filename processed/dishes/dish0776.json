@@ -1,0 +1,103 @@
+{
+  "id": "dish0776",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0776.json",
+  "name_vi": "Canh cá chép rau cần",
+  "name_en": "",
+  "name_normalized": "canh ca chep rau can",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chép",
+    "Cà chua bi",
+    "Rau cần nước"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt sừng cắt lát",
+    "Tỏi phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm gạo",
+    "Muối",
+    "Bột canh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre01355",
+    "ingre05239",
+    "ingre02673",
+    "ingre07071",
+    "ingre08060",
+    "ingre07096",
+    "ingre02124",
+    "ingre04694",
+    "ingre02362",
+    "ingre03746",
+    "ingre00587",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Cà chua bi",
+    "Rau cần nước",
+    "Hành lá",
+    "Tỏi băm",
+    "Ớt sừng cắt lát",
+    "Tỏi phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm gạo",
+    "Muối",
+    "Bột canh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Tomato",
+    "Water celery",
+    "Scallion",
+    "Minced Garlic",
+    "Bell pepper sliced",
+    "Garlic flakes",
+    "Cooking oil",
+    "Fish Sauce",
+    "Rice vinegar",
+    "Salt",
+    "Cornstarch",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "ca chua bi",
+    "rau can nuoc",
+    "hanh la",
+    "toi bam",
+    "ot sung cat lat",
+    "toi phi",
+    "dau an",
+    "nuoc mam",
+    "giam gao",
+    "muoi",
+    "bot canh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish1070",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1070.json",
+  "name_vi": "Bánh mì cuộn xúc xích bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh mi cuon xuc xich bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Muối",
+    "Đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre03746",
+    "ingre07583",
+    "ingre06823",
+    "ingre00382",
+    "ingre07396"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Muối",
+    "Đường",
+    "Trứng gà",
+    "Bơ lạt",
+    "Xúc xích"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Salt",
+    "Sugar",
+    "Chicken egg",
+    "Butter",
+    "Sausage"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "muoi",
+    "duong",
+    "trung ga",
+    "bo lat",
+    "xuc xich"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

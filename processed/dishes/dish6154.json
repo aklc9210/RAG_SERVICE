@@ -1,0 +1,114 @@
+{
+  "id": "dish6154",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6154.json",
+  "name_vi": "Xíu mại ăn bánh mì",
+  "name_en": "",
+  "name_normalized": "xiu mai an banh mi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt nạc xay",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Rau húng quế",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06477",
+    "ingre01354",
+    "ingre01419",
+    "ingre02741",
+    "ingre05265",
+    "ingre02768",
+    "ingre08055",
+    "ingre02673",
+    "ingre01079",
+    "ingre02124",
+    "ingre04694",
+    "ingre07685"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc xay",
+    "Cà chua",
+    "Cà rốt",
+    "Hành tây",
+    "Rau húng quế",
+    "Hành tím",
+    "Ớt sừng",
+    "Hành lá",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Beef",
+    "Tomato",
+    "Carrot",
+    "Onion",
+    "Sage Herb",
+    "Shallot",
+    "Hot pepper",
+    "Scallion",
+    "Lemon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Cinnamon Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac xay",
+    "ca chua",
+    "ca rot",
+    "hanh tay",
+    "rau hung que",
+    "hanh tim",
+    "ot sung",
+    "hanh la",
+    "chanh",
+    "dau an",
+    "nuoc mam",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu xay"
+    }
+  ]
+}

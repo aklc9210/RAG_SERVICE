@@ -1,0 +1,29 @@
+{
+  "id": "ingre05973",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05973.json",
+  "name_vi": "sốt mayonnaise/ tương cà/ hành lá thái nhỏ",
+  "name_en": "Mayonnaise/Soy Sauce/Chopped Fresh Parsley",
+  "name_normalized": "sot mayonnaise tuong ca hanh la thai nho",
+  "synonyms": [
+    "mayo",
+    "tương ớt",
+    "rau mùi"
+  ],
+  "synonyms_normalized": [
+    "mayo",
+    "tuong ot",
+    "rau mui"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sot mayonnaise/ tuong ca/ hanh la thai nho",
+      "new": "sot mayonnaise tuong ca hanh la thai nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

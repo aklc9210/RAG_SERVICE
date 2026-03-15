@@ -1,0 +1,126 @@
+{
+  "id": "dish8160",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8160.json",
+  "name_vi": "Gỏi sò huyết",
+  "name_en": "",
+  "name_normalized": "goi so huyet",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sò huyết",
+    "Miến khô",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cà chua bi",
+    "Hành tím",
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt hiểm xanh",
+    "Ớt hiểm đỏ",
+    "Chanh",
+    "Tỏi",
+    "Đường thốt nốt",
+    "Lá chanh",
+    "Cà rốt nhỏ",
+    "Nước cốt me"
+  ],
+  "ingredient_ids": [
+    "ingre05819",
+    "ingre03716",
+    "ingre02741",
+    "ingre08055",
+    "ingre08033",
+    "ingre08034",
+    "ingre01079",
+    "ingre01355",
+    "ingre02768",
+    "ingre07063",
+    "ingre07647",
+    "ingre05900",
+    "ingre03370",
+    "ingre07057",
+    "ingre01432",
+    "ingre04581"
+  ],
+  "ingredient_names_vi": [
+    "Sò huyết",
+    "Miến khô",
+    "Hành tây",
+    "Ớt sừng",
+    "Ớt hiểm xanh",
+    "Ớt hiểm đỏ",
+    "Chanh",
+    "Cà chua bi",
+    "Hành tím",
+    "Tỏi",
+    "Đường thốt nốt",
+    "Sả",
+    "Lá chanh",
+    "Tắc",
+    "Cà rốt nhỏ",
+    "Nước cốt me"
+  ],
+  "ingredient_names_en": [
+    "Blood clam",
+    "Rice Noodles",
+    "Onion",
+    "Hot pepper",
+    "Green Thai chili",
+    "Red Thai chili",
+    "Lemon",
+    "Tomato",
+    "Shallot",
+    "Garlic",
+    "Cane Sugar",
+    "Lemongrass",
+    "Lime leaf",
+    "Tamarind",
+    "Carrot",
+    "Lime juice"
+  ],
+  "ingredient_names_normalized": [
+    "so huyet",
+    "mien kho",
+    "hanh tay",
+    "ot sung",
+    "ot hiem xanh",
+    "ot hiem do",
+    "chanh",
+    "ca chua bi",
+    "hanh tim",
+    "toi",
+    "duong thot not",
+    "sa",
+    "la chanh",
+    "tac",
+    "ca rot nho",
+    "nuoc cot me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

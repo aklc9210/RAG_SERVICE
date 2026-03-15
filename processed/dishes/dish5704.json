@@ -1,0 +1,98 @@
+{
+  "id": "dish5704",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5704.json",
+  "name_vi": "Bạch tuộc khìa nước dừa",
+  "name_en": "",
+  "name_normalized": "bach tuoc khia nuoc dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tiêu nhánh",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tương ớt",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre02198",
+    "ingre06613",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre07028",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Dừa tươi",
+    "Tiêu nhánh",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tương ớt",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Coconut",
+    "Basil枝条 -> Basil Branches",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Hot Sauce",
+    "Sugar",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "dua tuoi",
+    "tieu nhanh",
+    "toi",
+    "hanh tim",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "tuong ot",
+    "duong",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

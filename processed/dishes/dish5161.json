@@ -1,0 +1,106 @@
+{
+  "id": "dish5161",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5161.json",
+  "name_vi": "Ốc móng tay xào sả ớt",
+  "name_en": "",
+  "name_normalized": "oc mong tay xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc móng tay",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Sấu",
+    "Rau húng"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Sa tế",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07948",
+    "ingre05900",
+    "ingre08026",
+    "ingre07063",
+    "ingre05925",
+    "ingre05256",
+    "ingre02124",
+    "ingre02080",
+    "ingre05621",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc móng tay",
+    "Sả",
+    "Ớt hiểm",
+    "Tỏi",
+    "Sấu",
+    "Rau húng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Sa tế",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic",
+    "Sour sop",
+    "Parsley",
+    "Cooking oil",
+    "Soy sauce",
+    "Fish sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc mong tay",
+    "sa",
+    "ot hiem",
+    "toi",
+    "sau",
+    "rau hung",
+    "dau an",
+    "dau hao",
+    "sa te",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

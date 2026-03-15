@@ -1,0 +1,78 @@
+{
+  "id": "dish1589",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1589.json",
+  "name_vi": "Bánh tét",
+  "name_en": "",
+  "name_normalized": "banh tet",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Lá dứa",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07836",
+    "ingre06275",
+    "ingre03417",
+    "ingre02768",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu xanh",
+    "Thịt ba chỉ",
+    "Lá dứa",
+    "Hành tím",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Green beans",
+    "Pork belly",
+    "Pandan叶",
+    "Shallot",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau xanh",
+    "thit ba chi",
+    "la dua",
+    "hanh tim",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

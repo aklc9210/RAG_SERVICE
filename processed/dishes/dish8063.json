@@ -1,0 +1,97 @@
+{
+  "id": "dish8063",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8063.json",
+  "name_vi": "Gỏi đậu rồng tôm",
+  "name_en": "",
+  "name_normalized": "goi dau rong tom",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tôm sống",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Thịt lợn xay",
+    "Đậu rồng",
+    "Đậu phộng rang giã nát"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Nước cốt dừa",
+    "Sa tế",
+    "Ớt chỉ thiên",
+    "Nước cốt chanh",
+    "Đường thốt nốt",
+    "Hành phi"
+  ],
+  "ingredient_ids": [
+    "ingre06955",
+    "ingre02768",
+    "ingre04694",
+    "ingre06438",
+    "ingre04554",
+    "ingre05621",
+    "ingre07821",
+    "ingre08017",
+    "ingre04538",
+    "ingre07647",
+    "ingre02730",
+    "ingre07798"
+  ],
+  "ingredient_names_vi": [
+    "Tôm sống",
+    "Hành tím",
+    "Nước mắm",
+    "Thịt lợn xay",
+    "Nước cốt dừa",
+    "Sa tế",
+    "Đậu rồng",
+    "Ớt chỉ thiên",
+    "Nước cốt chanh",
+    "Đường thốt nốt",
+    "Hành phi",
+    "Đậu phộng rang giã nát"
+  ],
+  "ingredient_names_en": [
+    "Live shrimp",
+    "Shallot",
+    "Fish Sauce",
+    "Ground Pork",
+    "Coconut milk",
+    "Dragon bean",
+    "Bird's eye chili",
+    "Lemon juice",
+    "Cane Sugar",
+    "Garlic Fried",
+    "Crushed Roasted Peanuts"
+  ],
+  "ingredient_names_normalized": [
+    "tom song",
+    "hanh tim",
+    "nuoc mam",
+    "thit lon xay",
+    "nuoc cot dua",
+    "sa te",
+    "dau rong",
+    "ot chi thien",
+    "nuoc cot chanh",
+    "duong thot not",
+    "hanh phi",
+    "dau phong rang gia nat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

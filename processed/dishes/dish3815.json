@@ -1,0 +1,87 @@
+{
+  "id": "dish3815",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3815.json",
+  "name_vi": "Cá chạch nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca chach nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá chạch"
+  ],
+  "secondary_ingredients": [
+    "Me"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Bột nghệ",
+    "Nước mắm",
+    "Đường",
+    "Hành tím băm"
+  ],
+  "ingredient_ids": [
+    "ingre01501",
+    "ingre07966",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre00804",
+    "ingre04694",
+    "ingre03643",
+    "ingre07583",
+    "ingre02774"
+  ],
+  "ingredient_names_vi": [
+    "Cá chạch",
+    "Ớt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Bột nghệ",
+    "Nước mắm",
+    "Me",
+    "Đường",
+    "Hành tím băm"
+  ],
+  "ingredient_names_en": [
+    "Crayfish",
+    "Pepper",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Turmeric Powder",
+    "Fish Sauce",
+    "Tamarind",
+    "Sugar",
+    "Chopped Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "ca chach",
+    "ot",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "bot nghe",
+    "nuoc mam",
+    "me",
+    "duong",
+    "hanh tim bam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

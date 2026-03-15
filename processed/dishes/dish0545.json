@@ -1,0 +1,89 @@
+{
+  "id": "dish0545",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0545.json",
+  "name_vi": "Canh mồng tơi nấu ngao (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "canh mong toi nau ngao cong thuc duoc chia se tu nguoi dung",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ngao"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Mồng tơi",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04176",
+    "ingre04301",
+    "ingre05900",
+    "ingre07966",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Mồng tơi",
+    "Ngao",
+    "Sả",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mustard greens",
+    "Clam",
+    "Lemongrass",
+    "Pepper",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "mong toi",
+    "ngao",
+    "sa",
+    "ot",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh mong toi nau ngao (cong thuc duoc chia se tu nguoi dung)",
+      "new": "canh mong toi nau ngao cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dish2023",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2023.json",
+  "name_vi": "Bánh Castella bằng bột gạo",
+  "name_en": "",
+  "name_normalized": "banh castella bang bot gao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Mật ong",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Baking powder",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00013",
+    "ingre00382",
+    "ingre06823",
+    "ingre04124",
+    "ingre06147",
+    "ingre07583",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Baking powder",
+    "Bơ lạt",
+    "Trứng gà",
+    "Mật ong",
+    "Sữa tươi không đường",
+    "Đường",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Baking powder",
+    "Butter",
+    "Chicken egg",
+    "Honey",
+    "Fat-free Milk",
+    "Sugar",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "baking powder",
+    "bo lat",
+    "trung ga",
+    "mat ong",
+    "sua tuoi khong duong",
+    "duong",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

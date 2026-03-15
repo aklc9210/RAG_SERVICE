@@ -1,0 +1,60 @@
+{
+  "id": "dish1844",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1844.json",
+  "name_vi": "Bánh mì sandwich không cần men nở",
+  "name_en": "",
+  "name_normalized": "banh mi sandwich khong can men no",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nở (baking powder",
+    "Sữa tươi không đường",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00869",
+    "ingre06147",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nở (baking powder",
+    "Sữa tươi không đường",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Baking powder",
+    "Fat-free Milk",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot no baking powder",
+    "sua tuoi khong duong",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot no (baking powder",
+      "new": "bot no baking powder",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột nở (baking powder"
+    }
+  ]
+}

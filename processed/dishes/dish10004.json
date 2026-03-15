@@ -1,0 +1,72 @@
+{
+  "id": "dish10004",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10004.json",
+  "name_vi": "Matcha đá xay",
+  "name_en": "",
+  "name_normalized": "matcha da xay",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Tinh chất vani",
+    "Kem trà xanh (viên)",
+    "Kem topping",
+    "Nước đá đông lạnh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột trà xanh",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00961",
+    "ingre06147",
+    "ingre07583",
+    "ingre06592",
+    "ingre03155",
+    "ingre03153",
+    "ingre04857"
+  ],
+  "ingredient_names_vi": [
+    "Bột trà xanh",
+    "Sữa tươi không đường",
+    "Đường",
+    "Tinh chất vani",
+    "Kem trà xanh (viên)",
+    "Kem topping",
+    "Nước đá đông lạnh"
+  ],
+  "ingredient_names_en": [
+    "Green tea powder",
+    "Fat-free Milk",
+    "Sugar",
+    "Vanilla extract",
+    "Matcha Cream (beads)",
+    "Whipped Cream Topping",
+    "Frozen ice cubes"
+  ],
+  "ingredient_names_normalized": [
+    "bot tra xanh",
+    "sua tuoi khong duong",
+    "duong",
+    "tinh chat vani",
+    "kem tra xanh vien",
+    "kem topping",
+    "nuoc da dong lanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tra xanh (vien)",
+      "new": "kem tra xanh vien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem trà xanh (viên)"
+    }
+  ]
+}

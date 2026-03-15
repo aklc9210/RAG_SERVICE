@@ -1,0 +1,102 @@
+{
+  "id": "dish4910",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4910.json",
+  "name_vi": "Miến xào cua",
+  "name_en": "",
+  "name_normalized": "mien xao cua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cua",
+    "Miến",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt hiểm",
+    "Gừng",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01333",
+    "ingre03710",
+    "ingre04930",
+    "ingre02645",
+    "ingre01419",
+    "ingre07063",
+    "ingre08026",
+    "ingre02741",
+    "ingre02768",
+    "ingre02485",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cua",
+    "Miến",
+    "Nấm mèo",
+    "Hành boa rô",
+    "Cà rốt",
+    "Tỏi",
+    "Ớt hiểm",
+    "Hành tây",
+    "Hành tím",
+    "Gừng",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Rice vermicelli",
+    "Mushroom",
+    "Garlic",
+    "Carrot",
+    "Hot pepper",
+    "Onion",
+    "Shallot",
+    "Ginger",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "cua",
+    "mien",
+    "nam meo",
+    "hanh boa ro",
+    "ca rot",
+    "toi",
+    "ot hiem",
+    "hanh tay",
+    "hanh tim",
+    "gung",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

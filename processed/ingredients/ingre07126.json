@@ -1,0 +1,29 @@
+{
+  "id": "ingre07126",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07126.json",
+  "name_vi": "tỏi/ ớt/ ngò gai/ tắc",
+  "name_en": "Garlic/Capsicum/Dill/Citron",
+  "name_normalized": "toi ot ngo gai tac",
+  "synonyms": [
+    "tỏi non",
+    "tỏi tây",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "toi non",
+    "toi tay",
+    "ot chuong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi/ ot/ ngo gai/ tac",
+      "new": "toi ot ngo gai tac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

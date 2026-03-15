@@ -1,0 +1,102 @@
+{
+  "id": "dish5714",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5714.json",
+  "name_vi": "Cá nục kho măng",
+  "name_en": "",
+  "name_normalized": "ca nuc kho mang",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục hấp",
+    "Măng luộc",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Ớt bột",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01600",
+    "ingre04083",
+    "ingre02768",
+    "ingre07966",
+    "ingre07977",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục hấp",
+    "Măng luộc",
+    "Hành tím",
+    "Ớt",
+    "Ớt bột",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Mudfish Steamedin Steam",
+    "Blanched bamboo shoots",
+    "Shallot",
+    "Pepper",
+    "Chili powder",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc hap",
+    "mang luoc",
+    "hanh tim",
+    "ot",
+    "ot bot",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

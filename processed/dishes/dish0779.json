@@ -1,0 +1,111 @@
+{
+  "id": "dish0779",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0779.json",
+  "name_vi": "Canh gà nấu măng chua",
+  "name_en": "",
+  "name_normalized": "canh ga nau mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Măng chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre04072",
+    "ingre02673",
+    "ingre02768",
+    "ingre08078",
+    "ingre02124",
+    "ingre04694",
+    "ingre02377",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Măng chua",
+    "Hành lá",
+    "Hành tím",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Pickled bamboo shoots",
+    "Scallion",
+    "Shallot",
+    "Fresh chili",
+    "Cooking oil",
+    "Fish Sauce",
+    "vinegar",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "mang chua",
+    "hanh la",
+    "hanh tim",
+    "ot tuoi",
+    "dau an",
+    "nuoc mam",
+    "giam an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

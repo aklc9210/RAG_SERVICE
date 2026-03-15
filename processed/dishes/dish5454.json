@@ -1,0 +1,96 @@
+{
+  "id": "dish5454",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5454.json",
+  "name_vi": "Bầu xào nghêu",
+  "name_en": "",
+  "name_normalized": "bau xao ngheu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bầu sao",
+    "Nghêu",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Hành tây tím",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Ớt sừng",
+    "Tỏi băm",
+    "Bột ngọt; hạt nêm; tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00445",
+    "ingre04303",
+    "ingre06941",
+    "ingre06247",
+    "ingre02761",
+    "ingre02124",
+    "ingre08055",
+    "ingre07071",
+    "ingre05302",
+    "ingre00832"
+  ],
+  "ingredient_names_vi": [
+    "Bầu sao",
+    "Nghêu",
+    "Tôm khô",
+    "Thơm",
+    "Hành tây tím",
+    "Dầu ăn",
+    "Ớt sừng",
+    "Tỏi băm",
+    "Rau mùi",
+    "Bột ngọt; hạt nêm; tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Marrowucchini",
+    "Clam",
+    "Dried Shrimp",
+    "Basil",
+    "Purple onion",
+    "Cooking oil",
+    "Hot pepper",
+    "Minced Garlic",
+    "Mint",
+    "Soy Sauce; Seasoning Powder; Ground Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bau sao",
+    "ngheu",
+    "tom kho",
+    "thom",
+    "hanh tay tim",
+    "dau an",
+    "ot sung",
+    "toi bam",
+    "rau mui",
+    "bot ngot hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot; hat nem; tieu xay",
+      "new": "bot ngot hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt; hạt nêm; tiêu xay"
+    }
+  ]
+}

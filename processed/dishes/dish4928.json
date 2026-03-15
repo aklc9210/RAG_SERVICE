@@ -1,0 +1,91 @@
+{
+  "id": "dish4928",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4928.json",
+  "name_vi": "Bắp xào trứng muối phô mai",
+  "name_en": "",
+  "name_normalized": "bap xao trung muoi pho mai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp nếp",
+    "Bắp mỹ"
+  ],
+  "secondary_ingredients": [
+    "Phô mai",
+    "Xúc xích",
+    "Tép khô",
+    "Hành lá cắt nhỏ"
+  ],
+  "seasonings": [
+    "Trứng muối",
+    "Rượu trắng",
+    "Hành phi",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00486",
+    "ingre00479",
+    "ingre06849",
+    "ingre05054",
+    "ingre07396",
+    "ingre06918",
+    "ingre02683",
+    "ingre05574",
+    "ingre02730",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bắp nếp",
+    "Bắp mỹ",
+    "Trứng muối",
+    "Phô mai",
+    "Xúc xích",
+    "Tép khô",
+    "Hành lá cắt nhỏ",
+    "Rượu trắng",
+    "Hành phi",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Pickled egg",
+    "Cheese",
+    "Sausage",
+    "Dried shrimp",
+    "Chopped Green Onion",
+    "White wine",
+    "Garlic Fried",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bap nep",
+    "bap my",
+    "trung muoi",
+    "pho mai",
+    "xuc xich",
+    "tep kho",
+    "hanh la cat nho",
+    "ruou trang",
+    "hanh phi",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

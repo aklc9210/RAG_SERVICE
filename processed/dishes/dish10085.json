@@ -1,0 +1,66 @@
+{
+  "id": "dish10085",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10085.json",
+  "name_vi": "Sữa chua dâu tằm - yaourt dâu tằm",
+  "name_en": "",
+  "name_normalized": "sua chua dau tam yaourt dau tam",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Dâu tằm"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Sữa chua"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01971",
+    "ingre06174",
+    "ingre06088",
+    "ingre06147",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Dâu tằm",
+    "Sữa đặc",
+    "Sữa chua",
+    "Sữa tươi không đường",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Raisin",
+    "Sweetened Condensed Milk",
+    "Yogurt",
+    "Fat-free Milk",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau tam",
+    "sua dac",
+    "sua chua",
+    "sua tuoi khong duong",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua chua dau tam - yaourt dau tam",
+      "new": "sua chua dau tam yaourt dau tam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

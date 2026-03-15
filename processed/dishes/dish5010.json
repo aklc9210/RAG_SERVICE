@@ -1,0 +1,83 @@
+{
+  "id": "dish5010",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5010.json",
+  "name_vi": "Gà xào nấm hương",
+  "name_en": "",
+  "name_normalized": "ga xao nam huong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm hương khô",
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nấm hương tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Bột bắp",
+    "Rượu Thiệu Hưng"
+  ],
+  "ingredient_ids": [
+    "ingre04913",
+    "ingre08103",
+    "ingre07063",
+    "ingre02485",
+    "ingre02080",
+    "ingre00564",
+    "ingre02673",
+    "ingre04916",
+    "ingre05571"
+  ],
+  "ingredient_names_vi": [
+    "Nấm hương khô",
+    "Ức gà",
+    "Tỏi",
+    "Gừng",
+    "Dầu hào",
+    "Bột bắp",
+    "Hành lá",
+    "Nấm hương tươi",
+    "Rượu Thiệu Hưng"
+  ],
+  "ingredient_names_en": [
+    "Dried Shiitake Mushrooms",
+    "Chicken breast",
+    "Garlic",
+    "Ginger",
+    "Soy sauce",
+    "Corn starch",
+    "Scallion",
+    "Fresh Shiitake Mushrooms",
+    "Saffron"
+  ],
+  "ingredient_names_normalized": [
+    "nam huong kho",
+    "uc ga",
+    "toi",
+    "gung",
+    "dau hao",
+    "bot bap",
+    "hanh la",
+    "nam huong tuoi",
+    "ruou thieu hung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

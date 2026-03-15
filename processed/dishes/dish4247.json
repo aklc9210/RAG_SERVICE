@@ -1,0 +1,122 @@
+{
+  "id": "dish4247",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4247.json",
+  "name_vi": "Sườn nướng tảng bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "suon nuong tang bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn nguyên tảng",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Tỏi",
+    "Tương cà",
+    "Tương ớt",
+    "Giấm trắng",
+    "Xì dầu",
+    "Dầu hào",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05887",
+    "ingre06147",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre06984",
+    "ingre07028",
+    "ingre02370",
+    "ingre04124",
+    "ingre07381",
+    "ingre02080",
+    "ingre00815",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn nguyên tảng",
+    "Sữa tươi không đường",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Tương cà",
+    "Tương ớt",
+    "Giấm trắng",
+    "Mật ong",
+    "Xì dầu",
+    "Dầu hào",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Fat-free Milk",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Miso酱",
+    "Hot Sauce",
+    "White vinegar",
+    "Honey",
+    "Soy Sauce",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon nguyen tang",
+    "sua tuoi khong duong",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "tuong ca",
+    "tuong ot",
+    "giam trang",
+    "mat ong",
+    "xi dau",
+    "dau hao",
+    "bot ngu vi huong",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "dish6774",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6774.json",
+  "name_vi": "Da heo chiên giòn tẩm sa tế",
+  "name_en": "",
+  "name_normalized": "da heo chien gion tam sa te",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Da heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sa tế",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01935",
+    "ingre05621",
+    "ingre07071",
+    "ingre02124",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Da heo",
+    "Sa tế",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork skin",
+    "Fish sauce",
+    "Minced Garlic",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "da heo",
+    "sa te",
+    "toi bam",
+    "dau an",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

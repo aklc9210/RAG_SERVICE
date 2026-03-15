@@ -1,0 +1,73 @@
+{
+  "id": "dish9357",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9357.json",
+  "name_vi": "chân giò hun khói cuộn xoài xanh",
+  "name_en": "",
+  "name_normalized": "chan gio hun khoi cuon xoai xanh",
+  "category": "an vat",
+  "main_ingredients": [
+    "Chân giò hun khói",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Húng quế",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Sốt Mayonnaise"
+  ],
+  "ingredient_ids": [
+    "ingre01234",
+    "ingre07342",
+    "ingre01419",
+    "ingre02862",
+    "ingre01079",
+    "ingre02673",
+    "ingre05970"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò hun khói",
+    "Xoài xanh",
+    "Cà rốt",
+    "Húng quế",
+    "Chanh",
+    "Hành lá",
+    "Sốt Mayonnaise"
+  ],
+  "ingredient_names_en": [
+    "Smoked pork belly",
+    "Green mango",
+    "Carrot",
+    "Cinnamon basil",
+    "Lemon",
+    "Scallion",
+    "Mayonnaise Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio hun khoi",
+    "xoai xanh",
+    "ca rot",
+    "hung que",
+    "chanh",
+    "hanh la",
+    "sot mayonnaise"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

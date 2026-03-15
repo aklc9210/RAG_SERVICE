@@ -1,0 +1,57 @@
+{
+  "id": "dish3507",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3507.json",
+  "name_vi": "Mì mug",
+  "name_en": "",
+  "name_normalized": "mi mug",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mì mug"
+  ],
+  "secondary_ingredients": [
+    "Thịt bò",
+    "Rong biển khô",
+    "Hành tím"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre03979",
+    "ingre06300",
+    "ingre05457",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Mì mug",
+    "Thịt bò",
+    "Rong biển khô",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Beef",
+    "Kelp Powder",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "mi mug",
+    "thit bo",
+    "rong bien kho",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

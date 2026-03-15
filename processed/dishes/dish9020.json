@@ -1,0 +1,124 @@
+{
+  "id": "dish9020",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9020.json",
+  "name_vi": "Bánh tráng thịt bằm mỡ hành",
+  "name_en": "",
+  "name_normalized": "banh trang thit bam mo hanh",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Thịt heo băm sẵn",
+    "Hành lá",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Ruốc",
+    "Xoài xanh",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Muối tôm",
+    "Hành phi",
+    "Tỏi",
+    "Sa tế",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre06405",
+    "ingre02673",
+    "ingre07781",
+    "ingre07057",
+    "ingre03786",
+    "ingre02730",
+    "ingre05483",
+    "ingre07063",
+    "ingre05621",
+    "ingre07342",
+    "ingre05359",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Thịt heo băm sẵn",
+    "Hành lá",
+    "Đậu phộng",
+    "Tắc",
+    "Muối tôm",
+    "Hành phi",
+    "Ruốc",
+    "Tỏi",
+    "Sa tế",
+    "Xoài xanh",
+    "Rau răm",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Ground Pork",
+    "Scallion",
+    "Peanut",
+    "Tamarind",
+    "Shrimp salt",
+    "Garlic Fried",
+    "Fish cake",
+    "Garlic",
+    "Fish sauce",
+    "Green mango",
+    "Vietnamese coriander",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "thit heo bam san",
+    "hanh la",
+    "dau phong",
+    "tac",
+    "muoi tom",
+    "hanh phi",
+    "ruoc",
+    "toi",
+    "sa te",
+    "xoai xanh",
+    "rau ram",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

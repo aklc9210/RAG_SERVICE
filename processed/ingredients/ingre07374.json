@@ -1,0 +1,29 @@
+{
+  "id": "ingre07374",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07374.json",
+  "name_vi": "xà lách/ cà chua/ dưa leo",
+  "name_en": "Leaf Lettuce/Tomato/Cucumber",
+  "name_normalized": "xa lach ca chua dua leo",
+  "synonyms": [
+    "xà lách lá",
+    "cà chua đỏ",
+    "dưa chuột"
+  ],
+  "synonyms_normalized": [
+    "xa lach la",
+    "ca chua do",
+    "dua chuot"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach/ ca chua/ dua leo",
+      "new": "xa lach ca chua dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

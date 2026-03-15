@@ -1,0 +1,107 @@
+{
+  "id": "dish8724",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8724.json",
+  "name_vi": "Khô heo bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "kho heo bang noi chien khong dau",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Tương ớt",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Bột nghệ",
+    "Bột cà ri",
+    "Bột gia vị bò kho",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre02093",
+    "ingre07028",
+    "ingre02080",
+    "ingre04381",
+    "ingre00804",
+    "ingre00631",
+    "ingre00657",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Dầu màu điều",
+    "Tương ớt",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Bột nghệ",
+    "Bột cà ri",
+    "Bột gia vị bò kho",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Peanut-colored food coloring",
+    "Hot Sauce",
+    "Soy sauce",
+    "Five-Spice Powder",
+    "Turmeric Powder",
+    "Curry powder",
+    "Beef Soup Seasoning Powder",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "toi",
+    "ot",
+    "sa",
+    "dau mau dieu",
+    "tuong ot",
+    "dau hao",
+    "ngu vi huong",
+    "bot nghe",
+    "bot ca ri",
+    "bot gia vi bo kho",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

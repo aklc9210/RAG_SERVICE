@@ -1,0 +1,118 @@
+{
+  "id": "dish3485",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3485.json",
+  "name_vi": "Bún sứa tươi",
+  "name_en": "",
+  "name_normalized": "bun sua tuoi",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sứa tươi",
+    "Thịt heo",
+    "Tôm",
+    "Bún tươi"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Cà chua",
+    "Bánh đa",
+    "Hành lá",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Mắm ruốc",
+    "Nước cốt chanh",
+    "Muối",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06075",
+    "ingre06398",
+    "ingre06930",
+    "ingre00357",
+    "ingre07791",
+    "ingre01354",
+    "ingre07063",
+    "ingre08026",
+    "ingre04151",
+    "ingre00218",
+    "ingre02673",
+    "ingre05385",
+    "ingre04538",
+    "ingre03746",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Sứa tươi",
+    "Thịt heo",
+    "Tôm",
+    "Bún tươi",
+    "Đậu phộng rang",
+    "Cà chua",
+    "Tỏi",
+    "Ớt hiểm",
+    "Mắm ruốc",
+    "Bánh đa",
+    "Hành lá",
+    "Rau thơm",
+    "Nước cốt chanh",
+    "Muối",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Fresh jellyfish",
+    "Pork",
+    "Shrimp",
+    "Fresh noodle",
+    "Roasted Peanut",
+    "Tomato",
+    "Garlic",
+    "Hot pepper",
+    "Shrimp paste",
+    "Rice noodle",
+    "Scallion",
+    "Basil",
+    "Lemon juice",
+    "Salt",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi",
+    "thit heo",
+    "tom",
+    "bun tuoi",
+    "dau phong rang",
+    "ca chua",
+    "toi",
+    "ot hiem",
+    "mam ruoc",
+    "banh da",
+    "hanh la",
+    "rau thom",
+    "nuoc cot chanh",
+    "muoi",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

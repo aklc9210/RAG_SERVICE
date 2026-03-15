@@ -1,0 +1,29 @@
+{
+  "id": "ingre02727",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02727.json",
+  "name_vi": "hành ngò/ cải non/ xà lách/ rau thơm/ bắp chuối bào",
+  "name_en": "Green Onion/Chinese Cabbage/Lettuce/Green Onion/Green Papaya Shreds",
+  "name_normalized": "hanh ngo cai non xa lach rau thom bap chuoi bao",
+  "synonyms": [
+    "cải thảo",
+    "rau mùi",
+    "rau húng"
+  ],
+  "synonyms_normalized": [
+    "cai thao",
+    "rau mui",
+    "rau hung"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh ngo/ cai non/ xa lach/ rau thom/ bap chuoi bao",
+      "new": "hanh ngo cai non xa lach rau thom bap chuoi bao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

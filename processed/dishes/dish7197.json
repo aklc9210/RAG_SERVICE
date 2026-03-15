@@ -1,0 +1,72 @@
+{
+  "id": "dish7197",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7197.json",
+  "name_vi": "Tôm ủ muối",
+  "name_en": "",
+  "name_normalized": "tom u muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Bơ đậu phộng",
+    "Sả"
+  ],
+  "seasonings": [
+    "Muối hạt",
+    "Bột năng",
+    "Tỏi băm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre03760",
+    "ingre00416",
+    "ingre00849",
+    "ingre05900",
+    "ingre07071",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Muối hạt",
+    "Bơ đậu phộng",
+    "Bột năng",
+    "Sả",
+    "Tỏi băm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Fenugreek seeds",
+    "Peanut butter",
+    "Cornstarch",
+    "Lemongrass",
+    "Minced Garlic",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "muoi hat",
+    "bo dau phong",
+    "bot nang",
+    "sa",
+    "toi bam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

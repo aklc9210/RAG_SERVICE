@@ -1,0 +1,78 @@
+{
+  "id": "dish6485",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6485.json",
+  "name_vi": "Bào ngư chiên bơ",
+  "name_en": "",
+  "name_normalized": "bao ngu chien bo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bào ngư",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Chanh",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00057",
+    "ingre00367",
+    "ingre07063",
+    "ingre02485",
+    "ingre04694",
+    "ingre01079",
+    "ingre02673",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Bào ngư",
+    "Bơ",
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Chanh",
+    "Hành lá",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Abalone",
+    "Butter",
+    "Garlic",
+    "Ginger",
+    "Fish Sauce",
+    "Lemon",
+    "Scallion",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bao ngu",
+    "bo",
+    "toi",
+    "gung",
+    "nuoc mam",
+    "chanh",
+    "hanh la",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

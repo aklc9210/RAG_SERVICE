@@ -1,0 +1,31 @@
+{
+  "id": "ingre04548",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04548.json",
+  "name_vi": "nước cốt chanh:",
+  "name_en": "Lemon juice:",
+  "name_normalized": "nuoc cot chanh",
+  "synonyms": [
+    "trái chanh tươi",
+    "chua chua",
+    "nước chua"
+  ],
+  "synonyms_normalized": [
+    "trai chanh tuoi",
+    "chua chua",
+    "nuoc chua"
+  ],
+  "category": "beverages",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc cot chanh:",
+      "new": "nuoc cot chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

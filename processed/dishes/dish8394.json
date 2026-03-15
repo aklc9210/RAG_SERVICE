@@ -1,0 +1,91 @@
+{
+  "id": "dish8394",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8394.json",
+  "name_vi": "Bạch tuộc lắc",
+  "name_en": "",
+  "name_normalized": "bach tuoc lac",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Cóc non"
+  ],
+  "secondary_ingredients": [
+    "Tép sấy",
+    "Lá ổi",
+    "Hành tím",
+    "Ngò gai",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre01711",
+    "ingre06921",
+    "ingre07977",
+    "ingre02485",
+    "ingre03556",
+    "ingre02768",
+    "ingre04329",
+    "ingre02020"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Cóc non",
+    "Tép sấy",
+    "Ớt bột",
+    "Gừng",
+    "Lá ổi",
+    "Hành tím",
+    "Ngò gai",
+    "Dưa leo"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Frogspawn",
+    "Dried shrimp",
+    "Chili powder",
+    "Ginger",
+    "Lemon basil",
+    "Shallot",
+    "Culantro",
+    "Cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "coc non",
+    "tep say",
+    "ot bot",
+    "gung",
+    "la oi",
+    "hanh tim",
+    "ngo gai",
+    "dua leo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

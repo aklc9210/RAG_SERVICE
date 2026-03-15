@@ -1,0 +1,106 @@
+{
+  "id": "dish3242",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3242.json",
+  "name_vi": "Nước sốt bánh mì heo quay",
+  "name_en": "",
+  "name_normalized": "nuoc sot banh mi heo quay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chân ngò rí"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Tương cà",
+    "Tương ớt",
+    "Xì dầu Lee Kum Kee",
+    "Nước tương",
+    "Hành tím phi",
+    "Hành tỏi phi",
+    "Dầu hào",
+    "Pate gan",
+    "Rượu mai quế lộ",
+    "Sốt mayonnaise",
+    "Sốt ướp thịt nướng",
+    "Tiêu xay/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01242",
+    "ingre06984",
+    "ingre07028",
+    "ingre07384",
+    "ingre04790",
+    "ingre02789",
+    "ingre02820",
+    "ingre02080",
+    "ingre05021",
+    "ingre06174",
+    "ingre05543",
+    "ingre05970",
+    "ingre06038",
+    "ingre06646"
+  ],
+  "ingredient_names_vi": [
+    "Chân ngò rí",
+    "Tương cà",
+    "Tương ớt",
+    "Xì dầu Lee Kum Kee",
+    "Nước tương",
+    "Hành tím phi",
+    "Hành tỏi phi",
+    "Dầu hào",
+    "Pate gan",
+    "Sữa đặc",
+    "Rượu mai quế lộ",
+    "Sốt mayonnaise",
+    "Sốt ướp thịt nướng",
+    "Tiêu xay/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pennyroyal",
+    "Miso酱",
+    "Hot Sauce",
+    "Soy Sauce Lee Kum Kee",
+    "Soy Sauce",
+    "Green onion fried",
+    "Garlic and Shallot Fried",
+    "Pâté Gan",
+    "Sweetened Condensed Milk",
+    "Sake Plum Ginger Wine",
+    "Mayonnaise Sauce",
+    "Barbecue marinade",
+    "Ground pepper/soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "chan ngo ri",
+    "tuong ca",
+    "tuong ot",
+    "xi dau lee kum kee",
+    "nuoc tuong",
+    "hanh tim phi",
+    "hanh toi phi",
+    "dau hao",
+    "pate gan",
+    "sua dac",
+    "ruou mai que lo",
+    "sot mayonnaise",
+    "sot uop thit nuong",
+    "tieu xay bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ bot ngot",
+      "new": "tieu xay bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ bột ngọt"
+    }
+  ]
+}

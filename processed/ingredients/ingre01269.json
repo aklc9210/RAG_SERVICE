@@ -1,0 +1,29 @@
+{
+  "id": "ingre01269",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01269.json",
+  "name_vi": "chả cá - mỡ phần - tôm khô",
+  "name_en": "Fish Cake - Fat Part - Dried Shrimp",
+  "name_normalized": "cha ca mo phan tom kho",
+  "synonyms": [
+    "chả cá lóc",
+    "tôm sú",
+    "mỡ heo"
+  ],
+  "synonyms_normalized": [
+    "cha ca loc",
+    "tom su",
+    "mo heo"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha ca - mo phan - tom kho",
+      "new": "cha ca mo phan tom kho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

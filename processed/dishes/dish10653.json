@@ -1,0 +1,81 @@
+{
+  "id": "dish10653",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10653.json",
+  "name_vi": "thịt xông khói cuốn đậu xanh bằng lò nướng",
+  "name_en": "",
+  "name_normalized": "thit xong khoi cuon dau xanh bang lo nuong",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Đậu xanh tươi.",
+    "Thịt xông khói"
+  ],
+  "secondary_ingredients": [
+    "Bơ đã làm chảy"
+  ],
+  "seasonings": [
+    "Nước tương vừa đủ",
+    "Tiêu đen",
+    "Tỏi xay",
+    "Đường nâu."
+  ],
+  "ingredient_ids": [
+    "ingre07853",
+    "ingre06523",
+    "ingre04810",
+    "ingre00413",
+    "ingre06653",
+    "ingre07113",
+    "ingre07631"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh tươi.",
+    "Thịt xông khói",
+    "Nước tương vừa đủ",
+    "Bơ đã làm chảy",
+    "Tiêu đen",
+    "Tỏi xay",
+    "Đường nâu."
+  ],
+  "ingredient_names_en": [
+    "Green beans",
+    "Smoked Pork",
+    "Soy Sauce",
+    "Melted Butter",
+    "Black Pepper",
+    "Garlic Paste",
+    "Brown Sugar."
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh tuoi",
+    "thit xong khoi",
+    "nuoc tuong vua du",
+    "bo da lam chay",
+    "tieu den",
+    "toi xay",
+    "duong nau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau xanh tuoi.",
+      "new": "dau xanh tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đậu xanh tươi."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong nau.",
+      "new": "duong nau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường nâu."
+    }
+  ]
+}

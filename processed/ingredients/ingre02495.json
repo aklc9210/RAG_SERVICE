@@ -1,0 +1,29 @@
+{
+  "id": "ingre02495",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02495.json",
+  "name_vi": "gừng băm/tỏi băm/hành băm",
+  "name_en": "Ginger minced/蒜末/洋葱末",
+  "name_normalized": "gung bam toi bam hanh bam",
+  "synonyms": [
+    "gừng băm",
+    "tỏi băm",
+    "hành băm"
+  ],
+  "synonyms_normalized": [
+    "gung bam",
+    "toi bam",
+    "hanh bam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gung bam/toi bam/hanh bam",
+      "new": "gung bam toi bam hanh bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

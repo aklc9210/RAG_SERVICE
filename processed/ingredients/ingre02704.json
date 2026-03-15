@@ -1,0 +1,27 @@
+{
+  "id": "ingre02704",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02704.json",
+  "name_vi": "hành lá/ rau mùi",
+  "name_en": "Chives",
+  "name_normalized": "hanh la rau mui",
+  "synonyms": [
+    "rau thơm",
+    "mùi tàu"
+  ],
+  "synonyms_normalized": [
+    "rau thom",
+    "mui tau"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ rau mui",
+      "new": "hanh la rau mui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

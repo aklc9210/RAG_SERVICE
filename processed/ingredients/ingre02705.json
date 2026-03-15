@@ -1,0 +1,29 @@
+{
+  "id": "ingre02705",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02705.json",
+  "name_vi": "hành lá/ rau mùi/ ớt",
+  "name_en": "Chives/Thai Basil/Pepper Chili",
+  "name_normalized": "hanh la rau mui ot",
+  "synonyms": [
+    "rau thơm",
+    "tỏi non",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "rau thom",
+    "toi non",
+    "ot chuong"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ rau mui/ ot",
+      "new": "hanh la rau mui ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

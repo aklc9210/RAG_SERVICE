@@ -1,0 +1,77 @@
+{
+  "id": "dish6446",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6446.json",
+  "name_vi": "Chả cá thác lác bọc củ quả chiên giòn",
+  "name_en": "",
+  "name_normalized": "cha ca thac lac boc cu qua chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá thác lác nạo"
+  ],
+  "secondary_ingredients": [
+    "Bắp non",
+    "Bông cải xanh",
+    "Giò"
+  ],
+  "seasonings": [
+    "Lá chanh bắc/lá chúc băm nhỏ",
+    "Ớt sừng cắt nhỏ",
+    "Cà rốt",
+    "Bột xù"
+  ],
+  "ingredient_ids": [
+    "ingre01629",
+    "ingre03373",
+    "ingre00485",
+    "ingre00282",
+    "ingre08061",
+    "ingre01419",
+    "ingre00995",
+    "ingre02345"
+  ],
+  "ingredient_names_vi": [
+    "Cá thác lác nạo",
+    "Lá chanh bắc/lá chúc băm nhỏ",
+    "Bắp non",
+    "Bông cải xanh",
+    "Ớt sừng cắt nhỏ",
+    "Cà rốt",
+    "Bột xù",
+    "Giò"
+  ],
+  "ingredient_names_en": [
+    "Prawn minced",
+    "Lemongrass",
+    "Green corn",
+    "Cabbage",
+    "Hot pepper diced",
+    "Carrot",
+    "Crumbed",
+    "Pork sausage"
+  ],
+  "ingredient_names_normalized": [
+    "ca thac lac nao",
+    "la chanh bac la chuc bam nho",
+    "bap non",
+    "bong cai xanh",
+    "ot sung cat nho",
+    "ca rot",
+    "bot xu",
+    "gio"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la chanh bac/la chuc bam nho",
+      "new": "la chanh bac la chuc bam nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá chanh bắc/lá chúc băm nhỏ"
+    }
+  ]
+}

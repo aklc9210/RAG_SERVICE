@@ -1,0 +1,70 @@
+{
+  "id": "dish1831",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1831.json",
+  "name_vi": "Bánh gạo nướng Nhật Bản - Mitarashi dango",
+  "name_en": "",
+  "name_normalized": "banh gao nuong nhat ban mitarashi dango",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Bột bắp",
+    "Rượu mirin",
+    "Nước tương",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre00564",
+    "ingre05545",
+    "ingre04790",
+    "ingre07583",
+    "ingre03746",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Bột bắp",
+    "Rượu mirin",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Corn starch",
+    "Mirin Wine",
+    "Soy Sauce",
+    "Sugar",
+    "Salt",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "bot bap",
+    "ruou mirin",
+    "nuoc tuong",
+    "duong",
+    "muoi",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh gao nuong nhat ban - mitarashi dango",
+      "new": "banh gao nuong nhat ban mitarashi dango",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

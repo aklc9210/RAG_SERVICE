@@ -1,0 +1,71 @@
+{
+  "id": "dish1186",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1186.json",
+  "name_vi": "Bánh phu thê (xu xê) Đình Bảng",
+  "name_en": "",
+  "name_normalized": "banh phu the xu xe dinh bang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang tím"
+  ],
+  "secondary_ingredients": [
+    "Hoa đậu biếc khô",
+    "Cơm dừa",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03200",
+    "ingre00849",
+    "ingre02611",
+    "ingre01728",
+    "ingre03929",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang tím",
+    "Bột năng",
+    "Hoa đậu biếc khô",
+    "Cơm dừa",
+    "Mè rang",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Purple potato",
+    "Cornstarch",
+    "Indigo flower dried",
+    "Coconut Rice",
+    "Roasted Sesame Seeds",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang tim",
+    "bot nang",
+    "hoa dau biec kho",
+    "com dua",
+    "me rang",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh phu the (xu xe) dinh bang",
+      "new": "banh phu the xu xe dinh bang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

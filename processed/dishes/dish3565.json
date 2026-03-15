@@ -1,0 +1,57 @@
+{
+  "id": "dish3565",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3565.json",
+  "name_vi": "Kem dứa sữa",
+  "name_en": "",
+  "name_normalized": "kem dua sua",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Dứa/ thơm"
+  ],
+  "secondary_ingredients": [
+    "Fresh Cream",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02161",
+    "ingre02216",
+    "ingre06174",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Dứa/ thơm",
+    "Fresh Cream",
+    "Sữa đặc",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Fresh cream",
+    "Sweetened Condensed Milk",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dua thom",
+    "fresh cream",
+    "sua dac",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dua/ thom",
+      "new": "dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dứa/ thơm"
+    }
+  ]
+}

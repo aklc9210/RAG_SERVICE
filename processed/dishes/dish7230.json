@@ -1,0 +1,108 @@
+{
+  "id": "dish7230",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7230.json",
+  "name_vi": "Đậu hũ chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "dau hu chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Bột bắp",
+    "Bột nghệ",
+    "Bột tỏi",
+    "Tiêu",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Tỏi phi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre00791",
+    "ingre00668",
+    "ingre00564",
+    "ingre00804",
+    "ingre00978",
+    "ingre06612",
+    "ingre07028",
+    "ingre04694",
+    "ingre07583",
+    "ingre02673",
+    "ingre04343",
+    "ingre07096",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Bột mì đa dụng",
+    "Bột gạo",
+    "Bột bắp",
+    "Bột nghệ",
+    "Bột tỏi",
+    "Tiêu",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Hành lá",
+    "Ngò rí",
+    "Tỏi phi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "All-purpose flour",
+    "Rice flour",
+    "Corn starch",
+    "Turmeric Powder",
+    "Garlic powder",
+    "Pepper",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Scallion",
+    "Parsley",
+    "Garlic flakes",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "bot mi da dung",
+    "bot gao",
+    "bot bap",
+    "bot nghe",
+    "bot toi",
+    "tieu",
+    "tuong ot",
+    "nuoc mam",
+    "duong",
+    "hanh la",
+    "ngo ri",
+    "toi phi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

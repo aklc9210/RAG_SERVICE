@@ -1,0 +1,112 @@
+{
+  "id": "dish3943",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3943.json",
+  "name_vi": "Gà nướng kiểu Pháp",
+  "name_en": "",
+  "name_normalized": "ga nuong kieu phap",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Khoai tây",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tây tím",
+    "Ngò rí",
+    "Cỏ xạ hương",
+    "Húng quế tây",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Bột ớt",
+    "Giấm ăn",
+    "Bơ thực vật",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03222",
+    "ingre01419",
+    "ingre00282",
+    "ingre02741",
+    "ingre02761",
+    "ingre07063",
+    "ingre04343",
+    "ingre01827",
+    "ingre02864",
+    "ingre01015",
+    "ingre02377",
+    "ingre02120",
+    "ingre00407",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Khoai tây",
+    "Cà rốt",
+    "Bông cải xanh",
+    "Hành tây",
+    "Hành tây tím",
+    "Tỏi",
+    "Ngò rí",
+    "Cỏ xạ hương",
+    "Húng quế tây",
+    "Bột ớt",
+    "Giấm ăn",
+    "Dầu ô liu",
+    "Bơ thực vật",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Potato",
+    "Carrot",
+    "Cabbage",
+    "Onion",
+    "Purple onion",
+    "Garlic",
+    "Parsley",
+    "Mugwort",
+    "Culantro",
+    "Red Pepper Powder",
+    "vinegar",
+    "Olive oil",
+    "Vegetable oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "khoai tay",
+    "ca rot",
+    "bong cai xanh",
+    "hanh tay",
+    "hanh tay tim",
+    "toi",
+    "ngo ri",
+    "co xa huong",
+    "hung que tay",
+    "bot ot",
+    "giam an",
+    "dau o liu",
+    "bo thuc vat",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish4441",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4441.json",
+  "name_vi": "Thỏ xào rau má",
+  "name_en": "",
+  "name_normalized": "tho xao rau ma",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt thỏ",
+    "Rau má đồng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Vừng rang"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột ngũ vị hương",
+    "Sa tế",
+    "Rượu trắng",
+    "Muối",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06504",
+    "ingre05297",
+    "ingre05900",
+    "ingre07063",
+    "ingre00815",
+    "ingre05621",
+    "ingre05574",
+    "ingre07300",
+    "ingre03746",
+    "ingre02995",
+    "ingre04694",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thỏ",
+    "Rau má đồng",
+    "Sả",
+    "Tỏi",
+    "Bột ngũ vị hương",
+    "Sa tế",
+    "Rượu trắng",
+    "Vừng rang",
+    "Muối",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rabbit肉",
+    "Lamb's-quarters",
+    "Lemongrass",
+    "Garlic",
+    "Five-Spice Powder",
+    "Fish sauce",
+    "White wine",
+    "Roasted Sesame Seeds",
+    "Salt",
+    "Seasoning",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit tho",
+    "rau ma dong",
+    "sa",
+    "toi",
+    "bot ngu vi huong",
+    "sa te",
+    "ruou trang",
+    "vung rang",
+    "muoi",
+    "hat nem",
+    "nuoc mam",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

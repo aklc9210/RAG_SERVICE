@@ -1,0 +1,115 @@
+{
+  "id": "dish5044",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5044.json",
+  "name_vi": "Ức gà xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "uc ga xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ức gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Thơm"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Trứng gà",
+    "Tương cà/ Giấm trắng",
+    "Bột bắp/ bột mì",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre08008",
+    "ingre08014",
+    "ingre02741",
+    "ingre01354",
+    "ingre06247",
+    "ingre06823",
+    "ingre06989",
+    "ingre00571",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre02124",
+    "ingre02485"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Hành tây",
+    "Cà chua",
+    "Thơm",
+    "Trứng gà",
+    "Tương cà/ Giấm trắng",
+    "Bột bắp/ bột mì",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn",
+    "Gừng"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Green Bell Pepper",
+    "Red bell pepper",
+    "Onion",
+    "Tomato",
+    "Basil",
+    "Chicken egg",
+    "Miso/White Vinegar",
+    "Cornstarch/FLOUR",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "Cooking oil",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "ot chuong xanh",
+    "ot chuong do",
+    "hanh tay",
+    "ca chua",
+    "thom",
+    "trung ga",
+    "tuong ca giam trang",
+    "bot bap bot mi",
+    "muoi",
+    "duong",
+    "tieu",
+    "dau an",
+    "gung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tuong ca/ giam trang",
+      "new": "tuong ca giam trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tương cà/ Giấm trắng"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot bap/ bot mi",
+      "new": "bot bap bot mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột bắp/ bột mì"
+    }
+  ]
+}

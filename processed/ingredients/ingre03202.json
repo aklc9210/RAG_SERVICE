@@ -1,0 +1,29 @@
+{
+  "id": "ingre03202",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03202.json",
+  "name_vi": "khoai lang vàng/khoai lang mật",
+  "name_en": "Sweet Potato/Yellow Sweet Potato",
+  "name_normalized": "khoai lang vang khoai lang mat",
+  "synonyms": [
+    "khoai lang",
+    "lang",
+    "khoai lang tím nhạt"
+  ],
+  "synonyms_normalized": [
+    "khoai lang",
+    "lang",
+    "khoai lang tim nhat"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "khoai lang vang/khoai lang mat",
+      "new": "khoai lang vang khoai lang mat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

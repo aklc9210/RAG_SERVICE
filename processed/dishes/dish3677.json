@@ -1,0 +1,82 @@
+{
+  "id": "dish3677",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3677.json",
+  "name_vi": "Kem trà đào cam sả",
+  "name_en": "",
+  "name_normalized": "kem tra dao cam sa",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Đào tươi"
+  ],
+  "secondary_ingredients": [
+    "Hạt điều sống",
+    "Vỏ cam bào",
+    "Sả",
+    "Trà đào túi lọc"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước cốt cam",
+    "Bột năng",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre07515",
+    "ingre07583",
+    "ingre04533",
+    "ingre00849",
+    "ingre03070",
+    "ingre04554",
+    "ingre07247",
+    "ingre05900",
+    "ingre06749"
+  ],
+  "ingredient_names_vi": [
+    "Đào tươi",
+    "Đường",
+    "Nước cốt cam",
+    "Bột năng",
+    "Hạt điều sống",
+    "Nước cốt dừa",
+    "Vỏ cam bào",
+    "Sả",
+    "Trà đào túi lọc"
+  ],
+  "ingredient_names_en": [
+    "Fresh peach",
+    "Sugar",
+    "Orange juice",
+    "Cornstarch",
+    "Live almonds",
+    "Coconut milk",
+    "Orange peel shredded",
+    "Lemongrass",
+    "Dried Peach Tea Bags"
+  ],
+  "ingredient_names_normalized": [
+    "dao tuoi",
+    "duong",
+    "nuoc cot cam",
+    "bot nang",
+    "hat dieu song",
+    "nuoc cot dua",
+    "vo cam bao",
+    "sa",
+    "tra dao tui loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

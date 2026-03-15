@@ -1,0 +1,88 @@
+{
+  "id": "dish2875",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2875.json",
+  "name_vi": "bánh khoai tây chiên giòn nhân thịt phô mai",
+  "name_en": "",
+  "name_normalized": "banh khoai tay chien gion nhan thit pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Thịt nạc heo xay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Trứng gà ta",
+    "Phô mai mozzarella que"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Muối",
+    "Tiêu",
+    "Bột mì",
+    "Bột chiên xù"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00849",
+    "ingre06465",
+    "ingre02768",
+    "ingre06837",
+    "ingre03746",
+    "ingre06612",
+    "ingre00759",
+    "ingre00609",
+    "ingre05099"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bột năng",
+    "Thịt nạc heo xay",
+    "Hành tím",
+    "Trứng gà ta",
+    "Muối",
+    "Tiêu",
+    "Bột mì",
+    "Bột chiên xù",
+    "Phô mai mozzarella que"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Cornstarch",
+    "Ground Pork Tenderloin",
+    "Shallot",
+    "Chicken egg",
+    "Salt",
+    "Pepper",
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Mozzarella stick"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bot nang",
+    "thit nac heo xay",
+    "hanh tim",
+    "trung ga ta",
+    "muoi",
+    "tieu",
+    "bot mi",
+    "bot chien xu",
+    "pho mai mozzarella que"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

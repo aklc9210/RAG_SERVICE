@@ -1,0 +1,58 @@
+{
+  "id": "dish10652",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10652.json",
+  "name_vi": "Gà chay cuộn nấm",
+  "name_en": "",
+  "name_normalized": "ga chay cuon nam",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Tàu hủ ky"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô",
+    "Hành boa-rô"
+  ],
+  "seasonings": [
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre06883",
+    "ingre04966",
+    "ingre02650",
+    "ingre05574"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hủ ky",
+    "Nấm đông cô",
+    "Hành boa-rô",
+    "Rượu trắng"
+  ],
+  "ingredient_names_en": [
+    "Tofu cheese",
+    "Mushroom",
+    "Garlic",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky",
+    "nam dong co",
+    "hanh boa ro",
+    "ruou trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa-ro",
+      "new": "hanh boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa-rô"
+    }
+  ]
+}

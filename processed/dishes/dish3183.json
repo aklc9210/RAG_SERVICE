@@ -1,0 +1,97 @@
+{
+  "id": "dish3183",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3183.json",
+  "name_vi": "Bánh canh cua biển nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "banh canh cua bien nuoc cot dua",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Tôm sú",
+    "Cua biển",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre04554",
+    "ingre06953",
+    "ingre01335",
+    "ingre02673",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Tôm sú",
+    "Cua biển",
+    "Hành lá",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Coconut milk",
+    "Shrimp",
+    "Scallion",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "Seasoning",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "nuoc cot dua",
+    "tom su",
+    "cua bien",
+    "hanh la",
+    "dau an",
+    "duong",
+    "muoi",
+    "tieu",
+    "hat nem",
+    "nuoc mam"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

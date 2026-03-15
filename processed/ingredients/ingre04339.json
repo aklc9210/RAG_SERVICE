@@ -1,0 +1,25 @@
+{
+  "id": "ingre04339",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04339.json",
+  "name_vi": "ngò gai/rau quế",
+  "name_en": "Cilantro",
+  "name_normalized": "ngo gai rau que",
+  "synonyms": [
+    "ngải cứu"
+  ],
+  "synonyms_normalized": [
+    "ngai cuu"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo gai/rau que",
+      "new": "ngo gai rau que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

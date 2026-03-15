@@ -1,0 +1,53 @@
+{
+  "id": "dish2922",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2922.json",
+  "name_vi": "Bánh su kem vỏ giòn",
+  "name_en": "",
+  "name_normalized": "banh su kem vo gion",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa tươi",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột trà xanh",
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre06144",
+    "ingre00382",
+    "ingre00961",
+    "ingre06801"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Sữa tươi",
+    "Bơ lạt",
+    "Bột trà xanh",
+    "Trứng"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Fresh Milk",
+    "Butter",
+    "Green tea powder",
+    "Egg"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "sua tuoi",
+    "bo lat",
+    "bot tra xanh",
+    "trung"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

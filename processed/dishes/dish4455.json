@@ -1,0 +1,98 @@
+{
+  "id": "dish4455",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4455.json",
+  "name_vi": "Chuột xào lăn",
+  "name_en": "",
+  "name_normalized": "chuot xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sả cây",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Thịt chuột",
+    "Sa tế cay",
+    "Tỏi",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06340",
+    "ingre05909",
+    "ingre04304",
+    "ingre04622",
+    "ingre05622",
+    "ingre02768",
+    "ingre07063",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt chuột",
+    "Sả cây",
+    "Nghệ",
+    "Nước dừa",
+    "Sa tế cay",
+    "Hành tím",
+    "Tỏi",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rat meat",
+    "Fresh Ginger",
+    "Turmeric",
+    "Coconut water",
+    "Hot chili paste",
+    "Shallot",
+    "Garlic",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit chuot",
+    "sa cay",
+    "nghe",
+    "nuoc dua",
+    "sa te cay",
+    "hanh tim",
+    "toi",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

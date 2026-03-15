@@ -1,0 +1,106 @@
+{
+  "id": "dish8384",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8384.json",
+  "name_vi": "Gỏi mực sả kiệu",
+  "name_en": "",
+  "name_normalized": "goi muc sa kieu",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Mực ống",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Củ kiệu",
+    "Sả",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Giấm",
+    "Rượu nếp",
+    "Gừng",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre01868",
+    "ingre01419",
+    "ingre01895",
+    "ingre05900",
+    "ingre08055",
+    "ingre02355",
+    "ingre05359",
+    "ingre05554",
+    "ingre02485",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Củ cải trắng",
+    "Cà rốt",
+    "Củ kiệu",
+    "Sả",
+    "Ớt sừng",
+    "Giấm",
+    "Rau răm",
+    "Rượu nếp",
+    "Gừng",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "White radish",
+    "Carrot",
+    "Pickled radish",
+    "Lemongrass",
+    "Hot pepper",
+    "Vinegar",
+    "Vietnamese coriander",
+    "Rice wine",
+    "Ginger",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "cu cai trang",
+    "ca rot",
+    "cu kieu",
+    "sa",
+    "ot sung",
+    "giam",
+    "rau ram",
+    "ruou nep",
+    "gung",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

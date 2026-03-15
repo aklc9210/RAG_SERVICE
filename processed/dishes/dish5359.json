@@ -1,0 +1,77 @@
+{
+  "id": "dish5359",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5359.json",
+  "name_vi": "Mì udon xào nấm thịt",
+  "name_en": "",
+  "name_normalized": "mi udon xao nam thit",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì udon",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô khô",
+    "Hành tây",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Sốt ớt Hàn",
+    "Tỏi băm",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04011",
+    "ingre06275",
+    "ingre04969",
+    "ingre02741",
+    "ingre06046",
+    "ingre02094",
+    "ingre07071",
+    "ingre06660"
+  ],
+  "ingredient_names_vi": [
+    "Mì udon",
+    "Thịt ba chỉ",
+    "Nấm đông cô khô",
+    "Hành tây",
+    "Sốt ớt Hàn",
+    "Dầu mè",
+    "Tỏi băm",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Udon noodles",
+    "Pork belly",
+    "Dried shiitake mushrooms",
+    "Onion",
+    "Hot Sauce",
+    "Sesame oil",
+    "Minced Garlic",
+    "Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "mi udon",
+    "thit ba chi",
+    "nam dong co kho",
+    "hanh tay",
+    "sot ot han",
+    "dau me",
+    "toi bam",
+    "tieu hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ hạt nêm"
+    }
+  ]
+}

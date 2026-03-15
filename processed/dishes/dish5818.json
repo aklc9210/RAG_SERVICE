@@ -1,0 +1,116 @@
+{
+  "id": "dish5818",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5818.json",
+  "name_vi": "Thịt kho mắm tép",
+  "name_en": "",
+  "name_normalized": "thit kho mam tep",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Mắm tép",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre07966",
+    "ingre04157",
+    "ingre04622",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Ớt",
+    "Mắm tép",
+    "Nước dừa",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Pepper",
+    "Shrimp paste",
+    "Coconut water",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "ot",
+    "mam tep",
+    "nuoc dua",
+    "dau hao",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

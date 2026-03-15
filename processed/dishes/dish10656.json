@@ -1,0 +1,70 @@
+{
+  "id": "dish10656",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10656.json",
+  "name_vi": "Bánh cuốn không cần pha bột, bằng nồi hấp",
+  "name_en": "",
+  "name_normalized": "banh cuon khong can pha bot bang noi hap",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nấm mèo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04930"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nấm mèo"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Mushroom"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nam meo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cuon khong can pha bot, bang noi hap",
+      "new": "banh cuon khong can pha bot bang noi hap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

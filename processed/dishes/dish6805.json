@@ -1,0 +1,100 @@
+{
+  "id": "dish6805",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6805.json",
+  "name_vi": "Thịt ba rọi chiên giòn lắc sả tắc",
+  "name_en": "",
+  "name_normalized": "thit ba roi chien gion lac sa tac",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Tắc",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Lá chanh",
+    "Muối tôm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre07057",
+    "ingre05900",
+    "ingre07966",
+    "ingre01079",
+    "ingre03370",
+    "ingre04343",
+    "ingre03786",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Tắc",
+    "Sả",
+    "Ớt",
+    "Chanh",
+    "Lá chanh",
+    "Ngò rí",
+    "Muối tôm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Tamarind",
+    "Lemongrass",
+    "Pepper",
+    "Lemon",
+    "Lime leaf",
+    "Parsley",
+    "Shrimp salt",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "tac",
+    "sa",
+    "ot",
+    "chanh",
+    "la chanh",
+    "ngo ri",
+    "muoi tom",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

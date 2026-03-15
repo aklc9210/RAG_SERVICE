@@ -1,0 +1,97 @@
+{
+  "id": "dish0433",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0433.json",
+  "name_vi": "Cá bông lau nấu măng chua",
+  "name_en": "",
+  "name_normalized": "ca bong lau nau mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá bông lau",
+    "Măng chua",
+    "Me chua"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Ngò om/ ngò gai/ ngò rí"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Giấm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01473",
+    "ingre04072",
+    "ingre03644",
+    "ingre01354",
+    "ingre07966",
+    "ingre02774",
+    "ingre07071",
+    "ingre04342",
+    "ingre04694",
+    "ingre02355",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá bông lau",
+    "Măng chua",
+    "Me chua",
+    "Cà chua",
+    "Ớt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Ngò om/ ngò gai/ ngò rí",
+    "Nước mắm",
+    "Giấm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Milkfish",
+    "Pickled bamboo shoots",
+    "Mint",
+    "Tomato",
+    "Pepper",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Parsley",
+    "Fish Sauce",
+    "Vinegar",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca bong lau",
+    "mang chua",
+    "me chua",
+    "ca chua",
+    "ot",
+    "hanh tim bam",
+    "toi bam",
+    "ngo om ngo gai ngo ri",
+    "nuoc mam",
+    "giam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo om/ ngo gai/ ngo ri",
+      "new": "ngo om ngo gai ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò om/ ngò gai/ ngò rí"
+    }
+  ]
+}

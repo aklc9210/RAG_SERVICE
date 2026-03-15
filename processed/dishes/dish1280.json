@@ -1,0 +1,73 @@
+{
+  "id": "dish1280",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1280.json",
+  "name_vi": "Bánh sắn Phú Thọ",
+  "name_en": "",
+  "name_normalized": "banh san phu tho",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai mì",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03204",
+    "ingre07836",
+    "ingre06275",
+    "ingre02768",
+    "ingre02124",
+    "ingre03385",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khoai mì",
+    "Đậu xanh",
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Dầu ăn",
+    "Lá chuối",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Green beans",
+    "Pork belly",
+    "Shallot",
+    "Cooking oil",
+    "Banana leaf",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mi",
+    "dau xanh",
+    "thit ba chi",
+    "hanh tim",
+    "dau an",
+    "la chuoi",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

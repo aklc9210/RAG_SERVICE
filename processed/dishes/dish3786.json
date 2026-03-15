@@ -1,0 +1,103 @@
+{
+  "id": "dish3786",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3786.json",
+  "name_vi": "Sườn nướng BBQ bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "suon nuong bbq bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn thăn heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tương ớt",
+    "Dầu hào",
+    "Sốt ướp BBQ",
+    "Rượu trắng",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05897",
+    "ingre02768",
+    "ingre07063",
+    "ingre04124",
+    "ingre07028",
+    "ingre02080",
+    "ingre02094",
+    "ingre06035",
+    "ingre05574",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn thăn heo",
+    "Hành tím",
+    "Tỏi",
+    "Mật ong",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu mè",
+    "Sốt ướp BBQ",
+    "Rượu trắng",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Shallot",
+    "Garlic",
+    "Honey",
+    "Hot Sauce",
+    "Soy sauce",
+    "Sesame oil",
+    "Barbecue marinade",
+    "White wine",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon than heo",
+    "hanh tim",
+    "toi",
+    "mat ong",
+    "tuong ot",
+    "dau hao",
+    "dau me",
+    "sot uop bbq",
+    "ruou trang",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish0194",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0194.json",
+  "name_vi": "Cách nấu canh gà Nghệ An",
+  "name_en": "",
+  "name_normalized": "cach nau canh ga nghe an",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gà",
+    "Hành tăm"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Mùi tàu"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Gừng",
+    "Ớt",
+    "Giấm",
+    "Nghệ băm",
+    "Muối",
+    "Bột canh",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre02813",
+    "ingre03370",
+    "ingre02485",
+    "ingre05359",
+    "ingre04057",
+    "ingre07966",
+    "ingre02355",
+    "ingre04305",
+    "ingre03746",
+    "ingre00587",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Hành tăm",
+    "Lá chanh",
+    "Gừng",
+    "Rau răm",
+    "Mùi tàu",
+    "Ớt",
+    "Giấm",
+    "Nghệ băm",
+    "Muối",
+    "Bột canh",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Garlic",
+    "Lime leaf",
+    "Ginger",
+    "Vietnamese coriander",
+    "Chinese herb",
+    "Pepper",
+    "Vinegar",
+    "Ginger paste",
+    "Salt",
+    "Cornstarch",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "hanh tam",
+    "la chanh",
+    "gung",
+    "rau ram",
+    "mui tau",
+    "ot",
+    "giam",
+    "nghe bam",
+    "muoi",
+    "bot canh",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

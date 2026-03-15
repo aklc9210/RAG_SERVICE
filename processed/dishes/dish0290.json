@@ -1,0 +1,73 @@
+{
+  "id": "dish0290",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0290.json",
+  "name_vi": "Canh đinh lăng tôm",
+  "name_en": "",
+  "name_normalized": "canh dinh lang tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Lá đinh lăng"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre02151",
+    "ingre02673",
+    "ingre03554",
+    "ingre04694",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Dứa",
+    "Hành lá",
+    "Lá đinh lăng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pineapple",
+    "Scallion",
+    "Echinacea Leaf",
+    "Fish Sauce",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "dua",
+    "hanh la",
+    "la dinh lang",
+    "nuoc mam",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

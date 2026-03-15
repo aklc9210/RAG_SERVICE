@@ -1,0 +1,29 @@
+{
+  "id": "ingre02533",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02533.json",
+  "name_vi": "gừng/tỏi",
+  "name_en": "Ginger/蒜",
+  "name_normalized": "gung toi",
+  "synonyms": [
+    "tỏi băm",
+    "tỏi non",
+    "tỏi tây"
+  ],
+  "synonyms_normalized": [
+    "toi bam",
+    "toi non",
+    "toi tay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gung/toi",
+      "new": "gung toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

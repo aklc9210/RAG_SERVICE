@@ -1,0 +1,27 @@
+{
+  "id": "ingre05336",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05336.json",
+  "name_vi": "rau ngổ",
+  "name_en": "Culantro",
+  "name_normalized": "rau ngo",
+  "synonyms": [
+    "ngải cứu"
+  ],
+  "synonyms_normalized": [
+    "ngai cuu"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

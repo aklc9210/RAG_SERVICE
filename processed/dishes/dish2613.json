@@ -1,0 +1,106 @@
+{
+  "id": "dish2613",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2613.json",
+  "name_vi": "Pizza tinh than tre - Pizza Gorgonzola",
+  "name_en": "",
+  "name_normalized": "pizza tinh than tre pizza gorgonzola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men instant",
+    "Tinh than tre"
+  ],
+  "secondary_ingredients": [
+    "Nước ấm",
+    "Dầu olive",
+    "Olive đen",
+    "Mật ong",
+    "Bơ lạt",
+    "Phô mai Mozzarella",
+    "Phô mai xanh",
+    "Phô mai Parmesan bào vụn",
+    "Hạnh nhân lát"
+  ],
+  "seasonings": [
+    "Bột mì số 13",
+    "Muối",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre03746",
+    "ingre03672",
+    "ingre06610",
+    "ingre04879",
+    "ingre02106",
+    "ingre05009",
+    "ingre04124",
+    "ingre07063",
+    "ingre00382",
+    "ingre05092",
+    "ingre05120",
+    "ingre05106",
+    "ingre02892"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Muối",
+    "Men instant",
+    "Tinh than tre",
+    "Nước ấm",
+    "Dầu olive",
+    "Olive đen",
+    "Mật ong",
+    "Tỏi",
+    "Bơ lạt",
+    "Phô mai Mozzarella",
+    "Phô mai xanh",
+    "Phô mai Parmesan bào vụn",
+    "Hạnh nhân lát"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Salt",
+    "Instant yeast",
+    "Bamboo charcoal",
+    "Warm water",
+    "Olive oil",
+    "Black Olive",
+    "Honey",
+    "Garlic",
+    "Butter",
+    "Mozzarella cheese",
+    "Green cheese",
+    "Parmesan cheese shredded",
+    "Almond slice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "muoi",
+    "men instant",
+    "tinh than tre",
+    "nuoc am",
+    "dau olive",
+    "olive den",
+    "mat ong",
+    "toi",
+    "bo lat",
+    "pho mai mozzarella",
+    "pho mai xanh",
+    "pho mai parmesan bao vun",
+    "hanh nhan lat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pizza tinh than tre - pizza gorgonzola",
+      "new": "pizza tinh than tre pizza gorgonzola",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

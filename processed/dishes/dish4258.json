@@ -1,0 +1,77 @@
+{
+  "id": "dish4258",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4258.json",
+  "name_vi": "Ốc hương nướng mọi đút lò giấy bạc",
+  "name_en": "",
+  "name_normalized": "oc huong nuong moi dut lo giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ốc hương",
+    "Soda"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07944",
+    "ingre05773",
+    "ingre05900",
+    "ingre07966",
+    "ingre07057",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc hương",
+    "Soda",
+    "Sả",
+    "Ớt",
+    "Tắc",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Soda",
+    "Lemongrass",
+    "Pepper",
+    "Tamarind",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc huong",
+    "soda",
+    "sa",
+    "ot",
+    "tac",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

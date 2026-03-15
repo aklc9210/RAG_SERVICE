@@ -1,0 +1,93 @@
+{
+  "id": "dish4776",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4776.json",
+  "name_vi": "miến xào thịt bằm",
+  "name_en": "",
+  "name_normalized": "mien xao thit bam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Miến",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Thịt băm",
+    "Cần tàu",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hành tím băm",
+    "Dầu hào",
+    "Tỏi băm",
+    "Sa tế"
+  ],
+  "ingredient_ids": [
+    "ingre03710",
+    "ingre01419",
+    "ingre04930",
+    "ingre02673",
+    "ingre06329",
+    "ingre01809",
+    "ingre02774",
+    "ingre02741",
+    "ingre02080",
+    "ingre07071",
+    "ingre05621"
+  ],
+  "ingredient_names_vi": [
+    "Miến",
+    "Cà rốt",
+    "Nấm mèo",
+    "Hành lá",
+    "Thịt băm",
+    "Cần tàu",
+    "Hành tím băm",
+    "Hành tây",
+    "Dầu hào",
+    "Tỏi băm",
+    "Sa tế"
+  ],
+  "ingredient_names_en": [
+    "Rice vermicelli",
+    "Carrot",
+    "Mushroom",
+    "Scallion",
+    "Minced meat",
+    "Chinese cabbage",
+    "Chopped Scallion",
+    "Onion",
+    "Soy sauce",
+    "Minced Garlic",
+    "Fish sauce"
+  ],
+  "ingredient_names_normalized": [
+    "mien",
+    "ca rot",
+    "nam meo",
+    "hanh la",
+    "thit bam",
+    "can tau",
+    "hanh tim bam",
+    "hanh tay",
+    "dau hao",
+    "toi bam",
+    "sa te"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

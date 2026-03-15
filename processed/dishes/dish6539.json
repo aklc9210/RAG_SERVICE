@@ -1,0 +1,72 @@
+{
+  "id": "dish6539",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6539.json",
+  "name_vi": "Chả cuốn lá lốt chay",
+  "name_en": "",
+  "name_normalized": "cha cuon la lot chay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tàu hũ",
+    "Mộc nhĩ"
+  ],
+  "secondary_ingredients": [
+    "Mùi tàu",
+    "Dầu đậu nành"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Hạt nêm chay",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06867",
+    "ingre04179",
+    "ingre03461",
+    "ingre04057",
+    "ingre02138",
+    "ingre02997",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hũ",
+    "Mộc nhĩ",
+    "Lá lốt",
+    "Mùi tàu",
+    "Dầu đậu nành",
+    "Hạt nêm chay",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Mushroom",
+    "Cinnamon Leaf",
+    "Chinese herb",
+    "Soybean oil",
+    "Vegetarian Seasoning",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu",
+    "moc nhi",
+    "la lot",
+    "mui tau",
+    "dau dau nanh",
+    "hat nem chay",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

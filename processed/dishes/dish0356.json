@@ -1,0 +1,87 @@
+{
+  "id": "dish0356",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0356.json",
+  "name_vi": "Canh khổ qua rừng nhồi cá thác lác",
+  "name_en": "",
+  "name_normalized": "canh kho qua rung nhoi ca thac lac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khổ qua rừng",
+    "Chả cá thác lác",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03273",
+    "ingre01280",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua rừng",
+    "Chả cá thác lác",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Fish cake",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "MSG",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua rung",
+    "cha ca thac lac",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "bot ngot",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

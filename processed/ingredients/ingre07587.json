@@ -1,0 +1,29 @@
+{
+  "id": "ingre07587",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07587.json",
+  "name_vi": "đường - tiêu - hạt nêm - ớt",
+  "name_en": "Sugar - Salt - Seasoning - Chili",
+  "name_normalized": "duong tieu hat nem ot",
+  "synonyms": [
+    "đường - đường phèn",
+    "đường kính",
+    "đường mía tiêu - tiêu xanh"
+  ],
+  "synonyms_normalized": [
+    "duong duong phen",
+    "duong kinh",
+    "duong mia tieu tieu xanh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong - tieu - hat nem - ot",
+      "new": "duong tieu hat nem ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

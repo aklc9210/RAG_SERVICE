@@ -1,0 +1,73 @@
+{
+  "id": "dish7432",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7432.json",
+  "name_vi": "Thịt xông khói cuộn xúc xích áp chảo",
+  "name_en": "",
+  "name_normalized": "thit xong khoi cuon xuc xich ap chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt xông khói",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [
+    "Đậu cô-ve",
+    "Rong biển",
+    "Bơ"
+  ],
+  "seasonings": [
+    "Tương cà",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre06523",
+    "ingre07396",
+    "ingre07733",
+    "ingre05448",
+    "ingre00367",
+    "ingre06984",
+    "ingre04790"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xông khói",
+    "Xúc xích",
+    "Đậu cô-ve",
+    "Rong biển",
+    "Bơ",
+    "Tương cà",
+    "Nước tương"
+  ],
+  "ingredient_names_en": [
+    "Smoked Pork",
+    "Sausage",
+    "Green beans",
+    "Kelp",
+    "Butter",
+    "Miso酱",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit xong khoi",
+    "xuc xich",
+    "dau co ve",
+    "rong bien",
+    "bo",
+    "tuong ca",
+    "nuoc tuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau co-ve",
+      "new": "dau co ve",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đậu cô-ve"
+    }
+  ]
+}

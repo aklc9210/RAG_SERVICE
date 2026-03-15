@@ -1,0 +1,29 @@
+{
+  "id": "ingre03829",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03829.json",
+  "name_vi": "muối/đường/hạt nêm",
+  "name_en": "Salt/Sugar/Soy Sauce",
+  "name_normalized": "muoi duong hat nem",
+  "synonyms": [
+    "đường kính",
+    "đường phèn",
+    "hạt nêmInstant Seasoning Powder"
+  ],
+  "synonyms_normalized": [
+    "duong kinh",
+    "duong phen",
+    "hat neminstant seasoning powder"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/duong/hat nem",
+      "new": "muoi duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

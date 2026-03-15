@@ -1,0 +1,97 @@
+{
+  "id": "dish3738",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3738.json",
+  "name_vi": "Vịt nướng chao bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "vit nuong chao bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Chao trắng"
+  ],
+  "secondary_ingredients": [
+    "Mạch nha",
+    "Dưa cải chua",
+    "Đậu bắp",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Sa tế cay",
+    "Tỏi ớt băm",
+    "Đường thốt nốt",
+    "Bột xá xíu",
+    "Dầu hào",
+    "Đường/ nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre01109",
+    "ingre05622",
+    "ingre04109",
+    "ingre07118",
+    "ingre02006",
+    "ingre07729",
+    "ingre07647",
+    "ingre00994",
+    "ingre02080",
+    "ingre06174",
+    "ingre07682"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Chao trắng",
+    "Sa tế cay",
+    "Mạch nha",
+    "Tỏi ớt băm",
+    "Dưa cải chua",
+    "Đậu bắp",
+    "Đường thốt nốt",
+    "Bột xá xíu",
+    "Dầu hào",
+    "Sữa đặc",
+    "Đường/ nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "White cheese",
+    "Hot chili paste",
+    "Molasses",
+    "Minced chili garlic",
+    "Pickled Chinese cabbage",
+    "Green beans",
+    "Cane Sugar",
+    "Fermented soybean powder",
+    "Soy sauce",
+    "Sweetened Condensed Milk",
+    "Sugar/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "chao trang",
+    "sa te cay",
+    "mach nha",
+    "toi ot bam",
+    "dua cai chua",
+    "dau bap",
+    "duong thot not",
+    "bot xa xiu",
+    "dau hao",
+    "sua dac",
+    "duong nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ nuoc mam",
+      "new": "duong nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ nước mắm"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish7693",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7693.json",
+  "name_vi": "Cá trắm hấp bia",
+  "name_en": "",
+  "name_normalized": "ca tram hap bia",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá trắm",
+    "Bia tươi",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Nghệ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Bột canh",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01641",
+    "ingre00035",
+    "ingre01354",
+    "ingre06233",
+    "ingre04304",
+    "ingre02673",
+    "ingre04790",
+    "ingre00587",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá trắm",
+    "Bia tươi",
+    "Cà chua",
+    "Thì là",
+    "Nghệ",
+    "Hành lá",
+    "Nước tương",
+    "Bột canh",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Fresh beer",
+    "Tomato",
+    "Dill",
+    "Turmeric",
+    "Scallion",
+    "Soy Sauce",
+    "Cornstarch",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca tram",
+    "bia tuoi",
+    "ca chua",
+    "thi la",
+    "nghe",
+    "hanh la",
+    "nuoc tuong",
+    "bot canh",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

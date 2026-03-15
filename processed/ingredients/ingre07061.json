@@ -1,0 +1,25 @@
+{
+  "id": "ingre07061",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07061.json",
+  "name_vi": "tắc/ quất chín",
+  "name_en": "Tangerine",
+  "name_normalized": "tac quat chin",
+  "synonyms": [
+    "quất đỏ"
+  ],
+  "synonyms_normalized": [
+    "quat do"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tac/ quat chin",
+      "new": "tac quat chin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

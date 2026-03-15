@@ -1,0 +1,62 @@
+{
+  "id": "dish4230",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4230.json",
+  "name_vi": "Cà rốt nướng mật ong",
+  "name_en": "",
+  "name_normalized": "ca rot nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Rau mùi tây",
+    "Mật ong",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01419",
+    "ingre05311",
+    "ingre04124",
+    "ingre00382",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Cà rốt",
+    "Rau mùi tây",
+    "Mật ong",
+    "Bơ lạt",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Cilantro",
+    "Honey",
+    "Butter",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ca rot",
+    "rau mui tay",
+    "mat ong",
+    "bo lat",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

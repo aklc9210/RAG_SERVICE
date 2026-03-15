@@ -1,0 +1,92 @@
+{
+  "id": "dish5626",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5626.json",
+  "name_vi": "Cá kho trám",
+  "name_en": "",
+  "name_normalized": "ca kho tram",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nheo sông",
+    "Thịt mỡ heo",
+    "Trám"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước hàng"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01592",
+    "ingre06446",
+    "ingre06781",
+    "ingre02768",
+    "ingre07966",
+    "ingre04636",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá nheo sông",
+    "Thịt mỡ heo",
+    "Trám",
+    "Hành tím",
+    "Ớt",
+    "Nước hàng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike conger",
+    "Pork Fat",
+    "Plum",
+    "Shallot",
+    "Pepper",
+    "Fish sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nheo song",
+    "thit mo heo",
+    "tram",
+    "hanh tim",
+    "ot",
+    "nuoc hang",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

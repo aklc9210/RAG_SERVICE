@@ -1,0 +1,73 @@
+{
+  "id": "dish1080",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1080.json",
+  "name_vi": "Bánh mì mini nhân kem trứng",
+  "name_en": "",
+  "name_normalized": "banh mi mini nhan kem trung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Lòng đỏ trứng",
+    "Men instant",
+    "Sữa tươi",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột làm bánh mì",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00723",
+    "ingre00382",
+    "ingre03583",
+    "ingre03672",
+    "ingre06144",
+    "ingre06592",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột làm bánh mì",
+    "Bơ lạt",
+    "Lòng đỏ trứng",
+    "Men instant",
+    "Sữa tươi",
+    "Tinh chất vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Bread Flour",
+    "Butter",
+    "Egg yolk",
+    "Instant yeast",
+    "Fresh Milk",
+    "Vanilla extract",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot lam banh mi",
+    "bo lat",
+    "long do trung",
+    "men instant",
+    "sua tuoi",
+    "tinh chat vani",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

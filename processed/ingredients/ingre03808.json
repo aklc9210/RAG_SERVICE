@@ -1,0 +1,29 @@
+{
+  "id": "ingre03808",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03808.json",
+  "name_vi": "muối/ bột ngọt/ nước mắm",
+  "name_en": "Salt/MSG/Soy sauce",
+  "name_normalized": "muoi bot ngot nuoc mam",
+  "synonyms": [
+    "bột nêm",
+    "nước chấm",
+    "hạt nêm"
+  ],
+  "synonyms_normalized": [
+    "bot nem",
+    "nuoc cham",
+    "hat nem"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ bot ngot/ nuoc mam",
+      "new": "muoi bot ngot nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

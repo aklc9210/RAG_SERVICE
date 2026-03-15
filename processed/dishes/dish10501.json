@@ -1,0 +1,43 @@
+{
+  "id": "dish10501",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10501.json",
+  "name_vi": "Sữa chua Hy Lạp",
+  "name_en": "",
+  "name_normalized": "sua chua hy lap",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Sữa chua"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre06147",
+    "ingre06174",
+    "ingre06088"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Sữa chua"
+  ],
+  "ingredient_names_en": [
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Yogurt"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi khong duong",
+    "sua dac",
+    "sua chua"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

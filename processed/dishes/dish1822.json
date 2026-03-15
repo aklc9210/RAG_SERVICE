@@ -1,0 +1,68 @@
+{
+  "id": "dish1822",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1822.json",
+  "name_vi": "Bánh yến mạch",
+  "name_en": "",
+  "name_normalized": "banh yen mach",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tôm",
+    "Hành lá",
+    "Lòng đỏ trứng gà",
+    "Yến mạch cán dẹt",
+    "Dầu oliu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt"
+  ],
+  "ingredient_ids": [
+    "ingre01419",
+    "ingre06930",
+    "ingre02673",
+    "ingre03584",
+    "ingre07456",
+    "ingre02104"
+  ],
+  "ingredient_names_vi": [
+    "Cà rốt",
+    "Tôm",
+    "Hành lá",
+    "Lòng đỏ trứng gà",
+    "Yến mạch cán dẹt",
+    "Dầu oliu"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Shrimp",
+    "Scallion",
+    "Egg yolk",
+    "Oat flakes",
+    "Olive oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca rot",
+    "tom",
+    "hanh la",
+    "long do trung ga",
+    "yen mach can det",
+    "dau oliu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

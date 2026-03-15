@@ -1,0 +1,114 @@
+{
+  "id": "dish0126",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0126.json",
+  "name_vi": "Canh rong biển cà chua",
+  "name_en": "",
+  "name_normalized": "canh rong bien ca chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rong biển khô",
+    "Cà chua",
+    "Đậu hũ non"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Hành lá",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05457",
+    "ingre01354",
+    "ingre07752",
+    "ingre06233",
+    "ingre02673",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre02124",
+    "ingre02997",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Rong biển khô",
+    "Cà chua",
+    "Đậu hũ non",
+    "Thì là",
+    "Hành lá",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Kelp Powder",
+    "Tomato",
+    "Firm Tofu",
+    "Dill",
+    "Scallion",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "rong bien kho",
+    "ca chua",
+    "dau hu non",
+    "thi la",
+    "hanh la",
+    "hanh tay",
+    "toi",
+    "ot",
+    "chanh",
+    "dau an",
+    "hat nem chay",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

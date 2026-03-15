@@ -1,0 +1,27 @@
+{
+  "id": "ingre03947",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03947.json",
+  "name_vi": "mè/vừng rang",
+  "name_en": "Roasted sesame seeds",
+  "name_normalized": "me vung rang",
+  "synonyms": [
+    "mè rang",
+    "vừng rang"
+  ],
+  "synonyms_normalized": [
+    "me rang",
+    "vung rang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "me/vung rang",
+      "new": "me vung rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

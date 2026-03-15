@@ -1,0 +1,98 @@
+{
+  "id": "dish6205",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6205.json",
+  "name_vi": "Vịt kho sả",
+  "name_en": "",
+  "name_normalized": "vit kho sa",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả cây"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Nước mắm",
+    "Nước màu thốt nốt",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre05909",
+    "ingre01079",
+    "ingre04694",
+    "ingre04681",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Sả cây",
+    "Chanh",
+    "Nước mắm",
+    "Nước màu thốt nốt",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Fresh Ginger",
+    "Lemon",
+    "Fish Sauce",
+    "Red food coloring",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "ot",
+    "hanh tim",
+    "toi",
+    "sa cay",
+    "chanh",
+    "nuoc mam",
+    "nuoc mau thot not",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

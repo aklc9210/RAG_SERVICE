@@ -1,0 +1,104 @@
+{
+  "id": "dish8044",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8044.json",
+  "name_vi": "Salad tôm cần tây sốt mayonnaise",
+  "name_en": "",
+  "name_normalized": "salad tom can tay sot mayonnaise",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tôm tươi",
+    "Cần tây",
+    "Thì là"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Sốt mayonnaise",
+    "Chanh vàng",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Mù tạt Dijon",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre01812",
+    "ingre06233",
+    "ingre05970",
+    "ingre01096",
+    "ingre02768",
+    "ingre07063",
+    "ingre04538",
+    "ingre04051",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Cần tây",
+    "Thì là",
+    "Sốt mayonnaise",
+    "Chanh vàng",
+    "Hành tím",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Mù tạt Dijon",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Celery",
+    "Dill",
+    "Mayonnaise Sauce",
+    "Lemon",
+    "Shallot",
+    "Garlic",
+    "Lemon juice",
+    "Dijon mustard",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "can tay",
+    "thi la",
+    "sot mayonnaise",
+    "chanh vang",
+    "hanh tim",
+    "toi",
+    "nuoc cot chanh",
+    "mu tat dijon",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

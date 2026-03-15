@@ -1,0 +1,88 @@
+{
+  "id": "dish3506",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3506.json",
+  "name_vi": "Mì Kitsune Udon",
+  "name_en": "",
+  "name_normalized": "mi kitsune udon",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Mì udon",
+    "Đậu hũ chiên",
+    "Kombu"
+  ],
+  "secondary_ingredients": [
+    "Naturo maki",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Rượu mirin",
+    "Nước tương",
+    "Đường",
+    "Muối kosher",
+    "Katsuobushi"
+  ],
+  "ingredient_ids": [
+    "ingre04011",
+    "ingre07742",
+    "ingre03297",
+    "ingre04295",
+    "ingre02673",
+    "ingre05545",
+    "ingre04790",
+    "ingre07583",
+    "ingre03769",
+    "ingre03119"
+  ],
+  "ingredient_names_vi": [
+    "Mì udon",
+    "Đậu hũ chiên",
+    "Kombu",
+    "Naturo maki",
+    "Hành lá",
+    "Rượu mirin",
+    "Nước tương",
+    "Đường",
+    "Muối kosher",
+    "Katsuobushi"
+  ],
+  "ingredient_names_en": [
+    "Udon noodles",
+    "Fried Tofu",
+    "Kombu",
+    "Nori",
+    "Scallion",
+    "Mirin Wine",
+    "Soy Sauce",
+    "Sugar",
+    "Kosher Salt",
+    "Katsuobushi -> Dried bonito"
+  ],
+  "ingredient_names_normalized": [
+    "mi udon",
+    "dau hu chien",
+    "kombu",
+    "naturo maki",
+    "hanh la",
+    "ruou mirin",
+    "nuoc tuong",
+    "duong",
+    "muoi kosher",
+    "katsuobushi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

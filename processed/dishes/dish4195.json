@@ -1,0 +1,81 @@
+{
+  "id": "dish4195",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4195.json",
+  "name_vi": "Xiên rau củ nướng kiểu Âu Mỹ",
+  "name_en": "",
+  "name_normalized": "xien rau cu nuong kieu au my",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Nấm mỡ",
+    "Bí ngòi"
+  ],
+  "secondary_ingredients": [
+    "Cà chua bi",
+    "Hành tím loại to",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Bột hành",
+    "Bột tỏi",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04945",
+    "ingre00237",
+    "ingre07999",
+    "ingre01355",
+    "ingre02785",
+    "ingre02120",
+    "ingre00682",
+    "ingre00978",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mỡ",
+    "Bí ngòi",
+    "Ớt chuông",
+    "Cà chua bi",
+    "Hành tím loại to",
+    "Dầu ô liu",
+    "Bột hành",
+    "Bột tỏi",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fried mushroom",
+    "Eggplant",
+    "Bell pepper",
+    "Tomato",
+    "Spring Onion",
+    "Olive oil",
+    "Garlic Powder",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "nam mo",
+    "bi ngoi",
+    "ot chuong",
+    "ca chua bi",
+    "hanh tim loai to",
+    "dau o liu",
+    "bot hanh",
+    "bot toi",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

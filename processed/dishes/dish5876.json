@@ -1,0 +1,122 @@
+{
+  "id": "dish5876",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5876.json",
+  "name_vi": "Cà ri bí đỏ chay",
+  "name_en": "",
+  "name_normalized": "ca ri bi do chay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Bắp non",
+    "Đậu hũ chiên",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Nước",
+    "Hành boa rô",
+    "Sả",
+    "Lá húng quế"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Nước cốt dừa",
+    "Bột cà ri",
+    "Ớt bột",
+    "Muối",
+    "Đường",
+    "Hạt nêm chay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre00485",
+    "ingre07742",
+    "ingre04936",
+    "ingre05905",
+    "ingre04554",
+    "ingre04626",
+    "ingre04490",
+    "ingre00631",
+    "ingre07977",
+    "ingre02645",
+    "ingre05900",
+    "ingre03439",
+    "ingre03746",
+    "ingre07583",
+    "ingre02997",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Bắp non",
+    "Đậu hũ chiên",
+    "Nấm mèo khô",
+    "Sả băm",
+    "Nước cốt dừa",
+    "Nước dừa tươi",
+    "Nước",
+    "Bột cà ri",
+    "Ớt bột",
+    "Hành boa rô",
+    "Sả",
+    "Lá húng quế",
+    "Muối",
+    "Đường",
+    "Hạt nêm chay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Green corn",
+    "Fried Tofu",
+    "Dried cat's ear mushroom",
+    "Garlic Paste",
+    "Coconut milk",
+    "Coconut water",
+    "Water",
+    "Curry powder",
+    "Chili powder",
+    "Garlic",
+    "Lemongrass",
+    "Rosemary",
+    "Salt",
+    "Sugar",
+    "Vegetarian Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "bap non",
+    "dau hu chien",
+    "nam meo kho",
+    "sa bam",
+    "nuoc cot dua",
+    "nuoc dua tuoi",
+    "nuoc",
+    "bot ca ri",
+    "ot bot",
+    "hanh boa ro",
+    "sa",
+    "la hung que",
+    "muoi",
+    "duong",
+    "hat nem chay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish8683",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8683.json",
+  "name_vi": "Bò bít tết sốt rượu vang",
+  "name_en": "",
+  "name_normalized": "bo bit tet sot ruou vang",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Cỏ xạ hương",
+    "Bơ chảy",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Rượu vang đỏ",
+    "Muối/Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre00759",
+    "ingre05592",
+    "ingre01827",
+    "ingre00373",
+    "ingre00382",
+    "ingre03827",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Bột mì",
+    "Rượu vang đỏ",
+    "Cỏ xạ hương",
+    "Bơ chảy",
+    "Bơ lạt",
+    "Muối/Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Wheat Flour",
+    "Red wine",
+    "Mugwort",
+    "Melted Butter",
+    "Butter",
+    "Ground Salt and Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "bot mi",
+    "ruou vang do",
+    "co xa huong",
+    "bo chay",
+    "bo lat",
+    "muoi tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu xay"
+    }
+  ]
+}

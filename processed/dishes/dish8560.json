@@ -1,0 +1,87 @@
+{
+  "id": "dish8560",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8560.json",
+  "name_vi": "Gân bò ngâm giấm",
+  "name_en": "",
+  "name_normalized": "gan bo ngam giam",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Gân bò",
+    "Sả",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Đường",
+    "Giấm",
+    "Tỏi",
+    "Ớt",
+    "Muối",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre05900",
+    "ingre02741",
+    "ingre07583",
+    "ingre04665",
+    "ingre02355",
+    "ingre07063",
+    "ingre07966",
+    "ingre03746",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Sả",
+    "Hành tây",
+    "Đường",
+    "Nước lọc",
+    "Giấm",
+    "Tỏi",
+    "Ớt",
+    "Muối",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Lemongrass",
+    "Onion",
+    "Sugar",
+    "Tap water",
+    "Vinegar",
+    "Garlic",
+    "Pepper",
+    "Salt",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "sa",
+    "hanh tay",
+    "duong",
+    "nuoc loc",
+    "giam",
+    "toi",
+    "ot",
+    "muoi",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

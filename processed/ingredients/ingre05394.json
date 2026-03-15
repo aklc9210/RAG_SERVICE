@@ -1,0 +1,27 @@
+{
+  "id": "ingre05394",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05394.json",
+  "name_vi": "rau thơm/ hành lá",
+  "name_en": "Basil",
+  "name_normalized": "rau thom hanh la",
+  "synonyms": [
+    "hành lá",
+    "hành ngò"
+  ],
+  "synonyms_normalized": [
+    "hanh la",
+    "hanh ngo"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau thom/ hanh la",
+      "new": "rau thom hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

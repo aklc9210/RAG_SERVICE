@@ -1,0 +1,92 @@
+{
+  "id": "dish4274",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4274.json",
+  "name_vi": "Trứng cuộn phô mai",
+  "name_en": "",
+  "name_normalized": "trung cuon pho mai",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bí ngòi",
+    "Thịt bò băm"
+  ],
+  "secondary_ingredients": [
+    "Phô mai cheddar",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột nhục đậu khấu",
+    "Tỏi",
+    "Tương cà chua",
+    "Sốt cà chua",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00237",
+    "ingre06823",
+    "ingre06303",
+    "ingre05064",
+    "ingre00837",
+    "ingre02741",
+    "ingre07063",
+    "ingre06985",
+    "ingre05947",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Bí ngòi",
+    "Trứng gà",
+    "Thịt bò băm",
+    "Phô mai cheddar",
+    "Bột nhục đậu khấu",
+    "Hành tây",
+    "Tỏi",
+    "Tương cà chua",
+    "Sốt cà chua",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Eggplant",
+    "Chicken egg",
+    "Ground Beef",
+    "Cheddar cheese",
+    "Cinnamon powder",
+    "Onion",
+    "Garlic",
+    "Soybean Sauce",
+    "Tomato sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "bi ngoi",
+    "trung ga",
+    "thit bo bam",
+    "pho mai cheddar",
+    "bot nhuc dau khau",
+    "hanh tay",
+    "toi",
+    "tuong ca chua",
+    "sot ca chua",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

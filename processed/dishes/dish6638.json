@@ -1,0 +1,73 @@
+{
+  "id": "dish6638",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6638.json",
+  "name_vi": "Đậu phụ nhồi thịt bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "dau phu nhoi thit bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Đậu phụ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre07810",
+    "ingre02768",
+    "ingre02080",
+    "ingre02124",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Đậu phụ",
+    "Hành tím",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Tofu",
+    "Shallot",
+    "Soy sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "dau phu",
+    "hanh tim",
+    "dau hao",
+    "dau an",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

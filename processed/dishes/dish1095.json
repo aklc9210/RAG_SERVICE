@@ -1,0 +1,76 @@
+{
+  "id": "dish1095",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1095.json",
+  "name_vi": "Bánh rán doremon - bánh rán dorayaki không cần bột nở và trứng",
+  "name_en": "",
+  "name_normalized": "banh ran doremon banh ran dorayaki khong can bot no va trung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tinh chất vani",
+    "Sữa tươi",
+    "Socola"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Bột sữa",
+    "Dầu ăn",
+    "Baking soda"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07589",
+    "ingre00930",
+    "ingre06592",
+    "ingre06144",
+    "ingre02124",
+    "ingre00018",
+    "ingre05734"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Bột sữa",
+    "Tinh chất vani",
+    "Sữa tươi",
+    "Dầu ăn",
+    "Baking soda",
+    "Socola"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Sugar Powder",
+    "Milk powder",
+    "Vanilla extract",
+    "Fresh Milk",
+    "Cooking oil",
+    "Baking soda",
+    "Chocolate"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "duong bot",
+    "bot sua",
+    "tinh chat vani",
+    "sua tuoi",
+    "dau an",
+    "baking soda",
+    "socola"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh ran doremon - banh ran dorayaki khong can bot no va trung",
+      "new": "banh ran doremon banh ran dorayaki khong can bot no va trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

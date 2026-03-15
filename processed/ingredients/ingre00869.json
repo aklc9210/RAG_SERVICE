@@ -1,0 +1,25 @@
+{
+  "id": "ingre00869",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00869.json",
+  "name_vi": "bột nở (baking powder",
+  "name_en": "Baking powder",
+  "name_normalized": "bot no baking powder",
+  "synonyms": [
+    "bột nở hóa học"
+  ],
+  "synonyms_normalized": [
+    "bot no hoa hoc"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot no (baking powder",
+      "new": "bot no baking powder",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

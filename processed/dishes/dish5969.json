@@ -1,0 +1,91 @@
+{
+  "id": "dish5969",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5969.json",
+  "name_vi": "Cá lóc kho khế",
+  "name_en": "",
+  "name_normalized": "ca loc kho khe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lóc",
+    "Khế",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Sa tế",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre03268",
+    "ingre02768",
+    "ingre07063",
+    "ingre05621",
+    "ingre02124",
+    "ingre07028",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Khế",
+    "Hành tím",
+    "Tỏi",
+    "Sa tế",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Kumquat",
+    "Shallot",
+    "Garlic",
+    "Fish sauce",
+    "Cooking oil",
+    "Hot Sauce",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "khe",
+    "hanh tim",
+    "toi",
+    "sa te",
+    "dau an",
+    "tuong ot",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

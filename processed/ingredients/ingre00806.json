@@ -1,0 +1,29 @@
+{
+  "id": "ingre00806",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00806.json",
+  "name_vi": "bột nghệ/nước nghệ tươi",
+  "name_en": "Turmeric Powder/Fresh Turmeric Juice",
+  "name_normalized": "bot nghe nuoc nghe tuoi",
+  "synonyms": [
+    "trứng gà tươi",
+    "mật ong",
+    "đường phèn"
+  ],
+  "synonyms_normalized": [
+    "trung ga tuoi",
+    "mat ong",
+    "duong phen"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot nghe/nuoc nghe tuoi",
+      "new": "bot nghe nuoc nghe tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

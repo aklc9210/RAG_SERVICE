@@ -1,0 +1,53 @@
+{
+  "id": "dish9532",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9532.json",
+  "name_vi": "Gà luộc",
+  "name_en": "",
+  "name_normalized": "ga luoc",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Gà",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre02485",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Gừng",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Ginger",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "gung",
+    "hanh la"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

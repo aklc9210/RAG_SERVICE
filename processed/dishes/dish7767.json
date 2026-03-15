@@ -1,0 +1,129 @@
+{
+  "id": "dish7767",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7767.json",
+  "name_vi": "Lẩu lươn lá giang",
+  "name_en": "",
+  "name_normalized": "lau luon la giang",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Lươn",
+    "Sả",
+    "Cà chua",
+    "Lá giang"
+  ],
+  "secondary_ingredients": [
+    "Bắp chuối bào",
+    "Bún tươi",
+    "Đầu hành lá",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Sa tế ớt",
+    "Hạt nêm/ muối",
+    "Muối hạt",
+    "Nghệ giã nhuyễn"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre05900",
+    "ingre01354",
+    "ingre03430",
+    "ingre07966",
+    "ingre00453",
+    "ingre00357",
+    "ingre07717",
+    "ingre04329",
+    "ingre02124",
+    "ingre04694",
+    "ingre05630",
+    "ingre03010",
+    "ingre03760",
+    "ingre04306"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Sả",
+    "Cà chua",
+    "Lá giang",
+    "Ớt",
+    "Bắp chuối bào",
+    "Bún tươi",
+    "Đầu hành lá",
+    "Ngò gai",
+    "Dầu ăn",
+    "Nước mắm",
+    "Sa tế ớt",
+    "Hạt nêm/ muối",
+    "Muối hạt",
+    "Nghệ giã nhuyễn"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Lemongrass",
+    "Tomato",
+    "Japanese Laurel Leaf",
+    "Pepper",
+    "Banana sprout",
+    "Fresh noodle",
+    "Chive;top",
+    "Culantro",
+    "Cooking oil",
+    "Fish Sauce",
+    "Pickled Chili Pepper",
+    "Seasoning/Salt",
+    "Fenugreek seeds",
+    "TurmericPaste"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "sa",
+    "ca chua",
+    "la giang",
+    "ot",
+    "bap chuoi bao",
+    "bun tuoi",
+    "dau hanh la",
+    "ngo gai",
+    "dau an",
+    "nuoc mam",
+    "sa te ot",
+    "hat nem muoi",
+    "muoi hat",
+    "nghe gia nhuyen"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

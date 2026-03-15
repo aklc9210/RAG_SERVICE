@@ -1,0 +1,122 @@
+{
+  "id": "dish3109",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3109.json",
+  "name_vi": "Bánh canh bột mì cá lóc",
+  "name_en": "",
+  "name_normalized": "banh canh bot mi ca loc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá lóc",
+    "Xương heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Củ nén",
+    "Hành tây",
+    "Hành ngò",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre01549",
+    "ingre07422",
+    "ingre07063",
+    "ingre02768",
+    "ingre01908",
+    "ingre02741",
+    "ingre02724",
+    "ingre07966",
+    "ingre02093",
+    "ingre02124",
+    "ingre04694",
+    "ingre00819",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Cá lóc",
+    "Xương heo",
+    "Tỏi",
+    "Hành tím",
+    "Củ nén",
+    "Hành tây",
+    "Hành ngò",
+    "Ớt",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Gilthead seabream",
+    "Pork bone",
+    "Garlic",
+    "Shallot",
+    "Celery",
+    "Onion",
+    "Chives",
+    "Pepper",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Fish Sauce",
+    "MSG",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "ca loc",
+    "xuong heo",
+    "toi",
+    "hanh tim",
+    "cu nen",
+    "hanh tay",
+    "hanh ngo",
+    "ot",
+    "dau mau dieu",
+    "dau an",
+    "nuoc mam",
+    "bot ngot",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

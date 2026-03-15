@@ -1,0 +1,88 @@
+{
+  "id": "dish8575",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8575.json",
+  "name_vi": "Đuôi bò hầm tiêu xanh",
+  "name_en": "",
+  "name_normalized": "duoi bo ham tieu xanh",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Đuôi bò",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tiêu xanh",
+    "Gừng",
+    "Tỏi băm",
+    "Rượu trắng",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07501",
+    "ingre01419",
+    "ingre03222",
+    "ingre06640",
+    "ingre02485",
+    "ingre04343",
+    "ingre02768",
+    "ingre07071",
+    "ingre05574",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đuôi bò",
+    "Cà rốt",
+    "Khoai tây",
+    "Tiêu xanh",
+    "Gừng",
+    "Ngò rí",
+    "Hành tím",
+    "Tỏi băm",
+    "Rượu trắng",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef tail",
+    "Carrot",
+    "Potato",
+    "Green pepper",
+    "Ginger",
+    "Parsley",
+    "Shallot",
+    "Minced Garlic",
+    "White wine",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "duoi bo",
+    "ca rot",
+    "khoai tay",
+    "tieu xanh",
+    "gung",
+    "ngo ri",
+    "hanh tim",
+    "toi bam",
+    "ruou trang",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

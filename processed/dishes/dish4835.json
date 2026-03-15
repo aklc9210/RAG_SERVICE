@@ -1,0 +1,102 @@
+{
+  "id": "dish4835",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4835.json",
+  "name_vi": "Dưa chua xào thịt bò",
+  "name_en": "",
+  "name_normalized": "dua chua xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Dưa cải chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre02006",
+    "ingre02741",
+    "ingre01354",
+    "ingre07966",
+    "ingre07063",
+    "ingre02673",
+    "ingre04343",
+    "ingre02995",
+    "ingre07583",
+    "ingre02124",
+    "ingre02080",
+    "ingre04790"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Dưa cải chua",
+    "Hành tây",
+    "Cà chua",
+    "Ớt",
+    "Tỏi",
+    "Hành lá",
+    "Ngò rí",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước tương"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Pickled Chinese cabbage",
+    "Onion",
+    "Tomato",
+    "Pepper",
+    "Garlic",
+    "Scallion",
+    "Parsley",
+    "Seasoning",
+    "Sugar",
+    "Cooking oil",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "dua cai chua",
+    "hanh tay",
+    "ca chua",
+    "ot",
+    "toi",
+    "hanh la",
+    "ngo ri",
+    "hat nem",
+    "duong",
+    "dau an",
+    "dau hao",
+    "nuoc tuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

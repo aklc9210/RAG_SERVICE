@@ -1,0 +1,102 @@
+{
+  "id": "dish0541",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0541.json",
+  "name_vi": "Súp hải sản tuyết yến",
+  "name_en": "",
+  "name_normalized": "sup hai san tuyet yen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cồi sò điệp",
+    "Thịt càng cua",
+    "Tuyết yến"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông trùng hạ thảo",
+    "Nấm đông cô",
+    "Nước dùng gà",
+    "Kỷ tử",
+    "Hoài sơn",
+    "Táo đỏ"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Đường phèn",
+    "Dầu hào",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01853",
+    "ingre06352",
+    "ingre06865",
+    "ingre04973",
+    "ingre04966",
+    "ingre04607",
+    "ingre03334",
+    "ingre02618",
+    "ingre06911",
+    "ingre02485",
+    "ingre07635",
+    "ingre02080",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Cồi sò điệp",
+    "Thịt càng cua",
+    "Tuyết yến",
+    "Nấm đông trùng hạ thảo",
+    "Nấm đông cô",
+    "Nước dùng gà",
+    "Kỷ tử",
+    "Hoài sơn",
+    "Táo đỏ",
+    "Gừng",
+    "Đường phèn",
+    "Dầu hào",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mushroom stem",
+    "Shrimp meat",
+    "Snow fungus",
+    "Winter Mushroom",
+    "Mushroom",
+    "Chicken broth",
+    "Goji berries",
+    "Stonecrop",
+    "Red apple",
+    "Ginger",
+    "Brown Sugar",
+    "Soy sauce",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "coi so diep",
+    "thit cang cua",
+    "tuyet yen",
+    "nam dong trung ha thao",
+    "nam dong co",
+    "nuoc dung ga",
+    "ky tu",
+    "hoai son",
+    "tao do",
+    "gung",
+    "duong phen",
+    "dau hao",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

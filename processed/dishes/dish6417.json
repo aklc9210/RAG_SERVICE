@@ -1,0 +1,131 @@
+{
+  "id": "dish6417",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6417.json",
+  "name_vi": "Cách làm cơm chiên ngũ sắc",
+  "name_en": "",
+  "name_normalized": "cach lam com chien ngu sac",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Đậu cô ve",
+    "Chả lụa",
+    "Lạp xưởng"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Dưa leo",
+    "Bắp mỹ tách hạt",
+    "Màu dầu điều",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Tiêu xay/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre06823",
+    "ingre07732",
+    "ingre01292",
+    "ingre03618",
+    "ingre01419",
+    "ingre01354",
+    "ingre02020",
+    "ingre00481",
+    "ingre03849",
+    "ingre02673",
+    "ingre04343",
+    "ingre07071",
+    "ingre02124",
+    "ingre04790",
+    "ingre04694",
+    "ingre06647"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Trứng gà",
+    "Đậu cô ve",
+    "Chả lụa",
+    "Lạp xưởng",
+    "Cà rốt",
+    "Cà chua",
+    "Dưa leo",
+    "Bắp mỹ tách hạt",
+    "Màu dầu điều",
+    "Hành lá",
+    "Ngò rí",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Tiêu xay/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Chicken egg",
+    "Cowpea",
+    "Pork floss",
+    "Sausage",
+    "Carrot",
+    "Tomato",
+    "Cucumber",
+    "Corn Kernels",
+    "Peanut oil color",
+    "Scallion",
+    "Parsley",
+    "Minced Garlic",
+    "Cooking oil",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Ground Pepper/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "trung ga",
+    "dau co ve",
+    "cha lua",
+    "lap xuong",
+    "ca rot",
+    "ca chua",
+    "dua leo",
+    "bap my tach hat",
+    "mau dau dieu",
+    "hanh la",
+    "ngo ri",
+    "toi bam",
+    "dau an",
+    "nuoc tuong",
+    "nuoc mam",
+    "tieu xay hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ hat nem",
+      "new": "tieu xay hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "dish7808",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7808.json",
+  "name_vi": "Lẩu bò Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "lau bo han quoc",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Mì Konnyaku",
+    "Nấm kim châm",
+    "Thịt bò",
+    "Nấm đông cô tươi"
+  ],
+  "secondary_ingredients": [
+    "Nấm bào ngư",
+    "Đậu hũ",
+    "Rau",
+    "Mè rang",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Nước mắm",
+    "Rượu vang đỏ",
+    "Tỏi",
+    "Đường/Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03973",
+    "ingre04921",
+    "ingre06300",
+    "ingre04469",
+    "ingre04894",
+    "ingre07534",
+    "ingre04790",
+    "ingre04694",
+    "ingre05592",
+    "ingre05197",
+    "ingre03929",
+    "ingre07063",
+    "ingre02673",
+    "ingre07692"
+  ],
+  "ingredient_names_vi": [
+    "Mì Konnyaku",
+    "Nấm kim châm",
+    "Thịt bò",
+    "Nấm đông cô tươi",
+    "Nấm bào ngư",
+    "Đậu hũ",
+    "Nước tương",
+    "Nước mắm",
+    "Rượu vang đỏ",
+    "Rau",
+    "Mè rang",
+    "Tỏi",
+    "Hành lá",
+    "Đường/Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Konnyaku noodles",
+    "Mushroom",
+    "Beef",
+    "Fresh Enoki Mushrooms",
+    "Oyster mushroom",
+    "Tofu",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Red wine",
+    "Leaf vegetable",
+    "Roasted Sesame Seeds",
+    "Garlic",
+    "Scallion",
+    "Ground Cayenne Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi konnyaku",
+    "nam kim cham",
+    "thit bo",
+    "nam dong co tuoi",
+    "nam bao ngu",
+    "dau hu",
+    "nuoc tuong",
+    "nuoc mam",
+    "ruou vang do",
+    "rau",
+    "me rang",
+    "toi",
+    "hanh la",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/Tiêu xay"
+    }
+  ]
+}

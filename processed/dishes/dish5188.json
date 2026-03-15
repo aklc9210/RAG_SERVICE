@@ -1,0 +1,88 @@
+{
+  "id": "dish5188",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5188.json",
+  "name_vi": "Mực xào ớt chuông",
+  "name_en": "",
+  "name_normalized": "muc xao ot chuong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04278",
+    "ingre07999",
+    "ingre08078",
+    "ingre02768",
+    "ingre02124",
+    "ingre02080",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mực tươi",
+    "Ớt chuông",
+    "Ớt tươi",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh squid",
+    "Bell pepper",
+    "Fresh chili",
+    "Shallot",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc tuoi",
+    "ot chuong",
+    "ot tuoi",
+    "hanh tim",
+    "dau an",
+    "dau hao",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

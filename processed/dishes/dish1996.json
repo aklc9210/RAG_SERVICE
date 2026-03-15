@@ -1,0 +1,73 @@
+{
+  "id": "dish1996",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1996.json",
+  "name_vi": "Bánh dừa Haupia",
+  "name_en": "",
+  "name_normalized": "banh dua haupia",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa tươi lạnh",
+    "Màu thực phẩm",
+    "Dừa khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt dừa đặc",
+    "Bột bắp",
+    "Đường trắng",
+    "Whipping cream dạng bột",
+    "Muối",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre04571",
+    "ingre00564",
+    "ingre07652",
+    "ingre07317",
+    "ingre06156",
+    "ingre03865",
+    "ingre03746",
+    "ingre07140",
+    "ingre02168"
+  ],
+  "ingredient_names_vi": [
+    "Nước cốt dừa đặc",
+    "Bột bắp",
+    "Đường trắng",
+    "Whipping cream dạng bột",
+    "Sữa tươi lạnh",
+    "Màu thực phẩm",
+    "Muối",
+    "Vani",
+    "Dừa khô"
+  ],
+  "ingredient_names_en": [
+    "Coconut Cream",
+    "Corn starch",
+    "White sugar",
+    "Whipping cream powder",
+    "Fresh Cold Milk",
+    "Food coloring",
+    "Salt",
+    "Vanilla",
+    "Coconut Powder"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc cot dua dac",
+    "bot bap",
+    "duong trang",
+    "whipping cream dang bot",
+    "sua tuoi lanh",
+    "mau thuc pham",
+    "muoi",
+    "vani",
+    "dua kho"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

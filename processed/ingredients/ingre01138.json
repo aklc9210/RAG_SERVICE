@@ -1,0 +1,25 @@
+{
+  "id": "ingre01138",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01138.json",
+  "name_vi": "chiết xuất va-ni",
+  "name_en": "Vanilla extract",
+  "name_normalized": "chiet xuat va ni",
+  "synonyms": [
+    "vanilla extract"
+  ],
+  "synonyms_normalized": [
+    "vanilla extract"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

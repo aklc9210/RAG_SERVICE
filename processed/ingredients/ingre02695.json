@@ -1,0 +1,27 @@
+{
+  "id": "ingre02695",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02695.json",
+  "name_vi": "hành lá/ cần tây",
+  "name_en": "Basil/Parsley",
+  "name_normalized": "hanh la can tay",
+  "synonyms": [
+    "cây cần",
+    "cây xanh"
+  ],
+  "synonyms_normalized": [
+    "cay can",
+    "cay xanh"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ can tay",
+      "new": "hanh la can tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

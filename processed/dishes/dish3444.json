@@ -1,0 +1,83 @@
+{
+  "id": "dish3444",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3444.json",
+  "name_vi": "Mì xương heo",
+  "name_en": "",
+  "name_normalized": "mi xuong heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương heo",
+    "Mì ăn liền"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre04021",
+    "ingre07966",
+    "ingre02768",
+    "ingre05420",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Mì ăn liền",
+    "Ớt",
+    "Hành tím",
+    "Rau ăn kèm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Instant noodles",
+    "Pepper",
+    "Shallot",
+    "Side vegetable",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "mi an lien",
+    "ot",
+    "hanh tim",
+    "rau an kem",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dish8074",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8074.json",
+  "name_vi": "Gỏi rau má trộn thịt bò",
+  "name_en": "",
+  "name_normalized": "goi rau ma tron thit bo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau má",
+    "Thịt bò",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Ớt",
+    "Hành khô",
+    "Tỏi",
+    "Giấm ăn",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05295",
+    "ingre06300",
+    "ingre02741",
+    "ingre01419",
+    "ingre01079",
+    "ingre07966",
+    "ingre02667",
+    "ingre07063",
+    "ingre02377",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124",
+    "ingre03822"
+  ],
+  "ingredient_names_vi": [
+    "Rau má",
+    "Thịt bò",
+    "Hành tây",
+    "Cà rốt",
+    "Chanh",
+    "Ớt",
+    "Hành khô",
+    "Tỏi",
+    "Giấm ăn",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Lavender",
+    "Beef",
+    "Onion",
+    "Carrot",
+    "Lemon",
+    "Pepper",
+    "Garlic Powder",
+    "Garlic",
+    "vinegar",
+    "Fish Sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt/ Sugar/ Pepper ->"
+  ],
+  "ingredient_names_normalized": [
+    "rau ma",
+    "thit bo",
+    "hanh tay",
+    "ca rot",
+    "chanh",
+    "ot",
+    "hanh kho",
+    "toi",
+    "giam an",
+    "nuoc mam",
+    "dau hao",
+    "dau an",
+    "muoi duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong/ tieu",
+      "new": "muoi duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường/ tiêu"
+    }
+  ]
+}

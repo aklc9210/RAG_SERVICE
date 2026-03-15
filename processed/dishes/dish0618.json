@@ -1,0 +1,109 @@
+{
+  "id": "dish0618",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0618.json",
+  "name_vi": "Cá dìa nấu canh chua",
+  "name_en": "",
+  "name_normalized": "ca dia nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá dìa",
+    "Cà chua",
+    "Me xanh"
+  ],
+  "secondary_ingredients": [
+    "Dứa",
+    "Hành ngò",
+    "Thì là",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01517",
+    "ingre01354",
+    "ingre03664",
+    "ingre02151",
+    "ingre02724",
+    "ingre06233",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04790",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Cá dìa",
+    "Cà chua",
+    "Me xanh",
+    "Dứa",
+    "Hành ngò",
+    "Thì là",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mudfish",
+    "Tomato",
+    "Spinach",
+    "Pineapple",
+    "Chives",
+    "Dill",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Soy Sauce",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca dia",
+    "ca chua",
+    "me xanh",
+    "dua",
+    "hanh ngo",
+    "thi la",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc tuong",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

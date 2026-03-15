@@ -1,0 +1,67 @@
+{
+  "id": "dish1637",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1637.json",
+  "name_vi": "Bánh oreo chiên",
+  "name_en": "",
+  "name_normalized": "banh oreo chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh oreo"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Trứng gà",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00128",
+    "ingre00759",
+    "ingre06823",
+    "ingre06144",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bánh oreo",
+    "Bột mì",
+    "Trứng gà",
+    "Sữa tươi",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Oreo cookie",
+    "Wheat Flour",
+    "Chicken egg",
+    "Fresh Milk",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh oreo",
+    "bot mi",
+    "trung ga",
+    "sua tuoi",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish4159",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4159.json",
+  "name_vi": "Cá chép nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca chep nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá chép"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt tươi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Sa tế",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre07063",
+    "ingre08078",
+    "ingre07977",
+    "ingre02124",
+    "ingre05621",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Tỏi",
+    "Ớt tươi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Sa tế",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Garlic",
+    "Fresh chili",
+    "Chili powder",
+    "Cooking oil",
+    "Fish sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "toi",
+    "ot tuoi",
+    "ot bot",
+    "dau an",
+    "sa te",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

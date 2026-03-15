@@ -1,0 +1,107 @@
+{
+  "id": "dish7769",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7769.json",
+  "name_vi": "Lẩu sườn bò",
+  "name_en": "",
+  "name_normalized": "lau suon bo",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Sườn bò",
+    "Hành tây",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Rau muống",
+    "Nấm rơm",
+    "Nấm kim châm",
+    "Đậu bắp",
+    "Đậu hũ",
+    "Tàu hũ ky"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Cà rốt",
+    "Gia vị nấu phở",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05872",
+    "ingre02741",
+    "ingre05900",
+    "ingre02485",
+    "ingre01419",
+    "ingre01868",
+    "ingre02305",
+    "ingre05289",
+    "ingre04953",
+    "ingre04921",
+    "ingre07729",
+    "ingre07740",
+    "ingre06874",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn bò",
+    "Hành tây",
+    "Sả",
+    "Gừng",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Gia vị nấu phở",
+    "Rau muống",
+    "Nấm rơm",
+    "Nấm kim châm",
+    "Đậu bắp",
+    "Đậu hũ",
+    "Tàu hũ ky",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef ribs",
+    "Onion",
+    "Lemongrass",
+    "Ginger",
+    "Carrot",
+    "White radish",
+    "Pho Seasoning",
+    "Watercress",
+    "Strawberry mushroom",
+    "Mushroom",
+    "Green beans",
+    "Tofu",
+    "Tofu Ky",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon bo",
+    "hanh tay",
+    "sa",
+    "gung",
+    "ca rot",
+    "cu cai trang",
+    "gia vi nau pho",
+    "rau muong",
+    "nam rom",
+    "nam kim cham",
+    "dau bap",
+    "dau hu",
+    "tau hu ky",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

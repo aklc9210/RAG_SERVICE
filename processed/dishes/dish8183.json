@@ -1,0 +1,72 @@
+{
+  "id": "dish8183",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8183.json",
+  "name_vi": "Salad trứng sốt vải",
+  "name_en": "",
+  "name_normalized": "salad trung sot vai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xà lách"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Vải",
+    "Trứng cút"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước cốt chanh",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07351",
+    "ingre01419",
+    "ingre01354",
+    "ingre07193",
+    "ingre06816",
+    "ingre04538",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Xà lách",
+    "Cà rốt",
+    "Cà chua",
+    "Vải",
+    "Trứng cút",
+    "Nước cốt chanh",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Lettuce",
+    "Carrot",
+    "Tomato",
+    "Peach",
+    "Quail egg",
+    "Lemon juice",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xa lach",
+    "ca rot",
+    "ca chua",
+    "vai",
+    "trung cut",
+    "nuoc cot chanh",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

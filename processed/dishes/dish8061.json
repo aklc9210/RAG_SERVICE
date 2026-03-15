@@ -1,0 +1,116 @@
+{
+  "id": "dish8061",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8061.json",
+  "name_vi": "Gỏi bê thui",
+  "name_en": "",
+  "name_normalized": "goi be thui",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bê thui",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau cần/ ngò rí",
+    "Đậu phộng rang",
+    "Mè trắng rang vàng"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Hành phi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06299",
+    "ingre02741",
+    "ingre01079",
+    "ingre07966",
+    "ingre07063",
+    "ingre05243",
+    "ingre07791",
+    "ingre03937",
+    "ingre02730",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bê thui",
+    "Hành tây",
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Rau cần/ ngò rí",
+    "Đậu phộng rang",
+    "Mè trắng rang vàng",
+    "Hành phi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef jerky",
+    "Onion",
+    "Lemon",
+    "Pepper",
+    "Garlic",
+    "Coriander/Cilantro",
+    "Roasted Peanut",
+    "Roasted White Sesame",
+    "Garlic Fried",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit be thui",
+    "hanh tay",
+    "chanh",
+    "ot",
+    "toi",
+    "rau can ngo ri",
+    "dau phong rang",
+    "me trang rang vang",
+    "hanh phi",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau can/ ngo ri",
+      "new": "rau can ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau cần/ ngò rí"
+    }
+  ]
+}

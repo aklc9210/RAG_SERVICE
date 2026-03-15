@@ -1,0 +1,71 @@
+{
+  "id": "dish5152",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5152.json",
+  "name_vi": "Mì xào trứng ốp la",
+  "name_en": "",
+  "name_normalized": "mi xao trung op la",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì ăn liền"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Dầu hào",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04021",
+    "ingre06823",
+    "ingre02080",
+    "ingre07028",
+    "ingre06984",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Mì ăn liền",
+    "Trứng gà",
+    "Dầu hào",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Instant noodles",
+    "Chicken egg",
+    "Soy sauce",
+    "Hot Sauce",
+    "Miso酱",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mi an lien",
+    "trung ga",
+    "dau hao",
+    "tuong ot",
+    "tuong ca",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

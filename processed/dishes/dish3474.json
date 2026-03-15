@@ -1,0 +1,121 @@
+{
+  "id": "dish3474",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3474.json",
+  "name_vi": "Bún giò heo",
+  "name_en": "",
+  "name_normalized": "bun gio heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Giò heo",
+    "Bún tươi",
+    "Sả",
+    "Rau thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau ăn kèm",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Đường phèn",
+    "Mắm ruốc",
+    "Bột ớt",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02346",
+    "ingre00357",
+    "ingre05900",
+    "ingre05385",
+    "ingre07063",
+    "ingre02673",
+    "ingre05420",
+    "ingre07635",
+    "ingre04151",
+    "ingre01015",
+    "ingre02093",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Giò heo",
+    "Bún tươi",
+    "Sả",
+    "Rau thơm",
+    "Tỏi",
+    "Hành lá",
+    "Rau ăn kèm",
+    "Đường phèn",
+    "Mắm ruốc",
+    "Bột ớt",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Fresh noodle",
+    "Lemongrass",
+    "Basil",
+    "Garlic",
+    "Scallion",
+    "Side vegetable",
+    "Brown Sugar",
+    "Shrimp paste",
+    "Red Pepper Powder",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gio heo",
+    "bun tuoi",
+    "sa",
+    "rau thom",
+    "toi",
+    "hanh la",
+    "rau an kem",
+    "duong phen",
+    "mam ruoc",
+    "bot ot",
+    "dau mau dieu",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

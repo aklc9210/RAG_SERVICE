@@ -1,0 +1,90 @@
+{
+  "id": "dish4540",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4540.json",
+  "name_vi": "Pad krapao (thịt bò xào lá hương nhu) kiểu Thái",
+  "name_en": "",
+  "name_normalized": "pad krapao thit bo xao la huong nhu kieu thai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Lá hương nhu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03443",
+    "ingre07063",
+    "ingre02080",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Lá hương nhu",
+    "Tỏi",
+    "Dầu hào",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Basil",
+    "Garlic",
+    "Soy sauce",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "la huong nhu",
+    "toi",
+    "dau hao",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pad krapao (thit bo xao la huong nhu) kieu thai",
+      "new": "pad krapao thit bo xao la huong nhu kieu thai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

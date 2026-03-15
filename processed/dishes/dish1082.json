@@ -1,0 +1,64 @@
+{
+  "id": "dish1082",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1082.json",
+  "name_vi": "Pizza xúc xích bằng lò nướng",
+  "name_en": "",
+  "name_normalized": "pizza xuc xich bang lo nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đế pizza",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [
+    "Pate",
+    "Hành tây",
+    "Phô mai sợi"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Tương cà"
+  ],
+  "ingredient_ids": [
+    "ingre07887",
+    "ingre07396",
+    "ingre05020",
+    "ingre07999",
+    "ingre02741",
+    "ingre05113",
+    "ingre06984"
+  ],
+  "ingredient_names_vi": [
+    "Đế pizza",
+    "Xúc xích",
+    "Pate",
+    "Ớt chuông",
+    "Hành tây",
+    "Phô mai sợi",
+    "Tương cà"
+  ],
+  "ingredient_names_en": [
+    "Pizza sauce",
+    "Sausage",
+    "Pate -> Pâté",
+    "Bell pepper",
+    "Onion",
+    "String Cheese",
+    "Miso酱"
+  ],
+  "ingredient_names_normalized": [
+    "de pizza",
+    "xuc xich",
+    "pate",
+    "ot chuong",
+    "hanh tay",
+    "pho mai soi",
+    "tuong ca"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

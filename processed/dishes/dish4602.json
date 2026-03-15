@@ -1,0 +1,102 @@
+{
+  "id": "dish4602",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4602.json",
+  "name_vi": "Mướp xào nấm đông cô chay",
+  "name_en": "",
+  "name_normalized": "muop xao nam dong co chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mướp hương",
+    "Nấm đông cô khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04104",
+    "ingre04969",
+    "ingre02768",
+    "ingre02673",
+    "ingre02124",
+    "ingre04790",
+    "ingre02997",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Mướp hương",
+    "Nấm đông cô khô",
+    "Hành tím",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Luffa",
+    "Dried shiitake mushrooms",
+    "Shallot",
+    "Scallion",
+    "Cooking oil",
+    "Soy Sauce",
+    "Vegetarian Seasoning",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "muop huong",
+    "nam dong co kho",
+    "hanh tim",
+    "hanh la",
+    "dau an",
+    "nuoc tuong",
+    "hat nem chay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "dish9433",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9433.json",
+  "name_vi": "Thịt đông-pate chay",
+  "name_en": "",
+  "name_normalized": "thit dong pate chay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Nước",
+    "Nấm đông cô"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Nấm bào ngư",
+    "Thính gạo"
+  ],
+  "seasonings": [
+    "Bột rau câu dẻo",
+    "Cà rốt",
+    "Đường",
+    "Muối",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00897",
+    "ingre04490",
+    "ingre04966",
+    "ingre04930",
+    "ingre01419",
+    "ingre04894",
+    "ingre06241",
+    "ingre07583",
+    "ingre03746",
+    "ingre02997",
+    "ingre02124",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu dẻo",
+    "Nước",
+    "Nấm đông cô",
+    "Nấm mèo",
+    "Cà rốt",
+    "Nấm bào ngư",
+    "Thính gạo",
+    "Đường",
+    "Muối",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Agar powder",
+    "Water",
+    "Mushroom",
+    "Carrot",
+    "Oyster mushroom",
+    "Rice flour",
+    "Sugar",
+    "Salt",
+    "Vegetarian Seasoning",
+    "Cooking oil",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau deo",
+    "nuoc",
+    "nam dong co",
+    "nam meo",
+    "ca rot",
+    "nam bao ngu",
+    "thinh gao",
+    "duong",
+    "muoi",
+    "hat nem chay",
+    "dau an",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit dong-pate chay",
+      "new": "thit dong pate chay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

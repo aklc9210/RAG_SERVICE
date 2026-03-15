@@ -1,0 +1,80 @@
+{
+  "id": "dish7656",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7656.json",
+  "name_vi": "Ngao 2 cồi hấp sả",
+  "name_en": "",
+  "name_normalized": "ngao 2 coi hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ngao 2 cồi"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Chanh",
+    "Ớt",
+    "Ớt bột",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04302",
+    "ingre03370",
+    "ingre05900",
+    "ingre01079",
+    "ingre07966",
+    "ingre07977",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ngao 2 cồi",
+    "Lá chanh",
+    "Sả",
+    "Chanh",
+    "Ớt",
+    "Ớt bột",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Clam 2 Pieces",
+    "Lime leaf",
+    "Lemongrass",
+    "Lemon",
+    "Pepper",
+    "Chili powder",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ngao 2 coi",
+    "la chanh",
+    "sa",
+    "chanh",
+    "ot",
+    "ot bot",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

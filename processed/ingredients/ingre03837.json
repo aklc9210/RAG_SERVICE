@@ -1,0 +1,27 @@
+{
+  "id": "ingre03837",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03837.json",
+  "name_vi": "muối;đường;bột ngọt;tiêu",
+  "name_en": "Salt;Sugar;Monosodium Glutamate;Pepper",
+  "name_normalized": "muoi duong bot ngot tieu",
+  "synonyms": [
+    "muối nở",
+    "bột nở"
+  ],
+  "synonyms_normalized": [
+    "muoi no",
+    "bot no"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi;duong;bot ngot;tieu",
+      "new": "muoi duong bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish4864",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4864.json",
+  "name_vi": "Ốc mỡ xào sả",
+  "name_en": "",
+  "name_normalized": "oc mo xao sa",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc mỡ",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sa tế ớt",
+    "Bơ thực vật",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07949",
+    "ingre05900",
+    "ingre05630",
+    "ingre00407",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc mỡ",
+    "Sả",
+    "Sa tế ớt",
+    "Bơ thực vật",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork Ribs",
+    "Lemongrass",
+    "Pickled Chili Pepper",
+    "Vegetable oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc mo",
+    "sa",
+    "sa te ot",
+    "bo thuc vat",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

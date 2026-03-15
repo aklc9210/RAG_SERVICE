@@ -1,0 +1,27 @@
+{
+  "id": "ingre02030",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02030.json",
+  "name_vi": "dưa leo:",
+  "name_en": "Cucumber",
+  "name_normalized": "dua leo",
+  "synonyms": [
+    "đu đủ",
+    "quả đắng"
+  ],
+  "synonyms_normalized": [
+    "du du",
+    "qua dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dua leo:",
+      "new": "dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

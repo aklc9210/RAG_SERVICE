@@ -1,0 +1,87 @@
+{
+  "id": "dish4787",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4787.json",
+  "name_vi": "Rau muống xào lòng gà",
+  "name_en": "",
+  "name_normalized": "rau muong xao long ga",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rau muống",
+    "Lòng gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối hạt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05289",
+    "ingre03571",
+    "ingre02768",
+    "ingre02124",
+    "ingre02080",
+    "ingre03760",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Rau muống",
+    "Lòng gà",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối hạt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Watercress",
+    "Chicken liver",
+    "Shallot",
+    "Cooking oil",
+    "Soy sauce",
+    "Fenugreek seeds",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "rau muong",
+    "long ga",
+    "hanh tim",
+    "dau an",
+    "dau hao",
+    "muoi hat",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

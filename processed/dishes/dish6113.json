@@ -1,0 +1,100 @@
+{
+  "id": "dish6113",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6113.json",
+  "name_vi": "Thịt ba rọi rim chanh sả",
+  "name_en": "",
+  "name_normalized": "thit ba roi rim chanh sa",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Ba chỉ rút sườn",
+    "Sả",
+    "Lá chúc"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Nước chanh",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00008",
+    "ingre05900",
+    "ingre03399",
+    "ingre01354",
+    "ingre08055",
+    "ingre08026",
+    "ingre02768",
+    "ingre04509",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ba chỉ rút sườn",
+    "Sả",
+    "Lá chúc",
+    "Cà chua",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Hành tím",
+    "Nước chanh",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork ribeye",
+    "Lemongrass",
+    "Sage Leaf",
+    "Tomato",
+    "Hot pepper",
+    "Shallot",
+    "Lemon juice",
+    "Fish Sauce",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ba chi rut suon",
+    "sa",
+    "la chuc",
+    "ca chua",
+    "ot sung",
+    "ot hiem",
+    "hanh tim",
+    "nuoc chanh",
+    "nuoc mam",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

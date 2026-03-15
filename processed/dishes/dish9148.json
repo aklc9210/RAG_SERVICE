@@ -1,0 +1,60 @@
+{
+  "id": "dish9148",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9148.json",
+  "name_vi": "Xoài dầm (lắc) xí muội",
+  "name_en": "",
+  "name_normalized": "xoai dam lac xi muoi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối ô mai",
+    "Bột ớt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07342",
+    "ingre03797",
+    "ingre01015",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xanh",
+    "Muối ô mai",
+    "Bột ớt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Green mango",
+    "Sweet and Sour Pickled Plum",
+    "Red Pepper Powder",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xanh",
+    "muoi o mai",
+    "bot ot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xoai dam (lac) xi muoi",
+      "new": "xoai dam lac xi muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

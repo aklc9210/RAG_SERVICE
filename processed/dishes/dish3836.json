@@ -1,0 +1,77 @@
+{
+  "id": "dish3836",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3836.json",
+  "name_vi": "Khoai tây nướng trứng đơn giản",
+  "name_en": "",
+  "name_normalized": "khoai tay nuong trung don gian",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Khoai tây",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mozzarella",
+    "Hẹ",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre02741",
+    "ingre06823",
+    "ingre05092",
+    "ingre07063",
+    "ingre03085",
+    "ingre02120",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Hành tây",
+    "Trứng gà",
+    "Phô mai mozzarella",
+    "Tỏi",
+    "Hẹ",
+    "Dầu ô liu",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Onion",
+    "Chicken egg",
+    "Mozzarella cheese",
+    "Garlic",
+    "Garlic Chives",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "hanh tay",
+    "trung ga",
+    "pho mai mozzarella",
+    "toi",
+    "he",
+    "dau o liu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dish1461",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1461.json",
+  "name_vi": "Bánh mì tròn bagel",
+  "name_en": "",
+  "name_normalized": "banh mi tron bagel",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Nước",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Men nở yeast",
+    "Muối",
+    "Đường",
+    "Muối nở",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre03693",
+    "ingre03746",
+    "ingre07583",
+    "ingre00382",
+    "ingre04490",
+    "ingre03772",
+    "ingre04124",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Men nở yeast",
+    "Muối",
+    "Đường",
+    "Bơ lạt",
+    "Nước",
+    "Muối nở",
+    "Mật ong",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Yeast",
+    "Salt",
+    "Sugar",
+    "Butter",
+    "Water",
+    "Tapioca pearls",
+    "Honey",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "men no yeast",
+    "muoi",
+    "duong",
+    "bo lat",
+    "nuoc",
+    "muoi no",
+    "mat ong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

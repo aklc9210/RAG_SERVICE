@@ -1,0 +1,100 @@
+{
+  "id": "dish6537",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6537.json",
+  "name_vi": "Bột chiên khoai môn trứng",
+  "name_en": "",
+  "name_normalized": "bot chien khoai mon trung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Trứng vịt",
+    "Su hào",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Cà rốt",
+    "Nước tương",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre03208",
+    "ingre06853",
+    "ingre01419",
+    "ingre05787",
+    "ingre02673",
+    "ingre04790",
+    "ingre02377",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Khoai môn",
+    "Trứng vịt",
+    "Cà rốt",
+    "Su hào",
+    "Hành lá",
+    "Nước tương",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Yam",
+    "Quail egg",
+    "Carrot",
+    "Scallion",
+    "Soy Sauce",
+    "vinegar",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "khoai mon",
+    "trung vit",
+    "ca rot",
+    "su hao",
+    "hanh la",
+    "nuoc tuong",
+    "giam an",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

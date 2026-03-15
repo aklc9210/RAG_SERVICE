@@ -1,0 +1,112 @@
+{
+  "id": "dish8456",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8456.json",
+  "name_vi": "Chân gà sốt tỏi ớt",
+  "name_en": "",
+  "name_normalized": "chan ga sot toi ot",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Tắc",
+    "Ngò rí",
+    "Hạt dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Gừng",
+    "Chanh",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre07071",
+    "ingre07971",
+    "ingre02485",
+    "ingre05900",
+    "ingre01079",
+    "ingre07057",
+    "ingre04343",
+    "ingre02933",
+    "ingre02124",
+    "ingre07028",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Tỏi băm",
+    "Ớt băm",
+    "Gừng",
+    "Sả",
+    "Chanh",
+    "Tắc",
+    "Ngò rí",
+    "Hạt dầu điều",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Ginger",
+    "Lemongrass",
+    "Lemon",
+    "Tamarind",
+    "Parsley",
+    "Peanut oil seeds",
+    "Cooking oil",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "toi bam",
+    "ot bam",
+    "gung",
+    "sa",
+    "chanh",
+    "tac",
+    "ngo ri",
+    "hat dau dieu",
+    "dau an",
+    "tuong ot",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

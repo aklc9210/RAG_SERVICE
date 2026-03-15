@@ -1,0 +1,73 @@
+{
+  "id": "dish2114",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2114.json",
+  "name_vi": "Bánh khoai tây cơm nguội chiên",
+  "name_en": "",
+  "name_normalized": "banh khoai tay com nguoi chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Cơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre01724",
+    "ingre06823",
+    "ingre02673",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Cơm",
+    "Trứng gà",
+    "Hành lá",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Rice",
+    "Chicken egg",
+    "Scallion",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "com",
+    "trung ga",
+    "hanh la",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

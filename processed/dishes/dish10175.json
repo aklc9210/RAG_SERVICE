@@ -1,0 +1,69 @@
+{
+  "id": "dish10175",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10175.json",
+  "name_vi": "Trà sữa ủ lạnh (cold brew)",
+  "name_en": "",
+  "name_normalized": "tra sua u lanh cold brew",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Trà đen"
+  ],
+  "secondary_ingredients": [
+    "Nước nóng",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Sữa tươi có đường",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06741",
+    "ingre06146",
+    "ingre04738",
+    "ingre07522",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Trà đen",
+    "Sữa tươi có đường",
+    "Nước nóng",
+    "Đá viên",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Black tea",
+    "Sweetened Condensed Milk",
+    "Hot water",
+    "Ice cube",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tra den",
+    "sua tuoi co duong",
+    "nuoc nong",
+    "da vien",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tra sua u lanh (cold brew)",
+      "new": "tra sua u lanh cold brew",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

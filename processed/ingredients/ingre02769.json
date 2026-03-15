@@ -1,0 +1,29 @@
+{
+  "id": "ingre02769",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02769.json",
+  "name_vi": "hành tím & tỏi & ớt xay",
+  "name_en": "Green onion & garlic & ground chili &-pepper",
+  "name_normalized": "hanh tim toi ot xay",
+  "synonyms": [
+    "bột tỏi",
+    "bột ớt",
+    "bột gia vị"
+  ],
+  "synonyms_normalized": [
+    "bot toi",
+    "bot ot",
+    "bot gia vi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tim & toi & ot xay",
+      "new": "hanh tim toi ot xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

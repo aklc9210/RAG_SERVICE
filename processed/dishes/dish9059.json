@@ -1,0 +1,67 @@
+{
+  "id": "dish9059",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9059.json",
+  "name_vi": "Chuối nướng nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "chuoi nuong nuoc cot dua",
+  "category": "an vat",
+  "main_ingredients": [
+    "Chuối sáp"
+  ],
+  "secondary_ingredients": [
+    "Dừa xay",
+    "Đậu phộng rang giã dập"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Bôt báng",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01178",
+    "ingre02209",
+    "ingre00849",
+    "ingre00298",
+    "ingre07795",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Chuối sáp",
+    "Dừa xay",
+    "Bột năng",
+    "Bôt báng",
+    "Đậu phộng rang giã dập",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Plantain",
+    "Palm Sugar",
+    "Cornstarch",
+    "Arrowroot粉",
+    "Peanut Paste",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi sap",
+    "dua xay",
+    "bot nang",
+    "bot bang",
+    "dau phong rang gia dap",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

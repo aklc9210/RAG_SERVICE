@@ -1,0 +1,81 @@
+{
+  "id": "dish6468",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6468.json",
+  "name_vi": "Chân giò rang muối",
+  "name_en": "",
+  "name_normalized": "chan gio rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bắp thịt chân giò",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối rang",
+    "Bột chiên giòn",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00489",
+    "ingre05900",
+    "ingre03776",
+    "ingre00598",
+    "ingre02355",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bắp thịt chân giò",
+    "Sả",
+    "Muối rang",
+    "Bột chiên giòn",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Rice Bran Oil Salt",
+    "Puffed Rice Powder",
+    "Vinegar",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap thit chan gio",
+    "sa",
+    "muoi rang",
+    "bot chien gion",
+    "giam",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

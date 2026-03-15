@@ -1,0 +1,92 @@
+{
+  "id": "dish6519",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6519.json",
+  "name_vi": "Bóng cá chay chiên giòn cháy tỏi",
+  "name_en": "",
+  "name_normalized": "bong ca chay chien gion chay toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá bóng chay"
+  ],
+  "secondary_ingredients": [
+    "Mè"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01472",
+    "ingre04694",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre02124",
+    "ingre03925",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá bóng chay",
+    "Nước mắm",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Mè",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Fish Sauce",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Cooking oil",
+    "Tamarind",
+    "MSG",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca bong chay",
+    "nuoc mam",
+    "toi",
+    "ot",
+    "chanh",
+    "dau an",
+    "me",
+    "bot ngot",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

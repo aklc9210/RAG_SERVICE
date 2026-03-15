@@ -1,0 +1,104 @@
+{
+  "id": "dish5906",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5906.json",
+  "name_vi": "Bầu kho tiêu",
+  "name_en": "",
+  "name_normalized": "bau kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bầu",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm chay",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00440",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02997",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bầu",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm chay",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Zucchini",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Vegetarian Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bau",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem chay",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

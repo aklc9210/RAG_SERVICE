@@ -1,0 +1,104 @@
+{
+  "id": "dish7941",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7941.json",
+  "name_vi": "Lẩu cá lăng măng chua",
+  "name_en": "",
+  "name_normalized": "lau ca lang mang chua",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá lăng",
+    "Măng chua",
+    "Rau nhúng lẩu"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Cà chua",
+    "Thơm",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Sa tế",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre04072",
+    "ingre05341",
+    "ingre05900",
+    "ingre01354",
+    "ingre06247",
+    "ingre01079",
+    "ingre03935",
+    "ingre05621",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Măng chua",
+    "Rau nhúng lẩu",
+    "Sả",
+    "Cà chua",
+    "Thơm",
+    "Chanh",
+    "Mè trắng",
+    "Sa tế",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Pickled bamboo shoots",
+    "Boiling vegetables",
+    "Lemongrass",
+    "Tomato",
+    "Basil",
+    "Lemon",
+    "White sesame",
+    "Fish sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "mang chua",
+    "rau nhung lau",
+    "sa",
+    "ca chua",
+    "thom",
+    "chanh",
+    "me trang",
+    "sa te",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

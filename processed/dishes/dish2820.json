@@ -1,0 +1,103 @@
+{
+  "id": "dish2820",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2820.json",
+  "name_vi": "Bánh Korokke thịt bò",
+  "name_en": "",
+  "name_normalized": "banh korokke thit bo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Thịt bò xay: 200g"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Bắp cải trắng rí)"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bơ lạt; 500g bột chiên xù",
+    "Muối",
+    "Bột ngọt",
+    "Tương cà",
+    "Sốt Tonkatsu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre06327",
+    "ingre06823",
+    "ingre02741",
+    "ingre00396",
+    "ingre00466",
+    "ingre03746",
+    "ingre00819",
+    "ingre06984",
+    "ingre06009"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Thịt bò xay: 200g",
+    "Trứng gà",
+    "Hành tây",
+    "Bơ lạt; 500g bột chiên xù",
+    "Bắp cải trắng rí)",
+    "Muối",
+    "Bột ngọt",
+    "Tương cà",
+    "Sốt Tonkatsu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Ground Beef: 200g",
+    "Chicken egg",
+    "Onion",
+    "Butter; 500g Fried Bread Crumbs",
+    "Napa cabbage",
+    "Salt",
+    "MSG",
+    "Miso酱",
+    "Tonkatsu sauce"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "thit bo xay 200g",
+    "trung ga",
+    "hanh tay",
+    "bo lat 500g bot chien xu",
+    "bap cai trang ri",
+    "muoi",
+    "bot ngot",
+    "tuong ca",
+    "sot tonkatsu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thit bo xay: 200g",
+      "new": "thit bo xay 200g",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thịt bò xay: 200g"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bo lat; 500g bot chien xu",
+      "new": "bo lat 500g bot chien xu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bơ lạt; 500g bột chiên xù"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bap cai trang ri)",
+      "new": "bap cai trang ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bắp cải trắng rí)"
+    }
+  ]
+}

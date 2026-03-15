@@ -1,0 +1,98 @@
+{
+  "id": "dish7870",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7870.json",
+  "name_vi": "Lẩu uyên ương",
+  "name_en": "",
+  "name_normalized": "lau uyen uong",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Nước dùng gà",
+    "Cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô",
+    "Táo tàu",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bắp ngọt",
+    "Gừng",
+    "Viên lẩu cay",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04607",
+    "ingre01796",
+    "ingre01419",
+    "ingre00483",
+    "ingre04966",
+    "ingre06900",
+    "ingre02485",
+    "ingre02673",
+    "ingre07160",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Nước dùng gà",
+    "Cải trắng",
+    "Cà rốt",
+    "Bắp ngọt",
+    "Nấm đông cô",
+    "Táo tàu",
+    "Gừng",
+    "Hành lá",
+    "Viên lẩu cay",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken broth",
+    "Cabbage",
+    "Carrot",
+    "Sweet corn",
+    "Mushroom",
+    "Peach Sauce",
+    "Ginger",
+    "Scallion",
+    "Hot pot丸料",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc dung ga",
+    "cai trang",
+    "ca rot",
+    "bap ngot",
+    "nam dong co",
+    "tao tau",
+    "gung",
+    "hanh la",
+    "vien lau cay",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

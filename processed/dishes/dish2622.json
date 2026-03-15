@@ -1,0 +1,81 @@
+{
+  "id": "dish2622",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2622.json",
+  "name_vi": "Bánh quy - Cookie chanh",
+  "name_en": "",
+  "name_normalized": "banh quy cookie chanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kem phô mai",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Màu thực phẩm màu vàng"
+  ],
+  "seasonings": [
+    "Đường bột",
+    "Trứng gà",
+    "Nước chanh",
+    "Vỏ chanh",
+    "Bột mì đa dụng",
+    "Bột nở"
+  ],
+  "ingredient_ids": [
+    "ingre03137",
+    "ingre00382",
+    "ingre07589",
+    "ingre06823",
+    "ingre04509",
+    "ingre07253",
+    "ingre00791",
+    "ingre00867",
+    "ingre03873"
+  ],
+  "ingredient_names_vi": [
+    "Kem phô mai",
+    "Bơ lạt",
+    "Đường bột",
+    "Trứng gà",
+    "Nước chanh",
+    "Vỏ chanh",
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Màu thực phẩm màu vàng"
+  ],
+  "ingredient_names_en": [
+    "Cottage Cheese",
+    "Butter",
+    "Sugar Powder",
+    "Chicken egg",
+    "Lemon juice",
+    "Lemon peel",
+    "All-purpose flour",
+    "Baking powder",
+    "Yellow food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "kem pho mai",
+    "bo lat",
+    "duong bot",
+    "trung ga",
+    "nuoc chanh",
+    "vo chanh",
+    "bot mi da dung",
+    "bot no",
+    "mau thuc pham mau vang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy - cookie chanh",
+      "new": "banh quy cookie chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

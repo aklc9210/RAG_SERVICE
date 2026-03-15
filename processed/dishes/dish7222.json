@@ -1,0 +1,87 @@
+{
+  "id": "dish7222",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7222.json",
+  "name_vi": "Cơm chiên thập cẩm",
+  "name_en": "",
+  "name_normalized": "com chien thap cam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm",
+    "Lạp xưởng tươi",
+    "Trứng gà ta"
+  ],
+  "secondary_ingredients": [
+    "Đậu que"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Nước mắm",
+    "Nước tương",
+    "Bột ngọt/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01724",
+    "ingre03621",
+    "ingre06837",
+    "ingre07818",
+    "ingre01419",
+    "ingre07063",
+    "ingre04694",
+    "ingre04790",
+    "ingre00828",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cơm",
+    "Lạp xưởng tươi",
+    "Trứng gà ta",
+    "Đậu que",
+    "Cà rốt",
+    "Tỏi",
+    "Nước mắm",
+    "Nước tương",
+    "Bột ngọt/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Fresh sausage",
+    "Chicken egg",
+    "Green beans",
+    "Carrot",
+    "Garlic",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Soy Sauce/Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "com",
+    "lap xuong tuoi",
+    "trung ga ta",
+    "dau que",
+    "ca rot",
+    "toi",
+    "nuoc mam",
+    "nuoc tuong",
+    "bot ngot tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu",
+      "new": "bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu"
+    }
+  ]
+}

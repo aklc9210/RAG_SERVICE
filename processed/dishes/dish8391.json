@@ -1,0 +1,88 @@
+{
+  "id": "dish8391",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8391.json",
+  "name_vi": "Gỏi xoài tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi xoai tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Tôm",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Đậu phộng rang sẵn",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Ớt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre06930",
+    "ingre07342",
+    "ingre01419",
+    "ingre05385",
+    "ingre07800",
+    "ingre01079",
+    "ingre07966",
+    "ingre02768",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Tôm",
+    "Xoài xanh",
+    "Cà rốt",
+    "Rau thơm",
+    "Đậu phộng rang sẵn",
+    "Chanh",
+    "Ớt",
+    "Hành tím",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shrimp",
+    "Green mango",
+    "Carrot",
+    "Basil",
+    "Roasted Peanut",
+    "Lemon",
+    "Pepper",
+    "Shallot",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "tom",
+    "xoai xanh",
+    "ca rot",
+    "rau thom",
+    "dau phong rang san",
+    "chanh",
+    "ot",
+    "hanh tim",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

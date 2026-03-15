@@ -1,0 +1,29 @@
+{
+  "id": "ingre03934",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03934.json",
+  "name_vi": "mè rang/ đậu phộng rang",
+  "name_en": "Roasted sesame seeds/Roasted peanuts",
+  "name_normalized": "me rang dau phong rang",
+  "synonyms": [
+    "đậu phộng",
+    "lạc",
+    "lạc rang"
+  ],
+  "synonyms_normalized": [
+    "dau phong",
+    "lac",
+    "lac rang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "me rang/ dau phong rang",
+      "new": "me rang dau phong rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish8557",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8557.json",
+  "name_vi": "Bò tơ cuốn rau rừng",
+  "name_en": "",
+  "name_normalized": "bo to cuon rau rung",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Bò tơ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dứa"
+  ],
+  "seasonings": [
+    "Tương bần",
+    "Mắm cá cơm",
+    "Mắm nêm",
+    "Gừng",
+    "Muối/ đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00268",
+    "ingre06981",
+    "ingre04141",
+    "ingre04148",
+    "ingre02485",
+    "ingre05900",
+    "ingre02151",
+    "ingre03818",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Bò tơ",
+    "Tương bần",
+    "Mắm cá cơm",
+    "Mắm nêm",
+    "Gừng",
+    "Sả",
+    "Dứa",
+    "Muối/ đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Silk Cow Meat",
+    "Fish sauce",
+    "Ginger",
+    "Lemongrass",
+    "Pineapple",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bo to",
+    "tuong ban",
+    "mam ca com",
+    "mam nem",
+    "gung",
+    "sa",
+    "dua",
+    "muoi duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

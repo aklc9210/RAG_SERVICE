@@ -1,0 +1,91 @@
+{
+  "id": "dish2311",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2311.json",
+  "name_vi": "Bánh cheesecake blueberry - bánh phô mai việt quất",
+  "name_en": "",
+  "name_normalized": "banh cheesecake blueberry banh pho mai viet quat",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Việt quất",
+    "Bánh quy oreo",
+    "Cream cheese"
+  ],
+  "secondary_ingredients": [
+    "Heavy cream",
+    "Gelatin",
+    "Bơ lạt",
+    "Sữa chua",
+    "Nước"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước cốt chanh",
+    "Vỏ chanh bào"
+  ],
+  "ingredient_ids": [
+    "ingre07172",
+    "ingre00158",
+    "ingre01324",
+    "ingre02558",
+    "ingre02253",
+    "ingre00382",
+    "ingre06088",
+    "ingre07583",
+    "ingre04538",
+    "ingre07254",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Việt quất",
+    "Bánh quy oreo",
+    "Cream cheese",
+    "Heavy cream",
+    "Gelatin",
+    "Bơ lạt",
+    "Sữa chua",
+    "Đường",
+    "Nước cốt chanh",
+    "Vỏ chanh bào",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Blueberry",
+    "Oreo cookie",
+    "Cream cheese",
+    "Heavy cream",
+    "Gelatin",
+    "Butter",
+    "Yogurt",
+    "Sugar",
+    "Lemon juice",
+    "Lemon zest",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "viet quat",
+    "banh quy oreo",
+    "cream cheese",
+    "heavy cream",
+    "gelatin",
+    "bo lat",
+    "sua chua",
+    "duong",
+    "nuoc cot chanh",
+    "vo chanh bao",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cheesecake blueberry - banh pho mai viet quat",
+      "new": "banh cheesecake blueberry banh pho mai viet quat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

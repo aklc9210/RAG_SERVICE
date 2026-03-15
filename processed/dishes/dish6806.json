@@ -1,0 +1,131 @@
+{
+  "id": "dish6806",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6806.json",
+  "name_vi": "Cá rô phi chiên giòn",
+  "name_en": "",
+  "name_normalized": "ca ro phi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá rô phi",
+    "Bánh tráng",
+    "Bún tươi",
+    "Xà lách",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Chuối xanh",
+    "Rau ăn kèm",
+    "Hành lá",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Mắm nêm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01610",
+    "ingre00178",
+    "ingre00357",
+    "ingre07351",
+    "ingre02020",
+    "ingre06247",
+    "ingre01419",
+    "ingre01191",
+    "ingre05420",
+    "ingre02673",
+    "ingre07781",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre04148",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô phi",
+    "Bánh tráng",
+    "Bún tươi",
+    "Xà lách",
+    "Dưa leo",
+    "Thơm",
+    "Cà rốt",
+    "Chuối xanh",
+    "Rau ăn kèm",
+    "Hành lá",
+    "Đậu phộng",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Mắm nêm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "tilapia",
+    "Rice Paper",
+    "Fresh noodle",
+    "Lettuce",
+    "Cucumber",
+    "Basil",
+    "Carrot",
+    "Green banana",
+    "Side vegetable",
+    "Scallion",
+    "Peanut",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Fish sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro phi",
+    "banh trang",
+    "bun tuoi",
+    "xa lach",
+    "dua leo",
+    "thom",
+    "ca rot",
+    "chuoi xanh",
+    "rau an kem",
+    "hanh la",
+    "dau phong",
+    "toi",
+    "ot",
+    "chanh",
+    "mam nem",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

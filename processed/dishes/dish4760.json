@@ -1,0 +1,101 @@
+{
+  "id": "dish4760",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4760.json",
+  "name_vi": "Phở trộn thịt băm",
+  "name_en": "",
+  "name_normalized": "pho tron thit bam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Phở",
+    "Thịt băm",
+    "Nước dùng gà"
+  ],
+  "secondary_ingredients": [
+    "Xà lách"
+  ],
+  "seasonings": [
+    "Bột năng pha loãng",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Nước tương",
+    "Dầu hào",
+    "Ớt băm",
+    "Hành băm",
+    "Ớt cắt lát",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05135",
+    "ingre06329",
+    "ingre04607",
+    "ingre00854",
+    "ingre02124",
+    "ingre07071",
+    "ingre04790",
+    "ingre02080",
+    "ingre07971",
+    "ingre02657",
+    "ingre08021",
+    "ingre07351",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Phở",
+    "Thịt băm",
+    "Nước dùng gà",
+    "Bột năng pha loãng",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Nước tương",
+    "Dầu hào",
+    "Ớt băm",
+    "Hành băm",
+    "Ớt cắt lát",
+    "Xà lách",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Minced meat",
+    "Chicken broth",
+    "Cornstarch",
+    "Cooking oil",
+    "Minced Garlic",
+    "Soy Sauce",
+    "Chopped Pepper",
+    "Chopped Garlic",
+    "Sliced Pepper",
+    "Lettuce",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "pho",
+    "thit bam",
+    "nuoc dung ga",
+    "bot nang pha loang",
+    "dau an",
+    "toi bam",
+    "nuoc tuong",
+    "dau hao",
+    "ot bam",
+    "hanh bam",
+    "ot cat lat",
+    "xa lach",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

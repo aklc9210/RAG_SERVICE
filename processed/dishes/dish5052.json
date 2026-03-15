@@ -1,0 +1,111 @@
+{
+  "id": "dish5052",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5052.json",
+  "name_vi": "Cơm nghêu thịt xào cay",
+  "name_en": "",
+  "name_normalized": "com ngheu thit xao cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nghêu",
+    "Thịt heo xay",
+    "Nước nóng",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tương ớt",
+    "Tương cà",
+    "Tương xí muội",
+    "Dầu hào",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Bột ớt",
+    "Dầu ăn",
+    "Hành tím tỏi ớt băm",
+    "Sả băm"
+  ],
+  "ingredient_ids": [
+    "ingre04303",
+    "ingre06414",
+    "ingre04738",
+    "ingre04665",
+    "ingre07028",
+    "ingre06984",
+    "ingre07009",
+    "ingre02080",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746",
+    "ingre01015",
+    "ingre02124",
+    "ingre02797",
+    "ingre05905"
+  ],
+  "ingredient_names_vi": [
+    "Nghêu",
+    "Thịt heo xay",
+    "Nước nóng",
+    "Nước lọc",
+    "Tương ớt",
+    "Tương cà",
+    "Tương xí muội",
+    "Dầu hào",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Bột ớt",
+    "Dầu ăn",
+    "Hành tím tỏi ớt băm",
+    "Sả băm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Ground Pork",
+    "Hot water",
+    "Tap water",
+    "Hot Sauce",
+    "Miso酱",
+    "Soy Sauce",
+    "Sugar",
+    "Seasoning",
+    "Salt",
+    "Red Pepper Powder",
+    "Cooking oil",
+    "Garlic Finely Chopped Green Onion Chili",
+    "Garlic Paste"
+  ],
+  "ingredient_names_normalized": [
+    "ngheu",
+    "thit heo xay",
+    "nuoc nong",
+    "nuoc loc",
+    "tuong ot",
+    "tuong ca",
+    "tuong xi muoi",
+    "dau hao",
+    "duong",
+    "hat nem",
+    "muoi",
+    "bot ot",
+    "dau an",
+    "hanh tim toi ot bam",
+    "sa bam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    }
+  ]
+}

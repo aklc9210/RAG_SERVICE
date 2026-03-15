@@ -1,0 +1,25 @@
+{
+  "id": "ingre03007",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03007.json",
+  "name_vi": "hạt nêm/ bột canh",
+  "name_en": "Seasoning Powder",
+  "name_normalized": "hat nem bot canh",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/ bot canh",
+      "new": "hat nem bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

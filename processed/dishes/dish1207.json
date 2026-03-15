@@ -1,0 +1,81 @@
+{
+  "id": "dish1207",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1207.json",
+  "name_vi": "Bánh mì tổ quốc - bánh mì yêu nước",
+  "name_en": "",
+  "name_normalized": "banh mi to quoc banh mi yeu nuoc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa chua"
+  ],
+  "secondary_ingredients": [
+    "Men nở instant"
+  ],
+  "seasonings": [
+    "Bột mì số 13",
+    "Nước cà rốt",
+    "Muối",
+    "Đường",
+    "Dầu ăn",
+    "Bột màu đỏ thực phẩm",
+    "Bột màu vàng thực phẩm"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre06088",
+    "ingre04526",
+    "ingre03687",
+    "ingre03746",
+    "ingre07583",
+    "ingre02124",
+    "ingre00756",
+    "ingre00753"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Sữa chua",
+    "Nước cà rốt",
+    "Men nở instant",
+    "Muối",
+    "Đường",
+    "Dầu ăn",
+    "Bột màu đỏ thực phẩm",
+    "Bột màu vàng thực phẩm"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Yogurt",
+    "Carrot juice",
+    "Instant Yeast",
+    "Salt",
+    "Sugar",
+    "Cooking oil",
+    "Food Red Food Coloring",
+    "Food Yellow Food Coloring"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "sua chua",
+    "nuoc ca rot",
+    "men no instant",
+    "muoi",
+    "duong",
+    "dau an",
+    "bot mau do thuc pham",
+    "bot mau vang thuc pham"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi to quoc - banh mi yeu nuoc",
+      "new": "banh mi to quoc banh mi yeu nuoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

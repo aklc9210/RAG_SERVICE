@@ -1,0 +1,93 @@
+{
+  "id": "dish8634",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8634.json",
+  "name_vi": "Đuôi bò hầm hạt sen",
+  "name_en": "",
+  "name_normalized": "duoi bo ham hat sen",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Đuôi bò",
+    "Cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Hạt sen",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Giấm",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07501",
+    "ingre01796",
+    "ingre01419",
+    "ingre03029",
+    "ingre02485",
+    "ingre02673",
+    "ingre02355",
+    "ingre04694",
+    "ingre06644",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Đuôi bò",
+    "Cải trắng",
+    "Cà rốt",
+    "Hạt sen",
+    "Gừng",
+    "Hành lá",
+    "Giấm",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef tail",
+    "Cabbage",
+    "Carrot",
+    "Lotus seed",
+    "Ginger",
+    "Scallion",
+    "Vinegar",
+    "Fish Sauce",
+    "Ground pepper",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "duoi bo",
+    "cai trang",
+    "ca rot",
+    "hat sen",
+    "gung",
+    "hanh la",
+    "giam",
+    "nuoc mam",
+    "tieu xay",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

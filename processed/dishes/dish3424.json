@@ -1,0 +1,108 @@
+{
+  "id": "dish3424",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3424.json",
+  "name_vi": "Mì hoành thánh xương heo",
+  "name_en": "",
+  "name_normalized": "mi hoanh thanh xuong heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương heo",
+    "Thịt băm",
+    "Lá hoành thánh",
+    "Cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành ngò",
+    "Giá hẹ"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột bắp",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre06329",
+    "ingre03435",
+    "ingre01796",
+    "ingre01419",
+    "ingre02768",
+    "ingre02724",
+    "ingre02331",
+    "ingre00564",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Thịt băm",
+    "Lá hoành thánh",
+    "Cải trắng",
+    "Cà rốt",
+    "Hành tím",
+    "Hành ngò",
+    "Giá hẹ",
+    "Bột bắp",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Minced meat",
+    "Dumpling leaf",
+    "Cabbage",
+    "Carrot",
+    "Shallot",
+    "Chives",
+    "Garlic Chives",
+    "Corn starch",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "thit bam",
+    "la hoanh thanh",
+    "cai trang",
+    "ca rot",
+    "hanh tim",
+    "hanh ngo",
+    "gia he",
+    "bot bap",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

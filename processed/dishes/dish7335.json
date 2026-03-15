@@ -1,0 +1,94 @@
+{
+  "id": "dish7335",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7335.json",
+  "name_vi": "Bạch tuộc giã nhuyễn chiên giòn",
+  "name_en": "",
+  "name_normalized": "bach tuoc gia nhuyen chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tiêu",
+    "Nước tương",
+    "Dầu hào",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng",
+    "Dầu ăn",
+    "Muối/giấm"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre04192",
+    "ingre07966",
+    "ingre06612",
+    "ingre04790",
+    "ingre04343",
+    "ingre02080",
+    "ingre00598",
+    "ingre00609",
+    "ingre06801",
+    "ingre02124",
+    "ingre03824"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Mỡ heo",
+    "Ớt",
+    "Tiêu",
+    "Nước tương",
+    "Ngò rí",
+    "Dầu hào",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng",
+    "Dầu ăn",
+    "Muối/giấm"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Pork fat",
+    "Pepper",
+    "Soy Sauce",
+    "Parsley",
+    "Puffed Rice Powder",
+    "Egg",
+    "Cooking oil",
+    "Pickled Vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "mo heo",
+    "ot",
+    "tieu",
+    "nuoc tuong",
+    "ngo ri",
+    "dau hao",
+    "bot chien gion",
+    "bot chien xu",
+    "trung",
+    "dau an",
+    "muoi giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/giam",
+      "new": "muoi giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/giấm"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "dish8128",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8128.json",
+  "name_vi": "Gỏi gà rau nhút",
+  "name_en": "",
+  "name_normalized": "goi ga rau nhut",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Gà ta thả vườn làm sạch",
+    "Rau nhút",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Sả",
+    "Nước đá"
+  ],
+  "seasonings": [
+    "Muối tiêu",
+    "Chanh",
+    "Ớt sừng",
+    "Tỏi phi",
+    "Hành phi",
+    "Gừng",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02405",
+    "ingre05342",
+    "ingre05359",
+    "ingre03783",
+    "ingre01079",
+    "ingre08055",
+    "ingre07096",
+    "ingre02730",
+    "ingre07791",
+    "ingre05900",
+    "ingre02485",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre04853"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta thả vườn làm sạch",
+    "Rau nhút",
+    "Rau răm",
+    "Muối tiêu",
+    "Chanh",
+    "Ớt sừng",
+    "Tỏi phi",
+    "Hành phi",
+    "Đậu phộng rang",
+    "Sả",
+    "Gừng",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Nước đá"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken washed",
+    "Water spinach",
+    "Vietnamese coriander",
+    "Salt Pepper",
+    "Lemon",
+    "Hot pepper",
+    "Garlic flakes",
+    "Garlic Fried",
+    "Roasted Peanut",
+    "Lemongrass",
+    "Ginger",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta tha vuon lam sach",
+    "rau nhut",
+    "rau ram",
+    "muoi tieu",
+    "chanh",
+    "ot sung",
+    "toi phi",
+    "hanh phi",
+    "dau phong rang",
+    "sa",
+    "gung",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "nuoc da"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

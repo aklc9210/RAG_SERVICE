@@ -1,0 +1,29 @@
+{
+  "id": "ingre02835",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02835.json",
+  "name_vi": "hành/tỏi phi",
+  "name_en": "Garlic Fried",
+  "name_normalized": "hanh toi phi",
+  "synonyms": [
+    "tỏi phi",
+    "hành phi"
+  ],
+  "synonyms_normalized": [
+    "toi phi",
+    "hanh phi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh/toi phi",
+      "new": "hanh toi phi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

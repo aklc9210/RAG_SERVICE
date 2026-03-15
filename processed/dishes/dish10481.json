@@ -1,0 +1,52 @@
+{
+  "id": "dish10481",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10481.json",
+  "name_vi": "Sữa chua dẻo phô mai",
+  "name_en": "",
+  "name_normalized": "sua chua deo pho mai",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Phô mai mềm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi có đường",
+    "Sữa chua không đường",
+    "Bột rau câu dẻo"
+  ],
+  "ingredient_ids": [
+    "ingre06146",
+    "ingre06100",
+    "ingre06174",
+    "ingre05103",
+    "ingre00897"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi có đường",
+    "Sữa chua không đường",
+    "Sữa đặc",
+    "Phô mai mềm",
+    "Bột rau câu dẻo"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Plain Yogurt",
+    "Soft cheese",
+    "Agar powder"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi co duong",
+    "sua chua khong duong",
+    "sua dac",
+    "pho mai mem",
+    "bot rau cau deo"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

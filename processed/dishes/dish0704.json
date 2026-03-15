@@ -1,0 +1,67 @@
+{
+  "id": "dish0704",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0704.json",
+  "name_vi": "Dạ dày hầm hạt sen",
+  "name_en": "",
+  "name_normalized": "da day ham hat sen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Dạ dày heo"
+  ],
+  "secondary_ingredients": [
+    "Hạt sen"
+  ],
+  "seasonings": [
+    "Gừng cắt lát mỏng",
+    "Giấm",
+    "Rượu",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02047",
+    "ingre03029",
+    "ingre02498",
+    "ingre02355",
+    "ingre05515",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Dạ dày heo",
+    "Hạt sen",
+    "Gừng cắt lát mỏng",
+    "Giấm",
+    "Rượu",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Lotus seed",
+    "Ginger Slices",
+    "Vinegar",
+    "Rum",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "da day heo",
+    "hat sen",
+    "gung cat lat mong",
+    "giam",
+    "ruou",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish5092",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5092.json",
+  "name_vi": "Mì xào rau cải",
+  "name_en": "",
+  "name_normalized": "mi xao rau cai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì tôm",
+    "Rau cải bẹ xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04003",
+    "ingre05227",
+    "ingre02768",
+    "ingre02080",
+    "ingre01991",
+    "ingre03746",
+    "ingre02554",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mì tôm",
+    "Rau cải bẹ xanh",
+    "Hành tím",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Green cabbage",
+    "Shallot",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi tom",
+    "rau cai be xanh",
+    "hanh tim",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dish3004",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3004.json",
+  "name_vi": "Bánh Muffin Chocolate",
+  "name_en": "",
+  "name_normalized": "banh muffin chocolate",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa",
+    "Bơ lạt",
+    "Chocolate chip"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Đường nâu",
+    "Bột ca cao",
+    "Bột nở",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre07628",
+    "ingre00572",
+    "ingre00867",
+    "ingre06078",
+    "ingre00382",
+    "ingre07140",
+    "ingre01146"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Đường nâu",
+    "Bột ca cao",
+    "Bột nở",
+    "Sữa",
+    "Bơ lạt",
+    "Vani",
+    "Chocolate chip"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Brown Sugar",
+    "Cocoa powder",
+    "Baking powder",
+    "Milk",
+    "Butter",
+    "Vanilla",
+    "Chocolate chip"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "duong nau",
+    "bot ca cao",
+    "bot no",
+    "sua",
+    "bo lat",
+    "vani",
+    "chocolate chip"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

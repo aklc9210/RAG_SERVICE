@@ -1,0 +1,63 @@
+{
+  "id": "dish9117",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9117.json",
+  "name_vi": "Hột vịt lộn hầm thuốc bắc",
+  "name_en": "",
+  "name_normalized": "hot vit lon ham thuoc bac",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thuốc bắc",
+    "Hành tím",
+    "Ngải cứu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng hột vịt lộn",
+    "Gừng nhỏ"
+  ],
+  "ingredient_ids": [
+    "ingre06844",
+    "ingre06223",
+    "ingre02512",
+    "ingre02768",
+    "ingre04385"
+  ],
+  "ingredient_names_vi": [
+    "Trứng hột vịt lộn",
+    "Thuốc bắc",
+    "Gừng nhỏ",
+    "Hành tím",
+    "Ngải cứu"
+  ],
+  "ingredient_names_en": [
+    "Quail's egg",
+    "Chinese medicine",
+    "Ginger",
+    "Shallot",
+    "Sage"
+  ],
+  "ingredient_names_normalized": [
+    "trung hot vit lon",
+    "thuoc bac",
+    "gung nho",
+    "hanh tim",
+    "ngai cuu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

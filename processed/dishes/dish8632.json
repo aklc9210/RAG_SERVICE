@@ -1,0 +1,111 @@
+{
+  "id": "dish8632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8632.json",
+  "name_vi": "Thịt bò hầm cà rốt",
+  "name_en": "",
+  "name_normalized": "thit bo ham ca rot",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nguyệt quế lá",
+    "Ngò tây",
+    "Cây bạc hà"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Tương cà",
+    "Bột năng",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01419",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre06984",
+    "ingre04323",
+    "ingre00849",
+    "ingre04351",
+    "ingre01698",
+    "ingre05574",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cà rốt",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Tương cà",
+    "Nguyệt quế lá",
+    "Bột năng",
+    "Ngò tây",
+    "Cây bạc hà",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Carrot",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Miso酱",
+    "Japanese Laurel Leaf",
+    "Cornstarch",
+    "Chives",
+    "Mint",
+    "White wine",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca rot",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "tuong ca",
+    "nguyet que la",
+    "bot nang",
+    "ngo tay",
+    "cay bac ha",
+    "ruou trang",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

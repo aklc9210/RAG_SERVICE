@@ -1,0 +1,86 @@
+{
+  "id": "dish5100",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5100.json",
+  "name_vi": "Mì xào mực tươi (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "mi xao muc tuoi cong thuc duoc chia se tu nguoi dung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì",
+    "Mực tươi",
+    "Cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Giá đỗ"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03950",
+    "ingre04278",
+    "ingre01797",
+    "ingre02337",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Mì",
+    "Mực tươi",
+    "Cải xanh",
+    "Giá đỗ",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Fresh squid",
+    "Cabbage",
+    "Bean sprouts",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "mi",
+    "muc tuoi",
+    "cai xanh",
+    "gia do",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi xao muc tuoi (cong thuc duoc chia se tu nguoi dung)",
+      "new": "mi xao muc tuoi cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

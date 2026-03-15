@@ -1,0 +1,87 @@
+{
+  "id": "dish2881",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2881.json",
+  "name_vi": "Bánh mì bí đỏ",
+  "name_en": "",
+  "name_normalized": "banh mi bi do",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bí đỏ"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Sữa tươi",
+    "Bí"
+  ],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Men nở",
+    "Trứng gà",
+    "Tinh bột bắp",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre00723",
+    "ingre03686",
+    "ingre00382",
+    "ingre06144",
+    "ingre06823",
+    "ingre06562",
+    "ingre00236",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Bột làm bánh mì",
+    "Men nở",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Trứng gà",
+    "Tinh bột bắp",
+    "Bí",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Bread Flour",
+    "Baking Powder",
+    "Butter",
+    "Fresh Milk",
+    "Chicken egg",
+    "Corn starch",
+    "Courgette",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "bot lam banh mi",
+    "men no",
+    "bo lat",
+    "sua tuoi",
+    "trung ga",
+    "tinh bot bap",
+    "bi",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

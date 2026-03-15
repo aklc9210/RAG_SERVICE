@@ -1,0 +1,92 @@
+{
+  "id": "dish8138",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8138.json",
+  "name_vi": "Gỏi bưởi thịt gà",
+  "name_en": "",
+  "name_normalized": "goi buoi thit ga",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bưởi",
+    "Ức gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Rau mùi",
+    "Húng láng"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước cốt chanh",
+    "Tỏi",
+    "Ớt",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre00422",
+    "ingre07926",
+    "ingre05651",
+    "ingre02547",
+    "ingre01064",
+    "ingre04474",
+    "ingre06680",
+    "ingre07912",
+    "ingre00305",
+    "ingre05288",
+    "ingre02632"
+  ],
+  "ingredient_names_vi": [
+    "Bưởi",
+    "Ức gà",
+    "Sả",
+    "Hành tây",
+    "Cà rốt",
+    "Nước cốt chanh",
+    "Tỏi",
+    "Ớt",
+    "Bột canh",
+    "Rau mùi",
+    "Húng láng"
+  ],
+  "ingredient_names_en": [
+    "Orange",
+    "Chicken breast",
+    "Lemongrass",
+    "Onion",
+    "Carrot",
+    "Lemon juice",
+    "Garlic",
+    "Pepper",
+    "Cornstarch",
+    "Mint",
+    "Water Mint"
+  ],
+  "ingredient_names_normalized": [
+    "buoi",
+    "uc ga",
+    "sa",
+    "hanh tay",
+    "ca rot",
+    "nuoc cot chanh",
+    "toi",
+    "ot",
+    "bot canh",
+    "rau mui",
+    "hung lang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

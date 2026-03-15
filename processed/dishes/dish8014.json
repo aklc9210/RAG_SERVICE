@@ -1,0 +1,113 @@
+{
+  "id": "dish8014",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8014.json",
+  "name_vi": "Salad bò trứng",
+  "name_en": "",
+  "name_normalized": "salad bo trung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xà lách",
+    "Thịt bò",
+    "Cà chua",
+    "Trứng gà luộc"
+  ],
+  "secondary_ingredients": [
+    "Rau ngò",
+    "Hành tây",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Hành phi",
+    "Tỏi băm",
+    "Nước tương",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07351",
+    "ingre06300",
+    "ingre01354",
+    "ingre06831",
+    "ingre05321",
+    "ingre02741",
+    "ingre00564",
+    "ingre02730",
+    "ingre07071",
+    "ingre02094",
+    "ingre04790",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Xà lách",
+    "Thịt bò",
+    "Cà chua",
+    "Trứng gà luộc",
+    "Rau ngò",
+    "Hành tây",
+    "Bột bắp",
+    "Hành phi",
+    "Tỏi băm",
+    "Dầu mè",
+    "Nước tương",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Lettuce",
+    "Beef",
+    "Tomato",
+    "Boiled chicken egg",
+    "Culantro",
+    "Onion",
+    "Corn starch",
+    "Garlic Fried",
+    "Minced Garlic",
+    "Sesame oil",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xa lach",
+    "thit bo",
+    "ca chua",
+    "trung ga luoc",
+    "rau ngo",
+    "hanh tay",
+    "bot bap",
+    "hanh phi",
+    "toi bam",
+    "dau me",
+    "nuoc tuong",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

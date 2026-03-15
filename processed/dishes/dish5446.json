@@ -1,0 +1,108 @@
+{
+  "id": "dish5446",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5446.json",
+  "name_vi": "Tôm sốt trái thơm",
+  "name_en": "",
+  "name_normalized": "tom sot trai thom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm thẻ",
+    "Thơm",
+    "Hành tím",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Mỡ",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06957",
+    "ingre06247",
+    "ingre02768",
+    "ingre02741",
+    "ingre00849",
+    "ingre07028",
+    "ingre04185",
+    "ingre02094",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Tôm thẻ",
+    "Thơm",
+    "Hành tím",
+    "Hành tây",
+    "Bột năng",
+    "Tương ớt",
+    "Mỡ",
+    "Dầu mè",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Prawn",
+    "Basil",
+    "Shallot",
+    "Onion",
+    "Cornstarch",
+    "Hot Sauce",
+    "Lard",
+    "Sesame oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom the",
+    "thom",
+    "hanh tim",
+    "hanh tay",
+    "bot nang",
+    "tuong ot",
+    "mo",
+    "dau me",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

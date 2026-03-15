@@ -1,0 +1,88 @@
+{
+  "id": "dish6746",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6746.json",
+  "name_vi": "Cá chẽm phi lê chiên giòn sốt cam",
+  "name_en": "",
+  "name_normalized": "ca chem phi le chien gion sot cam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá chẽm",
+    "Cam tươi",
+    "Xà lách xoang"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Hành tím",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột năng",
+    "Trứng gà",
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre01503",
+    "ingre01052",
+    "ingre07369",
+    "ingre00598",
+    "ingre00849",
+    "ingre06823",
+    "ingre00382",
+    "ingre02768",
+    "ingre02741",
+    "ingre05574"
+  ],
+  "ingredient_names_vi": [
+    "Cá chẽm",
+    "Cam tươi",
+    "Xà lách xoang",
+    "Bột chiên giòn",
+    "Bột năng",
+    "Trứng gà",
+    "Bơ lạt",
+    "Hành tím",
+    "Hành tây",
+    "Rượu trắng"
+  ],
+  "ingredient_names_en": [
+    "Whitingsmith Fish",
+    "Fresh Orange",
+    "Bitter Greens",
+    "Puffed Rice Powder",
+    "Cornstarch",
+    "Chicken egg",
+    "Butter",
+    "Shallot",
+    "Onion",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "ca chem",
+    "cam tuoi",
+    "xa lach xoang",
+    "bot chien gion",
+    "bot nang",
+    "trung ga",
+    "bo lat",
+    "hanh tim",
+    "hanh tay",
+    "ruou trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

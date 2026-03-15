@@ -1,0 +1,97 @@
+{
+  "id": "dish5637",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5637.json",
+  "name_vi": "Cá trê kho gừng",
+  "name_en": "",
+  "name_normalized": "ca tre kho gung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Gốc hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đuờng trắng",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre02485",
+    "ingre02768",
+    "ingre02479",
+    "ingre07966",
+    "ingre04672",
+    "ingre04694",
+    "ingre02995",
+    "ingre07506",
+    "ingre03746",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Gừng",
+    "Hành tím",
+    "Gốc hành lá",
+    "Ớt",
+    "Nước màu",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đuờng trắng",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Ginger",
+    "Shallot",
+    "Chives",
+    "Pepper",
+    "Food coloring",
+    "Fish Sauce",
+    "Seasoning",
+    "White sugar",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "gung",
+    "hanh tim",
+    "goc hanh la",
+    "ot",
+    "nuoc mau",
+    "nuoc mam",
+    "hat nem",
+    "duong trang",
+    "muoi",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

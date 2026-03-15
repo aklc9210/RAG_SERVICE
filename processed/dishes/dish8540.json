@@ -1,0 +1,107 @@
+{
+  "id": "dish8540",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8540.json",
+  "name_vi": "Gà rán sốt cà ri",
+  "name_en": "",
+  "name_normalized": "ga ran sot ca ri",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột cà ri",
+    "Bột chiên giòn hoặc bột bắp",
+    "Hành khô",
+    "Tỏi",
+    "Lá chanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre06823",
+    "ingre00631",
+    "ingre00600",
+    "ingre02741",
+    "ingre02667",
+    "ingre05900",
+    "ingre07063",
+    "ingre03370",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Trứng gà",
+    "Bột cà ri",
+    "Bột chiên giòn hoặc bột bắp",
+    "Hành tây",
+    "Hành khô",
+    "Sả",
+    "Tỏi",
+    "Lá chanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Chicken egg",
+    "Curry powder",
+    "Cornstarch",
+    "Onion",
+    "Garlic Powder",
+    "Lemongrass",
+    "Garlic",
+    "Lime leaf",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "trung ga",
+    "bot ca ri",
+    "bot chien gion hoac bot bap",
+    "hanh tay",
+    "hanh kho",
+    "sa",
+    "toi",
+    "la chanh",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "dish8252",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8252.json",
+  "name_vi": "Gỏi nấm chanh dây",
+  "name_en": "",
+  "name_normalized": "goi nam chanh day",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tàu hủ",
+    "Nấm đùi gà",
+    "Hành tây bào"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước chanh dây cả hạt",
+    "Đường",
+    "Nước mắm",
+    "Cà rốt bào sợi"
+  ],
+  "ingredient_ids": [
+    "ingre04511",
+    "ingre07583",
+    "ingre04694",
+    "ingre06880",
+    "ingre04974",
+    "ingre01422",
+    "ingre02745"
+  ],
+  "ingredient_names_vi": [
+    "Nước chanh dây cả hạt",
+    "Đường",
+    "Nước mắm",
+    "Tàu hủ",
+    "Nấm đùi gà",
+    "Cà rốt bào sợi",
+    "Hành tây bào"
+  ],
+  "ingredient_names_en": [
+    "Tamarind water with seeds",
+    "Sugar",
+    "Fish Sauce",
+    "Tofu",
+    "Chicken mushroom",
+    "Carrot shredded",
+    "Onion sliced"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc chanh day ca hat",
+    "duong",
+    "nuoc mam",
+    "tau hu",
+    "nam dui ga",
+    "ca rot bao soi",
+    "hanh tay bao"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

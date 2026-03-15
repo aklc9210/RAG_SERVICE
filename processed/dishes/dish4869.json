@@ -1,0 +1,87 @@
+{
+  "id": "dish4869",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4869.json",
+  "name_vi": "Mì udon xào tôm",
+  "name_en": "",
+  "name_normalized": "mi udon xao tom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì undon",
+    "Bắp cải",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Tỏi",
+    "Dầu hào",
+    "Đường",
+    "Bột ớt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04015",
+    "ingre00457",
+    "ingre06930",
+    "ingre04790",
+    "ingre07063",
+    "ingre02080",
+    "ingre02673",
+    "ingre07583",
+    "ingre01015",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì undon",
+    "Bắp cải",
+    "Tôm",
+    "Nước tương",
+    "Tỏi",
+    "Dầu hào",
+    "Hành lá",
+    "Đường",
+    "Bột ớt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Unodon noodles",
+    "Cabbage",
+    "Shrimp",
+    "Soy Sauce",
+    "Garlic",
+    "Scallion",
+    "Sugar",
+    "Red Pepper Powder",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi undon",
+    "bap cai",
+    "tom",
+    "nuoc tuong",
+    "toi",
+    "dau hao",
+    "hanh la",
+    "duong",
+    "bot ot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

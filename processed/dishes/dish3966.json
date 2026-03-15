@@ -1,0 +1,103 @@
+{
+  "id": "dish3966",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3966.json",
+  "name_vi": "Lòng nướng nghệ",
+  "name_en": "",
+  "name_normalized": "long nuong nghe",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Lòng già"
+  ],
+  "secondary_ingredients": [
+    "Nghệ",
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Muối hột",
+    "Chanh",
+    "Ớt hiểm xanh",
+    "Ớt hiểm đỏ",
+    "Tiêu hạt",
+    "Tỏi",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03570",
+    "ingre03766",
+    "ingre01079",
+    "ingre04304",
+    "ingre08033",
+    "ingre08034",
+    "ingre06619",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre04124",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Lòng già",
+    "Muối hột",
+    "Chanh",
+    "Nghệ",
+    "Ớt hiểm xanh",
+    "Ớt hiểm đỏ",
+    "Tiêu hạt",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Mật ong",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Old intestine",
+    "Sea salt",
+    "Lemon",
+    "Turmeric",
+    "Green Thai chili",
+    "Red Thai chili",
+    "Cumin Seeds",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Honey",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "long gia",
+    "muoi hot",
+    "chanh",
+    "nghe",
+    "ot hiem xanh",
+    "ot hiem do",
+    "tieu hat",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "mat ong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

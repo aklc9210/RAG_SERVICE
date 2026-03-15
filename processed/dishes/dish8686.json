@@ -1,0 +1,111 @@
+{
+  "id": "dish8686",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8686.json",
+  "name_vi": "Bánh mì bò miếng phô mai",
+  "name_en": "",
+  "name_normalized": "banh mi bo mieng pho mai",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Nộm rau củ"
+  ],
+  "secondary_ingredients": [
+    "Sả bào",
+    "Hành tím",
+    "Hành tây",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Bánh mì đặc ruột",
+    "Ớt",
+    "Tỏi",
+    "Nước sốt thịt nướng xá xíu",
+    "Nước mắm",
+    "Dầu hào",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00126",
+    "ingre06300",
+    "ingre05002",
+    "ingre05903",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre02741",
+    "ingre04772",
+    "ingre04694",
+    "ingre02080",
+    "ingre04124",
+    "ingre00828"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì đặc ruột",
+    "Thịt bò",
+    "Nộm rau củ",
+    "Sả bào",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Hành tây",
+    "Nước sốt thịt nướng xá xíu",
+    "Nước mắm",
+    "Dầu hào",
+    "Mật ong",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Stuffed Sandwich",
+    "Beef",
+    "Sliced Vegetables Salad",
+    "Garlic Chopped",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Onion",
+    "Barbecue pork sauce",
+    "Fish Sauce",
+    "Soy sauce",
+    "Honey",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi dac ruot",
+    "thit bo",
+    "nom rau cu",
+    "sa bao",
+    "ot",
+    "toi",
+    "hanh tim",
+    "hanh tay",
+    "nuoc sot thit nuong xa xiu",
+    "nuoc mam",
+    "dau hao",
+    "mat ong",
+    "bot ngot tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu",
+      "new": "bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu"
+    }
+  ]
+}

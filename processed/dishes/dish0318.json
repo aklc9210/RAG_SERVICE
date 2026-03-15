@@ -1,0 +1,105 @@
+{
+  "id": "dish0318",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0318.json",
+  "name_vi": "Canh trai nấu dứa",
+  "name_en": "",
+  "name_normalized": "canh trai nau dua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Trai sông",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm",
+    "Hành"
+  ],
+  "seasonings": [
+    "Dứa gọt sẵn",
+    "Giấm bỗng",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Bột ngọt",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre06683",
+    "ingre02155",
+    "ingre01354",
+    "ingre02673",
+    "ingre05359",
+    "ingre02359",
+    "ingre02636",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre00819",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Trai sông",
+    "Dứa gọt sẵn",
+    "Cà chua",
+    "Hành lá",
+    "Rau răm",
+    "Giấm bỗng",
+    "Hành",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Bột ngọt",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Watermelon seed",
+    "Pineapple",
+    "Tomato",
+    "Scallion",
+    "Vietnamese coriander",
+    "Balsamic vinegar",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "MSG",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "trai song",
+    "dua got san",
+    "ca chua",
+    "hanh la",
+    "rau ram",
+    "giam bong",
+    "hanh",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "bot ngot",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

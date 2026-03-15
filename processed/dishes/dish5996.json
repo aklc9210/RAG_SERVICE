@@ -1,0 +1,117 @@
+{
+  "id": "dish5996",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5996.json",
+  "name_vi": "Bắp bò rim xì dầu",
+  "name_en": "",
+  "name_normalized": "bap bo rim xi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bắp bò",
+    "Bánh mì"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng",
+    "Hoa hồi",
+    "Tỏi",
+    "Ngũ vị hương",
+    "Xì dầu",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00365",
+    "ingre00100",
+    "ingre02485",
+    "ingre08055",
+    "ingre04343",
+    "ingre02584",
+    "ingre02768",
+    "ingre07063",
+    "ingre04381",
+    "ingre07381",
+    "ingre02080",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Bánh mì",
+    "Gừng",
+    "Ớt sừng",
+    "Ngò rí",
+    "Hoa hồi",
+    "Hành tím",
+    "Tỏi",
+    "Ngũ vị hương",
+    "Xì dầu",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Baguette",
+    "Ginger",
+    "Hot pepper",
+    "Parsley",
+    "Rose",
+    "Shallot",
+    "Garlic",
+    "Five-Spice Powder",
+    "Soy Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "banh mi",
+    "gung",
+    "ot sung",
+    "ngo ri",
+    "hoa hoi",
+    "hanh tim",
+    "toi",
+    "ngu vi huong",
+    "xi dau",
+    "dau hao",
+    "dau an",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

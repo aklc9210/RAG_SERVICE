@@ -1,0 +1,103 @@
+{
+  "id": "dish8783",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8783.json",
+  "name_vi": "Trứng non sốt thái",
+  "name_en": "",
+  "name_normalized": "trung non sot thai",
+  "category": "an vat",
+  "main_ingredients": [
+    "Trứng non",
+    "Chân gà rút xương",
+    "Xả bó"
+  ],
+  "secondary_ingredients": [
+    "Xoài xanh",
+    "Tắc",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng không cay",
+    "Đường nâu",
+    "Nước mắm",
+    "Tương ớt",
+    "Nước cốt me",
+    "Bột ớt Hàn Quốc"
+  ],
+  "ingredient_ids": [
+    "ingre06852",
+    "ingre01240",
+    "ingre07441",
+    "ingre07342",
+    "ingre07063",
+    "ingre07057",
+    "ingre08064",
+    "ingre02768",
+    "ingre07628",
+    "ingre04694",
+    "ingre07028",
+    "ingre04581",
+    "ingre01023"
+  ],
+  "ingredient_names_vi": [
+    "Trứng non",
+    "Chân gà rút xương",
+    "Xả bó",
+    "Xoài xanh",
+    "Tỏi",
+    "Tắc",
+    "Ớt sừng không cay",
+    "Hành tím",
+    "Đường nâu",
+    "Nước mắm",
+    "Tương ớt",
+    "Nước cốt me",
+    "Bột ớt Hàn Quốc"
+  ],
+  "ingredient_names_en": [
+    "Soft-boiled egg",
+    "Chicken Thighs",
+    "Basil",
+    "Green mango",
+    "Garlic",
+    "Tamarind",
+    "Hot Bell Pepper",
+    "Shallot",
+    "Brown Sugar",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Lime juice",
+    "Korean Chili Powder"
+  ],
+  "ingredient_names_normalized": [
+    "trung non",
+    "chan ga rut xuong",
+    "xa bo",
+    "xoai xanh",
+    "toi",
+    "tac",
+    "ot sung khong cay",
+    "hanh tim",
+    "duong nau",
+    "nuoc mam",
+    "tuong ot",
+    "nuoc cot me",
+    "bot ot han quoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

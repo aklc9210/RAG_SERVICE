@@ -1,0 +1,82 @@
+{
+  "id": "dish8266",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8266.json",
+  "name_vi": "Gỏi bạch tuộc kiểu Thái",
+  "name_en": "",
+  "name_normalized": "goi bach tuoc kieu thai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Xoài"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt đỏ",
+    "Nước mắm",
+    "Đường",
+    "Rượu"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre07329",
+    "ingre07057",
+    "ingre05900",
+    "ingre07063",
+    "ingre08097",
+    "ingre04694",
+    "ingre07583",
+    "ingre05515"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Xoài",
+    "Tắc",
+    "Sả",
+    "Tỏi",
+    "Ớt đỏ",
+    "Nước mắm",
+    "Đường",
+    "Rượu"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Mango",
+    "Tamarind",
+    "Lemongrass",
+    "Garlic",
+    "Red pepper",
+    "Fish Sauce",
+    "Sugar",
+    "Rum"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "xoai",
+    "tac",
+    "sa",
+    "toi",
+    "ot do",
+    "nuoc mam",
+    "duong",
+    "ruou"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

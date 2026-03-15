@@ -1,0 +1,121 @@
+{
+  "id": "dish8204",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8204.json",
+  "name_vi": "Nộm củ sen",
+  "name_en": "",
+  "name_normalized": "nom cu sen",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Củ sen",
+    "Hạt sen",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Táo Tây xanh",
+    "Cần tây",
+    "Đậu hũ trắng",
+    "Mè rang",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Giấm táo",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Đường mạch nha",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01916",
+    "ingre03029",
+    "ingre02020",
+    "ingre01419",
+    "ingre02741",
+    "ingre06906",
+    "ingre01812",
+    "ingre07755",
+    "ingre03929",
+    "ingre02768",
+    "ingre02372",
+    "ingre04538",
+    "ingre02124",
+    "ingre07621",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Củ sen",
+    "Hạt sen",
+    "Dưa leo",
+    "Cà rốt",
+    "Hành tây",
+    "Táo Tây xanh",
+    "Cần tây",
+    "Đậu hũ trắng",
+    "Mè rang",
+    "Hành tím",
+    "Giấm táo",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Đường mạch nha",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Lotus root",
+    "Lotus seed",
+    "Cucumber",
+    "Carrot",
+    "Onion",
+    "Green apple",
+    "Celery",
+    "Tofu",
+    "Roasted Sesame Seeds",
+    "Shallot",
+    "Apple vinegar",
+    "Lemon juice",
+    "Cooking oil",
+    "Molasses",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cu sen",
+    "hat sen",
+    "dua leo",
+    "ca rot",
+    "hanh tay",
+    "tao tay xanh",
+    "can tay",
+    "dau hu trang",
+    "me rang",
+    "hanh tim",
+    "giam tao",
+    "nuoc cot chanh",
+    "dau an",
+    "duong mach nha",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

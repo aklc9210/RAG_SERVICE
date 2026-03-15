@@ -1,0 +1,29 @@
+{
+  "id": "ingre04926",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04926.json",
+  "name_vi": "nấm linh chi nấu/ trắng",
+  "name_en": "Reishi mushroom/white button mushroom",
+  "name_normalized": "nam linh chi nau trang",
+  "synonyms": [
+    "linh chi",
+    "nấm linh chi",
+    "nấm linh chi tươi"
+  ],
+  "synonyms_normalized": [
+    "linh chi",
+    "nam linh chi",
+    "nam linh chi tuoi"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nam linh chi nau/ trang",
+      "new": "nam linh chi nau trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

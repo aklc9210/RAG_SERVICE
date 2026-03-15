@@ -1,0 +1,93 @@
+{
+  "id": "dish8386",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8386.json",
+  "name_vi": "Gỏi dưa leo khô cá sặc",
+  "name_en": "",
+  "name_normalized": "goi dua leo kho ca sac",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Khô cá sặc",
+    "Dưa leo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Rau mùi",
+    "Rau diếp cá"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre03257",
+    "ingre02020",
+    "ingre02673",
+    "ingre01079",
+    "ingre07063",
+    "ingre05385",
+    "ingre07966",
+    "ingre05302",
+    "ingre05250",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá sặc",
+    "Dưa leo",
+    "Hành lá",
+    "Chanh",
+    "Tỏi",
+    "Rau thơm",
+    "Ớt",
+    "Rau mùi",
+    "Rau diếp cá",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Dried Mackerel",
+    "Cucumber",
+    "Scallion",
+    "Lemon",
+    "Garlic",
+    "Basil",
+    "Pepper",
+    "Mint",
+    "Fishweed Herb",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca sac",
+    "dua leo",
+    "hanh la",
+    "chanh",
+    "toi",
+    "rau thom",
+    "ot",
+    "rau mui",
+    "rau diep ca",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

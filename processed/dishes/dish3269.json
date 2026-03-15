@@ -1,0 +1,118 @@
+{
+  "id": "dish3269",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3269.json",
+  "name_vi": "Mì cá viên cà ri",
+  "name_en": "",
+  "name_normalized": "mi ca vien ca ri",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương heo",
+    "Cá viên",
+    "Mì tươi",
+    "Cải thìa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Bột cà ri",
+    "Bột ngũ vị hương",
+    "Tương ngọt",
+    "Dầu hào",
+    "Hắc xì dầu",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre01648",
+    "ingre04006",
+    "ingre01792",
+    "ingre02768",
+    "ingre07063",
+    "ingre07977",
+    "ingre00631",
+    "ingre00815",
+    "ingre07001",
+    "ingre02080",
+    "ingre03084",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Cá viên",
+    "Mì tươi",
+    "Cải thìa",
+    "Hành tím",
+    "Tỏi",
+    "Ớt bột",
+    "Bột cà ri",
+    "Bột ngũ vị hương",
+    "Tương ngọt",
+    "Dầu hào",
+    "Hắc xì dầu",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Fish cakes",
+    "Fresh noodles",
+    "Chinese cabbage",
+    "Shallot",
+    "Garlic",
+    "Chili powder",
+    "Curry powder",
+    "Five-Spice Powder",
+    "Sweet Soy Sauce",
+    "Soy sauce",
+    "Black soy sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "ca vien",
+    "mi tuoi",
+    "cai thia",
+    "hanh tim",
+    "toi",
+    "ot bot",
+    "bot ca ri",
+    "bot ngu vi huong",
+    "tuong ngot",
+    "dau hao",
+    "hac xi dau",
+    "dau an",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

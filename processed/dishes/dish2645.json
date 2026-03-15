@@ -1,0 +1,68 @@
+{
+  "id": "dish2645",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2645.json",
+  "name_vi": "Bánh mì winsor",
+  "name_en": "",
+  "name_normalized": "banh mi winsor",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng",
+    "Men nở instant",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường",
+    "Muối",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Bột mì số 13"
+  ],
+  "ingredient_ids": [
+    "ingre07583",
+    "ingre03746",
+    "ingre06083",
+    "ingre06147",
+    "ingre03583",
+    "ingre03687",
+    "ingre00782",
+    "ingre00382"
+  ],
+  "ingredient_names_vi": [
+    "Đường",
+    "Muối",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Lòng đỏ trứng",
+    "Men nở instant",
+    "Bột mì số 13",
+    "Bơ lạt"
+  ],
+  "ingredient_names_en": [
+    "Sugar",
+    "Salt",
+    "Milk Powder",
+    "Fat-free Milk",
+    "Egg yolk",
+    "Instant Yeast",
+    "Wheat Flour",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "duong",
+    "muoi",
+    "sua bot",
+    "sua tuoi khong duong",
+    "long do trung",
+    "men no instant",
+    "bot mi so 13",
+    "bo lat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

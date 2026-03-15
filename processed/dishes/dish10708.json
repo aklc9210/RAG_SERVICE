@@ -1,0 +1,103 @@
+{
+  "id": "dish10708",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10708.json",
+  "name_vi": "Mì trộn muối ớt",
+  "name_en": "",
+  "name_normalized": "mi tron muoi ot",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Mì tôm",
+    "Tôm tươi",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Xúc xích",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Ớt bột",
+    "Tương ớt",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04003",
+    "ingre06963",
+    "ingre06941",
+    "ingre06823",
+    "ingre07396",
+    "ingre02768",
+    "ingre07063",
+    "ingre07977",
+    "ingre07028",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Mì tôm",
+    "Tôm tươi",
+    "Tôm khô",
+    "Trứng gà",
+    "Xúc xích",
+    "Hành tím",
+    "Tỏi",
+    "Ớt bột",
+    "Tương ớt",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Fresh shrimp",
+    "Dried Shrimp",
+    "Chicken egg",
+    "Sausage",
+    "Shallot",
+    "Garlic",
+    "Chili powder",
+    "Hot Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "mi tom",
+    "tom tuoi",
+    "tom kho",
+    "trung ga",
+    "xuc xich",
+    "hanh tim",
+    "toi",
+    "ot bot",
+    "tuong ot",
+    "dau an",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

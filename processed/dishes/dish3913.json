@@ -1,0 +1,106 @@
+{
+  "id": "dish3913",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3913.json",
+  "name_vi": "Vú heo nướng chao",
+  "name_en": "",
+  "name_normalized": "vu heo nuong chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vú heo",
+    "Hành củ"
+  ],
+  "secondary_ingredients": [
+    "Đậu bắp",
+    "Cà tím",
+    "Chao",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước chao",
+    "Sa tế tôm",
+    "Tỏi",
+    "Dầu hào",
+    "Tương ớt",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07188",
+    "ingre04515",
+    "ingre05626",
+    "ingre02661",
+    "ingre07729",
+    "ingre07063",
+    "ingre01444",
+    "ingre01106",
+    "ingre05900",
+    "ingre02080",
+    "ingre07028",
+    "ingre07583",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Vú heo",
+    "Nước chao",
+    "Sa tế tôm",
+    "Hành củ",
+    "Đậu bắp",
+    "Tỏi",
+    "Cà tím",
+    "Chao",
+    "Sả",
+    "Dầu hào",
+    "Tương ớt",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Fish sauce",
+    "Shrimp paste",
+    "Garlic bulb",
+    "Green beans",
+    "Garlic",
+    "Purple cabbage",
+    "Pickled plum",
+    "Lemongrass",
+    "Soy sauce",
+    "Hot Sauce",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "vu heo",
+    "nuoc chao",
+    "sa te tom",
+    "hanh cu",
+    "dau bap",
+    "toi",
+    "ca tim",
+    "chao",
+    "sa",
+    "dau hao",
+    "tuong ot",
+    "duong",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

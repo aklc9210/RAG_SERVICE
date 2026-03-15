@@ -1,0 +1,96 @@
+{
+  "id": "dish4643",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4643.json",
+  "name_vi": "Nấm bào ngư xào sả ớt",
+  "name_en": "",
+  "name_normalized": "nam bao ngu xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm bào ngư",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nghệ"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre04304",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Nghệ",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Turmeric",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "sa",
+    "ot",
+    "toi",
+    "nghe",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

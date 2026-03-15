@@ -1,0 +1,25 @@
+{
+  "id": "ingre06270",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06270.json",
+  "name_vi": "thảo mộc (hoa hồi",
+  "name_en": "Rosemary",
+  "name_normalized": "thao moc hoa hoi",
+  "synonyms": [
+    "hoa hồng"
+  ],
+  "synonyms_normalized": [
+    "hoa hong"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thao moc (hoa hoi",
+      "new": "thao moc hoa hoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

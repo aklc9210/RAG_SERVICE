@@ -1,0 +1,126 @@
+{
+  "id": "dish5389",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5389.json",
+  "name_vi": "Nầm lợn xào sả ớt",
+  "name_en": "",
+  "name_normalized": "nam lon xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nầm sữa lợn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Riềng băm",
+    "Ớt khô",
+    "Dầu hào",
+    "Tương ớt",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04981",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre05438",
+    "ingre08039",
+    "ingre02080",
+    "ingre07028",
+    "ingre02124",
+    "ingre02134",
+    "ingre04538",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Nầm sữa lợn",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Riềng băm",
+    "Ớt khô",
+    "Dầu hào",
+    "Tương ớt",
+    "Dầu ăn",
+    "Dầu điều",
+    "Nước cốt chanh",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Garlic Paste",
+    "Dried Pepper",
+    "Soy sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Peanut oil",
+    "Lemon juice",
+    "MSG",
+    "Sugar",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nam sua lon",
+    "sa",
+    "ot",
+    "toi",
+    "hanh tim",
+    "rieng bam",
+    "ot kho",
+    "dau hao",
+    "tuong ot",
+    "dau an",
+    "dau dieu",
+    "nuoc cot chanh",
+    "bot ngot",
+    "duong",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

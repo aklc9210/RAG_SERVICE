@@ -1,0 +1,88 @@
+{
+  "id": "dish0236",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0236.json",
+  "name_vi": "Canh bầu thịt bò",
+  "name_en": "",
+  "name_normalized": "canh bau thit bo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt bò",
+    "Bầu"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre00440",
+    "ingre02485",
+    "ingre02673",
+    "ingre07063",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Bầu",
+    "Gừng",
+    "Hành lá",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Zucchini",
+    "Ginger",
+    "Scallion",
+    "Garlic",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "bau",
+    "gung",
+    "hanh la",
+    "toi",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

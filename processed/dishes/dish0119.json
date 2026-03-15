@@ -1,0 +1,88 @@
+{
+  "id": "dish0119",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0119.json",
+  "name_vi": "Canh cá khoai cải cúc",
+  "name_en": "",
+  "name_normalized": "canh ca khoai cai cuc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá khoai",
+    "Cải cúc",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01536",
+    "ingre01780",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre06644",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Cá khoai",
+    "Cải cúc",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Potato fish",
+    "Chinese cabbage",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground pepper",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "ca khoai",
+    "cai cuc",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "tieu xay",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

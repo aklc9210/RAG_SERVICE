@@ -1,0 +1,87 @@
+{
+  "id": "dish8475",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8475.json",
+  "name_vi": "Ức gà hấp nước tương",
+  "name_en": "",
+  "name_normalized": "uc ga hap nuoc tuong",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Nấm kim châm",
+    "Nấm đùi gà",
+    "Nấm linh chi nâu",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Dầu hào",
+    "Gừng",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre04790",
+    "ingre02080",
+    "ingre04921",
+    "ingre04974",
+    "ingre04924",
+    "ingre02673",
+    "ingre02485",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Nước tương",
+    "Dầu hào",
+    "Nấm kim châm",
+    "Nấm đùi gà",
+    "Nấm linh chi nâu",
+    "Hành lá",
+    "Gừng",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Soy Sauce",
+    "Mushroom",
+    "Chicken mushroom",
+    "Brown Reishi Mushroom",
+    "Scallion",
+    "Ginger",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "nuoc tuong",
+    "dau hao",
+    "nam kim cham",
+    "nam dui ga",
+    "nam linh chi nau",
+    "hanh la",
+    "gung",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

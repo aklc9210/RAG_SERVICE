@@ -1,0 +1,98 @@
+{
+  "id": "dish8656",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8656.json",
+  "name_vi": "Bò rang muối",
+  "name_en": "",
+  "name_normalized": "bo rang muoi",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cháo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Xà lách"
+  ],
+  "seasonings": [
+    "Đinh hương thảo",
+    "Tỏi phi",
+    "Hành phi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối tiêu",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01218",
+    "ingre05900",
+    "ingre07488",
+    "ingre07351",
+    "ingre07096",
+    "ingre02730",
+    "ingre02124",
+    "ingre02080",
+    "ingre03783",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cháo",
+    "Sả",
+    "Đinh hương thảo",
+    "Xà lách",
+    "Tỏi phi",
+    "Hành phi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối tiêu",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Rice porridge",
+    "Lemongrass",
+    "Dill",
+    "Lettuce",
+    "Garlic flakes",
+    "Garlic Fried",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt Pepper",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "chao",
+    "sa",
+    "dinh huong thao",
+    "xa lach",
+    "toi phi",
+    "hanh phi",
+    "dau an",
+    "dau hao",
+    "muoi tieu",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

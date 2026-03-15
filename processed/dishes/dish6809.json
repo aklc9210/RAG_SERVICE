@@ -1,0 +1,63 @@
+{
+  "id": "dish6809",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6809.json",
+  "name_vi": "Cá cờ chiên giòn",
+  "name_en": "",
+  "name_normalized": "ca co chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá cờ"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Bột mì đa dụng",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01512",
+    "ingre00849",
+    "ingre00791",
+    "ingre02673",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá cờ",
+    "Bột năng",
+    "Bột mì đa dụng",
+    "Hành lá",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Cornstarch",
+    "All-purpose flour",
+    "Scallion",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca co",
+    "bot nang",
+    "bot mi da dung",
+    "hanh la",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

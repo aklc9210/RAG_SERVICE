@@ -1,0 +1,89 @@
+{
+  "id": "dish4614",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4614.json",
+  "name_vi": "Da heo xào sả ớt",
+  "name_en": "",
+  "name_normalized": "da heo xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Da heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre01935",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre07966",
+    "ingre02355",
+    "ingre04694",
+    "ingre02124",
+    "ingre07684"
+  ],
+  "ingredient_names_vi": [
+    "Da heo",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Pork skin",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Pepper",
+    "Vinegar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/Clove Hints"
+  ],
+  "ingredient_names_normalized": [
+    "da heo",
+    "sa",
+    "gung",
+    "toi",
+    "ot",
+    "giam",
+    "nuoc mam",
+    "dau an",
+    "duong tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu hat",
+      "new": "duong tieu hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu hạt"
+    }
+  ]
+}

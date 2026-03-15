@@ -1,0 +1,81 @@
+{
+  "id": "dish4724",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4724.json",
+  "name_vi": "Bắp xào tép khô",
+  "name_en": "",
+  "name_normalized": "bap xao tep kho",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp",
+    "Tép khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00448",
+    "ingre06918",
+    "ingre02673",
+    "ingre00382",
+    "ingre02124",
+    "ingre04694",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Bắp",
+    "Tép khô",
+    "Hành lá",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/Đường"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Dried shrimp",
+    "Scallion",
+    "Butter",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap",
+    "tep kho",
+    "hanh la",
+    "bo lat",
+    "dau an",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Đường"
+    }
+  ]
+}

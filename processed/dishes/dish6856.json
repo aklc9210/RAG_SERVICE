@@ -1,0 +1,101 @@
+{
+  "id": "dish6856",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6856.json",
+  "name_vi": "Bông bí nhồi cá thác lác",
+  "name_en": "",
+  "name_normalized": "bong bi nhoi ca thac lac",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bông bí",
+    "Chả cá thác lác",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tiêu xay",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Bột gạo",
+    "Bột chiên giòn"
+  ],
+  "ingredient_ids": [
+    "ingre00278",
+    "ingre01280",
+    "ingre02768",
+    "ingre08026",
+    "ingre02673",
+    "ingre06644",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre00668",
+    "ingre00598"
+  ],
+  "ingredient_names_vi": [
+    "Bông bí",
+    "Chả cá thác lác",
+    "Hành tím",
+    "Ớt hiểm",
+    "Hành lá",
+    "Tiêu xay",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Bột gạo",
+    "Bột chiên giòn"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin flower",
+    "Fish cake",
+    "Shallot",
+    "Hot pepper",
+    "Scallion",
+    "Ground pepper",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "Rice flour",
+    "Puffed Rice Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bong bi",
+    "cha ca thac lac",
+    "hanh tim",
+    "ot hiem",
+    "hanh la",
+    "tieu xay",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "bot gao",
+    "bot chien gion"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

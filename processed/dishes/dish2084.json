@@ -1,0 +1,86 @@
+{
+  "id": "dish2084",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2084.json",
+  "name_vi": "Bánh tart táo - apple tart tatin",
+  "name_en": "",
+  "name_normalized": "banh tart tao apple tart tatin",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Táo",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 8",
+    "Bột hạnh nhân",
+    "Baking powder",
+    "Đường",
+    "Đường vani",
+    "Bột quế",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre00691",
+    "ingre00013",
+    "ingre00382",
+    "ingre06890",
+    "ingre07583",
+    "ingre07659",
+    "ingre03584",
+    "ingre00888",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Bột hạnh nhân",
+    "Baking powder",
+    "Bơ lạt",
+    "Táo",
+    "Đường",
+    "Đường vani",
+    "Lòng đỏ trứng gà",
+    "Bột quế",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Almond flour",
+    "Baking powder",
+    "Butter",
+    "Apple",
+    "Sugar",
+    "Vanilla sugar",
+    "Egg yolk",
+    "Cinnamon粉",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "bot hanh nhan",
+    "baking powder",
+    "bo lat",
+    "tao",
+    "duong",
+    "duong vani",
+    "long do trung ga",
+    "bot que",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh tart tao - apple tart tatin",
+      "new": "banh tart tao apple tart tatin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

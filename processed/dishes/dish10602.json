@@ -1,0 +1,105 @@
+{
+  "id": "dish10602",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10602.json",
+  "name_vi": "Nộm thịt lợn",
+  "name_en": "",
+  "name_normalized": "nom thit lon",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt lợn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mùi tàu",
+    "Vừng rang"
+  ],
+  "seasonings": [
+    "Riềng bánh tẻ",
+    "Gừng/ hành khô/ rượu trắng",
+    "Chanh",
+    "Ớt cay",
+    "Nước mắm",
+    "Bột canh",
+    "Mì chính",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06431",
+    "ingre05437",
+    "ingre05900",
+    "ingre04057",
+    "ingre02529",
+    "ingre01079",
+    "ingre07993",
+    "ingre07300",
+    "ingre04694",
+    "ingre00587",
+    "ingre03958",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt lợn",
+    "Riềng bánh tẻ",
+    "Sả",
+    "Mùi tàu",
+    "Gừng/ hành khô/ rượu trắng",
+    "Chanh",
+    "Ớt cay",
+    "Vừng rang",
+    "Nước mắm",
+    "Bột canh",
+    "Mì chính",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Galangal",
+    "Lemongrass",
+    "Chinese herb",
+    "Ginger/Dried Garlic/White Wine",
+    "Lemon",
+    "Hot pepper",
+    "Roasted Sesame Seeds",
+    "Fish Sauce",
+    "Cornstarch",
+    "Soy Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit lon",
+    "rieng banh te",
+    "sa",
+    "mui tau",
+    "gung hanh kho ruou trang",
+    "chanh",
+    "ot cay",
+    "vung rang",
+    "nuoc mam",
+    "bot canh",
+    "mi chinh",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gung/ hanh kho/ ruou trang",
+      "new": "gung hanh kho ruou trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gừng/ hành khô/ rượu trắng"
+    }
+  ]
+}

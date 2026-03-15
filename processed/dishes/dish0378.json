@@ -1,0 +1,88 @@
+{
+  "id": "dish0378",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0378.json",
+  "name_vi": "Canh bí đao nhồi thịt",
+  "name_en": "",
+  "name_normalized": "canh bi dao nhoi thit",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đao",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00247",
+    "ingre06398",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bí đao",
+    "Thịt heo",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Pork",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bi dao",
+    "thit heo",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

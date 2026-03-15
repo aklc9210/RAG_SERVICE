@@ -1,0 +1,112 @@
+{
+  "id": "dish8668",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8668.json",
+  "name_vi": "Bò lá lốt bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "bo la lot bang noi chien khong dau",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Thịt heo",
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Sả",
+    "Dầu điều",
+    "Mật ong",
+    "Dầu mè",
+    "Mè đã rang"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Tỏi",
+    "Tương ớt",
+    "Nước mắm",
+    "Nước tương",
+    "Ớt bột"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre06398",
+    "ingre03461",
+    "ingre04192",
+    "ingre00367",
+    "ingre07063",
+    "ingre05900",
+    "ingre07028",
+    "ingre02134",
+    "ingre04694",
+    "ingre04790",
+    "ingre04124",
+    "ingre02094",
+    "ingre03946",
+    "ingre07977"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Thịt heo",
+    "Lá lốt",
+    "Mỡ heo",
+    "Bơ",
+    "Tỏi",
+    "Sả",
+    "Tương ớt",
+    "Dầu điều",
+    "Nước mắm",
+    "Nước tương",
+    "Mật ong",
+    "Dầu mè",
+    "Mè đã rang",
+    "Ớt bột"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Pork",
+    "Cinnamon Leaf",
+    "Pork fat",
+    "Butter",
+    "Garlic",
+    "Lemongrass",
+    "Hot Sauce",
+    "Peanut oil",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Honey",
+    "Sesame oil",
+    "Roasted sesame seeds",
+    "Chili powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "thit heo",
+    "la lot",
+    "mo heo",
+    "bo",
+    "toi",
+    "sa",
+    "tuong ot",
+    "dau dieu",
+    "nuoc mam",
+    "nuoc tuong",
+    "mat ong",
+    "dau me",
+    "me da rang",
+    "ot bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

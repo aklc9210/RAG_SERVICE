@@ -1,0 +1,102 @@
+{
+  "id": "dish5984",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5984.json",
+  "name_vi": "Cá lòng tong kho quẹt",
+  "name_en": "",
+  "name_normalized": "ca long tong kho quet",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lòng tong",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nước màu",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01547",
+    "ingre07966",
+    "ingre02673",
+    "ingre02774",
+    "ingre07071",
+    "ingre04694",
+    "ingre04672",
+    "ingre02124",
+    "ingre04821",
+    "ingre00819",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá lòng tong",
+    "Ớt",
+    "Hành lá",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Nước màu",
+    "Dầu ăn",
+    "Nước vo gạo",
+    "Bột ngọt",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pike conger intestine",
+    "Pepper",
+    "Scallion",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Food coloring",
+    "Cooking oil",
+    "Rice washing water",
+    "MSG",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca long tong",
+    "ot",
+    "hanh la",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc mam",
+    "nuoc mau",
+    "dau an",
+    "nuoc vo gao",
+    "bot ngot",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

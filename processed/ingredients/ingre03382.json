@@ -1,0 +1,27 @@
+{
+  "id": "ingre03382",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03382.json",
+  "name_vi": "lá chanh thái:",
+  "name_en": "Lemongrass",
+  "name_normalized": "la chanh thai",
+  "synonyms": [
+    "lá chanh",
+    "chanh tươi"
+  ],
+  "synonyms_normalized": [
+    "la chanh",
+    "chanh tuoi"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la chanh thai:",
+      "new": "la chanh thai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dish8931",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8931.json",
+  "name_vi": "Mít sấy bằng lò nướng",
+  "name_en": "",
+  "name_normalized": "mit say bang lo nuong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Mít"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Chanh",
+    "Dầu ăn",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04031",
+    "ingre01079",
+    "ingre02124",
+    "ingre07581"
+  ],
+  "ingredient_names_vi": [
+    "Mít",
+    "Chanh",
+    "Dầu ăn",
+    "Đường/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Lemon",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mit",
+    "chanh",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

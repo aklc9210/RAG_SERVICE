@@ -1,0 +1,116 @@
+{
+  "id": "dish6079",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6079.json",
+  "name_vi": "Cá nục kho cà chua",
+  "name_en": "",
+  "name_normalized": "ca nuc kho ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Tóp mỡ",
+    "Cà chua",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước dừa tươi",
+    "Nước màu",
+    "Mỡ heo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Giấm bỗng",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre06927",
+    "ingre01354",
+    "ingre02768",
+    "ingre02673",
+    "ingre07966",
+    "ingre02359",
+    "ingre04626",
+    "ingre04672",
+    "ingre04694",
+    "ingre04192",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Tóp mỡ",
+    "Cà chua",
+    "Hành tím",
+    "Hành lá",
+    "Ớt",
+    "Giấm bỗng",
+    "Nước dừa tươi",
+    "Nước màu",
+    "Nước mắm",
+    "Mỡ heo",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pork rind",
+    "Tomato",
+    "Shallot",
+    "Scallion",
+    "Pepper",
+    "Balsamic vinegar",
+    "Coconut water",
+    "Food coloring",
+    "Fish Sauce",
+    "Pork fat",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "top mo",
+    "ca chua",
+    "hanh tim",
+    "hanh la",
+    "ot",
+    "giam bong",
+    "nuoc dua tuoi",
+    "nuoc mau",
+    "nuoc mam",
+    "mo heo",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

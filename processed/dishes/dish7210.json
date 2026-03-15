@@ -1,0 +1,115 @@
+{
+  "id": "dish7210",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7210.json",
+  "name_vi": "Cà tím cuộn thịt nướng",
+  "name_en": "",
+  "name_normalized": "ca tim cuon thit nuong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà tím",
+    "Thịt băm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Cà chua bi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Trứng",
+    "Ớt bột",
+    "Bột lá bạc hà",
+    "Bột chiên xù",
+    "Tương cà chua",
+    "Ớt chuông",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre06329",
+    "ingre01354",
+    "ingre07063",
+    "ingre02768",
+    "ingre06801",
+    "ingre07977",
+    "ingre00728",
+    "ingre00609",
+    "ingre06985",
+    "ingre01355",
+    "ingre07999",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Thịt băm",
+    "Cà chua",
+    "Tỏi",
+    "Hành tím",
+    "Trứng",
+    "Ớt bột",
+    "Bột lá bạc hà",
+    "Bột chiên xù",
+    "Tương cà chua",
+    "Cà chua bi",
+    "Ớt chuông",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Minced meat",
+    "Tomato",
+    "Garlic",
+    "Shallot",
+    "Egg",
+    "Chili powder",
+    "Mint Leaf Powder",
+    "Puffed Rice Powder",
+    "Soybean Sauce",
+    "Bell pepper",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "thit bam",
+    "ca chua",
+    "toi",
+    "hanh tim",
+    "trung",
+    "ot bot",
+    "bot la bac ha",
+    "bot chien xu",
+    "tuong ca chua",
+    "ca chua bi",
+    "ot chuong",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

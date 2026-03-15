@@ -1,0 +1,87 @@
+{
+  "id": "dish1437",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1437.json",
+  "name_vi": "Bánh sandwich gà rau củ",
+  "name_en": "",
+  "name_normalized": "banh sandwich ga rau cu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh sandwich",
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải",
+    "Hành tây",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Cà rốt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00169",
+    "ingre08103",
+    "ingre07999",
+    "ingre01419",
+    "ingre00457",
+    "ingre02741",
+    "ingre02080",
+    "ingre00382",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Bánh sandwich",
+    "Ức gà",
+    "Ớt chuông",
+    "Cà rốt",
+    "Bắp cải",
+    "Hành tây",
+    "Dầu hào",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Sandwich bread",
+    "Chicken breast",
+    "Bell pepper",
+    "Carrot",
+    "Cabbage",
+    "Onion",
+    "Soy sauce",
+    "Butter",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "banh sandwich",
+    "uc ga",
+    "ot chuong",
+    "ca rot",
+    "bap cai",
+    "hanh tay",
+    "dau hao",
+    "bo lat",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

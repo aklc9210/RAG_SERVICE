@@ -1,0 +1,25 @@
+{
+  "id": "ingre01211",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01211.json",
+  "name_vi": "chà bông/ bánh mì chiên",
+  "name_en": "Fried pork/Baguette",
+  "name_normalized": "cha bong banh mi chien",
+  "synonyms": [
+    "bánh mì rán"
+  ],
+  "synonyms_normalized": [
+    "banh mi ran"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha bong/ banh mi chien",
+      "new": "cha bong banh mi chien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish5790",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5790.json",
+  "name_vi": "Cá bạc má kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca bac ma kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá bạc má",
+    "Thịt ba chỉ",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hạt tiêu",
+    "Hạt nêm",
+    "Nước mắm",
+    "Muối",
+    "Muối hột",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre01476",
+    "ingre06275",
+    "ingre05436",
+    "ingre05900",
+    "ingre07966",
+    "ingre03043",
+    "ingre02995",
+    "ingre04694",
+    "ingre03746",
+    "ingre03766",
+    "ingre04672",
+    "ingre02355"
+  ],
+  "ingredient_names_vi": [
+    "Cá bạc má",
+    "Thịt ba chỉ",
+    "Riềng",
+    "Sả",
+    "Ớt",
+    "Hạt tiêu",
+    "Hạt nêm",
+    "Nước mắm",
+    "Muối",
+    "Muối hột",
+    "Nước màu",
+    "Giấm"
+  ],
+  "ingredient_names_en": [
+    "Pike conger",
+    "Pork belly",
+    "Galangal",
+    "Lemongrass",
+    "Pepper",
+    "Seasoning",
+    "Fish Sauce",
+    "Salt",
+    "Sea salt",
+    "Food coloring",
+    "Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "ca bac ma",
+    "thit ba chi",
+    "rieng",
+    "sa",
+    "ot",
+    "hat tieu",
+    "hat nem",
+    "nuoc mam",
+    "muoi",
+    "muoi hot",
+    "nuoc mau",
+    "giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

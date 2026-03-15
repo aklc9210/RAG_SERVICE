@@ -1,0 +1,66 @@
+{
+  "id": "dish0420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0420.json",
+  "name_vi": "Canh nấm rơm nấu mướp",
+  "name_en": "",
+  "name_normalized": "canh nam rom nau muop",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Mướp hương"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm"
+  ],
+  "seasonings": [
+    "Hạt nêm chay",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04104",
+    "ingre04953",
+    "ingre02997",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Mướp hương",
+    "Nấm rơm",
+    "Hạt nêm chay",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Luffa",
+    "Strawberry mushroom",
+    "Vegetarian Seasoning",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "muop huong",
+    "nam rom",
+    "hat nem chay",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

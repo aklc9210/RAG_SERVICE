@@ -1,0 +1,98 @@
+{
+  "id": "dish6160",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6160.json",
+  "name_vi": "Thịt kho trứng cút",
+  "name_en": "",
+  "name_normalized": "thit kho trung cut",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ rút xương",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu dừa"
+  ],
+  "seasonings": [
+    "Đường tán",
+    "Ớt",
+    "Tỏi",
+    "Chanh vắt lấy nước cốt",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06285",
+    "ingre06816",
+    "ingre07657",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre01099",
+    "ingre04694",
+    "ingre04675",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ rút xương",
+    "Trứng cút",
+    "Đường tán",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Chanh vắt lấy nước cốt",
+    "Nước mắm",
+    "Nước màu dừa",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly without bone",
+    "Quail egg",
+    "Cane Sugar",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Lime",
+    "Fish Sauce",
+    "Coconut food coloring",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi rut xuong",
+    "trung cut",
+    "duong tan",
+    "ot",
+    "hanh tim",
+    "toi",
+    "chanh vat lay nuoc cot",
+    "nuoc mam",
+    "nuoc mau dua",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

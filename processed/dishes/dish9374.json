@@ -1,0 +1,82 @@
+{
+  "id": "dish9374",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9374.json",
+  "name_vi": "Tai heo ủ muối",
+  "name_en": "",
+  "name_normalized": "tai heo u muoi",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Tai heo"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gia vị làm gà ủ muối",
+    "Lá chanh",
+    "Đường",
+    "Muối hạt",
+    "Bột nghệ",
+    "Gừng nhỏ",
+    "Chanh tươi"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre02288",
+    "ingre05900",
+    "ingre03370",
+    "ingre07583",
+    "ingre03760",
+    "ingre00804",
+    "ingre02512",
+    "ingre01091"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Gia vị làm gà ủ muối",
+    "Sả",
+    "Lá chanh",
+    "Đường",
+    "Muối hạt",
+    "Bột nghệ",
+    "Gừng nhỏ",
+    "Chanh tươi"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Salted Chicken Seasoning",
+    "Lemongrass",
+    "Lime leaf",
+    "Sugar",
+    "Fenugreek seeds",
+    "Turmeric Powder",
+    "Ginger",
+    "Lime"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "gia vi lam ga u muoi",
+    "sa",
+    "la chanh",
+    "duong",
+    "muoi hat",
+    "bot nghe",
+    "gung nho",
+    "chanh tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish5444",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5444.json",
+  "name_vi": "Mực xào rau củ chua ngọt",
+  "name_en": "",
+  "name_normalized": "muc xao rau cu chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cần tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt chuông",
+    "Gừng",
+    "Rượu trắng",
+    "Giấm ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngot"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre01419",
+    "ingre02741",
+    "ingre07999",
+    "ingre01812",
+    "ingre02485",
+    "ingre05574",
+    "ingre02673",
+    "ingre02377",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre00807"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Cà rốt",
+    "Hành tây",
+    "Ớt chuông",
+    "Cần tây",
+    "Gừng",
+    "Rượu trắng",
+    "Hành lá",
+    "Giấm ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngot"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Carrot",
+    "Onion",
+    "Bell pepper",
+    "Celery",
+    "Ginger",
+    "White wine",
+    "Scallion",
+    "vinegar",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "Sweetener"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "ca rot",
+    "hanh tay",
+    "ot chuong",
+    "can tay",
+    "gung",
+    "ruou trang",
+    "hanh la",
+    "giam an",
+    "muoi",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

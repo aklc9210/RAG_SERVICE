@@ -1,0 +1,123 @@
+{
+  "id": "dish0668",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0668.json",
+  "name_vi": "Súp óc heo",
+  "name_en": "",
+  "name_normalized": "sup oc heo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Óc heo",
+    "Thịt nạc heo",
+    "Xương ống",
+    "Nấm rơm",
+    "Nấm đông cô tươi"
+  ],
+  "secondary_ingredients": [
+    "Nấm tuyết",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Bột bắp",
+    "Bột năng",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07470",
+    "ingre06464",
+    "ingre07433",
+    "ingre04953",
+    "ingre04971",
+    "ingre04962",
+    "ingre06823",
+    "ingre01419",
+    "ingre02673",
+    "ingre04343",
+    "ingre00564",
+    "ingre00849",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Óc heo",
+    "Thịt nạc heo",
+    "Xương ống",
+    "Nấm rơm",
+    "Nấm đông cô tươi",
+    "Nấm tuyết",
+    "Trứng gà",
+    "Cà rốt",
+    "Hành lá",
+    "Ngò rí",
+    "Bột bắp",
+    "Bột năng",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Pork Shoulder",
+    "Tube bone",
+    "Strawberry mushroom",
+    "Fresh enoki mushrooms",
+    "Mushroom",
+    "Chicken egg",
+    "Carrot",
+    "Scallion",
+    "Parsley",
+    "Corn starch",
+    "Cornstarch",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "oc heo",
+    "thit nac heo",
+    "xuong ong",
+    "nam rom",
+    "nam dong co tuoi",
+    "nam tuyet",
+    "trung ga",
+    "ca rot",
+    "hanh la",
+    "ngo ri",
+    "bot bap",
+    "bot nang",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

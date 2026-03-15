@@ -1,0 +1,67 @@
+{
+  "id": "dish0027",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0027.json",
+  "name_vi": "Củ hủ dừa hầm xương",
+  "name_en": "",
+  "name_normalized": "cu hu dua ham xuong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương ống"
+  ],
+  "secondary_ingredients": [
+    "Củ hủ dừa",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07433",
+    "ingre01892",
+    "ingre02702",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Xương ống",
+    "Củ hủ dừa",
+    "Hành lá/ ngò rí",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tube bone",
+    "Coconut cabbage",
+    "Chives",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xuong ong",
+    "cu hu dua",
+    "hanh la ngo ri",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish0223",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0223.json",
+  "name_vi": "Sườn nấu đậu Hà Lan",
+  "name_en": "",
+  "name_normalized": "suon nau dau ha lan",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn non",
+    "Đậu Hà Lan"
+  ],
+  "secondary_ingredients": [
+    "Đậu trắng",
+    "Nước dừa",
+    "Bơ",
+    "Hành"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tương cà",
+    "Dầu ăn",
+    "Tỏi",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre05856",
+    "ingre07533",
+    "ingre01419",
+    "ingre07541",
+    "ingre04476",
+    "ingre06984",
+    "ingre00367",
+    "ingre02124",
+    "ingre02636",
+    "ingre07063",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Đậu Hà Lan",
+    "Cà rốt",
+    "Đậu trắng",
+    "Nước dừa",
+    "Tương cà",
+    "Bơ",
+    "Dầu ăn",
+    "Hành",
+    "Tỏi",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Green beans",
+    "Carrot",
+    "White bean",
+    "Coconut water",
+    "Miso酱",
+    "Butter",
+    "Cooking oil",
+    "Garlic",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "dau ha lan",
+    "ca rot",
+    "dau trang",
+    "nuoc dua",
+    "tuong ca",
+    "bo",
+    "dau an",
+    "hanh",
+    "toi",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

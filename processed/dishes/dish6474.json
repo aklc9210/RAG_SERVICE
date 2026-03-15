@@ -1,0 +1,127 @@
+{
+  "id": "dish6474",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6474.json",
+  "name_vi": "Chả thịt heo trứng muối",
+  "name_en": "",
+  "name_normalized": "cha thit heo trung muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt nạc dăm",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo khô",
+    "Hành tím",
+    "Ngò rí",
+    "Hành lá",
+    "Xà lách/ cà chua/ dưa leo"
+  ],
+  "seasonings": [
+    "Trứng vịt muối",
+    "Tỏi",
+    "Ớt sừng",
+    "Sốt mayonnaise",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06459",
+    "ingre02350",
+    "ingre06857",
+    "ingre04936",
+    "ingre02768",
+    "ingre07063",
+    "ingre04343",
+    "ingre02673",
+    "ingre08055",
+    "ingre05970",
+    "ingre02124",
+    "ingre00828",
+    "ingre07374"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc dăm",
+    "Giò sống",
+    "Trứng vịt muối",
+    "Nấm mèo khô",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí",
+    "Hành lá",
+    "Ớt sừng",
+    "Sốt mayonnaise",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu",
+    "Xà lách/ cà chua/ dưa leo"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Fresh sausage",
+    "Salted duck egg",
+    "Dried cat's ear mushroom",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Scallion",
+    "Hot pepper",
+    "Mayonnaise Sauce",
+    "Cooking oil",
+    "Soy Sauce/Salt",
+    "Leaf Lettuce/Tomato/Cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dam",
+    "gio song",
+    "trung vit muoi",
+    "nam meo kho",
+    "hanh tim",
+    "toi",
+    "ngo ri",
+    "hanh la",
+    "ot sung",
+    "sot mayonnaise",
+    "dau an",
+    "bot ngot tieu",
+    "xa lach ca chua dua leo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu",
+      "new": "bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach/ ca chua/ dua leo",
+      "new": "xa lach ca chua dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách/ cà chua/ dưa leo"
+    }
+  ]
+}

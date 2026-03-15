@@ -1,0 +1,96 @@
+{
+  "id": "dish4403",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4403.json",
+  "name_vi": "Huyết xào giá hẹ",
+  "name_en": "",
+  "name_normalized": "huyet xao gia he",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Huyết heo",
+    "Giá hẹ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Hành lá/ ớt",
+    "Đường",
+    "Muối",
+    "Nước mắm",
+    "Tiêu",
+    "Bột ngọt",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02629",
+    "ingre02331",
+    "ingre07071",
+    "ingre02774",
+    "ingre02713",
+    "ingre07583",
+    "ingre03746",
+    "ingre04694",
+    "ingre06612",
+    "ingre00819",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Huyết heo",
+    "Giá hẹ",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Hành lá/ ớt",
+    "Đường",
+    "Muối",
+    "Nước mắm",
+    "Tiêu",
+    "Bột ngọt",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pig blood",
+    "Garlic Chives",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Scallion/Green Pepper",
+    "Sugar",
+    "Salt",
+    "Fish Sauce",
+    "Pepper",
+    "MSG",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "huyet heo",
+    "gia he",
+    "toi bam",
+    "hanh tim bam",
+    "hanh la ot",
+    "duong",
+    "muoi",
+    "nuoc mam",
+    "tieu",
+    "bot ngot",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ot",
+      "new": "hanh la ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ớt"
+    }
+  ]
+}

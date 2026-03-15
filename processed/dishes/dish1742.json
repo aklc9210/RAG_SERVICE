@@ -1,0 +1,86 @@
+{
+  "id": "dish1742",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1742.json",
+  "name_vi": "Bánh tart hồ đào - pecan pie",
+  "name_en": "",
+  "name_normalized": "banh tart ho dao pecan pie",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hạt hồ đào",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Lòng đỏ trứng",
+    "Siro bắp",
+    "Nước lạnh"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Chiết xuất vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02955",
+    "ingre00791",
+    "ingre00382",
+    "ingre03583",
+    "ingre06823",
+    "ingre05676",
+    "ingre01139",
+    "ingre07583",
+    "ingre03746",
+    "ingre04664"
+  ],
+  "ingredient_names_vi": [
+    "Hạt hồ đào",
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Lòng đỏ trứng",
+    "Trứng gà",
+    "Siro bắp",
+    "Chiết xuất vani",
+    "Đường",
+    "Muối",
+    "Nước lạnh"
+  ],
+  "ingredient_names_en": [
+    "Apricot kernel",
+    "All-purpose flour",
+    "Butter",
+    "Egg yolk",
+    "Chicken egg",
+    "Corn syrup",
+    "Vanilla extract",
+    "Sugar",
+    "Salt",
+    "Cold water"
+  ],
+  "ingredient_names_normalized": [
+    "hat ho dao",
+    "bot mi da dung",
+    "bo lat",
+    "long do trung",
+    "trung ga",
+    "siro bap",
+    "chiet xuat vani",
+    "duong",
+    "muoi",
+    "nuoc lanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh tart ho dao - pecan pie",
+      "new": "banh tart ho dao pecan pie",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

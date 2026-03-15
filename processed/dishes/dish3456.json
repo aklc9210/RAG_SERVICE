@@ -1,0 +1,105 @@
+{
+  "id": "dish3456",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3456.json",
+  "name_vi": "Bún Thái chay",
+  "name_en": "",
+  "name_normalized": "bun thai chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Tàu hủ chiên",
+    "Bún tươi",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Nấm rơm",
+    "Sả",
+    "Me",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Ớt",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre06881",
+    "ingre00357",
+    "ingre01354",
+    "ingre06247",
+    "ingre04953",
+    "ingre05900",
+    "ingre03643",
+    "ingre03746",
+    "ingre07583",
+    "ingre07966",
+    "ingre02997",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hủ chiên",
+    "Bún tươi",
+    "Cà chua",
+    "Thơm",
+    "Nấm rơm",
+    "Sả",
+    "Me",
+    "Muối",
+    "Đường",
+    "Ớt",
+    "Hạt nêm chay",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Fried tofu",
+    "Fresh noodle",
+    "Tomato",
+    "Basil",
+    "Strawberry mushroom",
+    "Lemongrass",
+    "Tamarind",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "Vegetarian Seasoning",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu chien",
+    "bun tuoi",
+    "ca chua",
+    "thom",
+    "nam rom",
+    "sa",
+    "me",
+    "muoi",
+    "duong",
+    "ot",
+    "hat nem chay",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

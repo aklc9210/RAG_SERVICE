@@ -1,0 +1,71 @@
+{
+  "id": "dish8878",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8878.json",
+  "name_vi": "Đậu phộng chiên giòn tẩm gia vị",
+  "name_en": "",
+  "name_normalized": "dau phong chien gion tam gia vi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột thì là",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre06823",
+    "ingre00791",
+    "ingre00941",
+    "ingre00815",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột thì là",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Chicken egg",
+    "All-purpose flour",
+    "Basil powder",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "trung ga",
+    "bot mi da dung",
+    "bot thi la",
+    "bot ngu vi huong",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

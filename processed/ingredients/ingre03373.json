@@ -1,0 +1,25 @@
+{
+  "id": "ingre03373",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03373.json",
+  "name_vi": "lá chanh bắc/lá chúc băm nhỏ",
+  "name_en": "Lemongrass",
+  "name_normalized": "la chanh bac la chuc bam nho",
+  "synonyms": [
+    "lá chúc"
+  ],
+  "synonyms_normalized": [
+    "la chuc"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la chanh bac/la chuc bam nho",
+      "new": "la chanh bac la chuc bam nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

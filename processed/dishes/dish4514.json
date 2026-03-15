@@ -1,0 +1,80 @@
+{
+  "id": "dish4514",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4514.json",
+  "name_vi": "Quả sung xào tỏi",
+  "name_en": "",
+  "name_normalized": "qua sung xao toi",
+  "category": "mon xao",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Sung muối",
+    "Lá chanh",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05794",
+    "ingre03370",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Sung muối",
+    "Lá chanh",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pickled cucumber",
+    "Lime leaf",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "sung muoi",
+    "la chanh",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ Bột ngọt"
+    }
+  ]
+}

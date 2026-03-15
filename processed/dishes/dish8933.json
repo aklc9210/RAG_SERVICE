@@ -1,0 +1,45 @@
+{
+  "id": "dish8933",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8933.json",
+  "name_vi": "Mứt mít dẻo (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "mut mit deo cong thuc duoc chia se tu nguoi dung",
+  "category": "an vat",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Thịt mít"
+  ],
+  "seasonings": [
+    "Đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre06442",
+    "ingre07597"
+  ],
+  "ingredient_names_vi": [
+    "Thịt mít",
+    "Đường cát"
+  ],
+  "ingredient_names_en": [
+    "Pig's foot",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit mit",
+    "duong cat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mut mit deo (cong thuc duoc chia se tu nguoi dung)",
+      "new": "mut mit deo cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

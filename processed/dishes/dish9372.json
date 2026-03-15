@@ -1,0 +1,88 @@
+{
+  "id": "dish9372",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9372.json",
+  "name_vi": "Thịt ngan nấu đông",
+  "name_en": "",
+  "name_normalized": "thit ngan nau dong",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Thịt ngan"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mộc nhĩ"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tiêu",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre02485",
+    "ingre06449",
+    "ingre02768",
+    "ingre04179",
+    "ingre06612",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Gừng",
+    "Thịt ngan",
+    "Hành tím",
+    "Mộc nhĩ",
+    "Tiêu",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Ginger",
+    "Pork liver",
+    "Shallot",
+    "Mushroom",
+    "Pepper",
+    "Seasoning",
+    "MSG",
+    "Salt",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "gung",
+    "thit ngan",
+    "hanh tim",
+    "moc nhi",
+    "tieu",
+    "hat nem",
+    "bot ngot",
+    "muoi",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

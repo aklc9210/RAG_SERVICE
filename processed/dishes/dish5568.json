@@ -1,0 +1,117 @@
+{
+  "id": "dish5568",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5568.json",
+  "name_vi": "Thịt thưng",
+  "name_en": "",
+  "name_normalized": "thit thung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Trà Lipton"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Bột mì",
+    "Rượu nấu ăn",
+    "Hỗn hợp bột quế và ngũ vị hương",
+    "Ớt sa tế",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Nước tương",
+    "Dầu hào",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre06705",
+    "ingre00759",
+    "ingre05552",
+    "ingre03107",
+    "ingre08050",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre04790",
+    "ingre02080",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Trà Lipton",
+    "Bột mì",
+    "Rượu nấu ăn",
+    "Hỗn hợp bột quế và ngũ vị hương",
+    "Ớt sa tế",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Nước tương",
+    "Dầu hào",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Lipton Tea",
+    "Wheat Flour",
+    "Cooking wine",
+    "Spice blend",
+    "Bird's Eye Chili",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "Soy Sauce",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "hanh tim",
+    "toi",
+    "ot",
+    "tra lipton",
+    "bot mi",
+    "ruou nau an",
+    "hon hop bot que va ngu vi huong",
+    "ot sa te",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "nuoc tuong",
+    "dau hao",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

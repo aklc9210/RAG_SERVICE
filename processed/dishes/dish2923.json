@@ -1,0 +1,100 @@
+{
+  "id": "dish2923",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2923.json",
+  "name_vi": "Bánh dẻo sữa dứa nhân đậu xanh sầu riêng",
+  "name_en": "",
+  "name_normalized": "banh deo sua dua nhan dau xanh sau rieng",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lá dứa",
+    "Đậu xanh",
+    "Nước",
+    "Thịt sầu riêng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh dẻo",
+    "Đường bột",
+    "Mỡ trừu - Shoterning",
+    "Sữa tươi không đường",
+    "Bột mì đa dụng - bột mì số 11",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00532",
+    "ingre07589",
+    "ingre04211",
+    "ingre03417",
+    "ingre06147",
+    "ingre07836",
+    "ingre00794",
+    "ingre04490",
+    "ingre07583",
+    "ingre06492",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh dẻo",
+    "Đường bột",
+    "Mỡ trừu - Shoterning",
+    "Lá dứa",
+    "Sữa tươi không đường",
+    "Đậu xanh",
+    "Bột mì đa dụng - bột mì số 11",
+    "Nước",
+    "Đường",
+    "Thịt sầu riêng",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Sweet Rice Flour",
+    "Sugar Powder",
+    "Vegetable shortening",
+    "Pandan叶",
+    "Fat-free Milk",
+    "Green beans",
+    "All-purpose flour - Flour No. 11",
+    "Water",
+    "Sugar",
+    "Sundried Meat",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh deo",
+    "duong bot",
+    "mo truu shoterning",
+    "la dua",
+    "sua tuoi khong duong",
+    "dau xanh",
+    "bot mi da dung bot mi so 11",
+    "nuoc",
+    "duong",
+    "thit sau rieng",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mo truu - shoterning",
+      "new": "mo truu shoterning",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mỡ trừu - Shoterning"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot mi da dung - bot mi so 11",
+      "new": "bot mi da dung bot mi so 11",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột mì đa dụng - bột mì số 11"
+    }
+  ]
+}

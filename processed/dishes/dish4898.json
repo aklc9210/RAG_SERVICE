@@ -1,0 +1,91 @@
+{
+  "id": "dish4898",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4898.json",
+  "name_vi": "Tép rang mặn ngọt",
+  "name_en": "",
+  "name_normalized": "tep rang man ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tép tươi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06922",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Tép tươi",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tep tuoi",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

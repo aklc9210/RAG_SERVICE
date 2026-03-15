@@ -1,0 +1,77 @@
+{
+  "id": "dish1620",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1620.json",
+  "name_vi": "Bánh strawberry meringue cake cơ bản",
+  "name_en": "",
+  "name_normalized": "banh strawberry meringue cake co ban",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mứt dâu"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Tinh chất vani",
+    "Phúc bồn tử tươi/dâu tây"
+  ],
+  "seasonings": [
+    "Lòng trắng trứng",
+    "Cream of tartar",
+    "Đường bột",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03579",
+    "ingre04225",
+    "ingre07313",
+    "ingre01328",
+    "ingre06592",
+    "ingre07589",
+    "ingre07583",
+    "ingre05127"
+  ],
+  "ingredient_names_vi": [
+    "Lòng trắng trứng",
+    "Mứt dâu",
+    "Whipping cream",
+    "Cream of tartar",
+    "Tinh chất vani",
+    "Đường bột",
+    "Đường",
+    "Phúc bồn tử tươi/dâu tây"
+  ],
+  "ingredient_names_en": [
+    "Egg white",
+    "Strawberry jam",
+    "Whipping cream",
+    "Cream of tartar",
+    "Vanilla extract",
+    "Sugar Powder",
+    "Sugar",
+    "Strawberry"
+  ],
+  "ingredient_names_normalized": [
+    "long trang trung",
+    "mut dau",
+    "whipping cream",
+    "cream of tartar",
+    "tinh chat vani",
+    "duong bot",
+    "duong",
+    "phuc bon tu tuoi dau tay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "phuc bon tu tuoi/dau tay",
+      "new": "phuc bon tu tuoi dau tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Phúc bồn tử tươi/dâu tây"
+    }
+  ]
+}

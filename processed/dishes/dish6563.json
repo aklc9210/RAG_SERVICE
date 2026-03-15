@@ -1,0 +1,62 @@
+{
+  "id": "dish6563",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6563.json",
+  "name_vi": "Đậu hũ chiên sả",
+  "name_en": "",
+  "name_normalized": "dau hu chien sa",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre05900",
+    "ingre02124",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Sả",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Lemongrass",
+    "Cooking oil",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "sa",
+    "dau an",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

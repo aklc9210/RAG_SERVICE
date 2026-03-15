@@ -1,0 +1,113 @@
+{
+  "id": "dish8264",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8264.json",
+  "name_vi": "Gỏi tai heo hành tây",
+  "name_en": "",
+  "name_normalized": "goi tai heo hanh tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Hành tây",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Rau húng quế",
+    "Hành lá",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Nước mắm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre02741",
+    "ingre06930",
+    "ingre01079",
+    "ingre05265",
+    "ingre02673",
+    "ingre07063",
+    "ingre07966",
+    "ingre02485",
+    "ingre07791",
+    "ingre04694",
+    "ingre02355",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Hành tây",
+    "Tôm",
+    "Chanh",
+    "Rau húng quế",
+    "Hành lá",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Đậu phộng rang",
+    "Nước mắm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Onion",
+    "Shrimp",
+    "Lemon",
+    "Sage Herb",
+    "Scallion",
+    "Garlic",
+    "Pepper",
+    "Ginger",
+    "Roasted Peanut",
+    "Fish Sauce",
+    "Vinegar",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "hanh tay",
+    "tom",
+    "chanh",
+    "rau hung que",
+    "hanh la",
+    "toi",
+    "ot",
+    "gung",
+    "dau phong rang",
+    "nuoc mam",
+    "giam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

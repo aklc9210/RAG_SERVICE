@@ -1,0 +1,86 @@
+{
+  "id": "dish4001",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4001.json",
+  "name_vi": "Cá lóc nướng riềng sả",
+  "name_en": "",
+  "name_normalized": "ca loc nuong rieng sa",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá lóc",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt sa tế",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre05436",
+    "ingre05900",
+    "ingre02768",
+    "ingre08050",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Riềng",
+    "Sả",
+    "Hành tím",
+    "Ớt sa tế",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Galangal",
+    "Lemongrass",
+    "Shallot",
+    "Bird's Eye Chili",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "rieng",
+    "sa",
+    "hanh tim",
+    "ot sa te",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

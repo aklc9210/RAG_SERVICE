@@ -1,0 +1,88 @@
+{
+  "id": "dish3802",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3802.json",
+  "name_vi": "Muffin trứng",
+  "name_en": "",
+  "name_normalized": "muffin trung",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sữa",
+    "Bông cải"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tây",
+    "Nấm mỡ",
+    "Ngô",
+    "Thịt xông khói",
+    "Phô mai sợi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06078",
+    "ingre00280",
+    "ingre01354",
+    "ingre02741",
+    "ingre04945",
+    "ingre04362",
+    "ingre06523",
+    "ingre05113",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Sữa",
+    "Bông cải",
+    "Cà chua",
+    "Hành tây",
+    "Nấm mỡ",
+    "Ngô",
+    "Thịt xông khói",
+    "Phô mai sợi",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Milk",
+    "Cabbage",
+    "Tomato",
+    "Onion",
+    "Fried mushroom",
+    "Corn",
+    "Smoked Pork",
+    "String Cheese",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "sua",
+    "bong cai",
+    "ca chua",
+    "hanh tay",
+    "nam mo",
+    "ngo",
+    "thit xong khoi",
+    "pho mai soi",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

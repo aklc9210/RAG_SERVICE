@@ -1,0 +1,81 @@
+{
+  "id": "dish8970",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8970.json",
+  "name_vi": "Rau câu flan cheese (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "rau cau flan cheese cong thuc duoc chia se tu nguoi dung",
+  "category": "an vat",
+  "main_ingredients": [
+    "Phô mai con bò cười"
+  ],
+  "secondary_ingredients": [
+    "Cà phê đen hoà tan",
+    "Sữa đặc",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột rau câu dẻo",
+    "Vani",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre05070",
+    "ingre00897",
+    "ingre07140",
+    "ingre01412",
+    "ingre06147",
+    "ingre06174",
+    "ingre07583",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Phô mai con bò cười",
+    "Bột rau câu dẻo",
+    "Vani",
+    "Cà phê đen hoà tan",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Đường",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Cheese Cow Smile",
+    "Agar powder",
+    "Vanilla",
+    "Instant coffee",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "pho mai con bo cuoi",
+    "bot rau cau deo",
+    "vani",
+    "ca phe den hoa tan",
+    "sua tuoi khong duong",
+    "sua dac",
+    "duong",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau cau flan cheese (cong thuc duoc chia se tu nguoi dung)",
+      "new": "rau cau flan cheese cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

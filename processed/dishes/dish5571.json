@@ -1,0 +1,91 @@
+{
+  "id": "dish5571",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5571.json",
+  "name_vi": "Thịt heo kho kim chi",
+  "name_en": "",
+  "name_normalized": "thit heo kho kim chi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn non",
+    "Kim chi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre03277",
+    "ingre02768",
+    "ingre02673",
+    "ingre07966",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Kim chi",
+    "Hành tím",
+    "Hành lá",
+    "Ớt",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Shallot",
+    "Scallion",
+    "Pepper",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "kim chi",
+    "hanh tim",
+    "hanh la",
+    "ot",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

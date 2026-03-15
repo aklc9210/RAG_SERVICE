@@ -1,0 +1,88 @@
+{
+  "id": "dish5644",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5644.json",
+  "name_vi": "Cá nục kho nước dừa",
+  "name_en": "",
+  "name_normalized": "ca nuc kho nuoc dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dừa tươi"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước màu đường thốt nối",
+    "Nước mắm",
+    "Tỏi",
+    "Tiêu xay",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre02124",
+    "ingre04686",
+    "ingre04694",
+    "ingre02768",
+    "ingre02198",
+    "ingre07063",
+    "ingre06644",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Dầu ăn",
+    "Nước màu đường thốt nối",
+    "Nước mắm",
+    "Hành tím",
+    "Dừa tươi",
+    "Tỏi",
+    "Tiêu xay",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Cooking oil",
+    "Red food coloring",
+    "Fish Sauce",
+    "Shallot",
+    "Coconut",
+    "Garlic",
+    "Ground pepper",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "dau an",
+    "nuoc mau duong thot noi",
+    "nuoc mam",
+    "hanh tim",
+    "dua tuoi",
+    "toi",
+    "tieu xay",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

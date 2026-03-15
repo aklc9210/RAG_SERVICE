@@ -1,0 +1,27 @@
+{
+  "id": "ingre03394",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03394.json",
+  "name_vi": "lá chuối/ lá sen",
+  "name_en": "Banana leaf/Lotus leaf",
+  "name_normalized": "la chuoi la sen",
+  "synonyms": [
+    "lá sen tươi",
+    "lá sen干草 (lá sen khô)"
+  ],
+  "synonyms_normalized": [
+    "la sen tuoi",
+    "la sen la sen kho"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la chuoi/ la sen",
+      "new": "la chuoi la sen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

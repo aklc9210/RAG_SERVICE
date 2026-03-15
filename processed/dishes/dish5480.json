@@ -1,0 +1,125 @@
+{
+  "id": "dish5480",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5480.json",
+  "name_vi": "Thịt ba chỉ xào mắm ruốc với măng le",
+  "name_en": "",
+  "name_normalized": "thit ba chi xao mam ruoc voi mang le",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Măng le",
+    "Nước dừa"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ",
+    "Hành tím",
+    "Sả",
+    "Cà chua",
+    "Dưa leo",
+    "Đậu rồng"
+  ],
+  "seasonings": [
+    "Mắm ruốc",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre04082",
+    "ingre04622",
+    "ingre04151",
+    "ingre07740",
+    "ingre07063",
+    "ingre02768",
+    "ingre05900",
+    "ingre07966",
+    "ingre01354",
+    "ingre02020",
+    "ingre07821",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Măng le",
+    "Nước dừa",
+    "Mắm ruốc",
+    "Đậu hũ",
+    "Tỏi",
+    "Hành tím",
+    "Sả",
+    "Ớt",
+    "Cà chua",
+    "Dưa leo",
+    "Đậu rồng",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Asparagus",
+    "Coconut water",
+    "Shrimp paste",
+    "Tofu",
+    "Garlic",
+    "Shallot",
+    "Lemongrass",
+    "Pepper",
+    "Tomato",
+    "Cucumber",
+    "Dragon bean",
+    "Cooking oil",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "mang le",
+    "nuoc dua",
+    "mam ruoc",
+    "dau hu",
+    "toi",
+    "hanh tim",
+    "sa",
+    "ot",
+    "ca chua",
+    "dua leo",
+    "dau rong",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

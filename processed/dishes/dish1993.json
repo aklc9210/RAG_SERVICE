@@ -1,0 +1,69 @@
+{
+  "id": "dish1993",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1993.json",
+  "name_vi": "Bánh bao pate chiên",
+  "name_en": "",
+  "name_normalized": "banh bao pate chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Pate"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột chiên xù",
+    "Baking powder",
+    "Trứng gà",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00609",
+    "ingre00013",
+    "ingre03687",
+    "ingre05020",
+    "ingre06823",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột chiên xù",
+    "Baking powder",
+    "Men nở instant",
+    "Pate",
+    "Trứng gà",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Puffed Rice Powder",
+    "Baking powder",
+    "Instant Yeast",
+    "Pate -> Pâté",
+    "Chicken egg",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot chien xu",
+    "baking powder",
+    "men no instant",
+    "pate",
+    "trung ga",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

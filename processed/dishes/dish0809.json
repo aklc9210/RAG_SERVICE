@@ -1,0 +1,68 @@
+{
+  "id": "dish0809",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0809.json",
+  "name_vi": "Canh cua rau đay mồng tơi",
+  "name_en": "",
+  "name_normalized": "canh cua rau day mong toi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cua đồng"
+  ],
+  "secondary_ingredients": [
+    "Rau đay",
+    "Mướp hương"
+  ],
+  "seasonings": [
+    "Rau mồng tơi",
+    "Hành tím băm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre05431",
+    "ingre05320",
+    "ingre04104",
+    "ingre02774",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Rau đay",
+    "Rau mồng tơi",
+    "Mướp hương",
+    "Hành tím băm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Mallowweed",
+    "Mint",
+    "Luffa",
+    "Chopped Scallion",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "rau day",
+    "rau mong toi",
+    "muop huong",
+    "hanh tim bam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    }
+  ]
+}

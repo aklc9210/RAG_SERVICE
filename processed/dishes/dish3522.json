@@ -1,0 +1,72 @@
+{
+  "id": "dish3522",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3522.json",
+  "name_vi": "Súp cần tây kem mịn",
+  "name_en": "",
+  "name_normalized": "sup can tay kem min",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cần tây",
+    "Nước dùng gà"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nhục đậu khấu",
+    "Muối/Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01812",
+    "ingre04607",
+    "ingre06144",
+    "ingre00791",
+    "ingre00382",
+    "ingre00837",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Cần tây",
+    "Nước dùng gà",
+    "Sữa tươi",
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Bột nhục đậu khấu",
+    "Muối/Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Celery",
+    "Chicken broth",
+    "Fresh Milk",
+    "All-purpose flour",
+    "Butter",
+    "Cinnamon powder",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "can tay",
+    "nuoc dung ga",
+    "sua tuoi",
+    "bot mi da dung",
+    "bo lat",
+    "bot nhuc dau khau",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

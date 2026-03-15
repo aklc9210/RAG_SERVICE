@@ -1,0 +1,57 @@
+{
+  "id": "dish8505",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8505.json",
+  "name_vi": "Chân gà luộc bột nghệ vàng ươm",
+  "name_en": "",
+  "name_normalized": "chan ga luoc bot nghe vang uom",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Bột nghệ"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre05900",
+    "ingre02485",
+    "ingre00804"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Sả",
+    "Gừng",
+    "Bột nghệ"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Lemongrass",
+    "Ginger",
+    "Turmeric Powder"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "sa",
+    "gung",
+    "bot nghe"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

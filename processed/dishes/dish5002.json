@@ -1,0 +1,75 @@
+{
+  "id": "dish5002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5002.json",
+  "name_vi": "Vẹm xào sả ớt",
+  "name_en": "",
+  "name_normalized": "vem xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Vẹm"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Bánh đa"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07206",
+    "ingre05900",
+    "ingre07966",
+    "ingre00218",
+    "ingre03818",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Vẹm",
+    "Sả",
+    "Ớt",
+    "Bánh đa",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Oyster",
+    "Lemongrass",
+    "Pepper",
+    "Rice noodle",
+    "Salt/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "vem",
+    "sa",
+    "ot",
+    "banh da",
+    "muoi duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

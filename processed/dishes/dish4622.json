@@ -1,0 +1,107 @@
+{
+  "id": "dish4622",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4622.json",
+  "name_vi": "Hàu xào bông cải",
+  "name_en": "",
+  "name_normalized": "hau xao bong cai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt hàu sữa",
+    "Bông cải trắng",
+    "Bông cải xanh",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây tím",
+    "Hành lá",
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt sừng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06423",
+    "ingre00281",
+    "ingre00282",
+    "ingre01354",
+    "ingre07063",
+    "ingre02485",
+    "ingre02761",
+    "ingre02673",
+    "ingre02862",
+    "ingre08055",
+    "ingre04694",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt hàu sữa",
+    "Bông cải trắng",
+    "Bông cải xanh",
+    "Cà chua",
+    "Tỏi",
+    "Gừng",
+    "Hành tây tím",
+    "Hành lá",
+    "Húng quế",
+    "Ớt sừng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mussel meat",
+    "Cabbage",
+    "Tomato",
+    "Garlic",
+    "Ginger",
+    "Purple onion",
+    "Scallion",
+    "Cinnamon basil",
+    "Hot pepper",
+    "Fish Sauce",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit hau sua",
+    "bong cai trang",
+    "bong cai xanh",
+    "ca chua",
+    "toi",
+    "gung",
+    "hanh tay tim",
+    "hanh la",
+    "hung que",
+    "ot sung",
+    "nuoc mam",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

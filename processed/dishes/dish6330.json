@@ -1,0 +1,86 @@
+{
+  "id": "dish6330",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6330.json",
+  "name_vi": "Sườn muối sả chiên",
+  "name_en": "",
+  "name_normalized": "suon muoi sa chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn non",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Bột bắp",
+    "Bột năng",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre05900",
+    "ingre08055",
+    "ingre00564",
+    "ingre00849",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Sả",
+    "Ớt sừng",
+    "Bột bắp",
+    "Bột năng",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Lemongrass",
+    "Hot pepper",
+    "Corn starch",
+    "Cornstarch",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "sa",
+    "ot sung",
+    "bot bap",
+    "bot nang",
+    "hat nem",
+    "muoi",
+    "duong",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

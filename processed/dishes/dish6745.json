@@ -1,0 +1,83 @@
+{
+  "id": "dish6745",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6745.json",
+  "name_vi": "Nấm đông cô nhồi tôm hấp",
+  "name_en": "",
+  "name_normalized": "nam dong co nhoi tom hap",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Nấm đông cô"
+  ],
+  "secondary_ingredients": [
+    "Tôm",
+    "Đậu hà lan",
+    "Hành tím",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04966",
+    "ingre01419",
+    "ingre06930",
+    "ingre07736",
+    "ingre02768",
+    "ingre02094",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đông cô",
+    "Cà rốt",
+    "Tôm",
+    "Đậu hà lan",
+    "Hành tím",
+    "Dầu mè",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Carrot",
+    "Shrimp",
+    "Green beans",
+    "Shallot",
+    "Sesame oil",
+    "Seasoning",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam dong co",
+    "ca rot",
+    "tom",
+    "dau ha lan",
+    "hanh tim",
+    "dau me",
+    "hat nem",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

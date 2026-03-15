@@ -1,0 +1,109 @@
+{
+  "id": "dish9055",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9055.json",
+  "name_vi": "Sò lụa hấp thái",
+  "name_en": "",
+  "name_normalized": "so lua hap thai",
+  "category": "an vat",
+  "main_ingredients": [
+    "Sò lụa",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Ớt",
+    "Hành tím băm",
+    "Cốt me",
+    "Bột ớt",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05821",
+    "ingre03370",
+    "ingre05900",
+    "ingre07966",
+    "ingre05359",
+    "ingre02774",
+    "ingre01851",
+    "ingre01015",
+    "ingre07028",
+    "ingre02124",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Sò lụa",
+    "Lá chanh",
+    "Sả",
+    "Ớt",
+    "Rau răm",
+    "Hành tím băm",
+    "Cốt me",
+    "Bột ớt",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Lime leaf",
+    "Lemongrass",
+    "Pepper",
+    "Vietnamese coriander",
+    "Chopped Scallion",
+    "Kumquat",
+    "Red Pepper Powder",
+    "Hot Sauce",
+    "Cooking oil",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "so lua",
+    "la chanh",
+    "sa",
+    "ot",
+    "rau ram",
+    "hanh tim bam",
+    "cot me",
+    "bot ot",
+    "tuong ot",
+    "dau an",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

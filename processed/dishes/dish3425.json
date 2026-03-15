@@ -1,0 +1,118 @@
+{
+  "id": "dish3425",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3425.json",
+  "name_vi": "Bún sườn cải chua bắp bò",
+  "name_en": "",
+  "name_normalized": "bun suon cai chua bap bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sườn heo non",
+    "Thịt bắp bò",
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cải chua",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Nước cốt me",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05886",
+    "ingre06332",
+    "ingre01354",
+    "ingre02741",
+    "ingre01777",
+    "ingre04329",
+    "ingre02774",
+    "ingre07071",
+    "ingre04694",
+    "ingre04581",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo non",
+    "Thịt bắp bò",
+    "Cà chua",
+    "Hành tây",
+    "Cải chua",
+    "Ngò gai",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Nước cốt me",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Riblet",
+    "Beef",
+    "Tomato",
+    "Onion",
+    "Pickled cabbage",
+    "Culantro",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Lime juice",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo non",
+    "thit bap bo",
+    "ca chua",
+    "hanh tay",
+    "cai chua",
+    "ngo gai",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc mam",
+    "nuoc cot me",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

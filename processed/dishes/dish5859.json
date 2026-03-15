@@ -1,0 +1,96 @@
+{
+  "id": "dish5859",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5859.json",
+  "name_vi": "Chân giò hầm ngũ vị",
+  "name_en": "",
+  "name_normalized": "chan gio ham ngu vi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Chân giò",
+    "Nấm hương khô",
+    "Táo"
+  ],
+  "secondary_ingredients": [
+    "Thuốc bắc hầm canh",
+    "Hành tây",
+    "Rau mùi ta"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Xì dầu",
+    "Muối/ bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre04913",
+    "ingre06890",
+    "ingre01419",
+    "ingre06224",
+    "ingre02741",
+    "ingre02485",
+    "ingre05308",
+    "ingre07381",
+    "ingre03805"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Nấm hương khô",
+    "Táo",
+    "Cà rốt",
+    "Thuốc bắc hầm canh",
+    "Hành tây",
+    "Gừng",
+    "Rau mùi ta",
+    "Xì dầu",
+    "Muối/ bột canh"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Dried Shiitake Mushrooms",
+    "Apple",
+    "Carrot",
+    "Dried Chinese Herbs Soup Ingredients",
+    "Onion",
+    "Ginger",
+    "Thai basil",
+    "Soy Sauce",
+    "Salt/Soup Powder"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "nam huong kho",
+    "tao",
+    "ca rot",
+    "thuoc bac ham canh",
+    "hanh tay",
+    "gung",
+    "rau mui ta",
+    "xi dau",
+    "muoi bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot canh",
+      "new": "muoi bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột canh"
+    }
+  ]
+}

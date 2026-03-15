@@ -1,0 +1,111 @@
+{
+  "id": "dish8040",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8040.json",
+  "name_vi": "Nộm sứa tai lợn",
+  "name_en": "",
+  "name_normalized": "nom sua tai lon",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa",
+    "Tai lợn"
+  ],
+  "secondary_ingredients": [
+    "Lá húng lủi",
+    "Rau kinh giới cắt nhuyễn",
+    "Rau răm",
+    "Rau ngò"
+  ],
+  "seasonings": [
+    "Hành tây đã gọt vỏ",
+    "Chanh",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt hiểm băm",
+    "Bột canh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06071",
+    "ingre06186",
+    "ingre02767",
+    "ingre01079",
+    "ingre04694",
+    "ingre07071",
+    "ingre08027",
+    "ingre03438",
+    "ingre05279",
+    "ingre05359",
+    "ingre05321",
+    "ingre00587",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sứa",
+    "Tai lợn",
+    "Hành tây đã gọt vỏ",
+    "Chanh",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt hiểm băm",
+    "Lá húng lủi",
+    "Rau kinh giới cắt nhuyễn",
+    "Rau răm",
+    "Rau ngò",
+    "Bột canh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Jellyfish",
+    "Pork ear",
+    "Onion",
+    "Lemon",
+    "Fish Sauce",
+    "Minced Garlic",
+    "Chili flakes",
+    "Peppermint叶",
+    "Japanese Mint",
+    "Vietnamese coriander",
+    "Culantro",
+    "Cornstarch",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sua",
+    "tai lon",
+    "hanh tay da got vo",
+    "chanh",
+    "nuoc mam",
+    "toi bam",
+    "ot hiem bam",
+    "la hung lui",
+    "rau kinh gioi cat nhuyen",
+    "rau ram",
+    "rau ngo",
+    "bot canh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre01166",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01166.json",
+  "name_vi": "chuối cắt lát (hoặc 2 quả)",
+  "name_en": "Banana Slices (or 2 bananas)",
+  "name_normalized": "chuoi cat lat hoac 2 qua",
+  "synonyms": [
+    "dâu chuối",
+    "chuối xắt lát"
+  ],
+  "synonyms_normalized": [
+    "dau chuoi",
+    "chuoi xat lat"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chuoi cat lat (hoac 2 qua)",
+      "new": "chuoi cat lat hoac 2 qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre05637",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05637.json",
+  "name_vi": "sake chín:",
+  "name_en": "Red sake",
+  "name_normalized": "sake chin",
+  "synonyms": [
+    "sắn dây"
+  ],
+  "synonyms_normalized": [
+    "san day"
+  ],
+  "category": "alcoholic_beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sake chin:",
+      "new": "sake chin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

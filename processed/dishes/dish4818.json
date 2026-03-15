@@ -1,0 +1,91 @@
+{
+  "id": "dish4818",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4818.json",
+  "name_vi": "Hàu xào dưa",
+  "name_en": "",
+  "name_normalized": "hau xao dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hàu",
+    "Dưa cải"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Cà chua",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt khô",
+    "Tiêu hạt",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02837",
+    "ingre02005",
+    "ingre06233",
+    "ingre01354",
+    "ingre02768",
+    "ingre08039",
+    "ingre06619",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Hàu",
+    "Dưa cải",
+    "Thì là",
+    "Cà chua",
+    "Hành tím",
+    "Ớt khô",
+    "Tiêu hạt",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Chinese cabbage",
+    "Dill",
+    "Tomato",
+    "Shallot",
+    "Dried Pepper",
+    "Cumin Seeds",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "hau",
+    "dua cai",
+    "thi la",
+    "ca chua",
+    "hanh tim",
+    "ot kho",
+    "tieu hat",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

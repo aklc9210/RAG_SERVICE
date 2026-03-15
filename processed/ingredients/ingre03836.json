@@ -1,0 +1,29 @@
+{
+  "id": "ingre03836",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03836.json",
+  "name_vi": "muối;hạt nêm;đường",
+  "name_en": "Salt;Soy Sauce;Sugar",
+  "name_normalized": "muoi hat nem duong",
+  "synonyms": [
+    "muối ăn",
+    "hạt nêm chay",
+    "đường phèn"
+  ],
+  "synonyms_normalized": [
+    "muoi an",
+    "hat nem chay",
+    "duong phen"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi;hat nem;duong",
+      "new": "muoi hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

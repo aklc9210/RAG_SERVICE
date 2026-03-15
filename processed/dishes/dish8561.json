@@ -1,0 +1,118 @@
+{
+  "id": "dish8561",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8561.json",
+  "name_vi": "Lagu bò nấu đậu",
+  "name_en": "",
+  "name_normalized": "lagu bo nau dau",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Hạt đậu Hà Lan",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tây",
+    "Hành tím",
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Sốt cà chua",
+    "Rượu vang",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03075",
+    "ingre03222",
+    "ingre01419",
+    "ingre01354",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre05947",
+    "ingre04622",
+    "ingre05587",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Hạt đậu Hà Lan",
+    "Khoai tây",
+    "Cà rốt",
+    "Cà chua",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Sốt cà chua",
+    "Nước dừa",
+    "Rượu vang",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Green bean seed",
+    "Potato",
+    "Carrot",
+    "Tomato",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Tomato sauce",
+    "Coconut water",
+    "Wine",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "hat dau ha lan",
+    "khoai tay",
+    "ca rot",
+    "ca chua",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "sot ca chua",
+    "nuoc dua",
+    "ruou vang",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish3765",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3765.json",
+  "name_vi": "Gà tre nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ga tre nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà tre",
+    "Sả",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều",
+    "Hạt ngò",
+    "Dầu mè",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối hồng",
+    "Nước mắm",
+    "Ớt tươi",
+    "Ớt bột",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02408",
+    "ingre05900",
+    "ingre02768",
+    "ingre07063",
+    "ingre03763",
+    "ingre04694",
+    "ingre02093",
+    "ingre08078",
+    "ingre07977",
+    "ingre06644",
+    "ingre02987",
+    "ingre02094",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Gà tre",
+    "Sả",
+    "Hành tím",
+    "Tỏi",
+    "Muối hồng",
+    "Nước mắm",
+    "Dầu màu điều",
+    "Ớt tươi",
+    "Ớt bột",
+    "Tiêu xay",
+    "Hạt ngò",
+    "Dầu mè",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Palm chicken",
+    "Lemongrass",
+    "Shallot",
+    "Garlic",
+    "Pink salt",
+    "Fish Sauce",
+    "Peanut-colored food coloring",
+    "Fresh chili",
+    "Chili powder",
+    "Ground pepper",
+    "Cilantro Seeds",
+    "Sesame oil",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "ga tre",
+    "sa",
+    "hanh tim",
+    "toi",
+    "muoi hong",
+    "nuoc mam",
+    "dau mau dieu",
+    "ot tuoi",
+    "ot bot",
+    "tieu xay",
+    "hat ngo",
+    "dau me",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre02339",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02339.json",
+  "name_vi": "giá/hẹ",
+  "name_en": "Chives",
+  "name_normalized": "gia he",
+  "synonyms": [
+    "cây giá",
+    "cây hẹ"
+  ],
+  "synonyms_normalized": [
+    "cay gia",
+    "cay he"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gia/he",
+      "new": "gia he",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

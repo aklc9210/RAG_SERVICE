@@ -1,0 +1,93 @@
+{
+  "id": "dish6734",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6734.json",
+  "name_vi": "Cánh gà chiên nước mắm bơ tỏi",
+  "name_en": "",
+  "name_normalized": "canh ga chien nuoc mam bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cánh gà",
+    "Bơ lạt",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre00382",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Bơ lạt",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Butter",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "bo lat",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

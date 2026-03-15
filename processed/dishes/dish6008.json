@@ -1,0 +1,91 @@
+{
+  "id": "dish6008",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6008.json",
+  "name_vi": "Cá nục kho keo",
+  "name_en": "",
+  "name_normalized": "ca nuc kho keo",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu dừa"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre02768",
+    "ingre02673",
+    "ingre08026",
+    "ingre04675",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Hành tím",
+    "Hành lá",
+    "Ớt hiểm",
+    "Nước màu dừa",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Shallot",
+    "Scallion",
+    "Hot pepper",
+    "Coconut food coloring",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "hanh tim",
+    "hanh la",
+    "ot hiem",
+    "nuoc mau dua",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre02257",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02257.json",
+  "name_vi": "gelatin bột (hoặc lá)",
+  "name_en": "Gelatin Powder (or Leaf)",
+  "name_normalized": "gelatin bot hoac la",
+  "synonyms": [
+    "bột gelatin",
+    "gelatin"
+  ],
+  "synonyms_normalized": [
+    "bot gelatin",
+    "gelatin"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gelatin bot (hoac la)",
+      "new": "gelatin bot hoac la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish0607",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0607.json",
+  "name_vi": "Bồ câu hầm đậu xanh",
+  "name_en": "",
+  "name_normalized": "bo cau ham dau xanh",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bồ câu",
+    "Hạt sen khô"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh vỡ",
+    "Nấm hương khô",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt cắt hoa",
+    "Muối - tiêu xay - đường - hạt nêm - bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00500",
+    "ingre03031",
+    "ingre07854",
+    "ingre04913",
+    "ingre02768",
+    "ingre01424",
+    "ingre03748"
+  ],
+  "ingredient_names_vi": [
+    "Bồ câu",
+    "Hạt sen khô",
+    "Đậu xanh vỡ",
+    "Nấm hương khô",
+    "Hành tím",
+    "Cà rốt cắt hoa",
+    "Muối - tiêu xay - đường - hạt nêm - bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Lotus seed",
+    "Broken Green Beans",
+    "Dried Shiitake Mushrooms",
+    "Shallot",
+    "Carrot flower cut",
+    "Salt - Ground Pepper - Sugar - Seasoning Powder - Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "bo cau",
+    "hat sen kho",
+    "dau xanh vo",
+    "nam huong kho",
+    "hanh tim",
+    "ca rot cat hoa",
+    "muoi tieu xay duong hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi - tieu xay - duong - hat nem - bot ngot",
+      "new": "muoi tieu xay duong hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối - tiêu xay - đường - hạt nêm - bột ngọt"
+    }
+  ]
+}

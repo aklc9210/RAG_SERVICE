@@ -1,0 +1,76 @@
+{
+  "id": "dish7373",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7373.json",
+  "name_vi": "Bánh thịt bò chiên (Soegogi-jeon) Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "banh thit bo chien soegogi jeon han quoc",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Bột mì",
+    "Tỏi băm",
+    "Trứng gà",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre02124",
+    "ingre02094",
+    "ingre00759",
+    "ingre07071",
+    "ingre06823",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Dầu ăn",
+    "Dầu mè",
+    "Bột mì",
+    "Tỏi băm",
+    "Trứng gà",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Cooking oil",
+    "Sesame oil",
+    "Wheat Flour",
+    "Minced Garlic",
+    "Chicken egg",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "dau an",
+    "dau me",
+    "bot mi",
+    "toi bam",
+    "trung ga",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh thit bo chien (soegogi-jeon) han quoc",
+      "new": "banh thit bo chien soegogi jeon han quoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

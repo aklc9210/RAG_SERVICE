@@ -1,0 +1,25 @@
+{
+  "id": "ingre03322",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03322.json",
+  "name_vi": "kẹo socola m&m",
+  "name_en": "M&M Chocolate Candy",
+  "name_normalized": "keo socola m m",
+  "synonyms": [
+    "kẹo sô cô la m&m"
+  ],
+  "synonyms_normalized": [
+    "keo so co la m m"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "keo socola m&m",
+      "new": "keo socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

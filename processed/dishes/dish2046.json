@@ -1,0 +1,91 @@
+{
+  "id": "dish2046",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2046.json",
+  "name_vi": "Bánh kẹp - waffle sầu riêng lá dứa",
+  "name_en": "",
+  "name_normalized": "banh kep waffle sau rieng la dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt sầu riêng"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Dừa sợi"
+  ],
+  "seasonings": [
+    "Tinh chất lá dứa",
+    "Bột mì đa dụng",
+    "Bột năng",
+    "Bột nổi",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Đường cát",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06492",
+    "ingre06586",
+    "ingre00791",
+    "ingre00849",
+    "ingre00866",
+    "ingre06144",
+    "ingre02196",
+    "ingre06823",
+    "ingre04554",
+    "ingre07597",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt sầu riêng",
+    "Tinh chất lá dứa",
+    "Bột mì đa dụng",
+    "Bột năng",
+    "Bột nổi",
+    "Sữa tươi",
+    "Dừa sợi",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Đường cát",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sundried Meat",
+    "Lemongrass Extract",
+    "All-purpose flour",
+    "Cornstarch",
+    "Baking powder",
+    "Fresh Milk",
+    "Coconut Fiber",
+    "Chicken egg",
+    "Coconut milk",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit sau rieng",
+    "tinh chat la dua",
+    "bot mi da dung",
+    "bot nang",
+    "bot noi",
+    "sua tuoi",
+    "dua soi",
+    "trung ga",
+    "nuoc cot dua",
+    "duong cat",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kep - waffle sau rieng la dua",
+      "new": "banh kep waffle sau rieng la dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

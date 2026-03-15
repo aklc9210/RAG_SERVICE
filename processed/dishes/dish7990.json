@@ -1,0 +1,87 @@
+{
+  "id": "dish7990",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7990.json",
+  "name_vi": "Thịt ba chỉ trộn chua ngọt kiểu Việt",
+  "name_en": "",
+  "name_normalized": "thit ba chi tron chua ngot kieu viet",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành lá cắt nhỏ",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt băm",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Bột canh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre02485",
+    "ingre05900",
+    "ingre02683",
+    "ingre07971",
+    "ingre04538",
+    "ingre04694",
+    "ingre02094",
+    "ingre00587",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Gừng",
+    "Sả",
+    "Hành lá cắt nhỏ",
+    "Ớt băm",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu mè",
+    "Bột canh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Ginger",
+    "Lemongrass",
+    "Chopped Green Onion",
+    "Chopped Pepper",
+    "Lemon juice",
+    "Fish Sauce",
+    "Sesame oil",
+    "Cornstarch",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "gung",
+    "sa",
+    "hanh la cat nho",
+    "ot bam",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "dau me",
+    "bot canh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

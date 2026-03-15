@@ -1,0 +1,71 @@
+{
+  "id": "dish1975",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1975.json",
+  "name_vi": "Bánh bao nhân dừa",
+  "name_en": "",
+  "name_normalized": "banh bao nhan dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dừa nạo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Sữa có đường",
+    "Men nở",
+    "Dầu ăn",
+    "Bột năng",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre02182",
+    "ingre06114",
+    "ingre03686",
+    "ingre02124",
+    "ingre00849",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Dừa nạo",
+    "Sữa có đường",
+    "Men nở",
+    "Dầu ăn",
+    "Bột năng",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Coconut grated",
+    "Sweetened milk",
+    "Baking Powder",
+    "Cooking oil",
+    "Cornstarch",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "dua nao",
+    "sua co duong",
+    "men no",
+    "dau an",
+    "bot nang",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

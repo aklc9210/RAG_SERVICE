@@ -1,0 +1,110 @@
+{
+  "id": "dish8367",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8367.json",
+  "name_vi": "Gỏi cá chép",
+  "name_en": "",
+  "name_normalized": "goi ca chep",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá chép",
+    "Gạo",
+    "Vừng trắng"
+  ],
+  "secondary_ingredients": [
+    "Thính gạo",
+    "Sả",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Mắm tôm",
+    "Tương xay",
+    "Sa tế",
+    "Ớt bột",
+    "Dầu ăn",
+    "Tiêu/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre02436",
+    "ingre07302",
+    "ingre06241",
+    "ingre01079",
+    "ingre05900",
+    "ingre04165",
+    "ingre04159",
+    "ingre07008",
+    "ingre05621",
+    "ingre07977",
+    "ingre02124",
+    "ingre06659"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Gạo",
+    "Vừng trắng",
+    "Thính gạo",
+    "Chanh",
+    "Sả",
+    "Mẻ",
+    "Mắm tôm",
+    "Tương xay",
+    "Sa tế",
+    "Ớt bột",
+    "Dầu ăn",
+    "Tiêu/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Rice",
+    "Branched Caraway Seeds",
+    "Rice flour",
+    "Lemon",
+    "Lemongrass",
+    "Tamarind",
+    "Shrimp paste",
+    "Molasses",
+    "Fish sauce",
+    "Chili powder",
+    "Cooking oil",
+    "Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "gao",
+    "vung trang",
+    "thinh gao",
+    "chanh",
+    "sa",
+    "me",
+    "mam tom",
+    "tuong xay",
+    "sa te",
+    "ot bot",
+    "dau an",
+    "tieu bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ bot ngot",
+      "new": "tieu bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish5584",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5584.json",
+  "name_vi": "Rạm om lá lốt",
+  "name_en": "",
+  "name_normalized": "ram om la lot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Rạm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Mỡ heo/ dầu ăn",
+    "Tỏi",
+    "Ớt khô",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05600",
+    "ingre03461",
+    "ingre04197",
+    "ingre02768",
+    "ingre07063",
+    "ingre08039",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Rạm",
+    "Lá lốt",
+    "Mỡ heo/ dầu ăn",
+    "Hành tím",
+    "Tỏi",
+    "Ớt khô",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Centella",
+    "Cinnamon Leaf",
+    "Pork fat/Oil",
+    "Shallot",
+    "Garlic",
+    "Dried Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ram",
+    "la lot",
+    "mo heo dau an",
+    "hanh tim",
+    "toi",
+    "ot kho",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mo heo/ dau an",
+      "new": "mo heo dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mỡ heo/ dầu ăn"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

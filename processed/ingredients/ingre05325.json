@@ -1,0 +1,27 @@
+{
+  "id": "ingre05325",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05325.json",
+  "name_vi": "rau ngò gai/ rau om",
+  "name_en": "Sage Herb / Oregano",
+  "name_normalized": "rau ngo gai rau om",
+  "synonyms": [
+    "rau om",
+    "ngò gai"
+  ],
+  "synonyms_normalized": [
+    "rau om",
+    "ngo gai"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ngo gai/ rau om",
+      "new": "rau ngo gai rau om",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

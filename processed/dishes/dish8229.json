@@ -1,0 +1,114 @@
+{
+  "id": "dish8229",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8229.json",
+  "name_vi": "Gỏi ngó sen bao tử heo",
+  "name_en": "",
+  "name_normalized": "goi ngo sen bao tu heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Cần tây",
+    "Ngó sen"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Củ kiệu",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Ớt băm",
+    "Nước mắm",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre01812",
+    "ingre04361",
+    "ingre02768",
+    "ingre01895",
+    "ingre01079",
+    "ingre07063",
+    "ingre07971",
+    "ingre04694",
+    "ingre02355",
+    "ingre05359",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Cần tây",
+    "Ngó sen",
+    "Hành tím",
+    "Củ kiệu",
+    "Chanh",
+    "Tỏi",
+    "Ớt băm",
+    "Nước mắm",
+    "Giấm",
+    "Rau răm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Celery",
+    "Lotus leaf",
+    "Shallot",
+    "Pickled radish",
+    "Lemon",
+    "Garlic",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Vinegar",
+    "Vietnamese coriander",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "can tay",
+    "ngo sen",
+    "hanh tim",
+    "cu kieu",
+    "chanh",
+    "toi",
+    "ot bam",
+    "nuoc mam",
+    "giam",
+    "rau ram",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

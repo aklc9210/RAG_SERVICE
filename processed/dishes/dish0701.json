@@ -1,0 +1,103 @@
+{
+  "id": "dish0701",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0701.json",
+  "name_vi": "Canh đậu đỏ nấu sườn",
+  "name_en": "",
+  "name_normalized": "canh dau do nau suon",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn non",
+    "Đậu đỏ",
+    "Đậu trắng"
+  ],
+  "secondary_ingredients": [
+    "Đậu đen",
+    "Nấm rơm",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước cốt chanh",
+    "Muối",
+    "Bột nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre07868",
+    "ingre07824",
+    "ingre07863",
+    "ingre04953",
+    "ingre01419",
+    "ingre04538",
+    "ingre02673",
+    "ingre04343",
+    "ingre03746",
+    "ingre00838",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Đậu đỏ",
+    "Đậu trắng",
+    "Đậu đen",
+    "Nấm rơm",
+    "Cà rốt",
+    "Nước cốt chanh",
+    "Hành lá",
+    "Ngò rí",
+    "Muối",
+    "Bột nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Red beans",
+    "White bean",
+    "Black beans",
+    "Strawberry mushroom",
+    "Carrot",
+    "Lemon juice",
+    "Scallion",
+    "Parsley",
+    "Salt",
+    "Seasoning Powder",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "dau do",
+    "dau trang",
+    "dau den",
+    "nam rom",
+    "ca rot",
+    "nuoc cot chanh",
+    "hanh la",
+    "ngo ri",
+    "muoi",
+    "bot nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

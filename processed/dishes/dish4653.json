@@ -1,0 +1,92 @@
+{
+  "id": "dish4653",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4653.json",
+  "name_vi": "Xúc xích xào rau củ Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "xuc xich xao rau cu han quoc",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Xúc xích xông khói",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành baro",
+    "Mè đen rang"
+  ],
+  "seasonings": [
+    "Ớt chuông vàng",
+    "Ớt chuông đỏ",
+    "Tỏi băm",
+    "Tương cà",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre07408",
+    "ingre02741",
+    "ingre08007",
+    "ingre08014",
+    "ingre02642",
+    "ingre07071",
+    "ingre06984",
+    "ingre02080",
+    "ingre02124",
+    "ingre03942",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Xúc xích xông khói",
+    "Hành tây",
+    "Ớt chuông vàng",
+    "Ớt chuông đỏ",
+    "Hành baro",
+    "Tỏi băm",
+    "Tương cà",
+    "Dầu hào",
+    "Dầu ăn",
+    "Mè đen rang",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Smoked sausage",
+    "Onion",
+    "Yellow Bell Pepper",
+    "Red bell pepper",
+    "Garlic",
+    "Minced Garlic",
+    "Miso酱",
+    "Soy sauce",
+    "Cooking oil",
+    "Roasted Black Sesame Seeds",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xuc xich xong khoi",
+    "hanh tay",
+    "ot chuong vang",
+    "ot chuong do",
+    "hanh baro",
+    "toi bam",
+    "tuong ca",
+    "dau hao",
+    "dau an",
+    "me den rang",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

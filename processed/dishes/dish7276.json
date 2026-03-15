@@ -1,0 +1,116 @@
+{
+  "id": "dish7276",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7276.json",
+  "name_vi": "Cơm hoa đậu biếc",
+  "name_en": "",
+  "name_normalized": "com hoa dau biec",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hoa đậu biếc",
+    "Cơm nguội",
+    "Cá bạc má"
+  ],
+  "secondary_ingredients": [
+    "Đậu rồng",
+    "Dừa nạo",
+    "Bánh phồng tôm",
+    "Giá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng vịt muối",
+    "Ớt sừng",
+    "Nước mắm",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02610",
+    "ingre01755",
+    "ingre01476",
+    "ingre06857",
+    "ingre07821",
+    "ingre02182",
+    "ingre00135",
+    "ingre02329",
+    "ingre08055",
+    "ingre04694",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Hoa đậu biếc",
+    "Cơm nguội",
+    "Cá bạc má",
+    "Trứng vịt muối",
+    "Đậu rồng",
+    "Dừa nạo",
+    "Bánh phồng tôm",
+    "Giá",
+    "Ớt sừng",
+    "Nước mắm",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Bluebell Flower",
+    "Cold Rice",
+    "Pike conger",
+    "Salted duck egg",
+    "Dragon bean",
+    "Coconut grated",
+    "Puffed Shrimp Cake",
+    "Mint",
+    "Hot pepper",
+    "Fish Sauce",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "hoa dau biec",
+    "com nguoi",
+    "ca bac ma",
+    "trung vit muoi",
+    "dau rong",
+    "dua nao",
+    "banh phong tom",
+    "gia",
+    "ot sung",
+    "nuoc mam",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

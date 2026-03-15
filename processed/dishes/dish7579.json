@@ -1,0 +1,92 @@
+{
+  "id": "dish7579",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7579.json",
+  "name_vi": "Xôi mặn củ cải muối",
+  "name_en": "",
+  "name_normalized": "xoi man cu cai muoi",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Ruốc",
+    "Trứng cút",
+    "Hành tây",
+    "Dầu gấc"
+  ],
+  "seasonings": [
+    "Củ cải muối",
+    "Cà rốt",
+    "Nước cốt dừa",
+    "Ớt bột Hàn Quốc",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre01865",
+    "ingre06941",
+    "ingre05483",
+    "ingre06816",
+    "ingre02741",
+    "ingre01419",
+    "ingre04554",
+    "ingre07983",
+    "ingre02074",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Củ cải muối",
+    "Tôm khô",
+    "Ruốc",
+    "Trứng cút",
+    "Hành tây",
+    "Cà rốt",
+    "Nước cốt dừa",
+    "Ớt bột Hàn Quốc",
+    "Dầu gấc",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Pickled radish",
+    "Dried Shrimp",
+    "Fish cake",
+    "Quail egg",
+    "Onion",
+    "Carrot",
+    "Coconut milk",
+    "Korean chili powder",
+    "Red bean oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "cu cai muoi",
+    "tom kho",
+    "ruoc",
+    "trung cut",
+    "hanh tay",
+    "ca rot",
+    "nuoc cot dua",
+    "ot bot han quoc",
+    "dau gac",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

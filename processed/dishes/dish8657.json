@@ -1,0 +1,91 @@
+{
+  "id": "dish8657",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8657.json",
+  "name_vi": "Gân bò hầm dưa chua",
+  "name_en": "",
+  "name_normalized": "gan bo ham dua chua",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Dưa cải chua",
+    "Gân bò"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Rau mùi thơm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối - đường - bột ngọt - tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02006",
+    "ingre02415",
+    "ingre01354",
+    "ingre05309",
+    "ingre02768",
+    "ingre07966",
+    "ingre07063",
+    "ingre04694",
+    "ingre03750"
+  ],
+  "ingredient_names_vi": [
+    "Dưa cải chua",
+    "Gân bò",
+    "Cà chua",
+    "Rau mùi thơm",
+    "Hành tím",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối - đường - bột ngọt - tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pickled Chinese cabbage",
+    "Beef tendon",
+    "Tomato",
+    "Basil",
+    "Shallot",
+    "Pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Salt - Sugar - Monosodium Glutamate - Ground Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dua cai chua",
+    "gan bo",
+    "ca chua",
+    "rau mui thom",
+    "hanh tim",
+    "ot",
+    "toi",
+    "nuoc mam",
+    "muoi duong bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi - duong - bot ngot - tieu xay",
+      "new": "muoi duong bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối - đường - bột ngọt - tiêu xay"
+    }
+  ]
+}

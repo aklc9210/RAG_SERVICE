@@ -1,0 +1,29 @@
+{
+  "id": "ingre01298",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01298.json",
+  "name_vi": "chả lụa/nem chua",
+  "name_en": "Pork Floss/Sour Pork Rolls",
+  "name_normalized": "cha lua nem chua",
+  "synonyms": [
+    "nem thit",
+    "nem ran",
+    "nem chua thit heo"
+  ],
+  "synonyms_normalized": [
+    "nem thit",
+    "nem ran",
+    "nem chua thit heo"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha lua/nem chua",
+      "new": "cha lua nem chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

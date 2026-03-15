@@ -1,0 +1,108 @@
+{
+  "id": "dish5804",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5804.json",
+  "name_vi": "Giò heo giả cầy (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "gio heo gia cay cong thuc duoc chia se tu nguoi dung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Giò heo",
+    "Củ riềng",
+    "Ngò gai"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi",
+    "Rau ăn kèm",
+    "Cơm mẻ"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Đường phèn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02346",
+    "ingre01913",
+    "ingre04329",
+    "ingre04626",
+    "ingre05420",
+    "ingre01753",
+    "ingre04159",
+    "ingre00804",
+    "ingre02124",
+    "ingre07635",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Giò heo",
+    "Củ riềng",
+    "Ngò gai",
+    "Nước dừa tươi",
+    "Rau ăn kèm",
+    "Cơm mẻ",
+    "Mắm tôm",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Đường phèn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Galangal",
+    "Culantro",
+    "Coconut water",
+    "Side vegetable",
+    "Glutinous Rice",
+    "Shrimp paste",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Brown Sugar",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "gio heo",
+    "cu rieng",
+    "ngo gai",
+    "nuoc dua tuoi",
+    "rau an kem",
+    "com me",
+    "mam tom",
+    "bot nghe",
+    "dau an",
+    "duong phen",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gio heo gia cay (cong thuc duoc chia se tu nguoi dung)",
+      "new": "gio heo gia cay cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dish6019",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6019.json",
+  "name_vi": "Cà ri đỏ Thái Lan - Thai Red Curry",
+  "name_en": "",
+  "name_normalized": "ca ri do thai lan thai red curry",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sả",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Rau mùi",
+    "Vôi",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt khô",
+    "Tỏi",
+    "Bột thì là",
+    "Bột rau mùi",
+    "Gạch tôm xào dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre08039",
+    "ingre05900",
+    "ingre05436",
+    "ingre07063",
+    "ingre05302",
+    "ingre00941",
+    "ingre00907",
+    "ingre02435",
+    "ingre07180",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Ớt khô",
+    "Sả",
+    "Riềng",
+    "Tỏi",
+    "Rau mùi",
+    "Bột thì là",
+    "Bột rau mùi",
+    "Gạch tôm xào dầu ăn",
+    "Vôi",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Dried Pepper",
+    "Lemongrass",
+    "Galangal",
+    "Garlic",
+    "Mint",
+    "Basil powder",
+    "Shrimp Fried with Oil",
+    "Tapioca",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "ot kho",
+    "sa",
+    "rieng",
+    "toi",
+    "rau mui",
+    "bot thi la",
+    "bot rau mui",
+    "gach tom xao dau an",
+    "voi",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca ri do thai lan - thai red curry",
+      "new": "ca ri do thai lan thai red curry",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

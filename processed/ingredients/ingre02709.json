@@ -1,0 +1,27 @@
+{
+  "id": "ingre02709",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02709.json",
+  "name_vi": "hành lá/ rau thì là",
+  "name_en": "Basil",
+  "name_normalized": "hanh la rau thi la",
+  "synonyms": [
+    "rau mùi",
+    "rau thơm"
+  ],
+  "synonyms_normalized": [
+    "rau mui",
+    "rau thom"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ rau thi la",
+      "new": "hanh la rau thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

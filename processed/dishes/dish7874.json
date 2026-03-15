@@ -1,0 +1,102 @@
+{
+  "id": "dish7874",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7874.json",
+  "name_vi": "Lẩu collagen",
+  "name_en": "",
+  "name_normalized": "lau collagen",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Chân gà",
+    "Xương gà",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Bò viên",
+    "Hành lá",
+    "Đậu hũ trắng",
+    "Nấm hương",
+    "Nấm kim châm",
+    "Rau nhúng lẩu"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Cà rốt",
+    "Muối",
+    "Muối hạt"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre07421",
+    "ingre06300",
+    "ingre00269",
+    "ingre02485",
+    "ingre02673",
+    "ingre01419",
+    "ingre07755",
+    "ingre04910",
+    "ingre04921",
+    "ingre05341",
+    "ingre03746",
+    "ingre03760"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Xương gà",
+    "Thịt bò",
+    "Bò viên",
+    "Gừng",
+    "Hành lá",
+    "Cà rốt",
+    "Đậu hũ trắng",
+    "Nấm hương",
+    "Nấm kim châm",
+    "Rau nhúng lẩu",
+    "Muối",
+    "Muối hạt"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Chicken bone",
+    "Beef",
+    "Beef丸子",
+    "Ginger",
+    "Scallion",
+    "Carrot",
+    "Tofu",
+    "Mushroom",
+    "Boiling vegetables",
+    "Salt",
+    "Fenugreek seeds"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "xuong ga",
+    "thit bo",
+    "bo vien",
+    "gung",
+    "hanh la",
+    "ca rot",
+    "dau hu trang",
+    "nam huong",
+    "nam kim cham",
+    "rau nhung lau",
+    "muoi",
+    "muoi hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

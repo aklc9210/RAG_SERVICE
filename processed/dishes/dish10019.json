@@ -1,0 +1,45 @@
+{
+  "id": "dish10019",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10019.json",
+  "name_vi": "Sữa bắp (ngô) cho bé",
+  "name_en": "",
+  "name_normalized": "sua bap ngo cho be",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Bắp Mỹ non",
+    "Sữa mẹ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre00480",
+    "ingre06135"
+  ],
+  "ingredient_names_vi": [
+    "Bắp Mỹ non",
+    "Sữa mẹ"
+  ],
+  "ingredient_names_en": [
+    "Corn苗",
+    "Mother's milk"
+  ],
+  "ingredient_names_normalized": [
+    "bap my non",
+    "sua me"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua bap (ngo) cho be",
+      "new": "sua bap ngo cho be",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

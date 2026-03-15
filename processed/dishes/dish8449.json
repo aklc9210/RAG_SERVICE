@@ -1,0 +1,108 @@
+{
+  "id": "dish8449",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8449.json",
+  "name_vi": "Cháo tổ yến thịt gà",
+  "name_en": "",
+  "name_normalized": "chao to yen thit ga",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gạo",
+    "Xương ức gà",
+    "Thịt đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí",
+    "Nấm đông cô khô"
+  ],
+  "seasonings": [
+    "Yến xào",
+    "Cà rốt",
+    "Bột tỏi",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre07463",
+    "ingre07437",
+    "ingre06528",
+    "ingre01419",
+    "ingre02673",
+    "ingre04343",
+    "ingre04969",
+    "ingre00978",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Yến xào",
+    "Xương ức gà",
+    "Thịt đùi gà",
+    "Cà rốt",
+    "Hành lá",
+    "Ngò rí",
+    "Nấm đông cô khô",
+    "Bột tỏi",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Beef Slices",
+    "Chicken breast",
+    "Chicken thigh",
+    "Carrot",
+    "Scallion",
+    "Parsley",
+    "Dried shiitake mushrooms",
+    "Garlic powder",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "yen xao",
+    "xuong uc ga",
+    "thit dui ga",
+    "ca rot",
+    "hanh la",
+    "ngo ri",
+    "nam dong co kho",
+    "bot toi",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

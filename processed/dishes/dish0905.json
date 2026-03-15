@@ -1,0 +1,87 @@
+{
+  "id": "dish0905",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0905.json",
+  "name_vi": "Socola Dubai (công thức đơn giản)",
+  "name_en": "",
+  "name_normalized": "socola dubai cong thuc don gian",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Socola đen",
+    "Socola trắng",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Socola đen",
+    "Bơ lạc",
+    "Sợi Kataifi",
+    "Kataifi",
+    "Bơ hạt dẻ cười",
+    "Tahini",
+    "Dầu dừa"
+  ],
+  "seasonings": [
+    "Sốt mè vừng"
+  ],
+  "ingredient_ids": [
+    "ingre05763",
+    "ingre05758",
+    "ingre00382",
+    "ingre00380",
+    "ingre06057",
+    "ingre03118",
+    "ingre00377",
+    "ingre06184",
+    "ingre05981",
+    "ingre02067"
+  ],
+  "ingredient_names_vi": [
+    "Socola đen",
+    "Socola trắng",
+    "Bơ lạt",
+    "Bơ lạc",
+    "Sợi Kataifi",
+    "Kataifi",
+    "Bơ hạt dẻ cười",
+    "Tahini",
+    "Sốt mè vừng",
+    "Dầu dừa"
+  ],
+  "ingredient_names_en": [
+    "Dark chocolate",
+    "White chocolate",
+    "Butter",
+    "Peanut butter",
+    "Phyllo strands",
+    "Phyllo",
+    "Almond butter",
+    "Tahini",
+    "Peanut Sauce",
+    "Coconut oil"
+  ],
+  "ingredient_names_normalized": [
+    "socola den",
+    "socola trang",
+    "bo lat",
+    "bo lac",
+    "soi kataifi",
+    "kataifi",
+    "bo hat de cuoi",
+    "tahini",
+    "sot me vung",
+    "dau dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola dubai (cong thuc don gian)",
+      "new": "socola dubai cong thuc don gian",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

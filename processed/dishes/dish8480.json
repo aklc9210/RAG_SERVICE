@@ -1,0 +1,94 @@
+{
+  "id": "dish8480",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8480.json",
+  "name_vi": "Cơm gà quay",
+  "name_en": "",
+  "name_normalized": "com ga quay",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Cơm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tương cà/ tương ớt",
+    "Dầu hào/ nước tương",
+    "Dầu ăn",
+    "Sa tế hành",
+    "Bột ngọt",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre01724",
+    "ingre06990",
+    "ingre02085",
+    "ingre02124",
+    "ingre05624",
+    "ingre00819",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Cơm",
+    "Tương cà/ tương ớt",
+    "Dầu hào/ nước tương",
+    "Dầu ăn",
+    "Sa tế hành",
+    "Bột ngọt",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Rice",
+    "Soy Sauce/Peanut Sauce",
+    "Soy Sauce",
+    "Cooking oil",
+    "Chopped Scallion Relish",
+    "MSG",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "com",
+    "tuong ca tuong ot",
+    "dau hao nuoc tuong",
+    "dau an",
+    "sa te hanh",
+    "bot ngot",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tuong ca/ tuong ot",
+      "new": "tuong ca tuong ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tương cà/ tương ớt"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau hao/ nuoc tuong",
+      "new": "dau hao nuoc tuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu hào/ nước tương"
+    }
+  ]
+}

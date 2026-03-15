@@ -1,0 +1,29 @@
+{
+  "id": "ingre02719",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02719.json",
+  "name_vi": "hành lá/ngò rí",
+  "name_en": "Parsley",
+  "name_normalized": "hanh la ngo ri",
+  "synonyms": [
+    "ngò",
+    "ngò đắng"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "ngo dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

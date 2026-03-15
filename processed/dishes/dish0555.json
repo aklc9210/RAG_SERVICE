@@ -1,0 +1,113 @@
+{
+  "id": "dish0555",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0555.json",
+  "name_vi": "Canh chua cá đuối bắp chuối",
+  "name_en": "",
+  "name_normalized": "canh chua ca duoi bap chuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá đuối",
+    "Bắp chuối",
+    "Me vắt"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi băm",
+    "Ớt sừng",
+    "Nước mắm",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01659",
+    "ingre00452",
+    "ingre01079",
+    "ingre03663",
+    "ingre05385",
+    "ingre07071",
+    "ingre04329",
+    "ingre08055",
+    "ingre04694",
+    "ingre02355",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối",
+    "Bắp chuối",
+    "Chanh",
+    "Me vắt",
+    "Rau thơm",
+    "Tỏi băm",
+    "Ngò gai",
+    "Ớt sừng",
+    "Nước mắm",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Banana",
+    "Lemon",
+    "Lemon juice",
+    "Basil",
+    "Minced Garlic",
+    "Culantro",
+    "Hot pepper",
+    "Fish Sauce",
+    "Vinegar",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi",
+    "bap chuoi",
+    "chanh",
+    "me vat",
+    "rau thom",
+    "toi bam",
+    "ngo gai",
+    "ot sung",
+    "nuoc mam",
+    "giam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

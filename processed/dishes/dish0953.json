@@ -1,0 +1,89 @@
+{
+  "id": "dish0953",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0953.json",
+  "name_vi": "Bánh hotdog kiểu Việt Nam",
+  "name_en": "",
+  "name_normalized": "banh hotdog kieu viet nam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Xúc xích loại vừa",
+    "Viên phô mai bò cười",
+    "Chà bông",
+    "Pate",
+    "Bơ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Sữa không đường",
+    "Vani",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00791",
+    "ingre06130",
+    "ingre07400",
+    "ingre07167",
+    "ingre07140",
+    "ingre01202",
+    "ingre05020",
+    "ingre07583",
+    "ingre03746",
+    "ingre00367",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Sữa không đường",
+    "Xúc xích loại vừa",
+    "Viên phô mai bò cười",
+    "Vani",
+    "Chà bông",
+    "Pate",
+    "Đường",
+    "Muối",
+    "Bơ",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "All-purpose flour",
+    "Non-dairy milk",
+    "Sausage",
+    "Cheeseburger patty",
+    "Vanilla",
+    "Pork floss",
+    "Pate -> Pâté",
+    "Sugar",
+    "Salt",
+    "Butter",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot mi da dung",
+    "sua khong duong",
+    "xuc xich loai vua",
+    "vien pho mai bo cuoi",
+    "vani",
+    "cha bong",
+    "pate",
+    "duong",
+    "muoi",
+    "bo",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

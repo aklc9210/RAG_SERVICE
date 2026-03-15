@@ -1,0 +1,27 @@
+{
+  "id": "ingre06237",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06237.json",
+  "name_vi": "thì là/ rau ngổ",
+  "name_en": "Cilantro",
+  "name_normalized": "thi la rau ngo",
+  "synonyms": [
+    "rau mùi",
+    "rau thơm"
+  ],
+  "synonyms_normalized": [
+    "rau mui",
+    "rau thom"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thi la/ rau ngo",
+      "new": "thi la rau ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

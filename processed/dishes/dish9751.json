@@ -1,0 +1,66 @@
+{
+  "id": "dish9751",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9751.json",
+  "name_vi": "Affogato - cà phê kem tươi",
+  "name_en": "",
+  "name_normalized": "affogato ca phe kem tuoi",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Kem sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Socola"
+  ],
+  "seasonings": [
+    "Bột cà phê",
+    "Vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03147",
+    "ingre00620",
+    "ingre05734",
+    "ingre07140",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Kem sữa tươi",
+    "Bột cà phê",
+    "Socola",
+    "Vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Coffee powder",
+    "Chocolate",
+    "Vanilla",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "kem sua tuoi",
+    "bot ca phe",
+    "socola",
+    "vani",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "affogato - ca phe kem tuoi",
+      "new": "affogato ca phe kem tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

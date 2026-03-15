@@ -1,0 +1,96 @@
+{
+  "id": "dish8625",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8625.json",
+  "name_vi": "Gân bò ngâm chua cay",
+  "name_en": "",
+  "name_normalized": "gan bo ngam chua cay",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Gân bò"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Giấm",
+    "Gừng",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre04694",
+    "ingre07583",
+    "ingre02355",
+    "ingre05900",
+    "ingre02485",
+    "ingre02768",
+    "ingre07966",
+    "ingre07063",
+    "ingre07057"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Nước mắm",
+    "Đường",
+    "Giấm",
+    "Sả",
+    "Gừng",
+    "Hành tím",
+    "Ớt",
+    "Tỏi",
+    "Tắc"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Fish Sauce",
+    "Sugar",
+    "Vinegar",
+    "Lemongrass",
+    "Ginger",
+    "Shallot",
+    "Pepper",
+    "Garlic",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "nuoc mam",
+    "duong",
+    "giam",
+    "sa",
+    "gung",
+    "hanh tim",
+    "ot",
+    "toi",
+    "tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

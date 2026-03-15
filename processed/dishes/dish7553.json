@@ -1,0 +1,98 @@
+{
+  "id": "dish7553",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7553.json",
+  "name_vi": "Cá chép hấp bia sốt ớt cay",
+  "name_en": "",
+  "name_normalized": "ca chep hap bia sot ot cay",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá chép",
+    "Bia"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt khô",
+    "Gừng",
+    "Giấm trắng",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre00033",
+    "ingre08055",
+    "ingre08039",
+    "ingre02485",
+    "ingre02673",
+    "ingre02370",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Bia",
+    "Ớt sừng",
+    "Ớt khô",
+    "Gừng",
+    "Hành lá",
+    "Giấm trắng",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Beer",
+    "Hot pepper",
+    "Dried Pepper",
+    "Ginger",
+    "Scallion",
+    "White vinegar",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "bia",
+    "ot sung",
+    "ot kho",
+    "gung",
+    "hanh la",
+    "giam trang",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

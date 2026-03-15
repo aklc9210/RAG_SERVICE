@@ -1,0 +1,86 @@
+{
+  "id": "dish5870",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5870.json",
+  "name_vi": "Thịt kho mắm nêm",
+  "name_en": "",
+  "name_normalized": "thit kho mam nem",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mắm nêm",
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre04148",
+    "ingre05900",
+    "ingre07063",
+    "ingre02768",
+    "ingre08026",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Mắm nêm",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Ớt hiểm",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Fish sauce",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "mam nem",
+    "sa",
+    "toi",
+    "hanh tim",
+    "ot hiem",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

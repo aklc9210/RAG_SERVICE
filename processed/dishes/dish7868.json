@@ -1,0 +1,96 @@
+{
+  "id": "dish7868",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7868.json",
+  "name_vi": "Lẩu mắm chay",
+  "name_en": "",
+  "name_normalized": "lau mam chay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Mắm chay khô",
+    "Nấm rơm",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Tàu hũ ky",
+    "Hành tím",
+    "Rau ăn kèm: Cà tím; rau muống; mướp; bông súng; rau đắng"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Ớt",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04137",
+    "ingre04953",
+    "ingre07742",
+    "ingre06874",
+    "ingre05905",
+    "ingre07966",
+    "ingre02768",
+    "ingre07583",
+    "ingre02995",
+    "ingre05428"
+  ],
+  "ingredient_names_vi": [
+    "Mắm chay khô",
+    "Nấm rơm",
+    "Đậu hũ chiên",
+    "Tàu hũ ky",
+    "Sả băm",
+    "Ớt",
+    "Hành tím",
+    "Đường",
+    "Hạt nêm",
+    "Rau ăn kèm: Cà tím; rau muống; mướp; bông súng; rau đắng"
+  ],
+  "ingredient_names_en": [
+    "Tofu Fish Sauce Dried",
+    "Strawberry mushroom",
+    "Fried Tofu",
+    "Tofu Ky",
+    "Garlic Paste",
+    "Pepper",
+    "Shallot",
+    "Sugar",
+    "Seasoning",
+    "Accompanying vegetables: eggplant; water spinach; bitter melon; Chinese broccoli; bitter gourd"
+  ],
+  "ingredient_names_normalized": [
+    "mam chay kho",
+    "nam rom",
+    "dau hu chien",
+    "tau hu ky",
+    "sa bam",
+    "ot",
+    "hanh tim",
+    "duong",
+    "hat nem",
+    "rau an kem ca tim rau muong muop bong sung rau dang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau an kem: ca tim; rau muong; muop; bong sung; rau dang",
+      "new": "rau an kem ca tim rau muong muop bong sung rau dang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau ăn kèm: Cà tím; rau muống; mướp; bông súng; rau đắng"
+    }
+  ]
+}

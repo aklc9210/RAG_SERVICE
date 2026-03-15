@@ -1,0 +1,111 @@
+{
+  "id": "dish5721",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5721.json",
+  "name_vi": "Cá chạch kho rau răm",
+  "name_en": "",
+  "name_normalized": "ca chach kho rau ram",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chạch",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Tỏi",
+    "Bột ớt",
+    "Bột kho cá",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01501",
+    "ingre05359",
+    "ingre07966",
+    "ingre01079",
+    "ingre02768",
+    "ingre07063",
+    "ingre01015",
+    "ingre00707",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá chạch",
+    "Rau răm",
+    "Ớt",
+    "Chanh",
+    "Hành tím",
+    "Tỏi",
+    "Bột ớt",
+    "Bột kho cá",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Crayfish",
+    "Vietnamese coriander",
+    "Pepper",
+    "Lemon",
+    "Shallot",
+    "Garlic",
+    "Red Pepper Powder",
+    "Fish Sauce Powder",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca chach",
+    "rau ram",
+    "ot",
+    "chanh",
+    "hanh tim",
+    "toi",
+    "bot ot",
+    "bot kho ca",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

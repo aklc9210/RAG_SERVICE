@@ -1,0 +1,129 @@
+{
+  "id": "dish3302",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3302.json",
+  "name_vi": "Bún xương bò",
+  "name_en": "",
+  "name_normalized": "bun xuong bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương sườn bò",
+    "Chả quết",
+    "Cải trắng",
+    "Sả tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tây",
+    "Hành tím",
+    "Bún tươi",
+    "Rau sống",
+    "Ruốc đặc",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường phèn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07426",
+    "ingre01304",
+    "ingre01796",
+    "ingre05917",
+    "ingre02673",
+    "ingre02741",
+    "ingre02768",
+    "ingre00357",
+    "ingre05379",
+    "ingre05492",
+    "ingre04694",
+    "ingre02134",
+    "ingre02124",
+    "ingre07635",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Xương sườn bò",
+    "Chả quết",
+    "Cải trắng",
+    "Sả tươi",
+    "Hành lá",
+    "Hành tây",
+    "Hành tím",
+    "Bún tươi",
+    "Rau sống",
+    "Ruốc đặc",
+    "Nước mắm",
+    "Dầu điều",
+    "Dầu ăn",
+    "Đường phèn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef rib",
+    "Grilled pork sausage",
+    "Cabbage",
+    "Fresh Ginger",
+    "Scallion",
+    "Onion",
+    "Shallot",
+    "Fresh noodle",
+    "Fresh herbs",
+    "Dried Fish Paste",
+    "Fish Sauce",
+    "Peanut oil",
+    "Cooking oil",
+    "Brown Sugar",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "xuong suon bo",
+    "cha quet",
+    "cai trang",
+    "sa tuoi",
+    "hanh la",
+    "hanh tay",
+    "hanh tim",
+    "bun tuoi",
+    "rau song",
+    "ruoc dac",
+    "nuoc mam",
+    "dau dieu",
+    "dau an",
+    "duong phen",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

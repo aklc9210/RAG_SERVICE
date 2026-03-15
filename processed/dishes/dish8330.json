@@ -1,0 +1,126 @@
+{
+  "id": "dish8330",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8330.json",
+  "name_vi": "Gỏi sầu đâu khô cá rô phi",
+  "name_en": "",
+  "name_normalized": "goi sau dau kho ca ro phi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sầu đâu",
+    "Khô cá rô phi",
+    "Thịt ba chỉ",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Me chín",
+    "Hành lá",
+    "Hành tím",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05935",
+    "ingre03256",
+    "ingre06275",
+    "ingre02020",
+    "ingre01354",
+    "ingre03647",
+    "ingre07966",
+    "ingre07063",
+    "ingre02673",
+    "ingre02768",
+    "ingre01079",
+    "ingre05385",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sầu đâu",
+    "Khô cá rô phi",
+    "Thịt ba chỉ",
+    "Dưa leo",
+    "Cà chua",
+    "Me chín",
+    "Ớt",
+    "Tỏi",
+    "Hành lá",
+    "Hành tím",
+    "Chanh",
+    "Rau thơm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Dried Mackerel",
+    "Pork belly",
+    "Cucumber",
+    "Tomato",
+    "Ripe mango",
+    "Pepper",
+    "Garlic",
+    "Scallion",
+    "Shallot",
+    "Lemon",
+    "Basil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "sau dau",
+    "kho ca ro phi",
+    "thit ba chi",
+    "dua leo",
+    "ca chua",
+    "me chin",
+    "ot",
+    "toi",
+    "hanh la",
+    "hanh tim",
+    "chanh",
+    "rau thom",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

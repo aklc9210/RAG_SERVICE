@@ -1,0 +1,27 @@
+{
+  "id": "ingre01097",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01097.json",
+  "name_vi": "chanh vàng (hoặc chanh xanh)",
+  "name_en": "Lemon",
+  "name_normalized": "chanh vang hoac chanh xanh",
+  "synonyms": [
+    "cam vắt",
+    "cam.Year: 2023"
+  ],
+  "synonyms_normalized": [
+    "cam vat",
+    "cam year 2023"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh vang (hoac chanh xanh)",
+      "new": "chanh vang hoac chanh xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

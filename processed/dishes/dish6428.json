@@ -1,0 +1,87 @@
+{
+  "id": "dish6428",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6428.json",
+  "name_vi": "Mực chiên lá lốt",
+  "name_en": "",
+  "name_normalized": "muc chien la lot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực ống"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Bột chiên giòn",
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre03461",
+    "ingre00598",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre04694",
+    "ingre05574",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Lá lốt",
+    "Bột chiên giòn",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Nước mắm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Cinnamon Leaf",
+    "Puffed Rice Powder",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Fish Sauce",
+    "White wine",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "la lot",
+    "bot chien gion",
+    "gung",
+    "sa",
+    "ot",
+    "nuoc mam",
+    "ruou trang",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

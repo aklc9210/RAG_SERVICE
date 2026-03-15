@@ -1,0 +1,87 @@
+{
+  "id": "dish1270",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1270.json",
+  "name_vi": "Bánh bao nhân thịt trứng",
+  "name_en": "",
+  "name_normalized": "banh bao nhan thit trung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Nấm mèo"
+  ],
+  "seasonings": [
+    "Bột bánh bao pha sẵn",
+    "Hành tím băm",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00523",
+    "ingre06414",
+    "ingre06816",
+    "ingre04343",
+    "ingre02774",
+    "ingre04930",
+    "ingre06147",
+    "ingre02124",
+    "ingre02080",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh bao pha sẵn",
+    "Thịt heo xay",
+    "Trứng cút",
+    "Ngò rí",
+    "Hành tím băm",
+    "Nấm mèo",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Self-rising flour",
+    "Ground Pork",
+    "Quail egg",
+    "Parsley",
+    "Chopped Scallion",
+    "Mushroom",
+    "Fat-free Milk",
+    "Cooking oil",
+    "Soy sauce",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh bao pha san",
+    "thit heo xay",
+    "trung cut",
+    "ngo ri",
+    "hanh tim bam",
+    "nam meo",
+    "sua tuoi khong duong",
+    "dau an",
+    "dau hao",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre05415",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05415.json",
+  "name_vi": "rau xà lách/ giá",
+  "name_en": "Leaf Lettuce/Cucumber",
+  "name_normalized": "rau xa lach gia",
+  "synonyms": [
+    "rau má",
+    "rau đắng",
+    "rau sống"
+  ],
+  "synonyms_normalized": [
+    "rau ma",
+    "rau dang",
+    "rau song"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau xa lach/ gia",
+      "new": "rau xa lach gia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "dish0100",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0100.json",
+  "name_vi": "Canh mướp rau đay nấu tôm khô",
+  "name_en": "",
+  "name_normalized": "canh muop rau day nau tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau đay"
+  ],
+  "secondary_ingredients": [
+    "Mướp hương",
+    "Tôm khô"
+  ],
+  "seasonings": [
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05431",
+    "ingre04104",
+    "ingre06941",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Rau đay",
+    "Mướp hương",
+    "Tôm khô",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mallowweed",
+    "Luffa",
+    "Dried Shrimp",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "rau day",
+    "muop huong",
+    "tom kho",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    }
+  ]
+}

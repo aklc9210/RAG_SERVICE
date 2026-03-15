@@ -1,0 +1,126 @@
+{
+  "id": "dish7027",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7027.json",
+  "name_vi": "Cơm chiên hải sản",
+  "name_en": "",
+  "name_normalized": "com chien hai san",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Tôm tươi",
+    "Tôm khô",
+    "Râu mực"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Tỏi",
+    "Tiêu xanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre06963",
+    "ingre06941",
+    "ingre05505",
+    "ingre06823",
+    "ingre01419",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre06640",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Tôm tươi",
+    "Tôm khô",
+    "Râu mực",
+    "Trứng gà",
+    "Cà rốt",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Tiêu xanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Fresh shrimp",
+    "Dried Shrimp",
+    "Cuttlefish ink",
+    "Chicken egg",
+    "Carrot",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Green pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "tom tuoi",
+    "tom kho",
+    "rau muc",
+    "trung ga",
+    "ca rot",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "tieu xanh",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

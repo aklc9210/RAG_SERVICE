@@ -1,0 +1,117 @@
+{
+  "id": "dish5621",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5621.json",
+  "name_vi": "Giò heo giả cầy miền Tây",
+  "name_en": "",
+  "name_normalized": "gio heo gia cay mien tay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Giò heo",
+    "Sả cây"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Tỏi/ớt/hành tím",
+    "Nước cốt dừa dão",
+    "Nước cốt dừa",
+    "Tương hột",
+    "Sa tế tôm",
+    "Ngũ vị hương",
+    "Bột màu điều",
+    "Bột cà ri",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02346",
+    "ingre05909",
+    "ingre07129",
+    "ingre04558",
+    "ingre04554",
+    "ingre07791",
+    "ingre06994",
+    "ingre05626",
+    "ingre04381",
+    "ingre00754",
+    "ingre00631",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Giò heo",
+    "Sả cây",
+    "Tỏi/ớt/hành tím",
+    "Nước cốt dừa dão",
+    "Nước cốt dừa",
+    "Đậu phộng rang",
+    "Tương hột",
+    "Sa tế tôm",
+    "Ngũ vị hương",
+    "Bột màu điều",
+    "Bột cà ri",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork sausage",
+    "Fresh Ginger",
+    "Garlic/Chili/Purple Onion",
+    "Coconut juice",
+    "Coconut milk",
+    "Roasted Peanut",
+    "Soy sauce",
+    "Shrimp paste",
+    "Five-Spice Powder",
+    "Caramel Powder",
+    "Curry powder",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gio heo",
+    "sa cay",
+    "toi ot hanh tim",
+    "nuoc cot dua dao",
+    "nuoc cot dua",
+    "dau phong rang",
+    "tuong hot",
+    "sa te tom",
+    "ngu vi huong",
+    "bot mau dieu",
+    "bot ca ri",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ot/hanh tim",
+      "new": "toi ot hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ớt/hành tím"
+    }
+  ]
+}

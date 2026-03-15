@@ -1,0 +1,86 @@
+{
+  "id": "dish5531",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5531.json",
+  "name_vi": "Chân vịt rút xương xào sả ớt",
+  "name_en": "",
+  "name_normalized": "chan vit rut xuong xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Chân vịt rút xương",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Sa tế",
+    "Gừng nhỏ",
+    "Hạt nêm",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01248",
+    "ingre05900",
+    "ingre07966",
+    "ingre02741",
+    "ingre07063",
+    "ingre05621",
+    "ingre02512",
+    "ingre02995",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chân vịt rút xương",
+    "Sả",
+    "Ớt",
+    "Hành tây",
+    "Tỏi",
+    "Sa tế",
+    "Gừng nhỏ",
+    "Hạt nêm",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Bamboo shoots",
+    "Lemongrass",
+    "Pepper",
+    "Onion",
+    "Garlic",
+    "Fish sauce",
+    "Ginger",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chan vit rut xuong",
+    "sa",
+    "ot",
+    "hanh tay",
+    "toi",
+    "sa te",
+    "gung nho",
+    "hat nem",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

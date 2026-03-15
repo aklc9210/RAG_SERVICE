@@ -1,0 +1,77 @@
+{
+  "id": "dish1995",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1995.json",
+  "name_vi": "Bánh mì rượu gạo",
+  "name_en": "",
+  "name_normalized": "banh mi ruou gao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu Hà Lan tươi",
+    "Hạt bắp tươi",
+    "Việt quất"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng",
+    "Sữa tươi không đường",
+    "Rượu gạo",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre06801",
+    "ingre06147",
+    "ingre05531",
+    "ingre07738",
+    "ingre02919",
+    "ingre07172",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Trứng",
+    "Sữa tươi không đường",
+    "Rượu gạo",
+    "Đậu Hà Lan tươi",
+    "Hạt bắp tươi",
+    "Việt quất",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Egg",
+    "Fat-free Milk",
+    "Rice wine",
+    "Fresh snap peas",
+    "Corn kernels",
+    "Blueberry",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "trung",
+    "sua tuoi khong duong",
+    "ruou gao",
+    "dau ha lan tuoi",
+    "hat bap tuoi",
+    "viet quat",
+    "muoi duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

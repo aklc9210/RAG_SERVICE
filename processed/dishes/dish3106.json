@@ -1,0 +1,102 @@
+{
+  "id": "dish3106",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3106.json",
+  "name_vi": "Bánh canh bột lọc xương heo",
+  "name_en": "",
+  "name_normalized": "banh canh bot loc xuong heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương heo",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Cà rốt",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre07422",
+    "ingre06930",
+    "ingre02702",
+    "ingre01419",
+    "ingre02774",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Xương heo",
+    "Tôm",
+    "Hành lá/ ngò rí",
+    "Cà rốt",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Pork bone",
+    "Shrimp",
+    "Chives",
+    "Carrot",
+    "Chopped Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "xuong heo",
+    "tom",
+    "hanh la ngo ri",
+    "ca rot",
+    "hanh tim bam",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

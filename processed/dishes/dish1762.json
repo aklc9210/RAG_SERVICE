@@ -1,0 +1,86 @@
+{
+  "id": "dish1762",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1762.json",
+  "name_vi": "Bánh sinh nhật Harry Potter (Harry Potter cake)",
+  "name_en": "",
+  "name_normalized": "banh sinh nhat harry potter harry potter cake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Cream cheese",
+    "Màu thực phẩm"
+  ],
+  "seasonings": [
+    "Bột Cake flour",
+    "Bột cacao",
+    "Trứng gà",
+    "Đường",
+    "Đường bột",
+    "Sữa tươi không đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00584",
+    "ingre00576",
+    "ingre07313",
+    "ingre01324",
+    "ingre06823",
+    "ingre07583",
+    "ingre07589",
+    "ingre06147",
+    "ingre02124",
+    "ingre03865"
+  ],
+  "ingredient_names_vi": [
+    "Bột Cake flour",
+    "Bột cacao",
+    "Whipping cream",
+    "Cream cheese",
+    "Trứng gà",
+    "Đường",
+    "Đường bột",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Màu thực phẩm"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Cocoa powder",
+    "Whipping cream",
+    "Cream cheese",
+    "Chicken egg",
+    "Sugar",
+    "Sugar Powder",
+    "Fat-free Milk",
+    "Cooking oil",
+    "Food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "bot cake flour",
+    "bot cacao",
+    "whipping cream",
+    "cream cheese",
+    "trung ga",
+    "duong",
+    "duong bot",
+    "sua tuoi khong duong",
+    "dau an",
+    "mau thuc pham"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh sinh nhat harry potter (harry potter cake)",
+      "new": "banh sinh nhat harry potter harry potter cake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "dish4489",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4489.json",
+  "name_vi": "Da bò xào sả ớt",
+  "name_en": "",
+  "name_normalized": "da bo xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Da bò luộc sẵn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Rau ngò",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Tỏi",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01931",
+    "ingre05900",
+    "ingre08078",
+    "ingre07063",
+    "ingre02741",
+    "ingre05321",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre02995",
+    "ingre06612",
+    "ingre02093"
+  ],
+  "ingredient_names_vi": [
+    "Da bò luộc sẵn",
+    "Sả",
+    "Ớt tươi",
+    "Tỏi",
+    "Hành tây",
+    "Rau ngò",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu màu điều"
+  ],
+  "ingredient_names_en": [
+    "Boiled Beef Slices",
+    "Lemongrass",
+    "Fresh chili",
+    "Garlic",
+    "Onion",
+    "Culantro",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "Seasoning",
+    "Pepper",
+    "Peanut-colored food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "da bo luoc san",
+    "sa",
+    "ot tuoi",
+    "toi",
+    "hanh tay",
+    "rau ngo",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "hat nem",
+    "tieu",
+    "dau mau dieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

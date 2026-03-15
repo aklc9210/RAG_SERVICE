@@ -1,0 +1,95 @@
+{
+  "id": "dish0215",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0215.json",
+  "name_vi": "Canh tần ô (cải cúc) nấu tôm tươi",
+  "name_en": "",
+  "name_normalized": "canh tan o cai cuc nau tom tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau tần ô",
+    "Tôm tươi",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05407",
+    "ingre06963",
+    "ingre02673",
+    "ingre04343",
+    "ingre02124",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Rau tần ô",
+    "Tôm tươi",
+    "Hành lá",
+    "Ngò rí",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cilantro",
+    "Fresh shrimp",
+    "Scallion",
+    "Parsley",
+    "Cooking oil",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "rau tan o",
+    "tom tuoi",
+    "hanh la",
+    "ngo ri",
+    "dau an",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh tan o (cai cuc) nau tom tuoi",
+      "new": "canh tan o cai cuc nau tom tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

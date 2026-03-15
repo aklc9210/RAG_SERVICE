@@ -1,0 +1,123 @@
+{
+  "id": "dish3494",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3494.json",
+  "name_vi": "Phở bò viên",
+  "name_en": "",
+  "name_normalized": "pho bo vien",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương bò",
+    "Thịt bò",
+    "Gân bò",
+    "Nạm bò",
+    "Gầu bò"
+  ],
+  "secondary_ingredients": [
+    "Bò viên",
+    "Thảo quả",
+    "Hành tây",
+    "Hành tím",
+    "Bánh phở khô",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Hoa hồi",
+    "Quế",
+    "Gừng",
+    "Nước mắm",
+    "Hạt nêm gà",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07413",
+    "ingre06300",
+    "ingre02415",
+    "ingre04889",
+    "ingre02477",
+    "ingre00269",
+    "ingre02584",
+    "ingre06271",
+    "ingre05186",
+    "ingre02485",
+    "ingre02741",
+    "ingre02768",
+    "ingre00141",
+    "ingre05420",
+    "ingre04694",
+    "ingre03000",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Xương bò",
+    "Thịt bò",
+    "Gân bò",
+    "Nạm bò",
+    "Gầu bò",
+    "Bò viên",
+    "Hoa hồi",
+    "Thảo quả",
+    "Quế",
+    "Gừng",
+    "Hành tây",
+    "Hành tím",
+    "Bánh phở khô",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Hạt nêm gà",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef bone",
+    "Beef",
+    "Beef tendon",
+    "Beef mince",
+    "Beef tallow",
+    "Beef丸子",
+    "Rose",
+    "Star anise",
+    "Cinnamon",
+    "Ginger",
+    "Onion",
+    "Shallot",
+    "Dry Pho Noodle",
+    "Side vegetable",
+    "Fish Sauce",
+    "Chicken Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xuong bo",
+    "thit bo",
+    "gan bo",
+    "nam bo",
+    "gau bo",
+    "bo vien",
+    "hoa hoi",
+    "thao qua",
+    "que",
+    "gung",
+    "hanh tay",
+    "hanh tim",
+    "banh pho kho",
+    "rau an kem",
+    "nuoc mam",
+    "hat nem ga",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

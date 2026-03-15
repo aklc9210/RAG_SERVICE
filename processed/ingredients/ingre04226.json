@@ -1,0 +1,27 @@
+{
+  "id": "ingre04226",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04226.json",
+  "name_vi": "mứt dâu (để trang trí)",
+  "name_en": "Strawberry Jam (for decoration)",
+  "name_normalized": "mut dau de trang tri",
+  "synonyms": [
+    "mứt quả tươi",
+    "dâu tây làm mứt"
+  ],
+  "synonyms_normalized": [
+    "mut qua tuoi",
+    "dau tay lam mut"
+  ],
+  "category": "fruit_jam",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mut dau (de trang tri)",
+      "new": "mut dau de trang tri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

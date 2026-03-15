@@ -1,0 +1,97 @@
+{
+  "id": "dish8649",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8649.json",
+  "name_vi": "Cơm thăn bò rong biển",
+  "name_en": "",
+  "name_normalized": "com than bo rong bien",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Cơm trắng nóng.",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Rượu trấng",
+    "Rong biển cháy tỏi",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Muối",
+    "Đường",
+    "Dầu hào",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre07071",
+    "ingre05573",
+    "ingre05451",
+    "ingre01768",
+    "ingre02124",
+    "ingre06644",
+    "ingre03746",
+    "ingre07583",
+    "ingre02080",
+    "ingre04790",
+    "ingre02094"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Tỏi băm",
+    "Rượu trấng",
+    "Rong biển cháy tỏi",
+    "Cơm trắng nóng.",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Muối",
+    "Đường",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu mè"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Minced Garlic",
+    "Rice wine",
+    "Kelp fried with garlic",
+    "Hot white rice",
+    "Cooking oil",
+    "Ground pepper",
+    "Salt",
+    "Sugar",
+    "Soy sauce",
+    "Sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "toi bam",
+    "ruou trang",
+    "rong bien chay toi",
+    "com trang nong",
+    "dau an",
+    "tieu xay",
+    "muoi",
+    "duong",
+    "dau hao",
+    "nuoc tuong",
+    "dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "com trang nong.",
+      "new": "com trang nong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cơm trắng nóng."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "dish6484",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6484.json",
+  "name_vi": "Cá chép sốt cà chua",
+  "name_en": "",
+  "name_normalized": "ca chep sot ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá chép",
+    "Bắp Mỹ",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá/ rau thì là"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Gừng",
+    "Rượu trắng",
+    "Tương cà",
+    "Nước tương/ nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột nêm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre00479",
+    "ingre01354",
+    "ingre08097",
+    "ingre02741",
+    "ingre02485",
+    "ingre02709",
+    "ingre05574",
+    "ingre06984",
+    "ingre04813",
+    "ingre02124",
+    "ingre00819",
+    "ingre00838",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Bắp Mỹ",
+    "Cà chua",
+    "Ớt đỏ",
+    "Hành tây",
+    "Gừng",
+    "Hành lá/ rau thì là",
+    "Rượu trắng",
+    "Tương cà",
+    "Nước tương/ nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột nêm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Corn",
+    "Tomato",
+    "Red pepper",
+    "Onion",
+    "Ginger",
+    "Basil",
+    "White wine",
+    "Miso酱",
+    "Fish sauce/Soy sauce",
+    "Cooking oil",
+    "MSG",
+    "Seasoning Powder",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "bap my",
+    "ca chua",
+    "ot do",
+    "hanh tay",
+    "gung",
+    "hanh la rau thi la",
+    "ruou trang",
+    "tuong ca",
+    "nuoc tuong nuoc mam",
+    "dau an",
+    "bot ngot",
+    "bot nem",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau thi la",
+      "new": "hanh la rau thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ rau thì là"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc tuong/ nuoc mam",
+      "new": "nuoc tuong nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước tương/ nước mắm"
+    }
+  ]
+}

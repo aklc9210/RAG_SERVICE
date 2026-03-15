@@ -1,0 +1,25 @@
+{
+  "id": "ingre03393",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03393.json",
+  "name_vi": "lá chuối/ dây lạc",
+  "name_en": "Banana leaf/Vine leaf",
+  "name_normalized": "la chuoi day lac",
+  "synonyms": [
+    "lá phong rừng"
+  ],
+  "synonyms_normalized": [
+    "la phong rung"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la chuoi/ day lac",
+      "new": "la chuoi day lac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

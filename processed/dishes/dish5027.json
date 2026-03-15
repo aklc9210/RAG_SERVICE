@@ -1,0 +1,77 @@
+{
+  "id": "dish5027",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5027.json",
+  "name_vi": "Hàu xào hành tây",
+  "name_en": "",
+  "name_normalized": "hau xao hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt hàu sữa",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Tắc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06423",
+    "ingre02741",
+    "ingre07057",
+    "ingre07063",
+    "ingre08026",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt hàu sữa",
+    "Hành tây",
+    "Tắc",
+    "Tỏi",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Mussel meat",
+    "Onion",
+    "Tamarind",
+    "Garlic",
+    "Hot pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit hau sua",
+    "hanh tay",
+    "tac",
+    "toi",
+    "ot hiem",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dish3435",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3435.json",
+  "name_vi": "Bánh canh xương heo",
+  "name_en": "",
+  "name_normalized": "banh canh xuong heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ rau ngò"
+  ],
+  "seasonings": [
+    "Bột bánh canh",
+    "Hành băm/ tỏi băm",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột màu dầu điều",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre00529",
+    "ingre05900",
+    "ingre02658",
+    "ingre02706",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre00748",
+    "ingre02995",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Bột bánh canh",
+    "Sả",
+    "Hành băm/ tỏi băm",
+    "Hành lá/ rau ngò",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột màu dầu điều",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Tapioca starch",
+    "Lemongrass",
+    "Chopped Garlic/Chopped Onion",
+    "Chives",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Caramel Powder",
+    "Seasoning",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "bot banh canh",
+    "sa",
+    "hanh bam toi bam",
+    "hanh la rau ngo",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "bot mau dau dieu",
+    "hat nem",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh bam/ toi bam",
+      "new": "hanh bam toi bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành băm/ tỏi băm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau ngo",
+      "new": "hanh la rau ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ rau ngò"
+    }
+  ]
+}

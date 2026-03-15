@@ -1,0 +1,58 @@
+{
+  "id": "dish5710",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5710.json",
+  "name_vi": "thịt kho tương hột",
+  "name_en": "",
+  "name_normalized": "thit kho tuong hot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tương hột",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre06994",
+    "ingre02768",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Tương hột",
+    "Hành tím",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Soy sauce",
+    "Shallot",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "tuong hot",
+    "hanh tim",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

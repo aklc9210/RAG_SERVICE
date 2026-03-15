@@ -1,0 +1,82 @@
+{
+  "id": "dish3976",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3976.json",
+  "name_vi": "Gà nướng lá quế",
+  "name_en": "",
+  "name_normalized": "ga nuong la que",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt gà",
+    "Lá quế tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Lá húng tây"
+  ],
+  "seasonings": [
+    "Hồi",
+    "Chanh",
+    "Trứng gà",
+    "Gừng",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre03502",
+    "ingre03097",
+    "ingre02741",
+    "ingre03442",
+    "ingre01079",
+    "ingre06823",
+    "ingre02485",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Lá quế tươi",
+    "Hồi",
+    "Hành tây",
+    "Lá húng tây",
+    "Chanh",
+    "Trứng gà",
+    "Gừng",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Fresh Laurel Leaves",
+    "Sage",
+    "Onion",
+    "Basil",
+    "Lemon",
+    "Chicken egg",
+    "Ginger",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "la que tuoi",
+    "hoi",
+    "hanh tay",
+    "la hung tay",
+    "chanh",
+    "trung ga",
+    "gung",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

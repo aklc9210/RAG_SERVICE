@@ -1,0 +1,87 @@
+{
+  "id": "dish3432",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3432.json",
+  "name_vi": "Bún kèn chay",
+  "name_en": "",
+  "name_normalized": "bun ken chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nấm bào ngư",
+    "Tàu hũ ky khô",
+    "Mía lau"
+  ],
+  "secondary_ingredients": [
+    "Cải xá bấu",
+    "Củ Ngải bún: 1 củ nhỏ Nghệ 100 Hoa chuối bào ăn kèm",
+    "Bún"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre06876",
+    "ingre04027",
+    "ingre01802",
+    "ingre01906",
+    "ingre00338",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Tàu hũ ky khô",
+    "Mía lau",
+    "Cải xá bấu",
+    "Củ Ngải bún: 1 củ nhỏ Nghệ 100 Hoa chuối bào ăn kèm",
+    "Bún",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Tofu皮干",
+    "Sugar cane",
+    "Chinese cabbage",
+    "Turmeric: 1 small piece Banana flower sliced to eat with",
+    "Noodle",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "tau hu ky kho",
+    "mia lau",
+    "cai xa bau",
+    "cu ngai bun 1 cu nho nghe 100 hoa chuoi bao an kem",
+    "bun",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cu ngai bun: 1 cu nho nghe 100 hoa chuoi bao an kem",
+      "new": "cu ngai bun 1 cu nho nghe 100 hoa chuoi bao an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Củ Ngải bún: 1 củ nhỏ Nghệ 100 Hoa chuối bào ăn kèm"
+    }
+  ]
+}

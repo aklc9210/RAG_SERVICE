@@ -1,0 +1,29 @@
+{
+  "id": "ingre02833",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02833.json",
+  "name_vi": "hành/ngò",
+  "name_en": "Chives/Garlic",
+  "name_normalized": "hanh ngo",
+  "synonyms": [
+    "ngò tây",
+    "ngò rí"
+  ],
+  "synonyms_normalized": [
+    "ngo tay",
+    "ngo ri"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh/ngo",
+      "new": "hanh ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "dish3709",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3709.json",
+  "name_vi": "Thịt xiên lá móc mật (mắc mật) nướng",
+  "name_en": "",
+  "name_normalized": "thit xien la moc mat mac mat nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ heo",
+    "Lá móc mật"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06280",
+    "ingre03470",
+    "ingre07063",
+    "ingre02768",
+    "ingre02080",
+    "ingre04694",
+    "ingre04381",
+    "ingre04672",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ heo",
+    "Lá móc mật",
+    "Tỏi",
+    "Hành tím",
+    "Dầu hào",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Nước màu",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Burdock Leaf",
+    "Garlic",
+    "Shallot",
+    "Soy sauce",
+    "Fish Sauce",
+    "Five-Spice Powder",
+    "Food coloring",
+    "Sugar",
+    "MSG",
+    "Ground pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi heo",
+    "la moc mat",
+    "toi",
+    "hanh tim",
+    "dau hao",
+    "nuoc mam",
+    "ngu vi huong",
+    "nuoc mau",
+    "duong",
+    "bot ngot",
+    "tieu xay",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit xien la moc mat (mac mat) nuong",
+      "new": "thit xien la moc mat mac mat nuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

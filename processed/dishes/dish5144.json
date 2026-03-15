@@ -1,0 +1,66 @@
+{
+  "id": "dish5144",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5144.json",
+  "name_vi": "Cải ngồng xào dầu hào",
+  "name_en": "",
+  "name_normalized": "cai ngong xao dau hao",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cải ngồng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Bột ngọt/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01788",
+    "ingre07063",
+    "ingre02080",
+    "ingre02124",
+    "ingre02997",
+    "ingre00829"
+  ],
+  "ingredient_names_vi": [
+    "Cải ngồng",
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Bột ngọt/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chinese cabbage",
+    "Garlic",
+    "Soy sauce",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Monkfish Powder/Cracked Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai ngong",
+    "toi",
+    "dau hao",
+    "dau an",
+    "hat nem chay",
+    "bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu xay",
+      "new": "bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ Tiêu xay"
+    }
+  ]
+}

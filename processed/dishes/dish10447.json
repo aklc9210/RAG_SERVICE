@@ -1,0 +1,61 @@
+{
+  "id": "dish10447",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10447.json",
+  "name_vi": "Chè bí đỏ nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "che bi do nuoc cot dua",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Bí đỏ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt dừa đóng lon",
+    "Bột nếp",
+    "Bột năng",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre04570",
+    "ingre00859",
+    "ingre00849",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Nước cốt dừa đóng lon",
+    "Bột nếp",
+    "Bột năng",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Coconut Milk Can",
+    "Glutinous rice flour",
+    "Cornstarch",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "nuoc cot dua dong lon",
+    "bot nep",
+    "bot nang",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

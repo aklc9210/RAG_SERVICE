@@ -1,0 +1,78 @@
+{
+  "id": "dish0464",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0464.json",
+  "name_vi": "Canh măng tươi hầm đuôi heo",
+  "name_en": "",
+  "name_normalized": "canh mang tuoi ham duoi heo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đuôi heo",
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07502",
+    "ingre04091",
+    "ingre02673",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đuôi heo",
+    "Măng tươi",
+    "Hành lá",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork tail",
+    "Fresh bamboo shoots",
+    "Scallion",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "duoi heo",
+    "mang tuoi",
+    "hanh la",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

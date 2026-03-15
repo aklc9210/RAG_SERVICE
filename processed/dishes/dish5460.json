@@ -1,0 +1,113 @@
+{
+  "id": "dish5460",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5460.json",
+  "name_vi": "Nui xào tôm kiểu Thái",
+  "name_en": "",
+  "name_normalized": "nui xao tom kieu thai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui",
+    "Tôm tươi",
+    "Tôm khô",
+    "Đậu hủ"
+  ],
+  "secondary_ingredients": [
+    "Giá",
+    "Hẹ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Củ cải muối",
+    "Muối",
+    "Dầu ăn",
+    "Đường thốt nốt",
+    "Nước mắm",
+    "Nước cốt me",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre04450",
+    "ingre06963",
+    "ingre06941",
+    "ingre07762",
+    "ingre06823",
+    "ingre02329",
+    "ingre03085",
+    "ingre02768",
+    "ingre01865",
+    "ingre03746",
+    "ingre02124",
+    "ingre07647",
+    "ingre04694",
+    "ingre04581",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Nui",
+    "Tôm tươi",
+    "Tôm khô",
+    "Đậu hủ",
+    "Trứng gà",
+    "Giá",
+    "Hẹ",
+    "Hành tím",
+    "Củ cải muối",
+    "Muối",
+    "Dầu ăn",
+    "Đường thốt nốt",
+    "Nước mắm",
+    "Nước cốt me",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Rice noodles",
+    "Fresh shrimp",
+    "Dried Shrimp",
+    "Tofu",
+    "Chicken egg",
+    "Mint",
+    "Garlic Chives",
+    "Shallot",
+    "Pickled radish",
+    "Salt",
+    "Cooking oil",
+    "Cane Sugar",
+    "Fish Sauce",
+    "Lime juice",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "nui",
+    "tom tuoi",
+    "tom kho",
+    "dau hu",
+    "trung ga",
+    "gia",
+    "he",
+    "hanh tim",
+    "cu cai muoi",
+    "muoi",
+    "dau an",
+    "duong thot not",
+    "nuoc mam",
+    "nuoc cot me",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

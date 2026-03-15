@@ -1,0 +1,91 @@
+{
+  "id": "dish4586",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4586.json",
+  "name_vi": "Tai heo xào sả ớt",
+  "name_en": "",
+  "name_normalized": "tai heo xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tai heo"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Tỏi",
+    "Chanh",
+    "Rượu",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre07966",
+    "ingre02485",
+    "ingre05900",
+    "ingre07063",
+    "ingre01079",
+    "ingre02768",
+    "ingre05515",
+    "ingre02355"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Ớt",
+    "Gừng",
+    "Sả",
+    "Tỏi",
+    "Chanh",
+    "Hành tím",
+    "Rượu",
+    "Giấm"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Pepper",
+    "Ginger",
+    "Lemongrass",
+    "Garlic",
+    "Lemon",
+    "Shallot",
+    "Rum",
+    "Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "ot",
+    "gung",
+    "sa",
+    "toi",
+    "chanh",
+    "hanh tim",
+    "ruou",
+    "giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

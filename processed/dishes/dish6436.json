@@ -1,0 +1,93 @@
+{
+  "id": "dish6436",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6436.json",
+  "name_vi": "Sườn sốt cam",
+  "name_en": "",
+  "name_normalized": "suon sot cam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn non",
+    "Nước cam"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mè trắng rang",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột chiên giòn",
+    "Nước tương",
+    "Bột bắp",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre04503",
+    "ingre07063",
+    "ingre02768",
+    "ingre00598",
+    "ingre03936",
+    "ingre04124",
+    "ingre04790",
+    "ingre00564",
+    "ingre02124",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Nước cam",
+    "Tỏi",
+    "Hành tím",
+    "Bột chiên giòn",
+    "Mè trắng rang",
+    "Mật ong",
+    "Nước tương",
+    "Bột bắp",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Orange juice",
+    "Garlic",
+    "Shallot",
+    "Puffed Rice Powder",
+    "Roasted White Sesame",
+    "Honey",
+    "Soy Sauce",
+    "Corn starch",
+    "Cooking oil",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "nuoc cam",
+    "toi",
+    "hanh tim",
+    "bot chien gion",
+    "me trang rang",
+    "mat ong",
+    "nuoc tuong",
+    "bot bap",
+    "dau an",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

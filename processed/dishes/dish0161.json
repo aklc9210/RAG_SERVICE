@@ -1,0 +1,101 @@
+{
+  "id": "dish0161",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0161.json",
+  "name_vi": "Canh khoai sọ rau muống",
+  "name_en": "",
+  "name_normalized": "canh khoai so rau muong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn non",
+    "Khoai sọ",
+    "Rau muống"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột canh",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre03221",
+    "ingre05289",
+    "ingre02768",
+    "ingre02673",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre00587",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Khoai sọ",
+    "Rau muống",
+    "Hành tím",
+    "Hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột canh",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Jicama",
+    "Watercress",
+    "Shallot",
+    "Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Cornstarch",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "khoai so",
+    "rau muong",
+    "hanh tim",
+    "hanh la",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "bot canh",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

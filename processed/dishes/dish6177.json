@@ -1,0 +1,90 @@
+{
+  "id": "dish6177",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6177.json",
+  "name_vi": "Sườn rim me (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "suon rim me cong thuc duoc chia se tu nguoi dung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn heo",
+    "Me chín"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre03647",
+    "ingre07071",
+    "ingre02774",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Me chín",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Ripe mango",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "me chin",
+    "toi bam",
+    "hanh tim bam",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "suon rim me (cong thuc duoc chia se tu nguoi dung)",
+      "new": "suon rim me cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

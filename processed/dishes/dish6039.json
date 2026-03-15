@@ -1,0 +1,111 @@
+{
+  "id": "dish6039",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6039.json",
+  "name_vi": "Thịt gà kho củ cải trắng",
+  "name_en": "",
+  "name_normalized": "thit ga kho cu cai trang",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt gà",
+    "Củ cải trắng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu dừa"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre01868",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre04675",
+    "ingre02355",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Củ cải trắng",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Nước màu dừa",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "White radish",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Coconut food coloring",
+    "Vinegar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "cu cai trang",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "nuoc mau dua",
+    "giam",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

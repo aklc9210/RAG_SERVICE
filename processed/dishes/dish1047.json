@@ -1,0 +1,89 @@
+{
+  "id": "dish1047",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1047.json",
+  "name_vi": "Bánh su kem trái cây",
+  "name_en": "",
+  "name_normalized": "banh su kem trai cay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Nước",
+    "Tinh chất vani",
+    "Xoài chín",
+    "Kiwi",
+    "Dâu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Sữa tươi có đường",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00791",
+    "ingre00564",
+    "ingre00382",
+    "ingre06146",
+    "ingre04490",
+    "ingre06592",
+    "ingre03746",
+    "ingre07583",
+    "ingre07332",
+    "ingre03287",
+    "ingre01958"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Bơ lạt",
+    "Sữa tươi có đường",
+    "Nước",
+    "Tinh chất vani",
+    "Muối",
+    "Đường",
+    "Xoài chín",
+    "Kiwi",
+    "Dâu"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "All-purpose flour",
+    "Corn starch",
+    "Butter",
+    "Sweetened Condensed Milk",
+    "Water",
+    "Vanilla extract",
+    "Salt",
+    "Sugar",
+    "Mango",
+    "Kiwi -> Kiwi",
+    "Strawberry"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot mi da dung",
+    "bot bap",
+    "bo lat",
+    "sua tuoi co duong",
+    "nuoc",
+    "tinh chat vani",
+    "muoi",
+    "duong",
+    "xoai chin",
+    "kiwi",
+    "dau"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

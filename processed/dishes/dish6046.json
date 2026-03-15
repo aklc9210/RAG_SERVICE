@@ -1,0 +1,78 @@
+{
+  "id": "dish6046",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6046.json",
+  "name_vi": "Bao tử heo phá lấu",
+  "name_en": "",
+  "name_normalized": "bao tu heo pha lau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bao tử heo"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa",
+    "Màu hạt điều",
+    "Đại hồi",
+    "Hành tím",
+    "Mạch nha"
+  ],
+  "seasonings": [
+    "Quế",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre05186",
+    "ingre04622",
+    "ingre03854",
+    "ingre02485",
+    "ingre07700",
+    "ingre02768",
+    "ingre04109"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Quế",
+    "Nước dừa",
+    "Màu hạt điều",
+    "Gừng",
+    "Đại hồi",
+    "Hành tím",
+    "Mạch nha"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Cinnamon",
+    "Coconut water",
+    "Peanut butter",
+    "Ginger",
+    "Sichuan pepper",
+    "Shallot",
+    "Molasses"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "que",
+    "nuoc dua",
+    "mau hat dieu",
+    "gung",
+    "dai hoi",
+    "hanh tim",
+    "mach nha"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

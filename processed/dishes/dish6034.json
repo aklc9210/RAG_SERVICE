@@ -1,0 +1,85 @@
+{
+  "id": "dish6034",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6034.json",
+  "name_vi": "Dừa kho tiêu",
+  "name_en": "",
+  "name_normalized": "dua kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cơm dừa",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Tương ớt",
+    "Tiêu xay/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01728",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04697",
+    "ingre02997",
+    "ingre07028",
+    "ingre06649"
+  ],
+  "ingredient_names_vi": [
+    "Cơm dừa",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Tương ớt",
+    "Tiêu xay/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Coconut Rice",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Hot Sauce",
+    "Ground pepper/sugar"
+  ],
+  "ingredient_names_normalized": [
+    "com dua",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc mam chay",
+    "hat nem chay",
+    "tuong ot",
+    "tieu xay duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ duong",
+      "new": "tieu xay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ Đường"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre04334",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04334.json",
+  "name_vi": "ngò gai/ ngò ôm",
+  "name_en": "Parsley",
+  "name_normalized": "ngo gai ngo om",
+  "synonyms": [
+    "cây ngò",
+    "ngò",
+    "ngò đắng"
+  ],
+  "synonyms_normalized": [
+    "cay ngo",
+    "ngo",
+    "ngo dang"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo gai/ ngo om",
+      "new": "ngo gai ngo om",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

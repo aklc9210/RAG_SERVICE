@@ -1,0 +1,71 @@
+{
+  "id": "dish6717",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6717.json",
+  "name_vi": "Sườn sốt chanh dây chay",
+  "name_en": "",
+  "name_normalized": "suon sot chanh day chay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn chay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mè rang",
+    "Xà lách & rau thơm & dưa leo"
+  ],
+  "seasonings": [
+    "Chanh dây"
+  ],
+  "ingredient_ids": [
+    "ingre05873",
+    "ingre01081",
+    "ingre02768",
+    "ingre03929",
+    "ingre07352"
+  ],
+  "ingredient_names_vi": [
+    "Sườn chay",
+    "Chanh dây",
+    "Hành tím",
+    "Mè rang",
+    "Xà lách & rau thơm & dưa leo"
+  ],
+  "ingredient_names_en": [
+    "Faux rib",
+    "Watermelon vine tendril",
+    "Shallot",
+    "Roasted Sesame Seeds",
+    "Lettuce & Herb & Cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "suon chay",
+    "chanh day",
+    "hanh tim",
+    "me rang",
+    "xa lach rau thom dua leo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach & rau thom & dua leo",
+      "new": "xa lach rau thom dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách & rau thơm & dưa leo"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "dish10534",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10534.json",
+  "name_vi": "tào phớ - tàu hũ nước đường nho",
+  "name_en": "",
+  "name_normalized": "tao pho tau hu nuoc duong nho",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Đậu nành",
+    "Nước đun sôi để nguội"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Gừng",
+    "Muối",
+    "Đường nho",
+    "Đường cát trắng"
+  ],
+  "ingredient_ids": [
+    "ingre07772",
+    "ingre04851",
+    "ingre00668",
+    "ingre02485",
+    "ingre03746",
+    "ingre07626",
+    "ingre07601"
+  ],
+  "ingredient_names_vi": [
+    "Đậu nành",
+    "Nước đun sôi để nguội",
+    "Bột gạo",
+    "Gừng",
+    "Muối",
+    "Đường nho",
+    "Đường cát trắng"
+  ],
+  "ingredient_names_en": [
+    "Soybean",
+    "Cool Boiled Water",
+    "Rice flour",
+    "Ginger",
+    "Salt",
+    "Raisin Sugar",
+    "White Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau nanh",
+    "nuoc dun soi de nguoi",
+    "bot gao",
+    "gung",
+    "muoi",
+    "duong nho",
+    "duong cat trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tao pho - tau hu nuoc duong nho",
+      "new": "tao pho tau hu nuoc duong nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish0532",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0532.json",
+  "name_vi": "Canh hàu kim chi",
+  "name_en": "",
+  "name_normalized": "canh hau kim chi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hàu sữa non",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Đậu phụ",
+    "Lá hẹ",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Kim chi muối",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre02841",
+    "ingre06275",
+    "ingre07810",
+    "ingre03282",
+    "ingre03449",
+    "ingre02741",
+    "ingre04694",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Hàu sữa non",
+    "Thịt ba chỉ",
+    "Đậu phụ",
+    "Kim chi muối",
+    "Lá hẹ",
+    "Hành tây",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Pork belly",
+    "Tofu",
+    "Salted Kimchi",
+    "Garlic Chives Leaves",
+    "Onion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "hau sua non",
+    "thit ba chi",
+    "dau phu",
+    "kim chi muoi",
+    "la he",
+    "hanh tay",
+    "nuoc mam",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

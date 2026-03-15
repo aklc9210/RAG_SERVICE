@@ -1,0 +1,70 @@
+{
+  "id": "dish8033",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8033.json",
+  "name_vi": "Dưa cải chua trộn tỏi ớt",
+  "name_en": "",
+  "name_normalized": "dua cai chua tron toi ot",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cải chua"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt chỉ thiên",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01777",
+    "ingre07063",
+    "ingre08017",
+    "ingre08055",
+    "ingre08026",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Cải chua",
+    "Tỏi",
+    "Ớt chỉ thiên",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pickled cabbage",
+    "Garlic",
+    "Bird's eye chili",
+    "Hot pepper",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "cai chua",
+    "toi",
+    "ot chi thien",
+    "ot sung",
+    "ot hiem",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

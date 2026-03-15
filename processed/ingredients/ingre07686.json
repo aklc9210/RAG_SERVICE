@@ -1,0 +1,29 @@
+{
+  "id": "ingre07686",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07686.json",
+  "name_vi": "đường/ tiêu đen",
+  "name_en": "Sugar/Black Pepper",
+  "name_normalized": "duong tieu den",
+  "synonyms": [
+    "tiêu = hạt tiêu",
+    "hạt tiêu xanh",
+    "tiêu xanh"
+  ],
+  "synonyms_normalized": [
+    "tieu hat tieu",
+    "hat tieu xanh",
+    "tieu xanh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ tieu den",
+      "new": "duong tieu den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

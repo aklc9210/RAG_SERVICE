@@ -1,0 +1,92 @@
+{
+  "id": "dish2055",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2055.json",
+  "name_vi": "Bánh crepe ngàn lớp hoa hồng",
+  "name_en": "",
+  "name_normalized": "banh crepe ngan lop hoa hong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Gelatin"
+  ],
+  "secondary_ingredients": [
+    "Heavy cream",
+    "Socola trắng",
+    "Siro hoa hồng",
+    "Nước",
+    "Cánh hoa hồng tươi"
+  ],
+  "seasonings": [
+    "Bột làm bánh (Cake Flour)",
+    "Sữa tươi không đường",
+    "Đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre00382",
+    "ingre02253",
+    "ingre02558",
+    "ingre05758",
+    "ingre06147",
+    "ingre05697",
+    "ingre07583",
+    "ingre06823",
+    "ingre04490",
+    "ingre01693"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake Flour)",
+    "Bơ lạt",
+    "Gelatin",
+    "Heavy cream",
+    "Socola trắng",
+    "Sữa tươi không đường",
+    "Siro hoa hồng",
+    "Đường",
+    "Trứng gà",
+    "Nước",
+    "Cánh hoa hồng tươi"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Butter",
+    "Gelatin",
+    "Heavy cream",
+    "White chocolate",
+    "Fat-free Milk",
+    "Raspberry Syrup",
+    "Sugar",
+    "Chicken egg",
+    "Water",
+    "Rose petal"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "bo lat",
+    "gelatin",
+    "heavy cream",
+    "socola trang",
+    "sua tuoi khong duong",
+    "siro hoa hong",
+    "duong",
+    "trung ga",
+    "nuoc",
+    "canh hoa hong tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    }
+  ]
+}

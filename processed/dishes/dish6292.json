@@ -1,0 +1,100 @@
+{
+  "id": "dish6292",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6292.json",
+  "name_vi": "Thịt kho dứa (thơm)",
+  "name_en": "",
+  "name_normalized": "thit kho dua thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Dứa",
+    "Dừa xiêm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06214",
+    "ingre02151",
+    "ingre02210",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Dứa",
+    "Dừa xiêm",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Pineapple",
+    "Jackfruit",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "dua",
+    "dua xiem",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit kho dua (thom)",
+      "new": "thit kho dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

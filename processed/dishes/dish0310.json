@@ -1,0 +1,100 @@
+{
+  "id": "dish0310",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0310.json",
+  "name_vi": "Canh chua ngó sen",
+  "name_en": "",
+  "name_normalized": "canh chua ngo sen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ngó sen",
+    "Me",
+    "Rau mùi"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ chiên",
+    "Đậu hũ trắng",
+    "Thơm",
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Hạt nêm chay",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04361",
+    "ingre03643",
+    "ingre05302",
+    "ingre07742",
+    "ingre07755",
+    "ingre06247",
+    "ingre01354",
+    "ingre07966",
+    "ingre01079",
+    "ingre02997",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Ngó sen",
+    "Me",
+    "Rau mùi",
+    "Đậu hũ chiên",
+    "Đậu hũ trắng",
+    "Thơm",
+    "Cà chua",
+    "Ớt",
+    "Chanh",
+    "Hạt nêm chay",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Lotus leaf",
+    "Tamarind",
+    "Mint",
+    "Fried Tofu",
+    "Tofu",
+    "Basil",
+    "Tomato",
+    "Pepper",
+    "Lemon",
+    "Vegetarian Seasoning",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ngo sen",
+    "me",
+    "rau mui",
+    "dau hu chien",
+    "dau hu trang",
+    "thom",
+    "ca chua",
+    "ot",
+    "chanh",
+    "hat nem chay",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

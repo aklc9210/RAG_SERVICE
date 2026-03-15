@@ -1,0 +1,72 @@
+{
+  "id": "dish4113",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4113.json",
+  "name_vi": "Bò viên phô mai đút lò",
+  "name_en": "",
+  "name_normalized": "bo vien pho mai dut lo",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt bò xay",
+    "Phô mai viên"
+  ],
+  "secondary_ingredients": [
+    "Cà chua bi",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Bột lá kinh giới",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06324",
+    "ingre05119",
+    "ingre07071",
+    "ingre01355",
+    "ingre00382",
+    "ingre00731",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò xay",
+    "Phô mai viên",
+    "Tỏi băm",
+    "Cà chua bi",
+    "Bơ lạt",
+    "Bột lá kinh giới",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Beef",
+    "Cheese cube",
+    "Minced Garlic",
+    "Tomato",
+    "Butter",
+    "Basil powder",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo xay",
+    "pho mai vien",
+    "toi bam",
+    "ca chua bi",
+    "bo lat",
+    "bot la kinh gioi",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

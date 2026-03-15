@@ -1,0 +1,53 @@
+{
+  "id": "dish2905",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2905.json",
+  "name_vi": "Bánh quy vị trà",
+  "name_en": "",
+  "name_normalized": "banh quy vi tra",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Trà Bá Tước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường bột",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre07589",
+    "ingre06691",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Đường bột",
+    "Trà Bá Tước",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Sugar Powder",
+    "Black Tea",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "duong bot",
+    "tra ba tuoc",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

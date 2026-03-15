@@ -1,0 +1,92 @@
+{
+  "id": "dish0048",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0048.json",
+  "name_vi": "Canh don",
+  "name_en": "",
+  "name_normalized": "canh don",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Don",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Bánh tráng chín",
+    "Bánh tráng sống"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột canh",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01950",
+    "ingre02741",
+    "ingre07063",
+    "ingre02673",
+    "ingre07966",
+    "ingre04694",
+    "ingre02995",
+    "ingre00587",
+    "ingre06612",
+    "ingre00184",
+    "ingre00206"
+  ],
+  "ingredient_names_vi": [
+    "Don",
+    "Hành tây",
+    "Tỏi",
+    "Hành lá",
+    "Ớt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột canh",
+    "Tiêu",
+    "Bánh tráng chín",
+    "Bánh tráng sống"
+  ],
+  "ingredient_names_en": [
+    "Don -> Don (This doesn't seem to be a Vietnamese ingredient name. Could you please provide more context or check the spelling?)",
+    "Onion",
+    "Garlic",
+    "Scallion",
+    "Pepper",
+    "Fish Sauce",
+    "Seasoning",
+    "Cornstarch",
+    "Stir-fried rice paper",
+    "Fresh春卷"
+  ],
+  "ingredient_names_normalized": [
+    "don",
+    "hanh tay",
+    "toi",
+    "hanh la",
+    "ot",
+    "nuoc mam",
+    "hat nem",
+    "bot canh",
+    "tieu",
+    "banh trang chin",
+    "banh trang song"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

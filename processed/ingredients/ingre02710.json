@@ -1,0 +1,25 @@
+{
+  "id": "ingre02710",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02710.json",
+  "name_vi": "hành lá/ thì là",
+  "name_en": "Chives/Coriander",
+  "name_normalized": "hanh la thi la",
+  "synonyms": [
+    "thì đắng"
+  ],
+  "synonyms_normalized": [
+    "thi dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ thi la",
+      "new": "hanh la thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

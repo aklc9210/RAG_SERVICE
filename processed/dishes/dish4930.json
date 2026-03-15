@@ -1,0 +1,117 @@
+{
+  "id": "dish4930",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4930.json",
+  "name_vi": "Mì soba xào thịt heo",
+  "name_en": "",
+  "name_normalized": "mi soba xao thit heo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì soba",
+    "Thịt ba chỉ",
+    "Bắp cải",
+    "Nấm đông cô tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá",
+    "Topping ăn kèm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Sốt Worcestershire",
+    "Tương cà",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03988",
+    "ingre06275",
+    "ingre00457",
+    "ingre04971",
+    "ingre02741",
+    "ingre02673",
+    "ingre01419",
+    "ingre06678",
+    "ingre06023",
+    "ingre06984",
+    "ingre02080",
+    "ingre04790",
+    "ingre02124",
+    "ingre07583",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mì soba",
+    "Thịt ba chỉ",
+    "Bắp cải",
+    "Nấm đông cô tươi",
+    "Hành tây",
+    "Hành lá",
+    "Cà rốt",
+    "Topping ăn kèm",
+    "Sốt Worcestershire",
+    "Tương cà",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Buckwheat noodles",
+    "Pork belly",
+    "Cabbage",
+    "Fresh enoki mushrooms",
+    "Onion",
+    "Scallion",
+    "Carrot",
+    "Accompanying topping",
+    "Worcestershire sauce",
+    "Miso酱",
+    "Soy sauce",
+    "Cooking oil",
+    "Sugar",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mi soba",
+    "thit ba chi",
+    "bap cai",
+    "nam dong co tuoi",
+    "hanh tay",
+    "hanh la",
+    "ca rot",
+    "topping an kem",
+    "sot worcestershire",
+    "tuong ca",
+    "dau hao",
+    "nuoc tuong",
+    "dau an",
+    "duong",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish4319",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4319.json",
+  "name_vi": "Bạch tuộc nướng sốt teriyaki",
+  "name_en": "",
+  "name_normalized": "bach tuoc nuong sot teriyaki",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bạch tuộc"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Gừng",
+    "Tỏi",
+    "Chanh",
+    "Rượu trắng",
+    "Rượu Mirin",
+    "Nước tương Nhật",
+    "Đường",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre08055",
+    "ingre02485",
+    "ingre07063",
+    "ingre01079",
+    "ingre02768",
+    "ingre05574",
+    "ingre05545",
+    "ingre04803",
+    "ingre07583",
+    "ingre00564"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Ớt sừng",
+    "Gừng",
+    "Tỏi",
+    "Chanh",
+    "Hành tím",
+    "Rượu trắng",
+    "Rượu Mirin",
+    "Nước tương Nhật",
+    "Đường",
+    "Bột bắp"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Hot pepper",
+    "Ginger",
+    "Garlic",
+    "Lemon",
+    "Shallot",
+    "White wine",
+    "Mirin Wine",
+    "Soy Sauce",
+    "Sugar",
+    "Corn starch"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "ot sung",
+    "gung",
+    "toi",
+    "chanh",
+    "hanh tim",
+    "ruou trang",
+    "ruou mirin",
+    "nuoc tuong nhat",
+    "duong",
+    "bot bap"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

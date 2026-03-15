@@ -1,0 +1,112 @@
+{
+  "id": "dish5429",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5429.json",
+  "name_vi": "Bánh lọt xào",
+  "name_en": "",
+  "name_normalized": "banh lot xao",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm sú",
+    "Thịt xá xíu",
+    "Đậu Hà Lan"
+  ],
+  "secondary_ingredients": [
+    "Giá đỗ",
+    "Chao đỏ"
+  ],
+  "seasonings": [
+    "Bánh lọt",
+    "Ớt đỏ",
+    "Tỏi băm",
+    "Giấm đỏ",
+    "Nước tương/ tương ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00098",
+    "ingre06953",
+    "ingre06522",
+    "ingre07736",
+    "ingre02337",
+    "ingre08097",
+    "ingre07071",
+    "ingre01112",
+    "ingre02380",
+    "ingre04814",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00838",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bánh lọt",
+    "Tôm sú",
+    "Thịt xá xíu",
+    "Đậu Hà Lan",
+    "Giá đỗ",
+    "Ớt đỏ",
+    "Tỏi băm",
+    "Chao đỏ",
+    "Giấm đỏ",
+    "Nước tương/ tương ớt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Spring roll",
+    "Shrimp",
+    "Pork liver",
+    "Green beans",
+    "Bean sprouts",
+    "Red pepper",
+    "Minced Garlic",
+    "Red chili",
+    "Red vinegar",
+    "Soy Sauce/Sichuan Pepper Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning Powder",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh lot",
+    "tom su",
+    "thit xa xiu",
+    "dau ha lan",
+    "gia do",
+    "ot do",
+    "toi bam",
+    "chao do",
+    "giam do",
+    "nuoc tuong tuong ot",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc tuong/ tuong ot",
+      "new": "nuoc tuong tuong ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước tương/ tương ớt"
+    }
+  ]
+}

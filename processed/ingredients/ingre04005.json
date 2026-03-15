@@ -1,0 +1,29 @@
+{
+  "id": "ingre04005",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04005.json",
+  "name_vi": "mì tôm/ mì ramen",
+  "name_en": "Noodle",
+  "name_normalized": "mi tom mi ramen",
+  "synonyms": [
+    "mì chín sẵn",
+    "mì sợi",
+    "mì gói"
+  ],
+  "synonyms_normalized": [
+    "mi chin san",
+    "mi soi",
+    "mi goi"
+  ],
+  "category": "instant_foods",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi tom/ mi ramen",
+      "new": "mi tom mi ramen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dish5430",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5430.json",
+  "name_vi": "Cơm cháy thịt dê Ninh Bình",
+  "name_en": "",
+  "name_normalized": "com chay thit de ninh binh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cơm",
+    "Thịt dê"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Rau ngổ"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành băm",
+    "Sả băm",
+    "Ngũ vị hương",
+    "Bột năng",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Hạt nêm/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01724",
+    "ingre06366",
+    "ingre07071",
+    "ingre02657",
+    "ingre05905",
+    "ingre04329",
+    "ingre05336",
+    "ingre04381",
+    "ingre00849",
+    "ingre02124",
+    "ingre04790",
+    "ingre04694",
+    "ingre03014"
+  ],
+  "ingredient_names_vi": [
+    "Cơm",
+    "Thịt dê",
+    "Tỏi băm",
+    "Hành băm",
+    "Sả băm",
+    "Ngò gai",
+    "Rau ngổ",
+    "Ngũ vị hương",
+    "Bột năng",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Hạt nêm/ đường"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Goat肉",
+    "Minced Garlic",
+    "Chopped Garlic",
+    "Garlic Paste",
+    "Culantro",
+    "Five-Spice Powder",
+    "Cornstarch",
+    "Cooking oil",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Seasoning/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "com",
+    "thit de",
+    "toi bam",
+    "hanh bam",
+    "sa bam",
+    "ngo gai",
+    "rau ngo",
+    "ngu vi huong",
+    "bot nang",
+    "dau an",
+    "nuoc tuong",
+    "nuoc mam",
+    "hat nem duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ duong",
+      "new": "hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ đường"
+    }
+  ]
+}

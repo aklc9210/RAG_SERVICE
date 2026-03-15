@@ -1,0 +1,87 @@
+{
+  "id": "dish3871",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3871.json",
+  "name_vi": "Cánh gà nướng tiêu đen bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "canh ga nuong tieu den bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cánh gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hạt tiêu đen",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tương ớt",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre03050",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre02080",
+    "ingre07028",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Hạt tiêu đen",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tương ớt",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Black Pepper",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Soy sauce",
+    "Hot Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "hat tieu den",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "dau hao",
+    "tuong ot",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

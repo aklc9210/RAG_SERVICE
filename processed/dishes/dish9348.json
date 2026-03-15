@@ -1,0 +1,96 @@
+{
+  "id": "dish9348",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9348.json",
+  "name_vi": "Cơm nắm Nhật Bản (Onigiri)",
+  "name_en": "",
+  "name_normalized": "com nam nhat ban onigiri",
+  "category": "an vat",
+  "main_ingredients": [
+    "Gạo sống",
+    "Nước lọc",
+    "Rong biển Nori"
+  ],
+  "secondary_ingredients": [
+    "Cá bào Okaka",
+    "Cá ngừ Mayo",
+    "Umeboshi",
+    "Tảo kombu",
+    "Hạt mè trắng"
+  ],
+  "seasonings": [
+    "Muối kosher",
+    "Cá hồi muối",
+    "Xì dầu",
+    "Sốt mayonnaise Nhật Bản"
+  ],
+  "ingredient_ids": [
+    "ingre02459",
+    "ingre04665",
+    "ingre05461",
+    "ingre03769",
+    "ingre01528",
+    "ingre01463",
+    "ingre01583",
+    "ingre07136",
+    "ingre07050",
+    "ingre02974",
+    "ingre07381",
+    "ingre05972"
+  ],
+  "ingredient_names_vi": [
+    "Gạo sống",
+    "Nước lọc",
+    "Rong biển Nori",
+    "Muối kosher",
+    "Cá hồi muối",
+    "Cá bào Okaka",
+    "Cá ngừ Mayo",
+    "Umeboshi",
+    "Tảo kombu",
+    "Hạt mè trắng",
+    "Xì dầu",
+    "Sốt mayonnaise Nhật Bản"
+  ],
+  "ingredient_names_en": [
+    "Raw Rice",
+    "Tap water",
+    "Seaweed Nori",
+    "Kosher Salt",
+    "Smoked Salmon",
+    "Mackerel",
+    "Tuna Mayo",
+    "Umeboshi",
+    "Kombu seaweed",
+    "White Sesame Seeds",
+    "Soy Sauce",
+    "Japanese mayonnaise"
+  ],
+  "ingredient_names_normalized": [
+    "gao song",
+    "nuoc loc",
+    "rong bien nori",
+    "muoi kosher",
+    "ca hoi muoi",
+    "ca bao okaka",
+    "ca ngu mayo",
+    "umeboshi",
+    "tao kombu",
+    "hat me trang",
+    "xi dau",
+    "sot mayonnaise nhat ban"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "com nam nhat ban (onigiri)",
+      "new": "com nam nhat ban onigiri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

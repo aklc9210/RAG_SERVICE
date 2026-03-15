@@ -1,0 +1,71 @@
+{
+  "id": "dish4174",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4174.json",
+  "name_vi": "Sườn nướng kiểu Nga",
+  "name_en": "",
+  "name_normalized": "suon nuong kieu nga",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Thì là"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre02741",
+    "ingre07063",
+    "ingre06233",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Hành tây",
+    "Tỏi",
+    "Thì là",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Onion",
+    "Garlic",
+    "Dill",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "hanh tay",
+    "toi",
+    "thi la",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "dish8885",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8885.json",
+  "name_vi": "Kimbap cá ngừ cay",
+  "name_en": "",
+  "name_normalized": "kimbap ca ngu cay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cơm nấu chín",
+    "Cá ngừ hộp",
+    "Rong biển cuộn cơm"
+  ],
+  "secondary_ingredients": [
+    "Thanh cua",
+    "Tía tô",
+    "Dầu ô liu",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Củ cải vàng muối",
+    "Sốt mayonnaise",
+    "Mù tạt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Ớt bột",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01760",
+    "ingre01582",
+    "ingre05452",
+    "ingre06823",
+    "ingre06199",
+    "ingre01419",
+    "ingre01873",
+    "ingre06925",
+    "ingre05970",
+    "ingre04050",
+    "ingre04538",
+    "ingre02124",
+    "ingre02120",
+    "ingre02094",
+    "ingre07977",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nấu chín",
+    "Cá ngừ hộp",
+    "Rong biển cuộn cơm",
+    "Trứng gà",
+    "Thanh cua",
+    "Cà rốt",
+    "Củ cải vàng muối",
+    "Tía tô",
+    "Sốt mayonnaise",
+    "Mù tạt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Dầu ô liu",
+    "Dầu mè",
+    "Ớt bột",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cooked Rice",
+    "Tuna Can",
+    "Seaweed卷饭",
+    "Chicken egg",
+    "Shrimp",
+    "Carrot",
+    "Pickled Yellow Radish",
+    "Cilantro",
+    "Mayonnaise Sauce",
+    "Mustard",
+    "Lemon juice",
+    "Cooking oil",
+    "Olive oil",
+    "Sesame oil",
+    "Chili powder",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com nau chin",
+    "ca ngu hop",
+    "rong bien cuon com",
+    "trung ga",
+    "thanh cua",
+    "ca rot",
+    "cu cai vang muoi",
+    "tia to",
+    "sot mayonnaise",
+    "mu tat",
+    "nuoc cot chanh",
+    "dau an",
+    "dau o liu",
+    "dau me",
+    "ot bot",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

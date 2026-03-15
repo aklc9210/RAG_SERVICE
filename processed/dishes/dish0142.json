@@ -1,0 +1,96 @@
+{
+  "id": "dish0142",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0142.json",
+  "name_vi": "Canh gà hạt sen",
+  "name_en": "",
+  "name_normalized": "canh ga hat sen",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tím",
+    "Hạt sen tươi"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương khô",
+    "Rau mùi",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Hạt nêm",
+    "Nước mắm",
+    "Gừng",
+    "Nước dùng"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02768",
+    "ingre03032",
+    "ingre02995",
+    "ingre04694",
+    "ingre02485",
+    "ingre04913",
+    "ingre05302",
+    "ingre02673",
+    "ingre04602"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Hành tím",
+    "Hạt sen tươi",
+    "Hạt nêm",
+    "Nước mắm",
+    "Gừng",
+    "Nấm hương khô",
+    "Rau mùi",
+    "Hành lá",
+    "Nước dùng"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Shallot",
+    "Fresh lotus seeds",
+    "Seasoning",
+    "Fish Sauce",
+    "Ginger",
+    "Dried Shiitake Mushrooms",
+    "Mint",
+    "Scallion",
+    "Chicken Stock"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "hanh tim",
+    "hat sen tuoi",
+    "hat nem",
+    "nuoc mam",
+    "gung",
+    "nam huong kho",
+    "rau mui",
+    "hanh la",
+    "nuoc dung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

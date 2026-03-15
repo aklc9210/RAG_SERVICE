@@ -1,0 +1,91 @@
+{
+  "id": "dish0624",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0624.json",
+  "name_vi": "Súp kem ức gà luộc",
+  "name_en": "",
+  "name_normalized": "sup kem uc ga luoc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ức gà",
+    "Rau củ hỗn hợp",
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Bơ nhạt",
+    "Nước"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột mì",
+    "Bột hành",
+    "Bột tỏi",
+    "Bột nước hầm gà",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre05246",
+    "ingre01812",
+    "ingre06147",
+    "ingre00759",
+    "ingre00402",
+    "ingre00682",
+    "ingre00978",
+    "ingre00856",
+    "ingre04490",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Rau củ hỗn hợp",
+    "Cần tây",
+    "Sữa tươi không đường",
+    "Bột mì",
+    "Bơ nhạt",
+    "Bột hành",
+    "Bột tỏi",
+    "Bột nước hầm gà",
+    "Nước",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Mixed Vegetables",
+    "Celery",
+    "Fat-free Milk",
+    "Wheat Flour",
+    "Margarine",
+    "Garlic Powder",
+    "Chicken Stock Powder",
+    "Water",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "rau cu hon hop",
+    "can tay",
+    "sua tuoi khong duong",
+    "bot mi",
+    "bo nhat",
+    "bot hanh",
+    "bot toi",
+    "bot nuoc ham ga",
+    "nuoc",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

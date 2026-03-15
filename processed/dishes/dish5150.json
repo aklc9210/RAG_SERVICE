@@ -1,0 +1,104 @@
+{
+  "id": "dish5150",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5150.json",
+  "name_vi": "Cần tây xào thịt heo (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "can tay xao thit heo cong thuc duoc chia se tu nguoi dung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt heo",
+    "Cần tây",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Tương ớt",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre01812",
+    "ingre02741",
+    "ingre07071",
+    "ingre02774",
+    "ingre07028",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Cần tây",
+    "Hành tây",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Tương ớt",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Celery",
+    "Onion",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Hot Sauce",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "can tay",
+    "hanh tay",
+    "toi bam",
+    "hanh tim bam",
+    "tuong ot",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "can tay xao thit heo (cong thuc duoc chia se tu nguoi dung)",
+      "new": "can tay xao thit heo cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

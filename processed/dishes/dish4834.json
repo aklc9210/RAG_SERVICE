@@ -1,0 +1,117 @@
+{
+  "id": "dish4834",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4834.json",
+  "name_vi": "Bạch tuộc baby sốt ớt cay Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "bach tuoc baby sot ot cay han quoc",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bạch tuộc baby",
+    "Hành tây",
+    "Hành boa rô"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng xanh",
+    "Ớt sừng đỏ",
+    "Nước cốt gừng",
+    "Gừng băm",
+    "Bột mì",
+    "Tương ớt Gochujang",
+    "Đường Oligo",
+    "Bột ớt Hàn Quốc",
+    "Dầu ăn",
+    "Muối/Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00435",
+    "ingre01419",
+    "ingre02741",
+    "ingre02645",
+    "ingre08068",
+    "ingre08071",
+    "ingre04573",
+    "ingre02492",
+    "ingre00759",
+    "ingre07033",
+    "ingre07633",
+    "ingre01023",
+    "ingre03929",
+    "ingre02124",
+    "ingre02094",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc baby",
+    "Cà rốt",
+    "Hành tây",
+    "Hành boa rô",
+    "Ớt sừng xanh",
+    "Ớt sừng đỏ",
+    "Nước cốt gừng",
+    "Gừng băm",
+    "Bột mì",
+    "Tương ớt Gochujang",
+    "Đường Oligo",
+    "Bột ớt Hàn Quốc",
+    "Mè rang",
+    "Dầu ăn",
+    "Dầu mè",
+    "Muối/Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Baby octopus",
+    "Carrot",
+    "Onion",
+    "Garlic",
+    "Green Horn Pepper",
+    "Red Hot Pepper",
+    "Ginger Juice",
+    "Ginger paste",
+    "Wheat Flour",
+    "Red Pepper Paste",
+    "Oligosaccharide syrup",
+    "Korean Chili Powder",
+    "Roasted Sesame Seeds",
+    "Cooking oil",
+    "Sesame oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc baby",
+    "ca rot",
+    "hanh tay",
+    "hanh boa ro",
+    "ot sung xanh",
+    "ot sung do",
+    "nuoc cot gung",
+    "gung bam",
+    "bot mi",
+    "tuong ot gochujang",
+    "duong oligo",
+    "bot ot han quoc",
+    "me rang",
+    "dau an",
+    "dau me",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

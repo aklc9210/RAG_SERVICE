@@ -1,0 +1,71 @@
+{
+  "id": "dish7315",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7315.json",
+  "name_vi": "Bánh tart khoai tây",
+  "name_en": "",
+  "name_normalized": "banh tart khoai tay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột thì là",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre01419",
+    "ingre06823",
+    "ingre00791",
+    "ingre00941",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Cà rốt",
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột thì là",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Carrot",
+    "Chicken egg",
+    "All-purpose flour",
+    "Basil powder",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "ca rot",
+    "trung ga",
+    "bot mi da dung",
+    "bot thi la",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay"
+    }
+  ]
+}

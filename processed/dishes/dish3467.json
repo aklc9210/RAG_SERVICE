@@ -1,0 +1,118 @@
+{
+  "id": "dish3467",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3467.json",
+  "name_vi": "Phở bò kho",
+  "name_en": "",
+  "name_normalized": "pho bo kho",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bánh phở tươi",
+    "Sườn bò",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "secondary_ingredients": [
+    "Thảo quả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Hoa hồi",
+    "Quế",
+    "Bột ngũ vị hương",
+    "Bột màu điều",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00143",
+    "ingre05872",
+    "ingre02673",
+    "ingre04343",
+    "ingre02485",
+    "ingre07063",
+    "ingre06271",
+    "ingre02584",
+    "ingre05186",
+    "ingre00815",
+    "ingre00754",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh phở tươi",
+    "Sườn bò",
+    "Hành lá",
+    "Ngò rí",
+    "Gừng",
+    "Tỏi",
+    "Thảo quả",
+    "Hoa hồi",
+    "Quế",
+    "Bột ngũ vị hương",
+    "Bột màu điều",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh Pho Noodle",
+    "Beef ribs",
+    "Scallion",
+    "Parsley",
+    "Ginger",
+    "Garlic",
+    "Star anise",
+    "Rose",
+    "Cinnamon",
+    "Five-Spice Powder",
+    "Caramel Powder",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh pho tuoi",
+    "suon bo",
+    "hanh la",
+    "ngo ri",
+    "gung",
+    "toi",
+    "thao qua",
+    "hoa hoi",
+    "que",
+    "bot ngu vi huong",
+    "bot mau dieu",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

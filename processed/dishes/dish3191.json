@@ -1,0 +1,131 @@
+{
+  "id": "dish3191",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3191.json",
+  "name_vi": "Bún chả cá thác lác",
+  "name_en": "",
+  "name_normalized": "bun cha ca thac lac",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá thác lác",
+    "Bún tươi",
+    "Dứa",
+    "Hành lá",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01628",
+    "ingre00357",
+    "ingre02151",
+    "ingre02673",
+    "ingre01354",
+    "ingre02741",
+    "ingre08055",
+    "ingre02768",
+    "ingre07063",
+    "ingre02093",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá thác lác",
+    "Bún tươi",
+    "Dứa",
+    "Hành lá",
+    "Cà chua",
+    "Hành tây",
+    "Ớt sừng",
+    "Hành tím",
+    "Tỏi",
+    "Dầu màu điều",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pomfret",
+    "Fresh noodle",
+    "Pineapple",
+    "Scallion",
+    "Tomato",
+    "Onion",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Peanut-colored food coloring",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca thac lac",
+    "bun tuoi",
+    "dua",
+    "hanh la",
+    "ca chua",
+    "hanh tay",
+    "ot sung",
+    "hanh tim",
+    "toi",
+    "dau mau dieu",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

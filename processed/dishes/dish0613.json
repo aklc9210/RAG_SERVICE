@@ -1,0 +1,62 @@
+{
+  "id": "dish0613",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0613.json",
+  "name_vi": "Canh cua rau đay mướp",
+  "name_en": "",
+  "name_normalized": "canh cua rau day muop",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cua đồng"
+  ],
+  "secondary_ingredients": [
+    "Rau đay",
+    "Mướp"
+  ],
+  "seasonings": [
+    "Hạt nêm/ muối",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre05431",
+    "ingre04103",
+    "ingre03010",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Rau đay",
+    "Mướp",
+    "Hạt nêm/ muối",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Mallowweed",
+    "Cucumber",
+    "Seasoning/Salt",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "rau day",
+    "muop",
+    "hat nem muoi",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

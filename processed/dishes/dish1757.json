@@ -1,0 +1,67 @@
+{
+  "id": "dish1757",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1757.json",
+  "name_vi": "Bánh bao khoai môn không nhân",
+  "name_en": "",
+  "name_normalized": "banh bao khoai mon khong nhan",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Men nở",
+    "Bột mì đa dụng",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre06823",
+    "ingre03686",
+    "ingre00791",
+    "ingre06144",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Trứng gà",
+    "Men nở",
+    "Bột mì đa dụng",
+    "Sữa tươi",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Chicken egg",
+    "Baking Powder",
+    "All-purpose flour",
+    "Fresh Milk",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "trung ga",
+    "men no",
+    "bot mi da dung",
+    "sua tuoi",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

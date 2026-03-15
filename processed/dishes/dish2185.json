@@ -1,0 +1,121 @@
+{
+  "id": "dish2185",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2185.json",
+  "name_vi": "Bánh lá liễu - hồng đào",
+  "name_en": "",
+  "name_normalized": "banh la lieu hong dao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Tôm khô",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Dầu mè",
+    "Cần tây",
+    "Màu thực phẩm hồng"
+  ],
+  "seasonings": [
+    "Bột há cảo",
+    "Bột nếp",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tỏi băm",
+    "Ngũ vị hương",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00684",
+    "ingre00859",
+    "ingre02450",
+    "ingre06941",
+    "ingre06275",
+    "ingre07791",
+    "ingre02124",
+    "ingre02080",
+    "ingre02094",
+    "ingre07071",
+    "ingre01812",
+    "ingre04381",
+    "ingre04694",
+    "ingre03868",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bột há cảo",
+    "Bột nếp",
+    "Gạo nếp",
+    "Tôm khô",
+    "Thịt ba chỉ",
+    "Đậu phộng rang",
+    "Dầu ăn",
+    "Dầu hào",
+    "Dầu mè",
+    "Tỏi băm",
+    "Cần tây",
+    "Ngũ vị hương",
+    "Nước mắm",
+    "Màu thực phẩm hồng",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp粉",
+    "Glutinous rice flour",
+    "sticky rice",
+    "Dried Shrimp",
+    "Pork belly",
+    "Roasted Peanut",
+    "Cooking oil",
+    "Soy sauce",
+    "Sesame oil",
+    "Minced Garlic",
+    "Celery",
+    "Five-Spice Powder",
+    "Fish Sauce",
+    "Food-grade red dye",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bot ha cao",
+    "bot nep",
+    "gao nep",
+    "tom kho",
+    "thit ba chi",
+    "dau phong rang",
+    "dau an",
+    "dau hao",
+    "dau me",
+    "toi bam",
+    "can tay",
+    "ngu vi huong",
+    "nuoc mam",
+    "mau thuc pham hong",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh la lieu - hong dao",
+      "new": "banh la lieu hong dao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

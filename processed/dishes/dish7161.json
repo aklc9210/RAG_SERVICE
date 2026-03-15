@@ -1,0 +1,71 @@
+{
+  "id": "dish7161",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7161.json",
+  "name_vi": "Cá đổng chiên sả",
+  "name_en": "",
+  "name_normalized": "ca dong chien sa",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá đổng",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01664",
+    "ingre05900",
+    "ingre05574",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá đổng",
+    "Sả",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Lemongrass",
+    "White wine",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca dong",
+    "sa",
+    "ruou trang",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

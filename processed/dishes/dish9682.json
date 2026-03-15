@@ -1,0 +1,61 @@
+{
+  "id": "dish9682",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9682.json",
+  "name_vi": "Coconut matcha (matcha nước dừa)",
+  "name_en": "",
+  "name_normalized": "coconut matcha matcha nuoc dua",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Nước dừa tươi",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Bột matcha"
+  ],
+  "ingredient_ids": [
+    "ingre07313",
+    "ingre06144",
+    "ingre00736",
+    "ingre04626",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Whipping cream",
+    "Sữa tươi",
+    "Bột matcha",
+    "Nước dừa tươi",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Whipping cream",
+    "Fresh Milk",
+    "Matcha Powder",
+    "Coconut water",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "whipping cream",
+    "sua tuoi",
+    "bot matcha",
+    "nuoc dua tuoi",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "coconut matcha (matcha nuoc dua)",
+      "new": "coconut matcha matcha nuoc dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

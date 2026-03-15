@@ -1,0 +1,122 @@
+{
+  "id": "dish7758",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7758.json",
+  "name_vi": "Lẩu tôm hùm nấm",
+  "name_en": "",
+  "name_normalized": "lau tom hum nam",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Tôm hùm",
+    "Nước dùng gà",
+    "Nấm đùi gà",
+    "Nấm ngọc châm",
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Chanh",
+    "Nước cốt chanh",
+    "Ớt sấy khô",
+    "Sa tế",
+    "Bột me",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06940",
+    "ingre04607",
+    "ingre04974",
+    "ingre04950",
+    "ingre04945",
+    "ingre05385",
+    "ingre05900",
+    "ingre07063",
+    "ingre01079",
+    "ingre04538",
+    "ingre08054",
+    "ingre05621",
+    "ingre00739",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tôm hùm",
+    "Nước dùng gà",
+    "Nấm đùi gà",
+    "Nấm ngọc châm",
+    "Nấm mỡ",
+    "Rau thơm",
+    "Sả",
+    "Tỏi",
+    "Chanh",
+    "Nước cốt chanh",
+    "Ớt sấy khô",
+    "Sa tế",
+    "Bột me",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Prawn",
+    "Chicken broth",
+    "Chicken mushroom",
+    "Mushroom",
+    "Fried mushroom",
+    "Basil",
+    "Lemongrass",
+    "Garlic",
+    "Lemon",
+    "Lemon juice",
+    "Dried chili",
+    "Fish sauce",
+    "Tamarind powder",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tom hum",
+    "nuoc dung ga",
+    "nam dui ga",
+    "nam ngoc cham",
+    "nam mo",
+    "rau thom",
+    "sa",
+    "toi",
+    "chanh",
+    "nuoc cot chanh",
+    "ot say kho",
+    "sa te",
+    "bot me",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

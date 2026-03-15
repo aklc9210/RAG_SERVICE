@@ -1,0 +1,106 @@
+{
+  "id": "dish7056",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7056.json",
+  "name_vi": "Thịt ba chỉ rang chua ngọt",
+  "name_en": "",
+  "name_normalized": "thit ba chi rang chua ngot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre07966",
+    "ingre02355",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Ớt",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Pepper",
+    "Vinegar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "ot",
+    "giam",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

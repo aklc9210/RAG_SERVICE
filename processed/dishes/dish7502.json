@@ -1,0 +1,117 @@
+{
+  "id": "dish7502",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7502.json",
+  "name_vi": "Mực hấp cuốn bánh tráng",
+  "name_en": "",
+  "name_normalized": "muc hap cuon banh trang",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Mực ống trứng",
+    "Bánh tráng mè đen",
+    "Rau muống",
+    "Lá quế"
+  ],
+  "secondary_ingredients": [
+    "Xoài xanh",
+    "Sả"
+  ],
+  "seasonings": [
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Muối",
+    "Giấm",
+    "Dầu ăn",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre04283",
+    "ingre00197",
+    "ingre05289",
+    "ingre03500",
+    "ingre07342",
+    "ingre05900",
+    "ingre07583",
+    "ingre04694",
+    "ingre07028",
+    "ingre03746",
+    "ingre02355",
+    "ingre02124",
+    "ingre02485",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống trứng",
+    "Bánh tráng mè đen",
+    "Rau muống",
+    "Lá quế",
+    "Xoài xanh",
+    "Sả",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Muối",
+    "Giấm",
+    "Dầu ăn",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Black Sesame Rice Paper",
+    "Watercress",
+    "Bayleaf",
+    "Green mango",
+    "Lemongrass",
+    "Sugar",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Salt",
+    "Vinegar",
+    "Cooking oil",
+    "Ginger",
+    "Garlic",
+    "Pepper",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong trung",
+    "banh trang me den",
+    "rau muong",
+    "la que",
+    "xoai xanh",
+    "sa",
+    "duong",
+    "nuoc mam",
+    "tuong ot",
+    "muoi",
+    "giam",
+    "dau an",
+    "gung",
+    "toi",
+    "ot",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

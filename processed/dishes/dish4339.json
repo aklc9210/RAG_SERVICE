@@ -1,0 +1,62 @@
+{
+  "id": "dish4339",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4339.json",
+  "name_vi": "Lòng non trộn mắm chua cay",
+  "name_en": "",
+  "name_normalized": "long non tron mam chua cay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Lòng non heo"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt cay",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre03578",
+    "ingre01079",
+    "ingre05900",
+    "ingre07993",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Lòng non heo",
+    "Chanh",
+    "Sả",
+    "Ớt cay",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Lemon",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "long non heo",
+    "chanh",
+    "sa",
+    "ot cay",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

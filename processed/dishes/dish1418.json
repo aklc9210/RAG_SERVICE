@@ -1,0 +1,98 @@
+{
+  "id": "dish1418",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1418.json",
+  "name_vi": "Bánh ú nhân mặn miền Tây",
+  "name_en": "",
+  "name_normalized": "banh u nhan man mien tay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp trắng",
+    "Đậu xanh cà vỏ",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Trứng vịt luộc",
+    "Lá dứa"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04998",
+    "ingre07841",
+    "ingre06275",
+    "ingre02768",
+    "ingre06855",
+    "ingre04554",
+    "ingre03417",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Nếp trắng",
+    "Đậu xanh cà vỏ",
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Trứng vịt luộc",
+    "Nước cốt dừa",
+    "Lá dứa",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "White Rice",
+    "Green Soybeans Skin-On",
+    "Pork belly",
+    "Shallot",
+    "Boiled duck egg",
+    "Coconut milk",
+    "Pandan叶",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "nep trang",
+    "dau xanh ca vo",
+    "thit ba chi",
+    "hanh tim",
+    "trung vit luoc",
+    "nuoc cot dua",
+    "la dua",
+    "muoi",
+    "duong",
+    "tieu",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

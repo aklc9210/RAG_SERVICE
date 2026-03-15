@@ -1,0 +1,93 @@
+{
+  "id": "dish3233",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3233.json",
+  "name_vi": "Bún bò bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "bun bo bang noi ap suat",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chân giò heo",
+    "Nạm bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hạt dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Mắm ruốc",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01232",
+    "ingre04889",
+    "ingre07063",
+    "ingre02768",
+    "ingre02933",
+    "ingre04151",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò heo",
+    "Nạm bò",
+    "Tỏi",
+    "Hành tím",
+    "Hạt dầu điều",
+    "Mắm ruốc",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Beef mince",
+    "Garlic",
+    "Shallot",
+    "Peanut oil seeds",
+    "Shrimp paste",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio heo",
+    "nam bo",
+    "toi",
+    "hanh tim",
+    "hat dau dieu",
+    "mam ruoc",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

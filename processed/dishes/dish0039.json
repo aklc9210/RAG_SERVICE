@@ -1,0 +1,103 @@
+{
+  "id": "dish0039",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0039.json",
+  "name_vi": "Canh đầu cá hồi nấu dứa",
+  "name_en": "",
+  "name_normalized": "canh dau ca hoi nau dua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đầu cá hồi",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Cà chua",
+    "Lá quế",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngột",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre07706",
+    "ingre02151",
+    "ingre07063",
+    "ingre05900",
+    "ingre07966",
+    "ingre01354",
+    "ingre03500",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00834",
+    "ingre04694",
+    "ingre07057"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá hồi",
+    "Dứa",
+    "Tỏi",
+    "Sả",
+    "Ớt",
+    "Cà chua",
+    "Lá quế",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngột",
+    "Nước mắm",
+    "Tắc"
+  ],
+  "ingredient_names_en": [
+    "Salmon head",
+    "Pineapple",
+    "Garlic",
+    "Lemongrass",
+    "Pepper",
+    "Tomato",
+    "Bayleaf",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Coriander Seed",
+    "Fish Sauce",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca hoi",
+    "dua",
+    "toi",
+    "sa",
+    "ot",
+    "ca chua",
+    "la que",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "nuoc mam",
+    "tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

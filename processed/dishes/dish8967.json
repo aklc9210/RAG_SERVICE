@@ -1,0 +1,62 @@
+{
+  "id": "dish8967",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8967.json",
+  "name_vi": "Xoài lắc muối ớt",
+  "name_en": "",
+  "name_normalized": "xoai lac muoi ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Ớt bột",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre07342",
+    "ingre07966",
+    "ingre07977",
+    "ingre07680",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xanh",
+    "Ớt",
+    "Ớt bột",
+    "Đường/ muối",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Green mango",
+    "Pepper",
+    "Chili powder",
+    "Sugar/Salt",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xanh",
+    "ot",
+    "ot bot",
+    "duong muoi",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

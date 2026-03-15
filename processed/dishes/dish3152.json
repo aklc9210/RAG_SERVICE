@@ -1,0 +1,123 @@
+{
+  "id": "dish3152",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3152.json",
+  "name_vi": "Mì gà xá kén",
+  "name_en": "",
+  "name_normalized": "mi ga xa ken",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Gà ta",
+    "Xương gà",
+    "Hành tím",
+    "Củ xá kén"
+  ],
+  "secondary_ingredients": [
+    "Đầu hành lá",
+    "Vắt mì tươi",
+    "Đồ ăn kèm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Bột Sa cương",
+    "Bột nêm gà",
+    "Sốt gà",
+    "Dầu ăn",
+    "Bột dành dành",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Nước tương"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre07421",
+    "ingre02768",
+    "ingre02485",
+    "ingre01923",
+    "ingre07717",
+    "ingre00912",
+    "ingre00842",
+    "ingre05959",
+    "ingre02124",
+    "ingre00643",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre04790",
+    "ingre07204",
+    "ingre07903"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Xương gà",
+    "Hành tím",
+    "Gừng",
+    "Củ xá kén",
+    "Đầu hành lá",
+    "Bột Sa cương",
+    "Bột nêm gà",
+    "Sốt gà",
+    "Dầu ăn",
+    "Bột dành dành",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Nước tương",
+    "Vắt mì tươi",
+    "Đồ ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Chicken bone",
+    "Shallot",
+    "Ginger",
+    "Staranum Root",
+    "Chive;top",
+    "Fenugreek seed powder",
+    "Chicken Seasoning Powder",
+    "Chicken sauce",
+    "Cooking oil",
+    "Cinnamon powder",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Soy Sauce",
+    "Fresh Pasta Strands",
+    "Side dish"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "xuong ga",
+    "hanh tim",
+    "gung",
+    "cu xa ken",
+    "dau hanh la",
+    "bot sa cuong",
+    "bot nem ga",
+    "sot ga",
+    "dau an",
+    "bot danh danh",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "nuoc tuong",
+    "vat mi tuoi",
+    "do an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish1366",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1366.json",
+  "name_vi": "Bánh pizza bằng khoai tây",
+  "name_en": "",
+  "name_normalized": "banh pizza bang khoai tay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Thịt nguội",
+    "Phô mai mozzarella bào"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Sốt cà chua",
+    "Bột Parsley"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre03222",
+    "ingre06451",
+    "ingre05947",
+    "ingre00877",
+    "ingre05094"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Khoai tây",
+    "Thịt nguội",
+    "Sốt cà chua",
+    "Bột Parsley",
+    "Phô mai mozzarella bào"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Potato",
+    "Smoked Meat",
+    "Tomato sauce",
+    "Parsley powder",
+    "Mozzarella cheese grated"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "khoai tay",
+    "thit nguoi",
+    "sot ca chua",
+    "bot parsley",
+    "pho mai mozzarella bao"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

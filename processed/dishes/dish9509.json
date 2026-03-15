@@ -1,0 +1,92 @@
+{
+  "id": "dish9509",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9509.json",
+  "name_vi": "Cháo thịt viên chay",
+  "name_en": "",
+  "name_normalized": "chao thit vien chay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Gạo",
+    "Nấm rơm",
+    "Tàu hũ ky"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ trắng",
+    "Giá đỗ/ hành lá"
+  ],
+  "seasonings": [
+    "Hạt nêm chay",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre04953",
+    "ingre06874",
+    "ingre07755",
+    "ingre02338",
+    "ingre02997",
+    "ingre04697",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Nấm rơm",
+    "Tàu hũ ky",
+    "Đậu hũ trắng",
+    "Giá đỗ/ hành lá",
+    "Hạt nêm chay",
+    "Nước mắm chay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Strawberry mushroom",
+    "Tofu Ky",
+    "Tofu",
+    "Bean sprouts/Thai basil",
+    "Vegetarian Seasoning",
+    "Vegetarian fish sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "nam rom",
+    "tau hu ky",
+    "dau hu trang",
+    "gia do hanh la",
+    "hat nem chay",
+    "nuoc mam chay",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gia do/ hanh la",
+      "new": "gia do hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Giá đỗ/ hành lá"
+    }
+  ]
+}

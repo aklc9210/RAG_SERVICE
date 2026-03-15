@@ -1,0 +1,25 @@
+{
+  "id": "ingre02723",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02723.json",
+  "name_vi": "hành lá/ớt đỏ",
+  "name_en": "Green onion/red chili",
+  "name_normalized": "hanh la ot do",
+  "synonyms": [
+    "ớt chuông đỏ"
+  ],
+  "synonyms_normalized": [
+    "ot chuong do"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ot do",
+      "new": "hanh la ot do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish6367",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6367.json",
+  "name_vi": "Đuông dừa ngâm nước mắm",
+  "name_en": "",
+  "name_normalized": "duong dua ngam nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Lá dứa",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đuông dừa",
+    "Nước mắm/ đường",
+    "Tỏi/ ớt/ ngò gai/ tắc"
+  ],
+  "ingredient_ids": [
+    "ingre07503",
+    "ingre04715",
+    "ingre03417",
+    "ingre07126",
+    "ingre06144"
+  ],
+  "ingredient_names_vi": [
+    "Đuông dừa",
+    "Nước mắm/ đường",
+    "Lá dứa",
+    "Tỏi/ ớt/ ngò gai/ tắc",
+    "Sữa tươi"
+  ],
+  "ingredient_names_en": [
+    "Coconut fiber",
+    "Fish Sauce/Sugar",
+    "Pandan叶",
+    "Garlic/Capsicum/Dill/Citron",
+    "Fresh Milk"
+  ],
+  "ingredient_names_normalized": [
+    "duong dua",
+    "nuoc mam duong",
+    "la dua",
+    "toi ot ngo gai tac",
+    "sua tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc mam/ duong",
+      "new": "nuoc mam duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước mắm/ đường"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ ot/ ngo gai/ tac",
+      "new": "toi ot ngo gai tac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ ớt/ ngò gai/ tắc"
+    }
+  ]
+}

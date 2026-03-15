@@ -1,0 +1,134 @@
+{
+  "id": "dish5247",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5247.json",
+  "name_vi": "Ốc gạo xào sả ớt",
+  "name_en": "",
+  "name_normalized": "oc gao xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc gạo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Lá chanh",
+    "Ớt sa tế",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07942",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre02485",
+    "ingre03370",
+    "ingre05359",
+    "ingre08050",
+    "ingre04581",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ốc gạo",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Gừng",
+    "Lá chanh",
+    "Rau răm",
+    "Ớt sa tế",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice snail",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Ginger",
+    "Lime leaf",
+    "Vietnamese coriander",
+    "Bird's Eye Chili",
+    "Lime juice",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "oc gao",
+    "sa",
+    "toi",
+    "ot",
+    "hanh tim",
+    "gung",
+    "la chanh",
+    "rau ram",
+    "ot sa te",
+    "nuoc cot me",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

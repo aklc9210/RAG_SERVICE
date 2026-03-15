@@ -1,0 +1,126 @@
+{
+  "id": "dish5041",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5041.json",
+  "name_vi": "Chim cút xào lăn",
+  "name_en": "",
+  "name_normalized": "chim cut xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Chim cút",
+    "Măng tươi",
+    "Đậu đũa",
+    "Nước dừa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước tương",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01128",
+    "ingre04091",
+    "ingre07867",
+    "ingre04622",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre08026",
+    "ingre02124",
+    "ingre04694",
+    "ingre04790",
+    "ingre04672",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chim cút",
+    "Măng tươi",
+    "Đậu đũa",
+    "Nước dừa",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước tương",
+    "Nước màu",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Fresh bamboo shoots",
+    "Green beans",
+    "Coconut water",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Hot pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Food coloring",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chim cut",
+    "mang tuoi",
+    "dau dua",
+    "nuoc dua",
+    "gung",
+    "hanh tim",
+    "toi",
+    "sa",
+    "ot hiem",
+    "dau an",
+    "nuoc mam",
+    "nuoc tuong",
+    "nuoc mau",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

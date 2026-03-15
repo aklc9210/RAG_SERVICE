@@ -1,0 +1,67 @@
+{
+  "id": "dish6990",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6990.json",
+  "name_vi": "Cơm gà chiên xối mỡ không cần chiên cơm",
+  "name_en": "",
+  "name_normalized": "com ga chien xoi mo khong can chien com",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Gạo"
+  ],
+  "secondary_ingredients": [
+    "Đùi gà",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Bột nghệ",
+    "Muối/ Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre07551",
+    "ingre02741",
+    "ingre02124",
+    "ingre00804",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Đùi gà",
+    "Hành tây",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Muối/ Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Chicken thigh",
+    "Onion",
+    "Cooking oil",
+    "Turmeric Powder",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "dui ga",
+    "hanh tay",
+    "dau an",
+    "bot nghe",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Hạt nêm"
+    }
+  ]
+}

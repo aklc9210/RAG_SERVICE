@@ -1,0 +1,131 @@
+{
+  "id": "dish4714",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4714.json",
+  "name_vi": "Ốc xào lăn lá cách",
+  "name_en": "",
+  "name_normalized": "oc xao lan la cach",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ốc lác",
+    "Lá cách",
+    "Bún tàu",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả cây",
+    "Hành lá/Ngò gai/rau om",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Ớt sừng",
+    "Tỏi băm/Hành băm",
+    "Sả băm",
+    "Bột cà ri",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06542",
+    "ingre03404",
+    "ingre04554",
+    "ingre00355",
+    "ingre04930",
+    "ingre02741",
+    "ingre08055",
+    "ingre05902",
+    "ingre02718",
+    "ingre07077",
+    "ingre05905",
+    "ingre07791",
+    "ingre00631",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ốc lác",
+    "Lá cách",
+    "Nước cốt dừa",
+    "Bún tàu",
+    "Nấm mèo",
+    "Hành tây",
+    "Ớt sừng",
+    "Sả cây",
+    "Hành lá/Ngò gai/rau om",
+    "Tỏi băm/Hành băm",
+    "Sả băm",
+    "Đậu phộng rang",
+    "Bột cà ri",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Snail meat",
+    "Lemon balm",
+    "Coconut milk",
+    "Noodle",
+    "Mushroom",
+    "Onion",
+    "Hot pepper",
+    "Lemongrass",
+    "Parsley",
+    "Chopped Garlic/Chopped Onion",
+    "Garlic Paste",
+    "Roasted Peanut",
+    "Curry powder",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit oc lac",
+    "la cach",
+    "nuoc cot dua",
+    "bun tau",
+    "nam meo",
+    "hanh tay",
+    "ot sung",
+    "sa cay",
+    "hanh la ngo gai rau om",
+    "toi bam hanh bam",
+    "sa bam",
+    "dau phong rang",
+    "bot ca ri",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ngo gai/rau om",
+      "new": "hanh la ngo gai rau om",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/Ngò gai/rau om"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi bam/hanh bam",
+      "new": "toi bam hanh bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi băm/Hành băm"
+    }
+  ]
+}

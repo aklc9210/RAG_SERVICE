@@ -1,0 +1,102 @@
+{
+  "id": "dish8269",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8269.json",
+  "name_vi": "Chân gà trộn sa tế chua ngọt",
+  "name_en": "",
+  "name_normalized": "chan ga tron sa te chua ngot",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chân gà",
+    "Tôm khô",
+    "Cóc non"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng cắt lát",
+    "Hành tím băm nhuyễn",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre06941",
+    "ingre01711",
+    "ingre07966",
+    "ingre07057",
+    "ingre05900",
+    "ingre02497",
+    "ingre02775",
+    "ingre05626",
+    "ingre02124",
+    "ingre04694",
+    "ingre07628",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Tôm khô",
+    "Cóc non",
+    "Ớt",
+    "Tắc",
+    "Sả",
+    "Gừng cắt lát",
+    "Hành tím băm nhuyễn",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Dried Shrimp",
+    "Frogspawn",
+    "Pepper",
+    "Tamarind",
+    "Lemongrass",
+    "Ginger Slices",
+    "Chopped Scallion",
+    "Shrimp paste",
+    "Cooking oil",
+    "Fish Sauce",
+    "Brown Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "tom kho",
+    "coc non",
+    "ot",
+    "tac",
+    "sa",
+    "gung cat lat",
+    "hanh tim bam nhuyen",
+    "sa te tom",
+    "dau an",
+    "nuoc mam",
+    "duong nau",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

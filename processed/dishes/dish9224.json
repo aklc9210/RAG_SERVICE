@@ -1,0 +1,71 @@
+{
+  "id": "dish9224",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9224.json",
+  "name_vi": "Nước chấm chanh tắc",
+  "name_en": "",
+  "name_normalized": "nuoc cham chanh tac",
+  "category": "an vat",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Tắc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Lá chanh",
+    "Bột canh",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06174",
+    "ingre07057",
+    "ingre07063",
+    "ingre08026",
+    "ingre03370",
+    "ingre00587",
+    "ingre07685"
+  ],
+  "ingredient_names_vi": [
+    "Sữa đặc",
+    "Tắc",
+    "Tỏi",
+    "Ớt hiểm",
+    "Lá chanh",
+    "Bột canh",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Tamarind",
+    "Garlic",
+    "Hot pepper",
+    "Lime leaf",
+    "Cornstarch",
+    "Cinnamon Powder"
+  ],
+  "ingredient_names_normalized": [
+    "sua dac",
+    "tac",
+    "toi",
+    "ot hiem",
+    "la chanh",
+    "bot canh",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu xay"
+    }
+  ]
+}

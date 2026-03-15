@@ -1,0 +1,102 @@
+{
+  "id": "dish10600",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10600.json",
+  "name_vi": "Gỏi cuốn mắm nêm",
+  "name_en": "",
+  "name_normalized": "goi cuon mam nem",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Thịt ba chỉ",
+    "Tôm bạc"
+  ],
+  "secondary_ingredients": [
+    "Bún tươi",
+    "Rau sống",
+    "Khóm nạo"
+  ],
+  "seasonings": [
+    "Mắm nêm hiệu Trung Vị",
+    "Đường cát",
+    "Tương ớt",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre06275",
+    "ingre06932",
+    "ingre04149",
+    "ingre00357",
+    "ingre05379",
+    "ingre07597",
+    "ingre03237",
+    "ingre07028",
+    "ingre07063",
+    "ingre07966",
+    "ingre04538",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Thịt ba chỉ",
+    "Tôm bạc",
+    "Mắm nêm hiệu Trung Vị",
+    "Bún tươi",
+    "Rau sống",
+    "Đường cát",
+    "Khóm nạo",
+    "Tương ớt",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Pork belly",
+    "Silver shrimp",
+    "Fish Sauce Medium Brand",
+    "Fresh noodle",
+    "Fresh herbs",
+    "Sugar",
+    "Tamarind",
+    "Hot Sauce",
+    "Garlic",
+    "Pepper",
+    "Lemon juice",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "thit ba chi",
+    "tom bac",
+    "mam nem hieu trung vi",
+    "bun tuoi",
+    "rau song",
+    "duong cat",
+    "khom nao",
+    "tuong ot",
+    "toi",
+    "ot",
+    "nuoc cot chanh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

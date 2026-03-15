@@ -1,0 +1,92 @@
+{
+  "id": "dish4874",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4874.json",
+  "name_vi": "Bắp cải cuộn thịt sốt cà chua",
+  "name_en": "",
+  "name_normalized": "bap cai cuon thit sot ca chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp cải",
+    "Thịt heo xay",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Lá hẹ"
+  ],
+  "seasonings": [
+    "Hành tím/ tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre06414",
+    "ingre01354",
+    "ingre02806",
+    "ingre03449",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Thịt heo xay",
+    "Cà chua",
+    "Hành tím/ tỏi",
+    "Lá hẹ",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Ground Pork",
+    "Tomato",
+    "Garlic/Scallion",
+    "Garlic Chives Leaves",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "thit heo xay",
+    "ca chua",
+    "hanh tim toi",
+    "la he",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ toi",
+      "new": "hanh tim toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ tỏi"
+    }
+  ]
+}

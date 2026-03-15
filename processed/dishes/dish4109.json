@@ -1,0 +1,92 @@
+{
+  "id": "dish4109",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4109.json",
+  "name_vi": "Thịt heo nướng sả",
+  "name_en": "",
+  "name_normalized": "thit heo nuong sa",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước màu",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi to",
+    "Hành khô",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre05900",
+    "ingre07103",
+    "ingre02667",
+    "ingre04694",
+    "ingre04672",
+    "ingre04124",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Sả",
+    "Tỏi to",
+    "Hành khô",
+    "Nước mắm",
+    "Nước màu",
+    "Mật ong",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Garlic",
+    "Garlic Powder",
+    "Fish Sauce",
+    "Food coloring",
+    "Honey",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "sa",
+    "toi to",
+    "hanh kho",
+    "nuoc mam",
+    "nuoc mau",
+    "mat ong",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

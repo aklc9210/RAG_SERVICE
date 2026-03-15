@@ -1,0 +1,86 @@
+{
+  "id": "dish6611",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6611.json",
+  "name_vi": "Cá hồi áp chảo sốt bơ chanh",
+  "name_en": "",
+  "name_normalized": "ca hoi ap chao sot bo chanh",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hồi tươi phi lê"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bơ thực vật",
+    "Nước tương",
+    "Chanh",
+    "Đường",
+    "Bột bắp",
+    "Tiêu",
+    "Muối: 1/2 muỗng cà phê",
+    "Gừng",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre01531",
+    "ingre00407",
+    "ingre04790",
+    "ingre01079",
+    "ingre07583",
+    "ingre00564",
+    "ingre06612",
+    "ingre03832",
+    "ingre02485",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi tươi phi lê",
+    "Bơ thực vật",
+    "Nước tương",
+    "Chanh",
+    "Đường",
+    "Bột bắp",
+    "Tiêu",
+    "Muối: 1/2 muỗng cà phê",
+    "Gừng",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Vegetable oil",
+    "Soy Sauce",
+    "Lemon",
+    "Sugar",
+    "Corn starch",
+    "Pepper",
+    "Salt: 1/2 teaspoon",
+    "Ginger",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi tuoi phi le",
+    "bo thuc vat",
+    "nuoc tuong",
+    "chanh",
+    "duong",
+    "bot bap",
+    "tieu",
+    "muoi 1 2 muong ca phe",
+    "gung",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi: 1/2 muong ca phe",
+      "new": "muoi 1 2 muong ca phe",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối: 1/2 muỗng cà phê"
+    }
+  ]
+}

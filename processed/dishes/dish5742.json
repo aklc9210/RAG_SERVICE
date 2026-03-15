@@ -1,0 +1,111 @@
+{
+  "id": "dish5742",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5742.json",
+  "name_vi": "Cá diếc kho tộ",
+  "name_en": "",
+  "name_normalized": "ca diec kho to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá diếc",
+    "Thịt ba chỉ",
+    "Củ riềng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Màu dầu điều",
+    "Nước hàng"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Nước mắm",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01516",
+    "ingre06275",
+    "ingre01913",
+    "ingre02768",
+    "ingre07966",
+    "ingre02485",
+    "ingre04694",
+    "ingre03849",
+    "ingre04636",
+    "ingre04790",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá diếc",
+    "Thịt ba chỉ",
+    "Củ riềng",
+    "Hành tím",
+    "Ớt",
+    "Gừng",
+    "Nước mắm",
+    "Màu dầu điều",
+    "Nước hàng",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Pork belly",
+    "Galangal",
+    "Shallot",
+    "Pepper",
+    "Ginger",
+    "Fish Sauce",
+    "Peanut oil color",
+    "Soy Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca diec",
+    "thit ba chi",
+    "cu rieng",
+    "hanh tim",
+    "ot",
+    "gung",
+    "nuoc mam",
+    "mau dau dieu",
+    "nuoc hang",
+    "nuoc tuong",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

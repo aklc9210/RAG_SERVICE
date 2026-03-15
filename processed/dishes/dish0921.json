@@ -1,0 +1,66 @@
+{
+  "id": "dish0921",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0921.json",
+  "name_vi": "French toast - bánh mì nướng kiểu Pháp bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "french toast banh mi nuong kieu phap bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh mì sandwich"
+  ],
+  "secondary_ingredients": [
+    "Tinh chất vani",
+    "Món ăn kèm"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bột quế"
+  ],
+  "ingredient_ids": [
+    "ingre00117",
+    "ingre06823",
+    "ingre06147",
+    "ingre06592",
+    "ingre00888",
+    "ingre04041"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì sandwich",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Tinh chất vani",
+    "Bột quế",
+    "Món ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Sandwich bread",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Vanilla extract",
+    "Cinnamon粉",
+    "Side dish"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi sandwich",
+    "trung ga",
+    "sua tuoi khong duong",
+    "tinh chat vani",
+    "bot que",
+    "mon an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "french toast - banh mi nuong kieu phap bang noi chien khong dau",
+      "new": "french toast banh mi nuong kieu phap bang noi chien khong dau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

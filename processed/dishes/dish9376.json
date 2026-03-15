@@ -1,0 +1,101 @@
+{
+  "id": "dish9376",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9376.json",
+  "name_vi": "Tai heo ngâm rau tiến vua",
+  "name_en": "",
+  "name_normalized": "tai heo ngam rau tien vua",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Tai heo",
+    "Rau tiến vua khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Giấm",
+    "Muối/ đường",
+    "Chanh",
+    "Ớt sừng",
+    "Gừng tươi"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre05400",
+    "ingre01419",
+    "ingre07063",
+    "ingre02355",
+    "ingre03818",
+    "ingre02768",
+    "ingre02741",
+    "ingre01079",
+    "ingre08055",
+    "ingre02518"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Rau tiến vua khô",
+    "Cà rốt",
+    "Tỏi",
+    "Giấm",
+    "Muối/ đường",
+    "Hành tím",
+    "Hành tây",
+    "Chanh",
+    "Ớt sừng",
+    "Gừng tươi"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Royal vegetable dried菜皇干菜",
+    "Carrot",
+    "Garlic",
+    "Vinegar",
+    "Salt/Sugar",
+    "Shallot",
+    "Onion",
+    "Lemon",
+    "Hot pepper",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "rau tien vua kho",
+    "ca rot",
+    "toi",
+    "giam",
+    "muoi duong",
+    "hanh tim",
+    "hanh tay",
+    "chanh",
+    "ot sung",
+    "gung tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

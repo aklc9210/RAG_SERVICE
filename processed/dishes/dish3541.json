@@ -1,0 +1,61 @@
+{
+  "id": "dish3541",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3541.json",
+  "name_vi": "Kem mãng cầu gai (mãng cầu xiêm)",
+  "name_en": "",
+  "name_normalized": "kem mang cau gai mang cau xiem",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Mãng cầu xiêm"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Nước sôi để nguội"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03924",
+    "ingre06147",
+    "ingre06174",
+    "ingre07583",
+    "ingre04745"
+  ],
+  "ingredient_names_vi": [
+    "Mãng cầu xiêm",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Đường",
+    "Nước sôi để nguội"
+  ],
+  "ingredient_names_en": [
+    "Dragonfruit",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Cool Boiled Water"
+  ],
+  "ingredient_names_normalized": [
+    "mang cau xiem",
+    "sua tuoi khong duong",
+    "sua dac",
+    "duong",
+    "nuoc soi de nguoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem mang cau gai (mang cau xiem)",
+      "new": "kem mang cau gai mang cau xiem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

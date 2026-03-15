@@ -1,0 +1,86 @@
+{
+  "id": "dish7605",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7605.json",
+  "name_vi": "Ốc lác hấp tiêu",
+  "name_en": "",
+  "name_normalized": "oc lac hap tieu",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ốc lác",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07480",
+    "ingre05651",
+    "ingre07912",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Ốc lác",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "oc lac",
+    "sa",
+    "ot",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dish5968",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5968.json",
+  "name_vi": "Cà ri cá viên",
+  "name_en": "",
+  "name_normalized": "ca ri ca vien",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Cá viên",
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre01648",
+    "ingre04554",
+    "ingre02741",
+    "ingre05900"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Cá viên",
+    "Nước cốt dừa",
+    "Hành tây",
+    "Sả"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Fish cakes",
+    "Coconut milk",
+    "Onion",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "ca vien",
+    "nuoc cot dua",
+    "hanh tay",
+    "sa"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

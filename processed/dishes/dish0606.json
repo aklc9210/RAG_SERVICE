@@ -1,0 +1,87 @@
+{
+  "id": "dish0606",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0606.json",
+  "name_vi": "Canh măng khô nấu xương",
+  "name_en": "",
+  "name_normalized": "canh mang kho nau xuong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương heo",
+    "Măng khô",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre04081",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Măng khô",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Dried bamboo shoots",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "mang kho",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

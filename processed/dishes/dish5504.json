@@ -1,0 +1,68 @@
+{
+  "id": "dish5504",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5504.json",
+  "name_vi": "Lòng heo xào dưa cải",
+  "name_en": "",
+  "name_normalized": "long heo xao dua cai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng heo"
+  ],
+  "secondary_ingredients": [
+    "Dưa cải",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Gia vị"
+  ],
+  "ingredient_ids": [
+    "ingre03572",
+    "ingre02005",
+    "ingre07966",
+    "ingre02673",
+    "ingre07063",
+    "ingre02276"
+  ],
+  "ingredient_names_vi": [
+    "Lòng heo",
+    "Dưa cải",
+    "Ớt",
+    "Hành lá",
+    "Tỏi",
+    "Gia vị"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Chinese cabbage",
+    "Pepper",
+    "Scallion",
+    "Garlic",
+    "Spice"
+  ],
+  "ingredient_names_normalized": [
+    "long heo",
+    "dua cai",
+    "ot",
+    "hanh la",
+    "toi",
+    "gia vi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

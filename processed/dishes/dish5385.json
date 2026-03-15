@@ -1,0 +1,83 @@
+{
+  "id": "dish5385",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5385.json",
+  "name_vi": "Lòng gà xào cải chua",
+  "name_en": "",
+  "name_normalized": "long ga xao cai chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng gà",
+    "Cải chua"
+  ],
+  "secondary_ingredients": [
+    "Rau mùi",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Gừng",
+    "Dầu ăn",
+    "Bột canh",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre03571",
+    "ingre01777",
+    "ingre07071",
+    "ingre02485",
+    "ingre05302",
+    "ingre02673",
+    "ingre02124",
+    "ingre00587",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Lòng gà",
+    "Cải chua",
+    "Tỏi băm",
+    "Gừng",
+    "Rau mùi",
+    "Hành lá",
+    "Dầu ăn",
+    "Bột canh",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Chicken liver",
+    "Pickled cabbage",
+    "Minced Garlic",
+    "Ginger",
+    "Mint",
+    "Scallion",
+    "Cooking oil",
+    "Cornstarch",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "long ga",
+    "cai chua",
+    "toi bam",
+    "gung",
+    "rau mui",
+    "hanh la",
+    "dau an",
+    "bot canh",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dish4440",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4440.json",
+  "name_vi": "Mực xào cay",
+  "name_en": "",
+  "name_normalized": "muc xao cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực",
+    "Hành tây",
+    "Nấm hương tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu mè",
+    "Hạt mè rang",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Cà rốt nhỏ",
+    "Ớt bột Hàn Quốc",
+    "Tương ớt Hàn Quốc",
+    "Xì dầu",
+    "Rượu nấu ăn",
+    "Tỏi băm",
+    "Gừng băm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre02741",
+    "ingre01432",
+    "ingre04916",
+    "ingre02673",
+    "ingre02094",
+    "ingre02973",
+    "ingre04124",
+    "ingre07983",
+    "ingre07036",
+    "ingre07381",
+    "ingre05552",
+    "ingre07071",
+    "ingre02492",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Hành tây",
+    "Cà rốt nhỏ",
+    "Nấm hương tươi",
+    "Hành lá",
+    "Dầu mè",
+    "Hạt mè rang",
+    "Mật ong",
+    "Ớt bột Hàn Quốc",
+    "Tương ớt Hàn Quốc",
+    "Xì dầu",
+    "Rượu nấu ăn",
+    "Tỏi băm",
+    "Gừng băm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Onion",
+    "Carrot",
+    "Fresh Shiitake Mushrooms",
+    "Scallion",
+    "Sesame oil",
+    "Roasted Sesame Seeds",
+    "Honey",
+    "Korean chili powder",
+    "Korean chili paste",
+    "Soy Sauce",
+    "Cooking wine",
+    "Minced Garlic",
+    "Ginger paste",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "hanh tay",
+    "ca rot nho",
+    "nam huong tuoi",
+    "hanh la",
+    "dau me",
+    "hat me rang",
+    "mat ong",
+    "ot bot han quoc",
+    "tuong ot han quoc",
+    "xi dau",
+    "ruou nau an",
+    "toi bam",
+    "gung bam",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

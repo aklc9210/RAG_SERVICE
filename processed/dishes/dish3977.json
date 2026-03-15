@@ -1,0 +1,105 @@
+{
+  "id": "dish3977",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3977.json",
+  "name_vi": "Vịt trời nướng",
+  "name_en": "",
+  "name_normalized": "vit troi nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt trời",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Sa tế",
+    "Tương cà",
+    "Ngũ vị hương",
+    "Dầu hào",
+    "Bột ngọt",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre07218",
+    "ingre05436",
+    "ingre08055",
+    "ingre05900",
+    "ingre02768",
+    "ingre07063",
+    "ingre05621",
+    "ingre06984",
+    "ingre04381",
+    "ingre02080",
+    "ingre00819",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Vịt trời",
+    "Riềng",
+    "Ớt sừng",
+    "Sả",
+    "Hành tím",
+    "Tỏi",
+    "Sa tế",
+    "Tương cà",
+    "Ngũ vị hương",
+    "Dầu hào",
+    "Bột ngọt",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Wild duck",
+    "Galangal",
+    "Hot pepper",
+    "Lemongrass",
+    "Shallot",
+    "Garlic",
+    "Fish sauce",
+    "Miso酱",
+    "Five-Spice Powder",
+    "Soy sauce",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "vit troi",
+    "rieng",
+    "ot sung",
+    "sa",
+    "hanh tim",
+    "toi",
+    "sa te",
+    "tuong ca",
+    "ngu vi huong",
+    "dau hao",
+    "bot ngot",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

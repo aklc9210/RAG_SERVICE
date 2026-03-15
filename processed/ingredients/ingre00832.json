@@ -1,0 +1,29 @@
+{
+  "id": "ingre00832",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00832.json",
+  "name_vi": "bột ngọt; hạt nêm; tiêu xay",
+  "name_en": "Soy Sauce; Seasoning Powder; Ground Pepper",
+  "name_normalized": "bot ngot hat nem tieu xay",
+  "synonyms": [
+    "mì chính",
+    "bột nêm",
+    "tiêu finely ground"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot nem",
+    "tieu finely ground"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot; hat nem; tieu xay",
+      "new": "bot ngot hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

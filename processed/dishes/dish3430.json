@@ -1,0 +1,122 @@
+{
+  "id": "dish3430",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3430.json",
+  "name_vi": "Hủ tiếu hoành thánh chay",
+  "name_en": "",
+  "name_normalized": "hu tieu hoanh thanh chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Hành boa rô",
+    "Củ cải trắng",
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Khoai lang",
+    "Cải thảo",
+    "Nấm hương tươi",
+    "Nấm hương khô",
+    "Đậu hũ trắng",
+    "Lê",
+    "Bắp mỹ",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Hủ tiếu khô",
+    "Cà rốt",
+    "Tiêu/ muối",
+    "Hạt nêm chay",
+    "Đường phèn",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03113",
+    "ingre02645",
+    "ingre01419",
+    "ingre01868",
+    "ingre03208",
+    "ingre03186",
+    "ingre01793",
+    "ingre04916",
+    "ingre04913",
+    "ingre07755",
+    "ingre03559",
+    "ingre00479",
+    "ingre05420",
+    "ingre06661",
+    "ingre02997",
+    "ingre07635",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Hủ tiếu khô",
+    "Hành boa rô",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Khoai môn",
+    "Khoai lang",
+    "Cải thảo",
+    "Nấm hương tươi",
+    "Nấm hương khô",
+    "Đậu hũ trắng",
+    "Lê",
+    "Bắp mỹ",
+    "Rau ăn kèm",
+    "Tiêu/ muối",
+    "Hạt nêm chay",
+    "Đường phèn",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Garlic",
+    "Carrot",
+    "White radish",
+    "Yam",
+    "Sweet Potato",
+    "Cabbage",
+    "Fresh Shiitake Mushrooms",
+    "Dried Shiitake Mushrooms",
+    "Tofu",
+    "Peach",
+    "Corn",
+    "Side vegetable",
+    "Salt/Pepper",
+    "Vegetarian Seasoning",
+    "Brown Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "hu tieu kho",
+    "hanh boa ro",
+    "ca rot",
+    "cu cai trang",
+    "khoai mon",
+    "khoai lang",
+    "cai thao",
+    "nam huong tuoi",
+    "nam huong kho",
+    "dau hu trang",
+    "le",
+    "bap my",
+    "rau an kem",
+    "tieu muoi",
+    "hat nem chay",
+    "duong phen",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ muoi",
+      "new": "tieu muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ muối"
+    }
+  ]
+}

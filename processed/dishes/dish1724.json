@@ -1,0 +1,121 @@
+{
+  "id": "dish1724",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1724.json",
+  "name_vi": "Bánh bí đỏ (Pumpkin pie)",
+  "name_en": "",
+  "name_normalized": "banh bi do pumpkin pie",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bí đỏ nghiền",
+    "Bơ lạt",
+    "Heavy cream"
+  ],
+  "secondary_ingredients": [
+    "Vỏ cam bào",
+    "Nước đá lạnh",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Đường cát",
+    "Bột thảo quả",
+    "Rượu rum đen",
+    "Bột quế",
+    "Bột nhục đậu khấu",
+    "Muối",
+    "Tiêu",
+    "Đường nâu",
+    "Bột gừng"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00258",
+    "ingre00382",
+    "ingre02558",
+    "ingre06823",
+    "ingre07597",
+    "ingre00949",
+    "ingre05561",
+    "ingre00888",
+    "ingre00837",
+    "ingre07247",
+    "ingre03746",
+    "ingre06612",
+    "ingre04855",
+    "ingre06144",
+    "ingre07628",
+    "ingre00678"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bí đỏ nghiền",
+    "Bơ lạt",
+    "Heavy cream",
+    "Trứng gà",
+    "Đường cát",
+    "Bột thảo quả",
+    "Rượu rum đen",
+    "Bột quế",
+    "Bột nhục đậu khấu",
+    "Vỏ cam bào",
+    "Muối",
+    "Tiêu",
+    "Nước đá lạnh",
+    "Sữa tươi",
+    "Đường nâu",
+    "Bột gừng"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Pumpkin puree",
+    "Butter",
+    "Heavy cream",
+    "Chicken egg",
+    "Sugar",
+    "Clove powder",
+    "Black Rum",
+    "Cinnamon粉",
+    "Cinnamon powder",
+    "Orange peel shredded",
+    "Salt",
+    "Pepper",
+    "Ice cubes",
+    "Fresh Milk",
+    "Brown Sugar",
+    "Ginger powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bi do nghien",
+    "bo lat",
+    "heavy cream",
+    "trung ga",
+    "duong cat",
+    "bot thao qua",
+    "ruou rum den",
+    "bot que",
+    "bot nhuc dau khau",
+    "vo cam bao",
+    "muoi",
+    "tieu",
+    "nuoc da lanh",
+    "sua tuoi",
+    "duong nau",
+    "bot gung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bi do (pumpkin pie)",
+      "new": "banh bi do pumpkin pie",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

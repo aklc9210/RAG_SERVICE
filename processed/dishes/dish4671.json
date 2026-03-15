@@ -1,0 +1,82 @@
+{
+  "id": "dish4671",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4671.json",
+  "name_vi": "Lòng vịt xào mướp hương",
+  "name_en": "",
+  "name_normalized": "long vit xao muop huong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng vịt",
+    "Mướp hương"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Chanh",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre03582",
+    "ingre04104",
+    "ingre07071",
+    "ingre01079",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Lòng vịt",
+    "Mướp hương",
+    "Tỏi băm",
+    "Chanh",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Duck liver",
+    "Luffa",
+    "Minced Garlic",
+    "Lemon",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Salt",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "long vit",
+    "muop huong",
+    "toi bam",
+    "chanh",
+    "dau an",
+    "duong",
+    "hat nem",
+    "muoi",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre04837",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04837.json",
+  "name_vi": "nước ép dưa hấu.",
+  "name_en": "Watermelon juice.",
+  "name_normalized": "nuoc ep dua hau",
+  "synonyms": [
+    "nước ép dứa",
+    "nước ép bí đao"
+  ],
+  "synonyms_normalized": [
+    "nuoc ep dua",
+    "nuoc ep bi dao"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc ep dua hau.",
+      "new": "nuoc ep dua hau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre04303",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04303.json",
+  "name_vi": "nghêu",
+  "name_en": "Clam",
+  "name_normalized": "ngheu",
+  "synonyms": [
+    "tôm hùm"
+  ],
+  "synonyms_normalized": [
+    "tom hum"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

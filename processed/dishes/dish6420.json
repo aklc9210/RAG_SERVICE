@@ -1,0 +1,91 @@
+{
+  "id": "dish6420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6420.json",
+  "name_vi": "Đậu hũ trứng cút sốt cà",
+  "name_en": "",
+  "name_normalized": "dau hu trung cut sot ca",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ chiên",
+    "Trứng cút",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07742",
+    "ingre06816",
+    "ingre01354",
+    "ingre04343",
+    "ingre05900",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ chiên",
+    "Trứng cút",
+    "Cà chua",
+    "Ngò rí",
+    "Sả",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Fried Tofu",
+    "Quail egg",
+    "Tomato",
+    "Parsley",
+    "Lemongrass",
+    "Soy Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu chien",
+    "trung cut",
+    "ca chua",
+    "ngo ri",
+    "sa",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "hat nem",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

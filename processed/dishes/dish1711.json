@@ -1,0 +1,82 @@
+{
+  "id": "dish1711",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1711.json",
+  "name_vi": "Bánh cornbread",
+  "name_en": "",
+  "name_normalized": "banh cornbread",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Buttermilk",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bắp khô",
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Dầu ăn",
+    "Trứng gà",
+    "Đường nâu",
+    "Tiêu xay/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00567",
+    "ingre00791",
+    "ingre00867",
+    "ingre00056",
+    "ingre00382",
+    "ingre02124",
+    "ingre06823",
+    "ingre07628",
+    "ingre06648"
+  ],
+  "ingredient_names_vi": [
+    "Bột bắp khô",
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Buttermilk",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Trứng gà",
+    "Đường nâu",
+    "Tiêu xay/ muối"
+  ],
+  "ingredient_names_en": [
+    "Corn flour",
+    "All-purpose flour",
+    "Baking powder",
+    "Buttermilk",
+    "Butter",
+    "Cooking oil",
+    "Chicken egg",
+    "Brown Sugar",
+    "Ground pepper/salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot bap kho",
+    "bot mi da dung",
+    "bot no",
+    "buttermilk",
+    "bo lat",
+    "dau an",
+    "trung ga",
+    "duong nau",
+    "tieu xay muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ muoi",
+      "new": "tieu xay muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ muối"
+    }
+  ]
+}

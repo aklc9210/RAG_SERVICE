@@ -1,0 +1,98 @@
+{
+  "id": "dish5505",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5505.json",
+  "name_vi": "Cánh gà xào ớt xiêm",
+  "name_en": "",
+  "name_normalized": "canh ga xao ot xiem",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cánh gà",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Ớt xiêm rừng",
+    "Cà rốt",
+    "Giấm",
+    "Muối",
+    "Bột nghệ",
+    "Hạt nêm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre08091",
+    "ingre02673",
+    "ingre04930",
+    "ingre01419",
+    "ingre04665",
+    "ingre02355",
+    "ingre03746",
+    "ingre00804",
+    "ingre02995",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Ớt xiêm rừng",
+    "Hành lá",
+    "Nấm mèo",
+    "Cà rốt",
+    "Nước lọc",
+    "Giấm",
+    "Muối",
+    "Bột nghệ",
+    "Hạt nêm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Jungle chili",
+    "Scallion",
+    "Mushroom",
+    "Carrot",
+    "Tap water",
+    "Vinegar",
+    "Salt",
+    "Turmeric Powder",
+    "Seasoning",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "ot xiem rung",
+    "hanh la",
+    "nam meo",
+    "ca rot",
+    "nuoc loc",
+    "giam",
+    "muoi",
+    "bot nghe",
+    "hat nem",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

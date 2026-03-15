@@ -1,0 +1,93 @@
+{
+  "id": "dish0300",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0300.json",
+  "name_vi": "Bánh canh khoai mỡ chay",
+  "name_en": "",
+  "name_normalized": "banh canh khoai mo chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai mỡ",
+    "Nấm đông cô khô"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Nước cốt dừa",
+    "Đường",
+    "Hạt nêm chay",
+    "Tiêu xay",
+    "Nước mắm chay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03219",
+    "ingre00849",
+    "ingre04969",
+    "ingre07740",
+    "ingre04554",
+    "ingre07583",
+    "ingre02997",
+    "ingre06644",
+    "ingre02673",
+    "ingre04697",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Khoai mỡ",
+    "Bột năng",
+    "Nấm đông cô khô",
+    "Đậu hũ",
+    "Nước cốt dừa",
+    "Đường",
+    "Hạt nêm chay",
+    "Tiêu xay",
+    "Hành lá",
+    "Nước mắm chay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Cornstarch",
+    "Dried shiitake mushrooms",
+    "Tofu",
+    "Coconut milk",
+    "Sugar",
+    "Vegetarian Seasoning",
+    "Ground pepper",
+    "Scallion",
+    "Vegetarian fish sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mo",
+    "bot nang",
+    "nam dong co kho",
+    "dau hu",
+    "nuoc cot dua",
+    "duong",
+    "hat nem chay",
+    "tieu xay",
+    "hanh la",
+    "nuoc mam chay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

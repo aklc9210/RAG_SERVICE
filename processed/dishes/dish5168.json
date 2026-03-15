@@ -1,0 +1,80 @@
+{
+  "id": "dish5168",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5168.json",
+  "name_vi": "Bông cải xào dầu hào",
+  "name_en": "",
+  "name_normalized": "bong cai xao dau hao",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bông cải trắng",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Nước tương",
+    "Dầu hào",
+    "Tương cà",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00281",
+    "ingre00282",
+    "ingre01419",
+    "ingre02645",
+    "ingre02124",
+    "ingre04790",
+    "ingre02080",
+    "ingre06984",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Bông cải trắng",
+    "Bông cải xanh",
+    "Cà rốt",
+    "Hành boa rô",
+    "Dầu ăn",
+    "Nước tương",
+    "Dầu hào",
+    "Tương cà",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Carrot",
+    "Garlic",
+    "Cooking oil",
+    "Soy Sauce",
+    "Miso酱",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bong cai trang",
+    "bong cai xanh",
+    "ca rot",
+    "hanh boa ro",
+    "dau an",
+    "nuoc tuong",
+    "dau hao",
+    "tuong ca",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

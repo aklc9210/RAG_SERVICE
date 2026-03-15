@@ -1,0 +1,88 @@
+{
+  "id": "dish8148",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8148.json",
+  "name_vi": "Cobb salad",
+  "name_en": "",
+  "name_normalized": "cobb salad",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Thịt ức gà"
+  ],
+  "secondary_ingredients": [
+    "Xà lách Romaine",
+    "Bơ sáp",
+    "Cà chua",
+    "Hành tím",
+    "Dầu Oliu"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Mù tạt Dijon",
+    "Giấm táo"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre06544",
+    "ingre06823",
+    "ingre07366",
+    "ingre00403",
+    "ingre01354",
+    "ingre02768",
+    "ingre02104",
+    "ingre04051",
+    "ingre02372"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Thịt ức gà",
+    "Trứng gà",
+    "Xà lách Romaine",
+    "Bơ sáp",
+    "Cà chua",
+    "Hành tím",
+    "Dầu Oliu",
+    "Mù tạt Dijon",
+    "Giấm táo"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Chicken breast",
+    "Chicken egg",
+    "Romaine Lettuce",
+    "Coconut oil",
+    "Tomato",
+    "Shallot",
+    "Olive oil",
+    "Dijon mustard",
+    "Apple vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "thit uc ga",
+    "trung ga",
+    "xa lach romaine",
+    "bo sap",
+    "ca chua",
+    "hanh tim",
+    "dau oliu",
+    "mu tat dijon",
+    "giam tao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

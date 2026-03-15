@@ -1,0 +1,124 @@
+{
+  "id": "dish2931",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2931.json",
+  "name_vi": "Bánh vỏ sò madeleine",
+  "name_en": "",
+  "name_normalized": "banh vo so madeleine",
+  "category": "mon banh",
+  "main_ingredients": [
+    "G Trứng nguyên"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Bơ lạt",
+    "Whipping Cream - đun nóng 60 độ",
+    "Cái trứn gà"
+  ],
+  "seasonings": [
+    "Đường",
+    "Muối",
+    "Hương vani",
+    "Bột mì Cake Flour hoặc bột mì số 8",
+    "Bột hạnh nhân",
+    "Baking Power - bột nở",
+    "Nước cốt chanh",
+    "Sữa tươi không đường - đun nóng 60 độ",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre02234",
+    "ingre07583",
+    "ingre03746",
+    "ingre02886",
+    "ingre00763",
+    "ingre04124",
+    "ingre00691",
+    "ingre00382",
+    "ingre00017",
+    "ingre04538",
+    "ingre07316",
+    "ingre06150",
+    "ingre01685",
+    "ingre00564"
+  ],
+  "ingredient_names_vi": [
+    "G Trứng nguyên",
+    "Đường",
+    "Muối",
+    "Hương vani",
+    "Bột mì Cake Flour hoặc bột mì số 8",
+    "Mật ong",
+    "Bột hạnh nhân",
+    "Bơ lạt",
+    "Baking Power - bột nở",
+    "Nước cốt chanh",
+    "Whipping Cream - đun nóng 60 độ",
+    "Sữa tươi không đường - đun nóng 60 độ",
+    "Cái trứn gà",
+    "Bột bắp"
+  ],
+  "ingredient_names_en": [
+    "Whole Egg",
+    "Sugar",
+    "Salt",
+    "Vanilla",
+    "Cake Flour",
+    "Honey",
+    "Almond flour",
+    "Butter",
+    "Baking Powder",
+    "Lemon juice",
+    "Whipping cream - heated to 60 degrees",
+    "Sweetened Warm Milk -> Unsweetened Warm Milk",
+    "Chicken truffle",
+    "Corn starch"
+  ],
+  "ingredient_names_normalized": [
+    "g trung nguyen",
+    "duong",
+    "muoi",
+    "huong vani",
+    "bot mi cake flour hoac bot mi so 8",
+    "mat ong",
+    "bot hanh nhan",
+    "bo lat",
+    "baking power bot no",
+    "nuoc cot chanh",
+    "whipping cream dun nong 60 do",
+    "sua tuoi khong duong dun nong 60 do",
+    "cai trun ga",
+    "bot bap"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking power - bot no",
+      "new": "baking power bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking Power - bột nở"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "whipping cream - dun nong 60 do",
+      "new": "whipping cream dun nong 60 do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Whipping Cream - đun nóng 60 độ"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua tuoi khong duong - dun nong 60 do",
+      "new": "sua tuoi khong duong dun nong 60 do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa tươi không đường - đun nóng 60 độ"
+    }
+  ]
+}

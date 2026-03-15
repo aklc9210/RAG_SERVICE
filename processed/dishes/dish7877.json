@@ -1,0 +1,105 @@
+{
+  "id": "dish7877",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7877.json",
+  "name_vi": "Lẩu bò nướng hầm sả",
+  "name_en": "",
+  "name_normalized": "lau bo nuong ham sa",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Chân bò",
+    "Cải trắng",
+    "Hành tây",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Ớt xiêm",
+    "Chanh",
+    "Đường phèn",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01227",
+    "ingre01796",
+    "ingre02741",
+    "ingre05900",
+    "ingre02485",
+    "ingre08055",
+    "ingre08026",
+    "ingre08090",
+    "ingre01079",
+    "ingre07635",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chân bò",
+    "Cải trắng",
+    "Hành tây",
+    "Sả",
+    "Gừng",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Ớt xiêm",
+    "Chanh",
+    "Đường phèn",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Cabbage",
+    "Onion",
+    "Lemongrass",
+    "Ginger",
+    "Hot pepper",
+    "Chili pepper",
+    "Lemon",
+    "Brown Sugar",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "chan bo",
+    "cai trang",
+    "hanh tay",
+    "sa",
+    "gung",
+    "ot sung",
+    "ot hiem",
+    "ot xiem",
+    "chanh",
+    "duong phen",
+    "muoi",
+    "duong",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

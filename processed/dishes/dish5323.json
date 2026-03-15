@@ -1,0 +1,75 @@
+{
+  "id": "dish5323",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5323.json",
+  "name_vi": "Thịt bò xào nấm đùi gà",
+  "name_en": "",
+  "name_normalized": "thit bo xao nam dui ga",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Nấm đùi gà",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre04974",
+    "ingre07063",
+    "ingre02124",
+    "ingre02702",
+    "ingre00829"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Nấm đùi gà",
+    "Tỏi",
+    "Dầu ăn",
+    "Hành lá/ ngò rí",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Chicken mushroom",
+    "Garlic",
+    "Cooking oil",
+    "Chives",
+    "Monkfish Powder/Cracked Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "nam dui ga",
+    "toi",
+    "dau an",
+    "hanh la ngo ri",
+    "bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu xay",
+      "new": "bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu xay"
+    }
+  ]
+}

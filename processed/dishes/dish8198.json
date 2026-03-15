@@ -1,0 +1,82 @@
+{
+  "id": "dish8198",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8198.json",
+  "name_vi": "Gỏi bạch tuộc chua cay",
+  "name_en": "",
+  "name_normalized": "goi bach tuoc chua cay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Gừng",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre05900",
+    "ingre08055",
+    "ingre07063",
+    "ingre02485",
+    "ingre04343",
+    "ingre04538",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Sả",
+    "Ớt sừng",
+    "Tỏi",
+    "Gừng",
+    "Ngò rí",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic",
+    "Ginger",
+    "Parsley",
+    "Lemon juice",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "sa",
+    "ot sung",
+    "toi",
+    "gung",
+    "ngo ri",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

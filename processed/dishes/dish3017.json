@@ -1,0 +1,78 @@
+{
+  "id": "dish3017",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3017.json",
+  "name_vi": "Bánh mì ngọt",
+  "name_en": "",
+  "name_normalized": "banh mi ngot",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Nho khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Bột mì",
+    "Trứng gà",
+    "Sữa bột",
+    "Sữa tươi không đường",
+    "Men nở",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00723",
+    "ingre00759",
+    "ingre06823",
+    "ingre06083",
+    "ingre00367",
+    "ingre06147",
+    "ingre04398",
+    "ingre03686",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh mì",
+    "Bột mì",
+    "Trứng gà",
+    "Sữa bột",
+    "Bơ",
+    "Sữa tươi không đường",
+    "Nho khô",
+    "Men nở",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Bread Flour",
+    "Wheat Flour",
+    "Chicken egg",
+    "Milk Powder",
+    "Butter",
+    "Fat-free Milk",
+    "Dried grape",
+    "Baking Powder",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh mi",
+    "bot mi",
+    "trung ga",
+    "sua bot",
+    "bo",
+    "sua tuoi khong duong",
+    "nho kho",
+    "men no",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

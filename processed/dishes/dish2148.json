@@ -1,0 +1,76 @@
+{
+  "id": "dish2148",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2148.json",
+  "name_vi": "Bánh crepe ngàn lớp cơ bản - Mille crepe cake",
+  "name_en": "",
+  "name_normalized": "banh crepe ngan lop co ban mille crepe cake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Heavy cream",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Bột làm bánh",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00716",
+    "ingre00382",
+    "ingre02558",
+    "ingre06147",
+    "ingre06823",
+    "ingre06592",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh",
+    "Bơ lạt",
+    "Heavy cream",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Tinh chất vani",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Baking powder",
+    "Butter",
+    "Heavy cream",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Vanilla extract",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh",
+    "bo lat",
+    "heavy cream",
+    "sua tuoi khong duong",
+    "trung ga",
+    "tinh chat vani",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh crepe ngan lop co ban - mille crepe cake",
+      "new": "banh crepe ngan lop co ban mille crepe cake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

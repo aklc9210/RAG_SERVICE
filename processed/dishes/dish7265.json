@@ -1,0 +1,98 @@
+{
+  "id": "dish7265",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7265.json",
+  "name_vi": "Cơm cá rô",
+  "name_en": "",
+  "name_normalized": "com ca ro",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá rô",
+    "Gạo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau thì là"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối hạt",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01608",
+    "ingre02436",
+    "ingre02485",
+    "ingre02768",
+    "ingre05383",
+    "ingre02730",
+    "ingre02124",
+    "ingre04694",
+    "ingre03760",
+    "ingre02995",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô",
+    "Gạo",
+    "Gừng",
+    "Hành tím",
+    "Rau thì là",
+    "Hành phi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối hạt",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Roach",
+    "Rice",
+    "Ginger",
+    "Shallot",
+    "Basil",
+    "Garlic Fried",
+    "Cooking oil",
+    "Fish Sauce",
+    "Fenugreek seeds",
+    "Seasoning",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro",
+    "gao",
+    "gung",
+    "hanh tim",
+    "rau thi la",
+    "hanh phi",
+    "dau an",
+    "nuoc mam",
+    "muoi hat",
+    "hat nem",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

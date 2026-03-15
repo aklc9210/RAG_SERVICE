@@ -1,0 +1,101 @@
+{
+  "id": "dish5142",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5142.json",
+  "name_vi": "Tokbokki phô mai bằng bánh tráng - Điện máy XANH",
+  "name_en": "",
+  "name_normalized": "tokbokki pho mai bang banh trang dien may xanh",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Chả cá Hàn Quốc"
+  ],
+  "secondary_ingredients": [
+    "Hành Boa Rô",
+    "Hành tây",
+    "Trứng luộc",
+    "Rong biển",
+    "Hạt mè"
+  ],
+  "seasonings": [
+    "Tương ớt Hàn Quốc",
+    "Ớt bột",
+    "Rượu trắng",
+    "Đường bắp",
+    "Nước tương",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre01274",
+    "ingre07036",
+    "ingre07977",
+    "ingre02645",
+    "ingre02741",
+    "ingre06846",
+    "ingre05574",
+    "ingre07588",
+    "ingre05448",
+    "ingre02972",
+    "ingre04790",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Chả cá Hàn Quốc",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột",
+    "Hành Boa Rô",
+    "Hành tây",
+    "Trứng luộc",
+    "Rượu trắng",
+    "Đường bắp",
+    "Rong biển",
+    "Hạt mè",
+    "Nước tương",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Korean fish cake",
+    "Korean chili paste",
+    "Chili powder",
+    "Garlic",
+    "Onion",
+    "Boiled egg",
+    "White wine",
+    "Corn syrup",
+    "Kelp",
+    "Sesame Seeds",
+    "Soy Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "cha ca han quoc",
+    "tuong ot han quoc",
+    "ot bot",
+    "hanh boa ro",
+    "hanh tay",
+    "trung luoc",
+    "ruou trang",
+    "duong bap",
+    "rong bien",
+    "hat me",
+    "nuoc tuong",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tokbokki pho mai bang banh trang - dien may xanh",
+      "new": "tokbokki pho mai bang banh trang dien may xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

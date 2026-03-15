@@ -1,0 +1,57 @@
+{
+  "id": "dish5817",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5817.json",
+  "name_vi": "Cá diếc kho tương bần",
+  "name_en": "",
+  "name_normalized": "ca diec kho tuong ban",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá diếc"
+  ],
+  "secondary_ingredients": [
+    "Chuối xanh"
+  ],
+  "seasonings": [
+    "Tương bần",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01516",
+    "ingre01191",
+    "ingre06981",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá diếc",
+    "Chuối xanh",
+    "Tương bần",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Green banana",
+    "Fish sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca diec",
+    "chuoi xanh",
+    "tuong ban",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

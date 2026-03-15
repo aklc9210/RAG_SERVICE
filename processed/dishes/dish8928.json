@@ -1,0 +1,121 @@
+{
+  "id": "dish8928",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8928.json",
+  "name_vi": "Tai heo cuốn bánh tráng",
+  "name_en": "",
+  "name_normalized": "tai heo cuon banh trang",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Tai heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dưa leo",
+    "Thơm",
+    "Rau ăn kèm",
+    "Ngò rí",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Cà rốt",
+    "Mắm nêm pha sẵn",
+    "Nước cốt chanh",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre06185",
+    "ingre05900",
+    "ingre02485",
+    "ingre02768",
+    "ingre02020",
+    "ingre06247",
+    "ingre01419",
+    "ingre05420",
+    "ingre04343",
+    "ingre00357",
+    "ingre04150",
+    "ingre04538",
+    "ingre02355",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Tai heo",
+    "Sả",
+    "Gừng",
+    "Hành tím",
+    "Dưa leo",
+    "Thơm",
+    "Cà rốt",
+    "Rau ăn kèm",
+    "Ngò rí",
+    "Bún tươi",
+    "Mắm nêm pha sẵn",
+    "Nước cốt chanh",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Pork ear",
+    "Lemongrass",
+    "Ginger",
+    "Shallot",
+    "Cucumber",
+    "Basil",
+    "Carrot",
+    "Side vegetable",
+    "Parsley",
+    "Fresh noodle",
+    "Fish sauce dressing",
+    "Lemon juice",
+    "Vinegar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "tai heo",
+    "sa",
+    "gung",
+    "hanh tim",
+    "dua leo",
+    "thom",
+    "ca rot",
+    "rau an kem",
+    "ngo ri",
+    "bun tuoi",
+    "mam nem pha san",
+    "nuoc cot chanh",
+    "giam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

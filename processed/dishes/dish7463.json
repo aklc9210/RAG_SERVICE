@@ -1,0 +1,98 @@
+{
+  "id": "dish7463",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7463.json",
+  "name_vi": "Chả giò tôm bắp",
+  "name_en": "",
+  "name_normalized": "cha gio tom bap",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bắp Mỹ",
+    "Tôm tươi",
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Hành tím",
+    "Bánh tráng pía"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00479",
+    "ingre06963",
+    "ingre06329",
+    "ingre01419",
+    "ingre04930",
+    "ingre02768",
+    "ingre00203",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bắp Mỹ",
+    "Tôm tươi",
+    "Thịt băm",
+    "Cà rốt",
+    "Nấm mèo",
+    "Hành tím",
+    "Bánh tráng pía",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Fresh shrimp",
+    "Minced meat",
+    "Carrot",
+    "Mushroom",
+    "Shallot",
+    "Spring roll wrapper",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bap my",
+    "tom tuoi",
+    "thit bam",
+    "ca rot",
+    "nam meo",
+    "hanh tim",
+    "banh trang pia",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dish8621",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8621.json",
+  "name_vi": "Gân bò hấp gừng sả",
+  "name_en": "",
+  "name_normalized": "gan bo hap gung sa",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Gân bò",
+    "Rau ăn kèm",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Ớt",
+    "Tỏi băm",
+    "Tiêu xanh",
+    "Sa tế ớt",
+    "Mắm nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre05420",
+    "ingre02741",
+    "ingre02673",
+    "ingre02485",
+    "ingre01079",
+    "ingre05900",
+    "ingre07966",
+    "ingre07071",
+    "ingre06640",
+    "ingre05630",
+    "ingre04148",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Rau ăn kèm",
+    "Hành tây",
+    "Hành lá",
+    "Gừng",
+    "Chanh",
+    "Sả",
+    "Ớt",
+    "Tỏi băm",
+    "Tiêu xanh",
+    "Sa tế ớt",
+    "Mắm nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Side vegetable",
+    "Onion",
+    "Scallion",
+    "Ginger",
+    "Lemon",
+    "Lemongrass",
+    "Pepper",
+    "Minced Garlic",
+    "Green pepper",
+    "Pickled Chili Pepper",
+    "Fish sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "rau an kem",
+    "hanh tay",
+    "hanh la",
+    "gung",
+    "chanh",
+    "sa",
+    "ot",
+    "toi bam",
+    "tieu xanh",
+    "sa te ot",
+    "mam nem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

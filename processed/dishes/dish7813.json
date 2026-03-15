@@ -1,0 +1,130 @@
+{
+  "id": "dish7813",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7813.json",
+  "name_vi": "Lẩu bò Mỹ",
+  "name_en": "",
+  "name_normalized": "lau bo my",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt bò",
+    "Tôm sú",
+    "Cà chua",
+    "Cà chua bi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu điều",
+    "Nấm ăn kèm",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Quế",
+    "Lá quế/ hoa hồi",
+    "Nước dùng bò",
+    "Nước sốt cà",
+    "Tương cà",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre06953",
+    "ingre01354",
+    "ingre01355",
+    "ingre07063",
+    "ingre02485",
+    "ingre02768",
+    "ingre05186",
+    "ingre03504",
+    "ingre04603",
+    "ingre04757",
+    "ingre06984",
+    "ingre02134",
+    "ingre04965",
+    "ingre05420",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Tôm sú",
+    "Cà chua",
+    "Cà chua bi",
+    "Tỏi",
+    "Gừng",
+    "Hành tím",
+    "Quế",
+    "Lá quế/ hoa hồi",
+    "Nước dùng bò",
+    "Nước sốt cà",
+    "Tương cà",
+    "Dầu điều",
+    "Nấm ăn kèm",
+    "Rau ăn kèm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Shrimp",
+    "Tomato",
+    "Garlic",
+    "Ginger",
+    "Shallot",
+    "Cinnamon",
+    "Rosemary/rosebud",
+    "Beef broth",
+    "Ketchup",
+    "Miso酱",
+    "Peanut oil",
+    "Accompanying mushrooms",
+    "Side vegetable",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "tom su",
+    "ca chua",
+    "ca chua bi",
+    "toi",
+    "gung",
+    "hanh tim",
+    "que",
+    "la que hoa hoi",
+    "nuoc dung bo",
+    "nuoc sot ca",
+    "tuong ca",
+    "dau dieu",
+    "nam an kem",
+    "rau an kem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la que/ hoa hoi",
+      "new": "la que hoa hoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá quế/ hoa hồi"
+    }
+  ]
+}

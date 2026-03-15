@@ -1,0 +1,58 @@
+{
+  "id": "dish1898",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1898.json",
+  "name_vi": "Bánh mì đặc ruột bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh mi dac ruot bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa tươi",
+    "Men nở instant",
+    "Bơ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre06144",
+    "ingre03687",
+    "ingre03746",
+    "ingre00367",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Sữa tươi",
+    "Men nở instant",
+    "Muối",
+    "Bơ",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Fresh Milk",
+    "Instant Yeast",
+    "Salt",
+    "Butter",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "sua tuoi",
+    "men no instant",
+    "muoi",
+    "bo",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

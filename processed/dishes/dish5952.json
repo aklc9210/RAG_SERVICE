@@ -1,0 +1,86 @@
+{
+  "id": "dish5952",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5952.json",
+  "name_vi": "Cá chim kho riềng",
+  "name_en": "",
+  "name_normalized": "ca chim kho rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chim trắng",
+    "Củ riềng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường trắng",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu."
+  ],
+  "ingredient_ids": [
+    "ingre01487",
+    "ingre01913",
+    "ingre02768",
+    "ingre04694",
+    "ingre07652",
+    "ingre02124",
+    "ingre03746",
+    "ingre06658"
+  ],
+  "ingredient_names_vi": [
+    "Cá chim trắng",
+    "Củ riềng",
+    "Hành tím",
+    "Nước mắm",
+    "Đường trắng",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu."
+  ],
+  "ingredient_names_en": [
+    "Whitebait",
+    "Galangal",
+    "Shallot",
+    "Fish Sauce",
+    "White sugar",
+    "Cooking oil",
+    "Salt",
+    "Pepper."
+  ],
+  "ingredient_names_normalized": [
+    "ca chim trang",
+    "cu rieng",
+    "hanh tim",
+    "nuoc mam",
+    "duong trang",
+    "dau an",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu.",
+      "new": "tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu."
+    }
+  ]
+}

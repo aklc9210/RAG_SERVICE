@@ -1,0 +1,103 @@
+{
+  "id": "dish3499",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3499.json",
+  "name_vi": "Chân giò rút xương hầm kiểu Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "chan gio rut xuong ham kieu han quoc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chân giò rút xương",
+    "Táo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Thảo quả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hoa hồi",
+    "Quế thanh",
+    "Nước tương",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01236",
+    "ingre06890",
+    "ingre02485",
+    "ingre02741",
+    "ingre02768",
+    "ingre06271",
+    "ingre02584",
+    "ingre05193",
+    "ingre04790",
+    "ingre04694",
+    "ingre06644",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò rút xương",
+    "Táo",
+    "Gừng",
+    "Hành tây",
+    "Hành tím",
+    "Thảo quả",
+    "Hoa hồi",
+    "Quế thanh",
+    "Nước tương",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork belly with bones removed",
+    "Apple",
+    "Ginger",
+    "Onion",
+    "Shallot",
+    "Star anise",
+    "Rose",
+    "Anise",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Ground pepper",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio rut xuong",
+    "tao",
+    "gung",
+    "hanh tay",
+    "hanh tim",
+    "thao qua",
+    "hoa hoi",
+    "que thanh",
+    "nuoc tuong",
+    "nuoc mam",
+    "tieu xay",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

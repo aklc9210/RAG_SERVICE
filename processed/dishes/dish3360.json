@@ -1,0 +1,102 @@
+{
+  "id": "dish3360",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3360.json",
+  "name_vi": "Nui nấu bò",
+  "name_en": "",
+  "name_normalized": "nui nau bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nui ống cộng ngắn",
+    "Ba chỉ bò",
+    "Nấm đông cô tươi"
+  ],
+  "secondary_ingredients": [
+    "Cải thảo",
+    "Bông cải xanh",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Gia vị lẩu kim chi",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04456",
+    "ingre00006",
+    "ingre04971",
+    "ingre01793",
+    "ingre00282",
+    "ingre04329",
+    "ingre07071",
+    "ingre02774",
+    "ingre05574",
+    "ingre02124",
+    "ingre02290",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Nui ống cộng ngắn",
+    "Ba chỉ bò",
+    "Nấm đông cô tươi",
+    "Cải thảo",
+    "Bông cải xanh",
+    "Ngò gai",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Gia vị lẩu kim chi",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Short bamboo shoots",
+    "Beef brisket",
+    "Fresh enoki mushrooms",
+    "Cabbage",
+    "Culantro",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "White wine",
+    "Cooking oil",
+    "Kimchi Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nui ong cong ngan",
+    "ba chi bo",
+    "nam dong co tuoi",
+    "cai thao",
+    "bong cai xanh",
+    "ngo gai",
+    "toi bam",
+    "hanh tim bam",
+    "ruou trang",
+    "dau an",
+    "gia vi lau kim chi",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish6812",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6812.json",
+  "name_vi": "Ba rọi chiên sả ớt bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ba roi chien sa ot bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre05900",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Sả",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "sa",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

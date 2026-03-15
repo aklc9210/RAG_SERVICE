@@ -1,0 +1,81 @@
+{
+  "id": "dish2414",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2414.json",
+  "name_vi": "Bánh Carpathian (Karpatka)",
+  "name_en": "",
+  "name_normalized": "banh carpathian karpatka",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Chiết suất vani",
+    "Đường cát trắng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre06823",
+    "ingre00564",
+    "ingre00382",
+    "ingre06147",
+    "ingre07313",
+    "ingre01131",
+    "ingre07601",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Bột bắp",
+    "Bơ lạt",
+    "Sữa tươi không đường",
+    "Whipping cream",
+    "Chiết suất vani",
+    "Đường cát trắng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Chicken egg",
+    "Corn starch",
+    "Butter",
+    "Fat-free Milk",
+    "Whipping cream",
+    "Vanilla extract",
+    "White Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "trung ga",
+    "bot bap",
+    "bo lat",
+    "sua tuoi khong duong",
+    "whipping cream",
+    "chiet suat vani",
+    "duong cat trang",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh carpathian (karpatka)",
+      "new": "banh carpathian karpatka",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish9507",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9507.json",
+  "name_vi": "Cà tím rim nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "ca tim rim nuoc cot dua",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Cà tím",
+    "Sả",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Ớt xanh",
+    "Ớt đỏ",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre05900",
+    "ingre04953",
+    "ingre04554",
+    "ingre08083",
+    "ingre08097",
+    "ingre02645",
+    "ingre05359",
+    "ingre02997",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Sả",
+    "Nấm rơm",
+    "Nước cốt dừa",
+    "Ớt xanh",
+    "Ớt đỏ",
+    "Hành boa rô",
+    "Rau răm",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Lemongrass",
+    "Strawberry mushroom",
+    "Coconut milk",
+    "Green Pepper",
+    "Red pepper",
+    "Garlic",
+    "Vietnamese coriander",
+    "Vegetarian Seasoning",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "sa",
+    "nam rom",
+    "nuoc cot dua",
+    "ot xanh",
+    "ot do",
+    "hanh boa ro",
+    "rau ram",
+    "hat nem chay",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

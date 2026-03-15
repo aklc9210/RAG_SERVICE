@@ -1,0 +1,101 @@
+{
+  "id": "dish7667",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7667.json",
+  "name_vi": "Cá lóc hấp nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "ca loc hap nuoc cot dua",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá lóc"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre00564",
+    "ingre04554",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre02673",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Hành lá",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Corn starch",
+    "Coconut milk",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "bot bap",
+    "nuoc cot dua",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "hanh la",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

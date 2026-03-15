@@ -1,0 +1,72 @@
+{
+  "id": "dish5635",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5635.json",
+  "name_vi": "Mực muối rim mặn ngọt",
+  "name_en": "",
+  "name_normalized": "muc muoi rim man ngot",
+  "category": "mon kho",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mực muối",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04270",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Mực muối",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Salted squid",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "muc muoi",
+    "toi",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07694",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07694.json",
+  "name_vi": "đường; bột ngọt; hạt nêm",
+  "name_en": "Sugar; MSG; Seasoning Powder",
+  "name_normalized": "duong bot ngot hat nem",
+  "synonyms": [
+    "bột ngọt",
+    "mì chính",
+    "hạt nêm"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "mi chinh",
+    "hat nem"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong; bot ngot; hat nem",
+      "new": "duong bot ngot hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

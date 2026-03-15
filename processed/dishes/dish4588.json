@@ -1,0 +1,98 @@
+{
+  "id": "dish4588",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4588.json",
+  "name_vi": "Mì Ý xào bò",
+  "name_en": "",
+  "name_normalized": "mi y xao bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì ý",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Su su",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Cà rốt",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04019",
+    "ingre06300",
+    "ingre01787",
+    "ingre01419",
+    "ingre05790",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre02080",
+    "ingre06644",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Mì ý",
+    "Thịt bò",
+    "Cải ngọt",
+    "Cà rốt",
+    "Su su",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Spaghetti",
+    "Beef",
+    "Sweet cabbage",
+    "Carrot",
+    "Bamboo shoot",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Soy sauce",
+    "Ground pepper",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mi y",
+    "thit bo",
+    "cai ngot",
+    "ca rot",
+    "su su",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "dau hao",
+    "tieu xay",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

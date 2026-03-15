@@ -1,0 +1,72 @@
+{
+  "id": "dish0761",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0761.json",
+  "name_vi": "Chân giò hầm đậu đỏ",
+  "name_en": "",
+  "name_normalized": "chan gio ham dau do",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đậu đỏ",
+    "Chân giò heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ngò cắt nhỏ"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07868",
+    "ingre01232",
+    "ingre02774",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre02716"
+  ],
+  "ingredient_names_vi": [
+    "Đậu đỏ",
+    "Chân giò heo",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Hành lá/ngò cắt nhỏ"
+  ],
+  "ingredient_names_en": [
+    "Red beans",
+    "Pork trotter",
+    "Chopped Scallion",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Chopped Parsley"
+  ],
+  "ingredient_names_normalized": [
+    "dau do",
+    "chan gio heo",
+    "hanh tim bam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "hanh la ngo cat nho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ngo cat nho",
+      "new": "hanh la ngo cat nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ngò cắt nhỏ"
+    }
+  ]
+}

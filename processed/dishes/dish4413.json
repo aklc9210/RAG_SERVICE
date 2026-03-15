@@ -1,0 +1,75 @@
+{
+  "id": "dish4413",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4413.json",
+  "name_vi": "Tảo xoắn xào sả ớt",
+  "name_en": "",
+  "name_normalized": "tao xoan xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tảo xoắn"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng",
+    "Lá chanh",
+    "Muối;hạt nêm;đường"
+  ],
+  "ingredient_ids": [
+    "ingre07051",
+    "ingre05900",
+    "ingre02485",
+    "ingre08055",
+    "ingre03370",
+    "ingre03836"
+  ],
+  "ingredient_names_vi": [
+    "Tảo xoắn",
+    "Sả",
+    "Gừng",
+    "Ớt sừng",
+    "Lá chanh",
+    "Muối;hạt nêm;đường"
+  ],
+  "ingredient_names_en": [
+    "螺旋藻",
+    "Lemongrass",
+    "Ginger",
+    "Hot pepper",
+    "Lime leaf",
+    "Salt;Soy Sauce;Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tao xoan",
+    "sa",
+    "gung",
+    "ot sung",
+    "la chanh",
+    "muoi hat nem duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi;hat nem;duong",
+      "new": "muoi hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối;hạt nêm;đường"
+    }
+  ]
+}

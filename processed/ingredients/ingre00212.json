@@ -1,0 +1,25 @@
+{
+  "id": "ingre00212",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00212.json",
+  "name_vi": "bánh tráng đông lạnh:",
+  "name_en": "Frozen rice paper",
+  "name_normalized": "banh trang dong lanh",
+  "synonyms": [
+    "bánh tráng凍结"
+  ],
+  "synonyms_normalized": [
+    "banh trang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh trang dong lanh:",
+      "new": "banh trang dong lanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

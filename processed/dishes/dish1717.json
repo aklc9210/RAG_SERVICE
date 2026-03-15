@@ -1,0 +1,124 @@
+{
+  "id": "dish1717",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1717.json",
+  "name_vi": "Bánh khoai tây thịt bò - La tourtiere",
+  "name_en": "",
+  "name_normalized": "banh khoai tay thit bo la tourtiere",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Cỏ xạ hương",
+    "Dầu ô liu",
+    "Hành tây",
+    "Cần tây",
+    "Thịt bò"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Bột đinh hương",
+    "Bột gừng",
+    "Bột quế",
+    "Bột mù tạt",
+    "Tỏi",
+    "Nước dùng bò",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00867",
+    "ingre00382",
+    "ingre03222",
+    "ingre01003",
+    "ingre00678",
+    "ingre00888",
+    "ingre00800",
+    "ingre01827",
+    "ingre02120",
+    "ingre02741",
+    "ingre01812",
+    "ingre07063",
+    "ingre06300",
+    "ingre04603",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Bơ lạt",
+    "Khoai tây",
+    "Bột đinh hương",
+    "Bột gừng",
+    "Bột quế",
+    "Bột mù tạt",
+    "Cỏ xạ hương",
+    "Dầu ô liu",
+    "Hành tây",
+    "Cần tây",
+    "Tỏi",
+    "Thịt bò",
+    "Nước dùng bò",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Baking powder",
+    "Butter",
+    "Potato",
+    "Basil粉",
+    "Ginger powder",
+    "Cinnamon粉",
+    "Mustard powder",
+    "Mugwort",
+    "Olive oil",
+    "Onion",
+    "Celery",
+    "Garlic",
+    "Beef",
+    "Beef broth",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot no",
+    "bo lat",
+    "khoai tay",
+    "bot dinh huong",
+    "bot gung",
+    "bot que",
+    "bot mu tat",
+    "co xa huong",
+    "dau o liu",
+    "hanh tay",
+    "can tay",
+    "toi",
+    "thit bo",
+    "nuoc dung bo",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh khoai tay thit bo - la tourtiere",
+      "new": "banh khoai tay thit bo la tourtiere",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

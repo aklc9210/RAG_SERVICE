@@ -1,0 +1,110 @@
+{
+  "id": "dish7585",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7585.json",
+  "name_vi": "Xôi thập cẩm chay gói lá sen",
+  "name_en": "",
+  "name_normalized": "xoi thap cam chay goi la sen",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Nấm mèo",
+    "Nấm đông cô"
+  ],
+  "secondary_ingredients": [
+    "Hạt sen",
+    "Đậu phộng",
+    "Hành tím",
+    "Lá sen"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Củ cải muối",
+    "Hạt nêm chay",
+    "Dầu hào chay",
+    "Dầu ăn",
+    "Đường/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre04930",
+    "ingre04966",
+    "ingre01419",
+    "ingre03029",
+    "ingre07781",
+    "ingre01865",
+    "ingre02768",
+    "ingre03516",
+    "ingre02997",
+    "ingre02081",
+    "ingre02124",
+    "ingre07691"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Nấm mèo",
+    "Nấm đông cô",
+    "Cà rốt",
+    "Hạt sen",
+    "Đậu phộng",
+    "Củ cải muối",
+    "Hành tím",
+    "Lá sen",
+    "Hạt nêm chay",
+    "Dầu hào chay",
+    "Dầu ăn",
+    "Đường/tiêu"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Mushroom",
+    "Carrot",
+    "Lotus seed",
+    "Peanut",
+    "Pickled radish",
+    "Shallot",
+    "Lotus leaf",
+    "Vegetarian Seasoning",
+    "Vegetarian soy sauce",
+    "Cooking oil",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "nam meo",
+    "nam dong co",
+    "ca rot",
+    "hat sen",
+    "dau phong",
+    "cu cai muoi",
+    "hanh tim",
+    "la sen",
+    "hat nem chay",
+    "dau hao chay",
+    "dau an",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/tiêu"
+    }
+  ]
+}

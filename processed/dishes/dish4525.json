@@ -1,0 +1,127 @@
+{
+  "id": "dish4525",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4525.json",
+  "name_vi": "Chân gà rút xương xào măng chua",
+  "name_en": "",
+  "name_normalized": "chan ga rut xuong xao mang chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Chân gà",
+    "Măng chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Hành lá",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Gừng",
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre04072",
+    "ingre08055",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre02673",
+    "ingre04329",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Măng chua",
+    "Ớt sừng",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Hành lá",
+    "Ngò gai",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Pickled bamboo shoots",
+    "Hot pepper",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Scallion",
+    "Culantro",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "mang chua",
+    "ot sung",
+    "gung",
+    "hanh tim",
+    "toi",
+    "sa",
+    "hanh la",
+    "ngo gai",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

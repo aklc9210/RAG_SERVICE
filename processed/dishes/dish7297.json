@@ -1,0 +1,87 @@
+{
+  "id": "dish7297",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7297.json",
+  "name_vi": "Mực rang muối",
+  "name_en": "",
+  "name_normalized": "muc rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Hành lá băm"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi băm",
+    "Ớt băm",
+    "Rượu nếp",
+    "Bột bắp",
+    "Bột năng",
+    "Muối/Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre06823",
+    "ingre07071",
+    "ingre07971",
+    "ingre02678",
+    "ingre05554",
+    "ingre00564",
+    "ingre00849",
+    "ingre03826",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Trứng gà",
+    "Tỏi băm",
+    "Ớt băm",
+    "Hành lá băm",
+    "Rượu nếp",
+    "Bột bắp",
+    "Bột năng",
+    "Muối/Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Chicken egg",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Chopped Green Onion",
+    "Rice wine",
+    "Corn starch",
+    "Cornstarch",
+    "Salt/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "trung ga",
+    "toi bam",
+    "ot bam",
+    "hanh la bam",
+    "ruou nep",
+    "bot bap",
+    "bot nang",
+    "muoi tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

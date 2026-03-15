@@ -1,0 +1,66 @@
+{
+  "id": "dish1802",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1802.json",
+  "name_vi": "Bánh quy dừa",
+  "name_en": "",
+  "name_normalized": "banh quy dua",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Dừa sấy khô"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng - bột mì số 11",
+    "Trứng gà",
+    "Cream of tartar",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00794",
+    "ingre06823",
+    "ingre02195",
+    "ingre01328",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng - bột mì số 11",
+    "Trứng gà",
+    "Dừa sấy khô",
+    "Cream of tartar",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour - Flour No. 11",
+    "Chicken egg",
+    "Dried coconut",
+    "Cream of tartar",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung bot mi so 11",
+    "trung ga",
+    "dua say kho",
+    "cream of tartar",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot mi da dung - bot mi so 11",
+      "new": "bot mi da dung bot mi so 11",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột mì đa dụng - bột mì số 11"
+    }
+  ]
+}

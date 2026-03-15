@@ -1,0 +1,77 @@
+{
+  "id": "dish4435",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4435.json",
+  "name_vi": "Bề bề xào sả ớt",
+  "name_en": "",
+  "name_normalized": "be be xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bề bề đã bóc vỏ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tương ớt",
+    "Mắm",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00495",
+    "ingre07966",
+    "ingre07028",
+    "ingre04133",
+    "ingre07583",
+    "ingre00819",
+    "ingre02124",
+    "ingre05900"
+  ],
+  "ingredient_names_vi": [
+    "Bề bề đã bóc vỏ",
+    "Ớt",
+    "Tương ớt",
+    "Mắm",
+    "Đường",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Sả"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pepper",
+    "Hot Sauce",
+    "Fish sauce",
+    "Sugar",
+    "MSG",
+    "Cooking oil",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "be be da boc vo",
+    "ot",
+    "tuong ot",
+    "mam",
+    "duong",
+    "bot ngot",
+    "dau an",
+    "sa"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

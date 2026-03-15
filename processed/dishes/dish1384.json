@@ -1,0 +1,62 @@
+{
+  "id": "dish1384",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1384.json",
+  "name_vi": "Bánh khoai lang tím nhân phô mai bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh khoai lang tim nhan pho mai bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang tím"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Phô mai con bò cười",
+    "Mè"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng"
+  ],
+  "ingredient_ids": [
+    "ingre03200",
+    "ingre00791",
+    "ingre06144",
+    "ingre05070",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang tím",
+    "Bột mì đa dụng",
+    "Sữa tươi",
+    "Phô mai con bò cười",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Purple potato",
+    "All-purpose flour",
+    "Fresh Milk",
+    "Cheese Cow Smile",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang tim",
+    "bot mi da dung",
+    "sua tuoi",
+    "pho mai con bo cuoi",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

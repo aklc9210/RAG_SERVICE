@@ -1,0 +1,134 @@
+{
+  "id": "dish3428",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3428.json",
+  "name_vi": "Bún bò Huế",
+  "name_en": "",
+  "name_normalized": "bun bo hue",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chân giò heo",
+    "Nạm bò",
+    "Bún sợi to",
+    "Huyết bò hoặc heo"
+  ],
+  "secondary_ingredients": [
+    "Chả cua hay chả bò",
+    "Dầu màu điều",
+    "Sả",
+    "Hành tây",
+    "Hành lá",
+    "Giá đỗ",
+    "Mùi tàu/húng quế",
+    "Hoa chuối"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Mắm ruốc",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01232",
+    "ingre04889",
+    "ingre00353",
+    "ingre02626",
+    "ingre01265",
+    "ingre02093",
+    "ingre05900",
+    "ingre02741",
+    "ingre07063",
+    "ingre02485",
+    "ingre04151",
+    "ingre02673",
+    "ingre02337",
+    "ingre04059",
+    "ingre02575",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò heo",
+    "Nạm bò",
+    "Bún sợi to",
+    "Huyết bò hoặc heo",
+    "Chả cua hay chả bò",
+    "Dầu màu điều",
+    "Sả",
+    "Hành tây",
+    "Tỏi",
+    "Gừng",
+    "Mắm ruốc",
+    "Hành lá",
+    "Giá đỗ",
+    "Mùi tàu/húng quế",
+    "Hoa chuối",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Beef mince",
+    "Wide noodle",
+    "Beef or pork blood",
+    "Shrimp Cake or Beef Cake",
+    "Peanut-colored food coloring",
+    "Lemongrass",
+    "Onion",
+    "Garlic",
+    "Ginger",
+    "Shrimp paste",
+    "Scallion",
+    "Bean sprouts",
+    "Star Anise",
+    "Banana flower",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio heo",
+    "nam bo",
+    "bun soi to",
+    "huyet bo hoac heo",
+    "cha cua hay cha bo",
+    "dau mau dieu",
+    "sa",
+    "hanh tay",
+    "toi",
+    "gung",
+    "mam ruoc",
+    "hanh la",
+    "gia do",
+    "mui tau hung que",
+    "hoa chuoi",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mui tau/hung que",
+      "new": "mui tau hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mùi tàu/húng quế"
+    }
+  ]
+}

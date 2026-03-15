@@ -1,0 +1,61 @@
+{
+  "id": "dish9391",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9391.json",
+  "name_vi": "Củ kiệu chua ngọt - Điện máy XANH",
+  "name_en": "",
+  "name_normalized": "cu kieu chua ngot dien may xanh",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Củ kiệu"
+  ],
+  "secondary_ingredients": [
+    "Phèn chua"
+  ],
+  "seasonings": [
+    "Đường",
+    "Giấm ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01895",
+    "ingre07583",
+    "ingre02377",
+    "ingre05051",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Củ kiệu",
+    "Đường",
+    "Giấm ăn",
+    "Phèn chua",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pickled radish",
+    "Sugar",
+    "vinegar",
+    "Tamarind",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cu kieu",
+    "duong",
+    "giam an",
+    "phen chua",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cu kieu chua ngot - dien may xanh",
+      "new": "cu kieu chua ngot dien may xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

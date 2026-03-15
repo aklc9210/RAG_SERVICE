@@ -1,0 +1,112 @@
+{
+  "id": "dish6802",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6802.json",
+  "name_vi": "Sườn sụn rang muối",
+  "name_en": "",
+  "name_normalized": "suon sun rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn sụn",
+    "Sả",
+    "Gạo nếp",
+    "Gạo tẻ"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Muối hạt",
+    "Đường vàng",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05894",
+    "ingre05900",
+    "ingre02450",
+    "ingre02464",
+    "ingre07836",
+    "ingre03370",
+    "ingre04694",
+    "ingre04381",
+    "ingre00598",
+    "ingre02124",
+    "ingre03760",
+    "ingre07661",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sườn sụn",
+    "Sả",
+    "Gạo nếp",
+    "Gạo tẻ",
+    "Đậu xanh",
+    "Lá chanh",
+    "Nước mắm",
+    "Ngũ vị hương",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Muối hạt",
+    "Đường vàng",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Collar bone meat",
+    "Lemongrass",
+    "sticky rice",
+    "White Rice",
+    "Green beans",
+    "Lime leaf",
+    "Fish Sauce",
+    "Five-Spice Powder",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Fenugreek seeds",
+    "Yellow Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "suon sun",
+    "sa",
+    "gao nep",
+    "gao te",
+    "dau xanh",
+    "la chanh",
+    "nuoc mam",
+    "ngu vi huong",
+    "bot chien gion",
+    "dau an",
+    "muoi hat",
+    "duong vang",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

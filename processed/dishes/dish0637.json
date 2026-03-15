@@ -1,0 +1,102 @@
+{
+  "id": "dish0637",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0637.json",
+  "name_vi": "Chân giò hầm măng khô",
+  "name_en": "",
+  "name_normalized": "chan gio ham mang kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Chân giò",
+    "Măng khô"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/muối"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre04081",
+    "ingre04622",
+    "ingre02768",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre03015"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Măng khô",
+    "Nước dừa",
+    "Hành tím",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/muối"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Dried bamboo shoots",
+    "Coconut water",
+    "Shallot",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "mang kho",
+    "nuoc dua",
+    "hanh tim",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/muối"
+    }
+  ]
+}

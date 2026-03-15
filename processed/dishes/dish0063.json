@@ -1,0 +1,138 @@
+{
+  "id": "dish0063",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0063.json",
+  "name_vi": "Canh chua cá ngần",
+  "name_en": "",
+  "name_normalized": "canh chua ca ngan",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá ngần",
+    "Cà chua",
+    "Dứa",
+    "Hành"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm",
+    "Thì là"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Lá lốt",
+    "Nước mắm",
+    "Bột ngọt",
+    "Bột canh",
+    "Bột nêm",
+    "Đường",
+    "Giấm bỗng"
+  ],
+  "ingredient_ids": [
+    "ingre01578",
+    "ingre01354",
+    "ingre02151",
+    "ingre02636",
+    "ingre07063",
+    "ingre02485",
+    "ingre07966",
+    "ingre02673",
+    "ingre05359",
+    "ingre06233",
+    "ingre03461",
+    "ingre04694",
+    "ingre00819",
+    "ingre00587",
+    "ingre00838",
+    "ingre07583",
+    "ingre02359"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngần",
+    "Cà chua",
+    "Dứa",
+    "Hành",
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Hành lá",
+    "Rau răm",
+    "Thì là",
+    "Lá lốt",
+    "Nước mắm",
+    "Bột ngọt",
+    "Bột canh",
+    "Bột nêm",
+    "Đường",
+    "Giấm bỗng"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Tomato",
+    "Pineapple",
+    "Garlic",
+    "Ginger",
+    "Pepper",
+    "Scallion",
+    "Vietnamese coriander",
+    "Dill",
+    "Cinnamon Leaf",
+    "Fish Sauce",
+    "MSG",
+    "Cornstarch",
+    "Seasoning Powder",
+    "Sugar",
+    "Balsamic vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngan",
+    "ca chua",
+    "dua",
+    "hanh",
+    "toi",
+    "gung",
+    "ot",
+    "hanh la",
+    "rau ram",
+    "thi la",
+    "la lot",
+    "nuoc mam",
+    "bot ngot",
+    "bot canh",
+    "bot nem",
+    "duong",
+    "giam bong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

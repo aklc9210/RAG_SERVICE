@@ -1,0 +1,86 @@
+{
+  "id": "dish7379",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7379.json",
+  "name_vi": "Cơm chiên 7/3 chay",
+  "name_en": "",
+  "name_normalized": "com chien 7 3 chay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Tàu hũ ky khô"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí băm",
+    "Lá cải thảo",
+    "Chao trắng",
+    "Chao đỏ"
+  ],
+  "seasonings": [
+    "Gừng băm",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre06876",
+    "ingre02492",
+    "ingre04344",
+    "ingre03410",
+    "ingre01109",
+    "ingre01112",
+    "ingre02995",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Tàu hũ ky khô",
+    "Gừng băm",
+    "Ngò rí băm",
+    "Lá cải thảo",
+    "Chao trắng",
+    "Chao đỏ",
+    "Hạt nêm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Tofu皮干",
+    "Ginger paste",
+    "Chopped cilantro",
+    "Mustard greens",
+    "White cheese",
+    "Red chili",
+    "Seasoning",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "tau hu ky kho",
+    "gung bam",
+    "ngo ri bam",
+    "la cai thao",
+    "chao trang",
+    "chao do",
+    "hat nem",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "com chien 7/3 chay",
+      "new": "com chien 7 3 chay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

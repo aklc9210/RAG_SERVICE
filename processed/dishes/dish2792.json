@@ -1,0 +1,110 @@
+{
+  "id": "dish2792",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2792.json",
+  "name_vi": "bánh Cookie Icebox con mèo",
+  "name_en": "",
+  "name_normalized": "banh cookie icebox con meo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Tinh chất vani",
+    "Màu thực phẩm đen"
+  ],
+  "seasonings": [
+    "Đường bột",
+    "Muối",
+    "Trứng gà",
+    "Bột làm bánh (Bột mì số 8)",
+    "Bột hạnh nhân",
+    "Baking powder (Bột nở)",
+    "Bột cacao",
+    "Bột cacao đen",
+    "Lòng trắng trứng",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00382",
+    "ingre07589",
+    "ingre03746",
+    "ingre06823",
+    "ingre06592",
+    "ingre00719",
+    "ingre00691",
+    "ingre00014",
+    "ingre00576",
+    "ingre00580",
+    "ingre03579",
+    "ingre04538",
+    "ingre03890"
+  ],
+  "ingredient_names_vi": [
+    "Bơ lạt",
+    "Đường bột",
+    "Muối",
+    "Trứng gà",
+    "Tinh chất vani",
+    "Bột làm bánh (Bột mì số 8)",
+    "Bột hạnh nhân",
+    "Baking powder (Bột nở)",
+    "Bột cacao",
+    "Bột cacao đen",
+    "Lòng trắng trứng",
+    "Nước cốt chanh",
+    "Màu thực phẩm đen"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Sugar Powder",
+    "Salt",
+    "Chicken egg",
+    "Vanilla extract",
+    "Bread Flour",
+    "Almond flour",
+    "Baking Powder",
+    "Cocoa powder",
+    "Dark cocoa powder",
+    "Egg white",
+    "Lemon juice",
+    "Black food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat",
+    "duong bot",
+    "muoi",
+    "trung ga",
+    "tinh chat vani",
+    "bot lam banh bot mi so 8",
+    "bot hanh nhan",
+    "baking powder bot no",
+    "bot cacao",
+    "bot cacao den",
+    "long trang trung",
+    "nuoc cot chanh",
+    "mau thuc pham den"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (bot mi so 8)",
+      "new": "bot lam banh bot mi so 8",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Bột mì số 8)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking powder (bot no)",
+      "new": "baking powder bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking powder (Bột nở)"
+    }
+  ]
+}

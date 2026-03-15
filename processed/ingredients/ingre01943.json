@@ -1,0 +1,25 @@
+{
+  "id": "ingre01943",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01943.json",
+  "name_vi": "da ếch :",
+  "name_en": "Frogskin",
+  "name_normalized": "da ech",
+  "synonyms": [
+    "da ếch"
+  ],
+  "synonyms_normalized": [
+    "da ech"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "da ech :",
+      "new": "da ech",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

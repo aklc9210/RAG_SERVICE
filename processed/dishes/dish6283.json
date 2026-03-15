@@ -1,0 +1,93 @@
+{
+  "id": "dish6283",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6283.json",
+  "name_vi": "Ruột heo khìa nước dừa",
+  "name_en": "",
+  "name_normalized": "ruot heo khia nuoc dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Dừa"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ruột già",
+    "Chanh",
+    "Tỏi băm/ hành tím băm",
+    "Bột ngũ vị hương",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05495",
+    "ingre02162",
+    "ingre01079",
+    "ingre07076",
+    "ingre00815",
+    "ingre04694",
+    "ingre02093",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ruột già",
+    "Dừa",
+    "Chanh",
+    "Tỏi băm/ hành tím băm",
+    "Bột ngũ vị hương",
+    "Nước mắm",
+    "Dầu màu điều",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Elderberry",
+    "Coconut",
+    "Lemon",
+    "Chopped Garlic/Chopped Onion",
+    "Five-Spice Powder",
+    "Fish Sauce",
+    "Peanut-colored food coloring",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ruot gia",
+    "dua",
+    "chanh",
+    "toi bam hanh tim bam",
+    "bot ngu vi huong",
+    "nuoc mam",
+    "dau mau dieu",
+    "duong",
+    "muoi",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi bam/ hanh tim bam",
+      "new": "toi bam hanh tim bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi băm/ hành tím băm"
+    }
+  ]
+}

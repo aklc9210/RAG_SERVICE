@@ -1,0 +1,134 @@
+{
+  "id": "dish4768",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4768.json",
+  "name_vi": "Nui xào thập cẩm chay",
+  "name_en": "",
+  "name_normalized": "nui xao thap cam chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui",
+    "Nấm đùi gà mini"
+  ],
+  "secondary_ingredients": [
+    "Susu",
+    "Đậu que",
+    "Cà chua",
+    "Bắp cải",
+    "Hành tím",
+    "Hành lá",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Cà rốt",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04450",
+    "ingre04977",
+    "ingre07999",
+    "ingre01419",
+    "ingre05798",
+    "ingre07818",
+    "ingre01354",
+    "ingre00457",
+    "ingre02768",
+    "ingre02673",
+    "ingre02081",
+    "ingre02997",
+    "ingre04124",
+    "ingre04790",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Nui",
+    "Nấm đùi gà mini",
+    "Ớt chuông",
+    "Cà rốt",
+    "Susu",
+    "Đậu que",
+    "Cà chua",
+    "Bắp cải",
+    "Hành tím",
+    "Hành lá",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Mật ong",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rice noodles",
+    "Chicken thigh mushroom",
+    "Bell pepper",
+    "Carrot",
+    "Milk",
+    "Green beans",
+    "Tomato",
+    "Cabbage",
+    "Shallot",
+    "Scallion",
+    "Vegetarian soy sauce",
+    "Vegetarian Seasoning",
+    "Honey",
+    "Soy Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "nui",
+    "nam dui ga mini",
+    "ot chuong",
+    "ca rot",
+    "susu",
+    "dau que",
+    "ca chua",
+    "bap cai",
+    "hanh tim",
+    "hanh la",
+    "dau hao chay",
+    "hat nem chay",
+    "mat ong",
+    "nuoc tuong",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre03407",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03407.json",
+  "name_vi": "lá cóc non/ lá sung",
+  "name_en": "Mint Leaves",
+  "name_normalized": "la coc non la sung",
+  "synonyms": [
+    "lá sung non"
+  ],
+  "synonyms_normalized": [
+    "la sung non"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la coc non/ la sung",
+      "new": "la coc non la sung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre05427",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05427.json",
+  "name_vi": "rau ăn kèm/ giá",
+  "name_en": "Bok Choy",
+  "name_normalized": "rau an kem gia",
+  "synonyms": [
+    "giá đỗ"
+  ],
+  "synonyms_normalized": [
+    "gia do"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau an kem/ gia",
+      "new": "rau an kem gia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

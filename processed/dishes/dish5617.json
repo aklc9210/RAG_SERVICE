@@ -1,0 +1,103 @@
+{
+  "id": "dish5617",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5617.json",
+  "name_vi": "Xôi măng",
+  "name_en": "",
+  "name_normalized": "xoi mang",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Măng le",
+    "Mỡ heo",
+    "Nếp sáp"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Cá nục"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Tỏi",
+    "Gừng",
+    "Mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04082",
+    "ingre04192",
+    "ingre04994",
+    "ingre00804",
+    "ingre07063",
+    "ingre02768",
+    "ingre02485",
+    "ingre04133",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612",
+    "ingre01598"
+  ],
+  "ingredient_names_vi": [
+    "Măng le",
+    "Mỡ heo",
+    "Nếp sáp",
+    "Bột nghệ",
+    "Tỏi",
+    "Hành tím",
+    "Gừng",
+    "Mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Cá nục"
+  ],
+  "ingredient_names_en": [
+    "Asparagus",
+    "Pork fat",
+    "Rice starch",
+    "Turmeric Powder",
+    "Garlic",
+    "Shallot",
+    "Ginger",
+    "Fish sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper",
+    "Mackerel"
+  ],
+  "ingredient_names_normalized": [
+    "mang le",
+    "mo heo",
+    "nep sap",
+    "bot nghe",
+    "toi",
+    "hanh tim",
+    "gung",
+    "mam",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu",
+    "ca nuc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish7051",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7051.json",
+  "name_vi": "Nem hải sản sốt mayonnaise",
+  "name_en": "",
+  "name_normalized": "nem hai san sot mayonnaise",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm",
+    "Mực",
+    "Vỏ bánh đa nem"
+  ],
+  "secondary_ingredients": [
+    "Vỏ bánh chả rế",
+    "Hành tây",
+    "Nấm kim châm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Sốt mayonnaise",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre04264",
+    "ingre07242",
+    "ingre07227",
+    "ingre01419",
+    "ingre02741",
+    "ingre04921",
+    "ingre05970",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Mực",
+    "Vỏ bánh đa nem",
+    "Vỏ bánh chả rế",
+    "Cà rốt",
+    "Hành tây",
+    "Nấm kim châm",
+    "Sốt mayonnaise",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Squid",
+    "Wrapping皮膜",
+    "Leftover spring roll wrapper",
+    "Carrot",
+    "Onion",
+    "Mushroom",
+    "Mayonnaise Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "muc",
+    "vo banh da nem",
+    "vo banh cha re",
+    "ca rot",
+    "hanh tay",
+    "nam kim cham",
+    "sot mayonnaise",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

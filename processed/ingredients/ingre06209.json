@@ -1,0 +1,27 @@
+{
+  "id": "ingre06209",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06209.json",
+  "name_vi": "thanh long đỏ:",
+  "name_en": "Red cucumber: ->",
+  "name_normalized": "thanh long do",
+  "synonyms": [
+    "dưa hấu đỏ"
+  ],
+  "synonyms_normalized": [
+    "dua hau do"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thanh long do:",
+      "new": "thanh long do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ingre02722",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02722.json",
+  "name_vi": "hành lá/thì là",
+  "name_en": "Chives",
+  "name_normalized": "hanh la thi la",
+  "synonyms": [
+    "cây thì là",
+    "cây hành",
+    "thảo quả"
+  ],
+  "synonyms_normalized": [
+    "cay thi la",
+    "cay hanh",
+    "thao qua"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/thi la",
+      "new": "hanh la thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

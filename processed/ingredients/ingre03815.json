@@ -1,0 +1,29 @@
+{
+  "id": "ingre03815",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03815.json",
+  "name_vi": "muối/ tiêu xay",
+  "name_en": "Ground Salt/Paprika",
+  "name_normalized": "muoi tieu xay",
+  "synonyms": [
+    "tiêu",
+    "muối tiêu",
+    "muối hạt"
+  ],
+  "synonyms_normalized": [
+    "tieu",
+    "muoi tieu",
+    "muoi hat"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

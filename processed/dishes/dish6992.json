@@ -1,0 +1,96 @@
+{
+  "id": "dish6992",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6992.json",
+  "name_vi": "Giò heo muối chiên giòn",
+  "name_en": "",
+  "name_normalized": "gio heo muoi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chân giò heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước soda"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sa tế",
+    "Dầu hào",
+    "Giấm",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01232",
+    "ingre07063",
+    "ingre02768",
+    "ingre08050",
+    "ingre02080",
+    "ingre02355",
+    "ingre00815",
+    "ingre02124",
+    "ingre04741",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò heo",
+    "Tỏi",
+    "Hành tím",
+    "Ớt sa tế",
+    "Dầu hào",
+    "Giấm",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Nước soda",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Garlic",
+    "Shallot",
+    "Bird's Eye Chili",
+    "Soy sauce",
+    "Vinegar",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Soda",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio heo",
+    "toi",
+    "hanh tim",
+    "ot sa te",
+    "dau hao",
+    "giam",
+    "bot ngu vi huong",
+    "dau an",
+    "nuoc soda",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

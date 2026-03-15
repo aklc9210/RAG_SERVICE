@@ -1,0 +1,60 @@
+{
+  "id": "dish1946",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1946.json",
+  "name_vi": "Bánh mì mây (Cloud Bread)",
+  "name_en": "",
+  "name_normalized": "banh mi may cloud bread",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nho khô"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Đường",
+    "Chanh",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07583",
+    "ingre01079",
+    "ingre00564",
+    "ingre04398"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường",
+    "Chanh",
+    "Bột bắp",
+    "Nho khô"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Sugar",
+    "Lemon",
+    "Corn starch",
+    "Dried grape"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong",
+    "chanh",
+    "bot bap",
+    "nho kho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi may (cloud bread)",
+      "new": "banh mi may cloud bread",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

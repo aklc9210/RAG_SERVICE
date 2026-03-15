@@ -1,0 +1,133 @@
+{
+  "id": "dish8038",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8038.json",
+  "name_vi": "Nộm (gỏi) sách bò",
+  "name_en": "",
+  "name_normalized": "nom goi sach bo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sách bò",
+    "Dưa leo",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Chuối chát",
+    "Hành tây",
+    "Hành tím",
+    "Rau húng",
+    "Đậu phộng rang giã nhỏ"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt sừng",
+    "Giấm",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05811",
+    "ingre01419",
+    "ingre02020",
+    "ingre07342",
+    "ingre01162",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre05256",
+    "ingre08055",
+    "ingre07797",
+    "ingre02355",
+    "ingre04538",
+    "ingre02124",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Sách bò",
+    "Cà rốt",
+    "Dưa leo",
+    "Xoài xanh",
+    "Chuối chát",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Rau húng",
+    "Ớt sừng",
+    "Đậu phộng rang giã nhỏ",
+    "Giấm",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Carrot",
+    "Cucumber",
+    "Green mango",
+    "Bittermelon",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Hot pepper",
+    "Peanut碎片",
+    "Vinegar",
+    "Lemon juice",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "sach bo",
+    "ca rot",
+    "dua leo",
+    "xoai xanh",
+    "chuoi chat",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "rau hung",
+    "ot sung",
+    "dau phong rang gia nho",
+    "giam",
+    "nuoc cot chanh",
+    "dau an",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nom (goi) sach bo",
+      "new": "nom goi sach bo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

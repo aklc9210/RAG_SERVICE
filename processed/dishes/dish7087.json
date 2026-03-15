@@ -1,0 +1,111 @@
+{
+  "id": "dish7087",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7087.json",
+  "name_vi": "Cá chép chiên xù",
+  "name_en": "",
+  "name_normalized": "ca chep chien xu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá chép phi lê"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Thơm"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng gà",
+    "Ớt",
+    "Tỏi",
+    "Giấm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01495",
+    "ingre00598",
+    "ingre00609",
+    "ingre06823",
+    "ingre05900",
+    "ingre06247",
+    "ingre07966",
+    "ingre07063",
+    "ingre02355",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép phi lê",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng gà",
+    "Sả",
+    "Thơm",
+    "Ớt",
+    "Tỏi",
+    "Giấm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp Fillet",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Lemongrass",
+    "Basil",
+    "Pepper",
+    "Garlic",
+    "Vinegar",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep phi le",
+    "bot chien gion",
+    "bot chien xu",
+    "trung ga",
+    "sa",
+    "thom",
+    "ot",
+    "toi",
+    "giam",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

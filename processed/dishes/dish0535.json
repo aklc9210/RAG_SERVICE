@@ -1,0 +1,93 @@
+{
+  "id": "dish0535",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0535.json",
+  "name_vi": "Canh chua chả cá",
+  "name_en": "",
+  "name_normalized": "canh chua cha ca",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Chả cá",
+    "Khóm"
+  ],
+  "secondary_ingredients": [
+    "Bông điên điển",
+    "Bông súng",
+    "Ngò gai",
+    "Ngò om",
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Nước cốt me",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01268",
+    "ingre03236",
+    "ingre04581",
+    "ingre00296",
+    "ingre00291",
+    "ingre04329",
+    "ingre04340",
+    "ingre02862",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Chả cá",
+    "Khóm",
+    "Nước cốt me",
+    "Bông điên điển",
+    "Bông súng",
+    "Ngò gai",
+    "Ngò om",
+    "Húng quế",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fish cake",
+    "Jujube",
+    "Lime juice",
+    "Dandelion flower",
+    "Mallow花椰菜",
+    "Culantro",
+    "Parsley",
+    "Cinnamon basil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "cha ca",
+    "khom",
+    "nuoc cot me",
+    "bong dien dien",
+    "bong sung",
+    "ngo gai",
+    "ngo om",
+    "hung que",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dish1965",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1965.json",
+  "name_vi": "Bánh bò da lợn",
+  "name_en": "",
+  "name_normalized": "banh bo da lon",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh",
+    "Men khô",
+    "Nước dừa tươi",
+    "Lá dứa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh bò",
+    "Bột năng",
+    "Bột gạo",
+    "Nước cốt dừa",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00524",
+    "ingre00849",
+    "ingre00668",
+    "ingre07836",
+    "ingre03674",
+    "ingre04626",
+    "ingre04554",
+    "ingre07583",
+    "ingre03421"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh bò",
+    "Bột năng",
+    "Bột gạo",
+    "Đậu xanh",
+    "Men khô",
+    "Nước dừa tươi",
+    "Nước cốt dừa",
+    "Đường",
+    "Lá dứa tươi"
+  ],
+  "ingredient_names_en": [
+    "Bánh bò flour",
+    "Cornstarch",
+    "Rice flour",
+    "Green beans",
+    "Dried yeast",
+    "Coconut water",
+    "Coconut milk",
+    "Sugar",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh bo",
+    "bot nang",
+    "bot gao",
+    "dau xanh",
+    "men kho",
+    "nuoc dua tuoi",
+    "nuoc cot dua",
+    "duong",
+    "la dua tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

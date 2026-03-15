@@ -1,0 +1,76 @@
+{
+  "id": "dish6317",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6317.json",
+  "name_vi": "Cà tím chiên sốt nước tương",
+  "name_en": "",
+  "name_normalized": "ca tim chien sot nuoc tuong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà tím",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre02673",
+    "ingre07966",
+    "ingre02997",
+    "ingre04790",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Hành lá",
+    "Ớt",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Scallion",
+    "Pepper",
+    "Vegetarian Seasoning",
+    "Soy Sauce",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "hanh la",
+    "ot",
+    "hat nem chay",
+    "nuoc tuong",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

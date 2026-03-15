@@ -1,0 +1,117 @@
+{
+  "id": "dish5624",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5624.json",
+  "name_vi": "Ngan nấu giả cầy",
+  "name_en": "",
+  "name_normalized": "ngan nau gia cay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ngan",
+    "Riềng tươi",
+    "Nghệ tươi",
+    "Mẻ"
+  ],
+  "secondary_ingredients": [
+    "Hành hoa",
+    "Rau nêm"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Rượu trắng",
+    "Hành khô",
+    "Rượu trắng/ gừng tươi/ chanh/ muối hạt",
+    "Dầu ăn",
+    "Bột canh",
+    "Mì chính",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06449",
+    "ingre05443",
+    "ingre04308",
+    "ingre04165",
+    "ingre04159",
+    "ingre05574",
+    "ingre02667",
+    "ingre02663",
+    "ingre05344",
+    "ingre05583",
+    "ingre02124",
+    "ingre00587",
+    "ingre03958",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ngan",
+    "Riềng tươi",
+    "Nghệ tươi",
+    "Mẻ",
+    "Mắm tôm",
+    "Rượu trắng",
+    "Hành khô",
+    "Hành hoa",
+    "Rau nêm",
+    "Rượu trắng/ gừng tươi/ chanh/ muối hạt",
+    "Dầu ăn",
+    "Bột canh",
+    "Mì chính",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Fresh Ginger",
+    "Ginger",
+    "Tamarind",
+    "Shrimp paste",
+    "White wine",
+    "Garlic Powder",
+    "Garlic",
+    "Coriander",
+    "White Rum/Fresh Ginger/Lemon/Zagharot",
+    "Cooking oil",
+    "Cornstarch",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ngan",
+    "rieng tuoi",
+    "nghe tuoi",
+    "me",
+    "mam tom",
+    "ruou trang",
+    "hanh kho",
+    "hanh hoa",
+    "rau nem",
+    "ruou trang gung tuoi chanh muoi hat",
+    "dau an",
+    "bot canh",
+    "mi chinh",
+    "nuoc mam",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ruou trang/ gung tuoi/ chanh/ muoi hat",
+      "new": "ruou trang gung tuoi chanh muoi hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rượu trắng/ gừng tươi/ chanh/ muối hạt"
+    }
+  ]
+}

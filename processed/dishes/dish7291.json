@@ -1,0 +1,81 @@
+{
+  "id": "dish7291",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7291.json",
+  "name_vi": "Cơm chiên cá hồi (công thức chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "com chien ca hoi cong thuc chia se tu nguoi dung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hồi"
+  ],
+  "secondary_ingredients": [
+    "Cơm nguội",
+    "Đậu que",
+    "Hành tây",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Nước tương",
+    "Bột nêm rau củ"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre06823",
+    "ingre01755",
+    "ingre01419",
+    "ingre07818",
+    "ingre02741",
+    "ingre02134",
+    "ingre04790",
+    "ingre00844"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Trứng gà",
+    "Cơm nguội",
+    "Cà rốt",
+    "Đậu que",
+    "Hành tây",
+    "Dầu điều",
+    "Nước tương",
+    "Bột nêm rau củ"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Chicken egg",
+    "Cold Rice",
+    "Carrot",
+    "Green beans",
+    "Onion",
+    "Peanut oil",
+    "Soy Sauce",
+    "Vegetable Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "trung ga",
+    "com nguoi",
+    "ca rot",
+    "dau que",
+    "hanh tay",
+    "dau dieu",
+    "nuoc tuong",
+    "bot nem rau cu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "com chien ca hoi (cong thuc chia se tu nguoi dung)",
+      "new": "com chien ca hoi cong thuc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

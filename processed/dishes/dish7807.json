@@ -1,0 +1,95 @@
+{
+  "id": "dish7807",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7807.json",
+  "name_vi": "Lẩu nghêu rau muống",
+  "name_en": "",
+  "name_normalized": "lau ngheu rau muong",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Nghêu",
+    "Rau muống",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Bột cà ri",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04303",
+    "ingre05289",
+    "ingre05900",
+    "ingre08055",
+    "ingre07063",
+    "ingre02124",
+    "ingre00631",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Nghêu",
+    "Rau muống",
+    "Sả",
+    "Ớt sừng",
+    "Tỏi",
+    "Dầu ăn",
+    "Bột cà ri",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Watercress",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic",
+    "Cooking oil",
+    "Curry powder",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ngheu",
+    "rau muong",
+    "sa",
+    "ot sung",
+    "toi",
+    "dau an",
+    "bot ca ri",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

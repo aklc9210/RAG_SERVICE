@@ -1,0 +1,68 @@
+{
+  "id": "dish2024",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2024.json",
+  "name_vi": "Bánh khoai tây sữa chiên xù",
+  "name_en": "",
+  "name_normalized": "banh khoai tay sua chien xu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột chiên xù",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00609",
+    "ingre03222",
+    "ingre06147",
+    "ingre06174",
+    "ingre06823",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột chiên xù",
+    "Khoai tây",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Trứng gà",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Puffed Rice Powder",
+    "Potato",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Chicken egg",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot chien xu",
+    "khoai tay",
+    "sua tuoi khong duong",
+    "sua dac",
+    "trung ga",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

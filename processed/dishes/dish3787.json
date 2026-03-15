@@ -1,0 +1,86 @@
+{
+  "id": "dish3787",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3787.json",
+  "name_vi": "Lươn nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "luon nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Lươn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Muối ớt Tây Ninh",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre05900",
+    "ingre07966",
+    "ingre02020",
+    "ingre01079",
+    "ingre03803",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Sả",
+    "Ớt",
+    "Dưa leo",
+    "Chanh",
+    "Muối ớt Tây Ninh",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Lemongrass",
+    "Pepper",
+    "Cucumber",
+    "Lemon",
+    "Bird's Eye Chili Salt",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "sa",
+    "ot",
+    "dua leo",
+    "chanh",
+    "muoi ot tay ninh",
+    "tieu",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

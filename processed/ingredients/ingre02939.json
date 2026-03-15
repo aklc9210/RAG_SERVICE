@@ -1,0 +1,29 @@
+{
+  "id": "ingre02939",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02939.json",
+  "name_vi": "hạt dẻ cười/ hạnh nhân",
+  "name_en": "Almond",
+  "name_normalized": "hat de cuoi hanh nhan",
+  "synonyms": [
+    "hạnh nhân",
+    "hạt dưa",
+    "hạt dưa hấu"
+  ],
+  "synonyms_normalized": [
+    "hanh nhan",
+    "hat dua",
+    "hat dua hau"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat de cuoi/ hanh nhan",
+      "new": "hat de cuoi hanh nhan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

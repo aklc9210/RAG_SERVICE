@@ -1,0 +1,100 @@
+{
+  "id": "dish4875",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4875.json",
+  "name_vi": "Gà xào hành tây",
+  "name_en": "",
+  "name_normalized": "ga xao hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tây",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Muối ớt xanh",
+    "Dầu hào",
+    "Nước mắm",
+    "Nước tương",
+    "Giấm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02741",
+    "ingre05900",
+    "ingre07071",
+    "ingre02774",
+    "ingre03804",
+    "ingre02080",
+    "ingre04694",
+    "ingre04790",
+    "ingre02355",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Hành tây",
+    "Sả",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Muối ớt xanh",
+    "Dầu hào",
+    "Nước mắm",
+    "Nước tương",
+    "Giấm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Onion",
+    "Lemongrass",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Green chili salt",
+    "Soy sauce",
+    "Fish Sauce",
+    "Vinegar",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "hanh tay",
+    "sa",
+    "toi bam",
+    "hanh tim bam",
+    "muoi ot xanh",
+    "dau hao",
+    "nuoc mam",
+    "nuoc tuong",
+    "giam",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

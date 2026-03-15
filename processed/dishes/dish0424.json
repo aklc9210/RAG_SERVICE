@@ -1,0 +1,83 @@
+{
+  "id": "dish0424",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0424.json",
+  "name_vi": "Canh bắp hầm giò heo",
+  "name_en": "",
+  "name_normalized": "canh bap ham gio heo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bắp mỹ",
+    "Giò heo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00479",
+    "ingre02346",
+    "ingre02673",
+    "ingre04343",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bắp mỹ",
+    "Giò heo",
+    "Hành lá",
+    "Ngò rí",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Pork sausage",
+    "Scallion",
+    "Parsley",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap my",
+    "gio heo",
+    "hanh la",
+    "ngo ri",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

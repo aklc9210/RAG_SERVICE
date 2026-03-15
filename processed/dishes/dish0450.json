@@ -1,0 +1,85 @@
+{
+  "id": "dish0450",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0450.json",
+  "name_vi": "Canh xương khoai sọ nấu sấu",
+  "name_en": "",
+  "name_normalized": "canh xuong khoai so nau sau",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai sọ",
+    "Xương sườn heo"
+  ],
+  "secondary_ingredients": [
+    "Sấu",
+    "Rau ngổ/ mùi tàu/ hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước mắm",
+    "Muối bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03221",
+    "ingre07427",
+    "ingre05925",
+    "ingre02485",
+    "ingre05337",
+    "ingre04694",
+    "ingre03756",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Khoai sọ",
+    "Xương sườn heo",
+    "Sấu",
+    "Gừng",
+    "Rau ngổ/ mùi tàu/ hành lá",
+    "Nước mắm",
+    "Muối bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Jicama",
+    "Pork rib",
+    "Sour sop",
+    "Ginger",
+    "Cilantro",
+    "Fish Sauce",
+    "Salt",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "khoai so",
+    "xuong suon heo",
+    "sau",
+    "gung",
+    "rau ngo mui tau hanh la",
+    "nuoc mam",
+    "muoi bot canh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ngo/ mui tau/ hanh la",
+      "new": "rau ngo mui tau hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau ngổ/ mùi tàu/ hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

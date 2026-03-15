@@ -1,0 +1,97 @@
+{
+  "id": "dish5292",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5292.json",
+  "name_vi": "Mực xào thập cẩm thơm cà rốt",
+  "name_en": "",
+  "name_normalized": "muc xao thap cam thom ca rot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực ống",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Thơm",
+    "Cần tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ Tiêu xay",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre00282",
+    "ingre01419",
+    "ingre02020",
+    "ingre06247",
+    "ingre01812",
+    "ingre02774",
+    "ingre07071",
+    "ingre04694",
+    "ingre02124",
+    "ingre07685",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Bông cải xanh",
+    "Cà rốt",
+    "Dưa leo",
+    "Thơm",
+    "Cần tây",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ Tiêu xay",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Cabbage",
+    "Carrot",
+    "Cucumber",
+    "Basil",
+    "Celery",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Cinnamon Powder",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "bong cai xanh",
+    "ca rot",
+    "dua leo",
+    "thom",
+    "can tay",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc mam",
+    "dau an",
+    "duong tieu xay",
+    "dau hao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Tiêu xay"
+    }
+  ]
+}

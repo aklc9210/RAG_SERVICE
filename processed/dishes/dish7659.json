@@ -1,0 +1,86 @@
+{
+  "id": "dish7659",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7659.json",
+  "name_vi": "Tôm hấp mướp",
+  "name_en": "",
+  "name_normalized": "tom hap muop",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Tôm tươi",
+    "Mướp hương"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tương ớt",
+    "Xì dầu",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre04104",
+    "ingre08055",
+    "ingre04343",
+    "ingre07028",
+    "ingre07381",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Mướp hương",
+    "Ớt sừng",
+    "Ngò rí",
+    "Tương ớt",
+    "Xì dầu",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Luffa",
+    "Hot pepper",
+    "Parsley",
+    "Hot Sauce",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "muop huong",
+    "ot sung",
+    "ngo ri",
+    "tuong ot",
+    "xi dau",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

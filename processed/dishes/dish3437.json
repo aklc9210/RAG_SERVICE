@@ -1,0 +1,97 @@
+{
+  "id": "dish3437",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3437.json",
+  "name_vi": "Nui thịt bằm",
+  "name_en": "",
+  "name_normalized": "nui thit bam",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nui",
+    "Thịt xay",
+    "Da heo"
+  ],
+  "secondary_ingredients": [
+    "Tôm khô",
+    "Cần tây",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt khô",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04450",
+    "ingre06521",
+    "ingre01935",
+    "ingre06941",
+    "ingre01419",
+    "ingre01812",
+    "ingre02741",
+    "ingre07063",
+    "ingre08039",
+    "ingre02124",
+    "ingre04694",
+    "ingre06661"
+  ],
+  "ingredient_names_vi": [
+    "Nui",
+    "Thịt xay",
+    "Da heo",
+    "Tôm khô",
+    "Cà rốt",
+    "Cần tây",
+    "Hành tây",
+    "Tỏi",
+    "Ớt khô",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rice noodles",
+    "Ground Beef",
+    "Pork skin",
+    "Dried Shrimp",
+    "Carrot",
+    "Celery",
+    "Onion",
+    "Garlic",
+    "Dried Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nui",
+    "thit xay",
+    "da heo",
+    "tom kho",
+    "ca rot",
+    "can tay",
+    "hanh tay",
+    "toi",
+    "ot kho",
+    "dau an",
+    "nuoc mam",
+    "tieu muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ muoi",
+      "new": "tieu muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ muối"
+    }
+  ]
+}

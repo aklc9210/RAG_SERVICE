@@ -1,0 +1,106 @@
+{
+  "id": "dish0684",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0684.json",
+  "name_vi": "Vịt nấu lá giang",
+  "name_en": "",
+  "name_normalized": "vit nau la giang",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Vịt",
+    "Lá giang",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Tỏi băm",
+    "Sả ớt băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre03430",
+    "ingre02151",
+    "ingre08097",
+    "ingre05900",
+    "ingre07071",
+    "ingre05923",
+    "ingre04329",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Lá giang",
+    "Dứa",
+    "Ớt đỏ",
+    "Sả",
+    "Tỏi băm",
+    "Sả ớt băm",
+    "Ngò gai",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Japanese Laurel Leaf",
+    "Pineapple",
+    "Red pepper",
+    "Lemongrass",
+    "Minced Garlic",
+    "Minced garlic and chili",
+    "Culantro",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "la giang",
+    "dua",
+    "ot do",
+    "sa",
+    "toi bam",
+    "sa ot bam",
+    "ngo gai",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

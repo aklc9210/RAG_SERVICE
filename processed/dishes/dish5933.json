@@ -1,0 +1,98 @@
+{
+  "id": "dish5933",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5933.json",
+  "name_vi": "Cá basa kho thơm",
+  "name_en": "",
+  "name_normalized": "ca basa kho thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá basa",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Đầu hành lá",
+    "Hành lá",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Hành tỏi băm",
+    "Ớt băm",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01458",
+    "ingre06247",
+    "ingre02817",
+    "ingre07717",
+    "ingre02673",
+    "ingre07971",
+    "ingre07583",
+    "ingre04694",
+    "ingre00819",
+    "ingre06644",
+    "ingre02124",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Cá basa",
+    "Thơm",
+    "Hành tỏi băm",
+    "Đầu hành lá",
+    "Hành lá",
+    "Ớt băm",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Basa fish",
+    "Basil",
+    "Chopped Garlic",
+    "Chive;top",
+    "Scallion",
+    "Chopped Pepper",
+    "Sugar",
+    "Fish Sauce",
+    "MSG",
+    "Ground pepper",
+    "Cooking oil",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "ca basa",
+    "thom",
+    "hanh toi bam",
+    "dau hanh la",
+    "hanh la",
+    "ot bam",
+    "duong",
+    "nuoc mam",
+    "bot ngot",
+    "tieu xay",
+    "dau an",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

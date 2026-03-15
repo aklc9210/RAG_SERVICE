@@ -1,0 +1,108 @@
+{
+  "id": "dish3248",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3248.json",
+  "name_vi": "Bún ốc nguội",
+  "name_en": "",
+  "name_normalized": "bun oc nguoi",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún lá",
+    "Thịt ốc bươu",
+    "Xương heo",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Ớt bột",
+    "Tỏi",
+    "Dầu ăn",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00347",
+    "ingre06540",
+    "ingre07422",
+    "ingre01354",
+    "ingre08078",
+    "ingre07977",
+    "ingre02768",
+    "ingre07063",
+    "ingre04165",
+    "ingre02124",
+    "ingre02355",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bún lá",
+    "Thịt ốc bươu",
+    "Xương heo",
+    "Cà chua",
+    "Ớt tươi",
+    "Ớt bột",
+    "Hành tím",
+    "Tỏi",
+    "Mẻ",
+    "Dầu ăn",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper Leaves",
+    "Pork belly",
+    "Pork bone",
+    "Tomato",
+    "Fresh chili",
+    "Chili powder",
+    "Shallot",
+    "Garlic",
+    "Tamarind",
+    "Cooking oil",
+    "Vinegar",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bun la",
+    "thit oc buou",
+    "xuong heo",
+    "ca chua",
+    "ot tuoi",
+    "ot bot",
+    "hanh tim",
+    "toi",
+    "me",
+    "dau an",
+    "giam",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

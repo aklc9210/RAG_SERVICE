@@ -1,0 +1,92 @@
+{
+  "id": "dish5252",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5252.json",
+  "name_vi": "Mì xào xúc xích sốt chua ngọt",
+  "name_en": "",
+  "name_normalized": "mi xao xuc xich sot chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì Hàn Quốc",
+    "Xúc xích Đức"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Sốt sườn xào chua ngọt",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03969",
+    "ingre07409",
+    "ingre07999",
+    "ingre02741",
+    "ingre02702",
+    "ingre06001",
+    "ingre07071",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mì Hàn Quốc",
+    "Xúc xích Đức",
+    "Ớt chuông",
+    "Hành tây",
+    "Hành lá/ ngò rí",
+    "Sốt sườn xào chua ngọt",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Korean noodles",
+    "German sausage",
+    "Bell pepper",
+    "Onion",
+    "Chives",
+    "Barbecue Sauce",
+    "Minced Garlic",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi han quoc",
+    "xuc xich duc",
+    "ot chuong",
+    "hanh tay",
+    "hanh la ngo ri",
+    "sot suon xao chua ngot",
+    "toi bam",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

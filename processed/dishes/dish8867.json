@@ -1,0 +1,77 @@
+{
+  "id": "dish8867",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8867.json",
+  "name_vi": "Xôi mít bằng nồi cơm điện",
+  "name_en": "",
+  "name_normalized": "xoi mit bang noi com dien",
+  "category": "an vat",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Mít"
+  ],
+  "secondary_ingredients": [
+    "Xoài",
+    "Lá dứa",
+    "Mè rang",
+    "Dừa nạo"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre04031",
+    "ingre07329",
+    "ingre03417",
+    "ingre04554",
+    "ingre03929",
+    "ingre02182",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Mít",
+    "Xoài",
+    "Lá dứa",
+    "Nước cốt dừa",
+    "Mè rang",
+    "Dừa nạo",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Pineapple",
+    "Mango",
+    "Pandan叶",
+    "Coconut milk",
+    "Roasted Sesame Seeds",
+    "Coconut grated",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "mit",
+    "xoai",
+    "la dua",
+    "nuoc cot dua",
+    "me rang",
+    "dua nao",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

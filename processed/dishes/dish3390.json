@@ -1,0 +1,131 @@
+{
+  "id": "dish3390",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3390.json",
+  "name_vi": "Cà ri vịt sữa tươi và chuối sáp",
+  "name_en": "",
+  "name_normalized": "ca ri vit sua tuoi va chuoi sap",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Huyết vịt",
+    "Chuối sáp hấp chín",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Nước cà ri",
+    "Sả",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột cà ri",
+    "Gừng",
+    "Rượu trắng",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre02630",
+    "ingre01179",
+    "ingre06147",
+    "ingre04626",
+    "ingre04525",
+    "ingre00631",
+    "ingre05900",
+    "ingre02485",
+    "ingre05574",
+    "ingre05359",
+    "ingre02774",
+    "ingre07071",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Huyết vịt",
+    "Chuối sáp hấp chín",
+    "Sữa tươi không đường",
+    "Nước dừa tươi",
+    "Nước cà ri",
+    "Bột cà ri",
+    "Sả",
+    "Gừng",
+    "Rượu trắng",
+    "Rau răm",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Duck blood",
+    "Ripe Steamed Banana",
+    "Fat-free Milk",
+    "Coconut water",
+    "Curry sauce",
+    "Curry powder",
+    "Lemongrass",
+    "Ginger",
+    "White wine",
+    "Vietnamese coriander",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "huyet vit",
+    "chuoi sap hap chin",
+    "sua tuoi khong duong",
+    "nuoc dua tuoi",
+    "nuoc ca ri",
+    "bot ca ri",
+    "sa",
+    "gung",
+    "ruou trang",
+    "rau ram",
+    "hanh tim bam",
+    "toi bam",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

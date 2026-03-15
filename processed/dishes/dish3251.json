@@ -1,0 +1,73 @@
+{
+  "id": "dish3251",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3251.json",
+  "name_vi": "Chả cua chay",
+  "name_en": "",
+  "name_normalized": "cha cua chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Tàu hủ ky tươi",
+    "Đậu hủ"
+  ],
+  "secondary_ingredients": [
+    "Rong biển",
+    "Hành tím",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06194",
+    "ingre07537",
+    "ingre05447",
+    "ingre02545",
+    "ingre05619",
+    "ingre01992",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hủ ky tươi",
+    "Đậu hủ",
+    "Rong biển",
+    "Hành tím",
+    "Sa tế",
+    "Dầu điều",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Firm Tofu",
+    "Tofu",
+    "Kelp",
+    "Shallot",
+    "Fish sauce",
+    "Coconut oil",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky tuoi",
+    "dau hu",
+    "rong bien",
+    "hanh tim",
+    "sa te",
+    "dau dieu",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "dish0475",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0475.json",
+  "name_vi": "Canh cá thu nấu ngót",
+  "name_en": "",
+  "name_normalized": "canh ca thu nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá thu",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Tắc",
+    "Hành lá",
+    "Rau cần"
+  ],
+  "seasonings": [
+    "Gừng nhỏ",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường - muối - hạt nêm - bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01625",
+    "ingre01354",
+    "ingre02512",
+    "ingre02768",
+    "ingre07057",
+    "ingre04694",
+    "ingre02673",
+    "ingre05238",
+    "ingre02124",
+    "ingre07586"
+  ],
+  "ingredient_names_vi": [
+    "Cá thu",
+    "Cà chua",
+    "Gừng nhỏ",
+    "Hành tím",
+    "Tắc",
+    "Nước mắm",
+    "Hành lá",
+    "Rau cần",
+    "Dầu ăn",
+    "Đường - muối - hạt nêm - bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Codfish",
+    "Tomato",
+    "Ginger",
+    "Shallot",
+    "Tamarind",
+    "Fish Sauce",
+    "Scallion",
+    "Coriander",
+    "Cooking oil",
+    "Sugar - Salt - Seasoning - Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca thu",
+    "ca chua",
+    "gung nho",
+    "hanh tim",
+    "tac",
+    "nuoc mam",
+    "hanh la",
+    "rau can",
+    "dau an",
+    "duong muoi hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong - muoi - hat nem - bot ngot",
+      "new": "duong muoi hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường - muối - hạt nêm - bột ngọt"
+    }
+  ]
+}

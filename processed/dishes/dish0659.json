@@ -1,0 +1,83 @@
+{
+  "id": "dish0659",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0659.json",
+  "name_vi": "Canh cồi sò điệp",
+  "name_en": "",
+  "name_normalized": "canh coi so diep",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sò điệp",
+    "Bí đao"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05824",
+    "ingre00247",
+    "ingre02673",
+    "ingre07071",
+    "ingre02124",
+    "ingre04694",
+    "ingre06612",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sò điệp",
+    "Bí đao",
+    "Hành lá",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Scallop",
+    "Cucumber",
+    "Scallion",
+    "Minced Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Pepper",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "so diep",
+    "bi dao",
+    "hanh la",
+    "toi bam",
+    "dau an",
+    "nuoc mam",
+    "tieu",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

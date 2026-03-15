@@ -1,0 +1,126 @@
+{
+  "id": "dish7133",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7133.json",
+  "name_vi": "Phở chiên phồng bò xào",
+  "name_en": "",
+  "name_normalized": "pho chien phong bo xao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bánh phở cuốn",
+    "Thịt thăn bò",
+    "Cải thìa"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cần tây",
+    "Cà chua",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi tây",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00140",
+    "ingre06497",
+    "ingre01419",
+    "ingre01792",
+    "ingre02741",
+    "ingre07104",
+    "ingre01812",
+    "ingre01354",
+    "ingre02673",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre02080",
+    "ingre02995",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh phở cuốn",
+    "Thịt thăn bò",
+    "Cà rốt",
+    "Cải thìa",
+    "Hành tây",
+    "Tỏi tây",
+    "Cần tây",
+    "Cà chua",
+    "Hành lá",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu hào",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh Rice Noodle Wraps",
+    "Beef tenderloin",
+    "Carrot",
+    "Chinese cabbage",
+    "Onion",
+    "Bokchoy",
+    "Celery",
+    "Tomato",
+    "Scallion",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Soy sauce",
+    "Seasoning",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh pho cuon",
+    "thit than bo",
+    "ca rot",
+    "cai thia",
+    "hanh tay",
+    "toi tay",
+    "can tay",
+    "ca chua",
+    "hanh la",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "dau hao",
+    "hat nem",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

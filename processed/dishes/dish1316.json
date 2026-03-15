@@ -1,0 +1,67 @@
+{
+  "id": "dish1316",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1316.json",
+  "name_vi": "Bánh rán doremon nhân mặn",
+  "name_en": "",
+  "name_normalized": "banh ran doremon nhan man",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Xúc xích",
+    "Lạp xưởng",
+    "Chà bông"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì",
+    "Baking soda",
+    "Đường trắng",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00759",
+    "ingre00018",
+    "ingre07396",
+    "ingre03618",
+    "ingre01202",
+    "ingre07652",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột mì",
+    "Baking soda",
+    "Xúc xích",
+    "Lạp xưởng",
+    "Chà bông",
+    "Đường trắng",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Wheat Flour",
+    "Baking soda",
+    "Sausage",
+    "Pork floss",
+    "White sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot mi",
+    "baking soda",
+    "xuc xich",
+    "lap xuong",
+    "cha bong",
+    "duong trang",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

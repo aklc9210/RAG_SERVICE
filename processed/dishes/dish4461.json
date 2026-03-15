@@ -1,0 +1,77 @@
+{
+  "id": "dish4461",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4461.json",
+  "name_vi": "Cá chép giòn xào ớt chuông",
+  "name_en": "",
+  "name_normalized": "ca chep gion xao ot chuong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cá chép giòn"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nghệ"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Gừng",
+    "Muối",
+    "Nước mắm",
+    "Hạt tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01493",
+    "ingre07999",
+    "ingre05900",
+    "ingre02485",
+    "ingre04304",
+    "ingre03746",
+    "ingre04694",
+    "ingre03043"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép giòn",
+    "Ớt chuông",
+    "Sả",
+    "Gừng",
+    "Nghệ",
+    "Muối",
+    "Nước mắm",
+    "Hạt tiêu"
+  ],
+  "ingredient_names_en": [
+    "Glass carp",
+    "Bell pepper",
+    "Lemongrass",
+    "Ginger",
+    "Turmeric",
+    "Salt",
+    "Fish Sauce",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep gion",
+    "ot chuong",
+    "sa",
+    "gung",
+    "nghe",
+    "muoi",
+    "nuoc mam",
+    "hat tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

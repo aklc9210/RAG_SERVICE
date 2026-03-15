@@ -1,0 +1,60 @@
+{
+  "id": "dish8781",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8781.json",
+  "name_vi": "Mứt lạc (mứt đậu phộng)",
+  "name_en": "",
+  "name_normalized": "mut lac mut dau phong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Lạc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường cát trắng",
+    "Bột bắp",
+    "Vani",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03607",
+    "ingre07601",
+    "ingre00564",
+    "ingre07140",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lạc",
+    "Đường cát trắng",
+    "Bột bắp",
+    "Vani",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "White Sugar",
+    "Corn starch",
+    "Vanilla",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "lac",
+    "duong cat trang",
+    "bot bap",
+    "vani",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mut lac (mut dau phong)",
+      "new": "mut lac mut dau phong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

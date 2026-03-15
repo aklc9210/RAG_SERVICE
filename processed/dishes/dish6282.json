@@ -1,0 +1,121 @@
+{
+  "id": "dish6282",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6282.json",
+  "name_vi": "Chân vịt hầm nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "chan vit ham nuoc cot dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Chân vịt",
+    "Cùi dừa",
+    "Sả",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Vỏ cam"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Lá chanh",
+    "Gừng",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01247",
+    "ingre01716",
+    "ingre05900",
+    "ingre02768",
+    "ingre08097",
+    "ingre03370",
+    "ingre07246",
+    "ingre02485",
+    "ingre02355",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Chân vịt",
+    "Cùi dừa",
+    "Sả",
+    "Hành tím",
+    "Ớt đỏ",
+    "Lá chanh",
+    "Vỏ cam",
+    "Gừng",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pennywort",
+    "Coconut meat",
+    "Lemongrass",
+    "Shallot",
+    "Red pepper",
+    "Lime leaf",
+    "Orange peel",
+    "Ginger",
+    "Vinegar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "chan vit",
+    "cui dua",
+    "sa",
+    "hanh tim",
+    "ot do",
+    "la chanh",
+    "vo cam",
+    "gung",
+    "giam",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

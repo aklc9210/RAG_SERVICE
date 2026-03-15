@@ -1,0 +1,63 @@
+{
+  "id": "dish1145",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1145.json",
+  "name_vi": "Bánh bó mứt",
+  "name_en": "",
+  "name_normalized": "banh bo mut",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mứt dừa",
+    "Mứt bí",
+    "Mứt gừng",
+    "Mứt mãng cầu",
+    "Mứt hạt sen"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre07597",
+    "ingre04233",
+    "ingre04218",
+    "ingre04235",
+    "ingre04244",
+    "ingre04240"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Đường cát",
+    "Mứt dừa",
+    "Mứt bí",
+    "Mứt gừng",
+    "Mứt mãng cầu",
+    "Mứt hạt sen"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Sugar",
+    "Coconut candy",
+    "Pumpkin candy",
+    "Ginger Candy",
+    "Papaya preserve",
+    "Lotus Seed Candy"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "duong cat",
+    "mut dua",
+    "mut bi",
+    "mut gung",
+    "mut mang cau",
+    "mut hat sen"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

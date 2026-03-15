@@ -1,0 +1,91 @@
+{
+  "id": "dish8958",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8958.json",
+  "name_vi": "Thịt heo khô miếng - khô heo singapore",
+  "name_en": "",
+  "name_normalized": "thit heo kho mieng kho heo singapore",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Dầu hàu",
+    "Mè hạt"
+  ],
+  "seasonings": [
+    "Rượu nấu ăn",
+    "Nước tương",
+    "Đường",
+    "Hắc xì dầu",
+    "Nước mắm",
+    "Tiêu trắng xay",
+    "Tiêu đen xay"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre05552",
+    "ingre04790",
+    "ingre04124",
+    "ingre02087",
+    "ingre07583",
+    "ingre03084",
+    "ingre04694",
+    "ingre03928",
+    "ingre06636",
+    "ingre06655"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Rượu nấu ăn",
+    "Nước tương",
+    "Mật ong",
+    "Dầu hàu",
+    "Đường",
+    "Hắc xì dầu",
+    "Nước mắm",
+    "Mè hạt",
+    "Tiêu trắng xay",
+    "Tiêu đen xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Cooking wine",
+    "Soy Sauce",
+    "Honey",
+    "Oyster oil",
+    "Sugar",
+    "Black soy sauce",
+    "Fish Sauce",
+    "Sesame Seeds",
+    "Ground white pepper",
+    "Black Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "ruou nau an",
+    "nuoc tuong",
+    "mat ong",
+    "dau hau",
+    "duong",
+    "hac xi dau",
+    "nuoc mam",
+    "me hat",
+    "tieu trang xay",
+    "tieu den xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit heo kho mieng - kho heo singapore",
+      "new": "thit heo kho mieng kho heo singapore",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

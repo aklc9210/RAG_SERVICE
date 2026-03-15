@@ -1,0 +1,106 @@
+{
+  "id": "dish10716",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10716.json",
+  "name_vi": "Mì trộn phô mai xúc xích",
+  "name_en": "",
+  "name_normalized": "mi tron pho mai xuc xich",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Có thể dùng mì gói thường",
+    "Phô mai que Mozzarella",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá",
+    "Trứng cút",
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột ớt Hàn Quốc",
+    "Tương ớt Hàn Quốc",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01707",
+    "ingre05110",
+    "ingre07396",
+    "ingre07063",
+    "ingre02741",
+    "ingre02673",
+    "ingre06816",
+    "ingre03936",
+    "ingre01023",
+    "ingre07036",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Có thể dùng mì gói thường",
+    "Phô mai que Mozzarella",
+    "Xúc xích",
+    "Tỏi",
+    "Hành tây",
+    "Hành lá",
+    "Trứng cút",
+    "Mè trắng rang",
+    "Bột ớt Hàn Quốc",
+    "Tương ớt Hàn Quốc",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Instant noodles",
+    "Mozzarella Cheese",
+    "Sausage",
+    "Garlic",
+    "Onion",
+    "Scallion",
+    "Quail egg",
+    "Roasted White Sesame",
+    "Korean Chili Powder",
+    "Korean chili paste",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "co the dung mi goi thuong",
+    "pho mai que mozzarella",
+    "xuc xich",
+    "toi",
+    "hanh tay",
+    "hanh la",
+    "trung cut",
+    "me trang rang",
+    "bot ot han quoc",
+    "tuong ot han quoc",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

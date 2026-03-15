@@ -1,0 +1,81 @@
+{
+  "id": "dish1025",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1025.json",
+  "name_vi": "Cheesecake trà xanh (matcha)",
+  "name_en": "",
+  "name_normalized": "cheesecake tra xanh matcha",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh quy giòn"
+  ],
+  "secondary_ingredients": [
+    "Kem phô mai",
+    "Bơ lạt",
+    "Whipping cream",
+    "Gelatin",
+    "Sữa tươi",
+    "Nước nóng"
+  ],
+  "seasonings": [
+    "Bột trà xanh",
+    "Đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre00150",
+    "ingre00961",
+    "ingre03137",
+    "ingre00382",
+    "ingre07313",
+    "ingre02253",
+    "ingre07597",
+    "ingre06144",
+    "ingre04738"
+  ],
+  "ingredient_names_vi": [
+    "Bánh quy giòn",
+    "Bột trà xanh",
+    "Kem phô mai",
+    "Bơ lạt",
+    "Whipping cream",
+    "Gelatin",
+    "Đường cát",
+    "Sữa tươi",
+    "Nước nóng"
+  ],
+  "ingredient_names_en": [
+    "Crisp Cookie",
+    "Green tea powder",
+    "Cottage Cheese",
+    "Butter",
+    "Whipping cream",
+    "Gelatin",
+    "Sugar",
+    "Fresh Milk",
+    "Hot water"
+  ],
+  "ingredient_names_normalized": [
+    "banh quy gion",
+    "bot tra xanh",
+    "kem pho mai",
+    "bo lat",
+    "whipping cream",
+    "gelatin",
+    "duong cat",
+    "sua tuoi",
+    "nuoc nong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cheesecake tra xanh (matcha)",
+      "new": "cheesecake tra xanh matcha",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

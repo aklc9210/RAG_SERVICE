@@ -1,0 +1,66 @@
+{
+  "id": "dish2072",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2072.json",
+  "name_vi": "Kem cháy - creme brulee socola đen",
+  "name_en": "",
+  "name_normalized": "kem chay creme brulee socola den",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Heavy cream"
+  ],
+  "secondary_ingredients": [
+    "Socola",
+    "Lòng đỏ trứng gà",
+    "Dâu tây"
+  ],
+  "seasonings": [
+    "Rượu Baileys Irish cream",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02558",
+    "ingre05520",
+    "ingre05734",
+    "ingre03584",
+    "ingre07583",
+    "ingre01961"
+  ],
+  "ingredient_names_vi": [
+    "Heavy cream",
+    "Rượu Baileys Irish cream",
+    "Socola",
+    "Lòng đỏ trứng gà",
+    "Đường",
+    "Dâu tây"
+  ],
+  "ingredient_names_en": [
+    "Heavy cream",
+    "Baileys Irish Cream",
+    "Chocolate",
+    "Egg yolk",
+    "Sugar",
+    "Strawberry"
+  ],
+  "ingredient_names_normalized": [
+    "heavy cream",
+    "ruou baileys irish cream",
+    "socola",
+    "long do trung ga",
+    "duong",
+    "dau tay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem chay - creme brulee socola den",
+      "new": "kem chay creme brulee socola den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

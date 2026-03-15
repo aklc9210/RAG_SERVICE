@@ -1,0 +1,108 @@
+{
+  "id": "dish5448",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5448.json",
+  "name_vi": "Mực xào cần tỏi tây",
+  "name_en": "",
+  "name_normalized": "muc xao can toi tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực",
+    "Cần tây",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nấm hương"
+  ],
+  "seasonings": [
+    "Tỏi tây",
+    "Cà rốt",
+    "Ớt sừng",
+    "Gừng",
+    "Rượu trắng",
+    "Tỏi",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre01812",
+    "ingre07104",
+    "ingre02673",
+    "ingre02741",
+    "ingre01419",
+    "ingre08055",
+    "ingre04910",
+    "ingre02485",
+    "ingre05574",
+    "ingre07063",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Cần tây",
+    "Tỏi tây",
+    "Hành lá",
+    "Hành tây",
+    "Cà rốt",
+    "Ớt sừng",
+    "Nấm hương",
+    "Gừng",
+    "Rượu trắng",
+    "Tỏi",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Celery",
+    "Bokchoy",
+    "Scallion",
+    "Onion",
+    "Carrot",
+    "Hot pepper",
+    "Mushroom",
+    "Ginger",
+    "White wine",
+    "Garlic",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "can tay",
+    "toi tay",
+    "hanh la",
+    "hanh tay",
+    "ca rot",
+    "ot sung",
+    "nam huong",
+    "gung",
+    "ruou trang",
+    "toi",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

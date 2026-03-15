@@ -1,0 +1,81 @@
+{
+  "id": "dish0802",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0802.json",
+  "name_vi": "Canh chua bắp bò nấu khế",
+  "name_en": "",
+  "name_normalized": "canh chua bap bo nau khe",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bắp bò",
+    "Khế chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre03269",
+    "ingre02673",
+    "ingre05359",
+    "ingre02667",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Khế chua",
+    "Hành lá",
+    "Rau răm",
+    "Hành khô",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tamarind",
+    "Scallion",
+    "Vietnamese coriander",
+    "Garlic Powder",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "khe chua",
+    "hanh la",
+    "rau ram",
+    "hanh kho",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

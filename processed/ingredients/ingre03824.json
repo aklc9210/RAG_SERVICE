@@ -1,0 +1,25 @@
+{
+  "id": "ingre03824",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03824.json",
+  "name_vi": "muối/giấm",
+  "name_en": "Pickled Vegetable",
+  "name_normalized": "muoi giam",
+  "synonyms": [
+    "giấm gạo"
+  ],
+  "synonyms_normalized": [
+    "giam gao"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/giam",
+      "new": "muoi giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

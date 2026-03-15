@@ -1,0 +1,93 @@
+{
+  "id": "dish5760",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5760.json",
+  "name_vi": "Đuôi heo kho tiêu",
+  "name_en": "",
+  "name_normalized": "duoi heo kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Đuôi heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Tương ớt",
+    "Dầu ăn",
+    "Tỏi",
+    "Ớt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07502",
+    "ingre04694",
+    "ingre07583",
+    "ingre06644",
+    "ingre00819",
+    "ingre07028",
+    "ingre02124",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đuôi heo",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Tương ớt",
+    "Dầu ăn",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork tail",
+    "Fish Sauce",
+    "Sugar",
+    "Ground pepper",
+    "MSG",
+    "Hot Sauce",
+    "Cooking oil",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "duoi heo",
+    "nuoc mam",
+    "duong",
+    "tieu xay",
+    "bot ngot",
+    "tuong ot",
+    "dau an",
+    "toi",
+    "ot",
+    "hanh tim",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

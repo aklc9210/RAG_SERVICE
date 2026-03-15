@@ -1,0 +1,112 @@
+{
+  "id": "dish1295",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1295.json",
+  "name_vi": "Bánh đúc",
+  "name_en": "",
+  "name_normalized": "banh duc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo băm"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Nấm mèo",
+    "Rau mùi",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Bột nếp",
+    "Tỏi ớt băm",
+    "Dầu ăn",
+    "Giấm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre00859",
+    "ingre06403",
+    "ingre04910",
+    "ingre04930",
+    "ingre05302",
+    "ingre07118",
+    "ingre02768",
+    "ingre02124",
+    "ingre02355",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Bột nếp",
+    "Thịt heo băm",
+    "Nấm hương",
+    "Nấm mèo",
+    "Rau mùi",
+    "Tỏi ớt băm",
+    "Hành tím",
+    "Dầu ăn",
+    "Giấm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Glutinous rice flour",
+    "Ground Pork",
+    "Mushroom",
+    "Mint",
+    "Minced chili garlic",
+    "Shallot",
+    "Cooking oil",
+    "Vinegar",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "bot nep",
+    "thit heo bam",
+    "nam huong",
+    "nam meo",
+    "rau mui",
+    "toi ot bam",
+    "hanh tim",
+    "dau an",
+    "giam",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

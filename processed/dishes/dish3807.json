@@ -1,0 +1,87 @@
+{
+  "id": "dish3807",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3807.json",
+  "name_vi": "Vịt nướng giả cầy",
+  "name_en": "",
+  "name_normalized": "vit nuong gia cay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Lá mơ"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tương ớt",
+    "Mắm tôm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre02485",
+    "ingre05436",
+    "ingre05900",
+    "ingre03475",
+    "ingre07028",
+    "ingre04159",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Gừng",
+    "Riềng",
+    "Sả",
+    "Lá mơ",
+    "Tương ớt",
+    "Mắm tôm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Ginger",
+    "Galangal",
+    "Lemongrass",
+    "Mint Leaf",
+    "Hot Sauce",
+    "Shrimp paste",
+    "Sugar",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "gung",
+    "rieng",
+    "sa",
+    "la mo",
+    "tuong ot",
+    "mam tom",
+    "duong",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

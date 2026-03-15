@@ -1,0 +1,106 @@
+{
+  "id": "dish7850",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7850.json",
+  "name_vi": "Lẩu gà Thái chua cay",
+  "name_en": "",
+  "name_normalized": "lau ga thai chua cay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Cà chua",
+    "Hành tây",
+    "Dầu màu điều",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Tương ớt",
+    "Tương cà"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre07063",
+    "ingre02768",
+    "ingre05900",
+    "ingre01079",
+    "ingre01354",
+    "ingre02741",
+    "ingre07966",
+    "ingre07028",
+    "ingre06984",
+    "ingre02093",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Tỏi",
+    "Hành tím",
+    "Sả",
+    "Chanh",
+    "Cà chua",
+    "Hành tây",
+    "Ớt",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu màu điều",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Garlic",
+    "Shallot",
+    "Lemongrass",
+    "Lemon",
+    "Tomato",
+    "Onion",
+    "Pepper",
+    "Hot Sauce",
+    "Miso酱",
+    "Peanut-colored food coloring",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "toi",
+    "hanh tim",
+    "sa",
+    "chanh",
+    "ca chua",
+    "hanh tay",
+    "ot",
+    "tuong ot",
+    "tuong ca",
+    "dau mau dieu",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

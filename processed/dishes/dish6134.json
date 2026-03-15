@@ -1,0 +1,91 @@
+{
+  "id": "dish6134",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6134.json",
+  "name_vi": "Tép rang khế chua",
+  "name_en": "",
+  "name_normalized": "tep rang khe chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tép",
+    "Khế xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06915",
+    "ingre03270",
+    "ingre02768",
+    "ingre02673",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tép",
+    "Khế xanh",
+    "Hành tím",
+    "Hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Green quince",
+    "Shallot",
+    "Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tep",
+    "khe xanh",
+    "hanh tim",
+    "hanh la",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

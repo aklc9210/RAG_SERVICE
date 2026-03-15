@@ -1,0 +1,96 @@
+{
+  "id": "dish7601",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7601.json",
+  "name_vi": "Thịt heo hấp gừng",
+  "name_en": "",
+  "name_normalized": "thit heo hap gung",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Thịt heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre02673",
+    "ingre02080",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Hành lá",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Scallion",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "gung",
+    "sa",
+    "ot",
+    "hanh la",
+    "dau hao",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dish2209",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2209.json",
+  "name_vi": "Bánh đúc tàu",
+  "name_en": "",
+  "name_normalized": "banh duc tau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Su hào",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Hành tím",
+    "Dầu màu điều",
+    "Nước",
+    "Nước ấm"
+  ],
+  "seasonings": [
+    "Bột gạo lọc",
+    "Đường",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dấm",
+    "Muối",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre00670",
+    "ingre06289",
+    "ingre05787",
+    "ingre06930",
+    "ingre04930",
+    "ingre02768",
+    "ingre02093",
+    "ingre07583",
+    "ingre04694",
+    "ingre02995",
+    "ingre02048",
+    "ingre03746",
+    "ingre07071",
+    "ingre04490",
+    "ingre04879"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo lọc",
+    "Thịt ba rọi",
+    "Su hào",
+    "Tôm",
+    "Nấm mèo",
+    "Hành tím",
+    "Dầu màu điều",
+    "Đường",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dấm",
+    "Muối",
+    "Tỏi băm",
+    "Nước",
+    "Nước ấm"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Pork belly",
+    "Carrot",
+    "Shrimp",
+    "Mushroom",
+    "Shallot",
+    "Peanut-colored food coloring",
+    "Sugar",
+    "Fish Sauce",
+    "Seasoning",
+    "Vinegar",
+    "Salt",
+    "Minced Garlic",
+    "Water",
+    "Warm water"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao loc",
+    "thit ba roi",
+    "su hao",
+    "tom",
+    "nam meo",
+    "hanh tim",
+    "dau mau dieu",
+    "duong",
+    "nuoc mam",
+    "hat nem",
+    "dam",
+    "muoi",
+    "toi bam",
+    "nuoc",
+    "nuoc am"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

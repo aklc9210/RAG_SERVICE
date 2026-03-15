@@ -1,0 +1,58 @@
+{
+  "id": "dish2224",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2224.json",
+  "name_vi": "Bánh mì sandwich đen",
+  "name_en": "",
+  "name_normalized": "banh mi sandwich den",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Nước ấm",
+    "Mật ong",
+    "Dầu oliu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì nguyên cám",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00771",
+    "ingre03687",
+    "ingre03746",
+    "ingre04879",
+    "ingre04124",
+    "ingre02104"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì nguyên cám",
+    "Men nở instant",
+    "Muối",
+    "Nước ấm",
+    "Mật ong",
+    "Dầu oliu"
+  ],
+  "ingredient_names_en": [
+    "Whole Grain Flour",
+    "Instant Yeast",
+    "Salt",
+    "Warm water",
+    "Honey",
+    "Olive oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi nguyen cam",
+    "men no instant",
+    "muoi",
+    "nuoc am",
+    "mat ong",
+    "dau oliu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

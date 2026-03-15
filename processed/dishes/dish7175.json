@@ -1,0 +1,97 @@
+{
+  "id": "dish7175",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7175.json",
+  "name_vi": "Bánh tép khoai môn",
+  "name_en": "",
+  "name_normalized": "banh tep khoai mon",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tép",
+    "Khoai môn cao"
+  ],
+  "secondary_ingredients": [
+    "Bún tươi/ rau ăn kèm"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Ớt sừng",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Giấm",
+    "Nước mắm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06915",
+    "ingre03209",
+    "ingre00598",
+    "ingre06823",
+    "ingre08055",
+    "ingre04538",
+    "ingre02124",
+    "ingre02355",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00360"
+  ],
+  "ingredient_names_vi": [
+    "Tép",
+    "Khoai môn cao",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Ớt sừng",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Giấm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bún tươi/ rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Sweet Potato",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Hot pepper",
+    "Lemon juice",
+    "Cooking oil",
+    "Vinegar",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Fresh noodles/accompanying vegetables"
+  ],
+  "ingredient_names_normalized": [
+    "tep",
+    "khoai mon cao",
+    "bot chien gion",
+    "trung ga",
+    "ot sung",
+    "nuoc cot chanh",
+    "dau an",
+    "giam",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bun tuoi rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bun tuoi/ rau an kem",
+      "new": "bun tuoi rau an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bún tươi/ rau ăn kèm"
+    }
+  ]
+}

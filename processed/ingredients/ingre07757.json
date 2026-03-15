@@ -1,0 +1,29 @@
+{
+  "id": "ingre07757",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07757.json",
+  "name_vi": "đậu hũ trắng:100 g",
+  "name_en": "Tofu white:100 g",
+  "name_normalized": "dau hu trang 100 g",
+  "synonyms": [
+    "tôm be",
+    "đậu phụ",
+    "bột đỗ"
+  ],
+  "synonyms_normalized": [
+    "tom be",
+    "dau phu",
+    "bot do"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hu trang:100 g",
+      "new": "dau hu trang 100 g",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

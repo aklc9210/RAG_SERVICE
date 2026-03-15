@@ -1,0 +1,86 @@
+{
+  "id": "dish1261",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1261.json",
+  "name_vi": "Bánh milo kem mặn (kem cheese)",
+  "name_en": "",
+  "name_normalized": "banh milo kem man kem cheese",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cream cheese",
+    "Whipping cream",
+    "Viên ngũ cốc milo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 8",
+    "Bột cacao",
+    "Bột milo",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre00576",
+    "ingre00741",
+    "ingre01324",
+    "ingre06823",
+    "ingre07313",
+    "ingre06147",
+    "ingre07583",
+    "ingre02124",
+    "ingre07161"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Bột cacao",
+    "Bột milo",
+    "Cream cheese",
+    "Trứng gà",
+    "Whipping cream",
+    "Sữa tươi không đường",
+    "Đường",
+    "Dầu ăn",
+    "Viên ngũ cốc milo"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Cocoa powder",
+    "Milo powder",
+    "Cream cheese",
+    "Chicken egg",
+    "Whipping cream",
+    "Fat-free Milk",
+    "Sugar",
+    "Cooking oil",
+    "Milo cereal bead"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "bot cacao",
+    "bot milo",
+    "cream cheese",
+    "trung ga",
+    "whipping cream",
+    "sua tuoi khong duong",
+    "duong",
+    "dau an",
+    "vien ngu coc milo"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh milo kem man (kem cheese)",
+      "new": "banh milo kem man kem cheese",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

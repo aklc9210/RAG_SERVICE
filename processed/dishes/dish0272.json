@@ -1,0 +1,103 @@
+{
+  "id": "dish0272",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0272.json",
+  "name_vi": "Canh kim chi thịt bò",
+  "name_en": "",
+  "name_normalized": "canh kim chi thit bo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cá khô",
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Kim chi",
+    "Nấm kim châm",
+    "Hành tây",
+    "Hành lá",
+    "Nước"
+  ],
+  "seasonings": [
+    "Tương ớt Hàn Quốc",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01537",
+    "ingre07755",
+    "ingre03277",
+    "ingre04921",
+    "ingre02741",
+    "ingre02673",
+    "ingre07036",
+    "ingre02124",
+    "ingre04490",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cá khô",
+    "Đậu hũ trắng",
+    "Kim chi",
+    "Nấm kim châm",
+    "Hành tây",
+    "Hành lá",
+    "Tương ớt Hàn Quốc",
+    "Dầu ăn",
+    "Nước",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Dried fish",
+    "Tofu",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Mushroom",
+    "Onion",
+    "Scallion",
+    "Korean chili paste",
+    "Cooking oil",
+    "Water",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca kho",
+    "dau hu trang",
+    "kim chi",
+    "nam kim cham",
+    "hanh tay",
+    "hanh la",
+    "tuong ot han quoc",
+    "dau an",
+    "nuoc",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish6510",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6510.json",
+  "name_vi": "Trứng chiên cà chua",
+  "name_en": "",
+  "name_normalized": "trung chien ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành ngò",
+    "Nước",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01354",
+    "ingre02741",
+    "ingre06801",
+    "ingre02768",
+    "ingre02724",
+    "ingre04490",
+    "ingre02124",
+    "ingre02134",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Cà chua",
+    "Hành tây",
+    "Trứng",
+    "Hành tím",
+    "Hành ngò",
+    "Nước",
+    "Dầu ăn",
+    "Dầu điều",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Tomato",
+    "Onion",
+    "Egg",
+    "Shallot",
+    "Chives",
+    "Water",
+    "Cooking oil",
+    "Peanut oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Pepper",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua",
+    "hanh tay",
+    "trung",
+    "hanh tim",
+    "hanh ngo",
+    "nuoc",
+    "dau an",
+    "dau dieu",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "tieu",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

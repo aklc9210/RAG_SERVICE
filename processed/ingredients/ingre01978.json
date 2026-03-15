@@ -1,0 +1,25 @@
+{
+  "id": "ingre01978",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01978.json",
+  "name_vi": "dây lạc/ dây chuối",
+  "name_en": "Passionfruit vine/Watermelon vine",
+  "name_normalized": "day lac day chuoi",
+  "synonyms": [
+    "dây mía"
+  ],
+  "synonyms_normalized": [
+    "day mia"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "day lac/ day chuoi",
+      "new": "day lac day chuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

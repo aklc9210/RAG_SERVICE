@@ -1,0 +1,76 @@
+{
+  "id": "dish2067",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2067.json",
+  "name_vi": "Bánh xôi đậu đen - đậu đen xôi gừng",
+  "name_en": "",
+  "name_normalized": "banh xoi dau den dau den xoi gung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp",
+    "Đậu đen"
+  ],
+  "secondary_ingredients": [
+    "Mè rang",
+    "Mứt gừng",
+    "Dầu dừa",
+    "Nước"
+  ],
+  "seasonings": [
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07863",
+    "ingre07628",
+    "ingre03929",
+    "ingre04235",
+    "ingre03746",
+    "ingre02067",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu đen",
+    "Đường nâu",
+    "Mè rang",
+    "Mứt gừng",
+    "Muối",
+    "Dầu dừa",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Black beans",
+    "Brown Sugar",
+    "Roasted Sesame Seeds",
+    "Ginger Candy",
+    "Salt",
+    "Coconut oil",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau den",
+    "duong nau",
+    "me rang",
+    "mut gung",
+    "muoi",
+    "dau dua",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh xoi dau den - dau den xoi gung",
+      "new": "banh xoi dau den dau den xoi gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

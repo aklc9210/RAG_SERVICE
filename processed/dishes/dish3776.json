@@ -1,0 +1,92 @@
+{
+  "id": "dish3776",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3776.json",
+  "name_vi": "Chả ếch cuộn lá lốt nướng",
+  "name_en": "",
+  "name_normalized": "cha ech cuon la lot nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ếch"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Hành phi khô",
+    "Ớt hiểm",
+    "Nước cốt dừa",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre03461",
+    "ingre02731",
+    "ingre05900",
+    "ingre08026",
+    "ingre07791",
+    "ingre04554",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Lá lốt",
+    "Hành phi khô",
+    "Sả",
+    "Ớt hiểm",
+    "Đậu phộng rang",
+    "Nước cốt dừa",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Cinnamon Leaf",
+    "Dried Fried Garlic",
+    "Lemongrass",
+    "Hot pepper",
+    "Roasted Peanut",
+    "Coconut milk",
+    "Salt",
+    "Pepper",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "la lot",
+    "hanh phi kho",
+    "sa",
+    "ot hiem",
+    "dau phong rang",
+    "nuoc cot dua",
+    "muoi",
+    "tieu",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

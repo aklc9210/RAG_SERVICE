@@ -1,0 +1,90 @@
+{
+  "id": "dish6206",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6206.json",
+  "name_vi": "Tôm rim mặn",
+  "name_en": "",
+  "name_normalized": "tom rim man",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu hào",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre07028",
+    "ingre02080",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu hào",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "ot",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "tuong ot",
+    "dau hao",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

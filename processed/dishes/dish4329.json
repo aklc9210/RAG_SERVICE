@@ -1,0 +1,50 @@
+{
+  "id": "dish4329",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4329.json",
+  "name_vi": "Phô mai Mozzarella - Mozzarella Cheese",
+  "name_en": "",
+  "name_normalized": "pho mai mozzarella mozzarella cheese",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sữa bò tươi",
+    "Axit citric",
+    "Rennet"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre06082",
+    "ingre00003",
+    "ingre05434"
+  ],
+  "ingredient_names_vi": [
+    "Sữa bò tươi",
+    "Axit citric",
+    "Rennet"
+  ],
+  "ingredient_names_en": [
+    "Fresh Cow Milk",
+    "Citric Acid",
+    "Rennet"
+  ],
+  "ingredient_names_normalized": [
+    "sua bo tuoi",
+    "axit citric",
+    "rennet"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pho mai mozzarella - mozzarella cheese",
+      "new": "pho mai mozzarella mozzarella cheese",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish9042",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9042.json",
+  "name_vi": "Gỏi cuốn thập cẩm",
+  "name_en": "",
+  "name_normalized": "goi cuon thap cam",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt nạc heo",
+    "Chả lụa"
+  ],
+  "secondary_ingredients": [
+    "Bánh tráng",
+    "Dưa leo",
+    "Hành tím",
+    "Rau sống"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Trứng gà",
+    "Tỏi",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06464",
+    "ingre01292",
+    "ingre01419",
+    "ingre06823",
+    "ingre00178",
+    "ingre02020",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre05379"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc heo",
+    "Chả lụa",
+    "Cà rốt",
+    "Trứng gà",
+    "Bánh tráng",
+    "Dưa leo",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Rau sống"
+  ],
+  "ingredient_names_en": [
+    "Pork Shoulder",
+    "Pork floss",
+    "Carrot",
+    "Chicken egg",
+    "Rice Paper",
+    "Cucumber",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Fresh herbs"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac heo",
+    "cha lua",
+    "ca rot",
+    "trung ga",
+    "banh trang",
+    "dua leo",
+    "hanh tim",
+    "toi",
+    "ot",
+    "rau song"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

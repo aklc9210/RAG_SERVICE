@@ -1,0 +1,87 @@
+{
+  "id": "dish8966",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8966.json",
+  "name_vi": "Khô nai",
+  "name_en": "",
+  "name_normalized": "kho nai",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt nai",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hạt màu điều"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Ngũ vị hương",
+    "Nước mắm",
+    "Đường",
+    "Bột nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06447",
+    "ingre05900",
+    "ingre07966",
+    "ingre02485",
+    "ingre04381",
+    "ingre04694",
+    "ingre02970",
+    "ingre07583",
+    "ingre00838",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nai",
+    "Sả",
+    "Ớt",
+    "Gừng",
+    "Ngũ vị hương",
+    "Nước mắm",
+    "Hạt màu điều",
+    "Đường",
+    "Bột nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Deer meat",
+    "Lemongrass",
+    "Pepper",
+    "Ginger",
+    "Five-Spice Powder",
+    "Fish Sauce",
+    "Pecan",
+    "Sugar",
+    "Seasoning Powder",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit nai",
+    "sa",
+    "ot",
+    "gung",
+    "ngu vi huong",
+    "nuoc mam",
+    "hat mau dieu",
+    "duong",
+    "bot nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

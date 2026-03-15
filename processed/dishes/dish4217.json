@@ -1,0 +1,70 @@
+{
+  "id": "dish4217",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4217.json",
+  "name_vi": "Nước chấm vịt, ngan, lợn quay",
+  "name_en": "",
+  "name_normalized": "nuoc cham vit ngan lon quay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hành tím",
+    "Nấm mèo cắt sợi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Tỏi",
+    "Tương hột"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre07063",
+    "ingre02768",
+    "ingre04935",
+    "ingre06994"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Tỏi",
+    "Hành tím",
+    "Nấm mèo cắt sợi",
+    "Tương hột"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Garlic",
+    "Shallot",
+    "Shredded cat's ear mushroom",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "toi",
+    "hanh tim",
+    "nam meo cat soi",
+    "tuong hot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc cham vit, ngan, lon quay",
+      "new": "nuoc cham vit ngan lon quay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

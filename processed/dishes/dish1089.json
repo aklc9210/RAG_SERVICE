@@ -1,0 +1,76 @@
+{
+  "id": "dish1089",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1089.json",
+  "name_vi": "Bánh bông lan sốt ruốc",
+  "name_en": "",
+  "name_normalized": "banh bong lan sot ruoc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Ruốc bông"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột ngô",
+    "Bột mì đa dụng",
+    "Sữa tươi có đường",
+    "Vani",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre05484",
+    "ingre00813",
+    "ingre00791",
+    "ingre06146",
+    "ingre07140",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Ruốc bông",
+    "Bột ngô",
+    "Bột mì đa dụng",
+    "Sữa tươi có đường",
+    "Vani",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Shredded fish paste",
+    "Corn flour",
+    "All-purpose flour",
+    "Sweetened Condensed Milk",
+    "Vanilla",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "ruoc bong",
+    "bot ngo",
+    "bot mi da dung",
+    "sua tuoi co duong",
+    "vani",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

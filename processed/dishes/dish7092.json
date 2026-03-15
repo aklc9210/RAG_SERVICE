@@ -1,0 +1,86 @@
+{
+  "id": "dish7092",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7092.json",
+  "name_vi": "Cá chép chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "ca chep chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá chép",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02673",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Hành lá",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Scallion",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "hanh tim",
+    "toi",
+    "ot",
+    "hanh la",
+    "tuong ot",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

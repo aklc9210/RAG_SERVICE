@@ -1,0 +1,61 @@
+{
+  "id": "dish8693",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8693.json",
+  "name_vi": "Chao thúi - chao chùa",
+  "name_en": "",
+  "name_normalized": "chao thui chao chua",
+  "category": "mon chay",
+  "main_ingredients": [
+    "Đậu hũ tươi"
+  ],
+  "secondary_ingredients": [
+    "Nước cơm"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07759",
+    "ingre04529",
+    "ingre05574",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ tươi",
+    "Nước cơm",
+    "Rượu trắng",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Steamed rice water",
+    "White wine",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu tuoi",
+    "nuoc com",
+    "ruou trang",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chao thui - chao chua",
+      "new": "chao thui chao chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

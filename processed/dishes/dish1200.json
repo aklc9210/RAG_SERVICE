@@ -1,0 +1,113 @@
+{
+  "id": "dish1200",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1200.json",
+  "name_vi": "Bánh cuốn gạo lứt",
+  "name_en": "",
+  "name_normalized": "banh cuon gao lut",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh tráng gạo lứt",
+    "Thịt heo xay",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương khô",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Hành phi",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00194",
+    "ingre06414",
+    "ingre06823",
+    "ingre04936",
+    "ingre04913",
+    "ingre02768",
+    "ingre02730",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng gạo lứt",
+    "Thịt heo xay",
+    "Trứng gà",
+    "Nấm mèo khô",
+    "Nấm hương khô",
+    "Hành tím",
+    "Hành phi",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice Wrappers",
+    "Ground Pork",
+    "Chicken egg",
+    "Dried cat's ear mushroom",
+    "Dried Shiitake Mushrooms",
+    "Shallot",
+    "Garlic Fried",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang gao lut",
+    "thit heo xay",
+    "trung ga",
+    "nam meo kho",
+    "nam huong kho",
+    "hanh tim",
+    "hanh phi",
+    "toi",
+    "ot",
+    "chanh",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

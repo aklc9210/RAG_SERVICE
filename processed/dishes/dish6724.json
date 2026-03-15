@@ -1,0 +1,73 @@
+{
+  "id": "dish6724",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6724.json",
+  "name_vi": "Nấm đùi gà chiên",
+  "name_en": "",
+  "name_normalized": "nam dui ga chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước tương",
+    "Tương ớt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04790",
+    "ingre07028",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước tương",
+    "Tương ớt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc tuong",
+    "tuong ot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

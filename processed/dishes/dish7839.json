@@ -1,0 +1,120 @@
+{
+  "id": "dish7839",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7839.json",
+  "name_vi": "Lẩu bò nhúng mẻ",
+  "name_en": "",
+  "name_normalized": "lau bo nhung me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Bún tươi",
+    "Thịt bò",
+    "Mẻ",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả",
+    "Dưa leo",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Hành tím phi",
+    "Dầu ăn",
+    "Mắm nêm",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre06300",
+    "ingre04165",
+    "ingre06247",
+    "ingre02741",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre02020",
+    "ingre05420",
+    "ingre02789",
+    "ingre02124",
+    "ingre04148",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Thịt bò",
+    "Mẻ",
+    "Thơm",
+    "Hành tây",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dưa leo",
+    "Rau ăn kèm",
+    "Hành tím phi",
+    "Dầu ăn",
+    "Mắm nêm",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Beef",
+    "Tamarind",
+    "Basil",
+    "Onion",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Cucumber",
+    "Side vegetable",
+    "Green onion fried",
+    "Cooking oil",
+    "Fish sauce",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "thit bo",
+    "me",
+    "thom",
+    "hanh tay",
+    "sa",
+    "toi",
+    "ot",
+    "chanh",
+    "dua leo",
+    "rau an kem",
+    "hanh tim phi",
+    "dau an",
+    "mam nem",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

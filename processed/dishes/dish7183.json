@@ -1,0 +1,85 @@
+{
+  "id": "dish7183",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7183.json",
+  "name_vi": "Cá nục chiên mắm tỏi",
+  "name_en": "",
+  "name_normalized": "ca nuc chien mam toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá nục"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre07063",
+    "ingre07966",
+    "ingre02702",
+    "ingre02124",
+    "ingre05574",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Tỏi",
+    "Ớt",
+    "Hành lá/ ngò rí",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Garlic",
+    "Pepper",
+    "Chives",
+    "Cooking oil",
+    "White wine",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "toi",
+    "ot",
+    "hanh la ngo ri",
+    "dau an",
+    "ruou trang",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

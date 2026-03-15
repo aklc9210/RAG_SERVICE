@@ -1,0 +1,25 @@
+{
+  "id": "ingre05267",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05267.json",
+  "name_vi": "rau húng quế/ rau mùi",
+  "name_en": "Sage Herb",
+  "name_normalized": "rau hung que rau mui",
+  "synonyms": [
+    "mùi tàu"
+  ],
+  "synonyms_normalized": [
+    "mui tau"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau hung que/ rau mui",
+      "new": "rau hung que rau mui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

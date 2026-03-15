@@ -1,0 +1,108 @@
+{
+  "id": "dish4763",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4763.json",
+  "name_vi": "Mì ramen trộn thịt ba chỉ",
+  "name_en": "",
+  "name_normalized": "mi ramen tron thit ba chi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Mì ramen"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Sốt miso",
+    "Gừng",
+    "Tỏi",
+    "Nước tương",
+    "Rượu sake",
+    "Rượu mirin",
+    "Giấm gạo",
+    "Dầu ăn",
+    "Đường nâu"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre03983",
+    "ingre06801",
+    "ingre05976",
+    "ingre04124",
+    "ingre02485",
+    "ingre07063",
+    "ingre02673",
+    "ingre04790",
+    "ingre05564",
+    "ingre05545",
+    "ingre02362",
+    "ingre02124",
+    "ingre07628"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Mì ramen",
+    "Trứng",
+    "Sốt miso",
+    "Mật ong",
+    "Gừng",
+    "Tỏi",
+    "Hành lá",
+    "Nước tương",
+    "Rượu sake",
+    "Rượu mirin",
+    "Giấm gạo",
+    "Dầu ăn",
+    "Đường nâu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Ramen noodles",
+    "Egg",
+    "Miso Sauce",
+    "Honey",
+    "Ginger",
+    "Garlic",
+    "Scallion",
+    "Soy Sauce",
+    "Sake",
+    "Mirin Wine",
+    "Rice vinegar",
+    "Cooking oil",
+    "Brown Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "mi ramen",
+    "trung",
+    "sot miso",
+    "mat ong",
+    "gung",
+    "toi",
+    "hanh la",
+    "nuoc tuong",
+    "ruou sake",
+    "ruou mirin",
+    "giam gao",
+    "dau an",
+    "duong nau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish8875",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8875.json",
+  "name_vi": "Sữa chua chanh dây (chanh leo) hũ",
+  "name_en": "",
+  "name_normalized": "sua chua chanh day chanh leo hu",
+  "category": "an vat",
+  "main_ingredients": [
+    "Sữa chua",
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [
+    "Phô mai",
+    "Tinh chất vani",
+    "Nước"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Siro chanh dây",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06088",
+    "ingre06174",
+    "ingre06147",
+    "ingre05683",
+    "ingre05054",
+    "ingre07583",
+    "ingre06592",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Sữa chua",
+    "Sữa đặc",
+    "Sữa tươi không đường",
+    "Siro chanh dây",
+    "Phô mai",
+    "Đường",
+    "Tinh chất vani",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Yogurt",
+    "Sweetened Condensed Milk",
+    "Fat-free Milk",
+    "Tamarind syrup",
+    "Cheese",
+    "Sugar",
+    "Vanilla extract",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "sua chua",
+    "sua dac",
+    "sua tuoi khong duong",
+    "siro chanh day",
+    "pho mai",
+    "duong",
+    "tinh chat vani",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua chua chanh day (chanh leo) hu",
+      "new": "sua chua chanh day chanh leo hu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

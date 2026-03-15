@@ -1,0 +1,83 @@
+{
+  "id": "dish8323",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8323.json",
+  "name_vi": "Dưa giá hẹ",
+  "name_en": "",
+  "name_normalized": "dua gia he",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Giá"
+  ],
+  "secondary_ingredients": [
+    "Hẹ",
+    "Hành tím",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Muối",
+    "Đường",
+    "Giấm ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02329",
+    "ingre01419",
+    "ingre03085",
+    "ingre07966",
+    "ingre02768",
+    "ingre04665",
+    "ingre03746",
+    "ingre07583",
+    "ingre02377"
+  ],
+  "ingredient_names_vi": [
+    "Giá",
+    "Cà rốt",
+    "Hẹ",
+    "Ớt",
+    "Hành tím",
+    "Nước lọc",
+    "Muối",
+    "Đường",
+    "Giấm ăn"
+  ],
+  "ingredient_names_en": [
+    "Mint",
+    "Carrot",
+    "Garlic Chives",
+    "Pepper",
+    "Shallot",
+    "Tap water",
+    "Salt",
+    "Sugar",
+    "vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "gia",
+    "ca rot",
+    "he",
+    "ot",
+    "hanh tim",
+    "nuoc loc",
+    "muoi",
+    "duong",
+    "giam an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

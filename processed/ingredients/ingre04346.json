@@ -1,0 +1,29 @@
+{
+  "id": "ingre04346",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04346.json",
+  "name_vi": "ngò rí/ hành lá",
+  "name_en": "Parsley/Green Onion",
+  "name_normalized": "ngo ri hanh la",
+  "synonyms": [
+    "hành lá",
+    "ngò",
+    "rau ngò"
+  ],
+  "synonyms_normalized": [
+    "hanh la",
+    "ngo",
+    "rau ngo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo ri/ hanh la",
+      "new": "ngo ri hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

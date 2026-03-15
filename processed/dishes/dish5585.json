@@ -1,0 +1,108 @@
+{
+  "id": "dish5585",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5585.json",
+  "name_vi": "Cá kho tiêu xanh",
+  "name_en": "",
+  "name_normalized": "ca kho tieu xanh",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá cơm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước sôi ấm nóng"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt cay",
+    "Tiêu xanh",
+    "Tiêu đen xay",
+    "Muối hạt",
+    "Bột ngọt",
+    "Ớt bột",
+    "Nước mắm",
+    "Nước tương xì dầu",
+    "Nước màu đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01507",
+    "ingre02768",
+    "ingre02485",
+    "ingre07993",
+    "ingre06640",
+    "ingre06655",
+    "ingre04747",
+    "ingre03760",
+    "ingre00819",
+    "ingre07977",
+    "ingre04694",
+    "ingre04811",
+    "ingre04685",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá cơm",
+    "Hành tím",
+    "Gừng",
+    "Ớt cay",
+    "Tiêu xanh",
+    "Tiêu đen xay",
+    "Nước sôi ấm nóng",
+    "Muối hạt",
+    "Bột ngọt",
+    "Ớt bột",
+    "Nước mắm",
+    "Nước tương xì dầu",
+    "Nước màu đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Milkfish",
+    "Shallot",
+    "Ginger",
+    "Hot pepper",
+    "Green pepper",
+    "Black Pepper",
+    "Boiling Warm Water",
+    "Fenugreek seeds",
+    "MSG",
+    "Chili powder",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Food coloring suger",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca com",
+    "hanh tim",
+    "gung",
+    "ot cay",
+    "tieu xanh",
+    "tieu den xay",
+    "nuoc soi am nong",
+    "muoi hat",
+    "bot ngot",
+    "ot bot",
+    "nuoc mam",
+    "nuoc tuong xi dau",
+    "nuoc mau duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

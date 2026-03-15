@@ -1,0 +1,77 @@
+{
+  "id": "dish9497",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9497.json",
+  "name_vi": "Xôi hoa đậu biếc cốt dừa bằng nồi cơm điện",
+  "name_en": "",
+  "name_normalized": "xoi hoa dau biec cot dua bang noi com dien",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Hoa đậu biếc sấy khô"
+  ],
+  "secondary_ingredients": [
+    "Cơm dừa tươi bào sợi",
+    "Cơm dừa sấy khô",
+    "Vỏ cam"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Nước bột năng",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre02612",
+    "ingre01746",
+    "ingre01744",
+    "ingre07246",
+    "ingre04554",
+    "ingre04501",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Hoa đậu biếc sấy khô",
+    "Cơm dừa tươi bào sợi",
+    "Cơm dừa sấy khô",
+    "Vỏ cam",
+    "Nước cốt dừa",
+    "Nước bột năng",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Blueflower dried flower",
+    "Coconut Rice Salad",
+    "Dried Coconut Rice",
+    "Orange peel",
+    "Coconut milk",
+    "Cornstarch Water",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "hoa dau biec say kho",
+    "com dua tuoi bao soi",
+    "com dua say kho",
+    "vo cam",
+    "nuoc cot dua",
+    "nuoc bot nang",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

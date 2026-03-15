@@ -1,0 +1,93 @@
+{
+  "id": "dish4939",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4939.json",
+  "name_vi": "Cải thìa xào nấm rơm",
+  "name_en": "",
+  "name_normalized": "cai thia xao nam rom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cải thìa",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01792",
+    "ingre04953",
+    "ingre07063",
+    "ingre02673",
+    "ingre02081",
+    "ingre02997",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cải thìa",
+    "Nấm rơm",
+    "Tỏi",
+    "Hành lá",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chinese cabbage",
+    "Strawberry mushroom",
+    "Garlic",
+    "Scallion",
+    "Vegetarian soy sauce",
+    "Vegetarian Seasoning",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai thia",
+    "nam rom",
+    "toi",
+    "hanh la",
+    "dau hao chay",
+    "hat nem chay",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

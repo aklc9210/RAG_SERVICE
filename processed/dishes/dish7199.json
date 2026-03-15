@@ -1,0 +1,66 @@
+{
+  "id": "dish7199",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7199.json",
+  "name_vi": "Gà chiên mắm tỏi ớt",
+  "name_en": "",
+  "name_normalized": "ga chien mam toi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đùi bẹ cánh gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07549",
+    "ingre07966",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đùi bẹ cánh gà",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh and wing",
+    "Pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dui be canh ga",
+    "ot",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

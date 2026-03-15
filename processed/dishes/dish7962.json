@@ -1,0 +1,88 @@
+{
+  "id": "dish7962",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7962.json",
+  "name_vi": "Gỏi bắp chuối thịt heo",
+  "name_en": "",
+  "name_normalized": "goi bap chuoi thit heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bắp chuối",
+    "Thịt heo",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Chanh",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00452",
+    "ingre06398",
+    "ingre05359",
+    "ingre07791",
+    "ingre08055",
+    "ingre07063",
+    "ingre01079",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bắp chuối",
+    "Thịt heo",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Ớt sừng",
+    "Tỏi",
+    "Chanh",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Banana",
+    "Pork",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Hot pepper",
+    "Garlic",
+    "Lemon",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bap chuoi",
+    "thit heo",
+    "rau ram",
+    "dau phong rang",
+    "ot sung",
+    "toi",
+    "chanh",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

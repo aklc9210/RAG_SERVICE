@@ -1,0 +1,101 @@
+{
+  "id": "dish0682",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0682.json",
+  "name_vi": "Canh chua hạt mít",
+  "name_en": "",
+  "name_normalized": "canh chua hat mit",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hạt mít",
+    "Cà chua",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Sấu",
+    "Hành boa rô",
+    "Rau ngổ",
+    "Rau mùi tàu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02978",
+    "ingre01354",
+    "ingre04974",
+    "ingre05925",
+    "ingre02645",
+    "ingre07966",
+    "ingre05336",
+    "ingre05310",
+    "ingre02124",
+    "ingre02997",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Hạt mít",
+    "Cà chua",
+    "Nấm đùi gà",
+    "Sấu",
+    "Hành boa rô",
+    "Ớt",
+    "Rau ngổ",
+    "Rau mùi tàu",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Palm Seed",
+    "Tomato",
+    "Chicken mushroom",
+    "Sour sop",
+    "Garlic",
+    "Pepper",
+    "Culantro",
+    "Chinese parsley",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "hat mit",
+    "ca chua",
+    "nam dui ga",
+    "sau",
+    "hanh boa ro",
+    "ot",
+    "rau ngo",
+    "rau mui tau",
+    "dau an",
+    "hat nem chay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

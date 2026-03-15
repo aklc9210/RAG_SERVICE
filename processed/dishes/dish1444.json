@@ -1,0 +1,73 @@
+{
+  "id": "dish1444",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1444.json",
+  "name_vi": "Bánh su kem không cần lò nướng",
+  "name_en": "",
+  "name_normalized": "banh su kem khong can lo nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước",
+    "Lòng đỏ trứng gà",
+    "Nước vanilla"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Đường",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00759",
+    "ingre02124",
+    "ingre04490",
+    "ingre03584",
+    "ingre06147",
+    "ingre07583",
+    "ingre04820",
+    "ingre00564"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột mì",
+    "Dầu ăn",
+    "Nước",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi không đường",
+    "Đường",
+    "Nước vanilla",
+    "Bột bắp"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Wheat Flour",
+    "Cooking oil",
+    "Water",
+    "Egg yolk",
+    "Fat-free Milk",
+    "Sugar",
+    "Vanilla extract",
+    "Corn starch"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot mi",
+    "dau an",
+    "nuoc",
+    "long do trung ga",
+    "sua tuoi khong duong",
+    "duong",
+    "nuoc vanilla",
+    "bot bap"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dish8016",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8016.json",
+  "name_vi": "Gỏi dưa leo tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi dua leo tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tôm tươi",
+    "Thịt ba chỉ heo",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Hành tím",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Chanh",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre06280",
+    "ingre02020",
+    "ingre01419",
+    "ingre07791",
+    "ingre07966",
+    "ingre01079",
+    "ingre02768",
+    "ingre07063",
+    "ingre05385",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Thịt ba chỉ heo",
+    "Dưa leo",
+    "Cà rốt",
+    "Đậu phộng rang",
+    "Ớt",
+    "Chanh",
+    "Hành tím",
+    "Tỏi",
+    "Rau thơm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Pork belly",
+    "Cucumber",
+    "Carrot",
+    "Roasted Peanut",
+    "Pepper",
+    "Lemon",
+    "Shallot",
+    "Garlic",
+    "Basil",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "thit ba chi heo",
+    "dua leo",
+    "ca rot",
+    "dau phong rang",
+    "ot",
+    "chanh",
+    "hanh tim",
+    "toi",
+    "rau thom",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

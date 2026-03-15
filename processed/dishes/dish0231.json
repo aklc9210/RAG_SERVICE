@@ -1,0 +1,116 @@
+{
+  "id": "dish0231",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0231.json",
+  "name_vi": "Canh chua đầu cá hồi với tôm",
+  "name_en": "",
+  "name_normalized": "canh chua dau ca hoi voi tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đầu cá hồi",
+    "Tôm",
+    "Bạc hà",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Đậu bắp",
+    "Me",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sa tế",
+    "Dầu ăn",
+    "Rượu",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07706",
+    "ingre06930",
+    "ingre00430",
+    "ingre01354",
+    "ingre06247",
+    "ingre07729",
+    "ingre07063",
+    "ingre05621",
+    "ingre03643",
+    "ingre02124",
+    "ingre05385",
+    "ingre05515",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá hồi",
+    "Tôm",
+    "Bạc hà",
+    "Cà chua",
+    "Thơm",
+    "Đậu bắp",
+    "Tỏi",
+    "Sa tế",
+    "Me",
+    "Dầu ăn",
+    "Rau thơm",
+    "Rượu",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Salmon head",
+    "Shrimp",
+    "Mint",
+    "Tomato",
+    "Basil",
+    "Green beans",
+    "Garlic",
+    "Fish sauce",
+    "Tamarind",
+    "Cooking oil",
+    "Rum",
+    "Salt",
+    "Seasoning",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca hoi",
+    "tom",
+    "bac ha",
+    "ca chua",
+    "thom",
+    "dau bap",
+    "toi",
+    "sa te",
+    "me",
+    "dau an",
+    "rau thom",
+    "ruou",
+    "muoi",
+    "hat nem",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre03175",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03175.json",
+  "name_vi": "kem whipping :",
+  "name_en": "Whipping Cream",
+  "name_normalized": "kem whipping",
+  "synonyms": [
+    "kem pha chế",
+    "kem đánh",
+    "kem tươi whipping"
+  ],
+  "synonyms_normalized": [
+    "kem pha che",
+    "kem danh",
+    "kem tuoi whipping"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem whipping :",
+      "new": "kem whipping",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish3283",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3283.json",
+  "name_vi": "Bánh canh hải sản (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "banh canh hai san cong thuc duoc chia se tu nguoi dung",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sợi bánh canh",
+    "Tôm tít",
+    "Ghẹ"
+  ],
+  "secondary_ingredients": [
+    "Bắp mỹ",
+    "Hành lá/ Ngò gai",
+    "Củ nén",
+    "Bánh quẩy"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06050",
+    "ingre06962",
+    "ingre02267",
+    "ingre00479",
+    "ingre02701",
+    "ingre01908",
+    "ingre00164",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Sợi bánh canh",
+    "Tôm tít",
+    "Ghẹ",
+    "Bắp mỹ",
+    "Hành lá/ Ngò gai",
+    "Củ nén",
+    "Bánh quẩy",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Vermicelli",
+    "Shrimp",
+    "Corn",
+    "Chives",
+    "Celery",
+    "Spring roll wrapper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "soi banh canh",
+    "tom tit",
+    "ghe",
+    "bap my",
+    "hanh la ngo gai",
+    "cu nen",
+    "banh quay",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh canh hai san (cong thuc duoc chia se tu nguoi dung)",
+      "new": "banh canh hai san cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo gai",
+      "new": "hanh la ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ Ngò gai"
+    }
+  ]
+}

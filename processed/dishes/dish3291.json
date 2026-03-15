@@ -1,0 +1,77 @@
+{
+  "id": "dish3291",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3291.json",
+  "name_vi": "Bún cá Châu Đốc chay",
+  "name_en": "",
+  "name_normalized": "bun ca chau doc chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún",
+    "Chả chén chay"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ",
+    "Rau củ",
+    "Nấm đông cô",
+    "Nấm bào ngư",
+    "Sả"
+  ],
+  "seasonings": [
+    "Bột nghệ"
+  ],
+  "ingredient_ids": [
+    "ingre00338",
+    "ingre01263",
+    "ingre07740",
+    "ingre05245",
+    "ingre04966",
+    "ingre04894",
+    "ingre05900",
+    "ingre00804"
+  ],
+  "ingredient_names_vi": [
+    "Bún",
+    "Chả chén chay",
+    "Đậu hũ",
+    "Rau củ",
+    "Nấm đông cô",
+    "Nấm bào ngư",
+    "Sả",
+    "Bột nghệ"
+  ],
+  "ingredient_names_en": [
+    "Noodle",
+    "Vegetarian meatball",
+    "Tofu",
+    "Vegetable",
+    "Mushroom",
+    "Oyster mushroom",
+    "Lemongrass",
+    "Turmeric Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bun",
+    "cha chen chay",
+    "dau hu",
+    "rau cu",
+    "nam dong co",
+    "nam bao ngu",
+    "sa",
+    "bot nghe"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

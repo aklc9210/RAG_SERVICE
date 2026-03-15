@@ -1,0 +1,82 @@
+{
+  "id": "dish8097",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8097.json",
+  "name_vi": "Gỏi đu đủ da heo",
+  "name_en": "",
+  "name_normalized": "goi du du da heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Da heo",
+    "Đu đủ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả",
+    "Đậu phộng rang",
+    "Khô bò"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01935",
+    "ingre07491",
+    "ingre02741",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre07791",
+    "ingre03238",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Da heo",
+    "Đu đủ",
+    "Hành tây",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Đậu phộng rang",
+    "Khô bò",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Pork skin",
+    "Papaya",
+    "Onion",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Roasted Peanut",
+    "Beef jerky",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "da heo",
+    "du du",
+    "hanh tay",
+    "sa",
+    "toi",
+    "ot",
+    "dau phong rang",
+    "kho bo",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

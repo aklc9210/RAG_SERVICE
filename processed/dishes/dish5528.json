@@ -1,0 +1,98 @@
+{
+  "id": "dish5528",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5528.json",
+  "name_vi": "Tim cật heo xào cần tỏi",
+  "name_en": "",
+  "name_normalized": "tim cat heo xao can toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tim heo",
+    "Cật heo"
+  ],
+  "secondary_ingredients": [
+    "Cần tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Cải ngọt",
+    "Tỏi băm",
+    "Ớt sừng",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Nước mắm",
+    "Dầu ăn:"
+  ],
+  "ingredient_ids": [
+    "ingre06558",
+    "ingre01815",
+    "ingre01419",
+    "ingre01787",
+    "ingre07071",
+    "ingre01812",
+    "ingre08055",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612",
+    "ingre04694",
+    "ingre02133"
+  ],
+  "ingredient_names_vi": [
+    "Tim heo",
+    "Cật heo",
+    "Cà rốt",
+    "Cải ngọt",
+    "Tỏi băm",
+    "Cần tây",
+    "Ớt sừng",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Nước mắm",
+    "Dầu ăn:"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Pig's liver",
+    "Carrot",
+    "Sweet cabbage",
+    "Minced Garlic",
+    "Celery",
+    "Hot pepper",
+    "Seasoning",
+    "MSG",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil:"
+  ],
+  "ingredient_names_normalized": [
+    "tim heo",
+    "cat heo",
+    "ca rot",
+    "cai ngot",
+    "toi bam",
+    "can tay",
+    "ot sung",
+    "hat nem",
+    "bot ngot",
+    "tieu",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau an:",
+      "new": "dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ăn:"
+    }
+  ]
+}

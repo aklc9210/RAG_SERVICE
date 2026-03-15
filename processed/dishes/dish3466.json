@@ -1,0 +1,115 @@
+{
+  "id": "dish3466",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3466.json",
+  "name_vi": "Phở bò bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "pho bo bang noi ap suat",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương bò",
+    "Xương cổ bò",
+    "Thịt chín",
+    "Bò viên và thịt tái ăn kèm nếu thích"
+  ],
+  "secondary_ingredients": [
+    "Bánh phở tươi",
+    "Hành tây",
+    "Đầu hành lá/ lá hành/ ngò rí",
+    "Rau thơm ăn kèm phở"
+  ],
+  "seasonings": [
+    "Hồi và một số loại hạt khác",
+    "Đường phèn",
+    "Bột súp gà",
+    "Gừng",
+    "Tiêu hạt",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07413",
+    "ingre07416",
+    "ingre06345",
+    "ingre00270",
+    "ingre00143",
+    "ingre03098",
+    "ingre07635",
+    "ingre00917",
+    "ingre02485",
+    "ingre02741",
+    "ingre06619",
+    "ingre07722",
+    "ingre05392",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Xương bò",
+    "Xương cổ bò",
+    "Thịt chín",
+    "Bò viên và thịt tái ăn kèm nếu thích",
+    "Bánh phở tươi",
+    "Hồi và một số loại hạt khác",
+    "Đường phèn",
+    "Bột súp gà",
+    "Gừng",
+    "Hành tây",
+    "Tiêu hạt",
+    "Đầu hành lá/ lá hành/ ngò rí",
+    "Rau thơm ăn kèm phở",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef bone",
+    "Beef vertebrae",
+    "Canned Meat",
+    "Beef dumplings and raw meat to eat alongside if desired",
+    "Fresh Pho Noodle",
+    "Saffron and other types of seeds",
+    "Brown Sugar",
+    "Chicken broth powder",
+    "Ginger",
+    "Onion",
+    "Cumin Seeds",
+    "Chives",
+    "Cilantro",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "xuong bo",
+    "xuong co bo",
+    "thit chin",
+    "bo vien va thit tai an kem neu thich",
+    "banh pho tuoi",
+    "hoi va mot so loai hat khac",
+    "duong phen",
+    "bot sup ga",
+    "gung",
+    "hanh tay",
+    "tieu hat",
+    "dau hanh la la hanh ngo ri",
+    "rau thom an kem pho",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau hanh la/ la hanh/ ngo ri",
+      "new": "dau hanh la la hanh ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đầu hành lá/ lá hành/ ngò rí"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

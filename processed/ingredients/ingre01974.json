@@ -1,0 +1,25 @@
+{
+  "id": "ingre01974",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01974.json",
+  "name_vi": "dâu:",
+  "name_en": "Strawberry",
+  "name_normalized": "dau",
+  "synonyms": [
+    "dâu tây"
+  ],
+  "synonyms_normalized": [
+    "dau tay"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau:",
+      "new": "dau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

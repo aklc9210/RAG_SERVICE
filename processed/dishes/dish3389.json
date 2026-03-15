@@ -1,0 +1,139 @@
+{
+  "id": "dish3389",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3389.json",
+  "name_vi": "Canh bún bạch tuộc",
+  "name_en": "",
+  "name_normalized": "canh bun bach tuoc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún",
+    "Bạch tuộc",
+    "Cua đồng xay",
+    "Xương ống",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Huyết",
+    "Đậu hũ",
+    "Chả quế",
+    "Màu gạch cua",
+    "Hành tím",
+    "Hành lá",
+    "Rau muống",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00338",
+    "ingre00434",
+    "ingre01345",
+    "ingre07433",
+    "ingre01354",
+    "ingre02624",
+    "ingre07740",
+    "ingre01302",
+    "ingre04694",
+    "ingre03852",
+    "ingre02768",
+    "ingre02995",
+    "ingre07583",
+    "ingre02673",
+    "ingre05289",
+    "ingre04329",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bún",
+    "Bạch tuộc",
+    "Cua đồng xay",
+    "Xương ống",
+    "Cà chua",
+    "Huyết",
+    "Đậu hũ",
+    "Chả quế",
+    "Nước mắm",
+    "Màu gạch cua",
+    "Hành tím",
+    "Hạt nêm",
+    "Đường",
+    "Hành lá",
+    "Rau muống",
+    "Ngò gai",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Noodle",
+    "Squid",
+    "Prawns minced",
+    "Tube bone",
+    "Tomato",
+    "Bloodwort",
+    "Tofu",
+    "Sausage",
+    "Fish Sauce",
+    "Crayfish color",
+    "Shallot",
+    "Seasoning",
+    "Sugar",
+    "Scallion",
+    "Watercress",
+    "Culantro",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bun",
+    "bach tuoc",
+    "cua dong xay",
+    "xuong ong",
+    "ca chua",
+    "huyet",
+    "dau hu",
+    "cha que",
+    "nuoc mam",
+    "mau gach cua",
+    "hanh tim",
+    "hat nem",
+    "duong",
+    "hanh la",
+    "rau muong",
+    "ngo gai",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

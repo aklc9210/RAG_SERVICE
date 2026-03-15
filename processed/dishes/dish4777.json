@@ -1,0 +1,87 @@
+{
+  "id": "dish4777",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4777.json",
+  "name_vi": "Mì trộn thịt băm phô mai cay",
+  "name_en": "",
+  "name_normalized": "mi tron thit bam pho mai cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hành tây",
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Mozzarella",
+    "Mì gói"
+  ],
+  "seasonings": [
+    "Đường",
+    "Dầu ăn",
+    "Ớt bột",
+    "Nước tương",
+    "Tương ớt",
+    "Đậu phộng rang/hành phi"
+  ],
+  "ingredient_ids": [
+    "ingre02741",
+    "ingre06329",
+    "ingre07583",
+    "ingre02124",
+    "ingre07977",
+    "ingre04790",
+    "ingre07028",
+    "ingre05092",
+    "ingre07805",
+    "ingre03963"
+  ],
+  "ingredient_names_vi": [
+    "Hành tây",
+    "Thịt băm",
+    "Đường",
+    "Dầu ăn",
+    "Ớt bột",
+    "Nước tương",
+    "Tương ớt",
+    "Phô mai Mozzarella",
+    "Đậu phộng rang/hành phi",
+    "Mì gói"
+  ],
+  "ingredient_names_en": [
+    "Onion",
+    "Minced meat",
+    "Sugar",
+    "Cooking oil",
+    "Chili powder",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Mozzarella cheese",
+    "Roasted Peanuts/ Fried Garlic",
+    "Noodles"
+  ],
+  "ingredient_names_normalized": [
+    "hanh tay",
+    "thit bam",
+    "duong",
+    "dau an",
+    "ot bot",
+    "nuoc tuong",
+    "tuong ot",
+    "pho mai mozzarella",
+    "dau phong rang hanh phi",
+    "mi goi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau phong rang/hanh phi",
+      "new": "dau phong rang hanh phi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đậu phộng rang/hành phi"
+    }
+  ]
+}

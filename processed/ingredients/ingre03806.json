@@ -1,0 +1,25 @@
+{
+  "id": "ingre03806",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03806.json",
+  "name_vi": "muối/ bột mì",
+  "name_en": "Salt/FLOUR",
+  "name_normalized": "muoi bot mi",
+  "synonyms": [
+    "bột新浪财经报道，中国央行行长易纲在2019年1月的达沃斯世界经济论坛上表示，中国将允许外资银行在中国提供包括人民币债券承销在内的全面服务。这标志着中国进一步开放金融市场的重要"
+  ],
+  "synonyms_normalized": [
+    "bot 2019 1"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ bot mi",
+      "new": "muoi bot mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

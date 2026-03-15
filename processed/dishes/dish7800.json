@@ -1,0 +1,70 @@
+{
+  "id": "dish7800",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7800.json",
+  "name_vi": "Lẩu phô mai - Fondue",
+  "name_en": "",
+  "name_normalized": "lau pho mai fondue",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Phô mai Emmental",
+    "Phô mai Gruyere"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột ngô",
+    "Rượu vang trắng khô",
+    "Bột nhục đậu khấu",
+    "Muối",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre05073",
+    "ingre05076",
+    "ingre00813",
+    "ingre05590",
+    "ingre00837",
+    "ingre03746",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Phô mai Emmental",
+    "Phô mai Gruyere",
+    "Bột ngô",
+    "Rượu vang trắng khô",
+    "Bột nhục đậu khấu",
+    "Muối",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Emmental cheese",
+    "Gruyère",
+    "Corn flour",
+    "Dry white wine",
+    "Cinnamon powder",
+    "Salt",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "pho mai emmental",
+    "pho mai gruyere",
+    "bot ngo",
+    "ruou vang trang kho",
+    "bot nhuc dau khau",
+    "muoi",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lau pho mai - fondue",
+      "new": "lau pho mai fondue",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dish6335",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6335.json",
+  "name_vi": "Ba chỉ rang riềng",
+  "name_en": "",
+  "name_normalized": "ba chi rang rieng",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mẻ",
+    "Riềng",
+    "Nghệ tươi",
+    "Lòng đỏ trứng gà",
+    "Lá móc mật"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Mắm tôm",
+    "Bột nghệ",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre02667",
+    "ingre05900",
+    "ingre04159",
+    "ingre04165",
+    "ingre00804",
+    "ingre05436",
+    "ingre04308",
+    "ingre03584",
+    "ingre00598",
+    "ingre03470",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Hành khô",
+    "Sả",
+    "Mắm tôm",
+    "Mẻ",
+    "Bột nghệ",
+    "Riềng",
+    "Nghệ tươi",
+    "Lòng đỏ trứng gà",
+    "Bột chiên giòn",
+    "Lá móc mật",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Garlic Powder",
+    "Lemongrass",
+    "Shrimp paste",
+    "Tamarind",
+    "Turmeric Powder",
+    "Galangal",
+    "Ginger",
+    "Egg yolk",
+    "Puffed Rice Powder",
+    "Burdock Leaf",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "hanh kho",
+    "sa",
+    "mam tom",
+    "me",
+    "bot nghe",
+    "rieng",
+    "nghe tuoi",
+    "long do trung ga",
+    "bot chien gion",
+    "la moc mat",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

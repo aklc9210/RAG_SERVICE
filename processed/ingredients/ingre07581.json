@@ -1,0 +1,29 @@
+{
+  "id": "ingre07581",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07581.json",
+  "name_vi": "đường/ muối",
+  "name_en": "Sugar/Salt",
+  "name_normalized": "duong muoi",
+  "synonyms": [
+    "đường: đường kính",
+    "đường phèn",
+    "đường trắng"
+  ],
+  "synonyms_normalized": [
+    "duong duong kinh",
+    "duong phen",
+    "duong trang"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

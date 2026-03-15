@@ -1,0 +1,99 @@
+{
+  "id": "dish3911",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3911.json",
+  "name_vi": "Bò nướng lá lốt",
+  "name_en": "",
+  "name_normalized": "bo nuong la lot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03461",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre07781",
+    "ingre02124",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Lá lốt",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Đậu phộng",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Cinnamon Leaf",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Peanut",
+    "Cooking oil",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "la lot",
+    "sa",
+    "toi",
+    "ot",
+    "hanh tim",
+    "dau phong",
+    "dau an",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "dish6912",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6912.json",
+  "name_vi": "Dồi sụn chiên giòn",
+  "name_en": "",
+  "name_normalized": "doi sun chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sụn lưỡi heo",
+    "Cuống họng heo",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Rau răm",
+    "Húng quế",
+    "Hành lá",
+    "Hành tím",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Ruột heo",
+    "Rượu mai quế lộ",
+    "Tiêu hạt",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06067",
+    "ingre01351",
+    "ingre06398",
+    "ingre05497",
+    "ingre05900",
+    "ingre05359",
+    "ingre02862",
+    "ingre02673",
+    "ingre02768",
+    "ingre05543",
+    "ingre02134",
+    "ingre06619",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sụn lưỡi heo",
+    "Cuống họng heo",
+    "Thịt heo",
+    "Ruột heo",
+    "Sả",
+    "Rau răm",
+    "Húng quế",
+    "Hành lá",
+    "Hành tím",
+    "Rượu mai quế lộ",
+    "Dầu điều",
+    "Tiêu hạt",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork tongue",
+    "Pig's throat菜",
+    "Pork",
+    "Pork intestine",
+    "Lemongrass",
+    "Vietnamese coriander",
+    "Cinnamon basil",
+    "Scallion",
+    "Shallot",
+    "Sake Plum Ginger Wine",
+    "Peanut oil",
+    "Cumin Seeds",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "sun luoi heo",
+    "cuong hong heo",
+    "thit heo",
+    "ruot heo",
+    "sa",
+    "rau ram",
+    "hung que",
+    "hanh la",
+    "hanh tim",
+    "ruou mai que lo",
+    "dau dieu",
+    "tieu hat",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

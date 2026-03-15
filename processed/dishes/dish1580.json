@@ -1,0 +1,98 @@
+{
+  "id": "dish1580",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1580.json",
+  "name_vi": "Bánh chưng nếp cẩm nhân thịt heo",
+  "name_en": "",
+  "name_normalized": "banh chung nep cam nhan thit heo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo nếp cẩm",
+    "Gạo nếp trắng",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh cà vỏ",
+    "Hành tím",
+    "Lá dong",
+    "Dây lạt"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02452",
+    "ingre02456",
+    "ingre06398",
+    "ingre07841",
+    "ingre02768",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612",
+    "ingre03414",
+    "ingre01979"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp cẩm",
+    "Gạo nếp trắng",
+    "Thịt heo",
+    "Đậu xanh cà vỏ",
+    "Hành tím",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu",
+    "Lá dong",
+    "Dây lạt"
+  ],
+  "ingredient_names_en": [
+    "Purple sticky rice",
+    "sticky rice",
+    "Pork",
+    "Green Soybeans Skin-On",
+    "Shallot",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Pepper",
+    "Banana leaf",
+    "Cordgrass"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep cam",
+    "gao nep trang",
+    "thit heo",
+    "dau xanh ca vo",
+    "hanh tim",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "tieu",
+    "la dong",
+    "day lat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

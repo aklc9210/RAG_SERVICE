@@ -1,0 +1,29 @@
+{
+  "id": "ingre03170",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03170.json",
+  "name_vi": "kem tươi để lạnh (kem trứng)",
+  "name_en": "Cold Beat Cream Cheese",
+  "name_normalized": "kem tuoi de lanh kem trung",
+  "synonyms": [
+    "kem đánh",
+    "kem tươi",
+    "kem trứng đánh"
+  ],
+  "synonyms_normalized": [
+    "kem danh",
+    "kem tuoi",
+    "kem trung danh"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem tuoi de lanh (kem trung)",
+      "new": "kem tuoi de lanh kem trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "dish1689",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1689.json",
+  "name_vi": "Bánh bí ngòi Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "banh bi ngoi han quoc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bí ngòi"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00237",
+    "ingre02741",
+    "ingre07966",
+    "ingre00598",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Bí ngòi",
+    "Hành tây",
+    "Ớt",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Eggplant",
+    "Onion",
+    "Pepper",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bi ngoi",
+    "hanh tay",
+    "ot",
+    "bot chien gion",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

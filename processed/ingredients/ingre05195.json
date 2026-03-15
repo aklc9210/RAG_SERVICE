@@ -1,0 +1,29 @@
+{
+  "id": "ingre05195",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05195.json",
+  "name_vi": "quế/ hồi/ thảo quả",
+  "name_en": "Clove/Cinnamon/Bay Leaf",
+  "name_normalized": "que hoi thao qua",
+  "synonyms": [
+    "quế phong",
+    "quế đinh",
+    "hồi hương"
+  ],
+  "synonyms_normalized": [
+    "que phong",
+    "que dinh",
+    "hoi huong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "que/ hoi/ thao qua",
+      "new": "que hoi thao qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

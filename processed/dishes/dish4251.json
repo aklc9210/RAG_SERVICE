@@ -1,0 +1,80 @@
+{
+  "id": "dish4251",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4251.json",
+  "name_vi": "Ếch nướng chao",
+  "name_en": "",
+  "name_normalized": "ech nuong chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ếch",
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre01106",
+    "ingre05900",
+    "ingre07063",
+    "ingre08026",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Chao",
+    "Sả",
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Pickled plum",
+    "Lemongrass",
+    "Garlic",
+    "Hot pepper",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "chao",
+    "sa",
+    "toi",
+    "ot hiem",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

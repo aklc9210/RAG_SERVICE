@@ -1,0 +1,83 @@
+{
+  "id": "dish1578",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1578.json",
+  "name_vi": "Bánh chưng ngũ sắc",
+  "name_en": "",
+  "name_normalized": "banh chung ngu sac",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp ngỗng",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh",
+    "Gấc",
+    "Lá dứa",
+    "Lá cẩm",
+    "Hạt dành dành",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04991",
+    "ingre06275",
+    "ingre07836",
+    "ingre02470",
+    "ingre03417",
+    "ingre03412",
+    "ingre02928",
+    "ingre02768",
+    "ingre01991"
+  ],
+  "ingredient_names_vi": [
+    "Nếp ngỗng",
+    "Thịt ba chỉ",
+    "Đậu xanh",
+    "Gấc",
+    "Lá dứa",
+    "Lá cẩm",
+    "Hạt dành dành",
+    "Hành tím",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Goose rice",
+    "Pork belly",
+    "Green beans",
+    "Bittermelon",
+    "Pandan叶",
+    "Mint",
+    "Saffron",
+    "Shallot",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "nep ngong",
+    "thit ba chi",
+    "dau xanh",
+    "gac",
+    "la dua",
+    "la cam",
+    "hat danh danh",
+    "hanh tim",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

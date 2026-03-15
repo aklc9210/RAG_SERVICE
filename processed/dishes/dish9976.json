@@ -1,0 +1,81 @@
+{
+  "id": "dish9976",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9976.json",
+  "name_vi": "Latte bí đỏ (pumpkin spice latte)",
+  "name_en": "",
+  "name_normalized": "latte bi do pumpkin spice latte",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Cà phê espresso"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Si rô cây phong",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Bột nhục đậu khấu",
+    "Đinh hương",
+    "Bột quế",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre01392",
+    "ingre06144",
+    "ingre05660",
+    "ingre00837",
+    "ingre07486",
+    "ingre00888",
+    "ingre02485",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Cà phê espresso",
+    "Sữa tươi",
+    "Si rô cây phong",
+    "Bột nhục đậu khấu",
+    "Đinh hương",
+    "Bột quế",
+    "Gừng",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Espresso",
+    "Fresh Milk",
+    "Ashwagandha",
+    "Cinnamon powder",
+    "Cinnamon",
+    "Cinnamon粉",
+    "Ginger",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "ca phe espresso",
+    "sua tuoi",
+    "si ro cay phong",
+    "bot nhuc dau khau",
+    "dinh huong",
+    "bot que",
+    "gung",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "latte bi do (pumpkin spice latte)",
+      "new": "latte bi do pumpkin spice latte",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

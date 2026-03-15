@@ -1,0 +1,88 @@
+{
+  "id": "dish1796",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1796.json",
+  "name_vi": "Bánh bột mì chiên hành",
+  "name_en": "",
+  "name_normalized": "banh bot mi chien hanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hành lá",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Trứng gà",
+    "Ớt bột",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre02673",
+    "ingre06144",
+    "ingre06823",
+    "ingre07977",
+    "ingre06644",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Hành lá",
+    "Sữa tươi",
+    "Trứng gà",
+    "Ớt bột",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Scallion",
+    "Fresh Milk",
+    "Chicken egg",
+    "Chili powder",
+    "Ground pepper",
+    "Seasoning",
+    "Sugar",
+    "Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "hanh la",
+    "sua tuoi",
+    "trung ga",
+    "ot bot",
+    "tieu xay",
+    "hat nem",
+    "duong",
+    "muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "dish7673",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7673.json",
+  "name_vi": "Vịt hấp muối",
+  "name_en": "",
+  "name_normalized": "vit hap muoi",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Vịt",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu màu điều",
+    "Dầu mè."
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt hiểm",
+    "Tiêu xay",
+    "Bột canh",
+    "Hạt nêm",
+    "Muối hạt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre02485",
+    "ingre02768",
+    "ingre05900",
+    "ingre08026",
+    "ingre06644",
+    "ingre02093",
+    "ingre02098",
+    "ingre00587",
+    "ingre02995",
+    "ingre03760"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Gừng",
+    "Hành tím",
+    "Sả",
+    "Ớt hiểm",
+    "Tiêu xay",
+    "Dầu màu điều",
+    "Dầu mè.",
+    "Bột canh",
+    "Hạt nêm",
+    "Muối hạt"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Ginger",
+    "Shallot",
+    "Lemongrass",
+    "Hot pepper",
+    "Ground pepper",
+    "Peanut-colored food coloring",
+    "Sesame oil.",
+    "Cornstarch",
+    "Seasoning",
+    "Fenugreek seeds"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "gung",
+    "hanh tim",
+    "sa",
+    "ot hiem",
+    "tieu xay",
+    "dau mau dieu",
+    "dau me",
+    "bot canh",
+    "hat nem",
+    "muoi hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau me.",
+      "new": "dau me",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu mè."
+    }
+  ]
+}

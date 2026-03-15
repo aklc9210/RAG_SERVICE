@@ -1,0 +1,126 @@
+{
+  "id": "dish0599",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0599.json",
+  "name_vi": "Canh bắp cải cuốn thịt bằm xương heo cà rốt",
+  "name_en": "",
+  "name_normalized": "canh bap cai cuon thit bam xuong heo ca rot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bắp cải",
+    "Xương heo",
+    "Thịt xay",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô tươi",
+    "Hành lá",
+    "Ngò",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre07422",
+    "ingre06521",
+    "ingre02350",
+    "ingre04971",
+    "ingre01419",
+    "ingre02673",
+    "ingre04326",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Xương heo",
+    "Thịt xay",
+    "Giò sống",
+    "Nấm đông cô tươi",
+    "Cà rốt",
+    "Hành lá",
+    "Ngò",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Pork bone",
+    "Ground Beef",
+    "Fresh sausage",
+    "Fresh enoki mushrooms",
+    "Carrot",
+    "Scallion",
+    "Cilantro",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "xuong heo",
+    "thit xay",
+    "gio song",
+    "nam dong co tuoi",
+    "ca rot",
+    "hanh la",
+    "ngo",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

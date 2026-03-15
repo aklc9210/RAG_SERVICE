@@ -1,0 +1,29 @@
+{
+  "id": "ingre02053",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02053.json",
+  "name_vi": "dấm: giấm",
+  "name_en": "Vinegar",
+  "name_normalized": "dam giam",
+  "synonyms": [
+    "giấm gạo",
+    "giấm táo",
+    "giấm chua"
+  ],
+  "synonyms_normalized": [
+    "giam gao",
+    "giam tao",
+    "giam chua"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dam: giam",
+      "new": "dam giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

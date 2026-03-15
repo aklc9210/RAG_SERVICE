@@ -1,0 +1,127 @@
+{
+  "id": "dish4145",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4145.json",
+  "name_vi": "Gà nướng mắc khén",
+  "name_en": "",
+  "name_normalized": "ga nuong mac khen",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Mắc khén",
+    "Mật ong",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Bạc hà",
+    "Ngò gai",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Gừng",
+    "Hành khô",
+    "Ớt bột",
+    "Bột nghệ",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04130",
+    "ingre03370",
+    "ingre04124",
+    "ingre05900",
+    "ingre02485",
+    "ingre02667",
+    "ingre00430",
+    "ingre04329",
+    "ingre07977",
+    "ingre00804",
+    "ingre05574",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Mắc khén",
+    "Lá chanh",
+    "Mật ong",
+    "Sả",
+    "Gừng",
+    "Hành khô",
+    "Bạc hà",
+    "Ngò gai",
+    "Ớt bột",
+    "Bột nghệ",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Pandan",
+    "Lime leaf",
+    "Honey",
+    "Lemongrass",
+    "Ginger",
+    "Garlic Powder",
+    "Mint",
+    "Culantro",
+    "Chili powder",
+    "Turmeric Powder",
+    "White wine",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "mac khen",
+    "la chanh",
+    "mat ong",
+    "sa",
+    "gung",
+    "hanh kho",
+    "bac ha",
+    "ngo gai",
+    "ot bot",
+    "bot nghe",
+    "ruou trang",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

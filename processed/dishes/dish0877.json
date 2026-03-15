@@ -1,0 +1,117 @@
+{
+  "id": "dish0877",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0877.json",
+  "name_vi": "Bánh khọt bằng bột bánh xèo",
+  "name_en": "",
+  "name_normalized": "banh khot bang bot banh xeo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt bằm",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Mực",
+    "Nguyên liệu khác"
+  ],
+  "seasonings": [
+    "Bột bánh xèo Hương Xưa",
+    "Bột chiên giòn",
+    "Cà rốt",
+    "Bột bắp",
+    "Nước cốt dừa lon",
+    "Hành tím/ tỏi/ hành lá",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00554",
+    "ingre00598",
+    "ingre06336",
+    "ingre06930",
+    "ingre04264",
+    "ingre01419",
+    "ingre00564",
+    "ingre04560",
+    "ingre02808",
+    "ingre04314",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh xèo Hương Xưa",
+    "Bột chiên giòn",
+    "Thịt bằm",
+    "Tôm",
+    "Mực",
+    "Cà rốt",
+    "Bột bắp",
+    "Nước cốt dừa lon",
+    "Hành tím/ tỏi/ hành lá",
+    "Nguyên liệu khác",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Scented Rice Flour Powder",
+    "Puffed Rice Powder",
+    "Minced meat",
+    "Shrimp",
+    "Squid",
+    "Carrot",
+    "Corn starch",
+    "Coconut Milk Can",
+    "Garlic/Scallions/Green Onion",
+    "Other ingredients",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh xeo huong xua",
+    "bot chien gion",
+    "thit bam",
+    "tom",
+    "muc",
+    "ca rot",
+    "bot bap",
+    "nuoc cot dua lon",
+    "hanh tim toi hanh la",
+    "nguyen lieu khac",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ toi/ hanh la",
+      "new": "hanh tim toi hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ tỏi/ hành lá"
+    }
+  ]
+}

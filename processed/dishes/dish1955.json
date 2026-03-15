@@ -1,0 +1,61 @@
+{
+  "id": "dish1955",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1955.json",
+  "name_vi": "Bánh rây - bánh dứa",
+  "name_en": "",
+  "name_normalized": "banh ray banh dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dừa nạo sợi",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Nước cốt dừa",
+    "Đường thốt nốt"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre02187",
+    "ingre04554",
+    "ingre07647",
+    "ingre07781"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Dừa nạo sợi",
+    "Nước cốt dừa",
+    "Đường thốt nốt",
+    "Đậu phộng"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Coconut丝纤维",
+    "Coconut milk",
+    "Cane Sugar",
+    "Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "dua nao soi",
+    "nuoc cot dua",
+    "duong thot not",
+    "dau phong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh ray - banh dua",
+      "new": "banh ray banh dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

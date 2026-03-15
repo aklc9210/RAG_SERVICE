@@ -1,0 +1,86 @@
+{
+  "id": "dish7686",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7686.json",
+  "name_vi": "Ốc nhảy hấp sả",
+  "name_en": "",
+  "name_normalized": "oc nhay hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ốc nhảy",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt hiểm",
+    "Nước mắm",
+    "Nước cốt tắc",
+    "Gừng băm",
+    "Ớt băm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07950",
+    "ingre05900",
+    "ingre08026",
+    "ingre04694",
+    "ingre04591",
+    "ingre02492",
+    "ingre07971",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc nhảy",
+    "Sả",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Nước cốt tắc",
+    "Gừng băm",
+    "Ớt băm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Jumping snail",
+    "Lemongrass",
+    "Hot pepper",
+    "Fish Sauce",
+    "Tamarind juice",
+    "Ginger paste",
+    "Chopped Pepper",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc nhay",
+    "sa",
+    "ot hiem",
+    "nuoc mam",
+    "nuoc cot tac",
+    "gung bam",
+    "ot bam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

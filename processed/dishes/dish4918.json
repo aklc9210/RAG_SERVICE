@@ -1,0 +1,133 @@
+{
+  "id": "dish4918",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4918.json",
+  "name_vi": "Ếch xào sả ớt cà ri",
+  "name_en": "",
+  "name_normalized": "ech xao sa ot ca ri",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ếch",
+    "Sả",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Rượu trắng",
+    "Bột cà ri",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre05900",
+    "ingre07966",
+    "ingre02673",
+    "ingre04343",
+    "ingre07063",
+    "ingre02768",
+    "ingre05574",
+    "ingre00631",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Sả",
+    "Ớt",
+    "Hành lá",
+    "Ngò rí",
+    "Tỏi",
+    "Hành tím",
+    "Rượu trắng",
+    "Bột cà ri",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Lemongrass",
+    "Pepper",
+    "Scallion",
+    "Parsley",
+    "Garlic",
+    "Shallot",
+    "White wine",
+    "Curry powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "sa",
+    "ot",
+    "hanh la",
+    "ngo ri",
+    "toi",
+    "hanh tim",
+    "ruou trang",
+    "bot ca ri",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

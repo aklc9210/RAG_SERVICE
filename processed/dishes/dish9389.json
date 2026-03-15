@@ -1,0 +1,73 @@
+{
+  "id": "dish9389",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9389.json",
+  "name_vi": "Dưa hành",
+  "name_en": "",
+  "name_normalized": "dua hanh",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Cà rốt",
+    "Giấm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02768",
+    "ingre07966",
+    "ingre01419",
+    "ingre04821",
+    "ingre02355",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Hành tím",
+    "Ớt",
+    "Cà rốt",
+    "Nước vo gạo",
+    "Giấm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Shallot",
+    "Pepper",
+    "Carrot",
+    "Rice washing water",
+    "Vinegar",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "hanh tim",
+    "ot",
+    "ca rot",
+    "nuoc vo gao",
+    "giam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

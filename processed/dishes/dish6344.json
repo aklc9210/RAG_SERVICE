@@ -1,0 +1,77 @@
+{
+  "id": "dish6344",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6344.json",
+  "name_vi": "Phi lê cá rô phi chiên giòn",
+  "name_en": "",
+  "name_normalized": "phi le ca ro phi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá rô phi",
+    "Thì là"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột năng"
+  ],
+  "ingredient_ids": [
+    "ingre01610",
+    "ingre06233",
+    "ingre02485",
+    "ingre06823",
+    "ingre00598",
+    "ingre02995",
+    "ingre06644",
+    "ingre00849"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô phi",
+    "Thì là",
+    "Gừng",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột năng"
+  ],
+  "ingredient_names_en": [
+    "tilapia",
+    "Dill",
+    "Ginger",
+    "Chicken egg",
+    "Puffed Rice Powder",
+    "Seasoning",
+    "Ground pepper",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro phi",
+    "thi la",
+    "gung",
+    "trung ga",
+    "bot chien gion",
+    "hat nem",
+    "tieu xay",
+    "bot nang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

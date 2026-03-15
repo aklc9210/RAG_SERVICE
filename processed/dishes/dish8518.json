@@ -1,0 +1,87 @@
+{
+  "id": "dish8518",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8518.json",
+  "name_vi": "Xôi gà xé đơn giản",
+  "name_en": "",
+  "name_normalized": "xoi ga xe don gian",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Nếp",
+    "Đậu xanh",
+    "Gà mái"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Chanh",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07836",
+    "ingre02397",
+    "ingre05359",
+    "ingre02741",
+    "ingre07966",
+    "ingre01079",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu xanh",
+    "Gà mái",
+    "Rau răm",
+    "Hành tây",
+    "Ớt",
+    "Chanh",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Green beans",
+    "Hens' Eggs",
+    "Vietnamese coriander",
+    "Onion",
+    "Pepper",
+    "Lemon",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau xanh",
+    "ga mai",
+    "rau ram",
+    "hanh tay",
+    "ot",
+    "chanh",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish6546",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6546.json",
+  "name_vi": "Cơm cuộn cá hồi chiên giòn",
+  "name_en": "",
+  "name_normalized": "com cuon ca hoi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hồi phi lê",
+    "Tôm sú",
+    "Cơm dẻo"
+  ],
+  "secondary_ingredients": [
+    "Rong biển khô",
+    "Thì là",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Tỏi phi",
+    "Muối",
+    "Nước tương",
+    "Nước cốt chanh",
+    "Bột tẩm khô chiên giòn"
+  ],
+  "ingredient_ids": [
+    "ingre01529",
+    "ingre06953",
+    "ingre01727",
+    "ingre02124",
+    "ingre05457",
+    "ingre06233",
+    "ingre07096",
+    "ingre03935",
+    "ingre03746",
+    "ingre04790",
+    "ingre04538",
+    "ingre00975"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi phi lê",
+    "Tôm sú",
+    "Cơm dẻo",
+    "Dầu ăn",
+    "Rong biển khô",
+    "Thì là",
+    "Tỏi phi",
+    "Mè trắng",
+    "Muối",
+    "Nước tương",
+    "Nước cốt chanh",
+    "Bột tẩm khô chiên giòn"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Shrimp",
+    "Sticky Rice",
+    "Cooking oil",
+    "Kelp Powder",
+    "Dill",
+    "Garlic flakes",
+    "White sesame",
+    "Salt",
+    "Soy Sauce",
+    "Lemon juice",
+    "Puffed Seasoned Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi phi le",
+    "tom su",
+    "com deo",
+    "dau an",
+    "rong bien kho",
+    "thi la",
+    "toi phi",
+    "me trang",
+    "muoi",
+    "nuoc tuong",
+    "nuoc cot chanh",
+    "bot tam kho chien gion"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

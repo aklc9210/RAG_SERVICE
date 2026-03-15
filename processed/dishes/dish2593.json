@@ -1,0 +1,112 @@
+{
+  "id": "dish2593",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2593.json",
+  "name_vi": "Bánh brownie con ma",
+  "name_en": "",
+  "name_normalized": "banh brownie con ma",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Socola chips đen"
+  ],
+  "secondary_ingredients": [
+    "Bơ đậu phộng hiệu Reese",
+    "Socola M&Ms",
+    "Kẹo bắp",
+    "Kẹo dẻo Marshmallow",
+    "Socola chips trắng",
+    "Dầu dừa",
+    "Gel trang trí màu đen"
+  ],
+  "seasonings": [
+    "Đường cát",
+    "Đường nâu",
+    "Trứng gà",
+    "Bột cocoa",
+    "Bột mì đa dụng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00367",
+    "ingre05742",
+    "ingre07597",
+    "ingre07628",
+    "ingre06823",
+    "ingre00614",
+    "ingre00791",
+    "ingre00417",
+    "ingre05748",
+    "ingre03303",
+    "ingre03312",
+    "ingre05741",
+    "ingre02067",
+    "ingre02252",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bơ",
+    "Socola chips đen",
+    "Đường cát",
+    "Đường nâu",
+    "Trứng gà",
+    "Bột cocoa",
+    "Bột mì đa dụng",
+    "Bơ đậu phộng hiệu Reese",
+    "Socola M&Ms",
+    "Kẹo bắp",
+    "Kẹo dẻo Marshmallow",
+    "Socola chips trắng",
+    "Dầu dừa",
+    "Gel trang trí màu đen",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Dark chocolate chips",
+    "Sugar",
+    "Brown Sugar",
+    "Chicken egg",
+    "Cocoa powder",
+    "All-purpose flour",
+    "Peanut butter brand Reese",
+    "M&M's Chocolate Candies",
+    "Corn candy",
+    "Marshmallow",
+    "White chocolate chips",
+    "Coconut oil",
+    "Black Food Coloring",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bo",
+    "socola chips den",
+    "duong cat",
+    "duong nau",
+    "trung ga",
+    "bot cocoa",
+    "bot mi da dung",
+    "bo dau phong hieu reese",
+    "socola m ms",
+    "keo bap",
+    "keo deo marshmallow",
+    "socola chips trang",
+    "dau dua",
+    "gel trang tri mau den",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola m&ms",
+      "new": "socola m ms",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola M&Ms"
+    }
+  ]
+}

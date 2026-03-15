@@ -1,0 +1,84 @@
+{
+  "id": "dish7078",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7078.json",
+  "name_vi": "Ếch núp lùm (ếch chiên rơm)",
+  "name_en": "",
+  "name_normalized": "ech nup lum ech chien rom",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ếch",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Rượu trắng",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre05900",
+    "ingre02862",
+    "ingre00598",
+    "ingre05574",
+    "ingre00978",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Sả",
+    "Húng quế",
+    "Bột chiên giòn",
+    "Rượu trắng",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Lemongrass",
+    "Cinnamon basil",
+    "Puffed Rice Powder",
+    "White wine",
+    "Garlic powder",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "sa",
+    "hung que",
+    "bot chien gion",
+    "ruou trang",
+    "bot toi",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ech nup lum (ech chien rom)",
+      "new": "ech nup lum ech chien rom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

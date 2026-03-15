@@ -1,0 +1,77 @@
+{
+  "id": "dish1228",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1228.json",
+  "name_vi": "Bánh mì hấp nhân dứa",
+  "name_en": "",
+  "name_normalized": "banh mi hap nhan dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Sữa tươi",
+    "Dứa",
+    "Mè/vừng rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Dầu ăn",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07583",
+    "ingre03687",
+    "ingre02124",
+    "ingre06144",
+    "ingre06823",
+    "ingre02151",
+    "ingre03947"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Men nở instant",
+    "Dầu ăn",
+    "Sữa tươi",
+    "Trứng gà",
+    "Dứa",
+    "Mè/vừng rang"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Sugar",
+    "Instant Yeast",
+    "Cooking oil",
+    "Fresh Milk",
+    "Chicken egg",
+    "Pineapple",
+    "Roasted sesame seeds"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "duong",
+    "men no instant",
+    "dau an",
+    "sua tuoi",
+    "trung ga",
+    "dua",
+    "me vung rang"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "me/vung rang",
+      "new": "me vung rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mè/vừng rang"
+    }
+  ]
+}

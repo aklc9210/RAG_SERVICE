@@ -1,0 +1,63 @@
+{
+  "id": "dish3762",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3762.json",
+  "name_vi": "Cá sơn nướng",
+  "name_en": "",
+  "name_normalized": "ca son nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá sơn"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Gia vị thông thường"
+  ],
+  "ingredient_ids": [
+    "ingre01619",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre02315"
+  ],
+  "ingredient_names_vi": [
+    "Cá sơn",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Gia vị thông thường"
+  ],
+  "ingredient_names_en": [
+    "Mountain trout",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Spice"
+  ],
+  "ingredient_names_normalized": [
+    "ca son",
+    "toi",
+    "hanh tim",
+    "ot",
+    "gia vi thong thuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

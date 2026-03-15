@@ -1,0 +1,82 @@
+{
+  "id": "dish1682",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1682.json",
+  "name_vi": "Bánh mì dừa lưới",
+  "name_en": "",
+  "name_normalized": "banh mi dua luoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dừa nạo"
+  ],
+  "secondary_ingredients": [
+    "Men nở instant",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nếp",
+    "Bơ thực vật",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre02182",
+    "ingre00791",
+    "ingre00859",
+    "ingre00407",
+    "ingre06823",
+    "ingre03687",
+    "ingre06147",
+    "ingre03935",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Dừa nạo",
+    "Bột mì đa dụng",
+    "Bột nếp",
+    "Bơ thực vật",
+    "Trứng gà",
+    "Men nở instant",
+    "Sữa tươi không đường",
+    "Mè trắng",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Coconut grated",
+    "All-purpose flour",
+    "Glutinous rice flour",
+    "Vegetable oil",
+    "Chicken egg",
+    "Instant Yeast",
+    "Fat-free Milk",
+    "White sesame",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dua nao",
+    "bot mi da dung",
+    "bot nep",
+    "bo thuc vat",
+    "trung ga",
+    "men no instant",
+    "sua tuoi khong duong",
+    "me trang",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "dish8629",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8629.json",
+  "name_vi": "Thịt bò kho củ cải trắng",
+  "name_en": "",
+  "name_normalized": "thit bo kho cu cai trang",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Củ cải trắng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01868",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre07966",
+    "ingre04343",
+    "ingre04672",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Củ cải trắng",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Ngò rí",
+    "Nước màu",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "White radish",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Pepper",
+    "Parsley",
+    "Food coloring",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "cu cai trang",
+    "hanh tim",
+    "toi",
+    "gung",
+    "ot",
+    "ngo ri",
+    "nuoc mau",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

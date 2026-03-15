@@ -1,0 +1,95 @@
+{
+  "id": "dish8383",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8383.json",
+  "name_vi": "Gỏi ngao hoa thiên lý",
+  "name_en": "",
+  "name_normalized": "goi ngao hoa thien ly",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Hoa thiên lý",
+    "Ngao",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Nước mắm",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre02601",
+    "ingre04301",
+    "ingre05900",
+    "ingre08055",
+    "ingre08026",
+    "ingre07063",
+    "ingre07583",
+    "ingre03746",
+    "ingre02124",
+    "ingre00819",
+    "ingre04694",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Hoa thiên lý",
+    "Ngao",
+    "Sả",
+    "Ớt sừng",
+    "Ớt hiểm",
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Nước mắm",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Passionflower",
+    "Clam",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic",
+    "Sugar",
+    "Salt",
+    "Cooking oil",
+    "MSG",
+    "Fish Sauce",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "hoa thien ly",
+    "ngao",
+    "sa",
+    "ot sung",
+    "ot hiem",
+    "toi",
+    "duong",
+    "muoi",
+    "dau an",
+    "bot ngot",
+    "nuoc mam",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

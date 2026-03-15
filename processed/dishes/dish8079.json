@@ -1,0 +1,82 @@
+{
+  "id": "dish8079",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8079.json",
+  "name_vi": "Salad rau bina dâu tây và hạnh nhân",
+  "name_en": "",
+  "name_normalized": "salad rau bina dau tay va hanh nhan",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau bina baby",
+    "Phô mai Feta"
+  ],
+  "secondary_ingredients": [
+    "Dâu tây",
+    "Dầu ô-liu",
+    "Hạt hạnh nhân nướng",
+    "Hạt mè rang"
+  ],
+  "seasonings": [
+    "Giấm Balsamic trắng",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05200",
+    "ingre05074",
+    "ingre01961",
+    "ingre02122",
+    "ingre02357",
+    "ingre02952",
+    "ingre02973",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Rau bina baby",
+    "Phô mai Feta",
+    "Dâu tây",
+    "Dầu ô-liu",
+    "Giấm Balsamic trắng",
+    "Hạt hạnh nhân nướng",
+    "Hạt mè rang",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Baby Spinach",
+    "Feta cheese",
+    "Strawberry",
+    "Olive oil",
+    "Balsamic White Vinegar",
+    "Roasted almond",
+    "Roasted Sesame Seeds",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "rau bina baby",
+    "pho mai feta",
+    "dau tay",
+    "dau o liu",
+    "giam balsamic trang",
+    "hat hanh nhan nuong",
+    "hat me rang",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau o-liu",
+      "new": "dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ô-liu"
+    }
+  ]
+}

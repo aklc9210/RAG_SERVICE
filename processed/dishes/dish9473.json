@@ -1,0 +1,67 @@
+{
+  "id": "dish9473",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9473.json",
+  "name_vi": "Khoai tây nghiền trộn thịt",
+  "name_en": "",
+  "name_normalized": "khoai tay nghien tron thit",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Sữa tươi",
+    "Thịt bacon vụn"
+  ],
+  "seasonings": [
+    "Bột tỏi",
+    "Tiêu xay/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00382",
+    "ingre06144",
+    "ingre00978",
+    "ingre06296",
+    "ingre06648"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Bột tỏi",
+    "Thịt bacon vụn",
+    "Tiêu xay/ muối"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Butter",
+    "Fresh Milk",
+    "Garlic powder",
+    "Crumbled Bacon",
+    "Ground pepper/salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bo lat",
+    "sua tuoi",
+    "bot toi",
+    "thit bacon vun",
+    "tieu xay muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ muoi",
+      "new": "tieu xay muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ muối"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish6993",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6993.json",
+  "name_vi": "Xúc xích cuộn phô mai",
+  "name_en": "",
+  "name_normalized": "xuc xich cuon pho mai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Xúc xích",
+    "Phô mai"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07396",
+    "ingre05054",
+    "ingre06823",
+    "ingre00760",
+    "ingre00867",
+    "ingre06144",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Xúc xích",
+    "Phô mai",
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Sữa tươi",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Sausage",
+    "Cheese",
+    "Chicken egg",
+    "All-purpose flour",
+    "Baking powder",
+    "Fresh Milk",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuc xich",
+    "pho mai",
+    "trung ga",
+    "bot mi da dung",
+    "bot no",
+    "sua tuoi",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

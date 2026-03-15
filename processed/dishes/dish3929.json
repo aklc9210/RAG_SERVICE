@@ -1,0 +1,102 @@
+{
+  "id": "dish3929",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3929.json",
+  "name_vi": "Thịt ba chỉ 1 nắng chiên giòn",
+  "name_en": "",
+  "name_normalized": "thit ba chi 1 nang chien gion",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ngũ vị hương",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre05900",
+    "ingre07063",
+    "ingre04381",
+    "ingre02134",
+    "ingre07977",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Sả",
+    "Tỏi",
+    "Ngũ vị hương",
+    "Dầu điều",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Garlic",
+    "Five-Spice Powder",
+    "Peanut oil",
+    "Chili powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "sa",
+    "toi",
+    "ngu vi huong",
+    "dau dieu",
+    "ot bot",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

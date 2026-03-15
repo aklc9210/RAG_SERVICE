@@ -1,0 +1,118 @@
+{
+  "id": "dish7838",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7838.json",
+  "name_vi": "Lẩu cá chép nấu riêu",
+  "name_en": "",
+  "name_normalized": "lau ca chep nau rieu",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá chép",
+    "Xương ức gà",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Cơm mẻ",
+    "Thì là",
+    "Hành lá",
+    "Cần ta",
+    "Bún",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Ớt sừng",
+    "Gia vị thông dụng"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre07437",
+    "ingre01354",
+    "ingre02768",
+    "ingre08026",
+    "ingre08055",
+    "ingre01753",
+    "ingre06233",
+    "ingre02673",
+    "ingre01808",
+    "ingre00338",
+    "ingre04665",
+    "ingre02314"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Xương ức gà",
+    "Cà chua",
+    "Hành tím",
+    "Ớt hiểm",
+    "Ớt sừng",
+    "Cơm mẻ",
+    "Thì là",
+    "Hành lá",
+    "Cần ta",
+    "Bún",
+    "Nước lọc",
+    "Gia vị thông dụng"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Chicken breast",
+    "Tomato",
+    "Shallot",
+    "Hot pepper",
+    "Glutinous Rice",
+    "Dill",
+    "Scallion",
+    "Watermelon",
+    "Noodle",
+    "Tap water",
+    "Common spice"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "xuong uc ga",
+    "ca chua",
+    "hanh tim",
+    "ot hiem",
+    "ot sung",
+    "com me",
+    "thi la",
+    "hanh la",
+    "can ta",
+    "bun",
+    "nuoc loc",
+    "gia vi thong dung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

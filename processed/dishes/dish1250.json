@@ -1,0 +1,106 @@
+{
+  "id": "dish1250",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1250.json",
+  "name_vi": "Bánh khoai môn kén nhân tôm thịt",
+  "name_en": "",
+  "name_normalized": "banh khoai mon ken nhan tom thit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt đùi heo",
+    "Tôm",
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô khô",
+    "Hành lá băm nhỏ",
+    "Mỡ heo đã thắn"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột mì đa dụng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Xì dầu",
+    "Muối/ đường",
+    "Nước sốt đậu nành"
+  ],
+  "ingredient_ids": [
+    "ingre06221",
+    "ingre06930",
+    "ingre03208",
+    "ingre01419",
+    "ingre04969",
+    "ingre02680",
+    "ingre00791",
+    "ingre01991",
+    "ingre02080",
+    "ingre04381",
+    "ingre07381",
+    "ingre03818",
+    "ingre04485",
+    "ingre04195"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi heo",
+    "Tôm",
+    "Khoai môn",
+    "Cà rốt",
+    "Nấm đông cô khô",
+    "Hành lá băm nhỏ",
+    "Bột mì đa dụng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Xì dầu",
+    "Muối/ đường",
+    "Nước sốt đậu nành",
+    "Mỡ heo đã thắn"
+  ],
+  "ingredient_names_en": [
+    "Pork thigh",
+    "Shrimp",
+    "Yam",
+    "Carrot",
+    "Dried shiitake mushrooms",
+    "Chopped Green Onion",
+    "All-purpose flour",
+    "Cooking oil",
+    "Soy sauce",
+    "Five-Spice Powder",
+    "Salt/Sugar",
+    "Soy sauce dressing",
+    "Pork fat"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui heo",
+    "tom",
+    "khoai mon",
+    "ca rot",
+    "nam dong co kho",
+    "hanh la bam nho",
+    "bot mi da dung",
+    "dau an",
+    "dau hao",
+    "ngu vi huong",
+    "xi dau",
+    "muoi duong",
+    "nuoc sot dau nanh",
+    "mo heo da than"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

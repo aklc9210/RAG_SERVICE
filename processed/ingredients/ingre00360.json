@@ -1,0 +1,29 @@
+{
+  "id": "ingre00360",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00360.json",
+  "name_vi": "bún tươi/ rau ăn kèm",
+  "name_en": "Fresh noodles/accompanying vegetables",
+  "name_normalized": "bun tuoi rau an kem",
+  "synonyms": [
+    "bánh tráng",
+    "bánh phở",
+    "lá lốt"
+  ],
+  "synonyms_normalized": [
+    "banh trang",
+    "banh pho",
+    "la lot"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bun tuoi/ rau an kem",
+      "new": "bun tuoi rau an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre02717",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02717.json",
+  "name_vi": "hành lá/ngò gai",
+  "name_en": "Chives",
+  "name_normalized": "hanh la ngo gai",
+  "synonyms": [
+    "ngò",
+    "ngò đắng"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "ngo dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ngo gai",
+      "new": "hanh la ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

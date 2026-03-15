@@ -1,0 +1,25 @@
+{
+  "id": "ingre07809",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07809.json",
+  "name_vi": "đậu phộng.",
+  "name_en": "Peanut",
+  "name_normalized": "dau phong",
+  "synonyms": [
+    "bơ phộng"
+  ],
+  "synonyms_normalized": [
+    "bo phong"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau phong.",
+      "new": "dau phong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre00017",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00017.json",
+  "name_vi": "baking power - bột nở",
+  "name_en": "Baking Powder",
+  "name_normalized": "baking power bot no",
+  "synonyms": [
+    "bột nở đa năng"
+  ],
+  "synonyms_normalized": [
+    "bot no da nang"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "baking power - bot no",
+      "new": "baking power bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish5862",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5862.json",
+  "name_vi": "Tàu hũ ky kho nấm chay",
+  "name_en": "",
+  "name_normalized": "tau hu ky kho nam chay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tàu hũ ky",
+    "Nấm hương"
+  ],
+  "secondary_ingredients": [
+    "Hành boa-rô băm",
+    "Chao"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Ớt băm",
+    "Dầu ăn",
+    "Tương ớt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06874",
+    "ingre04910",
+    "ingre05905",
+    "ingre02651",
+    "ingre07971",
+    "ingre01106",
+    "ingre02124",
+    "ingre07028",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hũ ky",
+    "Nấm hương",
+    "Sả băm",
+    "Hành boa-rô băm",
+    "Ớt băm",
+    "Chao",
+    "Dầu ăn",
+    "Tương ớt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Tofu Ky",
+    "Mushroom",
+    "Garlic Paste",
+    "Chopped Shallot",
+    "Chopped Pepper",
+    "Pickled plum",
+    "Cooking oil",
+    "Hot Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky",
+    "nam huong",
+    "sa bam",
+    "hanh boa ro bam",
+    "ot bam",
+    "chao",
+    "dau an",
+    "tuong ot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa-ro bam",
+      "new": "hanh boa ro bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa-rô băm"
+    }
+  ]
+}

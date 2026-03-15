@@ -1,0 +1,94 @@
+{
+  "id": "dish4344",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4344.json",
+  "name_vi": "Cơm tấm Long Xuyên",
+  "name_en": "",
+  "name_normalized": "com tam long xuyen",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gạo tấm",
+    "Thịt heo",
+    "Lá dứa"
+  ],
+  "secondary_ingredients": [
+    "Thịt heo",
+    "Mật ong",
+    "Trứng vịt",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Nước cốt chanh",
+    "Bột ngũ vị hương",
+    "Đường thốt nốt",
+    "Hoa hồi"
+  ],
+  "ingredient_ids": [
+    "ingre02463",
+    "ingre06398",
+    "ingre03417",
+    "ingre04124",
+    "ingre04554",
+    "ingre04538",
+    "ingre00815",
+    "ingre06853",
+    "ingre07647",
+    "ingre02768",
+    "ingre02584"
+  ],
+  "ingredient_names_vi": [
+    "Gạo tấm",
+    "Thịt heo",
+    "Lá dứa",
+    "Mật ong",
+    "Nước cốt dừa",
+    "Nước cốt chanh",
+    "Bột ngũ vị hương",
+    "Trứng vịt",
+    "Đường thốt nốt",
+    "Hành tím",
+    "Hoa hồi"
+  ],
+  "ingredient_names_en": [
+    "Broken rice",
+    "Pork",
+    "Pandan叶",
+    "Honey",
+    "Coconut milk",
+    "Lemon juice",
+    "Five-Spice Powder",
+    "Quail egg",
+    "Cane Sugar",
+    "Shallot",
+    "Rose"
+  ],
+  "ingredient_names_normalized": [
+    "gao tam",
+    "thit heo",
+    "la dua",
+    "mat ong",
+    "nuoc cot dua",
+    "nuoc cot chanh",
+    "bot ngu vi huong",
+    "trung vit",
+    "duong thot not",
+    "hanh tim",
+    "hoa hoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

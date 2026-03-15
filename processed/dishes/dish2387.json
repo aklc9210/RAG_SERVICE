@@ -1,0 +1,102 @@
+{
+  "id": "dish2387",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2387.json",
+  "name_vi": "Bánh cá khoai lang tím",
+  "name_en": "",
+  "name_normalized": "banh ca khoai lang tim",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang vàng/khoai lang mật"
+  ],
+  "secondary_ingredients": [
+    "Khoai lang",
+    "Phô mai morazella",
+    "Màu thực phẩm",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột pancake mix",
+    "Tinh bột ngô",
+    "Trứng gà",
+    "Bột khoai lang tím",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03202",
+    "ingre00875",
+    "ingre06569",
+    "ingre06823",
+    "ingre00710",
+    "ingre06147",
+    "ingre03186",
+    "ingre05089",
+    "ingre03865",
+    "ingre04665",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang vàng/khoai lang mật",
+    "Bột pancake mix",
+    "Tinh bột ngô",
+    "Trứng gà",
+    "Bột khoai lang tím",
+    "Sữa tươi không đường",
+    "Khoai lang",
+    "Phô mai morazella",
+    "Màu thực phẩm",
+    "Nước lọc",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato/Yellow Sweet Potato",
+    "Baking mix",
+    "Corn starch",
+    "Chicken egg",
+    "Purple Potato Flour",
+    "Fat-free Milk",
+    "Sweet Potato",
+    "Mozzarella",
+    "Food coloring",
+    "Tap water",
+    "Cooking oil",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang vang khoai lang mat",
+    "bot pancake mix",
+    "tinh bot ngo",
+    "trung ga",
+    "bot khoai lang tim",
+    "sua tuoi khong duong",
+    "khoai lang",
+    "pho mai morazella",
+    "mau thuc pham",
+    "nuoc loc",
+    "dau an",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "khoai lang vang/khoai lang mat",
+      "new": "khoai lang vang khoai lang mat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Khoai lang vàng/khoai lang mật"
+    }
+  ]
+}

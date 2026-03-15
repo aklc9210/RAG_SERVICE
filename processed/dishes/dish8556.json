@@ -1,0 +1,102 @@
+{
+  "id": "dish8556",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8556.json",
+  "name_vi": "Cà ri bò",
+  "name_en": "",
+  "name_normalized": "ca ri bo",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Khoai lang"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Hành tây",
+    "Sả",
+    "Dầu cà ri"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Bột cà ri",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01419",
+    "ingre03186",
+    "ingre03222",
+    "ingre02741",
+    "ingre04554",
+    "ingre05900",
+    "ingre02124",
+    "ingre02061",
+    "ingre00631",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cà rốt",
+    "Khoai lang",
+    "Khoai tây",
+    "Hành tây",
+    "Nước cốt dừa",
+    "Sả",
+    "Dầu ăn",
+    "Dầu cà ri",
+    "Bột cà ri",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Carrot",
+    "Sweet Potato",
+    "Potato",
+    "Onion",
+    "Coconut milk",
+    "Lemongrass",
+    "Cooking oil",
+    "Curry oil",
+    "Curry powder",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca rot",
+    "khoai lang",
+    "khoai tay",
+    "hanh tay",
+    "nuoc cot dua",
+    "sa",
+    "dau an",
+    "dau ca ri",
+    "bot ca ri",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

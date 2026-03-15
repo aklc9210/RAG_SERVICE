@@ -1,0 +1,67 @@
+{
+  "id": "dish1328",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1328.json",
+  "name_vi": "Bánh quy mứt dâu bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh quy mut dau bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Mứt dâu"
+  ],
+  "seasonings": [
+    "Đường",
+    "Bột mì đa dụng",
+    "Muối",
+    "Chiết xuất va-ni"
+  ],
+  "ingredient_ids": [
+    "ingre00382",
+    "ingre07583",
+    "ingre00791",
+    "ingre04225",
+    "ingre03746",
+    "ingre01138"
+  ],
+  "ingredient_names_vi": [
+    "Bơ lạt",
+    "Đường",
+    "Bột mì đa dụng",
+    "Mứt dâu",
+    "Muối",
+    "Chiết xuất va-ni"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Sugar",
+    "All-purpose flour",
+    "Strawberry jam",
+    "Salt",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat",
+    "duong",
+    "bot mi da dung",
+    "mut dau",
+    "muoi",
+    "chiet xuat va ni"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chiết xuất va-ni"
+    }
+  ]
+}

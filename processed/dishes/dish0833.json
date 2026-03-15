@@ -1,0 +1,92 @@
+{
+  "id": "dish0833",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0833.json",
+  "name_vi": "Bánh cuốn Hong Kong",
+  "name_en": "",
+  "name_normalized": "banh cuon hong kong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước",
+    "Tôm tươi",
+    "Hành lá",
+    "Ngò rí còn rễ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo tẻ",
+    "Bột củ năng",
+    "Bột tàn mì hoặc bột há cảo",
+    "Trứng gà",
+    "Bột năng",
+    "Nước tương",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre00675",
+    "ingre00641",
+    "ingre00971",
+    "ingre04490",
+    "ingre06963",
+    "ingre02673",
+    "ingre04345",
+    "ingre06823",
+    "ingre00849",
+    "ingre04790",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo tẻ",
+    "Bột củ năng",
+    "Bột tàn mì hoặc bột há cảo",
+    "Nước",
+    "Tôm tươi",
+    "Hành lá",
+    "Ngò rí còn rễ",
+    "Trứng gà",
+    "Bột năng",
+    "Nước tương",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Tapioca starch",
+    "Dumpling flour",
+    "Water",
+    "Fresh shrimp",
+    "Scallion",
+    "Pennyroyal Root",
+    "Chicken egg",
+    "Cornstarch",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao te",
+    "bot cu nang",
+    "bot tan mi hoac bot ha cao",
+    "nuoc",
+    "tom tuoi",
+    "hanh la",
+    "ngo ri con re",
+    "trung ga",
+    "bot nang",
+    "nuoc tuong",
+    "dau hao"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

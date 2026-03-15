@@ -1,0 +1,56 @@
+{
+  "id": "dish9565",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9565.json",
+  "name_vi": "sinh tố chuối – rau chân vịt",
+  "name_en": "",
+  "name_normalized": "sinh to chuoi rau chan vit",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Rau chân vịt"
+  ],
+  "secondary_ingredients": [
+    "Chuối",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Sữa tươi ít đường"
+  ],
+  "ingredient_ids": [
+    "ingre05215",
+    "ingre01160",
+    "ingre06161",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Rau chân vịt",
+    "Chuối",
+    "Sữa tươi ít đường",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Watercress",
+    "Banana",
+    "Low-sugar milk",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "rau chan vit",
+    "chuoi",
+    "sua tuoi it duong",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to chuoi - rau chan vit",
+      "new": "sinh to chuoi rau chan vit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

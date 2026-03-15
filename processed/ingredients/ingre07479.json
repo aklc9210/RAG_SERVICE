@@ -1,0 +1,29 @@
+{
+  "id": "ingre07479",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07479.json",
+  "name_vi": "ô-liu xanh hoặc đen",
+  "name_en": "Green or Black Olives",
+  "name_normalized": "o liu xanh hoac den",
+  "synonyms": [
+    "dầu ô liu",
+    "oliva",
+    "olive"
+  ],
+  "synonyms_normalized": [
+    "dau o liu",
+    "oliva",
+    "olive"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "o-liu xanh hoac den",
+      "new": "o liu xanh hoac den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

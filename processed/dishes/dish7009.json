@@ -1,0 +1,105 @@
+{
+  "id": "dish7009",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7009.json",
+  "name_vi": "Đậu hũ non sốt cay",
+  "name_en": "",
+  "name_normalized": "dau hu non sot cay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ non",
+    "Hành ngò",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường",
+    "Ớt bột",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07752",
+    "ingre02724",
+    "ingre02673",
+    "ingre02768",
+    "ingre03929",
+    "ingre02080",
+    "ingre04790",
+    "ingre07028",
+    "ingre02124",
+    "ingre07583",
+    "ingre07977",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ non",
+    "Hành ngò",
+    "Hành lá",
+    "Hành tím",
+    "Mè rang",
+    "Dầu hào",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường",
+    "Ớt bột",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Firm Tofu",
+    "Chives",
+    "Scallion",
+    "Shallot",
+    "Roasted Sesame Seeds",
+    "Soy sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Chili powder",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu non",
+    "hanh ngo",
+    "hanh la",
+    "hanh tim",
+    "me rang",
+    "dau hao",
+    "nuoc tuong",
+    "tuong ot",
+    "dau an",
+    "duong",
+    "ot bot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

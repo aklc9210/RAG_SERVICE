@@ -1,0 +1,78 @@
+{
+  "id": "dish0592",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0592.json",
+  "name_vi": "Canh chả cá nấu mướp",
+  "name_en": "",
+  "name_normalized": "canh cha ca nau muop",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Mướp hương",
+    "Chả cá"
+  ],
+  "secondary_ingredients": [
+    "Hành tăm"
+  ],
+  "seasonings": [
+    "Rau bồ ngót",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04104",
+    "ingre01268",
+    "ingre02813",
+    "ingre05212",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mướp hương",
+    "Chả cá",
+    "Hành tăm",
+    "Rau bồ ngót",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Luffa",
+    "Fish cake",
+    "Garlic",
+    "Amaranth greens",
+    "Salt",
+    "Seasoning",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "muop huong",
+    "cha ca",
+    "hanh tam",
+    "rau bo ngot",
+    "muoi",
+    "hat nem",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    }
+  ]
+}

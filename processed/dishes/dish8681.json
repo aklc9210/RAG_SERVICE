@@ -1,0 +1,66 @@
+{
+  "id": "dish8681",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8681.json",
+  "name_vi": "Thịt bò rim",
+  "name_en": "",
+  "name_normalized": "thit bo rim",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bắp bò"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Lá tỏi",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06332",
+    "ingre07063",
+    "ingre02485",
+    "ingre04694",
+    "ingre03545",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bắp bò",
+    "Tỏi",
+    "Gừng",
+    "Nước mắm",
+    "Lá tỏi",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Garlic",
+    "Ginger",
+    "Fish Sauce",
+    "Garlic Leaf",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bap bo",
+    "toi",
+    "gung",
+    "nuoc mam",
+    "la toi",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

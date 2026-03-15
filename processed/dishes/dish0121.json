@@ -1,0 +1,131 @@
+{
+  "id": "dish0121",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0121.json",
+  "name_vi": "Cá chạch nấu canh chua",
+  "name_en": "",
+  "name_normalized": "ca chach nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chạch",
+    "Cần tây",
+    "Rau húng quế",
+    "Dọc mùng",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Giá đỗ",
+    "Dứa",
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01501",
+    "ingre01812",
+    "ingre05265",
+    "ingre02147",
+    "ingre01354",
+    "ingre02337",
+    "ingre02151",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre08026",
+    "ingre01079",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chạch",
+    "Cần tây",
+    "Rau húng quế",
+    "Dọc mùng",
+    "Cà chua",
+    "Giá đỗ",
+    "Dứa",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Ớt hiểm",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Crayfish",
+    "Celery",
+    "Sage Herb",
+    "Water spinach",
+    "Tomato",
+    "Bean sprouts",
+    "Pineapple",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Hot pepper",
+    "Lemon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chach",
+    "can tay",
+    "rau hung que",
+    "doc mung",
+    "ca chua",
+    "gia do",
+    "dua",
+    "hanh tim",
+    "toi",
+    "sa",
+    "ot hiem",
+    "chanh",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

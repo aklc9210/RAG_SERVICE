@@ -1,0 +1,29 @@
+{
+  "id": "ingre03821",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03821.json",
+  "name_vi": "muối/ đường/ bột ngọt/ tiêu xay",
+  "name_en": "Salt/ Sugar/ Monosodium Glutamate/ Ground Pepper",
+  "name_normalized": "muoi duong bot ngot tieu xay",
+  "synonyms": [
+    "bột nở",
+    "mì chính",
+    "bắp ngô"
+  ],
+  "synonyms_normalized": [
+    "bot no",
+    "mi chinh",
+    "bap ngo"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ duong/ bot ngot/ tieu xay",
+      "new": "muoi duong bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

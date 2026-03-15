@@ -1,0 +1,85 @@
+{
+  "id": "dish5961",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5961.json",
+  "name_vi": "Thịt heo khìa nước dừa (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "thit heo khia nuoc dua cong thuc duoc chia se tu nguoi dung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt heo",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre04626",
+    "ingre07063",
+    "ingre04538",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Nước dừa tươi",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Coconut water",
+    "Garlic",
+    "Lemon juice",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "nuoc dua tuoi",
+    "toi",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit heo khia nuoc dua (cong thuc duoc chia se tu nguoi dung)",
+      "new": "thit heo khia nuoc dua cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

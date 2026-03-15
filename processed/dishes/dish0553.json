@@ -1,0 +1,91 @@
+{
+  "id": "dish0553",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0553.json",
+  "name_vi": "Canh chua bông điên điển nấu cá vồ",
+  "name_en": "",
+  "name_normalized": "canh chua bong dien dien nau ca vo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá vồ",
+    "Bông điên điển"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01654",
+    "ingre00296",
+    "ingre04329",
+    "ingre01079",
+    "ingre07063",
+    "ingre04581",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá vồ",
+    "Bông điên điển",
+    "Ngò gai",
+    "Chanh",
+    "Tỏi",
+    "Nước cốt me",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Mudfish",
+    "Dandelion flower",
+    "Culantro",
+    "Lemon",
+    "Garlic",
+    "Lime juice",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca vo",
+    "bong dien dien",
+    "ngo gai",
+    "chanh",
+    "toi",
+    "nuoc cot me",
+    "nuoc mam",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

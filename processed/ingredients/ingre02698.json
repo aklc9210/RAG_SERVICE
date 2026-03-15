@@ -1,0 +1,27 @@
+{
+  "id": "ingre02698",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02698.json",
+  "name_vi": "hành lá/ lá chanh .",
+  "name_en": "Parsley/Lime Leaves",
+  "name_normalized": "hanh la la chanh",
+  "synonyms": [
+    "lá quế",
+    "lá giang"
+  ],
+  "synonyms_normalized": [
+    "la que",
+    "la giang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ la chanh .",
+      "new": "hanh la la chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

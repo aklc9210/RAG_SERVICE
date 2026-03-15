@@ -1,0 +1,76 @@
+{
+  "id": "dish3801",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3801.json",
+  "name_vi": "Cá bò da nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "ca bo da nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá bò da"
+  ],
+  "secondary_ingredients": [
+    "Rau xà lách",
+    "Sả"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Ớt",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01468",
+    "ingre02124",
+    "ingre05410",
+    "ingre05900",
+    "ingre07966",
+    "ingre03825"
+  ],
+  "ingredient_names_vi": [
+    "Cá bò da",
+    "Dầu ăn",
+    "Rau xà lách",
+    "Sả",
+    "Ớt",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef skin",
+    "Cooking oil",
+    "lettuce",
+    "Lemongrass",
+    "Pepper",
+    "Seasoning Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca bo da",
+    "dau an",
+    "rau xa lach",
+    "sa",
+    "ot",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/hạt nêm"
+    }
+  ]
+}

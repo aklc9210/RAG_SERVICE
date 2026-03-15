@@ -1,0 +1,103 @@
+{
+  "id": "dish6334",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6334.json",
+  "name_vi": "Chả giò miền Bắc",
+  "name_en": "",
+  "name_normalized": "cha gio mien bac",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Bắp cải"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mộc nhĩ",
+    "Bún tàu",
+    "Trứng vịt",
+    "Bánh tráng cuốn chả giò"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre01419",
+    "ingre00457",
+    "ingre02768",
+    "ingre04179",
+    "ingre00355",
+    "ingre06853",
+    "ingre00187",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06619"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Cà rốt",
+    "Bắp cải",
+    "Hành tím",
+    "Mộc nhĩ",
+    "Bún tàu",
+    "Trứng vịt",
+    "Bánh tráng cuốn chả giò",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Carrot",
+    "Cabbage",
+    "Shallot",
+    "Mushroom",
+    "Noodle",
+    "Quail egg",
+    "Spring roll wrappers filled with pork sausage",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Cumin Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "ca rot",
+    "bap cai",
+    "hanh tim",
+    "moc nhi",
+    "bun tau",
+    "trung vit",
+    "banh trang cuon cha gio",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

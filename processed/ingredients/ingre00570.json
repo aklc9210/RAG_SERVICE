@@ -1,0 +1,27 @@
+{
+  "id": "ingre00570",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00570.json",
+  "name_vi": "bột bắp trộn với 1/2 cốc nước",
+  "name_en": "Cornstarch mixed with 1/2 cup water",
+  "name_normalized": "bot bap tron voi 1 2 coc nuoc",
+  "synonyms": [
+    "bột ngô",
+    "bột nếp trộn nước"
+  ],
+  "synonyms_normalized": [
+    "bot ngo",
+    "bot nep tron nuoc"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot bap tron voi 1/2 coc nuoc",
+      "new": "bot bap tron voi 1 2 coc nuoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

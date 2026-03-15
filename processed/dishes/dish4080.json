@@ -1,0 +1,82 @@
+{
+  "id": "dish4080",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4080.json",
+  "name_vi": "Ướp thịt bò nướng",
+  "name_en": "",
+  "name_normalized": "uop thit bo nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hạt điều đỏ",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Tỏi",
+    "Ớt",
+    "Dầu hào",
+    "Bột quế"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre02667",
+    "ingre07063",
+    "ingre05900",
+    "ingre07966",
+    "ingre02080",
+    "ingre00888",
+    "ingre03072",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Hành khô",
+    "Tỏi",
+    "Sả",
+    "Ớt",
+    "Dầu hào",
+    "Bột quế",
+    "Hạt điều đỏ",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Garlic Powder",
+    "Garlic",
+    "Lemongrass",
+    "Pepper",
+    "Soy sauce",
+    "Cinnamon粉",
+    "Red Peanut",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "hanh kho",
+    "toi",
+    "sa",
+    "ot",
+    "dau hao",
+    "bot que",
+    "hat dieu do",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

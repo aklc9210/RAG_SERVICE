@@ -1,0 +1,67 @@
+{
+  "id": "dish4142",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4142.json",
+  "name_vi": "Dê nướng sa tế",
+  "name_en": "",
+  "name_normalized": "de nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn dê"
+  ],
+  "secondary_ingredients": [
+    "Đậu bắp",
+    "Chao"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Rượu trắng",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05879",
+    "ingre07729",
+    "ingre05621",
+    "ingre01106",
+    "ingre05574",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Sườn dê",
+    "Đậu bắp",
+    "Sa tế",
+    "Chao",
+    "Rượu trắng",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Goat ribs",
+    "Green beans",
+    "Fish sauce",
+    "Pickled plum",
+    "White wine",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "suon de",
+    "dau bap",
+    "sa te",
+    "chao",
+    "ruou trang",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

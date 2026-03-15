@@ -1,0 +1,29 @@
+{
+  "id": "ingre02712",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02712.json",
+  "name_vi": "hành lá/ tỏi/ ớt",
+  "name_en": "Green onion/Garlic/Capsicum",
+  "name_normalized": "hanh la toi ot",
+  "synonyms": [
+    "tỏi tây",
+    "tỏi bắc",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "toi tay",
+    "toi bac",
+    "ot chuong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ toi/ ot",
+      "new": "hanh la toi ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

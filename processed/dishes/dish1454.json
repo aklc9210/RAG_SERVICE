@@ -1,0 +1,108 @@
+{
+  "id": "dish1454",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1454.json",
+  "name_vi": "Bánh giá chợ giồng",
+  "name_en": "",
+  "name_normalized": "banh gia cho giong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Tôm thẻ",
+    "Nguyên liệu"
+  ],
+  "seasonings": [
+    "Tỏi phi",
+    "Đường",
+    "Hạt tiêu",
+    "Tiêu xay",
+    "Bột gạo",
+    "Bột bắp",
+    "Bột chiên giòn",
+    "Nước cốt dừa",
+    "Trứng gà",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06329",
+    "ingre07096",
+    "ingre07583",
+    "ingre03043",
+    "ingre06644",
+    "ingre00668",
+    "ingre00564",
+    "ingre00598",
+    "ingre04554",
+    "ingre02673",
+    "ingre06823",
+    "ingre04538",
+    "ingre06957",
+    "ingre04313"
+  ],
+  "ingredient_names_vi": [
+    "Thịt băm",
+    "Tỏi phi",
+    "Đường",
+    "Hạt tiêu",
+    "Tiêu xay",
+    "Bột gạo",
+    "Bột bắp",
+    "Bột chiên giòn",
+    "Nước cốt dừa",
+    "Hành lá",
+    "Trứng gà",
+    "Nước cốt chanh",
+    "Tôm thẻ",
+    "Nguyên liệu"
+  ],
+  "ingredient_names_en": [
+    "Minced meat",
+    "Garlic flakes",
+    "Sugar",
+    "Pepper",
+    "Ground pepper",
+    "Rice flour",
+    "Corn starch",
+    "Puffed Rice Powder",
+    "Coconut milk",
+    "Scallion",
+    "Chicken egg",
+    "Lemon juice",
+    "Prawn",
+    "Ingredient"
+  ],
+  "ingredient_names_normalized": [
+    "thit bam",
+    "toi phi",
+    "duong",
+    "hat tieu",
+    "tieu xay",
+    "bot gao",
+    "bot bap",
+    "bot chien gion",
+    "nuoc cot dua",
+    "hanh la",
+    "trung ga",
+    "nuoc cot chanh",
+    "tom the",
+    "nguyen lieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

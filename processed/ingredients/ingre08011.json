@@ -1,0 +1,29 @@
+{
+  "id": "ingre08011",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre08011.json",
+  "name_vi": "ớt chuông xanh/ đỏ",
+  "name_en": "Green/Yellow Red Pepper",
+  "name_normalized": "ot chuong xanh do",
+  "synonyms": [
+    "dứa xanh",
+    "dưa leo",
+    "quả chuông"
+  ],
+  "synonyms_normalized": [
+    "dua xanh",
+    "dua leo",
+    "qua chuong"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ot chuong xanh/ do",
+      "new": "ot chuong xanh do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

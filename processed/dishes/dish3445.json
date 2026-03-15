@@ -1,0 +1,92 @@
+{
+  "id": "dish3445",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3445.json",
+  "name_vi": "Cà ri gà Ấn Độ sốt xoài",
+  "name_en": "",
+  "name_normalized": "ca ri ga an do sot xoai",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Ức gà",
+    "Xoài chín"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Tỏi",
+    "Gừng",
+    "Bột cà ri Ấn Độ",
+    "Bột hạt ngò",
+    "Muối/ Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre07332",
+    "ingre04554",
+    "ingre02741",
+    "ingre07063",
+    "ingre02485",
+    "ingre04343",
+    "ingre00635",
+    "ingre00694",
+    "ingre03814",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Xoài chín",
+    "Nước cốt dừa",
+    "Hành tây",
+    "Tỏi",
+    "Gừng",
+    "Ngò rí",
+    "Bột cà ri Ấn Độ",
+    "Bột hạt ngò",
+    "Muối/ Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Mango",
+    "Coconut milk",
+    "Onion",
+    "Garlic",
+    "Ginger",
+    "Parsley",
+    "Indian curry powder",
+    "Coriander Seed Powder",
+    "Salt/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "xoai chin",
+    "nuoc cot dua",
+    "hanh tay",
+    "toi",
+    "gung",
+    "ngo ri",
+    "bot ca ri an do",
+    "bot hat ngo",
+    "muoi tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu"
+    }
+  ]
+}

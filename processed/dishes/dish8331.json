@@ -1,0 +1,87 @@
+{
+  "id": "dish8331",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8331.json",
+  "name_vi": "Mì Ý cá hồi sốt kem",
+  "name_en": "",
+  "name_normalized": "mi y ca hoi sot kem",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Mỳ Ý",
+    "Cá hồi",
+    "Đậu Hà Lan"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Phô mai",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04287",
+    "ingre01527",
+    "ingre07736",
+    "ingre07063",
+    "ingre02741",
+    "ingre05054",
+    "ingre00382",
+    "ingre02124",
+    "ingre06147",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Mỳ Ý",
+    "Cá hồi",
+    "Đậu Hà Lan",
+    "Tỏi",
+    "Hành tây",
+    "Phô mai",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pasta",
+    "Salmon",
+    "Green beans",
+    "Garlic",
+    "Onion",
+    "Cheese",
+    "Butter",
+    "Cooking oil",
+    "Fat-free Milk",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "my y",
+    "ca hoi",
+    "dau ha lan",
+    "toi",
+    "hanh tay",
+    "pho mai",
+    "bo lat",
+    "dau an",
+    "sua tuoi khong duong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

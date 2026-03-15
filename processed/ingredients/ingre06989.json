@@ -1,0 +1,25 @@
+{
+  "id": "ingre06989",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06989.json",
+  "name_vi": "tương cà/ giấm trắng",
+  "name_en": "Miso/White Vinegar",
+  "name_normalized": "tuong ca giam trang",
+  "synonyms": [
+    "giấm trắng"
+  ],
+  "synonyms_normalized": [
+    "giam trang"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong ca/ giam trang",
+      "new": "tuong ca giam trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish8039",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8039.json",
+  "name_vi": "Salad gà dầu giấm",
+  "name_en": "",
+  "name_normalized": "salad ga dau giam",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Bơ",
+    "Khoai lang"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Rau xà lách",
+    "Bắp cải tím",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Lá Oregano khô",
+    "Giấm",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre00367",
+    "ingre03186",
+    "ingre01354",
+    "ingre05410",
+    "ingre00468",
+    "ingre00804",
+    "ingre03496",
+    "ingre02120",
+    "ingre02355",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Bơ",
+    "Khoai lang",
+    "Cà chua",
+    "Rau xà lách",
+    "Bắp cải tím",
+    "Bột nghệ",
+    "Lá Oregano khô",
+    "Dầu ô liu",
+    "Giấm",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Butter",
+    "Sweet Potato",
+    "Tomato",
+    "lettuce",
+    "Purple cabbage",
+    "Turmeric Powder",
+    "Dried Oregano Leaves",
+    "Olive oil",
+    "Vinegar",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "bo",
+    "khoai lang",
+    "ca chua",
+    "rau xa lach",
+    "bap cai tim",
+    "bot nghe",
+    "la oregano kho",
+    "dau o liu",
+    "giam",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish0135",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0135.json",
+  "name_vi": "Canh rong biển tôm mực",
+  "name_en": "",
+  "name_normalized": "canh rong bien tom muc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rong biển khô",
+    "Mực",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu hũ non"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Rượu trắng",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05457",
+    "ingre04264",
+    "ingre06930",
+    "ingre02768",
+    "ingre07752",
+    "ingre02124",
+    "ingre05574",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Rong biển khô",
+    "Mực",
+    "Tôm",
+    "Hành tím",
+    "Đậu hũ non",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Kelp Powder",
+    "Squid",
+    "Shrimp",
+    "Shallot",
+    "Firm Tofu",
+    "Cooking oil",
+    "White wine",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "rong bien kho",
+    "muc",
+    "tom",
+    "hanh tim",
+    "dau hu non",
+    "dau an",
+    "ruou trang",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

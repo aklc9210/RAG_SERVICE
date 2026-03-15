@@ -1,0 +1,61 @@
+{
+  "id": "dish7568",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7568.json",
+  "name_vi": "cách nấu xôi kê bằng nồi cơm điện đơn giản, dễ làm ngay tại nhà",
+  "name_en": "",
+  "name_normalized": "cach nau xoi ke bang noi com dien don gian de lam ngay tai nha",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Hạt kê nếp vàng"
+  ],
+  "secondary_ingredients": [
+    "Gạo nếp"
+  ],
+  "seasonings": [
+    "Đường trắng",
+    "Muối",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre02962",
+    "ingre02450",
+    "ingre07652",
+    "ingre03746",
+    "ingre07140"
+  ],
+  "ingredient_names_vi": [
+    "Hạt kê nếp vàng",
+    "Gạo nếp",
+    "Đường trắng",
+    "Muối",
+    "Vani"
+  ],
+  "ingredient_names_en": [
+    "Golden glutinous rice beans",
+    "sticky rice",
+    "White sugar",
+    "Salt",
+    "Vanilla"
+  ],
+  "ingredient_names_normalized": [
+    "hat ke nep vang",
+    "gao nep",
+    "duong trang",
+    "muoi",
+    "vani"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach nau xoi ke bang noi com dien don gian, de lam ngay tai nha",
+      "new": "cach nau xoi ke bang noi com dien don gian de lam ngay tai nha",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

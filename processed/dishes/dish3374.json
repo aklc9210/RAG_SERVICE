@@ -1,0 +1,134 @@
+{
+  "id": "dish3374",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3374.json",
+  "name_vi": "Cà ri tôm",
+  "name_en": "",
+  "name_normalized": "ca ri tom",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Tôm càng xanh",
+    "Khoai môn",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau răm",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột nước cốt dừa",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Cà ri dầu",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06937",
+    "ingre03208",
+    "ingre05900",
+    "ingre07063",
+    "ingre02768",
+    "ingre05359",
+    "ingre00357",
+    "ingre00855",
+    "ingre06147",
+    "ingre02124",
+    "ingre01417",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tôm càng xanh",
+    "Khoai môn",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Rau răm",
+    "Bún tươi",
+    "Bột nước cốt dừa",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Cà ri dầu",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Yam",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "Vietnamese coriander",
+    "Fresh noodle",
+    "Coconut Milk Powder",
+    "Fat-free Milk",
+    "Cooking oil",
+    "Curry Oil",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tom cang xanh",
+    "khoai mon",
+    "sa",
+    "toi",
+    "hanh tim",
+    "rau ram",
+    "bun tuoi",
+    "bot nuoc cot dua",
+    "sua tuoi khong duong",
+    "dau an",
+    "ca ri dau",
+    "muoi",
+    "hat nem",
+    "duong",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

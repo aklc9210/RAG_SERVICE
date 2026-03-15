@@ -1,0 +1,106 @@
+{
+  "id": "dish4745",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4745.json",
+  "name_vi": "Tôm xào măng",
+  "name_en": "",
+  "name_normalized": "tom xao mang",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm",
+    "Măng tươi",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre04091",
+    "ingre02673",
+    "ingre08026",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Măng tươi",
+    "Hành lá",
+    "Ớt hiểm",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Fresh bamboo shoots",
+    "Scallion",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "mang tuoi",
+    "hanh la",
+    "ot hiem",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

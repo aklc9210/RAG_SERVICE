@@ -1,0 +1,117 @@
+{
+  "id": "dish0371",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0371.json",
+  "name_vi": "Gà hầm bí đỏ",
+  "name_en": "",
+  "name_normalized": "ga ham bi do",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt gà ta",
+    "Bí đỏ tròn",
+    "Nước dừa"
+  ],
+  "secondary_ingredients": [
+    "Hạt sen",
+    "Nấm rơm",
+    "Nhãn nhục",
+    "Nấm kim châm",
+    "Táo đỏ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Dầu hào",
+    "Nước tương",
+    "Đường phèn",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06386",
+    "ingre00260",
+    "ingre04622",
+    "ingre01419",
+    "ingre03029",
+    "ingre04953",
+    "ingre04438",
+    "ingre04921",
+    "ingre06911",
+    "ingre07071",
+    "ingre02774",
+    "ingre02080",
+    "ingre04790",
+    "ingre07635",
+    "ingre04694",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà ta",
+    "Bí đỏ tròn",
+    "Nước dừa",
+    "Cà rốt",
+    "Hạt sen",
+    "Nấm rơm",
+    "Nhãn nhục",
+    "Nấm kim châm",
+    "Táo đỏ",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Dầu hào",
+    "Nước tương",
+    "Đường phèn",
+    "Nước mắm",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Round Pumpkin",
+    "Coconut water",
+    "Carrot",
+    "Lotus seed",
+    "Strawberry mushroom",
+    "Jujube",
+    "Mushroom",
+    "Red apple",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Soy sauce",
+    "Brown Sugar",
+    "Fish Sauce",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga ta",
+    "bi do tron",
+    "nuoc dua",
+    "ca rot",
+    "hat sen",
+    "nam rom",
+    "nhan nhuc",
+    "nam kim cham",
+    "tao do",
+    "toi bam",
+    "hanh tim bam",
+    "dau hao",
+    "nuoc tuong",
+    "duong phen",
+    "nuoc mam",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

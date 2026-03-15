@@ -1,0 +1,25 @@
+{
+  "id": "ingre02384",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02384.json",
+  "name_vi": "giấm/muối",
+  "name_en": "Vinegar/Salt",
+  "name_normalized": "giam muoi",
+  "synonyms": [
+    "muối canh"
+  ],
+  "synonyms_normalized": [
+    "muoi canh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "giam/muoi",
+      "new": "giam muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish3614",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3614.json",
+  "name_vi": "Kem socola dâu tây",
+  "name_en": "",
+  "name_normalized": "kem socola dau tay",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Dâu tây",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Socola chip",
+    "Tinh chất vani",
+    "Socola dạng viên/ dạng thanh"
+  ],
+  "seasonings": [
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01961",
+    "ingre07313",
+    "ingre06174",
+    "ingre05737",
+    "ingre06592",
+    "ingre07583",
+    "ingre05743",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Dâu tây",
+    "Whipping cream",
+    "Sữa đặc",
+    "Socola chip",
+    "Tinh chất vani",
+    "Đường",
+    "Socola dạng viên/ dạng thanh",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Strawberry",
+    "Whipping cream",
+    "Sweetened Condensed Milk",
+    "Chocolate chip",
+    "Vanilla extract",
+    "Sugar",
+    "Chocolate Bar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau tay",
+    "whipping cream",
+    "sua dac",
+    "socola chip",
+    "tinh chat vani",
+    "duong",
+    "socola dang vien dang thanh",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola dang vien/ dang thanh",
+      "new": "socola dang vien dang thanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola dạng viên/ dạng thanh"
+    }
+  ]
+}

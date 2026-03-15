@@ -1,0 +1,117 @@
+{
+  "id": "dish10647",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10647.json",
+  "name_vi": "Gỏi cuốn cá ngừ kiểu Thái",
+  "name_en": "",
+  "name_normalized": "goi cuon ca ngu kieu thai",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Cá ngừ đóng hộp",
+    "Dầu ô liu",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè",
+    "Cà chua",
+    "Dưa leo baby",
+    "Bánh tráng",
+    "Lá húng quế",
+    "Rau ngò"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Cà rốt",
+    "Ớt",
+    "Nước chanh",
+    "Nước mắm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01588",
+    "ingre02080",
+    "ingre02120",
+    "ingre02741",
+    "ingre02094",
+    "ingre01419",
+    "ingre01354",
+    "ingre02021",
+    "ingre00178",
+    "ingre03439",
+    "ingre05321",
+    "ingre07966",
+    "ingre04509",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngừ đóng hộp",
+    "Dầu hào",
+    "Dầu ô liu",
+    "Hành tây",
+    "Dầu mè",
+    "Cà rốt",
+    "Cà chua",
+    "Dưa leo baby",
+    "Bánh tráng",
+    "Lá húng quế",
+    "Rau ngò",
+    "Ớt",
+    "Nước chanh",
+    "Nước mắm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Canned tuna",
+    "Soy sauce",
+    "Olive oil",
+    "Onion",
+    "Sesame oil",
+    "Carrot",
+    "Tomato",
+    "Baby cucumber",
+    "Rice Paper",
+    "Rosemary",
+    "Culantro",
+    "Pepper",
+    "Lemon juice",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngu dong hop",
+    "dau hao",
+    "dau o liu",
+    "hanh tay",
+    "dau me",
+    "ca rot",
+    "ca chua",
+    "dua leo baby",
+    "banh trang",
+    "la hung que",
+    "rau ngo",
+    "ot",
+    "nuoc chanh",
+    "nuoc mam",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

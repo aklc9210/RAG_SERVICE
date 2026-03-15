@@ -1,0 +1,61 @@
+{
+  "id": "dish10417",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10417.json",
+  "name_vi": "Bingsu (đá bào) đào",
+  "name_en": "",
+  "name_normalized": "bingsu da bao dao",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Đào tươi"
+  ],
+  "secondary_ingredients": [
+    "Đào ngâm",
+    "Nước đào ngâm",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07515",
+    "ingre07512",
+    "ingre04852",
+    "ingre06174",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đào tươi",
+    "Đào ngâm",
+    "Nước đào ngâm",
+    "Sữa đặc",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Fresh peach",
+    "Pickled peach",
+    "Pickled peach water",
+    "Sweetened Condensed Milk",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dao tuoi",
+    "dao ngam",
+    "nuoc dao ngam",
+    "sua dac",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bingsu (da bao) dao",
+      "new": "bingsu da bao dao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

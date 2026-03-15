@@ -1,0 +1,77 @@
+{
+  "id": "dish10575",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10575.json",
+  "name_vi": "Nước mắm thấm",
+  "name_en": "",
+  "name_normalized": "nuoc mam tham",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Lá giang"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Đậu phộng",
+    "Dừa nạo",
+    "Chao",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Tương hột",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre03430",
+    "ingre06994",
+    "ingre05900",
+    "ingre07966",
+    "ingre07781",
+    "ingre02182",
+    "ingre01106",
+    "ingre06174"
+  ],
+  "ingredient_names_vi": [
+    "Lá giang",
+    "Tương hột",
+    "Sả",
+    "Ớt",
+    "Đậu phộng",
+    "Dừa nạo",
+    "Chao",
+    "Sữa đặc"
+  ],
+  "ingredient_names_en": [
+    "Japanese Laurel Leaf",
+    "Soy sauce",
+    "Lemongrass",
+    "Pepper",
+    "Peanut",
+    "Coconut grated",
+    "Pickled plum",
+    "Sweetened Condensed Milk"
+  ],
+  "ingredient_names_normalized": [
+    "la giang",
+    "tuong hot",
+    "sa",
+    "ot",
+    "dau phong",
+    "dua nao",
+    "chao",
+    "sua dac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

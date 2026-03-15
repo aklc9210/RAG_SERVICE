@@ -1,0 +1,96 @@
+{
+  "id": "dish4984",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4984.json",
+  "name_vi": "Nghêu sốt trứng muối",
+  "name_en": "",
+  "name_normalized": "ngheu sot trung muoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bơ",
+    "Dầu điều"
+  ],
+  "secondary_ingredients": [
+    "Nghêu",
+    "Bắp mỹ"
+  ],
+  "seasonings": [
+    "Trứng muối",
+    "Nước mắm",
+    "Ớt băm",
+    "Tỏi băm",
+    "Đường trắng",
+    "Xả/gừng"
+  ],
+  "ingredient_ids": [
+    "ingre06849",
+    "ingre00367",
+    "ingre02134",
+    "ingre04694",
+    "ingre07971",
+    "ingre07071",
+    "ingre07652",
+    "ingre07443",
+    "ingre04303",
+    "ingre00479"
+  ],
+  "ingredient_names_vi": [
+    "Trứng muối",
+    "Bơ",
+    "Dầu điều",
+    "Nước mắm",
+    "Ớt băm",
+    "Tỏi băm",
+    "Đường trắng",
+    "Xả/gừng",
+    "Nghêu",
+    "Bắp mỹ"
+  ],
+  "ingredient_names_en": [
+    "Pickled egg",
+    "Butter",
+    "Peanut oil",
+    "Fish Sauce",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "White sugar",
+    "Lemongrass/Ginger",
+    "Clam",
+    "Corn"
+  ],
+  "ingredient_names_normalized": [
+    "trung muoi",
+    "bo",
+    "dau dieu",
+    "nuoc mam",
+    "ot bam",
+    "toi bam",
+    "duong trang",
+    "xa gung",
+    "ngheu",
+    "bap my"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa/gung",
+      "new": "xa gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xả/gừng"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish5768",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5768.json",
+  "name_vi": "Chân giò hầm hạt dẻ",
+  "name_en": "",
+  "name_normalized": "chan gio ham hat de",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Chân giò"
+  ],
+  "secondary_ingredients": [
+    "Hạt dẻ",
+    "Nước hàng"
+  ],
+  "seasonings": [
+    "Bột canh",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre02934",
+    "ingre04636",
+    "ingre00587",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Hạt dẻ",
+    "Nước hàng",
+    "Bột canh",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Walnut",
+    "Fish sauce",
+    "Cornstarch",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "hat de",
+    "nuoc hang",
+    "bot canh",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

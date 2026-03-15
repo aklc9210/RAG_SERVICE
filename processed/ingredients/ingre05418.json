@@ -1,0 +1,27 @@
+{
+  "id": "ingre05418",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05418.json",
+  "name_vi": "rau ôm/ngò gai",
+  "name_en": "Sage Weed",
+  "name_normalized": "rau om ngo gai",
+  "synonyms": [
+    "ngò gai"
+  ],
+  "synonyms_normalized": [
+    "ngo gai"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau om/ngo gai",
+      "new": "rau om ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

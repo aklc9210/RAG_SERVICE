@@ -1,0 +1,123 @@
+{
+  "id": "dish1666",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1666.json",
+  "name_vi": "Bánh pizza khoai lang",
+  "name_en": "",
+  "name_normalized": "banh pizza khoai lang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt bò",
+    "Phô mai Cheddar"
+  ],
+  "secondary_ingredients": [
+    "Khoai lang",
+    "Thơm",
+    "Cà chua",
+    "Hành tây",
+    "Hành tím",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Bột chiên giòn",
+    "Bắp ngọt",
+    "Sốt ăn kèm",
+    "Bột canh",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre06823",
+    "ingre05064",
+    "ingre00791",
+    "ingre00598",
+    "ingre03186",
+    "ingre06247",
+    "ingre00483",
+    "ingre01354",
+    "ingre02741",
+    "ingre02768",
+    "ingre06031",
+    "ingre00587",
+    "ingre00819",
+    "ingre02104",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Trứng gà",
+    "Phô mai Cheddar",
+    "Bột mì đa dụng",
+    "Bột chiên giòn",
+    "Khoai lang",
+    "Thơm",
+    "Bắp ngọt",
+    "Cà chua",
+    "Hành tây",
+    "Hành tím",
+    "Sốt ăn kèm",
+    "Bột canh",
+    "Bột ngọt",
+    "Dầu oliu",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Chicken egg",
+    "Cheddar cheese",
+    "All-purpose flour",
+    "Puffed Rice Powder",
+    "Sweet Potato",
+    "Basil",
+    "Sweet corn",
+    "Tomato",
+    "Onion",
+    "Shallot",
+    "Dipping Sauce",
+    "Cornstarch",
+    "MSG",
+    "Olive oil",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "trung ga",
+    "pho mai cheddar",
+    "bot mi da dung",
+    "bot chien gion",
+    "khoai lang",
+    "thom",
+    "bap ngot",
+    "ca chua",
+    "hanh tay",
+    "hanh tim",
+    "sot an kem",
+    "bot canh",
+    "bot ngot",
+    "dau oliu",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

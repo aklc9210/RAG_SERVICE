@@ -1,0 +1,27 @@
+{
+  "id": "ingre03826",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03826.json",
+  "name_vi": "muối/tiêu",
+  "name_en": "Salt/Pepper",
+  "name_normalized": "muoi tieu",
+  "synonyms": [
+    "bột ngọt",
+    "bột nêm"
+  ],
+  "synonyms_normalized": [
+    "bot ngot",
+    "bot nem"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

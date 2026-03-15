@@ -1,0 +1,98 @@
+{
+  "id": "dish5224",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5224.json",
+  "name_vi": "Bạch tuộc xào củ kiệu",
+  "name_en": "",
+  "name_normalized": "bach tuoc xao cu kieu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Củ kiệu",
+    "Gốc hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre01895",
+    "ingre02479",
+    "ingre02768",
+    "ingre07063",
+    "ingre07057",
+    "ingre05626",
+    "ingre02124",
+    "ingre02080",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Củ kiệu",
+    "Gốc hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Tắc",
+    "Sa tế tôm",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Pickled radish",
+    "Chives",
+    "Shallot",
+    "Garlic",
+    "Tamarind",
+    "Shrimp paste",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "cu kieu",
+    "goc hanh la",
+    "hanh tim",
+    "toi",
+    "tac",
+    "sa te tom",
+    "dau an",
+    "dau hao",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "dish0486",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0486.json",
+  "name_vi": "Bạch tuộc nhúng lá me",
+  "name_en": "",
+  "name_normalized": "bach tuoc nhung la me",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Dứa",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò gai",
+    "Ngò rí",
+    "Lá me non"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước mắm",
+    "Đường/ muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre02151",
+    "ingre05900",
+    "ingre02768",
+    "ingre04329",
+    "ingre04343",
+    "ingre03465",
+    "ingre07966",
+    "ingre04694",
+    "ingre07680",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Dứa",
+    "Sả",
+    "Hành tím",
+    "Ngò gai",
+    "Ngò rí",
+    "Lá me non",
+    "Ớt",
+    "Nước mắm",
+    "Đường/ muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Pineapple",
+    "Lemongrass",
+    "Shallot",
+    "Culantro",
+    "Parsley",
+    "Mint Leaves",
+    "Pepper",
+    "Fish Sauce",
+    "Sugar/Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "dua",
+    "sa",
+    "hanh tim",
+    "ngo gai",
+    "ngo ri",
+    "la me non",
+    "ot",
+    "nuoc mam",
+    "duong muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

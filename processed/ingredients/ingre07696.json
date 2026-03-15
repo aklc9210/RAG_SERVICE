@@ -1,0 +1,27 @@
+{
+  "id": "ingre07696",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07696.json",
+  "name_vi": "đường;muối;bột ngọt;hạt nêm",
+  "name_en": "Sugar;Salt;Monosodium Glutamate;Seasoning Powder",
+  "name_normalized": "duong muoi bot ngot hat nem",
+  "synonyms": [
+    "muối nở",
+    "bột nở"
+  ],
+  "synonyms_normalized": [
+    "muoi no",
+    "bot no"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong;muoi;bot ngot;hat nem",
+      "new": "duong muoi bot ngot hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

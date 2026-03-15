@@ -1,0 +1,121 @@
+{
+  "id": "dish8066",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8066.json",
+  "name_vi": "Gỏi cá diếc sống",
+  "name_en": "",
+  "name_normalized": "goi ca diec song",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá diếc",
+    "Cơm nguội"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Rau sống các loại",
+    "Cơm mẻ",
+    "Bơ"
+  ],
+  "seasonings": [
+    "Riềng xay",
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01516",
+    "ingre01755",
+    "ingre05445",
+    "ingre07966",
+    "ingre05900",
+    "ingre07063",
+    "ingre02768",
+    "ingre05380",
+    "ingre01753",
+    "ingre00367",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá diếc",
+    "Cơm nguội",
+    "Riềng xay",
+    "Ớt",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Rau sống các loại",
+    "Cơm mẻ",
+    "Bơ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Cold Rice",
+    "Garlic Paste",
+    "Pepper",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "Leafy Greens",
+    "Glutinous Rice",
+    "Butter",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca diec",
+    "com nguoi",
+    "rieng xay",
+    "ot",
+    "sa",
+    "toi",
+    "hanh tim",
+    "rau song cac loai",
+    "com me",
+    "bo",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

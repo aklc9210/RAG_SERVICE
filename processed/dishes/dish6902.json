@@ -1,0 +1,71 @@
+{
+  "id": "dish6902",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6902.json",
+  "name_vi": "Phi lê cá basa chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "phi le ca basa chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Phi lê cá basa",
+    "Ngò rí"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05029",
+    "ingre04343",
+    "ingre07966",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá basa",
+    "Ngò rí",
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Basa fillet",
+    "Parsley",
+    "Pepper",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca basa",
+    "ngo ri",
+    "ot",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

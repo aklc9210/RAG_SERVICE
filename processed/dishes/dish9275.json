@@ -1,0 +1,56 @@
+{
+  "id": "dish9275",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9275.json",
+  "name_vi": "Bánh tráng chiên giòn lắc muối ớt",
+  "name_en": "",
+  "name_normalized": "banh trang chien gion lac muoi ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt bột",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre07977",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Ớt bột",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Chili powder",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "ot bot",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dish4248",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4248.json",
+  "name_vi": "Nước chấm chua ngọt tỏi ớt",
+  "name_en": "",
+  "name_normalized": "nuoc cham chua ngot toi ot",
+  "category": "mon nuong",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Củ cải trắng"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Cà rốt",
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04694",
+    "ingre01419",
+    "ingre01868",
+    "ingre01079",
+    "ingre07966",
+    "ingre07063",
+    "ingre02355",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Nước mắm",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Fish Sauce",
+    "Carrot",
+    "White radish",
+    "Lemon",
+    "Pepper",
+    "Garlic",
+    "Vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc mam",
+    "ca rot",
+    "cu cai trang",
+    "chanh",
+    "ot",
+    "toi",
+    "giam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

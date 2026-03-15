@@ -1,0 +1,56 @@
+{
+  "id": "dish2215",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2215.json",
+  "name_vi": "Nama trà xanh - Nama matcha",
+  "name_en": "",
+  "name_normalized": "nama tra xanh nama matcha",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Chocolate trắng",
+    "Kem tươi",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột trà xanh Nhật Bản"
+  ],
+  "ingredient_ids": [
+    "ingre00964",
+    "ingre01150",
+    "ingre03157",
+    "ingre00382"
+  ],
+  "ingredient_names_vi": [
+    "Bột trà xanh Nhật Bản",
+    "Chocolate trắng",
+    "Kem tươi",
+    "Bơ lạt"
+  ],
+  "ingredient_names_en": [
+    "Green Matcha Powder",
+    "White chocolate",
+    "Fresh cream",
+    "Butter"
+  ],
+  "ingredient_names_normalized": [
+    "bot tra xanh nhat ban",
+    "chocolate trang",
+    "kem tuoi",
+    "bo lat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nama tra xanh - nama matcha",
+      "new": "nama tra xanh nama matcha",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "dish9555",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9555.json",
+  "name_vi": "Mứt khoai tây miếng (công thức không dùng nước vôi trong)",
+  "name_en": "",
+  "name_normalized": "mut khoai tay mieng cong thuc khong dung nuoc voi trong",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre03746",
+    "ingre04538",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Muối",
+    "Nước cốt chanh",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Salt",
+    "Lemon juice",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "muoi",
+    "nuoc cot chanh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mut khoai tay mieng (cong thuc khong dung nuoc voi trong)",
+      "new": "mut khoai tay mieng cong thuc khong dung nuoc voi trong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

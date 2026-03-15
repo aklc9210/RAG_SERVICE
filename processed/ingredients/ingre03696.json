@@ -1,0 +1,27 @@
+{
+  "id": "ingre03696",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03696.json",
+  "name_vi": "mè",
+  "name_en": "Tamarind",
+  "name_normalized": "me",
+  "synonyms": [
+    "mè đen",
+    "mè trắng"
+  ],
+  "synonyms_normalized": [
+    "me den",
+    "me trang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

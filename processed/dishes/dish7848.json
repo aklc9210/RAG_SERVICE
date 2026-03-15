@@ -1,0 +1,67 @@
+{
+  "id": "dish7848",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7848.json",
+  "name_vi": "Lẩu cá chim nấu ngót",
+  "name_en": "",
+  "name_normalized": "lau ca chim nau ngot",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá chim trắng"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Cà chua",
+    "Cần tây"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01487",
+    "ingre01868",
+    "ingre01354",
+    "ingre01812",
+    "ingre02730",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá chim trắng",
+    "Củ cải trắng",
+    "Cà chua",
+    "Cần tây",
+    "Hành phi",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Whitebait",
+    "White radish",
+    "Tomato",
+    "Celery",
+    "Garlic Fried",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca chim trang",
+    "cu cai trang",
+    "ca chua",
+    "can tay",
+    "hanh phi",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

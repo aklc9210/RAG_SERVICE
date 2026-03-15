@@ -1,0 +1,61 @@
+{
+  "id": "dish3647",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3647.json",
+  "name_vi": "Kem ba màu - neapolitan ice cream",
+  "name_en": "",
+  "name_normalized": "kem ba mau neapolitan ice cream",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Hương vani",
+    "Bột cacao",
+    "Bột dâu tây"
+  ],
+  "ingredient_ids": [
+    "ingre07313",
+    "ingre06174",
+    "ingre02886",
+    "ingre00576",
+    "ingre00644"
+  ],
+  "ingredient_names_vi": [
+    "Whipping cream",
+    "Sữa đặc",
+    "Hương vani",
+    "Bột cacao",
+    "Bột dâu tây"
+  ],
+  "ingredient_names_en": [
+    "Whipping cream",
+    "Sweetened Condensed Milk",
+    "Vanilla",
+    "Cocoa powder",
+    "Strawberry powder"
+  ],
+  "ingredient_names_normalized": [
+    "whipping cream",
+    "sua dac",
+    "huong vani",
+    "bot cacao",
+    "bot dau tay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem ba mau - neapolitan ice cream",
+      "new": "kem ba mau neapolitan ice cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

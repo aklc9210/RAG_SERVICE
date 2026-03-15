@@ -1,0 +1,111 @@
+{
+  "id": "dish9207",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9207.json",
+  "name_vi": "Ốc hút",
+  "name_en": "",
+  "name_normalized": "oc hut",
+  "category": "an vat",
+  "main_ingredients": [
+    "Ốc đắng",
+    "Sả tươi",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt cay",
+    "Lá chanh",
+    "Hành tím/ tỏi",
+    "Sa tế",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07958",
+    "ingre05917",
+    "ingre02485",
+    "ingre07057",
+    "ingre07993",
+    "ingre03370",
+    "ingre02806",
+    "ingre04622",
+    "ingre05621",
+    "ingre02134",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc đắng",
+    "Sả tươi",
+    "Gừng",
+    "Tắc",
+    "Ớt cay",
+    "Lá chanh",
+    "Hành tím/ tỏi",
+    "Nước dừa",
+    "Sa tế",
+    "Dầu điều",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Bitter Snail",
+    "Fresh Ginger",
+    "Ginger",
+    "Tamarind",
+    "Hot pepper",
+    "Lime leaf",
+    "Garlic/Scallion",
+    "Coconut water",
+    "Fish sauce",
+    "Peanut oil",
+    "Hot Sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc dang",
+    "sa tuoi",
+    "gung",
+    "tac",
+    "ot cay",
+    "la chanh",
+    "hanh tim toi",
+    "nuoc dua",
+    "sa te",
+    "dau dieu",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ toi",
+      "new": "hanh tim toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ tỏi"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "dish4125",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4125.json",
+  "name_vi": "Vịt nướng lá sen",
+  "name_en": "",
+  "name_normalized": "vit nuong la sen",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt xiêm tơ",
+    "Lá sen",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre07220",
+    "ingre03516",
+    "ingre05359"
+  ],
+  "ingredient_names_vi": [
+    "Vịt xiêm tơ",
+    "Lá sen",
+    "Rau răm"
+  ],
+  "ingredient_names_en": [
+    "Silky duck",
+    "Lotus leaf",
+    "Vietnamese coriander"
+  ],
+  "ingredient_names_normalized": [
+    "vit xiem to",
+    "la sen",
+    "rau ram"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

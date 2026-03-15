@@ -1,0 +1,29 @@
+{
+  "id": "ingre03643",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03643.json",
+  "name_vi": "me",
+  "name_en": "Tamarind",
+  "name_normalized": "me",
+  "synonyms": [
+    "mè",
+    "lạc",
+    "đậu phộng"
+  ],
+  "synonyms_normalized": [
+    "me",
+    "lac",
+    "dau phong"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

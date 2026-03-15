@@ -1,0 +1,82 @@
+{
+  "id": "dish9160",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9160.json",
+  "name_vi": "Bắp bò ngâm nước tương",
+  "name_en": "",
+  "name_normalized": "bap bo ngam nuoc tuong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bắp bò",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt sừng",
+    "Nước tương",
+    "Hạt nêm",
+    "Đường trắng"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre02151",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre08055",
+    "ingre04790",
+    "ingre02995",
+    "ingre07652"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Dứa",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Ớt sừng",
+    "Nước tương",
+    "Hạt nêm",
+    "Đường trắng"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Pineapple",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Hot pepper",
+    "Soy Sauce",
+    "Seasoning",
+    "White sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "dua",
+    "sa",
+    "toi",
+    "gung",
+    "ot sung",
+    "nuoc tuong",
+    "hat nem",
+    "duong trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

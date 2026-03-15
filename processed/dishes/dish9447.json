@@ -1,0 +1,61 @@
+{
+  "id": "dish9447",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9447.json",
+  "name_vi": "Mứt tắc ( mứt quất)",
+  "name_en": "",
+  "name_normalized": "mut tac mut quat",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Gừng cắt sợi",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07057",
+    "ingre02501",
+    "ingre03936",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Tắc",
+    "Gừng cắt sợi",
+    "Mè trắng rang",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tamarind",
+    "Ginger丝切片",
+    "Roasted White Sesame",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tac",
+    "gung cat soi",
+    "me trang rang",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mut tac ( mut quat)",
+      "new": "mut tac mut quat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

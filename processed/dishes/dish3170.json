@@ -1,0 +1,108 @@
+{
+  "id": "dish3170",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3170.json",
+  "name_vi": "Bún cá lóc Kiên Giang",
+  "name_en": "",
+  "name_normalized": "bun ca loc kien giang",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá lóc",
+    "Tôm",
+    "Hoa điên điển",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Rau ăn kèm",
+    "Hạt màu điều"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre06930",
+    "ingre02605",
+    "ingre02768",
+    "ingre02741",
+    "ingre05420",
+    "ingre02970",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre00838",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Tôm",
+    "Hoa điên điển",
+    "Hành tím",
+    "Hành tây",
+    "Rau ăn kèm",
+    "Hạt màu điều",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Shrimp",
+    "Dianthus",
+    "Shallot",
+    "Onion",
+    "Side vegetable",
+    "Pecan",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning Powder",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "tom",
+    "hoa dien dien",
+    "hanh tim",
+    "hanh tay",
+    "rau an kem",
+    "hat mau dieu",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "bot nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

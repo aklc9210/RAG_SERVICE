@@ -1,0 +1,88 @@
+{
+  "id": "dish6444",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6444.json",
+  "name_vi": "Chả lá lốt thịt heo",
+  "name_en": "",
+  "name_normalized": "cha la lot thit heo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Lá lốt tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre06823",
+    "ingre03463",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Trứng gà",
+    "Lá lốt tươi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Chicken egg",
+    "Fresh Coriander",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "MSG",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "trung ga",
+    "la lot tuoi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "bot ngot",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

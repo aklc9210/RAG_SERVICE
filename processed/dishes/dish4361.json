@@ -1,0 +1,108 @@
+{
+  "id": "dish4361",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4361.json",
+  "name_vi": "Cháo huyết thịt băm",
+  "name_en": "",
+  "name_normalized": "chao huyet thit bam",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Gạo",
+    "Huyết",
+    "Thịt băm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Giá",
+    "Rau húng quế"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Hành phi",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre02624",
+    "ingre06329",
+    "ingre02673",
+    "ingre02485",
+    "ingre02329",
+    "ingre05265",
+    "ingre02124",
+    "ingre02730",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Huyết",
+    "Thịt băm",
+    "Hành lá",
+    "Gừng",
+    "Giá",
+    "Rau húng quế",
+    "Dầu ăn",
+    "Hành phi",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Bloodwort",
+    "Minced meat",
+    "Scallion",
+    "Ginger",
+    "Mint",
+    "Sage Herb",
+    "Cooking oil",
+    "Garlic Fried",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "huyet",
+    "thit bam",
+    "hanh la",
+    "gung",
+    "gia",
+    "rau hung que",
+    "dau an",
+    "hanh phi",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

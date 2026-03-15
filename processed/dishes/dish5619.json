@@ -1,0 +1,108 @@
+{
+  "id": "dish5619",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5619.json",
+  "name_vi": "Thỏ nấu giả cầy miền Bắc",
+  "name_en": "",
+  "name_normalized": "tho nau gia cay mien bac",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thỏ",
+    "Riềng tươi",
+    "Nghệ tươi",
+    "Cơm mẻ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Rượu trắng",
+    "Bột canh",
+    "Mì chính",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06548",
+    "ingre05443",
+    "ingre04308",
+    "ingre01753",
+    "ingre04159",
+    "ingre05574",
+    "ingre02768",
+    "ingre05420",
+    "ingre00587",
+    "ingre03958",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thỏ",
+    "Riềng tươi",
+    "Nghệ tươi",
+    "Cơm mẻ",
+    "Mắm tôm",
+    "Rượu trắng",
+    "Hành tím",
+    "Rau ăn kèm",
+    "Bột canh",
+    "Mì chính",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rabbit",
+    "Fresh Ginger",
+    "Ginger",
+    "Glutinous Rice",
+    "Shrimp paste",
+    "White wine",
+    "Shallot",
+    "Side vegetable",
+    "Cornstarch",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tho",
+    "rieng tuoi",
+    "nghe tuoi",
+    "com me",
+    "mam tom",
+    "ruou trang",
+    "hanh tim",
+    "rau an kem",
+    "bot canh",
+    "mi chinh",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

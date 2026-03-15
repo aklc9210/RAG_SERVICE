@@ -1,0 +1,71 @@
+{
+  "id": "dish3186",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3186.json",
+  "name_vi": "Mì lạnh sữa đậu nành (Kongguksu) Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "mi lanh sua dau nanh kongguksu han quoc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Đậu nành",
+    "Mì lúa mì Hàn Quốc"
+  ],
+  "secondary_ingredients": [
+    "Hạt thông rang",
+    "Hạt mè rang",
+    "Cà chua",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre07772",
+    "ingre03975",
+    "ingre03042",
+    "ingre02973",
+    "ingre01354",
+    "ingre02020",
+    "ingre06823"
+  ],
+  "ingredient_names_vi": [
+    "Đậu nành",
+    "Mì lúa mì Hàn Quốc",
+    "Hạt thông rang",
+    "Hạt mè rang",
+    "Cà chua",
+    "Dưa leo",
+    "Trứng gà"
+  ],
+  "ingredient_names_en": [
+    "Soybean",
+    "Wheat noodles",
+    "Roasted pine nuts",
+    "Roasted Sesame Seeds",
+    "Tomato",
+    "Cucumber",
+    "Chicken egg"
+  ],
+  "ingredient_names_normalized": [
+    "dau nanh",
+    "mi lua mi han quoc",
+    "hat thong rang",
+    "hat me rang",
+    "ca chua",
+    "dua leo",
+    "trung ga"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi lanh sua dau nanh (kongguksu) han quoc",
+      "new": "mi lanh sua dau nanh kongguksu han quoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

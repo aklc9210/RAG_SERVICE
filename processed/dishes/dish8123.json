@@ -1,0 +1,76 @@
+{
+  "id": "dish8123",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8123.json",
+  "name_vi": "Gỏi ếch rau rừng",
+  "name_en": "",
+  "name_normalized": "goi ech rau rung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ếch",
+    "Rau rừng các loại"
+  ],
+  "secondary_ingredients": [
+    "Xoài",
+    "Tắc",
+    "Hành tây",
+    "Mè"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre05375",
+    "ingre07329",
+    "ingre07057",
+    "ingre02741",
+    "ingre04694",
+    "ingre08055",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Rau rừng các loại",
+    "Xoài",
+    "Tắc",
+    "Hành tây",
+    "Nước mắm",
+    "Ớt sừng",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Wild herbs",
+    "Mango",
+    "Tamarind",
+    "Onion",
+    "Fish Sauce",
+    "Hot pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "rau rung cac loai",
+    "xoai",
+    "tac",
+    "hanh tay",
+    "nuoc mam",
+    "ot sung",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

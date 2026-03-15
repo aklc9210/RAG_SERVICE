@@ -1,0 +1,25 @@
+{
+  "id": "ingre04059",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04059.json",
+  "name_vi": "mùi tàu/húng quế",
+  "name_en": "Star Anise",
+  "name_normalized": "mui tau hung que",
+  "synonyms": [
+    "húng quế"
+  ],
+  "synonyms_normalized": [
+    "hung que"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mui tau/hung que",
+      "new": "mui tau hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

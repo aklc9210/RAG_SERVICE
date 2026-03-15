@@ -1,0 +1,56 @@
+{
+  "id": "dish4558",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4558.json",
+  "name_vi": "Dưa môn xào tỏi",
+  "name_en": "",
+  "name_normalized": "dua mon xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dưa môn"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02040",
+    "ingre07063",
+    "ingre02124",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Dưa môn",
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pickled cucumber",
+    "Garlic",
+    "Cooking oil",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "dua mon",
+    "toi",
+    "dau an",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ Bột ngọt"
+    }
+  ]
+}

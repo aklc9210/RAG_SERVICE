@@ -1,0 +1,73 @@
+{
+  "id": "dish8954",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8954.json",
+  "name_vi": "Bánh tráng trộn sa tế xoài",
+  "name_en": "",
+  "name_normalized": "banh trang tron sa te xoai",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Tỏi phi",
+    "Hành phi",
+    "Muối xay Tây Ninh"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre07342",
+    "ingre05359",
+    "ingre05621",
+    "ingre07096",
+    "ingre02730",
+    "ingre03795"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Xoài xanh",
+    "Rau răm",
+    "Sa tế",
+    "Tỏi phi",
+    "Hành phi",
+    "Muối xay Tây Ninh"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Green mango",
+    "Vietnamese coriander",
+    "Fish sauce",
+    "Garlic flakes",
+    "Garlic Fried",
+    "Ground Salt West Ninh"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "xoai xanh",
+    "rau ram",
+    "sa te",
+    "toi phi",
+    "hanh phi",
+    "muoi xay tay ninh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

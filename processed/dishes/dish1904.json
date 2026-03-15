@@ -1,0 +1,58 @@
+{
+  "id": "dish1904",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1904.json",
+  "name_vi": "Bánh sữa dừa có whipping cream",
+  "name_en": "",
+  "name_normalized": "banh sua dua co whipping cream",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cơm dừa sấy khô",
+    "Sữa tươi",
+    "Kem tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00564",
+    "ingre04554",
+    "ingre01744",
+    "ingre06144",
+    "ingre03157",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Cơm dừa sấy khô",
+    "Sữa tươi",
+    "Kem tươi",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Corn starch",
+    "Coconut milk",
+    "Dried Coconut Rice",
+    "Fresh Milk",
+    "Fresh cream",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot bap",
+    "nuoc cot dua",
+    "com dua say kho",
+    "sua tuoi",
+    "kem tuoi",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

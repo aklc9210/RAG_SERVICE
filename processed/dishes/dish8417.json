@@ -1,0 +1,112 @@
+{
+  "id": "dish8417",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8417.json",
+  "name_vi": "Chà bông gà cay (ruốc gà cay)",
+  "name_en": "",
+  "name_normalized": "cha bong ga cay ruoc ga cay",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Ức gà",
+    "Táo đỏ"
+  ],
+  "secondary_ingredients": [
+    "Màu điều"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Rượu trắng",
+    "Hoa hồi",
+    "Ớt",
+    "Nước tương đậm đặc",
+    "Nước tương thường",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Sa tế",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre06911",
+    "ingre02485",
+    "ingre05574",
+    "ingre02584",
+    "ingre07966",
+    "ingre04812",
+    "ingre04808",
+    "ingre02080",
+    "ingre04381",
+    "ingre03907",
+    "ingre05621",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Táo đỏ",
+    "Gừng",
+    "Rượu trắng",
+    "Hoa hồi",
+    "Ớt",
+    "Nước tương đậm đặc",
+    "Nước tương thường",
+    "Dầu hào",
+    "Ngũ vị hương",
+    "Màu điều",
+    "Sa tế",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Red apple",
+    "Ginger",
+    "White wine",
+    "Rose",
+    "Pepper",
+    "Soy sauce",
+    "Five-Spice Powder",
+    "Pumpkinseed oil",
+    "Fish sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "tao do",
+    "gung",
+    "ruou trang",
+    "hoa hoi",
+    "ot",
+    "nuoc tuong dam dac",
+    "nuoc tuong thuong",
+    "dau hao",
+    "ngu vi huong",
+    "mau dieu",
+    "sa te",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha bong ga cay (ruoc ga cay)",
+      "new": "cha bong ga cay ruoc ga cay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

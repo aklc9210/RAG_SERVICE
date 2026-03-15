@@ -1,0 +1,103 @@
+{
+  "id": "dish8082",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8082.json",
+  "name_vi": "Gỏi gà hoa chuối",
+  "name_en": "",
+  "name_normalized": "goi ga hoa chuoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt gà",
+    "Bắp chuối",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Hành tây",
+    "Húng lủi"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước cốt chanh",
+    "Đường trắng",
+    "Cà rốt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre00452",
+    "ingre05359",
+    "ingre07966",
+    "ingre04538",
+    "ingre07791",
+    "ingre07652",
+    "ingre02741",
+    "ingre01419",
+    "ingre02859",
+    "ingre07063",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Bắp chuối",
+    "Rau răm",
+    "Ớt",
+    "Nước cốt chanh",
+    "Đậu phộng rang",
+    "Đường trắng",
+    "Hành tây",
+    "Cà rốt",
+    "Húng lủi",
+    "Tỏi",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Banana",
+    "Vietnamese coriander",
+    "Pepper",
+    "Lemon juice",
+    "Roasted Peanut",
+    "White sugar",
+    "Onion",
+    "Carrot",
+    "Peppermint",
+    "Garlic",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "bap chuoi",
+    "rau ram",
+    "ot",
+    "nuoc cot chanh",
+    "dau phong rang",
+    "duong trang",
+    "hanh tay",
+    "ca rot",
+    "hung lui",
+    "toi",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

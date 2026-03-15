@@ -1,0 +1,88 @@
+{
+  "id": "dish4666",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4666.json",
+  "name_vi": "Mề gà xào cay",
+  "name_en": "",
+  "name_normalized": "me ga xao cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mề gà"
+  ],
+  "secondary_ingredients": [
+    "Dầu điều",
+    "Nước",
+    "Ngò tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Sa tế",
+    "Tỏi",
+    "Ớt",
+    "Hành khô"
+  ],
+  "ingredient_ids": [
+    "ingre04173",
+    "ingre02080",
+    "ingre05621",
+    "ingre02134",
+    "ingre07063",
+    "ingre07966",
+    "ingre02667",
+    "ingre04490",
+    "ingre04351",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Mề gà",
+    "Dầu hào",
+    "Sa tế",
+    "Dầu điều",
+    "Tỏi",
+    "Ớt",
+    "Hành khô",
+    "Nước",
+    "Ngò tây",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Chicken neck",
+    "Soy sauce",
+    "Fish sauce",
+    "Peanut oil",
+    "Garlic",
+    "Pepper",
+    "Garlic Powder",
+    "Water",
+    "Chives",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "me ga",
+    "dau hao",
+    "sa te",
+    "dau dieu",
+    "toi",
+    "ot",
+    "hanh kho",
+    "nuoc",
+    "ngo tay",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre03948",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03948.json",
+  "name_vi": "mè/vừng trắng",
+  "name_en": "White sesame seeds",
+  "name_normalized": "me vung trang",
+  "synonyms": [
+    "vừng",
+    "lạc trắng"
+  ],
+  "synonyms_normalized": [
+    "vung",
+    "lac trang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "me/vung trang",
+      "new": "me vung trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

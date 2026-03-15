@@ -1,0 +1,125 @@
+{
+  "id": "dish7766",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7766.json",
+  "name_vi": "Bò nhúng me",
+  "name_en": "",
+  "name_normalized": "bo nhung me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt bò",
+    "Me",
+    "Thơm",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi băm",
+    "Tỏi phi",
+    "Mắm nêm",
+    "Sa tế tôm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03643",
+    "ingre06247",
+    "ingre02741",
+    "ingre02673",
+    "ingre08055",
+    "ingre07071",
+    "ingre07096",
+    "ingre04148",
+    "ingre05626",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Me",
+    "Thơm",
+    "Hành tây",
+    "Hành lá",
+    "Ớt sừng",
+    "Tỏi băm",
+    "Tỏi phi",
+    "Mắm nêm",
+    "Sa tế tôm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tamarind",
+    "Basil",
+    "Onion",
+    "Scallion",
+    "Hot pepper",
+    "Minced Garlic",
+    "Garlic flakes",
+    "Fish sauce",
+    "Shrimp paste",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "me",
+    "thom",
+    "hanh tay",
+    "hanh la",
+    "ot sung",
+    "toi bam",
+    "toi phi",
+    "mam nem",
+    "sa te tom",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish7929",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7929.json",
+  "name_vi": "Lẩu gà ớt hiểm",
+  "name_en": "",
+  "name_normalized": "lau ga ot hiem",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gà",
+    "Kỷ tử"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre08026",
+    "ingre03334",
+    "ingre05900",
+    "ingre07063",
+    "ingre02741",
+    "ingre02768",
+    "ingre04790",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Ớt hiểm",
+    "Kỷ tử",
+    "Sả",
+    "Tỏi",
+    "Hành tây",
+    "Hành tím",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Hot pepper",
+    "Goji berries",
+    "Lemongrass",
+    "Garlic",
+    "Onion",
+    "Shallot",
+    "Soy Sauce",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "ot hiem",
+    "ky tu",
+    "sa",
+    "toi",
+    "hanh tay",
+    "hanh tim",
+    "nuoc tuong",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

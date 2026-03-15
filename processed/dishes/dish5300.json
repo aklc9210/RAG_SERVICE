@@ -1,0 +1,107 @@
+{
+  "id": "dish5300",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5300.json",
+  "name_vi": "Bún bò Nam Bộ nước mắm chua ngọt",
+  "name_en": "",
+  "name_normalized": "bun bo nam bo nuoc mam chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Bún tươi",
+    "Xà lách"
+  ],
+  "secondary_ingredients": [
+    "Giá đỗ",
+    "Rau thơm",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Hành phi",
+    "Tỏi",
+    "Ớt sừng 1",
+    "Nước cốt chanh",
+    "Hạt nêm/Đường",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre00357",
+    "ingre04694",
+    "ingre07351",
+    "ingre02337",
+    "ingre05385",
+    "ingre07781",
+    "ingre02730",
+    "ingre07063",
+    "ingre08056",
+    "ingre04538",
+    "ingre03018",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Bún tươi",
+    "Nước mắm",
+    "Xà lách",
+    "Giá đỗ",
+    "Rau thơm",
+    "Đậu phộng",
+    "Hành phi",
+    "Tỏi",
+    "Ớt sừng 1",
+    "Nước cốt chanh",
+    "Hạt nêm/Đường",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Fresh noodle",
+    "Fish Sauce",
+    "Lettuce",
+    "Bean sprouts",
+    "Basil",
+    "Peanut",
+    "Garlic Fried",
+    "Garlic",
+    "Hot pepper",
+    "Lemon juice",
+    "Seasoning/Sugar",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "bun tuoi",
+    "nuoc mam",
+    "xa lach",
+    "gia do",
+    "rau thom",
+    "dau phong",
+    "hanh phi",
+    "toi",
+    "ot sung 1",
+    "nuoc cot chanh",
+    "hat nem duong",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/duong",
+      "new": "hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/Đường"
+    }
+  ]
+}

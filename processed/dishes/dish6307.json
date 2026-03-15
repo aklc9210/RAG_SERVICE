@@ -1,0 +1,111 @@
+{
+  "id": "dish6307",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6307.json",
+  "name_vi": "Khổ qua kho chay nấm đùi gà",
+  "name_en": "",
+  "name_normalized": "kho qua kho chay nam dui ga",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Khổ qua",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt",
+    "Nước tương",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Bột ngọt/ muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03271",
+    "ingre04974",
+    "ingre07071",
+    "ingre02774",
+    "ingre07966",
+    "ingre02673",
+    "ingre04343",
+    "ingre04672",
+    "ingre04790",
+    "ingre04697",
+    "ingre02997",
+    "ingre02124",
+    "ingre00827"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua",
+    "Nấm đùi gà",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt",
+    "Hành lá",
+    "Ngò rí",
+    "Nước màu",
+    "Nước tương",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Bột ngọt/ muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Chicken mushroom",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Pepper",
+    "Scallion",
+    "Parsley",
+    "Food coloring",
+    "Soy Sauce",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Cooking oil",
+    "Soy Sauce/Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua",
+    "nam dui ga",
+    "toi bam",
+    "hanh tim bam",
+    "ot",
+    "hanh la",
+    "ngo ri",
+    "nuoc mau",
+    "nuoc tuong",
+    "nuoc mam chay",
+    "hat nem chay",
+    "dau an",
+    "bot ngot muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ muoi/ duong",
+      "new": "bot ngot muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ muối/ đường"
+    }
+  ]
+}

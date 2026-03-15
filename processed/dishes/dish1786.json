@@ -1,0 +1,91 @@
+{
+  "id": "dish1786",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1786.json",
+  "name_vi": "Bánh bông lan chuối socola",
+  "name_en": "",
+  "name_normalized": "banh bong lan chuoi socola",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Chuối chín"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột cacao nguyên chất",
+    "Baking powder (bột nở)",
+    "Bột vani",
+    "Tinh bột bắp",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00578",
+    "ingre00014",
+    "ingre00983",
+    "ingre06562",
+    "ingre01163",
+    "ingre06823",
+    "ingre06147",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột cacao nguyên chất",
+    "Baking powder (bột nở)",
+    "Bột vani",
+    "Tinh bột bắp",
+    "Chuối chín",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Cocoa Powder",
+    "Baking Powder",
+    "Vanilla powder",
+    "Corn starch",
+    "Banana",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Cooking oil",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot cacao nguyen chat",
+    "baking powder bot no",
+    "bot vani",
+    "tinh bot bap",
+    "chuoi chin",
+    "trung ga",
+    "sua tuoi khong duong",
+    "dau an",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking powder (bot no)",
+      "new": "baking powder bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking powder (bột nở)"
+    }
+  ]
+}

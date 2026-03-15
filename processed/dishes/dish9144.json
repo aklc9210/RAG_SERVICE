@@ -1,0 +1,83 @@
+{
+  "id": "dish9144",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9144.json",
+  "name_vi": "Nước sốt me chấm bánh tráng",
+  "name_en": "",
+  "name_normalized": "nuoc sot me cham banh trang",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Muối tôm",
+    "Tương ớt",
+    "Nước cốt me",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre06823",
+    "ingre07791",
+    "ingre02768",
+    "ingre03786",
+    "ingre07028",
+    "ingre04581",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Trứng gà",
+    "Đậu phộng rang",
+    "Hành tím",
+    "Muối tôm",
+    "Tương ớt",
+    "Nước cốt me",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Chicken egg",
+    "Roasted Peanut",
+    "Shallot",
+    "Shrimp salt",
+    "Hot Sauce",
+    "Lime juice",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "trung ga",
+    "dau phong rang",
+    "hanh tim",
+    "muoi tom",
+    "tuong ot",
+    "nuoc cot me",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

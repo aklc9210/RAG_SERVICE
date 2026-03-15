@@ -1,0 +1,86 @@
+{
+  "id": "dish4817",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4817.json",
+  "name_vi": "Bò xào sả nghệ",
+  "name_en": "",
+  "name_normalized": "bo xao sa nghe",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột nêm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre05900",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00838",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Sả",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột nêm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lemongrass",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning Powder",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "sa",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot nem",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

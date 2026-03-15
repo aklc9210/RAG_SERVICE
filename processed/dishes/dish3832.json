@@ -1,0 +1,121 @@
+{
+  "id": "dish3832",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3832.json",
+  "name_vi": "Cá cờ nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "ca co nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Phi lê cá cờ",
+    "Riềng",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Nước cốt dừa",
+    "Tỏi",
+    "Dầu ăn",
+    "Ớt bột",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05031",
+    "ingre07999",
+    "ingre05436",
+    "ingre04304",
+    "ingre05900",
+    "ingre02741",
+    "ingre04554",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre07977",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá cờ",
+    "Ớt chuông",
+    "Riềng",
+    "Nghệ",
+    "Sả",
+    "Hành tây",
+    "Nước cốt dừa",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Ớt bột",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Cod fillet",
+    "Bell pepper",
+    "Galangal",
+    "Turmeric",
+    "Lemongrass",
+    "Onion",
+    "Coconut milk",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Chili powder",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca co",
+    "ot chuong",
+    "rieng",
+    "nghe",
+    "sa",
+    "hanh tay",
+    "nuoc cot dua",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "ot bot",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

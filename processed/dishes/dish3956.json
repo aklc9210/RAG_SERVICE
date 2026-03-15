@@ -1,0 +1,91 @@
+{
+  "id": "dish3956",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3956.json",
+  "name_vi": "Gà nướng ngũ vị",
+  "name_en": "",
+  "name_normalized": "ga nuong ngu vi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sả băm",
+    "Bột ngũ vị hương",
+    "Tương ớt/ tương cà/ dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02741",
+    "ingre05905",
+    "ingre00815",
+    "ingre07045",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Hành tây",
+    "Sả băm",
+    "Bột ngũ vị hương",
+    "Tương ớt/ tương cà/ dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Onion",
+    "Garlic Paste",
+    "Five-Spice Powder",
+    "Hot Sauce/Soy Sauce/Peanut Sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "hanh tay",
+    "sa bam",
+    "bot ngu vi huong",
+    "tuong ot tuong ca dau hao",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tuong ot/ tuong ca/ dau hao",
+      "new": "tuong ot tuong ca dau hao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tương ớt/ tương cà/ dầu hào"
+    }
+  ]
+}

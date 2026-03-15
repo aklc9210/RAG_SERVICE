@@ -1,0 +1,27 @@
+{
+  "id": "ingre01035",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01035.json",
+  "name_vi": "ca cao/ hoa đậu biếc",
+  "name_en": "Cocoa/Blueweed",
+  "name_normalized": "ca cao hoa dau biec",
+  "synonyms": [
+    "bột ca cao",
+    "bột đậu biếc"
+  ],
+  "synonyms_normalized": [
+    "bot ca cao",
+    "bot dau biec"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca cao/ hoa dau biec",
+      "new": "ca cao hoa dau biec",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

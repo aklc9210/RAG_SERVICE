@@ -1,0 +1,92 @@
+{
+  "id": "dish4766",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4766.json",
+  "name_vi": "Hàu xào bơ tỏi",
+  "name_en": "",
+  "name_normalized": "hau xao bo toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hàu",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bơ thực vật",
+    "Tỏi",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02837",
+    "ingre00407",
+    "ingre02768",
+    "ingre07063",
+    "ingre08097",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Hàu",
+    "Bơ thực vật",
+    "Hành tím",
+    "Tỏi",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Vegetable oil",
+    "Shallot",
+    "Garlic",
+    "Red pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "hau",
+    "bo thuc vat",
+    "hanh tim",
+    "toi",
+    "ot do",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

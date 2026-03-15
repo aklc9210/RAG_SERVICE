@@ -1,0 +1,86 @@
+{
+  "id": "dish3010",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3010.json",
+  "name_vi": "Bánh chiffon bằng nồi cơm điện",
+  "name_en": "",
+  "name_normalized": "banh chiffon bang noi com dien",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nho khô"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Vani",
+    "Sữa tươi không đường",
+    "Ml dầu ăn (loại thường",
+    "Muối",
+    "Cream of tartar",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00564",
+    "ingre06823",
+    "ingre07140",
+    "ingre06147",
+    "ingre03732",
+    "ingre03746",
+    "ingre01328",
+    "ingre07583",
+    "ingre04398"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Vani",
+    "Sữa tươi không đường",
+    "Ml dầu ăn (loại thường",
+    "Muối",
+    "Cream of tartar",
+    "Đường",
+    "Nho khô"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Chicken egg",
+    "Vanilla",
+    "Fat-free Milk",
+    "Cooking Oil",
+    "Salt",
+    "Cream of tartar",
+    "Sugar",
+    "Dried grape"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot bap",
+    "trung ga",
+    "vani",
+    "sua tuoi khong duong",
+    "ml dau an loai thuong",
+    "muoi",
+    "cream of tartar",
+    "duong",
+    "nho kho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ml dau an (loai thuong",
+      "new": "ml dau an loai thuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ml dầu ăn (loại thường"
+    }
+  ]
+}

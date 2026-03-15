@@ -1,0 +1,96 @@
+{
+  "id": "dish4387",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4387.json",
+  "name_vi": "Cháo yến mạch thịt băm",
+  "name_en": "",
+  "name_normalized": "chao yen mach thit bam",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Yến mạch",
+    "Thịt thăn xay",
+    "Rau củ quả"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Hạt tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07453",
+    "ingre06503",
+    "ingre05247",
+    "ingre04910",
+    "ingre02673",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre00587",
+    "ingre03043"
+  ],
+  "ingredient_names_vi": [
+    "Yến mạch",
+    "Thịt thăn xay",
+    "Rau củ quả",
+    "Nấm hương",
+    "Hành lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Hạt tiêu"
+  ],
+  "ingredient_names_en": [
+    "Oat",
+    "Ground beef tenderloin",
+    "Vegetable",
+    "Mushroom",
+    "Scallion",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Cornstarch",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "yen mach",
+    "thit than xay",
+    "rau cu qua",
+    "nam huong",
+    "hanh la",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "bot canh",
+    "hat tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

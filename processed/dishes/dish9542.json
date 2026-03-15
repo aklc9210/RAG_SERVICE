@@ -1,0 +1,62 @@
+{
+  "id": "dish9542",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9542.json",
+  "name_vi": "Pudding đậu nành",
+  "name_en": "",
+  "name_normalized": "pudding dau nanh",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Sữa đậu nành"
+  ],
+  "secondary_ingredients": [
+    "Kem tươi - whipping cream",
+    "Mật ong",
+    "Gelatin"
+  ],
+  "seasonings": [
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06170",
+    "ingre07583",
+    "ingre03160",
+    "ingre04124",
+    "ingre02253"
+  ],
+  "ingredient_names_vi": [
+    "Sữa đậu nành",
+    "Đường",
+    "Kem tươi - whipping cream",
+    "Mật ong",
+    "Gelatin"
+  ],
+  "ingredient_names_en": [
+    "Soy milk",
+    "Sugar",
+    "Whipping cream",
+    "Honey",
+    "Gelatin"
+  ],
+  "ingredient_names_normalized": [
+    "sua dau nanh",
+    "duong",
+    "kem tuoi whipping cream",
+    "mat ong",
+    "gelatin"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi - whipping cream",
+      "new": "kem tuoi whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi - whipping cream"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dish1023",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1023.json",
+  "name_vi": "Bánh bộc lọc chay nhân nấm",
+  "name_en": "",
+  "name_normalized": "banh boc loc chay nhan nam",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu hũ ky",
+    "Nấm tuyết",
+    "Chả sữa cắt hạt lựu",
+    "Đậu hũ cắt hạt lựu"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô cắt hạt lựu nhỏ",
+    "Lá dứa",
+    "Hành lá cắt nhỏ"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Cà rốt cắt hạt lựu nhỏ",
+    "Cà rốt băm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Chanh",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre07749",
+    "ingre04962",
+    "ingre01307",
+    "ingre07745",
+    "ingre01426",
+    "ingre04968",
+    "ingre03417",
+    "ingre02683",
+    "ingre01423",
+    "ingre07071",
+    "ingre07971",
+    "ingre01079",
+    "ingre04697",
+    "ingre02997",
+    "ingre02124",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Đậu hũ ky",
+    "Nấm tuyết",
+    "Chả sữa cắt hạt lựu",
+    "Đậu hũ cắt hạt lựu",
+    "Cà rốt cắt hạt lựu nhỏ",
+    "Nấm đông cô cắt hạt lựu nhỏ",
+    "Lá dứa",
+    "Hành lá cắt nhỏ",
+    "Cà rốt băm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Chanh",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Tofu Ky",
+    "Mushroom",
+    "Cubed Cottage Cheese",
+    "Tofu diced",
+    "Carrot diced small",
+    "Mushroom diced small",
+    "Pandan叶",
+    "Chopped Green Onion",
+    "Carrot Minced",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Lemon",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Cooking oil",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "dau hu ky",
+    "nam tuyet",
+    "cha sua cat hat luu",
+    "dau hu cat hat luu",
+    "ca rot cat hat luu nho",
+    "nam dong co cat hat luu nho",
+    "la dua",
+    "hanh la cat nho",
+    "ca rot bam",
+    "toi bam",
+    "ot bam",
+    "chanh",
+    "nuoc mam chay",
+    "hat nem chay",
+    "dau an",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

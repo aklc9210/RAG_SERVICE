@@ -1,0 +1,98 @@
+{
+  "id": "dish6103",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6103.json",
+  "name_vi": "Cá đối kho me",
+  "name_en": "",
+  "name_normalized": "ca doi kho me",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá đối",
+    "Me xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu dừa"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01663",
+    "ingre03664",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre04675",
+    "ingre04694",
+    "ingre02995",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá đối",
+    "Me xanh",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Nước màu dừa",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Spinach",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Coconut food coloring",
+    "Fish Sauce",
+    "Seasoning",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca doi",
+    "me xanh",
+    "toi",
+    "hanh tim",
+    "ot",
+    "nuoc mau dua",
+    "nuoc mam",
+    "hat nem",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

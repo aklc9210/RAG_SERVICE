@@ -1,0 +1,102 @@
+{
+  "id": "dish7842",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7842.json",
+  "name_vi": "Lẩu gân bò thuốc bắc",
+  "name_en": "",
+  "name_normalized": "lau gan bo thuoc bac",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Xương ống bò",
+    "Gân bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Gia vị thuốc bắc",
+    "Rượu trắng",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07434",
+    "ingre02415",
+    "ingre05900",
+    "ingre02485",
+    "ingre07966",
+    "ingre02312",
+    "ingre05574",
+    "ingre05420",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Xương ống bò",
+    "Gân bò",
+    "Sả",
+    "Gừng",
+    "Ớt",
+    "Gia vị thuốc bắc",
+    "Rượu trắng",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef marrowbone",
+    "Beef tendon",
+    "Lemongrass",
+    "Ginger",
+    "Pepper",
+    "Chinese herb seasoning",
+    "White wine",
+    "Side vegetable",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "xuong ong bo",
+    "gan bo",
+    "sa",
+    "gung",
+    "ot",
+    "gia vi thuoc bac",
+    "ruou trang",
+    "rau an kem",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

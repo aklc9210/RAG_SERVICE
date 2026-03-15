@@ -1,0 +1,97 @@
+{
+  "id": "dish7515",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7515.json",
+  "name_vi": "Bánh ướt chả lụa",
+  "name_en": "",
+  "name_normalized": "banh uot cha lua",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Chả lụa"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm",
+    "Nước dừa soda"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Bột gạo",
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Hành phi",
+    "Dầu ăn",
+    "Muối/ đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre00668",
+    "ingre01292",
+    "ingre01079",
+    "ingre07063",
+    "ingre07966",
+    "ingre02730",
+    "ingre05420",
+    "ingre04625",
+    "ingre02124",
+    "ingre03818",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Bột gạo",
+    "Chả lụa",
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Hành phi",
+    "Rau ăn kèm",
+    "Nước dừa soda",
+    "Dầu ăn",
+    "Muối/ đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Rice flour",
+    "Pork floss",
+    "Lemon",
+    "Garlic",
+    "Pepper",
+    "Garlic Fried",
+    "Side vegetable",
+    "Coconut soda",
+    "Cooking oil",
+    "Salt/Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "bot gao",
+    "cha lua",
+    "chanh",
+    "toi",
+    "ot",
+    "hanh phi",
+    "rau an kem",
+    "nuoc dua soda",
+    "dau an",
+    "muoi duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

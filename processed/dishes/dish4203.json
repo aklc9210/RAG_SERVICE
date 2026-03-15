@@ -1,0 +1,113 @@
+{
+  "id": "dish4203",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4203.json",
+  "name_vi": "Nem nướng miền tây bằng chảo",
+  "name_en": "",
+  "name_normalized": "nem nuong mien tay bang chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt heo xay nhuyễn",
+    "Giò sống",
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong",
+    "Dầu mỡ hành"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột nổi",
+    "Rượu Mai Quế Lộ",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06415",
+    "ingre02350",
+    "ingre04192",
+    "ingre07063",
+    "ingre02768",
+    "ingre00866",
+    "ingre05543",
+    "ingre04124",
+    "ingre04694",
+    "ingre02100",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay nhuyễn",
+    "Giò sống",
+    "Mỡ heo",
+    "Tỏi",
+    "Hành tím",
+    "Bột nổi",
+    "Rượu Mai Quế Lộ",
+    "Mật ong",
+    "Nước mắm",
+    "Dầu mỡ hành",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Fresh sausage",
+    "Pork fat",
+    "Garlic",
+    "Shallot",
+    "Baking powder",
+    "Sake Plum Ginger Wine",
+    "Honey",
+    "Fish Sauce",
+    "Garlic Oil",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay nhuyen",
+    "gio song",
+    "mo heo",
+    "toi",
+    "hanh tim",
+    "bot noi",
+    "ruou mai que lo",
+    "mat ong",
+    "nuoc mam",
+    "dau mo hanh",
+    "dau an",
+    "hat nem",
+    "duong",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

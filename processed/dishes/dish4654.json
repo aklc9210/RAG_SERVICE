@@ -1,0 +1,103 @@
+{
+  "id": "dish4654",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4654.json",
+  "name_vi": "Thịt gà xào đậu que (đậu cô ve)",
+  "name_en": "",
+  "name_normalized": "thit ga xao dau que dau co ve",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt đùi gà lóc xương",
+    "Đậu que",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06529",
+    "ingre07818",
+    "ingre02673",
+    "ingre07063",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi gà lóc xương",
+    "Đậu que",
+    "Hành lá",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh bone-in",
+    "Green beans",
+    "Scallion",
+    "Garlic",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui ga loc xuong",
+    "dau que",
+    "hanh la",
+    "toi",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit ga xao dau que (dau co ve)",
+      "new": "thit ga xao dau que dau co ve",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

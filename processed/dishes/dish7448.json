@@ -1,0 +1,72 @@
+{
+  "id": "dish7448",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7448.json",
+  "name_vi": "Cá cơm chiên bơ tỏi",
+  "name_en": "",
+  "name_normalized": "ca com chien bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá cơm: 300g"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Vừng rang"
+  ],
+  "seasonings": [
+    "Đường",
+    "Bột năng",
+    "Tỏi băm",
+    "Ớt băm"
+  ],
+  "ingredient_ids": [
+    "ingre01511",
+    "ingre07583",
+    "ingre00849",
+    "ingre00367",
+    "ingre07071",
+    "ingre07971",
+    "ingre07300"
+  ],
+  "ingredient_names_vi": [
+    "Cá cơm: 300g",
+    "Đường",
+    "Bột năng",
+    "Bơ",
+    "Tỏi băm",
+    "Ớt băm",
+    "Vừng rang"
+  ],
+  "ingredient_names_en": [
+    "Mackerel: 300g",
+    "Sugar",
+    "Cornstarch",
+    "Butter",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Roasted Sesame Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "ca com 300g",
+    "duong",
+    "bot nang",
+    "bo",
+    "toi bam",
+    "ot bam",
+    "vung rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ca com: 300g",
+      "new": "ca com 300g",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cá cơm: 300g"
+    }
+  ]
+}

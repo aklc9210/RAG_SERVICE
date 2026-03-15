@@ -1,0 +1,72 @@
+{
+  "id": "dish8692",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8692.json",
+  "name_vi": "Thịt bò khô bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "thit bo kho bang lo vi song",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ngũ vị hương",
+    "Gừng",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre04381",
+    "ingre04124",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Ngũ vị hương",
+    "Mật ong",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Five-Spice Powder",
+    "Honey",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ngu vi huong",
+    "mat ong",
+    "gung",
+    "sa",
+    "ot",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

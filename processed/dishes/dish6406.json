@@ -1,0 +1,87 @@
+{
+  "id": "dish6406",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6406.json",
+  "name_vi": "Gà sốt bơ tỏi",
+  "name_en": "",
+  "name_normalized": "ga sot bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Nước luộc gà",
+    "Rau mùi tây"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Lá oregano",
+    "Nước cốt chanh",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre00382",
+    "ingre00791",
+    "ingre04655",
+    "ingre03495",
+    "ingre05311",
+    "ingre04538",
+    "ingre07063",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Bơ lạt",
+    "Bột mì đa dụng",
+    "Nước luộc gà",
+    "Lá oregano",
+    "Rau mùi tây",
+    "Nước cốt chanh",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Butter",
+    "All-purpose flour",
+    "Chicken broth",
+    "Oregano",
+    "Cilantro",
+    "Lemon juice",
+    "Garlic",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "bo lat",
+    "bot mi da dung",
+    "nuoc luoc ga",
+    "la oregano",
+    "rau mui tay",
+    "nuoc cot chanh",
+    "toi",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

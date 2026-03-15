@@ -1,0 +1,82 @@
+{
+  "id": "dish10206",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10206.json",
+  "name_vi": "Trà sữa long nhãn hạt sen",
+  "name_en": "",
+  "name_normalized": "tra sua long nhan hat sen",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Trà sen",
+    "Trà đen"
+  ],
+  "secondary_ingredients": [
+    "Quả nhãn",
+    "Hạt sen tươi",
+    "Sữa đặc",
+    "Đá bi",
+    "Nước sôi"
+  ],
+  "seasonings": [
+    "Bột béo",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06713",
+    "ingre06741",
+    "ingre05168",
+    "ingre03032",
+    "ingre00556",
+    "ingre06174",
+    "ingre07680",
+    "ingre07517",
+    "ingre04743"
+  ],
+  "ingredient_names_vi": [
+    "Trà sen",
+    "Trà đen",
+    "Quả nhãn",
+    "Hạt sen tươi",
+    "Bột béo",
+    "Sữa đặc",
+    "Đường/ muối",
+    "Đá bi",
+    "Nước sôi"
+  ],
+  "ingredient_names_en": [
+    "Lotus leaf",
+    "Black tea",
+    "Longan",
+    "Fresh lotus seeds",
+    "Shortening Powder",
+    "Sweetened Condensed Milk",
+    "Sugar/Salt",
+    "Grapefruit",
+    "Boiling water"
+  ],
+  "ingredient_names_normalized": [
+    "tra sen",
+    "tra den",
+    "qua nhan",
+    "hat sen tuoi",
+    "bot beo",
+    "sua dac",
+    "duong muoi",
+    "da bi",
+    "nuoc soi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

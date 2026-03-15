@@ -1,0 +1,82 @@
+{
+  "id": "dish6391",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6391.json",
+  "name_vi": "Chân gà chiên bơ tỏi",
+  "name_en": "",
+  "name_normalized": "chan ga chien bo toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chân gà"
+  ],
+  "secondary_ingredients": [
+    "Bơ"
+  ],
+  "seasonings": [
+    "Bột tẩm khô chiên giòn Aji-Quick",
+    "Ớt sừng",
+    "Tỏi",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre00976",
+    "ingre08055",
+    "ingre07063",
+    "ingre00367",
+    "ingre04694",
+    "ingre07028",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Bột tẩm khô chiên giòn Aji-Quick",
+    "Ớt sừng",
+    "Tỏi",
+    "Bơ",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Puffed Seasoned Powder Aji-Quick",
+    "Hot pepper",
+    "Garlic",
+    "Butter",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "bot tam kho chien gion aji quick",
+    "ot sung",
+    "toi",
+    "bo",
+    "nuoc mam",
+    "tuong ot",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot tam kho chien gion aji-quick",
+      "new": "bot tam kho chien gion aji quick",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột tẩm khô chiên giòn Aji-Quick"
+    }
+  ]
+}

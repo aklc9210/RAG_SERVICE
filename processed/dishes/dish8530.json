@@ -1,0 +1,99 @@
+{
+  "id": "dish8530",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8530.json",
+  "name_vi": "Chân gà rút xương rang muối",
+  "name_en": "",
+  "name_normalized": "chan ga rut xuong rang muoi",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Bột mì",
+    "Muối rang gà",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre02768",
+    "ingre05900",
+    "ingre02485",
+    "ingre00759",
+    "ingre03777",
+    "ingre04694",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Hành tím",
+    "Sả",
+    "Gừng",
+    "Bột mì",
+    "Muối rang gà",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Shallot",
+    "Lemongrass",
+    "Ginger",
+    "Wheat Flour",
+    "Rice Fried Chicken Salt",
+    "Fish Sauce",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "hanh tim",
+    "sa",
+    "gung",
+    "bot mi",
+    "muoi rang ga",
+    "nuoc mam",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

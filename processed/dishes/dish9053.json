@@ -1,0 +1,90 @@
+{
+  "id": "dish9053",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9053.json",
+  "name_vi": "Bánh que cay (sợi cay)",
+  "name_en": "",
+  "name_normalized": "banh que cay soi cay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cơm nguội"
+  ],
+  "secondary_ingredients": [
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Bột mì",
+    "Bột năng",
+    "Bột quế",
+    "Bột canh",
+    "Bột tỏi",
+    "Ớt bột",
+    "Đường",
+    "Xì dầu"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre00564",
+    "ingre00759",
+    "ingre00849",
+    "ingre00888",
+    "ingre00587",
+    "ingre00978",
+    "ingre07977",
+    "ingre07583",
+    "ingre03929",
+    "ingre07381"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Bột bắp",
+    "Bột mì",
+    "Bột năng",
+    "Bột quế",
+    "Bột canh",
+    "Bột tỏi",
+    "Ớt bột",
+    "Đường",
+    "Mè rang",
+    "Xì dầu"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Corn starch",
+    "Wheat Flour",
+    "Cornstarch",
+    "Cinnamon粉",
+    "Garlic powder",
+    "Chili powder",
+    "Sugar",
+    "Roasted Sesame Seeds",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "bot bap",
+    "bot mi",
+    "bot nang",
+    "bot que",
+    "bot canh",
+    "bot toi",
+    "ot bot",
+    "duong",
+    "me rang",
+    "xi dau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh que cay (soi cay)",
+      "new": "banh que cay soi cay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

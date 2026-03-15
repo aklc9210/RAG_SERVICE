@@ -1,0 +1,131 @@
+{
+  "id": "dish7757",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7757.json",
+  "name_vi": "Lẩu cua biển chua cay",
+  "name_en": "",
+  "name_normalized": "lau cua bien chua cay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Xương",
+    "Cua biển",
+    "Cà chua",
+    "Khô mực",
+    "Ngò om"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Hành tây",
+    "Nấm rơm",
+    "Bún tươi",
+    "Tôm khô"
+  ],
+  "seasonings": [
+    "Chanh dây",
+    "Ớt",
+    "Muối",
+    "Bột ngọt",
+    "Nêm",
+    "Muỗng nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07412",
+    "ingre01335",
+    "ingre01354",
+    "ingre03262",
+    "ingre04340",
+    "ingre01081",
+    "ingre05900",
+    "ingre02768",
+    "ingre02741",
+    "ingre04953",
+    "ingre00357",
+    "ingre07966",
+    "ingre03746",
+    "ingre00819",
+    "ingre04472",
+    "ingre03844",
+    "ingre06941"
+  ],
+  "ingredient_names_vi": [
+    "Xương",
+    "Cua biển",
+    "Cà chua",
+    "Khô mực",
+    "Ngò om",
+    "Chanh dây",
+    "Sả",
+    "Hành tím",
+    "Hành tây",
+    "Nấm rơm",
+    "Bún tươi",
+    "Ớt",
+    "Muối",
+    "Bột ngọt",
+    "Nêm",
+    "Muỗng nêm",
+    "Tôm khô"
+  ],
+  "ingredient_names_en": [
+    "Ribs",
+    "Shrimp",
+    "Tomato",
+    "Dried squid",
+    "Parsley",
+    "Watermelon vine tendril",
+    "Lemongrass",
+    "Shallot",
+    "Onion",
+    "Strawberry mushroom",
+    "Fresh noodle",
+    "Pepper",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Seasoning spoon",
+    "Dried Shrimp"
+  ],
+  "ingredient_names_normalized": [
+    "xuong",
+    "cua bien",
+    "ca chua",
+    "kho muc",
+    "ngo om",
+    "chanh day",
+    "sa",
+    "hanh tim",
+    "hanh tay",
+    "nam rom",
+    "bun tuoi",
+    "ot",
+    "muoi",
+    "bot ngot",
+    "nem",
+    "muong nem",
+    "tom kho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

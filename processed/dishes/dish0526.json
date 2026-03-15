@@ -1,0 +1,93 @@
+{
+  "id": "dish0526",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0526.json",
+  "name_vi": "Canh khổ qua nhồi thịt",
+  "name_en": "",
+  "name_normalized": "canh kho qua nhoi thit",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khổ qua",
+    "Thịt băm",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Trứng vịt",
+    "Nước dùng heo",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03271",
+    "ingre06329",
+    "ingre04930",
+    "ingre06853",
+    "ingre04608",
+    "ingre02768",
+    "ingre07063",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua",
+    "Thịt băm",
+    "Nấm mèo",
+    "Trứng vịt",
+    "Nước dùng heo",
+    "Hành tím",
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Minced meat",
+    "Mushroom",
+    "Quail egg",
+    "Pork broth",
+    "Shallot",
+    "Garlic",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua",
+    "thit bam",
+    "nam meo",
+    "trung vit",
+    "nuoc dung heo",
+    "hanh tim",
+    "toi",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

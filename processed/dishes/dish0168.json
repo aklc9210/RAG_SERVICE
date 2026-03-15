@@ -1,0 +1,87 @@
+{
+  "id": "dish0168",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0168.json",
+  "name_vi": "Canh cải xanh nấu nghêu",
+  "name_en": "",
+  "name_normalized": "canh cai xanh nau ngheu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cải bẹ xanh",
+    "Nghêu"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01775",
+    "ingre04303",
+    "ingre07966",
+    "ingre02485",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cải bẹ xanh",
+    "Nghêu",
+    "Ớt",
+    "Gừng",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Green cabbage",
+    "Clam",
+    "Pepper",
+    "Ginger",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cai be xanh",
+    "ngheu",
+    "ot",
+    "gung",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    }
+  ]
+}

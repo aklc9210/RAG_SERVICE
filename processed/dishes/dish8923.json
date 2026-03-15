@@ -1,0 +1,92 @@
+{
+  "id": "dish8923",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8923.json",
+  "name_vi": "Gỏi cuốn tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi cuon tom thit",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo",
+    "Tôm",
+    "Hẹ"
+  ],
+  "secondary_ingredients": [
+    "Bún tươi",
+    "Bánh tráng mỏng",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre06930",
+    "ingre03085",
+    "ingre07966",
+    "ingre07063",
+    "ingre00357",
+    "ingre00198",
+    "ingre04538",
+    "ingre05420",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Tôm",
+    "Hẹ",
+    "Ớt",
+    "Tỏi",
+    "Bún tươi",
+    "Bánh tráng mỏng",
+    "Nước cốt chanh",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Shrimp",
+    "Garlic Chives",
+    "Pepper",
+    "Garlic",
+    "Fresh noodle",
+    "Thin rice paper",
+    "Lemon juice",
+    "Side vegetable",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "tom",
+    "he",
+    "ot",
+    "toi",
+    "bun tuoi",
+    "banh trang mong",
+    "nuoc cot chanh",
+    "rau an kem",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

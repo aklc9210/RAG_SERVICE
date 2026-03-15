@@ -1,0 +1,116 @@
+{
+  "id": "dish8336",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8336.json",
+  "name_vi": "Gỏi mít non tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi mit non tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Mít non",
+    "Thịt ba rọi",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu phộng rang",
+    "Rau răm",
+    "Húng lủi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04035",
+    "ingre06289",
+    "ingre06930",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre07791",
+    "ingre05359",
+    "ingre02859",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mít non",
+    "Thịt ba rọi",
+    "Tôm",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Đậu phộng rang",
+    "Rau răm",
+    "Húng lủi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Young banana blossom",
+    "Pork belly",
+    "Shrimp",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Roasted Peanut",
+    "Vietnamese coriander",
+    "Peppermint",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mit non",
+    "thit ba roi",
+    "tom",
+    "toi",
+    "hanh tim",
+    "ot",
+    "dau phong rang",
+    "rau ram",
+    "hung lui",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

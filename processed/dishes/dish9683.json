@@ -1,0 +1,56 @@
+{
+  "id": "dish9683",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9683.json",
+  "name_vi": "Matcha sữa hạt (matcha oatmilk)",
+  "name_en": "",
+  "name_normalized": "matcha sua hat matcha oatmilk",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [
+    "Sữa hạt",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Bột matcha"
+  ],
+  "ingredient_ids": [
+    "ingre06174",
+    "ingre06126",
+    "ingre00736",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Sữa đặc",
+    "Sữa hạt",
+    "Bột matcha",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Sesame milk",
+    "Matcha Powder",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "sua dac",
+    "sua hat",
+    "bot matcha",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "matcha sua hat (matcha oatmilk)",
+      "new": "matcha sua hat matcha oatmilk",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

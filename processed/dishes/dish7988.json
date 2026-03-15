@@ -1,0 +1,114 @@
+{
+  "id": "dish7988",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7988.json",
+  "name_vi": "Gỏi khổ qua tây",
+  "name_en": "",
+  "name_normalized": "goi kho qua tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Khổ qua tây",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Đậu phộng",
+    "Tàu hũ ky chiên",
+    "Rau răm/ lá quế",
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03274",
+    "ingre01419",
+    "ingre07057",
+    "ingre02741",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre07781",
+    "ingre06875",
+    "ingre05368",
+    "ingre04622",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua tây",
+    "Cà rốt",
+    "Tắc",
+    "Hành tây",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Đậu phộng",
+    "Tàu hũ ky chiên",
+    "Rau răm/ lá quế",
+    "Nước dừa",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Carrot",
+    "Tamarind",
+    "Onion",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Peanut",
+    "Fried tofu pudding",
+    "Cilantro/Leaves of Bay Laurel",
+    "Coconut water",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua tay",
+    "ca rot",
+    "tac",
+    "hanh tay",
+    "hanh tim",
+    "toi",
+    "ot",
+    "dau phong",
+    "tau hu ky chien",
+    "rau ram la que",
+    "nuoc dua",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ram/ la que",
+      "new": "rau ram la que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau răm/ lá quế"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

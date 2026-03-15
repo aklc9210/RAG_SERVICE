@@ -1,0 +1,70 @@
+{
+  "id": "dish0878",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0878.json",
+  "name_vi": "Bánh cười (bánh mặt cười)",
+  "name_en": "",
+  "name_normalized": "banh cuoi banh mat cuoi",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột mì số 8",
+    "Trứng gà",
+    "Bột baking soda",
+    "Bột nở",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre06823",
+    "ingre00515",
+    "ingre00867",
+    "ingre03746",
+    "ingre03935",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Trứng gà",
+    "Bột baking soda",
+    "Bột nở",
+    "Muối",
+    "Mè trắng",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Chicken egg",
+    "Baking soda",
+    "Baking powder",
+    "Salt",
+    "White sesame",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "trung ga",
+    "bot baking soda",
+    "bot no",
+    "muoi",
+    "me trang",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cuoi (banh mat cuoi)",
+      "new": "banh cuoi banh mat cuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

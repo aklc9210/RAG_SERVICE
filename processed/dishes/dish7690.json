@@ -1,0 +1,62 @@
+{
+  "id": "dish7690",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7690.json",
+  "name_vi": "Gà hấp mía",
+  "name_en": "",
+  "name_normalized": "ga hap mia",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gà"
+  ],
+  "secondary_ingredients": [
+    "Mía"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Muối hột",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04025",
+    "ingre08055",
+    "ingre03766",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Mía",
+    "Ớt sừng",
+    "Muối hột",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Sugarcane",
+    "Hot pepper",
+    "Sea salt",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "mia",
+    "ot sung",
+    "muoi hot",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

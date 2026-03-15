@@ -1,0 +1,83 @@
+{
+  "id": "dish7649",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7649.json",
+  "name_vi": "Cà tím hấp thịt",
+  "name_en": "",
+  "name_normalized": "ca tim hap thit",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cà tím",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô khô",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre06414",
+    "ingre04969",
+    "ingre02673",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Thịt heo xay",
+    "Nấm đông cô khô",
+    "Hành lá",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Ground Pork",
+    "Dried shiitake mushrooms",
+    "Scallion",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "thit heo xay",
+    "nam dong co kho",
+    "hanh la",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

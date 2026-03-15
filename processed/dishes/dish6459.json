@@ -1,0 +1,86 @@
+{
+  "id": "dish6459",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6459.json",
+  "name_vi": "Mực chiên giòn bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "muc chien gion bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Bột chiên xù",
+    "Trứng",
+    "Bột tỏi",
+    "Bột ớt Paprika",
+    "Bột ớt Cayenne",
+    "Bột hành",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre00759",
+    "ingre00609",
+    "ingre06801",
+    "ingre06144",
+    "ingre00978",
+    "ingre01025",
+    "ingre01017",
+    "ingre00682",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Bột mì",
+    "Bột chiên xù",
+    "Trứng",
+    "Sữa tươi",
+    "Bột tỏi",
+    "Bột ớt Paprika",
+    "Bột ớt Cayenne",
+    "Bột hành",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Egg",
+    "Fresh Milk",
+    "Garlic powder",
+    "Paprika Powder",
+    "Cayenne Pepper",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "bot mi",
+    "bot chien xu",
+    "trung",
+    "sua tuoi",
+    "bot toi",
+    "bot ot paprika",
+    "bot ot cayenne",
+    "bot hanh",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

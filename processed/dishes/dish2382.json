@@ -1,0 +1,76 @@
+{
+  "id": "dish2382",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2382.json",
+  "name_vi": "Bánh quy đường BTS - Royal Icing Cookie",
+  "name_en": "",
+  "name_normalized": "banh quy duong bts royal icing cookie",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Màu thực phẩm"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Chiết xuất vani",
+    "Nước cốt chanh",
+    "Đường bột",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre06823",
+    "ingre01139",
+    "ingre04538",
+    "ingre03865",
+    "ingre07589",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Trứng gà",
+    "Chiết xuất vani",
+    "Nước cốt chanh",
+    "Màu thực phẩm",
+    "Đường bột",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Chicken egg",
+    "Vanilla extract",
+    "Lemon juice",
+    "Food coloring",
+    "Sugar Powder",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "trung ga",
+    "chiet xuat vani",
+    "nuoc cot chanh",
+    "mau thuc pham",
+    "duong bot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy duong bts - royal icing cookie",
+      "new": "banh quy duong bts royal icing cookie",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

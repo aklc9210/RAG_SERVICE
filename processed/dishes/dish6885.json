@@ -1,0 +1,79 @@
+{
+  "id": "dish6885",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6885.json",
+  "name_vi": "Gà chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "ga chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Bột bắp",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre05900",
+    "ingre07966",
+    "ingre00564",
+    "ingre02124",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Sả",
+    "Ớt",
+    "Bột bắp",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lemongrass",
+    "Pepper",
+    "Corn starch",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "sa",
+    "ot",
+    "bot bap",
+    "dau an",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

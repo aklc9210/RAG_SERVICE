@@ -1,0 +1,25 @@
+{
+  "id": "ingre02338",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02338.json",
+  "name_vi": "giá đỗ/ hành lá",
+  "name_en": "Bean sprouts/Thai basil",
+  "name_normalized": "gia do hanh la",
+  "synonyms": [
+    "hành mùi"
+  ],
+  "synonyms_normalized": [
+    "hanh mui"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gia do/ hanh la",
+      "new": "gia do hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

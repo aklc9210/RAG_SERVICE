@@ -1,0 +1,101 @@
+{
+  "id": "dish7726",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7726.json",
+  "name_vi": "Lẩu gà nước dừa",
+  "name_en": "",
+  "name_normalized": "lau ga nuoc dua",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt gà",
+    "Nước dừa"
+  ],
+  "secondary_ingredients": [
+    "Cải cúc",
+    "Xà lách xoong",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mồng tơi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre04622",
+    "ingre04176",
+    "ingre01780",
+    "ingre07370",
+    "ingre05900",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Nước dừa",
+    "Mồng tơi",
+    "Cải cúc",
+    "Xà lách xoong",
+    "Sả",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Coconut water",
+    "Mustard greens",
+    "Chinese cabbage",
+    "Spring onion",
+    "Lemongrass",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "nuoc dua",
+    "mong toi",
+    "cai cuc",
+    "xa lach xoong",
+    "sa",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

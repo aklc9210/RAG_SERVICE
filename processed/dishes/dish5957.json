@@ -1,0 +1,105 @@
+{
+  "id": "dish5957",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5957.json",
+  "name_vi": "Cơm cháy kho quẹt",
+  "name_en": "",
+  "name_normalized": "com chay kho quet",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Gạo",
+    "Nếp",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mỡ heo",
+    "Hành lá",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Tiêu",
+    "Ớt bột",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre04983",
+    "ingre06941",
+    "ingre02768",
+    "ingre04192",
+    "ingre02673",
+    "ingre04665",
+    "ingre04694",
+    "ingre07583",
+    "ingre06612",
+    "ingre07977",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Nếp",
+    "Tôm khô",
+    "Hành tím",
+    "Mỡ heo",
+    "Hành lá",
+    "Nước lọc",
+    "Nước mắm",
+    "Đường",
+    "Tiêu",
+    "Ớt bột",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Rice glutinous",
+    "Dried Shrimp",
+    "Shallot",
+    "Pork fat",
+    "Scallion",
+    "Tap water",
+    "Fish Sauce",
+    "Sugar",
+    "Pepper",
+    "Chili powder"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "nep",
+    "tom kho",
+    "hanh tim",
+    "mo heo",
+    "hanh la",
+    "nuoc loc",
+    "nuoc mam",
+    "duong",
+    "tieu",
+    "ot bot",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

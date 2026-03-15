@@ -1,0 +1,67 @@
+{
+  "id": "dish2015",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2015.json",
+  "name_vi": "Bánh bông lan phô mai cheese",
+  "name_en": "",
+  "name_normalized": "banh bong lan pho mai cheese",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cream cheese",
+    "Lòng đỏ trứng gà",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh (Cake Flour)",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre01324",
+    "ingre07583",
+    "ingre03584",
+    "ingre02124",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake Flour)",
+    "Cream cheese",
+    "Đường",
+    "Lòng đỏ trứng gà",
+    "Dầu ăn",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Cream cheese",
+    "Sugar",
+    "Egg yolk",
+    "Cooking oil",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "cream cheese",
+    "duong",
+    "long do trung ga",
+    "dau an",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    }
+  ]
+}

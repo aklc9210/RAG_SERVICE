@@ -1,0 +1,100 @@
+{
+  "id": "dish7333",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7333.json",
+  "name_vi": "Cách làm gà viên chiên bằng máy xay sinh tố.",
+  "name_en": "",
+  "name_normalized": "cach lam ga vien chien bang may xay sinh to",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đùi gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bắp",
+    "Bột nở",
+    "Tỏi băm",
+    "Ớt bột Hàn Quốc",
+    "Nước mắm",
+    "Bột ớt thường",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre00564",
+    "ingre00867",
+    "ingre07071",
+    "ingre07983",
+    "ingre04694",
+    "ingre01028",
+    "ingre02124",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Bột bắp",
+    "Bột nở",
+    "Tỏi băm",
+    "Ớt bột Hàn Quốc",
+    "Nước mắm",
+    "Bột ớt thường",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Corn starch",
+    "Baking powder",
+    "Minced Garlic",
+    "Korean chili powder",
+    "Fish Sauce",
+    "Red Pepper Powder",
+    "Cooking oil",
+    "Seasoning",
+    "MSG",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "bot bap",
+    "bot no",
+    "toi bam",
+    "ot bot han quoc",
+    "nuoc mam",
+    "bot ot thuong",
+    "dau an",
+    "hat nem",
+    "bot ngot",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam ga vien chien bang may xay sinh to.",
+      "new": "cach lam ga vien chien bang may xay sinh to",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

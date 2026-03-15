@@ -1,0 +1,77 @@
+{
+  "id": "dish9262",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9262.json",
+  "name_vi": "Da heo lắc muối ớt",
+  "name_en": "",
+  "name_normalized": "da heo lac muoi ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Da heo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Bột húng lìu",
+    "Bột ớt",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01935",
+    "ingre02741",
+    "ingre05900",
+    "ingre01079",
+    "ingre00686",
+    "ingre01015",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Da heo",
+    "Hành tây",
+    "Sả",
+    "Chanh",
+    "Bột húng lìu",
+    "Bột ớt",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork skin",
+    "Onion",
+    "Lemongrass",
+    "Lemon",
+    "Peppermint Powder",
+    "Red Pepper Powder",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "da heo",
+    "hanh tay",
+    "sa",
+    "chanh",
+    "bot hung liu",
+    "bot ot",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

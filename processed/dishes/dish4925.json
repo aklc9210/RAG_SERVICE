@@ -1,0 +1,93 @@
+{
+  "id": "dish4925",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4925.json",
+  "name_vi": "Nấm bào ngư xào tỏi",
+  "name_en": "",
+  "name_normalized": "nam bao ngu xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm bào ngư"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre07063",
+    "ingre07966",
+    "ingre04343",
+    "ingre02673",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Tỏi",
+    "Ớt",
+    "Ngò rí",
+    "Hành lá",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Garlic",
+    "Pepper",
+    "Parsley",
+    "Scallion",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "toi",
+    "ot",
+    "ngo ri",
+    "hanh la",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

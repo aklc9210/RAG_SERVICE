@@ -1,0 +1,67 @@
+{
+  "id": "dish3999",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3999.json",
+  "name_vi": "Cá ngát nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca ngat nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá ngát"
+  ],
+  "secondary_ingredients": [
+    "Rau sống ăn kèm (dưa leo"
+  ],
+  "seasonings": [
+    "Muối ớt",
+    "Bột ngọt",
+    "Nước mắm me",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01575",
+    "ingre03800",
+    "ingre00819",
+    "ingre04703",
+    "ingre05382",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngát",
+    "Muối ớt",
+    "Bột ngọt",
+    "Nước mắm me",
+    "Rau sống ăn kèm (dưa leo",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Grouper",
+    "Hot Salted Pepper",
+    "MSG",
+    "Fish Sauce with Mandarin Orange",
+    "Cucumber",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngat",
+    "muoi ot",
+    "bot ngot",
+    "nuoc mam me",
+    "rau song an kem dua leo",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau song an kem (dua leo",
+      "new": "rau song an kem dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau sống ăn kèm (dưa leo"
+    }
+  ]
+}

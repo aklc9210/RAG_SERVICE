@@ -1,0 +1,86 @@
+{
+  "id": "dish4462",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4462.json",
+  "name_vi": "Cách xào cá chép giòn với hành tây",
+  "name_en": "",
+  "name_normalized": "cach xao ca chep gion voi hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cá chép giòn",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Muối",
+    "Tiêu",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01493",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre03746",
+    "ingre06612",
+    "ingre04694",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép giòn",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Muối",
+    "Tiêu",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Glass carp",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Salt",
+    "Fish Sauce",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep gion",
+    "hanh tay",
+    "toi",
+    "ot",
+    "sa",
+    "muoi",
+    "tieu",
+    "nuoc mam",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

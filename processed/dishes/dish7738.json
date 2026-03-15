@@ -1,0 +1,95 @@
+{
+  "id": "dish7738",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7738.json",
+  "name_vi": "Lẩu cá mú nấu ngót",
+  "name_en": "",
+  "name_normalized": "lau ca mu nau ngot",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá mú",
+    "Cà chua",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Rau cần ta",
+    "Rau thơm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01568",
+    "ingre01354",
+    "ingre06247",
+    "ingre05240",
+    "ingre05385",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre04694",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Cá mú",
+    "Cà chua",
+    "Thơm",
+    "Rau cần ta",
+    "Rau thơm",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Snapper",
+    "Tomato",
+    "Basil",
+    "Coriander Leaf",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca mu",
+    "ca chua",
+    "thom",
+    "rau can ta",
+    "rau thom",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "nuoc mam",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

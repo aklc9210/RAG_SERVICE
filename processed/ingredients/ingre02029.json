@@ -1,0 +1,25 @@
+{
+  "id": "ingre02029",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02029.json",
+  "name_vi": "dưa leo/ cà chua",
+  "name_en": "Tomato",
+  "name_normalized": "dua leo ca chua",
+  "synonyms": [
+    "cà pháo"
+  ],
+  "synonyms_normalized": [
+    "ca phao"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dua leo/ ca chua",
+      "new": "dua leo ca chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

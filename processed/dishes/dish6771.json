@@ -1,0 +1,99 @@
+{
+  "id": "dish6771",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6771.json",
+  "name_vi": "Trứng cút chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "trung cut chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu hào",
+    "Bột ngọt/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre05900",
+    "ingre04694",
+    "ingre02080",
+    "ingre00828",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Sả",
+    "Nước mắm",
+    "Dầu hào",
+    "Bột ngọt/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Lemongrass",
+    "Fish Sauce",
+    "Soy sauce",
+    "Soy Sauce/Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "toi",
+    "hanh tim",
+    "ot",
+    "sa",
+    "nuoc mam",
+    "dau hao",
+    "bot ngot tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu",
+      "new": "bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu"
+    }
+  ]
+}

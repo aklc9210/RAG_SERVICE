@@ -1,0 +1,117 @@
+{
+  "id": "dish8313",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8313.json",
+  "name_vi": "Gỏi khoai môn hải sản",
+  "name_en": "",
+  "name_normalized": "goi khoai mon hai san",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Khoai môn",
+    "Tôm",
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Ngò gai/Húng lủi"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Gừng",
+    "Bột chiên giòn",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Tương ớt",
+    "Giấm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre06930",
+    "ingre04264",
+    "ingre01419",
+    "ingre02020",
+    "ingre04338",
+    "ingre08055",
+    "ingre02485",
+    "ingre00598",
+    "ingre07071",
+    "ingre07971",
+    "ingre04538",
+    "ingre04694",
+    "ingre07028",
+    "ingre02355",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Tôm",
+    "Mực",
+    "Cà rốt",
+    "Dưa leo",
+    "Ngò gai/Húng lủi",
+    "Ớt sừng",
+    "Gừng",
+    "Bột chiên giòn",
+    "Tỏi băm",
+    "Ớt băm",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Tương ớt",
+    "Giấm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Shrimp",
+    "Squid",
+    "Carrot",
+    "Cucumber",
+    "Pennyroyal/Húng lủi",
+    "Hot pepper",
+    "Ginger",
+    "Puffed Rice Powder",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Lemon juice",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Vinegar",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "tom",
+    "muc",
+    "ca rot",
+    "dua leo",
+    "ngo gai hung lui",
+    "ot sung",
+    "gung",
+    "bot chien gion",
+    "toi bam",
+    "ot bam",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "tuong ot",
+    "giam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo gai/hung lui",
+      "new": "ngo gai hung lui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò gai/Húng lủi"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dish5199",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5199.json",
+  "name_vi": "Dưa leo (dưa chuột) xào trứng",
+  "name_en": "",
+  "name_normalized": "dua leo dua chuot xao trung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02020",
+    "ingre06823",
+    "ingre07063",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Dưa leo",
+    "Trứng gà",
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Chicken egg",
+    "Garlic",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "dua leo",
+    "trung ga",
+    "toi",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dua leo (dua chuot) xao trung",
+      "new": "dua leo dua chuot xao trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

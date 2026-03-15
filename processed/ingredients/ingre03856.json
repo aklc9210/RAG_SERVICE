@@ -1,0 +1,27 @@
+{
+  "id": "ingre03856",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03856.json",
+  "name_vi": "màu hồng/ màu xanh thực phẩm",
+  "name_en": "Food color/food coloring",
+  "name_normalized": "mau hong mau xanh thuc pham",
+  "synonyms": [
+    "kem hồng",
+    "kem xanh"
+  ],
+  "synonyms_normalized": [
+    "kem hong",
+    "kem xanh"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mau hong/ mau xanh thuc pham",
+      "new": "mau hong mau xanh thuc pham",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

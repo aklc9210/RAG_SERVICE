@@ -1,0 +1,25 @@
+{
+  "id": "ingre00040",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00040.json",
+  "name_vi": "blueberries:",
+  "name_en": "Blueberries",
+  "name_normalized": "blueberries",
+  "synonyms": [
+    "dâu tây"
+  ],
+  "synonyms_normalized": [
+    "dau tay"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "blueberries:",
+      "new": "blueberries",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

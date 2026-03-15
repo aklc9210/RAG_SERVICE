@@ -1,0 +1,111 @@
+{
+  "id": "dish2175",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2175.json",
+  "name_vi": "Bánh rán doremon (dorayaki) socola nhân kem bạc hà",
+  "name_en": "",
+  "name_normalized": "banh ran doremon dorayaki socola nhan kem bac ha",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Mật ong",
+    "Sữa tươi",
+    "Socola trắng",
+    "Socola đen",
+    "Heavy cream",
+    "Màu xanh lá thực phẩm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh pancake",
+    "Bột cacao nâu",
+    "Bột cacao đen",
+    "Baking soda",
+    "Đường",
+    "Rượu sake ngọt",
+    "Trứng gà",
+    "Rượu hương bạc hà",
+    "Màu xanh dương thực phẩm"
+  ],
+  "ingredient_ids": [
+    "ingre00543",
+    "ingre00579",
+    "ingre00580",
+    "ingre00018",
+    "ingre07583",
+    "ingre05565",
+    "ingre04124",
+    "ingre06144",
+    "ingre06823",
+    "ingre05758",
+    "ingre05763",
+    "ingre02558",
+    "ingre05539",
+    "ingre03899",
+    "ingre03898"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh pancake",
+    "Bột cacao nâu",
+    "Bột cacao đen",
+    "Baking soda",
+    "Đường",
+    "Rượu sake ngọt",
+    "Mật ong",
+    "Sữa tươi",
+    "Trứng gà",
+    "Socola trắng",
+    "Socola đen",
+    "Heavy cream",
+    "Rượu hương bạc hà",
+    "Màu xanh lá thực phẩm",
+    "Màu xanh dương thực phẩm"
+  ],
+  "ingredient_names_en": [
+    "Baking powder",
+    "Cocoa Powder",
+    "Dark cocoa powder",
+    "Baking soda",
+    "Sugar",
+    "Sweet Sake",
+    "Honey",
+    "Fresh Milk",
+    "Chicken egg",
+    "White chocolate",
+    "Dark chocolate",
+    "Heavy cream",
+    "Mint-flavored liquor",
+    "Food green color",
+    "Food blue dye"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh pancake",
+    "bot cacao nau",
+    "bot cacao den",
+    "baking soda",
+    "duong",
+    "ruou sake ngot",
+    "mat ong",
+    "sua tuoi",
+    "trung ga",
+    "socola trang",
+    "socola den",
+    "heavy cream",
+    "ruou huong bac ha",
+    "mau xanh la thuc pham",
+    "mau xanh duong thuc pham"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh ran doremon (dorayaki) socola nhan kem bac ha",
+      "new": "banh ran doremon dorayaki socola nhan kem bac ha",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

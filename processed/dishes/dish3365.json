@@ -1,0 +1,129 @@
+{
+  "id": "dish3365",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3365.json",
+  "name_vi": "Vịt om măng sấu",
+  "name_en": "",
+  "name_normalized": "vit om mang sau",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Vịt",
+    "Sấu",
+    "Măng tươi",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối hạt",
+    "Muối",
+    "Bột canh",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre05925",
+    "ingre04091",
+    "ingre02673",
+    "ingre05900",
+    "ingre02768",
+    "ingre02485",
+    "ingre04790",
+    "ingre02124",
+    "ingre03760",
+    "ingre03746",
+    "ingre00587",
+    "ingre00819",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Sấu",
+    "Măng tươi",
+    "Hành lá",
+    "Sả",
+    "Hành tím",
+    "Gừng",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối hạt",
+    "Muối",
+    "Bột canh",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Sour sop",
+    "Fresh bamboo shoots",
+    "Scallion",
+    "Lemongrass",
+    "Shallot",
+    "Ginger",
+    "Soy Sauce",
+    "Cooking oil",
+    "Fenugreek seeds",
+    "Salt",
+    "Cornstarch",
+    "MSG",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "sau",
+    "mang tuoi",
+    "hanh la",
+    "sa",
+    "hanh tim",
+    "gung",
+    "nuoc tuong",
+    "dau an",
+    "muoi hat",
+    "muoi",
+    "bot canh",
+    "bot ngot",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

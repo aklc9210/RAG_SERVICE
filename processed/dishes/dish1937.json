@@ -1,0 +1,91 @@
+{
+  "id": "dish1937",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1937.json",
+  "name_vi": "Bánh bông lan bơ ngàn lớp - lapis legit Indonesia",
+  "name_en": "",
+  "name_normalized": "banh bong lan bo ngan lop lapis legit indonesia",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cake flour",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Bơ thực vật",
+    "Lòng trắng trứng",
+    "Nhục đậu khấu",
+    "Nước cốt chanh",
+    "Vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01045",
+    "ingre00407",
+    "ingre00382",
+    "ingre03584",
+    "ingre03579",
+    "ingre04447",
+    "ingre04538",
+    "ingre06174",
+    "ingre07140",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cake flour",
+    "Bơ thực vật",
+    "Bơ lạt",
+    "Lòng đỏ trứng gà",
+    "Lòng trắng trứng",
+    "Nhục đậu khấu",
+    "Nước cốt chanh",
+    "Sữa đặc",
+    "Vani",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Vegetable oil",
+    "Butter",
+    "Egg yolk",
+    "Egg white",
+    "Cardamom",
+    "Lemon juice",
+    "Sweetened Condensed Milk",
+    "Vanilla",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cake flour",
+    "bo thuc vat",
+    "bo lat",
+    "long do trung ga",
+    "long trang trung",
+    "nhuc dau khau",
+    "nuoc cot chanh",
+    "sua dac",
+    "vani",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bong lan bo ngan lop - lapis legit indonesia",
+      "new": "banh bong lan bo ngan lop lapis legit indonesia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

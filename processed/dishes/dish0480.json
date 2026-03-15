@@ -1,0 +1,83 @@
+{
+  "id": "dish0480",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0480.json",
+  "name_vi": "Canh bầu hầm xương",
+  "name_en": "",
+  "name_normalized": "canh bau ham xuong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bầu",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Xương heo"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00440",
+    "ingre02673",
+    "ingre07422",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bầu",
+    "Hành lá",
+    "Xương heo",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Zucchini",
+    "Scallion",
+    "Pork bone",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bau",
+    "hanh la",
+    "xuong heo",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

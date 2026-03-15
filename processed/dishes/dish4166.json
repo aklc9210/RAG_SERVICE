@@ -1,0 +1,98 @@
+{
+  "id": "dish4166",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4166.json",
+  "name_vi": "Chạo ốc bươu nướng",
+  "name_en": "",
+  "name_normalized": "chao oc buou nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo băm",
+    "Cồi ốc bươu",
+    "Sả cây",
+    "Món ăn kèm"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Gừng băm",
+    "Hành tím băm",
+    "Lá lốt băm",
+    "Hành phi",
+    "Muối;đường;bột ngọt;tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre02350",
+    "ingre05905",
+    "ingre02492",
+    "ingre02774",
+    "ingre04933",
+    "ingre03462",
+    "ingre01855",
+    "ingre02730",
+    "ingre03837",
+    "ingre05902",
+    "ingre04041"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Giò sống",
+    "Sả băm",
+    "Gừng băm",
+    "Hành tím băm",
+    "Nấm mèo băm",
+    "Lá lốt băm",
+    "Cồi ốc bươu",
+    "Hành phi",
+    "Muối;đường;bột ngọt;tiêu",
+    "Sả cây",
+    "Món ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Fresh sausage",
+    "Garlic Paste",
+    "Ginger paste",
+    "Chopped Scallion",
+    "Crumbed Cat's Ear Mushroom",
+    "Cubed Coriander Leaf",
+    "Pufferfish Roe",
+    "Garlic Fried",
+    "Salt;Sugar;Monosodium Glutamate;Pepper",
+    "Lemongrass",
+    "Side dish"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "gio song",
+    "sa bam",
+    "gung bam",
+    "hanh tim bam",
+    "nam meo bam",
+    "la lot bam",
+    "coi oc buou",
+    "hanh phi",
+    "muoi duong bot ngot tieu",
+    "sa cay",
+    "mon an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi;duong;bot ngot;tieu",
+      "new": "muoi duong bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối;đường;bột ngọt;tiêu"
+    }
+  ]
+}

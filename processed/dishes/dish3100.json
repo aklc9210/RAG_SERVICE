@@ -1,0 +1,73 @@
+{
+  "id": "dish3100",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3100.json",
+  "name_vi": "Chè lủm chủm",
+  "name_en": "",
+  "name_normalized": "che lum chum",
+  "category": "mon che",
+  "main_ingredients": [
+    "Dừa",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Bột năng",
+    "Đường thốt nốt",
+    "Gừng",
+    "Đường cát/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre00849",
+    "ingre07647",
+    "ingre02162",
+    "ingre02485",
+    "ingre07781",
+    "ingre07603"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Bột năng",
+    "Đường thốt nốt",
+    "Dừa",
+    "Gừng",
+    "Đậu phộng",
+    "Đường cát/ muối"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Cornstarch",
+    "Cane Sugar",
+    "Coconut",
+    "Ginger",
+    "Peanut",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "bot nang",
+    "duong thot not",
+    "dua",
+    "gung",
+    "dau phong",
+    "duong cat muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong cat/ muoi",
+      "new": "duong cat muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường cát/ muối"
+    }
+  ]
+}

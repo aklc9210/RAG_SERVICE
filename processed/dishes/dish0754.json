@@ -1,0 +1,71 @@
+{
+  "id": "dish0754",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0754.json",
+  "name_vi": "Súp yến nấm hương (nấm đông cô)",
+  "name_en": "",
+  "name_normalized": "sup yen nam huong nam dong co",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tổ yến",
+    "Nấm hương khô"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè",
+    "Nước dùng gà"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột năng",
+    "Rượu ngâm gừng"
+  ],
+  "ingredient_ids": [
+    "ingre07132",
+    "ingre04913",
+    "ingre06823",
+    "ingre00849",
+    "ingre02094",
+    "ingre05549",
+    "ingre04607"
+  ],
+  "ingredient_names_vi": [
+    "Tổ yến",
+    "Nấm hương khô",
+    "Trứng gà",
+    "Bột năng",
+    "Dầu mè",
+    "Rượu ngâm gừng",
+    "Nước dùng gà"
+  ],
+  "ingredient_names_en": [
+    "Bird's Nest",
+    "Dried Shiitake Mushrooms",
+    "Chicken egg",
+    "Cornstarch",
+    "Sesame oil",
+    "Ginger-infused liquor",
+    "Chicken broth"
+  ],
+  "ingredient_names_normalized": [
+    "to yen",
+    "nam huong kho",
+    "trung ga",
+    "bot nang",
+    "dau me",
+    "ruou ngam gung",
+    "nuoc dung ga"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sup yen nam huong (nam dong co)",
+      "new": "sup yen nam huong nam dong co",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

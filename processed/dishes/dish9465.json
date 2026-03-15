@@ -1,0 +1,98 @@
+{
+  "id": "dish9465",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9465.json",
+  "name_vi": "Súp hạnh nhân",
+  "name_en": "",
+  "name_normalized": "sup hanh nhan",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Hạnh nhân",
+    "Sữa tươi",
+    "Kem tươi"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng băm",
+    "Tỏi băm",
+    "Bột bắp",
+    "Bột mì",
+    "Bột tiêu đen",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02889",
+    "ingre06144",
+    "ingre03157",
+    "ingre00382",
+    "ingre02768",
+    "ingre02492",
+    "ingre07071",
+    "ingre00564",
+    "ingre00759",
+    "ingre00956",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Hạnh nhân",
+    "Sữa tươi",
+    "Kem tươi",
+    "Bơ lạt",
+    "Hành tím",
+    "Gừng băm",
+    "Tỏi băm",
+    "Bột bắp",
+    "Bột mì",
+    "Bột tiêu đen",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Almond",
+    "Fresh Milk",
+    "Fresh cream",
+    "Butter",
+    "Shallot",
+    "Ginger paste",
+    "Minced Garlic",
+    "Corn starch",
+    "Wheat Flour",
+    "Black pepper powder",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "hanh nhan",
+    "sua tuoi",
+    "kem tuoi",
+    "bo lat",
+    "hanh tim",
+    "gung bam",
+    "toi bam",
+    "bot bap",
+    "bot mi",
+    "bot tieu den",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

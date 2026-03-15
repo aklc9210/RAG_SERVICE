@@ -1,0 +1,88 @@
+{
+  "id": "dish0203",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0203.json",
+  "name_vi": "Canh lá rau chua cá trê",
+  "name_en": "",
+  "name_normalized": "canh la rau chua ca tre",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá trê",
+    "Lá rau chua",
+    "Rau húng quế"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre03505",
+    "ingre05265",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Lá rau chua",
+    "Rau húng quế",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Sour herb leaf",
+    "Sage Herb",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "MSG",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "la rau chua",
+    "rau hung que",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "bot ngot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

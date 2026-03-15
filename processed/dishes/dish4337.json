@@ -1,0 +1,73 @@
+{
+  "id": "dish4337",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4337.json",
+  "name_vi": "Chả lụi Lagi",
+  "name_en": "",
+  "name_normalized": "cha lui lagi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Tôm tươi",
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Màu dầu điều",
+    "Bánh tráng"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre06329",
+    "ingre02768",
+    "ingre03849",
+    "ingre00178",
+    "ingre07966",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Thịt băm",
+    "Hành tím",
+    "Màu dầu điều",
+    "Bánh tráng",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Minced meat",
+    "Shallot",
+    "Peanut oil color",
+    "Rice Paper",
+    "Pepper",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "thit bam",
+    "hanh tim",
+    "mau dau dieu",
+    "banh trang",
+    "ot",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

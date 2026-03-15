@@ -1,0 +1,92 @@
+{
+  "id": "dish9309",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9309.json",
+  "name_vi": "Khô heo giả bò",
+  "name_en": "",
+  "name_normalized": "kho heo gia bo",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nghệ",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Hũ gia vị bò kho",
+    "Ngũ vị hương",
+    "Bột nêm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre04304",
+    "ingre02870",
+    "ingre04381",
+    "ingre02134",
+    "ingre00838",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Nghệ",
+    "Hũ gia vị bò kho",
+    "Ngũ vị hương",
+    "Dầu điều",
+    "Bột nêm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Turmeric",
+    "Beef Curry Sauce Jar",
+    "Five-Spice Powder",
+    "Peanut oil",
+    "Seasoning Powder",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "sa",
+    "toi",
+    "ot",
+    "nghe",
+    "hu gia vi bo kho",
+    "ngu vi huong",
+    "dau dieu",
+    "bot nem",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "dish2293",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2293.json",
+  "name_vi": "Bánh quy socola M&M xốp",
+  "name_en": "",
+  "name_normalized": "banh quy socola m m xop",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Kẹo socola M&M"
+  ],
+  "secondary_ingredients": [
+    "Lòng đỏ trứng"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng",
+    "Đường nâu",
+    "Đường kính trắng",
+    "Muối",
+    "Baking soda",
+    "Chiết xuất vani"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre03322",
+    "ingre06801",
+    "ingre03583",
+    "ingre07628",
+    "ingre07616",
+    "ingre03746",
+    "ingre00018",
+    "ingre01139"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Kẹo socola M&M",
+    "Trứng",
+    "Lòng đỏ trứng",
+    "Đường nâu",
+    "Đường kính trắng",
+    "Muối",
+    "Baking soda",
+    "Chiết xuất vani"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "M&M Chocolate Candy",
+    "Egg",
+    "Egg yolk",
+    "Brown Sugar",
+    "White sugar",
+    "Salt",
+    "Baking soda",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "keo socola m m",
+    "trung",
+    "long do trung",
+    "duong nau",
+    "duong kinh trang",
+    "muoi",
+    "baking soda",
+    "chiet xuat vani"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy socola m&m xop",
+      "new": "banh quy socola m m xop",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "keo socola m&m",
+      "new": "keo socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kẹo socola M&M"
+    }
+  ]
+}

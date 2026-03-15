@@ -1,0 +1,51 @@
+{
+  "id": "dish3632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3632.json",
+  "name_vi": "Hỗn hợp làm kem ma quái (kem hạt điều)",
+  "name_en": "",
+  "name_normalized": "hon hop lam kem ma quai kem hat dieu",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Hạt điều",
+    "Dầu dừa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre03062",
+    "ingre04554",
+    "ingre02067"
+  ],
+  "ingredient_names_vi": [
+    "Hạt điều",
+    "Nước cốt dừa",
+    "Dầu dừa"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Coconut milk",
+    "Coconut oil"
+  ],
+  "ingredient_names_normalized": [
+    "hat dieu",
+    "nuoc cot dua",
+    "dau dua"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hon hop lam kem ma quai (kem hat dieu)",
+      "new": "hon hop lam kem ma quai kem hat dieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

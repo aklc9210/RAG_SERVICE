@@ -1,0 +1,131 @@
+{
+  "id": "dish7871",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7871.json",
+  "name_vi": "Lẩu gà măng cay",
+  "name_en": "",
+  "name_normalized": "lau ga mang cay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gà",
+    "Măng tươi",
+    "Nấm rơm",
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau ngò ôm",
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Bột màu đỏ thực phẩm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04091",
+    "ingre04953",
+    "ingre01354",
+    "ingre02741",
+    "ingre05332",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre07977",
+    "ingre04381",
+    "ingre02124",
+    "ingre00756",
+    "ingre02355",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Măng tươi",
+    "Nấm rơm",
+    "Cà chua",
+    "Hành tây",
+    "Rau ngò ôm",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Ớt bột",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Bột màu đỏ thực phẩm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Fresh bamboo shoots",
+    "Strawberry mushroom",
+    "Tomato",
+    "Onion",
+    "Parsley",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Chili powder",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Food Red Food Coloring",
+    "Vinegar",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "mang tuoi",
+    "nam rom",
+    "ca chua",
+    "hanh tay",
+    "rau ngo om",
+    "hanh tim",
+    "toi",
+    "sa",
+    "ot bot",
+    "ngu vi huong",
+    "dau an",
+    "bot mau do thuc pham",
+    "giam",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

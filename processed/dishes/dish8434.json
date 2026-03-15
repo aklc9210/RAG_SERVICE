@@ -1,0 +1,92 @@
+{
+  "id": "dish8434",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8434.json",
+  "name_vi": "Chân gà ngâm xì dầu",
+  "name_en": "",
+  "name_normalized": "chan ga ngam xi dau",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Xì dầu",
+    "Ớt sừng cắt nhỏ",
+    "Tỏi đập dập",
+    "Nước cốt chanh",
+    "Bột canh",
+    "Tiêu hạt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre07381",
+    "ingre02741",
+    "ingre05900",
+    "ingre08061",
+    "ingre07116",
+    "ingre04538",
+    "ingre00587",
+    "ingre06619",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Xì dầu",
+    "Hành tây",
+    "Sả",
+    "Ớt sừng cắt nhỏ",
+    "Tỏi đập dập",
+    "Nước cốt chanh",
+    "Bột canh",
+    "Tiêu hạt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Soy Sauce",
+    "Onion",
+    "Lemongrass",
+    "Hot pepper diced",
+    "Garlic Clove Crushed",
+    "Lemon juice",
+    "Cornstarch",
+    "Cumin Seeds",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "xi dau",
+    "hanh tay",
+    "sa",
+    "ot sung cat nho",
+    "toi dap dap",
+    "nuoc cot chanh",
+    "bot canh",
+    "tieu hat",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dish9271",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9271.json",
+  "name_vi": "Mơ muối lâu năm kiểu Nhật Bản - Umaboshi",
+  "name_en": "",
+  "name_normalized": "mo muoi lau nam kieu nhat ban umaboshi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Mơ tươi"
+  ],
+  "secondary_ingredients": [
+    "Lá tía tô"
+  ],
+  "seasonings": [
+    "Muối hồng",
+    "Muối hạt"
+  ],
+  "ingredient_ids": [
+    "ingre04096",
+    "ingre03763",
+    "ingre03544",
+    "ingre03760"
+  ],
+  "ingredient_names_vi": [
+    "Mơ tươi",
+    "Muối hồng",
+    "Lá tía tô",
+    "Muối hạt"
+  ],
+  "ingredient_names_en": [
+    "Fresh plum",
+    "Pink salt",
+    "Cilantro",
+    "Fenugreek seeds"
+  ],
+  "ingredient_names_normalized": [
+    "mo tuoi",
+    "muoi hong",
+    "la tia to",
+    "muoi hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mo muoi lau nam kieu nhat ban - umaboshi",
+      "new": "mo muoi lau nam kieu nhat ban umaboshi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

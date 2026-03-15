@@ -1,0 +1,92 @@
+{
+  "id": "dish4227",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4227.json",
+  "name_vi": "Thịt heo muối",
+  "name_en": "",
+  "name_normalized": "thit heo muoi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Bơ lạt",
+    "Chao đỏ"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Giấm gạo",
+    "Mù tạt Dijon",
+    "Bột rau mùi",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre00382",
+    "ingre01112",
+    "ingre02362",
+    "ingre04124",
+    "ingre04051",
+    "ingre00907",
+    "ingre00815",
+    "ingre02124",
+    "ingre04790",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Bơ lạt",
+    "Chao đỏ",
+    "Giấm gạo",
+    "Mật ong",
+    "Mù tạt Dijon",
+    "Bột rau mùi",
+    "Bột ngũ vị hương",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Butter",
+    "Red chili",
+    "Rice vinegar",
+    "Honey",
+    "Dijon mustard",
+    "Basil powder",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Soy Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "bo lat",
+    "chao do",
+    "giam gao",
+    "mat ong",
+    "mu tat dijon",
+    "bot rau mui",
+    "bot ngu vi huong",
+    "dau an",
+    "nuoc tuong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre05746",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05746.json",
+  "name_vi": "socola hồng/ socola sữa",
+  "name_en": "Chocolate Milk/Sweet Chocolate",
+  "name_normalized": "socola hong socola sua",
+  "synonyms": [
+    "kem socola",
+    "socola",
+    "chocolate cream"
+  ],
+  "synonyms_normalized": [
+    "kem socola",
+    "socola",
+    "chocolate cream"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola hong/ socola sua",
+      "new": "socola hong socola sua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

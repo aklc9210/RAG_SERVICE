@@ -1,0 +1,57 @@
+{
+  "id": "dish6843",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6843.json",
+  "name_vi": "Bò bít tết bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "bo bit tet bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Gia vị ướp thịt nướng",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre02104",
+    "ingre02325",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Dầu oliu",
+    "Gia vị ướp thịt nướng",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Olive oil",
+    "Marinade Seasoning",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "dau oliu",
+    "gia vi uop thit nuong",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

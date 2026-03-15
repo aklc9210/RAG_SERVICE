@@ -1,0 +1,72 @@
+{
+  "id": "dish0597",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0597.json",
+  "name_vi": "Canh rau má nấu tôm",
+  "name_en": "",
+  "name_normalized": "canh rau ma nau tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau má",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05295",
+    "ingre06941",
+    "ingre02702",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Rau má",
+    "Tôm khô",
+    "Hành lá/ ngò rí",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Lavender",
+    "Dried Shrimp",
+    "Chives",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "rau ma",
+    "tom kho",
+    "hanh la ngo ri",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

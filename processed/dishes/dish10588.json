@@ -1,0 +1,68 @@
+{
+  "id": "dish10588",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10588.json",
+  "name_vi": "Thịt heo ngâm nước mắm",
+  "name_en": "",
+  "name_normalized": "thit heo ngam nuoc mam",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường vàng",
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre04694",
+    "ingre07661",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Nước mắm",
+    "Đường vàng",
+    "Ớt",
+    "Hành tím",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Fish Sauce",
+    "Yellow Sugar",
+    "Pepper",
+    "Shallot",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "nuoc mam",
+    "duong vang",
+    "ot",
+    "hanh tim",
+    "toi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

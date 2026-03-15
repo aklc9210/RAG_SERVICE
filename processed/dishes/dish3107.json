@@ -1,0 +1,98 @@
+{
+  "id": "dish3107",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3107.json",
+  "name_vi": "Hoành thánh lá nấu tôm khô",
+  "name_en": "",
+  "name_normalized": "hoanh thanh la nau tom kho",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Hoành thánh lá khô",
+    "Xương heo",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Huyết vịt",
+    "Củ cải trắng",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Hành phi khô",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02622",
+    "ingre07422",
+    "ingre06941",
+    "ingre02630",
+    "ingre01868",
+    "ingre02673",
+    "ingre04343",
+    "ingre02731",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Hoành thánh lá khô",
+    "Xương heo",
+    "Tôm khô",
+    "Huyết vịt",
+    "Củ cải trắng",
+    "Hành lá",
+    "Ngò rí",
+    "Hành phi khô",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Dried Wrapper Dumplings",
+    "Pork bone",
+    "Dried Shrimp",
+    "Duck blood",
+    "White radish",
+    "Scallion",
+    "Parsley",
+    "Dried Fried Garlic",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "hoanh thanh la kho",
+    "xuong heo",
+    "tom kho",
+    "huyet vit",
+    "cu cai trang",
+    "hanh la",
+    "ngo ri",
+    "hanh phi kho",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish3881",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3881.json",
+  "name_vi": "Sườn nướng coca",
+  "name_en": "",
+  "name_normalized": "suon nuong coca",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn heo non",
+    "Coca",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mè đen",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05886",
+    "ingre01313",
+    "ingre02768",
+    "ingre07063",
+    "ingre03941",
+    "ingre04124",
+    "ingre02080",
+    "ingre02124",
+    "ingre04790",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo non",
+    "Coca",
+    "Hành tím",
+    "Tỏi",
+    "Mè đen",
+    "Mật ong",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước tương",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Riblet",
+    "Coca-Cola",
+    "Shallot",
+    "Garlic",
+    "Black sesame seeds",
+    "Honey",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo non",
+    "coca",
+    "hanh tim",
+    "toi",
+    "me den",
+    "mat ong",
+    "dau hao",
+    "dau an",
+    "nuoc tuong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish0213",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0213.json",
+  "name_vi": "Canh khoai mỡ tôm khô",
+  "name_en": "",
+  "name_normalized": "canh khoai mo tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai mỡ",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03219",
+    "ingre06941",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khoai mỡ",
+    "Tôm khô",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Dried Shrimp",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mo",
+    "tom kho",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish7697",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7697.json",
+  "name_vi": "Cá lóc hấp bún tàu",
+  "name_en": "",
+  "name_normalized": "ca loc hap bun tau",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá lóc",
+    "Bún tàu"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Hành tím băm nhuyễn",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre00355",
+    "ingre01419",
+    "ingre01079",
+    "ingre04930",
+    "ingre02775",
+    "ingre02702",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Bún tàu",
+    "Cà rốt",
+    "Chanh",
+    "Nấm mèo",
+    "Hành tím băm nhuyễn",
+    "Hành lá/ ngò rí",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Noodle",
+    "Carrot",
+    "Lemon",
+    "Mushroom",
+    "Chopped Scallion",
+    "Chives",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "bun tau",
+    "ca rot",
+    "chanh",
+    "nam meo",
+    "hanh tim bam nhuyen",
+    "hanh la ngo ri",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

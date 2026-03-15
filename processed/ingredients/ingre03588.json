@@ -1,0 +1,25 @@
+{
+  "id": "ingre03588",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03588.json",
+  "name_vi": "lòng đỏ trứng muối (gần 3 quả)",
+  "name_en": "Pickled Egg Yolk (about 3 pieces)",
+  "name_normalized": "long do trung muoi gan 3 qua",
+  "synonyms": [
+    "trứng muối đỏ"
+  ],
+  "synonyms_normalized": [
+    "trung muoi do"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "long do trung muoi (gan 3 qua)",
+      "new": "long do trung muoi gan 3 qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

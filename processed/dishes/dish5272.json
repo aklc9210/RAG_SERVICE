@@ -1,0 +1,84 @@
+{
+  "id": "dish5272",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5272.json",
+  "name_vi": "Mì ý (spaghetti) gạo lứt",
+  "name_en": "",
+  "name_normalized": "mi y spaghetti gao lut",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì gạo lứt",
+    "Thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cà chua",
+    "Dầu oliu",
+    "Lá Basil"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03967",
+    "ingre06244",
+    "ingre07063",
+    "ingre02741",
+    "ingre01354",
+    "ingre02104",
+    "ingre03814",
+    "ingre03359"
+  ],
+  "ingredient_names_vi": [
+    "Mì gạo lứt",
+    "Thăn bò",
+    "Tỏi",
+    "Hành tây",
+    "Cà chua",
+    "Dầu oliu",
+    "Muối/ tiêu",
+    "Lá Basil"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice Noodles",
+    "Beef tenderloin",
+    "Garlic",
+    "Onion",
+    "Tomato",
+    "Olive oil",
+    "Salt/Pepper",
+    "Basil"
+  ],
+  "ingredient_names_normalized": [
+    "mi gao lut",
+    "than bo",
+    "toi",
+    "hanh tay",
+    "ca chua",
+    "dau oliu",
+    "muoi tieu",
+    "la basil"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi y (spaghetti) gao lut",
+      "new": "mi y spaghetti gao lut",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

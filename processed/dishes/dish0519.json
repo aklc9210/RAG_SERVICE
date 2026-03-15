@@ -1,0 +1,115 @@
+{
+  "id": "dish0519",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0519.json",
+  "name_vi": "Canh chua cá lóc",
+  "name_en": "",
+  "name_normalized": "canh chua ca loc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá lóc",
+    "Thơm",
+    "Cà chua",
+    "Đậu bắp"
+  ],
+  "secondary_ingredients": [
+    "Bạc hà",
+    "Me vắt",
+    "Giá đỗ",
+    "Ngò gai",
+    "Rau ngổ"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre06247",
+    "ingre01354",
+    "ingre07729",
+    "ingre00430",
+    "ingre03663",
+    "ingre02337",
+    "ingre04329",
+    "ingre05336",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Thơm",
+    "Cà chua",
+    "Đậu bắp",
+    "Bạc hà",
+    "Me vắt",
+    "Giá đỗ",
+    "Ngò gai",
+    "Rau ngổ",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Basil",
+    "Tomato",
+    "Green beans",
+    "Mint",
+    "Lemon juice",
+    "Bean sprouts",
+    "Culantro",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "thom",
+    "ca chua",
+    "dau bap",
+    "bac ha",
+    "me vat",
+    "gia do",
+    "ngo gai",
+    "rau ngo",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    }
+  ]
+}

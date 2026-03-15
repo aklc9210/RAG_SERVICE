@@ -1,0 +1,62 @@
+{
+  "id": "dish0528",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0528.json",
+  "name_vi": "Hầm chim bồ câu với ngải cứu",
+  "name_en": "",
+  "name_normalized": "ham chim bo cau voi ngai cuu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Chim bồ câu"
+  ],
+  "secondary_ingredients": [
+    "Rau ngải cứu",
+    "Hạt sen tươi",
+    "Táo đỏ"
+  ],
+  "seasonings": [
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01124",
+    "ingre05335",
+    "ingre03032",
+    "ingre06911",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Chim bồ câu",
+    "Rau ngải cứu",
+    "Hạt sen tươi",
+    "Táo đỏ",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Chinese Parsley Leaf",
+    "Fresh lotus seeds",
+    "Red apple",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "chim bo cau",
+    "rau ngai cuu",
+    "hat sen tuoi",
+    "tao do",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre05351",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05351.json",
+  "name_vi": "rau om/ ớt/ hành lá/ thì là",
+  "name_en": "Basil/Paprika/Cilantro/Thyme",
+  "name_normalized": "rau om ot hanh la thi la",
+  "synonyms": [
+    "ớt chuông",
+    "ớt xanh",
+    "ớt đỏ"
+  ],
+  "synonyms_normalized": [
+    "ot chuong",
+    "ot xanh",
+    "ot do"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau om/ ot/ hanh la/ thi la",
+      "new": "rau om ot hanh la thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

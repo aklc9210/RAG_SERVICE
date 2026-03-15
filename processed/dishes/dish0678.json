@@ -1,0 +1,71 @@
+{
+  "id": "dish0678",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0678.json",
+  "name_vi": "Canh xà lách xoong thịt băm",
+  "name_en": "",
+  "name_normalized": "canh xa lach xoong thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xà lách xoong",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hành tím băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07370",
+    "ingre06398",
+    "ingre02774",
+    "ingre04694",
+    "ingre02124",
+    "ingre00587",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Xà lách xoong",
+    "Thịt heo",
+    "Hành tím băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột canh",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Spring onion",
+    "Pork",
+    "Chopped Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Cornstarch",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "xa lach xoong",
+    "thit heo",
+    "hanh tim bam",
+    "nuoc mam",
+    "dau an",
+    "bot canh",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

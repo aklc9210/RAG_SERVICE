@@ -1,0 +1,27 @@
+{
+  "id": "ingre04197",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04197.json",
+  "name_vi": "mỡ heo/ dầu ăn",
+  "name_en": "Pork fat/Oil",
+  "name_normalized": "mo heo dau an",
+  "synonyms": [
+    "dầu thầu dầu",
+    "dầu ăn chay"
+  ],
+  "synonyms_normalized": [
+    "dau thau dau",
+    "dau an chay"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mo heo/ dau an",
+      "new": "mo heo dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

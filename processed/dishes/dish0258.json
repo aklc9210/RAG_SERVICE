@@ -1,0 +1,71 @@
+{
+  "id": "dish0258",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0258.json",
+  "name_vi": "Canh rau bí nấu cà chua",
+  "name_en": "",
+  "name_normalized": "canh rau bi nau ca chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau bí",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05203",
+    "ingre01354",
+    "ingre07063",
+    "ingre02124",
+    "ingre02995",
+    "ingre04694",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Rau bí",
+    "Cà chua",
+    "Tỏi",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Winter squash",
+    "Tomato",
+    "Garlic",
+    "Cooking oil",
+    "Seasoning",
+    "Fish Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "rau bi",
+    "ca chua",
+    "toi",
+    "dau an",
+    "hat nem",
+    "nuoc mam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish4083",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4083.json",
+  "name_vi": "Nầm heo nướng sa tế",
+  "name_en": "",
+  "name_normalized": "nam heo nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Nầm heo",
+    "Cà tím",
+    "Đậu bắp"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Mật ong",
+    "Hạt điều màu"
+  ],
+  "seasonings": [
+    "Hành tím khô",
+    "Tỏi",
+    "Ớt tươi",
+    "Tương ớt",
+    "Ớt bột"
+  ],
+  "ingredient_ids": [
+    "ingre04979",
+    "ingre01444",
+    "ingre07729",
+    "ingre05900",
+    "ingre02783",
+    "ingre07063",
+    "ingre08078",
+    "ingre04124",
+    "ingre07028",
+    "ingre07977",
+    "ingre03065"
+  ],
+  "ingredient_names_vi": [
+    "Nầm heo",
+    "Cà tím",
+    "Đậu bắp",
+    "Sả",
+    "Hành tím khô",
+    "Tỏi",
+    "Ớt tươi",
+    "Mật ong",
+    "Tương ớt",
+    "Ớt bột",
+    "Hạt điều màu"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Purple cabbage",
+    "Green beans",
+    "Lemongrass",
+    "Dry Shallot",
+    "Garlic",
+    "Fresh chili",
+    "Honey",
+    "Hot Sauce",
+    "Chili powder",
+    "Caramelized Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "nam heo",
+    "ca tim",
+    "dau bap",
+    "sa",
+    "hanh tim kho",
+    "toi",
+    "ot tuoi",
+    "mat ong",
+    "tuong ot",
+    "ot bot",
+    "hat dieu mau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "dish8045",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8045.json",
+  "name_vi": "Gỏi vịt rau răm chuối xanh (gỏi vịt bóp thấu)",
+  "name_en": "",
+  "name_normalized": "goi vit rau ram chuoi xanh goi vit bop thau",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Vịt",
+    "Chuối xanh",
+    "Đậu phộng rang",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Sả cây",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Chanh",
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre01191",
+    "ingre07791",
+    "ingre05359",
+    "ingre01419",
+    "ingre05902",
+    "ingre07966",
+    "ingre01079",
+    "ingre02485",
+    "ingre07063",
+    "ingre05574",
+    "ingre04665",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Chuối xanh",
+    "Đậu phộng rang",
+    "Rau răm",
+    "Cà rốt",
+    "Sả cây",
+    "Ớt",
+    "Chanh",
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Nước lọc",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Green banana",
+    "Roasted Peanut",
+    "Vietnamese coriander",
+    "Carrot",
+    "Lemongrass",
+    "Pepper",
+    "Lemon",
+    "Ginger",
+    "Garlic",
+    "White wine",
+    "Tap water",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "chuoi xanh",
+    "dau phong rang",
+    "rau ram",
+    "ca rot",
+    "sa cay",
+    "ot",
+    "chanh",
+    "gung",
+    "toi",
+    "ruou trang",
+    "nuoc loc",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi vit rau ram chuoi xanh (goi vit bop thau)",
+      "new": "goi vit rau ram chuoi xanh goi vit bop thau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

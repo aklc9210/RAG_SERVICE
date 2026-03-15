@@ -1,0 +1,87 @@
+{
+  "id": "dish1211",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1211.json",
+  "name_vi": "Bánh bò rễ tre khoai lang tím",
+  "name_en": "",
+  "name_normalized": "banh bo re tre khoai lang tim",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tinh chất khoai lang tím",
+    "Dầu dừa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bột gạo",
+    "Bột vani",
+    "Baking powder (Bột nở)",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre00668",
+    "ingre00983",
+    "ingre00014",
+    "ingre06584",
+    "ingre06823",
+    "ingre02067",
+    "ingre04554",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Bột gạo",
+    "Bột vani",
+    "Baking powder (Bột nở)",
+    "Tinh chất khoai lang tím",
+    "Trứng gà",
+    "Dầu dừa",
+    "Nước cốt dừa",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Rice flour",
+    "Vanilla powder",
+    "Baking Powder",
+    "Purple Potato Extract",
+    "Chicken egg",
+    "Coconut oil",
+    "Coconut milk",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "bot gao",
+    "bot vani",
+    "baking powder bot no",
+    "tinh chat khoai lang tim",
+    "trung ga",
+    "dau dua",
+    "nuoc cot dua",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking powder (bot no)",
+      "new": "baking powder bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking powder (Bột nở)"
+    }
+  ]
+}

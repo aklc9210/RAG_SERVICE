@@ -1,0 +1,92 @@
+{
+  "id": "dish5447",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5447.json",
+  "name_vi": "Bánh đa xào hải sản",
+  "name_en": "",
+  "name_normalized": "banh da xao hai san",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bánh đa đỏ",
+    "Tôm sú",
+    "Mực tươi"
+  ],
+  "secondary_ingredients": [
+    "Cần nước"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước tương",
+    "Sa tế",
+    "Hạt nêm/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00225",
+    "ingre06953",
+    "ingre04278",
+    "ingre01419",
+    "ingre01807",
+    "ingre02774",
+    "ingre07071",
+    "ingre04790",
+    "ingre05621",
+    "ingre03011",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa đỏ",
+    "Tôm sú",
+    "Mực tươi",
+    "Cà rốt",
+    "Cần nước",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước tương",
+    "Sa tế",
+    "Hạt nêm/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Red vermicelli",
+    "Shrimp",
+    "Fresh squid",
+    "Carrot",
+    "Watercress",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Soy Sauce",
+    "Fish sauce",
+    "Seasoning/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "banh da do",
+    "tom su",
+    "muc tuoi",
+    "ca rot",
+    "can nuoc",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc tuong",
+    "sa te",
+    "hat nem tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu",
+      "new": "hat nem tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu"
+    }
+  ]
+}

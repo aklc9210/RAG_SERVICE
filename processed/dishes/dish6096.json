@@ -1,0 +1,96 @@
+{
+  "id": "dish6096",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6096.json",
+  "name_vi": "Tôm rang muối ớt, tỏi",
+  "name_en": "",
+  "name_normalized": "tom rang muoi ot toi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tôm sú",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Rau xà lách",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Tỏi",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06953",
+    "ingre08097",
+    "ingre00367",
+    "ingre02020",
+    "ingre05410",
+    "ingre07063",
+    "ingre05302",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Tôm sú",
+    "Ớt đỏ",
+    "Bơ",
+    "Dưa leo",
+    "Rau xà lách",
+    "Tỏi",
+    "Rau mùi",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Red pepper",
+    "Butter",
+    "Cucumber",
+    "lettuce",
+    "Garlic",
+    "Mint",
+    "Cooking oil",
+    "MSG",
+    "Seasoning",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tom su",
+    "ot do",
+    "bo",
+    "dua leo",
+    "rau xa lach",
+    "toi",
+    "rau mui",
+    "dau an",
+    "bot ngot",
+    "hat nem",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tom rang muoi ot, toi",
+      "new": "tom rang muoi ot toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

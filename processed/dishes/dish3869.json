@@ -1,0 +1,83 @@
+{
+  "id": "dish3869",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3869.json",
+  "name_vi": "Gà nướng sầu riêng",
+  "name_en": "",
+  "name_normalized": "ga nuong sau rieng",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Thịt sầu riêng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Tiêu",
+    "Dầu ăn",
+    "Tương ớt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre06492",
+    "ingre07063",
+    "ingre02768",
+    "ingre04790",
+    "ingre06612",
+    "ingre02124",
+    "ingre07028",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Thịt sầu riêng",
+    "Tỏi",
+    "Hành tím",
+    "Nước tương",
+    "Tiêu",
+    "Dầu ăn",
+    "Tương ớt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Sundried Meat",
+    "Garlic",
+    "Shallot",
+    "Soy Sauce",
+    "Pepper",
+    "Cooking oil",
+    "Hot Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "thit sau rieng",
+    "toi",
+    "hanh tim",
+    "nuoc tuong",
+    "tieu",
+    "dau an",
+    "tuong ot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

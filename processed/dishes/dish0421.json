@@ -1,0 +1,67 @@
+{
+  "id": "dish0421",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0421.json",
+  "name_vi": "Canh sâm tươi với sườn",
+  "name_en": "",
+  "name_normalized": "canh sam tuoi voi suon",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn heo"
+  ],
+  "secondary_ingredients": [
+    "Sâm tươi",
+    "Kỷ tử",
+    "Táo đỏ",
+    "Ngò"
+  ],
+  "seasonings": [
+    "Muối/ Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre05813",
+    "ingre03334",
+    "ingre06911",
+    "ingre04326",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Sâm tươi",
+    "Kỷ tử",
+    "Táo đỏ",
+    "Ngò",
+    "Muối/ Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Ginseng",
+    "Goji berries",
+    "Red apple",
+    "Cilantro",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "sam tuoi",
+    "ky tu",
+    "tao do",
+    "ngo",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Hạt nêm"
+    }
+  ]
+}

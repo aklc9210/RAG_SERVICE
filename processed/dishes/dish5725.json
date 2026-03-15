@@ -1,0 +1,114 @@
+{
+  "id": "dish5725",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5725.json",
+  "name_vi": "Cá nục tươi kho sả ớt",
+  "name_en": "",
+  "name_normalized": "ca nuc tuoi kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Rau răm",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre05359",
+    "ingre05900",
+    "ingre07966",
+    "ingre02768",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Rau răm",
+    "Sả",
+    "Ớt",
+    "Hành tím",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Vietnamese coriander",
+    "Lemongrass",
+    "Pepper",
+    "Shallot",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "rau ram",
+    "sa",
+    "ot",
+    "hanh tim",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

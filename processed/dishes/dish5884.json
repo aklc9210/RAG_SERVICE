@@ -1,0 +1,62 @@
+{
+  "id": "dish5884",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5884.json",
+  "name_vi": "Sườn rim sữa",
+  "name_en": "",
+  "name_normalized": "suon rim sua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn heo"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Nước mắm",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre06174",
+    "ingre02774",
+    "ingre04694",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Sữa đặc",
+    "Hành tím băm",
+    "Nước mắm",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Sweetened Condensed Milk",
+    "Chopped Scallion",
+    "Fish Sauce",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "sua dac",
+    "hanh tim bam",
+    "nuoc mam",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

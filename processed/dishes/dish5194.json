@@ -1,0 +1,77 @@
+{
+  "id": "dish5194",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5194.json",
+  "name_vi": "Mì ý sốt kem chay",
+  "name_en": "",
+  "name_normalized": "mi y sot kem chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì ý",
+    "Hạt điều bóc vỏ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hương thảo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Men dinh dưỡng",
+    "Nước cốt chanh",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04019",
+    "ingre03064",
+    "ingre02741",
+    "ingre07063",
+    "ingre03670",
+    "ingre02881",
+    "ingre04538",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Mì ý",
+    "Hạt điều bóc vỏ",
+    "Hành tây",
+    "Tỏi",
+    "Men dinh dưỡng",
+    "Hương thảo",
+    "Nước cốt chanh",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Spaghetti",
+    "Peeled Peanut",
+    "Onion",
+    "Garlic",
+    "Nutritional yeast",
+    "Mint",
+    "Lemon juice",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi y",
+    "hat dieu boc vo",
+    "hanh tay",
+    "toi",
+    "men dinh duong",
+    "huong thao",
+    "nuoc cot chanh",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

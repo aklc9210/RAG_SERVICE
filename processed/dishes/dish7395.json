@@ -1,0 +1,92 @@
+{
+  "id": "dish7395",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7395.json",
+  "name_vi": "Cá hồi cuộn gạo lứt áp chảo",
+  "name_en": "",
+  "name_normalized": "ca hoi cuon gao lut ap chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Gạo lứt",
+    "Cá hồi phi lê",
+    "Đậu Hà Lan"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Dầu ô-liu",
+    "Xà lách",
+    "Bí ngòi vàng",
+    "Nước"
+  ],
+  "seasonings": [
+    "Muối",
+    "Giấm balsamic",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre02442",
+    "ingre01529",
+    "ingre07736",
+    "ingre03746",
+    "ingre02356",
+    "ingre04124",
+    "ingre07063",
+    "ingre02122",
+    "ingre07351",
+    "ingre00238",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Gạo lứt",
+    "Cá hồi phi lê",
+    "Đậu Hà Lan",
+    "Muối",
+    "Giấm balsamic",
+    "Mật ong",
+    "Tỏi",
+    "Dầu ô-liu",
+    "Xà lách",
+    "Bí ngòi vàng",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice",
+    "Salmon Fillet",
+    "Green beans",
+    "Salt",
+    "Balsamic vinegar",
+    "Honey",
+    "Garlic",
+    "Olive oil",
+    "Lettuce",
+    "Yellow Yardlong Squash",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "gao lut",
+    "ca hoi phi le",
+    "dau ha lan",
+    "muoi",
+    "giam balsamic",
+    "mat ong",
+    "toi",
+    "dau o liu",
+    "xa lach",
+    "bi ngoi vang",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau o-liu",
+      "new": "dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ô-liu"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "dish4278",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4278.json",
+  "name_vi": "Cá bơn nướng sả ớt",
+  "name_en": "",
+  "name_normalized": "ca bon nuong sa ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá bơn"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01475",
+    "ingre05900",
+    "ingre07966",
+    "ingre03385",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Cá bơn",
+    "Sả",
+    "Ớt",
+    "Lá chuối",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Lemongrass",
+    "Pepper",
+    "Banana leaf",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca bon",
+    "sa",
+    "ot",
+    "la chuoi",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07304",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07304.json",
+  "name_vi": "vừng trắng rang chín.",
+  "name_en": "Toasted White Sesame",
+  "name_normalized": "vung trang rang chin",
+  "synonyms": [
+    "bột mì",
+    "lạc",
+    "đậu phộng rang"
+  ],
+  "synonyms_normalized": [
+    "bot mi",
+    "lac",
+    "dau phong rang"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "vung trang rang chin.",
+      "new": "vung trang rang chin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

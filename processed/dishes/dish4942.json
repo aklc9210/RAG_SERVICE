@@ -1,0 +1,63 @@
+{
+  "id": "dish4942",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4942.json",
+  "name_vi": "Lòng gà xào rau cải",
+  "name_en": "",
+  "name_normalized": "long ga xao rau cai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Gừng",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre03571",
+    "ingre01787",
+    "ingre02485",
+    "ingre02768",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Lòng gà",
+    "Cải ngọt",
+    "Gừng",
+    "Hành tím",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Chicken liver",
+    "Sweet cabbage",
+    "Ginger",
+    "Shallot",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "long ga",
+    "cai ngot",
+    "gung",
+    "hanh tim",
+    "dau hao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

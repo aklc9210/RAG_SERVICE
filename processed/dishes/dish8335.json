@@ -1,0 +1,112 @@
+{
+  "id": "dish8335",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8335.json",
+  "name_vi": "Nộm tai heo hoa chuối",
+  "name_en": "",
+  "name_normalized": "nom tai heo hoa chuoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Hoa chuối",
+    "Lạc rang"
+  ],
+  "secondary_ingredients": [
+    "Húng bạc hà",
+    "Rau mùi",
+    "Giá đỗ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre02575",
+    "ingre03609",
+    "ingre01419",
+    "ingre02855",
+    "ingre05302",
+    "ingre07063",
+    "ingre07966",
+    "ingre02337",
+    "ingre02768",
+    "ingre04694",
+    "ingre02355",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Hoa chuối",
+    "Lạc rang",
+    "Cà rốt",
+    "Húng bạc hà",
+    "Rau mùi",
+    "Tỏi",
+    "Ớt",
+    "Giá đỗ",
+    "Hành tím",
+    "Nước mắm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Banana flower",
+    "Roasted Peanut",
+    "Carrot",
+    "Mint",
+    "Garlic",
+    "Pepper",
+    "Bean sprouts",
+    "Shallot",
+    "Fish Sauce",
+    "Vinegar",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "hoa chuoi",
+    "lac rang",
+    "ca rot",
+    "hung bac ha",
+    "rau mui",
+    "toi",
+    "ot",
+    "gia do",
+    "hanh tim",
+    "nuoc mam",
+    "giam",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

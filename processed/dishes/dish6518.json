@@ -1,0 +1,121 @@
+{
+  "id": "dish6518",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6518.json",
+  "name_vi": "Thịt bò chiên xù kiểu Thái",
+  "name_en": "",
+  "name_normalized": "thit bo chien xu kieu thai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt bò",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Ngò",
+    "Sả",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Sốt tomyum cô đặc",
+    "Bột chiên xù",
+    "Nước cốt dừa",
+    "Tỏi",
+    "Bột chiên giòn",
+    "Tiêu",
+    "Bột năng",
+    "Bột trứng",
+    "Hạt nêm",
+    "Nước mắm",
+    "Cà rốt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre06008",
+    "ingre00609",
+    "ingre04554",
+    "ingre06247",
+    "ingre07063",
+    "ingre04326",
+    "ingre05900",
+    "ingre00598",
+    "ingre06612",
+    "ingre00849",
+    "ingre00969",
+    "ingre02995",
+    "ingre04694",
+    "ingre01419",
+    "ingre02020",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Sốt tomyum cô đặc",
+    "Bột chiên xù",
+    "Nước cốt dừa",
+    "Thơm",
+    "Tỏi",
+    "Ngò",
+    "Sả",
+    "Bột chiên giòn",
+    "Tiêu",
+    "Bột năng",
+    "Bột trứng",
+    "Hạt nêm",
+    "Nước mắm",
+    "Cà rốt",
+    "Dưa leo",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tomyum Sauce",
+    "Puffed Rice Powder",
+    "Coconut milk",
+    "Basil",
+    "Garlic",
+    "Cilantro",
+    "Lemongrass",
+    "Pepper",
+    "Cornstarch",
+    "Egg powder",
+    "Seasoning",
+    "Fish Sauce",
+    "Carrot",
+    "Cucumber",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "sot tomyum co dac",
+    "bot chien xu",
+    "nuoc cot dua",
+    "thom",
+    "toi",
+    "ngo",
+    "sa",
+    "bot chien gion",
+    "tieu",
+    "bot nang",
+    "bot trung",
+    "hat nem",
+    "nuoc mam",
+    "ca rot",
+    "dua leo",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

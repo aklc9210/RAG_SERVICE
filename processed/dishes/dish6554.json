@@ -1,0 +1,101 @@
+{
+  "id": "dish6554",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6554.json",
+  "name_vi": "Trứng chiên rau củ",
+  "name_en": "",
+  "name_normalized": "trung chien rau cu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng",
+    "Cà rốt",
+    "Cải ngọt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06801",
+    "ingre01419",
+    "ingre01787",
+    "ingre02741",
+    "ingre02768",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Trứng",
+    "Cà rốt",
+    "Cải ngọt",
+    "Hành tây",
+    "Hành tím",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Egg",
+    "Carrot",
+    "Sweet cabbage",
+    "Onion",
+    "Shallot",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung",
+    "ca rot",
+    "cai ngot",
+    "hanh tay",
+    "hanh tim",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

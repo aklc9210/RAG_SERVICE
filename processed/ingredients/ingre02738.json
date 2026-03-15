@@ -1,0 +1,25 @@
+{
+  "id": "ingre02738",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02738.json",
+  "name_vi": "hành poa – rô",
+  "name_en": "Leek",
+  "name_normalized": "hanh poa ro",
+  "synonyms": [
+    "tỏi"
+  ],
+  "synonyms_normalized": [
+    "toi"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh poa - ro",
+      "new": "hanh poa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

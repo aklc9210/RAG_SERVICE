@@ -1,0 +1,131 @@
+{
+  "id": "dish4116",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4116.json",
+  "name_vi": "Vịt quay bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "vit quay bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Hạt ngò",
+    "Đình hương",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hoa kim châm khô",
+    "Nấm mèo",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tiểu hồi",
+    "Tỏi",
+    "Rượu trắng",
+    "Gừng",
+    "Bột ngũ vị hương",
+    "Dầu hào",
+    "Hắc xì dầu",
+    "Giấm đỏ",
+    "Rượu Mai Quế Lộ",
+    "Muối; đường; bột ngọt; hạt nêm; tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre02987",
+    "ingre07547",
+    "ingre06672",
+    "ingre02768",
+    "ingre07063",
+    "ingre05574",
+    "ingre02485",
+    "ingre02591",
+    "ingre04930",
+    "ingre00815",
+    "ingre02080",
+    "ingre03084",
+    "ingre02380",
+    "ingre04124",
+    "ingre05543",
+    "ingre03834"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Hạt ngò",
+    "Đình hương",
+    "Tiểu hồi",
+    "Hành tím",
+    "Tỏi",
+    "Rượu trắng",
+    "Gừng",
+    "Hoa kim châm khô",
+    "Nấm mèo",
+    "Bột ngũ vị hương",
+    "Dầu hào",
+    "Hắc xì dầu",
+    "Giấm đỏ",
+    "Mật ong",
+    "Rượu Mai Quế Lộ",
+    "Muối; đường; bột ngọt; hạt nêm; tiêu"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Cilantro Seeds",
+    "Sage",
+    "Fennel",
+    "Shallot",
+    "Garlic",
+    "White wine",
+    "Ginger",
+    "Safflower petals dried",
+    "Mushroom",
+    "Five-Spice Powder",
+    "Soy sauce",
+    "Black soy sauce",
+    "Red vinegar",
+    "Honey",
+    "Sake Plum Ginger Wine",
+    "Salt; Sugar; Monosodium Glutamate; Seasoning Powder; Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "hat ngo",
+    "dinh huong",
+    "tieu hoi",
+    "hanh tim",
+    "toi",
+    "ruou trang",
+    "gung",
+    "hoa kim cham kho",
+    "nam meo",
+    "bot ngu vi huong",
+    "dau hao",
+    "hac xi dau",
+    "giam do",
+    "mat ong",
+    "ruou mai que lo",
+    "muoi duong bot ngot hat nem tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi; duong; bot ngot; hat nem; tieu",
+      "new": "muoi duong bot ngot hat nem tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối; đường; bột ngọt; hạt nêm; tiêu"
+    }
+  ]
+}

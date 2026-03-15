@@ -1,0 +1,88 @@
+{
+  "id": "dish0320",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0320.json",
+  "name_vi": "Cá nâu nấu ngót",
+  "name_en": "",
+  "name_normalized": "ca nau nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá nâu",
+    "Cà chua",
+    "Cần tàu"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01597",
+    "ingre01354",
+    "ingre01809",
+    "ingre02673",
+    "ingre07071",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá nâu",
+    "Cà chua",
+    "Cần tàu",
+    "Hành lá",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Brown bass",
+    "Tomato",
+    "Chinese cabbage",
+    "Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nau",
+    "ca chua",
+    "can tau",
+    "hanh la",
+    "toi bam",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

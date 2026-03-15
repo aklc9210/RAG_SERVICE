@@ -1,0 +1,76 @@
+{
+  "id": "dish8555",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8555.json",
+  "name_vi": "Óc bò hấp ngải cứu",
+  "name_en": "",
+  "name_normalized": "oc bo hap ngai cuu",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Lá ngải cứu",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sa tế",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03489",
+    "ingre02768",
+    "ingre05621",
+    "ingre04694",
+    "ingre03746",
+    "ingre06644",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lá ngải cứu",
+    "Hành tím",
+    "Sa tế",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Sage Leaf",
+    "Shallot",
+    "Fish sauce",
+    "Salt",
+    "Ground pepper",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "la ngai cuu",
+    "hanh tim",
+    "sa te",
+    "nuoc mam",
+    "muoi",
+    "tieu xay",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish9033",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9033.json",
+  "name_vi": "Chà bông thịt heo",
+  "name_en": "",
+  "name_normalized": "cha bong thit heo",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt thăn heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Quế khô",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06500",
+    "ingre02768",
+    "ingre05192",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn heo",
+    "Hành tím",
+    "Quế khô",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork tenderloin",
+    "Shallot",
+    "Cinnamon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit than heo",
+    "hanh tim",
+    "que kho",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

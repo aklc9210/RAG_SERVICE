@@ -1,0 +1,81 @@
+{
+  "id": "dish5966",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5966.json",
+  "name_vi": "Cá nục kho cay (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "ca nuc kho cay cong thuc duoc chia se tu nguoi dung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục"
+  ],
+  "secondary_ingredients": [
+    "Mật mía"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Ớt bột",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre07966",
+    "ingre07977",
+    "ingre04123",
+    "ingre04694",
+    "ingre02124",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Ớt",
+    "Ớt bột",
+    "Mật mía",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pepper",
+    "Chili powder",
+    "Molasses",
+    "Fish Sauce",
+    "Cooking oil",
+    "MSG",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "ot",
+    "ot bot",
+    "mat mia",
+    "nuoc mam",
+    "dau an",
+    "bot ngot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca nuc kho cay (cong thuc duoc chia se tu nguoi dung)",
+      "new": "ca nuc kho cay cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

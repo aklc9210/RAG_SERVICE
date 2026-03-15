@@ -1,0 +1,112 @@
+{
+  "id": "dish3501",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3501.json",
+  "name_vi": "Bún bò viên",
+  "name_en": "",
+  "name_normalized": "bun bo vien",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún tươi",
+    "Xương heo",
+    "Bò viên",
+    "Mọc"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Cải trắng",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre07422",
+    "ingre00269",
+    "ingre04175",
+    "ingre01354",
+    "ingre01796",
+    "ingre02774",
+    "ingre02702",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Xương heo",
+    "Bò viên",
+    "Mọc",
+    "Cà chua",
+    "Cải trắng",
+    "Hành tím băm",
+    "Hành lá/ ngò rí",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Pork bone",
+    "Beef丸子",
+    "Herb",
+    "Tomato",
+    "Cabbage",
+    "Chopped Scallion",
+    "Chives",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "xuong heo",
+    "bo vien",
+    "moc",
+    "ca chua",
+    "cai trang",
+    "hanh tim bam",
+    "hanh la ngo ri",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "dish6603",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6603.json",
+  "name_vi": "Ức gà áp chảo sốt chanh",
+  "name_en": "",
+  "name_normalized": "uc ga ap chao sot chanh",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà",
+    "Cà chua",
+    "Hành tây",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Gừng",
+    "Tỏi",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu hào",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre01354",
+    "ingre02741",
+    "ingre05900",
+    "ingre08055",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre03746",
+    "ingre06612",
+    "ingre02124",
+    "ingre02995",
+    "ingre00819",
+    "ingre02080",
+    "ingre01079",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Cà chua",
+    "Hành tây",
+    "Sả",
+    "Ớt sừng",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu hào",
+    "Chanh",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Tomato",
+    "Onion",
+    "Lemongrass",
+    "Hot pepper",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Salt",
+    "Pepper",
+    "Cooking oil",
+    "Seasoning",
+    "MSG",
+    "Soy sauce",
+    "Lemon",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "ca chua",
+    "hanh tay",
+    "sa",
+    "ot sung",
+    "gung",
+    "hanh tim",
+    "toi",
+    "muoi",
+    "tieu",
+    "dau an",
+    "hat nem",
+    "bot ngot",
+    "dau hao",
+    "chanh",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre03819",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03819.json",
+  "name_vi": "muối/ đường cát",
+  "name_en": "Salt/Granulated Sugar",
+  "name_normalized": "muoi duong cat",
+  "synonyms": [
+    "đường"
+  ],
+  "synonyms_normalized": [
+    "duong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ duong cat",
+      "new": "muoi duong cat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

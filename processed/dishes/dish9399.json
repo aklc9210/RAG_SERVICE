@@ -1,0 +1,75 @@
+{
+  "id": "dish9399",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9399.json",
+  "name_vi": "Dưa món không phơi nắng",
+  "name_en": "",
+  "name_normalized": "dua mon khong phoi nang",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Su hào",
+    "Hành"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt nhỏ",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01868",
+    "ingre01419",
+    "ingre05787",
+    "ingre02636",
+    "ingre07063",
+    "ingre08049",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Củ cải trắng",
+    "Cà rốt",
+    "Su hào",
+    "Hành",
+    "Tỏi",
+    "Ớt nhỏ",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "White radish",
+    "Carrot",
+    "Garlic",
+    "Chili Pepper",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "cu cai trang",
+    "ca rot",
+    "su hao",
+    "hanh",
+    "toi",
+    "ot nho",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

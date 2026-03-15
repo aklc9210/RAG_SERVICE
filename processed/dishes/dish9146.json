@@ -1,0 +1,103 @@
+{
+  "id": "dish9146",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9146.json",
+  "name_vi": "Cách làm tokbokki từ bột nếp",
+  "name_en": "",
+  "name_normalized": "cach lam tokbokki tu bot nep",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cà chua",
+    "Hành lá",
+    "Mè trắng rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Bột mì",
+    "Bột năng",
+    "Tương ớt",
+    "Tương cà",
+    "Bột ớt Hàn Quốc",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00848",
+    "ingre00314",
+    "ingre00326",
+    "ingre01354",
+    "ingre02673",
+    "ingre07025",
+    "ingre03936",
+    "ingre06982",
+    "ingre00337",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre01991"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Bột mì",
+    "Bột năng",
+    "Cà chua",
+    "Hành lá",
+    "Tương ớt",
+    "Mè trắng rang",
+    "Tương cà",
+    "Bột ớt Hàn Quốc",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Wheat Flour",
+    "Cornstarch",
+    "Tomato",
+    "Scallion",
+    "Hot Sauce",
+    "Roasted White Sesame",
+    "Miso酱",
+    "Korean Chili Powder",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "bot mi",
+    "bot nang",
+    "ca chua",
+    "hanh la",
+    "tuong ot",
+    "me trang rang",
+    "tuong ca",
+    "bot ot han quoc",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

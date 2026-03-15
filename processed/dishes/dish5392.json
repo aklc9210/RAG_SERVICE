@@ -1,0 +1,79 @@
+{
+  "id": "dish5392",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5392.json",
+  "name_vi": "Chà bông (ruốc) cá ngừ",
+  "name_en": "",
+  "name_normalized": "cha bong ruoc ca ngu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cá ngừ"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Gừng",
+    "Tiêu",
+    "Chanh",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01579",
+    "ingre04694",
+    "ingre05900",
+    "ingre02485",
+    "ingre06612",
+    "ingre01079",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngừ",
+    "Nước mắm",
+    "Sả",
+    "Gừng",
+    "Tiêu",
+    "Chanh",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tuna",
+    "Fish Sauce",
+    "Lemongrass",
+    "Ginger",
+    "Pepper",
+    "Lemon",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngu",
+    "nuoc mam",
+    "sa",
+    "gung",
+    "tieu",
+    "chanh",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha bong (ruoc) ca ngu",
+      "new": "cha bong ruoc ca ngu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

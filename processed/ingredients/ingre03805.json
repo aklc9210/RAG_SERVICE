@@ -1,0 +1,27 @@
+{
+  "id": "ingre03805",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03805.json",
+  "name_vi": "muối/ bột canh",
+  "name_en": "Salt/Soup Powder",
+  "name_normalized": "muoi bot canh",
+  "synonyms": [
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ bot canh",
+      "new": "muoi bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish2356",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2356.json",
+  "name_vi": "Bánh cake pop",
+  "name_en": "",
+  "name_normalized": "banh cake pop",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh bông lan",
+    "Kem phô mai",
+    "Chocolate đen"
+  ],
+  "secondary_ingredients": [
+    "Chocolate trắng",
+    "Kẹo M&M",
+    "Màu thực phẩm",
+    "Bánh oreo lớn",
+    "Bánh oreo nhỏ",
+    "Bánh quy"
+  ],
+  "seasonings": [
+    "Bột trà xanh"
+  ],
+  "ingredient_ids": [
+    "ingre00065",
+    "ingre03137",
+    "ingre01153",
+    "ingre01150",
+    "ingre03313",
+    "ingre00961",
+    "ingre03865",
+    "ingre00129",
+    "ingre00131",
+    "ingre00144"
+  ],
+  "ingredient_names_vi": [
+    "Bánh bông lan",
+    "Kem phô mai",
+    "Chocolate đen",
+    "Chocolate trắng",
+    "Kẹo M&M",
+    "Bột trà xanh",
+    "Màu thực phẩm",
+    "Bánh oreo lớn",
+    "Bánh oreo nhỏ",
+    "Bánh quy"
+  ],
+  "ingredient_names_en": [
+    "Cake",
+    "Cottage Cheese",
+    "Dark chocolate",
+    "White chocolate",
+    "M&M Candy",
+    "Green tea powder",
+    "Food coloring",
+    "Oreo cookie",
+    "Oreo cookie chunks",
+    "Cookie"
+  ],
+  "ingredient_names_normalized": [
+    "banh bong lan",
+    "kem pho mai",
+    "chocolate den",
+    "chocolate trang",
+    "keo m m",
+    "bot tra xanh",
+    "mau thuc pham",
+    "banh oreo lon",
+    "banh oreo nho",
+    "banh quy"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "keo m&m",
+      "new": "keo m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kẹo M&M"
+    }
+  ]
+}

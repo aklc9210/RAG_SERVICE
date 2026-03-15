@@ -1,0 +1,80 @@
+{
+  "id": "dish5536",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5536.json",
+  "name_vi": "Thịt bê xào sả ớt",
+  "name_en": "",
+  "name_normalized": "thit be xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bê",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt chuông đỏ",
+    "Tỏi",
+    "Bột ngọt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Sa tế",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06298",
+    "ingre05900",
+    "ingre08014",
+    "ingre07063",
+    "ingre00819",
+    "ingre04694",
+    "ingre02995",
+    "ingre05621",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bê",
+    "Sả",
+    "Ớt chuông đỏ",
+    "Tỏi",
+    "Bột ngọt",
+    "Nước mắm",
+    "Hạt nêm",
+    "Sa tế",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lemongrass",
+    "Red bell pepper",
+    "Garlic",
+    "MSG",
+    "Fish Sauce",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit be",
+    "sa",
+    "ot chuong do",
+    "toi",
+    "bot ngot",
+    "nuoc mam",
+    "hat nem",
+    "sa te",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

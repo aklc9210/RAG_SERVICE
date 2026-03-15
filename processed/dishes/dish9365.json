@@ -1,0 +1,46 @@
+{
+  "id": "dish9365",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9365.json",
+  "name_vi": "Trà sả tươi",
+  "name_en": "",
+  "name_normalized": "tra sa tuoi",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Sả",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre05900",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Sả",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Lemongrass",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "sa",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

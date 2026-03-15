@@ -1,0 +1,66 @@
+{
+  "id": "dish7136",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7136.json",
+  "name_vi": "Da cá hồi chiên giòn",
+  "name_en": "",
+  "name_normalized": "da ca hoi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Da cá hồi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bắp",
+    "Gừng",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01933",
+    "ingre00564",
+    "ingre02485",
+    "ingre05574",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Da cá hồi",
+    "Bột bắp",
+    "Gừng",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Salmon skin",
+    "Corn starch",
+    "Ginger",
+    "White wine",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "da ca hoi",
+    "bot bap",
+    "gung",
+    "ruou trang",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

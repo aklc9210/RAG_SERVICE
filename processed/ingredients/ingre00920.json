@@ -1,0 +1,25 @@
+{
+  "id": "ingre00920",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00920.json",
+  "name_vi": "bột sư tử (custard powder)",
+  "name_en": "Custard Powder",
+  "name_normalized": "bot su tu custard powder",
+  "synonyms": [
+    "bột bơ新浪财经报道，中国央行行长易纲在2019年1月的达沃斯世界经济论坛上表示，中国的货币政策将保持稳健，并强调了金融稳定的重要性。这表明中国央行将继续关注经济增长和金融"
+  ],
+  "synonyms_normalized": [
+    "bot bo 2019 1"
+  ],
+  "category": "cakes",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot su tu (custard powder)",
+      "new": "bot su tu custard powder",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

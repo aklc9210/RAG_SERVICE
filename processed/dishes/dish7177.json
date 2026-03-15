@@ -1,0 +1,78 @@
+{
+  "id": "dish7177",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7177.json",
+  "name_vi": "Càng cúm rang muối",
+  "name_en": "",
+  "name_normalized": "cang cum rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Càng cúm",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01450",
+    "ingre06941",
+    "ingre07071",
+    "ingre02124",
+    "ingre05359",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Càng cúm",
+    "Tôm khô",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Rau răm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Scallops",
+    "Dried Shrimp",
+    "Minced Garlic",
+    "Cooking oil",
+    "Vietnamese coriander",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "cang cum",
+    "tom kho",
+    "toi bam",
+    "dau an",
+    "rau ram",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "dish6116",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6116.json",
+  "name_vi": "Cà ri gà khoai môn",
+  "name_en": "",
+  "name_normalized": "ca ri ga khoai mon",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Gà",
+    "Khoai môn",
+    "Khoai lang",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau ngò",
+    "Sả",
+    "Dầu cà ri"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Tỏi phi",
+    "Hành tím băm",
+    "Nước cốt dừa",
+    "Nước cốt dừa loãng",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03208",
+    "ingre03186",
+    "ingre01419",
+    "ingre02741",
+    "ingre05321",
+    "ingre05900",
+    "ingre07966",
+    "ingre07096",
+    "ingre02774",
+    "ingre04554",
+    "ingre04561",
+    "ingre02061",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Khoai môn",
+    "Khoai lang",
+    "Cà rốt",
+    "Hành tây",
+    "Rau ngò",
+    "Sả",
+    "Ớt",
+    "Tỏi phi",
+    "Hành tím băm",
+    "Nước cốt dừa",
+    "Nước cốt dừa loãng",
+    "Dầu cà ri",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Yam",
+    "Sweet Potato",
+    "Carrot",
+    "Onion",
+    "Culantro",
+    "Lemongrass",
+    "Pepper",
+    "Garlic flakes",
+    "Chopped Scallion",
+    "Coconut milk",
+    "Thin coconut milk",
+    "Curry oil",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "khoai mon",
+    "khoai lang",
+    "ca rot",
+    "hanh tay",
+    "rau ngo",
+    "sa",
+    "ot",
+    "toi phi",
+    "hanh tim bam",
+    "nuoc cot dua",
+    "nuoc cot dua loang",
+    "dau ca ri",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

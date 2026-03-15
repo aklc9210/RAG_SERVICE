@@ -1,0 +1,66 @@
+{
+  "id": "dish3620",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3620.json",
+  "name_vi": "Kem phô mai - cheese ice cream",
+  "name_en": "",
+  "name_normalized": "kem pho mai cheese ice cream",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Kem tươi đa dụng"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Cheddar"
+  ],
+  "seasonings": [
+    "Sữa đặc không đường",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03168",
+    "ingre05064",
+    "ingre06178",
+    "ingre06147",
+    "ingre06823",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Kem tươi đa dụng",
+    "Phô mai Cheddar",
+    "Sữa đặc không đường",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Milk Cream",
+    "Cheddar cheese",
+    "Sweetened Condensed Milk",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kem tuoi da dung",
+    "pho mai cheddar",
+    "sua dac khong duong",
+    "sua tuoi khong duong",
+    "trung ga",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem pho mai - cheese ice cream",
+      "new": "kem pho mai cheese ice cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

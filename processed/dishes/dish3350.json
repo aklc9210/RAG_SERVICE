@@ -1,0 +1,129 @@
+{
+  "id": "dish3350",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3350.json",
+  "name_vi": "Bún nạm bò",
+  "name_en": "",
+  "name_normalized": "bun nam bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún bò sợi",
+    "Nạm bò",
+    "Chả bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau ăn kèm",
+    "Ngò gai",
+    "Dầu điều màu"
+  ],
+  "seasonings": [
+    "Mắm ruốc",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00339",
+    "ingre04889",
+    "ingre01258",
+    "ingre05900",
+    "ingre02673",
+    "ingre05420",
+    "ingre04329",
+    "ingre04151",
+    "ingre04694",
+    "ingre02135",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bún bò sợi",
+    "Nạm bò",
+    "Chả bò",
+    "Sả",
+    "Hành lá",
+    "Rau ăn kèm",
+    "Ngò gai",
+    "Mắm ruốc",
+    "Nước mắm",
+    "Dầu điều màu",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Bun Bo Strands",
+    "Beef mince",
+    "Beef sausage",
+    "Lemongrass",
+    "Scallion",
+    "Side vegetable",
+    "Culantro",
+    "Shrimp paste",
+    "Fish Sauce",
+    "Red food coloring",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bun bo soi",
+    "nam bo",
+    "cha bo",
+    "sa",
+    "hanh la",
+    "rau an kem",
+    "ngo gai",
+    "mam ruoc",
+    "nuoc mam",
+    "dau dieu mau",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

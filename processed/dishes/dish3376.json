@@ -1,0 +1,93 @@
+{
+  "id": "dish3376",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3376.json",
+  "name_vi": "Mì trứng cà chua",
+  "name_en": "",
+  "name_normalized": "mi trung ca chua",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cà chua",
+    "Mì trứng"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Tương cà",
+    "Gừng băm",
+    "Dầu ăn",
+    "Nước tương",
+    "Tiêu",
+    "Đường nâu"
+  ],
+  "ingredient_ids": [
+    "ingre01354",
+    "ingre06801",
+    "ingre04001",
+    "ingre02673",
+    "ingre06984",
+    "ingre02094",
+    "ingre02492",
+    "ingre02124",
+    "ingre04790",
+    "ingre06612",
+    "ingre07628"
+  ],
+  "ingredient_names_vi": [
+    "Cà chua",
+    "Trứng",
+    "Mì trứng",
+    "Hành lá",
+    "Tương cà",
+    "Dầu mè",
+    "Gừng băm",
+    "Dầu ăn",
+    "Nước tương",
+    "Tiêu",
+    "Đường nâu"
+  ],
+  "ingredient_names_en": [
+    "Tomato",
+    "Egg",
+    "Egg noodles",
+    "Scallion",
+    "Miso酱",
+    "Sesame oil",
+    "Ginger paste",
+    "Cooking oil",
+    "Soy Sauce",
+    "Pepper",
+    "Brown Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua",
+    "trung",
+    "mi trung",
+    "hanh la",
+    "tuong ca",
+    "dau me",
+    "gung bam",
+    "dau an",
+    "nuoc tuong",
+    "tieu",
+    "duong nau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

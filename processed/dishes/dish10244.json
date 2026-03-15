@@ -1,0 +1,52 @@
+{
+  "id": "dish10244",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10244.json",
+  "name_vi": "Nước ép gấc",
+  "name_en": "",
+  "name_normalized": "nuoc ep gac",
+  "category": "nuoc ep",
+  "main_ingredients": [
+    "Gấc",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre02470",
+    "ingre04490",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Gấc",
+    "Nước",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Bittermelon",
+    "Water",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gac",
+    "nuoc",
+    "duong muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

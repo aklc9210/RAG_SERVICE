@@ -1,0 +1,25 @@
+{
+  "id": "ingre00557",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00557.json",
+  "name_vi": "bột béo b-one",
+  "name_en": "Chicken Fat Powder",
+  "name_normalized": "bot beo b one",
+  "synonyms": [
+    "bột bắp"
+  ],
+  "synonyms_normalized": [
+    "bot bap"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot beo b-one",
+      "new": "bot beo b one",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

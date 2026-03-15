@@ -1,0 +1,103 @@
+{
+  "id": "dish10615",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10615.json",
+  "name_vi": "Miến trộn giảm cân eat clean",
+  "name_en": "",
+  "name_normalized": "mien tron giam can eat clean",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Rau cải thìa",
+    "Miến khô",
+    "Bắp cải tím"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương tươi",
+    "Dầu dừa",
+    "Hành tím",
+    "Dầu mè",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước tương",
+    "Giấm tỏi ớt",
+    "Tỏi",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre05234",
+    "ingre03716",
+    "ingre00468",
+    "ingre04916",
+    "ingre01419",
+    "ingre02067",
+    "ingre02768",
+    "ingre04790",
+    "ingre02374",
+    "ingre07063",
+    "ingre02094",
+    "ingre03929",
+    "ingre02997"
+  ],
+  "ingredient_names_vi": [
+    "Rau cải thìa",
+    "Miến khô",
+    "Bắp cải tím",
+    "Nấm hương tươi",
+    "Cà rốt",
+    "Dầu dừa",
+    "Hành tím",
+    "Nước tương",
+    "Giấm tỏi ớt",
+    "Tỏi",
+    "Dầu mè",
+    "Mè rang",
+    "Hạt nêm chay"
+  ],
+  "ingredient_names_en": [
+    "Chinese cabbage",
+    "Rice Noodles",
+    "Purple cabbage",
+    "Fresh Shiitake Mushrooms",
+    "Carrot",
+    "Coconut oil",
+    "Shallot",
+    "Soy Sauce",
+    "Garlic Chili Vinegar",
+    "Garlic",
+    "Sesame oil",
+    "Roasted Sesame Seeds",
+    "Vegetarian Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "rau cai thia",
+    "mien kho",
+    "bap cai tim",
+    "nam huong tuoi",
+    "ca rot",
+    "dau dua",
+    "hanh tim",
+    "nuoc tuong",
+    "giam toi ot",
+    "toi",
+    "dau me",
+    "me rang",
+    "hat nem chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

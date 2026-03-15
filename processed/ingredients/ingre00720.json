@@ -1,0 +1,25 @@
+{
+  "id": "ingre00720",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00720.json",
+  "name_vi": "bột làm bánh (cake flour)",
+  "name_en": "Cake flour",
+  "name_normalized": "bot lam banh cake flour",
+  "synonyms": [
+    "bột làm bánh mì"
+  ],
+  "synonyms_normalized": [
+    "bot lam banh mi"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

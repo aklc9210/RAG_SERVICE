@@ -1,0 +1,31 @@
+{
+  "id": "ingre07128",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07128.json",
+  "name_vi": "tỏi/ớt",
+  "name_en": "Garlic/Capsicum",
+  "name_normalized": "toi ot",
+  "synonyms": [
+    "tỏi tây",
+    "tỏi bắc",
+    "ớt chuông"
+  ],
+  "synonyms_normalized": [
+    "toi tay",
+    "toi bac",
+    "ot chuong"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi/ot",
+      "new": "toi ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

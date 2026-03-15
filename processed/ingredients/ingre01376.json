@@ -1,0 +1,29 @@
+{
+  "id": "ingre01376",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01376.json",
+  "name_vi": "cà chua:",
+  "name_en": "Tomato ->",
+  "name_normalized": "ca chua",
+  "synonyms": [
+    "dưa chua",
+    "quả chua"
+  ],
+  "synonyms_normalized": [
+    "dua chua",
+    "qua chua"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca chua:",
+      "new": "ca chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

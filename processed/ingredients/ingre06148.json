@@ -1,0 +1,25 @@
+{
+  "id": "ingre06148",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06148.json",
+  "name_vi": "sữa tươi không đường (1 bịch)",
+  "name_en": "Sweetened Milk (1 Packet)",
+  "name_normalized": "sua tuoi khong duong 1 bich",
+  "synonyms": [
+    "kem tươi không đường"
+  ],
+  "synonyms_normalized": [
+    "kem tuoi khong duong"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua tuoi khong duong (1 bich)",
+      "new": "sua tuoi khong duong 1 bich",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

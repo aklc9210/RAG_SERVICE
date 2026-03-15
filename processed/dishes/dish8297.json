@@ -1,0 +1,83 @@
+{
+  "id": "dish8297",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8297.json",
+  "name_vi": "Nộm tai lợn xoài xanh",
+  "name_en": "",
+  "name_normalized": "nom tai lon xoai xanh",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau húng",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gia vị thông dụng",
+    "Chanh",
+    "Giấm",
+    "Rượu"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre07342",
+    "ingre01419",
+    "ingre05256",
+    "ingre05359",
+    "ingre02314",
+    "ingre01079",
+    "ingre02355",
+    "ingre05515"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Xoài xanh",
+    "Cà rốt",
+    "Rau húng",
+    "Rau răm",
+    "Gia vị thông dụng",
+    "Chanh",
+    "Giấm",
+    "Rượu"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Green mango",
+    "Carrot",
+    "Parsley",
+    "Vietnamese coriander",
+    "Common spice",
+    "Lemon",
+    "Vinegar",
+    "Rum"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "xoai xanh",
+    "ca rot",
+    "rau hung",
+    "rau ram",
+    "gia vi thong dung",
+    "chanh",
+    "giam",
+    "ruou"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

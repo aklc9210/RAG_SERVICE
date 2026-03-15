@@ -1,0 +1,77 @@
+{
+  "id": "dish0270",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0270.json",
+  "name_vi": "Súp bí đỏ chay rong biển",
+  "name_en": "",
+  "name_normalized": "sup bi do chay rong bien",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Đậu hũ non"
+  ],
+  "secondary_ingredients": [
+    "Rong biển khô",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Hạt nêm chay",
+    "Đường",
+    "Nước mắm chay",
+    "Muối/Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre07752",
+    "ingre05457",
+    "ingre04343",
+    "ingre02997",
+    "ingre07583",
+    "ingre04697",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Đậu hũ non",
+    "Rong biển khô",
+    "Ngò rí",
+    "Hạt nêm chay",
+    "Đường",
+    "Nước mắm chay",
+    "Muối/Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Firm Tofu",
+    "Kelp Powder",
+    "Parsley",
+    "Vegetarian Seasoning",
+    "Sugar",
+    "Vegetarian fish sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "dau hu non",
+    "rong bien kho",
+    "ngo ri",
+    "hat nem chay",
+    "duong",
+    "nuoc mam chay",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

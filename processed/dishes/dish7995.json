@@ -1,0 +1,112 @@
+{
+  "id": "dish7995",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7995.json",
+  "name_vi": "Gỏi bò rau thơm",
+  "name_en": "",
+  "name_normalized": "goi bo rau thom",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bò",
+    "Rau thơm các loại",
+    "Nước tắc"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Cà pháo ngâm chua",
+    "Kiệu ngâm chua",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Cà rốt",
+    "Tỏi",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre05388",
+    "ingre04817",
+    "ingre08055",
+    "ingre05900",
+    "ingre02741",
+    "ingre01384",
+    "ingre03296",
+    "ingre01419",
+    "ingre07063",
+    "ingre07583",
+    "ingre04694",
+    "ingre07028",
+    "ingre02080",
+    "ingre02094"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Rau thơm các loại",
+    "Nước tắc",
+    "Ớt sừng",
+    "Sả",
+    "Hành tây",
+    "Cà pháo ngâm chua",
+    "Kiệu ngâm chua",
+    "Cà rốt",
+    "Tỏi",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu mè"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Herbs Various Types",
+    "Lime juice",
+    "Hot pepper",
+    "Lemongrass",
+    "Onion",
+    "Pickled radish",
+    "Pickled mustard greens",
+    "Carrot",
+    "Garlic",
+    "Sugar",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Soy sauce",
+    "Sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "rau thom cac loai",
+    "nuoc tac",
+    "ot sung",
+    "sa",
+    "hanh tay",
+    "ca phao ngam chua",
+    "kieu ngam chua",
+    "ca rot",
+    "toi",
+    "duong",
+    "nuoc mam",
+    "tuong ot",
+    "dau hao",
+    "dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dish3756",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3756.json",
+  "name_vi": "Chuối sáp nướng",
+  "name_en": "",
+  "name_normalized": "chuoi sap nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Chuối sáp"
+  ],
+  "secondary_ingredients": [
+    "Mè"
+  ],
+  "seasonings": [
+    "Muối",
+    "Nước cốt dừa",
+    "Mỡ hành"
+  ],
+  "ingredient_ids": [
+    "ingre01178",
+    "ingre03746",
+    "ingre04554",
+    "ingre04199",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Chuối sáp",
+    "Muối",
+    "Nước cốt dừa",
+    "Mỡ hành",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Plantain",
+    "Salt",
+    "Coconut milk",
+    "Chives butter",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi sap",
+    "muoi",
+    "nuoc cot dua",
+    "mo hanh",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

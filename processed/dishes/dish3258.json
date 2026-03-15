@@ -1,0 +1,108 @@
+{
+  "id": "dish3258",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3258.json",
+  "name_vi": "Công thức nấu bánh canh cua lột",
+  "name_en": "",
+  "name_normalized": "cong thuc nau banh canh cua lot",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chả cá",
+    "Chả bò",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Bánh quẩy",
+    "Hành lá",
+    "Hành tím ngâm chua",
+    "Củ nén"
+  ],
+  "seasonings": [
+    "Cua lột",
+    "Bánh canh bột gạo",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01340",
+    "ingre01268",
+    "ingre01258",
+    "ingre06816",
+    "ingre00072",
+    "ingre00164",
+    "ingre02673",
+    "ingre02787",
+    "ingre01908",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cua lột",
+    "Chả cá",
+    "Chả bò",
+    "Trứng cút",
+    "Bánh canh bột gạo",
+    "Bánh quẩy",
+    "Hành lá",
+    "Hành tím ngâm chua",
+    "Củ nén",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp peeled",
+    "Fish cake",
+    "Beef sausage",
+    "Quail egg",
+    "Rice noodle soup",
+    "Spring roll wrapper",
+    "Scallion",
+    "Pickled Green Onion",
+    "Celery",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cua lot",
+    "cha ca",
+    "cha bo",
+    "trung cut",
+    "banh canh bot gao",
+    "banh quay",
+    "hanh la",
+    "hanh tim ngam chua",
+    "cu nen",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

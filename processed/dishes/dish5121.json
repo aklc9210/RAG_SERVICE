@@ -1,0 +1,109 @@
+{
+  "id": "dish5121",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5121.json",
+  "name_vi": "Thịt lợn xào ớt chuông hành tây",
+  "name_en": "",
+  "name_normalized": "thit lon xao ot chuong hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt heo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Nước màu thực phẩm"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Tiêu/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre07999",
+    "ingre02741",
+    "ingre02673",
+    "ingre07966",
+    "ingre02768",
+    "ingre04682",
+    "ingre04694",
+    "ingre02124",
+    "ingre00804",
+    "ingre06663"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Ớt chuông",
+    "Hành tây",
+    "Hành lá",
+    "Ớt",
+    "Hành tím",
+    "Nước màu thực phẩm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Tiêu/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Bell pepper",
+    "Onion",
+    "Scallion",
+    "Pepper",
+    "Shallot",
+    "Food coloring",
+    "Fish Sauce",
+    "Cooking oil",
+    "Turmeric Powder",
+    "Fish Sauce/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "ot chuong",
+    "hanh tay",
+    "hanh la",
+    "ot",
+    "hanh tim",
+    "nuoc mau thuc pham",
+    "nuoc mam",
+    "dau an",
+    "bot nghe",
+    "tieu hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/hạt nêm"
+    }
+  ]
+}

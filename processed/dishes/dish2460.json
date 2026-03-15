@@ -1,0 +1,87 @@
+{
+  "id": "dish2460",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2460.json",
+  "name_vi": "Bánh Mousse bạc hà",
+  "name_en": "",
+  "name_normalized": "banh mousse bac ha",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kem tươi"
+  ],
+  "secondary_ingredients": [
+    "Gelatin",
+    "Siro bạc hà",
+    "Nước nóng",
+    "Bạc hà"
+  ],
+  "seasonings": [
+    "Cốt bánh bông lan",
+    "Đường",
+    "Chiết xuất va-ni",
+    "Nước cốt chanh",
+    "Bột trà xanh"
+  ],
+  "ingredient_ids": [
+    "ingre01842",
+    "ingre03157",
+    "ingre07583",
+    "ingre02253",
+    "ingre01138",
+    "ingre04538",
+    "ingre00961",
+    "ingre05675",
+    "ingre04738",
+    "ingre00430"
+  ],
+  "ingredient_names_vi": [
+    "Cốt bánh bông lan",
+    "Kem tươi",
+    "Đường",
+    "Gelatin",
+    "Chiết xuất va-ni",
+    "Nước cốt chanh",
+    "Bột trà xanh",
+    "Siro bạc hà",
+    "Nước nóng",
+    "Bạc hà"
+  ],
+  "ingredient_names_en": [
+    "Vanilla essence",
+    "Fresh cream",
+    "Sugar",
+    "Gelatin",
+    "Vanilla extract",
+    "Lemon juice",
+    "Green tea powder",
+    "Mint Syrup",
+    "Hot water",
+    "Mint"
+  ],
+  "ingredient_names_normalized": [
+    "cot banh bong lan",
+    "kem tuoi",
+    "duong",
+    "gelatin",
+    "chiet xuat va ni",
+    "nuoc cot chanh",
+    "bot tra xanh",
+    "siro bac ha",
+    "nuoc nong",
+    "bac ha"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chiết xuất va-ni"
+    }
+  ]
+}

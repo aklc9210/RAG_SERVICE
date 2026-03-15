@@ -1,0 +1,113 @@
+{
+  "id": "dish7748",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7748.json",
+  "name_vi": "Cá trắm nhúng mẻ",
+  "name_en": "",
+  "name_normalized": "ca tram nhung me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá trắm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Cơm mẻ",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Gừng nhỏ",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01641",
+    "ingre02512",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre01354",
+    "ingre01753",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644",
+    "ingre02124",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Cá trắm",
+    "Gừng nhỏ",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Cà chua",
+    "Cơm mẻ",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Ginger",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Tomato",
+    "Glutinous Rice",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Ground pepper",
+    "Cooking oil",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "ca tram",
+    "gung nho",
+    "ot",
+    "hanh tim",
+    "toi",
+    "ca chua",
+    "com me",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu xay",
+    "dau an",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

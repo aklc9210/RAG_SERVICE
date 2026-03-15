@@ -1,0 +1,98 @@
+{
+  "id": "dish7181",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7181.json",
+  "name_vi": "Chôm chôm chiên giòn",
+  "name_en": "",
+  "name_normalized": "chom chom chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo",
+    "Chôm chôm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre01251",
+    "ingre00759",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Chôm chôm",
+    "Bột mì",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Pineapple",
+    "Wheat Flour",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "chom chom",
+    "bot mi",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

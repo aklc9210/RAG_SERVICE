@@ -1,0 +1,101 @@
+{
+  "id": "dish0770",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0770.json",
+  "name_vi": "Canh măng tươi nấu xương",
+  "name_en": "",
+  "name_normalized": "canh mang tuoi nau xuong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương heo",
+    "Măng tươi",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre04091",
+    "ingre02673",
+    "ingre04343",
+    "ingre02768",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Măng tươi",
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Fresh bamboo shoots",
+    "Scallion",
+    "Parsley",
+    "Shallot",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "mang tuoi",
+    "hanh la",
+    "ngo ri",
+    "hanh tim",
+    "muoi",
+    "tieu",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

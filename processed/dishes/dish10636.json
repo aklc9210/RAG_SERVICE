@@ -1,0 +1,55 @@
+{
+  "id": "dish10636",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10636.json",
+  "name_vi": "Vỏ bánh tráng cuốn chả giò bò bía - vỏ ram",
+  "name_en": "",
+  "name_normalized": "vo banh trang cuon cha gio bo bia vo ram",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Nước ấm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Bột mì đa dụng"
+  ],
+  "ingredient_ids": [
+    "ingre04879",
+    "ingre02124",
+    "ingre03746",
+    "ingre00791"
+  ],
+  "ingredient_names_vi": [
+    "Nước ấm",
+    "Dầu ăn",
+    "Muối",
+    "Bột mì đa dụng"
+  ],
+  "ingredient_names_en": [
+    "Warm water",
+    "Cooking oil",
+    "Salt",
+    "All-purpose flour"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc am",
+    "dau an",
+    "muoi",
+    "bot mi da dung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "vo banh trang cuon cha gio bo bia - vo ram",
+      "new": "vo banh trang cuon cha gio bo bia vo ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

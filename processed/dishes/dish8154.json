@@ -1,0 +1,84 @@
+{
+  "id": "dish8154",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8154.json",
+  "name_vi": "Nộm su hào cà rốt chay",
+  "name_en": "",
+  "name_normalized": "nom su hao ca rot chay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Su hào"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng nguyên vỏ",
+    "Rau húng quế/ rau mùi"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt đỏ",
+    "Giấm trắng",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05787",
+    "ingre01419",
+    "ingre07782",
+    "ingre07063",
+    "ingre08097",
+    "ingre05267",
+    "ingre02370",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Su hào",
+    "Cà rốt",
+    "Đậu phộng nguyên vỏ",
+    "Tỏi",
+    "Ớt đỏ",
+    "Rau húng quế/ rau mùi",
+    "Giấm trắng",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Peanuts",
+    "Garlic",
+    "Red pepper",
+    "Sage Herb",
+    "White vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "su hao",
+    "ca rot",
+    "dau phong nguyen vo",
+    "toi",
+    "ot do",
+    "rau hung que rau mui",
+    "giam trang",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau hung que/ rau mui",
+      "new": "rau hung que rau mui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau húng quế/ rau mùi"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

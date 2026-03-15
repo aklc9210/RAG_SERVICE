@@ -1,0 +1,27 @@
+{
+  "id": "ingre07062",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07062.json",
+  "name_vi": "tắc:",
+  "name_en": "Tangerine",
+  "name_normalized": "tac",
+  "synonyms": [
+    "đường phèn"
+  ],
+  "synonyms_normalized": [
+    "duong phen"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tac:",
+      "new": "tac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

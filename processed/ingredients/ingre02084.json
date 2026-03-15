@@ -1,0 +1,29 @@
+{
+  "id": "ingre02084",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02084.json",
+  "name_vi": "dầu hào/ dầu mè/ nước tương",
+  "name_en": "Soy Sauce",
+  "name_normalized": "dau hao dau me nuoc tuong",
+  "synonyms": [
+    "mắm tôm",
+    "nước chấm",
+    "nước mắm"
+  ],
+  "synonyms_normalized": [
+    "mam tom",
+    "nuoc cham",
+    "nuoc mam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hao/ dau me/ nuoc tuong",
+      "new": "dau hao dau me nuoc tuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

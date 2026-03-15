@@ -1,0 +1,72 @@
+{
+  "id": "dish7299",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7299.json",
+  "name_vi": "Cơm chiên tỏi ớt",
+  "name_en": "",
+  "name_normalized": "com chien toi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm"
+  ],
+  "secondary_ingredients": [
+    "Trứng ốp la"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01724",
+    "ingre07063",
+    "ingre06861",
+    "ingre08078",
+    "ingre02124",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Cơm",
+    "Tỏi",
+    "Trứng ốp la",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Garlic",
+    "Opela Egg",
+    "Fresh chili",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "com",
+    "toi",
+    "trung op la",
+    "ot tuoi",
+    "dau an",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

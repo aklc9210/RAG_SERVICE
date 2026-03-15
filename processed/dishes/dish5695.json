@@ -1,0 +1,101 @@
+{
+  "id": "dish5695",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5695.json",
+  "name_vi": "Bồ câu rôti",
+  "name_en": "",
+  "name_normalized": "bo cau roti",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Chim bồ câu",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Ớt bột",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01124",
+    "ingre05900",
+    "ingre07966",
+    "ingre07977",
+    "ingre02768",
+    "ingre04381",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chim bồ câu",
+    "Sả",
+    "Ớt",
+    "Ớt bột",
+    "Hành tím",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pigeon",
+    "Lemongrass",
+    "Pepper",
+    "Chili powder",
+    "Shallot",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "chim bo cau",
+    "sa",
+    "ot",
+    "ot bot",
+    "hanh tim",
+    "ngu vi huong",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish7703",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7703.json",
+  "name_vi": "Ngô bung đậu (đỗ) đen",
+  "name_en": "",
+  "name_normalized": "ngo bung dau do den",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Đậu đen"
+  ],
+  "secondary_ingredients": [
+    "Ngô/ bắp nếp"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07863",
+    "ingre04372",
+    "ingre04554",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đậu đen",
+    "Ngô/ bắp nếp",
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Black beans",
+    "Corn",
+    "Coconut milk",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau den",
+    "ngo bap nep",
+    "nuoc cot dua",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo bung dau (do) den",
+      "new": "ngo bung dau do den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo/ bap nep",
+      "new": "ngo bap nep",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngô/ bắp nếp"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

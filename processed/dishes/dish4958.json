@@ -1,0 +1,82 @@
+{
+  "id": "dish4958",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4958.json",
+  "name_vi": "Gà xào sả ớt",
+  "name_en": "",
+  "name_normalized": "ga xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Đùi gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước nắm",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Bột canh",
+    "Bột ngọt",
+    "Bột nghệ",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre05900",
+    "ingre08055",
+    "ingre00587",
+    "ingre00819",
+    "ingre00804",
+    "ingre04740",
+    "ingre02124",
+    "ingre03929"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Sả",
+    "Ớt sừng",
+    "Bột canh",
+    "Bột ngọt",
+    "Bột nghệ",
+    "Nước nắm",
+    "Dầu ăn",
+    "Mè rang"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Lemongrass",
+    "Hot pepper",
+    "Cornstarch",
+    "MSG",
+    "Turmeric Powder",
+    "Parsley water",
+    "Cooking oil",
+    "Roasted Sesame Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "sa",
+    "ot sung",
+    "bot canh",
+    "bot ngot",
+    "bot nghe",
+    "nuoc nam",
+    "dau an",
+    "me rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "dish4353",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4353.json",
+  "name_vi": "Làm hàu nướng mỡ hành bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "lam hau nuong mo hanh bang lo vi song",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hàu tươi sống"
+  ],
+  "secondary_ingredients": [
+    "Mỡ lợn tươi",
+    "Đậu phộng",
+    "Hành lá"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre02846",
+    "ingre04204",
+    "ingre07781",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Hàu tươi sống",
+    "Mỡ lợn tươi",
+    "Đậu phộng",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Fresh scallops",
+    "Fresh pork fat",
+    "Peanut",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "hau tuoi song",
+    "mo lon tuoi",
+    "dau phong",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

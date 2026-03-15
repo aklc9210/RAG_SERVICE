@@ -1,0 +1,126 @@
+{
+  "id": "dish5846",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5846.json",
+  "name_vi": "Cà ri cá thu",
+  "name_en": "",
+  "name_normalized": "ca ri ca thu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá thu",
+    "Cà tím",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Rau quế",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột cà ri",
+    "Nước cốt dừa",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01625",
+    "ingre01444",
+    "ingre03222",
+    "ingre01419",
+    "ingre05354",
+    "ingre05900",
+    "ingre00631",
+    "ingre04554",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá thu",
+    "Cà tím",
+    "Khoai tây",
+    "Cà rốt",
+    "Rau quế",
+    "Sả",
+    "Bột cà ri",
+    "Nước cốt dừa",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Codfish",
+    "Purple cabbage",
+    "Potato",
+    "Carrot",
+    "Sage",
+    "Lemongrass",
+    "Curry powder",
+    "Coconut milk",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca thu",
+    "ca tim",
+    "khoai tay",
+    "ca rot",
+    "rau que",
+    "sa",
+    "bot ca ri",
+    "nuoc cot dua",
+    "hanh tim",
+    "toi",
+    "ot",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

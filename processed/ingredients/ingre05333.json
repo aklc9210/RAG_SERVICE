@@ -1,0 +1,29 @@
+{
+  "id": "ingre05333",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05333.json",
+  "name_vi": "rau ngò/ rau húng/ diếp cá/ tía tô",
+  "name_en": "Cilantro",
+  "name_normalized": "rau ngo rau hung diep ca tia to",
+  "synonyms": [
+    "tía tô",
+    "ngò",
+    "ngò rí"
+  ],
+  "synonyms_normalized": [
+    "tia to",
+    "ngo",
+    "ngo ri"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ngo/ rau hung/ diep ca/ tia to",
+      "new": "rau ngo rau hung diep ca tia to",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

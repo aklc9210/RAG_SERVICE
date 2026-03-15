@@ -1,0 +1,77 @@
+{
+  "id": "dish0586",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0586.json",
+  "name_vi": "Súp bí đỏ thịt bò",
+  "name_en": "",
+  "name_normalized": "sup bi do thit bo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Bơ thực vật",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre06300",
+    "ingre02741",
+    "ingre07071",
+    "ingre00407",
+    "ingre02124",
+    "ingre06147",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Thịt bò",
+    "Hành tây",
+    "Tỏi băm",
+    "Bơ thực vật",
+    "Dầu ăn",
+    "Sữa tươi không đường",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Beef",
+    "Onion",
+    "Minced Garlic",
+    "Vegetable oil",
+    "Cooking oil",
+    "Fat-free Milk",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "thit bo",
+    "hanh tay",
+    "toi bam",
+    "bo thuc vat",
+    "dau an",
+    "sua tuoi khong duong",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

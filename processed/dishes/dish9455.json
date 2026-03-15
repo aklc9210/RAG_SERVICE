@@ -1,0 +1,66 @@
+{
+  "id": "dish9455",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9455.json",
+  "name_vi": "Mứt củ đậu - củ sắn",
+  "name_en": "",
+  "name_normalized": "mut cu dau cu san",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Củ đậu"
+  ],
+  "secondary_ingredients": [
+    "Vôi ăn trầu",
+    "Nước"
+  ],
+  "seasonings": [
+    "Đường",
+    "Muối",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre01925",
+    "ingre07186",
+    "ingre07583",
+    "ingre03746",
+    "ingre07140",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Củ đậu",
+    "Vôi ăn trầu",
+    "Đường",
+    "Muối",
+    "Vani",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Taro",
+    "Betel nut powder",
+    "Sugar",
+    "Salt",
+    "Vanilla",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "cu dau",
+    "voi an trau",
+    "duong",
+    "muoi",
+    "vani",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mut cu dau - cu san",
+      "new": "mut cu dau cu san",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

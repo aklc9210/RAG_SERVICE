@@ -1,0 +1,118 @@
+{
+  "id": "dish8245",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8245.json",
+  "name_vi": "Bánh đa trộn",
+  "name_en": "",
+  "name_normalized": "banh da tron",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bánh đa",
+    "Trứng cút",
+    "Xoài xanh",
+    "Chả quế"
+  ],
+  "secondary_ingredients": [
+    "Khô gà",
+    "Tép khô",
+    "Rau răm",
+    "Đậu phộng rang thơm",
+    "Me vắt"
+  ],
+  "seasonings": [
+    "Ớt sa tế",
+    "Hành phi",
+    "Ớt khô",
+    "Ớt băm",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00218",
+    "ingre06816",
+    "ingre07342",
+    "ingre01302",
+    "ingre03261",
+    "ingre06918",
+    "ingre05359",
+    "ingre08050",
+    "ingre07801",
+    "ingre02730",
+    "ingre08039",
+    "ingre07971",
+    "ingre03663",
+    "ingre07583",
+    "ingre04694",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa",
+    "Trứng cút",
+    "Xoài xanh",
+    "Chả quế",
+    "Khô gà",
+    "Tép khô",
+    "Rau răm",
+    "Ớt sa tế",
+    "Đậu phộng rang thơm",
+    "Hành phi",
+    "Ớt khô",
+    "Ớt băm",
+    "Me vắt",
+    "Đường",
+    "Nước mắm",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Rice noodle",
+    "Quail egg",
+    "Green mango",
+    "Sausage",
+    "Dried Chicken",
+    "Dried shrimp",
+    "Vietnamese coriander",
+    "Bird's Eye Chili",
+    "Peanutsalyzed",
+    "Garlic Fried",
+    "Dried Pepper",
+    "Chopped Pepper",
+    "Lemon juice",
+    "Sugar",
+    "Fish Sauce",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "banh da",
+    "trung cut",
+    "xoai xanh",
+    "cha que",
+    "kho ga",
+    "tep kho",
+    "rau ram",
+    "ot sa te",
+    "dau phong rang thom",
+    "hanh phi",
+    "ot kho",
+    "ot bam",
+    "me vat",
+    "duong",
+    "nuoc mam",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

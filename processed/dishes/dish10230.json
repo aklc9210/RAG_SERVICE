@@ -1,0 +1,43 @@
+{
+  "id": "dish10230",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10230.json",
+  "name_vi": "Bột trà xanh bằng lá trà tươi",
+  "name_en": "",
+  "name_normalized": "bot tra xanh bang la tra tuoi",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Trà tươi",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06729",
+    "ingre03746",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Trà tươi",
+    "Muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Fresh Tea Leaves",
+    "Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "tra tuoi",
+    "muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

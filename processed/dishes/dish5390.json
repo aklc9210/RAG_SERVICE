@@ -1,0 +1,86 @@
+{
+  "id": "dish5390",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5390.json",
+  "name_vi": "Bề bề rang me",
+  "name_en": "",
+  "name_normalized": "be be rang me",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bề bề",
+    "Me"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt băm",
+    "Bột ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00494",
+    "ingre03643",
+    "ingre07071",
+    "ingre07971",
+    "ingre01015",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bề bề",
+    "Me",
+    "Tỏi băm",
+    "Ớt băm",
+    "Bột ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Tamarind",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Red Pepper Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "be be",
+    "me",
+    "toi bam",
+    "ot bam",
+    "bot ot",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish4858",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4858.json",
+  "name_vi": "Bắp cải tí hon xào sò điệp",
+  "name_en": "",
+  "name_normalized": "bap cai ti hon xao so diep",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt sò điệp",
+    "Bắp cải tí hon"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Đường/ muối",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Dầu hào",
+    "Hạt nêm",
+    "Bột hành"
+  ],
+  "ingredient_ids": [
+    "ingre06490",
+    "ingre00467",
+    "ingre01419",
+    "ingre07680",
+    "ingre02124",
+    "ingre07071",
+    "ingre02080",
+    "ingre02995",
+    "ingre00682"
+  ],
+  "ingredient_names_vi": [
+    "Thịt sò điệp",
+    "Bắp cải tí hon",
+    "Cà rốt",
+    "Đường/ muối",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Dầu hào",
+    "Hạt nêm",
+    "Bột hành"
+  ],
+  "ingredient_names_en": [
+    "Scallops",
+    "Mini cabbage",
+    "Carrot",
+    "Sugar/Salt",
+    "Cooking oil",
+    "Minced Garlic",
+    "Soy sauce",
+    "Seasoning",
+    "Garlic Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit so diep",
+    "bap cai ti hon",
+    "ca rot",
+    "duong muoi",
+    "dau an",
+    "toi bam",
+    "dau hao",
+    "hat nem",
+    "bot hanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

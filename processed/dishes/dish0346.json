@@ -1,0 +1,62 @@
+{
+  "id": "dish0346",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0346.json",
+  "name_vi": "Canh ngao nấu hẹ",
+  "name_en": "",
+  "name_normalized": "canh ngao nau he",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ngao"
+  ],
+  "secondary_ingredients": [
+    "Hẹ",
+    "Đậu phụ"
+  ],
+  "seasonings": [
+    "Hành khô",
+    "Muối/ bột ngọt/ nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre04301",
+    "ingre03085",
+    "ingre07810",
+    "ingre02667",
+    "ingre03808"
+  ],
+  "ingredient_names_vi": [
+    "Ngao",
+    "Hẹ",
+    "Đậu phụ",
+    "Hành khô",
+    "Muối/ bột ngọt/ nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Garlic Chives",
+    "Tofu",
+    "Garlic Powder",
+    "Salt/MSG/Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ngao",
+    "he",
+    "dau phu",
+    "hanh kho",
+    "muoi bot ngot nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot/ nuoc mam",
+      "new": "muoi bot ngot nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt/ nước mắm"
+    }
+  ]
+}

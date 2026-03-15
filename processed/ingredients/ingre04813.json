@@ -1,0 +1,29 @@
+{
+  "id": "ingre04813",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04813.json",
+  "name_vi": "nước tương/ nước mắm",
+  "name_en": "Fish sauce/Soy sauce",
+  "name_normalized": "nuoc tuong nuoc mam",
+  "synonyms": [
+    "mắm",
+    "tương",
+    "mắm tôm"
+  ],
+  "synonyms_normalized": [
+    "mam",
+    "tuong",
+    "mam tom"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc tuong/ nuoc mam",
+      "new": "nuoc tuong nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

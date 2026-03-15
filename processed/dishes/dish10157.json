@@ -1,0 +1,62 @@
+{
+  "id": "dish10157",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10157.json",
+  "name_vi": "Sữa đậu nành bằng máy xay sinh tố",
+  "name_en": "",
+  "name_normalized": "sua dau nanh bang may xay sinh to",
+  "category": "sinh to",
+  "main_ingredients": [
+    "Hạt đậu nành"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03077",
+    "ingre03417",
+    "ingre06174",
+    "ingre03746",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Hạt đậu nành",
+    "Lá dứa",
+    "Sữa đặc",
+    "Muối",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Soybean",
+    "Pandan叶",
+    "Sweetened Condensed Milk",
+    "Salt",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "hat dau nanh",
+    "la dua",
+    "sua dac",
+    "muoi",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

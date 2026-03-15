@@ -1,0 +1,103 @@
+{
+  "id": "dish7823",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7823.json",
+  "name_vi": "Lẩu heo quay nấu chao",
+  "name_en": "",
+  "name_normalized": "lau heo quay nau chao",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Heo quay",
+    "Khoai môn",
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước dừa",
+    "Rau quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02563",
+    "ingre03208",
+    "ingre01106",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04622",
+    "ingre05354",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Heo quay",
+    "Khoai môn",
+    "Chao",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nước dừa",
+    "Rau quế",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Roast pork",
+    "Yam",
+    "Pickled plum",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Coconut water",
+    "Sage",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "heo quay",
+    "khoai mon",
+    "chao",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nuoc dua",
+    "rau que",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

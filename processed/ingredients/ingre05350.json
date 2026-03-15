@@ -1,0 +1,25 @@
+{
+  "id": "ingre05350",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05350.json",
+  "name_vi": "rau om/ rau ngò gai",
+  "name_en": "Spear Thyme Herb",
+  "name_normalized": "rau om rau ngo gai",
+  "synonyms": [
+    "ngò gai"
+  ],
+  "synonyms_normalized": [
+    "ngo gai"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau om/ rau ngo gai",
+      "new": "rau om rau ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "dish4188",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4188.json",
+  "name_vi": "Gà nướng muối ớt lá chanh",
+  "name_en": "",
+  "name_normalized": "ga nuong muoi ot la chanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành",
+    "Mật ong",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Gừng",
+    "Lá chanh",
+    "Dầu hào",
+    "Nước mắm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre07977",
+    "ingre02485",
+    "ingre03370",
+    "ingre05900",
+    "ingre02636",
+    "ingre02080",
+    "ingre04694",
+    "ingre04124",
+    "ingre06612",
+    "ingre03746",
+    "ingre05302"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Ớt bột",
+    "Gừng",
+    "Lá chanh",
+    "Sả",
+    "Hành",
+    "Dầu hào",
+    "Nước mắm",
+    "Mật ong",
+    "Tiêu",
+    "Muối",
+    "Rau mùi"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Chili powder",
+    "Ginger",
+    "Lime leaf",
+    "Lemongrass",
+    "Garlic",
+    "Soy sauce",
+    "Fish Sauce",
+    "Honey",
+    "Pepper",
+    "Salt",
+    "Mint"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "ot bot",
+    "gung",
+    "la chanh",
+    "sa",
+    "hanh",
+    "dau hao",
+    "nuoc mam",
+    "mat ong",
+    "tieu",
+    "muoi",
+    "rau mui"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

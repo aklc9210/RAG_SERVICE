@@ -1,0 +1,101 @@
+{
+  "id": "dish0775",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0775.json",
+  "name_vi": "Giò hầm đậu nành",
+  "name_en": "",
+  "name_normalized": "gio ham dau nanh",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Chân giò",
+    "Đậu nành"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô",
+    "Táo đỏ",
+    "Rễ ngò",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng nhỏ",
+    "Rượu",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre07772",
+    "ingre01419",
+    "ingre04966",
+    "ingre06911",
+    "ingre05608",
+    "ingre02768",
+    "ingre02512",
+    "ingre05515",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Đậu nành",
+    "Cà rốt",
+    "Nấm đông cô",
+    "Táo đỏ",
+    "Rễ ngò",
+    "Hành tím",
+    "Gừng nhỏ",
+    "Rượu",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Soybean",
+    "Carrot",
+    "Mushroom",
+    "Red apple",
+    "Parsley root",
+    "Shallot",
+    "Ginger",
+    "Rum",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "dau nanh",
+    "ca rot",
+    "nam dong co",
+    "tao do",
+    "re ngo",
+    "hanh tim",
+    "gung nho",
+    "ruou",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

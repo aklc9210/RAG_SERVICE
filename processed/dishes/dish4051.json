@@ -1,0 +1,55 @@
+{
+  "id": "dish4051",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4051.json",
+  "name_vi": "Lưỡi bò nướng sa tế",
+  "name_en": "",
+  "name_normalized": "luoi bo nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Lưỡi bò"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước mắm",
+    "Sa tế",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03603",
+    "ingre04694",
+    "ingre05621",
+    "ingre00829"
+  ],
+  "ingredient_names_vi": [
+    "Lưỡi bò",
+    "Nước mắm",
+    "Sa tế",
+    "Bột ngọt/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef tongue",
+    "Fish Sauce",
+    "Monkfish Powder/Cracked Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "luoi bo",
+    "nuoc mam",
+    "sa te",
+    "bot ngot tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu xay",
+      "new": "bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu xay"
+    }
+  ]
+}

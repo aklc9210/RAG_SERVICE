@@ -1,0 +1,79 @@
+{
+  "id": "dish9186",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9186.json",
+  "name_vi": "Thèo lèo - kẹo đậu phộng",
+  "name_en": "",
+  "name_normalized": "theo leo keo dau phong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Mè"
+  ],
+  "seasonings": [
+    "Đường",
+    "Gừng băm nhỏ",
+    "Nước cốt chanh",
+    "Baking soda"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre07583",
+    "ingre02494",
+    "ingre04538",
+    "ingre00382",
+    "ingre00018",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Đường",
+    "Gừng băm nhỏ",
+    "Nước cốt chanh",
+    "Bơ lạt",
+    "Baking soda",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Sugar",
+    "Ginger minced",
+    "Lemon juice",
+    "Butter",
+    "Baking soda",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "duong",
+    "gung bam nho",
+    "nuoc cot chanh",
+    "bo lat",
+    "baking soda",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "theo leo - keo dau phong",
+      "new": "theo leo keo dau phong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

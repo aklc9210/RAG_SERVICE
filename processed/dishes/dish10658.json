@@ -1,0 +1,122 @@
+{
+  "id": "dish10658",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10658.json",
+  "name_vi": "Nem rán chay nhân thập cẩm đậu xanh",
+  "name_en": "",
+  "name_normalized": "nem ran chay nhan thap cam dau xanh",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Đậu xanh",
+    "Bánh tráng cuốn nem",
+    "Đậu hủ trắng",
+    "Khoai môn"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Củ sắn",
+    "Bún tàu",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Ớt hiểm",
+    "Nước cốt thơm",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07836",
+    "ingre00188",
+    "ingre07766",
+    "ingre01419",
+    "ingre03208",
+    "ingre04930",
+    "ingre01920",
+    "ingre00355",
+    "ingre01079",
+    "ingre08026",
+    "ingre02673",
+    "ingre04588",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh",
+    "Bánh tráng cuốn nem",
+    "Đậu hủ trắng",
+    "Cà rốt",
+    "Khoai môn",
+    "Nấm mèo",
+    "Củ sắn",
+    "Bún tàu",
+    "Chanh",
+    "Ớt hiểm",
+    "Hành lá",
+    "Nước cốt thơm",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Green beans",
+    "Spring roll wrapper filled with pork sausage",
+    "Tofu",
+    "Carrot",
+    "Yam",
+    "Mushroom",
+    "Noodle",
+    "Lemon",
+    "Hot pepper",
+    "Scallion",
+    "Lime juice",
+    "Seasoning",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh",
+    "banh trang cuon nem",
+    "dau hu trang",
+    "ca rot",
+    "khoai mon",
+    "nam meo",
+    "cu san",
+    "bun tau",
+    "chanh",
+    "ot hiem",
+    "hanh la",
+    "nuoc cot thom",
+    "hat nem",
+    "duong",
+    "muoi",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

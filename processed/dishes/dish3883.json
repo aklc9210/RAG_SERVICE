@@ -1,0 +1,77 @@
+{
+  "id": "dish3883",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3883.json",
+  "name_vi": "Cá tắc kè nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca tac ke nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá tắc kè"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Màu dầu điều"
+  ],
+  "seasonings": [
+    "Ớt băm",
+    "Tỏi băm",
+    "Tương ớt",
+    "Dầu hào",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01647",
+    "ingre07971",
+    "ingre07071",
+    "ingre04124",
+    "ingre07028",
+    "ingre02080",
+    "ingre03849",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Cá tắc kè",
+    "Ớt băm",
+    "Tỏi băm",
+    "Mật ong",
+    "Tương ớt",
+    "Dầu hào",
+    "Màu dầu điều",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Frogfish",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Honey",
+    "Hot Sauce",
+    "Soy sauce",
+    "Peanut oil color",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca tac ke",
+    "ot bam",
+    "toi bam",
+    "mat ong",
+    "tuong ot",
+    "dau hao",
+    "mau dau dieu",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

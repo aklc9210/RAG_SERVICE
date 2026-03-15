@@ -1,0 +1,31 @@
+{
+  "id": "ingre00799",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00799.json",
+  "name_vi": "bột mì:",
+  "name_en": "All-purpose flour:",
+  "name_normalized": "bot mi",
+  "synonyms": [
+    "bột sốt",
+    "bột làm bánh",
+    "bột mì làm bánh"
+  ],
+  "synonyms_normalized": [
+    "bot sot",
+    "bot lam banh",
+    "bot mi lam banh"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot mi:",
+      "new": "bot mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

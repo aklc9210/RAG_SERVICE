@@ -1,0 +1,92 @@
+{
+  "id": "dish7793",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7793.json",
+  "name_vi": "Lẩu cá chép",
+  "name_en": "",
+  "name_normalized": "lau ca chep",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá chép giòn",
+    "Xương ống heo",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Hành tím",
+    "Rau thì là",
+    "Mẻ",
+    "Rau ăn kèm",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre01493",
+    "ingre07435",
+    "ingre01354",
+    "ingre06247",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre05383",
+    "ingre04165",
+    "ingre05420",
+    "ingre00357"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép giòn",
+    "Xương ống heo",
+    "Cà chua",
+    "Thơm",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Rau thì là",
+    "Mẻ",
+    "Rau ăn kèm",
+    "Bún tươi"
+  ],
+  "ingredient_names_en": [
+    "Glass carp",
+    "Pork ribs",
+    "Tomato",
+    "Basil",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Tamarind",
+    "Side vegetable",
+    "Fresh noodle"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep gion",
+    "xuong ong heo",
+    "ca chua",
+    "thom",
+    "hanh tim",
+    "toi",
+    "gung",
+    "rau thi la",
+    "me",
+    "rau an kem",
+    "bun tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

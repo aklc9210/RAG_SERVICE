@@ -1,0 +1,100 @@
+{
+  "id": "dish5718",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5718.json",
+  "name_vi": "Cá đuối kho nghệ",
+  "name_en": "",
+  "name_normalized": "ca duoi kho nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá đuối"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Ớt bột",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01659",
+    "ingre00804",
+    "ingre07977",
+    "ingre05900",
+    "ingre07966",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối",
+    "Bột nghệ",
+    "Ớt bột",
+    "Sả",
+    "Ớt",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Turmeric Powder",
+    "Chili powder",
+    "Lemongrass",
+    "Pepper",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi",
+    "bot nghe",
+    "ot bot",
+    "sa",
+    "ot",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish6974",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6974.json",
+  "name_vi": "Chả cốm chay",
+  "name_en": "",
+  "name_normalized": "cha com chay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cốm dẹp",
+    "Đậu hủ trắng"
+  ],
+  "secondary_ingredients": [
+    "Đậu xanh",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Bột nêm chay",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01832",
+    "ingre07766",
+    "ingre07836",
+    "ingre00849",
+    "ingre00840",
+    "ingre02124",
+    "ingre04343",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Cốm dẹp",
+    "Đậu hủ trắng",
+    "Đậu xanh",
+    "Bột năng",
+    "Bột nêm chay",
+    "Dầu ăn",
+    "Ngò rí",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Flat rice cake",
+    "Tofu",
+    "Green beans",
+    "Cornstarch",
+    "Vegetarian Seasoning Powder",
+    "Cooking oil",
+    "Parsley",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com dep",
+    "dau hu trang",
+    "dau xanh",
+    "bot nang",
+    "bot nem chay",
+    "dau an",
+    "ngo ri",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

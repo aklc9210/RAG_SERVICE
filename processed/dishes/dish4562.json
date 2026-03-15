@@ -1,0 +1,86 @@
+{
+  "id": "dish4562",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4562.json",
+  "name_vi": "Mực xào cà ri sả ớt",
+  "name_en": "",
+  "name_normalized": "muc xao ca ri sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt hiểm",
+    "Rượu trắng",
+    "Dầu hào",
+    "Tỏi",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Đường",
+    "Bột cà ri"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre05900",
+    "ingre08026",
+    "ingre05574",
+    "ingre02080",
+    "ingre07063",
+    "ingre02995",
+    "ingre06644",
+    "ingre07583",
+    "ingre00631"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Sả",
+    "Ớt hiểm",
+    "Rượu trắng",
+    "Dầu hào",
+    "Tỏi",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Đường",
+    "Bột cà ri"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Lemongrass",
+    "Hot pepper",
+    "White wine",
+    "Soy sauce",
+    "Garlic",
+    "Seasoning",
+    "Ground pepper",
+    "Sugar",
+    "Curry powder"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "sa",
+    "ot hiem",
+    "ruou trang",
+    "dau hao",
+    "toi",
+    "hat nem",
+    "tieu xay",
+    "duong",
+    "bot ca ri"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

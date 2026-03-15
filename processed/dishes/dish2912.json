@@ -1,0 +1,91 @@
+{
+  "id": "dish2912",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2912.json",
+  "name_vi": "Cheesecake đào - Peach Cheesecake",
+  "name_en": "",
+  "name_normalized": "cheesecake dao peach cheesecake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh quy Oreo",
+    "Gelatin"
+  ],
+  "secondary_ingredients": [
+    "Kem whipping cream",
+    "Cream cheese",
+    "Nước ngâm đào",
+    "Nước lạnh",
+    "Đào loại đóng hộp"
+  ],
+  "seasonings": [
+    "Bơ động vật",
+    "Đường xay min",
+    "Vani",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00158",
+    "ingre00419",
+    "ingre02253",
+    "ingre07663",
+    "ingre03176",
+    "ingre01324",
+    "ingre04733",
+    "ingre04664",
+    "ingre07140",
+    "ingre07511",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh quy Oreo",
+    "Bơ động vật",
+    "Gelatin",
+    "Đường xay min",
+    "Kem whipping cream",
+    "Cream cheese",
+    "Nước ngâm đào",
+    "Nước lạnh",
+    "Vani",
+    "Đào loại đóng hộp",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Oreo cookie",
+    "Animal fat",
+    "Gelatin",
+    "Ground sugar",
+    "Whipping Cream",
+    "Cream cheese",
+    "Peach brine",
+    "Cold water",
+    "Vanilla",
+    "Canned plum",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh quy oreo",
+    "bo dong vat",
+    "gelatin",
+    "duong xay min",
+    "kem whipping cream",
+    "cream cheese",
+    "nuoc ngam dao",
+    "nuoc lanh",
+    "vani",
+    "dao loai dong hop",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cheesecake dao - peach cheesecake",
+      "new": "cheesecake dao peach cheesecake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

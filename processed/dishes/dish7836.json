@@ -1,0 +1,117 @@
+{
+  "id": "dish7836",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7836.json",
+  "name_vi": "Lẩu ếch lá lốt",
+  "name_en": "",
+  "name_normalized": "lau ech la lot",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt ếch",
+    "Đậu hũ",
+    "Măng tươi",
+    "Tàu hũ ky"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Sả",
+    "Nước dùng gà",
+    "Nước nghệ tươi"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Bột canh",
+    "Muối",
+    "Nước mắm",
+    "Bột ngọt",
+    "Giấm gạo"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre07740",
+    "ingre04091",
+    "ingre06874",
+    "ingre03461",
+    "ingre01354",
+    "ingre05900",
+    "ingre02774",
+    "ingre07071",
+    "ingre04607",
+    "ingre04727",
+    "ingre00587",
+    "ingre03746",
+    "ingre04694",
+    "ingre00819",
+    "ingre02362"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Đậu hũ",
+    "Măng tươi",
+    "Tàu hũ ky",
+    "Lá lốt",
+    "Cà chua",
+    "Sả",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước dùng gà",
+    "Nước nghệ tươi",
+    "Bột canh",
+    "Muối",
+    "Nước mắm",
+    "Bột ngọt",
+    "Giấm gạo"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Tofu",
+    "Fresh bamboo shoots",
+    "Tofu Ky",
+    "Cinnamon Leaf",
+    "Tomato",
+    "Lemongrass",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Chicken broth",
+    "Fresh Turmeric Water",
+    "Cornstarch",
+    "Salt",
+    "Fish Sauce",
+    "MSG",
+    "Rice vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "dau hu",
+    "mang tuoi",
+    "tau hu ky",
+    "la lot",
+    "ca chua",
+    "sa",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc dung ga",
+    "nuoc nghe tuoi",
+    "bot canh",
+    "muoi",
+    "nuoc mam",
+    "bot ngot",
+    "giam gao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish6257",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6257.json",
+  "name_vi": "Xơ mít kho cá",
+  "name_en": "",
+  "name_normalized": "xo mit kho ca",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Xơ mít",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Ớt đập dập",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre07411",
+    "ingre02768",
+    "ingre08026",
+    "ingre08096",
+    "ingre04694",
+    "ingre04672",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Xơ mít",
+    "Hành tím",
+    "Ớt hiểm",
+    "Ớt đập dập",
+    "Nước mắm",
+    "Nước màu",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Jackfruit",
+    "Shallot",
+    "Hot pepper",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Food coloring",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "xo mit",
+    "hanh tim",
+    "ot hiem",
+    "ot dap dap",
+    "nuoc mam",
+    "nuoc mau",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

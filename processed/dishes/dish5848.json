@@ -1,0 +1,90 @@
+{
+  "id": "dish5848",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5848.json",
+  "name_vi": "Cá chép kho củ cải trắng",
+  "name_en": "",
+  "name_normalized": "ca chep kho cu cai trang",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chép",
+    "Củ cải trắng",
+    "Hành lá/ Thì là"
+  ],
+  "secondary_ingredients": [
+    "Nghệ tươi"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước tương",
+    "Tương hột",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre01868",
+    "ingre02710",
+    "ingre04308",
+    "ingre07966",
+    "ingre04790",
+    "ingre06994",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Củ cải trắng",
+    "Hành lá/ Thì là",
+    "Nghệ tươi",
+    "Ớt",
+    "Nước tương",
+    "Tương hột",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "White radish",
+    "Chives/Coriander",
+    "Ginger",
+    "Pepper",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "cu cai trang",
+    "hanh la thi la",
+    "nghe tuoi",
+    "ot",
+    "nuoc tuong",
+    "tuong hot",
+    "dau an",
+    "muoi",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ thi la",
+      "new": "hanh la thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ Thì là"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish7062",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7062.json",
+  "name_vi": "Ức gà chiên ngũ vị hương",
+  "name_en": "",
+  "name_normalized": "uc ga chien ngu vi huong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Ngũ vị hương",
+    "Tỏi",
+    "Dầu ăn",
+    "Tiêu",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre04381",
+    "ingre07063",
+    "ingre02768",
+    "ingre02094",
+    "ingre02124",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Ngũ vị hương",
+    "Tỏi",
+    "Hành tím",
+    "Dầu mè",
+    "Dầu ăn",
+    "Tiêu",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Five-Spice Powder",
+    "Garlic",
+    "Shallot",
+    "Sesame oil",
+    "Cooking oil",
+    "Pepper",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "ngu vi huong",
+    "toi",
+    "hanh tim",
+    "dau me",
+    "dau an",
+    "tieu",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

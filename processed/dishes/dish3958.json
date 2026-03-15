@@ -1,0 +1,103 @@
+{
+  "id": "dish3958",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3958.json",
+  "name_vi": "Cá thu nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "ca thu nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Phi lê cá thu"
+  ],
+  "secondary_ingredients": [
+    "Lá chuối",
+    "Hành tím",
+    "Nước tắc",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Ớt hiểm xanh",
+    "Tiêu xanh",
+    "Lá chanh",
+    "Tỏi",
+    "Sữa đặc có đường",
+    "Đường",
+    "Bột ngọt",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre05027",
+    "ingre08033",
+    "ingre06640",
+    "ingre03370",
+    "ingre03385",
+    "ingre02768",
+    "ingre07063",
+    "ingre04817",
+    "ingre03935",
+    "ingre05870",
+    "ingre07571",
+    "ingre00320",
+    "ingre04481"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá thu",
+    "Ớt hiểm xanh",
+    "Tiêu xanh",
+    "Lá chanh",
+    "Lá chuối",
+    "Hành tím",
+    "Tỏi",
+    "Nước tắc",
+    "Mè trắng",
+    "Sữa đặc có đường",
+    "Đường",
+    "Bột ngọt",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Cod fillet",
+    "Green Thai chili",
+    "Green pepper",
+    "Lime leaf",
+    "Banana leaf",
+    "Shallot",
+    "Garlic",
+    "Lime juice",
+    "White sesame",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "MSG",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca thu",
+    "ot hiem xanh",
+    "tieu xanh",
+    "la chanh",
+    "la chuoi",
+    "hanh tim",
+    "toi",
+    "nuoc tac",
+    "me trang",
+    "sua dac co duong",
+    "duong",
+    "bot ngot",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

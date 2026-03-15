@@ -1,0 +1,109 @@
+{
+  "id": "dish3216",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3216.json",
+  "name_vi": "Mì thịt bò",
+  "name_en": "",
+  "name_normalized": "mi thit bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt nạm bò",
+    "Mì khô",
+    "Sả tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Giá",
+    "Ngò gai",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06481",
+    "ingre03971",
+    "ingre05917",
+    "ingre02768",
+    "ingre07063",
+    "ingre02329",
+    "ingre04329",
+    "ingre02134",
+    "ingre04694",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạm bò",
+    "Mì khô",
+    "Sả tươi",
+    "Hành tím",
+    "Tỏi",
+    "Giá",
+    "Ngò gai",
+    "Dầu điều",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Dry noodles",
+    "Fresh Ginger",
+    "Shallot",
+    "Garlic",
+    "Mint",
+    "Culantro",
+    "Peanut oil",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit nam bo",
+    "mi kho",
+    "sa tuoi",
+    "hanh tim",
+    "toi",
+    "gia",
+    "ngo gai",
+    "dau dieu",
+    "nuoc mam",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

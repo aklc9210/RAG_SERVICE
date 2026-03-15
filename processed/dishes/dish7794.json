@@ -1,0 +1,97 @@
+{
+  "id": "dish7794",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7794.json",
+  "name_vi": "Lẩu sườn sụn chua cay",
+  "name_en": "",
+  "name_normalized": "lau suon sun chua cay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Sườn heo",
+    "Bao tử heo",
+    "Dồi trường"
+  ],
+  "secondary_ingredients": [
+    "Nấm",
+    "Nước dừa tươi",
+    "Sả",
+    "Hành tím bào",
+    "Hành tím củ",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt hiểm",
+    "Tiêu xanh"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre00025",
+    "ingre02148",
+    "ingre04892",
+    "ingre04626",
+    "ingre05900",
+    "ingre02485",
+    "ingre08026",
+    "ingre06640",
+    "ingre02771",
+    "ingre02781",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Bao tử heo",
+    "Dồi trường",
+    "Nấm",
+    "Nước dừa tươi",
+    "Sả",
+    "Gừng",
+    "Ớt hiểm",
+    "Tiêu xanh",
+    "Hành tím bào",
+    "Hành tím củ",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Pork stomach",
+    "Pork blood sausage",
+    "Mushroom",
+    "Coconut water",
+    "Lemongrass",
+    "Ginger",
+    "Hot pepper",
+    "Green pepper",
+    "Green Onion Finely Chopped",
+    "Scallion Bulb",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "bao tu heo",
+    "doi truong",
+    "nam",
+    "nuoc dua tuoi",
+    "sa",
+    "gung",
+    "ot hiem",
+    "tieu xanh",
+    "hanh tim bao",
+    "hanh tim cu",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

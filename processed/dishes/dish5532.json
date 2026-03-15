@@ -1,0 +1,81 @@
+{
+  "id": "dish5532",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5532.json",
+  "name_vi": "Ốc ruốc xào sả ớt",
+  "name_en": "",
+  "name_normalized": "oc ruoc xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc ruốc",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt hiểm",
+    "Gừng",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07953",
+    "ingre05900",
+    "ingre08026",
+    "ingre02485",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ốc ruốc",
+    "Sả",
+    "Ớt hiểm",
+    "Gừng",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Blood clam",
+    "Lemongrass",
+    "Hot pepper",
+    "Ginger",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "oc ruoc",
+    "sa",
+    "ot hiem",
+    "gung",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

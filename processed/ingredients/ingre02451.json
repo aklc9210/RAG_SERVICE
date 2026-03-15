@@ -1,0 +1,27 @@
+{
+  "id": "ingre02451",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02451.json",
+  "name_vi": "gạo nếp + gạo tẻ",
+  "name_en": "Glutinous Rice and Non-glutinous Rice",
+  "name_normalized": "gao nep gao te",
+  "synonyms": [
+    "gạo trắng",
+    "gạo thường"
+  ],
+  "synonyms_normalized": [
+    "gao trang",
+    "gao thuong"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gao nep + gao te",
+      "new": "gao nep gao te",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

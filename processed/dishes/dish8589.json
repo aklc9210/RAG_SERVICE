@@ -1,0 +1,93 @@
+{
+  "id": "dish8589",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8589.json",
+  "name_vi": "Cháo sườn bò",
+  "name_en": "",
+  "name_normalized": "chao suon bo",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Sườn bò",
+    "Gạo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05872",
+    "ingre02436",
+    "ingre02485",
+    "ingre02673",
+    "ingre04343",
+    "ingre02730",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn bò",
+    "Gạo",
+    "Gừng",
+    "Hành lá",
+    "Ngò rí",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef ribs",
+    "Rice",
+    "Ginger",
+    "Scallion",
+    "Parsley",
+    "Garlic Fried",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon bo",
+    "gao",
+    "gung",
+    "hanh la",
+    "ngo ri",
+    "hanh phi",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

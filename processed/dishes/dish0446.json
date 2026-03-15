@@ -1,0 +1,77 @@
+{
+  "id": "dish0446",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0446.json",
+  "name_vi": "Thịt dê hầm thuốc bắc",
+  "name_en": "",
+  "name_normalized": "thit de ham thuoc bac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt dê",
+    "Thuốc bắc"
+  ],
+  "secondary_ingredients": [
+    "Rau ngải cứu",
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre06223",
+    "ingre05335",
+    "ingre05900",
+    "ingre02485",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Thuốc bắc",
+    "Rau ngải cứu",
+    "Sả",
+    "Gừng",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Chinese medicine",
+    "Chinese Parsley Leaf",
+    "Lemongrass",
+    "Ginger",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "thuoc bac",
+    "rau ngai cuu",
+    "sa",
+    "gung",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

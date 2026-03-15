@@ -1,0 +1,86 @@
+{
+  "id": "dish6415",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6415.json",
+  "name_vi": "Cà tím cuộn thịt chiên xù",
+  "name_en": "",
+  "name_normalized": "ca tim cuon thit chien xu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà tím",
+    "Thịt heo xay",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Bột bắp",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre06414",
+    "ingre02768",
+    "ingre00598",
+    "ingre00609",
+    "ingre00564",
+    "ingre02080",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Thịt heo xay",
+    "Hành tím",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Bột bắp",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Ground Pork",
+    "Shallot",
+    "Puffed Rice Powder",
+    "Corn starch",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "thit heo xay",
+    "hanh tim",
+    "bot chien gion",
+    "bot chien xu",
+    "bot bap",
+    "dau hao",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

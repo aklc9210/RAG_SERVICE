@@ -1,0 +1,93 @@
+{
+  "id": "dish3257",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3257.json",
+  "name_vi": "Bún thịt băm",
+  "name_en": "",
+  "name_normalized": "bun thit bam",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt heo",
+    "Bún tươi",
+    "Chả cá"
+  ],
+  "secondary_ingredients": [
+    "Nấm kim châm",
+    "Đậu hũ non",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre00357",
+    "ingre01268",
+    "ingre04921",
+    "ingre07752",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre02995",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Bún tươi",
+    "Chả cá",
+    "Nấm kim châm",
+    "Đậu hũ non",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Fresh noodle",
+    "Fish cake",
+    "Mushroom",
+    "Firm Tofu",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "bun tuoi",
+    "cha ca",
+    "nam kim cham",
+    "dau hu non",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "hat nem",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

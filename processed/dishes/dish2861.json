@@ -1,0 +1,62 @@
+{
+  "id": "dish2861",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2861.json",
+  "name_vi": "Bánh cà rốt chiên giòn",
+  "name_en": "",
+  "name_normalized": "banh ca rot chien gion",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột chiên giòn",
+    "Cà rốt",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00598",
+    "ingre01419",
+    "ingre06823",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột chiên giòn",
+    "Cà rốt",
+    "Trứng gà",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Puffed Rice Powder",
+    "Carrot",
+    "Chicken egg",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot chien gion",
+    "ca rot",
+    "trung ga",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

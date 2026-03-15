@@ -1,0 +1,86 @@
+{
+  "id": "dish6615",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6615.json",
+  "name_vi": "Trứng chiên chay từ nấm",
+  "name_en": "",
+  "name_normalized": "trung chien chay tu nam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Nấm bào ngư",
+    "Chả lụa chay"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hạt dầu điều"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Bột chiên giòn",
+    "Đường/ tiêu",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre01294",
+    "ingre02673",
+    "ingre02933",
+    "ingre02124",
+    "ingre00598",
+    "ingre07683",
+    "ingre02997"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Chả lụa chay",
+    "Hành lá",
+    "Hạt dầu điều",
+    "Dầu ăn",
+    "Bột chiên giòn",
+    "Đường/ tiêu",
+    "Hạt nêm chay"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Vegetarian blood sausage",
+    "Scallion",
+    "Peanut oil seeds",
+    "Cooking oil",
+    "Puffed Rice Powder",
+    "Sugar/Pepper",
+    "Vegetarian Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "cha lua chay",
+    "hanh la",
+    "hat dau dieu",
+    "dau an",
+    "bot chien gion",
+    "duong tieu",
+    "hat nem chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

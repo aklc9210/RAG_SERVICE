@@ -1,0 +1,58 @@
+{
+  "id": "dish1704",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1704.json",
+  "name_vi": "Bánh Flan caramel",
+  "name_en": "",
+  "name_normalized": "banh flan caramel",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa cô đặc",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường",
+    "Bột gelatin",
+    "Trứng gà",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre07583",
+    "ingre00652",
+    "ingre06823",
+    "ingre06115",
+    "ingre07313",
+    "ingre07140"
+  ],
+  "ingredient_names_vi": [
+    "Đường",
+    "Bột gelatin",
+    "Trứng gà",
+    "Sữa cô đặc",
+    "Whipping cream",
+    "Vani"
+  ],
+  "ingredient_names_en": [
+    "Sugar",
+    "Gelatin powder",
+    "Chicken egg",
+    "Concentrated milk",
+    "Whipping cream",
+    "Vanilla"
+  ],
+  "ingredient_names_normalized": [
+    "duong",
+    "bot gelatin",
+    "trung ga",
+    "sua co dac",
+    "whipping cream",
+    "vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

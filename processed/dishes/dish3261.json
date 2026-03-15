@@ -1,0 +1,93 @@
+{
+  "id": "dish3261",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3261.json",
+  "name_vi": "Chả cá lăng",
+  "name_en": "",
+  "name_normalized": "cha ca lang",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá lăng",
+    "Thì là"
+  ],
+  "secondary_ingredients": [
+    "Hạt màu điều"
+  ],
+  "seasonings": [
+    "Hành tím băm nhỏ",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre06233",
+    "ingre02776",
+    "ingre02377",
+    "ingre02970",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Thì là",
+    "Hành tím băm nhỏ",
+    "Giấm ăn",
+    "Hạt màu điều",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Dill",
+    "Chopped Green Onion",
+    "vinegar",
+    "Pecan",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "thi la",
+    "hanh tim bam nho",
+    "giam an",
+    "hat mau dieu",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

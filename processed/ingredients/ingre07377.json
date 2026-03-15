@@ -1,0 +1,27 @@
+{
+  "id": "ingre07377",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07377.json",
+  "name_vi": "xà lách:",
+  "name_en": "Lettuce",
+  "name_normalized": "xa lach",
+  "synonyms": [
+    "lá diếp",
+    "lá mồng tơi"
+  ],
+  "synonyms_normalized": [
+    "la diep",
+    "la mong toi"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach:",
+      "new": "xa lach",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

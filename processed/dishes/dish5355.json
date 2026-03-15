@@ -1,0 +1,67 @@
+{
+  "id": "dish5355",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5355.json",
+  "name_vi": "Lá đu đủ xào tỏi",
+  "name_en": "",
+  "name_normalized": "la du du xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Rau dớn",
+    "Cà gai"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đọt đu đủ",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07897",
+    "ingre05252",
+    "ingre01379",
+    "ingre07063",
+    "ingre02124",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Đọt đu đủ",
+    "Rau dớn",
+    "Cà gai",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Papaya sprout",
+    "Basil",
+    "Japanese Honeysuckle Vine",
+    "Garlic",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dot du du",
+    "rau don",
+    "ca gai",
+    "toi",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

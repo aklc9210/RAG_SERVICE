@@ -1,0 +1,56 @@
+{
+  "id": "dish6955",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6955.json",
+  "name_vi": "Cá đổng chiên muối ớt",
+  "name_en": "",
+  "name_normalized": "ca dong chien muoi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá đổng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01664",
+    "ingre08055",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá đổng",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Hot pepper",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca dong",
+    "ot sung",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

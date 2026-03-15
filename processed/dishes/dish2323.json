@@ -1,0 +1,98 @@
+{
+  "id": "dish2323",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2323.json",
+  "name_vi": "Bánh su kem nhân đào",
+  "name_en": "",
+  "name_normalized": "banh su kem nhan dao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Đào",
+    "Màu thực phẩm đỏ",
+    "Màu thưc phẩm trắng",
+    "Lá bạc hà"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Chiết xuất vani",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre00564",
+    "ingre07313",
+    "ingre06147",
+    "ingre06823",
+    "ingre07507",
+    "ingre01139",
+    "ingre03891",
+    "ingre03863",
+    "ingre03365",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Bột bắp",
+    "Whipping cream",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Đào",
+    "Chiết xuất vani",
+    "Màu thực phẩm đỏ",
+    "Màu thưc phẩm trắng",
+    "Lá bạc hà",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Corn starch",
+    "Whipping cream",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Peach",
+    "Vanilla extract",
+    "Food Red Dye",
+    "Food Grade White Powder",
+    "Mint Leaf",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "bot bap",
+    "whipping cream",
+    "sua tuoi khong duong",
+    "trung ga",
+    "dao",
+    "chiet xuat vani",
+    "mau thuc pham do",
+    "mau thuc pham trang",
+    "la bac ha",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

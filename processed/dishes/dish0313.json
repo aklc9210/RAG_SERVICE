@@ -1,0 +1,98 @@
+{
+  "id": "dish0313",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0313.json",
+  "name_vi": "Canh khoai sọ thịt gà",
+  "name_en": "",
+  "name_normalized": "canh khoai so thit ga",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Khoai sọ"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Sốt sa tế tôm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre03221",
+    "ingre07071",
+    "ingre02774",
+    "ingre05997",
+    "ingre04694",
+    "ingre02124",
+    "ingre04329",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Khoai sọ",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Sốt sa tế tôm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Ngò gai",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Jicama",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Shrimp Pepper Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Culantro",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "khoai so",
+    "toi bam",
+    "hanh tim bam",
+    "sot sa te tom",
+    "nuoc mam",
+    "dau an",
+    "ngo gai",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

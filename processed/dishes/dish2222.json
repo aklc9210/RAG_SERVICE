@@ -1,0 +1,68 @@
+{
+  "id": "dish2222",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2222.json",
+  "name_vi": "Bánh bò nướng lá dứa bằng nồi cơm điện",
+  "name_en": "",
+  "name_normalized": "banh bo nuong la dua bang noi com dien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước dừa tươi",
+    "Màu lá dứa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Cơm rượu",
+    "Nước cốt lá dứa",
+    "Nước cốt dừa lon",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre01762",
+    "ingre04579",
+    "ingre04626",
+    "ingre04560",
+    "ingre07583",
+    "ingre03858",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Cơm rượu",
+    "Nước cốt lá dứa",
+    "Nước dừa tươi",
+    "Nước cốt dừa lon",
+    "Đường",
+    "Màu lá dứa",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Rice Wine",
+    "Lime juice",
+    "Coconut water",
+    "Coconut Milk Can",
+    "Sugar",
+    "Lime leaf",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "com ruou",
+    "nuoc cot la dua",
+    "nuoc dua tuoi",
+    "nuoc cot dua lon",
+    "duong",
+    "mau la dua",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish6512",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6512.json",
+  "name_vi": "Khô cá lóc chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "kho ca loc chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khô cá lóc"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03252",
+    "ingre07063",
+    "ingre07977",
+    "ingre01354",
+    "ingre02020",
+    "ingre02124",
+    "ingre04694",
+    "ingre03014"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá lóc",
+    "Tỏi",
+    "Ớt bột",
+    "Cà chua",
+    "Dưa leo",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ đường"
+  ],
+  "ingredient_names_en": [
+    "Dried Tilapia Fish",
+    "Garlic",
+    "Chili powder",
+    "Tomato",
+    "Cucumber",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca loc",
+    "toi",
+    "ot bot",
+    "ca chua",
+    "dua leo",
+    "dau an",
+    "nuoc mam",
+    "hat nem duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ duong",
+      "new": "hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ đường"
+    }
+  ]
+}

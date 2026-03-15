@@ -1,0 +1,85 @@
+{
+  "id": "dish7263",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7263.json",
+  "name_vi": "Cá diêu hồng chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "ca dieu hong chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre07977",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Chili powder",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "sa",
+    "ot",
+    "toi",
+    "ot bot",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

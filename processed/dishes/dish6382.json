@@ -1,0 +1,107 @@
+{
+  "id": "dish6382",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6382.json",
+  "name_vi": "Xúc xích phô mai chiên",
+  "name_en": "",
+  "name_normalized": "xuc xich pho mai chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Men khô",
+    "Xúc xích",
+    "Phô mai Mozzarella",
+    "Mì tôm/ mì ramen",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột gạo",
+    "Đường",
+    "Muối",
+    "Trứng",
+    "Bột chiên xù",
+    "Bột bắp",
+    "Nước sốt ăn kèm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00668",
+    "ingre07583",
+    "ingre03746",
+    "ingre03674",
+    "ingre06801",
+    "ingre07396",
+    "ingre05092",
+    "ingre00609",
+    "ingre04005",
+    "ingre03222",
+    "ingre00564",
+    "ingre04778",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột gạo",
+    "Đường",
+    "Muối",
+    "Men khô",
+    "Trứng",
+    "Xúc xích",
+    "Phô mai Mozzarella",
+    "Bột chiên xù",
+    "Mì tôm/ mì ramen",
+    "Khoai tây",
+    "Bột bắp",
+    "Nước sốt ăn kèm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Rice flour",
+    "Sugar",
+    "Salt",
+    "Dried yeast",
+    "Egg",
+    "Sausage",
+    "Mozzarella cheese",
+    "Puffed Rice Powder",
+    "Noodle",
+    "Potato",
+    "Corn starch",
+    "Condiment Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot gao",
+    "duong",
+    "muoi",
+    "men kho",
+    "trung",
+    "xuc xich",
+    "pho mai mozzarella",
+    "bot chien xu",
+    "mi tom mi ramen",
+    "khoai tay",
+    "bot bap",
+    "nuoc sot an kem",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mi tom/ mi ramen",
+      "new": "mi tom mi ramen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mì tôm/ mì ramen"
+    }
+  ]
+}

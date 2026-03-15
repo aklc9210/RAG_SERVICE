@@ -1,0 +1,68 @@
+{
+  "id": "dish1700",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1700.json",
+  "name_vi": "Bánh bông lan trứng muối bằng bột pha sẵn",
+  "name_en": "",
+  "name_normalized": "banh bong lan trung muoi bang bot pha san",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Phô mai bò cười",
+    "Chà bông"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh bông lan pha sẵn",
+    "Trứng muối",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bột bắp",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00527",
+    "ingre06849",
+    "ingre06823",
+    "ingre06147",
+    "ingre00564",
+    "ingre05061",
+    "ingre01202",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh bông lan pha sẵn",
+    "Trứng muối",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bột bắp",
+    "Phô mai bò cười",
+    "Chà bông",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Self-rising flour",
+    "Pickled egg",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Corn starch",
+    "Laughing Cow Cheese",
+    "Pork floss",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh bong lan pha san",
+    "trung muoi",
+    "trung ga",
+    "sua tuoi khong duong",
+    "bot bap",
+    "pho mai bo cuoi",
+    "cha bong",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

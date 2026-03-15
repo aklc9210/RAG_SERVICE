@@ -1,0 +1,109 @@
+{
+  "id": "dish0274",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0274.json",
+  "name_vi": "Canh hà chua ngọt",
+  "name_en": "",
+  "name_normalized": "canh ha chua ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt con hà",
+    "Cà chua",
+    "Quả sấu"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm",
+    "Hành tím",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06348",
+    "ingre01354",
+    "ingre05175",
+    "ingre02673",
+    "ingre05359",
+    "ingre02768",
+    "ingre04165",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt con hà",
+    "Cà chua",
+    "Quả sấu",
+    "Hành lá",
+    "Rau răm",
+    "Hành tím",
+    "Mẻ",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Tomato",
+    "Chinese plum",
+    "Scallion",
+    "Vietnamese coriander",
+    "Shallot",
+    "Tamarind",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit con ha",
+    "ca chua",
+    "qua sau",
+    "hanh la",
+    "rau ram",
+    "hanh tim",
+    "me",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

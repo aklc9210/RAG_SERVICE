@@ -1,0 +1,101 @@
+{
+  "id": "dish7080",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7080.json",
+  "name_vi": "Mực hấp rim mắm tỏi",
+  "name_en": "",
+  "name_normalized": "muc hap rim mam toi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Mước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre07063",
+    "ingre07966",
+    "ingre02485",
+    "ingre02768",
+    "ingre02673",
+    "ingre04102",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Hành tím",
+    "Hành lá",
+    "Mước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Garlic",
+    "Pepper",
+    "Ginger",
+    "Shallot",
+    "Scallion",
+    "Fish sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "toi",
+    "ot",
+    "gung",
+    "hanh tim",
+    "hanh la",
+    "muoc mam",
+    "dau an",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

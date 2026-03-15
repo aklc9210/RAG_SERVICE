@@ -1,0 +1,96 @@
+{
+  "id": "dish0727",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0727.json",
+  "name_vi": "Canh củ từ nấu tôm",
+  "name_en": "",
+  "name_normalized": "canh cu tu nau tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai từ",
+    "Tôm",
+    "Rau ngổ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03235",
+    "ingre06930",
+    "ingre05336",
+    "ingre02768",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Khoai từ",
+    "Tôm",
+    "Rau ngổ",
+    "Hành tím",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Shrimp",
+    "Culantro",
+    "Shallot",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tu",
+    "tom",
+    "rau ngo",
+    "hanh tim",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

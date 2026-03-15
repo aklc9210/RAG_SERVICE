@@ -1,0 +1,106 @@
+{
+  "id": "dish4011",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4011.json",
+  "name_vi": "Đùi gà nướng sả ớt",
+  "name_en": "",
+  "name_normalized": "dui ga nuong sa ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Má đùi gà",
+    "Sả",
+    "Hành củ"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi tép",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt hiểm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Nước tương",
+    "Dầu hào",
+    "Rượu gạo",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03911",
+    "ingre05900",
+    "ingre07105",
+    "ingre02661",
+    "ingre07071",
+    "ingre02774",
+    "ingre08026",
+    "ingre02995",
+    "ingre00819",
+    "ingre04790",
+    "ingre02080",
+    "ingre05531",
+    "ingre04124",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Má đùi gà",
+    "Sả",
+    "Tỏi tép",
+    "Hành củ",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt hiểm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Nước tương",
+    "Dầu hào",
+    "Rượu gạo",
+    "Mật ong",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Lemongrass",
+    "Garlic Clove",
+    "Garlic bulb",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Hot pepper",
+    "Seasoning",
+    "MSG",
+    "Soy Sauce",
+    "Rice wine",
+    "Honey",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ma dui ga",
+    "sa",
+    "toi tep",
+    "hanh cu",
+    "toi bam",
+    "hanh tim bam",
+    "ot hiem",
+    "hat nem",
+    "bot ngot",
+    "nuoc tuong",
+    "dau hao",
+    "ruou gao",
+    "mat ong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

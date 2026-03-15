@@ -1,0 +1,105 @@
+{
+  "id": "dish4572",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4572.json",
+  "name_vi": "Lòng heo xào sả ớt",
+  "name_en": "",
+  "name_normalized": "long heo xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng heo",
+    "Sả",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03572",
+    "ingre05900",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre04694",
+    "ingre02124",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lòng heo",
+    "Sả",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Lemongrass",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "long heo",
+    "sa",
+    "hanh tim",
+    "toi",
+    "ot",
+    "chanh",
+    "nuoc mam",
+    "dau an",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

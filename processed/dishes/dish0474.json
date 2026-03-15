@@ -1,0 +1,116 @@
+{
+  "id": "dish0474",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0474.json",
+  "name_vi": "Mì súp hàu Đài Loan",
+  "name_en": "",
+  "name_normalized": "mi sup hau dai loan",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt hàu",
+    "Mì misua"
+  ],
+  "secondary_ingredients": [
+    "Rau mùi",
+    "Khô mực",
+    "Cá ngừ bào khô",
+    "Nước dùng gà",
+    "Nước"
+  ],
+  "seasonings": [
+    "Tinh bột khoai lang",
+    "Nước tương",
+    "Tỏi",
+    "Gừng",
+    "Tiêu trắng xay với ngò",
+    "Rượu gạo",
+    "Giấm gạo",
+    "Xì dầu",
+    "Bột bắp trộn với 1/2 cốc nước"
+  ],
+  "ingredient_ids": [
+    "ingre06422",
+    "ingre03978",
+    "ingre06565",
+    "ingre04790",
+    "ingre05302",
+    "ingre03262",
+    "ingre07063",
+    "ingre01581",
+    "ingre02485",
+    "ingre06637",
+    "ingre05531",
+    "ingre04607",
+    "ingre02362",
+    "ingre04490",
+    "ingre07381",
+    "ingre00570"
+  ],
+  "ingredient_names_vi": [
+    "Thịt hàu",
+    "Mì misua",
+    "Tinh bột khoai lang",
+    "Nước tương",
+    "Rau mùi",
+    "Khô mực",
+    "Tỏi",
+    "Cá ngừ bào khô",
+    "Gừng",
+    "Tiêu trắng xay với ngò",
+    "Rượu gạo",
+    "Nước dùng gà",
+    "Giấm gạo",
+    "Nước",
+    "Xì dầu",
+    "Bột bắp trộn với 1/2 cốc nước"
+  ],
+  "ingredient_names_en": [
+    "Mussel meat",
+    "Milk丝袜 (This appears to be a mistranslation or a typo in the original Vietnamese. \"mì misua\" is not a",
+    "Sweet Potato Starch",
+    "Soy Sauce",
+    "Mint",
+    "Dried squid",
+    "Garlic",
+    "Dried Codfish",
+    "Ginger",
+    "Ground White Pepper with Chives",
+    "Rice wine",
+    "Chicken broth",
+    "Rice vinegar",
+    "Water",
+    "Cornstarch mixed with 1/2 cup water"
+  ],
+  "ingredient_names_normalized": [
+    "thit hau",
+    "mi misua",
+    "tinh bot khoai lang",
+    "nuoc tuong",
+    "rau mui",
+    "kho muc",
+    "toi",
+    "ca ngu bao kho",
+    "gung",
+    "tieu trang xay voi ngo",
+    "ruou gao",
+    "nuoc dung ga",
+    "giam gao",
+    "nuoc",
+    "xi dau",
+    "bot bap tron voi 1 2 coc nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot bap tron voi 1/2 coc nuoc",
+      "new": "bot bap tron voi 1 2 coc nuoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột bắp trộn với 1/2 cốc nước"
+    }
+  ]
+}

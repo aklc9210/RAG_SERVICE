@@ -1,0 +1,27 @@
+{
+  "id": "ingre07722",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07722.json",
+  "name_vi": "đầu hành lá/ lá hành/ ngò rí",
+  "name_en": "Chives",
+  "name_normalized": "dau hanh la la hanh ngo ri",
+  "synonyms": [
+    "ngò",
+    "hành lá"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "hanh la"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hanh la/ la hanh/ ngo ri",
+      "new": "dau hanh la la hanh ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

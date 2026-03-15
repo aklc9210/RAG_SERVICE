@@ -1,0 +1,29 @@
+{
+  "id": "ingre02808",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02808.json",
+  "name_vi": "hành tím/ tỏi/ hành lá",
+  "name_en": "Garlic/Scallions/Green Onion",
+  "name_normalized": "hanh tim toi hanh la",
+  "synonyms": [
+    "tỏi bạch",
+    "tỏi tây",
+    "hành phi"
+  ],
+  "synonyms_normalized": [
+    "toi bach",
+    "toi tay",
+    "hanh phi"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tim/ toi/ hanh la",
+      "new": "hanh tim toi hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

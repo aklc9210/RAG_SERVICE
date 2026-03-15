@@ -1,0 +1,122 @@
+{
+  "id": "dish3143",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3143.json",
+  "name_vi": "Bánh canh bào ngư",
+  "name_en": "",
+  "name_normalized": "banh canh bao ngu",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương ức gà",
+    "Tôm thẻ",
+    "Trứng cút",
+    "Chả cua"
+  ],
+  "secondary_ingredients": [
+    "Bào ngư",
+    "Hành lá và ngò rí",
+    "Hành tây",
+    "Dầu mè và dầu điều",
+    "Nguyên liệu làm nước tiềm",
+    "Sả"
+  ],
+  "seasonings": [
+    "Bánh canh bột lọc",
+    "Bột năng",
+    "Trứng gà",
+    "Đường phèn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07437",
+    "ingre06957",
+    "ingre00074",
+    "ingre06816",
+    "ingre01264",
+    "ingre00057",
+    "ingre02688",
+    "ingre02741",
+    "ingre02096",
+    "ingre00849",
+    "ingre06823",
+    "ingre04315",
+    "ingre05900",
+    "ingre07635",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Xương ức gà",
+    "Tôm thẻ",
+    "Bánh canh bột lọc",
+    "Trứng cút",
+    "Chả cua",
+    "Bào ngư",
+    "Hành lá và ngò rí",
+    "Hành tây",
+    "Dầu mè và dầu điều",
+    "Bột năng",
+    "Trứng gà",
+    "Nguyên liệu làm nước tiềm",
+    "Sả",
+    "Đường phèn",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Prawn",
+    "Noodle Soup with Vermicelli",
+    "Quail egg",
+    "Shrimp sausage",
+    "Abalone",
+    "Chives and Cilantro",
+    "Onion",
+    "Sesame oil and Peanut oil",
+    "Cornstarch",
+    "Chicken egg",
+    "Soup Base Ingredients",
+    "Lemongrass",
+    "Brown Sugar",
+    "Seasoning",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "xuong uc ga",
+    "tom the",
+    "banh canh bot loc",
+    "trung cut",
+    "cha cua",
+    "bao ngu",
+    "hanh la va ngo ri",
+    "hanh tay",
+    "dau me va dau dieu",
+    "bot nang",
+    "trung ga",
+    "nguyen lieu lam nuoc tiem",
+    "sa",
+    "duong phen",
+    "hat nem",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

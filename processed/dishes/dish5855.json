@@ -1,0 +1,108 @@
+{
+  "id": "dish5855",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5855.json",
+  "name_vi": "Cá đục kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca duc kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá đục",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Tỏi băm",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01665",
+    "ingre04626",
+    "ingre02774",
+    "ingre07071",
+    "ingre08026",
+    "ingre02673",
+    "ingre04694",
+    "ingre04672",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá đục",
+    "Nước dừa tươi",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Ớt hiểm",
+    "Hành lá",
+    "Nước mắm",
+    "Nước màu",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Coconut water",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Hot pepper",
+    "Scallion",
+    "Fish Sauce",
+    "Food coloring",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca duc",
+    "nuoc dua tuoi",
+    "hanh tim bam",
+    "toi bam",
+    "ot hiem",
+    "hanh la",
+    "nuoc mam",
+    "nuoc mau",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

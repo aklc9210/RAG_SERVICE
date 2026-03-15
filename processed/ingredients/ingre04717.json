@@ -1,0 +1,29 @@
+{
+  "id": "ingre04717",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04717.json",
+  "name_vi": "nước mắm/tiêu",
+  "name_en": "Fish Sauce/Pepper",
+  "name_normalized": "nuoc mam tieu",
+  "synonyms": [
+    "mắm tôm",
+    "tiêu xanh",
+    "tiêu đen"
+  ],
+  "synonyms_normalized": [
+    "mam tom",
+    "tieu xanh",
+    "tieu den"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc mam/tieu",
+      "new": "nuoc mam tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish1220",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1220.json",
+  "name_vi": "Bánh mì yến mạch chuối dừa",
+  "name_en": "",
+  "name_normalized": "banh mi yen mach chuoi dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Chuối chín",
+    "Dầu dừa",
+    "Mật ong",
+    "Dừa nạo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột yến mạch",
+    "Bột quế",
+    "Bột baking powder",
+    "Bột baking soda",
+    "Trứng gà",
+    "Đường vanila"
+  ],
+  "ingredient_ids": [
+    "ingre00996",
+    "ingre00888",
+    "ingre00514",
+    "ingre00515",
+    "ingre01163",
+    "ingre02067",
+    "ingre04124",
+    "ingre06823",
+    "ingre02182",
+    "ingre07660"
+  ],
+  "ingredient_names_vi": [
+    "Bột yến mạch",
+    "Bột quế",
+    "Bột baking powder",
+    "Bột baking soda",
+    "Chuối chín",
+    "Dầu dừa",
+    "Mật ong",
+    "Trứng gà",
+    "Dừa nạo",
+    "Đường vanila"
+  ],
+  "ingredient_names_en": [
+    "Oatmeal Powder",
+    "Cinnamon粉",
+    "Baking Powder",
+    "Baking soda",
+    "Banana",
+    "Coconut oil",
+    "Honey",
+    "Chicken egg",
+    "Coconut grated",
+    "Vanilla sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot yen mach",
+    "bot que",
+    "bot baking powder",
+    "bot baking soda",
+    "chuoi chin",
+    "dau dua",
+    "mat ong",
+    "trung ga",
+    "dua nao",
+    "duong vanila"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

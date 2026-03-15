@@ -1,0 +1,102 @@
+{
+  "id": "dish5754",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5754.json",
+  "name_vi": "Thịt bò kho cà rốt",
+  "name_en": "",
+  "name_normalized": "thit bo kho ca rot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Dẻ sườn bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Gói bò kho nước"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Gói bột gia vị bò kho",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre02142",
+    "ingre01419",
+    "ingre05900",
+    "ingre02774",
+    "ingre07071",
+    "ingre04694",
+    "ingre02124",
+    "ingre02418",
+    "ingre02420",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644",
+    "ingre05574"
+  ],
+  "ingredient_names_vi": [
+    "Dẻ sườn bò",
+    "Cà rốt",
+    "Sả",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Gói bò kho nước",
+    "Gói bột gia vị bò kho",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Rượu trắng"
+  ],
+  "ingredient_names_en": [
+    "Beef rib",
+    "Carrot",
+    "Lemongrass",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Beef Soup Packet",
+    "Bovine Curry Powder Packet",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "de suon bo",
+    "ca rot",
+    "sa",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc mam",
+    "dau an",
+    "goi bo kho nuoc",
+    "goi bot gia vi bo kho",
+    "hat nem",
+    "duong",
+    "tieu xay",
+    "ruou trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

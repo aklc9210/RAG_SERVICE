@@ -1,0 +1,102 @@
+{
+  "id": "dish4221",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4221.json",
+  "name_vi": "Bánh ướt heo quay",
+  "name_en": "",
+  "name_normalized": "banh uot heo quay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Tỏi băm",
+    "Ớt băm",
+    "Hành tím phi",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối hạt",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre00668",
+    "ingre00849",
+    "ingre07071",
+    "ingre07971",
+    "ingre02789",
+    "ingre02020",
+    "ingre05420",
+    "ingre01079",
+    "ingre02124",
+    "ingre04694",
+    "ingre03760",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Bột gạo",
+    "Bột năng",
+    "Tỏi băm",
+    "Ớt băm",
+    "Hành tím phi",
+    "Dưa leo",
+    "Rau ăn kèm",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối hạt",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Rice flour",
+    "Cornstarch",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Green onion fried",
+    "Cucumber",
+    "Side vegetable",
+    "Lemon",
+    "Cooking oil",
+    "Fish Sauce",
+    "Fenugreek seeds",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "bot gao",
+    "bot nang",
+    "toi bam",
+    "ot bam",
+    "hanh tim phi",
+    "dua leo",
+    "rau an kem",
+    "chanh",
+    "dau an",
+    "nuoc mam",
+    "muoi hat",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

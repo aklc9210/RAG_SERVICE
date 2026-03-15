@@ -1,0 +1,101 @@
+{
+  "id": "dish0603",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0603.json",
+  "name_vi": "Canh chùm ngây nấu tôm tươi",
+  "name_en": "",
+  "name_normalized": "canh chum ngay nau tom tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau chùm ngây",
+    "Tôm tươi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05217",
+    "ingre06963",
+    "ingre02768",
+    "ingre02673",
+    "ingre04343",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Rau chùm ngây",
+    "Tôm tươi",
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Watercress",
+    "Fresh shrimp",
+    "Shallot",
+    "Scallion",
+    "Parsley",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "rau chum ngay",
+    "tom tuoi",
+    "hanh tim",
+    "hanh la",
+    "ngo ri",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "dish7778",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7778.json",
+  "name_vi": "Lẩu cá lăng bông so đũa",
+  "name_en": "",
+  "name_normalized": "lau ca lang bong so dua",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá lăng",
+    "Bông so đũa",
+    "Rau nhút"
+  ],
+  "secondary_ingredients": [
+    "Rau muống cọng",
+    "Nấm kim châm",
+    "Cà chua",
+    "Sả",
+    "Rau thơm",
+    "Rau tần"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre00290",
+    "ingre05342",
+    "ingre05293",
+    "ingre04921",
+    "ingre01354",
+    "ingre05900",
+    "ingre05385",
+    "ingre05406",
+    "ingre08055",
+    "ingre02124",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Bông so đũa",
+    "Rau nhút",
+    "Rau muống cọng",
+    "Nấm kim châm",
+    "Cà chua",
+    "Sả",
+    "Rau thơm",
+    "Rau tần",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Chinese cabbage",
+    "Water spinach",
+    "Watercress",
+    "Mushroom",
+    "Tomato",
+    "Lemongrass",
+    "Basil",
+    "Cilantro",
+    "Hot pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "bong so dua",
+    "rau nhut",
+    "rau muong cong",
+    "nam kim cham",
+    "ca chua",
+    "sa",
+    "rau thom",
+    "rau tan",
+    "ot sung",
+    "dau an",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "dish8149",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8149.json",
+  "name_vi": "Gỏi nấm tuyết thịt heo chiên",
+  "name_en": "",
+  "name_normalized": "goi nam tuyet thit heo chien",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Nấm tuyết",
+    "Thịt heo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cần tây",
+    "Ngò gai",
+    "Rau quế",
+    "Húng lủi",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04962",
+    "ingre06398",
+    "ingre01419",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre01812",
+    "ingre04329",
+    "ingre05354",
+    "ingre02859",
+    "ingre07781",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Nấm tuyết",
+    "Thịt heo",
+    "Cà rốt",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Cần tây",
+    "Ngò gai",
+    "Rau quế",
+    "Húng lủi",
+    "Đậu phộng",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Pork",
+    "Carrot",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Celery",
+    "Culantro",
+    "Sage",
+    "Peppermint",
+    "Peanut",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam tuyet",
+    "thit heo",
+    "ca rot",
+    "hanh tay",
+    "toi",
+    "ot",
+    "chanh",
+    "can tay",
+    "ngo gai",
+    "rau que",
+    "hung lui",
+    "dau phong",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish0188",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0188.json",
+  "name_vi": "Súp cá hồi",
+  "name_en": "",
+  "name_normalized": "sup ca hoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Phi lê cá hồi",
+    "Hạt sen tươi",
+    "Đậu Hà Lan"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Thì là",
+    "Nước dùng xương gà"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng băm",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05034",
+    "ingre03032",
+    "ingre07736",
+    "ingre01419",
+    "ingre02741",
+    "ingre06233",
+    "ingre02492",
+    "ingre04613",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá hồi",
+    "Hạt sen tươi",
+    "Đậu Hà Lan",
+    "Cà rốt",
+    "Hành tây",
+    "Thì là",
+    "Gừng băm",
+    "Nước dùng xương gà",
+    "Đường",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Fresh lotus seeds",
+    "Green beans",
+    "Carrot",
+    "Onion",
+    "Dill",
+    "Ginger paste",
+    "Chicken Bone Broth",
+    "Sugar",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca hoi",
+    "hat sen tuoi",
+    "dau ha lan",
+    "ca rot",
+    "hanh tay",
+    "thi la",
+    "gung bam",
+    "nuoc dung xuong ga",
+    "duong",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "dish7302",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7302.json",
+  "name_vi": "Cải thảo cuộn thịt chiên giòn",
+  "name_en": "",
+  "name_normalized": "cai thao cuon thit chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo",
+    "Cải thảo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Tỏi",
+    "Ớt đỏ",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre01793",
+    "ingre00791",
+    "ingre00598",
+    "ingre06823",
+    "ingre02768",
+    "ingre07063",
+    "ingre08097",
+    "ingre04343",
+    "ingre04694",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Cải thảo",
+    "Bột mì đa dụng",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Hành tím",
+    "Tỏi",
+    "Ớt đỏ",
+    "Ngò rí",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Cabbage",
+    "All-purpose flour",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Shallot",
+    "Garlic",
+    "Red pepper",
+    "Parsley",
+    "Fish Sauce",
+    "Pepper",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "cai thao",
+    "bot mi da dung",
+    "bot chien gion",
+    "trung ga",
+    "hanh tim",
+    "toi",
+    "ot do",
+    "ngo ri",
+    "nuoc mam",
+    "tieu",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

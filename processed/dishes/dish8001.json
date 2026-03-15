@@ -1,0 +1,129 @@
+{
+  "id": "dish8001",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8001.json",
+  "name_vi": "Gỏi đọt choại khô cá lóc tôm",
+  "name_en": "",
+  "name_normalized": "goi dot choai kho ca loc tom",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau râm",
+    "Xoài sống",
+    "Tôm",
+    "Khô cá lóc"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Bánh phồng tôm",
+    "Đá viên",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Đọt choại",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tỏi",
+    "Ớt sừng đỏ",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre07891",
+    "ingre05357",
+    "ingre07340",
+    "ingre06930",
+    "ingre03252",
+    "ingre07791",
+    "ingre02124",
+    "ingre04694",
+    "ingre07063",
+    "ingre08071",
+    "ingre00135",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre01079",
+    "ingre07522",
+    "ingre05359"
+  ],
+  "ingredient_names_vi": [
+    "Đọt choại",
+    "Rau râm",
+    "Xoài sống",
+    "Tôm",
+    "Khô cá lóc",
+    "Đậu phộng rang",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tỏi",
+    "Ớt sừng đỏ",
+    "Bánh phồng tôm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Chanh",
+    "Đá viên",
+    "Rau răm"
+  ],
+  "ingredient_names_en": [
+    "Mustard greens",
+    "Vietnamese coriander",
+    "Mango",
+    "Shrimp",
+    "Dried Tilapia Fish",
+    "Roasted Peanut",
+    "Cooking oil",
+    "Fish Sauce",
+    "Garlic",
+    "Red Hot Pepper",
+    "Puffed Shrimp Cake",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Lemon",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "dot choai",
+    "rau ram",
+    "xoai song",
+    "tom",
+    "kho ca loc",
+    "dau phong rang",
+    "dau an",
+    "nuoc mam",
+    "toi",
+    "ot sung do",
+    "banh phong tom",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "chanh",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau râm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

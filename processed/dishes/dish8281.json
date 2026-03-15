@@ -1,0 +1,114 @@
+{
+  "id": "dish8281",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8281.json",
+  "name_vi": "Gỏi cóc tai heo",
+  "name_en": "",
+  "name_normalized": "goi coc tai heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Cóc non",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt sừng",
+    "Ớt băm",
+    "Tỏi băm",
+    "Nước cốt me",
+    "Nước mắm",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre01711",
+    "ingre07057",
+    "ingre05900",
+    "ingre02485",
+    "ingre02768",
+    "ingre08055",
+    "ingre07971",
+    "ingre07071",
+    "ingre04581",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Cóc non",
+    "Tắc",
+    "Sả",
+    "Gừng",
+    "Hành tím",
+    "Ớt sừng",
+    "Ớt băm",
+    "Tỏi băm",
+    "Nước cốt me",
+    "Nước mắm",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Frogspawn",
+    "Tamarind",
+    "Lemongrass",
+    "Ginger",
+    "Shallot",
+    "Hot pepper",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Lime juice",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "coc non",
+    "tac",
+    "sa",
+    "gung",
+    "hanh tim",
+    "ot sung",
+    "ot bam",
+    "toi bam",
+    "nuoc cot me",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

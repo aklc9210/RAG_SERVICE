@@ -1,0 +1,86 @@
+{
+  "id": "dish2038",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2038.json",
+  "name_vi": "Rice pudding - Bánh pudding gạo sữa cốt dừa xoài",
+  "name_en": "",
+  "name_normalized": "rice pudding banh pudding gao sua cot dua xoai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo Arborio",
+    "Xoài",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Sữa tươi không đường",
+    "Đường",
+    "Muối",
+    "Bột ngũ vị hương"
+  ],
+  "ingredient_ids": [
+    "ingre02437",
+    "ingre07329",
+    "ingre00382",
+    "ingre04554",
+    "ingre03584",
+    "ingre06147",
+    "ingre07583",
+    "ingre03746",
+    "ingre06592",
+    "ingre00815"
+  ],
+  "ingredient_names_vi": [
+    "Gạo Arborio",
+    "Xoài",
+    "Bơ lạt",
+    "Nước cốt dừa",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi không đường",
+    "Đường",
+    "Muối",
+    "Tinh chất vani",
+    "Bột ngũ vị hương"
+  ],
+  "ingredient_names_en": [
+    "Arborio rice",
+    "Mango",
+    "Butter",
+    "Coconut milk",
+    "Egg yolk",
+    "Fat-free Milk",
+    "Sugar",
+    "Salt",
+    "Vanilla extract",
+    "Five-Spice Powder"
+  ],
+  "ingredient_names_normalized": [
+    "gao arborio",
+    "xoai",
+    "bo lat",
+    "nuoc cot dua",
+    "long do trung ga",
+    "sua tuoi khong duong",
+    "duong",
+    "muoi",
+    "tinh chat vani",
+    "bot ngu vi huong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rice pudding - banh pudding gao sua cot dua xoai",
+      "new": "rice pudding banh pudding gao sua cot dua xoai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "dish3310",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3310.json",
+  "name_vi": "Bánh canh gà",
+  "name_en": "",
+  "name_normalized": "banh canh ga",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bánh canh",
+    "Thịt gà",
+    "Củ cải trắng",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Củ hành tím",
+    "Giá đỗ",
+    "Hành lá",
+    "Ngò rí",
+    "Hẹ"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00071",
+    "ingre06380",
+    "ingre01419",
+    "ingre01868",
+    "ingre04953",
+    "ingre01887",
+    "ingre02337",
+    "ingre02673",
+    "ingre04343",
+    "ingre07966",
+    "ingre03085",
+    "ingre01079",
+    "ingre02124",
+    "ingre02995",
+    "ingre07583",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bánh canh",
+    "Thịt gà",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Nấm rơm",
+    "Củ hành tím",
+    "Giá đỗ",
+    "Hành lá",
+    "Ngò rí",
+    "Ớt",
+    "Hẹ",
+    "Chanh",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Snail Soup",
+    "Chicken",
+    "Carrot",
+    "White radish",
+    "Strawberry mushroom",
+    "Purple onion",
+    "Bean sprouts",
+    "Scallion",
+    "Parsley",
+    "Pepper",
+    "Garlic Chives",
+    "Lemon",
+    "Cooking oil",
+    "Seasoning",
+    "Sugar",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh canh",
+    "thit ga",
+    "ca rot",
+    "cu cai trang",
+    "nam rom",
+    "cu hanh tim",
+    "gia do",
+    "hanh la",
+    "ngo ri",
+    "ot",
+    "he",
+    "chanh",
+    "dau an",
+    "hat nem",
+    "duong",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

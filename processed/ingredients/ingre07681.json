@@ -1,0 +1,27 @@
+{
+  "id": "ingre07681",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07681.json",
+  "name_vi": "đường/ muối/ tiêu hạt",
+  "name_en": "Sugar/Salt/Black Pepper",
+  "name_normalized": "duong muoi tieu hat",
+  "synonyms": [
+    "muối nở",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "muoi no",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ muoi/ tieu hat",
+      "new": "duong muoi tieu hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

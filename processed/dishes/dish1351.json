@@ -1,0 +1,117 @@
+{
+  "id": "dish1351",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1351.json",
+  "name_vi": "Bánh bao đào tiên",
+  "name_en": "",
+  "name_normalized": "banh bao dao tien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Bơ lạt."
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Whipping cream",
+    "Tangzhong",
+    "Dền"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Vani nước",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Men nở",
+    "Đường",
+    "Muối",
+    "Bột nở",
+    "Lòng trắng trứng"
+  ],
+  "ingredient_ids": [
+    "ingre03584",
+    "ingre00564",
+    "ingre04554",
+    "ingre07146",
+    "ingre00395",
+    "ingre06144",
+    "ingre00759",
+    "ingre06147",
+    "ingre03686",
+    "ingre07583",
+    "ingre03746",
+    "ingre00867",
+    "ingre07313",
+    "ingre03579",
+    "ingre06193",
+    "ingre02144"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng gà",
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Vani nước",
+    "Bơ lạt.",
+    "Sữa tươi",
+    "Bột mì",
+    "Sữa tươi không đường",
+    "Men nở",
+    "Đường",
+    "Muối",
+    "Bột nở",
+    "Whipping cream",
+    "Lòng trắng trứng",
+    "Tangzhong",
+    "Dền"
+  ],
+  "ingredient_names_en": [
+    "Egg yolk",
+    "Corn starch",
+    "Coconut milk",
+    "Vanilla water",
+    "Butterleaf",
+    "Fresh Milk",
+    "Wheat Flour",
+    "Fat-free Milk",
+    "Baking Powder",
+    "Sugar",
+    "Salt",
+    "Whipping cream",
+    "Egg white",
+    "Sourdough starter",
+    "Bitter Melon"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung ga",
+    "bot bap",
+    "nuoc cot dua",
+    "vani nuoc",
+    "bo lat",
+    "sua tuoi",
+    "bot mi",
+    "sua tuoi khong duong",
+    "men no",
+    "duong",
+    "muoi",
+    "bot no",
+    "whipping cream",
+    "long trang trung",
+    "tangzhong",
+    "den"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bo lat.",
+      "new": "bo lat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bơ lạt."
+    }
+  ]
+}

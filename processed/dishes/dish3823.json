@@ -1,0 +1,74 @@
+{
+  "id": "dish3823",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3823.json",
+  "name_vi": "Cá bò giáp nướng sa tế",
+  "name_en": "",
+  "name_normalized": "ca bo giap nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá bò giáp"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt xay",
+    "Sa tế",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01469",
+    "ingre07063",
+    "ingre08087",
+    "ingre05621",
+    "ingre02124",
+    "ingre04790",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Cá bò giáp",
+    "Tỏi",
+    "Ớt xay",
+    "Sa tế",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Cowtail Fish",
+    "Garlic",
+    "Ground Chili Pepper",
+    "Fish sauce",
+    "Cooking oil",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca bo giap",
+    "toi",
+    "ot xay",
+    "sa te",
+    "dau an",
+    "nuoc tuong",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

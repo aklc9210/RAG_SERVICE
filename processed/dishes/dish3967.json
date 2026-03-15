@@ -1,0 +1,107 @@
+{
+  "id": "dish3967",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3967.json",
+  "name_vi": "Thịt nướng Hàn Quốc bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "thit nuong han quoc bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Cải bó xôi"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè",
+    "Hành tây",
+    "Mè",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Rượu sake",
+    "Nước tương",
+    "Bột ớt Hàn Quốc",
+    "Sốt Gochujang",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre02485",
+    "ingre01771",
+    "ingre07063",
+    "ingre02094",
+    "ingre02741",
+    "ingre05564",
+    "ingre03925",
+    "ingre04790",
+    "ingre04124",
+    "ingre01023",
+    "ingre05958",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Gừng",
+    "Cải bó xôi",
+    "Tỏi",
+    "Dầu mè",
+    "Hành tây",
+    "Rượu sake",
+    "Mè",
+    "Nước tương",
+    "Mật ong",
+    "Bột ớt Hàn Quốc",
+    "Sốt Gochujang",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Ginger",
+    "Bokchoy",
+    "Garlic",
+    "Sesame oil",
+    "Onion",
+    "Sake",
+    "Tamarind",
+    "Soy Sauce",
+    "Honey",
+    "Korean Chili Powder",
+    "Gochujang Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "gung",
+    "cai bo xoi",
+    "toi",
+    "dau me",
+    "hanh tay",
+    "ruou sake",
+    "me",
+    "nuoc tuong",
+    "mat ong",
+    "bot ot han quoc",
+    "sot gochujang",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

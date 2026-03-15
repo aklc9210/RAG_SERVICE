@@ -1,0 +1,87 @@
+{
+  "id": "dish0512",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0512.json",
+  "name_vi": "Canh dưỡng nhan",
+  "name_en": "",
+  "name_normalized": "canh duong nhan",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Táo đỏ khô",
+    "Hạt sen",
+    "Củ sen"
+  ],
+  "secondary_ingredients": [
+    "Nấm đông cô tươi",
+    "Hạt đậu hà lan",
+    "Bắp mỹ",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06912",
+    "ingre03029",
+    "ingre01916",
+    "ingre01419",
+    "ingre04971",
+    "ingre03075",
+    "ingre00479",
+    "ingre04343",
+    "ingre02997",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Táo đỏ khô",
+    "Hạt sen",
+    "Củ sen",
+    "Cà rốt",
+    "Nấm đông cô tươi",
+    "Hạt đậu hà lan",
+    "Bắp mỹ",
+    "Ngò rí",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Dried Persimmon",
+    "Lotus seed",
+    "Lotus root",
+    "Carrot",
+    "Fresh enoki mushrooms",
+    "Green bean seed",
+    "Corn",
+    "Parsley",
+    "Vegetarian Seasoning",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tao do kho",
+    "hat sen",
+    "cu sen",
+    "ca rot",
+    "nam dong co tuoi",
+    "hat dau ha lan",
+    "bap my",
+    "ngo ri",
+    "hat nem chay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

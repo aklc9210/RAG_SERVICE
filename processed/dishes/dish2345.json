@@ -1,0 +1,78 @@
+{
+  "id": "dish2345",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2345.json",
+  "name_vi": "Bánh táo nhân kem Custard ngàn lớp",
+  "name_en": "",
+  "name_normalized": "banh tao nhan kem custard ngan lop",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Táo"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Vỏ bánh ngàn lớp",
+    "Lòng đỏ trứng gà",
+    "Tinh chất vani",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Bột làm bánh",
+    "Đường",
+    "Nước chanh",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre06890",
+    "ingre00716",
+    "ingre07583",
+    "ingre00367",
+    "ingre04509",
+    "ingre07233",
+    "ingre03584",
+    "ingre06592",
+    "ingre06144",
+    "ingre06823"
+  ],
+  "ingredient_names_vi": [
+    "Táo",
+    "Bột làm bánh",
+    "Đường",
+    "Bơ",
+    "Nước chanh",
+    "Vỏ bánh ngàn lớp",
+    "Lòng đỏ trứng gà",
+    "Tinh chất vani",
+    "Sữa tươi",
+    "Trứng gà"
+  ],
+  "ingredient_names_en": [
+    "Apple",
+    "Baking powder",
+    "Sugar",
+    "Butter",
+    "Lemon juice",
+    "Pastry skin",
+    "Egg yolk",
+    "Vanilla extract",
+    "Fresh Milk",
+    "Chicken egg"
+  ],
+  "ingredient_names_normalized": [
+    "tao",
+    "bot lam banh",
+    "duong",
+    "bo",
+    "nuoc chanh",
+    "vo banh ngan lop",
+    "long do trung ga",
+    "tinh chat vani",
+    "sua tuoi",
+    "trung ga"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": []
+}

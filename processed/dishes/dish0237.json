@@ -1,0 +1,92 @@
+{
+  "id": "dish0237",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0237.json",
+  "name_vi": "Cù lao chay",
+  "name_en": "",
+  "name_normalized": "cu lao chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bó đòn chay",
+    "Bắp cải"
+  ],
+  "secondary_ingredients": [
+    "Su su",
+    "Nấm rơm",
+    "Rau hẹ",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Hạt nêm chay",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00272",
+    "ingre00457",
+    "ingre01419",
+    "ingre05790",
+    "ingre04953",
+    "ingre05274",
+    "ingre02702",
+    "ingre02997",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bó đòn chay",
+    "Bắp cải",
+    "Cà rốt",
+    "Su su",
+    "Nấm rơm",
+    "Rau hẹ",
+    "Hành lá/ ngò rí",
+    "Hạt nêm chay",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Faux Tofu",
+    "Cabbage",
+    "Carrot",
+    "Bamboo shoot",
+    "Strawberry mushroom",
+    "Garlic Chives",
+    "Chives",
+    "Vegetarian Seasoning",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bo don chay",
+    "bap cai",
+    "ca rot",
+    "su su",
+    "nam rom",
+    "rau he",
+    "hanh la ngo ri",
+    "hat nem chay",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

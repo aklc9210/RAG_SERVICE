@@ -1,0 +1,25 @@
+{
+  "id": "ingre02668",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02668.json",
+  "name_vi": "hành khô & tỏi",
+  "name_en": "Garlic & Dried Garlic",
+  "name_normalized": "hanh kho toi",
+  "synonyms": [
+    "tỏi khô"
+  ],
+  "synonyms_normalized": [
+    "toi kho"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh kho & toi",
+      "new": "hanh kho toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

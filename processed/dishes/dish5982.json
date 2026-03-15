@@ -1,0 +1,83 @@
+{
+  "id": "dish5982",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5982.json",
+  "name_vi": "Đậu hũ kho sả ớt",
+  "name_en": "",
+  "name_normalized": "dau hu kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Đậu hũ chiên",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07742",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre04790",
+    "ingre02997",
+    "ingre02124",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ chiên",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Nước tương",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fried Tofu",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Soy Sauce",
+    "Vegetarian Seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu chien",
+    "sa",
+    "toi",
+    "ot",
+    "nuoc tuong",
+    "hat nem chay",
+    "dau an",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

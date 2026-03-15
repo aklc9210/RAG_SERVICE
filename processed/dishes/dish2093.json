@@ -1,0 +1,68 @@
+{
+  "id": "dish2093",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2093.json",
+  "name_vi": "Bánh quy sữa mini",
+  "name_en": "",
+  "name_normalized": "banh quy sua mini",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột Cake flour",
+    "Bột bắp",
+    "Trứng gà",
+    "Bột nở",
+    "Sữa bột",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00584",
+    "ingre00564",
+    "ingre06823",
+    "ingre00382",
+    "ingre00867",
+    "ingre06083",
+    "ingre07589",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Bột Cake flour",
+    "Bột bắp",
+    "Trứng gà",
+    "Bơ lạt",
+    "Bột nở",
+    "Sữa bột",
+    "Đường bột",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Corn starch",
+    "Chicken egg",
+    "Butter",
+    "Baking powder",
+    "Milk Powder",
+    "Sugar Powder",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "bot cake flour",
+    "bot bap",
+    "trung ga",
+    "bo lat",
+    "bot no",
+    "sua bot",
+    "duong bot",
+    "mat ong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

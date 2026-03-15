@@ -1,0 +1,66 @@
+{
+  "id": "dish9897",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9897.json",
+  "name_vi": "Sinh tố khoai lang, khoai môn",
+  "name_en": "",
+  "name_normalized": "sinh to khoai lang khoai mon",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Khoai lang"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Nước đá"
+  ],
+  "seasonings": [
+    "Nước cốt khoai môn tím",
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03186",
+    "ingre04577",
+    "ingre06147",
+    "ingre06174",
+    "ingre04853",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang",
+    "Nước cốt khoai môn tím",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Nước đá",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Purple yam juice",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Ice cube",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang",
+    "nuoc cot khoai mon tim",
+    "sua tuoi khong duong",
+    "sua dac",
+    "nuoc da",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to khoai lang, khoai mon",
+      "new": "sinh to khoai lang khoai mon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

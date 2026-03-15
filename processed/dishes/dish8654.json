@@ -1,0 +1,89 @@
+{
+  "id": "dish8654",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8654.json",
+  "name_vi": "Chân bò hầm thuốc bắc",
+  "name_en": "",
+  "name_normalized": "chan bo ham thuoc bac",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Chân giò"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Gia vị thuốc bắc",
+    "Ớt",
+    "Dầu ăn",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01231",
+    "ingre02312",
+    "ingre02768",
+    "ingre07966",
+    "ingre05900",
+    "ingre02124",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò",
+    "Gia vị thuốc bắc",
+    "Hành tím",
+    "Ớt",
+    "Sả",
+    "Dầu ăn",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork hock",
+    "Chinese herb seasoning",
+    "Shallot",
+    "Pepper",
+    "Lemongrass",
+    "Cooking oil",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio",
+    "gia vi thuoc bac",
+    "hanh tim",
+    "ot",
+    "sa",
+    "dau an",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Chân giò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

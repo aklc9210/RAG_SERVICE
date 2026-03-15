@@ -1,0 +1,92 @@
+{
+  "id": "dish2716",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2716.json",
+  "name_vi": "Bánh trung thu nướng nhân trà xanh",
+  "name_en": "",
+  "name_normalized": "banh trung thu nuong nhan tra xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Bơ đậu phộng",
+    "Lòng đỏ trứng gà",
+    "Sữa"
+  ],
+  "seasonings": [
+    "Đường",
+    "Dầu ăn",
+    "Bột mì",
+    "Bột matcha",
+    "Bột mì đa dụng",
+    "Baking soda (Muối nở)",
+    "Nước đường bánh nướng"
+  ],
+  "ingredient_ids": [
+    "ingre07836",
+    "ingre07583",
+    "ingre02124",
+    "ingre00759",
+    "ingre00736",
+    "ingre00791",
+    "ingre00019",
+    "ingre00416",
+    "ingre03584",
+    "ingre04860",
+    "ingre06078"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh",
+    "Đường",
+    "Dầu ăn",
+    "Bột mì",
+    "Bột matcha",
+    "Bột mì đa dụng",
+    "Baking soda (Muối nở)",
+    "Bơ đậu phộng",
+    "Lòng đỏ trứng gà",
+    "Nước đường bánh nướng",
+    "Sữa"
+  ],
+  "ingredient_names_en": [
+    "Green beans",
+    "Sugar",
+    "Cooking oil",
+    "Wheat Flour",
+    "Matcha Powder",
+    "All-purpose flour",
+    "Baking Soda",
+    "Peanut butter",
+    "Egg yolk",
+    "Syrup for baked goods",
+    "Milk"
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh",
+    "duong",
+    "dau an",
+    "bot mi",
+    "bot matcha",
+    "bot mi da dung",
+    "baking soda muoi no",
+    "bo dau phong",
+    "long do trung ga",
+    "nuoc duong banh nuong",
+    "sua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "baking soda (muoi no)",
+      "new": "baking soda muoi no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Baking soda (Muối nở)"
+    }
+  ]
+}

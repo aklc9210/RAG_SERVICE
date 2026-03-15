@@ -1,0 +1,96 @@
+{
+  "id": "dish0479",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0479.json",
+  "name_vi": "Canh tôm nấu cần nước",
+  "name_en": "",
+  "name_normalized": "canh tom nau can nuoc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm sú",
+    "Cà chua bi",
+    "Rau cần nước"
+  ],
+  "secondary_ingredients": [
+    "Giò sống",
+    "Hành tím cắt lát",
+    "Hành lá",
+    "Mỡ nước"
+  ],
+  "seasonings": [
+    "Lòng trắng trứng gà",
+    "Nước mắm",
+    "Muối; đường; bột ngọt; tiêu xay; hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06953",
+    "ingre01355",
+    "ingre05239",
+    "ingre03580",
+    "ingre02350",
+    "ingre02777",
+    "ingre02673",
+    "ingre04694",
+    "ingre04207",
+    "ingre03835"
+  ],
+  "ingredient_names_vi": [
+    "Tôm sú",
+    "Cà chua bi",
+    "Rau cần nước",
+    "Lòng trắng trứng gà",
+    "Giò sống",
+    "Hành tím cắt lát",
+    "Hành lá",
+    "Nước mắm",
+    "Mỡ nước",
+    "Muối; đường; bột ngọt; tiêu xay; hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Tomato",
+    "Water celery",
+    "Egg white",
+    "Fresh sausage",
+    "Green onion slices",
+    "Scallion",
+    "Fish Sauce",
+    "Vegetable oil",
+    "Salt; Sugar; Monosodium Glutamate; Ground Pepper; Seasoning Powder ->"
+  ],
+  "ingredient_names_normalized": [
+    "tom su",
+    "ca chua bi",
+    "rau can nuoc",
+    "long trang trung ga",
+    "gio song",
+    "hanh tim cat lat",
+    "hanh la",
+    "nuoc mam",
+    "mo nuoc",
+    "muoi duong bot ngot tieu xay hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi; duong; bot ngot; tieu xay; hat nem",
+      "new": "muoi duong bot ngot tieu xay hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối; đường; bột ngọt; tiêu xay; hạt nêm"
+    }
+  ]
+}

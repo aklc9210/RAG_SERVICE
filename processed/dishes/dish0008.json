@@ -1,0 +1,83 @@
+{
+  "id": "dish0008",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0008.json",
+  "name_vi": "Canh đậu xanh",
+  "name_en": "",
+  "name_normalized": "canh dau xanh",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Thịt băm",
+    "Hành tím",
+    "Nước"
+  ],
+  "seasonings": [
+    "Muối",
+    "Bột canh",
+    "Nước mắm",
+    "Dầu ăn hoặc mỡ heo"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre07836",
+    "ingre06329",
+    "ingre02768",
+    "ingre03746",
+    "ingre00587",
+    "ingre04694",
+    "ingre04490",
+    "ingre02128"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Đậu xanh",
+    "Thịt băm",
+    "Hành tím",
+    "Muối",
+    "Bột canh",
+    "Nước mắm",
+    "Nước",
+    "Dầu ăn hoặc mỡ heo"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Green beans",
+    "Minced meat",
+    "Shallot",
+    "Salt",
+    "Cornstarch",
+    "Fish Sauce",
+    "Water",
+    "Cooking Oil or Lard"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "dau xanh",
+    "thit bam",
+    "hanh tim",
+    "muoi",
+    "bot canh",
+    "nuoc mam",
+    "nuoc",
+    "dau an hoac mo heo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

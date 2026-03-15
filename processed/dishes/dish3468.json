@@ -1,0 +1,116 @@
+{
+  "id": "dish3468",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3468.json",
+  "name_vi": "Bún ốc bươu sườn non",
+  "name_en": "",
+  "name_normalized": "bun oc buou suon non",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún tươi",
+    "Thịt ốc bươu",
+    "Sườn non",
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Mỡ lợn",
+    "Cà chua",
+    "Khế chua",
+    "Rau thơm ăn kèm",
+    "Hành tím",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Giấm",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre06540",
+    "ingre05888",
+    "ingre07740",
+    "ingre04203",
+    "ingre01354",
+    "ingre03269",
+    "ingre05391",
+    "ingre02768",
+    "ingre07063",
+    "ingre02355",
+    "ingre02124",
+    "ingre03818",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Thịt ốc bươu",
+    "Sườn non",
+    "Đậu hũ",
+    "Mỡ lợn",
+    "Cà chua",
+    "Khế chua",
+    "Rau thơm ăn kèm",
+    "Hành tím",
+    "Tỏi",
+    "Giấm",
+    "Dầu ăn",
+    "Muối/ đường",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "Pork belly",
+    "Rib Steak",
+    "Tofu",
+    "Pork fat",
+    "Tomato",
+    "Tamarind",
+    "Basil",
+    "Shallot",
+    "Garlic",
+    "Vinegar",
+    "Cooking oil",
+    "Salt/Sugar",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "thit oc buou",
+    "suon non",
+    "dau hu",
+    "mo lon",
+    "ca chua",
+    "khe chua",
+    "rau thom an kem",
+    "hanh tim",
+    "toi",
+    "giam",
+    "dau an",
+    "muoi duong",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "dish3986",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3986.json",
+  "name_vi": "Chạo chay nướng",
+  "name_en": "",
+  "name_normalized": "chao chay nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Đậu hũ trắng (1 bìa)",
+    "Tàu hũ ky khô",
+    "Khoai môn cỡ vừa"
+  ],
+  "secondary_ingredients": [
+    "Cọn hành boarô",
+    "Hành boarô (1 cọng)",
+    "Củ riềng",
+    "Mía lau (6 khúc mía)",
+    "Bơ đậu phộng",
+    "Mè vàng",
+    "Đậu xanh không vỏ",
+    "Nước dừa xiêm"
+  ],
+  "seasonings": [
+    "Tương nếp",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre07756",
+    "ingre06876",
+    "ingre03211",
+    "ingre01817",
+    "ingre02655",
+    "ingre01913",
+    "ingre04028",
+    "ingre07003",
+    "ingre00416",
+    "ingre03939",
+    "ingre07846",
+    "ingre08055",
+    "ingre04629"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ trắng (1 bìa)",
+    "Tàu hũ ky khô",
+    "Khoai môn cỡ vừa",
+    "Cọn hành boarô",
+    "Hành boarô (1 cọng)",
+    "Củ riềng",
+    "Mía lau (6 khúc mía)",
+    "Tương nếp",
+    "Bơ đậu phộng",
+    "Mè vàng",
+    "Đậu xanh không vỏ",
+    "Ớt sừng",
+    "Nước dừa xiêm"
+  ],
+  "ingredient_names_en": [
+    "Tofu white (1 block)",
+    "Tofu皮干",
+    "Sweet Potato",
+    "Spring Onion",
+    "Spring Onion (1 stalk)",
+    "Galangal",
+    "Sugar cane (6 pieces of sugar cane)",
+    "Glutinous Rice Sauce",
+    "Peanut butter",
+    "Yellow Sesame Seeds",
+    "Green peas",
+    "Hot pepper",
+    "Coconut water"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu trang 1 bia",
+    "tau hu ky kho",
+    "khoai mon co vua",
+    "con hanh boaro",
+    "hanh boaro 1 cong",
+    "cu rieng",
+    "mia lau 6 khuc mia",
+    "tuong nep",
+    "bo dau phong",
+    "me vang",
+    "dau xanh khong vo",
+    "ot sung",
+    "nuoc dua xiem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau hu trang (1 bia)",
+      "new": "dau hu trang 1 bia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đậu hũ trắng (1 bìa)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boaro (1 cong)",
+      "new": "hanh boaro 1 cong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boarô (1 cọng)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mia lau (6 khuc mia)",
+      "new": "mia lau 6 khuc mia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mía lau (6 khúc mía)"
+    }
+  ]
+}

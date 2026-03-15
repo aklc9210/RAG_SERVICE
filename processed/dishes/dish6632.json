@@ -1,0 +1,109 @@
+{
+  "id": "dish6632",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6632.json",
+  "name_vi": "Gà sốt thái",
+  "name_en": "",
+  "name_normalized": "ga sot thai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Tương cà",
+    "Tương ớt",
+    "Tỏi",
+    "Ớt bột",
+    "Nước cốt chanh",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre00598",
+    "ingre02124",
+    "ingre06984",
+    "ingre07028",
+    "ingre04329",
+    "ingre07063",
+    "ingre02768",
+    "ingre07977",
+    "ingre04538",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Tương cà",
+    "Tương ớt",
+    "Ngò gai",
+    "Tỏi",
+    "Hành tím",
+    "Ớt bột",
+    "Nước cốt chanh",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Miso酱",
+    "Hot Sauce",
+    "Culantro",
+    "Garlic",
+    "Shallot",
+    "Chili powder",
+    "Lemon juice",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "bot chien gion",
+    "dau an",
+    "tuong ca",
+    "tuong ot",
+    "ngo gai",
+    "toi",
+    "hanh tim",
+    "ot bot",
+    "nuoc cot chanh",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish3449",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3449.json",
+  "name_vi": "Mì udon gà sốt miso",
+  "name_en": "",
+  "name_normalized": "mi udon ga sot miso",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Dầu thực vật",
+    "Rau mùi"
+  ],
+  "secondary_ingredients": [
+    "Ức gà",
+    "Dầu mè",
+    "Mì udon",
+    "Đậu hà lan",
+    "Mật ong",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Nước tương miso",
+    "Muối",
+    "Giấm gạo",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre02113",
+    "ingre04800",
+    "ingre05302",
+    "ingre08103",
+    "ingre02094",
+    "ingre04011",
+    "ingre07736",
+    "ingre03746",
+    "ingre04124",
+    "ingre02362",
+    "ingre02673",
+    "ingre02485"
+  ],
+  "ingredient_names_vi": [
+    "Dầu thực vật",
+    "Nước tương miso",
+    "Rau mùi",
+    "Ức gà",
+    "Dầu mè",
+    "Mì udon",
+    "Đậu hà lan",
+    "Muối",
+    "Mật ong",
+    "Giấm gạo",
+    "Hành lá",
+    "Gừng"
+  ],
+  "ingredient_names_en": [
+    "Vegetable oil",
+    "Soy Sauce Miso",
+    "Mint",
+    "Chicken breast",
+    "Sesame oil",
+    "Udon noodles",
+    "Green beans",
+    "Salt",
+    "Honey",
+    "Rice vinegar",
+    "Scallion",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "dau thuc vat",
+    "nuoc tuong miso",
+    "rau mui",
+    "uc ga",
+    "dau me",
+    "mi udon",
+    "dau ha lan",
+    "muoi",
+    "mat ong",
+    "giam gao",
+    "hanh la",
+    "gung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

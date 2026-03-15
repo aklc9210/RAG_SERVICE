@@ -1,0 +1,57 @@
+{
+  "id": "dish6764",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6764.json",
+  "name_vi": "Đậu hũ chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "dau hu chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07755",
+    "ingre05900",
+    "ingre08078",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ trắng",
+    "Sả",
+    "Ớt tươi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Lemongrass",
+    "Fresh chili",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu trang",
+    "sa",
+    "ot tuoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

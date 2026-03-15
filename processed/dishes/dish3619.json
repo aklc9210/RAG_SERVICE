@@ -1,0 +1,61 @@
+{
+  "id": "dish3619",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3619.json",
+  "name_vi": "Kem trứng (kem lạnh)",
+  "name_en": "",
+  "name_normalized": "kem trung kem lanh",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [
+    "Heavy cream",
+    "Sữa tươi nguyên kem",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03584",
+    "ingre02558",
+    "ingre06157",
+    "ingre06592",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Lòng đỏ trứng gà",
+    "Heavy cream",
+    "Sữa tươi nguyên kem",
+    "Tinh chất vani",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Egg yolk",
+    "Heavy cream",
+    "Whole Milk Powder",
+    "Vanilla extract",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "long do trung ga",
+    "heavy cream",
+    "sua tuoi nguyen kem",
+    "tinh chat vani",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem trung (kem lanh)",
+      "new": "kem trung kem lanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

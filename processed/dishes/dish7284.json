@@ -1,0 +1,87 @@
+{
+  "id": "dish7284",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7284.json",
+  "name_vi": "Bề bề chiên xù sốt me chua ngọt",
+  "name_en": "",
+  "name_normalized": "be be chien xu sot me chua ngot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bề bề"
+  ],
+  "secondary_ingredients": [
+    "Me nắm"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Bột chiên xù",
+    "Trứng",
+    "Gừng băm/Tỏi băm/Hành băm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00494",
+    "ingre00759",
+    "ingre00609",
+    "ingre06801",
+    "ingre02495",
+    "ingre03657",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bề bề",
+    "Bột mì",
+    "Bột chiên xù",
+    "Trứng",
+    "Gừng băm/Tỏi băm/Hành băm",
+    "Me nắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Egg",
+    "Ginger minced/蒜末/洋葱末",
+    "Mint",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "be be",
+    "bot mi",
+    "bot chien xu",
+    "trung",
+    "gung bam toi bam hanh bam",
+    "me nam",
+    "dau an",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gung bam/toi bam/hanh bam",
+      "new": "gung bam toi bam hanh bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gừng băm/Tỏi băm/Hành băm"
+    }
+  ]
+}

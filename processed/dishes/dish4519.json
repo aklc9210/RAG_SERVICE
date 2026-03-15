@@ -1,0 +1,119 @@
+{
+  "id": "dish4519",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4519.json",
+  "name_vi": "Thịt dê xào lá lốt",
+  "name_en": "",
+  "name_normalized": "thit de xao la lot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt dê",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Mía"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre03461",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre04025",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Lá lốt",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Mía",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Cinnamon Leaf",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Sugarcane",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "la lot",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "ot",
+    "sa",
+    "mia",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

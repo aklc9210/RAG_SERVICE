@@ -1,0 +1,77 @@
+{
+  "id": "dish4261",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4261.json",
+  "name_vi": "Vây cá hồi nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "vay ca hoi nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vây cá hồi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07179",
+    "ingre02768",
+    "ingre07063",
+    "ingre06147",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Vây cá hồi",
+    "Hành tím",
+    "Tỏi",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Salmon swim bladder",
+    "Shallot",
+    "Garlic",
+    "Fat-free Milk",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "vay ca hoi",
+    "hanh tim",
+    "toi",
+    "sua tuoi khong duong",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "dish0183",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0183.json",
+  "name_vi": "Cá chim biển nấu canh chua",
+  "name_en": "",
+  "name_normalized": "ca chim bien nau canh chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chim biển",
+    "Măng chua",
+    "Đậu bắp",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Hành boa rô",
+    "Hành tím",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01486",
+    "ingre04072",
+    "ingre07729",
+    "ingre01354",
+    "ingre06247",
+    "ingre02645",
+    "ingre02768",
+    "ingre04694",
+    "ingre07977",
+    "ingre02124",
+    "ingre02093",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá chim biển",
+    "Măng chua",
+    "Đậu bắp",
+    "Cà chua",
+    "Thơm",
+    "Hành boa rô",
+    "Hành tím",
+    "Nước mắm",
+    "Ớt bột",
+    "Dầu ăn",
+    "Dầu màu điều",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Seabream",
+    "Pickled bamboo shoots",
+    "Green beans",
+    "Tomato",
+    "Basil",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Chili powder",
+    "Cooking oil",
+    "Peanut-colored food coloring",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca chim bien",
+    "mang chua",
+    "dau bap",
+    "ca chua",
+    "thom",
+    "hanh boa ro",
+    "hanh tim",
+    "nuoc mam",
+    "ot bot",
+    "dau an",
+    "dau mau dieu",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish4358",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4358.json",
+  "name_vi": "xúc xích bọc bột nướng bằng lò nướng",
+  "name_en": "",
+  "name_normalized": "xuc xich boc bot nuong bang lo nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Xúc xích thịt heo loại ngon"
+  ],
+  "secondary_ingredients": [
+    "Trứn",
+    "Lòng đỏ trứng",
+    "Sữa tươi.",
+    "Dầu thực vật"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Muối và tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07405",
+    "ingre00759",
+    "ingre06799",
+    "ingre03583",
+    "ingre06163",
+    "ingre02113",
+    "ingre03793"
+  ],
+  "ingredient_names_vi": [
+    "Xúc xích thịt heo loại ngon",
+    "Bột mì",
+    "Trứn",
+    "Lòng đỏ trứng",
+    "Sữa tươi.",
+    "Dầu thực vật",
+    "Muối và tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork Sausage",
+    "Wheat Flour",
+    "Trout",
+    "Egg yolk",
+    "Fresh Milk",
+    "Vegetable oil",
+    "Salt and Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuc xich thit heo loai ngon",
+    "bot mi",
+    "trun",
+    "long do trung",
+    "sua tuoi",
+    "dau thuc vat",
+    "muoi va tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua tuoi.",
+      "new": "sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa tươi."
+    }
+  ]
+}

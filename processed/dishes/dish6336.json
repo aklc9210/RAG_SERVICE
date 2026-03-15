@@ -1,0 +1,113 @@
+{
+  "id": "dish6336",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6336.json",
+  "name_vi": "Cơm chiên Thái Lan",
+  "name_en": "",
+  "name_normalized": "com chien thai lan",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt dứa",
+    "Tôm",
+    "Cơm gạo thơm hoa nhài"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cà chua",
+    "Hành lá",
+    "Hạt điều rang"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Bột cà ri",
+    "Nước mắm",
+    "Gạch tôm xào dầu",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06374",
+    "ingre06930",
+    "ingre01750",
+    "ingre06801",
+    "ingre02741",
+    "ingre01354",
+    "ingre02673",
+    "ingre03066",
+    "ingre00631",
+    "ingre04694",
+    "ingre02434",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dứa",
+    "Tôm",
+    "Cơm gạo thơm hoa nhài",
+    "Trứng",
+    "Hành tây",
+    "Cà chua",
+    "Hành lá",
+    "Hạt điều rang",
+    "Bột cà ri",
+    "Nước mắm",
+    "Gạch tôm xào dầu",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pineapple meat",
+    "Shrimp",
+    "茉莉香米",
+    "Egg",
+    "Onion",
+    "Tomato",
+    "Scallion",
+    "Roasted Peanut",
+    "Curry powder",
+    "Fish Sauce",
+    "Shrimp Fried With Oil",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit dua",
+    "tom",
+    "com gao thom hoa nhai",
+    "trung",
+    "hanh tay",
+    "ca chua",
+    "hanh la",
+    "hat dieu rang",
+    "bot ca ri",
+    "nuoc mam",
+    "gach tom xao dau",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

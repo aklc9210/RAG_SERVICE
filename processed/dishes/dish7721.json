@@ -1,0 +1,143 @@
+{
+  "id": "dish7721",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7721.json",
+  "name_vi": "Lẩu hải sản thập cẩm",
+  "name_en": "",
+  "name_normalized": "lau hai san thap cam",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cá phi lê",
+    "Nghêu",
+    "Tôm",
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Cà chua",
+    "Dứa",
+    "Nấm hương",
+    "Nấm kim châm",
+    "Sả",
+    "Nước hầm xương",
+    "Rau ăn kèm với lẩu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Gia vị lẩu thái",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01605",
+    "ingre04303",
+    "ingre06930",
+    "ingre04264",
+    "ingre02768",
+    "ingre01354",
+    "ingre02151",
+    "ingre04910",
+    "ingre04921",
+    "ingre07966",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre04647",
+    "ingre02291",
+    "ingre02124",
+    "ingre05425"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cá phi lê",
+    "Nghêu",
+    "Tôm",
+    "Mực",
+    "Hành tím",
+    "Cà chua",
+    "Dứa",
+    "Nấm hương",
+    "Nấm kim châm",
+    "Ớt",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Nước hầm xương",
+    "Gia vị lẩu thái",
+    "Dầu ăn",
+    "Rau ăn kèm với lẩu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Cod fillet",
+    "Clam",
+    "Shrimp",
+    "Squid",
+    "Shallot",
+    "Tomato",
+    "Pineapple",
+    "Mushroom",
+    "Pepper",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Bone broth",
+    "Thai hot pot seasoning",
+    "Cooking oil",
+    "Accompanying vegetables for hot pot"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca phi le",
+    "ngheu",
+    "tom",
+    "muc",
+    "hanh tim",
+    "ca chua",
+    "dua",
+    "nam huong",
+    "nam kim cham",
+    "ot",
+    "sa",
+    "toi",
+    "gung",
+    "nuoc ham xuong",
+    "gia vi lau thai",
+    "dau an",
+    "rau an kem voi lau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

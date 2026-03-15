@@ -1,0 +1,103 @@
+{
+  "id": "dish0958",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0958.json",
+  "name_vi": "Bánh mì ruốc cuộn sốt mayonnaise",
+  "name_en": "",
+  "name_normalized": "banh mi ruoc cuon sot mayonnaise",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Chà bông",
+    "Mè rang",
+    "Hành lá",
+    "Nước ấm"
+  ],
+  "seasonings": [
+    "Bột mì số 11",
+    "Đường",
+    "Sữa bột",
+    "Sữa chua có đường",
+    "Sốt mayonaise",
+    "Muối",
+    "Trứng gà",
+    "Men nở"
+  ],
+  "ingredient_ids": [
+    "ingre00779",
+    "ingre00382",
+    "ingre07583",
+    "ingre06083",
+    "ingre06091",
+    "ingre05968",
+    "ingre01202",
+    "ingre03929",
+    "ingre03746",
+    "ingre02673",
+    "ingre06823",
+    "ingre04879",
+    "ingre03686"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 11",
+    "Bơ lạt",
+    "Đường",
+    "Sữa bột",
+    "Sữa chua có đường",
+    "Sốt mayonaise",
+    "Chà bông",
+    "Mè rang",
+    "Muối",
+    "Hành lá",
+    "Trứng gà",
+    "Nước ấm",
+    "Men nở"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour Number 11",
+    "Butter",
+    "Sugar",
+    "Milk Powder",
+    "Sweetened Yogurt",
+    "Mayonnaise",
+    "Pork floss",
+    "Roasted Sesame Seeds",
+    "Salt",
+    "Scallion",
+    "Chicken egg",
+    "Warm water",
+    "Baking Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 11",
+    "bo lat",
+    "duong",
+    "sua bot",
+    "sua chua co duong",
+    "sot mayonaise",
+    "cha bong",
+    "me rang",
+    "muoi",
+    "hanh la",
+    "trung ga",
+    "nuoc am",
+    "men no"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

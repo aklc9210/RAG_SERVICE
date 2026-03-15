@@ -1,0 +1,82 @@
+{
+  "id": "dish0523",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0523.json",
+  "name_vi": "Canh bầu thịt băm",
+  "name_en": "",
+  "name_normalized": "canh bau thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bầu",
+    "Thịt heo băm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00440",
+    "ingre06403",
+    "ingre07063",
+    "ingre02702",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bầu",
+    "Thịt heo băm",
+    "Tỏi",
+    "Hành lá/ ngò rí",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Zucchini",
+    "Ground Pork",
+    "Garlic",
+    "Chives",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bau",
+    "thit heo bam",
+    "toi",
+    "hanh la ngo ri",
+    "dau an",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

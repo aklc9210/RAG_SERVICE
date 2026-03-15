@@ -1,0 +1,88 @@
+{
+  "id": "dish5709",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5709.json",
+  "name_vi": "Sườn kho gừng",
+  "name_en": "",
+  "name_normalized": "suon kho gung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Gừng",
+    "Dầu ăn",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre07071",
+    "ingre02485",
+    "ingre02768",
+    "ingre02124",
+    "ingre04790",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Tỏi băm",
+    "Gừng",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Minced Garlic",
+    "Ginger",
+    "Shallot",
+    "Cooking oil",
+    "Soy Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "toi bam",
+    "gung",
+    "hanh tim",
+    "dau an",
+    "nuoc tuong",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

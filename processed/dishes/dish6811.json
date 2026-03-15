@@ -1,0 +1,83 @@
+{
+  "id": "dish6811",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6811.json",
+  "name_vi": "Trứng cút chiên bơ",
+  "name_en": "",
+  "name_normalized": "trung cut chien bo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Bơ động vật",
+    "Tỏi",
+    "Bột chiên giòn",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre00419",
+    "ingre07063",
+    "ingre04329",
+    "ingre00598",
+    "ingre07028",
+    "ingre04694",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Bơ động vật",
+    "Tỏi",
+    "Ngò gai",
+    "Bột chiên giòn",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Animal fat",
+    "Garlic",
+    "Culantro",
+    "Puffed Rice Powder",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "bo dong vat",
+    "toi",
+    "ngo gai",
+    "bot chien gion",
+    "tuong ot",
+    "nuoc mam",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish8436",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8436.json",
+  "name_vi": "Khô gà bằng lò vi sóng",
+  "name_en": "",
+  "name_normalized": "kho ga bang lo vi song",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Thịt ức gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả tươi",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Lá chanh non",
+    "Ớt tươi",
+    "Muối",
+    "Tiêu",
+    "Tỏi",
+    "Ớt bột",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre03378",
+    "ingre08078",
+    "ingre02768",
+    "ingre03746",
+    "ingre06612",
+    "ingre05917",
+    "ingre07063",
+    "ingre07977",
+    "ingre04694",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Lá chanh non",
+    "Ớt tươi",
+    "Hành tím",
+    "Muối",
+    "Tiêu",
+    "Sả tươi",
+    "Tỏi",
+    "Ớt bột",
+    "Nước mắm",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Lime leaf",
+    "Fresh chili",
+    "Shallot",
+    "Salt",
+    "Pepper",
+    "Fresh Ginger",
+    "Garlic",
+    "Chili powder",
+    "Fish Sauce",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "la chanh non",
+    "ot tuoi",
+    "hanh tim",
+    "muoi",
+    "tieu",
+    "sa tuoi",
+    "toi",
+    "ot bot",
+    "nuoc mam",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre07148",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07148.json",
+  "name_vi": "vani:",
+  "name_en": "Vanilla",
+  "name_normalized": "vani",
+  "synonyms": [
+    "vanilla"
+  ],
+  "synonyms_normalized": [
+    "vanilla"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "vani:",
+      "new": "vani",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

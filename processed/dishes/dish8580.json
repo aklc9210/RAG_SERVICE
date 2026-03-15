@@ -1,0 +1,87 @@
+{
+  "id": "dish8580",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8580.json",
+  "name_vi": "Bắp bò ngâm chua ngọt",
+  "name_en": "",
+  "name_normalized": "bap bo ngam chua ngot",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Bắp bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước sôi để nguội"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Giấm",
+    "Muối hạt",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre07966",
+    "ingre07583",
+    "ingre02355",
+    "ingre03760",
+    "ingre00587",
+    "ingre04745"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Giấm",
+    "Muối hạt",
+    "Bột canh",
+    "Nước sôi để nguội"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Pepper",
+    "Sugar",
+    "Vinegar",
+    "Fenugreek seeds",
+    "Cornstarch",
+    "Cool Boiled Water"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "sa",
+    "gung",
+    "toi",
+    "ot",
+    "duong",
+    "giam",
+    "muoi hat",
+    "bot canh",
+    "nuoc soi de nguoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "dish8447",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8447.json",
+  "name_vi": "Chicken steak (bít tết gà)",
+  "name_en": "",
+  "name_normalized": "chicken steak bit tet ga",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Nước cốt tắc",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre02741",
+    "ingre04591",
+    "ingre04790",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Hành tây",
+    "Nước cốt tắc",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Onion",
+    "Tamarind juice",
+    "Soy Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "hanh tay",
+    "nuoc cot tac",
+    "nuoc tuong",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chicken steak (bit tet ga)",
+      "new": "chicken steak bit tet ga",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

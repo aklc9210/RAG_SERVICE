@@ -1,0 +1,91 @@
+{
+  "id": "dish9378",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9378.json",
+  "name_vi": "Chả lạnh",
+  "name_en": "",
+  "name_normalized": "cha lanh",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt nạc heo",
+    "Da heo",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Giấm/muối",
+    "Gừng",
+    "Hành tím và tỏi",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre06464",
+    "ingre01935",
+    "ingre04936",
+    "ingre02384",
+    "ingre02485",
+    "ingre02799",
+    "ingre04694",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06619"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc heo",
+    "Da heo",
+    "Nấm mèo khô",
+    "Giấm/muối",
+    "Gừng",
+    "Hành tím và tỏi",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Pork Shoulder",
+    "Pork skin",
+    "Dried cat's ear mushroom",
+    "Vinegar/Salt",
+    "Ginger",
+    "Green onion and garlic",
+    "Fish Sauce",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Cumin Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac heo",
+    "da heo",
+    "nam meo kho",
+    "giam muoi",
+    "gung",
+    "hanh tim va toi",
+    "nuoc mam",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "giam/muoi",
+      "new": "giam muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Giấm/muối"
+    }
+  ]
+}

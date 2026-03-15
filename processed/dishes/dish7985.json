@@ -1,0 +1,107 @@
+{
+  "id": "dish7985",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7985.json",
+  "name_vi": "Kim chi Việt Nam",
+  "name_en": "",
+  "name_normalized": "kim chi viet nam",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cải thảo",
+    "Bắp non",
+    "Củ sen"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Củ kiệu",
+    "Cải bẹ xanh"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dưa chuột",
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Nước mắm",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01793",
+    "ingre00485",
+    "ingre01916",
+    "ingre01419",
+    "ingre01868",
+    "ingre01895",
+    "ingre02000",
+    "ingre01775",
+    "ingre02485",
+    "ingre07063",
+    "ingre08055",
+    "ingre04694",
+    "ingre02355",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cải thảo",
+    "Bắp non",
+    "Củ sen",
+    "Cà rốt",
+    "Củ cải trắng",
+    "Củ kiệu",
+    "Dưa chuột",
+    "Cải bẹ xanh",
+    "Gừng",
+    "Tỏi",
+    "Ớt sừng",
+    "Nước mắm",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Green corn",
+    "Lotus root",
+    "Carrot",
+    "White radish",
+    "Pickled radish",
+    "Cucumber",
+    "Green cabbage",
+    "Ginger",
+    "Garlic",
+    "Hot pepper",
+    "Fish Sauce",
+    "Vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cai thao",
+    "bap non",
+    "cu sen",
+    "ca rot",
+    "cu cai trang",
+    "cu kieu",
+    "dua chuot",
+    "cai be xanh",
+    "gung",
+    "toi",
+    "ot sung",
+    "nuoc mam",
+    "giam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

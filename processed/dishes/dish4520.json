@@ -1,0 +1,67 @@
+{
+  "id": "dish4520",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4520.json",
+  "name_vi": "Nấm kim châm xào tỏi",
+  "name_en": "",
+  "name_normalized": "nam kim cham xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm kim châm"
+  ],
+  "secondary_ingredients": [
+    "Bơ"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Nước mắm chay",
+    "Dầu hào chay",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04921",
+    "ingre00367",
+    "ingre07071",
+    "ingre04697",
+    "ingre02081",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Nấm kim châm",
+    "Bơ",
+    "Tỏi băm",
+    "Nước mắm chay",
+    "Dầu hào chay",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Butter",
+    "Minced Garlic",
+    "Vegetarian fish sauce",
+    "Vegetarian soy sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "nam kim cham",
+    "bo",
+    "toi bam",
+    "nuoc mam chay",
+    "dau hao chay",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

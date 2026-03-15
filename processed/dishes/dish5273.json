@@ -1,0 +1,57 @@
+{
+  "id": "dish5273",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5273.json",
+  "name_vi": "Tôm xào dưa leo",
+  "name_en": "",
+  "name_normalized": "tom xao dua leo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre02020",
+    "ingre02124",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Dưa leo",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Cucumber",
+    "Cooking oil",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "dua leo",
+    "dau an",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish7798",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7798.json",
+  "name_vi": "Bò nhúng nước dừa lá khổ qua rừng (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "bo nhung nuoc dua la kho qua rung cong thuc duoc chia se tu nguoi dung",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Thịt bò",
+    "Lá khổ qua rừng"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Dừa"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03450",
+    "ingre02741",
+    "ingre02162",
+    "ingre07071",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Lá khổ qua rừng",
+    "Hành tây",
+    "Dừa",
+    "Tỏi băm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Bitter Melon Leaves",
+    "Onion",
+    "Coconut",
+    "Minced Garlic",
+    "Seasoning",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "la kho qua rung",
+    "hanh tay",
+    "dua",
+    "toi bam",
+    "hat nem",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo nhung nuoc dua la kho qua rung (cong thuc duoc chia se tu nguoi dung)",
+      "new": "bo nhung nuoc dua la kho qua rung cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

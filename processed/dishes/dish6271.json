@@ -1,0 +1,101 @@
+{
+  "id": "dish6271",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6271.json",
+  "name_vi": "Cá lăng kho tộ",
+  "name_en": "",
+  "name_normalized": "ca lang kho to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lăng",
+    "Hành lá",
+    "Tóp mỡ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Nước mắm",
+    "Nước tương",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre02673",
+    "ingre06927",
+    "ingre02768",
+    "ingre08026",
+    "ingre04694",
+    "ingre04790",
+    "ingre04672",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Hành lá",
+    "Tóp mỡ",
+    "Hành tím",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Nước tương",
+    "Nước màu",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Scallion",
+    "Pork rind",
+    "Shallot",
+    "Hot pepper",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Food coloring",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "hanh la",
+    "top mo",
+    "hanh tim",
+    "ot hiem",
+    "nuoc mam",
+    "nuoc tuong",
+    "nuoc mau",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

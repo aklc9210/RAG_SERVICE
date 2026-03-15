@@ -1,0 +1,83 @@
+{
+  "id": "dish4220",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4220.json",
+  "name_vi": "Thịt cuộn rau củ nướng",
+  "name_en": "",
+  "name_normalized": "thit cuon rau cu nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt heo",
+    "Đậu cô ve"
+  ],
+  "secondary_ingredients": [
+    "Mật mía",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột bắp",
+    "Bột canh",
+    "Dầu hào",
+    "Tiêu xay/Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre07732",
+    "ingre01419",
+    "ingre00564",
+    "ingre00587",
+    "ingre02080",
+    "ingre04123",
+    "ingre06650",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Đậu cô ve",
+    "Cà rốt",
+    "Bột bắp",
+    "Bột canh",
+    "Dầu hào",
+    "Mật mía",
+    "Tiêu xay/Bột ngọt",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Cowpea",
+    "Carrot",
+    "Corn starch",
+    "Cornstarch",
+    "Soy sauce",
+    "Molasses",
+    "Ground pepper/savory seasoning",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "dau co ve",
+    "ca rot",
+    "bot bap",
+    "bot canh",
+    "dau hao",
+    "mat mia",
+    "tieu xay bot ngot",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/bot ngot",
+      "new": "tieu xay bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/Bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre08010",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre08010.json",
+  "name_vi": "ớt chuông xanh/ vàng/ đỏ",
+  "name_en": "Green/Yellow/Red Bell Pepper",
+  "name_normalized": "ot chuong xanh vang do",
+  "synonyms": [
+    "dưa chuột",
+    "quả ớt",
+    "quả sweet pepper"
+  ],
+  "synonyms_normalized": [
+    "dua chuot",
+    "qua ot",
+    "qua sweet pepper"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ot chuong xanh/ vang/ do",
+      "new": "ot chuong xanh vang do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

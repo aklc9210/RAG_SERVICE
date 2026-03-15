@@ -1,0 +1,48 @@
+{
+  "id": "dish2150",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2150.json",
+  "name_vi": "Bánh bông lan quýt",
+  "name_en": "",
+  "name_normalized": "banh bong lan quyt",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Quýt",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh pancake",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00543",
+    "ingre05147",
+    "ingre06144",
+    "ingre06823"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh pancake",
+    "Quýt",
+    "Sữa tươi",
+    "Trứng gà"
+  ],
+  "ingredient_names_en": [
+    "Baking powder",
+    "Orange",
+    "Fresh Milk",
+    "Chicken egg"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh pancake",
+    "quyt",
+    "sua tuoi",
+    "trung ga"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

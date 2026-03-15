@@ -1,0 +1,88 @@
+{
+  "id": "dish8388",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8388.json",
+  "name_vi": "Gỏi tai heo chua ngọt",
+  "name_en": "",
+  "name_normalized": "goi tai heo chua ngot",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Đu đủ",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước cốt me",
+    "Giấm",
+    "Cà rốt",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre02768",
+    "ingre02485",
+    "ingre04581",
+    "ingre02355",
+    "ingre01419",
+    "ingre07491",
+    "ingre07583",
+    "ingre04694",
+    "ingre07057"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Hành tím",
+    "Gừng",
+    "Nước cốt me",
+    "Giấm",
+    "Cà rốt",
+    "Đu đủ",
+    "Đường",
+    "Nước mắm",
+    "Tắc"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Shallot",
+    "Ginger",
+    "Lime juice",
+    "Vinegar",
+    "Carrot",
+    "Papaya",
+    "Sugar",
+    "Fish Sauce",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "hanh tim",
+    "gung",
+    "nuoc cot me",
+    "giam",
+    "ca rot",
+    "du du",
+    "duong",
+    "nuoc mam",
+    "tac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

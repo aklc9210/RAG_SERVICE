@@ -1,0 +1,72 @@
+{
+  "id": "dish9353",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9353.json",
+  "name_vi": "Ốc hấp sả",
+  "name_en": "",
+  "name_normalized": "oc hap sa",
+  "category": "an vat",
+  "main_ingredients": [
+    "Ốc bươu",
+    "Ốc đắng"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Lá chanh",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre07935",
+    "ingre07958",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre03370",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Ốc bươu",
+    "Ốc đắng",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Lá chanh",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Piranha",
+    "Bitter Snail",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Lime leaf",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "oc buou",
+    "oc dang",
+    "gung",
+    "sa",
+    "ot",
+    "la chanh",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

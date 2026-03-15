@@ -1,0 +1,113 @@
+{
+  "id": "dish5901",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5901.json",
+  "name_vi": "Chân giò om xì dầu",
+  "name_en": "",
+  "name_normalized": "chan gio om xi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt chân giò",
+    "Trái thảo"
+  ],
+  "secondary_ingredients": [
+    "Đu đủ non",
+    "Hành tím",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Hoa hồi",
+    "Nước tương",
+    "Nước mắm",
+    "Cà rốt",
+    "Tỏi băm",
+    "Ớt băm",
+    "Giấm",
+    "Đường",
+    "Hạt tiêu",
+    "Ngũ vị hương"
+  ],
+  "ingredient_ids": [
+    "ingre06342",
+    "ingre06772",
+    "ingre02584",
+    "ingre04790",
+    "ingre04694",
+    "ingre01419",
+    "ingre07498",
+    "ingre02768",
+    "ingre07071",
+    "ingre07971",
+    "ingre02355",
+    "ingre04665",
+    "ingre07583",
+    "ingre03043",
+    "ingre04381"
+  ],
+  "ingredient_names_vi": [
+    "Thịt chân giò",
+    "Trái thảo",
+    "Hoa hồi",
+    "Nước tương",
+    "Nước mắm",
+    "Cà rốt",
+    "Đu đủ non",
+    "Hành tím",
+    "Tỏi băm",
+    "Ớt băm",
+    "Giấm",
+    "Nước lọc",
+    "Đường",
+    "Hạt tiêu",
+    "Ngũ vị hương"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Mint",
+    "Rose",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Carrot",
+    "Green papaya",
+    "Shallot",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Vinegar",
+    "Tap water",
+    "Sugar",
+    "Pepper",
+    "Five-Spice Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit chan gio",
+    "trai thao",
+    "hoa hoi",
+    "nuoc tuong",
+    "nuoc mam",
+    "ca rot",
+    "du du non",
+    "hanh tim",
+    "toi bam",
+    "ot bam",
+    "giam",
+    "nuoc loc",
+    "duong",
+    "hat tieu",
+    "ngu vi huong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

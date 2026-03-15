@@ -1,0 +1,76 @@
+{
+  "id": "dish6589",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6589.json",
+  "name_vi": "Gà rán chay",
+  "name_en": "",
+  "name_normalized": "ga ran chay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Nấm bào ngư"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên giòn/ Bột mì/ Bột nếp/ Bột bắp",
+    "Baking soda",
+    "Dầu ăn",
+    "Tương ớt",
+    "Muối",
+    "Tiêu đen",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre00604",
+    "ingre00018",
+    "ingre02124",
+    "ingre07028",
+    "ingre03746",
+    "ingre06653",
+    "ingre02997"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Bột chiên giòn/ Bột mì/ Bột nếp/ Bột bắp",
+    "Baking soda",
+    "Dầu ăn",
+    "Tương ớt",
+    "Muối",
+    "Tiêu đen",
+    "Hạt nêm chay"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Puffed Rice Flour/All-Purpose Flour/Sticky Rice Flour/Corn Flour",
+    "Baking soda",
+    "Cooking oil",
+    "Hot Sauce",
+    "Salt",
+    "Black Pepper",
+    "Vegetarian Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "bot chien gion bot mi bot nep bot bap",
+    "baking soda",
+    "dau an",
+    "tuong ot",
+    "muoi",
+    "tieu den",
+    "hat nem chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot chien gion/ bot mi/ bot nep/ bot bap",
+      "new": "bot chien gion bot mi bot nep bot bap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột chiên giòn/ Bột mì/ Bột nếp/ Bột bắp"
+    }
+  ]
+}

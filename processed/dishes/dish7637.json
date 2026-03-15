@@ -1,0 +1,139 @@
+{
+  "id": "dish7637",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7637.json",
+  "name_vi": "Xôi thịt băm",
+  "name_en": "",
+  "name_normalized": "xoi thit bam",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Thịt băm",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Chà bông/ bánh mì chiên"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Tỏi",
+    "Hành phi",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre06329",
+    "ingre04930",
+    "ingre08097",
+    "ingre07063",
+    "ingre02673",
+    "ingre04343",
+    "ingre02768",
+    "ingre02730",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre01211",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Thịt băm",
+    "Nấm mèo",
+    "Ớt đỏ",
+    "Tỏi",
+    "Hành lá",
+    "Ngò rí",
+    "Hành tím",
+    "Hành phi",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Chà bông/ bánh mì chiên",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Minced meat",
+    "Mushroom",
+    "Red pepper",
+    "Garlic",
+    "Scallion",
+    "Parsley",
+    "Shallot",
+    "Garlic Fried",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Fried pork/Baguette",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "thit bam",
+    "nam meo",
+    "ot do",
+    "toi",
+    "hanh la",
+    "ngo ri",
+    "hanh tim",
+    "hanh phi",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "cha bong banh mi chien",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cha bong/ banh mi chien",
+      "new": "cha bong banh mi chien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chà bông/ bánh mì chiên"
+    }
+  ]
+}

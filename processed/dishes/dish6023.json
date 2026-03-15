@@ -1,0 +1,76 @@
+{
+  "id": "dish6023",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6023.json",
+  "name_vi": "Gà kho sả ớt",
+  "name_en": "",
+  "name_normalized": "ga kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt đỏ",
+    "Bột nghệ",
+    "Nước mắm",
+    "Muối hạt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05900",
+    "ingre08097",
+    "ingre00804",
+    "ingre04694",
+    "ingre03760",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sả",
+    "Ớt đỏ",
+    "Bột nghệ",
+    "Nước mắm",
+    "Muối hạt",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Lemongrass",
+    "Red pepper",
+    "Turmeric Powder",
+    "Fish Sauce",
+    "Fenugreek seeds",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "sa",
+    "ot do",
+    "bot nghe",
+    "nuoc mam",
+    "muoi hat",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

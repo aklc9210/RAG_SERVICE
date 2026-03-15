@@ -1,0 +1,101 @@
+{
+  "id": "dish8489",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8489.json",
+  "name_vi": "Chân gà sốt cay",
+  "name_en": "",
+  "name_normalized": "chan ga sot cay",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Chân gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tỏi phi",
+    "Gừng",
+    "Bột ớt",
+    "Nước mắm",
+    "Tỏi; ớt băm",
+    "Tương ớt",
+    "Dầu hào",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre07096",
+    "ingre05900",
+    "ingre02485",
+    "ingre01015",
+    "ingre04694",
+    "ingre07131",
+    "ingre02093",
+    "ingre07028",
+    "ingre02080",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Tỏi phi",
+    "Sả",
+    "Gừng",
+    "Bột ớt",
+    "Nước mắm",
+    "Tỏi; ớt băm",
+    "Dầu màu điều",
+    "Tương ớt",
+    "Dầu hào",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Garlic flakes",
+    "Lemongrass",
+    "Ginger",
+    "Red Pepper Powder",
+    "Fish Sauce",
+    "Garlic; Chili Paste",
+    "Peanut-colored food coloring",
+    "Hot Sauce",
+    "Soy sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "toi phi",
+    "sa",
+    "gung",
+    "bot ot",
+    "nuoc mam",
+    "toi ot bam",
+    "dau mau dieu",
+    "tuong ot",
+    "dau hao",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi; ot bam",
+      "new": "toi ot bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi; ớt băm"
+    }
+  ]
+}

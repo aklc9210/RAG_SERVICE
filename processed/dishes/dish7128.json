@@ -1,0 +1,79 @@
+{
+  "id": "dish7128",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7128.json",
+  "name_vi": "Khô cá hố chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "kho ca ho chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khô cá hố",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Tương ớt",
+    "Ớt bột",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03251",
+    "ingre05900",
+    "ingre04538",
+    "ingre07028",
+    "ingre07977",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá hố",
+    "Sả",
+    "Nước cốt chanh",
+    "Tương ớt",
+    "Ớt bột",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Dried Mullet Fish",
+    "Lemongrass",
+    "Lemon juice",
+    "Hot Sauce",
+    "Chili powder",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca ho",
+    "sa",
+    "nuoc cot chanh",
+    "tuong ot",
+    "ot bot",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

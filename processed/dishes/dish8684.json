@@ -1,0 +1,102 @@
+{
+  "id": "dish8684",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8684.json",
+  "name_vi": "Bò hầm đậu đỏ",
+  "name_en": "",
+  "name_normalized": "bo ham dau do",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò xay",
+    "Đậu đỏ",
+    "Cà chua nghiền đóng hộp"
+  ],
+  "secondary_ingredients": [
+    "Lá kinh giới sấy khô",
+    "Hành tây",
+    "Ngò rí",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Ớt chuông đỏ",
+    "Bột ớt",
+    "Bột paprika",
+    "Ớt cayenne nghiền",
+    "Tỏi",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06324",
+    "ingre07868",
+    "ingre01368",
+    "ingre08014",
+    "ingre01015",
+    "ingre00876",
+    "ingre07998",
+    "ingre03456",
+    "ingre02741",
+    "ingre07063",
+    "ingre04343",
+    "ingre07680",
+    "ingre02120"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò xay",
+    "Đậu đỏ",
+    "Cà chua nghiền đóng hộp",
+    "Ớt chuông đỏ",
+    "Bột ớt",
+    "Bột paprika",
+    "Ớt cayenne nghiền",
+    "Lá kinh giới sấy khô",
+    "Hành tây",
+    "Tỏi",
+    "Ngò rí",
+    "Đường/ Muối",
+    "Dầu ô liu"
+  ],
+  "ingredient_names_en": [
+    "Ground Beef",
+    "Red beans",
+    "Canned tomato paste",
+    "Red bell pepper",
+    "Red Pepper Powder",
+    "Paprika powder",
+    "Dried Cayenne Pepper",
+    "Dry Vietnamese Mint",
+    "Onion",
+    "Garlic",
+    "Parsley",
+    "Sugar/Salt",
+    "Olive oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo xay",
+    "dau do",
+    "ca chua nghien dong hop",
+    "ot chuong do",
+    "bot ot",
+    "bot paprika",
+    "ot cayenne nghien",
+    "la kinh gioi say kho",
+    "hanh tay",
+    "toi",
+    "ngo ri",
+    "duong muoi",
+    "dau o liu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

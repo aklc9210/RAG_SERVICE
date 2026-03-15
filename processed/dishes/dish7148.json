@@ -1,0 +1,108 @@
+{
+  "id": "dish7148",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7148.json",
+  "name_vi": "Cá chẽm sốt chanh dây",
+  "name_en": "",
+  "name_normalized": "ca chem sot chanh day",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá chẽm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Húng lủi"
+  ],
+  "seasonings": [
+    "Chanh dây",
+    "Tỏi",
+    "Ớt hiểm",
+    "Bột chiên giòn",
+    "Dầu hào",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01503",
+    "ingre01081",
+    "ingre07063",
+    "ingre02768",
+    "ingre08026",
+    "ingre02859",
+    "ingre00598",
+    "ingre02080",
+    "ingre07028",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chẽm",
+    "Chanh dây",
+    "Tỏi",
+    "Hành tím",
+    "Ớt hiểm",
+    "Húng lủi",
+    "Bột chiên giòn",
+    "Dầu hào",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Whitingsmith Fish",
+    "Watermelon vine tendril",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Peppermint",
+    "Puffed Rice Powder",
+    "Soy sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chem",
+    "chanh day",
+    "toi",
+    "hanh tim",
+    "ot hiem",
+    "hung lui",
+    "bot chien gion",
+    "dau hao",
+    "tuong ot",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

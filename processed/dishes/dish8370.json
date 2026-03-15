@@ -1,0 +1,101 @@
+{
+  "id": "dish8370",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8370.json",
+  "name_vi": "Gỏi cá trắm",
+  "name_en": "",
+  "name_normalized": "goi ca tram",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá trắm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Riềng",
+    "Mẻ",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Chanh",
+    "Bột canh",
+    "Sa tế",
+    "Mắm tôm"
+  ],
+  "ingredient_ids": [
+    "ingre01641",
+    "ingre06823",
+    "ingre02768",
+    "ingre05900",
+    "ingre05436",
+    "ingre01079",
+    "ingre00587",
+    "ingre04165",
+    "ingre05621",
+    "ingre04159",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Cá trắm",
+    "Trứng gà",
+    "Hành tím",
+    "Sả",
+    "Riềng",
+    "Chanh",
+    "Bột canh",
+    "Mẻ",
+    "Sa tế",
+    "Mắm tôm",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Chicken egg",
+    "Shallot",
+    "Lemongrass",
+    "Galangal",
+    "Lemon",
+    "Cornstarch",
+    "Tamarind",
+    "Fish sauce",
+    "Shrimp paste",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "ca tram",
+    "trung ga",
+    "hanh tim",
+    "sa",
+    "rieng",
+    "chanh",
+    "bot canh",
+    "me",
+    "sa te",
+    "mam tom",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

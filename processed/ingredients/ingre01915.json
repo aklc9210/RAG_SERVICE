@@ -1,0 +1,27 @@
+{
+  "id": "ingre01915",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01915.json",
+  "name_vi": "củ riềng:",
+  "name_en": "Galangal",
+  "name_normalized": "cu rieng",
+  "synonyms": [
+    "cây riềng",
+    "riềng mẻ"
+  ],
+  "synonyms_normalized": [
+    "cay rieng",
+    "rieng me"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cu rieng:",
+      "new": "cu rieng",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

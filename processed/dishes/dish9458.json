@@ -1,0 +1,98 @@
+{
+  "id": "dish9458",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9458.json",
+  "name_vi": "Chả bong bóng heo",
+  "name_en": "",
+  "name_normalized": "cha bong bong heo",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt nạc đùi heo",
+    "Bong bóng heo",
+    "Da heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột hồng cúc",
+    "Rượu gạo",
+    "Tỏi",
+    "Giấm",
+    "Tiêu đen",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06480",
+    "ingre00051",
+    "ingre01935",
+    "ingre00698",
+    "ingre05531",
+    "ingre07063",
+    "ingre02768",
+    "ingre02355",
+    "ingre06653",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc đùi heo",
+    "Bong bóng heo",
+    "Da heo",
+    "Bột hồng cúc",
+    "Rượu gạo",
+    "Tỏi",
+    "Hành tím",
+    "Giấm",
+    "Tiêu đen",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Pig's bladder",
+    "Pork skin",
+    "Red Clover Powder",
+    "Rice wine",
+    "Garlic",
+    "Shallot",
+    "Vinegar",
+    "Black Pepper",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dui heo",
+    "bong bong heo",
+    "da heo",
+    "bot hong cuc",
+    "ruou gao",
+    "toi",
+    "hanh tim",
+    "giam",
+    "tieu den",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

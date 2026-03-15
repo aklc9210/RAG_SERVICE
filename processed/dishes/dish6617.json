@@ -1,0 +1,71 @@
+{
+  "id": "dish6617",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6617.json",
+  "name_vi": "Trứng cút sốt me",
+  "name_en": "",
+  "name_normalized": "trung cut sot me",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng cút",
+    "Me chín"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre03647",
+    "ingre07063",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Me chín",
+    "Tỏi",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Ripe mango",
+    "Garlic",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "me chin",
+    "toi",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

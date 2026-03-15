@@ -1,0 +1,93 @@
+{
+  "id": "dish6182",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6182.json",
+  "name_vi": "Cá hồi kho gừng",
+  "name_en": "",
+  "name_normalized": "ca hoi kho gung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt cá hồi",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối ớt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06356",
+    "ingre02485",
+    "ingre02741",
+    "ingre07063",
+    "ingre08026",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre04672",
+    "ingre03800",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt cá hồi",
+    "Gừng",
+    "Hành tây",
+    "Tỏi",
+    "Ớt hiểm",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước màu",
+    "Muối ớt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Ginger",
+    "Onion",
+    "Garlic",
+    "Hot pepper",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Food coloring",
+    "Hot Salted Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit ca hoi",
+    "gung",
+    "hanh tay",
+    "toi",
+    "ot hiem",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "nuoc mau",
+    "muoi ot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

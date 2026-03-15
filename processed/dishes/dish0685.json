@@ -1,0 +1,67 @@
+{
+  "id": "dish0685",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0685.json",
+  "name_vi": "Canh cua rau cải",
+  "name_en": "",
+  "name_normalized": "canh cua rau cai",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cua đồng"
+  ],
+  "secondary_ingredients": [
+    "Cải xanh",
+    "Hành tím cắt lát"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre01797",
+    "ingre02777",
+    "ingre02124",
+    "ingre04694",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Cải xanh",
+    "Hành tím cắt lát",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Cabbage",
+    "Green onion slices",
+    "Cooking oil",
+    "Fish Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "cai xanh",
+    "hanh tim cat lat",
+    "dau an",
+    "nuoc mam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

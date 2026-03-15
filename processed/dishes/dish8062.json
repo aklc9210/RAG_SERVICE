@@ -1,0 +1,72 @@
+{
+  "id": "dish8062",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8062.json",
+  "name_vi": "Nộm su su cà rốt",
+  "name_en": "",
+  "name_normalized": "nom su su ca rot",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Su su"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05790",
+    "ingre01419",
+    "ingre05385",
+    "ingre07966",
+    "ingre01079",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Su su",
+    "Cà rốt",
+    "Rau thơm",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Bamboo shoot",
+    "Carrot",
+    "Basil",
+    "Pepper",
+    "Lemon",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "su su",
+    "ca rot",
+    "rau thom",
+    "ot",
+    "chanh",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

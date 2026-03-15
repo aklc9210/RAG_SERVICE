@@ -1,0 +1,58 @@
+{
+  "id": "dish6593",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6593.json",
+  "name_vi": "Thịt heo chiên giòn",
+  "name_en": "",
+  "name_normalized": "thit heo chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre02768",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Hành tím",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Shallot",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "hanh tim",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

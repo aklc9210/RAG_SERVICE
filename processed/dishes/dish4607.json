@@ -1,0 +1,81 @@
+{
+  "id": "dish4607",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4607.json",
+  "name_vi": "Trứng xào cà chua",
+  "name_en": "",
+  "name_normalized": "trung xao ca chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Tiêu",
+    "Nước mắm",
+    "Trứng muối"
+  ],
+  "ingredient_ids": [
+    "ingre06801",
+    "ingre01354",
+    "ingre02673",
+    "ingre06612",
+    "ingre04694",
+    "ingre06849",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Trứng",
+    "Cà chua",
+    "Hành lá",
+    "Tiêu",
+    "Nước mắm",
+    "Trứng muối",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Egg",
+    "Tomato",
+    "Scallion",
+    "Pepper",
+    "Fish Sauce",
+    "Pickled egg",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "trung",
+    "ca chua",
+    "hanh la",
+    "tieu",
+    "nuoc mam",
+    "trung muoi",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

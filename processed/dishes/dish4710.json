@@ -1,0 +1,67 @@
+{
+  "id": "dish4710",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4710.json",
+  "name_vi": "Ốc gạo xào dừa",
+  "name_en": "",
+  "name_normalized": "oc gao xao dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc gạo"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước cốt dừa",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07942",
+    "ingre05900",
+    "ingre07966",
+    "ingre04554",
+    "ingre02124",
+    "ingre04821"
+  ],
+  "ingredient_names_vi": [
+    "Ốc gạo",
+    "Sả",
+    "Ớt",
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Nước vo gạo"
+  ],
+  "ingredient_names_en": [
+    "Rice snail",
+    "Lemongrass",
+    "Pepper",
+    "Coconut milk",
+    "Cooking oil",
+    "Rice washing water"
+  ],
+  "ingredient_names_normalized": [
+    "oc gao",
+    "sa",
+    "ot",
+    "nuoc cot dua",
+    "dau an",
+    "nuoc vo gao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

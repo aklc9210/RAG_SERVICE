@@ -1,0 +1,129 @@
+{
+  "id": "dish3423",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3423.json",
+  "name_vi": "Bún quậy Phú Quốc",
+  "name_en": "",
+  "name_normalized": "bun quay phu quoc",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chả cá thác lác",
+    "Tôm tươi",
+    "Tôm khô",
+    "Bún"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Tắc",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01280",
+    "ingre06963",
+    "ingre06941",
+    "ingre00338",
+    "ingre02768",
+    "ingre02774",
+    "ingre05900",
+    "ingre07057",
+    "ingre02673",
+    "ingre08097",
+    "ingre02124",
+    "ingre02995",
+    "ingre06612",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chả cá thác lác",
+    "Tôm tươi",
+    "Tôm khô",
+    "Bún",
+    "Hành tím",
+    "Hành tím băm",
+    "Sả",
+    "Tắc",
+    "Hành lá",
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Fish cake",
+    "Fresh shrimp",
+    "Dried Shrimp",
+    "Noodle",
+    "Shallot",
+    "Chopped Scallion",
+    "Lemongrass",
+    "Tamarind",
+    "Scallion",
+    "Red pepper",
+    "Cooking oil",
+    "Seasoning",
+    "Pepper",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "cha ca thac lac",
+    "tom tuoi",
+    "tom kho",
+    "bun",
+    "hanh tim",
+    "hanh tim bam",
+    "sa",
+    "tac",
+    "hanh la",
+    "ot do",
+    "dau an",
+    "hat nem",
+    "tieu",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

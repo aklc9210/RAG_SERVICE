@@ -1,0 +1,45 @@
+{
+  "id": "dish2840",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2840.json",
+  "name_vi": "Bơ - butter bằng kem tươi (heavy cream)",
+  "name_en": "",
+  "name_normalized": "bo butter bang kem tuoi heavy cream",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kem sữa tươi",
+    "Sữa chua"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre03147",
+    "ingre06088"
+  ],
+  "ingredient_names_vi": [
+    "Kem sữa tươi",
+    "Sữa chua"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Yogurt"
+  ],
+  "ingredient_names_normalized": [
+    "kem sua tuoi",
+    "sua chua"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo - butter bang kem tuoi (heavy cream)",
+      "new": "bo butter bang kem tuoi heavy cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

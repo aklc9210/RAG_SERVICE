@@ -1,0 +1,77 @@
+{
+  "id": "dish5435",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5435.json",
+  "name_vi": "Củ cải khô xào thịt",
+  "name_en": "",
+  "name_normalized": "cu cai kho xao thit",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Củ cải khô",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành lá cắt khúc"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01864",
+    "ingre06300",
+    "ingre07071",
+    "ingre02657",
+    "ingre02681",
+    "ingre02080",
+    "ingre02124",
+    "ingre00826"
+  ],
+  "ingredient_names_vi": [
+    "Củ cải khô",
+    "Thịt bò",
+    "Tỏi băm",
+    "Hành băm",
+    "Hành lá cắt khúc",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Dried radish",
+    "Beef",
+    "Minced Garlic",
+    "Chopped Garlic",
+    "Chopped Green Onion",
+    "Soy sauce",
+    "Cooking oil",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cu cai kho",
+    "thit bo",
+    "toi bam",
+    "hanh bam",
+    "hanh la cat khuc",
+    "dau hao",
+    "dau an",
+    "bot ngot muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ muoi",
+      "new": "bot ngot muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ Muối"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish7031",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7031.json",
+  "name_vi": "Lườn ngỗng hun khói sốt cam",
+  "name_en": "",
+  "name_normalized": "luon ngong hun khoi sot cam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Lườn ngỗng hun khói",
+    "Khoai tây",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Nước cam",
+    "Vỏ cam bào",
+    "Cooking cream",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Đường nâu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03601",
+    "ingre03222",
+    "ingre00382",
+    "ingre04503",
+    "ingre07247",
+    "ingre01320",
+    "ingre06144",
+    "ingre02124",
+    "ingre07628",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Lườn ngỗng hun khói",
+    "Khoai tây",
+    "Bơ lạt",
+    "Nước cam",
+    "Vỏ cam bào",
+    "Cooking cream",
+    "Sữa tươi",
+    "Dầu ăn",
+    "Đường nâu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Smoked Goose Breast",
+    "Potato",
+    "Butter",
+    "Orange juice",
+    "Orange peel shredded",
+    "Cooking cream",
+    "Fresh Milk",
+    "Cooking oil",
+    "Brown Sugar",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "luon ngong hun khoi",
+    "khoai tay",
+    "bo lat",
+    "nuoc cam",
+    "vo cam bao",
+    "cooking cream",
+    "sua tuoi",
+    "dau an",
+    "duong nau",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

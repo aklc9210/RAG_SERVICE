@@ -1,0 +1,71 @@
+{
+  "id": "dish6921",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6921.json",
+  "name_vi": "Khô cá sặc chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "kho ca sac chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khô cá sặc",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03257",
+    "ingre05900",
+    "ingre07966",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá sặc",
+    "Sả",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Dried Mackerel",
+    "Lemongrass",
+    "Pepper",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca sac",
+    "sa",
+    "ot",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

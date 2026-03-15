@@ -1,0 +1,108 @@
+{
+  "id": "dish8886",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8886.json",
+  "name_vi": "Bánh tráng trộn",
+  "name_en": "",
+  "name_normalized": "banh trang tron",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Xoài xanh",
+    "Trứng cút",
+    "Quất"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu phộng",
+    "Tép rang",
+    "Khô bò xé sợi",
+    "Khô bò đen",
+    "Nước bò đen"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Muối tôm",
+    "Sa tế",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre07342",
+    "ingre06816",
+    "ingre05182",
+    "ingre02768",
+    "ingre07781",
+    "ingre06919",
+    "ingre02730",
+    "ingre03786",
+    "ingre05621",
+    "ingre03239",
+    "ingre03241",
+    "ingre04495",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Xoài xanh",
+    "Trứng cút",
+    "Quất",
+    "Hành tím",
+    "Đậu phộng",
+    "Tép rang",
+    "Hành phi",
+    "Muối tôm",
+    "Sa tế",
+    "Khô bò xé sợi",
+    "Khô bò đen",
+    "Nước bò đen",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Green mango",
+    "Quail egg",
+    "Kumquat",
+    "Shallot",
+    "Peanut",
+    "Roasted Garlic",
+    "Garlic Fried",
+    "Shrimp salt",
+    "Fish sauce",
+    "Sliced Beef Jerky",
+    "Black beef jerky",
+    "Black beef broth",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "xoai xanh",
+    "trung cut",
+    "quat",
+    "hanh tim",
+    "dau phong",
+    "tep rang",
+    "hanh phi",
+    "muoi tom",
+    "sa te",
+    "kho bo xe soi",
+    "kho bo den",
+    "nuoc bo den",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

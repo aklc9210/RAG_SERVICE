@@ -1,0 +1,121 @@
+{
+  "id": "dish8091",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8091.json",
+  "name_vi": "Gỏi tép đu đủ",
+  "name_en": "",
+  "name_normalized": "goi tep du du",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tép",
+    "Đu đủ sống",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Chanh",
+    "Tỏi",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06915",
+    "ingre07499",
+    "ingre07781",
+    "ingre08055",
+    "ingre02768",
+    "ingre01079",
+    "ingre07063",
+    "ingre05359",
+    "ingre04694",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tép",
+    "Đu đủ sống",
+    "Đậu phộng",
+    "Ớt sừng",
+    "Hành tím",
+    "Chanh",
+    "Tỏi",
+    "Rau răm",
+    "Nước mắm",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Mango",
+    "Peanut",
+    "Hot pepper",
+    "Shallot",
+    "Lemon",
+    "Garlic",
+    "Vietnamese coriander",
+    "Fish Sauce",
+    "Seasoning",
+    "MSG",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tep",
+    "du du song",
+    "dau phong",
+    "ot sung",
+    "hanh tim",
+    "chanh",
+    "toi",
+    "rau ram",
+    "nuoc mam",
+    "hat nem",
+    "bot ngot",
+    "muoi",
+    "tieu",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

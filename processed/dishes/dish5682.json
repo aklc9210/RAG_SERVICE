@@ -1,0 +1,107 @@
+{
+  "id": "dish5682",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5682.json",
+  "name_vi": "Thịt thỏ giả cầy",
+  "name_en": "",
+  "name_normalized": "thit tho gia cay",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt thỏ"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng",
+    "Sả"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Rượu trắng",
+    "Sa tế tôm",
+    "Ngũ vị hương",
+    "Ớt đỏ",
+    "Gừng tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06504",
+    "ingre06147",
+    "ingre05574",
+    "ingre05626",
+    "ingre04381",
+    "ingre07781",
+    "ingre05900",
+    "ingre08097",
+    "ingre02518",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thỏ",
+    "Sữa tươi không đường",
+    "Rượu trắng",
+    "Sa tế tôm",
+    "Ngũ vị hương",
+    "Đậu phộng",
+    "Sả",
+    "Ớt đỏ",
+    "Gừng tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rabbit肉",
+    "Fat-free Milk",
+    "White wine",
+    "Shrimp paste",
+    "Five-Spice Powder",
+    "Peanut",
+    "Lemongrass",
+    "Red pepper",
+    "Ginger",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit tho",
+    "sua tuoi khong duong",
+    "ruou trang",
+    "sa te tom",
+    "ngu vi huong",
+    "dau phong",
+    "sa",
+    "ot do",
+    "gung tuoi",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

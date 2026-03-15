@@ -1,0 +1,96 @@
+{
+  "id": "dish8290",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8290.json",
+  "name_vi": "Gỏi xoài khô cá chỉ vàng",
+  "name_en": "",
+  "name_normalized": "goi xoai kho ca chi vang",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Khô cá chỉ vàng",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Xà lách/ cà chua"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03245",
+    "ingre07342",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre05359",
+    "ingre07373",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá chỉ vàng",
+    "Xoài xanh",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Rau răm",
+    "Xà lách/ cà chua",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dried Yellow Croaker Fish",
+    "Green mango",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Vietnamese coriander",
+    "Mixed Lettuce/Tomato",
+    "Fish Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca chi vang",
+    "xoai xanh",
+    "toi",
+    "ot",
+    "chanh",
+    "rau ram",
+    "xa lach ca chua",
+    "nuoc mam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach/ ca chua",
+      "new": "xa lach ca chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách/ cà chua"
+    }
+  ]
+}

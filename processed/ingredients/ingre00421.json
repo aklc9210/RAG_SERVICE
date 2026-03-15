@@ -1,0 +1,27 @@
+{
+  "id": "ingre00421",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00421.json",
+  "name_vi": "bơ.",
+  "name_en": "Butter.",
+  "name_normalized": "bo",
+  "synonyms": [
+    "dầu dừa"
+  ],
+  "synonyms_normalized": [
+    "dau dua"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo.",
+      "new": "bo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

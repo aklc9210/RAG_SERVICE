@@ -1,0 +1,83 @@
+{
+  "id": "dish3142",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3142.json",
+  "name_vi": "Mì soba lạnh",
+  "name_en": "",
+  "name_normalized": "mi soba lanh",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Vắt mì soba khô",
+    "Nước dùng Dashi"
+  ],
+  "secondary_ingredients": [
+    "Cá ngừ bào khô",
+    "Rong biển khô",
+    "Hành lá",
+    "Cải trắng",
+    "Món ăn kèm"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Rượu mirin"
+  ],
+  "ingredient_ids": [
+    "ingre07203",
+    "ingre04606",
+    "ingre04790",
+    "ingre05545",
+    "ingre01581",
+    "ingre05457",
+    "ingre02673",
+    "ingre01796",
+    "ingre04041"
+  ],
+  "ingredient_names_vi": [
+    "Vắt mì soba khô",
+    "Nước dùng Dashi",
+    "Nước tương",
+    "Rượu mirin",
+    "Cá ngừ bào khô",
+    "Rong biển khô",
+    "Hành lá",
+    "Cải trắng",
+    "Món ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Dried soba noodles",
+    "Dashi Broth",
+    "Soy Sauce",
+    "Mirin Wine",
+    "Dried Codfish",
+    "Kelp Powder",
+    "Scallion",
+    "Cabbage",
+    "Side dish"
+  ],
+  "ingredient_names_normalized": [
+    "vat mi soba kho",
+    "nuoc dung dashi",
+    "nuoc tuong",
+    "ruou mirin",
+    "ca ngu bao kho",
+    "rong bien kho",
+    "hanh la",
+    "cai trang",
+    "mon an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

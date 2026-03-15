@@ -1,0 +1,68 @@
+{
+  "id": "dish1008",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1008.json",
+  "name_vi": "Bánh khoai tây chiên phồng",
+  "name_en": "",
+  "name_normalized": "banh khoai tay chien phong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Hạt thì là",
+    "Rau mùi cắt nhỏ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nghệ",
+    "Ớt bột",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00804",
+    "ingre03222",
+    "ingre03036",
+    "ingre05305",
+    "ingre07977",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nghệ",
+    "Khoai tây",
+    "Hạt thì là",
+    "Rau mùi cắt nhỏ",
+    "Ớt bột",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Turmeric Powder",
+    "Potato",
+    "Turmeric seeds",
+    "Mint chopped",
+    "Chili powder",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot nghe",
+    "khoai tay",
+    "hat thi la",
+    "rau mui cat nho",
+    "ot bot",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

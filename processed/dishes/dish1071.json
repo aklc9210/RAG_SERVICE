@@ -1,0 +1,70 @@
+{
+  "id": "dish1071",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1071.json",
+  "name_vi": "Vỏ bánh tacos (bánh tortilla) 3 màu từ rau củ",
+  "name_en": "",
+  "name_normalized": "vo banh tacos banh tortilla 3 mau tu rau cu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Rau bina"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Bột mì đa dụng",
+    "Muối",
+    "Bột baking powder",
+    "Sữa tươi không đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05199",
+    "ingre01419",
+    "ingre00791",
+    "ingre03746",
+    "ingre00514",
+    "ingre06147",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Rau bina",
+    "Cà rốt",
+    "Bột mì đa dụng",
+    "Muối",
+    "Bột baking powder",
+    "Sữa tươi không đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Spinach",
+    "Carrot",
+    "All-purpose flour",
+    "Salt",
+    "Baking Powder",
+    "Fat-free Milk",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "rau bina",
+    "ca rot",
+    "bot mi da dung",
+    "muoi",
+    "bot baking powder",
+    "sua tuoi khong duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "vo banh tacos (banh tortilla) 3 mau tu rau cu",
+      "new": "vo banh tacos banh tortilla 3 mau tu rau cu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

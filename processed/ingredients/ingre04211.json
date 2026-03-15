@@ -1,0 +1,25 @@
+{
+  "id": "ingre04211",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04211.json",
+  "name_vi": "mỡ trừu - shoterning",
+  "name_en": "Vegetable shortening",
+  "name_normalized": "mo truu shoterning",
+  "synonyms": [
+    "thịt bắp"
+  ],
+  "synonyms_normalized": [
+    "thit bap"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mo truu - shoterning",
+      "new": "mo truu shoterning",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish9499",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9499.json",
+  "name_vi": "Xôi hoa đậu biếc đậu xanh hình trái tim",
+  "name_en": "",
+  "name_normalized": "xoi hoa dau biec dau xanh hinh trai tim",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Nếp",
+    "Đậu xanh đãi vỏ"
+  ],
+  "secondary_ingredients": [
+    "Hoa đậu biếc",
+    "Dừa nạo",
+    "Lá dứa tươi"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07861",
+    "ingre02610",
+    "ingre02182",
+    "ingre04554",
+    "ingre03421",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu xanh đãi vỏ",
+    "Hoa đậu biếc",
+    "Dừa nạo",
+    "Nước cốt dừa",
+    "Lá dứa tươi",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Green split peas",
+    "Bluebell Flower",
+    "Coconut grated",
+    "Coconut milk",
+    "Lemongrass",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau xanh dai vo",
+    "hoa dau biec",
+    "dua nao",
+    "nuoc cot dua",
+    "la dua tuoi",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

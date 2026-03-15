@@ -1,0 +1,106 @@
+{
+  "id": "dish4002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4002.json",
+  "name_vi": "Bạch tuộc nướng sa tế",
+  "name_en": "",
+  "name_normalized": "bach tuoc nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bạch tuộc"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Màu dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Sa tế",
+    "Gia vị ướp nướng",
+    "Đường",
+    "Hạt nêm",
+    "Ớt bột"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre07063",
+    "ingre02485",
+    "ingre02768",
+    "ingre05900",
+    "ingre07966",
+    "ingre05621",
+    "ingre02324",
+    "ingre03849",
+    "ingre07583",
+    "ingre02995",
+    "ingre07977"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Tỏi",
+    "Gừng",
+    "Hành tím",
+    "Sả",
+    "Ớt",
+    "Sa tế",
+    "Gia vị ướp nướng",
+    "Màu dầu điều",
+    "Đường",
+    "Hạt nêm",
+    "Ớt bột"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Garlic",
+    "Ginger",
+    "Shallot",
+    "Lemongrass",
+    "Pepper",
+    "Fish sauce",
+    "Barbecue Seasoning",
+    "Peanut oil color",
+    "Sugar",
+    "Seasoning",
+    "Chili powder"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "toi",
+    "gung",
+    "hanh tim",
+    "sa",
+    "ot",
+    "sa te",
+    "gia vi uop nuong",
+    "mau dau dieu",
+    "duong",
+    "hat nem",
+    "ot bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

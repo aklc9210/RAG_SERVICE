@@ -1,0 +1,27 @@
+{
+  "id": "ingre02382",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02382.json",
+  "name_vi": "giấm.",
+  "name_en": "Vinegar.",
+  "name_normalized": "giam",
+  "synonyms": [
+    "mắm giấm"
+  ],
+  "synonyms_normalized": [
+    "mam giam"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "giam.",
+      "new": "giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish0166",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0166.json",
+  "name_vi": "canh xương củ cải",
+  "name_en": "",
+  "name_normalized": "canh xuong cu cai",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương heo",
+    "Củ cải trắng",
+    "Su su"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Rượu trắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre01868",
+    "ingre05790",
+    "ingre02673",
+    "ingre07063",
+    "ingre05574",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Củ cải trắng",
+    "Su su",
+    "Hành lá",
+    "Tỏi",
+    "Rượu trắng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "White radish",
+    "Bamboo shoot",
+    "Scallion",
+    "Garlic",
+    "White wine",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "cu cai trang",
+    "su su",
+    "hanh la",
+    "toi",
+    "ruou trang",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

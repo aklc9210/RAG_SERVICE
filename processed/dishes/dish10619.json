@@ -1,0 +1,105 @@
+{
+  "id": "dish10619",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10619.json",
+  "name_vi": "Phở cuốn thịt bò băm",
+  "name_en": "",
+  "name_normalized": "pho cuon thit bo bam",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bánh phở",
+    "Thịt bò băm",
+    "Ngô bao tử"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dưa chuột",
+    "Tỏi băm",
+    "Dầu hào",
+    "Tương cà",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00139",
+    "ingre06303",
+    "ingre04364",
+    "ingre01419",
+    "ingre02000",
+    "ingre02741",
+    "ingre05900",
+    "ingre07071",
+    "ingre02080",
+    "ingre06984",
+    "ingre02124",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Bánh phở",
+    "Thịt bò băm",
+    "Ngô bao tử",
+    "Cà rốt",
+    "Dưa chuột",
+    "Hành tây",
+    "Sả",
+    "Tỏi băm",
+    "Dầu hào",
+    "Tương cà",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Noodle sheet",
+    "Ground Beef",
+    "Corn stomach包裹玉米胃不是常见的食物表达方式，可能是表述有误。正确的翻译可能是“甜玉米”或“corn”。请确认是否",
+    "Carrot",
+    "Cucumber",
+    "Onion",
+    "Lemongrass",
+    "Minced Garlic",
+    "Soy sauce",
+    "Miso酱",
+    "Cooking oil",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh pho",
+    "thit bo bam",
+    "ngo bao tu",
+    "ca rot",
+    "dua chuot",
+    "hanh tay",
+    "sa",
+    "toi bam",
+    "dau hao",
+    "tuong ca",
+    "dau an",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

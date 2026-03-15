@@ -1,0 +1,57 @@
+{
+  "id": "dish9830",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9830.json",
+  "name_vi": "Dừa tắc",
+  "name_en": "",
+  "name_normalized": "dua tac",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Dừa xiêm"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre02210",
+    "ingre07057",
+    "ingre07680",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Dừa xiêm",
+    "Tắc",
+    "Đường/ muối",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Jackfruit",
+    "Tamarind",
+    "Sugar/Salt",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "dua xiem",
+    "tac",
+    "duong muoi",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

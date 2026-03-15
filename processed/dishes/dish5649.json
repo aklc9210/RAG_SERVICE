@@ -1,0 +1,111 @@
+{
+  "id": "dish5649",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5649.json",
+  "name_vi": "Cá heo kho lạt",
+  "name_en": "",
+  "name_normalized": "ca heo kho lat",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá heo tươi",
+    "Me tươi",
+    "Đầu hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Hạt nê",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tiêu xanh",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01521",
+    "ingre03660",
+    "ingre07717",
+    "ingre02673",
+    "ingre02768",
+    "ingre06640",
+    "ingre07028",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre02994",
+    "ingre06644",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Cá heo tươi",
+    "Me tươi",
+    "Đầu hành lá",
+    "Hành lá",
+    "Hành tím",
+    "Tiêu xanh",
+    "Tương ớt",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nê",
+    "Tiêu xay",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Fresh Dolphin Fish",
+    "Fresh herb",
+    "Chive;top",
+    "Scallion",
+    "Shallot",
+    "Green pepper",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Fennel seeds",
+    "Ground pepper",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "ca heo tuoi",
+    "me tuoi",
+    "dau hanh la",
+    "hanh la",
+    "hanh tim",
+    "tieu xanh",
+    "tuong ot",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "hat ne",
+    "tieu xay",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

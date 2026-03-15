@@ -1,0 +1,25 @@
+{
+  "id": "ingre05198",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05198.json",
+  "name_vi": "rau - dưa ăn kèm",
+  "name_en": "Pickled Cucumber",
+  "name_normalized": "rau dua an kem",
+  "synonyms": [
+    "dưa leo"
+  ],
+  "synonyms_normalized": [
+    "dua leo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau - dua an kem",
+      "new": "rau dua an kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ingre05632",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05632.json",
+  "name_vi": "sa-tế",
+  "name_en": "Satay",
+  "name_normalized": "sa te",
+  "synonyms": [
+    "thịt bằm",
+    "nước mắm pha",
+    "tương ớt pha"
+  ],
+  "synonyms_normalized": [
+    "thit bam",
+    "nuoc mam pha",
+    "tuong ot pha"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sa-te",
+      "new": "sa te",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

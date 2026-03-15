@@ -1,0 +1,42 @@
+{
+  "id": "dish9013",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9013.json",
+  "name_vi": "Cơm cháy chà bông chay",
+  "name_en": "",
+  "name_normalized": "com chay cha bong chay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Chà bông chay",
+    "Hành"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre01204",
+    "ingre02636"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Chà bông chay",
+    "Hành"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Vegetarian pork floss",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "cha bong chay",
+    "hanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

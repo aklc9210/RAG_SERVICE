@@ -1,0 +1,87 @@
+{
+  "id": "dish8365",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8365.json",
+  "name_vi": "Kim chi củ cải miếng",
+  "name_en": "",
+  "name_normalized": "kim chi cu cai mieng",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Củ cải",
+    "Hành boa rô",
+    "Táo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nước soda"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Gừng băm",
+    "Ớt bột Hàn Quốc",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01860",
+    "ingre02645",
+    "ingre06890",
+    "ingre02741",
+    "ingre00668",
+    "ingre02492",
+    "ingre07983",
+    "ingre04694",
+    "ingre04741",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Củ cải",
+    "Hành boa rô",
+    "Táo",
+    "Hành tây",
+    "Bột gạo",
+    "Gừng băm",
+    "Ớt bột Hàn Quốc",
+    "Nước mắm",
+    "Nước soda",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Radish",
+    "Garlic",
+    "Apple",
+    "Onion",
+    "Rice flour",
+    "Ginger paste",
+    "Korean chili powder",
+    "Fish Sauce",
+    "Soda",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cu cai",
+    "hanh boa ro",
+    "tao",
+    "hanh tay",
+    "bot gao",
+    "gung bam",
+    "ot bot han quoc",
+    "nuoc mam",
+    "nuoc soda",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

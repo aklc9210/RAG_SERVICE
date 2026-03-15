@@ -1,0 +1,124 @@
+{
+  "id": "dish4365",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4365.json",
+  "name_vi": "Cháo lòng miền Tây",
+  "name_en": "",
+  "name_normalized": "chao long mien tay",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Gạo",
+    "Gạo nếp",
+    "Lòng heo",
+    "Gan heo"
+  ],
+  "secondary_ingredients": [
+    "Xương heo",
+    "Tim heo",
+    "Sả",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Gừng",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Đường",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre02450",
+    "ingre03572",
+    "ingre02242",
+    "ingre07422",
+    "ingre06558",
+    "ingre05574",
+    "ingre05900",
+    "ingre02485",
+    "ingre02673",
+    "ingre02995",
+    "ingre02124",
+    "ingre07583",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Gạo nếp",
+    "Lòng heo",
+    "Gan heo",
+    "Xương heo",
+    "Tim heo",
+    "Rượu trắng",
+    "Sả",
+    "Gừng",
+    "Hành lá",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Đường",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "sticky rice",
+    "Pork liver",
+    "Pork bone",
+    "White wine",
+    "Lemongrass",
+    "Ginger",
+    "Scallion",
+    "Seasoning",
+    "Cooking oil",
+    "Sugar",
+    "Fish Sauce",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "gao nep",
+    "long heo",
+    "gan heo",
+    "xuong heo",
+    "tim heo",
+    "ruou trang",
+    "sa",
+    "gung",
+    "hanh la",
+    "hat nem",
+    "dau an",
+    "duong",
+    "nuoc mam",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish5393",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5393.json",
+  "name_vi": "Sứa xào cần tây",
+  "name_en": "",
+  "name_normalized": "sua xao can tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Chân sứa",
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01246",
+    "ingre01812",
+    "ingre07063",
+    "ingre02768",
+    "ingre02485",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Chân sứa",
+    "Cần tây",
+    "Tỏi",
+    "Hành tím",
+    "Gừng",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Jellyfish",
+    "Celery",
+    "Garlic",
+    "Shallot",
+    "Ginger",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "chan sua",
+    "can tay",
+    "toi",
+    "hanh tim",
+    "gung",
+    "dau an",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

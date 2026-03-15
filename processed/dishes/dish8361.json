@@ -1,0 +1,88 @@
+{
+  "id": "dish8361",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8361.json",
+  "name_vi": "Gỏi bắp chuối luộc - bắp chuối xé phay",
+  "name_en": "",
+  "name_normalized": "goi bap chuoi luoc bap chuoi xe phay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bắp chuối",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt hiểm",
+    "Tỏi",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00452",
+    "ingre07781",
+    "ingre05359",
+    "ingre01079",
+    "ingre08026",
+    "ingre07063",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bắp chuối",
+    "Đậu phộng",
+    "Rau răm",
+    "Chanh",
+    "Ớt hiểm",
+    "Tỏi",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Banana",
+    "Peanut",
+    "Vietnamese coriander",
+    "Lemon",
+    "Hot pepper",
+    "Garlic",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap chuoi",
+    "dau phong",
+    "rau ram",
+    "chanh",
+    "ot hiem",
+    "toi",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi bap chuoi luoc - bap chuoi xe phay",
+      "new": "goi bap chuoi luoc bap chuoi xe phay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

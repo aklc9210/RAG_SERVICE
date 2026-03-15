@@ -1,0 +1,108 @@
+{
+  "id": "dish0280",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0280.json",
+  "name_vi": "Súp bắp chay",
+  "name_en": "",
+  "name_normalized": "sup bap chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Củ sắn",
+    "Su su",
+    "Mướp hương"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Nấm rơm khô",
+    "Nấm đùi gà",
+    "Nấm bào ngư"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Củ cải muối",
+    "Bột năng",
+    "Bắp ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01920",
+    "ingre05790",
+    "ingre01419",
+    "ingre04104",
+    "ingre04910",
+    "ingre04956",
+    "ingre01865",
+    "ingre04974",
+    "ingre04894",
+    "ingre00849",
+    "ingre00483",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Củ sắn",
+    "Su su",
+    "Cà rốt",
+    "Mướp hương",
+    "Nấm hương",
+    "Nấm rơm khô",
+    "Củ cải muối",
+    "Nấm đùi gà",
+    "Nấm bào ngư",
+    "Bột năng",
+    "Bắp ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Bamboo shoot",
+    "Carrot",
+    "Luffa",
+    "Mushroom",
+    "Dried Straw Mushrooms",
+    "Pickled radish",
+    "Chicken mushroom",
+    "Oyster mushroom",
+    "Cornstarch",
+    "Sweet corn",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cu san",
+    "su su",
+    "ca rot",
+    "muop huong",
+    "nam huong",
+    "nam rom kho",
+    "cu cai muoi",
+    "nam dui ga",
+    "nam bao ngu",
+    "bot nang",
+    "bap ngot",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    }
+  ]
+}

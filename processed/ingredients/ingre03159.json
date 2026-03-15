@@ -1,0 +1,25 @@
+{
+  "id": "ingre03159",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03159.json",
+  "name_vi": "kem tươi (hay còn gọi là whipping cream",
+  "name_en": "Whipping Cream",
+  "name_normalized": "kem tuoi hay con goi la whipping cream",
+  "synonyms": [
+    "kem đánh được"
+  ],
+  "synonyms_normalized": [
+    "kem danh duoc"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem tuoi (hay con goi la whipping cream",
+      "new": "kem tuoi hay con goi la whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "dish7957",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7957.json",
+  "name_vi": "Salad bánh mì đen tôm cà chua",
+  "name_en": "",
+  "name_normalized": "salad banh mi den tom ca chua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bánh mì đen",
+    "Rau xà lách",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải",
+    "Cà chua bi",
+    "Dưa leo",
+    "Hạt bắp",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt bột",
+    "Sốt mè rang",
+    "Tiêu trắng",
+    "Muôi/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00125",
+    "ingre05410",
+    "ingre06930",
+    "ingre00457",
+    "ingre01355",
+    "ingre01419",
+    "ingre02020",
+    "ingre02912",
+    "ingre07977",
+    "ingre05980",
+    "ingre02104",
+    "ingre06635",
+    "ingre03736"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì đen",
+    "Rau xà lách",
+    "Tôm",
+    "Bắp cải",
+    "Cà chua bi",
+    "Cà rốt",
+    "Dưa leo",
+    "Hạt bắp",
+    "Ớt bột",
+    "Sốt mè rang",
+    "Dầu oliu",
+    "Tiêu trắng",
+    "Muôi/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Black bread",
+    "lettuce",
+    "Shrimp",
+    "Cabbage",
+    "Tomato",
+    "Carrot",
+    "Cucumber",
+    "Corn kernel",
+    "Chili powder",
+    "Roasted Sesame Sauce",
+    "Olive oil",
+    "White Pepper",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi den",
+    "rau xa lach",
+    "tom",
+    "bap cai",
+    "ca chua bi",
+    "ca rot",
+    "dua leo",
+    "hat bap",
+    "ot bot",
+    "sot me rang",
+    "dau oliu",
+    "tieu trang",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muôi/ tiêu xay"
+    }
+  ]
+}

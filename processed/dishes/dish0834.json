@@ -1,0 +1,68 @@
+{
+  "id": "dish0834",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0834.json",
+  "name_vi": "Bánh mì sữa phô mai cream cheese",
+  "name_en": "",
+  "name_normalized": "banh mi sua pho mai cream cheese",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cream cheese",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Men nở",
+    "Sữa tươi không đường",
+    "Đường",
+    "Trứng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre03686",
+    "ingre06147",
+    "ingre07583",
+    "ingre01324",
+    "ingre00382",
+    "ingre06801",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Men nở",
+    "Sữa tươi không đường",
+    "Đường",
+    "Cream cheese",
+    "Bơ lạt",
+    "Trứng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Baking Powder",
+    "Fat-free Milk",
+    "Sugar",
+    "Cream cheese",
+    "Butter",
+    "Egg",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "men no",
+    "sua tuoi khong duong",
+    "duong",
+    "cream cheese",
+    "bo lat",
+    "trung",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

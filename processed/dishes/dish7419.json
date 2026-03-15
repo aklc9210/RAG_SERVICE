@@ -1,0 +1,93 @@
+{
+  "id": "dish7419",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7419.json",
+  "name_vi": "Cơm chiên gạo lứt",
+  "name_en": "",
+  "name_normalized": "com chien gao lut",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm gạo lứt",
+    "Thịt đùi gà phi lê",
+    "Bắp cải tím"
+  ],
+  "secondary_ingredients": [
+    "Đậu Hà Lan",
+    "Bắp Mỹ",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Tỏi băm",
+    "Nước tương",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01749",
+    "ingre06220",
+    "ingre00468",
+    "ingre06823",
+    "ingre07736",
+    "ingre01419",
+    "ingre00479",
+    "ingre07071",
+    "ingre02673",
+    "ingre04790",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cơm gạo lứt",
+    "Thịt đùi gà phi lê",
+    "Bắp cải tím",
+    "Trứng gà",
+    "Đậu Hà Lan",
+    "Cà rốt",
+    "Bắp Mỹ",
+    "Tỏi băm",
+    "Hành lá",
+    "Nước tương",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice",
+    "Chicken thigh fillet",
+    "Purple cabbage",
+    "Chicken egg",
+    "Green beans",
+    "Carrot",
+    "Corn",
+    "Minced Garlic",
+    "Scallion",
+    "Soy Sauce",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "com gao lut",
+    "thit dui ga phi le",
+    "bap cai tim",
+    "trung ga",
+    "dau ha lan",
+    "ca rot",
+    "bap my",
+    "toi bam",
+    "hanh la",
+    "nuoc tuong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

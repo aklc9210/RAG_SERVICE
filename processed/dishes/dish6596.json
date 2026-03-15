@@ -1,0 +1,97 @@
+{
+  "id": "dish6596",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6596.json",
+  "name_vi": "Tóp mỡ kho quẹt",
+  "name_en": "",
+  "name_normalized": "top mo kho quet",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Hạt tiêu",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04192",
+    "ingre07966",
+    "ingre07063",
+    "ingre02485",
+    "ingre02768",
+    "ingre03043",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mỡ heo",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Hành tím",
+    "Hạt tiêu",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork fat",
+    "Pepper",
+    "Garlic",
+    "Ginger",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mo heo",
+    "ot",
+    "toi",
+    "gung",
+    "hanh tim",
+    "hat tieu",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

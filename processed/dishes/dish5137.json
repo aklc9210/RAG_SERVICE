@@ -1,0 +1,71 @@
+{
+  "id": "dish5137",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5137.json",
+  "name_vi": "Thịt ngan xào rau má",
+  "name_en": "",
+  "name_normalized": "thit ngan xao rau ma",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ngan",
+    "Rau má"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng băm",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06449",
+    "ingre05295",
+    "ingre02492",
+    "ingre02774",
+    "ingre02124",
+    "ingre04694",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ngan",
+    "Rau má",
+    "Gừng băm",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Lavender",
+    "Ginger paste",
+    "Chopped Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit ngan",
+    "rau ma",
+    "gung bam",
+    "hanh tim bam",
+    "dau an",
+    "nuoc mam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

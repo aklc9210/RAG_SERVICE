@@ -1,0 +1,131 @@
+{
+  "id": "dish8125",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8125.json",
+  "name_vi": "Gỏi măng lưỡi heo",
+  "name_en": "",
+  "name_normalized": "goi mang luoi heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Lưỡi heo",
+    "Măng tươi",
+    "Hành tây tím"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Ngò gai",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Tương ớt",
+    "Nước mắm",
+    "Nước cốt tắc",
+    "Giấm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03605",
+    "ingre04091",
+    "ingre02761",
+    "ingre01419",
+    "ingre02485",
+    "ingre07028",
+    "ingre04694",
+    "ingre04591",
+    "ingre02355",
+    "ingre07071",
+    "ingre07971",
+    "ingre05359",
+    "ingre04329",
+    "ingre07791",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lưỡi heo",
+    "Măng tươi",
+    "Hành tây tím",
+    "Cà rốt",
+    "Gừng",
+    "Tương ớt",
+    "Nước mắm",
+    "Nước cốt tắc",
+    "Giấm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Rau răm",
+    "Ngò gai",
+    "Đậu phộng rang",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork chop",
+    "Fresh bamboo shoots",
+    "Purple onion",
+    "Carrot",
+    "Ginger",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Tamarind juice",
+    "Vinegar",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Vietnamese coriander",
+    "Culantro",
+    "Roasted Peanut",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luoi heo",
+    "mang tuoi",
+    "hanh tay tim",
+    "ca rot",
+    "gung",
+    "tuong ot",
+    "nuoc mam",
+    "nuoc cot tac",
+    "giam",
+    "toi bam",
+    "ot bam",
+    "rau ram",
+    "ngo gai",
+    "dau phong rang",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

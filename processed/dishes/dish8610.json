@@ -1,0 +1,126 @@
+{
+  "id": "dish8610",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8610.json",
+  "name_vi": "Lưỡi bò hầm tiêu xanh",
+  "name_en": "",
+  "name_normalized": "luoi bo ham tieu xanh",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Lưỡi bò",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tiêu xanh",
+    "Cà rốt",
+    "Dầu ăn",
+    "Bột ngũ vị hương",
+    "Nước cốt dừa",
+    "Quế",
+    "Hoa hồi",
+    "Muối",
+    "Mắm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03603",
+    "ingre06640",
+    "ingre01419",
+    "ingre03222",
+    "ingre02741",
+    "ingre02768",
+    "ingre05900",
+    "ingre02124",
+    "ingre00815",
+    "ingre04554",
+    "ingre05186",
+    "ingre02584",
+    "ingre03746",
+    "ingre04133",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Lưỡi bò",
+    "Tiêu xanh",
+    "Cà rốt",
+    "Khoai tây",
+    "Hành tây",
+    "Hành tím",
+    "Sả",
+    "Dầu ăn",
+    "Bột ngũ vị hương",
+    "Nước cốt dừa",
+    "Quế",
+    "Hoa hồi",
+    "Muối",
+    "Mắm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef tongue",
+    "Green pepper",
+    "Carrot",
+    "Potato",
+    "Onion",
+    "Shallot",
+    "Lemongrass",
+    "Cooking oil",
+    "Five-Spice Powder",
+    "Coconut milk",
+    "Cinnamon",
+    "Rose",
+    "Salt",
+    "Fish sauce",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "luoi bo",
+    "tieu xanh",
+    "ca rot",
+    "khoai tay",
+    "hanh tay",
+    "hanh tim",
+    "sa",
+    "dau an",
+    "bot ngu vi huong",
+    "nuoc cot dua",
+    "que",
+    "hoa hoi",
+    "muoi",
+    "mam",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

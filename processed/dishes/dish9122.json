@@ -1,0 +1,67 @@
+{
+  "id": "dish9122",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9122.json",
+  "name_vi": "Nui ngào đường",
+  "name_en": "",
+  "name_normalized": "nui ngao duong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Nui khô"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04452",
+    "ingre02485",
+    "ingre07057",
+    "ingre03929",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Nui khô",
+    "Gừng",
+    "Tắc",
+    "Mè rang",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Ginger",
+    "Tamarind",
+    "Roasted Sesame Seeds",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nui kho",
+    "gung",
+    "tac",
+    "me rang",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "dish8155",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8155.json",
+  "name_vi": "Salad rau củ thập cẩm",
+  "name_en": "",
+  "name_normalized": "salad rau cu thap cam",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau xà lách",
+    "Cà chua bi",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Hành tây",
+    "Bắp luộc",
+    "Rau mùi",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Dưa chuột",
+    "Ớt",
+    "Chanh",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre05410",
+    "ingre02000",
+    "ingre01355",
+    "ingre02020",
+    "ingre00367",
+    "ingre02741",
+    "ingre00477",
+    "ingre05302",
+    "ingre07966",
+    "ingre01079",
+    "ingre02120",
+    "ingre04694",
+    "ingre07028",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Rau xà lách",
+    "Dưa chuột",
+    "Cà chua bi",
+    "Dưa leo",
+    "Bơ",
+    "Hành tây",
+    "Bắp luộc",
+    "Rau mùi",
+    "Ớt",
+    "Chanh",
+    "Dầu ô liu",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "lettuce",
+    "Cucumber",
+    "Tomato",
+    "Butter",
+    "Onion",
+    "Boiled corn",
+    "Mint",
+    "Pepper",
+    "Lemon",
+    "Olive oil",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "rau xa lach",
+    "dua chuot",
+    "ca chua bi",
+    "dua leo",
+    "bo",
+    "hanh tay",
+    "bap luoc",
+    "rau mui",
+    "ot",
+    "chanh",
+    "dau o liu",
+    "nuoc mam",
+    "tuong ot",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

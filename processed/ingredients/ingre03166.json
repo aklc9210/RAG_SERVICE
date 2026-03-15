@@ -1,0 +1,25 @@
+{
+  "id": "ingre03166",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03166.json",
+  "name_vi": "kem tươi whipping cream (có thể thay bằng sữa tươi)",
+  "name_en": "Fresh Cream (or Milk Cream)",
+  "name_normalized": "kem tuoi whipping cream co the thay bang sua tuoi",
+  "synonyms": [
+    "sữa tươi whipping cream"
+  ],
+  "synonyms_normalized": [
+    "sua tuoi whipping cream"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem tuoi whipping cream (co the thay bang sua tuoi)",
+      "new": "kem tuoi whipping cream co the thay bang sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

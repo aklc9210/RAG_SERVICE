@@ -1,0 +1,132 @@
+{
+  "id": "dish3714",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3714.json",
+  "name_vi": "Dựng dê nướng muối ớt sa tế",
+  "name_en": "",
+  "name_normalized": "dung de nuong muoi ot sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Dựng dê",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dưa leo",
+    "Rau răm",
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Sa tế tôm",
+    "Gừng",
+    "Ớt hiểm",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước tương",
+    "Rượu trắng",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02212",
+    "ingre05626",
+    "ingre05900",
+    "ingre02485",
+    "ingre08026",
+    "ingre02768",
+    "ingre07063",
+    "ingre02020",
+    "ingre05359",
+    "ingre04622",
+    "ingre02124",
+    "ingre04790",
+    "ingre05574",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Dựng dê",
+    "Sa tế tôm",
+    "Sả",
+    "Gừng",
+    "Ớt hiểm",
+    "Hành tím",
+    "Tỏi",
+    "Dưa leo",
+    "Rau răm",
+    "Nước dừa",
+    "Dầu ăn",
+    "Nước tương",
+    "Rượu trắng",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Goat horn ginger",
+    "Shrimp paste",
+    "Lemongrass",
+    "Ginger",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Cucumber",
+    "Vietnamese coriander",
+    "Coconut water",
+    "Cooking oil",
+    "Soy Sauce",
+    "White wine",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "dung de",
+    "sa te tom",
+    "sa",
+    "gung",
+    "ot hiem",
+    "hanh tim",
+    "toi",
+    "dua leo",
+    "rau ram",
+    "nuoc dua",
+    "dau an",
+    "nuoc tuong",
+    "ruou trang",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

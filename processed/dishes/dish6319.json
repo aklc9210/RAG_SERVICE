@@ -1,0 +1,103 @@
+{
+  "id": "dish6319",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6319.json",
+  "name_vi": "Cơm rang giòn",
+  "name_en": "",
+  "name_normalized": "com rang gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Cơm nguội phơi khô"
+  ],
+  "secondary_ingredients": [
+    "Lạp xưởng",
+    "Đậu que",
+    "Hành lá",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Cà rốt",
+    "Hành khô phi vàng",
+    "Hạt nêm",
+    "Nước mắm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre01756",
+    "ingre06801",
+    "ingre03618",
+    "ingre07818",
+    "ingre01419",
+    "ingre02673",
+    "ingre02671",
+    "ingre02134",
+    "ingre02995",
+    "ingre04694",
+    "ingre00819",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Cơm nguội phơi khô",
+    "Trứng",
+    "Lạp xưởng",
+    "Đậu que",
+    "Cà rốt",
+    "Hành lá",
+    "Hành khô phi vàng",
+    "Dầu điều",
+    "Hạt nêm",
+    "Nước mắm",
+    "Bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Dry Fried Rice",
+    "Egg",
+    "Sausage",
+    "Green beans",
+    "Carrot",
+    "Scallion",
+    "Garlic fried golden",
+    "Peanut oil",
+    "Seasoning",
+    "Fish Sauce",
+    "MSG",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "com nguoi phoi kho",
+    "trung",
+    "lap xuong",
+    "dau que",
+    "ca rot",
+    "hanh la",
+    "hanh kho phi vang",
+    "dau dieu",
+    "hat nem",
+    "nuoc mam",
+    "bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

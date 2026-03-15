@@ -1,0 +1,29 @@
+{
+  "id": "ingre04911",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04911.json",
+  "name_vi": "nấm hương - nấm rơm - nấm kim châm",
+  "name_en": "Shiitake - Straw - Bamboo Shoots",
+  "name_normalized": "nam huong nam rom nam kim cham",
+  "synonyms": [
+    "nấm hương",
+    "nấm rơm",
+    "nấm kim châm"
+  ],
+  "synonyms_normalized": [
+    "nam huong",
+    "nam rom",
+    "nam kim cham"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nam huong - nam rom - nam kim cham",
+      "new": "nam huong nam rom nam kim cham",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

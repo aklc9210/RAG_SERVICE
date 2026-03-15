@@ -1,0 +1,69 @@
+{
+  "id": "dish0938",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0938.json",
+  "name_vi": "Bánh mì cay Hải Phòng",
+  "name_en": "",
+  "name_normalized": "banh mi cay hai phong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước",
+    "Pate"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh mì",
+    "Giấm",
+    "Men nở",
+    "Muối",
+    "Đường",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00536",
+    "ingre02355",
+    "ingre03686",
+    "ingre04490",
+    "ingre03746",
+    "ingre07583",
+    "ingre05020",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh mì",
+    "Giấm",
+    "Men nở",
+    "Nước",
+    "Muối",
+    "Đường",
+    "Pate",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Bread flour",
+    "Vinegar",
+    "Baking Powder",
+    "Water",
+    "Salt",
+    "Sugar",
+    "Pate -> Pâté",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh mi",
+    "giam",
+    "men no",
+    "nuoc",
+    "muoi",
+    "duong",
+    "pate",
+    "tuong ot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

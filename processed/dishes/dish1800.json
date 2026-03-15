@@ -1,0 +1,53 @@
+{
+  "id": "dish1800",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1800.json",
+  "name_vi": "Bánh mì nguyên cám bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh mi nguyen cam bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì nguyên cám",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00315",
+    "ingre03684",
+    "ingre04473",
+    "ingre01991",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì nguyên cám",
+    "Men nở instant",
+    "Nước",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Whole Grain Flour",
+    "Instant Yeast",
+    "Water",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi nguyen cam",
+    "men no instant",
+    "nuoc",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

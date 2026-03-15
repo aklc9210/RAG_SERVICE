@@ -1,0 +1,74 @@
+{
+  "id": "dish2106",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2106.json",
+  "name_vi": "Bánh muffin socola vị cà phê",
+  "name_en": "",
+  "name_normalized": "banh muffin socola vi ca phe",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Socola đen",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì Pháp",
+    "Bột cacao",
+    "Bột nở",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Bột cà phê hoà tan",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00773",
+    "ingre00576",
+    "ingre00867",
+    "ingre05763",
+    "ingre06823",
+    "ingre00382",
+    "ingre06147",
+    "ingre00622",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì Pháp",
+    "Bột cacao",
+    "Bột nở",
+    "Socola đen",
+    "Trứng gà",
+    "Bơ lạt",
+    "Sữa tươi không đường",
+    "Bột cà phê hoà tan",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Cocoa powder",
+    "Baking powder",
+    "Dark chocolate",
+    "Chicken egg",
+    "Butter",
+    "Fat-free Milk",
+    "Instant coffee powder",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi phap",
+    "bot cacao",
+    "bot no",
+    "socola den",
+    "trung ga",
+    "bo lat",
+    "sua tuoi khong duong",
+    "bot ca phe hoa tan",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

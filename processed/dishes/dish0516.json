@@ -1,0 +1,87 @@
+{
+  "id": "dish0516",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0516.json",
+  "name_vi": "Canh rau muống tôm chua",
+  "name_en": "",
+  "name_normalized": "canh rau muong tom chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau muống",
+    "Tôm tươi",
+    "Me"
+  ],
+  "secondary_ingredients": [
+    "Lá quế",
+    "Nước"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối",
+    "Hạt nêm",
+    "Đường phèn",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05289",
+    "ingre06963",
+    "ingre03643",
+    "ingre03500",
+    "ingre07063",
+    "ingre03746",
+    "ingre02995",
+    "ingre07635",
+    "ingre02124",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Rau muống",
+    "Tôm tươi",
+    "Me",
+    "Lá quế",
+    "Tỏi",
+    "Muối",
+    "Hạt nêm",
+    "Đường phèn",
+    "Dầu ăn",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Watercress",
+    "Fresh shrimp",
+    "Tamarind",
+    "Bayleaf",
+    "Garlic",
+    "Salt",
+    "Seasoning",
+    "Brown Sugar",
+    "Cooking oil",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "rau muong",
+    "tom tuoi",
+    "me",
+    "la que",
+    "toi",
+    "muoi",
+    "hat nem",
+    "duong phen",
+    "dau an",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

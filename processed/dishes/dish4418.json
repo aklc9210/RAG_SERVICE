@@ -1,0 +1,101 @@
+{
+  "id": "dish4418",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4418.json",
+  "name_vi": "Sườn xào chua ngọt người Hoa",
+  "name_en": "",
+  "name_normalized": "suon xao chua ngot nguoi hoa",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sườn non",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Gừng",
+    "Bột năng",
+    "Bột khoai tây",
+    "Rượu nấu ăn",
+    "Tương cà",
+    "Giấm trắng",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre07999",
+    "ingre02741",
+    "ingre02673",
+    "ingre02485",
+    "ingre00849",
+    "ingre00713",
+    "ingre05552",
+    "ingre06984",
+    "ingre02370",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Ớt chuông",
+    "Hành tây",
+    "Hành lá",
+    "Gừng",
+    "Bột năng",
+    "Bột khoai tây",
+    "Rượu nấu ăn",
+    "Tương cà",
+    "Giấm trắng",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Bell pepper",
+    "Onion",
+    "Scallion",
+    "Ginger",
+    "Cornstarch",
+    "Potato starch",
+    "Cooking wine",
+    "Miso酱",
+    "White vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "ot chuong",
+    "hanh tay",
+    "hanh la",
+    "gung",
+    "bot nang",
+    "bot khoai tay",
+    "ruou nau an",
+    "tuong ca",
+    "giam trang",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

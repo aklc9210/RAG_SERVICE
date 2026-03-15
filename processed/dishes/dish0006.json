@@ -1,0 +1,88 @@
+{
+  "id": "dish0006",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0006.json",
+  "name_vi": "Canh xương bò hầm khoai tây",
+  "name_en": "",
+  "name_normalized": "canh xuong bo ham khoai tay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương bò",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Rau thì là",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07413",
+    "ingre03222",
+    "ingre01419",
+    "ingre05383",
+    "ingre02768",
+    "ingre02485",
+    "ingre04694",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Xương bò",
+    "Khoai tây",
+    "Cà rốt",
+    "Rau thì là",
+    "Hành tím",
+    "Gừng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef bone",
+    "Potato",
+    "Carrot",
+    "Basil",
+    "Shallot",
+    "Ginger",
+    "Fish Sauce",
+    "Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "xuong bo",
+    "khoai tay",
+    "ca rot",
+    "rau thi la",
+    "hanh tim",
+    "gung",
+    "nuoc mam",
+    "hat nem",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

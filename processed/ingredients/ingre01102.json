@@ -1,0 +1,29 @@
+{
+  "id": "ingre01102",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01102.json",
+  "name_vi": "chanh/ ớt",
+  "name_en": "Lemon/Chili",
+  "name_normalized": "chanh ot",
+  "synonyms": [
+    "chanh tươi",
+    "ớt chuông",
+    "ớt sừng"
+  ],
+  "synonyms_normalized": [
+    "chanh tuoi",
+    "ot chuong",
+    "ot sung"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh/ ot",
+      "new": "chanh ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

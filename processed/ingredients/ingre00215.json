@@ -1,0 +1,25 @@
+{
+  "id": "ingre00215",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00215.json",
+  "name_vi": "bánh tráng/ phồng tôm",
+  "name_en": "Rice Paper / Fried Shrimp Chips",
+  "name_normalized": "banh trang phong tom",
+  "synonyms": [
+    "phở tôm"
+  ],
+  "synonyms_normalized": [
+    "pho tom"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh trang/ phong tom",
+      "new": "banh trang phong tom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

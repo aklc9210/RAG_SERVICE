@@ -1,0 +1,97 @@
+{
+  "id": "dish6016",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6016.json",
+  "name_vi": "Cá diêu hồng kho thơm",
+  "name_en": "",
+  "name_normalized": "ca dieu hong kho thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Me khô",
+    "Dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Tỏi băm",
+    "Gừng băm",
+    "Hành tím băm",
+    "Ớt",
+    "Nước mắm",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre03653",
+    "ingre02198",
+    "ingre06247",
+    "ingre02124",
+    "ingre07071",
+    "ingre02492",
+    "ingre02774",
+    "ingre07966",
+    "ingre04694",
+    "ingre04672",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Me khô",
+    "Dừa tươi",
+    "Thơm",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Gừng băm",
+    "Hành tím băm",
+    "Ớt",
+    "Nước mắm",
+    "Nước màu",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Dried shrimp",
+    "Coconut",
+    "Basil",
+    "Cooking oil",
+    "Minced Garlic",
+    "Ginger paste",
+    "Chopped Scallion",
+    "Pepper",
+    "Fish Sauce",
+    "Food coloring",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "me kho",
+    "dua tuoi",
+    "thom",
+    "dau an",
+    "toi bam",
+    "gung bam",
+    "hanh tim bam",
+    "ot",
+    "nuoc mam",
+    "nuoc mau",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

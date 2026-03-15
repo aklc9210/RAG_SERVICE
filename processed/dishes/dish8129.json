@@ -1,0 +1,111 @@
+{
+  "id": "dish8129",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8129.json",
+  "name_vi": "Salad củ dền",
+  "name_en": "",
+  "name_normalized": "salad cu den",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Củ dền",
+    "Óc chó",
+    "Rau bina"
+  ],
+  "secondary_ingredients": [
+    "Lá bạc hà",
+    "Hành tím",
+    "Hành tây",
+    "Phô mai feta",
+    "Mật ong",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Giấm balsamic",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01880",
+    "ingre07469",
+    "ingre05199",
+    "ingre01419",
+    "ingre03365",
+    "ingre02768",
+    "ingre02741",
+    "ingre07063",
+    "ingre05074",
+    "ingre04124",
+    "ingre02356",
+    "ingre02120",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Củ dền",
+    "Óc chó",
+    "Rau bina",
+    "Cà rốt",
+    "Lá bạc hà",
+    "Hành tím",
+    "Hành tây",
+    "Tỏi",
+    "Phô mai feta",
+    "Mật ong",
+    "Giấm balsamic",
+    "Dầu ô liu",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beetroot",
+    "Pecan",
+    "Spinach",
+    "Carrot",
+    "Mint Leaf",
+    "Shallot",
+    "Onion",
+    "Garlic",
+    "Feta cheese",
+    "Honey",
+    "Balsamic vinegar",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cu den",
+    "oc cho",
+    "rau bina",
+    "ca rot",
+    "la bac ha",
+    "hanh tim",
+    "hanh tay",
+    "toi",
+    "pho mai feta",
+    "mat ong",
+    "giam balsamic",
+    "dau o liu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

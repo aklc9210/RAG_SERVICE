@@ -1,0 +1,86 @@
+{
+  "id": "dish2006",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2006.json",
+  "name_vi": "Bánh sò - madeleine trà earl grey",
+  "name_en": "",
+  "name_normalized": "banh so madeleine tra earl grey",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Trà Earl Grey",
+    "Mật ong",
+    "Socola trắng",
+    "Socola đen"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột hạnh nhân",
+    "Bột cake flour",
+    "Bột nở",
+    "Trứng",
+    "Bơ lạt đun chảy",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00691",
+    "ingre00583",
+    "ingre00867",
+    "ingre06694",
+    "ingre06801",
+    "ingre00391",
+    "ingre04124",
+    "ingre05758",
+    "ingre05763",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột hạnh nhân",
+    "Bột cake flour",
+    "Bột nở",
+    "Trà Earl Grey",
+    "Trứng",
+    "Bơ lạt đun chảy",
+    "Mật ong",
+    "Socola trắng",
+    "Socola đen",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Almond flour",
+    "Cake flour",
+    "Baking powder",
+    "Earl Grey tea",
+    "Egg",
+    "Melted Butter",
+    "Honey",
+    "White chocolate",
+    "Dark chocolate",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot hanh nhan",
+    "bot cake flour",
+    "bot no",
+    "tra earl grey",
+    "trung",
+    "bo lat dun chay",
+    "mat ong",
+    "socola trang",
+    "socola den",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh so - madeleine tra earl grey",
+      "new": "banh so madeleine tra earl grey",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

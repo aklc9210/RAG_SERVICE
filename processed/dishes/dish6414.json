@@ -1,0 +1,101 @@
+{
+  "id": "dish6414",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6414.json",
+  "name_vi": "Gà rán sốt cay H&S",
+  "name_en": "",
+  "name_normalized": "ga ran sot cay h s",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cánh gà",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Tương cà",
+    "Tương ớt",
+    "Ớt bột",
+    "Tỏi băm",
+    "Gừng băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01689",
+    "ingre00598",
+    "ingre04124",
+    "ingre03935",
+    "ingre06984",
+    "ingre07028",
+    "ingre07977",
+    "ingre07071",
+    "ingre02492",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cánh gà",
+    "Bột chiên giòn",
+    "Mật ong",
+    "Mè trắng",
+    "Tương cà",
+    "Tương ớt",
+    "Ớt bột",
+    "Tỏi băm",
+    "Gừng băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken wings",
+    "Puffed Rice Powder",
+    "Honey",
+    "White sesame",
+    "Miso酱",
+    "Hot Sauce",
+    "Chili powder",
+    "Minced Garlic",
+    "Ginger paste",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "canh ga",
+    "bot chien gion",
+    "mat ong",
+    "me trang",
+    "tuong ca",
+    "tuong ot",
+    "ot bot",
+    "toi bam",
+    "gung bam",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ga ran sot cay h&s",
+      "new": "ga ran sot cay h s",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

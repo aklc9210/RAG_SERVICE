@@ -1,0 +1,71 @@
+{
+  "id": "dish1436",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1436.json",
+  "name_vi": "Bánh kẹp Thái Lan (Khanom Buang)",
+  "name_en": "",
+  "name_normalized": "banh kep thai lan khanom buang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Foi Thong",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột đậu xanh",
+    "Bột cocoa",
+    "Trứng",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre01014",
+    "ingre00614",
+    "ingre02214",
+    "ingre06801",
+    "ingre07583",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột đậu xanh",
+    "Bột cocoa",
+    "Foi Thong",
+    "Trứng",
+    "Đường",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Green bean flour",
+    "Cocoa powder",
+    "Fennel",
+    "Egg",
+    "Sugar",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot dau xanh",
+    "bot cocoa",
+    "foi thong",
+    "trung",
+    "duong",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kep thai lan (khanom buang)",
+      "new": "banh kep thai lan khanom buang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

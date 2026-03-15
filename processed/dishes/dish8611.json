@@ -1,0 +1,77 @@
+{
+  "id": "dish8611",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8611.json",
+  "name_vi": "Bò hấp sả thơm",
+  "name_en": "",
+  "name_normalized": "bo hap sa thom",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bắp bò",
+    "Sả cây"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Rau sống ăn kèm",
+    "Bánh tráng"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Mắm nêm",
+    "Bột ngọt & đường & hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06332",
+    "ingre05909",
+    "ingre07966",
+    "ingre06247",
+    "ingre04148",
+    "ingre00820",
+    "ingre05381",
+    "ingre00178"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bắp bò",
+    "Sả cây",
+    "Ớt",
+    "Thơm",
+    "Mắm nêm",
+    "Bột ngọt & đường & hạt nêm",
+    "Rau sống ăn kèm",
+    "Bánh tráng"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Fresh Ginger",
+    "Pepper",
+    "Basil",
+    "Fish sauce",
+    "Soy Sauce & Sugar & Seasoning Powder",
+    "Leafy Greens",
+    "Rice Paper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bap bo",
+    "sa cay",
+    "ot",
+    "thom",
+    "mam nem",
+    "bot ngot duong hat nem",
+    "rau song an kem",
+    "banh trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot & duong & hat nem",
+      "new": "bot ngot duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt & đường & hạt nêm"
+    }
+  ]
+}

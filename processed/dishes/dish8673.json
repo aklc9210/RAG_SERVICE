@@ -1,0 +1,74 @@
+{
+  "id": "dish8673",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8673.json",
+  "name_vi": "Mì ý sốt bò bằm (sốt mì ý có sẵn)",
+  "name_en": "",
+  "name_normalized": "mi y sot bo bam sot mi y co san",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Mì ý"
+  ],
+  "secondary_ingredients": [
+    "Thịt bò bằm",
+    "Hành tây",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Sốt mì ý",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04019",
+    "ingre06304",
+    "ingre05983",
+    "ingre02741",
+    "ingre02120",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Mì ý",
+    "Thịt bò bằm",
+    "Sốt mì ý",
+    "Hành tây",
+    "Dầu ô liu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Spaghetti",
+    "Ground Beef",
+    "Pasta sauce",
+    "Onion",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "mi y",
+    "thit bo bam",
+    "sot mi y",
+    "hanh tay",
+    "dau o liu",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi y sot bo bam (sot mi y co san)",
+      "new": "mi y sot bo bam sot mi y co san",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

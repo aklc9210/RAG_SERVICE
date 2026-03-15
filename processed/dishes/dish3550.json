@@ -1,0 +1,76 @@
+{
+  "id": "dish3550",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3550.json",
+  "name_vi": "Kem socola không cần whipping cream (kem sữa tươi)",
+  "name_en": "",
+  "name_normalized": "kem socola khong can whipping cream kem sua tuoi",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Socola đen"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Tinh chất vani",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Bột milo",
+    "Sữa tươi không đường",
+    "Sữa chua có đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05763",
+    "ingre00741",
+    "ingre06174",
+    "ingre06147",
+    "ingre06091",
+    "ingre06592",
+    "ingre07791",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Socola đen",
+    "Bột milo",
+    "Sữa đặc",
+    "Sữa tươi không đường",
+    "Sữa chua có đường",
+    "Tinh chất vani",
+    "Đậu phộng rang",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dark chocolate",
+    "Milo powder",
+    "Sweetened Condensed Milk",
+    "Fat-free Milk",
+    "Sweetened Yogurt",
+    "Vanilla extract",
+    "Roasted Peanut",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "socola den",
+    "bot milo",
+    "sua dac",
+    "sua tuoi khong duong",
+    "sua chua co duong",
+    "tinh chat vani",
+    "dau phong rang",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem socola khong can whipping cream (kem sua tuoi)",
+      "new": "kem socola khong can whipping cream kem sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

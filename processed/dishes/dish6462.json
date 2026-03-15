@@ -1,0 +1,65 @@
+{
+  "id": "dish6462",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6462.json",
+  "name_vi": "Trứng cút chiên giòn (Công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "trung cut chien gion cong thuc duoc chia se tu nguoi dung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột gạo",
+    "Trứng gà",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre00759",
+    "ingre00668",
+    "ingre06823",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Bột mì",
+    "Bột gạo",
+    "Trứng gà",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Wheat Flour",
+    "Rice flour",
+    "Chicken egg",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "bot mi",
+    "bot gao",
+    "trung ga",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "trung cut chien gion (cong thuc duoc chia se tu nguoi dung)",
+      "new": "trung cut chien gion cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

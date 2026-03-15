@@ -1,0 +1,29 @@
+{
+  "id": "ingre01492",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01492.json",
+  "name_vi": "cá chép (hoặc các loại cá khác tuỳ thích)",
+  "name_en": "Koi Fish (or any other fish of your choice)",
+  "name_normalized": "ca chep hoac cac loai ca khac tuy thich",
+  "synonyms": [
+    "cá thiều",
+    "cá chậu",
+    "cá bống"
+  ],
+  "synonyms_normalized": [
+    "ca thieu",
+    "ca chau",
+    "ca bong"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca chep (hoac cac loai ca khac tuy thich)",
+      "new": "ca chep hoac cac loai ca khac tuy thich",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

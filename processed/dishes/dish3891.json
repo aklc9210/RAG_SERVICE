@@ -1,0 +1,73 @@
+{
+  "id": "dish3891",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3891.json",
+  "name_vi": "Sườn nướng mật ong",
+  "name_en": "",
+  "name_normalized": "suon nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước tương",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre05871",
+    "ingre02768",
+    "ingre02995",
+    "ingre02124",
+    "ingre04124",
+    "ingre04790",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Sườn",
+    "Hành tím",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Mật ong",
+    "Nước tương",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Ribs",
+    "Shallot",
+    "Seasoning",
+    "Cooking oil",
+    "Honey",
+    "Soy Sauce",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "suon",
+    "hanh tim",
+    "hat nem",
+    "dau an",
+    "mat ong",
+    "nuoc tuong",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

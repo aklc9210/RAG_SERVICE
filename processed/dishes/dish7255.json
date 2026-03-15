@@ -1,0 +1,85 @@
+{
+  "id": "dish7255",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7255.json",
+  "name_vi": "Cá đuối chiên sả ớt",
+  "name_en": "",
+  "name_normalized": "ca duoi chien sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá đuối",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01659",
+    "ingre05900",
+    "ingre07966",
+    "ingre04381",
+    "ingre02124",
+    "ingre05574",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối",
+    "Sả",
+    "Ớt",
+    "Ngũ vị hương",
+    "Dầu ăn",
+    "Rượu trắng",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Lemongrass",
+    "Pepper",
+    "Five-Spice Powder",
+    "Cooking oil",
+    "White wine",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi",
+    "sa",
+    "ot",
+    "ngu vi huong",
+    "dau an",
+    "ruou trang",
+    "muoi",
+    "duong",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

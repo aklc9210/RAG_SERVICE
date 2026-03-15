@@ -1,0 +1,78 @@
+{
+  "id": "dish10568",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10568.json",
+  "name_vi": "Cá khô giã ớt",
+  "name_en": "",
+  "name_normalized": "ca kho gia ot",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Cá nục khô tách xương"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Sả băm",
+    "Lá chanh",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01602",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre05905",
+    "ingre03370",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục khô tách xương",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Sả băm",
+    "Lá chanh",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Dried Codfish Deboned",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Garlic Paste",
+    "Lime leaf",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc kho tach xuong",
+    "toi",
+    "hanh tim",
+    "ot",
+    "sa bam",
+    "la chanh",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

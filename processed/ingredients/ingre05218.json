@@ -1,0 +1,25 @@
+{
+  "id": "ingre05218",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05218.json",
+  "name_vi": "rau cuốn gỏi/ bánh tráng phơi sương",
+  "name_en": "Spring Roll Herb/Rice Paper",
+  "name_normalized": "rau cuon goi banh trang phoi suong",
+  "synonyms": [
+    "bánh tráng"
+  ],
+  "synonyms_normalized": [
+    "banh trang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau cuon goi/ banh trang phoi suong",
+      "new": "rau cuon goi banh trang phoi suong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

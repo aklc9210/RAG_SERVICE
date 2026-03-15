@@ -1,0 +1,81 @@
+{
+  "id": "dish9037",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9037.json",
+  "name_vi": "Ruốc cá chép",
+  "name_en": "",
+  "name_normalized": "ruoc ca chep",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cá chép"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước mắm",
+    "Bột nghệ",
+    "Muối/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01491",
+    "ingre02485",
+    "ingre02768",
+    "ingre04694",
+    "ingre00804",
+    "ingre03814",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép",
+    "Gừng",
+    "Hành tím",
+    "Nước mắm",
+    "Bột nghệ",
+    "Muối/ tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Ginger",
+    "Shallot",
+    "Fish Sauce",
+    "Turmeric Powder",
+    "Salt/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep",
+    "gung",
+    "hanh tim",
+    "nuoc mam",
+    "bot nghe",
+    "muoi tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

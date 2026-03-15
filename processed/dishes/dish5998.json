@@ -1,0 +1,117 @@
+{
+  "id": "dish5998",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5998.json",
+  "name_vi": "Cá lóc (cá quả) kho gừng",
+  "name_en": "",
+  "name_normalized": "ca loc ca qua kho gung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lóc",
+    "Thịt ba chỉ",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng nhỏ",
+    "Ớt",
+    "Chanh",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Tiêu hạt"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre06275",
+    "ingre02512",
+    "ingre05900",
+    "ingre07966",
+    "ingre01079",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre06619"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Thịt ba chỉ",
+    "Gừng nhỏ",
+    "Sả",
+    "Ớt",
+    "Chanh",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Tiêu hạt"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Pork belly",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Lemon",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Cumin Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "thit ba chi",
+    "gung nho",
+    "sa",
+    "ot",
+    "chanh",
+    "dau hao",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "tieu hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca loc (ca qua) kho gung",
+      "new": "ca loc ca qua kho gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

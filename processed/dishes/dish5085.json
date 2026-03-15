@@ -1,0 +1,112 @@
+{
+  "id": "dish5085",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5085.json",
+  "name_vi": "Bún thịt xào sả ớt",
+  "name_en": "",
+  "name_normalized": "bun thit xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt nạc dăm",
+    "Bún tươi",
+    "Giá",
+    "Rau thơm"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Hành tăm",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Giấm gạo",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06459",
+    "ingre00357",
+    "ingre02329",
+    "ingre05385",
+    "ingre02020",
+    "ingre05905",
+    "ingre07071",
+    "ingre07971",
+    "ingre02813",
+    "ingre07781",
+    "ingre02362",
+    "ingre04538",
+    "ingre04694",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc dăm",
+    "Bún tươi",
+    "Giá",
+    "Rau thơm",
+    "Dưa leo",
+    "Sả băm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Hành tăm",
+    "Đậu phộng",
+    "Giấm gạo",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Fresh noodle",
+    "Mint",
+    "Basil",
+    "Cucumber",
+    "Garlic Paste",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Garlic",
+    "Peanut",
+    "Rice vinegar",
+    "Lemon juice",
+    "Fish Sauce",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dam",
+    "bun tuoi",
+    "gia",
+    "rau thom",
+    "dua leo",
+    "sa bam",
+    "toi bam",
+    "ot bam",
+    "hanh tam",
+    "dau phong",
+    "giam gao",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

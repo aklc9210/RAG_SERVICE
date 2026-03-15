@@ -1,0 +1,102 @@
+{
+  "id": "dish4471",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4471.json",
+  "name_vi": "Sườn xào chua ngọt miền Bắc",
+  "name_en": "",
+  "name_normalized": "suon xao chua ngot mien bac",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sườn non",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Bột năng",
+    "Muối",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Nước tương",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre02768",
+    "ingre07063",
+    "ingre01079",
+    "ingre07966",
+    "ingre00849",
+    "ingre05420",
+    "ingre03746",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre04790",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Hành tím",
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Bột năng",
+    "Rau ăn kèm",
+    "Muối",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Nước tương",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Shallot",
+    "Garlic",
+    "Lemon",
+    "Pepper",
+    "Cornstarch",
+    "Side vegetable",
+    "Salt",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "hanh tim",
+    "toi",
+    "chanh",
+    "ot",
+    "bot nang",
+    "rau an kem",
+    "muoi",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "nuoc tuong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

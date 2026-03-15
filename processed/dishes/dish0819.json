@@ -1,0 +1,72 @@
+{
+  "id": "dish0819",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0819.json",
+  "name_vi": "Bánh ít bột năng",
+  "name_en": "",
+  "name_normalized": "banh it bot nang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cơm dừa non"
+  ],
+  "secondary_ingredients": [
+    "Hương lá dứa",
+    "Đậu xanh không vỏ"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Đường",
+    "Muối/ dầu ăn",
+    "Nước cốt lá dứa"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre01736",
+    "ingre07583",
+    "ingre03809",
+    "ingre04579",
+    "ingre02878",
+    "ingre07846"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Cơm dừa non",
+    "Đường",
+    "Muối/ dầu ăn",
+    "Nước cốt lá dứa",
+    "Hương lá dứa",
+    "Đậu xanh không vỏ"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Coconut Rice Sprout",
+    "Sugar",
+    "Table salt/Oil",
+    "Lime juice",
+    "Pandan leaf",
+    "Green peas"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "com dua non",
+    "duong",
+    "muoi dau an",
+    "nuoc cot la dua",
+    "huong la dua",
+    "dau xanh khong vo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ dau an",
+      "new": "muoi dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ dầu ăn"
+    }
+  ]
+}

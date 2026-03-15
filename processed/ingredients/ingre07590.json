@@ -1,0 +1,25 @@
+{
+  "id": "ingre07590",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07590.json",
+  "name_vi": "đường bột (đường xay)",
+  "name_en": "Sugar Powder",
+  "name_normalized": "duong bot duong xay",
+  "synonyms": [
+    "đường mịn"
+  ],
+  "synonyms_normalized": [
+    "duong min"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong bot (duong xay)",
+      "new": "duong bot duong xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

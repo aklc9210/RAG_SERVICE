@@ -1,0 +1,111 @@
+{
+  "id": "dish7938",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7938.json",
+  "name_vi": "Lẩu đầu cá hồi măng chua",
+  "name_en": "",
+  "name_normalized": "lau dau ca hoi mang chua",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Đầu cá hồi",
+    "Măng chua",
+    "Bún tươi"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím",
+    "Rau ngổ/ ngò gai",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07706",
+    "ingre04072",
+    "ingre00357",
+    "ingre01354",
+    "ingre02768",
+    "ingre05338",
+    "ingre05420",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Đầu cá hồi",
+    "Măng chua",
+    "Bún tươi",
+    "Cà chua",
+    "Hành tím",
+    "Rau ngổ/ ngò gai",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Salmon head",
+    "Pickled bamboo shoots",
+    "Fresh noodle",
+    "Tomato",
+    "Shallot",
+    "Cilantro",
+    "Side vegetable",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "dau ca hoi",
+    "mang chua",
+    "bun tuoi",
+    "ca chua",
+    "hanh tim",
+    "rau ngo ngo gai",
+    "rau an kem",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ngo/ ngo gai",
+      "new": "rau ngo ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau ngổ/ ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dish2867",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2867.json",
+  "name_vi": "Bánh bông lan xoài",
+  "name_en": "",
+  "name_normalized": "banh bong lan xoai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Siro bắp",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt tan chảy",
+    "Sữa",
+    "Whipping Cream (kem sữa tươi)",
+    "Siro bắp",
+    "Gelatin (Gelatin dạng lá)",
+    "Whipping Cream",
+    "Socola trắng"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Đường",
+    "Bột làm bánh (Cake Flour)",
+    "Sốt xoài"
+  ],
+  "ingredient_ids": [
+    "ingre06801",
+    "ingre07583",
+    "ingre05676",
+    "ingre06592",
+    "ingre00720",
+    "ingre00388",
+    "ingre06078",
+    "ingre07314",
+    "ingre06025",
+    "ingre02254",
+    "ingre07313",
+    "ingre05758"
+  ],
+  "ingredient_names_vi": [
+    "Trứng",
+    "Đường",
+    "Siro bắp",
+    "Tinh chất vani",
+    "Bột làm bánh (Cake Flour)",
+    "Bơ lạt tan chảy",
+    "Sữa",
+    "Whipping Cream (kem sữa tươi)",
+    "Sốt xoài",
+    "Gelatin (Gelatin dạng lá)",
+    "Whipping Cream",
+    "Socola trắng"
+  ],
+  "ingredient_names_en": [
+    "Egg",
+    "Sugar",
+    "Corn syrup",
+    "Vanilla extract",
+    "Cake flour",
+    "Melted Butter",
+    "Milk",
+    "Whipping Cream",
+    "Mango sauce",
+    "Leaf gelatin",
+    "White chocolate"
+  ],
+  "ingredient_names_normalized": [
+    "trung",
+    "duong",
+    "siro bap",
+    "tinh chat vani",
+    "bot lam banh cake flour",
+    "bo lat tan chay",
+    "sua",
+    "whipping cream kem sua tuoi",
+    "sot xoai",
+    "gelatin gelatin dang la",
+    "whipping cream",
+    "socola trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "whipping cream (kem sua tuoi)",
+      "new": "whipping cream kem sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Whipping Cream (kem sữa tươi)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gelatin (gelatin dang la)",
+      "new": "gelatin gelatin dang la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gelatin (Gelatin dạng lá)"
+    }
+  ]
+}

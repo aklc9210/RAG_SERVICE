@@ -1,0 +1,68 @@
+{
+  "id": "dish8399",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8399.json",
+  "name_vi": "Gỏi xoài khô cá lóc",
+  "name_en": "",
+  "name_normalized": "goi xoai kho ca loc",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Khô cá lóc",
+    "Rau răm",
+    "Me chín"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre07342",
+    "ingre03252",
+    "ingre05359",
+    "ingre07966",
+    "ingre07063",
+    "ingre03647"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xanh",
+    "Khô cá lóc",
+    "Rau răm",
+    "Ớt",
+    "Tỏi",
+    "Me chín"
+  ],
+  "ingredient_names_en": [
+    "Green mango",
+    "Dried Tilapia Fish",
+    "Vietnamese coriander",
+    "Pepper",
+    "Garlic",
+    "Ripe mango"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xanh",
+    "kho ca loc",
+    "rau ram",
+    "ot",
+    "toi",
+    "me chin"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

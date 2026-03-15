@@ -1,0 +1,58 @@
+{
+  "id": "dish4103",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4103.json",
+  "name_vi": "Sò lông nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "so long nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sò lông"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Đậu phộng rang sẵn"
+  ],
+  "seasonings": [
+    "Ớt hiểm"
+  ],
+  "ingredient_ids": [
+    "ingre05820",
+    "ingre02673",
+    "ingre07800",
+    "ingre08026"
+  ],
+  "ingredient_names_vi": [
+    "Sò lông",
+    "Hành lá",
+    "Đậu phộng rang sẵn",
+    "Ớt hiểm"
+  ],
+  "ingredient_names_en": [
+    "Lamb's liver",
+    "Scallion",
+    "Roasted Peanut",
+    "Hot pepper"
+  ],
+  "ingredient_names_normalized": [
+    "so long",
+    "hanh la",
+    "dau phong rang san",
+    "ot hiem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

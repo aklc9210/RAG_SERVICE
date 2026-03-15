@@ -1,0 +1,122 @@
+{
+  "id": "dish5495",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5495.json",
+  "name_vi": "Mì Ý mắt ma máu",
+  "name_en": "",
+  "name_normalized": "mi y mat ma mau",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì Ý",
+    "Thịt ức gà"
+  ],
+  "secondary_ingredients": [
+    "Rau ngò",
+    "Cà chua cô đặc",
+    "Phô mai mozzarella",
+    "Hành tây băm",
+    "Ô liu đen"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột rau kinh giới",
+    "Bột rau húng tây",
+    "Sốt pesto",
+    "Sốt cà chua",
+    "Muối",
+    "Tỏi băm",
+    "Tiêu xay",
+    "Bột vụn bánh mì",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04019",
+    "ingre06544",
+    "ingre06823",
+    "ingre00906",
+    "ingre00905",
+    "ingre05321",
+    "ingre05992",
+    "ingre05947",
+    "ingre01359",
+    "ingre05092",
+    "ingre03746",
+    "ingre02747",
+    "ingre07071",
+    "ingre06644",
+    "ingre07474",
+    "ingre00989",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì Ý",
+    "Thịt ức gà",
+    "Trứng gà",
+    "Bột rau kinh giới",
+    "Bột rau húng tây",
+    "Rau ngò",
+    "Sốt pesto",
+    "Sốt cà chua",
+    "Cà chua cô đặc",
+    "Phô mai mozzarella",
+    "Muối",
+    "Hành tây băm",
+    "Tỏi băm",
+    "Tiêu xay",
+    "Ô liu đen",
+    "Bột vụn bánh mì",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Spaghetti",
+    "Chicken breast",
+    "Chicken egg",
+    "Basil powder",
+    "Culantro",
+    "Pesto Sauce",
+    "Tomato sauce",
+    "Tomato paste",
+    "Mozzarella cheese",
+    "Salt",
+    "Chopped Onion",
+    "Minced Garlic",
+    "Ground pepper",
+    "Black olive",
+    "Bread crumbs",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi y",
+    "thit uc ga",
+    "trung ga",
+    "bot rau kinh gioi",
+    "bot rau hung tay",
+    "rau ngo",
+    "sot pesto",
+    "sot ca chua",
+    "ca chua co dac",
+    "pho mai mozzarella",
+    "muoi",
+    "hanh tay bam",
+    "toi bam",
+    "tieu xay",
+    "o liu den",
+    "bot vun banh mi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

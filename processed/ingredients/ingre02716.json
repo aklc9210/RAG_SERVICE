@@ -1,0 +1,25 @@
+{
+  "id": "ingre02716",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02716.json",
+  "name_vi": "hành lá/ngò cắt nhỏ",
+  "name_en": "Chopped Parsley",
+  "name_normalized": "hanh la ngo cat nho",
+  "synonyms": [
+    "ngò tây"
+  ],
+  "synonyms_normalized": [
+    "ngo tay"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ngo cat nho",
+      "new": "hanh la ngo cat nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

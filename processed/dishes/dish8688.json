@@ -1,0 +1,81 @@
+{
+  "id": "dish8688",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8688.json",
+  "name_vi": "Bắp bò kho gừng",
+  "name_en": "",
+  "name_normalized": "bap bo kho gung",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bắp bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06332",
+    "ingre05900",
+    "ingre07063",
+    "ingre02485",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bắp bò",
+    "Sả",
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lemongrass",
+    "Garlic",
+    "Ginger",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bap bo",
+    "sa",
+    "toi",
+    "gung",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "dish4949",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4949.json",
+  "name_vi": "Ngó sen xào thịt bò",
+  "name_en": "",
+  "name_normalized": "ngo sen xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp bò",
+    "Ngó sen",
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre04361",
+    "ingre01812",
+    "ingre02645",
+    "ingre07063",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre04538",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Ngó sen",
+    "Cần tây",
+    "Hành boa rô",
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Nước cốt chanh",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Lotus leaf",
+    "Celery",
+    "Garlic",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Lemon juice",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "ngo sen",
+    "can tay",
+    "hanh boa ro",
+    "toi",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "nuoc cot chanh",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

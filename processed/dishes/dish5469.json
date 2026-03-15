@@ -1,0 +1,102 @@
+{
+  "id": "dish5469",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5469.json",
+  "name_vi": "Bạch tuộc xào nghệ",
+  "name_en": "",
+  "name_normalized": "bach tuoc xao nghe",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Gừng",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối hột",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre00804",
+    "ingre02741",
+    "ingre05900",
+    "ingre02485",
+    "ingre07966",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre03766",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Bột nghệ",
+    "Hành tây",
+    "Sả",
+    "Gừng",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối hột",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Turmeric Powder",
+    "Onion",
+    "Lemongrass",
+    "Ginger",
+    "Pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sea salt",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "bot nghe",
+    "hanh tay",
+    "sa",
+    "gung",
+    "ot",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "muoi hot",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

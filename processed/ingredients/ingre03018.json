@@ -1,0 +1,27 @@
+{
+  "id": "ingre03018",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03018.json",
+  "name_vi": "hạt nêm/đường",
+  "name_en": "Seasoning/Sugar",
+  "name_normalized": "hat nem duong",
+  "synonyms": [
+    "mì chính",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/duong",
+      "new": "hat nem duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "dish2085",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2085.json",
+  "name_vi": "Bánh tart trà xanh (matcha) phô mai",
+  "name_en": "",
+  "name_normalized": "banh tart tra xanh matcha pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Cream cheese",
+    "Whipping cream",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột hạnh nhân",
+    "Bột trà xanh Nhật Bản",
+    "Đường bột",
+    "Trứng gà",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00691",
+    "ingre00964",
+    "ingre00382",
+    "ingre01324",
+    "ingre07313",
+    "ingre07589",
+    "ingre06823",
+    "ingre03584",
+    "ingre06147"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột hạnh nhân",
+    "Bột trà xanh Nhật Bản",
+    "Bơ lạt",
+    "Cream cheese",
+    "Whipping cream",
+    "Đường bột",
+    "Trứng gà",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Almond flour",
+    "Green Matcha Powder",
+    "Butter",
+    "Cream cheese",
+    "Whipping cream",
+    "Sugar Powder",
+    "Chicken egg",
+    "Egg yolk",
+    "Fat-free Milk"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot hanh nhan",
+    "bot tra xanh nhat ban",
+    "bo lat",
+    "cream cheese",
+    "whipping cream",
+    "duong bot",
+    "trung ga",
+    "long do trung ga",
+    "sua tuoi khong duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh tart tra xanh (matcha) pho mai",
+      "new": "banh tart tra xanh matcha pho mai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

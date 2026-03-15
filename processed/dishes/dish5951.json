@@ -1,0 +1,77 @@
+{
+  "id": "dish5951",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5951.json",
+  "name_vi": "Vịt kho xì dầu",
+  "name_en": "",
+  "name_normalized": "vit kho xi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Vịt"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Tầu xì"
+  ],
+  "seasonings": [
+    "Xì dầu càng cua",
+    "Ớt khô",
+    "Tỏi",
+    "Gừng",
+    "Dầu ớt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre07382",
+    "ingre08039",
+    "ingre07063",
+    "ingre02485",
+    "ingre05900",
+    "ingre02141",
+    "ingre07056"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Xì dầu càng cua",
+    "Ớt khô",
+    "Tỏi",
+    "Gừng",
+    "Sả",
+    "Dầu ớt",
+    "Tầu xì"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Fish sauce",
+    "Dried Pepper",
+    "Garlic",
+    "Ginger",
+    "Lemongrass",
+    "Chili oil",
+    "Mustard greens"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "xi dau cang cua",
+    "ot kho",
+    "toi",
+    "gung",
+    "sa",
+    "dau ot",
+    "tau xi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

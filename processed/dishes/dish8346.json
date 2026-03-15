@@ -1,0 +1,87 @@
+{
+  "id": "dish8346",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8346.json",
+  "name_vi": "Gỏi cá đuối",
+  "name_en": "",
+  "name_normalized": "goi ca duoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá đuối",
+    "Rau cần",
+    "Lê"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Mè rang",
+    "Nước mơ ngâm"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Bột ớt Hàn Quốc",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01659",
+    "ingre05238",
+    "ingre03559",
+    "ingre02020",
+    "ingre07071",
+    "ingre01023",
+    "ingre03929",
+    "ingre04693",
+    "ingre02355",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối",
+    "Rau cần",
+    "Lê",
+    "Dưa leo",
+    "Tỏi băm",
+    "Bột ớt Hàn Quốc",
+    "Mè rang",
+    "Nước mơ ngâm",
+    "Giấm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Coriander",
+    "Peach",
+    "Cucumber",
+    "Minced Garlic",
+    "Korean Chili Powder",
+    "Roasted Sesame Seeds",
+    "Pickled Japanese plum",
+    "Vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi",
+    "rau can",
+    "le",
+    "dua leo",
+    "toi bam",
+    "bot ot han quoc",
+    "me rang",
+    "nuoc mo ngam",
+    "giam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

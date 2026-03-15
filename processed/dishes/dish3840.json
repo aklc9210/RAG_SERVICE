@@ -1,0 +1,116 @@
+{
+  "id": "dish3840",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3840.json",
+  "name_vi": "Cá trê lai nướng",
+  "name_en": "",
+  "name_normalized": "ca tre lai nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá trê lai",
+    "Riềng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Dầu ăn",
+    "Mắm tôm",
+    "Bột canh",
+    "Sa tế",
+    "Giấm ăn",
+    "Bột ngọt",
+    "Muối hạt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01637",
+    "ingre05436",
+    "ingre05900",
+    "ingre07966",
+    "ingre02485",
+    "ingre02768",
+    "ingre02124",
+    "ingre04159",
+    "ingre00587",
+    "ingre05621",
+    "ingre02377",
+    "ingre00819",
+    "ingre03760",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê lai",
+    "Riềng",
+    "Sả",
+    "Ớt",
+    "Gừng",
+    "Hành tím",
+    "Dầu ăn",
+    "Mắm tôm",
+    "Bột canh",
+    "Sa tế",
+    "Giấm ăn",
+    "Bột ngọt",
+    "Muối hạt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Catfish Hybrid",
+    "Galangal",
+    "Lemongrass",
+    "Pepper",
+    "Ginger",
+    "Shallot",
+    "Cooking oil",
+    "Shrimp paste",
+    "Cornstarch",
+    "Fish sauce",
+    "vinegar",
+    "MSG",
+    "Fenugreek seeds",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre lai",
+    "rieng",
+    "sa",
+    "ot",
+    "gung",
+    "hanh tim",
+    "dau an",
+    "mam tom",
+    "bot canh",
+    "sa te",
+    "giam an",
+    "bot ngot",
+    "muoi hat",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

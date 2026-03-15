@@ -1,0 +1,72 @@
+{
+  "id": "dish6423",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6423.json",
+  "name_vi": "Chả ức gà rau củ",
+  "name_en": "",
+  "name_normalized": "cha uc ga rau cu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/hành tím"
+  ],
+  "seasonings": [
+    "Bắp ngọt",
+    "Cà rốt",
+    "Hạt tiêu",
+    "Hạt nêm",
+    "Dầu hào"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre00483",
+    "ingre01419",
+    "ingre02715",
+    "ingre03043",
+    "ingre02995",
+    "ingre02080"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Bắp ngọt",
+    "Cà rốt",
+    "Hành lá/hành tím",
+    "Hạt tiêu",
+    "Hạt nêm",
+    "Dầu hào"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Sweet corn",
+    "Carrot",
+    "Green Onion/Purple Onion",
+    "Pepper",
+    "Seasoning",
+    "Soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "bap ngot",
+    "ca rot",
+    "hanh la hanh tim",
+    "hat tieu",
+    "hat nem",
+    "dau hao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/hanh tim",
+      "new": "hanh la hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/hành tím"
+    }
+  ]
+}

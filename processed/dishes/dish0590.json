@@ -1,0 +1,67 @@
+{
+  "id": "dish0590",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0590.json",
+  "name_vi": "Canh cua rau ngót",
+  "name_en": "",
+  "name_normalized": "canh cua rau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cua đồng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím cắt nhỏ"
+  ],
+  "seasonings": [
+    "Rau ngót",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre05334",
+    "ingre02778",
+    "ingre02124",
+    "ingre04694",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Rau ngót",
+    "Hành tím cắt nhỏ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Spinach",
+    "Green onion chopped",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "rau ngot",
+    "hanh tim cat nho",
+    "dau an",
+    "nuoc mam",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

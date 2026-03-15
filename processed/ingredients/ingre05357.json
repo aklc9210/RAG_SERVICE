@@ -1,0 +1,27 @@
+{
+  "id": "ingre05357",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05357.json",
+  "name_vi": "rau râm",
+  "name_en": "Vietnamese coriander",
+  "name_normalized": "rau ram",
+  "synonyms": [
+    "rau răm"
+  ],
+  "synonyms_normalized": [
+    "rau ram"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Cilantro",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre00781",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00781.json",
+  "name_vi": "bột mì số 11 – bột mì đa dụng",
+  "name_en": "All-purpose flour",
+  "name_normalized": "bot mi so 11 bot mi da dung",
+  "synonyms": [
+    "bột mì",
+    "bột đa dụng"
+  ],
+  "synonyms_normalized": [
+    "bot mi",
+    "bot da dung"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot mi so 11 - bot mi da dung",
+      "new": "bot mi so 11 bot mi da dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

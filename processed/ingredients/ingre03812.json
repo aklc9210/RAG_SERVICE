@@ -1,0 +1,27 @@
+{
+  "id": "ingre03812",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03812.json",
+  "name_vi": "muối/ hạt tiêu",
+  "name_en": "Salt/Paprika",
+  "name_normalized": "muoi hat tieu",
+  "synonyms": [
+    "mặn",
+    "tiêu đen"
+  ],
+  "synonyms_normalized": [
+    "man",
+    "tieu den"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ hat tieu",
+      "new": "muoi hat tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "dish7991",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7991.json",
+  "name_vi": "Nộm sứa xoài xanh",
+  "name_en": "",
+  "name_normalized": "nom sua xoai xanh",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa khô",
+    "Xoài xanh",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Bắp cải tím",
+    "Tắc",
+    "Rau trộn gỏi",
+    "Mè rang/ đậu phộng rang"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06074",
+    "ingre07342",
+    "ingre02741",
+    "ingre02020",
+    "ingre00468",
+    "ingre07057",
+    "ingre07966",
+    "ingre05402",
+    "ingre07063",
+    "ingre04694",
+    "ingre07675",
+    "ingre03934"
+  ],
+  "ingredient_names_vi": [
+    "Sứa khô",
+    "Xoài xanh",
+    "Hành tây",
+    "Dưa leo",
+    "Bắp cải tím",
+    "Tắc",
+    "Ớt",
+    "Rau trộn gỏi",
+    "Tỏi",
+    "Nước mắm",
+    "Đường/ bột ngọt",
+    "Mè rang/ đậu phộng rang"
+  ],
+  "ingredient_names_en": [
+    "Dried jellyfish",
+    "Green mango",
+    "Onion",
+    "Cucumber",
+    "Purple cabbage",
+    "Tamarind",
+    "Pepper",
+    "Mixed Salad Vegetables",
+    "Garlic",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Roasted sesame seeds/Roasted peanuts"
+  ],
+  "ingredient_names_normalized": [
+    "sua kho",
+    "xoai xanh",
+    "hanh tay",
+    "dua leo",
+    "bap cai tim",
+    "tac",
+    "ot",
+    "rau tron goi",
+    "toi",
+    "nuoc mam",
+    "duong bot ngot",
+    "me rang dau phong rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "me rang/ dau phong rang",
+      "new": "me rang dau phong rang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mè rang/ đậu phộng rang"
+    }
+  ]
+}

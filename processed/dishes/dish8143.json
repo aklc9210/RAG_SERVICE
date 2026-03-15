@@ -1,0 +1,83 @@
+{
+  "id": "dish8143",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8143.json",
+  "name_vi": "Gỏi ổi tai heo",
+  "name_en": "",
+  "name_normalized": "goi oi tai heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Ổi"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò rí",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Ớt",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre07963",
+    "ingre01419",
+    "ingre02741",
+    "ingre02485",
+    "ingre07966",
+    "ingre04343",
+    "ingre05359",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Ổi",
+    "Cà rốt",
+    "Hành tây",
+    "Gừng",
+    "Ớt",
+    "Ngò rí",
+    "Rau răm",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Papaya",
+    "Carrot",
+    "Onion",
+    "Ginger",
+    "Pepper",
+    "Parsley",
+    "Vietnamese coriander",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "oi",
+    "ca rot",
+    "hanh tay",
+    "gung",
+    "ot",
+    "ngo ri",
+    "rau ram",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

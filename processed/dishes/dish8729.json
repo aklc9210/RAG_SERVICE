@@ -1,0 +1,61 @@
+{
+  "id": "dish8729",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8729.json",
+  "name_vi": "Tàu hũ bằng sữa đậu nành",
+  "name_en": "",
+  "name_normalized": "tau hu bang sua dau nanh",
+  "category": "an vat",
+  "main_ingredients": [
+    "Sữa đậu nành"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Đường",
+    "Bột gạo",
+    "Bột rau câu giòn Agar",
+    "Gừng/muối/lá dứa"
+  ],
+  "ingredient_ids": [
+    "ingre06170",
+    "ingre07583",
+    "ingre00668",
+    "ingre00900",
+    "ingre02532"
+  ],
+  "ingredient_names_vi": [
+    "Sữa đậu nành",
+    "Đường",
+    "Bột gạo",
+    "Bột rau câu giòn Agar",
+    "Gừng/muối/lá dứa"
+  ],
+  "ingredient_names_en": [
+    "Soy milk",
+    "Sugar",
+    "Rice flour",
+    "Agar powder",
+    "Ginger/Salt/Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "sua dau nanh",
+    "duong",
+    "bot gao",
+    "bot rau cau gion agar",
+    "gung muoi la dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gung/muoi/la dua",
+      "new": "gung muoi la dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gừng/muối/lá dứa"
+    }
+  ]
+}

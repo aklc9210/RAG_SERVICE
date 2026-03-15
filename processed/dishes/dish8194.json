@@ -1,0 +1,67 @@
+{
+  "id": "dish8194",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8194.json",
+  "name_vi": "Gỏi trái thơm - salad dứa",
+  "name_en": "",
+  "name_normalized": "goi trai thom salad dua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Cà chua",
+    "Húng cay"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06247",
+    "ingre02020",
+    "ingre01419",
+    "ingre01354",
+    "ingre02856",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Thơm",
+    "Dưa leo",
+    "Cà rốt",
+    "Cà chua",
+    "Húng cay",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Basil",
+    "Cucumber",
+    "Carrot",
+    "Tomato",
+    "Cayenne Pepper",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "thom",
+    "dua leo",
+    "ca rot",
+    "ca chua",
+    "hung cay",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi trai thom - salad dua",
+      "new": "goi trai thom salad dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

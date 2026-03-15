@@ -1,0 +1,61 @@
+{
+  "id": "dish9261",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9261.json",
+  "name_vi": "Vải nhân sữa chua (vải elsa) băng tuyết",
+  "name_en": "",
+  "name_normalized": "vai nhan sua chua vai elsa bang tuyet",
+  "category": "an vat",
+  "main_ingredients": [
+    "Vải"
+  ],
+  "secondary_ingredients": [
+    "Sữa chua",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Bột cơm dừa"
+  ],
+  "ingredient_ids": [
+    "ingre07193",
+    "ingre06088",
+    "ingre06174",
+    "ingre04554",
+    "ingre00637"
+  ],
+  "ingredient_names_vi": [
+    "Vải",
+    "Sữa chua",
+    "Sữa đặc",
+    "Nước cốt dừa",
+    "Bột cơm dừa"
+  ],
+  "ingredient_names_en": [
+    "Peach",
+    "Yogurt",
+    "Sweetened Condensed Milk",
+    "Coconut milk",
+    "Coconut Rice Flour"
+  ],
+  "ingredient_names_normalized": [
+    "vai",
+    "sua chua",
+    "sua dac",
+    "nuoc cot dua",
+    "bot com dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "vai nhan sua chua (vai elsa) bang tuyet",
+      "new": "vai nhan sua chua vai elsa bang tuyet",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

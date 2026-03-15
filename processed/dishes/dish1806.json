@@ -1,0 +1,73 @@
+{
+  "id": "dish1806",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1806.json",
+  "name_vi": "Bánh chiffon hoa hồng",
+  "name_en": "",
+  "name_normalized": "banh chiffon hoa hong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Whipping cream",
+    "Màu hồng thực phẩm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột cake flour",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Tinh dầu hoa hồng",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00584",
+    "ingre06823",
+    "ingre07313",
+    "ingre06147",
+    "ingre06605",
+    "ingre04538",
+    "ingre03855",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột cake flour",
+    "Trứng gà",
+    "Whipping cream",
+    "Sữa tươi không đường",
+    "Tinh dầu hoa hồng",
+    "Nước cốt chanh",
+    "Màu hồng thực phẩm",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Chicken egg",
+    "Whipping cream",
+    "Fat-free Milk",
+    "Rose essential oil",
+    "Lemon juice",
+    "Food dye red",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot cake flour",
+    "trung ga",
+    "whipping cream",
+    "sua tuoi khong duong",
+    "tinh dau hoa hong",
+    "nuoc cot chanh",
+    "mau hong thuc pham",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

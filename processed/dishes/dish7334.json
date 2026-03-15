@@ -1,0 +1,98 @@
+{
+  "id": "dish7334",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7334.json",
+  "name_vi": "Bí ngòi chiên giòn hình viên",
+  "name_en": "",
+  "name_normalized": "bi ngoi chien gion hinh vien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bí ngòi",
+    "Tôm",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Mozzarella",
+    "Vụn bánh mì",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Trứng gà",
+    "Bột bắp",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00237",
+    "ingre06930",
+    "ingre03222",
+    "ingre01419",
+    "ingre05092",
+    "ingre07280",
+    "ingre02124",
+    "ingre06823",
+    "ingre00564",
+    "ingre02768",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bí ngòi",
+    "Tôm",
+    "Khoai tây",
+    "Cà rốt",
+    "Phô mai Mozzarella",
+    "Vụn bánh mì",
+    "Dầu ăn",
+    "Trứng gà",
+    "Bột bắp",
+    "Hành tím",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Eggplant",
+    "Shrimp",
+    "Potato",
+    "Carrot",
+    "Mozzarella cheese",
+    "Day old bread crumbs",
+    "Cooking oil",
+    "Chicken egg",
+    "Corn starch",
+    "Shallot",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bi ngoi",
+    "tom",
+    "khoai tay",
+    "ca rot",
+    "pho mai mozzarella",
+    "vun banh mi",
+    "dau an",
+    "trung ga",
+    "bot bap",
+    "hanh tim",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

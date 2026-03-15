@@ -1,0 +1,25 @@
+{
+  "id": "ingre05086",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05086.json",
+  "name_vi": "phô mai mascarpone/kem tươi đánh bông",
+  "name_en": "Mascarpone/Fresh Whipped Cream",
+  "name_normalized": "pho mai mascarpone kem tuoi danh bong",
+  "synonyms": [
+    "kem đa dụng"
+  ],
+  "synonyms_normalized": [
+    "kem da dung"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "pho mai mascarpone/kem tuoi danh bong",
+      "new": "pho mai mascarpone kem tuoi danh bong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish9496",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9496.json",
+  "name_vi": "Cắm hoa 20/10",
+  "name_en": "",
+  "name_normalized": "cam hoa 20 10",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Bí tròn",
+    "Cà tím",
+    "Khổ qua"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Tắc",
+    "Hoa hồng",
+    "Hoa cúc tím",
+    "Lá nguyệt quế",
+    "Lá phát tài"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Ớt sừng trâu",
+    "Hoa hướng dương"
+  ],
+  "ingredient_ids": [
+    "ingre00245",
+    "ingre01444",
+    "ingre03271",
+    "ingre07999",
+    "ingre01354",
+    "ingre07057",
+    "ingre08066",
+    "ingre02583",
+    "ingre02587",
+    "ingre02580",
+    "ingre03483",
+    "ingre03499"
+  ],
+  "ingredient_names_vi": [
+    "Bí tròn",
+    "Cà tím",
+    "Khổ qua",
+    "Ớt chuông",
+    "Cà chua",
+    "Tắc",
+    "Ớt sừng trâu",
+    "Hoa hướng dương",
+    "Hoa hồng",
+    "Hoa cúc tím",
+    "Lá nguyệt quế",
+    "Lá phát tài"
+  ],
+  "ingredient_names_en": [
+    "Round Pumpkin",
+    "Purple cabbage",
+    "Bitter Melon",
+    "Bell pepper",
+    "Tomato",
+    "Tamarind",
+    "Hot pepper",
+    "Sunflower",
+    "Rose",
+    "紫罗兰花",
+    "Lavender Leaf",
+    "Pennywort"
+  ],
+  "ingredient_names_normalized": [
+    "bi tron",
+    "ca tim",
+    "kho qua",
+    "ot chuong",
+    "ca chua",
+    "tac",
+    "ot sung trau",
+    "hoa huong duong",
+    "hoa hong",
+    "hoa cuc tim",
+    "la nguyet que",
+    "la phat tai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cam hoa 20/10",
+      "new": "cam hoa 20 10",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

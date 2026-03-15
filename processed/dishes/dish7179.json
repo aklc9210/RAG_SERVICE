@@ -1,0 +1,124 @@
+{
+  "id": "dish7179",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7179.json",
+  "name_vi": "Lườn cá thu chiên sốt cà chua",
+  "name_en": "",
+  "name_normalized": "luon ca thu chien sot ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Lườn cá thu",
+    "Cà chua",
+    "Hành lá",
+    "Rau ngò"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ớt",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03599",
+    "ingre01354",
+    "ingre02673",
+    "ingre05321",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre01015",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lườn cá thu",
+    "Cà chua",
+    "Hành lá",
+    "Rau ngò",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ớt",
+    "Đường",
+    "Muối",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Cod fish rib",
+    "Tomato",
+    "Scallion",
+    "Culantro",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Red Pepper Powder",
+    "Sugar",
+    "Salt",
+    "Ground pepper",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luon ca thu",
+    "ca chua",
+    "hanh la",
+    "rau ngo",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "bot ot",
+    "duong",
+    "muoi",
+    "tieu xay",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

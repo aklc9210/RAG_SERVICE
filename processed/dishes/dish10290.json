@@ -1,0 +1,81 @@
+{
+  "id": "dish10290",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10290.json",
+  "name_vi": "Nước mận nghiền - Plum Punch",
+  "name_en": "",
+  "name_normalized": "nuoc man nghien plum punch",
+  "category": "nuoc ep",
+  "main_ingredients": [
+    "Mận"
+  ],
+  "secondary_ingredients": [
+    "Táo",
+    "Nước cam",
+    "Bạc hà",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Chanh vàng",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04112",
+    "ingre01096",
+    "ingre06890",
+    "ingre04503",
+    "ingre04538",
+    "ingre00430",
+    "ingre07583",
+    "ingre03746",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Mận",
+    "Chanh vàng",
+    "Táo",
+    "Nước cam",
+    "Nước cốt chanh",
+    "Bạc hà",
+    "Đường",
+    "Muối",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Plum",
+    "Lemon",
+    "Apple",
+    "Orange juice",
+    "Lemon juice",
+    "Mint",
+    "Sugar",
+    "Salt",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "man",
+    "chanh vang",
+    "tao",
+    "nuoc cam",
+    "nuoc cot chanh",
+    "bac ha",
+    "duong",
+    "muoi",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc man nghien - plum punch",
+      "new": "nuoc man nghien plum punch",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

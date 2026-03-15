@@ -1,0 +1,124 @@
+{
+  "id": "dish8448",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8448.json",
+  "name_vi": "Gà nấu bia",
+  "name_en": "",
+  "name_normalized": "ga nau bia",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà",
+    "Thịt heo xông khói",
+    "Nấm hoàng kim",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Bia"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh/ đỏ",
+    "Tỏi",
+    "Gừng",
+    "Tinh bột bắp",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường phèn",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre06419",
+    "ingre04907",
+    "ingre01354",
+    "ingre08011",
+    "ingre07063",
+    "ingre02673",
+    "ingre02485",
+    "ingre06562",
+    "ingre00033",
+    "ingre04790",
+    "ingre02124",
+    "ingre07635",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Thịt heo xông khói",
+    "Nấm hoàng kim",
+    "Cà chua",
+    "Ớt chuông xanh/ đỏ",
+    "Tỏi",
+    "Hành lá",
+    "Gừng",
+    "Tinh bột bắp",
+    "Bia",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường phèn",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Smoked Pork",
+    "Golden mushroom",
+    "Tomato",
+    "Green/Yellow Red Pepper",
+    "Garlic",
+    "Scallion",
+    "Ginger",
+    "Corn starch",
+    "Beer",
+    "Soy Sauce",
+    "Cooking oil",
+    "Brown Sugar",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "thit heo xong khoi",
+    "nam hoang kim",
+    "ca chua",
+    "ot chuong xanh do",
+    "toi",
+    "hanh la",
+    "gung",
+    "tinh bot bap",
+    "bia",
+    "nuoc tuong",
+    "dau an",
+    "duong phen",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ot chuong xanh/ do",
+      "new": "ot chuong xanh do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ớt chuông xanh/ đỏ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu"
+    }
+  ]
+}

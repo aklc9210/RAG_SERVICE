@@ -1,0 +1,67 @@
+{
+  "id": "dish6443",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6443.json",
+  "name_vi": "Khoai lang chiên bơ",
+  "name_en": "",
+  "name_normalized": "khoai lang chien bo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai lang vàng"
+  ],
+  "secondary_ingredients": [
+    "Khoai lang tím",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03201",
+    "ingre03200",
+    "ingre00382",
+    "ingre00849",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang vàng",
+    "Khoai lang tím",
+    "Bơ lạt",
+    "Bột năng",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Purple potato",
+    "Butter",
+    "Cornstarch",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang vang",
+    "khoai lang tim",
+    "bo lat",
+    "bot nang",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

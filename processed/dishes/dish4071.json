@@ -1,0 +1,101 @@
+{
+  "id": "dish4071",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4071.json",
+  "name_vi": "Hải sản phô mai đút lò",
+  "name_en": "",
+  "name_normalized": "hai san pho mai dut lo",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Tôm",
+    "Mực",
+    "Thanh cua"
+  ],
+  "secondary_ingredients": [
+    "Nấm mỡ",
+    "Hành tây",
+    "Whipping cream",
+    "Bơ lạt",
+    "Phô mai mozzarella",
+    "Phô mai chedar",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột mì",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre04264",
+    "ingre06199",
+    "ingre04945",
+    "ingre02741",
+    "ingre06147",
+    "ingre07313",
+    "ingre00382",
+    "ingre00759",
+    "ingre05092",
+    "ingre05063",
+    "ingre06174",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Mực",
+    "Thanh cua",
+    "Nấm mỡ",
+    "Hành tây",
+    "Sữa tươi không đường",
+    "Whipping cream",
+    "Bơ lạt",
+    "Bột mì",
+    "Phô mai mozzarella",
+    "Phô mai chedar",
+    "Sữa đặc",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Squid",
+    "Fried mushroom",
+    "Onion",
+    "Fat-free Milk",
+    "Whipping cream",
+    "Butter",
+    "Wheat Flour",
+    "Mozzarella cheese",
+    "Cheddar cheese",
+    "Sweetened Condensed Milk",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "muc",
+    "thanh cua",
+    "nam mo",
+    "hanh tay",
+    "sua tuoi khong duong",
+    "whipping cream",
+    "bo lat",
+    "bot mi",
+    "pho mai mozzarella",
+    "pho mai chedar",
+    "sua dac",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

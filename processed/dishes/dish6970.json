@@ -1,0 +1,91 @@
+{
+  "id": "dish6970",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6970.json",
+  "name_vi": "Cá mai chiên giòn",
+  "name_en": "",
+  "name_normalized": "ca mai chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá mai",
+    "Trứng gà/ trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột mì",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01557",
+    "ingre06842",
+    "ingre00668",
+    "ingre00759",
+    "ingre02673",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá mai",
+    "Trứng gà/ trứng vịt",
+    "Bột gạo",
+    "Bột mì",
+    "Hành lá",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pike conger",
+    "Chicken egg/Duck egg",
+    "Rice flour",
+    "Wheat Flour",
+    "Scallion",
+    "Sugar",
+    "Seasoning",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca mai",
+    "trung ga trung vit",
+    "bot gao",
+    "bot mi",
+    "hanh la",
+    "duong",
+    "hat nem",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "trung ga/ trung vit",
+      "new": "trung ga trung vit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Trứng gà/ trứng vịt"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

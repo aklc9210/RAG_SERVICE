@@ -1,0 +1,27 @@
+{
+  "id": "ingre04402",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04402.json",
+  "name_vi": "nho khô/ hạnh nhân",
+  "name_en": "Dried grapes/Pistachios",
+  "name_normalized": "nho kho hanh nhan",
+  "synonyms": [
+    "hạnh nhân = hạt dưa",
+    "hạt sen nhạt"
+  ],
+  "synonyms_normalized": [
+    "hanh nhan hat dua",
+    "hat sen nhat"
+  ],
+  "category": "dried_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nho kho/ hanh nhan",
+      "new": "nho kho hanh nhan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

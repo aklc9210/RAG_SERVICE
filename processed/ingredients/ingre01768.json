@@ -1,0 +1,29 @@
+{
+  "id": "ingre01768",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01768.json",
+  "name_vi": "cơm trắng nóng.",
+  "name_en": "Hot white rice",
+  "name_normalized": "com trang nong",
+  "synonyms": [
+    "trắng",
+    "tấm",
+    "xôi"
+  ],
+  "synonyms_normalized": [
+    "trang",
+    "tam",
+    "xoi"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "com trang nong.",
+      "new": "com trang nong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

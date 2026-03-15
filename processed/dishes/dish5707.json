@@ -1,0 +1,102 @@
+{
+  "id": "dish5707",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5707.json",
+  "name_vi": "Cá lồ ồ kho măng",
+  "name_en": "",
+  "name_normalized": "ca lo o kho mang",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lồ ồ",
+    "Măng chua",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01555",
+    "ingre04072",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre02377",
+    "ingre02124",
+    "ingre03746",
+    "ingre06644",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá lồ ồ",
+    "Măng chua",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Pickled bamboo shoots",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "vinegar",
+    "Cooking oil",
+    "Salt",
+    "Ground pepper",
+    "MSG",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca lo o",
+    "mang chua",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "giam an",
+    "dau an",
+    "muoi",
+    "tieu xay",
+    "bot ngot",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

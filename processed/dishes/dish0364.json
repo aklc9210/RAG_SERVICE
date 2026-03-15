@@ -1,0 +1,83 @@
+{
+  "id": "dish0364",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0364.json",
+  "name_vi": "Canh rau ngót nấu tôm khô",
+  "name_en": "",
+  "name_normalized": "canh rau ngot nau tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Rau ngót",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05334",
+    "ingre06941",
+    "ingre02768",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Rau ngót",
+    "Tôm khô",
+    "Hành tím",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Spinach",
+    "Dried Shrimp",
+    "Shallot",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "rau ngot",
+    "tom kho",
+    "hanh tim",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

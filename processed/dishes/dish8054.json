@@ -1,0 +1,98 @@
+{
+  "id": "dish8054",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8054.json",
+  "name_vi": "Gỏi nha đam thịt heo",
+  "name_en": "",
+  "name_normalized": "goi nha dam thit heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt heo",
+    "Nha đam",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Đậu phộng rang",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt băm",
+    "Muối",
+    "Nước mắm",
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre04395",
+    "ingre02020",
+    "ingre01868",
+    "ingre01419",
+    "ingre07971",
+    "ingre07791",
+    "ingre05359",
+    "ingre03746",
+    "ingre04694",
+    "ingre07583",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Nha đam",
+    "Dưa leo",
+    "Củ cải trắng",
+    "Cà rốt",
+    "Ớt băm",
+    "Đậu phộng rang",
+    "Rau răm",
+    "Muối",
+    "Nước mắm",
+    "Đường",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Aloe vera",
+    "Cucumber",
+    "White radish",
+    "Carrot",
+    "Chopped Pepper",
+    "Roasted Peanut",
+    "Vietnamese coriander",
+    "Salt",
+    "Fish Sauce",
+    "Sugar",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "nha dam",
+    "dua leo",
+    "cu cai trang",
+    "ca rot",
+    "ot bam",
+    "dau phong rang",
+    "rau ram",
+    "muoi",
+    "nuoc mam",
+    "duong",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

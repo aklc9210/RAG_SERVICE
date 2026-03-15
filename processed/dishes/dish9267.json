@@ -1,0 +1,61 @@
+{
+  "id": "dish9267",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9267.json",
+  "name_vi": "Xoài dầm mắm ớt đường",
+  "name_en": "",
+  "name_normalized": "xoai dam mam ot duong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Ớt bột",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07342",
+    "ingre07966",
+    "ingre07977",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xanh",
+    "Ớt",
+    "Ớt bột",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Green mango",
+    "Pepper",
+    "Chili powder",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xanh",
+    "ot",
+    "ot bot",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

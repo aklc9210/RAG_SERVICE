@@ -1,0 +1,77 @@
+{
+  "id": "dish4154",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4154.json",
+  "name_vi": "Cá hồi nướng tỏi mật ong",
+  "name_en": "",
+  "name_normalized": "ca hoi nuong toi mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá hồi",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Mùi tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước tương",
+    "Nước chanh",
+    "Muối/Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre00382",
+    "ingre07063",
+    "ingre04790",
+    "ingre04124",
+    "ingre04509",
+    "ingre04060",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Bơ lạt",
+    "Tỏi",
+    "Nước tương",
+    "Mật ong",
+    "Nước chanh",
+    "Mùi tây",
+    "Muối/Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Butter",
+    "Garlic",
+    "Soy Sauce",
+    "Honey",
+    "Lemon juice",
+    "Mint",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "bo lat",
+    "toi",
+    "nuoc tuong",
+    "mat ong",
+    "nuoc chanh",
+    "mui tay",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Tiêu"
+    }
+  ]
+}

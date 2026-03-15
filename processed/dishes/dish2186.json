@@ -1,0 +1,86 @@
+{
+  "id": "dish2186",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2186.json",
+  "name_vi": "Cách làm bánh bông lan thiên thần - Angel cake cốt dừa",
+  "name_en": "",
+  "name_normalized": "cach lam banh bong lan thien than angel cake cot dua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cake flour"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Cơm dừa sấy khô"
+  ],
+  "seasonings": [
+    "Bột bắp",
+    "Bột nở",
+    "Nước cốt dừa",
+    "Lòng trắng trứng",
+    "Cream of tartar",
+    "Đường bột",
+    "Tinh chất lá dứa"
+  ],
+  "ingredient_ids": [
+    "ingre01045",
+    "ingre00564",
+    "ingre00867",
+    "ingre07313",
+    "ingre04554",
+    "ingre01744",
+    "ingre03579",
+    "ingre01328",
+    "ingre07589",
+    "ingre06586"
+  ],
+  "ingredient_names_vi": [
+    "Cake flour",
+    "Bột bắp",
+    "Bột nở",
+    "Whipping cream",
+    "Nước cốt dừa",
+    "Cơm dừa sấy khô",
+    "Lòng trắng trứng",
+    "Cream of tartar",
+    "Đường bột",
+    "Tinh chất lá dứa"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Corn starch",
+    "Baking powder",
+    "Whipping cream",
+    "Coconut milk",
+    "Dried Coconut Rice",
+    "Egg white",
+    "Cream of tartar",
+    "Sugar Powder",
+    "Lemongrass Extract"
+  ],
+  "ingredient_names_normalized": [
+    "cake flour",
+    "bot bap",
+    "bot no",
+    "whipping cream",
+    "nuoc cot dua",
+    "com dua say kho",
+    "long trang trung",
+    "cream of tartar",
+    "duong bot",
+    "tinh chat la dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam banh bong lan thien than - angel cake cot dua",
+      "new": "cach lam banh bong lan thien than angel cake cot dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

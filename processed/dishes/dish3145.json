@@ -1,0 +1,118 @@
+{
+  "id": "dish3145",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3145.json",
+  "name_vi": "Gà nấu khóm",
+  "name_en": "",
+  "name_normalized": "ga nau khom",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Gà ta",
+    "Khóm",
+    "Nấm đông cô",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành ngò",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Dầu hào",
+    "Tương ớt",
+    "Tiêu xay",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre03236",
+    "ingre04966",
+    "ingre04626",
+    "ingre01419",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre02995",
+    "ingre07583",
+    "ingre02080",
+    "ingre07028",
+    "ingre06644",
+    "ingre02724",
+    "ingre08055",
+    "ingre00357"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Khóm",
+    "Nấm đông cô",
+    "Nước dừa tươi",
+    "Cà rốt",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Hạt nêm",
+    "Đường",
+    "Dầu hào",
+    "Tương ớt",
+    "Tiêu xay",
+    "Hành ngò",
+    "Ớt sừng",
+    "Bún tươi"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Jujube",
+    "Mushroom",
+    "Coconut water",
+    "Carrot",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Seasoning",
+    "Sugar",
+    "Soy sauce",
+    "Hot Sauce",
+    "Ground pepper",
+    "Chives",
+    "Hot pepper",
+    "Fresh noodle"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "khom",
+    "nam dong co",
+    "nuoc dua tuoi",
+    "ca rot",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "hat nem",
+    "duong",
+    "dau hao",
+    "tuong ot",
+    "tieu xay",
+    "hanh ngo",
+    "ot sung",
+    "bun tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

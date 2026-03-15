@@ -1,0 +1,84 @@
+{
+  "id": "dish3799",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3799.json",
+  "name_vi": "hàu nướng bằng bếp nướng điện",
+  "name_en": "",
+  "name_normalized": "hau nuong bang bep nuong dien",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hàu"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre02837",
+    "ingre02673",
+    "ingre02768",
+    "ingre07791",
+    "ingre02124",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Hàu",
+    "Hành lá",
+    "Hành tím",
+    "Đậu phộng rang",
+    "Dầu ăn",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Scallion",
+    "Shallot",
+    "Roasted Peanut",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "hau",
+    "hanh la",
+    "hanh tim",
+    "dau phong rang",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

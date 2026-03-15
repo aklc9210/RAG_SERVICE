@@ -1,0 +1,123 @@
+{
+  "id": "dish4853",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4853.json",
+  "name_vi": "Măng trúc xào ếch",
+  "name_en": "",
+  "name_normalized": "mang truc xao ech",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ếch đồng",
+    "Măng trúc",
+    "Lá tía tô",
+    "Ngò gai"
+  ],
+  "secondary_ingredients": [
+    "Đầu hành"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Ớt sừng",
+    "Tỏi",
+    "Dầu hào",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06538",
+    "ingre04087",
+    "ingre03544",
+    "ingre04329",
+    "ingre03461",
+    "ingre08055",
+    "ingre07063",
+    "ingre07714",
+    "ingre02080",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch đồng",
+    "Măng trúc",
+    "Lá tía tô",
+    "Ngò gai",
+    "Lá lốt",
+    "Ớt sừng",
+    "Tỏi",
+    "Đầu hành",
+    "Dầu hào",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Frog meat",
+    "Bamboo shoot",
+    "Cilantro",
+    "Culantro",
+    "Cinnamon Leaf",
+    "Hot pepper",
+    "Garlic",
+    "Garlic cloves",
+    "Soy sauce",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech dong",
+    "mang truc",
+    "la tia to",
+    "ngo gai",
+    "la lot",
+    "ot sung",
+    "toi",
+    "dau hanh",
+    "dau hao",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

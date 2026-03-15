@@ -1,0 +1,82 @@
+{
+  "id": "dish7639",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7639.json",
+  "name_vi": "Cá lau kiếng hấp sả",
+  "name_en": "",
+  "name_normalized": "ca lau kieng hap sa",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá lau kiếng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01541",
+    "ingre05900",
+    "ingre07966",
+    "ingre07063",
+    "ingre07057",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá lau kiếng",
+    "Sả",
+    "Ớt",
+    "Tỏi",
+    "Tắc",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Fishwort",
+    "Lemongrass",
+    "Pepper",
+    "Garlic",
+    "Tamarind",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca lau kieng",
+    "sa",
+    "ot",
+    "toi",
+    "tac",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

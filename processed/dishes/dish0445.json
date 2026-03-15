@@ -1,0 +1,102 @@
+{
+  "id": "dish0445",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0445.json",
+  "name_vi": "Canh cá lăng nấu măng chua",
+  "name_en": "",
+  "name_normalized": "canh ca lang nau mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá lăng",
+    "Cà chua",
+    "Khế"
+  ],
+  "secondary_ingredients": [
+    "Măng chua",
+    "Rau om/ rau ngò gai"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Hành tím băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Muối hạt"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre01354",
+    "ingre03268",
+    "ingre04072",
+    "ingre08055",
+    "ingre02774",
+    "ingre05350",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre03760"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Cà chua",
+    "Khế",
+    "Măng chua",
+    "Ớt sừng",
+    "Hành tím băm",
+    "Rau om/ rau ngò gai",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Muối hạt"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Tomato",
+    "Kumquat",
+    "Pickled bamboo shoots",
+    "Hot pepper",
+    "Chopped Scallion",
+    "Spear Thyme Herb",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Fenugreek seeds"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "ca chua",
+    "khe",
+    "mang chua",
+    "ot sung",
+    "hanh tim bam",
+    "rau om rau ngo gai",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "muoi hat"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau om/ rau ngo gai",
+      "new": "rau om rau ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau om/ rau ngò gai"
+    }
+  ]
+}

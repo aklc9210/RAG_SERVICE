@@ -1,0 +1,77 @@
+{
+  "id": "dish2004",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2004.json",
+  "name_vi": "Bánh su chiên sầu riêng",
+  "name_en": "",
+  "name_normalized": "banh su chien sau rieng",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cơm sầu riêng"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Bột bắp",
+    "Dầu ăn",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre01765",
+    "ingre00791",
+    "ingre06823",
+    "ingre04554",
+    "ingre00382",
+    "ingre00564",
+    "ingre02124",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Cơm sầu riêng",
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Nước cốt dừa",
+    "Bơ lạt",
+    "Bột bắp",
+    "Dầu ăn",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Rambutan rice",
+    "All-purpose flour",
+    "Chicken egg",
+    "Coconut milk",
+    "Butter",
+    "Corn starch",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "com sau rieng",
+    "bot mi da dung",
+    "trung ga",
+    "nuoc cot dua",
+    "bo lat",
+    "bot bap",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

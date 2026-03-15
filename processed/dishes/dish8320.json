@@ -1,0 +1,118 @@
+{
+  "id": "dish8320",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8320.json",
+  "name_vi": "Gỏi bò ba khía",
+  "name_en": "",
+  "name_normalized": "goi bo ba khia",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bò",
+    "Ba khía",
+    "Chuối chát",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Me chua",
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06215",
+    "ingre00009",
+    "ingre01158",
+    "ingre01062",
+    "ingre02547",
+    "ingre07063",
+    "ingre07966",
+    "ingre03644",
+    "ingre05359",
+    "ingre07539",
+    "ingre04538",
+    "ingre01991",
+    "ingre04481",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Ba khía",
+    "Chuối chát",
+    "Cà chua",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Me chua",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Shrimp",
+    "Bittermelon",
+    "Tomato",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Mint",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Lemon juice",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ba khia",
+    "chuoi chat",
+    "ca chua",
+    "hanh tay",
+    "toi",
+    "ot",
+    "me chua",
+    "rau ram",
+    "dau phong rang",
+    "nuoc cot chanh",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

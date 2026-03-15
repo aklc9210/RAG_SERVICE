@@ -1,0 +1,25 @@
+{
+  "id": "ingre03155",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03155.json",
+  "name_vi": "kem trà xanh (viên)",
+  "name_en": "Matcha Cream (beads)",
+  "name_normalized": "kem tra xanh vien",
+  "synonyms": [
+    "kem bột trà xanh"
+  ],
+  "synonyms_normalized": [
+    "kem bot tra xanh"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem tra xanh (vien)",
+      "new": "kem tra xanh vien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

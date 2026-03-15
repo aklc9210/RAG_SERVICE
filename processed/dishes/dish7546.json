@@ -1,0 +1,111 @@
+{
+  "id": "dish7546",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7546.json",
+  "name_vi": "Gà hấp lá chúc",
+  "name_en": "",
+  "name_normalized": "ga hap la chuc",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gà",
+    "Lá chúc",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Muối hột"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03399",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612",
+    "ingre02124",
+    "ingre00804",
+    "ingre03766"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá chúc",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu",
+    "Dầu ăn",
+    "Bột nghệ",
+    "Muối hột"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Sage Leaf",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Pepper",
+    "Cooking oil",
+    "Turmeric Powder",
+    "Sea salt"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la chuc",
+    "hanh tim",
+    "toi",
+    "sa",
+    "hat nem",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu",
+    "dau an",
+    "bot nghe",
+    "muoi hot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "dish8420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8420.json",
+  "name_vi": "Cà ri gà cay",
+  "name_en": "",
+  "name_normalized": "ca ri ga cay",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Thịt gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hạt thì là Ai cập",
+    "Hạt ngò",
+    "Vừng",
+    "Dừa nạo sợi",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Bột ớt",
+    "Sốt tỏi gừng",
+    "Dầu ăn",
+    "Ớt khô",
+    "Ớt tươi",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02768",
+    "ingre00804",
+    "ingre01015",
+    "ingre06018",
+    "ingre03037",
+    "ingre02987",
+    "ingre07299",
+    "ingre02187",
+    "ingre04343",
+    "ingre02124",
+    "ingre08039",
+    "ingre08078",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Hành tím",
+    "Bột nghệ",
+    "Bột ớt",
+    "Sốt tỏi gừng",
+    "Hạt thì là Ai cập",
+    "Hạt ngò",
+    "Vừng",
+    "Dừa nạo sợi",
+    "Ngò rí",
+    "Dầu ăn",
+    "Ớt khô",
+    "Ớt tươi",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Shallot",
+    "Turmeric Powder",
+    "Red Pepper Powder",
+    "Garlic Ginger Sauce",
+    "Basil Seed",
+    "Cilantro Seeds",
+    "Sesame",
+    "Coconut丝纤维",
+    "Parsley",
+    "Cooking oil",
+    "Dried Pepper",
+    "Fresh chili",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "hanh tim",
+    "bot nghe",
+    "bot ot",
+    "sot toi gung",
+    "hat thi la ai cap",
+    "hat ngo",
+    "vung",
+    "dua nao soi",
+    "ngo ri",
+    "dau an",
+    "ot kho",
+    "ot tuoi",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

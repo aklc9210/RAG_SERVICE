@@ -1,0 +1,53 @@
+{
+  "id": "dish3704",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3704.json",
+  "name_vi": "Kem chanh dây sữa chua",
+  "name_en": "",
+  "name_normalized": "kem chanh day sua chua",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Sữa chua",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Chanh dây",
+    "Đường trắng",
+    "Vỏ chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01081",
+    "ingre06088",
+    "ingre07313",
+    "ingre07652",
+    "ingre07253"
+  ],
+  "ingredient_names_vi": [
+    "Chanh dây",
+    "Sữa chua",
+    "Whipping cream",
+    "Đường trắng",
+    "Vỏ chanh"
+  ],
+  "ingredient_names_en": [
+    "Watermelon vine tendril",
+    "Yogurt",
+    "Whipping cream",
+    "White sugar",
+    "Lemon peel"
+  ],
+  "ingredient_names_normalized": [
+    "chanh day",
+    "sua chua",
+    "whipping cream",
+    "duong trang",
+    "vo chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

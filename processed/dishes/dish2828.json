@@ -1,0 +1,67 @@
+{
+  "id": "dish2828",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2828.json",
+  "name_vi": "Bánh mì Hy Lạp",
+  "name_en": "",
+  "name_normalized": "banh mi hy lap",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dầu oliu",
+    "Nước ấm 45⁰"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Men nở",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre03686",
+    "ingre02104",
+    "ingre04880",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Men nở",
+    "Dầu oliu",
+    "Nước ấm 45⁰",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Baking Powder",
+    "Olive oil",
+    "Warm water 45⁰C",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "men no",
+    "dau oliu",
+    "nuoc am 45",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc am 450",
+      "new": "nuoc am 45",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước ấm 45⁰"
+    }
+  ]
+}

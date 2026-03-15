@@ -1,0 +1,111 @@
+{
+  "id": "dish0316",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0316.json",
+  "name_vi": "Canh khoai tây xương hầm Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "canh khoai tay xuong ham han quoc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Xương sườn heo",
+    "Cải thảo",
+    "Khoai tây",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Lá vừng",
+    "Nấm kim châm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt xanh",
+    "Ớt bột Hàn Quốc",
+    "Sốt đậu tương Hàn Quốc",
+    "Rượu mirin",
+    "Nước mắm",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07427",
+    "ingre01793",
+    "ingre03222",
+    "ingre02741",
+    "ingre02645",
+    "ingre03547",
+    "ingre07063",
+    "ingre08083",
+    "ingre04921",
+    "ingre07983",
+    "ingre06033",
+    "ingre05545",
+    "ingre04694",
+    "ingre04790",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Xương sườn heo",
+    "Cải thảo",
+    "Khoai tây",
+    "Hành tây",
+    "Hành boa rô",
+    "Lá vừng",
+    "Tỏi",
+    "Ớt xanh",
+    "Nấm kim châm",
+    "Ớt bột Hàn Quốc",
+    "Sốt đậu tương Hàn Quốc",
+    "Rượu mirin",
+    "Nước mắm",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork rib",
+    "Cabbage",
+    "Potato",
+    "Onion",
+    "Garlic",
+    "Caraway leaf",
+    "Green Pepper",
+    "Mushroom",
+    "Korean chili powder",
+    "Korean soy sauce sauce",
+    "Mirin Wine",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong suon heo",
+    "cai thao",
+    "khoai tay",
+    "hanh tay",
+    "hanh boa ro",
+    "la vung",
+    "toi",
+    "ot xanh",
+    "nam kim cham",
+    "ot bot han quoc",
+    "sot dau tuong han quoc",
+    "ruou mirin",
+    "nuoc mam",
+    "nuoc tuong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

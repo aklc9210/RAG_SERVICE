@@ -1,0 +1,43 @@
+{
+  "id": "dish6606",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6606.json",
+  "name_vi": "Thịt ba rọi áp chảo",
+  "name_en": "",
+  "name_normalized": "thit ba roi ap chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Rau ăn kèm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre05420",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Rau ăn kèm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Side vegetable",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "rau an kem",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

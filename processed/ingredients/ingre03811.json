@@ -1,0 +1,27 @@
+{
+  "id": "ingre03811",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03811.json",
+  "name_vi": "muối/ hạt nêm chay",
+  "name_en": "Vegetarian Seasoning",
+  "name_normalized": "muoi hat nem chay",
+  "synonyms": [
+    "tảo biển",
+    "bột nêm chay"
+  ],
+  "synonyms_normalized": [
+    "tao bien",
+    "bot nem chay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ hat nem chay",
+      "new": "muoi hat nem chay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

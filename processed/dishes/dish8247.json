@@ -1,0 +1,105 @@
+{
+  "id": "dish8247",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8247.json",
+  "name_vi": "Gỏi tép đồng bông điên điển",
+  "name_en": "",
+  "name_normalized": "goi tep dong bong dien dien",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tép",
+    "Bông điên điển",
+    "Giá"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Rau ngổ",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06915",
+    "ingre00296",
+    "ingre02329",
+    "ingre04329",
+    "ingre05336",
+    "ingre07057",
+    "ingre07966",
+    "ingre07063",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tép",
+    "Bông điên điển",
+    "Giá",
+    "Ngò gai",
+    "Rau ngổ",
+    "Tắc",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Dandelion flower",
+    "Mint",
+    "Culantro",
+    "Tamarind",
+    "Pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tep",
+    "bong dien dien",
+    "gia",
+    "ngo gai",
+    "rau ngo",
+    "tac",
+    "ot",
+    "toi",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    }
+  ]
+}

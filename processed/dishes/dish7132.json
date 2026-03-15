@@ -1,0 +1,112 @@
+{
+  "id": "dish7132",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7132.json",
+  "name_vi": "Cá lòng tong chiên giòn",
+  "name_en": "",
+  "name_normalized": "ca long tong chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá lòng tong tươi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Ớt tươi",
+    "Tỏi",
+    "Chanh",
+    "Giấm",
+    "Bột cà ri",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01548",
+    "ingre00598",
+    "ingre08078",
+    "ingre02768",
+    "ingre07063",
+    "ingre01079",
+    "ingre02355",
+    "ingre00631",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá lòng tong tươi",
+    "Bột chiên giòn",
+    "Ớt tươi",
+    "Hành tím",
+    "Tỏi",
+    "Chanh",
+    "Giấm",
+    "Bột cà ri",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Fresh pig's intestine",
+    "Puffed Rice Powder",
+    "Fresh chili",
+    "Shallot",
+    "Garlic",
+    "Lemon",
+    "Vinegar",
+    "Curry powder",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca long tong tuoi",
+    "bot chien gion",
+    "ot tuoi",
+    "hanh tim",
+    "toi",
+    "chanh",
+    "giam",
+    "bot ca ri",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

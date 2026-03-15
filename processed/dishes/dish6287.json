@@ -1,0 +1,121 @@
+{
+  "id": "dish6287",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6287.json",
+  "name_vi": "Sườn om dưa",
+  "name_en": "",
+  "name_normalized": "suon om dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn non",
+    "Trứng cút",
+    "Dưa cải chua",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt đỏ",
+    "Hành/ Tỏi băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05888",
+    "ingre06816",
+    "ingre02006",
+    "ingre01354",
+    "ingre02673",
+    "ingre08055",
+    "ingre08097",
+    "ingre02832",
+    "ingre04694",
+    "ingre02093",
+    "ingre02124",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non",
+    "Trứng cút",
+    "Dưa cải chua",
+    "Cà chua",
+    "Hành lá",
+    "Ớt sừng",
+    "Ớt đỏ",
+    "Hành/ Tỏi băm",
+    "Nước mắm",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Quail egg",
+    "Pickled Chinese cabbage",
+    "Tomato",
+    "Scallion",
+    "Hot pepper",
+    "Red pepper",
+    "Chopped Garlic",
+    "Fish Sauce",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "suon non",
+    "trung cut",
+    "dua cai chua",
+    "ca chua",
+    "hanh la",
+    "ot sung",
+    "ot do",
+    "hanh toi bam",
+    "nuoc mam",
+    "dau mau dieu",
+    "dau an",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh/ toi bam",
+      "new": "hanh toi bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành/ Tỏi băm"
+    }
+  ]
+}

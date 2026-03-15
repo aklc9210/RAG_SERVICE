@@ -1,0 +1,151 @@
+{
+  "id": "dish7803",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7803.json",
+  "name_vi": "Lẩu bò nhúng lá giang",
+  "name_en": "",
+  "name_normalized": "lau bo nhung la giang",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gầu bò",
+    "Lá giang",
+    "Hành lá",
+    "Rau ngổ",
+    "Ngò gai"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Cà chua",
+    "Chao",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Gừng tươi",
+    "Tỏi",
+    "Dầu ăn",
+    "Muối hạt",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02477",
+    "ingre03430",
+    "ingre02673",
+    "ingre05336",
+    "ingre04329",
+    "ingre08078",
+    "ingre02518",
+    "ingre07063",
+    "ingre05900",
+    "ingre01354",
+    "ingre01106",
+    "ingre00357",
+    "ingre02124",
+    "ingre03760",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gầu bò",
+    "Lá giang",
+    "Hành lá",
+    "Rau ngổ",
+    "Ngò gai",
+    "Ớt tươi",
+    "Gừng tươi",
+    "Tỏi",
+    "Sả",
+    "Cà chua",
+    "Chao",
+    "Bún tươi",
+    "Dầu ăn",
+    "Muối hạt",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef tallow",
+    "Japanese Laurel Leaf",
+    "Scallion",
+    "Culantro",
+    "Fresh chili",
+    "Ginger",
+    "Garlic",
+    "Lemongrass",
+    "Tomato",
+    "Pickled plum",
+    "Fresh noodle",
+    "Cooking oil",
+    "Fenugreek seeds",
+    "Salt",
+    "MSG",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gau bo",
+    "la giang",
+    "hanh la",
+    "rau ngo",
+    "ngo gai",
+    "ot tuoi",
+    "gung tuoi",
+    "toi",
+    "sa",
+    "ca chua",
+    "chao",
+    "bun tuoi",
+    "dau an",
+    "muoi hat",
+    "muoi",
+    "bot ngot",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

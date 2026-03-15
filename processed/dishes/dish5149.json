@@ -1,0 +1,78 @@
+{
+  "id": "dish5149",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5149.json",
+  "name_vi": "Mướp xào nấm",
+  "name_en": "",
+  "name_normalized": "muop xao nam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm mối",
+    "Mướp"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04942",
+    "ingre04103",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mối",
+    "Mướp",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Wood Ear Mushroom",
+    "Cucumber",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "MSG",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "nam moi",
+    "muop",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "bot ngot",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish1598",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1598.json",
+  "name_vi": "Luộc bánh chưng bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "luoc banh chung bang noi ap suat",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp",
+    "Đậu xanh",
+    "Thịt ba rọi"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Trứng muối",
+    "Giấm",
+    "Rượu trắng",
+    "Nước mắm",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07836",
+    "ingre06289",
+    "ingre03417",
+    "ingre04554",
+    "ingre06849",
+    "ingre02355",
+    "ingre02768",
+    "ingre05574",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu xanh",
+    "Thịt ba rọi",
+    "Lá dứa",
+    "Nước cốt dừa",
+    "Trứng muối",
+    "Giấm",
+    "Hành tím",
+    "Rượu trắng",
+    "Nước mắm",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Green beans",
+    "Pork belly",
+    "Pandan叶",
+    "Coconut milk",
+    "Pickled egg",
+    "Vinegar",
+    "Shallot",
+    "White wine",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau xanh",
+    "thit ba roi",
+    "la dua",
+    "nuoc cot dua",
+    "trung muoi",
+    "giam",
+    "hanh tim",
+    "ruou trang",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay"
+    }
+  ]
+}

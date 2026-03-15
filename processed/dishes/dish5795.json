@@ -1,0 +1,120 @@
+{
+  "id": "dish5795",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5795.json",
+  "name_vi": "Cá linh kho lạt",
+  "name_en": "",
+  "name_normalized": "ca linh kho lat",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá linh",
+    "Cà chua",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01544",
+    "ingre01354",
+    "ingre02673",
+    "ingre02768",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá linh",
+    "Cà chua",
+    "Hành lá",
+    "Hành tím",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Tomato",
+    "Scallion",
+    "Shallot",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca linh",
+    "ca chua",
+    "hanh la",
+    "hanh tim",
+    "hanh tay",
+    "toi",
+    "ot",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

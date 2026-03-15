@@ -1,0 +1,91 @@
+{
+  "id": "dish6657",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6657.json",
+  "name_vi": "Mì giòn trộn xoài",
+  "name_en": "",
+  "name_normalized": "mi gion tron xoai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mì tươi",
+    "Xoài xanh",
+    "Thịt thăn heo"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mozzarella",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng gà",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre04006",
+    "ingre07342",
+    "ingre06500",
+    "ingre05092",
+    "ingre00598",
+    "ingre00609",
+    "ingre06823",
+    "ingre07057",
+    "ingre02124",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Mì tươi",
+    "Xoài xanh",
+    "Thịt thăn heo",
+    "Phô mai mozzarella",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Trứng gà",
+    "Tắc",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodles",
+    "Green mango",
+    "Pork tenderloin",
+    "Mozzarella cheese",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Tamarind",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mi tuoi",
+    "xoai xanh",
+    "thit than heo",
+    "pho mai mozzarella",
+    "bot chien gion",
+    "bot chien xu",
+    "trung ga",
+    "tac",
+    "dau an",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

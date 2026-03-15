@@ -1,0 +1,130 @@
+{
+  "id": "dish10608",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10608.json",
+  "name_vi": "Bún vịt trộn",
+  "name_en": "",
+  "name_normalized": "bun vit tron",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Vịt",
+    "Bún số 8",
+    "Hành tím",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Đậu phộng rang",
+    "Rau bào sợi",
+    "Xoài"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt",
+    "Đường",
+    "Nước mắm",
+    "Sa tế",
+    "Cà rốt",
+    "Muối hột"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre00351",
+    "ingre02768",
+    "ingre05900",
+    "ingre02485",
+    "ingre03746",
+    "ingre06612",
+    "ingre00819",
+    "ingre07583",
+    "ingre04694",
+    "ingre05385",
+    "ingre07791",
+    "ingre05621",
+    "ingre01419",
+    "ingre05202",
+    "ingre03766",
+    "ingre07329"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Bún số 8",
+    "Hành tím",
+    "Sả",
+    "Gừng",
+    "Muối",
+    "Tiêu",
+    "Bột ngọt",
+    "Đường",
+    "Nước mắm",
+    "Rau thơm",
+    "Đậu phộng rang",
+    "Sa tế",
+    "Cà rốt",
+    "Rau bào sợi",
+    "Muối hột",
+    "Xoài"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Eighth Noodle",
+    "Shallot",
+    "Lemongrass",
+    "Ginger",
+    "Salt",
+    "Pepper",
+    "MSG",
+    "Sugar",
+    "Fish Sauce",
+    "Basil",
+    "Roasted Peanut",
+    "Carrot",
+    "Cilantro",
+    "Sea salt",
+    "Mango"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "bun so 8",
+    "hanh tim",
+    "sa",
+    "gung",
+    "muoi",
+    "tieu",
+    "bot ngot",
+    "duong",
+    "nuoc mam",
+    "rau thom",
+    "dau phong rang",
+    "sa te",
+    "ca rot",
+    "rau bao soi",
+    "muoi hot",
+    "xoai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

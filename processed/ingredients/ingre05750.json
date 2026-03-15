@@ -1,0 +1,29 @@
+{
+  "id": "ingre05750",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05750.json",
+  "name_vi": "socola nguyên chất 55 - 65%",
+  "name_en": "Dark Chocolate 55-65%",
+  "name_normalized": "socola nguyen chat 55 65",
+  "synonyms": [
+    "kem socola",
+    "socola đen",
+    "socola cao cấp"
+  ],
+  "synonyms_normalized": [
+    "kem socola",
+    "socola den",
+    "socola cao cap"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola nguyen chat 55 - 65%",
+      "new": "socola nguyen chat 55 65",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

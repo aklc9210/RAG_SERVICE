@@ -1,0 +1,76 @@
+{
+  "id": "dish10217",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10217.json",
+  "name_vi": "Trà sữa kem phô mai (không có cream cheese)",
+  "name_en": "",
+  "name_normalized": "tra sua kem pho mai khong co cream cheese",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Trà túi lọc",
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [
+    "Sữa topping base",
+    "Kem béo thực vật",
+    "Trân châu đen",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột phô mai"
+  ],
+  "ingredient_ids": [
+    "ingre06723",
+    "ingre06174",
+    "ingre06142",
+    "ingre03125",
+    "ingre06147",
+    "ingre00879",
+    "ingre06790",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Trà túi lọc",
+    "Sữa đặc",
+    "Sữa topping base",
+    "Kem béo thực vật",
+    "Sữa tươi không đường",
+    "Bột phô mai",
+    "Trân châu đen",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Tea Bag",
+    "Sweetened Condensed Milk",
+    "Soy Milk Topping Base",
+    "Plant-based cream",
+    "Fat-free Milk",
+    "Mozzarella cheese powder",
+    "Black tapioca beads",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "tra tui loc",
+    "sua dac",
+    "sua topping base",
+    "kem beo thuc vat",
+    "sua tuoi khong duong",
+    "bot pho mai",
+    "tran chau den",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tra sua kem pho mai (khong co cream cheese)",
+      "new": "tra sua kem pho mai khong co cream cheese",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

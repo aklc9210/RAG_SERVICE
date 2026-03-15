@@ -1,0 +1,97 @@
+{
+  "id": "dish7826",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7826.json",
+  "name_vi": "Lẩu bò mắm ruốc",
+  "name_en": "",
+  "name_normalized": "lau bo mam ruoc",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Bắp bò",
+    "Nước dừa",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Sả",
+    "Mỡ heo",
+    "Dầu màu điều",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Mắm ruốc Huế",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre04622",
+    "ingre02741",
+    "ingre06247",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre04192",
+    "ingre02093",
+    "ingre04153",
+    "ingre05420",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Nước dừa",
+    "Hành tây",
+    "Thơm",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Mỡ heo",
+    "Dầu màu điều",
+    "Mắm ruốc Huế",
+    "Rau ăn kèm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Coconut water",
+    "Onion",
+    "Basil",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Pork fat",
+    "Peanut-colored food coloring",
+    "Shrimp paste",
+    "Side vegetable",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "nuoc dua",
+    "hanh tay",
+    "thom",
+    "toi",
+    "ot",
+    "sa",
+    "mo heo",
+    "dau mau dieu",
+    "mam ruoc hue",
+    "rau an kem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

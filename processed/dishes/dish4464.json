@@ -1,0 +1,98 @@
+{
+  "id": "dish4464",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4464.json",
+  "name_vi": "Cá chép giòn xào dứa",
+  "name_en": "",
+  "name_normalized": "ca chep gion xao dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cá chép giòn",
+    "Dứa",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau ngò"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Gia vị xào",
+    "Đường",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Lá chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01493",
+    "ingre02151",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre02322",
+    "ingre07583",
+    "ingre02124",
+    "ingre06644",
+    "ingre05321",
+    "ingre03370"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép giòn",
+    "Dứa",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Gia vị xào",
+    "Đường",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Rau ngò",
+    "Lá chanh"
+  ],
+  "ingredient_names_en": [
+    "Glass carp",
+    "Pineapple",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Stir-fried Seasoning",
+    "Sugar",
+    "Cooking oil",
+    "Ground pepper",
+    "Culantro",
+    "Lime leaf"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep gion",
+    "dua",
+    "hanh tay",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "gia vi xao",
+    "duong",
+    "dau an",
+    "tieu xay",
+    "rau ngo",
+    "la chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    }
+  ]
+}

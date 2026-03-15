@@ -1,0 +1,76 @@
+{
+  "id": "dish7122",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7122.json",
+  "name_vi": "Trứng chiên lá lốt thịt băm",
+  "name_en": "",
+  "name_normalized": "trung chien la lot thit bam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo băm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Lá lốt",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06403",
+    "ingre03461",
+    "ingre02768",
+    "ingre02124",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Thịt heo băm",
+    "Lá lốt",
+    "Hành tím",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Ground Pork",
+    "Cinnamon Leaf",
+    "Shallot",
+    "Cooking oil",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "thit heo bam",
+    "la lot",
+    "hanh tim",
+    "dau an",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu xay"
+    }
+  ]
+}

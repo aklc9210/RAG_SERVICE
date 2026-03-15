@@ -1,0 +1,25 @@
+{
+  "id": "ingre02998",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02998.json",
+  "name_vi": "hạt nêm chay/ đường",
+  "name_en": "Vegetarian Seasoning/Soy Sauce Powder, Sugar",
+  "name_normalized": "hat nem chay duong",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem chay/ duong",
+      "new": "hat nem chay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

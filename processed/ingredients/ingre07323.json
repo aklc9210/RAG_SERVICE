@@ -1,0 +1,25 @@
+{
+  "id": "ingre07323",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07323.json",
+  "name_vi": "xà lách/ rau thơm",
+  "name_en": "Leafy Greens/Herbs",
+  "name_normalized": "xa lach rau thom",
+  "synonyms": [
+    "rau má"
+  ],
+  "synonyms_normalized": [
+    "rau ma"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach/ rau thom",
+      "new": "xa lach rau thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish3718",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3718.json",
+  "name_vi": "Cá lóc nướng riềng mẻ",
+  "name_en": "",
+  "name_normalized": "ca loc nuong rieng me",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá lóc"
+  ],
+  "secondary_ingredients": [
+    "Cơm mẻ",
+    "Sả",
+    "Củ riềng",
+    "Củ nghệ",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Đường trắng",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre04159",
+    "ingre01753",
+    "ingre05900",
+    "ingre01913",
+    "ingre01904",
+    "ingre02768",
+    "ingre07652",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Mắm tôm",
+    "Cơm mẻ",
+    "Sả",
+    "Củ riềng",
+    "Củ nghệ",
+    "Hành tím",
+    "Đường trắng",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Shrimp paste",
+    "Glutinous Rice",
+    "Lemongrass",
+    "Galangal",
+    "Turmeric",
+    "Shallot",
+    "White sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "mam tom",
+    "com me",
+    "sa",
+    "cu rieng",
+    "cu nghe",
+    "hanh tim",
+    "duong trang",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

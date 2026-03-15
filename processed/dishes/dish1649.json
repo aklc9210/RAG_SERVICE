@@ -1,0 +1,78 @@
+{
+  "id": "dish1649",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1649.json",
+  "name_vi": "Bánh tai Phú Thọ",
+  "name_en": "",
+  "name_normalized": "banh tai phu tho",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo tẻ",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02464",
+    "ingre06398",
+    "ingre02768",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gạo tẻ",
+    "Thịt heo",
+    "Hành tím",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "White Rice",
+    "Pork",
+    "Shallot",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gao te",
+    "thit heo",
+    "hanh tim",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

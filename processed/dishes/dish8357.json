@@ -1,0 +1,98 @@
+{
+  "id": "dish8357",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8357.json",
+  "name_vi": "Gỏi khoai môn tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi khoai mon tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Khoai môn",
+    "Tôm",
+    "Mũi heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Rau răm",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi ớt băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre06930",
+    "ingre04093",
+    "ingre01419",
+    "ingre07118",
+    "ingre02741",
+    "ingre05359",
+    "ingre07057",
+    "ingre02124",
+    "ingre04694",
+    "ingre07028",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Tôm",
+    "Mũi heo",
+    "Cà rốt",
+    "Tỏi ớt băm",
+    "Hành tây",
+    "Rau răm",
+    "Tắc",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Shrimp",
+    "Pig snout",
+    "Carrot",
+    "Minced chili garlic",
+    "Onion",
+    "Vietnamese coriander",
+    "Tamarind",
+    "Cooking oil",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "tom",
+    "mui heo",
+    "ca rot",
+    "toi ot bam",
+    "hanh tay",
+    "rau ram",
+    "tac",
+    "dau an",
+    "nuoc mam",
+    "tuong ot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

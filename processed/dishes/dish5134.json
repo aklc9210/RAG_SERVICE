@@ -1,0 +1,118 @@
+{
+  "id": "dish5134",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5134.json",
+  "name_vi": "Tôm sốt cà chua (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "tom sot ca chua cong thuc duoc chia se tu nguoi dung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm",
+    "Cà chua",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tương cà",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối hạt",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre01354",
+    "ingre02768",
+    "ingre02673",
+    "ingre07063",
+    "ingre06984",
+    "ingre07028",
+    "ingre04694",
+    "ingre03760",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Cà chua",
+    "Hành tím",
+    "Hành lá",
+    "Tỏi",
+    "Tương cà",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối hạt",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Tomato",
+    "Shallot",
+    "Scallion",
+    "Garlic",
+    "Miso酱",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Fenugreek seeds",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "ca chua",
+    "hanh tim",
+    "hanh la",
+    "toi",
+    "tuong ca",
+    "tuong ot",
+    "nuoc mam",
+    "muoi hat",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tom sot ca chua (cong thuc duoc chia se tu nguoi dung)",
+      "new": "tom sot ca chua cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

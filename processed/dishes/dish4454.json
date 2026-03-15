@@ -1,0 +1,93 @@
+{
+  "id": "dish4454",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4454.json",
+  "name_vi": "Nấm kim châm sốt cay",
+  "name_en": "",
+  "name_normalized": "nam kim cham sot cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm kim châm",
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tương ớt Hàn Quốc",
+    "Tương ớt Chinsu",
+    "Hạt nêm",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04921",
+    "ingre06329",
+    "ingre07063",
+    "ingre02673",
+    "ingre07036",
+    "ingre07031",
+    "ingre02094",
+    "ingre02995",
+    "ingre04694",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Nấm kim châm",
+    "Thịt băm",
+    "Tỏi",
+    "Hành lá",
+    "Tương ớt Hàn Quốc",
+    "Tương ớt Chinsu",
+    "Dầu mè",
+    "Hạt nêm",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Mushroom",
+    "Minced meat",
+    "Garlic",
+    "Scallion",
+    "Korean chili paste",
+    "Chili sauce",
+    "Sesame oil",
+    "Seasoning",
+    "Fish Sauce",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam kim cham",
+    "thit bam",
+    "toi",
+    "hanh la",
+    "tuong ot han quoc",
+    "tuong ot chinsu",
+    "dau me",
+    "hat nem",
+    "nuoc mam",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

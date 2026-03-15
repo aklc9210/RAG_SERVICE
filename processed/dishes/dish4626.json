@@ -1,0 +1,97 @@
+{
+  "id": "dish4626",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4626.json",
+  "name_vi": "Gan bò xào thơm (dứa)",
+  "name_en": "",
+  "name_normalized": "gan bo xao thom dua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Gan bò",
+    "Bông hành",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Bột năng",
+    "Sữa tươi không đường",
+    "Dầu hào",
+    "Tương ớt",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02240",
+    "ingre00287",
+    "ingre06247",
+    "ingre01354",
+    "ingre07063",
+    "ingre08026",
+    "ingre00849",
+    "ingre06147",
+    "ingre02080",
+    "ingre07028",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gan bò",
+    "Bông hành",
+    "Thơm",
+    "Cà chua",
+    "Tỏi",
+    "Ớt hiểm",
+    "Bột năng",
+    "Sữa tươi không đường",
+    "Dầu hào",
+    "Tương ớt",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef liver",
+    "Green Onion Blossom",
+    "Basil",
+    "Tomato",
+    "Garlic",
+    "Hot pepper",
+    "Cornstarch",
+    "Fat-free Milk",
+    "Soy sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "bong hanh",
+    "thom",
+    "ca chua",
+    "toi",
+    "ot hiem",
+    "bot nang",
+    "sua tuoi khong duong",
+    "dau hao",
+    "tuong ot",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gan bo xao thom (dua)",
+      "new": "gan bo xao thom dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

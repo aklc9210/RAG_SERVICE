@@ -1,0 +1,101 @@
+{
+  "id": "dish8415",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8415.json",
+  "name_vi": "Khô gà xé cay bằng chảo",
+  "name_en": "",
+  "name_normalized": "kho ga xe cay bang chao",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Ức gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Lá chanh",
+    "Bột ngũ vị hương",
+    "Bột ớt",
+    "Nước mắm",
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre02768",
+    "ingre02485",
+    "ingre07063",
+    "ingre05900",
+    "ingre03370",
+    "ingre00815",
+    "ingre01015",
+    "ingre04694",
+    "ingre07628",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Hành tím",
+    "Gừng",
+    "Tỏi",
+    "Sả",
+    "Lá chanh",
+    "Bột ngũ vị hương",
+    "Bột ớt",
+    "Nước mắm",
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Shallot",
+    "Ginger",
+    "Garlic",
+    "Lemongrass",
+    "Lime leaf",
+    "Five-Spice Powder",
+    "Red Pepper Powder",
+    "Fish Sauce",
+    "Brown Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "hanh tim",
+    "gung",
+    "toi",
+    "sa",
+    "la chanh",
+    "bot ngu vi huong",
+    "bot ot",
+    "nuoc mam",
+    "duong nau",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

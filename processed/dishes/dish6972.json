@@ -1,0 +1,82 @@
+{
+  "id": "dish6972",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6972.json",
+  "name_vi": "Chả cá nhồng chiên",
+  "name_en": "",
+  "name_normalized": "cha ca nhong chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá nhồng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01595",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá nhồng",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Red mullet",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nhong",
+    "ot",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

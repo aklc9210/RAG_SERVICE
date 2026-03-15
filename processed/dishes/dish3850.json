@@ -1,0 +1,82 @@
+{
+  "id": "dish3850",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3850.json",
+  "name_vi": "Heo nướng giả cầy dạng tảng",
+  "name_en": "",
+  "name_normalized": "heo nuong gia cay dang tang",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Mắm tôm",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre04159",
+    "ingre05900",
+    "ingre02774",
+    "ingre07071",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Mắm tôm",
+    "Sả",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Shrimp paste",
+    "Lemongrass",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "mam tom",
+    "sa",
+    "hanh tim bam",
+    "toi bam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

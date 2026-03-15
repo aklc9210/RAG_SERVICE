@@ -1,0 +1,107 @@
+{
+  "id": "dish8196",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8196.json",
+  "name_vi": "Dê tái chanh",
+  "name_en": "",
+  "name_normalized": "de tai chanh",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt dê",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Mùi tàu",
+    "Ngò",
+    "Mè rang",
+    "Bánh tráng",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt",
+    "Lá chanh",
+    "Tương bần",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre07063",
+    "ingre02485",
+    "ingre05900",
+    "ingre07966",
+    "ingre05385",
+    "ingre03370",
+    "ingre04057",
+    "ingre04326",
+    "ingre06981",
+    "ingre01079",
+    "ingre03929",
+    "ingre00178",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Tỏi",
+    "Gừng",
+    "Sả",
+    "Ớt",
+    "Rau thơm",
+    "Lá chanh",
+    "Mùi tàu",
+    "Ngò",
+    "Tương bần",
+    "Chanh",
+    "Mè rang",
+    "Bánh tráng",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Garlic",
+    "Ginger",
+    "Lemongrass",
+    "Pepper",
+    "Basil",
+    "Lime leaf",
+    "Chinese herb",
+    "Cilantro",
+    "Fish sauce",
+    "Lemon",
+    "Roasted Sesame Seeds",
+    "Rice Paper",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "toi",
+    "gung",
+    "sa",
+    "ot",
+    "rau thom",
+    "la chanh",
+    "mui tau",
+    "ngo",
+    "tuong ban",
+    "chanh",
+    "me rang",
+    "banh trang",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

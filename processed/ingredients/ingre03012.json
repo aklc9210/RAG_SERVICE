@@ -1,0 +1,27 @@
+{
+  "id": "ingre03012",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03012.json",
+  "name_vi": "hạt nêm/ tiêu xay",
+  "name_en": "Seasoned Salt/Powdered Pepper",
+  "name_normalized": "hat nem tieu xay",
+  "synonyms": [
+    "mì chính",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

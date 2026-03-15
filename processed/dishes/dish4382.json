@@ -1,0 +1,62 @@
+{
+  "id": "dish4382",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4382.json",
+  "name_vi": "Cháo thịt heo bí đỏ cà rốt",
+  "name_en": "",
+  "name_normalized": "chao thit heo bi do ca rot",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Gạo"
+  ],
+  "secondary_ingredients": [
+    "Thịt nạc heo xay",
+    "Bí đỏ"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre06465",
+    "ingre01419",
+    "ingre00253",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Thịt nạc heo xay",
+    "Cà rốt",
+    "Bí đỏ",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Ground Pork Tenderloin",
+    "Carrot",
+    "Pumpkin",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "thit nac heo xay",
+    "ca rot",
+    "bi do",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

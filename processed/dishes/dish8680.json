@@ -1,0 +1,62 @@
+{
+  "id": "dish8680",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8680.json",
+  "name_vi": "Bắp bò luộc mắm",
+  "name_en": "",
+  "name_normalized": "bap bo luoc mam",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bắp bò"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước mắm",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06332",
+    "ingre02485",
+    "ingre04694",
+    "ingre02995",
+    "ingre05900"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bắp bò",
+    "Gừng",
+    "Nước mắm",
+    "Hạt nêm",
+    "Sả"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Ginger",
+    "Fish Sauce",
+    "Seasoning",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "thit bap bo",
+    "gung",
+    "nuoc mam",
+    "hat nem",
+    "sa"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

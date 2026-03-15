@@ -1,0 +1,129 @@
+{
+  "id": "dish4231",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4231.json",
+  "name_vi": "Mực nhồi thịt xiên que nướng",
+  "name_en": "",
+  "name_normalized": "muc nhoi thit xien que nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Mực ống",
+    "Thịt heo băm",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Ngò gai",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt",
+    "Tỏi",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Sa tế",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre06403",
+    "ingre06823",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre04343",
+    "ingre04329",
+    "ingre04790",
+    "ingre04694",
+    "ingre02124",
+    "ingre04665",
+    "ingre04538",
+    "ingre05621",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Thịt heo băm",
+    "Trứng gà",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí",
+    "Ngò gai",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu ăn",
+    "Nước lọc",
+    "Nước cốt chanh",
+    "Sa tế",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Ground Pork",
+    "Chicken egg",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Culantro",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Tap water",
+    "Lemon juice",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "thit heo bam",
+    "trung ga",
+    "ot",
+    "hanh tim",
+    "toi",
+    "ngo ri",
+    "ngo gai",
+    "nuoc tuong",
+    "nuoc mam",
+    "dau an",
+    "nuoc loc",
+    "nuoc cot chanh",
+    "sa te",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

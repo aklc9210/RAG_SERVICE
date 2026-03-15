@@ -1,0 +1,67 @@
+{
+  "id": "dish1487",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1487.json",
+  "name_vi": "Bánh trôi chay đậu xanh",
+  "name_en": "",
+  "name_normalized": "banh troi chay dau xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh không vỏ",
+    "Vừng trắng rang chín."
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Bột năng hoặc bột sắn dây",
+    "Tinh dầu hoa bưởi hoặc dầu chuối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre07846",
+    "ingre00852",
+    "ingre06603",
+    "ingre07304",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Đậu xanh không vỏ",
+    "Bột năng hoặc bột sắn dây",
+    "Tinh dầu hoa bưởi hoặc dầu chuối",
+    "Vừng trắng rang chín.",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Green peas",
+    "Cornstarch",
+    "Bitter Orange Essential Oil or Banana Oil",
+    "Toasted White Sesame",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "dau xanh khong vo",
+    "bot nang hoac bot san day",
+    "tinh dau hoa buoi hoac dau chuoi",
+    "vung trang rang chin",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "vung trang rang chin.",
+      "new": "vung trang rang chin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Vừng trắng rang chín."
+    }
+  ]
+}

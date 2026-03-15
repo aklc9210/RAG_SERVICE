@@ -1,0 +1,127 @@
+{
+  "id": "dish6710",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6710.json",
+  "name_vi": "Cá hồi chiên xù sốt ngò, thì là",
+  "name_en": "",
+  "name_normalized": "ca hoi chien xu sot ngo thi la",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hồi:"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà:",
+    "Bột mì:",
+    "Bột chiên xù:",
+    "Muối:",
+    "Tiêu:",
+    "Dầu ăn:"
+  ],
+  "ingredient_ids": [
+    "ingre01533",
+    "ingre06843",
+    "ingre00799",
+    "ingre00611",
+    "ingre03831",
+    "ingre06666",
+    "ingre02133"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi:",
+    "Trứng gà:",
+    "Bột mì:",
+    "Bột chiên xù:",
+    "Muối:",
+    "Tiêu:",
+    "Dầu ăn:"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Chicken egg:",
+    "All-purpose flour:",
+    "Puffed Rice Powder",
+    "Salt:",
+    "Pepper:",
+    "Cooking oil:"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "trung ga",
+    "bot mi",
+    "bot chien xu",
+    "muoi",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca hoi chien xu sot ngo, thi la",
+      "new": "ca hoi chien xu sot ngo thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ca hoi:",
+      "new": "ca hoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cá hồi:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "trung ga:",
+      "new": "trung ga",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Trứng gà:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot mi:",
+      "new": "bot mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột mì:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot chien xu:",
+      "new": "bot chien xu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột chiên xù:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi:",
+      "new": "muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu:",
+      "new": "tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau an:",
+      "new": "dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ăn:"
+    }
+  ]
+}

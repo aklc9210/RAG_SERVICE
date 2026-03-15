@@ -1,0 +1,90 @@
+{
+  "id": "dish0643",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0643.json",
+  "name_vi": "Canh cá chét (cá nhụ) nấu ngót",
+  "name_en": "",
+  "name_normalized": "canh ca chet ca nhu nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chét",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Cải trắng",
+    "Hành lá",
+    "Cần tàu"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01497",
+    "ingre01354",
+    "ingre01796",
+    "ingre02673",
+    "ingre01809",
+    "ingre08026",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chét",
+    "Cà chua",
+    "Cải trắng",
+    "Hành lá",
+    "Cần tàu",
+    "Ớt hiểm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Sardine",
+    "Tomato",
+    "Cabbage",
+    "Scallion",
+    "Chinese cabbage",
+    "Hot pepper",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chet",
+    "ca chua",
+    "cai trang",
+    "hanh la",
+    "can tau",
+    "ot hiem",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh ca chet (ca nhu) nau ngot",
+      "new": "canh ca chet ca nhu nau ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

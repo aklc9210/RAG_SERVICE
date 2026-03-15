@@ -1,0 +1,68 @@
+{
+  "id": "dish1570",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1570.json",
+  "name_vi": "Bánh quy bơ hình dưa hấu",
+  "name_en": "",
+  "name_normalized": "banh quy bo hinh dua hau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Tinh chất vani",
+    "Mè đen"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh",
+    "Đường xay",
+    "Lòng trắng trứng",
+    "Bột thực phẩm màu đỏ",
+    "Bột matcha"
+  ],
+  "ingredient_ids": [
+    "ingre00716",
+    "ingre07662",
+    "ingre00382",
+    "ingre03579",
+    "ingre00952",
+    "ingre00736",
+    "ingre06592",
+    "ingre03941"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh",
+    "Đường xay",
+    "Bơ lạt",
+    "Lòng trắng trứng",
+    "Bột thực phẩm màu đỏ",
+    "Bột matcha",
+    "Tinh chất vani",
+    "Mè đen"
+  ],
+  "ingredient_names_en": [
+    "Baking powder",
+    "Cinnamon powder",
+    "Butter",
+    "Egg white",
+    "Red Food Coloring Powder",
+    "Matcha Powder",
+    "Vanilla extract",
+    "Black sesame seeds"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh",
+    "duong xay",
+    "bo lat",
+    "long trang trung",
+    "bot thuc pham mau do",
+    "bot matcha",
+    "tinh chat vani",
+    "me den"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

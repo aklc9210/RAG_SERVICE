@@ -1,0 +1,57 @@
+{
+  "id": "dish6783",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6783.json",
+  "name_vi": "Tôm cuộn mì chiên giòn",
+  "name_en": "",
+  "name_normalized": "tom cuon mi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mì tôm"
+  ],
+  "secondary_ingredients": [
+    "Tôm"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04003",
+    "ingre06930",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Mì tôm",
+    "Tôm",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Shrimp",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "mi tom",
+    "tom",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

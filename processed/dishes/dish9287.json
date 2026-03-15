@@ -1,0 +1,82 @@
+{
+  "id": "dish9287",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9287.json",
+  "name_vi": "Trứng cút chùm nho",
+  "name_en": "",
+  "name_normalized": "trung cut chum nho",
+  "category": "an vat",
+  "main_ingredients": [
+    "Trứng cút",
+    "Củ dền"
+  ],
+  "secondary_ingredients": [
+    "Lá bí"
+  ],
+  "seasonings": [
+    "Hoa hồi",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Giấm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre01880",
+    "ingre02584",
+    "ingre07966",
+    "ingre07063",
+    "ingre02485",
+    "ingre02355",
+    "ingre03362",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Củ dền",
+    "Hoa hồi",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Giấm",
+    "Lá bí",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Beetroot",
+    "Rose",
+    "Pepper",
+    "Garlic",
+    "Ginger",
+    "Vinegar",
+    "Bitter Melon Leaf",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "cu den",
+    "hoa hoi",
+    "ot",
+    "toi",
+    "gung",
+    "giam",
+    "la bi",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

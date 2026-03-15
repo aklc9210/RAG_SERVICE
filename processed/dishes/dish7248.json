@@ -1,0 +1,73 @@
+{
+  "id": "dish7248",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7248.json",
+  "name_vi": "Cá diếc rán giòn",
+  "name_en": "",
+  "name_normalized": "ca diec ran gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá diếc"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Muối hạt",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01516",
+    "ingre07966",
+    "ingre07063",
+    "ingre02768",
+    "ingre03760",
+    "ingre02124",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cá diếc",
+    "Ớt",
+    "Tỏi",
+    "Hành tím",
+    "Muối hạt",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Pepper",
+    "Garlic",
+    "Shallot",
+    "Fenugreek seeds",
+    "Cooking oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca diec",
+    "ot",
+    "toi",
+    "hanh tim",
+    "muoi hat",
+    "dau an",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

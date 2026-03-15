@@ -1,0 +1,93 @@
+{
+  "id": "dish5666",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5666.json",
+  "name_vi": "Cá chẽm kho thơm",
+  "name_en": "",
+  "name_normalized": "ca chem kho thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá chẽm",
+    "Thơm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối hạt",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01503",
+    "ingre06247",
+    "ingre02673",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre04672",
+    "ingre03760",
+    "ingre06612",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá chẽm",
+    "Thơm",
+    "Hành lá",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Nước màu",
+    "Muối hạt",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Whitingsmith Fish",
+    "Basil",
+    "Scallion",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Food coloring",
+    "Fenugreek seeds",
+    "Pepper",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chem",
+    "thom",
+    "hanh la",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "nuoc mau",
+    "muoi hat",
+    "tieu",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

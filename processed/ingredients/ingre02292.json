@@ -1,0 +1,27 @@
+{
+  "id": "ingre02292",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02292.json",
+  "name_vi": "gia vị lẩu thái aji-quick",
+  "name_en": "Thai Hot Pot Seasoning",
+  "name_normalized": "gia vi lau thai aji quick",
+  "synonyms": [
+    "mắm tôm",
+    "nước mắm pha"
+  ],
+  "synonyms_normalized": [
+    "mam tom",
+    "nuoc mam pha"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gia vi lau thai aji-quick",
+      "new": "gia vi lau thai aji quick",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

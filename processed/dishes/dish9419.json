@@ -1,0 +1,47 @@
+{
+  "id": "dish9419",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9419.json",
+  "name_vi": "Rượu hành",
+  "name_en": "",
+  "name_normalized": "ruou hanh",
+  "category": "ngay le tet",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Rượu nếp"
+  ],
+  "ingredient_ids": [
+    "ingre02768",
+    "ingre05554"
+  ],
+  "ingredient_names_vi": [
+    "Hành tím",
+    "Rượu nếp"
+  ],
+  "ingredient_names_en": [
+    "Shallot",
+    "Rice wine"
+  ],
+  "ingredient_names_normalized": [
+    "hanh tim",
+    "ruou nep"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

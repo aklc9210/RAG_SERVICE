@@ -1,0 +1,119 @@
+{
+  "id": "dish5120",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5120.json",
+  "name_vi": "Tu hài (ốc vòi voi) xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "tu hai oc voi voi xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tu hài",
+    "Hành tây",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Ớt",
+    "Tỏi",
+    "Nước tương",
+    "Tương cà",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06864",
+    "ingre02741",
+    "ingre01354",
+    "ingre07999",
+    "ingre02673",
+    "ingre07966",
+    "ingre07063",
+    "ingre04790",
+    "ingre06984",
+    "ingre07028",
+    "ingre02080",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tu hài",
+    "Hành tây",
+    "Cà chua",
+    "Ớt chuông",
+    "Hành lá",
+    "Ớt",
+    "Tỏi",
+    "Nước tương",
+    "Tương cà",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Bulb onion",
+    "Onion",
+    "Tomato",
+    "Bell pepper",
+    "Scallion",
+    "Pepper",
+    "Garlic",
+    "Soy Sauce",
+    "Miso酱",
+    "Hot Sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tu hai",
+    "hanh tay",
+    "ca chua",
+    "ot chuong",
+    "hanh la",
+    "ot",
+    "toi",
+    "nuoc tuong",
+    "tuong ca",
+    "tuong ot",
+    "dau hao",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tu hai (oc voi voi) xao chua ngot",
+      "new": "tu hai oc voi voi xao chua ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

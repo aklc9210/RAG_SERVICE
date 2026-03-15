@@ -1,0 +1,67 @@
+{
+  "id": "dish7034",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7034.json",
+  "name_vi": "Bít tết thịt lợn thảo mộc",
+  "name_en": "",
+  "name_normalized": "bit tet thit lon thao moc",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt lợn"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Rosemary",
+    "Tỏi",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06431",
+    "ingre05482",
+    "ingre00382",
+    "ingre07063",
+    "ingre02104",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt lợn",
+    "Rosemary",
+    "Bơ lạt",
+    "Tỏi",
+    "Dầu oliu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Rosemary",
+    "Butter",
+    "Garlic",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit lon",
+    "rosemary",
+    "bo lat",
+    "toi",
+    "dau oliu",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

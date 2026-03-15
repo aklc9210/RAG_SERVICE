@@ -1,0 +1,76 @@
+{
+  "id": "dish2734",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2734.json",
+  "name_vi": "Bánh trung thu Hàn Quốc - Songpyeon",
+  "name_en": "",
+  "name_normalized": "banh trung thu han quoc songpyeon",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Hạt dẻ luộc"
+  ],
+  "secondary_ingredients": [
+    "Mè xay",
+    "Đậu đen luộc",
+    "Mật ong",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre02941",
+    "ingre03940",
+    "ingre07865",
+    "ingre07628",
+    "ingre04124",
+    "ingre02094",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Hạt dẻ luộc",
+    "Mè xay",
+    "Đậu đen luộc",
+    "Đường nâu",
+    "Mật ong",
+    "Dầu mè",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Boiled walnut",
+    "Roasted Sesame Seeds",
+    "Boiled black beans",
+    "Brown Sugar",
+    "Honey",
+    "Sesame oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "hat de luoc",
+    "me xay",
+    "dau den luoc",
+    "duong nau",
+    "mat ong",
+    "dau me",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh trung thu han quoc - songpyeon",
+      "new": "banh trung thu han quoc songpyeon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

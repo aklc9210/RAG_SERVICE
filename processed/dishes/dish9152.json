@@ -1,0 +1,50 @@
+{
+  "id": "dish9152",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9152.json",
+  "name_vi": "Nước mắm đường chấm xoài xanh",
+  "name_en": "",
+  "name_normalized": "nuoc mam duong cham xoai xanh",
+  "category": "an vat",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt đỏ",
+    "Nước mắm",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre08097",
+    "ingre04694",
+    "ingre07685"
+  ],
+  "ingredient_names_vi": [
+    "Ớt đỏ",
+    "Nước mắm",
+    "Đường/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Red pepper",
+    "Fish Sauce",
+    "Cinnamon Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ot do",
+    "nuoc mam",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu xay"
+    }
+  ]
+}

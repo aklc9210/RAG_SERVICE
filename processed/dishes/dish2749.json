@@ -1,0 +1,92 @@
+{
+  "id": "dish2749",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2749.json",
+  "name_vi": "Bánh pancake tiramisu phô mai",
+  "name_en": "",
+  "name_normalized": "banh pancake tiramisu pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cream cheese",
+    "Bơ lạt",
+    "Sữa"
+  ],
+  "secondary_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Phô mai Mascarpone lạnh",
+    "Whipping cream"
+  ],
+  "seasonings": [
+    "Bột làm bánh (có thể thay thế bằng bột mì số 8)",
+    "Lòng trắng trứng",
+    "Đường",
+    "Nước cốt chanh",
+    "Bột cacao"
+  ],
+  "ingredient_ids": [
+    "ingre01324",
+    "ingre00382",
+    "ingre06078",
+    "ingre00717",
+    "ingre03584",
+    "ingre03579",
+    "ingre07583",
+    "ingre04538",
+    "ingre05084",
+    "ingre07313",
+    "ingre00576"
+  ],
+  "ingredient_names_vi": [
+    "Cream cheese",
+    "Bơ lạt",
+    "Sữa",
+    "Bột làm bánh (có thể thay thế bằng bột mì số 8)",
+    "Lòng đỏ trứng gà",
+    "Lòng trắng trứng",
+    "Đường",
+    "Nước cốt chanh",
+    "Phô mai Mascarpone lạnh",
+    "Whipping cream",
+    "Bột cacao"
+  ],
+  "ingredient_names_en": [
+    "Cream cheese",
+    "Butter",
+    "Milk",
+    "Bread Flour",
+    "Egg yolk",
+    "Egg white",
+    "Sugar",
+    "Lemon juice",
+    "Mascarpone Cheese",
+    "Whipping cream",
+    "Cocoa powder"
+  ],
+  "ingredient_names_normalized": [
+    "cream cheese",
+    "bo lat",
+    "sua",
+    "bot lam banh co the thay the bang bot mi so 8",
+    "long do trung ga",
+    "long trang trung",
+    "duong",
+    "nuoc cot chanh",
+    "pho mai mascarpone lanh",
+    "whipping cream",
+    "bot cacao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (co the thay the bang bot mi so 8)",
+      "new": "bot lam banh co the thay the bang bot mi so 8",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (có thể thay thế bằng bột mì số 8)"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "dish4866",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4866.json",
+  "name_vi": "Ức gà xào nấm hương (nấm đông cô)",
+  "name_en": "",
+  "name_normalized": "uc ga xao nam huong nam dong co",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ức gà",
+    "Nấm hương"
+  ],
+  "secondary_ingredients": [
+    "Hành tây tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Hạt nêm",
+    "Muối",
+    "Bột năng",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre04910",
+    "ingre02485",
+    "ingre07063",
+    "ingre02761",
+    "ingre02995",
+    "ingre03746",
+    "ingre00849",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Nấm hương",
+    "Gừng",
+    "Tỏi",
+    "Hành tây tím",
+    "Hạt nêm",
+    "Muối",
+    "Bột năng",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Mushroom",
+    "Ginger",
+    "Garlic",
+    "Purple onion",
+    "Seasoning",
+    "Salt",
+    "Cornstarch",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "nam huong",
+    "gung",
+    "toi",
+    "hanh tay tim",
+    "hat nem",
+    "muoi",
+    "bot nang",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "uc ga xao nam huong (nam dong co)",
+      "new": "uc ga xao nam huong nam dong co",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

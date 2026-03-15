@@ -1,0 +1,123 @@
+{
+  "id": "dish6003",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6003.json",
+  "name_vi": "Lưỡi bò nấu lagu",
+  "name_en": "",
+  "name_normalized": "luoi bo nau lagu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Lưỡi bò",
+    "Khoai tây",
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Lá bay",
+    "Màu điều"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Tỏi",
+    "Tương cà",
+    "Dầu ăn",
+    "Bột năng",
+    "Đường phèn",
+    "Tiêu xay",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03603",
+    "ingre03222",
+    "ingre01419",
+    "ingre01354",
+    "ingre02741",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre03361",
+    "ingre06984",
+    "ingre03907",
+    "ingre02124",
+    "ingre00849",
+    "ingre07635",
+    "ingre06644",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lưỡi bò",
+    "Khoai tây",
+    "Cà rốt",
+    "Cà chua",
+    "Hành tây",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Lá bay",
+    "Tương cà",
+    "Màu điều",
+    "Dầu ăn",
+    "Bột năng",
+    "Đường phèn",
+    "Tiêu xay",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef tongue",
+    "Potato",
+    "Carrot",
+    "Tomato",
+    "Onion",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Bay leaf",
+    "Miso酱",
+    "Pumpkinseed oil",
+    "Cooking oil",
+    "Cornstarch",
+    "Brown Sugar",
+    "Ground pepper",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luoi bo",
+    "khoai tay",
+    "ca rot",
+    "ca chua",
+    "hanh tay",
+    "gung",
+    "toi",
+    "hanh tim",
+    "la bay",
+    "tuong ca",
+    "mau dieu",
+    "dau an",
+    "bot nang",
+    "duong phen",
+    "tieu xay",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

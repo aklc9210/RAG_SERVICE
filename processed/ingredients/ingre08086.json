@@ -1,0 +1,27 @@
+{
+  "id": "ingre08086",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre08086.json",
+  "name_vi": "ớt xanh/ ớt đỏ",
+  "name_en": "Green Pepper/Red Pepper",
+  "name_normalized": "ot xanh ot do",
+  "synonyms": [
+    "ớt chuông",
+    "ớt sweet pepper"
+  ],
+  "synonyms_normalized": [
+    "ot chuong",
+    "ot sweet pepper"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ot xanh/ ot do",
+      "new": "ot xanh ot do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish0323",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0323.json",
+  "name_vi": "Canh hẹ đậu hũ thịt bằm",
+  "name_en": "",
+  "name_normalized": "canh he dau hu thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hẹ",
+    "Đậu hũ",
+    "Thịt xay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Bột canh",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03085",
+    "ingre07740",
+    "ingre06521",
+    "ingre02768",
+    "ingre04694",
+    "ingre00587",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Hẹ",
+    "Đậu hũ",
+    "Thịt xay",
+    "Hành tím",
+    "Nước mắm",
+    "Bột canh",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Garlic Chives",
+    "Tofu",
+    "Ground Beef",
+    "Shallot",
+    "Fish Sauce",
+    "Cornstarch",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "he",
+    "dau hu",
+    "thit xay",
+    "hanh tim",
+    "nuoc mam",
+    "bot canh",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

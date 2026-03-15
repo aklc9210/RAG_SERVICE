@@ -1,0 +1,25 @@
+{
+  "id": "ingre03015",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03015.json",
+  "name_vi": "hạt nêm/muối",
+  "name_en": "Seasoning/Salt",
+  "name_normalized": "hat nem muoi",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

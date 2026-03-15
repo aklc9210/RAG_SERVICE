@@ -1,0 +1,106 @@
+{
+  "id": "dish8219",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8219.json",
+  "name_vi": "Gỏi gà chôm chôm",
+  "name_en": "",
+  "name_normalized": "goi ga chom chom",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chôm chôm",
+    "Đùi gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Sả",
+    "Hành tím",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt",
+    "Gừng",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01251",
+    "ingre07551",
+    "ingre02741",
+    "ingre01419",
+    "ingre07057",
+    "ingre07966",
+    "ingre05900",
+    "ingre02485",
+    "ingre02768",
+    "ingre07791",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chôm chôm",
+    "Đùi gà",
+    "Hành tây",
+    "Cà rốt",
+    "Tắc",
+    "Ớt",
+    "Sả",
+    "Gừng",
+    "Hành tím",
+    "Đậu phộng rang",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Chicken thigh",
+    "Onion",
+    "Carrot",
+    "Tamarind",
+    "Pepper",
+    "Lemongrass",
+    "Ginger",
+    "Shallot",
+    "Roasted Peanut",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chom chom",
+    "dui ga",
+    "hanh tay",
+    "ca rot",
+    "tac",
+    "ot",
+    "sa",
+    "gung",
+    "hanh tim",
+    "dau phong rang",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

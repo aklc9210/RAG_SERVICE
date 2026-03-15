@@ -1,0 +1,70 @@
+{
+  "id": "dish1429",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1429.json",
+  "name_vi": "Bánh Sampa - bánh sâm banh",
+  "name_en": "",
+  "name_normalized": "banh sampa banh sam banh",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Đường trắng mịn",
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Nước cốt chanh",
+    "Đường to"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07653",
+    "ingre00791",
+    "ingre00564",
+    "ingre06592",
+    "ingre04538",
+    "ingre07650"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường trắng mịn",
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Tinh chất vani",
+    "Nước cốt chanh",
+    "Đường to"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "White Sugar",
+    "All-purpose flour",
+    "Corn starch",
+    "Vanilla extract",
+    "Lemon juice",
+    "Brown sugar"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong trang min",
+    "bot mi da dung",
+    "bot bap",
+    "tinh chat vani",
+    "nuoc cot chanh",
+    "duong to"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh sampa - banh sam banh",
+      "new": "banh sampa banh sam banh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish6244",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6244.json",
+  "name_vi": "Cá đuối kho dưa môn",
+  "name_en": "",
+  "name_normalized": "ca duoi kho dua mon",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá đuối",
+    "Dưa môn"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01659",
+    "ingre02040",
+    "ingre08078",
+    "ingre02768",
+    "ingre00804",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá đuối",
+    "Dưa môn",
+    "Ớt tươi",
+    "Hành tím",
+    "Bột nghệ",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pickled cucumber",
+    "Fresh chili",
+    "Shallot",
+    "Turmeric Powder",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca duoi",
+    "dua mon",
+    "ot tuoi",
+    "hanh tim",
+    "bot nghe",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

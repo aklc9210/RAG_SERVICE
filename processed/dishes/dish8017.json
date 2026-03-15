@@ -1,0 +1,111 @@
+{
+  "id": "dish8017",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8017.json",
+  "name_vi": "Nộm sứa hoa chuối (Công thức chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "nom sua hoa chuoi cong thuc chia se tu nguoi dung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa chế biến sẵn",
+    "Hoa chuối",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò",
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Dưa chuột",
+    "Cà rốt",
+    "Tỏi",
+    "Chanh",
+    "Ớt sừng",
+    "Giấm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06073",
+    "ingre02575",
+    "ingre02000",
+    "ingre07342",
+    "ingre01419",
+    "ingre02741",
+    "ingre04326",
+    "ingre07063",
+    "ingre01079",
+    "ingre08055",
+    "ingre07781",
+    "ingre02355",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Sứa chế biến sẵn",
+    "Hoa chuối",
+    "Dưa chuột",
+    "Xoài xanh",
+    "Cà rốt",
+    "Hành tây",
+    "Ngò",
+    "Tỏi",
+    "Chanh",
+    "Ớt sừng",
+    "Đậu phộng",
+    "Giấm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Canned jelly",
+    "Banana flower",
+    "Cucumber",
+    "Green mango",
+    "Carrot",
+    "Onion",
+    "Cilantro",
+    "Garlic",
+    "Lemon",
+    "Hot pepper",
+    "Peanut",
+    "Vinegar",
+    "Sugar",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "sua che bien san",
+    "hoa chuoi",
+    "dua chuot",
+    "xoai xanh",
+    "ca rot",
+    "hanh tay",
+    "ngo",
+    "toi",
+    "chanh",
+    "ot sung",
+    "dau phong",
+    "giam",
+    "duong",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nom sua hoa chuoi (cong thuc chia se tu nguoi dung)",
+      "new": "nom sua hoa chuoi cong thuc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

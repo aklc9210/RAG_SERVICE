@@ -1,0 +1,25 @@
+{
+  "id": "ingre01533",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01533.json",
+  "name_vi": "cá hồi:",
+  "name_en": "Salmon",
+  "name_normalized": "ca hoi",
+  "synonyms": [
+    "cá lăng"
+  ],
+  "synonyms_normalized": [
+    "ca lang"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca hoi:",
+      "new": "ca hoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

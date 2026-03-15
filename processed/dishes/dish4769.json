@@ -1,0 +1,112 @@
+{
+  "id": "dish4769",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4769.json",
+  "name_vi": "Gà xào nấm bào ngư",
+  "name_en": "",
+  "name_normalized": "ga xao nam bao ngu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Má đùi gà",
+    "Nấm bào ngư",
+    "Bắp cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành boa rô",
+    "Mật ong",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Tiêu xanh",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03911",
+    "ingre04894",
+    "ingre00463",
+    "ingre08055",
+    "ingre02768",
+    "ingre02645",
+    "ingre07063",
+    "ingre06640",
+    "ingre04124",
+    "ingre04790",
+    "ingre04343",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Má đùi gà",
+    "Nấm bào ngư",
+    "Bắp cải trắng",
+    "Ớt sừng",
+    "Hành tím",
+    "Hành boa rô",
+    "Tỏi",
+    "Tiêu xanh",
+    "Mật ong",
+    "Nước tương",
+    "Ngò rí",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Oyster mushroom",
+    "White cabbage",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Green pepper",
+    "Honey",
+    "Soy Sauce",
+    "Parsley",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ma dui ga",
+    "nam bao ngu",
+    "bap cai trang",
+    "ot sung",
+    "hanh tim",
+    "hanh boa ro",
+    "toi",
+    "tieu xanh",
+    "mat ong",
+    "nuoc tuong",
+    "ngo ri",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

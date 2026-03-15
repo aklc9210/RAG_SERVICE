@@ -1,0 +1,105 @@
+{
+  "id": "dish0083",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0083.json",
+  "name_vi": "Canh chua cay cá hố tươi",
+  "name_en": "",
+  "name_normalized": "canh chua cay ca ho tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá hố tươi",
+    "Lá giang",
+    "Dọc mùng"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Rau ngổ",
+    "Lá quế"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01526",
+    "ingre03430",
+    "ingre02147",
+    "ingre08055",
+    "ingre04329",
+    "ingre05336",
+    "ingre03500",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá hố tươi",
+    "Lá giang",
+    "Dọc mùng",
+    "Ớt sừng",
+    "Ngò gai",
+    "Rau ngổ",
+    "Lá quế",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Fresh goby fish",
+    "Japanese Laurel Leaf",
+    "Water spinach",
+    "Hot pepper",
+    "Culantro",
+    "Bayleaf",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca ho tuoi",
+    "la giang",
+    "doc mung",
+    "ot sung",
+    "ngo gai",
+    "rau ngo",
+    "la que",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "dish2026",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2026.json",
+  "name_vi": "Bánh Scone kem - Cream Scone",
+  "name_en": "",
+  "name_normalized": "banh scone kem cream scone",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Heavy cream",
+    "Kem chua",
+    "Tinh chất vani",
+    "Lòng đỏ trứng gà"
+  ],
+  "seasonings": [
+    "Bột làm bánh (Cake Flour)",
+    "Baking powder",
+    "Sữa tươi không đường",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre00013",
+    "ingre00382",
+    "ingre02558",
+    "ingre03129",
+    "ingre06592",
+    "ingre03584",
+    "ingre06147",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake Flour)",
+    "Baking powder",
+    "Bơ lạt",
+    "Heavy cream",
+    "Kem chua",
+    "Tinh chất vani",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi không đường",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Baking powder",
+    "Butter",
+    "Heavy cream",
+    "Yogurt",
+    "Vanilla extract",
+    "Egg yolk",
+    "Fat-free Milk",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "baking powder",
+    "bo lat",
+    "heavy cream",
+    "kem chua",
+    "tinh chat vani",
+    "long do trung ga",
+    "sua tuoi khong duong",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh scone kem - cream scone",
+      "new": "banh scone kem cream scone",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake Flour)"
+    }
+  ]
+}

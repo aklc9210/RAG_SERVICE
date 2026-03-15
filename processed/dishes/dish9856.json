@@ -1,0 +1,56 @@
+{
+  "id": "dish9856",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9856.json",
+  "name_vi": "Sinh tố sapoche (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "sinh to sapoche cong thuc duoc chia se tu nguoi dung",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sapoche"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre05643",
+    "ingre06147",
+    "ingre06174",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Sapoche",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Sapote",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "sapoche",
+    "sua tuoi khong duong",
+    "sua dac",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to sapoche (cong thuc duoc chia se tu nguoi dung)",
+      "new": "sinh to sapoche cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

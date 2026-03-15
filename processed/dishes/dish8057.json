@@ -1,0 +1,102 @@
+{
+  "id": "dish8057",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8057.json",
+  "name_vi": "Gỏi lươn hoa chuối",
+  "name_en": "",
+  "name_normalized": "goi luon hoa chuoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Lươn đồng",
+    "Hoa chuối",
+    "Phèn chua"
+  ],
+  "secondary_ingredients": [
+    "Rau tía tô",
+    "Giá đỗ"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt sừng",
+    "Bột năng",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Gừng",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03597",
+    "ingre02575",
+    "ingre05051",
+    "ingre01079",
+    "ingre08055",
+    "ingre00849",
+    "ingre05404",
+    "ingre04538",
+    "ingre04694",
+    "ingre02337",
+    "ingre02485",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Lươn đồng",
+    "Hoa chuối",
+    "Phèn chua",
+    "Chanh",
+    "Ớt sừng",
+    "Bột năng",
+    "Rau tía tô",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Giá đỗ",
+    "Gừng",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Freshwater eel",
+    "Banana flower",
+    "Tamarind",
+    "Lemon",
+    "Hot pepper",
+    "Cornstarch",
+    "Cilantro",
+    "Lemon juice",
+    "Fish Sauce",
+    "Bean sprouts",
+    "Ginger",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "luon dong",
+    "hoa chuoi",
+    "phen chua",
+    "chanh",
+    "ot sung",
+    "bot nang",
+    "rau tia to",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "gia do",
+    "gung",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

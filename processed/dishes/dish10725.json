@@ -1,0 +1,108 @@
+{
+  "id": "dish10725",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10725.json",
+  "name_vi": "Tré trộn cóc non",
+  "name_en": "",
+  "name_normalized": "tre tron coc non",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Tré mini",
+    "Chả heo mini",
+    "Chả bò mini",
+    "Nem chua"
+  ],
+  "secondary_ingredients": [
+    "Cóc non",
+    "Xoài xanh",
+    "Dưa leo",
+    "Rau răm",
+    "Trứng cút",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Ớt bột",
+    "Muối tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06792",
+    "ingre01289",
+    "ingre01259",
+    "ingre04296",
+    "ingre01711",
+    "ingre07342",
+    "ingre02020",
+    "ingre05359",
+    "ingre06816",
+    "ingre07057",
+    "ingre07063",
+    "ingre07966",
+    "ingre07977",
+    "ingre03783"
+  ],
+  "ingredient_names_vi": [
+    "Tré mini",
+    "Chả heo mini",
+    "Chả bò mini",
+    "Nem chua",
+    "Cóc non",
+    "Xoài xanh",
+    "Dưa leo",
+    "Rau răm",
+    "Trứng cút",
+    "Tắc",
+    "Tỏi",
+    "Ớt",
+    "Ớt bột",
+    "Muối tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mini fermented fish sausage",
+    "Mini Pork Sausage",
+    "Mini Beef Patty",
+    "Pork sausage",
+    "Frogspawn",
+    "Green mango",
+    "Cucumber",
+    "Vietnamese coriander",
+    "Quail egg",
+    "Tamarind",
+    "Garlic",
+    "Pepper",
+    "Chili powder",
+    "Salt Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tre mini",
+    "cha heo mini",
+    "cha bo mini",
+    "nem chua",
+    "coc non",
+    "xoai xanh",
+    "dua leo",
+    "rau ram",
+    "trung cut",
+    "tac",
+    "toi",
+    "ot",
+    "ot bot",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

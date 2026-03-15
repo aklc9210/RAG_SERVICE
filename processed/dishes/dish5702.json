@@ -1,0 +1,68 @@
+{
+  "id": "dish5702",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5702.json",
+  "name_vi": "Thịt heo quay kho tiêu",
+  "name_en": "",
+  "name_normalized": "thit heo quay kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt heo quay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06411",
+    "ingre02768",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo quay",
+    "Hành tím",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Roasted Pork",
+    "Shallot",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo quay",
+    "hanh tim",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

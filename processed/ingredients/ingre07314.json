@@ -1,0 +1,29 @@
+{
+  "id": "ingre07314",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07314.json",
+  "name_vi": "whipping cream (kem sữa tươi)",
+  "name_en": "Whipping Cream",
+  "name_normalized": "whipping cream kem sua tuoi",
+  "synonyms": [
+    "kem tươi",
+    "kem đánh",
+    "kem sữa đánh"
+  ],
+  "synonyms_normalized": [
+    "kem tuoi",
+    "kem danh",
+    "kem sua danh"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "whipping cream (kem sua tuoi)",
+      "new": "whipping cream kem sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

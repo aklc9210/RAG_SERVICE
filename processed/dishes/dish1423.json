@@ -1,0 +1,79 @@
+{
+  "id": "dish1423",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1423.json",
+  "name_vi": "French toast - bánh mì chiên trứng sữa",
+  "name_en": "",
+  "name_normalized": "french toast banh mi chien trung sua",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sandwich"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Bơ lạt",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột quế",
+    "Muối/Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05641",
+    "ingre06823",
+    "ingre06144",
+    "ingre00382",
+    "ingre06592",
+    "ingre00888",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Sandwich",
+    "Trứng gà",
+    "Sữa tươi",
+    "Bơ lạt",
+    "Tinh chất vani",
+    "Bột quế",
+    "Muối/Đường"
+  ],
+  "ingredient_names_en": [
+    "This is already in English, no translation needed.",
+    "Chicken egg",
+    "Fresh Milk",
+    "Butter",
+    "Vanilla extract",
+    "Cinnamon粉",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "sandwich",
+    "trung ga",
+    "sua tuoi",
+    "bo lat",
+    "tinh chat vani",
+    "bot que",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "french toast - banh mi chien trung sua",
+      "new": "french toast banh mi chien trung sua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/Đường"
+    }
+  ]
+}

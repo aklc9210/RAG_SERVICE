@@ -1,0 +1,90 @@
+{
+  "id": "dish5147",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5147.json",
+  "name_vi": "Cà tím xào nấm",
+  "name_en": "",
+  "name_normalized": "ca tim xao nam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cà tím",
+    "Nấm bạch tuyết"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt chuông",
+    "Tương ớt",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre04903",
+    "ingre01419",
+    "ingre07999",
+    "ingre05900",
+    "ingre07028",
+    "ingre04790",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Nấm bạch tuyết",
+    "Cà rốt",
+    "Ớt chuông",
+    "Sả",
+    "Tương ớt",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Mushroom",
+    "Carrot",
+    "Bell pepper",
+    "Lemongrass",
+    "Hot Sauce",
+    "Soy Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "nam bach tuyet",
+    "ca rot",
+    "ot chuong",
+    "sa",
+    "tuong ot",
+    "nuoc tuong",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

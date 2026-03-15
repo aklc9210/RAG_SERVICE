@@ -1,0 +1,103 @@
+{
+  "id": "dish4692",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4692.json",
+  "name_vi": "Hàu xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "hau xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hàu"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Ớt chuông",
+    "Tỏi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02837",
+    "ingre00598",
+    "ingre06823",
+    "ingre07999",
+    "ingre06247",
+    "ingre02768",
+    "ingre07063",
+    "ingre07977",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Hàu",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Ớt chuông",
+    "Thơm",
+    "Hành tím",
+    "Tỏi",
+    "Ớt bột",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Puffed Rice Powder",
+    "Chicken egg",
+    "Bell pepper",
+    "Basil",
+    "Shallot",
+    "Garlic",
+    "Chili powder",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "hau",
+    "bot chien gion",
+    "trung ga",
+    "ot chuong",
+    "thom",
+    "hanh tim",
+    "toi",
+    "ot bot",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

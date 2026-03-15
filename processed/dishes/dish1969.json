@@ -1,0 +1,116 @@
+{
+  "id": "dish1969",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1969.json",
+  "name_vi": "Bánh bột lọc trần nhân thịt mộc nhĩ",
+  "name_en": "",
+  "name_normalized": "banh bot loc tran nhan thit moc nhi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Mộc nhĩ",
+    "Ngò rí"
+  ],
+  "secondary_ingredients": [
+    "Giá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Hành phi",
+    "Chanh",
+    "Tỏi",
+    "Sa tế",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre00849",
+    "ingre04179",
+    "ingre04343",
+    "ingre02730",
+    "ingre02329",
+    "ingre01079",
+    "ingre02768",
+    "ingre07063",
+    "ingre05621",
+    "ingre02124",
+    "ingre04694",
+    "ingre00587",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Bột năng",
+    "Mộc nhĩ",
+    "Ngò rí",
+    "Hành phi",
+    "Giá",
+    "Chanh",
+    "Hành tím",
+    "Tỏi",
+    "Sa tế",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Cornstarch",
+    "Mushroom",
+    "Parsley",
+    "Garlic Fried",
+    "Mint",
+    "Lemon",
+    "Shallot",
+    "Garlic",
+    "Fish sauce",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "bot nang",
+    "moc nhi",
+    "ngo ri",
+    "hanh phi",
+    "gia",
+    "chanh",
+    "hanh tim",
+    "toi",
+    "sa te",
+    "dau an",
+    "nuoc mam",
+    "bot canh",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

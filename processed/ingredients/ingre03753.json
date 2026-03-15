@@ -1,0 +1,29 @@
+{
+  "id": "ingre03753",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03753.json",
+  "name_vi": "muối - đường - tiêu xay hành",
+  "name_en": "Salt - Sugar - Ground Garlic Powder",
+  "name_normalized": "muoi duong tieu xay hanh",
+  "synonyms": [
+    "đường kính",
+    "bột ngọt",
+    "tiêu xay"
+  ],
+  "synonyms_normalized": [
+    "duong kinh",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi - duong - tieu xay hanh",
+      "new": "muoi duong tieu xay hanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

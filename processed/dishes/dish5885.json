@@ -1,0 +1,111 @@
+{
+  "id": "dish5885",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5885.json",
+  "name_vi": "Chả lụa chay kho nấm",
+  "name_en": "",
+  "name_normalized": "cha lua chay kho nam",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Chả lụa chay",
+    "Nấm đông cô khô",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Boa rô băm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước tương",
+    "Nước mắm chay",
+    "Dầu hào chay",
+    "Bột ớt",
+    "Ngũ vị hương",
+    "Hạt nêm chay",
+    "Tiêu/Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01294",
+    "ingre04969",
+    "ingre02673",
+    "ingre07966",
+    "ingre00044",
+    "ingre04790",
+    "ingre04697",
+    "ingre02081",
+    "ingre01015",
+    "ingre04381",
+    "ingre02997",
+    "ingre06665",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Chả lụa chay",
+    "Nấm đông cô khô",
+    "Hành lá",
+    "Ớt",
+    "Boa rô băm",
+    "Nước tương",
+    "Nước mắm chay",
+    "Dầu hào chay",
+    "Bột ớt",
+    "Ngũ vị hương",
+    "Hạt nêm chay",
+    "Tiêu/Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Vegetarian blood sausage",
+    "Dried shiitake mushrooms",
+    "Scallion",
+    "Pepper",
+    "Minced beef",
+    "Soy Sauce",
+    "Vegetarian fish sauce",
+    "Vegetarian soy sauce",
+    "Red Pepper Powder",
+    "Five-Spice Powder",
+    "Vegetarian Seasoning",
+    "Salt/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "cha lua chay",
+    "nam dong co kho",
+    "hanh la",
+    "ot",
+    "boa ro bam",
+    "nuoc tuong",
+    "nuoc mam chay",
+    "dau hao chay",
+    "bot ot",
+    "ngu vi huong",
+    "hat nem chay",
+    "tieu duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/duong",
+      "new": "tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/Đường"
+    }
+  ]
+}

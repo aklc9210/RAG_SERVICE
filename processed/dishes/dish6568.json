@@ -1,0 +1,67 @@
+{
+  "id": "dish6568",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6568.json",
+  "name_vi": "Chả gà nấm hương",
+  "name_en": "",
+  "name_normalized": "cha ga nam huong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ức gà"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu hào",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre04910",
+    "ingre02741",
+    "ingre01419",
+    "ingre02080",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Nấm hương",
+    "Hành tây",
+    "Cà rốt",
+    "Dầu hào",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Mushroom",
+    "Onion",
+    "Carrot",
+    "Soy sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "nam huong",
+    "hanh tay",
+    "ca rot",
+    "dau hao",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "dish6108",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6108.json",
+  "name_vi": "Cá ngừ kho thơm cà chua",
+  "name_en": "",
+  "name_normalized": "ca ngu kho thom ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá ngừ",
+    "Thơm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01579",
+    "ingre06247",
+    "ingre01354",
+    "ingre02673",
+    "ingre07063",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngừ",
+    "Thơm",
+    "Cà chua",
+    "Hành lá",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Tuna",
+    "Basil",
+    "Tomato",
+    "Scallion",
+    "Garlic",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "MSG",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngu",
+    "thom",
+    "ca chua",
+    "hanh la",
+    "toi",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "bot ngot",
+    "hat nem",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

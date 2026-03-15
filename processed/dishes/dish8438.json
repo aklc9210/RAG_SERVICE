@@ -1,0 +1,90 @@
+{
+  "id": "dish8438",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8438.json",
+  "name_vi": "Gà nấu đông với mộc nhĩ, nấm hương",
+  "name_en": "",
+  "name_normalized": "ga nau dong voi moc nhi nam huong",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Gà ta",
+    "Bì heo",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành tím băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre00233",
+    "ingre04930",
+    "ingre04910",
+    "ingre02485",
+    "ingre02774",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Bì heo",
+    "Nấm mèo",
+    "Nấm hương",
+    "Gừng",
+    "Hành tím băm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Pork skin",
+    "Mushroom",
+    "Ginger",
+    "Chopped Scallion",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "bi heo",
+    "nam meo",
+    "nam huong",
+    "gung",
+    "hanh tim bam",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ga nau dong voi moc nhi, nam huong",
+      "new": "ga nau dong voi moc nhi nam huong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

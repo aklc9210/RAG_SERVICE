@@ -1,0 +1,97 @@
+{
+  "id": "dish5455",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5455.json",
+  "name_vi": "Tôm hùm sốt bơ tỏi kèm risotto",
+  "name_en": "",
+  "name_normalized": "tom hum sot bo toi kem risotto",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm hùm",
+    "Gạo Arborio",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Parmesan",
+    "Hành tây",
+    "Mùi tây",
+    "Nước dùng gà"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Chanh vàng",
+    "Rượu vang trắng",
+    "Bột ớt Paprika",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06940",
+    "ingre02437",
+    "ingre00382",
+    "ingre05104",
+    "ingre02741",
+    "ingre04060",
+    "ingre07063",
+    "ingre01096",
+    "ingre05589",
+    "ingre04607",
+    "ingre01025",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Tôm hùm",
+    "Gạo Arborio",
+    "Bơ lạt",
+    "Phô mai Parmesan",
+    "Hành tây",
+    "Mùi tây",
+    "Tỏi",
+    "Chanh vàng",
+    "Rượu vang trắng",
+    "Nước dùng gà",
+    "Bột ớt Paprika",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Prawn",
+    "Arborio rice",
+    "Butter",
+    "Parmesan Cheese",
+    "Onion",
+    "Mint",
+    "Garlic",
+    "Lemon",
+    "White wine",
+    "Chicken broth",
+    "Paprika Powder",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom hum",
+    "gao arborio",
+    "bo lat",
+    "pho mai parmesan",
+    "hanh tay",
+    "mui tay",
+    "toi",
+    "chanh vang",
+    "ruou vang trang",
+    "nuoc dung ga",
+    "bot ot paprika",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "dish8318",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8318.json",
+  "name_vi": "Gỏi gà xoài xanh (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "goi ga xoai xanh cong thuc duoc chia se tu nguoi dung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng nhỏ",
+    "Giấm",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre07342",
+    "ingre01419",
+    "ingre05359",
+    "ingre07791",
+    "ingre02512",
+    "ingre02355",
+    "ingre07966",
+    "ingre07063",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00838"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Xoài xanh",
+    "Cà rốt",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Gừng nhỏ",
+    "Giấm",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Green mango",
+    "Carrot",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Ginger",
+    "Vinegar",
+    "Pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "xoai xanh",
+    "ca rot",
+    "rau ram",
+    "dau phong rang",
+    "gung nho",
+    "giam",
+    "ot",
+    "toi",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "goi ga xoai xanh (cong thuc duoc chia se tu nguoi dung)",
+      "new": "goi ga xoai xanh cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

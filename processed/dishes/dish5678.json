@@ -1,0 +1,96 @@
+{
+  "id": "dish5678",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5678.json",
+  "name_vi": "Cà ri nghêu",
+  "name_en": "",
+  "name_normalized": "ca ri ngheu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Nghêu"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Bột cà ri",
+    "Nước mắm",
+    "Đường",
+    "Tỏi tỏi",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre04303",
+    "ingre04554",
+    "ingre00631",
+    "ingre02741",
+    "ingre05900",
+    "ingre02134",
+    "ingre04694",
+    "ingre07583",
+    "ingre07106",
+    "ingre07966"
+  ],
+  "ingredient_names_vi": [
+    "Nghêu",
+    "Nước cốt dừa",
+    "Bột cà ri",
+    "Hành tây",
+    "Sả",
+    "Dầu điều",
+    "Nước mắm",
+    "Đường",
+    "Tỏi tỏi",
+    "Ớt"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Coconut milk",
+    "Curry powder",
+    "Onion",
+    "Lemongrass",
+    "Peanut oil",
+    "Fish Sauce",
+    "Sugar",
+    "Garlic",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ngheu",
+    "nuoc cot dua",
+    "bot ca ri",
+    "hanh tay",
+    "sa",
+    "dau dieu",
+    "nuoc mam",
+    "duong",
+    "toi toi",
+    "ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

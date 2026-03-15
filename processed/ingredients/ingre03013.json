@@ -1,0 +1,29 @@
+{
+  "id": "ingre03013",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03013.json",
+  "name_vi": "hạt nêm/ tiêu/ muối",
+  "name_en": "Seasoning/Salt/Pepper",
+  "name_normalized": "hat nem tieu muoi",
+  "synonyms": [
+    "hạt nêm - nêm",
+    "nước mắm pha tiêu - ớt",
+    "ớt bột muối - mặn"
+  ],
+  "synonyms_normalized": [
+    "hat nem nem",
+    "nuoc mam pha tieu ot",
+    "ot bot muoi man"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/ tieu/ muoi",
+      "new": "hat nem tieu muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "dish7296",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7296.json",
+  "name_vi": "Cua lột chiên giòn sốt thái",
+  "name_en": "",
+  "name_normalized": "cua lot chien gion sot thai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thơm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Lá quế"
+  ],
+  "seasonings": [
+    "Cua lột",
+    "Ớt sừng",
+    "Ớt hiểm băm",
+    "Bột chiên giòn Aji-Quick",
+    "Gia vị lẩu thái Aji-Quick",
+    "Bột năng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01340",
+    "ingre06247",
+    "ingre01354",
+    "ingre08055",
+    "ingre02741",
+    "ingre08027",
+    "ingre03500",
+    "ingre00599",
+    "ingre02292",
+    "ingre00849",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cua lột",
+    "Thơm",
+    "Cà chua",
+    "Ớt sừng",
+    "Hành tây",
+    "Ớt hiểm băm",
+    "Lá quế",
+    "Bột chiên giòn Aji-Quick",
+    "Gia vị lẩu thái Aji-Quick",
+    "Bột năng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp peeled",
+    "Basil",
+    "Tomato",
+    "Hot pepper",
+    "Onion",
+    "Chili flakes",
+    "Bayleaf",
+    "Puffed Ají Powder",
+    "Thai Hot Pot Seasoning",
+    "Cornstarch",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "cua lot",
+    "thom",
+    "ca chua",
+    "ot sung",
+    "hanh tay",
+    "ot hiem bam",
+    "la que",
+    "bot chien gion aji quick",
+    "gia vi lau thai aji quick",
+    "bot nang",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot chien gion aji-quick",
+      "new": "bot chien gion aji quick",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột chiên giòn Aji-Quick"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "gia vi lau thai aji-quick",
+      "new": "gia vi lau thai aji quick",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Gia vị lẩu thái Aji-Quick"
+    }
+  ]
+}

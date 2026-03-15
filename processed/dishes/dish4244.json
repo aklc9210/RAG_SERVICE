@@ -1,0 +1,56 @@
+{
+  "id": "dish4244",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4244.json",
+  "name_vi": "Cá hồi nướng sa tế",
+  "name_en": "",
+  "name_normalized": "ca hoi nuong sa te",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá hồi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sa tế",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre05621",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Sa tế",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Fish sauce",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "sa te",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

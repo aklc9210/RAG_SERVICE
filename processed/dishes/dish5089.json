@@ -1,0 +1,85 @@
+{
+  "id": "dish5089",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5089.json",
+  "name_vi": "Nấm đùi gà xào thịt heo (thịt lợn)",
+  "name_en": "",
+  "name_normalized": "nam dui ga xao thit heo thit lon",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm đùi gà",
+    "Thịt nạc vai"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột ngọt",
+    "Bột canh",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre06469",
+    "ingre07063",
+    "ingre02673",
+    "ingre00819",
+    "ingre00587",
+    "ingre02080",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Thịt nạc vai",
+    "Tỏi",
+    "Hành lá",
+    "Bột ngọt",
+    "Bột canh",
+    "Dầu hào",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Pork Shoulder",
+    "Garlic",
+    "Scallion",
+    "MSG",
+    "Cornstarch",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "thit nac vai",
+    "toi",
+    "hanh la",
+    "bot ngot",
+    "bot canh",
+    "dau hao",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nam dui ga xao thit heo (thit lon)",
+      "new": "nam dui ga xao thit heo thit lon",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

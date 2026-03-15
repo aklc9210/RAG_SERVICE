@@ -1,0 +1,130 @@
+{
+  "id": "dish8584",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8584.json",
+  "name_vi": "Lòng bò xào khế",
+  "name_en": "",
+  "name_normalized": "long bo xao khe",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Sách bò",
+    "Khế",
+    "Rau răm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Giấm gạo",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05811",
+    "ingre03268",
+    "ingre05359",
+    "ingre01354",
+    "ingre02485",
+    "ingre02673",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124",
+    "ingre04538",
+    "ingre02362",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sách bò",
+    "Khế",
+    "Rau răm",
+    "Cà chua",
+    "Gừng",
+    "Hành lá",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Giấm gạo",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Kumquat",
+    "Vietnamese coriander",
+    "Tomato",
+    "Ginger",
+    "Scallion",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Lemon juice",
+    "Rice vinegar",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "sach bo",
+    "khe",
+    "rau ram",
+    "ca chua",
+    "gung",
+    "hanh la",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "dau hao",
+    "dau an",
+    "nuoc cot chanh",
+    "giam gao",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "dish2231",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2231.json",
+  "name_vi": "Bánh quy socola M&M",
+  "name_en": "",
+  "name_normalized": "banh quy socola m m",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Socola M&M",
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột cacao",
+    "Trứng gà",
+    "Đường trắng",
+    "Đường nâu",
+    "Baking soda",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre00576",
+    "ingre06823",
+    "ingre07652",
+    "ingre07628",
+    "ingre05747",
+    "ingre06592",
+    "ingre00018",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Bột cacao",
+    "Trứng gà",
+    "Đường trắng",
+    "Đường nâu",
+    "Socola M&M",
+    "Tinh chất vani",
+    "Baking soda",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Cocoa powder",
+    "Chicken egg",
+    "White sugar",
+    "Brown Sugar",
+    "M&M Chocolate",
+    "Vanilla extract",
+    "Baking soda",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "bot cacao",
+    "trung ga",
+    "duong trang",
+    "duong nau",
+    "socola m m",
+    "tinh chat vani",
+    "baking soda",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy socola m&m",
+      "new": "banh quy socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola m&m",
+      "new": "socola m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola M&M"
+    }
+  ]
+}

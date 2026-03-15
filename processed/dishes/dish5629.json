@@ -1,0 +1,83 @@
+{
+  "id": "dish5629",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5629.json",
+  "name_vi": "Thịt kho rệu",
+  "name_en": "",
+  "name_normalized": "thit kho reu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước dừa"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt lớn",
+    "Ớt nhỏ",
+    "Tỏi lớn",
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre06853",
+    "ingre01079",
+    "ingre08045",
+    "ingre08049",
+    "ingre07092",
+    "ingre02768",
+    "ingre07635",
+    "ingre04622"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Trứng vịt",
+    "Chanh",
+    "Ớt lớn",
+    "Ớt nhỏ",
+    "Tỏi lớn",
+    "Hành tím",
+    "Đường phèn",
+    "Nước dừa"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Quail egg",
+    "Lemon",
+    "Bell Pepper",
+    "Chili Pepper",
+    "Large Garlic",
+    "Shallot",
+    "Brown Sugar",
+    "Coconut water"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "trung vit",
+    "chanh",
+    "ot lon",
+    "ot nho",
+    "toi lon",
+    "hanh tim",
+    "duong phen",
+    "nuoc dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

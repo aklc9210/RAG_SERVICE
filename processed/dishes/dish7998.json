@@ -1,0 +1,121 @@
+{
+  "id": "dish7998",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7998.json",
+  "name_vi": "Tai heo sốt thái",
+  "name_en": "",
+  "name_normalized": "tai heo sot thai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Đu đủ sống",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Tắc",
+    "Hành tím",
+    "Me cục"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt tươi",
+    "Gừng",
+    "Tỏi",
+    "Ớt bột",
+    "Giấm",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre07499",
+    "ingre01419",
+    "ingre05900",
+    "ingre07057",
+    "ingre08078",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre03650",
+    "ingre07977",
+    "ingre02355",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Đu đủ sống",
+    "Cà rốt",
+    "Sả",
+    "Tắc",
+    "Ớt tươi",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Me cục",
+    "Ớt bột",
+    "Giấm",
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Mango",
+    "Carrot",
+    "Lemongrass",
+    "Tamarind",
+    "Fresh chili",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Tapioca珠",
+    "Chili powder",
+    "Vinegar",
+    "Fish Sauce",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "du du song",
+    "ca rot",
+    "sa",
+    "tac",
+    "ot tuoi",
+    "gung",
+    "hanh tim",
+    "toi",
+    "me cuc",
+    "ot bot",
+    "giam",
+    "nuoc mam",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

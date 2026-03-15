@@ -1,0 +1,103 @@
+{
+  "id": "dish8145",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8145.json",
+  "name_vi": "Gỏi xoài khô gà tóp mỡ",
+  "name_en": "",
+  "name_normalized": "goi xoai kho ga top mo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xoài xanh",
+    "Khô gà"
+  ],
+  "secondary_ingredients": [
+    "Da mỡ lưng",
+    "Đậu phộng rang",
+    "Hành tím",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt hiểm",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07342",
+    "ingre01419",
+    "ingre03261",
+    "ingre01940",
+    "ingre07791",
+    "ingre02768",
+    "ingre07063",
+    "ingre02741",
+    "ingre08026",
+    "ingre07028",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xanh",
+    "Cà rốt",
+    "Khô gà",
+    "Da mỡ lưng",
+    "Đậu phộng rang",
+    "Hành tím",
+    "Tỏi",
+    "Hành tây",
+    "Ớt hiểm",
+    "Tương ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Green mango",
+    "Carrot",
+    "Dried Chicken",
+    "Pork rib fat",
+    "Roasted Peanut",
+    "Shallot",
+    "Garlic",
+    "Onion",
+    "Hot pepper",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xanh",
+    "ca rot",
+    "kho ga",
+    "da mo lung",
+    "dau phong rang",
+    "hanh tim",
+    "toi",
+    "hanh tay",
+    "ot hiem",
+    "tuong ot",
+    "nuoc mam",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

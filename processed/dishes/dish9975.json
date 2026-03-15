@@ -1,0 +1,71 @@
+{
+  "id": "dish9975",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9975.json",
+  "name_vi": "Sữa ngô nếp (bắp nếp)",
+  "name_en": "",
+  "name_normalized": "sua ngo nep bap nep",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Ngô nếp",
+    "Lá dứa"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Tinh chất vani",
+    "Nước"
+  ],
+  "seasonings": [
+    "Đường phèn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04370",
+    "ingre03417",
+    "ingre06174",
+    "ingre07635",
+    "ingre06592",
+    "ingre03746",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Ngô nếp",
+    "Lá dứa",
+    "Sữa đặc",
+    "Đường phèn",
+    "Tinh chất vani",
+    "Muối",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Pandan叶",
+    "Sweetened Condensed Milk",
+    "Brown Sugar",
+    "Vanilla extract",
+    "Salt",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "ngo nep",
+    "la dua",
+    "sua dac",
+    "duong phen",
+    "tinh chat vani",
+    "muoi",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua ngo nep (bap nep)",
+      "new": "sua ngo nep bap nep",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

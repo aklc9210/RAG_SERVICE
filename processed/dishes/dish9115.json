@@ -1,0 +1,67 @@
+{
+  "id": "dish9115",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9115.json",
+  "name_vi": "Măng chua tỏi ớt",
+  "name_en": "",
+  "name_normalized": "mang chua toi ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt tươi",
+    "Giấm ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04091",
+    "ingre07063",
+    "ingre08078",
+    "ingre02377",
+    "ingre04821",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Măng tươi",
+    "Tỏi",
+    "Ớt tươi",
+    "Giấm ăn",
+    "Nước vo gạo",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh bamboo shoots",
+    "Garlic",
+    "Fresh chili",
+    "vinegar",
+    "Rice washing water",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mang tuoi",
+    "toi",
+    "ot tuoi",
+    "giam an",
+    "nuoc vo gao",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

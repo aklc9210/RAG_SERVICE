@@ -1,0 +1,80 @@
+{
+  "id": "dish7072",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7072.json",
+  "name_vi": "Khoai tây bọc trứng cút chiên xù",
+  "name_en": "",
+  "name_normalized": "khoai tay boc trung cut chien xu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khoai tây",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Bột mì",
+    "Dầu ăn",
+    "Tương ớt",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre06816",
+    "ingre06823",
+    "ingre00598",
+    "ingre00609",
+    "ingre00759",
+    "ingre02124",
+    "ingre07028",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Trứng cút",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột chiên xù",
+    "Bột mì",
+    "Dầu ăn",
+    "Tương ớt",
+    "Đường/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Quail egg",
+    "Chicken egg",
+    "Puffed Rice Powder",
+    "Wheat Flour",
+    "Cooking oil",
+    "Hot Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "trung cut",
+    "trung ga",
+    "bot chien gion",
+    "bot chien xu",
+    "bot mi",
+    "dau an",
+    "tuong ot",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

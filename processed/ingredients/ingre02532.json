@@ -1,0 +1,29 @@
+{
+  "id": "ingre02532",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02532.json",
+  "name_vi": "gừng/muối/lá dứa",
+  "name_en": "Ginger/Salt/Lemongrass",
+  "name_normalized": "gung muoi la dua",
+  "synonyms": [
+    "gừng tươi",
+    "ngò gai",
+    "lá gừng"
+  ],
+  "synonyms_normalized": [
+    "gung tuoi",
+    "ngo gai",
+    "la gung"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gung/muoi/la dua",
+      "new": "gung muoi la dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

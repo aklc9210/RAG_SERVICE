@@ -1,0 +1,72 @@
+{
+  "id": "dish8020",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8020.json",
+  "name_vi": "Gỏi củ hủ dừa hải sản",
+  "name_en": "",
+  "name_normalized": "goi cu hu dua hai san",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Củ hủ dừa",
+    "Bạch tuộc"
+  ],
+  "secondary_ingredients": [
+    "Tôm",
+    "Rau thơm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01892",
+    "ingre00434",
+    "ingre06930",
+    "ingre04538",
+    "ingre07680",
+    "ingre05385",
+    "ingre07791"
+  ],
+  "ingredient_names_vi": [
+    "Củ hủ dừa",
+    "Bạch tuộc",
+    "Tôm",
+    "Nước cốt chanh",
+    "Đường/ muối",
+    "Rau thơm",
+    "Đậu phộng rang"
+  ],
+  "ingredient_names_en": [
+    "Coconut cabbage",
+    "Squid",
+    "Shrimp",
+    "Lemon juice",
+    "Sugar/Salt",
+    "Basil",
+    "Roasted Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "cu hu dua",
+    "bach tuoc",
+    "tom",
+    "nuoc cot chanh",
+    "duong muoi",
+    "rau thom",
+    "dau phong rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

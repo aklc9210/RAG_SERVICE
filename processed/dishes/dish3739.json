@@ -1,0 +1,93 @@
+{
+  "id": "dish3739",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3739.json",
+  "name_vi": "Trứng nướng Thái Lan",
+  "name_en": "",
+  "name_normalized": "trung nuong thai lan",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vỏ bọc collagen"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Tắc",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Muối",
+    "Ớt xay",
+    "Dưa chuột"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07245",
+    "ingre04694",
+    "ingre04124",
+    "ingre02995",
+    "ingre06644",
+    "ingre03746",
+    "ingre07057",
+    "ingre08087",
+    "ingre05359",
+    "ingre02000"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Vỏ bọc collagen",
+    "Nước mắm",
+    "Mật ong",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Muối",
+    "Tắc",
+    "Ớt xay",
+    "Rau răm",
+    "Dưa chuột"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Collagen casing",
+    "Fish Sauce",
+    "Honey",
+    "Seasoning",
+    "Ground pepper",
+    "Salt",
+    "Tamarind",
+    "Ground Chili Pepper",
+    "Vietnamese coriander",
+    "Cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "vo boc collagen",
+    "nuoc mam",
+    "mat ong",
+    "hat nem",
+    "tieu xay",
+    "muoi",
+    "tac",
+    "ot xay",
+    "rau ram",
+    "dua chuot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

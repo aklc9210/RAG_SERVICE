@@ -1,0 +1,63 @@
+{
+  "id": "dish1421",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1421.json",
+  "name_vi": "Bánh bông lan sữa chua táo bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "banh bong lan sua chua tao bang noi chien khong dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa chua nguyên chất",
+    "Táo",
+    "Cream of tarta"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn",
+    "Bột mì đa dụng"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07583",
+    "ingre02124",
+    "ingre06101",
+    "ingre00791",
+    "ingre06890",
+    "ingre01327"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn",
+    "Sữa chua nguyên chất",
+    "Bột mì đa dụng",
+    "Táo",
+    "Cream of tarta"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Sugar",
+    "Cooking oil",
+    "Plain Yogurt",
+    "All-purpose flour",
+    "Apple",
+    "Cream of tartar"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong",
+    "dau an",
+    "sua chua nguyen chat",
+    "bot mi da dung",
+    "tao",
+    "cream of tarta"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

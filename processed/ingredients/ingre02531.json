@@ -1,0 +1,29 @@
+{
+  "id": "ingre02531",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02531.json",
+  "name_vi": "gừng/ rượu trắng/ hạt tiêu đen",
+  "name_en": "Ginger/White Wine/Black Pepper",
+  "name_normalized": "gung ruou trang hat tieu den",
+  "synonyms": [
+    "gừng tươi",
+    "rượu nếp",
+    "hạt tiêu"
+  ],
+  "synonyms_normalized": [
+    "gung tuoi",
+    "ruou nep",
+    "hat tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gung/ ruou trang/ hat tieu den",
+      "new": "gung ruou trang hat tieu den",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

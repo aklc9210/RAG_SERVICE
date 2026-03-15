@@ -1,0 +1,102 @@
+{
+  "id": "dish4443",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4443.json",
+  "name_vi": "Kê gà cháy tỏi",
+  "name_en": "",
+  "name_normalized": "ke ga chay toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Kê gà"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Nguyên liệu xào cùng tùy ý"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tỏi phi",
+    "Gừng",
+    "Muối",
+    "Bột ngọt",
+    "Tương ớt",
+    "Dầu hào",
+    "Đường",
+    "Nước tương",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03300",
+    "ingre07063",
+    "ingre07096",
+    "ingre05359",
+    "ingre02485",
+    "ingre04320",
+    "ingre03746",
+    "ingre00819",
+    "ingre07028",
+    "ingre02080",
+    "ingre07583",
+    "ingre04790",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Kê gà",
+    "Tỏi",
+    "Tỏi phi",
+    "Rau răm",
+    "Gừng",
+    "Nguyên liệu xào cùng tùy ý",
+    "Muối",
+    "Bột ngọt",
+    "Tương ớt",
+    "Dầu hào",
+    "Đường",
+    "Nước tương",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Garlic",
+    "Garlic flakes",
+    "Vietnamese coriander",
+    "Ginger",
+    "Optional stir-fry ingredients",
+    "Salt",
+    "MSG",
+    "Hot Sauce",
+    "Soy sauce",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ke ga",
+    "toi",
+    "toi phi",
+    "rau ram",
+    "gung",
+    "nguyen lieu xao cung tuy y",
+    "muoi",
+    "bot ngot",
+    "tuong ot",
+    "dau hao",
+    "duong",
+    "nuoc tuong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

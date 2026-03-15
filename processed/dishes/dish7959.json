@@ -1,0 +1,107 @@
+{
+  "id": "dish7959",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7959.json",
+  "name_vi": "Chạo thịt heo",
+  "name_en": "",
+  "name_normalized": "chao thit heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt đùi heo",
+    "Xoài",
+    "Khế",
+    "Mè trắng"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Lá Chanh",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Bột canh",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06533",
+    "ingre07329",
+    "ingre03268",
+    "ingre03935",
+    "ingre07063",
+    "ingre03370",
+    "ingre05436",
+    "ingre05900",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre00587",
+    "ingre06644",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi heo",
+    "Xoài",
+    "Khế",
+    "Mè trắng",
+    "Tỏi",
+    "Lá Chanh",
+    "Riềng",
+    "Sả",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Bột canh",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork thigh",
+    "Mango",
+    "Kumquat",
+    "White sesame",
+    "Garlic",
+    "Lime leaf",
+    "Galangal",
+    "Lemongrass",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Cornstarch",
+    "Ground pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui heo",
+    "xoai",
+    "khe",
+    "me trang",
+    "toi",
+    "la chanh",
+    "rieng",
+    "sa",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "bot canh",
+    "tieu xay",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

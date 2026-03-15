@@ -1,0 +1,95 @@
+{
+  "id": "dish7683",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7683.json",
+  "name_vi": "Chân giò hấp bia",
+  "name_en": "",
+  "name_normalized": "chan gio hap bia",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Thịt chân giò",
+    "Bia tươi",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Tiêu",
+    "Bột ngọt",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06342",
+    "ingre00035",
+    "ingre05900",
+    "ingre02768",
+    "ingre01079",
+    "ingre07966",
+    "ingre06612",
+    "ingre00819",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt chân giò",
+    "Bia tươi",
+    "Sả",
+    "Hành tím",
+    "Chanh",
+    "Ớt",
+    "Tiêu",
+    "Bột ngọt",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Fresh beer",
+    "Lemongrass",
+    "Shallot",
+    "Lemon",
+    "Pepper",
+    "MSG",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit chan gio",
+    "bia tuoi",
+    "sa",
+    "hanh tim",
+    "chanh",
+    "ot",
+    "tieu",
+    "bot ngot",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

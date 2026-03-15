@@ -1,0 +1,87 @@
+{
+  "id": "dish4747",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4747.json",
+  "name_vi": "Bạch tuộc xào cần tây",
+  "name_en": "",
+  "name_normalized": "bach tuoc xao can tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Tỏi tây",
+    "Ớt chuông",
+    "Tỏi",
+    "Dầu ăn",
+    "Sa tế",
+    "Dầu hào",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre01812",
+    "ingre07104",
+    "ingre02741",
+    "ingre07999",
+    "ingre07063",
+    "ingre02124",
+    "ingre05621",
+    "ingre02080",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Cần tây",
+    "Tỏi tây",
+    "Hành tây",
+    "Ớt chuông",
+    "Tỏi",
+    "Dầu ăn",
+    "Sa tế",
+    "Dầu hào",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Celery",
+    "Bokchoy",
+    "Onion",
+    "Bell pepper",
+    "Garlic",
+    "Cooking oil",
+    "Fish sauce",
+    "Soy sauce",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "can tay",
+    "toi tay",
+    "hanh tay",
+    "ot chuong",
+    "toi",
+    "dau an",
+    "sa te",
+    "dau hao",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish5101",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5101.json",
+  "name_vi": "Tim gà xào mướp giá",
+  "name_en": "",
+  "name_normalized": "tim ga xao muop gia",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tim gà",
+    "Mướp",
+    "Giá đỗ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí/ ngò gai"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06557",
+    "ingre04103",
+    "ingre02337",
+    "ingre02768",
+    "ingre07063",
+    "ingre04347",
+    "ingre04538",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Tim gà",
+    "Mướp",
+    "Giá đỗ",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí/ ngò gai",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken heart",
+    "Cucumber",
+    "Bean sprouts",
+    "Shallot",
+    "Garlic",
+    "Cilantro",
+    "Lemon juice",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "tim ga",
+    "muop",
+    "gia do",
+    "hanh tim",
+    "toi",
+    "ngo ri ngo gai",
+    "nuoc cot chanh",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo ri/ ngo gai",
+      "new": "ngo ri ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò rí/ ngò gai"
+    }
+  ]
+}

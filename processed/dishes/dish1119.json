@@ -1,0 +1,58 @@
+{
+  "id": "dish1119",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1119.json",
+  "name_vi": "Mousse chanh dây",
+  "name_en": "",
+  "name_normalized": "mousse chanh day",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Whipping cream",
+    "Bánh quy",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Chanh dây",
+    "Bột gelatin",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01081",
+    "ingre07313",
+    "ingre00652",
+    "ingre07583",
+    "ingre00144",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Chanh dây",
+    "Whipping cream",
+    "Bột gelatin",
+    "Đường",
+    "Bánh quy",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Watermelon vine tendril",
+    "Whipping cream",
+    "Gelatin powder",
+    "Sugar",
+    "Cookie",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "chanh day",
+    "whipping cream",
+    "bot gelatin",
+    "duong",
+    "banh quy",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

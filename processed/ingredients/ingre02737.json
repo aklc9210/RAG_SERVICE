@@ -1,0 +1,27 @@
+{
+  "id": "ingre02737",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02737.json",
+  "name_vi": "hành phi/hành tím",
+  "name_en": "Purple Onion/Scallion",
+  "name_normalized": "hanh phi hanh tim",
+  "synonyms": [
+    "tỏi băm",
+    "tỏi phi"
+  ],
+  "synonyms_normalized": [
+    "toi bam",
+    "toi phi"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh phi/hanh tim",
+      "new": "hanh phi hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

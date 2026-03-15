@@ -1,0 +1,29 @@
+{
+  "id": "ingre02530",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02530.json",
+  "name_vi": "gừng/ hành khô/ tỏi/ ớt/ thì là/ hành lá",
+  "name_en": "Ginger/干燥蒜/大蒜/辣椒/罗勒/葱",
+  "name_normalized": "gung hanh kho toi ot thi la hanh la",
+  "synonyms": [
+    "gừng tươi",
+    "hành tím",
+    "tỏi tây"
+  ],
+  "synonyms_normalized": [
+    "gung tuoi",
+    "hanh tim",
+    "toi tay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gung/ hanh kho/ toi/ ot/ thi la/ hanh la",
+      "new": "gung hanh kho toi ot thi la hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

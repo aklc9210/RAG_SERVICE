@@ -1,0 +1,94 @@
+{
+  "id": "dish6290",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6290.json",
+  "name_vi": "Cá trê kho riềng",
+  "name_en": "",
+  "name_normalized": "ca tre kho rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trê",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Nghệ tươi",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tương bần",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre05436",
+    "ingre04308",
+    "ingre05900",
+    "ingre02768",
+    "ingre06981",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Riềng",
+    "Nghệ tươi",
+    "Sả",
+    "Hành tím",
+    "Tương bần",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Galangal",
+    "Ginger",
+    "Lemongrass",
+    "Shallot",
+    "Fish sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "rieng",
+    "nghe tuoi",
+    "sa",
+    "hanh tim",
+    "tuong ban",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

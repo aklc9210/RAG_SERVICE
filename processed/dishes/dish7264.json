@@ -1,0 +1,91 @@
+{
+  "id": "dish7264",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7264.json",
+  "name_vi": "cá hộp với trứng sốt Thái",
+  "name_en": "",
+  "name_normalized": "ca hop voi trung sot thai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hộp"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt",
+    "Lá chanh",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01455",
+    "ingre06823",
+    "ingre05900",
+    "ingre02768",
+    "ingre07966",
+    "ingre03370",
+    "ingre04538",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá hộp",
+    "Trứng gà",
+    "Sả",
+    "Hành tím",
+    "Ớt",
+    "Lá chanh",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Canned Fish",
+    "Chicken egg",
+    "Lemongrass",
+    "Shallot",
+    "Pepper",
+    "Lime leaf",
+    "Lemon juice",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca hop",
+    "trung ga",
+    "sa",
+    "hanh tim",
+    "ot",
+    "la chanh",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

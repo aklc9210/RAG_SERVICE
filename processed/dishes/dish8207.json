@@ -1,0 +1,83 @@
+{
+  "id": "dish8207",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8207.json",
+  "name_vi": "Gỏi bò tái me",
+  "name_en": "",
+  "name_normalized": "goi bo tai me",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bò",
+    "Me chín"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt thái mỏng"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre03647",
+    "ingre02741",
+    "ingre04329",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre07071",
+    "ingre08073"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Me chín",
+    "Hành tây",
+    "Ngò gai",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt thái mỏng"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Ripe mango",
+    "Onion",
+    "Culantro",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "Minced Garlic",
+    "Thinly sliced pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "me chin",
+    "hanh tay",
+    "ngo gai",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "toi bam",
+    "ot thai mong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

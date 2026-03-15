@@ -1,0 +1,97 @@
+{
+  "id": "dish1859",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1859.json",
+  "name_vi": "Bánh trung thu hình con vật",
+  "name_en": "",
+  "name_normalized": "banh trung thu hinh con vat",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Bơ đậu phộng",
+    "Tinh chất vani",
+    "Lòng đỏ trứng gà",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng Hoa Ngọc Lan",
+    "Bột nếp",
+    "Bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím",
+    "Đường",
+    "Nước đường",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00795",
+    "ingre00859",
+    "ingre07836",
+    "ingre00966",
+    "ingre07583",
+    "ingre04858",
+    "ingre00416",
+    "ingre06592",
+    "ingre03584",
+    "ingre04124",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng Hoa Ngọc Lan",
+    "Bột nếp",
+    "Đậu xanh",
+    "Bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím",
+    "Đường",
+    "Nước đường",
+    "Bơ đậu phộng",
+    "Tinh chất vani",
+    "Lòng đỏ trứng gà",
+    "Mật ong",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Glutinous rice flour",
+    "Green beans",
+    "Green tea powder/Red koji powder/Purple sweet potato powder",
+    "Sugar",
+    "Sugar water",
+    "Peanut butter",
+    "Vanilla extract",
+    "Egg yolk",
+    "Honey",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung hoa ngoc lan",
+    "bot nep",
+    "dau xanh",
+    "bot tra xanh bot men gao do bot khoai lang tim",
+    "duong",
+    "nuoc duong",
+    "bo dau phong",
+    "tinh chat vani",
+    "long do trung ga",
+    "mat ong",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot tra xanh/ bot men gao do/ bot khoai lang tim",
+      "new": "bot tra xanh bot men gao do bot khoai lang tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím"
+    }
+  ]
+}

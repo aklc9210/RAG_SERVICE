@@ -1,0 +1,62 @@
+{
+  "id": "dish4293",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4293.json",
+  "name_vi": "Bắp cải tí hon nướng tỏi",
+  "name_en": "",
+  "name_normalized": "bap cai ti hon nuong toi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Bắp cải tí hon"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00467",
+    "ingre00382",
+    "ingre07063",
+    "ingre02120",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải tí hon",
+    "Bơ lạt",
+    "Tỏi",
+    "Dầu ô liu",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mini cabbage",
+    "Butter",
+    "Garlic",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai ti hon",
+    "bo lat",
+    "toi",
+    "dau o liu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

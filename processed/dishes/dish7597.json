@@ -1,0 +1,86 @@
+{
+  "id": "dish7597",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7597.json",
+  "name_vi": "Chân gà hấp rau răm",
+  "name_en": "",
+  "name_normalized": "chan ga hap rau ram",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Chân gà",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre05359",
+    "ingre02768",
+    "ingre07063",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Rau răm",
+    "Hành tím",
+    "Tỏi",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Vietnamese coriander",
+    "Shallot",
+    "Garlic",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "rau ram",
+    "hanh tim",
+    "toi",
+    "duong",
+    "muoi",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dish0150",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0150.json",
+  "name_vi": "Đuôi heo hầm đu đủ",
+  "name_en": "",
+  "name_normalized": "duoi heo ham du du",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đu đủ",
+    "Đuôi heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre07491",
+    "ingre07502",
+    "ingre02768",
+    "ingre07063",
+    "ingre02636",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ",
+    "Đuôi heo",
+    "Hành tím",
+    "Tỏi",
+    "Hành",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Papaya",
+    "Pork tail",
+    "Shallot",
+    "Garlic",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "du du",
+    "duoi heo",
+    "hanh tim",
+    "toi",
+    "hanh",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

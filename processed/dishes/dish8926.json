@@ -1,0 +1,56 @@
+{
+  "id": "dish8926",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8926.json",
+  "name_vi": "Rau câu xoài (công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "rau cau xoai cong thuc duoc chia se tu nguoi dung",
+  "category": "an vat",
+  "main_ingredients": [
+    "Xoài chín",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu giòn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00899",
+    "ingre07332",
+    "ingre07583",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu giòn",
+    "Xoài chín",
+    "Đường",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Jello powder",
+    "Mango",
+    "Sugar",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau gion",
+    "xoai chin",
+    "duong",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau cau xoai (cong thuc duoc chia se tu nguoi dung)",
+      "new": "rau cau xoai cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

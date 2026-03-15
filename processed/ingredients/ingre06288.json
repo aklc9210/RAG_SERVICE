@@ -1,0 +1,27 @@
+{
+  "id": "ingre06288",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06288.json",
+  "name_vi": "thịt ba chỉ/ nạc vai",
+  "name_en": "Pork belly/Shoulder",
+  "name_normalized": "thit ba chi nac vai",
+  "synonyms": [
+    "ba rọi",
+    "thịt ba rọi"
+  ],
+  "synonyms_normalized": [
+    "ba roi",
+    "thit ba roi"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit ba chi/ nac vai",
+      "new": "thit ba chi nac vai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

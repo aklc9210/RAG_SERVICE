@@ -1,0 +1,86 @@
+{
+  "id": "dish0358",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0358.json",
+  "name_vi": "Canh cải xanh thịt bằm",
+  "name_en": "",
+  "name_normalized": "canh cai xanh thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt heo",
+    "Cải bẹ xanh",
+    "Hành lá/ ngò rí"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre01775",
+    "ingre02702",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644",
+    "ingre00819",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Cải bẹ xanh",
+    "Hành lá/ ngò rí",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Bột ngọt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Green cabbage",
+    "Chives",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Ground pepper",
+    "MSG",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "cai be xanh",
+    "hanh la ngo ri",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu xay",
+    "bot ngot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

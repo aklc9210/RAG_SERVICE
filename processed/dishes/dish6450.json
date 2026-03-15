@@ -1,0 +1,117 @@
+{
+  "id": "dish6450",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6450.json",
+  "name_vi": "Gà sốt cam",
+  "name_en": "",
+  "name_normalized": "ga sot cam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đùi gà công nghiệp",
+    "Cam vàng",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Bột hành",
+    "Bột tỏi",
+    "Bột bắp",
+    "Bột nở",
+    "Lòng trắng trứng gà",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07554",
+    "ingre01053",
+    "ingre02673",
+    "ingre02485",
+    "ingre00682",
+    "ingre00978",
+    "ingre00564",
+    "ingre00867",
+    "ingre03580",
+    "ingre04790",
+    "ingre02094",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà công nghiệp",
+    "Cam vàng",
+    "Hành lá",
+    "Gừng",
+    "Bột hành",
+    "Bột tỏi",
+    "Bột bắp",
+    "Bột nở",
+    "Lòng trắng trứng gà",
+    "Nước tương",
+    "Dầu mè",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Orange",
+    "Scallion",
+    "Ginger",
+    "Garlic Powder",
+    "Corn starch",
+    "Baking powder",
+    "Egg white",
+    "Soy Sauce",
+    "Sesame oil",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga cong nghiep",
+    "cam vang",
+    "hanh la",
+    "gung",
+    "bot hanh",
+    "bot toi",
+    "bot bap",
+    "bot no",
+    "long trang trung ga",
+    "nuoc tuong",
+    "dau me",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

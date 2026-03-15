@@ -1,0 +1,71 @@
+{
+  "id": "dish4964",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4964.json",
+  "name_vi": "Tương hột xào sả ớt",
+  "name_en": "",
+  "name_normalized": "tuong hot xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tương hột",
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06994",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre02997",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tương hột",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Soy sauce",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Vegetarian Seasoning",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tuong hot",
+    "sa",
+    "toi",
+    "ot",
+    "hat nem chay",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

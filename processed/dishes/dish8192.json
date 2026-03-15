@@ -1,0 +1,124 @@
+{
+  "id": "dish8192",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8192.json",
+  "name_vi": "Salad gà xé phay",
+  "name_en": "",
+  "name_normalized": "salad ga xe phay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ức gà",
+    "Giá đỗ",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Sả",
+    "Đậu phộng rang",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Bột ớt",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre01419",
+    "ingre02337",
+    "ingre02741",
+    "ingre02768",
+    "ingre05900",
+    "ingre07063",
+    "ingre01079",
+    "ingre07966",
+    "ingre07791",
+    "ingre05385",
+    "ingre01015",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Cà rốt",
+    "Giá đỗ",
+    "Hành tây",
+    "Hành tím",
+    "Sả",
+    "Tỏi",
+    "Chanh",
+    "Ớt",
+    "Đậu phộng rang",
+    "Rau thơm",
+    "Bột ớt",
+    "Nước mắm",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Carrot",
+    "Bean sprouts",
+    "Onion",
+    "Shallot",
+    "Lemongrass",
+    "Garlic",
+    "Lemon",
+    "Pepper",
+    "Roasted Peanut",
+    "Basil",
+    "Red Pepper Powder",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "ca rot",
+    "gia do",
+    "hanh tay",
+    "hanh tim",
+    "sa",
+    "toi",
+    "chanh",
+    "ot",
+    "dau phong rang",
+    "rau thom",
+    "bot ot",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish5399",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5399.json",
+  "name_vi": "Lươn xào lá lốt",
+  "name_en": "",
+  "name_normalized": "luon xao la lot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lươn"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lá lốt",
+    "Hành tím băm",
+    "Hành tỏi băm",
+    "Rượu trắng",
+    "Bột nghệ",
+    "Nước mắm",
+    "Muối/ đường/ bột ngọt/ tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre03461",
+    "ingre02774",
+    "ingre02817",
+    "ingre05574",
+    "ingre00804",
+    "ingre04694",
+    "ingre03821",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Lá lốt",
+    "Hành tím băm",
+    "Hành tỏi băm",
+    "Rượu trắng",
+    "Bột nghệ",
+    "Nước mắm",
+    "Muối/ đường/ bột ngọt/ tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Cinnamon Leaf",
+    "Chopped Scallion",
+    "Chopped Garlic",
+    "White wine",
+    "Turmeric Powder",
+    "Fish Sauce",
+    "Salt/ Sugar/ Monosodium Glutamate/ Ground Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "la lot",
+    "hanh tim bam",
+    "hanh toi bam",
+    "ruou trang",
+    "bot nghe",
+    "nuoc mam",
+    "muoi duong bot ngot tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong/ bot ngot/ tieu xay",
+      "new": "muoi duong bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường/ bột ngọt/ tiêu xay"
+    }
+  ]
+}

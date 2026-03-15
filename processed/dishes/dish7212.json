@@ -1,0 +1,92 @@
+{
+  "id": "dish7212",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7212.json",
+  "name_vi": "Gà rán mật ong táo nghiền",
+  "name_en": "",
+  "name_normalized": "ga ran mat ong tao nghien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đùi gà",
+    "Mật ong",
+    "Táo"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Chanh vàng",
+    "Nước tương",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre04124",
+    "ingre06890",
+    "ingre07999",
+    "ingre03222",
+    "ingre01096",
+    "ingre04790",
+    "ingre02120",
+    "ingre00978",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Mật ong",
+    "Táo",
+    "Ớt chuông",
+    "Khoai tây",
+    "Chanh vàng",
+    "Nước tương",
+    "Dầu ô liu",
+    "Bột tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Honey",
+    "Apple",
+    "Bell pepper",
+    "Potato",
+    "Lemon",
+    "Soy Sauce",
+    "Olive oil",
+    "Garlic powder",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "mat ong",
+    "tao",
+    "ot chuong",
+    "khoai tay",
+    "chanh vang",
+    "nuoc tuong",
+    "dau o liu",
+    "bot toi",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

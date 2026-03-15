@@ -1,0 +1,85 @@
+{
+  "id": "dish10570",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10570.json",
+  "name_vi": "Tôm chấy (từ tôm tươi)",
+  "name_en": "",
+  "name_normalized": "tom chay tu tom tuoi",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Màu dầu điều",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre03849",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Màu dầu điều",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Peanut oil color",
+    "Shallot",
+    "Garlic",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "mau dau dieu",
+    "hanh tim",
+    "toi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tom chay (tu tom tuoi)",
+      "new": "tom chay tu tom tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

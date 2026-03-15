@@ -1,0 +1,53 @@
+{
+  "id": "dish2555",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2555.json",
+  "name_vi": "Bánh bao chay trà xanh",
+  "name_en": "",
+  "name_normalized": "banh bao chay tra xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Bột trà xanh"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre03687",
+    "ingre07583",
+    "ingre06144",
+    "ingre00961"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Men nở instant",
+    "Đường",
+    "Sữa tươi",
+    "Bột trà xanh"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Instant Yeast",
+    "Sugar",
+    "Fresh Milk",
+    "Green tea powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "men no instant",
+    "duong",
+    "sua tuoi",
+    "bot tra xanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

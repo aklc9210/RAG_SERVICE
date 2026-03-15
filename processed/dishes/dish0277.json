@@ -1,0 +1,97 @@
+{
+  "id": "dish0277",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0277.json",
+  "name_vi": "Canh cá chim nấu ngót",
+  "name_en": "",
+  "name_normalized": "canh ca chim nau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chim",
+    "Cà chua",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Cần tàu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01485",
+    "ingre01354",
+    "ingre02673",
+    "ingre01809",
+    "ingre07063",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá chim",
+    "Cà chua",
+    "Hành lá",
+    "Cần tàu",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Tomato",
+    "Scallion",
+    "Chinese cabbage",
+    "Garlic",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca chim",
+    "ca chua",
+    "hanh la",
+    "can tau",
+    "toi",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish3388",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3388.json",
+  "name_vi": "Mì udon nghêu (ngao)",
+  "name_en": "",
+  "name_normalized": "mi udon ngheu ngao",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thanh cua",
+    "Hẹ"
+  ],
+  "secondary_ingredients": [
+    "Nghêu",
+    "Mì Udon",
+    "Nấm đông cô",
+    "Sả",
+    "Nấm bào ngư"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre06199",
+    "ingre03085",
+    "ingre01079",
+    "ingre02485",
+    "ingre04303",
+    "ingre04011",
+    "ingre04966",
+    "ingre05900",
+    "ingre04894"
+  ],
+  "ingredient_names_vi": [
+    "Thanh cua",
+    "Hẹ",
+    "Chanh",
+    "Gừng",
+    "Nghêu",
+    "Mì Udon",
+    "Nấm đông cô",
+    "Sả",
+    "Nấm bào ngư"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Garlic Chives",
+    "Lemon",
+    "Ginger",
+    "Clam",
+    "Udon noodles",
+    "Mushroom",
+    "Lemongrass",
+    "Oyster mushroom"
+  ],
+  "ingredient_names_normalized": [
+    "thanh cua",
+    "he",
+    "chanh",
+    "gung",
+    "ngheu",
+    "mi udon",
+    "nam dong co",
+    "sa",
+    "nam bao ngu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mi udon ngheu (ngao)",
+      "new": "mi udon ngheu ngao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

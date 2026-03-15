@@ -1,0 +1,92 @@
+{
+  "id": "dish8564",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8564.json",
+  "name_vi": "Gân bò ngâm sả tắc",
+  "name_en": "",
+  "name_normalized": "gan bo ngam sa tac",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Xoài keo",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [
+    "Gân bò",
+    "Nước đá",
+    "Tắc",
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Giấm",
+    "Đường",
+    "Gừng",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre07337",
+    "ingre04694",
+    "ingre04665",
+    "ingre02355",
+    "ingre07583",
+    "ingre02485",
+    "ingre02415",
+    "ingre04853",
+    "ingre07057",
+    "ingre08055",
+    "ingre05900"
+  ],
+  "ingredient_names_vi": [
+    "Xoài keo",
+    "Nước mắm",
+    "Nước lọc",
+    "Giấm",
+    "Đường",
+    "Gừng",
+    "Gân bò",
+    "Nước đá",
+    "Tắc",
+    "Ớt sừng",
+    "Sả"
+  ],
+  "ingredient_names_en": [
+    "Palm Sap Lemon",
+    "Fish Sauce",
+    "Tap water",
+    "Vinegar",
+    "Sugar",
+    "Ginger",
+    "Beef tendon",
+    "Ice cube",
+    "Tamarind",
+    "Hot pepper",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "xoai keo",
+    "nuoc mam",
+    "nuoc loc",
+    "giam",
+    "duong",
+    "gung",
+    "gan bo",
+    "nuoc da",
+    "tac",
+    "ot sung",
+    "sa"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "dish6245",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6245.json",
+  "name_vi": "Cá rô kho tương hột",
+  "name_en": "",
+  "name_normalized": "ca ro kho tuong hot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá rô đồng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Màu dầu điều"
+  ],
+  "seasonings": [
+    "Tương hột",
+    "Gừng",
+    "Hành tím băm",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Tép tỏi",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01612",
+    "ingre06994",
+    "ingre05900",
+    "ingre02485",
+    "ingre05436",
+    "ingre02774",
+    "ingre03849",
+    "ingre08026",
+    "ingre04694",
+    "ingre06923",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô đồng",
+    "Tương hột",
+    "Sả",
+    "Gừng",
+    "Riềng",
+    "Hành tím băm",
+    "Màu dầu điều",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Tép tỏi",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pond罗非鱼 (Note: This is a direct translation based on the Vietnamese name \"cá rô đồng\". The exact English name might vary",
+    "Soy sauce",
+    "Lemongrass",
+    "Ginger",
+    "Galangal",
+    "Chopped Scallion",
+    "Peanut oil color",
+    "Hot pepper",
+    "Fish Sauce",
+    "Garlic cloves",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro dong",
+    "tuong hot",
+    "sa",
+    "gung",
+    "rieng",
+    "hanh tim bam",
+    "mau dau dieu",
+    "ot hiem",
+    "nuoc mam",
+    "tep toi",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish10224",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10224.json",
+  "name_vi": "Topping trà sữa - thạch sương sáo - thạch khúc bạch",
+  "name_en": "",
+  "name_normalized": "topping tra sua thach suong sao thach khuc bach",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Trà sữa Blendy",
+    "Sương sáo đen"
+  ],
+  "secondary_ingredients": [
+    "Thạch khúc bạch sữa tươi",
+    "Sữa đặc",
+    "Nước nóng",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre06715",
+    "ingre05855",
+    "ingre06262",
+    "ingre06147",
+    "ingre06174",
+    "ingre04738",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Trà sữa Blendy",
+    "Sương sáo đen",
+    "Thạch khúc bạch sữa tươi",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Nước nóng",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Tray Mix",
+    "Black licorice",
+    "White Jelly Milk Custard",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Hot water",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "tra sua blendy",
+    "suong sao den",
+    "thach khuc bach sua tuoi",
+    "sua tuoi khong duong",
+    "sua dac",
+    "nuoc nong",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "topping tra sua - thach suong sao - thach khuc bach",
+      "new": "topping tra sua thach suong sao thach khuc bach",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

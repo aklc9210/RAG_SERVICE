@@ -1,0 +1,88 @@
+{
+  "id": "dish6396",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6396.json",
+  "name_vi": "Ướp thịt cốt lếch chiên",
+  "name_en": "",
+  "name_normalized": "uop thit cot lech chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Thịt cốt lếch",
+    "Tỏi",
+    "Tiêu",
+    "Nước tương",
+    "Ớt bột",
+    "Sa tế tôm",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06363",
+    "ingre07063",
+    "ingre02768",
+    "ingre06612",
+    "ingre04790",
+    "ingre07977",
+    "ingre05626",
+    "ingre04124",
+    "ingre06174",
+    "ingre01079"
+  ],
+  "ingredient_names_vi": [
+    "Thịt cốt lếch",
+    "Tỏi",
+    "Hành tím",
+    "Tiêu",
+    "Nước tương",
+    "Ớt bột",
+    "Sa tế tôm",
+    "Mật ong",
+    "Sữa đặc",
+    "Chanh"
+  ],
+  "ingredient_names_en": [
+    "Pork rib",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Soy Sauce",
+    "Chili powder",
+    "Shrimp paste",
+    "Honey",
+    "Sweetened Condensed Milk",
+    "Lemon"
+  ],
+  "ingredient_names_normalized": [
+    "thit cot lech",
+    "toi",
+    "hanh tim",
+    "tieu",
+    "nuoc tuong",
+    "ot bot",
+    "sa te tom",
+    "mat ong",
+    "sua dac",
+    "chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

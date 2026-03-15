@@ -1,0 +1,68 @@
+{
+  "id": "dish1520",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1520.json",
+  "name_vi": "Bánh quy hạt cà phê bằng bột mì đa dụng",
+  "name_en": "",
+  "name_normalized": "banh quy hat ca phe bang bot mi da dung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Sữa tươi",
+    "Lòng đỏ trứng gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Bột cà phê nguyên chất",
+    "Bột cacao",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00564",
+    "ingre00625",
+    "ingre00576",
+    "ingre00382",
+    "ingre06144",
+    "ingre07589",
+    "ingre03584"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Bột cà phê nguyên chất",
+    "Bột cacao",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Đường bột",
+    "Lòng đỏ trứng gà"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Coffee Powder",
+    "Cocoa powder",
+    "Butter",
+    "Fresh Milk",
+    "Sugar Powder",
+    "Egg yolk"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot bap",
+    "bot ca phe nguyen chat",
+    "bot cacao",
+    "bo lat",
+    "sua tuoi",
+    "duong bot",
+    "long do trung ga"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

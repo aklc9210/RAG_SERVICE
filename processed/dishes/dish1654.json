@@ -1,0 +1,68 @@
+{
+  "id": "dish1654",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1654.json",
+  "name_vi": "Bánh mì cadé bằng trứng vịt",
+  "name_en": "",
+  "name_normalized": "banh mi cade bang trung vit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Trứng vịt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Sữa tươi không đường",
+    "Men ngọt",
+    "Trứng gà",
+    "Muối",
+    "Đường cát"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre06147",
+    "ingre00382",
+    "ingre03681",
+    "ingre06823",
+    "ingre06853",
+    "ingre03746",
+    "ingre07597"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Men ngọt",
+    "Trứng gà",
+    "Trứng vịt",
+    "Muối",
+    "Đường cát"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Fat-free Milk",
+    "Butter",
+    "Sweet yeast powder",
+    "Chicken egg",
+    "Quail egg",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "sua tuoi khong duong",
+    "bo lat",
+    "men ngot",
+    "trung ga",
+    "trung vit",
+    "muoi",
+    "duong cat"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

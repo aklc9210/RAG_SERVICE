@@ -1,0 +1,67 @@
+{
+  "id": "dish3896",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3896.json",
+  "name_vi": "Vịt nướng riềng mẻ",
+  "name_en": "",
+  "name_normalized": "vit nuong rieng me",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt"
+  ],
+  "secondary_ingredients": [
+    "Mẻ",
+    "Củ riềng"
+  ],
+  "seasonings": [
+    "Bột canh",
+    "Nước mắm",
+    "Tiêu/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre04165",
+    "ingre01913",
+    "ingre00587",
+    "ingre04694",
+    "ingre06659"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Mẻ",
+    "Củ riềng",
+    "Bột canh",
+    "Nước mắm",
+    "Tiêu/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Tamarind",
+    "Galangal",
+    "Cornstarch",
+    "Fish Sauce",
+    "Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "me",
+    "cu rieng",
+    "bot canh",
+    "nuoc mam",
+    "tieu bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ bot ngot",
+      "new": "tieu bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ bột ngọt"
+    }
+  ]
+}

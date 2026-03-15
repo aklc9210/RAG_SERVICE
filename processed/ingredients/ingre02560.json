@@ -1,0 +1,27 @@
+{
+  "id": "ingre02560",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02560.json",
+  "name_vi": "heavy cream (còn được gọi là kem sữa béo hoặc kem bông tuyết",
+  "name_en": "Heavy Cream",
+  "name_normalized": "heavy cream con duoc goi la kem sua beo hoac kem bong tuyet",
+  "synonyms": [
+    "kem sữa béo",
+    "kem bông tuyết"
+  ],
+  "synonyms_normalized": [
+    "kem sua beo",
+    "kem bong tuyet"
+  ],
+  "category": "ice_cream_&_cheese",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "heavy cream (con duoc goi la kem sua beo hoac kem bong tuyet",
+      "new": "heavy cream con duoc goi la kem sua beo hoac kem bong tuyet",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

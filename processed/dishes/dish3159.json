@@ -1,0 +1,107 @@
+{
+  "id": "dish3159",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3159.json",
+  "name_vi": "Bún Xiêm Lo",
+  "name_en": "",
+  "name_normalized": "bun xiem lo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá lóc",
+    "Mắm bò hóc",
+    "Củ nghệ tươi",
+    "Da heo"
+  ],
+  "secondary_ingredients": [
+    "Xả",
+    "Giá",
+    "Rau bề bề",
+    "Sả",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Dầu ăn",
+    "Muối hạt",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre04135",
+    "ingre01905",
+    "ingre01935",
+    "ingre07440",
+    "ingre08097",
+    "ingre02329",
+    "ingre05210",
+    "ingre02124",
+    "ingre03760",
+    "ingre02995",
+    "ingre00819",
+    "ingre05900",
+    "ingre07791"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Mắm bò hóc",
+    "Củ nghệ tươi",
+    "Da heo",
+    "Xả",
+    "Ớt đỏ",
+    "Giá",
+    "Rau bề bề",
+    "Dầu ăn",
+    "Muối hạt",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Sả",
+    "Đậu phộng rang"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Cow's stomach fish sauce",
+    "Ginger",
+    "Pork skin",
+    "Basil",
+    "Red pepper",
+    "Mint",
+    "Watercress",
+    "Cooking oil",
+    "Fenugreek seeds",
+    "Seasoning",
+    "MSG",
+    "Lemongrass",
+    "Roasted Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "mam bo hoc",
+    "cu nghe tuoi",
+    "da heo",
+    "xa",
+    "ot do",
+    "gia",
+    "rau be be",
+    "dau an",
+    "muoi hat",
+    "hat nem",
+    "bot ngot",
+    "sa",
+    "dau phong rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

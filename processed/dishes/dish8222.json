@@ -1,0 +1,71 @@
+{
+  "id": "dish8222",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8222.json",
+  "name_vi": "Nộm sứa thịt ba chỉ",
+  "name_en": "",
+  "name_normalized": "nom sua thit ba chi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Sứa"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "seasonings": [
+    "Hành tây & cà rốt & giá đỗ",
+    "Chanh",
+    "Hành & mùi tàu & ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06071",
+    "ingre06275",
+    "ingre02743",
+    "ingre01079",
+    "ingre02640"
+  ],
+  "ingredient_names_vi": [
+    "Sứa",
+    "Thịt ba chỉ",
+    "Hành tây & cà rốt & giá đỗ",
+    "Chanh",
+    "Hành & mùi tàu & ớt"
+  ],
+  "ingredient_names_en": [
+    "Jellyfish",
+    "Pork belly",
+    "Onion & Carrot & Mung Bean Sprouts",
+    "Lemon",
+    "Garlic & Shallots & Chili"
+  ],
+  "ingredient_names_normalized": [
+    "sua",
+    "thit ba chi",
+    "hanh tay ca rot gia do",
+    "chanh",
+    "hanh mui tau ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tay & ca rot & gia do",
+      "new": "hanh tay ca rot gia do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tây & cà rốt & giá đỗ"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh & mui tau & ot",
+      "new": "hanh mui tau ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành & mùi tàu & ớt"
+    }
+  ]
+}

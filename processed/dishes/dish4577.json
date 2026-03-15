@@ -1,0 +1,96 @@
+{
+  "id": "dish4577",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4577.json",
+  "name_vi": "Ốc móng tay cháy tỏi",
+  "name_en": "",
+  "name_normalized": "oc mong tay chay toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc móng tay",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07948",
+    "ingre07071",
+    "ingre05900",
+    "ingre05359",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre00838",
+    "ingre02134"
+  ],
+  "ingredient_names_vi": [
+    "Ốc móng tay",
+    "Tỏi băm",
+    "Sả",
+    "Rau răm",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột nêm",
+    "Dầu điều"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Minced Garlic",
+    "Lemongrass",
+    "Vietnamese coriander",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning Powder",
+    "Peanut oil"
+  ],
+  "ingredient_names_normalized": [
+    "oc mong tay",
+    "toi bam",
+    "sa",
+    "rau ram",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "duong",
+    "bot nem",
+    "dau dieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

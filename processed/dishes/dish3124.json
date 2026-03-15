@@ -1,0 +1,103 @@
+{
+  "id": "dish3124",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3124.json",
+  "name_vi": "Súp ghẹ",
+  "name_en": "",
+  "name_normalized": "sup ghe",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Ghẹ"
+  ],
+  "secondary_ingredients": [
+    "Bắp Mỹ",
+    "Đậu Hà Lan",
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Bột năng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02267",
+    "ingre06823",
+    "ingre01419",
+    "ingre00479",
+    "ingre07736",
+    "ingre04343",
+    "ingre02768",
+    "ingre00849",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ghẹ",
+    "Trứng gà",
+    "Cà rốt",
+    "Bắp Mỹ",
+    "Đậu Hà Lan",
+    "Ngò rí",
+    "Hành tím",
+    "Bột năng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Chicken egg",
+    "Carrot",
+    "Corn",
+    "Green beans",
+    "Parsley",
+    "Shallot",
+    "Cornstarch",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ghe",
+    "trung ga",
+    "ca rot",
+    "bap my",
+    "dau ha lan",
+    "ngo ri",
+    "hanh tim",
+    "bot nang",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

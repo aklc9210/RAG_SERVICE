@@ -1,0 +1,76 @@
+{
+  "id": "dish4423",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4423.json",
+  "name_vi": "Tu hài (ốc vòi voi) xào tỏi",
+  "name_en": "",
+  "name_normalized": "tu hai oc voi voi xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tu hài"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06864",
+    "ingre07063",
+    "ingre00382",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tu hài",
+    "Tỏi",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Bulb onion",
+    "Garlic",
+    "Butter",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tu hai",
+    "toi",
+    "bo lat",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tu hai (oc voi voi) xao toi",
+      "new": "tu hai oc voi voi xao toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

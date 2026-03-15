@@ -1,0 +1,109 @@
+{
+  "id": "dish4222",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4222.json",
+  "name_vi": "Cá diêu hồng nướng rau răm",
+  "name_en": "",
+  "name_normalized": "ca dieu hong nuong rau ram",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Rau răm",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Me vắt",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre05359",
+    "ingre04304",
+    "ingre02768",
+    "ingre07063",
+    "ingre07971",
+    "ingre03663",
+    "ingre02124",
+    "ingre04694",
+    "ingre07677",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Rau răm",
+    "Nghệ",
+    "Hành tím",
+    "Tỏi",
+    "Ớt băm",
+    "Me vắt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột nêm",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Vietnamese coriander",
+    "Turmeric",
+    "Shallot",
+    "Garlic",
+    "Chopped Pepper",
+    "Lemon juice",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar/Soy Sauce",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "rau ram",
+    "nghe",
+    "hanh tim",
+    "toi",
+    "ot bam",
+    "me vat",
+    "dau an",
+    "nuoc mam",
+    "duong bot nem",
+    "la chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot nem",
+      "new": "duong bot nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột nêm"
+    }
+  ]
+}

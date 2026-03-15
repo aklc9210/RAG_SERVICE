@@ -1,0 +1,87 @@
+{
+  "id": "dish6675",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6675.json",
+  "name_vi": "Bò bít tết sốt kem",
+  "name_en": "",
+  "name_normalized": "bo bit tet sot kem",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt bò",
+    "Hành tây băm"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây chiên",
+    "Kem sữa",
+    "Bơ lạt",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ngải giấm",
+    "Rượu whisky",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre07063",
+    "ingre02747",
+    "ingre03225",
+    "ingre04388",
+    "ingre03142",
+    "ingre05596",
+    "ingre00382",
+    "ingre02104",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Tỏi",
+    "Hành tây băm",
+    "Khoai tây chiên",
+    "Ngải giấm",
+    "Kem sữa",
+    "Rượu whisky",
+    "Bơ lạt",
+    "Dầu oliu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Garlic",
+    "Chopped Onion",
+    "Fried potato",
+    "Burdock",
+    "Milk Cream",
+    "Whisky",
+    "Butter",
+    "Olive oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "toi",
+    "hanh tay bam",
+    "khoai tay chien",
+    "ngai giam",
+    "kem sua",
+    "ruou whisky",
+    "bo lat",
+    "dau oliu",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

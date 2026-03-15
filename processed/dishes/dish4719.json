@@ -1,0 +1,87 @@
+{
+  "id": "dish4719",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4719.json",
+  "name_vi": "Đậu hũ xào rau củ",
+  "name_en": "",
+  "name_normalized": "dau hu xao rau cu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Đậu hũ",
+    "Nấm đông cô tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Mè rang",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh/ vàng/ đỏ",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường ngô",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre08010",
+    "ingre04971",
+    "ingre02741",
+    "ingre03929",
+    "ingre04790",
+    "ingre02094",
+    "ingre02124",
+    "ingre07624",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Ớt chuông xanh/ vàng/ đỏ",
+    "Nấm đông cô tươi",
+    "Hành tây",
+    "Mè rang",
+    "Nước tương",
+    "Dầu mè",
+    "Dầu ăn",
+    "Đường ngô",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Green/Yellow/Red Bell Pepper",
+    "Fresh enoki mushrooms",
+    "Onion",
+    "Roasted Sesame Seeds",
+    "Soy Sauce",
+    "Sesame oil",
+    "Cooking oil",
+    "Corn syrup",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "ot chuong xanh vang do",
+    "nam dong co tuoi",
+    "hanh tay",
+    "me rang",
+    "nuoc tuong",
+    "dau me",
+    "dau an",
+    "duong ngo",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ot chuong xanh/ vang/ do",
+      "new": "ot chuong xanh vang do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ớt chuông xanh/ vàng/ đỏ"
+    }
+  ]
+}

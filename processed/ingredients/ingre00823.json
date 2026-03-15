@@ -1,0 +1,25 @@
+{
+  "id": "ingre00823",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00823.json",
+  "name_vi": "bột ngọt/ bột canh",
+  "name_en": "Monosodium Glutamate",
+  "name_normalized": "bot ngot bot canh",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot/ bot canh",
+      "new": "bot ngot bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

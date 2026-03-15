@@ -1,0 +1,93 @@
+{
+  "id": "dish2517",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2517.json",
+  "name_vi": "Bánh giò không cần lá chuối",
+  "name_en": "",
+  "name_normalized": "banh gio khong can la chuoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo",
+    "Nấm mèo",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Tinh bột bắp",
+    "Dầu ăn",
+    "Nước dùng",
+    "Nước mắm",
+    "Tiêu",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre06562",
+    "ingre02124",
+    "ingre04602",
+    "ingre06398",
+    "ingre04930",
+    "ingre02741",
+    "ingre04694",
+    "ingre06612",
+    "ingre02768",
+    "ingre07063"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Tinh bột bắp",
+    "Dầu ăn",
+    "Nước dùng",
+    "Thịt heo",
+    "Nấm mèo",
+    "Hành tây",
+    "Nước mắm",
+    "Tiêu",
+    "Hành tím",
+    "Tỏi"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Corn starch",
+    "Cooking oil",
+    "Chicken Stock",
+    "Pork",
+    "Mushroom",
+    "Onion",
+    "Fish Sauce",
+    "Pepper",
+    "Shallot",
+    "Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "tinh bot bap",
+    "dau an",
+    "nuoc dung",
+    "thit heo",
+    "nam meo",
+    "hanh tay",
+    "nuoc mam",
+    "tieu",
+    "hanh tim",
+    "toi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

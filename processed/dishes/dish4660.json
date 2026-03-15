@@ -1,0 +1,86 @@
+{
+  "id": "dish4660",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4660.json",
+  "name_vi": "Mướp xào giá đỗ",
+  "name_en": "",
+  "name_normalized": "muop xao gia do",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mướp hương",
+    "Giá đỗ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04104",
+    "ingre02337",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Mướp hương",
+    "Giá đỗ",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Luffa",
+    "Bean sprouts",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "muop huong",
+    "gia do",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

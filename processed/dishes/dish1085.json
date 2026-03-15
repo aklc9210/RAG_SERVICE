@@ -1,0 +1,91 @@
+{
+  "id": "dish1085",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1085.json",
+  "name_vi": "Bánh sừng trâu (croissant) nhân thịt nguội phô mai",
+  "name_en": "",
+  "name_normalized": "banh sung trau croissant nhan thit nguoi pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mozzarella",
+    "Phô mai cheddar",
+    "Thịt nguội",
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Men nở",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre03686",
+    "ingre05092",
+    "ingre05064",
+    "ingre06451",
+    "ingre06147",
+    "ingre06823",
+    "ingre03935",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Men nở",
+    "Phô mai mozzarella",
+    "Phô mai cheddar",
+    "Thịt nguội",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Mè trắng",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Baking Powder",
+    "Mozzarella cheese",
+    "Cheddar cheese",
+    "Smoked Meat",
+    "Fat-free Milk",
+    "Chicken egg",
+    "White sesame",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "men no",
+    "pho mai mozzarella",
+    "pho mai cheddar",
+    "thit nguoi",
+    "sua tuoi khong duong",
+    "trung ga",
+    "me trang",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh sung trau (croissant) nhan thit nguoi pho mai",
+      "new": "banh sung trau croissant nhan thit nguoi pho mai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

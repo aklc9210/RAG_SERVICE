@@ -1,0 +1,25 @@
+{
+  "id": "ingre02713",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02713.json",
+  "name_vi": "hành lá/ ớt",
+  "name_en": "Scallion/Green Pepper",
+  "name_normalized": "hanh la ot",
+  "synonyms": [
+    "tía tô"
+  ],
+  "synonyms_normalized": [
+    "tia to"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ ot",
+      "new": "hanh la ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "dish7277",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7277.json",
+  "name_vi": "Thú linh - khấu đuôi chiên giòn",
+  "name_en": "",
+  "name_normalized": "thu linh khau duoi chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thú linh",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Dưa cải chua"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Rượu mai quế lộ",
+    "Giấm",
+    "Hoa hồi",
+    "Vỏ quế",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06243",
+    "ingre02741",
+    "ingre02485",
+    "ingre05543",
+    "ingre02355",
+    "ingre02584",
+    "ingre07271",
+    "ingre02006",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thú linh",
+    "Hành tây",
+    "Gừng",
+    "Rượu mai quế lộ",
+    "Giấm",
+    "Hoa hồi",
+    "Vỏ quế",
+    "Dưa cải chua",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mint",
+    "Onion",
+    "Ginger",
+    "Sake Plum Ginger Wine",
+    "Vinegar",
+    "Rose",
+    "Cinnamon Bark",
+    "Pickled Chinese cabbage",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thu linh",
+    "hanh tay",
+    "gung",
+    "ruou mai que lo",
+    "giam",
+    "hoa hoi",
+    "vo que",
+    "dua cai chua",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thu linh - khau duoi chien gion",
+      "new": "thu linh khau duoi chien gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

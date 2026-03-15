@@ -1,0 +1,108 @@
+{
+  "id": "dish7930",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7930.json",
+  "name_vi": "Lẩu gà lá é",
+  "name_en": "",
+  "name_normalized": "lau ga la e",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gà",
+    "Lá é",
+    "Măng chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Chanh",
+    "Tỏi",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03552",
+    "ingre04072",
+    "ingre04694",
+    "ingre01079",
+    "ingre07063",
+    "ingre02768",
+    "ingre08026",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá é",
+    "Măng chua",
+    "Nước mắm",
+    "Chanh",
+    "Tỏi",
+    "Hành tím",
+    "Ớt hiểm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Vietnamese coriander",
+    "Pickled bamboo shoots",
+    "Fish Sauce",
+    "Lemon",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la e",
+    "mang chua",
+    "nuoc mam",
+    "chanh",
+    "toi",
+    "hanh tim",
+    "ot hiem",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

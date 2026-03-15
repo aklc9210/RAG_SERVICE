@@ -1,0 +1,118 @@
+{
+  "id": "dish4608",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4608.json",
+  "name_vi": "Thịt bò xào chôm chôm",
+  "name_en": "",
+  "name_normalized": "thit bo xao chom chom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Chôm chôm",
+    "Thịt bò",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau cần Tàu"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Tỏi",
+    "Ớt sừng",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối hạt",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01251",
+    "ingre06300",
+    "ingre07999",
+    "ingre02741",
+    "ingre07063",
+    "ingre02768",
+    "ingre08055",
+    "ingre05241",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124",
+    "ingre03760",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Chôm chôm",
+    "Thịt bò",
+    "Ớt chuông",
+    "Hành tây",
+    "Tỏi",
+    "Hành tím",
+    "Ớt sừng",
+    "Rau cần Tàu",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối hạt",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Beef",
+    "Bell pepper",
+    "Onion",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Watercress",
+    "Fish Sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Fenugreek seeds",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "chom chom",
+    "thit bo",
+    "ot chuong",
+    "hanh tay",
+    "toi",
+    "hanh tim",
+    "ot sung",
+    "rau can tau",
+    "nuoc mam",
+    "dau hao",
+    "dau an",
+    "muoi hat",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

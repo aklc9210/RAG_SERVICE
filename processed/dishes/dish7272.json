@@ -1,0 +1,112 @@
+{
+  "id": "dish7272",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7272.json",
+  "name_vi": "Burger cua lột",
+  "name_en": "",
+  "name_normalized": "burger cua lot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bánh mì burger đen",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Khoai lang",
+    "Bắp cải tím",
+    "Bắp cải trắng",
+    "Cà chua",
+    "Xà lách"
+  ],
+  "seasonings": [
+    "Cua lột",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Mù tạt vàng",
+    "Tương cà",
+    "Xốt mayo",
+    "Dầu ăn",
+    "Tiêu xay/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01340",
+    "ingre00104",
+    "ingre00598",
+    "ingre02741",
+    "ingre06823",
+    "ingre03186",
+    "ingre00468",
+    "ingre00463",
+    "ingre01354",
+    "ingre07351",
+    "ingre04055",
+    "ingre06984",
+    "ingre07444",
+    "ingre02124",
+    "ingre06646"
+  ],
+  "ingredient_names_vi": [
+    "Cua lột",
+    "Bánh mì burger đen",
+    "Bột chiên giòn",
+    "Hành tây",
+    "Trứng gà",
+    "Khoai lang",
+    "Bắp cải tím",
+    "Bắp cải trắng",
+    "Cà chua",
+    "Xà lách",
+    "Mù tạt vàng",
+    "Tương cà",
+    "Xốt mayo",
+    "Dầu ăn",
+    "Tiêu xay/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp peeled",
+    "Black burger bun",
+    "Puffed Rice Powder",
+    "Onion",
+    "Chicken egg",
+    "Sweet Potato",
+    "Purple cabbage",
+    "White cabbage",
+    "Tomato",
+    "Lettuce",
+    "Mustard Yellow",
+    "Miso酱",
+    "Mayonnaise",
+    "Cooking oil",
+    "Ground pepper/soy sauce"
+  ],
+  "ingredient_names_normalized": [
+    "cua lot",
+    "banh mi burger den",
+    "bot chien gion",
+    "hanh tay",
+    "trung ga",
+    "khoai lang",
+    "bap cai tim",
+    "bap cai trang",
+    "ca chua",
+    "xa lach",
+    "mu tat vang",
+    "tuong ca",
+    "xot mayo",
+    "dau an",
+    "tieu xay bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ bot ngot",
+      "new": "tieu xay bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ Bột ngọt"
+    }
+  ]
+}

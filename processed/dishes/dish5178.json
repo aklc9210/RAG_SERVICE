@@ -1,0 +1,118 @@
+{
+  "id": "dish5178",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5178.json",
+  "name_vi": "Bún gạo xào chay",
+  "name_en": "",
+  "name_normalized": "bun gao xao chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bún gạo",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Rau cần tây",
+    "Đậu phộng",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Cà rốt",
+    "Tỏi",
+    "Ớt hiểm",
+    "Tương ớt",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00340",
+    "ingre07742",
+    "ingre01787",
+    "ingre01419",
+    "ingre05242",
+    "ingre07781",
+    "ingre02768",
+    "ingre07063",
+    "ingre08026",
+    "ingre07028",
+    "ingre02997",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bún gạo",
+    "Đậu hũ chiên",
+    "Cải ngọt",
+    "Cà rốt",
+    "Rau cần tây",
+    "Đậu phộng",
+    "Hành tím",
+    "Tỏi",
+    "Ớt hiểm",
+    "Tương ớt",
+    "Hạt nêm chay",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rice noodle",
+    "Fried Tofu",
+    "Sweet cabbage",
+    "Carrot",
+    "Celery Weed",
+    "Peanut",
+    "Shallot",
+    "Garlic",
+    "Hot pepper",
+    "Hot Sauce",
+    "Vegetarian Seasoning",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bun gao",
+    "dau hu chien",
+    "cai ngot",
+    "ca rot",
+    "rau can tay",
+    "dau phong",
+    "hanh tim",
+    "toi",
+    "ot hiem",
+    "tuong ot",
+    "hat nem chay",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre07634",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07634.json",
+  "name_vi": "đường phiến (60 viên)",
+  "name_en": "Cane Sugar (60 tablets)",
+  "name_normalized": "duong phien 60 vien",
+  "synonyms": [
+    "kẹo dẻo",
+    "kẹo kéo"
+  ],
+  "synonyms_normalized": [
+    "keo deo",
+    "keo keo"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong phien (60 vien)",
+      "new": "duong phien 60 vien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

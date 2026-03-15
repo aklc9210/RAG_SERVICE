@@ -1,0 +1,94 @@
+{
+  "id": "dish9506",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9506.json",
+  "name_vi": "Xơ mít kho sả ớt",
+  "name_en": "",
+  "name_normalized": "xo mit kho sa ot",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Vỏ mít",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hạt nêm chay",
+    "Bột ngũ vị hương",
+    "Đường/ Tiêu xay",
+    "Nước tương chay",
+    "Dầu hào chay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07269",
+    "ingre05900",
+    "ingre07966",
+    "ingre04626",
+    "ingre02997",
+    "ingre00815",
+    "ingre07685",
+    "ingre04793",
+    "ingre02081",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Vỏ mít",
+    "Sả",
+    "Ớt",
+    "Nước dừa tươi",
+    "Hạt nêm chay",
+    "Bột ngũ vị hương",
+    "Đường/ Tiêu xay",
+    "Nước tương chay",
+    "Dầu hào chay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Palm blossom bud",
+    "Lemongrass",
+    "Pepper",
+    "Coconut water",
+    "Vegetarian Seasoning",
+    "Five-Spice Powder",
+    "Cinnamon Powder",
+    "Vegetarian soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "vo mit",
+    "sa",
+    "ot",
+    "nuoc dua tuoi",
+    "hat nem chay",
+    "bot ngu vi huong",
+    "duong tieu xay",
+    "nuoc tuong chay",
+    "dau hao chay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Tiêu xay"
+    }
+  ]
+}

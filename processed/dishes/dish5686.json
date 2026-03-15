@@ -1,0 +1,103 @@
+{
+  "id": "dish5686",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5686.json",
+  "name_vi": "Cá sặc kho tiêu",
+  "name_en": "",
+  "name_normalized": "ca sac kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá sặc",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Ớt xanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01620",
+    "ingre02768",
+    "ingre08097",
+    "ingre08083",
+    "ingre02080",
+    "ingre02124",
+    "ingre04672",
+    "ingre04694",
+    "ingre06644",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá sặc",
+    "Hành tím",
+    "Ớt đỏ",
+    "Ớt xanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước màu",
+    "Nước mắm",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Shallot",
+    "Red pepper",
+    "Green Pepper",
+    "Soy sauce",
+    "Cooking oil",
+    "Food coloring",
+    "Fish Sauce",
+    "Ground pepper",
+    "Seasoning",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca sac",
+    "hanh tim",
+    "ot do",
+    "ot xanh",
+    "dau hao",
+    "dau an",
+    "nuoc mau",
+    "nuoc mam",
+    "tieu xay",
+    "hat nem",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07010",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07010.json",
+  "name_vi": "tương xí muội/ tương cà",
+  "name_en": "Soy Sauce",
+  "name_normalized": "tuong xi muoi tuong ca",
+  "synonyms": [
+    "tôm chua",
+    "tương ớt",
+    "mắm tôm"
+  ],
+  "synonyms_normalized": [
+    "tom chua",
+    "tuong ot",
+    "mam tom"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong xi muoi/ tuong ca",
+      "new": "tuong xi muoi tuong ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

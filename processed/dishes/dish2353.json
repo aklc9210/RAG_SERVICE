@@ -1,0 +1,86 @@
+{
+  "id": "dish2353",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2353.json",
+  "name_vi": "Bánh Croissant - bánh sừng trâu socola",
+  "name_en": "",
+  "name_normalized": "banh croissant banh sung trau socola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Whipping cream",
+    "Socola đen"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Bơ",
+    "Tinh chất vani",
+    "Nước"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Men nở",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07313",
+    "ingre05763",
+    "ingre06144",
+    "ingre00367",
+    "ingre07583",
+    "ingre03686",
+    "ingre06592",
+    "ingre03746",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Whipping cream",
+    "Socola đen",
+    "Sữa tươi",
+    "Bơ",
+    "Đường",
+    "Men nở",
+    "Tinh chất vani",
+    "Muối",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Whipping cream",
+    "Dark chocolate",
+    "Fresh Milk",
+    "Butter",
+    "Sugar",
+    "Baking Powder",
+    "Vanilla extract",
+    "Salt",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "whipping cream",
+    "socola den",
+    "sua tuoi",
+    "bo",
+    "duong",
+    "men no",
+    "tinh chat vani",
+    "muoi",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh croissant - banh sung trau socola",
+      "new": "banh croissant banh sung trau socola",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

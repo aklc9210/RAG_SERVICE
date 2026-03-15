@@ -1,0 +1,27 @@
+{
+  "id": "ingre06181",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06181.json",
+  "name_vi": "sữa đặc:",
+  "name_en": "Sweetened Condensed Milk",
+  "name_normalized": "sua dac",
+  "synonyms": [
+    "kem đặc",
+    "bột ngọt từ sữa"
+  ],
+  "synonyms_normalized": [
+    "kem dac",
+    "bot ngot tu sua"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua dac:",
+      "new": "sua dac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

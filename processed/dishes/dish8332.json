@@ -1,0 +1,97 @@
+{
+  "id": "dish8332",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8332.json",
+  "name_vi": "Kim chi su hào",
+  "name_en": "",
+  "name_normalized": "kim chi su hao",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Su hào",
+    "Cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá",
+    "Hẹ"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ruốc muối",
+    "Gừng",
+    "Tỏi",
+    "Nước mắm",
+    "Bột ớt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05787",
+    "ingre01796",
+    "ingre01419",
+    "ingre05488",
+    "ingre02741",
+    "ingre02673",
+    "ingre03085",
+    "ingre02485",
+    "ingre07063",
+    "ingre04694",
+    "ingre01015",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Su hào",
+    "Cải trắng",
+    "Cà rốt",
+    "Ruốc muối",
+    "Hành tây",
+    "Hành lá",
+    "Hẹ",
+    "Gừng",
+    "Tỏi",
+    "Nước mắm",
+    "Bột ớt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Cabbage",
+    "Salted meat paste",
+    "Onion",
+    "Scallion",
+    "Garlic Chives",
+    "Ginger",
+    "Garlic",
+    "Fish Sauce",
+    "Red Pepper Powder",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "su hao",
+    "cai trang",
+    "ca rot",
+    "ruoc muoi",
+    "hanh tay",
+    "hanh la",
+    "he",
+    "gung",
+    "toi",
+    "nuoc mam",
+    "bot ot",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

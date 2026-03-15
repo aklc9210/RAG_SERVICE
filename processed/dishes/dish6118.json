@@ -1,0 +1,87 @@
+{
+  "id": "dish6118",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6118.json",
+  "name_vi": "Bò kho sả ớt",
+  "name_en": "",
+  "name_normalized": "bo kho sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt nạm bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Dầu tỏi phi",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06481",
+    "ingre05900",
+    "ingre07966",
+    "ingre02117",
+    "ingre02080",
+    "ingre04790",
+    "ingre02124",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạm bò",
+    "Sả",
+    "Ớt",
+    "Dầu tỏi phi",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Lemongrass",
+    "Pepper",
+    "Garlic oil",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit nam bo",
+    "sa",
+    "ot",
+    "dau toi phi",
+    "dau hao",
+    "nuoc tuong",
+    "dau an",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

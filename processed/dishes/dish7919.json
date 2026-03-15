@@ -1,0 +1,117 @@
+{
+  "id": "dish7919",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7919.json",
+  "name_vi": "Lẩu nấm chay",
+  "name_en": "",
+  "name_normalized": "lau nam chay",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Nấm bào ngư nấm kim châm",
+    "Nấm đông cô",
+    "Nấm đùi gà",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Nấm linh chi",
+    "Nấm bào ngư",
+    "Cây Súp lơ 1 củ khoai môn 1 ngô",
+    "Tàu hũ ki",
+    "Mía lau",
+    "Hành poa – rô"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột nêm",
+    "Muối",
+    "Dầu ăn",
+    "Nước tương",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04895",
+    "ingre04966",
+    "ingre04974",
+    "ingre04953",
+    "ingre04923",
+    "ingre04894",
+    "ingre01702",
+    "ingre01419",
+    "ingre06870",
+    "ingre04027",
+    "ingre02738",
+    "ingre00838",
+    "ingre03746",
+    "ingre02124",
+    "ingre04790",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư nấm kim châm",
+    "Nấm đông cô",
+    "Nấm đùi gà",
+    "Nấm rơm",
+    "Nấm linh chi",
+    "Nấm bào ngư",
+    "Cây Súp lơ 1 củ khoai môn 1 ngô",
+    "Cà rốt",
+    "Tàu hũ ki",
+    "Mía lau",
+    "Hành poa – rô",
+    "Bột nêm",
+    "Muối",
+    "Dầu ăn",
+    "Nước tương",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom Shiitake mushroom",
+    "Mushroom",
+    "Chicken mushroom",
+    "Strawberry mushroom",
+    "Reishi mushroom",
+    "Oyster mushroom",
+    "Broccoli 1 piece Yam 1 Corn",
+    "Carrot",
+    "Tofu Skin",
+    "Sugar cane",
+    "Leek",
+    "Seasoning Powder",
+    "Salt",
+    "Cooking oil",
+    "Soy Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu nam kim cham",
+    "nam dong co",
+    "nam dui ga",
+    "nam rom",
+    "nam linh chi",
+    "nam bao ngu",
+    "cay sup lo 1 cu khoai mon 1 ngo",
+    "ca rot",
+    "tau hu ki",
+    "mia lau",
+    "hanh poa ro",
+    "bot nem",
+    "muoi",
+    "dau an",
+    "nuoc tuong",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh poa - ro",
+      "new": "hanh poa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành poa – rô"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dish7554",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7554.json",
+  "name_vi": "Gà hấp lá sen",
+  "name_en": "",
+  "name_normalized": "ga hap la sen",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gà",
+    "Lá sen",
+    "Nấm mèo",
+    "Hạt sen khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Tỏi băm",
+    "Bột nghệ",
+    "Ớt sa tế",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03516",
+    "ingre04930",
+    "ingre03031",
+    "ingre02774",
+    "ingre07071",
+    "ingre02673",
+    "ingre00804",
+    "ingre04124",
+    "ingre08050",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá sen",
+    "Nấm mèo",
+    "Hạt sen khô",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Hành lá",
+    "Bột nghệ",
+    "Mật ong",
+    "Ớt sa tế",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lotus leaf",
+    "Mushroom",
+    "Lotus seed",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Scallion",
+    "Turmeric Powder",
+    "Honey",
+    "Bird's Eye Chili",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la sen",
+    "nam meo",
+    "hat sen kho",
+    "hanh tim bam",
+    "toi bam",
+    "hanh la",
+    "bot nghe",
+    "mat ong",
+    "ot sa te",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

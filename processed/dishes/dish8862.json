@@ -1,0 +1,67 @@
+{
+  "id": "dish8862",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8862.json",
+  "name_vi": "Bắp xào bơ tỏi",
+  "name_en": "",
+  "name_normalized": "bap xao bo toi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bắp Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Bơ vàng"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00479",
+    "ingre07063",
+    "ingre00410",
+    "ingre02124",
+    "ingre04694",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Bắp Mỹ",
+    "Tỏi",
+    "Bơ vàng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Garlic",
+    "Yellow Butter",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap my",
+    "toi",
+    "bo vang",
+    "dau an",
+    "nuoc mam",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dish8184",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8184.json",
+  "name_vi": "Kimchi bắp cải",
+  "name_en": "",
+  "name_normalized": "kimchi bap cai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bắp cải",
+    "Táo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt bột Hàn Quốc",
+    "Tỏi băm",
+    "Gừng băm",
+    "Nước mắm",
+    "Muối hạt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre06890",
+    "ingre02741",
+    "ingre02673",
+    "ingre07983",
+    "ingre07071",
+    "ingre02492",
+    "ingre04694",
+    "ingre03760",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Táo",
+    "Hành tây",
+    "Hành lá",
+    "Ớt bột Hàn Quốc",
+    "Tỏi băm",
+    "Gừng băm",
+    "Nước mắm",
+    "Muối hạt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Apple",
+    "Onion",
+    "Scallion",
+    "Korean chili powder",
+    "Minced Garlic",
+    "Ginger paste",
+    "Fish Sauce",
+    "Fenugreek seeds",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "tao",
+    "hanh tay",
+    "hanh la",
+    "ot bot han quoc",
+    "toi bam",
+    "gung bam",
+    "nuoc mam",
+    "muoi hat",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

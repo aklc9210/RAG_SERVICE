@@ -1,0 +1,25 @@
+{
+  "id": "ingre05835",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05835.json",
+  "name_vi": "sô-cô-la trắng",
+  "name_en": "White chocolate",
+  "name_normalized": "so co la trang",
+  "synonyms": [
+    "kem trắng"
+  ],
+  "synonyms_normalized": [
+    "kem trang"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "so-co-la trang",
+      "new": "so co la trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

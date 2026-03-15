@@ -1,0 +1,29 @@
+{
+  "id": "ingre05384",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05384.json",
+  "name_vi": "rau thì là/ vỏ quýt/ lá lốt",
+  "name_en": "Basil/Fruit Peel/ MediaTek Leaf",
+  "name_normalized": "rau thi la vo quyt la lot",
+  "synonyms": [
+    "vỏ cam",
+    "vỏ bưởi",
+    "lá sả"
+  ],
+  "synonyms_normalized": [
+    "vo cam",
+    "vo buoi",
+    "la sa"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau thi la/ vo quyt/ la lot",
+      "new": "rau thi la vo quyt la lot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

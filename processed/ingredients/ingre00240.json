@@ -1,0 +1,29 @@
+{
+  "id": "ingre00240",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00240.json",
+  "name_vi": "bí ngòi xanh/ vàng",
+  "name_en": "Green/Yellow Yardlong Beans",
+  "name_normalized": "bi ngoi xanh vang",
+  "synonyms": [
+    "bí đao",
+    "bí xanh",
+    "bí vàng"
+  ],
+  "synonyms_normalized": [
+    "bi dao",
+    "bi xanh",
+    "bi vang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bi ngoi xanh/ vang",
+      "new": "bi ngoi xanh vang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

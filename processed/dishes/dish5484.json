@@ -1,0 +1,86 @@
+{
+  "id": "dish5484",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5484.json",
+  "name_vi": "Lòng mề gà xào dứa (thơm)",
+  "name_en": "",
+  "name_normalized": "long me ga xao dua thom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lòng mề gà",
+    "Huyết gà",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Hành lá cắt khúc"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Hạt tiêu xay",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre03575",
+    "ingre02628",
+    "ingre02151",
+    "ingre02681",
+    "ingre07071",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995",
+    "ingre03049",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Lòng mề gà",
+    "Huyết gà",
+    "Dứa",
+    "Hành lá cắt khúc",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Hạt tiêu xay",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Chicken neck and backbone",
+    "Chicken blood",
+    "Pineapple",
+    "Chopped Green Onion",
+    "Minced Garlic",
+    "Cooking oil",
+    "MSG",
+    "Seasoning",
+    "Ground pepper",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "long me ga",
+    "huyet ga",
+    "dua",
+    "hanh la cat khuc",
+    "toi bam",
+    "dau an",
+    "bot ngot",
+    "hat nem",
+    "hat tieu xay",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "long me ga xao dua (thom)",
+      "new": "long me ga xao dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

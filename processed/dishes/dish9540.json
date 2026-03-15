@@ -1,0 +1,54 @@
+{
+  "id": "dish9540",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9540.json",
+  "name_vi": "Kẹo trái cây",
+  "name_en": "",
+  "name_normalized": "keo trai cay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Kiwi",
+    "Dâu tây",
+    "Cơm dừa sấy khô"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Cà rốt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01419",
+    "ingre03287",
+    "ingre01961",
+    "ingre07583",
+    "ingre01744"
+  ],
+  "ingredient_names_vi": [
+    "Cà rốt",
+    "Kiwi",
+    "Dâu tây",
+    "Đường",
+    "Cơm dừa sấy khô"
+  ],
+  "ingredient_names_en": [
+    "Carrot",
+    "Kiwi -> Kiwi",
+    "Strawberry",
+    "Sugar",
+    "Dried Coconut Rice"
+  ],
+  "ingredient_names_normalized": [
+    "ca rot",
+    "kiwi",
+    "dau tay",
+    "duong",
+    "com dua say kho"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

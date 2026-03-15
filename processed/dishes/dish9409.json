@@ -1,0 +1,66 @@
+{
+  "id": "dish9409",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9409.json",
+  "name_vi": "Kẹo mứt me viên chua cay",
+  "name_en": "",
+  "name_normalized": "keo mut me vien chua cay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Me"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bánh dẻo",
+    "Ớt bột",
+    "Bột rắc xí muội",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03643",
+    "ingre00532",
+    "ingre07977",
+    "ingre00911",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Me",
+    "Bột bánh dẻo",
+    "Ớt bột",
+    "Bột rắc xí muội",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Tamarind",
+    "Sweet Rice Flour",
+    "Chili powder",
+    "Cayenne Pepper",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "me",
+    "bot banh deo",
+    "ot bot",
+    "bot rac xi muoi",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

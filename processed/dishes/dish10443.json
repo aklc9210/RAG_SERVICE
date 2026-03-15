@@ -1,0 +1,82 @@
+{
+  "id": "dish10443",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10443.json",
+  "name_vi": "Chè ba màu",
+  "name_en": "",
+  "name_normalized": "che ba mau",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Đậu đỏ đóng hộp",
+    "Đậu xanh cà vỏ",
+    "Màu thực phẩm lá dứa",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Bột rau câu giòn",
+    "Nước cốt dừa",
+    "Đường nâu",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04626",
+    "ingre00899",
+    "ingre07876",
+    "ingre07841",
+    "ingre04554",
+    "ingre03869",
+    "ingre07628",
+    "ingre03818",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Nước dừa tươi",
+    "Bột rau câu giòn",
+    "Đậu đỏ đóng hộp",
+    "Đậu xanh cà vỏ",
+    "Nước cốt dừa",
+    "Màu thực phẩm lá dứa",
+    "Đường nâu",
+    "Muối/ đường",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Coconut water",
+    "Jello powder",
+    "Canned red beans",
+    "Green Soybeans Skin-On",
+    "Coconut milk",
+    "Food dye pandan leaf",
+    "Brown Sugar",
+    "Salt/Sugar",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc dua tuoi",
+    "bot rau cau gion",
+    "dau do dong hop",
+    "dau xanh ca vo",
+    "nuoc cot dua",
+    "mau thuc pham la dua",
+    "duong nau",
+    "muoi duong",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

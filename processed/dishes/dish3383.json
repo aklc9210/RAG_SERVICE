@@ -1,0 +1,78 @@
+{
+  "id": "dish3383",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3383.json",
+  "name_vi": "Bánh canh hến nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "banh canh hen nuoc cot dua",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Hến",
+    "Bánh canh"
+  ],
+  "secondary_ingredients": [
+    "Ngò",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Cà rốt",
+    "Ớt hiểm",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre02853",
+    "ingre00027",
+    "ingre04475",
+    "ingre01064",
+    "ingre04311",
+    "ingre02545",
+    "ingre07919",
+    "ingre04481"
+  ],
+  "ingredient_names_vi": [
+    "Hến",
+    "Bánh canh",
+    "Nước cốt dừa",
+    "Cà rốt",
+    "Ngò",
+    "Hành tím",
+    "Ớt hiểm",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Clam shell.CompareTag(\"Answer\")",
+    "Snail Soup",
+    "Coconut milk",
+    "Carrot",
+    "Cilantro",
+    "Shallot",
+    "Hot pepper",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "hen",
+    "banh canh",
+    "nuoc cot dua",
+    "ca rot",
+    "ngo",
+    "hanh tim",
+    "ot hiem",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

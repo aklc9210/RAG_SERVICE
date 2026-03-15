@@ -1,0 +1,126 @@
+{
+  "id": "dish8279",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8279.json",
+  "name_vi": "Gỏi cá mè",
+  "name_en": "",
+  "name_normalized": "goi ca me",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá mè",
+    "Thính gạo",
+    "Riềng",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mẻ"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Mắm tôm",
+    "Nước cà rốt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01560",
+    "ingre06241",
+    "ingre05436",
+    "ingre05900",
+    "ingre08026",
+    "ingre02768",
+    "ingre04165",
+    "ingre04159",
+    "ingre04526",
+    "ingre04538",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá mè",
+    "Thính gạo",
+    "Riềng",
+    "Sả",
+    "Ớt hiểm",
+    "Hành tím",
+    "Mẻ",
+    "Mắm tôm",
+    "Nước cà rốt",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Rice flour",
+    "Galangal",
+    "Lemongrass",
+    "Hot pepper",
+    "Shallot",
+    "Tamarind",
+    "Shrimp paste",
+    "Carrot juice",
+    "Lemon juice",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca me",
+    "thinh gao",
+    "rieng",
+    "sa",
+    "ot hiem",
+    "hanh tim",
+    "me",
+    "mam tom",
+    "nuoc ca rot",
+    "nuoc cot chanh",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

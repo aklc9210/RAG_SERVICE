@@ -1,0 +1,87 @@
+{
+  "id": "dish8300",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8300.json",
+  "name_vi": "Bê tái chanh",
+  "name_en": "",
+  "name_normalized": "be tai chanh",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bê",
+    "Chuối xanh",
+    "Khế xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau ngò om",
+    "Sả",
+    "Riềng",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Rượu"
+  ],
+  "ingredient_ids": [
+    "ingre06298",
+    "ingre01191",
+    "ingre03270",
+    "ingre05327",
+    "ingre05900",
+    "ingre05436",
+    "ingre02485",
+    "ingre01079",
+    "ingre03929",
+    "ingre05515"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bê",
+    "Chuối xanh",
+    "Khế xanh",
+    "Rau ngò om",
+    "Sả",
+    "Riềng",
+    "Gừng",
+    "Chanh",
+    "Mè rang",
+    "Rượu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Green banana",
+    "Green quince",
+    "Parsley",
+    "Lemongrass",
+    "Galangal",
+    "Ginger",
+    "Lemon",
+    "Roasted Sesame Seeds",
+    "Rum"
+  ],
+  "ingredient_names_normalized": [
+    "thit be",
+    "chuoi xanh",
+    "khe xanh",
+    "rau ngo om",
+    "sa",
+    "rieng",
+    "gung",
+    "chanh",
+    "me rang",
+    "ruou"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

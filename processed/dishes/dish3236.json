@@ -1,0 +1,118 @@
+{
+  "id": "dish3236",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3236.json",
+  "name_vi": "Bánh canh cua biển",
+  "name_en": "",
+  "name_normalized": "banh canh cua bien",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cua biển",
+    "Tôm tươi",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Trứng cút",
+    "Củ cải trắng",
+    "Hành tím",
+    "Hành ngò",
+    "Màu dầu điều"
+  ],
+  "seasonings": [
+    "Bánh canh bột gạo",
+    "Bột năng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01335",
+    "ingre00072",
+    "ingre06963",
+    "ingre04953",
+    "ingre06816",
+    "ingre00849",
+    "ingre01868",
+    "ingre02768",
+    "ingre02724",
+    "ingre03849",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cua biển",
+    "Bánh canh bột gạo",
+    "Tôm tươi",
+    "Nấm rơm",
+    "Trứng cút",
+    "Bột năng",
+    "Củ cải trắng",
+    "Hành tím",
+    "Hành ngò",
+    "Màu dầu điều",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Rice noodle soup",
+    "Fresh shrimp",
+    "Strawberry mushroom",
+    "Quail egg",
+    "Cornstarch",
+    "White radish",
+    "Shallot",
+    "Chives",
+    "Peanut oil color",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cua bien",
+    "banh canh bot gao",
+    "tom tuoi",
+    "nam rom",
+    "trung cut",
+    "bot nang",
+    "cu cai trang",
+    "hanh tim",
+    "hanh ngo",
+    "mau dau dieu",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

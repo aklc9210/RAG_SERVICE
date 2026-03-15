@@ -1,0 +1,114 @@
+{
+  "id": "dish9375",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9375.json",
+  "name_vi": "Thịt đông má đào (thạch bì)",
+  "name_en": "",
+  "name_normalized": "thit dong ma dao thach bi",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt má đào",
+    "Sụn vai",
+    "Bì lợn",
+    "Mộc nhĩ khô"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương khô"
+  ],
+  "seasonings": [
+    "Hành tím/ gừng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Nước mắm",
+    "Muối ăn",
+    "Bột ngọt",
+    "Muối đỏ",
+    "Bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre06440",
+    "ingre06068",
+    "ingre00235",
+    "ingre04180",
+    "ingre04913",
+    "ingre02805",
+    "ingre02080",
+    "ingre02124",
+    "ingre06644",
+    "ingre04694",
+    "ingre03798",
+    "ingre00819",
+    "ingre03799",
+    "ingre00587"
+  ],
+  "ingredient_names_vi": [
+    "Thịt má đào",
+    "Sụn vai",
+    "Bì lợn",
+    "Mộc nhĩ khô",
+    "Nấm hương khô",
+    "Hành tím/ gừng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu xay",
+    "Nước mắm",
+    "Muối ăn",
+    "Bột ngọt",
+    "Muối đỏ",
+    "Bột canh"
+  ],
+  "ingredient_names_en": [
+    "Peach meat",
+    "Collar cartilage",
+    "Pork skin",
+    "Dried mushrooms",
+    "Dried Shiitake Mushrooms",
+    "Green Onion/Ginger",
+    "Soy sauce",
+    "Cooking oil",
+    "Ground pepper",
+    "Fish Sauce",
+    "Table Salt",
+    "MSG",
+    "Red Salt",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "thit ma dao",
+    "sun vai",
+    "bi lon",
+    "moc nhi kho",
+    "nam huong kho",
+    "hanh tim gung",
+    "dau hao",
+    "dau an",
+    "tieu xay",
+    "nuoc mam",
+    "muoi an",
+    "bot ngot",
+    "muoi do",
+    "bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "thit dong ma dao (thach bi)",
+      "new": "thit dong ma dao thach bi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ gung",
+      "new": "hanh tim gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ gừng"
+    }
+  ]
+}

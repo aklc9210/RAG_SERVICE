@@ -1,0 +1,77 @@
+{
+  "id": "dish1386",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1386.json",
+  "name_vi": "Bánh mì kẹp tôm nướng",
+  "name_en": "",
+  "name_normalized": "banh mi kep tom nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tôm băm",
+    "Hạt bắp luộc"
+  ],
+  "secondary_ingredients": [
+    "Đậu que hạt lựu",
+    "Bơ lạt",
+    "Bơ miếng"
+  ],
+  "seasonings": [
+    "Cà rốt cắt hạt lựu",
+    "Hạt nêm;hạt tiêu;muối;đường",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre06931",
+    "ingre02914",
+    "ingre01425",
+    "ingre07819",
+    "ingre03021",
+    "ingre00382",
+    "ingre07071",
+    "ingre00368"
+  ],
+  "ingredient_names_vi": [
+    "Tôm băm",
+    "Hạt bắp luộc",
+    "Cà rốt cắt hạt lựu",
+    "Đậu que hạt lựu",
+    "Hạt nêm;hạt tiêu;muối;đường",
+    "Bơ lạt",
+    "Tỏi băm",
+    "Bơ miếng"
+  ],
+  "ingredient_names_en": [
+    "Ground shrimp",
+    "Boiled corn kernels",
+    "Carrot diced",
+    "Lupine Seed Beans",
+    "Seasoning;Pepper;Salt;Sugar",
+    "Butter",
+    "Minced Garlic",
+    "Butter slice"
+  ],
+  "ingredient_names_normalized": [
+    "tom bam",
+    "hat bap luoc",
+    "ca rot cat hat luu",
+    "dau que hat luu",
+    "hat nem hat tieu muoi duong",
+    "bo lat",
+    "toi bam",
+    "bo mieng"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem;hat tieu;muoi;duong",
+      "new": "hat nem hat tieu muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm;hạt tiêu;muối;đường"
+    }
+  ]
+}

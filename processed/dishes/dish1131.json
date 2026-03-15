@@ -1,0 +1,77 @@
+{
+  "id": "dish1131",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1131.json",
+  "name_vi": "Bánh cream puff",
+  "name_en": "",
+  "name_normalized": "banh cream puff",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream"
+  ],
+  "seasonings": [
+    "Bột mì số 8",
+    "Trứng gà",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Chiết xuất vani",
+    "Muối/đường/đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre00382",
+    "ingre06823",
+    "ingre00564",
+    "ingre06147",
+    "ingre01139",
+    "ingre07313",
+    "ingre03830"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Bơ lạt",
+    "Trứng gà",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Chiết xuất vani",
+    "Whipping cream",
+    "Muối/đường/đường bột"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Chicken egg",
+    "Corn starch",
+    "Fat-free Milk",
+    "Vanilla extract",
+    "Whipping cream",
+    "Salt/Sugar/Sugar Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "bo lat",
+    "trung ga",
+    "bot bap",
+    "sua tuoi khong duong",
+    "chiet xuat vani",
+    "whipping cream",
+    "muoi duong duong bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong/duong bot",
+      "new": "muoi duong duong bot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường/đường bột"
+    }
+  ]
+}

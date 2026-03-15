@@ -1,0 +1,119 @@
+{
+  "id": "dish1445",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1445.json",
+  "name_vi": "Bánh cuốn làm bằng bột gạo và bột năng",
+  "name_en": "",
+  "name_normalized": "banh cuon lam bang bot gao va bot nang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt xay"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Hành tím",
+    "Giá",
+    "Dưa leo",
+    "Rau thơm",
+    "Chả lụa/nem chua"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột năng",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/đường/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00849",
+    "ingre06521",
+    "ingre04930",
+    "ingre02768",
+    "ingre02329",
+    "ingre02020",
+    "ingre05385",
+    "ingre01298",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre03829"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột năng",
+    "Thịt xay",
+    "Nấm mèo",
+    "Hành tím",
+    "Giá",
+    "Dưa leo",
+    "Rau thơm",
+    "Chả lụa/nem chua",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/đường/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Cornstarch",
+    "Ground Beef",
+    "Mushroom",
+    "Shallot",
+    "Mint",
+    "Cucumber",
+    "Basil",
+    "Pork Floss/Sour Pork Rolls",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Sugar/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot nang",
+    "thit xay",
+    "nam meo",
+    "hanh tim",
+    "gia",
+    "dua leo",
+    "rau thom",
+    "cha lua nem chua",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "muoi duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cha lua/nem chua",
+      "new": "cha lua nem chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chả lụa/nem chua"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong/hat nem",
+      "new": "muoi duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường/hạt nêm"
+    }
+  ]
+}

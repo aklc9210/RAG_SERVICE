@@ -1,0 +1,67 @@
+{
+  "id": "dish5243",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5243.json",
+  "name_vi": "Mực xào củ kiệu",
+  "name_en": "",
+  "name_normalized": "muc xao cu kieu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mực"
+  ],
+  "secondary_ingredients": [
+    "Củ kiệu",
+    "Bơ"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Sa tế",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04264",
+    "ingre01895",
+    "ingre00367",
+    "ingre07071",
+    "ingre05621",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Mực",
+    "Củ kiệu",
+    "Bơ",
+    "Tỏi băm",
+    "Sa tế",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Pickled radish",
+    "Butter",
+    "Minced Garlic",
+    "Fish sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "muc",
+    "cu kieu",
+    "bo",
+    "toi bam",
+    "sa te",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

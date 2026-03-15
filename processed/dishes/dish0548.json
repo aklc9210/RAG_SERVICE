@@ -1,0 +1,73 @@
+{
+  "id": "dish0548",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0548.json",
+  "name_vi": "Canh bí đỏ nấu tôm tươi",
+  "name_en": "",
+  "name_normalized": "canh bi do nau tom tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đỏ",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00253",
+    "ingre06963",
+    "ingre02768",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bí đỏ",
+    "Tôm tươi",
+    "Hành tím",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin",
+    "Fresh shrimp",
+    "Shallot",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bi do",
+    "tom tuoi",
+    "hanh tim",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

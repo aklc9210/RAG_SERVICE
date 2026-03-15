@@ -1,0 +1,106 @@
+{
+  "id": "dish0722",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0722.json",
+  "name_vi": "Súp bắp cải giảm cân",
+  "name_en": "",
+  "name_normalized": "sup bap cai giam can",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bắp cải"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Bạc hà",
+    "Ngò rí",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt chuông",
+    "Gừng",
+    "Tỏi",
+    "Bột bắp",
+    "Giấm ăn",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre01419",
+    "ingre07999",
+    "ingre02673",
+    "ingre00430",
+    "ingre04343",
+    "ingre02485",
+    "ingre07063",
+    "ingre00564",
+    "ingre02120",
+    "ingre02377",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Cà rốt",
+    "Ớt chuông",
+    "Hành lá",
+    "Bạc hà",
+    "Ngò rí",
+    "Gừng",
+    "Tỏi",
+    "Bột bắp",
+    "Dầu ô liu",
+    "Giấm ăn",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Carrot",
+    "Bell pepper",
+    "Scallion",
+    "Mint",
+    "Parsley",
+    "Ginger",
+    "Garlic",
+    "Corn starch",
+    "Olive oil",
+    "vinegar",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "ca rot",
+    "ot chuong",
+    "hanh la",
+    "bac ha",
+    "ngo ri",
+    "gung",
+    "toi",
+    "bot bap",
+    "dau o liu",
+    "giam an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

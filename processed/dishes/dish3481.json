@@ -1,0 +1,88 @@
+{
+  "id": "dish3481",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3481.json",
+  "name_vi": "Miến thịt bò",
+  "name_en": "",
+  "name_normalized": "mien thit bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Huyết bò",
+    "Thịt bò",
+    "Miến khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02625",
+    "ingre06300",
+    "ingre03716",
+    "ingre07063",
+    "ingre02673",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Huyết bò",
+    "Thịt bò",
+    "Miến khô",
+    "Tỏi",
+    "Hành lá",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef blood",
+    "Beef",
+    "Rice Noodles",
+    "Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "huyet bo",
+    "thit bo",
+    "mien kho",
+    "toi",
+    "hanh la",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

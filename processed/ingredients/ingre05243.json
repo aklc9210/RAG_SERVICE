@@ -1,0 +1,29 @@
+{
+  "id": "ingre05243",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05243.json",
+  "name_vi": "rau cần/ ngò rí",
+  "name_en": "Coriander/Cilantro",
+  "name_normalized": "rau can ngo ri",
+  "synonyms": [
+    "ngò",
+    "ngò đắng",
+    "ngò gai"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "ngo dang",
+    "ngo gai"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau can/ ngo ri",
+      "new": "rau can ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

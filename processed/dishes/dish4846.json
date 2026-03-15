@@ -1,0 +1,72 @@
+{
+  "id": "dish4846",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4846.json",
+  "name_vi": "Bắp non xào tỏi chay",
+  "name_en": "",
+  "name_normalized": "bap non xao toi chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp non"
+  ],
+  "secondary_ingredients": [
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Bột ớt",
+    "Hạt nêm chay",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00485",
+    "ingre07063",
+    "ingre02862",
+    "ingre02124",
+    "ingre01015",
+    "ingre02997",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bắp non",
+    "Tỏi",
+    "Húng quế",
+    "Dầu ăn",
+    "Bột ớt",
+    "Hạt nêm chay",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Green corn",
+    "Garlic",
+    "Cinnamon basil",
+    "Cooking oil",
+    "Red Pepper Powder",
+    "Vegetarian Seasoning",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bap non",
+    "toi",
+    "hung que",
+    "dau an",
+    "bot ot",
+    "hat nem chay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

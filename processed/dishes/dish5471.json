@@ -1,0 +1,125 @@
+{
+  "id": "dish5471",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5471.json",
+  "name_vi": "Mì udon xào thịt bò bulgogi",
+  "name_en": "",
+  "name_normalized": "mi udon xao thit bo bulgogi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì udon",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tây băm",
+    "Hành tây",
+    "Hành boa - rô",
+    "Mè rang",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Đường nâu",
+    "Xì dầu Hàn Quốc",
+    "Tỏi băm",
+    "Nước cốt mơ",
+    "Rượu Mirin",
+    "Giấm",
+    "Trứng",
+    "Dầu ăn",
+    "Đường cát/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04011",
+    "ingre06300",
+    "ingre07628",
+    "ingre07383",
+    "ingre07071",
+    "ingre02747",
+    "ingre04582",
+    "ingre05545",
+    "ingre02741",
+    "ingre02643",
+    "ingre03929",
+    "ingre02355",
+    "ingre06801",
+    "ingre02094",
+    "ingre02124",
+    "ingre07603"
+  ],
+  "ingredient_names_vi": [
+    "Mì udon",
+    "Thịt bò",
+    "Đường nâu",
+    "Xì dầu Hàn Quốc",
+    "Tỏi băm",
+    "Hành tây băm",
+    "Nước cốt mơ",
+    "Rượu Mirin",
+    "Hành tây",
+    "Hành boa - rô",
+    "Mè rang",
+    "Giấm",
+    "Trứng",
+    "Dầu mè",
+    "Dầu ăn",
+    "Đường cát/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Udon noodles",
+    "Beef",
+    "Brown Sugar",
+    "Korean soy sauce",
+    "Minced Garlic",
+    "Chopped Onion",
+    "Mango puree",
+    "Mirin Wine",
+    "Onion",
+    "Garlic",
+    "Roasted Sesame Seeds",
+    "Vinegar",
+    "Egg",
+    "Sesame oil",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "mi udon",
+    "thit bo",
+    "duong nau",
+    "xi dau han quoc",
+    "toi bam",
+    "hanh tay bam",
+    "nuoc cot mo",
+    "ruou mirin",
+    "hanh tay",
+    "hanh boa ro",
+    "me rang",
+    "giam",
+    "trung",
+    "dau me",
+    "dau an",
+    "duong cat muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh boa - ro",
+      "new": "hanh boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành boa - rô"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong cat/ muoi",
+      "new": "duong cat muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường cát/ Muối"
+    }
+  ]
+}

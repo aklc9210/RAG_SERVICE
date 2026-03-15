@@ -1,0 +1,82 @@
+{
+  "id": "dish0246",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0246.json",
+  "name_vi": "Súp tôm bí đỏ",
+  "name_en": "",
+  "name_normalized": "sup tom bi do",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm",
+    "Bí đỏ"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Hành tây",
+    "Bơ lạt",
+    "Rau ngò tây"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre00253",
+    "ingre06147",
+    "ingre07313",
+    "ingre02741",
+    "ingre00382",
+    "ingre02124",
+    "ingre05329",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Bí đỏ",
+    "Sữa tươi không đường",
+    "Whipping cream",
+    "Hành tây",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Rau ngò tây",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pumpkin",
+    "Fat-free Milk",
+    "Whipping cream",
+    "Onion",
+    "Butter",
+    "Cooking oil",
+    "Chives",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "bi do",
+    "sua tuoi khong duong",
+    "whipping cream",
+    "hanh tay",
+    "bo lat",
+    "dau an",
+    "rau ngo tay",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

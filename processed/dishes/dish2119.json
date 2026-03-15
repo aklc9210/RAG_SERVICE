@@ -1,0 +1,121 @@
+{
+  "id": "dish2119",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2119.json",
+  "name_vi": "Bánh rợm",
+  "name_en": "",
+  "name_normalized": "banh rom",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nấm đông cô khô",
+    "Thịt xay",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành",
+    "Hành lá",
+    "Lá chuối"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Bột năng",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre04969",
+    "ingre06521",
+    "ingre06963",
+    "ingre00849",
+    "ingre07063",
+    "ingre02636",
+    "ingre02673",
+    "ingre07966",
+    "ingre02124",
+    "ingre04538",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00838",
+    "ingre06612",
+    "ingre03385"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Nấm đông cô khô",
+    "Thịt xay",
+    "Tôm tươi",
+    "Bột năng",
+    "Tỏi",
+    "Hành",
+    "Hành lá",
+    "Ớt",
+    "Dầu ăn",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột nêm",
+    "Tiêu",
+    "Lá chuối"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Dried shiitake mushrooms",
+    "Ground Beef",
+    "Fresh shrimp",
+    "Cornstarch",
+    "Garlic",
+    "Scallion",
+    "Pepper",
+    "Cooking oil",
+    "Lemon juice",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning Powder",
+    "Banana leaf"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "nam dong co kho",
+    "thit xay",
+    "tom tuoi",
+    "bot nang",
+    "toi",
+    "hanh",
+    "hanh la",
+    "ot",
+    "dau an",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot nem",
+    "tieu",
+    "la chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

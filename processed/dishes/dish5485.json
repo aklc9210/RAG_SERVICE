@@ -1,0 +1,92 @@
+{
+  "id": "dish5485",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5485.json",
+  "name_vi": "Cơm nắm thịt heo chiên xù",
+  "name_en": "",
+  "name_normalized": "com nam thit heo chien xu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt heo",
+    "Bắp cải",
+    "Rong biển",
+    "Cơm nóng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Mù tạt Trung Quốc",
+    "Muối/tiêu",
+    "Dầu ăn",
+    "Nước sốt tonkatsu",
+    "Trứng",
+    "Bột mì",
+    "Bột chiên xù"
+  ],
+  "ingredient_ids": [
+    "ingre04054",
+    "ingre03826",
+    "ingre02124",
+    "ingre04773",
+    "ingre06398",
+    "ingre06801",
+    "ingre00759",
+    "ingre00609",
+    "ingre00457",
+    "ingre05448",
+    "ingre01759"
+  ],
+  "ingredient_names_vi": [
+    "Mù tạt Trung Quốc",
+    "Muối/tiêu",
+    "Dầu ăn",
+    "Nước sốt tonkatsu",
+    "Thịt heo",
+    "Trứng",
+    "Bột mì",
+    "Bột chiên xù",
+    "Bắp cải",
+    "Rong biển",
+    "Cơm nóng"
+  ],
+  "ingredient_names_en": [
+    "Chinese mustard",
+    "Salt/Pepper",
+    "Cooking oil",
+    "Tonkatsu Sauce",
+    "Pork",
+    "Egg",
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Cabbage",
+    "Kelp",
+    "Hot Rice"
+  ],
+  "ingredient_names_normalized": [
+    "mu tat trung quoc",
+    "muoi tieu",
+    "dau an",
+    "nuoc sot tonkatsu",
+    "thit heo",
+    "trung",
+    "bot mi",
+    "bot chien xu",
+    "bap cai",
+    "rong bien",
+    "com nong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dish3818",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3818.json",
+  "name_vi": "Sò lông nướng phô mai",
+  "name_en": "",
+  "name_normalized": "so long nuong pho mai",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sò lông",
+    "Mỡ heo",
+    "Phô mai"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Sữa tươi có đường",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Ớt bột",
+    "Đường",
+    "Bột ngọt",
+    "Muối",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre05820",
+    "ingre04192",
+    "ingre05054",
+    "ingre06146",
+    "ingre02673",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre01079",
+    "ingre07791",
+    "ingre07977",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Sò lông",
+    "Mỡ heo",
+    "Phô mai",
+    "Sữa tươi có đường",
+    "Hành lá",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Chanh",
+    "Đậu phộng rang",
+    "Ớt bột",
+    "Đường",
+    "Bột ngọt",
+    "Muối",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Lamb's liver",
+    "Pork fat",
+    "Cheese",
+    "Sweetened Condensed Milk",
+    "Scallion",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Lemon",
+    "Roasted Peanut",
+    "Chili powder",
+    "Sugar",
+    "MSG",
+    "Salt",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "so long",
+    "mo heo",
+    "pho mai",
+    "sua tuoi co duong",
+    "hanh la",
+    "toi",
+    "hanh tim",
+    "ot",
+    "chanh",
+    "dau phong rang",
+    "ot bot",
+    "duong",
+    "bot ngot",
+    "muoi",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

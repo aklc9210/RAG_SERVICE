@@ -1,0 +1,102 @@
+{
+  "id": "dish6768",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6768.json",
+  "name_vi": "Ức gà sốt mật ong mù tạt",
+  "name_en": "",
+  "name_normalized": "uc ga sot mat ong mu tat",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Ức gà",
+    "Hành tây baby",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Nước hầm gà",
+    "Mè đen rang",
+    "Mật ong",
+    "Bơ lạt",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Ớt bột Cayenne",
+    "Mù tạt",
+    "Giấm",
+    "Bột bắp",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre02744",
+    "ingre00282",
+    "ingre04644",
+    "ingre07980",
+    "ingre03942",
+    "ingre04124",
+    "ingre04050",
+    "ingre02355",
+    "ingre00564",
+    "ingre00382",
+    "ingre02104",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Hành tây baby",
+    "Bông cải xanh",
+    "Nước hầm gà",
+    "Ớt bột Cayenne",
+    "Mè đen rang",
+    "Mật ong",
+    "Mù tạt",
+    "Giấm",
+    "Bột bắp",
+    "Bơ lạt",
+    "Dầu oliu",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Baby onion",
+    "Cabbage",
+    "Chicken broth",
+    "Cayenne Pepper",
+    "Roasted Black Sesame Seeds",
+    "Honey",
+    "Mustard",
+    "Vinegar",
+    "Corn starch",
+    "Butter",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "hanh tay baby",
+    "bong cai xanh",
+    "nuoc ham ga",
+    "ot bot cayenne",
+    "me den rang",
+    "mat ong",
+    "mu tat",
+    "giam",
+    "bot bap",
+    "bo lat",
+    "dau oliu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

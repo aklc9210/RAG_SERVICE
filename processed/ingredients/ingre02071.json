@@ -1,0 +1,27 @@
+{
+  "id": "ingre02071",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02071.json",
+  "name_vi": "dầu dừa:",
+  "name_en": "Coconut oil:",
+  "name_normalized": "dau dua",
+  "synonyms": [
+    "dầu chuối"
+  ],
+  "synonyms_normalized": [
+    "dau chuoi"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau dua:",
+      "new": "dau dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

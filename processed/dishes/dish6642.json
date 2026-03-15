@@ -1,0 +1,78 @@
+{
+  "id": "dish6642",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6642.json",
+  "name_vi": "Chả cá thu",
+  "name_en": "",
+  "name_normalized": "cha ca thu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá thu"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lòng trắng trứng",
+    "Bột nở",
+    "Bột khoai tây",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01625",
+    "ingre03579",
+    "ingre00867",
+    "ingre00713",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá thu",
+    "Lòng trắng trứng",
+    "Bột nở",
+    "Bột khoai tây",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Codfish",
+    "Egg white",
+    "Baking powder",
+    "Potato starch",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca thu",
+    "long trang trung",
+    "bot no",
+    "bot khoai tay",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

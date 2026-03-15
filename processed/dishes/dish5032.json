@@ -1,0 +1,88 @@
+{
+  "id": "dish5032",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5032.json",
+  "name_vi": "Bò sốt cà chua hầm",
+  "name_en": "",
+  "name_normalized": "bo sot ca chua ham",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Nước mắm",
+    "Tương cà"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01354",
+    "ingre02485",
+    "ingre02741",
+    "ingre07063",
+    "ingre02673",
+    "ingre02995",
+    "ingre00819",
+    "ingre04694",
+    "ingre06984"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cà chua",
+    "Gừng",
+    "Hành tây",
+    "Tỏi",
+    "Hành lá",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Nước mắm",
+    "Tương cà"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Tomato",
+    "Ginger",
+    "Onion",
+    "Garlic",
+    "Scallion",
+    "Seasoning",
+    "MSG",
+    "Fish Sauce",
+    "Miso酱"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ca chua",
+    "gung",
+    "hanh tay",
+    "toi",
+    "hanh la",
+    "hat nem",
+    "bot ngot",
+    "nuoc mam",
+    "tuong ca"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

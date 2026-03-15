@@ -1,0 +1,102 @@
+{
+  "id": "dish0823",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0823.json",
+  "name_vi": "Bánh cam mặn",
+  "name_en": "",
+  "name_normalized": "banh cam man",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Củ sắn",
+    "Nấm mèo"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Cà rốt",
+    "Hành lá/ tỏi băm/ hành tím băm",
+    "Mỡ hoặc dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre03222",
+    "ingre06329",
+    "ingre01920",
+    "ingre01419",
+    "ingre04930",
+    "ingre02711",
+    "ingre04198",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Khoai tây",
+    "Thịt băm",
+    "Củ sắn",
+    "Cà rốt",
+    "Nấm mèo",
+    "Hành lá/ tỏi băm/ hành tím băm",
+    "Mỡ hoặc dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Potato",
+    "Minced meat",
+    "Yam",
+    "Carrot",
+    "Mushroom",
+    "Chives/Garlic Paste/Scallion Paste",
+    "Ghee or Oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "khoai tay",
+    "thit bam",
+    "cu san",
+    "ca rot",
+    "nam meo",
+    "hanh la toi bam hanh tim bam",
+    "mo hoac dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ toi bam/ hanh tim bam",
+      "new": "hanh la toi bam hanh tim bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ tỏi băm/ hành tím băm"
+    }
+  ]
+}

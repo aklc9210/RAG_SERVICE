@@ -1,0 +1,142 @@
+{
+  "id": "dish3330",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3330.json",
+  "name_vi": "Miến măng vịt",
+  "name_en": "",
+  "name_normalized": "mien mang vit",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Miến dong",
+    "Măng khô",
+    "Nấm hương khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Ớt",
+    "Chanh",
+    "Gừng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt…"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre03711",
+    "ingre04081",
+    "ingre04913",
+    "ingre02673",
+    "ingre05359",
+    "ingre05574",
+    "ingre02768",
+    "ingre07966",
+    "ingre01079",
+    "ingre02485",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00833"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Miến dong",
+    "Măng khô",
+    "Nấm hương khô",
+    "Hành lá",
+    "Rau răm",
+    "Rượu trắng",
+    "Hành tím",
+    "Ớt",
+    "Chanh",
+    "Gừng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt…"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Glass noodle",
+    "Dried bamboo shoots",
+    "Dried Shiitake Mushrooms",
+    "Scallion",
+    "Vietnamese coriander",
+    "White wine",
+    "Shallot",
+    "Pepper",
+    "Lemon",
+    "Ginger",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "mien dong",
+    "mang kho",
+    "nam huong kho",
+    "hanh la",
+    "rau ram",
+    "ruou trang",
+    "hanh tim",
+    "ot",
+    "chanh",
+    "gung",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot...",
+      "new": "bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt…"
+    }
+  ]
+}

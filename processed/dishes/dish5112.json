@@ -1,0 +1,82 @@
+{
+  "id": "dish5112",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5112.json",
+  "name_vi": "Ức gà xào ớt chuông",
+  "name_en": "",
+  "name_normalized": "uc ga xao ot chuong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ức gà"
+  ],
+  "secondary_ingredients": [
+    "Dứa",
+    "Mè trắng rang"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông vàng",
+    "Ớt chuông đỏ",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt/ bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre08008",
+    "ingre08007",
+    "ingre08014",
+    "ingre02151",
+    "ingre03936",
+    "ingre02080",
+    "ingre02124",
+    "ingre00823"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Ớt chuông xanh",
+    "Ớt chuông vàng",
+    "Ớt chuông đỏ",
+    "Dứa",
+    "Mè trắng rang",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt/ bột canh"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Green Bell Pepper",
+    "Yellow Bell Pepper",
+    "Red bell pepper",
+    "Pineapple",
+    "Roasted White Sesame",
+    "Soy sauce",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "ot chuong xanh",
+    "ot chuong vang",
+    "ot chuong do",
+    "dua",
+    "me trang rang",
+    "dau hao",
+    "dau an",
+    "bot ngot bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ bot canh",
+      "new": "bot ngot bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ bột canh"
+    }
+  ]
+}

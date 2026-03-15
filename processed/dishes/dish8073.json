@@ -1,0 +1,160 @@
+{
+  "id": "dish8073",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8073.json",
+  "name_vi": "Salad kiwi trái cây trộn mayonaise",
+  "name_en": "",
+  "name_normalized": "salad kiwi trai cay tron mayonaise",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Táo tây:",
+    "Kiwi:",
+    "Thơm:"
+  ],
+  "secondary_ingredients": [
+    "Dâu tây:",
+    "Dưa leo:",
+    "Xà lách:",
+    "Sữa đặc:",
+    "Mật ong:"
+  ],
+  "seasonings": [
+    "Nước cốt chanh:",
+    "Sốt mayonnaise:"
+  ],
+  "ingredient_ids": [
+    "ingre06907",
+    "ingre03293",
+    "ingre06255",
+    "ingre01969",
+    "ingre02030",
+    "ingre07377",
+    "ingre04548",
+    "ingre06181",
+    "ingre04128",
+    "ingre05974"
+  ],
+  "ingredient_names_vi": [
+    "Táo tây:",
+    "Kiwi:",
+    "Thơm:",
+    "Dâu tây:",
+    "Dưa leo:",
+    "Xà lách:",
+    "Nước cốt chanh:",
+    "Sữa đặc:",
+    "Mật ong:",
+    "Sốt mayonnaise:"
+  ],
+  "ingredient_names_en": [
+    "Celery",
+    "Kiwi -> Kiwi",
+    "Basil",
+    "Strawberry",
+    "Cucumber",
+    "Lettuce",
+    "Lemon juice:",
+    "Sweetened Condensed Milk",
+    "Honey",
+    "Mayonnaise"
+  ],
+  "ingredient_names_normalized": [
+    "tao tay",
+    "kiwi",
+    "thom",
+    "dau tay",
+    "dua leo",
+    "xa lach",
+    "nuoc cot chanh",
+    "sua dac",
+    "mat ong",
+    "sot mayonnaise"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tao tay:",
+      "new": "tao tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Táo tây:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kiwi:",
+      "new": "kiwi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kiwi:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thom:",
+      "new": "thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thơm:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau tay:",
+      "new": "dau tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dâu tây:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dua leo:",
+      "new": "dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dưa leo:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xa lach:",
+      "new": "xa lach",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xà lách:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc cot chanh:",
+      "new": "nuoc cot chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước cốt chanh:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua dac:",
+      "new": "sua dac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa đặc:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mat ong:",
+      "new": "mat ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mật ong:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sot mayonnaise:",
+      "new": "sot mayonnaise",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sốt mayonnaise:"
+    }
+  ]
+}

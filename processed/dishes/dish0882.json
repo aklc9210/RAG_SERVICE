@@ -1,0 +1,92 @@
+{
+  "id": "dish0882",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0882.json",
+  "name_vi": "Bánh mì xúc xích chà bông",
+  "name_en": "",
+  "name_normalized": "banh mi xuc xich cha bong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở khô instant",
+    "Bơ nhạt",
+    "Xúc xích",
+    "Chà bông"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Đường",
+    "Trứng gà",
+    "Muối",
+    "Sữa tươi không đường",
+    "Sốt Mayonnaise/ Tương cà/ Hành lá thái nhỏ",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00723",
+    "ingre07583",
+    "ingre06823",
+    "ingre03689",
+    "ingre03746",
+    "ingre06147",
+    "ingre00402",
+    "ingre07396",
+    "ingre01202",
+    "ingre05973",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh mì",
+    "Đường",
+    "Trứng gà",
+    "Men nở khô instant",
+    "Muối",
+    "Sữa tươi không đường",
+    "Bơ nhạt",
+    "Xúc xích",
+    "Chà bông",
+    "Sốt Mayonnaise/ Tương cà/ Hành lá thái nhỏ",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Bread Flour",
+    "Sugar",
+    "Chicken egg",
+    "Baking Powder",
+    "Salt",
+    "Fat-free Milk",
+    "Margarine",
+    "Sausage",
+    "Pork floss",
+    "Mayonnaise/Soy Sauce/Chopped Fresh Parsley",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh mi",
+    "duong",
+    "trung ga",
+    "men no kho instant",
+    "muoi",
+    "sua tuoi khong duong",
+    "bo nhat",
+    "xuc xich",
+    "cha bong",
+    "sot mayonnaise tuong ca hanh la thai nho",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sot mayonnaise/ tuong ca/ hanh la thai nho",
+      "new": "sot mayonnaise tuong ca hanh la thai nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sốt Mayonnaise/ Tương cà/ Hành lá thái nhỏ"
+    }
+  ]
+}

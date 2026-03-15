@@ -1,0 +1,138 @@
+{
+  "id": "dish5131",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5131.json",
+  "name_vi": "Miến xào lươn",
+  "name_en": "",
+  "name_normalized": "mien xao luon",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Lươn",
+    "Miến",
+    "Hành tây",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Củ nén",
+    "Rau răm",
+    "Hành lá",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Bột nghệ",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre03710",
+    "ingre01419",
+    "ingre02741",
+    "ingre04930",
+    "ingre04910",
+    "ingre01908",
+    "ingre05359",
+    "ingre02673",
+    "ingre04329",
+    "ingre01079",
+    "ingre00804",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Miến",
+    "Cà rốt",
+    "Hành tây",
+    "Nấm mèo",
+    "Nấm hương",
+    "Củ nén",
+    "Rau răm",
+    "Hành lá",
+    "Ngò gai",
+    "Chanh",
+    "Bột nghệ",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Rice vermicelli",
+    "Carrot",
+    "Onion",
+    "Mushroom",
+    "Celery",
+    "Vietnamese coriander",
+    "Scallion",
+    "Culantro",
+    "Lemon",
+    "Turmeric Powder",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "mien",
+    "ca rot",
+    "hanh tay",
+    "nam meo",
+    "nam huong",
+    "cu nen",
+    "rau ram",
+    "hanh la",
+    "ngo gai",
+    "chanh",
+    "bot nghe",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

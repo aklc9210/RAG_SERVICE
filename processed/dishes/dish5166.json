@@ -1,0 +1,102 @@
+{
+  "id": "dish5166",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5166.json",
+  "name_vi": "Mề gà xào giá đỗ",
+  "name_en": "",
+  "name_normalized": "me ga xao gia do",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Gan và mề gà",
+    "Giá đỗ",
+    "Đậu cô ve"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Giấm trắng",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02246",
+    "ingre02337",
+    "ingre07732",
+    "ingre07063",
+    "ingre02673",
+    "ingre02370",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Gan và mề gà",
+    "Giá đỗ",
+    "Đậu cô ve",
+    "Tỏi",
+    "Hành lá",
+    "Giấm trắng",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken liver and chicken fat",
+    "Bean sprouts",
+    "Cowpea",
+    "Garlic",
+    "Scallion",
+    "White vinegar",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan va me ga",
+    "gia do",
+    "dau co ve",
+    "toi",
+    "hanh la",
+    "giam trang",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dish2039",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2039.json",
+  "name_vi": "Bánh rán khoai môn phô mai",
+  "name_en": "",
+  "name_normalized": "banh ran khoai mon pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai môn",
+    "Khoai lang tím",
+    "Phô mai mozzarella"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột chiên xù",
+    "Bột năng",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00609",
+    "ingre00849",
+    "ingre03208",
+    "ingre03200",
+    "ingre05092",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột chiên xù",
+    "Bột năng",
+    "Khoai môn",
+    "Khoai lang tím",
+    "Phô mai mozzarella",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Puffed Rice Powder",
+    "Cornstarch",
+    "Yam",
+    "Purple potato",
+    "Mozzarella cheese",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot chien xu",
+    "bot nang",
+    "khoai mon",
+    "khoai lang tim",
+    "pho mai mozzarella",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

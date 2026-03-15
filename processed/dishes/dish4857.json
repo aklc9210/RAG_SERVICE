@@ -1,0 +1,97 @@
+{
+  "id": "dish4857",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4857.json",
+  "name_vi": "Nui xào bò bằm cà chua",
+  "name_en": "",
+  "name_normalized": "nui xao bo bam ca chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui",
+    "Thịt bò",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tương ớt Hàn Quốc",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Tỏi",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04450",
+    "ingre06300",
+    "ingre01354",
+    "ingre02741",
+    "ingre02673",
+    "ingre07036",
+    "ingre02080",
+    "ingre02094",
+    "ingre04790",
+    "ingre02124",
+    "ingre07063",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Nui",
+    "Thịt bò",
+    "Cà chua",
+    "Hành tây",
+    "Hành lá",
+    "Tương ớt Hàn Quốc",
+    "Dầu hào",
+    "Dầu mè",
+    "Nước tương",
+    "Dầu ăn",
+    "Tỏi",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Rice noodles",
+    "Beef",
+    "Tomato",
+    "Onion",
+    "Scallion",
+    "Korean chili paste",
+    "Soy sauce",
+    "Sesame oil",
+    "Cooking oil",
+    "Garlic",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nui",
+    "thit bo",
+    "ca chua",
+    "hanh tay",
+    "hanh la",
+    "tuong ot han quoc",
+    "dau hao",
+    "dau me",
+    "nuoc tuong",
+    "dau an",
+    "toi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

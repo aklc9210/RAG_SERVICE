@@ -1,0 +1,29 @@
+{
+  "id": "ingre00820",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00820.json",
+  "name_vi": "bột ngọt & đường & hạt nêm",
+  "name_en": "Soy Sauce & Sugar & Seasoning Powder",
+  "name_normalized": "bot ngot duong hat nem",
+  "synonyms": [
+    "mì chính",
+    "nước mắm chưng",
+    "nước mắm ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "nuoc mam chung",
+    "nuoc mam ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot & duong & hat nem",
+      "new": "bot ngot duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

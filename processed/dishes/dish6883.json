@@ -1,0 +1,71 @@
+{
+  "id": "dish6883",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6883.json",
+  "name_vi": "Thịt heo chiên xù bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "thit heo chien xu bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột chiên xù/ vụn bánh mì",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre06823",
+    "ingre00598",
+    "ingre00610",
+    "ingre02124",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Trứng gà",
+    "Bột chiên giòn",
+    "Bột chiên xù/ vụn bánh mì",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Chicken egg",
+    "Puffed Rice Powder",
+    "Panko breadcrumbs",
+    "Cooking oil",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "trung ga",
+    "bot chien gion",
+    "bot chien xu vun banh mi",
+    "dau an",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot chien xu/ vun banh mi",
+      "new": "bot chien xu vun banh mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột chiên xù/ vụn bánh mì"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07689",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07689.json",
+  "name_vi": "đường/hạt nêm/bột ngọt",
+  "name_en": "Soy Sauce/Salt/Powdered Monosodium Glutamate",
+  "name_normalized": "duong hat nem bot ngot",
+  "synonyms": [
+    "hạt nêm",
+    "bột ngọt",
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "hat nem",
+    "bot ngot",
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/hat nem/bot ngot",
+      "new": "duong hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

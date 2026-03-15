@@ -1,0 +1,65 @@
+{
+  "id": "dish4069",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4069.json",
+  "name_vi": "Thịt heo nướng giấy bạc bằng bếp than",
+  "name_en": "",
+  "name_normalized": "thit heo nuong giay bac bang bep than",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước mắm",
+    "Nước ớt đặc",
+    "Tương ớt",
+    "Ớt khô",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre04694",
+    "ingre04882",
+    "ingre07028",
+    "ingre08039",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Nước mắm",
+    "Nước ớt đặc",
+    "Tương ớt",
+    "Ớt khô",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Fish Sauce",
+    "Hot sauce",
+    "Dried Pepper",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "nuoc mam",
+    "nuoc ot dac",
+    "tuong ot",
+    "ot kho",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

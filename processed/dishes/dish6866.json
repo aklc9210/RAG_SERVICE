@@ -1,0 +1,90 @@
+{
+  "id": "dish6866",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6866.json",
+  "name_vi": "Cơm bò bằm hương nhu",
+  "name_en": "",
+  "name_normalized": "com bo bam huong nhu",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Hương nhu",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Tỏi băm",
+    "Đường/ hạt nêm",
+    "Nước cốt chanh/ giấm"
+  ],
+  "ingredient_ids": [
+    "ingre01724",
+    "ingre06823",
+    "ingre02879",
+    "ingre02124",
+    "ingre04790",
+    "ingre04694",
+    "ingre07071",
+    "ingre07678",
+    "ingre04546"
+  ],
+  "ingredient_names_vi": [
+    "Cơm",
+    "Trứng gà",
+    "Hương nhu",
+    "Dầu ăn",
+    "Nước tương",
+    "Nước mắm",
+    "Tỏi băm",
+    "Đường/ hạt nêm",
+    "Nước cốt chanh/ giấm"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Chicken egg",
+    "Anise",
+    "Cooking oil",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Minced Garlic",
+    "Soy Sauce/Sugar",
+    "Lemon juice/Vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "com",
+    "trung ga",
+    "huong nhu",
+    "dau an",
+    "nuoc tuong",
+    "nuoc mam",
+    "toi bam",
+    "duong hat nem",
+    "nuoc cot chanh giam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc cot chanh/ giam",
+      "new": "nuoc cot chanh giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước cốt chanh/ giấm"
+    }
+  ]
+}

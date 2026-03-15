@@ -1,0 +1,87 @@
+{
+  "id": "dish0254",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0254.json",
+  "name_vi": "Sườn heo hầm đu đủ",
+  "name_en": "",
+  "name_normalized": "suon heo ham du du",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn heo",
+    "Đu đủ xanh",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hành tím băm nhuyễn",
+    "Tỏi băm nhuyễn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre07500",
+    "ingre02673",
+    "ingre02775",
+    "ingre07072",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Đu đủ xanh",
+    "Hành lá",
+    "Hành tím băm nhuyễn",
+    "Tỏi băm nhuyễn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Green papaya",
+    "Scallion",
+    "Chopped Scallion",
+    "Minced garlic",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "du du xanh",
+    "hanh la",
+    "hanh tim bam nhuyen",
+    "toi bam nhuyen",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

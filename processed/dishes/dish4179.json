@@ -1,0 +1,118 @@
+{
+  "id": "dish4179",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4179.json",
+  "name_vi": "Ớt chuông nhồi thịt phô mai nướng",
+  "name_en": "",
+  "name_normalized": "ot chuong nhoi thit pho mai nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt nạc vai xay",
+    "Phô mai Mozzarella",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm",
+    "Hành tím",
+    "Nấm hương khô",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt chuông",
+    "Bột bắp",
+    "Tỏi",
+    "Bột ngọt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06474",
+    "ingre06823",
+    "ingre07999",
+    "ingre05092",
+    "ingre04665",
+    "ingre00564",
+    "ingre07063",
+    "ingre05420",
+    "ingre02768",
+    "ingre04913",
+    "ingre00819",
+    "ingre02094",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc vai xay",
+    "Trứng gà",
+    "Ớt chuông",
+    "Phô mai Mozzarella",
+    "Nước lọc",
+    "Bột bắp",
+    "Tỏi",
+    "Rau ăn kèm",
+    "Hành tím",
+    "Nấm hương khô",
+    "Bột ngọt",
+    "Dầu mè",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Ground Shoulder Meat",
+    "Chicken egg",
+    "Bell pepper",
+    "Mozzarella cheese",
+    "Tap water",
+    "Corn starch",
+    "Garlic",
+    "Side vegetable",
+    "Shallot",
+    "Dried Shiitake Mushrooms",
+    "MSG",
+    "Sesame oil",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac vai xay",
+    "trung ga",
+    "ot chuong",
+    "pho mai mozzarella",
+    "nuoc loc",
+    "bot bap",
+    "toi",
+    "rau an kem",
+    "hanh tim",
+    "nam huong kho",
+    "bot ngot",
+    "dau me",
+    "dau an",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish0552",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0552.json",
+  "name_vi": "Canh sườn nấu chua (công thức chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "canh suon nau chua cong thuc chia se tu nguoi dung",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Sườn heo",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá/ rau mùi"
+  ],
+  "seasonings": [
+    "Dấm bỗng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre01354",
+    "ingre02741",
+    "ingre02704",
+    "ingre02049",
+    "ingre04694",
+    "ingre02124",
+    "ingre03010"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Cà chua",
+    "Hành tây",
+    "Hành lá/ rau mùi",
+    "Dấm bỗng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm/ muối"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Tomato",
+    "Onion",
+    "Chives",
+    "Apple cider vinegar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "ca chua",
+    "hanh tay",
+    "hanh la rau mui",
+    "dam bong",
+    "nuoc mam",
+    "dau an",
+    "hat nem muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh suon nau chua (cong thuc chia se tu nguoi dung)",
+      "new": "canh suon nau chua cong thuc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau mui",
+      "new": "hanh la rau mui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ rau mùi"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ muoi",
+      "new": "hat nem muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ muối"
+    }
+  ]
+}

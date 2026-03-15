@@ -1,0 +1,25 @@
+{
+  "id": "ingre00718",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00718.json",
+  "name_vi": "bột làm bánh (bột mì số 13)",
+  "name_en": "Bread Flour",
+  "name_normalized": "bot lam banh bot mi so 13",
+  "synonyms": [
+    "bột số 13"
+  ],
+  "synonyms_normalized": [
+    "bot so 13"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot lam banh (bot mi so 13)",
+      "new": "bot lam banh bot mi so 13",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dish2928",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2928.json",
+  "name_vi": "Bánh pudding phô mai thanh long",
+  "name_en": "",
+  "name_normalized": "banh pudding pho mai thanh long",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Kem phô mai :"
+  ],
+  "secondary_ingredients": [
+    "Sữa chua:",
+    "Sữa tươi:",
+    "Kem whipping :",
+    "Thanh long đỏ:"
+  ],
+  "seasonings": [
+    "Đường:",
+    "Bột gelatin:"
+  ],
+  "ingredient_ids": [
+    "ingre03138",
+    "ingre07693",
+    "ingre06112",
+    "ingre00653",
+    "ingre06164",
+    "ingre03175",
+    "ingre06209"
+  ],
+  "ingredient_names_vi": [
+    "Kem phô mai :",
+    "Đường:",
+    "Sữa chua:",
+    "Bột gelatin:",
+    "Sữa tươi:",
+    "Kem whipping :",
+    "Thanh long đỏ:"
+  ],
+  "ingredient_names_en": [
+    "Cheese",
+    "Sugar:",
+    "Yogurt:",
+    "Gelatin Powder:",
+    "Fresh Milk",
+    "Whipping Cream",
+    "Red cucumber: ->"
+  ],
+  "ingredient_names_normalized": [
+    "kem pho mai",
+    "duong",
+    "sua chua",
+    "bot gelatin",
+    "sua tuoi",
+    "kem whipping",
+    "thanh long do"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem pho mai :",
+      "new": "kem pho mai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem phô mai :"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong:",
+      "new": "duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua chua:",
+      "new": "sua chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa chua:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot gelatin:",
+      "new": "bot gelatin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột gelatin:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua tuoi:",
+      "new": "sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa tươi:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem whipping :",
+      "new": "kem whipping",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem whipping :"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thanh long do:",
+      "new": "thanh long do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thanh long đỏ:"
+    }
+  ]
+}

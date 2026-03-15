@@ -1,0 +1,82 @@
+{
+  "id": "dish1243",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1243.json",
+  "name_vi": "Bánh mochi kem xoài",
+  "name_en": "",
+  "name_normalized": "banh mochi kem xoai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Xoài xay"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Gelatin",
+    "Kem tươi (Whipping cream)"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Đường",
+    "Bột nếp",
+    "Dầu ăn",
+    "Bột ngô"
+  ],
+  "ingredient_ids": [
+    "ingre07344",
+    "ingre06147",
+    "ingre07583",
+    "ingre06174",
+    "ingre02253",
+    "ingre03158",
+    "ingre00859",
+    "ingre02124",
+    "ingre00813"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xay",
+    "Sữa tươi không đường",
+    "Đường",
+    "Sữa đặc",
+    "Gelatin",
+    "Kem tươi (Whipping cream)",
+    "Bột nếp",
+    "Dầu ăn",
+    "Bột ngô"
+  ],
+  "ingredient_names_en": [
+    "Mashed Banana",
+    "Fat-free Milk",
+    "Sugar",
+    "Sweetened Condensed Milk",
+    "Gelatin",
+    "Whipping Cream",
+    "Glutinous rice flour",
+    "Cooking oil",
+    "Corn flour"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xay",
+    "sua tuoi khong duong",
+    "duong",
+    "sua dac",
+    "gelatin",
+    "kem tuoi whipping cream",
+    "bot nep",
+    "dau an",
+    "bot ngo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi (whipping cream)",
+      "new": "kem tuoi whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi (Whipping cream)"
+    }
+  ]
+}

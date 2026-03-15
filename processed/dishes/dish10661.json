@@ -1,0 +1,121 @@
+{
+  "id": "dish10661",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10661.json",
+  "name_vi": "Bánh tráng trộn Tây Ninh",
+  "name_en": "",
+  "name_normalized": "banh trang tron tay ninh",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bánh tráng",
+    "Khô mực",
+    "Khô bò",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Tắc",
+    "Hành tím",
+    "Trứng cút",
+    "Đậu phộng",
+    "Ruốc sấy"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối tôm Tây Ninh",
+    "Dầu sa tế",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00178",
+    "ingre03262",
+    "ingre03238",
+    "ingre07342",
+    "ingre05359",
+    "ingre07063",
+    "ingre07057",
+    "ingre02768",
+    "ingre06816",
+    "ingre03787",
+    "ingre07781",
+    "ingre05489",
+    "ingre02110",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bánh tráng",
+    "Khô mực",
+    "Khô bò",
+    "Xoài xanh",
+    "Rau răm",
+    "Tỏi",
+    "Tắc",
+    "Hành tím",
+    "Trứng cút",
+    "Muối tôm Tây Ninh",
+    "Đậu phộng",
+    "Ruốc sấy",
+    "Dầu sa tế",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Rice Paper",
+    "Dried squid",
+    "Beef jerky",
+    "Green mango",
+    "Vietnamese coriander",
+    "Garlic",
+    "Tamarind",
+    "Shallot",
+    "Quail egg",
+    "Shrimp Salt from Tây Ninh",
+    "Peanut",
+    "Dried fish paste",
+    "Bird's Eye Chili Paste",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh trang",
+    "kho muc",
+    "kho bo",
+    "xoai xanh",
+    "rau ram",
+    "toi",
+    "tac",
+    "hanh tim",
+    "trung cut",
+    "muoi tom tay ninh",
+    "dau phong",
+    "ruoc say",
+    "dau sa te",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

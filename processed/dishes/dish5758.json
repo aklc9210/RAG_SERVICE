@@ -1,0 +1,86 @@
+{
+  "id": "dish5758",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5758.json",
+  "name_vi": "Trạch om củ chuối",
+  "name_en": "",
+  "name_normalized": "trach om cu chuoi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá trạch",
+    "Củ chuối"
+  ],
+  "secondary_ingredients": [
+    "Nghệ",
+    "Hành tím",
+    "Rau tía tô",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01640",
+    "ingre01858",
+    "ingre04304",
+    "ingre02768",
+    "ingre05404",
+    "ingre05302",
+    "ingre02124",
+    "ingre03825"
+  ],
+  "ingredient_names_vi": [
+    "Cá trạch",
+    "Củ chuối",
+    "Nghệ",
+    "Hành tím",
+    "Rau tía tô",
+    "Rau mùi",
+    "Dầu ăn",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Grouper",
+    "Banana",
+    "Turmeric",
+    "Shallot",
+    "Cilantro",
+    "Mint",
+    "Cooking oil",
+    "Seasoning Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca trach",
+    "cu chuoi",
+    "nghe",
+    "hanh tim",
+    "rau tia to",
+    "rau mui",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/hạt nêm"
+    }
+  ]
+}

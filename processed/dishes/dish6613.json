@@ -1,0 +1,77 @@
+{
+  "id": "dish6613",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6613.json",
+  "name_vi": "Trứng cá chiên giòn và nướng sa tế",
+  "name_en": "",
+  "name_normalized": "trung ca chien gion va nuong sa te",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng cá ngừ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Nước"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Sa tế",
+    "Bột chiên giòn",
+    "Rượu trắng",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06813",
+    "ingre02428",
+    "ingre05651",
+    "ingre05619",
+    "ingre00307",
+    "ingre05511",
+    "ingre04490",
+    "ingre01991"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cá ngừ",
+    "Gừng",
+    "Sả",
+    "Sa tế",
+    "Bột chiên giòn",
+    "Rượu trắng",
+    "Nước",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Salmon Roe",
+    "Ginger",
+    "Lemongrass",
+    "Fish sauce",
+    "Puffed Rice Powder",
+    "White wine",
+    "Water",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ca ngu",
+    "gung",
+    "sa",
+    "sa te",
+    "bot chien gion",
+    "ruou trang",
+    "nuoc",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

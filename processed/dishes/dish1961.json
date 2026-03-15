@@ -1,0 +1,82 @@
+{
+  "id": "dish1961",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1961.json",
+  "name_vi": "Bánh mì sandwich phô mai",
+  "name_en": "",
+  "name_normalized": "banh mi sandwich pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Phô mai"
+  ],
+  "secondary_ingredients": [
+    "Rau xà lách",
+    "Cà chua",
+    "Chả lụa cắt mỏng",
+    "Nước lạnh"
+  ],
+  "seasonings": [
+    "Bột mì số 13",
+    "Men",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre05054",
+    "ingre03665",
+    "ingre05410",
+    "ingre01354",
+    "ingre01296",
+    "ingre02124",
+    "ingre04664",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Phô mai",
+    "Men",
+    "Rau xà lách",
+    "Cà chua",
+    "Chả lụa cắt mỏng",
+    "Dầu ăn",
+    "Nước lạnh",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Cheese",
+    "Mold",
+    "lettuce",
+    "Tomato",
+    "Pork floss sliced",
+    "Cooking oil",
+    "Cold water",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "pho mai",
+    "men",
+    "rau xa lach",
+    "ca chua",
+    "cha lua cat mong",
+    "dau an",
+    "nuoc lanh",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish0557",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0557.json",
+  "name_vi": "Canh ngao (nghêu) chua cay",
+  "name_en": "",
+  "name_normalized": "canh ngao ngheu chua cay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Ngao",
+    "Cà chua",
+    "Rau muống"
+  ],
+  "secondary_ingredients": [
+    "Sả tươi",
+    "Me chua"
+  ],
+  "seasonings": [
+    "Gừng tươi",
+    "Lá chanh",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04301",
+    "ingre01354",
+    "ingre05289",
+    "ingre02518",
+    "ingre05917",
+    "ingre03370",
+    "ingre08055",
+    "ingre03644",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ngao",
+    "Cà chua",
+    "Rau muống",
+    "Gừng tươi",
+    "Sả tươi",
+    "Lá chanh",
+    "Ớt sừng",
+    "Me chua",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Tomato",
+    "Watercress",
+    "Ginger",
+    "Fresh Ginger",
+    "Lime leaf",
+    "Hot pepper",
+    "Mint",
+    "Cooking oil",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ngao",
+    "ca chua",
+    "rau muong",
+    "gung tuoi",
+    "sa tuoi",
+    "la chanh",
+    "ot sung",
+    "me chua",
+    "dau an",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh ngao (ngheu) chua cay",
+      "new": "canh ngao ngheu chua cay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

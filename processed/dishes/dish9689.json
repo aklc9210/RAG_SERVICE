@@ -1,0 +1,62 @@
+{
+  "id": "dish9689",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9689.json",
+  "name_vi": "Sữa gạo hạt điều",
+  "name_en": "",
+  "name_normalized": "sua gao hat dieu",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Gạo tẻ"
+  ],
+  "secondary_ingredients": [
+    "Gạo nếp",
+    "Hạt điều",
+    "Ca cao/ hoa đậu biếc"
+  ],
+  "seasonings": [
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre02464",
+    "ingre02450",
+    "ingre03062",
+    "ingre07635",
+    "ingre01035"
+  ],
+  "ingredient_names_vi": [
+    "Gạo tẻ",
+    "Gạo nếp",
+    "Hạt điều",
+    "Đường phèn",
+    "Ca cao/ hoa đậu biếc"
+  ],
+  "ingredient_names_en": [
+    "White Rice",
+    "sticky rice",
+    "Peanut",
+    "Brown Sugar",
+    "Cocoa/Blueweed"
+  ],
+  "ingredient_names_normalized": [
+    "gao te",
+    "gao nep",
+    "hat dieu",
+    "duong phen",
+    "ca cao hoa dau biec"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ca cao/ hoa dau biec",
+      "new": "ca cao hoa dau biec",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ca cao/ hoa đậu biếc"
+    }
+  ]
+}

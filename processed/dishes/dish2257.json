@@ -1,0 +1,72 @@
+{
+  "id": "dish2257",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2257.json",
+  "name_vi": "Bánh cúng chuẩn vị miền tây",
+  "name_en": "",
+  "name_normalized": "banh cung chuan vi mien tay",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lá chuối",
+    "Dây lạc/ dây chuối"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột gạo",
+    "Bột sắn",
+    "Nước cốt dừa",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00668",
+    "ingre00927",
+    "ingre04554",
+    "ingre07583",
+    "ingre03746",
+    "ingre03385",
+    "ingre01978"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo",
+    "Bột sắn",
+    "Nước cốt dừa",
+    "Đường",
+    "Muối",
+    "Lá chuối",
+    "Dây lạc/ dây chuối"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Tapioca starch",
+    "Coconut milk",
+    "Sugar",
+    "Salt",
+    "Banana leaf",
+    "Passionfruit vine/Watermelon vine"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao",
+    "bot san",
+    "nuoc cot dua",
+    "duong",
+    "muoi",
+    "la chuoi",
+    "day lac day chuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "day lac/ day chuoi",
+      "new": "day lac day chuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dây lạc/ dây chuối"
+    }
+  ]
+}

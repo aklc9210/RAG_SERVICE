@@ -1,0 +1,71 @@
+{
+  "id": "dish6549",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6549.json",
+  "name_vi": "Ngô chiên bơ (Công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "ngo chien bo cong thuc duoc chia se tu nguoi dung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bắp Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột sư tử",
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00479",
+    "ingre00598",
+    "ingre00919",
+    "ingre00564",
+    "ingre04554",
+    "ingre00382",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bắp Mỹ",
+    "Bột chiên giòn",
+    "Bột sư tử",
+    "Bột bắp",
+    "Nước cốt dừa",
+    "Bơ lạt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Puffed Rice Powder",
+    "Tiger's milk powder",
+    "Corn starch",
+    "Coconut milk",
+    "Butter",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bap my",
+    "bot chien gion",
+    "bot su tu",
+    "bot bap",
+    "nuoc cot dua",
+    "bo lat",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo chien bo (cong thuc duoc chia se tu nguoi dung)",
+      "new": "ngo chien bo cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

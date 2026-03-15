@@ -1,0 +1,107 @@
+{
+  "id": "dish10642",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10642.json",
+  "name_vi": "Gỏi cuốn ngũ sắc",
+  "name_en": "",
+  "name_normalized": "goi cuon ngu sac",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt heo",
+    "Bắp cải tím",
+    "Xà lách"
+  ],
+  "secondary_ingredients": [
+    "Bánh tráng",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Bột năng",
+    "Tương bần",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre06823",
+    "ingre00468",
+    "ingre07351",
+    "ingre01419",
+    "ingre07063",
+    "ingre07966",
+    "ingre04538",
+    "ingre00178",
+    "ingre00357",
+    "ingre00849",
+    "ingre06981",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Trứng gà",
+    "Bắp cải tím",
+    "Xà lách",
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Bánh tráng",
+    "Bún tươi",
+    "Bột năng",
+    "Tương bần",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Chicken egg",
+    "Purple cabbage",
+    "Lettuce",
+    "Carrot",
+    "Garlic",
+    "Pepper",
+    "Lemon juice",
+    "Rice Paper",
+    "Fresh noodle",
+    "Cornstarch",
+    "Fish sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "trung ga",
+    "bap cai tim",
+    "xa lach",
+    "ca rot",
+    "toi",
+    "ot",
+    "nuoc cot chanh",
+    "banh trang",
+    "bun tuoi",
+    "bot nang",
+    "tuong ban",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "dish8974",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8974.json",
+  "name_vi": "Mọc viên nấm hương",
+  "name_en": "",
+  "name_normalized": "moc vien nam huong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt xay"
+  ],
+  "secondary_ingredients": [
+    "Giò sống",
+    "Mộc nhĩ",
+    "Nấm hương"
+  ],
+  "seasonings": [
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06521",
+    "ingre02350",
+    "ingre04179",
+    "ingre04910",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xay",
+    "Giò sống",
+    "Mộc nhĩ",
+    "Nấm hương",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Beef",
+    "Fresh sausage",
+    "Mushroom",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit xay",
+    "gio song",
+    "moc nhi",
+    "nam huong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

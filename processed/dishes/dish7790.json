@@ -1,0 +1,97 @@
+{
+  "id": "dish7790",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7790.json",
+  "name_vi": "Lẩu cá bông lau",
+  "name_en": "",
+  "name_normalized": "lau ca bong lau",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá bông lau",
+    "Me chua",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Hành phi",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01473",
+    "ingre03644",
+    "ingre01354",
+    "ingre07966",
+    "ingre05900",
+    "ingre05420",
+    "ingre02730",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá bông lau",
+    "Me chua",
+    "Cà chua",
+    "Ớt",
+    "Sả",
+    "Rau ăn kèm",
+    "Hành phi",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Milkfish",
+    "Mint",
+    "Tomato",
+    "Pepper",
+    "Lemongrass",
+    "Side vegetable",
+    "Garlic Fried",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca bong lau",
+    "me chua",
+    "ca chua",
+    "ot",
+    "sa",
+    "rau an kem",
+    "hanh phi",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

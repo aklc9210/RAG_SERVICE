@@ -1,0 +1,43 @@
+{
+  "id": "dish5234",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5234.json",
+  "name_vi": "Mì gói xào cá hộp",
+  "name_en": "",
+  "name_normalized": "mi goi xao ca hop",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì gói",
+    "Cá hộp",
+    "Hành lá cắt khúc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre03952",
+    "ingre01535",
+    "ingre02681"
+  ],
+  "ingredient_names_vi": [
+    "Mì gói",
+    "Cá hộp",
+    "Hành lá cắt khúc"
+  ],
+  "ingredient_names_en": [
+    "Noodle Packet",
+    "Canned Fish",
+    "Chopped Green Onion"
+  ],
+  "ingredient_names_normalized": [
+    "mi goi",
+    "ca hop",
+    "hanh la cat khuc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

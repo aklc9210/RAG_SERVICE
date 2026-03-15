@@ -1,0 +1,87 @@
+{
+  "id": "dish4442",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4442.json",
+  "name_vi": "Sốt kem nấm",
+  "name_en": "",
+  "name_normalized": "sot kem nam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm mỡ",
+    "Hành tây cỡ vừa"
+  ],
+  "secondary_ingredients": [
+    "Bơ nhạt",
+    "Kem béo",
+    "Phô mai Parmesan bào",
+    "Rau mùi tây"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước dùng",
+    "Lá oregano khô",
+    "Muối/ Tiêu xay/ Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04945",
+    "ingre07063",
+    "ingre02756",
+    "ingre00402",
+    "ingre04602",
+    "ingre03121",
+    "ingre05105",
+    "ingre03496",
+    "ingre05311",
+    "ingre03816"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mỡ",
+    "Tỏi",
+    "Hành tây cỡ vừa",
+    "Bơ nhạt",
+    "Nước dùng",
+    "Kem béo",
+    "Phô mai Parmesan bào",
+    "Lá oregano khô",
+    "Rau mùi tây",
+    "Muối/ Tiêu xay/ Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Fried mushroom",
+    "Garlic",
+    "Yellow Onion",
+    "Margarine",
+    "Chicken Stock",
+    "Milk Cream",
+    "Parmesan cheese grated",
+    "Dried Oregano Leaves",
+    "Cilantro",
+    "Ground Salt/Pepper/Oil"
+  ],
+  "ingredient_names_normalized": [
+    "nam mo",
+    "toi",
+    "hanh tay co vua",
+    "bo nhat",
+    "nuoc dung",
+    "kem beo",
+    "pho mai parmesan bao",
+    "la oregano kho",
+    "rau mui tay",
+    "muoi tieu xay dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay/ dau an",
+      "new": "muoi tieu xay dau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay/ Dầu ăn"
+    }
+  ]
+}

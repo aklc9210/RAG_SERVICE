@@ -1,0 +1,92 @@
+{
+  "id": "dish4713",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4713.json",
+  "name_vi": "Mướp xào thịt bò",
+  "name_en": "",
+  "name_normalized": "muop xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mướp hương",
+    "Thịt bò",
+    "Lá hẹ"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04104",
+    "ingre06300",
+    "ingre03449",
+    "ingre07063",
+    "ingre02485",
+    "ingre02124",
+    "ingre02080",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mướp hương",
+    "Thịt bò",
+    "Lá hẹ",
+    "Tỏi",
+    "Gừng",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Luffa",
+    "Beef",
+    "Garlic Chives Leaves",
+    "Garlic",
+    "Ginger",
+    "Cooking oil",
+    "Soy sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muop huong",
+    "thit bo",
+    "la he",
+    "toi",
+    "gung",
+    "dau an",
+    "dau hao",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    }
+  ]
+}

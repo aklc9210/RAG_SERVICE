@@ -1,0 +1,81 @@
+{
+  "id": "dish1327",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1327.json",
+  "name_vi": "Bánh khoai cá kình - bánh xèo cá kình",
+  "name_en": "",
+  "name_normalized": "banh khoai ca kinh banh xeo ca kinh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cá kình"
+  ],
+  "secondary_ingredients": [
+    "Rau sống ăn kèm"
+  ],
+  "seasonings": [
+    "Bột bánh xèo pha sẵn",
+    "Đường",
+    "Nước mắm",
+    "Nước chanh",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01540",
+    "ingre00555",
+    "ingre05381",
+    "ingre07583",
+    "ingre04694",
+    "ingre04509",
+    "ingre07063",
+    "ingre07966",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá kình",
+    "Bột bánh xèo pha sẵn",
+    "Rau sống ăn kèm",
+    "Đường",
+    "Nước mắm",
+    "Nước chanh",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Prepared Pancake Flour",
+    "Leafy Greens",
+    "Sugar",
+    "Fish Sauce",
+    "Lemon juice",
+    "Garlic",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca kinh",
+    "bot banh xeo pha san",
+    "rau song an kem",
+    "duong",
+    "nuoc mam",
+    "nuoc chanh",
+    "toi",
+    "ot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh khoai ca kinh - banh xeo ca kinh",
+      "new": "banh khoai ca kinh banh xeo ca kinh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

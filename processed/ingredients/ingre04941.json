@@ -1,0 +1,29 @@
+{
+  "id": "ingre04941",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04941.json",
+  "name_vi": "nấm mèo/ mộc nhĩ",
+  "name_en": "Mushroom",
+  "name_normalized": "nam meo moc nhi",
+  "synonyms": [
+    "mộc nhĩ",
+    "nấm nhím",
+    "nấm mền"
+  ],
+  "synonyms_normalized": [
+    "moc nhi",
+    "nam nhim",
+    "nam men"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nam meo/ moc nhi",
+      "new": "nam meo moc nhi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

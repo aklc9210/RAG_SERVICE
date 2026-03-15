@@ -1,0 +1,139 @@
+{
+  "id": "dish3309",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3309.json",
+  "name_vi": "Bánh canh Trảng Bàng Tây Ninh",
+  "name_en": "",
+  "name_normalized": "banh canh trang bang tay ninh",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt giò heo",
+    "Xương ống",
+    "Giò heo",
+    "Bánh canh"
+  ],
+  "secondary_ingredients": [
+    "Củ cải trắng",
+    "Hành tây",
+    "Hành tím",
+    "Tôm khô",
+    "Hành lá",
+    "Ngò gai",
+    "Giá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Giấm",
+    "Đường phèn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06377",
+    "ingre07433",
+    "ingre02346",
+    "ingre00071",
+    "ingre02485",
+    "ingre01868",
+    "ingre02741",
+    "ingre02768",
+    "ingre06941",
+    "ingre02673",
+    "ingre04329",
+    "ingre07966",
+    "ingre02329",
+    "ingre02355",
+    "ingre07635",
+    "ingre04694",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt giò heo",
+    "Xương ống",
+    "Giò heo",
+    "Bánh canh",
+    "Gừng",
+    "Củ cải trắng",
+    "Hành tây",
+    "Hành tím",
+    "Tôm khô",
+    "Hành lá",
+    "Ngò gai",
+    "Ớt",
+    "Giá",
+    "Giấm",
+    "Đường phèn",
+    "Nước mắm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Tube bone",
+    "Pork sausage",
+    "Snail Soup",
+    "Ginger",
+    "White radish",
+    "Onion",
+    "Shallot",
+    "Dried Shrimp",
+    "Scallion",
+    "Culantro",
+    "Pepper",
+    "Mint",
+    "Vinegar",
+    "Brown Sugar",
+    "Fish Sauce",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit gio heo",
+    "xuong ong",
+    "gio heo",
+    "banh canh",
+    "gung",
+    "cu cai trang",
+    "hanh tay",
+    "hanh tim",
+    "tom kho",
+    "hanh la",
+    "ngo gai",
+    "ot",
+    "gia",
+    "giam",
+    "duong phen",
+    "nuoc mam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

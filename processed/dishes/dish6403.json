@@ -1,0 +1,88 @@
+{
+  "id": "dish6403",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6403.json",
+  "name_vi": "Chả cá Nha Trang",
+  "name_en": "",
+  "name_normalized": "cha ca nha trang",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá mối",
+    "Cá thác lác",
+    "Giò sống"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Hành phi",
+    "Tỏi phi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01573",
+    "ingre01628",
+    "ingre02350",
+    "ingre02673",
+    "ingre02730",
+    "ingre07096",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá mối",
+    "Cá thác lác",
+    "Giò sống",
+    "Hành lá",
+    "Hành phi",
+    "Tỏi phi",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp楽しさを共有します！",
+    "Pomfret",
+    "Fresh sausage",
+    "Scallion",
+    "Garlic Fried",
+    "Garlic flakes",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca moi",
+    "ca thac lac",
+    "gio song",
+    "hanh la",
+    "hanh phi",
+    "toi phi",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

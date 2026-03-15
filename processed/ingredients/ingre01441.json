@@ -1,0 +1,27 @@
+{
+  "id": "ingre01441",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01441.json",
+  "name_vi": "cà rốt/ cà rốt baby",
+  "name_en": "Carrot/Baby Carrot",
+  "name_normalized": "ca rot ca rot baby",
+  "synonyms": [
+    "cà gai",
+    "cà rốt con"
+  ],
+  "synonyms_normalized": [
+    "ca gai",
+    "ca rot con"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca rot/ ca rot baby",
+      "new": "ca rot ca rot baby",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

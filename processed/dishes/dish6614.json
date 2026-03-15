@@ -1,0 +1,72 @@
+{
+  "id": "dish6614",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6614.json",
+  "name_vi": "Trứng rán lá hẹ",
+  "name_en": "",
+  "name_normalized": "trung ran la he",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hẹ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre03085",
+    "ingre07966",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Hẹ",
+    "Ớt",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Garlic Chives",
+    "Pepper",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "he",
+    "ot",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

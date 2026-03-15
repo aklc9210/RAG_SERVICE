@@ -1,0 +1,77 @@
+{
+  "id": "dish3658",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3658.json",
+  "name_vi": "Kem trà xanh đậu đỏ",
+  "name_en": "",
+  "name_normalized": "kem tra xanh dau do",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Gelatine"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Kem tươi (hay còn gọi là whipping cream",
+    "Đậu đỏ"
+  ],
+  "seasonings": [
+    "Bột trà xanh Nhật Bản",
+    "Sữa tươi không đường",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02263",
+    "ingre00964",
+    "ingre06147",
+    "ingre06174",
+    "ingre03159",
+    "ingre07868",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gelatine",
+    "Bột trà xanh Nhật Bản",
+    "Sữa tươi không đường",
+    "Sữa đặc",
+    "Kem tươi (hay còn gọi là whipping cream",
+    "Đậu đỏ",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Gelatin",
+    "Green Matcha Powder",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Whipping Cream",
+    "Red beans",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gelatine",
+    "bot tra xanh nhat ban",
+    "sua tuoi khong duong",
+    "sua dac",
+    "kem tuoi hay con goi la whipping cream",
+    "dau do",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi (hay con goi la whipping cream",
+      "new": "kem tuoi hay con goi la whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi (hay còn gọi là whipping cream"
+    }
+  ]
+}

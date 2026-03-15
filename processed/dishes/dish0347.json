@@ -1,0 +1,113 @@
+{
+  "id": "dish0347",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0347.json",
+  "name_vi": "Canh chua cá rô đồng",
+  "name_en": "",
+  "name_normalized": "canh chua ca ro dong",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bông súng",
+    "Đậu bắp",
+    "Cá rô đồng",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Me chín",
+    "Rau quế",
+    "Ngò om",
+    "Ngò gai"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00291",
+    "ingre07729",
+    "ingre01612",
+    "ingre01354",
+    "ingre08055",
+    "ingre03647",
+    "ingre07071",
+    "ingre05354",
+    "ingre04340",
+    "ingre04329",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bông súng",
+    "Đậu bắp",
+    "Cá rô đồng",
+    "Cà chua",
+    "Ớt sừng",
+    "Me chín",
+    "Tỏi băm",
+    "Rau quế",
+    "Ngò om",
+    "Ngò gai",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Mallow花椰菜",
+    "Green beans",
+    "Pond罗非鱼 (Note: This is a direct translation based on the Vietnamese name \"cá rô đồng\". The exact English name might vary",
+    "Tomato",
+    "Hot pepper",
+    "Ripe mango",
+    "Minced Garlic",
+    "Sage",
+    "Parsley",
+    "Culantro",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bong sung",
+    "dau bap",
+    "ca ro dong",
+    "ca chua",
+    "ot sung",
+    "me chin",
+    "toi bam",
+    "rau que",
+    "ngo om",
+    "ngo gai",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "dish7799",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7799.json",
+  "name_vi": "Lẩu cá trê nấu mẻ",
+  "name_en": "",
+  "name_normalized": "lau ca tre nau me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá trê",
+    "Cơm mẻ",
+    "Thơm",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò gai",
+    "Lá quế",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi",
+    "Giấm",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01636",
+    "ingre01753",
+    "ingre06247",
+    "ingre08026",
+    "ingre05900",
+    "ingre07063",
+    "ingre02768",
+    "ingre04329",
+    "ingre03500",
+    "ingre02355",
+    "ingre04694",
+    "ingre05420",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá trê",
+    "Cơm mẻ",
+    "Thơm",
+    "Ớt hiểm",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Ngò gai",
+    "Lá quế",
+    "Giấm",
+    "Nước mắm",
+    "Rau ăn kèm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Glutinous Rice",
+    "Basil",
+    "Hot pepper",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "Culantro",
+    "Bayleaf",
+    "Vinegar",
+    "Fish Sauce",
+    "Side vegetable",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca tre",
+    "com me",
+    "thom",
+    "ot hiem",
+    "sa",
+    "toi",
+    "hanh tim",
+    "ngo gai",
+    "la que",
+    "giam",
+    "nuoc mam",
+    "rau an kem",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

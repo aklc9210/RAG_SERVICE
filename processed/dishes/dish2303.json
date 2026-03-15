@@ -1,0 +1,92 @@
+{
+  "id": "dish2303",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2303.json",
+  "name_vi": "Bánh Crepe Red Velvet không cần lò nướng",
+  "name_en": "",
+  "name_normalized": "banh crepe red velvet khong can lo nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Cream cheese",
+    "Heavy cream"
+  ],
+  "secondary_ingredients": [
+    "Phô mai mascarpone",
+    "Sữa tươi",
+    "Bơ",
+    "Mứt dâu (để trang trí)",
+    "Màu đỏ thực phẩm"
+  ],
+  "seasonings": [
+    "Bột mì số 8",
+    "Bột cacao",
+    "Đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre01324",
+    "ingre02558",
+    "ingre05083",
+    "ingre06144",
+    "ingre00367",
+    "ingre00576",
+    "ingre07583",
+    "ingre06823",
+    "ingre04226",
+    "ingre03908"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Cream cheese",
+    "Heavy cream",
+    "Phô mai mascarpone",
+    "Sữa tươi",
+    "Bơ",
+    "Bột cacao",
+    "Đường",
+    "Trứng gà",
+    "Mứt dâu (để trang trí)",
+    "Màu đỏ thực phẩm"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Cream cheese",
+    "Heavy cream",
+    "Mascarpone Cheese",
+    "Fresh Milk",
+    "Butter",
+    "Cocoa powder",
+    "Sugar",
+    "Chicken egg",
+    "Strawberry Jam (for decoration)",
+    "Red food color"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "cream cheese",
+    "heavy cream",
+    "pho mai mascarpone",
+    "sua tuoi",
+    "bo",
+    "bot cacao",
+    "duong",
+    "trung ga",
+    "mut dau de trang tri",
+    "mau do thuc pham"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mut dau (de trang tri)",
+      "new": "mut dau de trang tri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Mứt dâu (để trang trí)"
+    }
+  ]
+}

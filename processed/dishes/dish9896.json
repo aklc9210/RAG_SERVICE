@@ -1,0 +1,65 @@
+{
+  "id": "dish9896",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9896.json",
+  "name_vi": "Cà phê bọt biển (cà phê Dalgona Hàn Quốc)",
+  "name_en": "",
+  "name_normalized": "ca phe bot bien ca phe dalgona han quoc",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Cà phê đen hòa tan"
+  ],
+  "secondary_ingredients": [
+    "Nước đun sôi",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Đường:"
+  ],
+  "ingredient_ids": [
+    "ingre01413",
+    "ingre07693",
+    "ingre04850",
+    "ingre06144"
+  ],
+  "ingredient_names_vi": [
+    "Cà phê đen hòa tan",
+    "Đường:",
+    "Nước đun sôi",
+    "Sữa tươi"
+  ],
+  "ingredient_names_en": [
+    "Instant coffee",
+    "Sugar:",
+    "Boiling water",
+    "Fresh Milk"
+  ],
+  "ingredient_names_normalized": [
+    "ca phe den hoa tan",
+    "duong",
+    "nuoc dun soi",
+    "sua tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca phe bot bien (ca phe dalgona han quoc)",
+      "new": "ca phe bot bien ca phe dalgona han quoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong:",
+      "new": "duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường:"
+    }
+  ]
+}

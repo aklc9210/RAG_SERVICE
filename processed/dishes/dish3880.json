@@ -1,0 +1,98 @@
+{
+  "id": "dish3880",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3880.json",
+  "name_vi": "Gà ác nướng lá chanh",
+  "name_en": "",
+  "name_normalized": "ga ac nuong la chanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà ác"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Xiên tre"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02411",
+    "ingre03370",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre02124",
+    "ingre04694",
+    "ingre07327",
+    "ingre02355",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà ác",
+    "Lá chanh",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Xiên tre",
+    "Giấm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chinese Gooseberry",
+    "Lime leaf",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce",
+    "Skewer",
+    "Vinegar",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga ac",
+    "la chanh",
+    "toi",
+    "hanh tim",
+    "ot",
+    "dau an",
+    "nuoc mam",
+    "xien tre",
+    "giam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

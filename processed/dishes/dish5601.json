@@ -1,0 +1,72 @@
+{
+  "id": "dish5601",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5601.json",
+  "name_vi": "Cá nục kho kiểu Huế",
+  "name_en": "",
+  "name_normalized": "ca nuc kho kieu hue",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục"
+  ],
+  "secondary_ingredients": [
+    "Mỡ heo",
+    "Nước mía"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường thốt nốt",
+    "Tỏi/ ớt đỏ/ tiêu xanh",
+    "Rượu mai quế lộ"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre04694",
+    "ingre07647",
+    "ingre07125",
+    "ingre05543",
+    "ingre04192",
+    "ingre04688"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Nước mắm",
+    "Đường thốt nốt",
+    "Tỏi/ ớt đỏ/ tiêu xanh",
+    "Rượu mai quế lộ",
+    "Mỡ heo",
+    "Nước mía"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Fish Sauce",
+    "Cane Sugar",
+    "Garlic/Red Pepper/Green Pepper",
+    "Sake Plum Ginger Wine",
+    "Pork fat",
+    "Sugarcane juice"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "nuoc mam",
+    "duong thot not",
+    "toi ot do tieu xanh",
+    "ruou mai que lo",
+    "mo heo",
+    "nuoc mia"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ ot do/ tieu xanh",
+      "new": "toi ot do tieu xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ ớt đỏ/ tiêu xanh"
+    }
+  ]
+}

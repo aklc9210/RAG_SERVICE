@@ -1,0 +1,67 @@
+{
+  "id": "dish4158",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4158.json",
+  "name_vi": "Chân giò nướng giấy bạc",
+  "name_en": "",
+  "name_normalized": "chan gio nuong giay bac",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Thịt chân giò heo"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Tỏi",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05900",
+    "ingre04124",
+    "ingre02080",
+    "ingre07063",
+    "ingre03746",
+    "ingre06343"
+  ],
+  "ingredient_names_vi": [
+    "Sả",
+    "Mật ong",
+    "Dầu hào",
+    "Tỏi",
+    "Muối",
+    "Thịt chân giò heo"
+  ],
+  "ingredient_names_en": [
+    "Lemongrass",
+    "Honey",
+    "Soy sauce",
+    "Garlic",
+    "Salt",
+    "Pork trotter"
+  ],
+  "ingredient_names_normalized": [
+    "sa",
+    "mat ong",
+    "dau hao",
+    "toi",
+    "muoi",
+    "thit chan gio heo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

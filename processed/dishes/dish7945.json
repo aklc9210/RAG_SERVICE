@@ -1,0 +1,93 @@
+{
+  "id": "dish7945",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7945.json",
+  "name_vi": "Lẩu gà hầm sả",
+  "name_en": "",
+  "name_normalized": "lau ga ham sa",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Đùi gà",
+    "Nấm rơm",
+    "Củ cải trắng"
+  ],
+  "secondary_ingredients": [
+    "Sả cây",
+    "Nước nghệ tươi",
+    "Hành tím",
+    "Rau ăn kèm lẩu",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Ớt sa tế",
+    "Rượu trắng",
+    "Gừng"
+  ],
+  "ingredient_ids": [
+    "ingre07551",
+    "ingre04953",
+    "ingre01868",
+    "ingre05909",
+    "ingre08050",
+    "ingre04727",
+    "ingre05574",
+    "ingre02768",
+    "ingre02485",
+    "ingre05422",
+    "ingre00357"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà",
+    "Nấm rơm",
+    "Củ cải trắng",
+    "Sả cây",
+    "Ớt sa tế",
+    "Nước nghệ tươi",
+    "Rượu trắng",
+    "Hành tím",
+    "Gừng",
+    "Rau ăn kèm lẩu",
+    "Bún tươi"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Strawberry mushroom",
+    "White radish",
+    "Fresh Ginger",
+    "Bird's Eye Chili",
+    "Fresh Turmeric Water",
+    "White wine",
+    "Shallot",
+    "Ginger",
+    "Accompanying salad vegetables",
+    "Fresh noodle"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga",
+    "nam rom",
+    "cu cai trang",
+    "sa cay",
+    "ot sa te",
+    "nuoc nghe tuoi",
+    "ruou trang",
+    "hanh tim",
+    "gung",
+    "rau an kem lau",
+    "bun tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

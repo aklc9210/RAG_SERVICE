@@ -1,0 +1,25 @@
+{
+  "id": "ingre01312",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01312.json",
+  "name_vi": "chồi đậu hà lan/rau cải mầm",
+  "name_en": "Green Bean Sprouts/Mung Bean Sprouts",
+  "name_normalized": "choi dau ha lan rau cai mam",
+  "synonyms": [
+    "chồi đậu đũa"
+  ],
+  "synonyms_normalized": [
+    "choi dau dua"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "choi dau ha lan/rau cai mam",
+      "new": "choi dau ha lan rau cai mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

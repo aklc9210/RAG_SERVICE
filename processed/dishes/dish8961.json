@@ -1,0 +1,87 @@
+{
+  "id": "dish8961",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8961.json",
+  "name_vi": "Bao tử ngâm sả ớt",
+  "name_en": "",
+  "name_normalized": "bao tu ngam sa ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Hành tây",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tương ớt ăn kèm"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre02741",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre02020",
+    "ingre07044"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Hành tây",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Dưa leo",
+    "Tương ớt ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Onion",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Cucumber",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "hanh tay",
+    "sa",
+    "gung",
+    "toi",
+    "hat nem",
+    "muoi",
+    "duong",
+    "dua leo",
+    "tuong ot an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

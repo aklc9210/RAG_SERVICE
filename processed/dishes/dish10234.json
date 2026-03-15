@@ -1,0 +1,62 @@
+{
+  "id": "dish10234",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10234.json",
+  "name_vi": "Bọt sữa milk foam (macchiato)",
+  "name_en": "",
+  "name_normalized": "bot sua milk foam macchiato",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Topping cream",
+    "Hồng trà"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07313",
+    "ingre06676",
+    "ingre06147",
+    "ingre03746",
+    "ingre03103"
+  ],
+  "ingredient_names_vi": [
+    "Whipping cream",
+    "Topping cream",
+    "Sữa tươi không đường",
+    "Muối",
+    "Hồng trà"
+  ],
+  "ingredient_names_en": [
+    "Whipping cream",
+    "Topping cream -> Topping cream",
+    "Fat-free Milk",
+    "Salt",
+    "Red Tea"
+  ],
+  "ingredient_names_normalized": [
+    "whipping cream",
+    "topping cream",
+    "sua tuoi khong duong",
+    "muoi",
+    "hong tra"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot sua milk foam (macchiato)",
+      "new": "bot sua milk foam macchiato",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

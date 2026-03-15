@@ -1,0 +1,78 @@
+{
+  "id": "dish4410",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4410.json",
+  "name_vi": "Thịt heo xào gừng",
+  "name_en": "",
+  "name_normalized": "thit heo xao gung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Gừng tươi xay nhuyễn",
+    "Mirin",
+    "Rượu nấu ăn",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre02522",
+    "ingre05420",
+    "ingre03703",
+    "ingre05552",
+    "ingre04790",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Gừng tươi xay nhuyễn",
+    "Rau ăn kèm",
+    "Mirin",
+    "Rượu nấu ăn",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Ginger Paste",
+    "Side vegetable",
+    "Mirin -> Mirin (already in English)",
+    "Cooking wine",
+    "Soy Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "gung tuoi xay nhuyen",
+    "rau an kem",
+    "mirin",
+    "ruou nau an",
+    "nuoc tuong",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

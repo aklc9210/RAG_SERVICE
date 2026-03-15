@@ -1,0 +1,80 @@
+{
+  "id": "dish6458",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6458.json",
+  "name_vi": "Cá kìm rán (chiên) nước mắm",
+  "name_en": "",
+  "name_normalized": "ca kim ran chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá kìm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01539",
+    "ingre07063",
+    "ingre04694",
+    "ingre07028",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá kìm",
+    "Tỏi",
+    "Nước mắm",
+    "Tương ớt",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Garlic",
+    "Fish Sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca kim",
+    "toi",
+    "nuoc mam",
+    "tuong ot",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca kim ran (chien) nuoc mam",
+      "new": "ca kim ran chien nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

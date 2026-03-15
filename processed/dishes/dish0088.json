@@ -1,0 +1,119 @@
+{
+  "id": "dish0088",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0088.json",
+  "name_vi": "Canh mực nấu dứa",
+  "name_en": "",
+  "name_normalized": "canh muc nau dua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Mực ống",
+    "Dứa",
+    "Giá"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Ngò",
+    "Hành lá",
+    "Thìa là",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Đường/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre02151",
+    "ingre02329",
+    "ingre01354",
+    "ingre04326",
+    "ingre02673",
+    "ingre06239",
+    "ingre02485",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre00587",
+    "ingre07685"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Dứa",
+    "Giá",
+    "Cà chua",
+    "Ngò",
+    "Hành lá",
+    "Thìa là",
+    "Gừng",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Bột canh",
+    "Đường/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Pineapple",
+    "Mint",
+    "Tomato",
+    "Cilantro",
+    "Scallion",
+    "Coriander",
+    "Ginger",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Cornstarch",
+    "Cinnamon Powder"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "dua",
+    "gia",
+    "ca chua",
+    "ngo",
+    "hanh la",
+    "thia la",
+    "gung",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "bot canh",
+    "duong tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "dish4316",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4316.json",
+  "name_vi": "Vịt nướng nồi đất",
+  "name_en": "",
+  "name_normalized": "vit nuong noi dat",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vịt",
+    "Sả",
+    "Lá chúc cắt nhỏ"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Vỏ tắc băm",
+    "Dưa leo",
+    "Mỡ vịt"
+  ],
+  "seasonings": [
+    "Nước cốt tắc",
+    "Tỏi băm",
+    "Nước sả",
+    "Ớt hiểm băm",
+    "Ớt sừng"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre05900",
+    "ingre03400",
+    "ingre04124",
+    "ingre04591",
+    "ingre07278",
+    "ingre07071",
+    "ingre04751",
+    "ingre08027",
+    "ingre02020",
+    "ingre08055",
+    "ingre04213"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Sả",
+    "Lá chúc cắt nhỏ",
+    "Mật ong",
+    "Nước cốt tắc",
+    "Vỏ tắc băm",
+    "Tỏi băm",
+    "Nước sả",
+    "Ớt hiểm băm",
+    "Dưa leo",
+    "Ớt sừng",
+    "Mỡ vịt"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Lemongrass",
+    "Chervil",
+    "Honey",
+    "Tamarind juice",
+    "Tangerine Peel",
+    "Minced Garlic",
+    "Lemongrass Water",
+    "Chili flakes",
+    "Cucumber",
+    "Hot pepper",
+    "Duck Fat"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "sa",
+    "la chuc cat nho",
+    "mat ong",
+    "nuoc cot tac",
+    "vo tac bam",
+    "toi bam",
+    "nuoc sa",
+    "ot hiem bam",
+    "dua leo",
+    "ot sung",
+    "mo vit"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

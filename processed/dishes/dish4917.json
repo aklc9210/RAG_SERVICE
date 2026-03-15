@@ -1,0 +1,94 @@
+{
+  "id": "dish4917",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4917.json",
+  "name_vi": "Nghêu sốt chanh dây",
+  "name_en": "",
+  "name_normalized": "ngheu sot chanh day",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nghêu"
+  ],
+  "secondary_ingredients": [
+    "Rau nêm",
+    "Sả"
+  ],
+  "seasonings": [
+    "Chanh dây",
+    "Bơ tường an",
+    "Tỏi băm",
+    "Tương ớt",
+    "Đường;muối;hạt nêm;nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre04303",
+    "ingre01081",
+    "ingre05344",
+    "ingre05900",
+    "ingre00408",
+    "ingre07071",
+    "ingre07028",
+    "ingre07697"
+  ],
+  "ingredient_names_vi": [
+    "Nghêu",
+    "Chanh dây",
+    "Rau nêm",
+    "Sả",
+    "Bơ tường an",
+    "Tỏi băm",
+    "Tương ớt",
+    "Đường;muối;hạt nêm;nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Watermelon vine tendril",
+    "Coriander",
+    "Lemongrass",
+    "Butterwort",
+    "Minced Garlic",
+    "Hot Sauce",
+    "Sugar;Salt;Seasoning;Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ngheu",
+    "chanh day",
+    "rau nem",
+    "sa",
+    "bo tuong an",
+    "toi bam",
+    "tuong ot",
+    "duong muoi hat nem nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong;muoi;hat nem;nuoc mam",
+      "new": "duong muoi hat nem nuoc mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường;muối;hạt nêm;nước mắm"
+    }
+  ]
+}

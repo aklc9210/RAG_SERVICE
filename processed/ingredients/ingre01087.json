@@ -1,0 +1,29 @@
+{
+  "id": "ingre01087",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01087.json",
+  "name_vi": "chanh leo (15ml nước cốt)",
+  "name_en": "Tamarind",
+  "name_normalized": "chanh leo 15ml nuoc cot",
+  "synonyms": [
+    "cam quýt",
+    "cam",
+    "quýt"
+  ],
+  "synonyms_normalized": [
+    "cam quyt",
+    "cam",
+    "quyt"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh leo (15ml nuoc cot)",
+      "new": "chanh leo 15ml nuoc cot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

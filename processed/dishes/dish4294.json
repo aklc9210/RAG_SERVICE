@@ -1,0 +1,92 @@
+{
+  "id": "dish4294",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4294.json",
+  "name_vi": "Bò Wellington",
+  "name_en": "",
+  "name_normalized": "bo wellington",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thăn bò",
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Dầu oilu"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Sữa tươi không đường",
+    "Bột bánh ngàn lớp",
+    "Trứng gà",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Mù tạt vàng",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06244",
+    "ingre04945",
+    "ingre00791",
+    "ingre06147",
+    "ingre00538",
+    "ingre06823",
+    "ingre07071",
+    "ingre02774",
+    "ingre04055",
+    "ingre02103",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Thăn bò",
+    "Nấm mỡ",
+    "Bột mì đa dụng",
+    "Sữa tươi không đường",
+    "Bột bánh ngàn lớp",
+    "Trứng gà",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Mù tạt vàng",
+    "Dầu oilu",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Fried mushroom",
+    "All-purpose flour",
+    "Fat-free Milk",
+    "Layer Cake Flour",
+    "Chicken egg",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Mustard Yellow",
+    "Olive oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "than bo",
+    "nam mo",
+    "bot mi da dung",
+    "sua tuoi khong duong",
+    "bot banh ngan lop",
+    "trung ga",
+    "toi bam",
+    "hanh tim bam",
+    "mu tat vang",
+    "dau oilu",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

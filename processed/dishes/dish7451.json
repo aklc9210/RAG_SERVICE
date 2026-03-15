@@ -1,0 +1,104 @@
+{
+  "id": "dish7451",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7451.json",
+  "name_vi": "Cá hồi sốt cà chua",
+  "name_en": "",
+  "name_normalized": "ca hoi sot ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá hồi",
+    "Nước dừa",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau ngò"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh:",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre04622",
+    "ingre01354",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre05321",
+    "ingre01105",
+    "ingre02995",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Nước dừa",
+    "Cà chua",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Rau ngò",
+    "Chanh:",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Coconut water",
+    "Tomato",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Culantro",
+    "Lemon",
+    "Seasoning",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "nuoc dua",
+    "ca chua",
+    "hanh tim",
+    "toi",
+    "ot",
+    "rau ngo",
+    "chanh",
+    "hat nem",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chanh:",
+      "new": "chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chanh:"
+    }
+  ]
+}

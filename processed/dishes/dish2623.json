@@ -1,0 +1,68 @@
+{
+  "id": "dish2623",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2623.json",
+  "name_vi": "Bánh bông lan sữa chua đào",
+  "name_en": "",
+  "name_normalized": "banh bong lan sua chua dao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa chua",
+    "Đào cắt hạt lựu",
+    "Đào cắt miếng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn",
+    "Bột làm bánh",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre07583",
+    "ingre02124",
+    "ingre06088",
+    "ingre00716",
+    "ingre03746",
+    "ingre07509",
+    "ingre07508"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn",
+    "Sữa chua",
+    "Bột làm bánh",
+    "Muối",
+    "Đào cắt hạt lựu",
+    "Đào cắt miếng"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Sugar",
+    "Cooking oil",
+    "Yogurt",
+    "Baking powder",
+    "Salt",
+    "Peach diced",
+    "Peach Slice"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "duong",
+    "dau an",
+    "sua chua",
+    "bot lam banh",
+    "muoi",
+    "dao cat hat luu",
+    "dao cat mieng"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dish4880",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4880.json",
+  "name_vi": "Cá cơm xào khế",
+  "name_en": "",
+  "name_normalized": "ca com xao khe",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Khô cá cơm",
+    "Khế"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng băm",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03247",
+    "ingre03268",
+    "ingre02673",
+    "ingre07966",
+    "ingre02492",
+    "ingre02124",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá cơm",
+    "Khế",
+    "Hành lá",
+    "Ớt",
+    "Gừng băm",
+    "Dầu ăn",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Dried anchovy",
+    "Kumquat",
+    "Scallion",
+    "Pepper",
+    "Ginger paste",
+    "Cooking oil",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca com",
+    "khe",
+    "hanh la",
+    "ot",
+    "gung bam",
+    "dau an",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "dish4852",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4852.json",
+  "name_vi": "Nấm đông cô xào sả ớt",
+  "name_en": "",
+  "name_normalized": "nam dong co xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm đông cô tươi",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Nước tương",
+    "Bột nêm chay",
+    "Tương ớt",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre04971",
+    "ingre05900",
+    "ingre08055",
+    "ingre02673",
+    "ingre04790",
+    "ingre00840",
+    "ingre07028",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đông cô tươi",
+    "Sả",
+    "Ớt sừng",
+    "Hành lá",
+    "Nước tương",
+    "Bột nêm chay",
+    "Tương ớt",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh enoki mushrooms",
+    "Lemongrass",
+    "Hot pepper",
+    "Scallion",
+    "Soy Sauce",
+    "Vegetarian Seasoning Powder",
+    "Hot Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam dong co tuoi",
+    "sa",
+    "ot sung",
+    "hanh la",
+    "nuoc tuong",
+    "bot nem chay",
+    "tuong ot",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dish9000",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9000.json",
+  "name_vi": "Rau câu lá dứa nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "rau cau la dua nuoc cot dua",
+  "category": "an vat",
+  "main_ingredients": [
+    "Lá dứa",
+    "Nước hương lá dứa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu",
+    "Bột cốt dừa",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00892",
+    "ingre00638",
+    "ingre03417",
+    "ingre04640",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu",
+    "Bột cốt dừa",
+    "Lá dứa",
+    "Nước hương lá dứa",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Agar agar",
+    "Coconut flour",
+    "Pandan叶",
+    "Lime leaf essence",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau",
+    "bot cot dua",
+    "la dua",
+    "nuoc huong la dua",
+    "duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

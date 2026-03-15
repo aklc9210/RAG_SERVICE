@@ -1,0 +1,63 @@
+{
+  "id": "dish2908",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2908.json",
+  "name_vi": "Bánh Scone",
+  "name_en": "",
+  "name_normalized": "banh scone",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì Cake flour",
+    "Đường",
+    "Muối",
+    "Bột nở",
+    "Trứng"
+  ],
+  "ingredient_ids": [
+    "ingre00762",
+    "ingre07583",
+    "ingre03746",
+    "ingre00867",
+    "ingre00382",
+    "ingre06801",
+    "ingre06144"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì Cake flour",
+    "Đường",
+    "Muối",
+    "Bột nở",
+    "Bơ lạt",
+    "Trứng",
+    "Sữa tươi"
+  ],
+  "ingredient_names_en": [
+    "Cake Flour",
+    "Sugar",
+    "Salt",
+    "Baking powder",
+    "Butter",
+    "Egg",
+    "Fresh Milk"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi cake flour",
+    "duong",
+    "muoi",
+    "bot no",
+    "bo lat",
+    "trung",
+    "sua tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

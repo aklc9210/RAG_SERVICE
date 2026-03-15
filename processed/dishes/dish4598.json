@@ -1,0 +1,71 @@
+{
+  "id": "dish4598",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4598.json",
+  "name_vi": "Mì xào thịt heo",
+  "name_en": "",
+  "name_normalized": "mi xao thit heo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì gói",
+    "Thịt ba chỉ heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt chuông",
+    "Tỏi",
+    "Dầu ăn",
+    "Tương cà",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03963",
+    "ingre06280",
+    "ingre07999",
+    "ingre07063",
+    "ingre02124",
+    "ingre06984",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Mì gói",
+    "Thịt ba chỉ heo",
+    "Ớt chuông",
+    "Tỏi",
+    "Dầu ăn",
+    "Tương cà",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Pork belly",
+    "Bell pepper",
+    "Garlic",
+    "Cooking oil",
+    "Miso酱",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "mi goi",
+    "thit ba chi heo",
+    "ot chuong",
+    "toi",
+    "dau an",
+    "tuong ca",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

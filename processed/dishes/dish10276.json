@@ -1,0 +1,52 @@
+{
+  "id": "dish10276",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10276.json",
+  "name_vi": "Nước ép việt quất",
+  "name_en": "",
+  "name_normalized": "nuoc ep viet quat",
+  "category": "nuoc ep",
+  "main_ingredients": [
+    "Việt quất",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre07172",
+    "ingre04490",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Việt quất",
+    "Nước",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Blueberry",
+    "Water",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "viet quat",
+    "nuoc",
+    "muoi duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

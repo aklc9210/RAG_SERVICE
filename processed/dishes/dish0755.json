@@ -1,0 +1,108 @@
+{
+  "id": "dish0755",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0755.json",
+  "name_vi": "Canh chua cá lăng bông điên điển",
+  "name_en": "",
+  "name_normalized": "canh chua ca lang bong dien dien",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá lăng",
+    "Bông điên điển",
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Ngò gai",
+    "Me vắt"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi băm",
+    "Nước mắm",
+    "Giấm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre00296",
+    "ingre07966",
+    "ingre01812",
+    "ingre04329",
+    "ingre07071",
+    "ingre03663",
+    "ingre04694",
+    "ingre02355",
+    "ingre05574",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Bông điên điển",
+    "Ớt",
+    "Cần tây",
+    "Ngò gai",
+    "Tỏi băm",
+    "Me vắt",
+    "Nước mắm",
+    "Giấm",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Dandelion flower",
+    "Pepper",
+    "Celery",
+    "Culantro",
+    "Minced Garlic",
+    "Lemon juice",
+    "Fish Sauce",
+    "Vinegar",
+    "White wine",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "bong dien dien",
+    "ot",
+    "can tay",
+    "ngo gai",
+    "toi bam",
+    "me vat",
+    "nuoc mam",
+    "giam",
+    "ruou trang",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    }
+  ]
+}

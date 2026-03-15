@@ -1,0 +1,88 @@
+{
+  "id": "dish1876",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1876.json",
+  "name_vi": "Bánh coca cola",
+  "name_en": "",
+  "name_normalized": "banh coca cola",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Coca cola",
+    "Bơ lạt",
+    "Buttermilk",
+    "Kẹo marshmallow",
+    "Quả óc chó",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Bột cacao",
+    "Baking soda",
+    "Trứng gà",
+    "Đường bột",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre00576",
+    "ingre00018",
+    "ingre01315",
+    "ingre00382",
+    "ingre06823",
+    "ingre00056",
+    "ingre03314",
+    "ingre05181",
+    "ingre07589",
+    "ingre07583",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Bột cacao",
+    "Baking soda",
+    "Coca cola",
+    "Bơ lạt",
+    "Trứng gà",
+    "Buttermilk",
+    "Kẹo marshmallow",
+    "Quả óc chó",
+    "Đường bột",
+    "Đường",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Cocoa powder",
+    "Baking soda",
+    "Coca-Cola",
+    "Butter",
+    "Chicken egg",
+    "Buttermilk",
+    "Marshmallow",
+    "Walnut",
+    "Sugar Powder",
+    "Sugar",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "bot cacao",
+    "baking soda",
+    "coca cola",
+    "bo lat",
+    "trung ga",
+    "buttermilk",
+    "keo marshmallow",
+    "qua oc cho",
+    "duong bot",
+    "duong",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "dish5072",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5072.json",
+  "name_vi": "Ớt chuông xào tôm",
+  "name_en": "",
+  "name_normalized": "ot chuong xao tom",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm đông lạnh đã bỏ vỏ",
+    "Nấm mỡ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Rau mùi/ hành lá"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Tỏi",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06972",
+    "ingre07999",
+    "ingre04945",
+    "ingre02768",
+    "ingre07063",
+    "ingre05317",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Tôm đông lạnh đã bỏ vỏ",
+    "Ớt chuông",
+    "Nấm mỡ",
+    "Hành tím",
+    "Tỏi",
+    "Rau mùi/ hành lá",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Frozen peeled shrimp",
+    "Bell pepper",
+    "Fried mushroom",
+    "Shallot",
+    "Garlic",
+    "Mint/Parsley",
+    "Soy Sauce",
+    "Cooking oil",
+    "MSG",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom dong lanh da bo vo",
+    "ot chuong",
+    "nam mo",
+    "hanh tim",
+    "toi",
+    "rau mui hanh la",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "bot ngot",
+    "hat nem",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau mui/ hanh la",
+      "new": "rau mui hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau mùi/ hành lá"
+    }
+  ]
+}

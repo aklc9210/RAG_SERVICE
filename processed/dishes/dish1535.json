@@ -1,0 +1,77 @@
+{
+  "id": "dish1535",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1535.json",
+  "name_vi": "Bánh mì cua phô mai",
+  "name_en": "",
+  "name_normalized": "banh mi cua pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ",
+    "Phô mai",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Bột mì đa dụng",
+    "Trứng",
+    "Men nở",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre00791",
+    "ingre06801",
+    "ingre00367",
+    "ingre05054",
+    "ingre06144",
+    "ingre03686",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Bột mì đa dụng",
+    "Trứng",
+    "Bơ",
+    "Phô mai",
+    "Sữa tươi",
+    "Men nở",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "All-purpose flour",
+    "Egg",
+    "Butter",
+    "Cheese",
+    "Fresh Milk",
+    "Baking Powder",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "bot mi da dung",
+    "trung",
+    "bo",
+    "pho mai",
+    "sua tuoi",
+    "men no",
+    "muoi duong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

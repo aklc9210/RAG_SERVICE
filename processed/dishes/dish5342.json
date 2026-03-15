@@ -1,0 +1,90 @@
+{
+  "id": "dish5342",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5342.json",
+  "name_vi": "Ngỗng xào lăn",
+  "name_en": "",
+  "name_normalized": "ngong xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ngỗng",
+    "Sả",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối hạt",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre04394",
+    "ingre05900",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre02124",
+    "ingre02080",
+    "ingre03760",
+    "ingre02995",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Ngỗng",
+    "Sả",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Dầu hào",
+    "Muối hạt",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Goose",
+    "Lemongrass",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Cooking oil",
+    "Soy sauce",
+    "Fenugreek seeds",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ngong",
+    "sa",
+    "hanh tay",
+    "toi",
+    "ot",
+    "dau an",
+    "dau hao",
+    "muoi hat",
+    "hat nem",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

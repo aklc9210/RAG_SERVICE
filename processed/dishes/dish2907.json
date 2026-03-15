@@ -1,0 +1,87 @@
+{
+  "id": "dish2907",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2907.json",
+  "name_vi": "Funnel cake",
+  "name_en": "",
+  "name_normalized": "funnel cake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa tươi",
+    "Tinh chất vani",
+    "Chuối/Nho"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Bột nở",
+    "Muối",
+    "Trứng gà",
+    "Dầu ăn",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre07583",
+    "ingre00867",
+    "ingre03746",
+    "ingre06823",
+    "ingre06144",
+    "ingre06592",
+    "ingre02124",
+    "ingre07589",
+    "ingre01199"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Bột nở",
+    "Muối",
+    "Trứng gà",
+    "Sữa tươi",
+    "Tinh chất vani",
+    "Dầu ăn",
+    "Đường bột",
+    "Chuối/Nho"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Sugar",
+    "Baking powder",
+    "Salt",
+    "Chicken egg",
+    "Fresh Milk",
+    "Vanilla extract",
+    "Cooking oil",
+    "Sugar Powder",
+    "Banana/Grape"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "duong",
+    "bot no",
+    "muoi",
+    "trung ga",
+    "sua tuoi",
+    "tinh chat vani",
+    "dau an",
+    "duong bot",
+    "chuoi nho"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chuoi/nho",
+      "new": "chuoi nho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chuối/Nho"
+    }
+  ]
+}

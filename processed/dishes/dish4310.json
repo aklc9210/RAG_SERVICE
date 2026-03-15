@@ -1,0 +1,100 @@
+{
+  "id": "dish4310",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4310.json",
+  "name_vi": "Sườn bò băm nướng (Tteokgalbi) Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "suon bo bam nuong tteokgalbi han quoc",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn bò"
+  ],
+  "secondary_ingredients": [
+    "Siro gạo",
+    "Hành tây",
+    "Mật ong",
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Mirin",
+    "Tỏi",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05872",
+    "ingre04790",
+    "ingre03703",
+    "ingre07063",
+    "ingre05694",
+    "ingre02741",
+    "ingre04124",
+    "ingre02673",
+    "ingre02094",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Sườn bò",
+    "Nước tương",
+    "Mirin",
+    "Tỏi",
+    "Siro gạo",
+    "Hành tây",
+    "Mật ong",
+    "Hành lá",
+    "Dầu mè",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef ribs",
+    "Soy Sauce",
+    "Mirin -> Mirin (already in English)",
+    "Garlic",
+    "Rice syrup",
+    "Onion",
+    "Honey",
+    "Scallion",
+    "Sesame oil",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon bo",
+    "nuoc tuong",
+    "mirin",
+    "toi",
+    "siro gao",
+    "hanh tay",
+    "mat ong",
+    "hanh la",
+    "dau me",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "suon bo bam nuong (tteokgalbi) han quoc",
+      "new": "suon bo bam nuong tteokgalbi han quoc",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

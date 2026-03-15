@@ -1,0 +1,52 @@
+{
+  "id": "dish10536",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10536.json",
+  "name_vi": "Socola nhân Rum",
+  "name_en": "",
+  "name_normalized": "socola nhan rum",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Socola nguyên chất 55 - 65%",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Rượu rum"
+  ],
+  "ingredient_ids": [
+    "ingre05750",
+    "ingre07313",
+    "ingre05557"
+  ],
+  "ingredient_names_vi": [
+    "Socola nguyên chất 55 - 65%",
+    "Whipping cream",
+    "Rượu rum"
+  ],
+  "ingredient_names_en": [
+    "Dark Chocolate 55-65%",
+    "Whipping cream",
+    "Rum"
+  ],
+  "ingredient_names_normalized": [
+    "socola nguyen chat 55 65",
+    "whipping cream",
+    "ruou rum"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "socola nguyen chat 55 - 65%",
+      "new": "socola nguyen chat 55 65",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Socola nguyên chất 55 - 65%"
+    }
+  ]
+}

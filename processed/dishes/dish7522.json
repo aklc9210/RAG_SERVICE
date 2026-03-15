@@ -1,0 +1,62 @@
+{
+  "id": "dish7522",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7522.json",
+  "name_vi": "Xôi ngô dừa",
+  "name_en": "",
+  "name_normalized": "xoi ngo dua",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Gạo nếp"
+  ],
+  "secondary_ingredients": [
+    "Dừa nạo"
+  ],
+  "seasonings": [
+    "Ngô ngọt/bắp",
+    "Nước cốt dừa",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre04369",
+    "ingre02182",
+    "ingre04554",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Ngô ngọt/bắp",
+    "Dừa nạo",
+    "Nước cốt dừa",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Sweet Corn/Corn",
+    "Coconut grated",
+    "Coconut milk",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "ngo ngot bap",
+    "dua nao",
+    "nuoc cot dua",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo ngot/bap",
+      "new": "ngo ngot bap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngô ngọt/bắp"
+    }
+  ]
+}

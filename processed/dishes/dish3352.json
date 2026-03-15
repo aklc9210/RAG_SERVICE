@@ -1,0 +1,115 @@
+{
+  "id": "dish3352",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3352.json",
+  "name_vi": "Bún mọc chay (ít calo)",
+  "name_en": "",
+  "name_normalized": "bun moc chay it calo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bún gạo lứt",
+    "Đậu phụ"
+  ],
+  "secondary_ingredients": [
+    "Súp lơ",
+    "Hành tây",
+    "Củ cải trắng",
+    "Dứa",
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Bột mì",
+    "Cà rốt",
+    "Ngô ngọt",
+    "Bột canh",
+    "Dầu hào chay",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00343",
+    "ingre07810",
+    "ingre00849",
+    "ingre00759",
+    "ingre01419",
+    "ingre05842",
+    "ingre02741",
+    "ingre01868",
+    "ingre02151",
+    "ingre04368",
+    "ingre01354",
+    "ingre00587",
+    "ingre02081",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bún gạo lứt",
+    "Đậu phụ",
+    "Bột năng",
+    "Bột mì",
+    "Cà rốt",
+    "Súp lơ",
+    "Hành tây",
+    "Củ cải trắng",
+    "Dứa",
+    "Ngô ngọt",
+    "Cà chua",
+    "Bột canh",
+    "Dầu hào chay",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Brown Rice Vermicelli",
+    "Tofu",
+    "Cornstarch",
+    "Wheat Flour",
+    "Carrot",
+    "Broccoli",
+    "Onion",
+    "White radish",
+    "Pineapple",
+    "Sweet Corn",
+    "Tomato",
+    "Vegetarian soy sauce",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bun gao lut",
+    "dau phu",
+    "bot nang",
+    "bot mi",
+    "ca rot",
+    "sup lo",
+    "hanh tay",
+    "cu cai trang",
+    "dua",
+    "ngo ngot",
+    "ca chua",
+    "bot canh",
+    "dau hao chay",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bun moc chay (it calo)",
+      "new": "bun moc chay it calo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dish5420",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5420.json",
+  "name_vi": "Sò huyết xào bơ tỏi",
+  "name_en": "",
+  "name_normalized": "so huyet xao bo toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sò huyết",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05819",
+    "ingre05359",
+    "ingre07063",
+    "ingre00382",
+    "ingre02080",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Sò huyết",
+    "Rau răm",
+    "Tỏi",
+    "Bơ lạt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Blood clam",
+    "Vietnamese coriander",
+    "Garlic",
+    "Butter",
+    "Soy sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "so huyet",
+    "rau ram",
+    "toi",
+    "bo lat",
+    "dau hao",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

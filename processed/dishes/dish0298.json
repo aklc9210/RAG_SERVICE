@@ -1,0 +1,86 @@
+{
+  "id": "dish0298",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0298.json",
+  "name_vi": "Canh nấm hải sản",
+  "name_en": "",
+  "name_normalized": "canh nam hai san",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Nấm hải sản",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Dứa",
+    "Hành lá",
+    "Mùi tàu"
+  ],
+  "seasonings": [
+    "Nước cốt me",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04917",
+    "ingre01354",
+    "ingre02151",
+    "ingre02673",
+    "ingre04057",
+    "ingre04581",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Nấm hải sản",
+    "Cà chua",
+    "Dứa",
+    "Hành lá",
+    "Mùi tàu",
+    "Nước cốt me",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Seafood mushrooms",
+    "Tomato",
+    "Pineapple",
+    "Scallion",
+    "Chinese herb",
+    "Lime juice",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "nam hai san",
+    "ca chua",
+    "dua",
+    "hanh la",
+    "mui tau",
+    "nuoc cot me",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

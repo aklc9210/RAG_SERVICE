@@ -1,0 +1,83 @@
+{
+  "id": "dish3974",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3974.json",
+  "name_vi": "Bò cuộn rau củ thập cẩm",
+  "name_en": "",
+  "name_normalized": "bo cuon rau cu thap cam",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Bí ngòi xanh",
+    "Cần tây",
+    "Mè rang",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Sốt thịt nướng ngũ vị",
+    "Ớt chuông vàng",
+    "Cà rốt"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre02124",
+    "ingre06005",
+    "ingre00239",
+    "ingre08007",
+    "ingre01419",
+    "ingre01812",
+    "ingre03929",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Dầu ăn",
+    "Sốt thịt nướng ngũ vị",
+    "Bí ngòi xanh",
+    "Ớt chuông vàng",
+    "Cà rốt",
+    "Cần tây",
+    "Mè rang",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Cooking oil",
+    "Barbecue Meat Sauce",
+    "Green bitter melon",
+    "Yellow Bell Pepper",
+    "Carrot",
+    "Celery",
+    "Roasted Sesame Seeds",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "dau an",
+    "sot thit nuong ngu vi",
+    "bi ngoi xanh",
+    "ot chuong vang",
+    "ca rot",
+    "can tay",
+    "me rang",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

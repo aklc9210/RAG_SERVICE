@@ -1,0 +1,97 @@
+{
+  "id": "dish4123",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4123.json",
+  "name_vi": "Nấm nướng chay",
+  "name_en": "",
+  "name_normalized": "nam nuong chay",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Nếp",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Nấm đùi gà",
+    "Sate chay",
+    "Nước me",
+    "Rau nêm (ngò gai;ngò rí",
+    "Rau nêm"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Nước mắm chay",
+    "Tương ớt",
+    "Ớt",
+    "Đường thốt nốt"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre07836",
+    "ingre04554",
+    "ingre04974",
+    "ingre04697",
+    "ingre05646",
+    "ingre07028",
+    "ingre04671",
+    "ingre05345",
+    "ingre05344",
+    "ingre07966",
+    "ingre07647"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Đậu xanh",
+    "Nước cốt dừa",
+    "Nấm đùi gà",
+    "Nước mắm chay",
+    "Sate chay",
+    "Tương ớt",
+    "Nước me",
+    "Rau nêm (ngò gai;ngò rí",
+    "Rau nêm",
+    "Ớt",
+    "Đường thốt nốt"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Green beans",
+    "Coconut milk",
+    "Chicken mushroom",
+    "Vegetarian fish sauce",
+    "Vegetarian satay",
+    "Hot Sauce",
+    "Tamarind water",
+    "Cilantro",
+    "Coriander",
+    "Pepper",
+    "Cane Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "dau xanh",
+    "nuoc cot dua",
+    "nam dui ga",
+    "nuoc mam chay",
+    "sate chay",
+    "tuong ot",
+    "nuoc me",
+    "rau nem ngo gai ngo ri",
+    "rau nem",
+    "ot",
+    "duong thot not"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau nem (ngo gai;ngo ri",
+      "new": "rau nem ngo gai ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau nêm (ngò gai;ngò rí"
+    }
+  ]
+}

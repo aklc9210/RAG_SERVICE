@@ -1,0 +1,29 @@
+{
+  "id": "ingre00610",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00610.json",
+  "name_vi": "bột chiên xù/ vụn bánh mì",
+  "name_en": "Panko breadcrumbs",
+  "name_normalized": "bot chien xu vun banh mi",
+  "synonyms": [
+    "bột rán",
+    "bột chiên",
+    "vụn bánh mì xù"
+  ],
+  "synonyms_normalized": [
+    "bot ran",
+    "bot chien",
+    "vun banh mi xu"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot chien xu/ vun banh mi",
+      "new": "bot chien xu vun banh mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

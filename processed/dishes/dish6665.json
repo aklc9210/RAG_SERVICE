@@ -1,0 +1,88 @@
+{
+  "id": "dish6665",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6665.json",
+  "name_vi": "Thịt cuốn phô mai",
+  "name_en": "",
+  "name_normalized": "thit cuon pho mai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Phô mai con bò cười",
+    "Mè rang",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Sốt ướp thịt nướng",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre07063",
+    "ingre02768",
+    "ingre05070",
+    "ingre03929",
+    "ingre02080",
+    "ingre06038",
+    "ingre04124",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Tỏi",
+    "Hành tím",
+    "Phô mai con bò cười",
+    "Mè rang",
+    "Dầu hào",
+    "Sốt ướp thịt nướng",
+    "Mật ong",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Garlic",
+    "Shallot",
+    "Cheese Cow Smile",
+    "Roasted Sesame Seeds",
+    "Soy sauce",
+    "Barbecue marinade",
+    "Honey",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "toi",
+    "hanh tim",
+    "pho mai con bo cuoi",
+    "me rang",
+    "dau hao",
+    "sot uop thit nuong",
+    "mat ong",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

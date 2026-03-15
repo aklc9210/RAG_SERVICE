@@ -1,0 +1,25 @@
+{
+  "id": "ingre02651",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02651.json",
+  "name_vi": "hành boa-rô băm",
+  "name_en": "Chopped Shallot",
+  "name_normalized": "hanh boa ro bam",
+  "synonyms": [
+    "băm hành boa-rô"
+  ],
+  "synonyms_normalized": [
+    "bam hanh boa ro"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh boa-ro bam",
+      "new": "hanh boa ro bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

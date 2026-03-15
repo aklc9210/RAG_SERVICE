@@ -1,0 +1,61 @@
+{
+  "id": "dish6978",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6978.json",
+  "name_vi": "Thịt heo chiên muối",
+  "name_en": "",
+  "name_normalized": "thit heo chien muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt bột",
+    "Ngũ vị hương",
+    "Nước cốt chanh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre07977",
+    "ingre04381",
+    "ingre04538",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Ớt bột",
+    "Ngũ vị hương",
+    "Nước cốt chanh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Chili powder",
+    "Five-Spice Powder",
+    "Lemon juice",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "ot bot",
+    "ngu vi huong",
+    "nuoc cot chanh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

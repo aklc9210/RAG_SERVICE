@@ -1,0 +1,29 @@
+{
+  "id": "ingre03009",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03009.json",
+  "name_vi": "hạt nêm/ bột ngọt/ tiêu xay",
+  "name_en": "Seasoned Salt/UMAMI Powder/ground Pepper",
+  "name_normalized": "hat nem bot ngot tieu xay",
+  "synonyms": [
+    "mì chính",
+    "bột ngọt",
+    "tiêu.ToShortened"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot ngot",
+    "tieu toshortened"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat nem/ bot ngot/ tieu xay",
+      "new": "hat nem bot ngot tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

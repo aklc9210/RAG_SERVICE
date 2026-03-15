@@ -1,0 +1,129 @@
+{
+  "id": "dish8212",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8212.json",
+  "name_vi": "Salad gà áp chảo trộn bơ xoài",
+  "name_en": "",
+  "name_normalized": "salad ga ap chao tron bo xoai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ức gà",
+    "Rau xà lách",
+    "Xoài",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Cà chua bi",
+    "Hành tím",
+    "Rau ngò",
+    "Dầu ô liu",
+    "Mật ong",
+    "Hạnh nhân lát"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Giấm táo",
+    "Mù tạt vàng",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre05410",
+    "ingre07329",
+    "ingre00367",
+    "ingre02020",
+    "ingre01355",
+    "ingre02768",
+    "ingre05321",
+    "ingre07063",
+    "ingre02120",
+    "ingre02372",
+    "ingre04055",
+    "ingre04124",
+    "ingre02892",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Rau xà lách",
+    "Xoài",
+    "Bơ",
+    "Dưa leo",
+    "Cà chua bi",
+    "Hành tím",
+    "Rau ngò",
+    "Tỏi",
+    "Dầu ô liu",
+    "Giấm táo",
+    "Mù tạt vàng",
+    "Mật ong",
+    "Hạnh nhân lát",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "lettuce",
+    "Mango",
+    "Butter",
+    "Cucumber",
+    "Tomato",
+    "Shallot",
+    "Culantro",
+    "Garlic",
+    "Olive oil",
+    "Apple vinegar",
+    "Mustard Yellow",
+    "Honey",
+    "Almond slice",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "rau xa lach",
+    "xoai",
+    "bo",
+    "dua leo",
+    "ca chua bi",
+    "hanh tim",
+    "rau ngo",
+    "toi",
+    "dau o liu",
+    "giam tao",
+    "mu tat vang",
+    "mat ong",
+    "hanh nhan lat",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngò"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

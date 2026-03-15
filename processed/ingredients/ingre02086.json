@@ -1,0 +1,27 @@
+{
+  "id": "ingre02086",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02086.json",
+  "name_vi": "dầu hào:",
+  "name_en": "Soy Sauce:",
+  "name_normalized": "dau hao",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hao:",
+      "new": "dau hao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

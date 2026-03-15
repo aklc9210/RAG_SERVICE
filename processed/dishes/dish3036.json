@@ -1,0 +1,47 @@
+{
+  "id": "dish3036",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3036.json",
+  "name_vi": "Bánh đậu xanh khô",
+  "name_en": "",
+  "name_normalized": "banh dau xanh kho",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Đậu xanh"
+  ],
+  "seasonings": [
+    "Đường."
+  ],
+  "ingredient_ids": [
+    "ingre07836",
+    "ingre07673"
+  ],
+  "ingredient_names_vi": [
+    "Đậu xanh",
+    "Đường."
+  ],
+  "ingredient_names_en": [
+    "Green beans",
+    "Sugar."
+  ],
+  "ingredient_names_normalized": [
+    "dau xanh",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong.",
+      "new": "duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường."
+    }
+  ]
+}

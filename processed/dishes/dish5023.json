@@ -1,0 +1,137 @@
+{
+  "id": "dish5023",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5023.json",
+  "name_vi": "Sò lông xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "so long xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sò lông",
+    "Thơm",
+    "Dưa leo",
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau răm/ Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi băm/ hành băm/ ớt băm",
+    "Ớt",
+    "Sa tế",
+    "Tương xí muội/ tương cà",
+    "Bột bắp",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05820",
+    "ingre06247",
+    "ingre02020",
+    "ingre01354",
+    "ingre02741",
+    "ingre05366",
+    "ingre07075",
+    "ingre07966",
+    "ingre05621",
+    "ingre07010",
+    "ingre00564",
+    "ingre04538",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sò lông",
+    "Thơm",
+    "Dưa leo",
+    "Cà chua",
+    "Hành tây",
+    "Rau răm/ Hành lá",
+    "Tỏi băm/ hành băm/ ớt băm",
+    "Ớt",
+    "Sa tế",
+    "Tương xí muội/ tương cà",
+    "Bột bắp",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Lamb's liver",
+    "Basil",
+    "Cucumber",
+    "Tomato",
+    "Onion",
+    "Parsley/Cilantro",
+    "Chopped Garlic/Chopped Onion/Chopped Pepper",
+    "Pepper",
+    "Fish sauce",
+    "Soy Sauce",
+    "Corn starch",
+    "Lemon juice",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "so long",
+    "thom",
+    "dua leo",
+    "ca chua",
+    "hanh tay",
+    "rau ram hanh la",
+    "toi bam hanh bam ot bam",
+    "ot",
+    "sa te",
+    "tuong xi muoi tuong ca",
+    "bot bap",
+    "nuoc cot chanh",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau ram/ hanh la",
+      "new": "rau ram hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau răm/ Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi bam/ hanh bam/ ot bam",
+      "new": "toi bam hanh bam ot bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi băm/ hành băm/ ớt băm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tuong xi muoi/ tuong ca",
+      "new": "tuong xi muoi tuong ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tương xí muội/ tương cà"
+    }
+  ]
+}

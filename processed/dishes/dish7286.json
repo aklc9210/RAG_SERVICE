@@ -1,0 +1,91 @@
+{
+  "id": "dish7286",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7286.json",
+  "name_vi": "Khổ qua chiên giòn sốt me cay",
+  "name_en": "",
+  "name_normalized": "kho qua chien gion sot me cay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Khổ qua",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Hành ba rô",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước cốt me",
+    "Ớt",
+    "Bột năng",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03271",
+    "ingre01419",
+    "ingre07742",
+    "ingre04581",
+    "ingre02641",
+    "ingre07966",
+    "ingre03929",
+    "ingre00849",
+    "ingre04790",
+    "ingre02124",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua",
+    "Cà rốt",
+    "Đậu hũ chiên",
+    "Nước cốt me",
+    "Hành ba rô",
+    "Ớt",
+    "Mè rang",
+    "Bột năng",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Carrot",
+    "Fried Tofu",
+    "Lime juice",
+    "Leek",
+    "Pepper",
+    "Roasted Sesame Seeds",
+    "Cornstarch",
+    "Soy Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua",
+    "ca rot",
+    "dau hu chien",
+    "nuoc cot me",
+    "hanh ba ro",
+    "ot",
+    "me rang",
+    "bot nang",
+    "nuoc tuong",
+    "dau an",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre02223",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02223.json",
+  "name_vi": "g bánh phồng m (đã chiên giòn",
+  "name_en": "Crunchy Fried Rice Noodles",
+  "name_normalized": "g banh phong m da chien gion",
+  "synonyms": [
+    "bột chiên",
+    "bột phồng tôm",
+    "tôm chiên"
+  ],
+  "synonyms_normalized": [
+    "bot chien",
+    "bot phong tom",
+    "tom chien"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "g banh phong m (da chien gion",
+      "new": "g banh phong m da chien gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

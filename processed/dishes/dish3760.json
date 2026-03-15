@@ -1,0 +1,83 @@
+{
+  "id": "dish3760",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3760.json",
+  "name_vi": "Nọng heo nướng",
+  "name_en": "",
+  "name_normalized": "nong heo nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Nọng heo",
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Dầu điều",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Muối",
+    "Hạt nêm",
+    "Dầu hào",
+    "Bột ớt"
+  ],
+  "ingredient_ids": [
+    "ingre05001",
+    "ingre01106",
+    "ingre02768",
+    "ingre03746",
+    "ingre02995",
+    "ingre02134",
+    "ingre02080",
+    "ingre01015",
+    "ingre04124"
+  ],
+  "ingredient_names_vi": [
+    "Nọng heo",
+    "Chao",
+    "Hành tím",
+    "Muối",
+    "Hạt nêm",
+    "Dầu điều",
+    "Dầu hào",
+    "Bột ớt",
+    "Mật ong"
+  ],
+  "ingredient_names_en": [
+    "Pork rib",
+    "Pickled plum",
+    "Shallot",
+    "Salt",
+    "Seasoning",
+    "Peanut oil",
+    "Soy sauce",
+    "Red Pepper Powder",
+    "Honey"
+  ],
+  "ingredient_names_normalized": [
+    "nong heo",
+    "chao",
+    "hanh tim",
+    "muoi",
+    "hat nem",
+    "dau dieu",
+    "dau hao",
+    "bot ot",
+    "mat ong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dish6702",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6702.json",
+  "name_vi": "Thịt heo chiên sả",
+  "name_en": "",
+  "name_normalized": "thit heo chien sa",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt ba rọi heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hành phi",
+    "Ớt bột",
+    "Nước mắm",
+    "Đường",
+    "Giấm",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06291",
+    "ingre05900",
+    "ingre02730",
+    "ingre07977",
+    "ingre04694",
+    "ingre07583",
+    "ingre02355",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi heo",
+    "Sả",
+    "Hành phi",
+    "Ớt bột",
+    "Nước mắm",
+    "Đường",
+    "Giấm",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Garlic Fried",
+    "Chili powder",
+    "Fish Sauce",
+    "Sugar",
+    "Vinegar",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi heo",
+    "sa",
+    "hanh phi",
+    "ot bot",
+    "nuoc mam",
+    "duong",
+    "giam",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

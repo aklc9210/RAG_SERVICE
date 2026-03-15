@@ -1,0 +1,106 @@
+{
+  "id": "dish1303",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1303.json",
+  "name_vi": "Bánh xèo yến mạch",
+  "name_en": "",
+  "name_normalized": "banh xeo yen mach",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Yến mạch ăn liền"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba rọi",
+    "Tôm",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột năng",
+    "Bột nghệ",
+    "Cà rốt",
+    "Nước cốt dừa",
+    "Dầu hào",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07460",
+    "ingre00598",
+    "ingre00849",
+    "ingre00804",
+    "ingre06289",
+    "ingre06930",
+    "ingre01419",
+    "ingre02741",
+    "ingre02673",
+    "ingre04554",
+    "ingre02080",
+    "ingre03825"
+  ],
+  "ingredient_names_vi": [
+    "Yến mạch ăn liền",
+    "Bột chiên giòn",
+    "Bột năng",
+    "Bột nghệ",
+    "Thịt ba rọi",
+    "Tôm",
+    "Cà rốt",
+    "Hành tây",
+    "Hành lá",
+    "Nước cốt dừa",
+    "Dầu hào",
+    "Muối/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Instant oats",
+    "Puffed Rice Powder",
+    "Cornstarch",
+    "Turmeric Powder",
+    "Pork belly",
+    "Shrimp",
+    "Carrot",
+    "Onion",
+    "Scallion",
+    "Coconut milk",
+    "Soy sauce",
+    "Seasoning Salt"
+  ],
+  "ingredient_names_normalized": [
+    "yen mach an lien",
+    "bot chien gion",
+    "bot nang",
+    "bot nghe",
+    "thit ba roi",
+    "tom",
+    "ca rot",
+    "hanh tay",
+    "hanh la",
+    "nuoc cot dua",
+    "dau hao",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/hạt nêm"
+    }
+  ]
+}

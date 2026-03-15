@@ -1,0 +1,105 @@
+{
+  "id": "dish3525",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3525.json",
+  "name_vi": "Cà ri chuối xanh",
+  "name_en": "",
+  "name_normalized": "ca ri chuoi xanh",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chuối xanh",
+    "Thịt chay",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Nước dão dừa",
+    "Sả",
+    "Dầu điều",
+    "Đậu phộng rang",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre01191",
+    "ingre06339",
+    "ingre02741",
+    "ingre04554",
+    "ingre04601",
+    "ingre05900",
+    "ingre02134",
+    "ingre07791",
+    "ingre03929",
+    "ingre04538",
+    "ingre02124",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Chuối xanh",
+    "Thịt chay",
+    "Hành tây",
+    "Nước cốt dừa",
+    "Nước dão dừa",
+    "Sả",
+    "Dầu điều",
+    "Đậu phộng rang",
+    "Mè rang",
+    "Nước cốt chanh",
+    "Dầu ăn",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Green banana",
+    "Vegetarian meat",
+    "Onion",
+    "Coconut milk",
+    "Coconut water",
+    "Lemongrass",
+    "Peanut oil",
+    "Roasted Peanut",
+    "Roasted Sesame Seeds",
+    "Lemon juice",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi xanh",
+    "thit chay",
+    "hanh tay",
+    "nuoc cot dua",
+    "nuoc dao dua",
+    "sa",
+    "dau dieu",
+    "dau phong rang",
+    "me rang",
+    "nuoc cot chanh",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

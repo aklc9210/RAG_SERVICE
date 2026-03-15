@@ -1,0 +1,91 @@
+{
+  "id": "dish0695",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0695.json",
+  "name_vi": "Canh bắp cải thịt bằm",
+  "name_en": "",
+  "name_normalized": "canh bap cai thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bắp cải",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Bột canh",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre06414",
+    "ingre02768",
+    "ingre02673",
+    "ingre02124",
+    "ingre00587",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Thịt heo xay",
+    "Hành tím",
+    "Hành lá",
+    "Dầu ăn",
+    "Bột canh",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Ground Pork",
+    "Shallot",
+    "Scallion",
+    "Cooking oil",
+    "Cornstarch",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "thit heo xay",
+    "hanh tim",
+    "hanh la",
+    "dau an",
+    "bot canh",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

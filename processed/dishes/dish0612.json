@@ -1,0 +1,78 @@
+{
+  "id": "dish0612",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0612.json",
+  "name_vi": "Canh khổ qua nấu tôm khô",
+  "name_en": "",
+  "name_normalized": "canh kho qua nau tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khổ qua",
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03271",
+    "ingre06941",
+    "ingre07063",
+    "ingre02673",
+    "ingre02124",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua",
+    "Tôm khô",
+    "Tỏi",
+    "Hành lá",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Dried Shrimp",
+    "Garlic",
+    "Scallion",
+    "Cooking oil",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua",
+    "tom kho",
+    "toi",
+    "hanh la",
+    "dau an",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish5332",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5332.json",
+  "name_vi": "Sườn xào chua cay",
+  "name_en": "",
+  "name_normalized": "suon xao chua cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Sườn heo",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Rau xà lách"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Tương cà",
+    "Tương ớt",
+    "Sốt ớt Hàn Quốc",
+    "Bột ớt",
+    "Xì dầu",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre07999",
+    "ingre02151",
+    "ingre05410",
+    "ingre06984",
+    "ingre07028",
+    "ingre06047",
+    "ingre01015",
+    "ingre07381",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Ớt chuông",
+    "Dứa",
+    "Rau xà lách",
+    "Tương cà",
+    "Tương ớt",
+    "Sốt ớt Hàn Quốc",
+    "Bột ớt",
+    "Xì dầu",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Bell pepper",
+    "Pineapple",
+    "lettuce",
+    "Miso酱",
+    "Hot Sauce",
+    "Korean chili sauce",
+    "Red Pepper Powder",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "ot chuong",
+    "dua",
+    "rau xa lach",
+    "tuong ca",
+    "tuong ot",
+    "sot ot han quoc",
+    "bot ot",
+    "xi dau",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

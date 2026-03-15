@@ -1,0 +1,75 @@
+{
+  "id": "dish6819",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6819.json",
+  "name_vi": "Óc heo chiên trứng",
+  "name_en": "",
+  "name_normalized": "oc heo chien trung",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Óc heo"
+  ],
+  "secondary_ingredients": [
+    "Lá gừng tươi/ hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07470",
+    "ingre06823",
+    "ingre03434",
+    "ingre04694",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Óc heo",
+    "Trứng gà",
+    "Lá gừng tươi/ hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pig's liver",
+    "Chicken egg",
+    "Ginger Leaf/Chives",
+    "Fish Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "oc heo",
+    "trung ga",
+    "la gung tuoi hanh la",
+    "nuoc mam",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la gung tuoi/ hanh la",
+      "new": "la gung tuoi hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá gừng tươi/ hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

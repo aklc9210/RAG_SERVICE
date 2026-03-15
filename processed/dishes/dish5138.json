@@ -1,0 +1,102 @@
+{
+  "id": "dish5138",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5138.json",
+  "name_vi": "Thịt dê xào lăn",
+  "name_en": "",
+  "name_normalized": "thit de xao lan",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt dê",
+    "Đậu phộng rang"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Nước cốt dừa",
+    "Tỏi",
+    "Bột cà ri",
+    "Ngũ vị hương",
+    "Sa tế",
+    "Tương hột",
+    "Bột bắp"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre07791",
+    "ingre06147",
+    "ingre04554",
+    "ingre05900",
+    "ingre07063",
+    "ingre02741",
+    "ingre00631",
+    "ingre04381",
+    "ingre02134",
+    "ingre05621",
+    "ingre06994",
+    "ingre00564"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Đậu phộng rang",
+    "Sữa tươi không đường",
+    "Nước cốt dừa",
+    "Sả",
+    "Tỏi",
+    "Hành tây",
+    "Bột cà ri",
+    "Ngũ vị hương",
+    "Dầu điều",
+    "Sa tế",
+    "Tương hột",
+    "Bột bắp"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Roasted Peanut",
+    "Fat-free Milk",
+    "Coconut milk",
+    "Lemongrass",
+    "Garlic",
+    "Onion",
+    "Curry powder",
+    "Five-Spice Powder",
+    "Peanut oil",
+    "Fish sauce",
+    "Soy sauce",
+    "Corn starch"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "dau phong rang",
+    "sua tuoi khong duong",
+    "nuoc cot dua",
+    "sa",
+    "toi",
+    "hanh tay",
+    "bot ca ri",
+    "ngu vi huong",
+    "dau dieu",
+    "sa te",
+    "tuong hot",
+    "bot bap"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

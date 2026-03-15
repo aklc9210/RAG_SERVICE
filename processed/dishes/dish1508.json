@@ -1,0 +1,87 @@
+{
+  "id": "dish1508",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1508.json",
+  "name_vi": "Bánh mì sốt bơ xanh kẹp thịt nướng",
+  "name_en": "",
+  "name_normalized": "banh mi sot bo xanh kep thit nuong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh mì sandwich",
+    "Bánh mì Việt Nam",
+    "Thịt ba chỉ/ Nạc vai"
+  ],
+  "secondary_ingredients": [
+    "Bơ xanh"
+  ],
+  "seasonings": [
+    "Bột canh",
+    "Bột tỏi",
+    "Tiêu xay",
+    "Đường",
+    "Mayonnaise",
+    "Wasabi"
+  ],
+  "ingredient_ids": [
+    "ingre00117",
+    "ingre00124",
+    "ingre06288",
+    "ingre00411",
+    "ingre00587",
+    "ingre00978",
+    "ingre06644",
+    "ingre07583",
+    "ingre03639",
+    "ingre07309"
+  ],
+  "ingredient_names_vi": [
+    "Bánh mì sandwich",
+    "Bánh mì Việt Nam",
+    "Thịt ba chỉ/ Nạc vai",
+    "Bơ xanh",
+    "Bột canh",
+    "Bột tỏi",
+    "Tiêu xay",
+    "Đường",
+    "Mayonnaise",
+    "Wasabi"
+  ],
+  "ingredient_names_en": [
+    "Sandwich bread",
+    "Vietnamese Sandwich",
+    "Pork belly/Shoulder",
+    "Green butterbean",
+    "Cornstarch",
+    "Garlic powder",
+    "Ground pepper",
+    "Sugar",
+    "Mayonnaise",
+    "Wasabi"
+  ],
+  "ingredient_names_normalized": [
+    "banh mi sandwich",
+    "banh mi viet nam",
+    "thit ba chi nac vai",
+    "bo xanh",
+    "bot canh",
+    "bot toi",
+    "tieu xay",
+    "duong",
+    "mayonnaise",
+    "wasabi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thit ba chi/ nac vai",
+      "new": "thit ba chi nac vai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thịt ba chỉ/ Nạc vai"
+    }
+  ]
+}

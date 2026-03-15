@@ -1,0 +1,45 @@
+{
+  "id": "dish1759",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1759.json",
+  "name_vi": "Sợi bánh canh bằng bột lọc (bột năng)",
+  "name_en": "",
+  "name_normalized": "soi banh canh bang bot loc bot nang",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột lọc"
+  ],
+  "ingredient_ids": [
+    "ingre00735",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột lọc",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Silverwood",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot loc",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "soi banh canh bang bot loc (bot nang)",
+      "new": "soi banh canh bang bot loc bot nang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

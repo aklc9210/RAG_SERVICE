@@ -1,0 +1,115 @@
+{
+  "id": "dish3403",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3403.json",
+  "name_vi": "Bún hến",
+  "name_en": "",
+  "name_normalized": "bun hen",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Hến sống",
+    "Đậu phộng rang",
+    "Giá đỗ",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Xà lách",
+    "Sả",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Sa tế",
+    "Muối",
+    "Giấm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre03094",
+    "ingre07791",
+    "ingre02337",
+    "ingre02020",
+    "ingre07351",
+    "ingre01079",
+    "ingre07063",
+    "ingre05900",
+    "ingre02768",
+    "ingre05621",
+    "ingre03746",
+    "ingre02355",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Hến sống",
+    "Đậu phộng rang",
+    "Giá đỗ",
+    "Dưa leo",
+    "Xà lách",
+    "Chanh",
+    "Tỏi",
+    "Sả",
+    "Hành tím",
+    "Sa tế",
+    "Muối",
+    "Giấm",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Live clams",
+    "Roasted Peanut",
+    "Bean sprouts",
+    "Cucumber",
+    "Lettuce",
+    "Lemon",
+    "Garlic",
+    "Lemongrass",
+    "Shallot",
+    "Fish sauce",
+    "Salt",
+    "Vinegar",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "hen song",
+    "dau phong rang",
+    "gia do",
+    "dua leo",
+    "xa lach",
+    "chanh",
+    "toi",
+    "sa",
+    "hanh tim",
+    "sa te",
+    "muoi",
+    "giam",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "dish3197",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3197.json",
+  "name_vi": "Canh cá Quỳnh Côi - canh cá rô Thái Bình",
+  "name_en": "",
+  "name_normalized": "canh ca quynh coi canh ca ro thai binh",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bánh đa",
+    "Cá rô",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột canh",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00218",
+    "ingre01608",
+    "ingre01354",
+    "ingre02485",
+    "ingre02673",
+    "ingre05359",
+    "ingre07966",
+    "ingre02124",
+    "ingre00819",
+    "ingre00587",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa",
+    "Cá rô",
+    "Cà chua",
+    "Gừng",
+    "Hành lá",
+    "Rau răm",
+    "Ớt",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột canh",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Rice noodle",
+    "Roach",
+    "Tomato",
+    "Ginger",
+    "Scallion",
+    "Vietnamese coriander",
+    "Pepper",
+    "Cooking oil",
+    "MSG",
+    "Cornstarch",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "banh da",
+    "ca ro",
+    "ca chua",
+    "gung",
+    "hanh la",
+    "rau ram",
+    "ot",
+    "dau an",
+    "bot ngot",
+    "bot canh",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh ca quynh coi - canh ca ro thai binh",
+      "new": "canh ca quynh coi canh ca ro thai binh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

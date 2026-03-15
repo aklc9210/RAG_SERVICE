@@ -1,0 +1,29 @@
+{
+  "id": "ingre07027",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07027.json",
+  "name_vi": "tương ớt/ tương cà",
+  "name_en": "Hot Sauce/Soy Sauce",
+  "name_normalized": "tuong ot tuong ca",
+  "synonyms": [
+    "pepper sauce",
+    "chili sauce",
+    "đậu phộng xay"
+  ],
+  "synonyms_normalized": [
+    "pepper sauce",
+    "chili sauce",
+    "dau phong xay"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tuong ot/ tuong ca",
+      "new": "tuong ot tuong ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

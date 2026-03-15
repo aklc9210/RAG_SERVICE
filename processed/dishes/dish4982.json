@@ -1,0 +1,81 @@
+{
+  "id": "dish4982",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4982.json",
+  "name_vi": "Mướp Nhật xào tỏi",
+  "name_en": "",
+  "name_normalized": "muop nhat xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mướp Nhật"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04105",
+    "ingre07063",
+    "ingre02673",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124",
+    "ingre00828"
+  ],
+  "ingredient_names_vi": [
+    "Mướp Nhật",
+    "Tỏi",
+    "Hành lá",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Bittermelon",
+    "Garlic",
+    "Scallion",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "muop nhat",
+    "toi",
+    "hanh la",
+    "dau hao",
+    "nuoc mam",
+    "dau an",
+    "bot ngot tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ tieu",
+      "new": "bot ngot tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ tiêu"
+    }
+  ]
+}

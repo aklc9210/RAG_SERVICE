@@ -1,0 +1,56 @@
+{
+  "id": "dish9657",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9657.json",
+  "name_vi": "Cách làm kem muối với kem béo Rich’s",
+  "name_en": "",
+  "name_normalized": "cach lam kem muoi voi kem beo rich s",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Kem béo Rich",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Muối hồng Himalaya"
+  ],
+  "ingredient_ids": [
+    "ingre03764",
+    "ingre06174",
+    "ingre03124",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Muối hồng Himalaya",
+    "Sữa đặc",
+    "Kem béo Rich",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Pink Himalayan Salt",
+    "Sweetened Condensed Milk",
+    "Heavy Cream",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "muoi hong himalaya",
+    "sua dac",
+    "kem beo rich",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach lam kem muoi voi kem beo rich's",
+      "new": "cach lam kem muoi voi kem beo rich s",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

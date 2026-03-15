@@ -1,0 +1,118 @@
+{
+  "id": "dish7889",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7889.json",
+  "name_vi": "Lẩu cua biển nấu tía tô",
+  "name_en": "",
+  "name_normalized": "lau cua bien nau tia to",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cua biển",
+    "Cà chua",
+    "Tía tô",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nước tắc",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước dùng xương",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01335",
+    "ingre01354",
+    "ingre06925",
+    "ingre02768",
+    "ingre02741",
+    "ingre02485",
+    "ingre02774",
+    "ingre07071",
+    "ingre04611",
+    "ingre04817",
+    "ingre02134",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cua biển",
+    "Cà chua",
+    "Tía tô",
+    "Hành tím",
+    "Hành tây",
+    "Gừng",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Nước dùng xương",
+    "Nước tắc",
+    "Dầu điều",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Tomato",
+    "Cilantro",
+    "Shallot",
+    "Onion",
+    "Ginger",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Chicken Broth",
+    "Lime juice",
+    "Peanut oil",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "cua bien",
+    "ca chua",
+    "tia to",
+    "hanh tim",
+    "hanh tay",
+    "gung",
+    "hanh tim bam",
+    "toi bam",
+    "nuoc dung xuong",
+    "nuoc tac",
+    "dau dieu",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

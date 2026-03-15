@@ -1,0 +1,78 @@
+{
+  "id": "dish5882",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5882.json",
+  "name_vi": "Cá ngát kho tộ",
+  "name_en": "",
+  "name_normalized": "ca ngat kho to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá ngát",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt trái",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre01575",
+    "ingre02673",
+    "ingre07968",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre04672",
+    "ingre07071"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngát",
+    "Hành lá",
+    "Ớt trái",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Nước màu",
+    "Tỏi băm"
+  ],
+  "ingredient_names_en": [
+    "Grouper",
+    "Scallion",
+    "Pepper fruit",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Food coloring",
+    "Minced Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngat",
+    "hanh la",
+    "ot trai",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "nuoc mau",
+    "toi bam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

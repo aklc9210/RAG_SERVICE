@@ -1,0 +1,65 @@
+{
+  "id": "dish3026",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3026.json",
+  "name_vi": "Bánh bông lan thiên thần - Angel Food Cake",
+  "name_en": "",
+  "name_normalized": "banh bong lan thien than angel food cake",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Sữa"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Đường trắng",
+    "Vani",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre06823",
+    "ingre06078",
+    "ingre07652",
+    "ingre07140",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Trứng gà",
+    "Sữa",
+    "Đường trắng",
+    "Vani",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Chicken egg",
+    "Milk",
+    "White sugar",
+    "Vanilla",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "trung ga",
+    "sua",
+    "duong trang",
+    "vani",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bong lan thien than - angel food cake",
+      "new": "banh bong lan thien than angel food cake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

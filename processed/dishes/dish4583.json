@@ -1,0 +1,129 @@
+{
+  "id": "dish4583",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4583.json",
+  "name_vi": "Đậu phụ xào trứng",
+  "name_en": "",
+  "name_normalized": "dau phu xao trung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Đậu phụ",
+    "Thịt heo xay",
+    "Hành boa rô",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Mè",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Trứng gà",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Bột năng",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07810",
+    "ingre06414",
+    "ingre02645",
+    "ingre02673",
+    "ingre07063",
+    "ingre04910",
+    "ingre06823",
+    "ingre03925",
+    "ingre04790",
+    "ingre02080",
+    "ingre07028",
+    "ingre00849",
+    "ingre04665",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phụ",
+    "Thịt heo xay",
+    "Hành boa rô",
+    "Hành lá",
+    "Tỏi",
+    "Nấm hương",
+    "Trứng gà",
+    "Mè",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Bột năng",
+    "Nước lọc",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Ground Pork",
+    "Garlic",
+    "Scallion",
+    "Mushroom",
+    "Chicken egg",
+    "Tamarind",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Cornstarch",
+    "Tap water",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "dau phu",
+    "thit heo xay",
+    "hanh boa ro",
+    "hanh la",
+    "toi",
+    "nam huong",
+    "trung ga",
+    "me",
+    "nuoc tuong",
+    "dau hao",
+    "tuong ot",
+    "bot nang",
+    "nuoc loc",
+    "dau an",
+    "duong",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

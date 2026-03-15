@@ -1,0 +1,103 @@
+{
+  "id": "dish4405",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4405.json",
+  "name_vi": "Cà tím xào trứng",
+  "name_en": "",
+  "name_normalized": "ca tim xao trung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Cà tím",
+    "Đậu hũ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Ớt sừng",
+    "Chanh",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tương ớt",
+    "Tương đậu"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre06823",
+    "ingre07740",
+    "ingre07063",
+    "ingre02741",
+    "ingre08055",
+    "ingre02673",
+    "ingre01079",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre07028",
+    "ingre07016"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Trứng gà",
+    "Đậu hũ",
+    "Tỏi",
+    "Hành tây",
+    "Ớt sừng",
+    "Hành lá",
+    "Chanh",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Tương ớt",
+    "Tương đậu"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Chicken egg",
+    "Tofu",
+    "Garlic",
+    "Onion",
+    "Hot pepper",
+    "Scallion",
+    "Lemon",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Hot Sauce",
+    "Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "trung ga",
+    "dau hu",
+    "toi",
+    "hanh tay",
+    "ot sung",
+    "hanh la",
+    "chanh",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "tuong ot",
+    "tuong dau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

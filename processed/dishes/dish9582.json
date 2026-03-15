@@ -1,0 +1,61 @@
+{
+  "id": "dish9582",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9582.json",
+  "name_vi": "Sinh tố dứa (thơm)",
+  "name_en": "",
+  "name_normalized": "sinh to dua thom",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02151",
+    "ingre06174",
+    "ingre06147",
+    "ingre07522",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Dứa",
+    "Sữa đặc",
+    "Sữa tươi không đường",
+    "Đá viên",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Sweetened Condensed Milk",
+    "Fat-free Milk",
+    "Ice cube",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dua",
+    "sua dac",
+    "sua tuoi khong duong",
+    "da vien",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to dua (thom)",
+      "new": "sinh to dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

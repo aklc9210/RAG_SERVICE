@@ -1,0 +1,106 @@
+{
+  "id": "dish3222",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3222.json",
+  "name_vi": "Bún giả cầy",
+  "name_en": "",
+  "name_normalized": "bun gia cay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Chân giò heo",
+    "Bún tươi",
+    "Riềng"
+  ],
+  "secondary_ingredients": [
+    "Nghệ",
+    "Hành tím",
+    "Sả",
+    "Mẻ",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Mắm tôm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01232",
+    "ingre00357",
+    "ingre05436",
+    "ingre04304",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre04165",
+    "ingre04821",
+    "ingre04694",
+    "ingre04159",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chân giò heo",
+    "Bún tươi",
+    "Riềng",
+    "Nghệ",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Mẻ",
+    "Nước vo gạo",
+    "Nước mắm",
+    "Mắm tôm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Fresh noodle",
+    "Galangal",
+    "Turmeric",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Tamarind",
+    "Rice washing water",
+    "Fish Sauce",
+    "Shrimp paste",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chan gio heo",
+    "bun tuoi",
+    "rieng",
+    "nghe",
+    "hanh tim",
+    "toi",
+    "sa",
+    "me",
+    "nuoc vo gao",
+    "nuoc mam",
+    "mam tom",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

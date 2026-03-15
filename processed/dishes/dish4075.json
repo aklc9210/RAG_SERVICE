@@ -1,0 +1,86 @@
+{
+  "id": "dish4075",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4075.json",
+  "name_vi": "Mực nướng sa tế ngon với sốt ướp chuẩn",
+  "name_en": "",
+  "name_normalized": "muc nuong sa te ngon voi sot uop chuan",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Mực ống tươi"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Que xiêng"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre04284",
+    "ingre05621",
+    "ingre02485",
+    "ingre05900",
+    "ingre07063",
+    "ingre02768",
+    "ingre05574",
+    "ingre05144"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống tươi",
+    "Sa tế",
+    "Gừng",
+    "Sả",
+    "Tỏi",
+    "Hành tím",
+    "Rượu trắng",
+    "Que xiêng"
+  ],
+  "ingredient_names_en": [
+    "Fresh tube squid",
+    "Fish sauce",
+    "Ginger",
+    "Lemongrass",
+    "Garlic",
+    "Shallot",
+    "White wine",
+    "CinnamonStick"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong tuoi",
+    "sa te",
+    "gung",
+    "sa",
+    "toi",
+    "hanh tim",
+    "ruou trang",
+    "que xieng"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

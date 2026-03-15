@@ -1,0 +1,132 @@
+{
+  "id": "dish0600",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0600.json",
+  "name_vi": "Canh cua tôm chua",
+  "name_en": "",
+  "name_normalized": "canh cua tom chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bún tươi",
+    "Cua đồng",
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ",
+    "Cà chua",
+    "Hành tím",
+    "Hành lá",
+    "Rau ngổ",
+    "Mẻ",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00357",
+    "ingre01344",
+    "ingre06963",
+    "ingre06823",
+    "ingre07740",
+    "ingre01354",
+    "ingre02768",
+    "ingre02673",
+    "ingre05336",
+    "ingre04165",
+    "ingre04694",
+    "ingre02124",
+    "ingre03008",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Bún tươi",
+    "Cua đồng",
+    "Tôm tươi",
+    "Trứng gà",
+    "Đậu hũ",
+    "Cà chua",
+    "Hành tím",
+    "Hành lá",
+    "Rau ngổ",
+    "Mẻ",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm/ bột ngọt",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle",
+    "River crab",
+    "Fresh shrimp",
+    "Chicken egg",
+    "Tofu",
+    "Tomato",
+    "Shallot",
+    "Scallion",
+    "Culantro",
+    "Tamarind",
+    "Fish Sauce",
+    "Cooking oil",
+    "Seasoning Powder",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "bun tuoi",
+    "cua dong",
+    "tom tuoi",
+    "trung ga",
+    "dau hu",
+    "ca chua",
+    "hanh tim",
+    "hanh la",
+    "rau ngo",
+    "me",
+    "nuoc mam",
+    "dau an",
+    "hat nem bot ngot",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Cilantro",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau ngổ"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "dish9120",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9120.json",
+  "name_vi": "Sốt phô mai tan chảy và món ăn kèm",
+  "name_en": "",
+  "name_normalized": "sot pho mai tan chay va mon an kem",
+  "category": "an vat",
+  "main_ingredients": [
+    "Ức gà",
+    "Khoai tây",
+    "Măng tây"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt",
+    "Sữa kem béo",
+    "Sandwich",
+    "Phô mai chedder",
+    "Mùi tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Sữa tươi không đường",
+    "Tỏi băm",
+    "Bột bắp",
+    "Bột ớt",
+    "Bột tỏi",
+    "Ngũ vị hương",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre03222",
+    "ingre01419",
+    "ingre04088",
+    "ingre00382",
+    "ingre06147",
+    "ingre06128",
+    "ingre05641",
+    "ingre05069",
+    "ingre07071",
+    "ingre00564",
+    "ingre01015",
+    "ingre00978",
+    "ingre04060",
+    "ingre04381",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Khoai tây",
+    "Cà rốt",
+    "Măng tây",
+    "Bơ lạt",
+    "Sữa tươi không đường",
+    "Sữa kem béo",
+    "Sandwich",
+    "Phô mai chedder",
+    "Tỏi băm",
+    "Bột bắp",
+    "Bột ớt",
+    "Bột tỏi",
+    "Mùi tây",
+    "Ngũ vị hương",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Potato",
+    "Carrot",
+    "Asparagus",
+    "Butter",
+    "Fat-free Milk",
+    "Heavy Cream",
+    "This is already in English, no translation needed.",
+    "Cheddar cheese",
+    "Minced Garlic",
+    "Corn starch",
+    "Red Pepper Powder",
+    "Garlic powder",
+    "Mint",
+    "Five-Spice Powder",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "khoai tay",
+    "ca rot",
+    "mang tay",
+    "bo lat",
+    "sua tuoi khong duong",
+    "sua kem beo",
+    "sandwich",
+    "pho mai chedder",
+    "toi bam",
+    "bot bap",
+    "bot ot",
+    "bot toi",
+    "mui tay",
+    "ngu vi huong",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

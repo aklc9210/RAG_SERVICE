@@ -1,0 +1,108 @@
+{
+  "id": "dish6041",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6041.json",
+  "name_vi": "Cá nục kho khế",
+  "name_en": "",
+  "name_normalized": "ca nuc kho khe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Thịt ba chỉ",
+    "Khế chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt sừng",
+    "Nước mắm",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre06275",
+    "ingre03269",
+    "ingre07063",
+    "ingre02768",
+    "ingre08055",
+    "ingre04694",
+    "ingre04790",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Thịt ba chỉ",
+    "Khế chua",
+    "Tỏi",
+    "Hành tím",
+    "Ớt sừng",
+    "Nước mắm",
+    "Nước tương",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pork belly",
+    "Tamarind",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Fish Sauce",
+    "Soy Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "thit ba chi",
+    "khe chua",
+    "toi",
+    "hanh tim",
+    "ot sung",
+    "nuoc mam",
+    "nuoc tuong",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

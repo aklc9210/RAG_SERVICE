@@ -1,0 +1,93 @@
+{
+  "id": "dish10179",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10179.json",
+  "name_vi": "Trà sữa khoai môn tươi",
+  "name_en": "",
+  "name_normalized": "tra sua khoai mon tuoi",
+  "category": "tra sua",
+  "main_ingredients": [
+    "Khoai môn tươi",
+    "Sữa đặc",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Rích lùn",
+    "Nước lá cẩm tím",
+    "Trà đen Phúc Long",
+    "Sữa đặc",
+    "Đá bi"
+  ],
+  "seasonings": [
+    "Đường",
+    "Bột sữa khoai môn tím",
+    "Bột béo B-one",
+    "Bột năng"
+  ],
+  "ingredient_ids": [
+    "ingre03218",
+    "ingre07583",
+    "ingre06174",
+    "ingre06144",
+    "ingre05507",
+    "ingre00933",
+    "ingre04659",
+    "ingre06745",
+    "ingre00557",
+    "ingre07517",
+    "ingre00849"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn tươi",
+    "Đường",
+    "Sữa đặc",
+    "Sữa tươi",
+    "Rích lùn",
+    "Bột sữa khoai môn tím",
+    "Nước lá cẩm tím",
+    "Trà đen Phúc Long",
+    "Bột béo B-one",
+    "Đá bi",
+    "Bột năng"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Sugar",
+    "Sweetened Condensed Milk",
+    "Fresh Milk",
+    "Parsley",
+    "Purple Yam Milk Powder",
+    "Purple basil water",
+    "Black Tea",
+    "Chicken Fat Powder",
+    "Grapefruit",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon tuoi",
+    "duong",
+    "sua dac",
+    "sua tuoi",
+    "rich lun",
+    "bot sua khoai mon tim",
+    "nuoc la cam tim",
+    "tra den phuc long",
+    "bot beo b one",
+    "da bi",
+    "bot nang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot beo b-one",
+      "new": "bot beo b one",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột béo B-one"
+    }
+  ]
+}

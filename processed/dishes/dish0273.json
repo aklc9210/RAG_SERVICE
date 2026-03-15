@@ -1,0 +1,110 @@
+{
+  "id": "dish0273",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0273.json",
+  "name_vi": "Súp tôm bắp (ngô)",
+  "name_en": "",
+  "name_normalized": "sup tom bap ngo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm",
+    "Bắp mỹ"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Trứng cút",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Trứng gà",
+    "Bột năng",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre00479",
+    "ingre01419",
+    "ingre04953",
+    "ingre06816",
+    "ingre06823",
+    "ingre02673",
+    "ingre04343",
+    "ingre00849",
+    "ingre07583",
+    "ingre03746",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Bắp mỹ",
+    "Cà rốt",
+    "Nấm rơm",
+    "Trứng cút",
+    "Trứng gà",
+    "Hành lá",
+    "Ngò rí",
+    "Bột năng",
+    "Đường",
+    "Muối",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Corn",
+    "Carrot",
+    "Strawberry mushroom",
+    "Quail egg",
+    "Chicken egg",
+    "Scallion",
+    "Parsley",
+    "Cornstarch",
+    "Sugar",
+    "Salt",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "bap my",
+    "ca rot",
+    "nam rom",
+    "trung cut",
+    "trung ga",
+    "hanh la",
+    "ngo ri",
+    "bot nang",
+    "duong",
+    "muoi",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sup tom bap (ngo)",
+      "new": "sup tom bap ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

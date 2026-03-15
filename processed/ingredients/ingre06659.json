@@ -1,0 +1,25 @@
+{
+  "id": "ingre06659",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06659.json",
+  "name_vi": "tiêu/ bột ngọt",
+  "name_en": "Salt/Soy Sauce",
+  "name_normalized": "tieu bot ngot",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu/ bot ngot",
+      "new": "tieu bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

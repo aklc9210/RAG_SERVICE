@@ -1,0 +1,94 @@
+{
+  "id": "dish4411",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4411.json",
+  "name_vi": "Gà xào sả ớt miền Bắc",
+  "name_en": "",
+  "name_normalized": "ga xao sa ot mien bac",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt đùi gà",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Gừng",
+    "Hành tím/ Tỏi/ Lá chanh",
+    "Nước mắm",
+    "Bột ngọt",
+    "Bột nghệ",
+    "Hạt tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06528",
+    "ingre05900",
+    "ingre08055",
+    "ingre02485",
+    "ingre02809",
+    "ingre04694",
+    "ingre00819",
+    "ingre00804",
+    "ingre03049",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi gà",
+    "Sả",
+    "Ớt sừng",
+    "Gừng",
+    "Hành tím/ Tỏi/ Lá chanh",
+    "Nước mắm",
+    "Bột ngọt",
+    "Bột nghệ",
+    "Hạt tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Lemongrass",
+    "Hot pepper",
+    "Ginger",
+    "Garlic/Scallion/Lime Leaves",
+    "Fish Sauce",
+    "MSG",
+    "Turmeric Powder",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui ga",
+    "sa",
+    "ot sung",
+    "gung",
+    "hanh tim toi la chanh",
+    "nuoc mam",
+    "bot ngot",
+    "bot nghe",
+    "hat tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ toi/ la chanh",
+      "new": "hanh tim toi la chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ Tỏi/ Lá chanh"
+    }
+  ]
+}

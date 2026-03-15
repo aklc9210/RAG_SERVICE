@@ -1,0 +1,96 @@
+{
+  "id": "dish7187",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7187.json",
+  "name_vi": "Vịt chiên nước mắm sả ớt",
+  "name_en": "",
+  "name_normalized": "vit chien nuoc mam sa ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt vịt",
+    "Nước ép dứa",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt tươi",
+    "Tương ớt chua ngọt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06515",
+    "ingre04838",
+    "ingre05900",
+    "ingre07063",
+    "ingre08078",
+    "ingre07032",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt",
+    "Nước ép dứa",
+    "Sả",
+    "Tỏi",
+    "Ớt tươi",
+    "Tương ớt chua ngọt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Pineapple juice",
+    "Lemongrass",
+    "Garlic",
+    "Fresh chili",
+    "Sweet and Sour Chili Sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "nuoc ep dua",
+    "sa",
+    "toi",
+    "ot tuoi",
+    "tuong ot chua ngot",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish7814",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7814.json",
+  "name_vi": "Lẩu gà nấu mẻ",
+  "name_en": "",
+  "name_normalized": "lau ga nau me",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gà",
+    "Mẻ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Riềng",
+    "Rau nêm"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Ớt sừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre04165",
+    "ingre02774",
+    "ingre05900",
+    "ingre08055",
+    "ingre01354",
+    "ingre05436",
+    "ingre05344",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Mẻ",
+    "Hành tím băm",
+    "Sả",
+    "Ớt sừng",
+    "Cà chua",
+    "Riềng",
+    "Rau nêm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Tamarind",
+    "Chopped Scallion",
+    "Lemongrass",
+    "Hot pepper",
+    "Tomato",
+    "Galangal",
+    "Coriander",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "me",
+    "hanh tim bam",
+    "sa",
+    "ot sung",
+    "ca chua",
+    "rieng",
+    "rau nem",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

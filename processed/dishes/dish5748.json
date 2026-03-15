@@ -1,0 +1,97 @@
+{
+  "id": "dish5748",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5748.json",
+  "name_vi": "Cá hồi kho nước tương",
+  "name_en": "",
+  "name_normalized": "ca hoi kho nuoc tuong",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá hồi",
+    "Măng tây"
+  ],
+  "secondary_ingredients": [
+    "Đầu hành",
+    "Thì là",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Ớt sừng",
+    "Gừng",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre04088",
+    "ingre08026",
+    "ingre08055",
+    "ingre07714",
+    "ingre06233",
+    "ingre02485",
+    "ingre04790",
+    "ingre02134",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Măng tây",
+    "Ớt hiểm",
+    "Ớt sừng",
+    "Đầu hành",
+    "Thì là",
+    "Gừng",
+    "Nước tương",
+    "Dầu điều",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Asparagus",
+    "Hot pepper",
+    "Garlic cloves",
+    "Dill",
+    "Ginger",
+    "Soy Sauce",
+    "Peanut oil",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "mang tay",
+    "ot hiem",
+    "ot sung",
+    "dau hanh",
+    "thi la",
+    "gung",
+    "nuoc tuong",
+    "dau dieu",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

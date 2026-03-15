@@ -1,0 +1,93 @@
+{
+  "id": "dish8270",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8270.json",
+  "name_vi": "Gỏi cá hồi",
+  "name_en": "",
+  "name_normalized": "goi ca hoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá hồi",
+    "Cá ngừ",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây tím",
+    "Hành lá",
+    "Dầu mè",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Xì dầu",
+    "Sốt ponzu",
+    "Gừng bào mịn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01527",
+    "ingre01579",
+    "ingre00367",
+    "ingre02761",
+    "ingre02673",
+    "ingre07381",
+    "ingre05995",
+    "ingre02094",
+    "ingre03929",
+    "ingre02488",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi",
+    "Cá ngừ",
+    "Bơ",
+    "Hành tây tím",
+    "Hành lá",
+    "Xì dầu",
+    "Sốt ponzu",
+    "Dầu mè",
+    "Mè rang",
+    "Gừng bào mịn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Salmon",
+    "Tuna",
+    "Butter",
+    "Purple onion",
+    "Scallion",
+    "Soy Sauce",
+    "Ponzu sauce",
+    "Sesame oil",
+    "Roasted Sesame Seeds",
+    "Ginger Powder",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi",
+    "ca ngu",
+    "bo",
+    "hanh tay tim",
+    "hanh la",
+    "xi dau",
+    "sot ponzu",
+    "dau me",
+    "me rang",
+    "gung bao min",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

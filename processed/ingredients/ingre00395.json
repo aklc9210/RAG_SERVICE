@@ -1,0 +1,29 @@
+{
+  "id": "ingre00395",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00395.json",
+  "name_vi": "bơ lạt.",
+  "name_en": "Butterleaf",
+  "name_normalized": "bo lat",
+  "synonyms": [
+    "kem bơ",
+    "bơ ăn trực tiếp"
+  ],
+  "synonyms_normalized": [
+    "kem bo",
+    "bo an truc tiep"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bo lat.",
+      "new": "bo lat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

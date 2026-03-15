@@ -1,0 +1,103 @@
+{
+  "id": "dish0105",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0105.json",
+  "name_vi": "Canh chua cá bạc má măng chua",
+  "name_en": "",
+  "name_normalized": "canh chua ca bac ma mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá bạc má",
+    "Măng chua",
+    "Đậu bắp"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành boa rô",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01476",
+    "ingre04072",
+    "ingre07729",
+    "ingre01354",
+    "ingre08078",
+    "ingre02645",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá bạc má",
+    "Măng chua",
+    "Đậu bắp",
+    "Cà chua",
+    "Ớt tươi",
+    "Hành boa rô",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike conger",
+    "Pickled bamboo shoots",
+    "Green beans",
+    "Tomato",
+    "Fresh chili",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca bac ma",
+    "mang chua",
+    "dau bap",
+    "ca chua",
+    "ot tuoi",
+    "hanh boa ro",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

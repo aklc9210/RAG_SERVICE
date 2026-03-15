@@ -1,0 +1,71 @@
+{
+  "id": "dish1045",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1045.json",
+  "name_vi": "Bánh bông lan gato từ bột gạo",
+  "name_en": "",
+  "name_normalized": "banh bong lan gato tu bot gao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Bột gạo",
+    "Chiết xuất va-ni",
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00382",
+    "ingre06147",
+    "ingre00668",
+    "ingre01138",
+    "ingre06823",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bơ lạt",
+    "Sữa tươi không đường",
+    "Bột gạo",
+    "Chiết xuất va-ni",
+    "Trứng gà",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Fat-free Milk",
+    "Rice flour",
+    "Vanilla extract",
+    "Chicken egg",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat",
+    "sua tuoi khong duong",
+    "bot gao",
+    "chiet xuat va ni",
+    "trung ga",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chiet xuat va-ni",
+      "new": "chiet xuat va ni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chiết xuất va-ni"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dish4290",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4290.json",
+  "name_vi": "Dăm bông nướng - Glazed Ham",
+  "name_en": "",
+  "name_normalized": "dam bong nuong glazed ham",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt dăm bông"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Nước ép thơm",
+    "Xi rô cây phong"
+  ],
+  "seasonings": [
+    "Mù tạt Dijon",
+    "Đinh hương"
+  ],
+  "ingredient_ids": [
+    "ingre06368",
+    "ingre02741",
+    "ingre04846",
+    "ingre04051",
+    "ingre07326",
+    "ingre07486"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dăm bông",
+    "Hành tây",
+    "Nước ép thơm",
+    "Mù tạt Dijon",
+    "Xi rô cây phong",
+    "Đinh hương"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Onion",
+    "Mint Juice",
+    "Dijon mustard",
+    "Ashwagandha",
+    "Cinnamon"
+  ],
+  "ingredient_names_normalized": [
+    "thit dam bong",
+    "hanh tay",
+    "nuoc ep thom",
+    "mu tat dijon",
+    "xi ro cay phong",
+    "dinh huong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dam bong nuong - glazed ham",
+      "new": "dam bong nuong glazed ham",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

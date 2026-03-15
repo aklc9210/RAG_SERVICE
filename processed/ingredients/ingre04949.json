@@ -1,0 +1,29 @@
+{
+  "id": "ingre04949",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04949.json",
+  "name_vi": "nấm mỡ trắng:",
+  "name_en": "White Fungus",
+  "name_normalized": "nam mo trang",
+  "synonyms": [
+    "mỡ nấm",
+    "nấm mọc",
+    "nấm mỡ"
+  ],
+  "synonyms_normalized": [
+    "mo nam",
+    "nam moc",
+    "nam mo"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nam mo trang:",
+      "new": "nam mo trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

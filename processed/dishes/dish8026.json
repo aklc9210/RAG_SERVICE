@@ -1,0 +1,116 @@
+{
+  "id": "dish8026",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8026.json",
+  "name_vi": "Nộm (gỏi) gà đu đủ",
+  "name_en": "",
+  "name_normalized": "nom goi ga du du",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Gà",
+    "Đu đủ xanh",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Ớt băm",
+    "Tỏi băm",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre07500",
+    "ingre05359",
+    "ingre07971",
+    "ingre07071",
+    "ingre02768",
+    "ingre01079",
+    "ingre07791",
+    "ingre02124",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Đu đủ xanh",
+    "Rau răm",
+    "Ớt băm",
+    "Tỏi băm",
+    "Hành tím",
+    "Chanh",
+    "Đậu phộng rang",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Green papaya",
+    "Vietnamese coriander",
+    "Chopped Pepper",
+    "Minced Garlic",
+    "Shallot",
+    "Lemon",
+    "Roasted Peanut",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "du du xanh",
+    "rau ram",
+    "ot bam",
+    "toi bam",
+    "hanh tim",
+    "chanh",
+    "dau phong rang",
+    "dau an",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nom (goi) ga du du",
+      "new": "nom goi ga du du",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

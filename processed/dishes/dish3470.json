@@ -1,0 +1,108 @@
+{
+  "id": "dish3470",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3470.json",
+  "name_vi": "Mì miso ramen",
+  "name_en": "",
+  "name_normalized": "mi miso ramen",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Móng heo",
+    "Xương heo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Mì ramen tươi",
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Cốt lết heo",
+    "Gừng",
+    "Nước tương Kikkoman",
+    "Rượu mirin",
+    "Tương miso",
+    "Đường",
+    "Tỏi băm",
+    "Bột Dashi"
+  ],
+  "ingredient_ids": [
+    "ingre04046",
+    "ingre07422",
+    "ingre01850",
+    "ingre02741",
+    "ingre02485",
+    "ingre03987",
+    "ingre02673",
+    "ingre04796",
+    "ingre05545",
+    "ingre02094",
+    "ingre06999",
+    "ingre07583",
+    "ingre07071",
+    "ingre00642"
+  ],
+  "ingredient_names_vi": [
+    "Móng heo",
+    "Xương heo",
+    "Cốt lết heo",
+    "Hành tây",
+    "Gừng",
+    "Mì ramen tươi",
+    "Hành lá",
+    "Nước tương Kikkoman",
+    "Rượu mirin",
+    "Dầu mè",
+    "Tương miso",
+    "Đường",
+    "Tỏi băm",
+    "Bột Dashi"
+  ],
+  "ingredient_names_en": [
+    "Pig's foot",
+    "Pork bone",
+    "Pork rind",
+    "Onion",
+    "Ginger",
+    "Fresh Ramen Noodles",
+    "Scallion",
+    "Kikkoman Soy Sauce",
+    "Mirin Wine",
+    "Sesame oil",
+    "Miso Sauce",
+    "Sugar",
+    "Minced Garlic",
+    "Dashi powder"
+  ],
+  "ingredient_names_normalized": [
+    "mong heo",
+    "xuong heo",
+    "cot let heo",
+    "hanh tay",
+    "gung",
+    "mi ramen tuoi",
+    "hanh la",
+    "nuoc tuong kikkoman",
+    "ruou mirin",
+    "dau me",
+    "tuong miso",
+    "duong",
+    "toi bam",
+    "bot dashi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

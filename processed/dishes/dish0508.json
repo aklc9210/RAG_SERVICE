@@ -1,0 +1,81 @@
+{
+  "id": "dish0508",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0508.json",
+  "name_vi": "Canh rau lang thịt bò",
+  "name_en": "",
+  "name_normalized": "canh rau lang thit bo",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt bò",
+    "Rau lang"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre05282",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Rau lang",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Basil",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "rau lang",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

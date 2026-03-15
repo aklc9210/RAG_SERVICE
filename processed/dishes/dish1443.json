@@ -1,0 +1,95 @@
+{
+  "id": "dish1443",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1443.json",
+  "name_vi": "Bánh trôi ngũ sắc",
+  "name_en": "",
+  "name_normalized": "banh troi ngu sac",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước ấm"
+  ],
+  "secondary_ingredients": [
+    "Vừng rang chín",
+    "Lá dứa",
+    "Nước",
+    "Hoa đậu biếc khô",
+    "Nước sôi",
+    "Hoa bụp dấm khô"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Đường phiến (60 viên)",
+    "Chanh leo (15ml nước cốt)"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre04879",
+    "ingre07634",
+    "ingre07301",
+    "ingre03417",
+    "ingre04490",
+    "ingre02611",
+    "ingre04743",
+    "ingre02574",
+    "ingre01087"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Nước ấm",
+    "Đường phiến (60 viên)",
+    "Vừng rang chín",
+    "Lá dứa",
+    "Nước",
+    "Hoa đậu biếc khô",
+    "Nước sôi",
+    "Hoa bụp dấm khô",
+    "Chanh leo (15ml nước cốt)"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Warm water",
+    "Cane Sugar (60 tablets)",
+    "Toasted Sesame Seeds",
+    "Pandan叶",
+    "Water",
+    "Indigo flower dried",
+    "Boiling water",
+    "Dry pickled mustard greens",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "nuoc am",
+    "duong phien 60 vien",
+    "vung rang chin",
+    "la dua",
+    "nuoc",
+    "hoa dau biec kho",
+    "nuoc soi",
+    "hoa bup dam kho",
+    "chanh leo 15ml nuoc cot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong phien (60 vien)",
+      "new": "duong phien 60 vien",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường phiến (60 viên)"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chanh leo (15ml nuoc cot)",
+      "new": "chanh leo 15ml nuoc cot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chanh leo (15ml nước cốt)"
+    }
+  ]
+}

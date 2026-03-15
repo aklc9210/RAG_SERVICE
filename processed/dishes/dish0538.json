@@ -1,0 +1,87 @@
+{
+  "id": "dish0538",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0538.json",
+  "name_vi": "Canh bông bí nấu cá lóc",
+  "name_en": "",
+  "name_normalized": "canh bong bi nau ca loc",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá lóc",
+    "Bông bí",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre00278",
+    "ingre02673",
+    "ingre04538",
+    "ingre04694",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Bông bí",
+    "Hành lá",
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Pumpkin flower",
+    "Scallion",
+    "Lemon juice",
+    "Fish Sauce",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "bong bi",
+    "hanh la",
+    "nuoc cot chanh",
+    "nuoc mam",
+    "muoi",
+    "tieu",
+    "duong",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

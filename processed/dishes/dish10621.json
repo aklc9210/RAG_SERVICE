@@ -1,0 +1,87 @@
+{
+  "id": "dish10621",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10621.json",
+  "name_vi": "Mì soba vịt sốt teriyaki",
+  "name_en": "",
+  "name_normalized": "mi soba vit sot teriyaki",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Mì soba",
+    "Ức vịt"
+  ],
+  "secondary_ingredients": [
+    "Đậu Hà Lan",
+    "Mè"
+  ],
+  "seasonings": [
+    "Sốt teriyaki",
+    "Gừng",
+    "Tỏi",
+    "Cà rốt",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03709",
+    "ingre07927",
+    "ingre05838",
+    "ingre02428",
+    "ingre06680",
+    "ingre01064",
+    "ingre03737",
+    "ingre06612",
+    "ingre07533",
+    "ingre03696"
+  ],
+  "ingredient_names_vi": [
+    "Mì soba",
+    "Ức vịt",
+    "Sốt teriyaki",
+    "Gừng",
+    "Tỏi",
+    "Cà rốt",
+    "Muối",
+    "Tiêu",
+    "Đậu Hà Lan",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Buckwheat noodles",
+    "Duck breast",
+    "Teriyaki Sauce",
+    "Ginger",
+    "Garlic",
+    "Carrot",
+    "Salt",
+    "Pepper",
+    "Green beans",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "mi soba",
+    "uc vit",
+    "sot teriyaki",
+    "gung",
+    "toi",
+    "ca rot",
+    "muoi",
+    "tieu",
+    "dau ha lan",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ingre03464",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03464.json",
+  "name_vi": "lá lốt/ lá tía tô",
+  "name_en": "Cilantro/Coriander Leaf/Tam Leaf",
+  "name_normalized": "la lot la tia to",
+  "synonyms": [
+    "lá tía tô"
+  ],
+  "synonyms_normalized": [
+    "la tia to"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la lot/ la tia to",
+      "new": "la lot la tia to",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

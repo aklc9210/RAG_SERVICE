@@ -1,0 +1,92 @@
+{
+  "id": "dish7954",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7954.json",
+  "name_vi": "Chân gà rút xương sốt Thái",
+  "name_en": "",
+  "name_normalized": "chan ga rut xuong sot thai",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chân gà rút xương",
+    "Xoài xanh",
+    "Tắc"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Gừng",
+    "Nước mắm",
+    "Đường",
+    "Nước cốt me",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc"
+  ],
+  "ingredient_ids": [
+    "ingre01240",
+    "ingre07342",
+    "ingre07057",
+    "ingre05900",
+    "ingre08055",
+    "ingre02485",
+    "ingre04694",
+    "ingre07583",
+    "ingre04581",
+    "ingre07036",
+    "ingre07983"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà rút xương",
+    "Xoài xanh",
+    "Tắc",
+    "Sả",
+    "Ớt sừng",
+    "Gừng",
+    "Nước mắm",
+    "Đường",
+    "Nước cốt me",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc"
+  ],
+  "ingredient_names_en": [
+    "Chicken Thighs",
+    "Green mango",
+    "Tamarind",
+    "Lemongrass",
+    "Hot pepper",
+    "Ginger",
+    "Fish Sauce",
+    "Sugar",
+    "Lime juice",
+    "Korean chili paste",
+    "Korean chili powder"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga rut xuong",
+    "xoai xanh",
+    "tac",
+    "sa",
+    "ot sung",
+    "gung",
+    "nuoc mam",
+    "duong",
+    "nuoc cot me",
+    "tuong ot han quoc",
+    "ot bot han quoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

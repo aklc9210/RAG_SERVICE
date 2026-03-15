@@ -1,0 +1,51 @@
+{
+  "id": "dish9990",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9990.json",
+  "name_vi": "Rượu thanh long",
+  "name_en": "",
+  "name_normalized": "ruou thanh long",
+  "category": "thuc uong",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Thanh long"
+  ],
+  "seasonings": [
+    "Đường",
+    "Rượu 42 - 45 độ"
+  ],
+  "ingredient_ids": [
+    "ingre06202",
+    "ingre07583",
+    "ingre05517"
+  ],
+  "ingredient_names_vi": [
+    "Thanh long",
+    "Đường",
+    "Rượu 42 - 45 độ"
+  ],
+  "ingredient_names_en": [
+    "Dragonfruit",
+    "Sugar",
+    "Spirits"
+  ],
+  "ingredient_names_normalized": [
+    "thanh long",
+    "duong",
+    "ruou 42 45 do"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ruou 42 - 45 do",
+      "new": "ruou 42 45 do",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rượu 42 - 45 độ"
+    }
+  ]
+}

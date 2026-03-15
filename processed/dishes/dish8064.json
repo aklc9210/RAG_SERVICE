@@ -1,0 +1,121 @@
+{
+  "id": "dish8064",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8064.json",
+  "name_vi": "Gỏi rau câu tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi rau cau tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau câu sợi",
+    "Thịt ba rọi",
+    "Tôm",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Rau răm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Ớt hiểm",
+    "Đường",
+    "Nước mắm",
+    "Muối hột",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05224",
+    "ingre06289",
+    "ingre06930",
+    "ingre07781",
+    "ingre02020",
+    "ingre01419",
+    "ingre01079",
+    "ingre08026",
+    "ingre05359",
+    "ingre02768",
+    "ingre07583",
+    "ingre04694",
+    "ingre03766",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Rau câu sợi",
+    "Thịt ba rọi",
+    "Tôm",
+    "Đậu phộng",
+    "Dưa leo",
+    "Cà rốt",
+    "Chanh",
+    "Ớt hiểm",
+    "Rau răm",
+    "Hành tím",
+    "Đường",
+    "Nước mắm",
+    "Muối hột",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Agar agar string",
+    "Pork belly",
+    "Shrimp",
+    "Peanut",
+    "Cucumber",
+    "Carrot",
+    "Lemon",
+    "Hot pepper",
+    "Vietnamese coriander",
+    "Shallot",
+    "Sugar",
+    "Fish Sauce",
+    "Sea salt",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "rau cau soi",
+    "thit ba roi",
+    "tom",
+    "dau phong",
+    "dua leo",
+    "ca rot",
+    "chanh",
+    "ot hiem",
+    "rau ram",
+    "hanh tim",
+    "duong",
+    "nuoc mam",
+    "muoi hot",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

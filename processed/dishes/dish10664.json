@@ -1,0 +1,72 @@
+{
+  "id": "dish10664",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10664.json",
+  "name_vi": "Sushi xúc xích hình hoa đào",
+  "name_en": "",
+  "name_normalized": "sushi xuc xich hinh hoa dao",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Rong biển khô"
+  ],
+  "secondary_ingredients": [
+    "Cơm chín",
+    "Cải bó xôi",
+    "Xúc xích phô mai"
+  ],
+  "seasonings": [
+    "Thanh long ruột đỏ",
+    "Giấm ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06205",
+    "ingre05457",
+    "ingre01726",
+    "ingre01771",
+    "ingre07403",
+    "ingre02377",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Thanh long ruột đỏ",
+    "Rong biển khô",
+    "Cơm chín",
+    "Cải bó xôi",
+    "Xúc xích phô mai",
+    "Giấm ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Red-fleshed tamarind",
+    "Kelp Powder",
+    "Cooked Rice",
+    "Bokchoy",
+    "Mozzarella Sausage",
+    "vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thanh long ruot do",
+    "rong bien kho",
+    "com chin",
+    "cai bo xoi",
+    "xuc xich pho mai",
+    "giam an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

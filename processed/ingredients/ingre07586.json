@@ -1,0 +1,29 @@
+{
+  "id": "ingre07586",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07586.json",
+  "name_vi": "đường - muối - hạt nêm - bột ngọt",
+  "name_en": "Sugar - Salt - Seasoning - Monosodium Glutamate",
+  "name_normalized": "duong muoi hat nem bot ngot",
+  "synonyms": [
+    "muối nở",
+    "bột ngọt",
+    "hạt nêm mè"
+  ],
+  "synonyms_normalized": [
+    "muoi no",
+    "bot ngot",
+    "hat nem me"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong - muoi - hat nem - bot ngot",
+      "new": "duong muoi hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

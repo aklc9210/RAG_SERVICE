@@ -1,0 +1,112 @@
+{
+  "id": "dish1783",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1783.json",
+  "name_vi": "Bánh xèo hoa đậu biếc",
+  "name_en": "",
+  "name_normalized": "banh xeo hoa dau biec",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Tôm",
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Bia",
+    "Hoa đậu biếc khô",
+    "Rau xà lách",
+    "Rau thơm ăn kèm"
+  ],
+  "seasonings": [
+    "Bột bánh xèo",
+    "Bột chiên giòn",
+    "Nước cốt dừa",
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre06398",
+    "ingre00552",
+    "ingre00598",
+    "ingre04554",
+    "ingre00033",
+    "ingre02611",
+    "ingre01079",
+    "ingre07966",
+    "ingre07063",
+    "ingre05410",
+    "ingre05391",
+    "ingre04694",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Thịt heo",
+    "Bột bánh xèo",
+    "Bột chiên giòn",
+    "Nước cốt dừa",
+    "Bia",
+    "Hoa đậu biếc khô",
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Rau xà lách",
+    "Rau thơm ăn kèm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pork",
+    "Soy flour",
+    "Puffed Rice Powder",
+    "Coconut milk",
+    "Beer",
+    "Indigo flower dried",
+    "Lemon",
+    "Pepper",
+    "Garlic",
+    "lettuce",
+    "Basil",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "thit heo",
+    "bot banh xeo",
+    "bot chien gion",
+    "nuoc cot dua",
+    "bia",
+    "hoa dau biec kho",
+    "chanh",
+    "ot",
+    "toi",
+    "rau xa lach",
+    "rau thom an kem",
+    "nuoc mam",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

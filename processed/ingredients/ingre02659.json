@@ -1,0 +1,27 @@
+{
+  "id": "ingre02659",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02659.json",
+  "name_vi": "hành băm/ tỏi băm/ tiêu/ đường",
+  "name_en": "Chopped Garlic/Chopped Onion/Black Pepper/Sugar",
+  "name_normalized": "hanh bam toi bam tieu duong",
+  "synonyms": [
+    "bột tiêu",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "bot tieu",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh bam/ toi bam/ tieu/ duong",
+      "new": "hanh bam toi bam tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

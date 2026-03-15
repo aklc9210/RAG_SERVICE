@@ -1,0 +1,108 @@
+{
+  "id": "dish6496",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6496.json",
+  "name_vi": "Cơm rang dưa bò",
+  "name_en": "",
+  "name_normalized": "com rang dua bo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội",
+    "Thịt bò",
+    "Dưa cải chua"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre06300",
+    "ingre02006",
+    "ingre06823",
+    "ingre01354",
+    "ingre02673",
+    "ingre07063",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746",
+    "ingre02080",
+    "ingre04694",
+    "ingre02124",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Thịt bò",
+    "Dưa cải chua",
+    "Trứng gà",
+    "Cà chua",
+    "Hành lá",
+    "Tỏi",
+    "Hạt nêm",
+    "Đường",
+    "Muối",
+    "Dầu hào",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Beef",
+    "Pickled Chinese cabbage",
+    "Chicken egg",
+    "Tomato",
+    "Scallion",
+    "Garlic",
+    "Seasoning",
+    "Sugar",
+    "Salt",
+    "Soy sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "thit bo",
+    "dua cai chua",
+    "trung ga",
+    "ca chua",
+    "hanh la",
+    "toi",
+    "hat nem",
+    "duong",
+    "muoi",
+    "dau hao",
+    "nuoc mam",
+    "dau an",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish2644",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2644.json",
+  "name_vi": "Bánh quy bắp - Cookie ngô",
+  "name_en": "",
+  "name_normalized": "banh quy bap cookie ngo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Hạt ngô"
+  ],
+  "seasonings": [
+    "Đường",
+    "Trứng",
+    "Bột bánh",
+    "Bột ngô",
+    "Bột nở",
+    "Muối nở",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00382",
+    "ingre07583",
+    "ingre06801",
+    "ingre00521",
+    "ingre00813",
+    "ingre00867",
+    "ingre03772",
+    "ingre03746",
+    "ingre02989"
+  ],
+  "ingredient_names_vi": [
+    "Bơ lạt",
+    "Đường",
+    "Trứng",
+    "Bột bánh",
+    "Bột ngô",
+    "Bột nở",
+    "Muối nở",
+    "Muối",
+    "Hạt ngô"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Sugar",
+    "Egg",
+    "Bread flour",
+    "Corn flour",
+    "Baking powder",
+    "Tapioca pearls",
+    "Salt",
+    "Corn kernel"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat",
+    "duong",
+    "trung",
+    "bot banh",
+    "bot ngo",
+    "bot no",
+    "muoi no",
+    "muoi",
+    "hat ngo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy bap - cookie ngo",
+      "new": "banh quy bap cookie ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

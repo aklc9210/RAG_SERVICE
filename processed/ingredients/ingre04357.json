@@ -1,0 +1,25 @@
+{
+  "id": "ingre04357",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04357.json",
+  "name_vi": "ngò/ hẹ",
+  "name_en": "Chives",
+  "name_normalized": "ngo he",
+  "synonyms": [
+    "hẹ non"
+  ],
+  "synonyms_normalized": [
+    "he non"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo/ he",
+      "new": "ngo he",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

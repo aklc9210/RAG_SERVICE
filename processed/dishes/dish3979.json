@@ -1,0 +1,101 @@
+{
+  "id": "dish3979",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3979.json",
+  "name_vi": "Vẹm xanh nướng bơ tỏi",
+  "name_en": "",
+  "name_normalized": "vem xanh nuong bo toi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Vẹm xanh",
+    "Bơ",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Tỏi xay",
+    "Đường",
+    "Muối",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tương ớt",
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre07207",
+    "ingre00367",
+    "ingre05900",
+    "ingre05359",
+    "ingre07113",
+    "ingre07583",
+    "ingre03746",
+    "ingre02124",
+    "ingre02080",
+    "ingre07028",
+    "ingre05574"
+  ],
+  "ingredient_names_vi": [
+    "Vẹm xanh",
+    "Bơ",
+    "Sả",
+    "Rau răm",
+    "Tỏi xay",
+    "Đường",
+    "Muối",
+    "Dầu ăn",
+    "Dầu hào",
+    "Tương ớt",
+    "Rượu trắng"
+  ],
+  "ingredient_names_en": [
+    "Green Mussel",
+    "Butter",
+    "Lemongrass",
+    "Vietnamese coriander",
+    "Garlic Paste",
+    "Sugar",
+    "Salt",
+    "Cooking oil",
+    "Soy sauce",
+    "Hot Sauce",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "vem xanh",
+    "bo",
+    "sa",
+    "rau ram",
+    "toi xay",
+    "duong",
+    "muoi",
+    "dau an",
+    "dau hao",
+    "tuong ot",
+    "ruou trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

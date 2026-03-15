@@ -1,0 +1,82 @@
+{
+  "id": "dish8378",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8378.json",
+  "name_vi": "Nấm rơm muối chua",
+  "name_en": "",
+  "name_normalized": "nam rom muoi chua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Giấm gạo",
+    "Nước mắm",
+    "Đường",
+    "Muối hạt",
+    "Tỏi băm",
+    "Ớt băm",
+    "Gừng nhỏ"
+  ],
+  "ingredient_ids": [
+    "ingre04953",
+    "ingre02362",
+    "ingre04694",
+    "ingre07583",
+    "ingre03760",
+    "ingre07071",
+    "ingre07971",
+    "ingre05900",
+    "ingre02512"
+  ],
+  "ingredient_names_vi": [
+    "Nấm rơm",
+    "Giấm gạo",
+    "Nước mắm",
+    "Đường",
+    "Muối hạt",
+    "Tỏi băm",
+    "Ớt băm",
+    "Sả",
+    "Gừng nhỏ"
+  ],
+  "ingredient_names_en": [
+    "Strawberry mushroom",
+    "Rice vinegar",
+    "Fish Sauce",
+    "Sugar",
+    "Fenugreek seeds",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Lemongrass",
+    "Ginger"
+  ],
+  "ingredient_names_normalized": [
+    "nam rom",
+    "giam gao",
+    "nuoc mam",
+    "duong",
+    "muoi hat",
+    "toi bam",
+    "ot bam",
+    "sa",
+    "gung nho"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dish5051",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5051.json",
+  "name_vi": "Tôm hùm sốt bơ tỏi",
+  "name_en": "",
+  "name_normalized": "tom hum sot bo toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm hùm"
+  ],
+  "secondary_ingredients": [
+    "Gạch cua",
+    "Bơ nhạt",
+    "Xúc xích xông khói",
+    "Bắp",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Tỏi xay",
+    "Sa tế",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06940",
+    "ingre07113",
+    "ingre02429",
+    "ingre00402",
+    "ingre07408",
+    "ingre00448",
+    "ingre05621",
+    "ingre07678",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Tôm hùm",
+    "Tỏi xay",
+    "Gạch cua",
+    "Bơ nhạt",
+    "Xúc xích xông khói",
+    "Bắp",
+    "Sa tế",
+    "Đường/ hạt nêm",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Prawn",
+    "Garlic Paste",
+    "Crab paste",
+    "Margarine",
+    "Smoked sausage",
+    "Corn",
+    "Fish sauce",
+    "Soy Sauce/Sugar",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "tom hum",
+    "toi xay",
+    "gach cua",
+    "bo nhat",
+    "xuc xich xong khoi",
+    "bap",
+    "sa te",
+    "duong hat nem",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

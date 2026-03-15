@@ -1,0 +1,92 @@
+{
+  "id": "dish6454",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6454.json",
+  "name_vi": "Đuôi heo chiên mắm tắc",
+  "name_en": "",
+  "name_normalized": "duoi heo chien mam tac",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Đuôi heo"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Nước cốt tắc",
+    "Muối",
+    "Nước mắm",
+    "Gừng",
+    "Đường trắng",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07502",
+    "ingre04591",
+    "ingre03746",
+    "ingre04694",
+    "ingre02485",
+    "ingre07652",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre07057",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Đuôi heo",
+    "Nước cốt tắc",
+    "Muối",
+    "Nước mắm",
+    "Gừng",
+    "Đường trắng",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Tắc",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork tail",
+    "Tamarind juice",
+    "Salt",
+    "Fish Sauce",
+    "Ginger",
+    "White sugar",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Tamarind",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "duoi heo",
+    "nuoc cot tac",
+    "muoi",
+    "nuoc mam",
+    "gung",
+    "duong trang",
+    "toi",
+    "ot",
+    "sa",
+    "tac",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

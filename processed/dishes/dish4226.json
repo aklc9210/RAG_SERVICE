@@ -1,0 +1,113 @@
+{
+  "id": "dish4226",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4226.json",
+  "name_vi": "Sườn que nướng mật ong",
+  "name_en": "",
+  "name_normalized": "suon que nuong mat ong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Sườn que",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Rau ăn kèm",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sả băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngũ vị hương",
+    "Ớt bột",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre05892",
+    "ingre02768",
+    "ingre07063",
+    "ingre05905",
+    "ingre05420",
+    "ingre04124",
+    "ingre04694",
+    "ingre02124",
+    "ingre00815",
+    "ingre07977",
+    "ingre03746",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Sườn que",
+    "Hành tím",
+    "Tỏi",
+    "Sả băm",
+    "Rau ăn kèm",
+    "Mật ong",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngũ vị hương",
+    "Ớt bột",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rib Steak",
+    "Shallot",
+    "Garlic",
+    "Garlic Paste",
+    "Side vegetable",
+    "Honey",
+    "Fish Sauce",
+    "Cooking oil",
+    "Five-Spice Powder",
+    "Chili powder",
+    "Salt",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "suon que",
+    "hanh tim",
+    "toi",
+    "sa bam",
+    "rau an kem",
+    "mat ong",
+    "nuoc mam",
+    "dau an",
+    "bot ngu vi huong",
+    "ot bot",
+    "muoi",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

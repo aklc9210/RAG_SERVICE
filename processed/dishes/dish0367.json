@@ -1,0 +1,82 @@
+{
+  "id": "dish0367",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0367.json",
+  "name_vi": "Canh cải ngọt nấu tôm tươi",
+  "name_en": "",
+  "name_normalized": "canh cai ngot nau tom tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre01787",
+    "ingre02700",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Cải ngọt",
+    "Hành lá/ ngò",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Sweet cabbage",
+    "Chives",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "cai ngot",
+    "hanh la ngo",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo",
+      "new": "hanh la ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò"
+    }
+  ]
+}

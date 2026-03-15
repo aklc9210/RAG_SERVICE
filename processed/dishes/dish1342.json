@@ -1,0 +1,66 @@
+{
+  "id": "dish1342",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1342.json",
+  "name_vi": "Bánh khoai lang tím bọc phô mai nướng (ít calo)",
+  "name_en": "",
+  "name_normalized": "banh khoai lang tim boc pho mai nuong it calo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai lang tím"
+  ],
+  "secondary_ingredients": [
+    "Phô mai con bò cười",
+    "Sữa tươi",
+    "Mè đen"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03200",
+    "ingre05070",
+    "ingre00849",
+    "ingre06144",
+    "ingre07583",
+    "ingre03941"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang tím",
+    "Phô mai con bò cười",
+    "Bột năng",
+    "Sữa tươi",
+    "Đường",
+    "Mè đen"
+  ],
+  "ingredient_names_en": [
+    "Purple potato",
+    "Cheese Cow Smile",
+    "Cornstarch",
+    "Fresh Milk",
+    "Sugar",
+    "Black sesame seeds"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang tim",
+    "pho mai con bo cuoi",
+    "bot nang",
+    "sua tuoi",
+    "duong",
+    "me den"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh khoai lang tim boc pho mai nuong (it calo)",
+      "new": "banh khoai lang tim boc pho mai nuong it calo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish3025",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3025.json",
+  "name_vi": "Bánh mì chà bông sốt trứng",
+  "name_en": "",
+  "name_normalized": "banh mi cha bong sot trung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước"
+  ],
+  "secondary_ingredients": [
+    "Bơ",
+    "Hành lá",
+    "Mè"
+  ],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Muối",
+    "Sữa bột",
+    "Đường",
+    "Men nở",
+    "Sữa tươi không đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00723",
+    "ingre04490",
+    "ingre03746",
+    "ingre06083",
+    "ingre07583",
+    "ingre03686",
+    "ingre00367",
+    "ingre06147",
+    "ingre06823",
+    "ingre02673",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh mì",
+    "Nước",
+    "Muối",
+    "Sữa bột",
+    "Đường",
+    "Men nở",
+    "Bơ",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Hành lá",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Bread Flour",
+    "Water",
+    "Salt",
+    "Milk Powder",
+    "Sugar",
+    "Baking Powder",
+    "Butter",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Scallion",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh mi",
+    "nuoc",
+    "muoi",
+    "sua bot",
+    "duong",
+    "men no",
+    "bo",
+    "sua tuoi khong duong",
+    "trung ga",
+    "hanh la",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

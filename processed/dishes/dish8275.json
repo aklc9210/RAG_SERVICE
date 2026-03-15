@@ -1,0 +1,65 @@
+{
+  "id": "dish8275",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8275.json",
+  "name_vi": "Măng ngâm ớt (Công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "mang ngam ot cong thuc duoc chia se tu nguoi dung",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Măng tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt chỉ thiên",
+    "Ớt sừng",
+    "Muối hạt",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre04091",
+    "ingre07063",
+    "ingre08017",
+    "ingre08055",
+    "ingre03760",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Măng tươi",
+    "Tỏi",
+    "Ớt chỉ thiên",
+    "Ớt sừng",
+    "Muối hạt",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Fresh bamboo shoots",
+    "Garlic",
+    "Bird's eye chili",
+    "Hot pepper",
+    "Fenugreek seeds",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "mang tuoi",
+    "toi",
+    "ot chi thien",
+    "ot sung",
+    "muoi hat",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mang ngam ot (cong thuc duoc chia se tu nguoi dung)",
+      "new": "mang ngam ot cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

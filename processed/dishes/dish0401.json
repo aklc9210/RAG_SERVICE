@@ -1,0 +1,122 @@
+{
+  "id": "dish0401",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0401.json",
+  "name_vi": "Canh chua bông điên điển nấu nấm đậu",
+  "name_en": "",
+  "name_normalized": "canh chua bong dien dien nau nam dau",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bông điên điển",
+    "Bông súng",
+    "Rau muống",
+    "Rau nhút",
+    "Nấm bào ngư"
+  ],
+  "secondary_ingredients": [
+    "Giá",
+    "Cà chua",
+    "Đậu bắp",
+    "Đậu hủ chiên",
+    "Chả chay",
+    "Rau om/ ngò gai",
+    "Me tươi"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00296",
+    "ingre00291",
+    "ingre05289",
+    "ingre05342",
+    "ingre04894",
+    "ingre02329",
+    "ingre01354",
+    "ingre07729",
+    "ingre07763",
+    "ingre01260",
+    "ingre05349",
+    "ingre08026",
+    "ingre03660",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Bông điên điển",
+    "Bông súng",
+    "Rau muống",
+    "Rau nhút",
+    "Nấm bào ngư",
+    "Giá",
+    "Cà chua",
+    "Đậu bắp",
+    "Đậu hủ chiên",
+    "Chả chay",
+    "Rau om/ ngò gai",
+    "Ớt hiểm",
+    "Me tươi",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Dandelion flower",
+    "Mallow花椰菜",
+    "Watercress",
+    "Water spinach",
+    "Oyster mushroom",
+    "Mint",
+    "Tomato",
+    "Green beans",
+    "Fried tofu",
+    "Vegetarian sausage",
+    "Parsley",
+    "Hot pepper",
+    "Fresh herb",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "bong dien dien",
+    "bong sung",
+    "rau muong",
+    "rau nhut",
+    "nam bao ngu",
+    "gia",
+    "ca chua",
+    "dau bap",
+    "dau hu chien",
+    "cha chay",
+    "rau om ngo gai",
+    "ot hiem",
+    "me tuoi",
+    "hat nem chay",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau om/ ngo gai",
+      "new": "rau om ngo gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau om/ ngò gai"
+    }
+  ]
+}

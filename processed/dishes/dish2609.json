@@ -1,0 +1,63 @@
+{
+  "id": "dish2609",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2609.json",
+  "name_vi": "Bánh mì táo",
+  "name_en": "",
+  "name_normalized": "banh mi tao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Sữa tươi",
+    "Bơ lạt",
+    "Táo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Đường",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre07583",
+    "ingre03687",
+    "ingre06144",
+    "ingre00382",
+    "ingre06823",
+    "ingre06890"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Đường",
+    "Men nở instant",
+    "Sữa tươi",
+    "Bơ lạt",
+    "Trứng gà",
+    "Táo"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Sugar",
+    "Instant Yeast",
+    "Fresh Milk",
+    "Butter",
+    "Chicken egg",
+    "Apple"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "duong",
+    "men no instant",
+    "sua tuoi",
+    "bo lat",
+    "trung ga",
+    "tao"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

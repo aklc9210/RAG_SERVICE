@@ -1,0 +1,93 @@
+{
+  "id": "dish0676",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0676.json",
+  "name_vi": "Canh bí đao nấu tôm",
+  "name_en": "",
+  "name_normalized": "canh bi dao nau tom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm",
+    "Bí đao"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre00247",
+    "ingre02774",
+    "ingre02673",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06612",
+    "ingre02124",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Bí đao",
+    "Hành tím băm",
+    "Hành lá",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu",
+    "Dầu ăn",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Cucumber",
+    "Chopped Scallion",
+    "Scallion",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Pepper",
+    "Cooking oil",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "bi dao",
+    "hanh tim bam",
+    "hanh la",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu",
+    "dau an",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

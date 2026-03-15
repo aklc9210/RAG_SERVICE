@@ -1,0 +1,29 @@
+{
+  "id": "ingre07692",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07692.json",
+  "name_vi": "đường/tiêu xay",
+  "name_en": "Ground Cayenne Pepper",
+  "name_normalized": "duong tieu xay",
+  "synonyms": [
+    "tiêu",
+    "bột tiêu"
+  ],
+  "synonyms_normalized": [
+    "tieu",
+    "bot tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/tieu xay",
+      "new": "duong tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

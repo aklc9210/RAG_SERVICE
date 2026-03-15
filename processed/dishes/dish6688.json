@@ -1,0 +1,119 @@
+{
+  "id": "dish6688",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6688.json",
+  "name_vi": "Bánh khọt không cần khuôn",
+  "name_en": "",
+  "name_normalized": "banh khot khong can khuon",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Nước có ga",
+    "Rau thơm/ xà lách"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột chiên giòn",
+    "Bột nghệ",
+    "Bột hành",
+    "Bột tỏi",
+    "Nước cốt chanh",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường",
+    "Mỡ hành"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre00668",
+    "ingre00598",
+    "ingre00804",
+    "ingre00682",
+    "ingre00978",
+    "ingre04538",
+    "ingre04528",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre03818",
+    "ingre05397",
+    "ingre04199"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Bột gạo",
+    "Bột chiên giòn",
+    "Bột nghệ",
+    "Bột hành",
+    "Bột tỏi",
+    "Nước cốt chanh",
+    "Nước có ga",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ đường",
+    "Rau thơm/ xà lách",
+    "Mỡ hành"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Rice flour",
+    "Puffed Rice Powder",
+    "Turmeric Powder",
+    "Garlic Powder",
+    "Lemon juice",
+    "Carbonated water",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt/Sugar",
+    "Herb/lettuce",
+    "Chives butter"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "bot gao",
+    "bot chien gion",
+    "bot nghe",
+    "bot hanh",
+    "bot toi",
+    "nuoc cot chanh",
+    "nuoc co ga",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "muoi duong",
+    "rau thom xa lach",
+    "mo hanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau thom/ xa lach",
+      "new": "rau thom xa lach",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau thơm/ xà lách"
+    }
+  ]
+}

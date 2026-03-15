@@ -1,0 +1,86 @@
+{
+  "id": "dish7165",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7165.json",
+  "name_vi": "Cổ gà chiên ngũ vị bằng chảo",
+  "name_en": "",
+  "name_normalized": "co ga chien ngu vi bang chao",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cổ gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Bơ thực vật",
+    "Tỏi băm",
+    "Ớt băm",
+    "Ngũ vị hương",
+    "Rượu trắng",
+    "Giấm",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01857",
+    "ingre00849",
+    "ingre00407",
+    "ingre07071",
+    "ingre07971",
+    "ingre04381",
+    "ingre05574",
+    "ingre02355",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cổ gà",
+    "Bột năng",
+    "Bơ thực vật",
+    "Tỏi băm",
+    "Ớt băm",
+    "Ngũ vị hương",
+    "Rượu trắng",
+    "Giấm",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken neck",
+    "Cornstarch",
+    "Vegetable oil",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Five-Spice Powder",
+    "White wine",
+    "Vinegar",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "co ga",
+    "bot nang",
+    "bo thuc vat",
+    "toi bam",
+    "ot bam",
+    "ngu vi huong",
+    "ruou trang",
+    "giam",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

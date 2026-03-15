@@ -1,0 +1,121 @@
+{
+  "id": "dish7124",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7124.json",
+  "name_vi": "Ram bắp thịt",
+  "name_en": "",
+  "name_normalized": "ram bap thit",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt heo",
+    "Bắp Mỹ",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Bánh tráng mỏng"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre06823",
+    "ingre00479",
+    "ingre04930",
+    "ingre01419",
+    "ingre02673",
+    "ingre02768",
+    "ingre07071",
+    "ingre00198",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Trứng gà",
+    "Bắp Mỹ",
+    "Nấm mèo",
+    "Cà rốt",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi băm",
+    "Bánh tráng mỏng",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Chicken egg",
+    "Corn",
+    "Mushroom",
+    "Carrot",
+    "Scallion",
+    "Shallot",
+    "Minced Garlic",
+    "Thin rice paper",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "trung ga",
+    "bap my",
+    "nam meo",
+    "ca rot",
+    "hanh la",
+    "hanh tim",
+    "toi bam",
+    "banh trang mong",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

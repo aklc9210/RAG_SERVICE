@@ -1,0 +1,116 @@
+{
+  "id": "dish1354",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1354.json",
+  "name_vi": "Bánh đúc nóng mặn từ bột nếp",
+  "name_en": "",
+  "name_normalized": "banh duc nong man tu bot nep",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Nấm mèo băm nhuyễn",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Nước",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột gạo",
+    "Bột nếp",
+    "Bột sắn dây",
+    "Muối",
+    "Tiêu",
+    "Đường",
+    "Nước mắm",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre04934",
+    "ingre07742",
+    "ingre00668",
+    "ingre00859",
+    "ingre00928",
+    "ingre04490",
+    "ingre03746",
+    "ingre02673",
+    "ingre06612",
+    "ingre02768",
+    "ingre07583",
+    "ingre04694",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Nấm mèo băm nhuyễn",
+    "Đậu hũ chiên",
+    "Bột gạo",
+    "Bột nếp",
+    "Bột sắn dây",
+    "Nước",
+    "Muối",
+    "Hành lá",
+    "Tiêu",
+    "Hành tím",
+    "Đường",
+    "Nước mắm",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Mince Cat's Ear Mushrooms",
+    "Fried Tofu",
+    "Rice flour",
+    "Glutinous rice flour",
+    "Tapioca starch",
+    "Water",
+    "Salt",
+    "Scallion",
+    "Pepper",
+    "Shallot",
+    "Sugar",
+    "Fish Sauce",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "nam meo bam nhuyen",
+    "dau hu chien",
+    "bot gao",
+    "bot nep",
+    "bot san day",
+    "nuoc",
+    "muoi",
+    "hanh la",
+    "tieu",
+    "hanh tim",
+    "duong",
+    "nuoc mam",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

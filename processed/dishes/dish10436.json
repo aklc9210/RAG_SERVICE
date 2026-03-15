@@ -1,0 +1,78 @@
+{
+  "id": "dish10436",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10436.json",
+  "name_vi": "Trứng pha lê",
+  "name_en": "",
+  "name_normalized": "trung pha le",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Tôm tươi"
+  ],
+  "secondary_ingredients": [
+    "Bông cải trắng",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột rau câu",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06963",
+    "ingre00281",
+    "ingre02673",
+    "ingre00892",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Tôm tươi",
+    "Bông cải trắng",
+    "Hành lá",
+    "Bột rau câu",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Fresh shrimp",
+    "Cabbage",
+    "Scallion",
+    "Agar agar",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "tom tuoi",
+    "bong cai trang",
+    "hanh la",
+    "bot rau cau",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

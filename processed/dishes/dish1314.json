@@ -1,0 +1,56 @@
+{
+  "id": "dish1314",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1314.json",
+  "name_vi": "Bánh roti Malaysia - roti canai",
+  "name_en": "",
+  "name_normalized": "banh roti malaysia roti canai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Sữa đặc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre00382",
+    "ingre06823",
+    "ingre06174"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Bơ lạt",
+    "Trứng gà",
+    "Sữa đặc"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Butter",
+    "Chicken egg",
+    "Sweetened Condensed Milk"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "bo lat",
+    "trung ga",
+    "sua dac"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh roti malaysia - roti canai",
+      "new": "banh roti malaysia roti canai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

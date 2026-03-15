@@ -1,0 +1,77 @@
+{
+  "id": "dish10435",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10435.json",
+  "name_vi": "Chè hạt sen nấm tuyết",
+  "name_en": "",
+  "name_normalized": "che hat sen nam tuyet",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Hạt sen khô",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Nấm tuyết"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Đường thốt nốt",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre03031",
+    "ingre07836",
+    "ingre04962",
+    "ingre02485",
+    "ingre07647",
+    "ingre00849",
+    "ingre04554",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Hạt sen khô",
+    "Đậu xanh",
+    "Nấm tuyết",
+    "Gừng",
+    "Đường thốt nốt",
+    "Bột năng",
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Lotus seed",
+    "Green beans",
+    "Mushroom",
+    "Ginger",
+    "Cane Sugar",
+    "Cornstarch",
+    "Coconut milk",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "hat sen kho",
+    "dau xanh",
+    "nam tuyet",
+    "gung",
+    "duong thot not",
+    "bot nang",
+    "nuoc cot dua",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

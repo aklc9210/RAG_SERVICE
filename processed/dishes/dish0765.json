@@ -1,0 +1,83 @@
+{
+  "id": "dish0765",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0765.json",
+  "name_vi": "Canh sấu thịt băm",
+  "name_en": "",
+  "name_normalized": "canh sau thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt băm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Sấu",
+    "Hành tím",
+    "Hành lá cắt nhuyễn",
+    "Rau mùi"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06329",
+    "ingre01354",
+    "ingre05925",
+    "ingre02768",
+    "ingre02682",
+    "ingre05302",
+    "ingre02124",
+    "ingre02995",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Thịt băm",
+    "Cà chua",
+    "Sấu",
+    "Hành tím",
+    "Hành lá cắt nhuyễn",
+    "Rau mùi",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Minced meat",
+    "Tomato",
+    "Sour sop",
+    "Shallot",
+    "Chopped Green Onion",
+    "Mint",
+    "Cooking oil",
+    "Seasoning",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit bam",
+    "ca chua",
+    "sau",
+    "hanh tim",
+    "hanh la cat nhuyen",
+    "rau mui",
+    "dau an",
+    "hat nem",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

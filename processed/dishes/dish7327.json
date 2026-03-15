@@ -1,0 +1,67 @@
+{
+  "id": "dish7327",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7327.json",
+  "name_vi": "Sandwich mứt dâu cuộn thịt xông khói",
+  "name_en": "",
+  "name_normalized": "sandwich mut dau cuon thit xong khoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt xông khói"
+  ],
+  "secondary_ingredients": [
+    "Bánh mì sandwich",
+    "Mứt dâu tây",
+    "Bơ lạt",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06523",
+    "ingre00117",
+    "ingre04227",
+    "ingre00382",
+    "ingre06144",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xông khói",
+    "Bánh mì sandwich",
+    "Mứt dâu tây",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Smoked Pork",
+    "Sandwich bread",
+    "Strawberry jam",
+    "Butter",
+    "Fresh Milk",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit xong khoi",
+    "banh mi sandwich",
+    "mut dau tay",
+    "bo lat",
+    "sua tuoi",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

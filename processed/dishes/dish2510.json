@@ -1,0 +1,101 @@
+{
+  "id": "dish2510",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2510.json",
+  "name_vi": "Bánh mì ngọt Pháp - Brioche Classic",
+  "name_en": "",
+  "name_normalized": "banh mi ngot phap brioche classic",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Heavy cream",
+    "Sữa tươi",
+    "Nước ấm",
+    "Mật ong",
+    "Lòng đỏ trứng gà"
+  ],
+  "seasonings": [
+    "Bột làm bánh mì",
+    "Men nở",
+    "Đường",
+    "Trứng gà",
+    "Sữa bột",
+    "Muối",
+    "Bột sư tử"
+  ],
+  "ingredient_ids": [
+    "ingre00723",
+    "ingre00367",
+    "ingre03686",
+    "ingre07583",
+    "ingre06823",
+    "ingre06083",
+    "ingre03746",
+    "ingre00919",
+    "ingre02558",
+    "ingre06144",
+    "ingre04879",
+    "ingre04124",
+    "ingre03584"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh mì",
+    "Bơ",
+    "Men nở",
+    "Đường",
+    "Trứng gà",
+    "Sữa bột",
+    "Muối",
+    "Bột sư tử",
+    "Heavy cream",
+    "Sữa tươi",
+    "Nước ấm",
+    "Mật ong",
+    "Lòng đỏ trứng gà"
+  ],
+  "ingredient_names_en": [
+    "Bread Flour",
+    "Butter",
+    "Baking Powder",
+    "Sugar",
+    "Chicken egg",
+    "Milk Powder",
+    "Salt",
+    "Tiger's milk powder",
+    "Heavy cream",
+    "Fresh Milk",
+    "Warm water",
+    "Honey",
+    "Egg yolk"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh mi",
+    "bo",
+    "men no",
+    "duong",
+    "trung ga",
+    "sua bot",
+    "muoi",
+    "bot su tu",
+    "heavy cream",
+    "sua tuoi",
+    "nuoc am",
+    "mat ong",
+    "long do trung ga"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi ngot phap - brioche classic",
+      "new": "banh mi ngot phap brioche classic",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

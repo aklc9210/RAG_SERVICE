@@ -1,0 +1,66 @@
+{
+  "id": "dish10448",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10448.json",
+  "name_vi": "Injeolmi bingsu (bingsu bánh gạo)",
+  "name_en": "",
+  "name_normalized": "injeolmi bingsu bingsu banh gao",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Sữa tươi",
+    "Sữa đặc",
+    "Hạt nhân lát",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Bột đậu nành"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre01011",
+    "ingre06144",
+    "ingre06174",
+    "ingre02992",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Bột đậu nành",
+    "Sữa tươi",
+    "Sữa đặc",
+    "Hạt nhân lát",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Soybean flour",
+    "Fresh Milk",
+    "Sweetened Condensed Milk",
+    "Sliced almond",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "bot dau nanh",
+    "sua tuoi",
+    "sua dac",
+    "hat nhan lat",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "injeolmi bingsu (bingsu banh gao)",
+      "new": "injeolmi bingsu bingsu banh gao",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre04635",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04635.json",
+  "name_vi": "nước hoặc sữa.",
+  "name_en": "Milk or Water",
+  "name_normalized": "nuoc hoac sua",
+  "synonyms": [
+    "trứng gà tươi",
+    "kem tươi",
+    "kem whipping"
+  ],
+  "synonyms_normalized": [
+    "trung ga tuoi",
+    "kem tuoi",
+    "kem whipping"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc hoac sua.",
+      "new": "nuoc hoac sua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

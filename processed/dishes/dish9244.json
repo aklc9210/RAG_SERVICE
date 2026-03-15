@@ -1,0 +1,117 @@
+{
+  "id": "dish9244",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9244.json",
+  "name_vi": "Giò thủ, giò tai",
+  "name_en": "",
+  "name_normalized": "gio thu gio tai",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo sống",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mộc nhĩ",
+    "Nấm đông cô",
+    "Lá chuối",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh tươi",
+    "Dầu ăn",
+    "Nước mắm cốt",
+    "Muối hột",
+    "Hạt tiêu",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06413",
+    "ingre02768",
+    "ingre02485",
+    "ingre01091",
+    "ingre04179",
+    "ingre04966",
+    "ingre03385",
+    "ingre02124",
+    "ingre04702",
+    "ingre03766",
+    "ingre03043",
+    "ingre07678",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo sống",
+    "Hành tím",
+    "Gừng",
+    "Chanh tươi",
+    "Mộc nhĩ",
+    "Nấm đông cô",
+    "Lá chuối",
+    "Dầu ăn",
+    "Nước mắm cốt",
+    "Muối hột",
+    "Hạt tiêu",
+    "Đường/ hạt nêm",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Raw Beef",
+    "Shallot",
+    "Ginger",
+    "Lime",
+    "Mushroom",
+    "Banana leaf",
+    "Cooking oil",
+    "Fish sauce",
+    "Sea salt",
+    "Pepper",
+    "Soy Sauce/Sugar",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo song",
+    "hanh tim",
+    "gung",
+    "chanh tuoi",
+    "moc nhi",
+    "nam dong co",
+    "la chuoi",
+    "dau an",
+    "nuoc mam cot",
+    "muoi hot",
+    "hat tieu",
+    "duong hat nem",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gio thu, gio tai",
+      "new": "gio thu gio tai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

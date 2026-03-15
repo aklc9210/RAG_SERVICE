@@ -1,0 +1,97 @@
+{
+  "id": "dish7228",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7228.json",
+  "name_vi": "Mề gà chiên giòn",
+  "name_en": "",
+  "name_normalized": "me ga chien gion",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mề gà",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Bột gừng",
+    "Bột bắp",
+    "Bột tỏi",
+    "Muối hạt",
+    "Rượu trắng",
+    "Giấm",
+    "Chanh",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04173",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre00678",
+    "ingre00564",
+    "ingre00978",
+    "ingre03760",
+    "ingre05574",
+    "ingre02355",
+    "ingre01079",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mề gà",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Bột gừng",
+    "Bột bắp",
+    "Bột tỏi",
+    "Muối hạt",
+    "Rượu trắng",
+    "Giấm",
+    "Chanh",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken neck",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Ginger powder",
+    "Corn starch",
+    "Garlic powder",
+    "Fenugreek seeds",
+    "White wine",
+    "Vinegar",
+    "Lemon",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "me ga",
+    "toi",
+    "hanh tim",
+    "ot",
+    "bot gung",
+    "bot bap",
+    "bot toi",
+    "muoi hat",
+    "ruou trang",
+    "giam",
+    "chanh",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

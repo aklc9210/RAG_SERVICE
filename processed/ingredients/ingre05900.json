@@ -1,0 +1,29 @@
+{
+  "id": "ingre05900",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05900.json",
+  "name_vi": "sả",
+  "name_en": "Lemongrass",
+  "name_normalized": "sa",
+  "synonyms": [
+    "cây gừng",
+    "gừng",
+    "ngải gừng"
+  ],
+  "synonyms_normalized": [
+    "cay gung",
+    "gung",
+    "ngai gung"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass."
+    }
+  ]
+}

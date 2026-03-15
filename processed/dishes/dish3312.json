@@ -1,0 +1,123 @@
+{
+  "id": "dish3312",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3312.json",
+  "name_vi": "Nui nấu nấm rau củ chay",
+  "name_en": "",
+  "name_normalized": "nui nau nam rau cu chay",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Nui khô",
+    "Cải trắng",
+    "Nấm kim chi trắng",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Xà lách",
+    "Hành lá",
+    "Ngò rí",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu hào chay",
+    "Hạt nêm chay",
+    "Hành tím băm nhỏ",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04452",
+    "ingre01419",
+    "ingre01796",
+    "ingre04920",
+    "ingre04953",
+    "ingre07351",
+    "ingre02673",
+    "ingre04343",
+    "ingre02081",
+    "ingre04821",
+    "ingre02997",
+    "ingre02776",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Nui khô",
+    "Cà rốt",
+    "Cải trắng",
+    "Nấm kim chi trắng",
+    "Nấm rơm",
+    "Xà lách",
+    "Hành lá",
+    "Ngò rí",
+    "Dầu hào chay",
+    "Nước vo gạo",
+    "Hạt nêm chay",
+    "Hành tím băm nhỏ",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Carrot",
+    "Cabbage",
+    "White Shiitake Mushroom",
+    "Strawberry mushroom",
+    "Lettuce",
+    "Scallion",
+    "Parsley",
+    "Vegetarian soy sauce",
+    "Rice washing water",
+    "Vegetarian Seasoning",
+    "Chopped Green Onion",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nui kho",
+    "ca rot",
+    "cai trang",
+    "nam kim chi trang",
+    "nam rom",
+    "xa lach",
+    "hanh la",
+    "ngo ri",
+    "dau hao chay",
+    "nuoc vo gao",
+    "hat nem chay",
+    "hanh tim bam nho",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

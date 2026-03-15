@@ -1,0 +1,119 @@
+{
+  "id": "dish0757",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0757.json",
+  "name_vi": "Canh chua cá chép nấu dọc mùng",
+  "name_en": "",
+  "name_normalized": "canh chua ca chep nau doc mung",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá chép giòn",
+    "Trứng cá chép giòn",
+    "Dọc mùng"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai/ Thì là",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Ớt đỏ",
+    "Bột nghệ",
+    "Hạt nêm",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01493",
+    "ingre06811",
+    "ingre02147",
+    "ingre01354",
+    "ingre02768",
+    "ingre02673",
+    "ingre04337",
+    "ingre08097",
+    "ingre07057",
+    "ingre00804",
+    "ingre02995",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá chép giòn",
+    "Trứng cá chép giòn",
+    "Dọc mùng",
+    "Cà chua",
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai/ Thì là",
+    "Ớt đỏ",
+    "Tắc",
+    "Bột nghệ",
+    "Hạt nêm",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Glass carp",
+    "Crunchy Carp Eggs",
+    "Water spinach",
+    "Tomato",
+    "Shallot",
+    "Scallion",
+    "Parsley/Coriander",
+    "Red pepper",
+    "Tamarind",
+    "Turmeric Powder",
+    "Seasoning",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca chep gion",
+    "trung ca chep gion",
+    "doc mung",
+    "ca chua",
+    "hanh tim",
+    "hanh la",
+    "ngo gai thi la",
+    "ot do",
+    "tac",
+    "bot nghe",
+    "hat nem",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo gai/ thi la",
+      "new": "ngo gai thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò gai/ Thì là"
+    }
+  ]
+}

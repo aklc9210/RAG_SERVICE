@@ -1,0 +1,25 @@
+{
+  "id": "ingre04880",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04880.json",
+  "name_vi": "nước ấm 45⁰",
+  "name_en": "Warm water 45⁰C",
+  "name_normalized": "nuoc am 45",
+  "synonyms": [
+    "kem ấm 45⁰"
+  ],
+  "synonyms_normalized": [
+    "kem am 45"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc am 450",
+      "new": "nuoc am 45",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

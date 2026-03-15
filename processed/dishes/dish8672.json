@@ -1,0 +1,117 @@
+{
+  "id": "dish8672",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8672.json",
+  "name_vi": "Bắp bò hầm nước dừa",
+  "name_en": "",
+  "name_normalized": "bap bo ham nuoc dua",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Bắp bò",
+    "Hành tây",
+    "Dứa"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa",
+    "Xoài xanh",
+    "Dưa leo",
+    "Sả",
+    "Rau sống"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Rượu trắng",
+    "Tỏi băm",
+    "Nước cốt chanh",
+    "Ớt băm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre04694",
+    "ingre05574",
+    "ingre02741",
+    "ingre02151",
+    "ingre04622",
+    "ingre07342",
+    "ingre02020",
+    "ingre05900",
+    "ingre07071",
+    "ingre05379",
+    "ingre04538",
+    "ingre07971",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Nước mắm",
+    "Rượu trắng",
+    "Hành tây",
+    "Dứa",
+    "Nước dừa",
+    "Xoài xanh",
+    "Dưa leo",
+    "Sả",
+    "Tỏi băm",
+    "Rau sống",
+    "Nước cốt chanh",
+    "Ớt băm",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Fish Sauce",
+    "White wine",
+    "Onion",
+    "Pineapple",
+    "Coconut water",
+    "Green mango",
+    "Cucumber",
+    "Lemongrass",
+    "Minced Garlic",
+    "Fresh herbs",
+    "Lemon juice",
+    "Chopped Pepper",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "nuoc mam",
+    "ruou trang",
+    "hanh tay",
+    "dua",
+    "nuoc dua",
+    "xoai xanh",
+    "dua leo",
+    "sa",
+    "toi bam",
+    "rau song",
+    "nuoc cot chanh",
+    "ot bam",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

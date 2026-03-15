@@ -1,0 +1,83 @@
+{
+  "id": "dish8400",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8400.json",
+  "name_vi": "Gỏi cóc khô mực",
+  "name_en": "",
+  "name_normalized": "goi coc kho muc",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cóc non",
+    "Khô mực"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau húng quế",
+    "Đậu phộng rang",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre01711",
+    "ingre03262",
+    "ingre02768",
+    "ingre05265",
+    "ingre07791",
+    "ingre04694",
+    "ingre07583",
+    "ingre07057",
+    "ingre07071"
+  ],
+  "ingredient_names_vi": [
+    "Cóc non",
+    "Khô mực",
+    "Hành tím",
+    "Rau húng quế",
+    "Đậu phộng rang",
+    "Nước mắm",
+    "Đường",
+    "Tắc",
+    "Tỏi băm"
+  ],
+  "ingredient_names_en": [
+    "Frogspawn",
+    "Dried squid",
+    "Shallot",
+    "Sage Herb",
+    "Roasted Peanut",
+    "Fish Sauce",
+    "Sugar",
+    "Tamarind",
+    "Minced Garlic"
+  ],
+  "ingredient_names_normalized": [
+    "coc non",
+    "kho muc",
+    "hanh tim",
+    "rau hung que",
+    "dau phong rang",
+    "nuoc mam",
+    "duong",
+    "tac",
+    "toi bam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

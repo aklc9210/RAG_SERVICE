@@ -1,0 +1,56 @@
+{
+  "id": "dish9956",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9956.json",
+  "name_vi": "Sữa bắp (ngô)",
+  "name_en": "",
+  "name_normalized": "sua bap ngo",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Ngô Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Nước"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Sữa đặc có đường"
+  ],
+  "ingredient_ids": [
+    "ingre04366",
+    "ingre06147",
+    "ingre06175",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Ngô Mỹ",
+    "Sữa tươi không đường",
+    "Sữa đặc có đường",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Fat-free Milk",
+    "Sweetened Condensed Milk",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "ngo my",
+    "sua tuoi khong duong",
+    "sua dac co duong",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua bap (ngo)",
+      "new": "sua bap ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

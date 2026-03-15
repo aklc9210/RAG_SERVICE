@@ -1,0 +1,27 @@
+{
+  "id": "ingre01442",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01442.json",
+  "name_vi": "cà rốt/ khoai tây",
+  "name_en": "Carrot/Potato",
+  "name_normalized": "ca rot khoai tay",
+  "synonyms": [
+    "cải vàng",
+    "cà na"
+  ],
+  "synonyms_normalized": [
+    "cai vang",
+    "ca na"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca rot/ khoai tay",
+      "new": "ca rot khoai tay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

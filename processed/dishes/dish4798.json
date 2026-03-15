@@ -1,0 +1,124 @@
+{
+  "id": "dish4798",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4798.json",
+  "name_vi": "Ốc lác xào sa tế",
+  "name_en": "",
+  "name_normalized": "oc lac xao sa te",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc lác"
+  ],
+  "secondary_ingredients": [
+    "Dừa xiêm",
+    "Hành tím",
+    "Sả",
+    "Lá quế"
+  ],
+  "seasonings": [
+    "Sa tế tôm",
+    "Lá chanh",
+    "Chanh",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07946",
+    "ingre05626",
+    "ingre03370",
+    "ingre01079",
+    "ingre02210",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre07966",
+    "ingre05900",
+    "ingre03500",
+    "ingre02124",
+    "ingre04694",
+    "ingre07688"
+  ],
+  "ingredient_names_vi": [
+    "Ốc lác",
+    "Sa tế tôm",
+    "Lá chanh",
+    "Chanh",
+    "Dừa xiêm",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Ớt",
+    "Sả",
+    "Lá quế",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường/hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Shrimp paste",
+    "Lime leaf",
+    "Lemon",
+    "Jackfruit",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Pepper",
+    "Lemongrass",
+    "Bayleaf",
+    "Cooking oil",
+    "Fish Sauce",
+    "Soy Sauce/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "oc lac",
+    "sa te tom",
+    "la chanh",
+    "chanh",
+    "dua xiem",
+    "gung",
+    "toi",
+    "hanh tim",
+    "ot",
+    "sa",
+    "la que",
+    "dau an",
+    "nuoc mam",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/hạt nêm"
+    }
+  ]
+}

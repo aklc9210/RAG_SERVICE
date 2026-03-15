@@ -1,0 +1,92 @@
+{
+  "id": "dish8249",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8249.json",
+  "name_vi": "Nộm hoa chuối chua chay truyền thống",
+  "name_en": "",
+  "name_normalized": "nom hoa chuoi chua chay truyen thong",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Hoa chuối tây",
+    "Giá đỗ"
+  ],
+  "secondary_ingredients": [
+    "Lạc rang giã thô",
+    "Rau mùi và húng bạc hà"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Muối",
+    "Mắm",
+    "Đường",
+    "Giấm ăn."
+  ],
+  "ingredient_ids": [
+    "ingre02578",
+    "ingre02337",
+    "ingre01419",
+    "ingre03613",
+    "ingre07063",
+    "ingre07966",
+    "ingre05315",
+    "ingre03746",
+    "ingre04133",
+    "ingre07583",
+    "ingre02378"
+  ],
+  "ingredient_names_vi": [
+    "Hoa chuối tây",
+    "Giá đỗ",
+    "Cà rốt",
+    "Lạc rang giã thô",
+    "Tỏi",
+    "Ớt",
+    "Rau mùi và húng bạc hà",
+    "Muối",
+    "Mắm",
+    "Đường",
+    "Giấm ăn."
+  ],
+  "ingredient_names_en": [
+    "Banana flower",
+    "Bean sprouts",
+    "Carrot",
+    "Coconut flakes",
+    "Garlic",
+    "Pepper",
+    "Mint and Parsley",
+    "Salt",
+    "Fish sauce",
+    "Sugar",
+    "vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "hoa chuoi tay",
+    "gia do",
+    "ca rot",
+    "lac rang gia tho",
+    "toi",
+    "ot",
+    "rau mui va hung bac ha",
+    "muoi",
+    "mam",
+    "duong",
+    "giam an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "giam an.",
+      "new": "giam an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Giấm ăn."
+    }
+  ]
+}

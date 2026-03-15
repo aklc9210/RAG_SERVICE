@@ -1,0 +1,87 @@
+{
+  "id": "dish0216",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0216.json",
+  "name_vi": "Canh chua cá linh bông điên điển",
+  "name_en": "",
+  "name_normalized": "canh chua ca linh bong dien dien",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá linh",
+    "Bông súng",
+    "Bông điên điển"
+  ],
+  "secondary_ingredients": [
+    "Me",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01544",
+    "ingre00291",
+    "ingre00296",
+    "ingre07966",
+    "ingre03643",
+    "ingre05385",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá linh",
+    "Bông súng",
+    "Bông điên điển",
+    "Ớt",
+    "Me",
+    "Rau thơm",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Mallow花椰菜",
+    "Dandelion flower",
+    "Pepper",
+    "Tamarind",
+    "Basil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca linh",
+    "bong sung",
+    "bong dien dien",
+    "ot",
+    "me",
+    "rau thom",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

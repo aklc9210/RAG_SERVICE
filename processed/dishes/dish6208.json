@@ -1,0 +1,93 @@
+{
+  "id": "dish6208",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6208.json",
+  "name_vi": "Tôm kho tàu nước dừa",
+  "name_en": "",
+  "name_normalized": "tom kho tau nuoc dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tôm càng xanh",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đầu hành lá"
+  ],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06937",
+    "ingre04626",
+    "ingre04538",
+    "ingre02768",
+    "ingre07717",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Tôm càng xanh",
+    "Nước dừa tươi",
+    "Nước cốt chanh",
+    "Hành tím",
+    "Đầu hành lá",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Coconut water",
+    "Lemon juice",
+    "Shallot",
+    "Chive;top",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom cang xanh",
+    "nuoc dua tuoi",
+    "nuoc cot chanh",
+    "hanh tim",
+    "dau hanh la",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

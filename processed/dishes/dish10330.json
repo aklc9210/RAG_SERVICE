@@ -1,0 +1,72 @@
+{
+  "id": "dish10330",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10330.json",
+  "name_vi": "Chè mít đát hạt é",
+  "name_en": "",
+  "name_normalized": "che mit dat hat e",
+  "category": "mon trang mieng",
+  "main_ingredients": [
+    "Thịt mít",
+    "Hạt đác"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Hạt é",
+    "Đá viên"
+  ],
+  "seasonings": [
+    "Đường/ muối",
+    "Muối hột"
+  ],
+  "ingredient_ids": [
+    "ingre06442",
+    "ingre03073",
+    "ingre03417",
+    "ingre03059",
+    "ingre07680",
+    "ingre03766",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Thịt mít",
+    "Hạt đác",
+    "Lá dứa",
+    "Hạt é",
+    "Đường/ muối",
+    "Muối hột",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Pig's foot",
+    "Jackfruit seeds",
+    "Pandan叶",
+    "Bird's eye chili",
+    "Sugar/Salt",
+    "Sea salt",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "thit mit",
+    "hat dac",
+    "la dua",
+    "hat e",
+    "duong muoi",
+    "muoi hot",
+    "da vien"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

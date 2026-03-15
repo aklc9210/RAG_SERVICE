@@ -1,0 +1,29 @@
+{
+  "id": "ingre04285",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04285.json",
+  "name_vi": "mực ống:",
+  "name_en": "Tube squid:",
+  "name_normalized": "muc ong",
+  "synonyms": [
+    "mực nhuyễn",
+    "mực non"
+  ],
+  "synonyms_normalized": [
+    "muc nhuyen",
+    "muc non"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muc ong:",
+      "new": "muc ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish3770",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3770.json",
+  "name_vi": "Cá lóc nướng mỡ hành bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ca loc nuong mo hanh bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá lóc",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang giã nhỏ",
+    "Rau ăn kèm",
+    "Bánh tráng cuốn"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Ngũ vị hương"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre02673",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre06644",
+    "ingre02995",
+    "ingre04381",
+    "ingre07797",
+    "ingre05420",
+    "ingre00186"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Hành lá",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Ngũ vị hương",
+    "Đậu phộng rang giã nhỏ",
+    "Rau ăn kèm",
+    "Bánh tráng cuốn"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Scallion",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Ground pepper",
+    "Seasoning",
+    "Five-Spice Powder",
+    "Peanut碎片",
+    "Side vegetable",
+    "Spring roll wrapper"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "hanh la",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "tieu xay",
+    "hat nem",
+    "ngu vi huong",
+    "dau phong rang gia nho",
+    "rau an kem",
+    "banh trang cuon"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

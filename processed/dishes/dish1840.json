@@ -1,0 +1,58 @@
+{
+  "id": "dish1840",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1840.json",
+  "name_vi": "Bánh Trung Thu rau câu cà phê nhân bánh flan",
+  "name_en": "",
+  "name_normalized": "banh trung thu rau cau ca phe nhan banh flan",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước lọc",
+    "Cà phê đen"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu dẻo",
+    "Bột rau câu giòn",
+    "Đường",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre00897",
+    "ingre00899",
+    "ingre07583",
+    "ingre04665",
+    "ingre04554",
+    "ingre01411"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu dẻo",
+    "Bột rau câu giòn",
+    "Đường",
+    "Nước lọc",
+    "Nước cốt dừa",
+    "Cà phê đen"
+  ],
+  "ingredient_names_en": [
+    "Agar powder",
+    "Jello powder",
+    "Sugar",
+    "Tap water",
+    "Coconut milk",
+    "Black Coffee"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau deo",
+    "bot rau cau gion",
+    "duong",
+    "nuoc loc",
+    "nuoc cot dua",
+    "ca phe den"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

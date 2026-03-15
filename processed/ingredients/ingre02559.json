@@ -1,0 +1,27 @@
+{
+  "id": "ingre02559",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02559.json",
+  "name_vi": "heavy cream (70 - 80% béo)",
+  "name_en": "Heavy Cream",
+  "name_normalized": "heavy cream 70 80 beo",
+  "synonyms": [
+    "kem béo",
+    "kem tươi béo"
+  ],
+  "synonyms_normalized": [
+    "kem beo",
+    "kem tuoi beo"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "heavy cream (70 - 80% beo)",
+      "new": "heavy cream 70 80 beo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

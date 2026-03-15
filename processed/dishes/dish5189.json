@@ -1,0 +1,88 @@
+{
+  "id": "dish5189",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5189.json",
+  "name_vi": "Miến xào bắp cải chay",
+  "name_en": "",
+  "name_normalized": "mien xao bap cai chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bắp cải",
+    "Miến",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre03710",
+    "ingre02768",
+    "ingre04697",
+    "ingre02997",
+    "ingre04665",
+    "ingre00819",
+    "ingre06644",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Miến",
+    "Hành tím",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Nước lọc",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Rice vermicelli",
+    "Shallot",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Tap water",
+    "MSG",
+    "Ground pepper",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "mien",
+    "hanh tim",
+    "nuoc mam chay",
+    "hat nem chay",
+    "nuoc loc",
+    "bot ngot",
+    "tieu xay",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

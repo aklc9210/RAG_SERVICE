@@ -1,0 +1,100 @@
+{
+  "id": "dish9515",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9515.json",
+  "name_vi": "Bánh kem từ bánh rán (pancake)",
+  "name_en": "",
+  "name_normalized": "banh kem tu banh ran pancake",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Whipping cream",
+    "Sữa đặc",
+    "Cherry ngâm",
+    "Tinh chất socola"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột cacao",
+    "Bột nở",
+    "Đường",
+    "Baking soda",
+    "Sữa tươi có đường",
+    "Nước đường",
+    "Sốt socola",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00576",
+    "ingre00867",
+    "ingre07583",
+    "ingre00018",
+    "ingre07313",
+    "ingre06174",
+    "ingre06146",
+    "ingre04858",
+    "ingre05999",
+    "ingre01120",
+    "ingre06590",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột cacao",
+    "Bột nở",
+    "Đường",
+    "Baking soda",
+    "Whipping cream",
+    "Sữa đặc",
+    "Sữa tươi có đường",
+    "Nước đường",
+    "Sốt socola",
+    "Cherry ngâm",
+    "Tinh chất socola",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Cocoa powder",
+    "Baking powder",
+    "Sugar",
+    "Baking soda",
+    "Whipping cream",
+    "Sweetened Condensed Milk",
+    "Sugar water",
+    "Chocolate sauce",
+    "Pickled cherry",
+    "Chocolate extract",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot cacao",
+    "bot no",
+    "duong",
+    "baking soda",
+    "whipping cream",
+    "sua dac",
+    "sua tuoi co duong",
+    "nuoc duong",
+    "sot socola",
+    "cherry ngam",
+    "tinh chat socola",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kem tu banh ran (pancake)",
+      "new": "banh kem tu banh ran pancake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

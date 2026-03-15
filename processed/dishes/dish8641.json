@@ -1,0 +1,103 @@
+{
+  "id": "dish8641",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8641.json",
+  "name_vi": "Bún gạo lứt trộn rau củ thịt bò",
+  "name_en": "",
+  "name_normalized": "bun gao lut tron rau cu thit bo",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò",
+    "Bắp cải"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng",
+    "Rau răm",
+    "Rau mùi",
+    "Dầu ô liu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Đường",
+    "Nước cốt chanh",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre00457",
+    "ingre01419",
+    "ingre07781",
+    "ingre05359",
+    "ingre05302",
+    "ingre04694",
+    "ingre07071",
+    "ingre07971",
+    "ingre07583",
+    "ingre04538",
+    "ingre02995",
+    "ingre02120"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Bắp cải",
+    "Cà rốt",
+    "Đậu phộng",
+    "Rau răm",
+    "Rau mùi",
+    "Nước mắm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Đường",
+    "Nước cốt chanh",
+    "Hạt nêm",
+    "Dầu ô liu"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Cabbage",
+    "Carrot",
+    "Peanut",
+    "Vietnamese coriander",
+    "Mint",
+    "Fish Sauce",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Sugar",
+    "Lemon juice",
+    "Seasoning",
+    "Olive oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "bap cai",
+    "ca rot",
+    "dau phong",
+    "rau ram",
+    "rau mui",
+    "nuoc mam",
+    "toi bam",
+    "ot bam",
+    "duong",
+    "nuoc cot chanh",
+    "hat nem",
+    "dau o liu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

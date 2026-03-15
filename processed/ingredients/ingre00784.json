@@ -1,0 +1,25 @@
+{
+  "id": "ingre00784",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00784.json",
+  "name_vi": "bột mì số 8 - cake flour",
+  "name_en": "cake flour",
+  "name_normalized": "bot mi so 8 cake flour",
+  "synonyms": [
+    "bột mìCake flour"
+  ],
+  "synonyms_normalized": [
+    "bot micake flour"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot mi so 8 - cake flour",
+      "new": "bot mi so 8 cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

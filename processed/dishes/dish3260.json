@@ -1,0 +1,126 @@
+{
+  "id": "dish3260",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3260.json",
+  "name_vi": "Bánh canh ghẹ nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "banh canh ghe nuoc cot dua",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Sợi bánh canh",
+    "Ghẹ",
+    "Dừa khô",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Trứng cút",
+    "Sả",
+    "Giá",
+    "Rau muống bào",
+    "Hành tím",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06050",
+    "ingre02267",
+    "ingre02168",
+    "ingre04953",
+    "ingre06816",
+    "ingre05900",
+    "ingre02329",
+    "ingre05290",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre02093",
+    "ingre04694",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Sợi bánh canh",
+    "Ghẹ",
+    "Dừa khô",
+    "Nấm rơm",
+    "Trứng cút",
+    "Sả",
+    "Giá",
+    "Rau muống bào",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu màu điều",
+    "Nước mắm",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Vermicelli",
+    "Shrimp",
+    "Coconut Powder",
+    "Strawberry mushroom",
+    "Quail egg",
+    "Lemongrass",
+    "Mint",
+    "Watercress",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Peanut-colored food coloring",
+    "Fish Sauce",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "soi banh canh",
+    "ghe",
+    "dua kho",
+    "nam rom",
+    "trung cut",
+    "sa",
+    "gia",
+    "rau muong bao",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "dau mau dieu",
+    "nuoc mam",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

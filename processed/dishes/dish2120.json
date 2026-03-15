@@ -1,0 +1,87 @@
+{
+  "id": "dish2120",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2120.json",
+  "name_vi": "Pancake mặn",
+  "name_en": "",
+  "name_normalized": "pancake man",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Chà bông",
+    "Thịt dăm bông",
+    "Xà lách",
+    "Phô mai cheddar"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Tương ớt",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00564",
+    "ingre06823",
+    "ingre06147",
+    "ingre01202",
+    "ingre06368",
+    "ingre07028",
+    "ingre07351",
+    "ingre05064",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Sữa tươi không đường",
+    "Chà bông",
+    "Thịt dăm bông",
+    "Tương ớt",
+    "Xà lách",
+    "Phô mai cheddar",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Chicken egg",
+    "Fat-free Milk",
+    "Pork floss",
+    "Pork belly",
+    "Hot Sauce",
+    "Lettuce",
+    "Cheddar cheese",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot bap",
+    "trung ga",
+    "sua tuoi khong duong",
+    "cha bong",
+    "thit dam bong",
+    "tuong ot",
+    "xa lach",
+    "pho mai cheddar",
+    "duong muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

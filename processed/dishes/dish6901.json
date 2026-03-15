@@ -1,0 +1,86 @@
+{
+  "id": "dish6901",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6901.json",
+  "name_vi": "Chả ốc nhồi đậu bắp chiên sốt nước mắm",
+  "name_en": "",
+  "name_normalized": "cha oc nhoi dau bap chien sot nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Giò sống",
+    "Ốc bươu bằm"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu bắp"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước mắm",
+    "Tương ớt",
+    "Đường;muối;bột ngọt;hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02350",
+    "ingre07936",
+    "ingre02768",
+    "ingre02485",
+    "ingre04694",
+    "ingre07729",
+    "ingre07028",
+    "ingre07696"
+  ],
+  "ingredient_names_vi": [
+    "Giò sống",
+    "Ốc bươu bằm",
+    "Hành tím",
+    "Gừng",
+    "Nước mắm",
+    "Đậu bắp",
+    "Tương ớt",
+    "Đường;muối;bột ngọt;hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Fresh sausage",
+    "Prawn paste",
+    "Shallot",
+    "Ginger",
+    "Fish Sauce",
+    "Green beans",
+    "Hot Sauce",
+    "Sugar;Salt;Monosodium Glutamate;Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "gio song",
+    "oc buou bam",
+    "hanh tim",
+    "gung",
+    "nuoc mam",
+    "dau bap",
+    "tuong ot",
+    "duong muoi bot ngot hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong;muoi;bot ngot;hat nem",
+      "new": "duong muoi bot ngot hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường;muối;bột ngọt;hạt nêm"
+    }
+  ]
+}

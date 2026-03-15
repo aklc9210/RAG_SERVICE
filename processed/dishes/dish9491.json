@@ -1,0 +1,62 @@
+{
+  "id": "dish9491",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9491.json",
+  "name_vi": "Cháo sữa",
+  "name_en": "",
+  "name_normalized": "chao sua",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Gạo hạt tròn"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột quế",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02441",
+    "ingre06144",
+    "ingre00888",
+    "ingre00382",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gạo hạt tròn",
+    "Sữa tươi",
+    "Bột quế",
+    "Bơ lạt",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Round Rice",
+    "Fresh Milk",
+    "Cinnamon粉",
+    "Butter",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao hat tron",
+    "sua tuoi",
+    "bot que",
+    "bo lat",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

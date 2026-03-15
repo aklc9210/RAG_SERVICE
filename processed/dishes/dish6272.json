@@ -1,0 +1,92 @@
+{
+  "id": "dish6272",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6272.json",
+  "name_vi": "Nấm đùi gà kho gừng",
+  "name_en": "",
+  "name_normalized": "nam dui ga kho gung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Nấm đùi gà",
+    "Nấm hương",
+    "Đậu hũ chiên"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt hiểm",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre04910",
+    "ingre07742",
+    "ingre02485",
+    "ingre08026",
+    "ingre02645",
+    "ingre04790",
+    "ingre04672",
+    "ingre02124",
+    "ingre02997",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Nấm hương",
+    "Đậu hũ chiên",
+    "Gừng",
+    "Ớt hiểm",
+    "Hành boa rô",
+    "Nước tương",
+    "Nước màu",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Mushroom",
+    "Fried Tofu",
+    "Ginger",
+    "Hot pepper",
+    "Garlic",
+    "Soy Sauce",
+    "Food coloring",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "nam huong",
+    "dau hu chien",
+    "gung",
+    "ot hiem",
+    "hanh boa ro",
+    "nuoc tuong",
+    "nuoc mau",
+    "dau an",
+    "hat nem chay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

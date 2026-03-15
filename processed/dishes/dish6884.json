@@ -1,0 +1,75 @@
+{
+  "id": "dish6884",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6884.json",
+  "name_vi": "Chả chìa cây mía",
+  "name_en": "",
+  "name_normalized": "cha chia cay mia",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt nạt"
+  ],
+  "secondary_ingredients": [
+    "Thịt mỡ",
+    "Mực khô",
+    "Thì là/rau răm",
+    "Mía"
+  ],
+  "seasonings": [
+    "Nước mắm/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06483",
+    "ingre06445",
+    "ingre04266",
+    "ingre06238",
+    "ingre04717",
+    "ingre04025"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạt",
+    "Thịt mỡ",
+    "Mực khô",
+    "Thì là/rau răm",
+    "Nước mắm/tiêu",
+    "Mía"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Pork fat",
+    "Dried squid",
+    "Thai basil/rumex rivularis",
+    "Fish Sauce/Pepper",
+    "Sugarcane"
+  ],
+  "ingredient_names_normalized": [
+    "thit nat",
+    "thit mo",
+    "muc kho",
+    "thi la rau ram",
+    "nuoc mam tieu",
+    "mia"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thi la/rau ram",
+      "new": "thi la rau ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thì là/rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc mam/tieu",
+      "new": "nuoc mam tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước mắm/tiêu"
+    }
+  ]
+}

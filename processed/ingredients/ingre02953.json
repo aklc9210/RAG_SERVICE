@@ -1,0 +1,29 @@
+{
+  "id": "ingre02953",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02953.json",
+  "name_vi": "hạt hạnh nhân/ nho khô",
+  "name_en": "Almond/raisin",
+  "name_normalized": "hat hanh nhan nho kho",
+  "synonyms": [
+    "hạnh nhân",
+    "kẹo nho",
+    "kẹo khô"
+  ],
+  "synonyms_normalized": [
+    "hanh nhan",
+    "keo nho",
+    "keo kho"
+  ],
+  "category": "dried_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hat hanh nhan/ nho kho",
+      "new": "hat hanh nhan nho kho",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

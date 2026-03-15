@@ -1,0 +1,96 @@
+{
+  "id": "dish4960",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4960.json",
+  "name_vi": "Răng mực xào bơ cay",
+  "name_en": "",
+  "name_normalized": "rang muc xao bo cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Răng mực",
+    "Bơ"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Ớt sa tế",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05508",
+    "ingre00367",
+    "ingre07966",
+    "ingre07063",
+    "ingre08050",
+    "ingre04694",
+    "ingre05359",
+    "ingre02080",
+    "ingre02124",
+    "ingre06660"
+  ],
+  "ingredient_names_vi": [
+    "Răng mực",
+    "Bơ",
+    "Ớt",
+    "Tỏi",
+    "Ớt sa tế",
+    "Nước mắm",
+    "Rau răm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Squid beak",
+    "Butter",
+    "Pepper",
+    "Garlic",
+    "Bird's Eye Chili",
+    "Fish Sauce",
+    "Vietnamese coriander",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "rang muc",
+    "bo",
+    "ot",
+    "toi",
+    "ot sa te",
+    "nuoc mam",
+    "rau ram",
+    "dau hao",
+    "dau an",
+    "tieu hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ hat nem",
+      "new": "tieu hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ hạt nêm"
+    }
+  ]
+}

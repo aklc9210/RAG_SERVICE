@@ -1,0 +1,27 @@
+{
+  "id": "ingre00717",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00717.json",
+  "name_vi": "bột làm bánh (có thể thay thế bằng bột mì số 8)",
+  "name_en": "Bread Flour",
+  "name_normalized": "bot lam banh co the thay the bang bot mi so 8",
+  "synonyms": [
+    "bột mì",
+    "bột số 8"
+  ],
+  "synonyms_normalized": [
+    "bot mi",
+    "bot so 8"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot lam banh (co the thay the bang bot mi so 8)",
+      "new": "bot lam banh co the thay the bang bot mi so 8",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

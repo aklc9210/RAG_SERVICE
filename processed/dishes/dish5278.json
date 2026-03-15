@@ -1,0 +1,114 @@
+{
+  "id": "dish5278",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5278.json",
+  "name_vi": "Đậu hũ sốt thịt bằm",
+  "name_en": "",
+  "name_normalized": "dau hu sot thit bam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt heo xay",
+    "Đậu hũ trắng",
+    "Nấm hương",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu dầu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Sa tế",
+    "Dầu hào",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06414",
+    "ingre07755",
+    "ingre04910",
+    "ingre05900",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre05621",
+    "ingre02080",
+    "ingre04674",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo xay",
+    "Đậu hũ trắng",
+    "Nấm hương",
+    "Sả",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Sa tế",
+    "Dầu hào",
+    "Nước màu dầu điều",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork",
+    "Tofu",
+    "Mushroom",
+    "Lemongrass",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Soy sauce",
+    "Red food coloring",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo xay",
+    "dau hu trang",
+    "nam huong",
+    "sa",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "sa te",
+    "dau hao",
+    "nuoc mau dau dieu",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

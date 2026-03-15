@@ -1,0 +1,84 @@
+{
+  "id": "dish3295",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3295.json",
+  "name_vi": "Bún gạo lứt ức gà",
+  "name_en": "",
+  "name_normalized": "bun gao lut uc ga",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Ức gà"
+  ],
+  "secondary_ingredients": [
+    "Bún gạo lứt khô",
+    "Nấm rơm",
+    "Hành tím",
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre00344",
+    "ingre04953",
+    "ingre02768",
+    "ingre02702",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Bún gạo lứt khô",
+    "Nấm rơm",
+    "Hành tím",
+    "Hành lá/ ngò rí",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Brown Rice Vermicelli",
+    "Strawberry mushroom",
+    "Shallot",
+    "Chives",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "bun gao lut kho",
+    "nam rom",
+    "hanh tim",
+    "hanh la ngo ri",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

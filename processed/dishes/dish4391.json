@@ -1,0 +1,108 @@
+{
+  "id": "dish4391",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4391.json",
+  "name_vi": "Súp bột báng",
+  "name_en": "",
+  "name_normalized": "sup bot bang",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Xương gà",
+    "Trứng cút"
+  ],
+  "secondary_ingredients": [
+    "Bắp",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột bán",
+    "Cà rốt nhỏ",
+    "Bột sắn dây",
+    "Ớt đỏ",
+    "Muối",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07421",
+    "ingre06816",
+    "ingre06823",
+    "ingre00518",
+    "ingre00448",
+    "ingre01432",
+    "ingre02741",
+    "ingre00928",
+    "ingre02673",
+    "ingre08097",
+    "ingre03746",
+    "ingre02995",
+    "ingre04694",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Xương gà",
+    "Trứng cút",
+    "Trứng gà",
+    "Bột bán",
+    "Bắp",
+    "Cà rốt nhỏ",
+    "Hành tây",
+    "Bột sắn dây",
+    "Hành lá",
+    "Ớt đỏ",
+    "Muối",
+    "Hạt nêm",
+    "Nước mắm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken bone",
+    "Quail egg",
+    "Chicken egg",
+    "Baking Powder",
+    "Corn",
+    "Carrot",
+    "Onion",
+    "Tapioca starch",
+    "Scallion",
+    "Red pepper",
+    "Salt",
+    "Seasoning",
+    "Fish Sauce",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuong ga",
+    "trung cut",
+    "trung ga",
+    "bot ban",
+    "bap",
+    "ca rot nho",
+    "hanh tay",
+    "bot san day",
+    "hanh la",
+    "ot do",
+    "muoi",
+    "hat nem",
+    "nuoc mam",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

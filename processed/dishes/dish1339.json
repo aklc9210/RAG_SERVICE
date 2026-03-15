@@ -1,0 +1,72 @@
+{
+  "id": "dish1339",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1339.json",
+  "name_vi": "Chè trôi nước nhân đậu đỏ",
+  "name_en": "",
+  "name_normalized": "che troi nuoc nhan dau do",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu đỏ"
+  ],
+  "secondary_ingredients": [
+    "Mè"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Gừng",
+    "Đường cát",
+    "Đường thốt nốt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07868",
+    "ingre00859",
+    "ingre02485",
+    "ingre03925",
+    "ingre07597",
+    "ingre07647",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đậu đỏ",
+    "Bột nếp",
+    "Gừng",
+    "Mè",
+    "Đường cát",
+    "Đường thốt nốt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Red beans",
+    "Glutinous rice flour",
+    "Ginger",
+    "Tamarind",
+    "Sugar",
+    "Cane Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau do",
+    "bot nep",
+    "gung",
+    "me",
+    "duong cat",
+    "duong thot not",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

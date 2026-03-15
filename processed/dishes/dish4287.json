@@ -1,0 +1,92 @@
+{
+  "id": "dish4287",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4287.json",
+  "name_vi": "Cá saba nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ca saba nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá saba",
+    "Hành lá cắt nhỏ"
+  ],
+  "secondary_ingredients": [
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt băm",
+    "Dầu hào",
+    "Tương ớt",
+    "Ngũ vị hương",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre01615",
+    "ingre05905",
+    "ingre02683",
+    "ingre07071",
+    "ingre02774",
+    "ingre07971",
+    "ingre02080",
+    "ingre02134",
+    "ingre07028",
+    "ingre04381",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá saba",
+    "Sả băm",
+    "Hành lá cắt nhỏ",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Ớt băm",
+    "Dầu hào",
+    "Dầu điều",
+    "Tương ớt",
+    "Ngũ vị hương",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Garlic Paste",
+    "Chopped Green Onion",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Chopped Pepper",
+    "Soy sauce",
+    "Peanut oil",
+    "Hot Sauce",
+    "Five-Spice Powder",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca saba",
+    "sa bam",
+    "hanh la cat nho",
+    "toi bam",
+    "hanh tim bam",
+    "ot bam",
+    "dau hao",
+    "dau dieu",
+    "tuong ot",
+    "ngu vi huong",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

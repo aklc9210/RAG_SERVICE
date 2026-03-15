@@ -1,0 +1,113 @@
+{
+  "id": "dish8283",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8283.json",
+  "name_vi": "Gỏi ngó sen tôm thịt",
+  "name_en": "",
+  "name_normalized": "goi ngo sen tom thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tôm sú",
+    "Thịt ba chỉ",
+    "Ngó sen"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cần tàu",
+    "Đậu phộng",
+    "Ngò rí",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06953",
+    "ingre06275",
+    "ingre04361",
+    "ingre01419",
+    "ingre02741",
+    "ingre01809",
+    "ingre07781",
+    "ingre01079",
+    "ingre04343",
+    "ingre05359",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Tôm sú",
+    "Thịt ba chỉ",
+    "Ngó sen",
+    "Cà rốt",
+    "Hành tây",
+    "Cần tàu",
+    "Đậu phộng",
+    "Chanh",
+    "Ngò rí",
+    "Rau răm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Pork belly",
+    "Lotus leaf",
+    "Carrot",
+    "Onion",
+    "Chinese cabbage",
+    "Peanut",
+    "Lemon",
+    "Parsley",
+    "Vietnamese coriander",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "tom su",
+    "thit ba chi",
+    "ngo sen",
+    "ca rot",
+    "hanh tay",
+    "can tau",
+    "dau phong",
+    "chanh",
+    "ngo ri",
+    "rau ram",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

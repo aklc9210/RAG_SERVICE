@@ -1,0 +1,88 @@
+{
+  "id": "dish6486",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6486.json",
+  "name_vi": "Vịt chiên nước dừa",
+  "name_en": "",
+  "name_normalized": "vit chien nuoc dua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Vịt nguyên con",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07216",
+    "ingre07063",
+    "ingre02768",
+    "ingre04626",
+    "ingre07966",
+    "ingre04790",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Vịt nguyên con",
+    "Tỏi",
+    "Hành tím",
+    "Nước dừa tươi",
+    "Ớt",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Whole Duck",
+    "Garlic",
+    "Shallot",
+    "Coconut water",
+    "Pepper",
+    "Soy Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "vit nguyen con",
+    "toi",
+    "hanh tim",
+    "nuoc dua tuoi",
+    "ot",
+    "nuoc tuong",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

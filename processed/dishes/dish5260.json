@@ -1,0 +1,108 @@
+{
+  "id": "dish5260",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5260.json",
+  "name_vi": "Mì xào cá viên",
+  "name_en": "",
+  "name_normalized": "mi xao ca vien",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì tôm",
+    "Cá viên",
+    "Bông cải xanh",
+    "Cải thìa"
+  ],
+  "secondary_ingredients": [
+    "Nấm hương",
+    "Ngò rí",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04003",
+    "ingre01648",
+    "ingre00282",
+    "ingre01792",
+    "ingre01419",
+    "ingre04910",
+    "ingre04343",
+    "ingre02768",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mì tôm",
+    "Cá viên",
+    "Bông cải xanh",
+    "Cải thìa",
+    "Cà rốt",
+    "Nấm hương",
+    "Ngò rí",
+    "Hành tím",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Noodle Soup",
+    "Fish cakes",
+    "Cabbage",
+    "Chinese cabbage",
+    "Carrot",
+    "Mushroom",
+    "Parsley",
+    "Shallot",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi tom",
+    "ca vien",
+    "bong cai xanh",
+    "cai thia",
+    "ca rot",
+    "nam huong",
+    "ngo ri",
+    "hanh tim",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

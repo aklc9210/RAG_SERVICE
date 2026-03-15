@@ -1,0 +1,56 @@
+{
+  "id": "dish9924",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9924.json",
+  "name_vi": "Chanh dây - chanh leo mật ong",
+  "name_en": "",
+  "name_normalized": "chanh day chanh leo mat ong",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Mật ong",
+    "Nước ấm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Chanh dây",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre01081",
+    "ingre04124",
+    "ingre01079",
+    "ingre04879"
+  ],
+  "ingredient_names_vi": [
+    "Chanh dây",
+    "Mật ong",
+    "Chanh",
+    "Nước ấm"
+  ],
+  "ingredient_names_en": [
+    "Watermelon vine tendril",
+    "Honey",
+    "Lemon",
+    "Warm water"
+  ],
+  "ingredient_names_normalized": [
+    "chanh day",
+    "mat ong",
+    "chanh",
+    "nuoc am"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "chanh day - chanh leo mat ong",
+      "new": "chanh day chanh leo mat ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

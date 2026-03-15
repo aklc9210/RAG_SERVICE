@@ -1,0 +1,123 @@
+{
+  "id": "dish8352",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8352.json",
+  "name_vi": "Gỏi bưởi chay với tàu hũ ky",
+  "name_en": "",
+  "name_normalized": "goi buoi chay voi tau hu ky",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tàu hũ ky tươi",
+    "Bưởi",
+    "Tắc",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt sừng",
+    "Hành phi",
+    "Tỏi băm",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06878",
+    "ingre00422",
+    "ingre07057",
+    "ingre01419",
+    "ingre02020",
+    "ingre08055",
+    "ingre05359",
+    "ingre07539",
+    "ingre02543",
+    "ingre07071",
+    "ingre07977",
+    "ingre02124",
+    "ingre04697",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hũ ky tươi",
+    "Bưởi",
+    "Tắc",
+    "Cà rốt",
+    "Dưa leo",
+    "Ớt sừng",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Hành phi",
+    "Tỏi băm",
+    "Ớt bột",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Firm tofu",
+    "Orange",
+    "Tamarind",
+    "Carrot",
+    "Cucumber",
+    "Hot pepper",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Garlic Fried",
+    "Minced Garlic",
+    "Chili powder",
+    "Cooking oil",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky tuoi",
+    "buoi",
+    "tac",
+    "ca rot",
+    "dua leo",
+    "ot sung",
+    "rau ram",
+    "dau phong rang",
+    "hanh phi",
+    "toi bam",
+    "ot bot",
+    "dau an",
+    "nuoc mam chay",
+    "hat nem chay",
+    "muoi",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre06662",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06662.json",
+  "name_vi": "tiêu/ đường",
+  "name_en": "Pepper/Sugar",
+  "name_normalized": "tieu duong",
+  "synonyms": [
+    "đường kính",
+    "đường phèn"
+  ],
+  "synonyms_normalized": [
+    "duong kinh",
+    "duong phen"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tieu/ duong",
+      "new": "tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

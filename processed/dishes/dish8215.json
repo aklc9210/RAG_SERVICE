@@ -1,0 +1,117 @@
+{
+  "id": "dish8215",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8215.json",
+  "name_vi": "Gỏi bò cóc non",
+  "name_en": "",
+  "name_normalized": "goi bo coc non",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cóc non",
+    "Chuối chát"
+  ],
+  "secondary_ingredients": [
+    "Khế",
+    "Hành tây",
+    "Rau húng trắng",
+    "Tắc",
+    "Sả"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre01711",
+    "ingre01419",
+    "ingre01162",
+    "ingre03268",
+    "ingre02741",
+    "ingre05269",
+    "ingre07057",
+    "ingre05900",
+    "ingre02485",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Cóc non",
+    "Cà rốt",
+    "Chuối chát",
+    "Khế",
+    "Hành tây",
+    "Rau húng trắng",
+    "Tắc",
+    "Sả",
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Frogspawn",
+    "Carrot",
+    "Bittermelon",
+    "Kumquat",
+    "Onion",
+    "Cilantro",
+    "Tamarind",
+    "Lemongrass",
+    "Ginger",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "coc non",
+    "ca rot",
+    "chuoi chat",
+    "khe",
+    "hanh tay",
+    "rau hung trang",
+    "tac",
+    "sa",
+    "gung",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

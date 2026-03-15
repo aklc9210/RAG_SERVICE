@@ -1,0 +1,87 @@
+{
+  "id": "dish9097",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9097.json",
+  "name_vi": "Bánh khoai tây phô mai tan chảy",
+  "name_en": "",
+  "name_normalized": "banh khoai tay pho mai tan chay",
+  "category": "an vat",
+  "main_ingredients": [
+    "Khoai tây",
+    "Bơ lạt",
+    "Heavy cream (còn được gọi là kem sữa béo hoặc kem bông tuyết"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Mozzarella"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì",
+    "Bột chiên xù",
+    "Muối",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre00382",
+    "ingre02560",
+    "ingre05092",
+    "ingre06823",
+    "ingre00759",
+    "ingre00609",
+    "ingre03746",
+    "ingre02124",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Bơ lạt",
+    "Heavy cream (còn được gọi là kem sữa béo hoặc kem bông tuyết",
+    "Phô mai Mozzarella",
+    "Trứng gà",
+    "Bột mì",
+    "Bột chiên xù",
+    "Muối",
+    "Dầu ăn",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Butter",
+    "Heavy Cream",
+    "Mozzarella cheese",
+    "Chicken egg",
+    "Wheat Flour",
+    "Puffed Rice Powder",
+    "Salt",
+    "Cooking oil",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "bo lat",
+    "heavy cream con duoc goi la kem sua beo hoac kem bong tuyet",
+    "pho mai mozzarella",
+    "trung ga",
+    "bot mi",
+    "bot chien xu",
+    "muoi",
+    "dau an",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "heavy cream (con duoc goi la kem sua beo hoac kem bong tuyet",
+      "new": "heavy cream con duoc goi la kem sua beo hoac kem bong tuyet",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Heavy cream (còn được gọi là kem sữa béo hoặc kem bông tuyết"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dish1299",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1299.json",
+  "name_vi": "Mousse bưởi",
+  "name_en": "",
+  "name_normalized": "mousse buoi",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt bưởi màu đỏ",
+    "Kem sữa tươi",
+    "Cream cheese"
+  ],
+  "secondary_ingredients": [
+    "Sô-cô-la trắng",
+    "Si rô bắp",
+    "Màu thực phẩm màu đỏ"
+  ],
+  "seasonings": [
+    "Sữa chua không đường",
+    "Đường cát trắng",
+    "Nước cốt chanh",
+    "Vani"
+  ],
+  "ingredient_ids": [
+    "ingre06331",
+    "ingre03147",
+    "ingre01324",
+    "ingre06100",
+    "ingre05835",
+    "ingre07601",
+    "ingre04538",
+    "ingre05659",
+    "ingre03877",
+    "ingre07140"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bưởi màu đỏ",
+    "Kem sữa tươi",
+    "Cream cheese",
+    "Sữa chua không đường",
+    "Sô-cô-la trắng",
+    "Đường cát trắng",
+    "Nước cốt chanh",
+    "Si rô bắp",
+    "Màu thực phẩm màu đỏ",
+    "Vani"
+  ],
+  "ingredient_names_en": [
+    "Red fleshed pork",
+    "Sweetened Condensed Milk",
+    "Cream cheese",
+    "Plain Yogurt",
+    "White chocolate",
+    "White Sugar",
+    "Lemon juice",
+    "Corn silk",
+    "Red food coloring",
+    "Vanilla"
+  ],
+  "ingredient_names_normalized": [
+    "thit buoi mau do",
+    "kem sua tuoi",
+    "cream cheese",
+    "sua chua khong duong",
+    "so co la trang",
+    "duong cat trang",
+    "nuoc cot chanh",
+    "si ro bap",
+    "mau thuc pham mau do",
+    "vani"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "so-co-la trang",
+      "new": "so co la trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sô-cô-la trắng"
+    }
+  ]
+}

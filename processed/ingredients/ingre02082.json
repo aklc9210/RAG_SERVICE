@@ -1,0 +1,25 @@
+{
+  "id": "ingre02082",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02082.json",
+  "name_vi": "dầu hào chay/ hạt nêm chay",
+  "name_en": "Vegetarian Soy Sauce / Vegetarian Seasoning",
+  "name_normalized": "dau hao chay hat nem chay",
+  "synonyms": [
+    "mì chính"
+  ],
+  "synonyms_normalized": [
+    "mi chinh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hao chay/ hat nem chay",
+      "new": "dau hao chay hat nem chay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

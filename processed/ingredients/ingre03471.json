@@ -1,0 +1,25 @@
+{
+  "id": "ingre03471",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03471.json",
+  "name_vi": "lá móc mật/mắc mật",
+  "name_en": "Burdock Leaf",
+  "name_normalized": "la moc mat mac mat",
+  "synonyms": [
+    "lá đắng"
+  ],
+  "synonyms_normalized": [
+    "la dang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "la moc mat/mac mat",
+      "new": "la moc mat mac mat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

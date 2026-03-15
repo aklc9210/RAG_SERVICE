@@ -1,0 +1,59 @@
+{
+  "id": "dish1377",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1377.json",
+  "name_vi": "Bánh quai chèo - quẩy thừng",
+  "name_en": "",
+  "name_normalized": "banh quai cheo quay thung",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột nếp",
+    "Bột gạo",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00859",
+    "ingre00668",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột nếp",
+    "Bột gạo",
+    "Dầu ăn",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Glutinous rice flour",
+    "Rice flour",
+    "Cooking oil",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot nep",
+    "bot gao",
+    "dau an",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quai cheo - quay thung",
+      "new": "banh quai cheo quay thung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish8785",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8785.json",
+  "name_vi": "Ruốc cá nục",
+  "name_en": "",
+  "name_normalized": "ruoc ca nuc",
+  "category": "an vat",
+  "main_ingredients": [
+    "Cá nục cỡ vừa"
+  ],
+  "secondary_ingredients": [
+    "Sả nhỏ",
+    "Dầu màu điều",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01599",
+    "ingre07063",
+    "ingre05915",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644",
+    "ingre02093",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục cỡ vừa",
+    "Tỏi",
+    "Sả nhỏ",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Dầu màu điều",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Garlic",
+    "Garlic Chili",
+    "Salt",
+    "MSG",
+    "Ground pepper",
+    "Peanut-colored food coloring",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc co vua",
+    "toi",
+    "sa nho",
+    "muoi",
+    "bot ngot",
+    "tieu xay",
+    "dau mau dieu",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

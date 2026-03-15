@@ -1,0 +1,72 @@
+{
+  "id": "dish10580",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10580.json",
+  "name_vi": "Sung muối sả ớt",
+  "name_en": "",
+  "name_normalized": "sung muoi sa ot",
+  "category": "mon kho - mam",
+  "main_ingredients": [
+    "Quả sung tươi"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Đường",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre05174",
+    "ingre07063",
+    "ingre05900",
+    "ingre07966",
+    "ingre07583",
+    "ingre02355",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Quả sung tươi",
+    "Tỏi",
+    "Sả",
+    "Ớt",
+    "Đường",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Ripe jujube",
+    "Garlic",
+    "Lemongrass",
+    "Pepper",
+    "Sugar",
+    "Vinegar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "qua sung tuoi",
+    "toi",
+    "sa",
+    "ot",
+    "duong",
+    "giam",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

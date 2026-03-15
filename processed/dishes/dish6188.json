@@ -1,0 +1,92 @@
+{
+  "id": "dish6188",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6188.json",
+  "name_vi": "Cá ngừ kho cải chua",
+  "name_en": "",
+  "name_normalized": "ca ngu kho cai chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá ngừ",
+    "Cải chua",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Ớt bột",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01579",
+    "ingre01777",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre02080",
+    "ingre07977",
+    "ingre04694",
+    "ingre07583",
+    "ingre06644",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngừ",
+    "Cải chua",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Ớt bột",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Tuna",
+    "Pickled cabbage",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Soy sauce",
+    "Chili powder",
+    "Fish Sauce",
+    "Sugar",
+    "Ground pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca ngu",
+    "cai chua",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "dau hao",
+    "ot bot",
+    "nuoc mam",
+    "duong",
+    "tieu xay",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

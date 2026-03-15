@@ -1,0 +1,61 @@
+{
+  "id": "dish3866",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3866.json",
+  "name_vi": "Khoai tây nhồi thịt nướng",
+  "name_en": "",
+  "name_normalized": "khoai tay nhoi thit nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Thịt nạc vai"
+  ],
+  "seasonings": [
+    "Bột tỏi",
+    "Bột hành",
+    "Bột canh/tiêu bắc"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre06469",
+    "ingre00978",
+    "ingre00682",
+    "ingre00591"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Thịt nạc vai",
+    "Bột tỏi",
+    "Bột hành",
+    "Bột canh/tiêu bắc"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Pork Shoulder",
+    "Garlic powder",
+    "Fish Sauce Powder/Cantonese Pepper粉"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "thit nac vai",
+    "bot toi",
+    "bot hanh",
+    "bot canh tieu bac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot canh/tieu bac",
+      "new": "bot canh tieu bac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột canh/tiêu bắc"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dish2906",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2906.json",
+  "name_vi": "Bánh kem Oreo - bánh kem Twosome Icebox",
+  "name_en": "",
+  "name_normalized": "banh kem oreo banh kem twosome icebox",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh Oreo"
+  ],
+  "secondary_ingredients": [
+    "Cheese cream",
+    "Whipping cream"
+  ],
+  "seasonings": [
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00128",
+    "ingre01116",
+    "ingre07313",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bánh Oreo",
+    "Cheese cream",
+    "Whipping cream",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Oreo cookie",
+    "Cheese Cream",
+    "Whipping cream",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh oreo",
+    "cheese cream",
+    "whipping cream",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh kem oreo - banh kem twosome icebox",
+      "new": "banh kem oreo banh kem twosome icebox",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

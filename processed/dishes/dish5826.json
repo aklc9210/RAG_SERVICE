@@ -1,0 +1,92 @@
+{
+  "id": "dish5826",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5826.json",
+  "name_vi": "Cá diếc kho nghệ",
+  "name_en": "",
+  "name_normalized": "ca diec kho nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá diếc",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Nghệ"
+  ],
+  "seasonings": [
+    "Ớt tươi",
+    "Gừng",
+    "Muối hạt",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01516",
+    "ingre05900",
+    "ingre08078",
+    "ingre04304",
+    "ingre02485",
+    "ingre03760",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá diếc",
+    "Sả",
+    "Ớt tươi",
+    "Nghệ",
+    "Gừng",
+    "Muối hạt",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Lemongrass",
+    "Fresh chili",
+    "Turmeric",
+    "Ginger",
+    "Fenugreek seeds",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "Pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca diec",
+    "sa",
+    "ot tuoi",
+    "nghe",
+    "gung",
+    "muoi hat",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "tieu",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

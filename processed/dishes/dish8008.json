@@ -1,0 +1,96 @@
+{
+  "id": "dish8008",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8008.json",
+  "name_vi": "Gỏi gà xe phay chay",
+  "name_en": "",
+  "name_normalized": "goi ga xe phay chay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Mì căn",
+    "Boa-rô"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Nước cốt chanh",
+    "Đường",
+    "Lá chanh",
+    "Xì dầu",
+    "Muối",
+    "Bột nêm chay",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03960",
+    "ingre00047",
+    "ingre04538",
+    "ingre05359",
+    "ingre07583",
+    "ingre03370",
+    "ingre07381",
+    "ingre03746",
+    "ingre00840",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mì căn",
+    "Boa-rô",
+    "Nước cốt chanh",
+    "Rau răm",
+    "Đường",
+    "Lá chanh",
+    "Xì dầu",
+    "Muối",
+    "Bột nêm chay",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Glass noodle",
+    "Boa-ro -> Dragon fruit",
+    "Lemon juice",
+    "Vietnamese coriander",
+    "Sugar",
+    "Lime leaf",
+    "Soy Sauce",
+    "Salt",
+    "Vegetarian Seasoning Powder",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "mi can",
+    "boa ro",
+    "nuoc cot chanh",
+    "rau ram",
+    "duong",
+    "la chanh",
+    "xi dau",
+    "muoi",
+    "bot nem chay",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "boa-ro",
+      "new": "boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Boa-rô"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

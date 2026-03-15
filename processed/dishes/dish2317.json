@@ -1,0 +1,72 @@
+{
+  "id": "dish2317",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2317.json",
+  "name_vi": "Pancake hạnh nhân đậu đỏ",
+  "name_en": "",
+  "name_normalized": "pancake hanh nhan dau do",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu đỏ tươi"
+  ],
+  "secondary_ingredients": [
+    "Hạnh nhân lát",
+    "Whipping cream",
+    "Lá bạc hà"
+  ],
+  "seasonings": [
+    "Bột bánh rán pha sẵn",
+    "Bột hạnh nhân",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre00549",
+    "ingre07873",
+    "ingre02892",
+    "ingre00691",
+    "ingre07313",
+    "ingre03365",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Bột bánh rán pha sẵn",
+    "Đậu đỏ tươi",
+    "Hạnh nhân lát",
+    "Bột hạnh nhân",
+    "Whipping cream",
+    "Lá bạc hà",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "Prepared Fried Dough Powder",
+    "Fresh red beans",
+    "Almond slice",
+    "Almond flour",
+    "Whipping cream",
+    "Mint Leaf",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot banh ran pha san",
+    "dau do tuoi",
+    "hanh nhan lat",
+    "bot hanh nhan",
+    "whipping cream",
+    "la bac ha",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

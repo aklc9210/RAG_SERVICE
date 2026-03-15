@@ -1,0 +1,120 @@
+{
+  "id": "dish3989",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3989.json",
+  "name_vi": "Dê nướng tảng",
+  "name_en": "",
+  "name_normalized": "de nuong tang",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt dê nguyên tảng",
+    "Chao",
+    "Sả tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mè"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Cà ri bơ",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06367",
+    "ingre05574",
+    "ingre01106",
+    "ingre05917",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre02485",
+    "ingre02080",
+    "ingre02124",
+    "ingre01415",
+    "ingre03925",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê nguyên tảng",
+    "Rượu trắng",
+    "Chao",
+    "Sả tươi",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Dầu hào",
+    "Dầu ăn",
+    "Cà ri bơ",
+    "Mè",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Lamb roast",
+    "White wine",
+    "Pickled plum",
+    "Fresh Ginger",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Ginger",
+    "Soy sauce",
+    "Cooking oil",
+    "Butter curry",
+    "Tamarind",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit de nguyen tang",
+    "ruou trang",
+    "chao",
+    "sa tuoi",
+    "hanh tim",
+    "toi",
+    "ot",
+    "gung",
+    "dau hao",
+    "dau an",
+    "ca ri bo",
+    "me",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

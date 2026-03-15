@@ -1,0 +1,62 @@
+{
+  "id": "dish6998",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6998.json",
+  "name_vi": "Bánh chuối chiên mè bằng bột chiên chuối",
+  "name_en": "",
+  "name_normalized": "banh chuoi chien me bang bot chien chuoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chuối xiêm chín mùi"
+  ],
+  "secondary_ingredients": [
+    "Mè"
+  ],
+  "seasonings": [
+    "Bột chuối chiên",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01196",
+    "ingre00613",
+    "ingre03925",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chuối xiêm chín mùi",
+    "Bột chuối chiên",
+    "Mè",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dragonfruit",
+    "Fried Banana Powder",
+    "Tamarind",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chuoi xiem chin mui",
+    "bot chuoi chien",
+    "me",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

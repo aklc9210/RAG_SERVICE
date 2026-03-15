@@ -1,0 +1,96 @@
+{
+  "id": "dish5003",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5003.json",
+  "name_vi": "Gà xào húng quế cay Thái",
+  "name_en": "",
+  "name_normalized": "ga xao hung que cay thai",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Húng quế",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Dầu dừa",
+    "Nước"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt đỏ",
+    "Dầu hào",
+    "Nước tương",
+    "Xì dầu",
+    "Đường nâu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre02862",
+    "ingre02673",
+    "ingre07063",
+    "ingre08097",
+    "ingre02080",
+    "ingre02067",
+    "ingre04790",
+    "ingre07381",
+    "ingre07628",
+    "ingre04490",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Húng quế",
+    "Hành lá",
+    "Tỏi",
+    "Ớt đỏ",
+    "Dầu hào",
+    "Dầu dừa",
+    "Nước tương",
+    "Xì dầu",
+    "Đường nâu",
+    "Nước",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Cinnamon basil",
+    "Scallion",
+    "Garlic",
+    "Red pepper",
+    "Soy sauce",
+    "Coconut oil",
+    "Brown Sugar",
+    "Water",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "hung que",
+    "hanh la",
+    "toi",
+    "ot do",
+    "dau hao",
+    "dau dua",
+    "nuoc tuong",
+    "xi dau",
+    "duong nau",
+    "nuoc",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

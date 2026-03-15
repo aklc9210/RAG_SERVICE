@@ -1,0 +1,137 @@
+{
+  "id": "dish8676",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8676.json",
+  "name_vi": "Chân bò hầm sả",
+  "name_en": "",
+  "name_normalized": "chan bo ham sa",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Chân bò",
+    "Bắp bò",
+    "Củ cải trắng",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai",
+    "Rau ôm",
+    "Sả",
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Đường phèn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01227",
+    "ingre00450",
+    "ingre01868",
+    "ingre02741",
+    "ingre02768",
+    "ingre02673",
+    "ingre04329",
+    "ingre05417",
+    "ingre02485",
+    "ingre05900",
+    "ingre04626",
+    "ingre07635",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Chân bò",
+    "Bắp bò",
+    "Củ cải trắng",
+    "Hành tây",
+    "Hành tím",
+    "Hành lá",
+    "Ngò gai",
+    "Rau ôm",
+    "Gừng",
+    "Sả",
+    "Nước dừa tươi",
+    "Đường phèn",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Beef",
+    "White radish",
+    "Onion",
+    "Shallot",
+    "Scallion",
+    "Culantro",
+    "Eggplant",
+    "Ginger",
+    "Lemongrass",
+    "Coconut water",
+    "Brown Sugar",
+    "Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "chan bo",
+    "bap bo",
+    "cu cai trang",
+    "hanh tay",
+    "hanh tim",
+    "hanh la",
+    "ngo gai",
+    "rau om",
+    "gung",
+    "sa",
+    "nuoc dua tuoi",
+    "duong phen",
+    "hat nem",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

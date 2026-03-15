@@ -1,0 +1,83 @@
+{
+  "id": "dish10655",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10655.json",
+  "name_vi": "Lá mướp cuộn thịt hấp",
+  "name_en": "",
+  "name_normalized": "la muop cuon thit hap",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt ba chỉ",
+    "Mộc nhĩ"
+  ],
+  "secondary_ingredients": [
+    "Lá mướp non",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre04179",
+    "ingre03478",
+    "ingre02768",
+    "ingre04694",
+    "ingre06612",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Mộc nhĩ",
+    "Lá mướp non",
+    "Hành tím",
+    "Nước mắm",
+    "Tiêu",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Mushroom",
+    "Bitter Melon Leaves",
+    "Shallot",
+    "Fish Sauce",
+    "Pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "moc nhi",
+    "la muop non",
+    "hanh tim",
+    "nuoc mam",
+    "tieu",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

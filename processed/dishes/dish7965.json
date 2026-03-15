@@ -1,0 +1,120 @@
+{
+  "id": "dish7965",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7965.json",
+  "name_vi": "Salad bưởi",
+  "name_en": "",
+  "name_normalized": "salad buoi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cà chua",
+    "Rau chân vịt",
+    "Bưởi"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Đậu gà",
+    "Dầu dừa/dầu ô liu",
+    "Đậu phộng rang",
+    "Mè trắng rang",
+    "Rong sụn"
+  ],
+  "seasonings": [
+    "Ớt chuông vàng",
+    "Nước cốt tắc/chanh",
+    "Nước tương tamari",
+    "Ớt chỉ thiên băm",
+    "Tỏi băm",
+    "Gừng băm"
+  ],
+  "ingredient_ids": [
+    "ingre01354",
+    "ingre08007",
+    "ingre05215",
+    "ingre00424",
+    "ingre04343",
+    "ingre07735",
+    "ingre04593",
+    "ingre04807",
+    "ingre02070",
+    "ingre07791",
+    "ingre08018",
+    "ingre07071",
+    "ingre02492",
+    "ingre03936",
+    "ingre05478"
+  ],
+  "ingredient_names_vi": [
+    "Cà chua",
+    "Ớt chuông vàng",
+    "Rau chân vịt",
+    "Bưởi",
+    "Ngò rí",
+    "Đậu gà",
+    "Nước cốt tắc/chanh",
+    "Nước tương tamari",
+    "Dầu dừa/dầu ô liu",
+    "Đậu phộng rang",
+    "Ớt chỉ thiên băm",
+    "Tỏi băm",
+    "Gừng băm",
+    "Mè trắng rang",
+    "Rong sụn"
+  ],
+  "ingredient_names_en": [
+    "Tomato",
+    "Yellow Bell Pepper",
+    "Watercress",
+    "Orange",
+    "Parsley",
+    "Green beans",
+    "Tamarind/Jasmine Juice",
+    "Soy Sauce",
+    "Coconut oil/Olive oil",
+    "Roasted Peanut",
+    "Chili pepper minced",
+    "Minced Garlic",
+    "Ginger paste",
+    "Roasted White Sesame",
+    "Kelp"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua",
+    "ot chuong vang",
+    "rau chan vit",
+    "buoi",
+    "ngo ri",
+    "dau ga",
+    "nuoc cot tac chanh",
+    "nuoc tuong tamari",
+    "dau dua dau o liu",
+    "dau phong rang",
+    "ot chi thien bam",
+    "toi bam",
+    "gung bam",
+    "me trang rang",
+    "rong sun"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc cot tac/chanh",
+      "new": "nuoc cot tac chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước cốt tắc/chanh"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau dua/dau o liu",
+      "new": "dau dua dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu dừa/dầu ô liu"
+    }
+  ]
+}

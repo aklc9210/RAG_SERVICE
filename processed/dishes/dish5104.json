@@ -1,0 +1,78 @@
+{
+  "id": "dish5104",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5104.json",
+  "name_vi": "Trứng non xào hành tây",
+  "name_en": "",
+  "name_normalized": "trung non xao hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Trứng gà non",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06835",
+    "ingre02741",
+    "ingre02673",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre06644",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà non",
+    "Hành tây",
+    "Hành lá",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Tiêu xay",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Glowing egg.SceneManagement",
+    "Onion",
+    "Scallion",
+    "Soy sauce",
+    "Cooking oil",
+    "Salt",
+    "Ground pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga non",
+    "hanh tay",
+    "hanh la",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "tieu xay",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

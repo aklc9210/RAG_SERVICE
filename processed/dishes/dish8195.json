@@ -1,0 +1,92 @@
+{
+  "id": "dish8195",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8195.json",
+  "name_vi": "Gỏi tàu hũ ky rau càng cua",
+  "name_en": "",
+  "name_normalized": "goi tau hu ky rau cang cua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tàu hũ ky khô",
+    "Bắp chuối",
+    "Rau càng cua"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Tắc"
+  ],
+  "seasonings": [
+    "Đường/ muối",
+    "Hành tím phi thơm",
+    "Tỏi băm",
+    "Ớt băm",
+    "Giấm",
+    "Nước mắm chay"
+  ],
+  "ingredient_ids": [
+    "ingre06876",
+    "ingre00452",
+    "ingre05219",
+    "ingre07680",
+    "ingre02792",
+    "ingre07791",
+    "ingre07057",
+    "ingre07071",
+    "ingre07971",
+    "ingre02355",
+    "ingre04697"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hũ ky khô",
+    "Bắp chuối",
+    "Rau càng cua",
+    "Đường/ muối",
+    "Hành tím phi thơm",
+    "Đậu phộng rang",
+    "Tắc",
+    "Tỏi băm",
+    "Ớt băm",
+    "Giấm",
+    "Nước mắm chay"
+  ],
+  "ingredient_names_en": [
+    "Tofu皮干",
+    "Banana",
+    "Water spinach",
+    "Sugar/Salt",
+    "Garlic Sautéed香葱",
+    "Roasted Peanut",
+    "Tamarind",
+    "Minced Garlic",
+    "Chopped Pepper",
+    "Vinegar",
+    "Vegetarian fish sauce"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky kho",
+    "bap chuoi",
+    "rau cang cua",
+    "duong muoi",
+    "hanh tim phi thom",
+    "dau phong rang",
+    "tac",
+    "toi bam",
+    "ot bam",
+    "giam",
+    "nuoc mam chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

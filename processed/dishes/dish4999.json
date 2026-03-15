@@ -1,0 +1,117 @@
+{
+  "id": "dish4999",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4999.json",
+  "name_vi": "Xúc xích xào nấm, ớt chuông",
+  "name_en": "",
+  "name_normalized": "xuc xich xao nam ot chuong",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Xúc xích",
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành tím",
+    "Rau thơm/ hành lá"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07396",
+    "ingre07999",
+    "ingre04945",
+    "ingre01354",
+    "ingre02768",
+    "ingre05394",
+    "ingre04790",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Xúc xích",
+    "Ớt chuông",
+    "Nấm mỡ",
+    "Cà chua",
+    "Hành tím",
+    "Rau thơm/ hành lá",
+    "Nước tương",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Sausage",
+    "Bell pepper",
+    "Fried mushroom",
+    "Tomato",
+    "Shallot",
+    "Basil",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "xuc xich",
+    "ot chuong",
+    "nam mo",
+    "ca chua",
+    "hanh tim",
+    "rau thom hanh la",
+    "nuoc tuong",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xuc xich xao nam, ot chuong",
+      "new": "xuc xich xao nam ot chuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau thom/ hanh la",
+      "new": "rau thom hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau thơm/ hành lá"
+    }
+  ]
+}

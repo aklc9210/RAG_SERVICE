@@ -1,0 +1,78 @@
+{
+  "id": "dish7902",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7902.json",
+  "name_vi": "Lẩu kim chi bạch tuộc Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "lau kim chi bach tuoc han quoc",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Kim chi",
+    "Nước dùng gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt bột",
+    "Tương ớt Hàn Quốc",
+    "Nước tương",
+    "Nước mắm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre03277",
+    "ingre04607",
+    "ingre07071",
+    "ingre07977",
+    "ingre07036",
+    "ingre04790",
+    "ingre04694",
+    "ingre07583",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Kim chi",
+    "Nước dùng gà",
+    "Tỏi băm",
+    "Ớt bột",
+    "Tương ớt Hàn Quốc",
+    "Nước tương",
+    "Nước mắm",
+    "Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Chicken broth",
+    "Minced Garlic",
+    "Chili powder",
+    "Korean chili paste",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "kim chi",
+    "nuoc dung ga",
+    "toi bam",
+    "ot bot",
+    "tuong ot han quoc",
+    "nuoc tuong",
+    "nuoc mam",
+    "duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": []
+}

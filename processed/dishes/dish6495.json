@@ -1,0 +1,101 @@
+{
+  "id": "dish6495",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6495.json",
+  "name_vi": "Chả cá mối",
+  "name_en": "",
+  "name_normalized": "cha ca moi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá mối",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Trứng gà",
+    "Bột mì",
+    "Bột bắp",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Bột nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01573",
+    "ingre02768",
+    "ingre07063",
+    "ingre06823",
+    "ingre00759",
+    "ingre00564",
+    "ingre02124",
+    "ingre02702",
+    "ingre00819",
+    "ingre00838",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá mối",
+    "Hành tím",
+    "Tỏi",
+    "Trứng gà",
+    "Bột mì",
+    "Bột bắp",
+    "Dầu ăn",
+    "Hành lá/ ngò rí",
+    "Bột ngọt",
+    "Bột nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp楽しさを共有します！",
+    "Shallot",
+    "Garlic",
+    "Chicken egg",
+    "Wheat Flour",
+    "Corn starch",
+    "Cooking oil",
+    "Chives",
+    "MSG",
+    "Seasoning Powder",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca moi",
+    "hanh tim",
+    "toi",
+    "trung ga",
+    "bot mi",
+    "bot bap",
+    "dau an",
+    "hanh la ngo ri",
+    "bot ngot",
+    "bot nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

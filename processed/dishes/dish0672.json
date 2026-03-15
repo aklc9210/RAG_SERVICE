@@ -1,0 +1,97 @@
+{
+  "id": "dish0672",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0672.json",
+  "name_vi": "Canh bí đao nhồi chay",
+  "name_en": "",
+  "name_normalized": "canh bi dao nhoi chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bí đao",
+    "Đậu hũ trắng",
+    "Nấm bào ngư"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo",
+    "Nấm rơm",
+    "Sườn non chay",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Bột bắp",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre00247",
+    "ingre07755",
+    "ingre04894",
+    "ingre04930",
+    "ingre04953",
+    "ingre05890",
+    "ingre07977",
+    "ingre00564",
+    "ingre04343",
+    "ingre02124",
+    "ingre02997",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Bí đao",
+    "Đậu hũ trắng",
+    "Nấm bào ngư",
+    "Nấm mèo",
+    "Nấm rơm",
+    "Sườn non chay",
+    "Ớt bột",
+    "Bột bắp",
+    "Ngò rí",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Tofu",
+    "Oyster mushroom",
+    "Mushroom",
+    "Strawberry mushroom",
+    "Vegetable spare ribs",
+    "Chili powder",
+    "Corn starch",
+    "Parsley",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bi dao",
+    "dau hu trang",
+    "nam bao ngu",
+    "nam meo",
+    "nam rom",
+    "suon non chay",
+    "ot bot",
+    "bot bap",
+    "ngo ri",
+    "dau an",
+    "hat nem chay",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "dish10660",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10660.json",
+  "name_vi": "Nước chấm gỏi cuốn chay",
+  "name_en": "",
+  "name_normalized": "nuoc cham goi cuon chay",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Đậu phộng",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột năng",
+    "Nước tương",
+    "Giấm táo",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre02768",
+    "ingre00849",
+    "ingre04790",
+    "ingre02372",
+    "ingre02997",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Hành tím",
+    "Bột năng",
+    "Nước tương",
+    "Giấm táo",
+    "Hạt nêm chay",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Shallot",
+    "Cornstarch",
+    "Soy Sauce",
+    "Apple vinegar",
+    "Vegetarian Seasoning",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "hanh tim",
+    "bot nang",
+    "nuoc tuong",
+    "giam tao",
+    "hat nem chay",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

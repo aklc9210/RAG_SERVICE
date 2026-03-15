@@ -1,0 +1,76 @@
+{
+  "id": "dish5877",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5877.json",
+  "name_vi": "Cá hồi sốt mắm tỏi",
+  "name_en": "",
+  "name_normalized": "ca hoi sot mam toi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá hồi phi lê"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01529",
+    "ingre07063",
+    "ingre02768",
+    "ingre04694",
+    "ingre02124",
+    "ingre00831"
+  ],
+  "ingredient_names_vi": [
+    "Cá hồi phi lê",
+    "Tỏi",
+    "Hành tím",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt/ đường"
+  ],
+  "ingredient_names_en": [
+    "Salmon Fillet",
+    "Garlic",
+    "Shallot",
+    "Fish Sauce",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca hoi phi le",
+    "toi",
+    "hanh tim",
+    "nuoc mam",
+    "dau an",
+    "bot ngot duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot ngot/ duong",
+      "new": "bot ngot duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột ngọt/ đường"
+    }
+  ]
+}

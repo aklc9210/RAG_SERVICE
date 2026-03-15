@@ -1,0 +1,27 @@
+{
+  "id": "ingre02866",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02866.json",
+  "name_vi": "húng quế/ hành lá",
+  "name_en": "Sage/Parsley",
+  "name_normalized": "hung que hanh la",
+  "synonyms": [
+    "hành lá",
+    "húng quế"
+  ],
+  "synonyms_normalized": [
+    "hanh la",
+    "hung que"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hung que/ hanh la",
+      "new": "hung que hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

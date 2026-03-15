@@ -1,0 +1,107 @@
+{
+  "id": "dish3856",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3856.json",
+  "name_vi": "Khoai tây nghiền nướng thịt gà",
+  "name_en": "",
+  "name_normalized": "khoai tay nghien nuong thit ga",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Khoai tây",
+    "Thịt ức gà",
+    "Thịt heo xông khói",
+    "Rau cải bó xôi"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Hành baro",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Dầu ô liu",
+    "Nước dùng gà",
+    "Whipping cream"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Bột mì đa dụng",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre06544",
+    "ingre06419",
+    "ingre05226",
+    "ingre04953",
+    "ingre02642",
+    "ingre00382",
+    "ingre06144",
+    "ingre02120",
+    "ingre05574",
+    "ingre00791",
+    "ingre04607",
+    "ingre07313",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Thịt ức gà",
+    "Thịt heo xông khói",
+    "Rau cải bó xôi",
+    "Nấm rơm",
+    "Hành baro",
+    "Bơ lạt",
+    "Sữa tươi",
+    "Dầu ô liu",
+    "Rượu trắng",
+    "Bột mì đa dụng",
+    "Nước dùng gà",
+    "Whipping cream",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Chicken breast",
+    "Smoked Pork",
+    "Bok Choy",
+    "Strawberry mushroom",
+    "Garlic",
+    "Butter",
+    "Fresh Milk",
+    "Olive oil",
+    "White wine",
+    "All-purpose flour",
+    "Chicken broth",
+    "Whipping cream",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "thit uc ga",
+    "thit heo xong khoi",
+    "rau cai bo xoi",
+    "nam rom",
+    "hanh baro",
+    "bo lat",
+    "sua tuoi",
+    "dau o liu",
+    "ruou trang",
+    "bot mi da dung",
+    "nuoc dung ga",
+    "whipping cream",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

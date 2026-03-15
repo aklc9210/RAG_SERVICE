@@ -1,0 +1,92 @@
+{
+  "id": "dish8173",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8173.json",
+  "name_vi": "Pasta salad phô mai xúc xích",
+  "name_en": "",
+  "name_normalized": "pasta salad pho mai xuc xich",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Pasta",
+    "Xúc xích/Pepperoni",
+    "Phô mai mini mozzarela ball"
+  ],
+  "secondary_ingredients": [
+    "Dầu olive"
+  ],
+  "seasonings": [
+    "Ớt cay",
+    "Rượu giấm đỏ",
+    "Sốt salad Italian",
+    "Nước cốt chanh",
+    "Bột ớt",
+    "Bột tỏi",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05019",
+    "ingre07410",
+    "ingre05087",
+    "ingre07993",
+    "ingre02106",
+    "ingre05529",
+    "ingre05998",
+    "ingre04538",
+    "ingre01015",
+    "ingre00978",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Pasta",
+    "Xúc xích/Pepperoni",
+    "Phô mai mini mozzarela ball",
+    "Ớt cay",
+    "Dầu olive",
+    "Rượu giấm đỏ",
+    "Sốt salad Italian",
+    "Nước cốt chanh",
+    "Bột ớt",
+    "Bột tỏi",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pasta",
+    "Sausage/Pepperoni",
+    "Mini Mozzarella Balls",
+    "Hot pepper",
+    "Olive oil",
+    "Red vinegar",
+    "Italian dressing",
+    "Lemon juice",
+    "Red Pepper Powder",
+    "Garlic powder",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "pasta",
+    "xuc xich pepperoni",
+    "pho mai mini mozzarela ball",
+    "ot cay",
+    "dau olive",
+    "ruou giam do",
+    "sot salad italian",
+    "nuoc cot chanh",
+    "bot ot",
+    "bot toi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "xuc xich/pepperoni",
+      "new": "xuc xich pepperoni",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Xúc xích/Pepperoni"
+    }
+  ]
+}

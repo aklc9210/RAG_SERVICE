@@ -1,0 +1,90 @@
+{
+  "id": "dish6630",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6630.json",
+  "name_vi": "Mai cua nhồi thịt chiên",
+  "name_en": "",
+  "name_normalized": "mai cua nhoi thit chien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cua",
+    "Thịt heo xay",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Bột mì",
+    "Xì dầu",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01333",
+    "ingre06414",
+    "ingre06930",
+    "ingre06823",
+    "ingre07063",
+    "ingre00759",
+    "ingre04343",
+    "ingre07381",
+    "ingre02080",
+    "ingre02124",
+    "ingre07683"
+  ],
+  "ingredient_names_vi": [
+    "Cua",
+    "Thịt heo xay",
+    "Tôm",
+    "Trứng gà",
+    "Tỏi",
+    "Bột mì",
+    "Ngò rí",
+    "Xì dầu",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Ground Pork",
+    "Chicken egg",
+    "Garlic",
+    "Wheat Flour",
+    "Parsley",
+    "Soy Sauce",
+    "Cooking oil",
+    "Sugar/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cua",
+    "thit heo xay",
+    "tom",
+    "trung ga",
+    "toi",
+    "bot mi",
+    "ngo ri",
+    "xi dau",
+    "dau hao",
+    "dau an",
+    "duong tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ tiêu"
+    }
+  ]
+}

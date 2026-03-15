@@ -1,0 +1,62 @@
+{
+  "id": "dish3861",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3861.json",
+  "name_vi": "Cá rô nướng",
+  "name_en": "",
+  "name_normalized": "ca ro nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá rô"
+  ],
+  "secondary_ingredients": [
+    "Dầu dừa"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Muối hột",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01608",
+    "ingre07966",
+    "ingre02067",
+    "ingre03766",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô",
+    "Ớt",
+    "Dầu dừa",
+    "Muối hột",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Roach",
+    "Pepper",
+    "Coconut oil",
+    "Sea salt",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro",
+    "ot",
+    "dau dua",
+    "muoi hot",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre05743",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05743.json",
+  "name_vi": "socola dạng viên/ dạng thanh",
+  "name_en": "Chocolate Bar",
+  "name_normalized": "socola dang vien dang thanh",
+  "synonyms": [
+    "kem socola",
+    "socola粒状",
+    "socola vảy"
+  ],
+  "synonyms_normalized": [
+    "kem socola",
+    "socola",
+    "socola vay"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola dang vien/ dang thanh",
+      "new": "socola dang vien dang thanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

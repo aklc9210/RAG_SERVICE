@@ -1,0 +1,103 @@
+{
+  "id": "dish7943",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7943.json",
+  "name_vi": "Lẩu gan bò",
+  "name_en": "",
+  "name_normalized": "lau gan bo",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Gan bò",
+    "Thơm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Cần tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt xiêm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02240",
+    "ingre06247",
+    "ingre01354",
+    "ingre02741",
+    "ingre02485",
+    "ingre01812",
+    "ingre05900",
+    "ingre08090",
+    "ingre02377",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Gan bò",
+    "Thơm",
+    "Cà chua",
+    "Hành tây",
+    "Gừng",
+    "Cần tây",
+    "Sả",
+    "Ớt xiêm",
+    "Giấm ăn",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Beef liver",
+    "Basil",
+    "Tomato",
+    "Onion",
+    "Ginger",
+    "Celery",
+    "Lemongrass",
+    "Chili pepper",
+    "vinegar",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "thom",
+    "ca chua",
+    "hanh tay",
+    "gung",
+    "can tay",
+    "sa",
+    "ot xiem",
+    "giam an",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

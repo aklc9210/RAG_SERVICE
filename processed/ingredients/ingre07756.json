@@ -1,0 +1,29 @@
+{
+  "id": "ingre07756",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07756.json",
+  "name_vi": "đậu hũ trắng (1 bìa)",
+  "name_en": "Tofu white (1 block)",
+  "name_normalized": "dau hu trang 1 bia",
+  "synonyms": [
+    "tôm nõn",
+    "đậu phụ",
+    "bìa đậu"
+  ],
+  "synonyms_normalized": [
+    "tom non",
+    "dau phu",
+    "bia dau"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hu trang (1 bia)",
+      "new": "dau hu trang 1 bia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

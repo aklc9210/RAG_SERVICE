@@ -1,0 +1,68 @@
+{
+  "id": "dish5564",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5564.json",
+  "name_vi": "Nấm đùi gà kho xì dầu",
+  "name_en": "",
+  "name_normalized": "nam dui ga kho xi dau",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành baro",
+    "Mật ong",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Xì dầu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04974",
+    "ingre02642",
+    "ingre07381",
+    "ingre04124",
+    "ingre02673",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Nấm đùi gà",
+    "Hành baro",
+    "Xì dầu",
+    "Mật ong",
+    "Hành lá",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken mushroom",
+    "Garlic",
+    "Soy Sauce",
+    "Honey",
+    "Scallion",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "nam dui ga",
+    "hanh baro",
+    "xi dau",
+    "mat ong",
+    "hanh la",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

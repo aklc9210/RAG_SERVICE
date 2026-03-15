@@ -1,0 +1,71 @@
+{
+  "id": "dish9725",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9725.json",
+  "name_vi": "Trà hoa atiso đỏ chanh dây (chanh leo)",
+  "name_en": "",
+  "name_normalized": "tra hoa atiso do chanh day chanh leo",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Hoa atiso"
+  ],
+  "secondary_ingredients": [
+    "Trà ô long",
+    "Đá viên",
+    "Nước nóng"
+  ],
+  "seasonings": [
+    "Chanh dây",
+    "Đường phèn",
+    "Đường trắng"
+  ],
+  "ingredient_ids": [
+    "ingre02567",
+    "ingre01081",
+    "ingre06737",
+    "ingre07635",
+    "ingre07652",
+    "ingre07522",
+    "ingre04738"
+  ],
+  "ingredient_names_vi": [
+    "Hoa atiso",
+    "Chanh dây",
+    "Trà ô long",
+    "Đường phèn",
+    "Đường trắng",
+    "Đá viên",
+    "Nước nóng"
+  ],
+  "ingredient_names_en": [
+    "Artichokeiflower",
+    "Watermelon vine tendril",
+    "Black Tea",
+    "Brown Sugar",
+    "White sugar",
+    "Ice cube",
+    "Hot water"
+  ],
+  "ingredient_names_normalized": [
+    "hoa atiso",
+    "chanh day",
+    "tra o long",
+    "duong phen",
+    "duong trang",
+    "da vien",
+    "nuoc nong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tra hoa atiso do chanh day (chanh leo)",
+      "new": "tra hoa atiso do chanh day chanh leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

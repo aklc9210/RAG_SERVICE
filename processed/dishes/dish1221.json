@@ -1,0 +1,92 @@
+{
+  "id": "dish1221",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1221.json",
+  "name_vi": "Bánh táo yến mạch",
+  "name_en": "",
+  "name_normalized": "banh tao yen mach",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Táo đỏ",
+    "Yến mạch"
+  ],
+  "secondary_ingredients": [
+    "Nho khô/ Hạnh nhân",
+    "Mật ong",
+    "Dầu oliu",
+    "Bơ đậu phộng"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột baking soda",
+    "Bột baking powder",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06911",
+    "ingre06823",
+    "ingre07453",
+    "ingre04402",
+    "ingre04124",
+    "ingre02104",
+    "ingre00416",
+    "ingre00515",
+    "ingre00514",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Táo đỏ",
+    "Trứng gà",
+    "Yến mạch",
+    "Nho khô/ Hạnh nhân",
+    "Mật ong",
+    "Dầu oliu",
+    "Bơ đậu phộng",
+    "Bột baking soda",
+    "Bột baking powder",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Red apple",
+    "Chicken egg",
+    "Oat",
+    "Dried grapes/Pistachios",
+    "Honey",
+    "Olive oil",
+    "Peanut butter",
+    "Baking soda",
+    "Baking Powder",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tao do",
+    "trung ga",
+    "yen mach",
+    "nho kho hanh nhan",
+    "mat ong",
+    "dau oliu",
+    "bo dau phong",
+    "bot baking soda",
+    "bot baking powder",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nho kho/ hanh nhan",
+      "new": "nho kho hanh nhan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nho khô/ Hạnh nhân"
+    }
+  ]
+}

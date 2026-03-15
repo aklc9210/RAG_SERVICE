@@ -1,0 +1,93 @@
+{
+  "id": "dish5098",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5098.json",
+  "name_vi": "Hoa kim châm xào thịt bò",
+  "name_en": "",
+  "name_normalized": "hoa kim cham xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hoa kim châm",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Bột nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02590",
+    "ingre06300",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre02124",
+    "ingre02080",
+    "ingre04694",
+    "ingre00838",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Hoa kim châm",
+    "Thịt bò",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Bột nêm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Safflower",
+    "Beef",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Cooking oil",
+    "Soy sauce",
+    "Fish Sauce",
+    "Seasoning Powder",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "hoa kim cham",
+    "thit bo",
+    "toi",
+    "ot",
+    "hanh tim",
+    "dau an",
+    "dau hao",
+    "nuoc mam",
+    "bot nem",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

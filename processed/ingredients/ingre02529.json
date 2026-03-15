@@ -1,0 +1,29 @@
+{
+  "id": "ingre02529",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02529.json",
+  "name_vi": "gừng/ hành khô/ rượu trắng",
+  "name_en": "Ginger/Dried Garlic/White Wine",
+  "name_normalized": "gung hanh kho ruou trang",
+  "synonyms": [
+    "gừng tươi",
+    "hành tím",
+    "rượu nấu"
+  ],
+  "synonyms_normalized": [
+    "gung tuoi",
+    "hanh tim",
+    "ruou nau"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gung/ hanh kho/ ruou trang",
+      "new": "gung hanh kho ruou trang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

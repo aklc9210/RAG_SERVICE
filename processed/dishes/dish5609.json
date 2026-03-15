@@ -1,0 +1,101 @@
+{
+  "id": "dish5609",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5609.json",
+  "name_vi": "Cá trích kho rục",
+  "name_en": "",
+  "name_normalized": "ca trich kho ruc",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cà chua chín đỏ",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu màu điều",
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Ớt cay chín đỏ",
+    "Đường",
+    "Bột ngọt",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01358",
+    "ingre02741",
+    "ingre02768",
+    "ingre07995",
+    "ingre02673",
+    "ingre07583",
+    "ingre00819",
+    "ingre00838",
+    "ingre02093",
+    "ingre06612",
+    "ingre04626"
+  ],
+  "ingredient_names_vi": [
+    "Cà chua chín đỏ",
+    "Hành tây",
+    "Hành tím",
+    "Ớt cay chín đỏ",
+    "Hành lá",
+    "Đường",
+    "Bột ngọt",
+    "Bột nêm",
+    "Dầu màu điều",
+    "Tiêu",
+    "Nước dừa tươi"
+  ],
+  "ingredient_names_en": [
+    "Tomato",
+    "Onion",
+    "Shallot",
+    "Red chili pepper",
+    "Scallion",
+    "Sugar",
+    "MSG",
+    "Seasoning Powder",
+    "Peanut-colored food coloring",
+    "Pepper",
+    "Coconut water"
+  ],
+  "ingredient_names_normalized": [
+    "ca chua chin do",
+    "hanh tay",
+    "hanh tim",
+    "ot cay chin do",
+    "hanh la",
+    "duong",
+    "bot ngot",
+    "bot nem",
+    "dau mau dieu",
+    "tieu",
+    "nuoc dua tuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

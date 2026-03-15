@@ -1,0 +1,29 @@
+{
+  "id": "ingre05317",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05317.json",
+  "name_vi": "rau mùi/ hành lá",
+  "name_en": "Mint/Parsley",
+  "name_normalized": "rau mui hanh la",
+  "synonyms": [
+    "hành lá",
+    "mùi",
+    "ngò"
+  ],
+  "synonyms_normalized": [
+    "hanh la",
+    "mui",
+    "ngo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau mui/ hanh la",
+      "new": "rau mui hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

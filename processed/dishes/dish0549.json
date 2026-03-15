@@ -1,0 +1,110 @@
+{
+  "id": "dish0549",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0549.json",
+  "name_vi": "Canh chua ếch lá giang",
+  "name_en": "",
+  "name_normalized": "canh chua ech la giang",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Thịt đùi ếch",
+    "Lá giang",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Rau thơm",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Ớt băm",
+    "Sả băm",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Đường/ bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre06536",
+    "ingre03430",
+    "ingre01354",
+    "ingre08055",
+    "ingre05385",
+    "ingre07971",
+    "ingre05900",
+    "ingre05905",
+    "ingre02355",
+    "ingre04694",
+    "ingre02124",
+    "ingre07071",
+    "ingre07674"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi ếch",
+    "Lá giang",
+    "Cà chua",
+    "Ớt sừng",
+    "Rau thơm",
+    "Ớt băm",
+    "Sả",
+    "Sả băm",
+    "Giấm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Tỏi băm",
+    "Đường/ bột canh"
+  ],
+  "ingredient_names_en": [
+    "Frog thigh meat",
+    "Japanese Laurel Leaf",
+    "Tomato",
+    "Hot pepper",
+    "Basil",
+    "Chopped Pepper",
+    "Lemongrass",
+    "Garlic Paste",
+    "Vinegar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Minced Garlic",
+    "Cornstarch"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui ech",
+    "la giang",
+    "ca chua",
+    "ot sung",
+    "rau thom",
+    "ot bam",
+    "sa",
+    "sa bam",
+    "giam",
+    "nuoc mam",
+    "dau an",
+    "toi bam",
+    "duong bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot canh",
+      "new": "duong bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột canh"
+    }
+  ]
+}

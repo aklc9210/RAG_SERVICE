@@ -1,0 +1,93 @@
+{
+  "id": "dish8840",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8840.json",
+  "name_vi": "Kimbap Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "kimbap han quoc",
+  "category": "an vat",
+  "main_ingredients": [
+    "Gạo",
+    "Rong biển",
+    "Dưa leo"
+  ],
+  "secondary_ingredients": [
+    "Xúc xích",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Trứng gà",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tương ớt",
+    "Sốt mayonnaise"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre05448",
+    "ingre02020",
+    "ingre01419",
+    "ingre07396",
+    "ingre06823",
+    "ingre04694",
+    "ingre02995",
+    "ingre02673",
+    "ingre07028",
+    "ingre05970"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Rong biển",
+    "Dưa leo",
+    "Cà rốt",
+    "Xúc xích",
+    "Trứng gà",
+    "Nước mắm",
+    "Hạt nêm",
+    "Hành lá",
+    "Tương ớt",
+    "Sốt mayonnaise"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Kelp",
+    "Cucumber",
+    "Carrot",
+    "Sausage",
+    "Chicken egg",
+    "Fish Sauce",
+    "Seasoning",
+    "Scallion",
+    "Hot Sauce",
+    "Mayonnaise Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "rong bien",
+    "dua leo",
+    "ca rot",
+    "xuc xich",
+    "trung ga",
+    "nuoc mam",
+    "hat nem",
+    "hanh la",
+    "tuong ot",
+    "sot mayonnaise"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

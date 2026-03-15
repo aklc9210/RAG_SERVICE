@@ -1,0 +1,103 @@
+{
+  "id": "dish3767",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3767.json",
+  "name_vi": "Má heo nướng muối ớt",
+  "name_en": "",
+  "name_normalized": "ma heo nuong muoi ot",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Má heo",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Màu dầu điều",
+    "Mật ong",
+    "Rau các loại"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt khô",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tương ớt",
+    "Nước tương",
+    "Ngũ vị hương",
+    "Muối Tây Ninh"
+  ],
+  "ingredient_ids": [
+    "ingre03909",
+    "ingre02768",
+    "ingre07063",
+    "ingre08039",
+    "ingre02995",
+    "ingre00819",
+    "ingre07028",
+    "ingre04790",
+    "ingre03849",
+    "ingre04124",
+    "ingre04381",
+    "ingre03785",
+    "ingre05221"
+  ],
+  "ingredient_names_vi": [
+    "Má heo",
+    "Hành tím",
+    "Tỏi",
+    "Ớt khô",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tương ớt",
+    "Nước tương",
+    "Màu dầu điều",
+    "Mật ong",
+    "Ngũ vị hương",
+    "Muối Tây Ninh",
+    "Rau các loại"
+  ],
+  "ingredient_names_en": [
+    "Jowl",
+    "Shallot",
+    "Garlic",
+    "Dried Pepper",
+    "Seasoning",
+    "MSG",
+    "Hot Sauce",
+    "Soy Sauce",
+    "Peanut oil color",
+    "Honey",
+    "Five-Spice Powder",
+    "Salt",
+    "Mixed Greens"
+  ],
+  "ingredient_names_normalized": [
+    "ma heo",
+    "hanh tim",
+    "toi",
+    "ot kho",
+    "hat nem",
+    "bot ngot",
+    "tuong ot",
+    "nuoc tuong",
+    "mau dau dieu",
+    "mat ong",
+    "ngu vi huong",
+    "muoi tay ninh",
+    "rau cac loai"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

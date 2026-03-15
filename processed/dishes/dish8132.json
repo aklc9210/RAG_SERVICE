@@ -1,0 +1,108 @@
+{
+  "id": "dish8132",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8132.json",
+  "name_vi": "Gỏi xoài ốc giác",
+  "name_en": "",
+  "name_normalized": "goi xoai oc giac",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ốc giác",
+    "Xoài sống",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Hành phi",
+    "Nước mắm",
+    "Giấm",
+    "Rượu trắng",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07941",
+    "ingre07340",
+    "ingre02741",
+    "ingre07063",
+    "ingre07966",
+    "ingre05359",
+    "ingre07791",
+    "ingre02730",
+    "ingre04694",
+    "ingre02355",
+    "ingre05574",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Ốc giác",
+    "Xoài sống",
+    "Hành tây",
+    "Tỏi",
+    "Ớt",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Hành phi",
+    "Nước mắm",
+    "Giấm",
+    "Rượu trắng",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Snail",
+    "Mango",
+    "Onion",
+    "Garlic",
+    "Pepper",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Garlic Fried",
+    "Fish Sauce",
+    "Vinegar",
+    "White wine",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc giac",
+    "xoai song",
+    "hanh tay",
+    "toi",
+    "ot",
+    "rau ram",
+    "dau phong rang",
+    "hanh phi",
+    "nuoc mam",
+    "giam",
+    "ruou trang",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

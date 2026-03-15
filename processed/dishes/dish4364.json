@@ -1,0 +1,88 @@
+{
+  "id": "dish4364",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4364.json",
+  "name_vi": "Cháo gà ác hạt sen",
+  "name_en": "",
+  "name_normalized": "chao ga ac hat sen",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Gạo",
+    "Gạo lứt",
+    "Gà ác"
+  ],
+  "secondary_ingredients": [
+    "Hạt sen",
+    "Đậu xanh còn vỏ",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre02442",
+    "ingre02411",
+    "ingre03029",
+    "ingre07842",
+    "ingre02673",
+    "ingre04343",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Gạo lứt",
+    "Gà ác",
+    "Hạt sen",
+    "Đậu xanh còn vỏ",
+    "Hành lá",
+    "Ngò rí",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Brown Rice",
+    "Chinese Gooseberry",
+    "Lotus seed",
+    "Green pea pod",
+    "Scallion",
+    "Parsley",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "gao lut",
+    "ga ac",
+    "hat sen",
+    "dau xanh con vo",
+    "hanh la",
+    "ngo ri",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

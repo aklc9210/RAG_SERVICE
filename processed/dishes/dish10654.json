@@ -1,0 +1,97 @@
+{
+  "id": "dish10654",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10654.json",
+  "name_vi": "Rau mầm trộn kiểu Thái",
+  "name_en": "",
+  "name_normalized": "rau mam tron kieu thai",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Rau mầm",
+    "Mực",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt đỏ",
+    "Ớt xanh",
+    "Chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre05318",
+    "ingre04264",
+    "ingre06930",
+    "ingre05900",
+    "ingre07063",
+    "ingre08097",
+    "ingre08083",
+    "ingre01079",
+    "ingre02741",
+    "ingre01354",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Rau mầm",
+    "Mực",
+    "Tôm",
+    "Sả",
+    "Tỏi",
+    "Ớt đỏ",
+    "Ớt xanh",
+    "Chanh",
+    "Hành tây",
+    "Cà chua",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Sprout greens",
+    "Squid",
+    "Shrimp",
+    "Lemongrass",
+    "Garlic",
+    "Red pepper",
+    "Green Pepper",
+    "Lemon",
+    "Onion",
+    "Tomato",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "rau mam",
+    "muc",
+    "tom",
+    "sa",
+    "toi",
+    "ot do",
+    "ot xanh",
+    "chanh",
+    "hanh tay",
+    "ca chua",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

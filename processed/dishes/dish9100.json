@@ -1,0 +1,58 @@
+{
+  "id": "dish9100",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9100.json",
+  "name_vi": "Sương sáo sữa tươi",
+  "name_en": "",
+  "name_normalized": "suong sao sua tuoi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Hạt é",
+    "Nước lọc",
+    "Đá viên"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột sương sáo",
+    "Sữa tươi có đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00922",
+    "ingre03059",
+    "ingre06146",
+    "ingre07583",
+    "ingre04665",
+    "ingre07522"
+  ],
+  "ingredient_names_vi": [
+    "Bột sương sáo",
+    "Hạt é",
+    "Sữa tươi có đường",
+    "Đường",
+    "Nước lọc",
+    "Đá viên"
+  ],
+  "ingredient_names_en": [
+    "Sago粉",
+    "Bird's eye chili",
+    "Sweetened Condensed Milk",
+    "Sugar",
+    "Tap water",
+    "Ice cube"
+  ],
+  "ingredient_names_normalized": [
+    "bot suong sao",
+    "hat e",
+    "sua tuoi co duong",
+    "duong",
+    "nuoc loc",
+    "da vien"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

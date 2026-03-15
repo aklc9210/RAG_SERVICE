@@ -1,0 +1,88 @@
+{
+  "id": "dish2733",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2733.json",
+  "name_vi": "Bánh bắp cải chiên",
+  "name_en": "",
+  "name_normalized": "banh bap cai chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bắp cải",
+    "Bún tàu"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Mè đen"
+  ],
+  "seasonings": [
+    "Bột mì",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Bột nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre00457",
+    "ingre00759",
+    "ingre00355",
+    "ingre02673",
+    "ingre03941",
+    "ingre03084",
+    "ingre04790",
+    "ingre03746",
+    "ingre07583",
+    "ingre00840"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải",
+    "Bột mì",
+    "Bún tàu",
+    "Hành lá",
+    "Mè đen",
+    "Hắc xì dầu",
+    "Nước tương",
+    "Muối",
+    "Đường",
+    "Bột nêm chay"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Wheat Flour",
+    "Noodle",
+    "Scallion",
+    "Black sesame seeds",
+    "Black soy sauce",
+    "Soy Sauce",
+    "Salt",
+    "Sugar",
+    "Vegetarian Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai",
+    "bot mi",
+    "bun tau",
+    "hanh la",
+    "me den",
+    "hac xi dau",
+    "nuoc tuong",
+    "muoi",
+    "duong",
+    "bot nem chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

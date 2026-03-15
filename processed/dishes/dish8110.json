@@ -1,0 +1,104 @@
+{
+  "id": "dish8110",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8110.json",
+  "name_vi": "Gỏi đinh lăng thịt gà",
+  "name_en": "",
+  "name_normalized": "goi dinh lang thit ga",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Gà ta",
+    "Lá đinh lăng"
+  ],
+  "secondary_ingredients": [
+    "Bắp cải",
+    "Hành lá",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt",
+    "Tỏi",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre02403",
+    "ingre03554",
+    "ingre01079",
+    "ingre07966",
+    "ingre00457",
+    "ingre02673",
+    "ingre05359",
+    "ingre07063",
+    "ingre04694",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Gà ta",
+    "Lá đinh lăng",
+    "Chanh",
+    "Ớt",
+    "Bắp cải",
+    "Hành lá",
+    "Rau răm",
+    "Tỏi",
+    "Nước mắm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Free-range chicken",
+    "Echinacea Leaf",
+    "Lemon",
+    "Pepper",
+    "Cabbage",
+    "Scallion",
+    "Vietnamese coriander",
+    "Garlic",
+    "Fish Sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ga ta",
+    "la dinh lang",
+    "chanh",
+    "ot",
+    "bap cai",
+    "hanh la",
+    "rau ram",
+    "toi",
+    "nuoc mam",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

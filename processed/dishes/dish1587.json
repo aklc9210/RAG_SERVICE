@@ -1,0 +1,77 @@
+{
+  "id": "dish1587",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1587.json",
+  "name_vi": "Bánh tét lá cẩm chay nhân đậu",
+  "name_en": "",
+  "name_normalized": "banh tet la cam chay nhan dau",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Đậu thận",
+    "Lá cẩm",
+    "Dầu dừa"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Bột khoai tây",
+    "Muối/đường"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre07836",
+    "ingre07822",
+    "ingre03412",
+    "ingre02067",
+    "ingre04554",
+    "ingre00713",
+    "ingre03828"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Đậu xanh",
+    "Đậu thận",
+    "Lá cẩm",
+    "Dầu dừa",
+    "Nước cốt dừa",
+    "Bột khoai tây",
+    "Muối/đường"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Green beans",
+    "Kidney Beans",
+    "Mint",
+    "Coconut oil",
+    "Coconut milk",
+    "Potato starch",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "dau xanh",
+    "dau than",
+    "la cam",
+    "dau dua",
+    "nuoc cot dua",
+    "bot khoai tay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/đường"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish0610",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0610.json",
+  "name_vi": "Canh cải cúc nấu cá rô",
+  "name_en": "",
+  "name_normalized": "canh cai cuc nau ca ro",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá rô phi",
+    "Rau cải cúc"
+  ],
+  "secondary_ingredients": [
+    "Rau cải xanh",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01610",
+    "ingre05230",
+    "ingre05236",
+    "ingre02741",
+    "ingre02485",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô phi",
+    "Rau cải cúc",
+    "Rau cải xanh",
+    "Hành tây",
+    "Gừng",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "tilapia",
+    "Cabbage",
+    "Green cabbage",
+    "Onion",
+    "Ginger",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro phi",
+    "rau cai cuc",
+    "rau cai xanh",
+    "hanh tay",
+    "gung",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

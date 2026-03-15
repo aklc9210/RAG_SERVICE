@@ -1,0 +1,62 @@
+{
+  "id": "dish2158",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2158.json",
+  "name_vi": "Bánh khoai tây đậu phụ",
+  "name_en": "",
+  "name_normalized": "banh khoai tay dau phu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Đậu phụ"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre07810",
+    "ingre00791",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Đậu phụ",
+    "Bột mì đa dụng",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Tofu",
+    "All-purpose flour",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "dau phu",
+    "bot mi da dung",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

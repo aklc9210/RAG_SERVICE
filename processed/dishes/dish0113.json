@@ -1,0 +1,78 @@
+{
+  "id": "dish0113",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0113.json",
+  "name_vi": "Canh bầu nấu cá thác lác",
+  "name_en": "",
+  "name_normalized": "canh bau nau ca thac lac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bầu",
+    "Cá thác lác nạo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00440",
+    "ingre01629",
+    "ingre02774",
+    "ingre02673",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bầu",
+    "Cá thác lác nạo",
+    "Hành tím băm",
+    "Hành lá",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Zucchini",
+    "Prawn minced",
+    "Chopped Scallion",
+    "Scallion",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bau",
+    "ca thac lac nao",
+    "hanh tim bam",
+    "hanh la",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

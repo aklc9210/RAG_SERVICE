@@ -1,0 +1,101 @@
+{
+  "id": "dish2087",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2087.json",
+  "name_vi": "Bánh socola không cần bột mì, bột nở",
+  "name_en": "",
+  "name_normalized": "banh socola khong can bot mi bot no",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Socola đen",
+    "Heavy cream",
+    "Sữa đặc",
+    "Siro bắp",
+    "Tinh chất vani",
+    "Nước"
+  ],
+  "seasonings": [
+    "Bột cacao",
+    "Bột gelatin",
+    "Đường",
+    "Rượu mùi cà phê",
+    "Trứng gà",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00382",
+    "ingre00576",
+    "ingre00652",
+    "ingre05763",
+    "ingre07583",
+    "ingre02558",
+    "ingre05547",
+    "ingre06174",
+    "ingre05676",
+    "ingre06823",
+    "ingre06592",
+    "ingre04490",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bơ lạt",
+    "Bột cacao",
+    "Bột gelatin",
+    "Socola đen",
+    "Đường",
+    "Heavy cream",
+    "Rượu mùi cà phê",
+    "Sữa đặc",
+    "Siro bắp",
+    "Trứng gà",
+    "Tinh chất vani",
+    "Nước",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Butter",
+    "Cocoa powder",
+    "Gelatin powder",
+    "Dark chocolate",
+    "Sugar",
+    "Heavy cream",
+    "Coffee-scented liquor",
+    "Sweetened Condensed Milk",
+    "Corn syrup",
+    "Chicken egg",
+    "Vanilla extract",
+    "Water",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bo lat",
+    "bot cacao",
+    "bot gelatin",
+    "socola den",
+    "duong",
+    "heavy cream",
+    "ruou mui ca phe",
+    "sua dac",
+    "siro bap",
+    "trung ga",
+    "tinh chat vani",
+    "nuoc",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh socola khong can bot mi, bot no",
+      "new": "banh socola khong can bot mi bot no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "dish3237",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3237.json",
+  "name_vi": "Bánh canh sườn heo",
+  "name_en": "",
+  "name_normalized": "banh canh suon heo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bánh canh tươi",
+    "Sườn non",
+    "Cải trắng",
+    "Cải thảo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Giá",
+    "Hành lá/ Rau ngò"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Ớt",
+    "Dầu ăn",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00077",
+    "ingre05888",
+    "ingre01419",
+    "ingre01796",
+    "ingre01793",
+    "ingre02768",
+    "ingre02329",
+    "ingre01079",
+    "ingre07966",
+    "ingre02124",
+    "ingre02706",
+    "ingre02730",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bánh canh tươi",
+    "Sườn non",
+    "Cà rốt",
+    "Cải trắng",
+    "Cải thảo",
+    "Hành tím",
+    "Giá",
+    "Chanh",
+    "Ớt",
+    "Dầu ăn",
+    "Hành lá/ Rau ngò",
+    "Hành phi",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh noodle soup",
+    "Rib Steak",
+    "Carrot",
+    "Cabbage",
+    "Shallot",
+    "Mint",
+    "Lemon",
+    "Pepper",
+    "Cooking oil",
+    "Chives",
+    "Garlic Fried",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh canh tuoi",
+    "suon non",
+    "ca rot",
+    "cai trang",
+    "cai thao",
+    "hanh tim",
+    "gia",
+    "chanh",
+    "ot",
+    "dau an",
+    "hanh la rau ngo",
+    "hanh phi",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau ngo",
+      "new": "hanh la rau ngo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ Rau ngò"
+    }
+  ]
+}

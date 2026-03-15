@@ -1,0 +1,104 @@
+{
+  "id": "dish7955",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7955.json",
+  "name_vi": "Gỏi cá vược",
+  "name_en": "",
+  "name_normalized": "goi ca vuoc",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá vược",
+    "Khô cá",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Thính",
+    "Mỡ heo",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01653",
+    "ingre03243",
+    "ingre02768",
+    "ingre05900",
+    "ingre06240",
+    "ingre02485",
+    "ingre02124",
+    "ingre04192",
+    "ingre05420",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Cá vược",
+    "Khô cá",
+    "Hành tím",
+    "Sả",
+    "Thính",
+    "Gừng",
+    "Dầu ăn",
+    "Mỡ heo",
+    "Rau ăn kèm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike",
+    "Dried Fish",
+    "Shallot",
+    "Lemongrass",
+    "Rice flour",
+    "Ginger",
+    "Cooking oil",
+    "Pork fat",
+    "Side vegetable",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "ca vuoc",
+    "kho ca",
+    "hanh tim",
+    "sa",
+    "thinh",
+    "gung",
+    "dau an",
+    "mo heo",
+    "rau an kem",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

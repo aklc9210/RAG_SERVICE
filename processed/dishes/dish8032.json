@@ -1,0 +1,100 @@
+{
+  "id": "dish8032",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8032.json",
+  "name_vi": "Chạo tai heo",
+  "name_en": "",
+  "name_normalized": "chao tai heo",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Tai heo",
+    "Xoài xanh"
+  ],
+  "secondary_ingredients": [
+    "Vừng",
+    "Sả",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Riềng băm nhuyễn",
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Giấm",
+    "Muối/bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre05439",
+    "ingre07342",
+    "ingre07299",
+    "ingre01079",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre05420",
+    "ingre02355",
+    "ingre03823"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Riềng băm nhuyễn",
+    "Xoài xanh",
+    "Vừng",
+    "Chanh",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Rau ăn kèm",
+    "Giấm",
+    "Muối/bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Garlic minced",
+    "Green mango",
+    "Sesame",
+    "Lemon",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Side vegetable",
+    "Vinegar",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "rieng bam nhuyen",
+    "xoai xanh",
+    "vung",
+    "chanh",
+    "sa",
+    "toi",
+    "ot",
+    "rau an kem",
+    "giam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/bột ngọt"
+    }
+  ]
+}

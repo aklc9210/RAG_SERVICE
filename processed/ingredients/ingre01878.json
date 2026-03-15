@@ -1,0 +1,27 @@
+{
+  "id": "ingre01878",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01878.json",
+  "name_vi": "củ cải/cà rốt",
+  "name_en": "Carrot/Cabbage",
+  "name_normalized": "cu cai ca rot",
+  "synonyms": [
+    "cà gai",
+    "cà pháo"
+  ],
+  "synonyms_normalized": [
+    "ca gai",
+    "ca phao"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cu cai/ca rot",
+      "new": "cu cai ca rot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

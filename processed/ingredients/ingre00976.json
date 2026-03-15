@@ -1,0 +1,29 @@
+{
+  "id": "ingre00976",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00976.json",
+  "name_vi": "bột tẩm khô chiên giòn aji-quick",
+  "name_en": "Puffed Seasoned Powder Aji-Quick",
+  "name_normalized": "bot tam kho chien gion aji quick",
+  "synonyms": [
+    "bột chiên giòn",
+    "bột rán giòn",
+    "bột tẩm rán"
+  ],
+  "synonyms_normalized": [
+    "bot chien gion",
+    "bot ran gion",
+    "bot tam ran"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot tam kho chien gion aji-quick",
+      "new": "bot tam kho chien gion aji quick",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

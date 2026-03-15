@@ -1,0 +1,121 @@
+{
+  "id": "dish9481",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9481.json",
+  "name_vi": "Kim chi cải thảo",
+  "name_en": "",
+  "name_normalized": "kim chi cai thao",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Bắp cải thảo",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hẹ",
+    "Táo",
+    "Tôm khô",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Gừng",
+    "Ớt bột Hàn Quốc",
+    "Ớt bột Việt Nam",
+    "Nước mắm",
+    "Muối hạt",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre00462",
+    "ingre01419",
+    "ingre02741",
+    "ingre02673",
+    "ingre03085",
+    "ingre06890",
+    "ingre07063",
+    "ingre02485",
+    "ingre06941",
+    "ingre07983",
+    "ingre07989",
+    "ingre04694",
+    "ingre03760",
+    "ingre03929",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Bắp cải thảo",
+    "Cà rốt",
+    "Hành tây",
+    "Hành lá",
+    "Hẹ",
+    "Táo",
+    "Tỏi",
+    "Gừng",
+    "Tôm khô",
+    "Ớt bột Hàn Quốc",
+    "Ớt bột Việt Nam",
+    "Nước mắm",
+    "Muối hạt",
+    "Mè rang",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Cabbage",
+    "Carrot",
+    "Onion",
+    "Scallion",
+    "Garlic Chives",
+    "Apple",
+    "Garlic",
+    "Ginger",
+    "Dried Shrimp",
+    "Korean chili powder",
+    "Vietnamese chili powder",
+    "Fish Sauce",
+    "Fenugreek seeds",
+    "Roasted Sesame Seeds",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "bap cai thao",
+    "ca rot",
+    "hanh tay",
+    "hanh la",
+    "he",
+    "tao",
+    "toi",
+    "gung",
+    "tom kho",
+    "ot bot han quoc",
+    "ot bot viet nam",
+    "nuoc mam",
+    "muoi hat",
+    "me rang",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

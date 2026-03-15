@@ -1,0 +1,68 @@
+{
+  "id": "dish1407",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1407.json",
+  "name_vi": "Bánh mì đen",
+  "name_en": "",
+  "name_normalized": "banh mi den",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Men instant",
+    "Hạt chia",
+    "Mè đen đã rang"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì nguyên cám",
+    "Sữa bột",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00771",
+    "ingre06083",
+    "ingre00382",
+    "ingre03672",
+    "ingre02922",
+    "ingre03945",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì nguyên cám",
+    "Sữa bột",
+    "Bơ lạt",
+    "Men instant",
+    "Hạt chia",
+    "Mè đen đã rang",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Whole Grain Flour",
+    "Milk Powder",
+    "Butter",
+    "Instant yeast",
+    "Chia Seeds",
+    "Roasted Black Sesame Seeds",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi nguyen cam",
+    "sua bot",
+    "bo lat",
+    "men instant",
+    "hat chia",
+    "me den da rang",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

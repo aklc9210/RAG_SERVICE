@@ -1,0 +1,92 @@
+{
+  "id": "dish4697",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4697.json",
+  "name_vi": "Ngó sen xào chả chay",
+  "name_en": "",
+  "name_normalized": "ngo sen xao cha chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ngó sen",
+    "Chả chay",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04361",
+    "ingre01260",
+    "ingre02673",
+    "ingre01079",
+    "ingre07063",
+    "ingre04790",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Ngó sen",
+    "Chả chay",
+    "Hành lá",
+    "Chanh",
+    "Tỏi",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Lotus leaf",
+    "Vegetarian sausage",
+    "Scallion",
+    "Lemon",
+    "Garlic",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ngo sen",
+    "cha chay",
+    "hanh la",
+    "chanh",
+    "toi",
+    "nuoc tuong",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

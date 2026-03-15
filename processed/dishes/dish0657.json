@@ -1,0 +1,75 @@
+{
+  "id": "dish0657",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0657.json",
+  "name_vi": "Canh khổ qua (mướp đắng) thịt bằm",
+  "name_en": "",
+  "name_normalized": "canh kho qua muop dang thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khổ qua"
+  ],
+  "secondary_ingredients": [
+    "Thịt bằm",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre03271",
+    "ingre06336",
+    "ingre02673",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Khổ qua",
+    "Thịt bằm",
+    "Hành lá",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Minced meat",
+    "Scallion",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "kho qua",
+    "thit bam",
+    "hanh la",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh kho qua (muop dang) thit bam",
+      "new": "canh kho qua muop dang thit bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

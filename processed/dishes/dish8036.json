@@ -1,0 +1,111 @@
+{
+  "id": "dish8036",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8036.json",
+  "name_vi": "Nộm mướp đắng - gỏi khổ qua khô cá",
+  "name_en": "",
+  "name_normalized": "nom muop dang goi kho qua kho ca",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Khô cá lóc",
+    "Khổ qua",
+    "Cải đỏ radish",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau mầm",
+    "Mè rang",
+    "Húng ủi"
+  ],
+  "seasonings": [
+    "Hành tỏi băm",
+    "Ớt băm",
+    "Ớt sừng",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn",
+    "Giấm gạo lên men",
+    "Sốt mayonnaise"
+  ],
+  "ingredient_ids": [
+    "ingre03252",
+    "ingre03271",
+    "ingre01805",
+    "ingre02741",
+    "ingre05318",
+    "ingre03929",
+    "ingre02869",
+    "ingre02817",
+    "ingre07971",
+    "ingre08055",
+    "ingre07583",
+    "ingre04694",
+    "ingre02124",
+    "ingre02363",
+    "ingre05970"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá lóc",
+    "Khổ qua",
+    "Cải đỏ radish",
+    "Hành tây",
+    "Rau mầm",
+    "Mè rang",
+    "Húng ủi",
+    "Hành tỏi băm",
+    "Ớt băm",
+    "Ớt sừng",
+    "Đường",
+    "Nước mắm",
+    "Dầu ăn",
+    "Giấm gạo lên men",
+    "Sốt mayonnaise"
+  ],
+  "ingredient_names_en": [
+    "Dried Tilapia Fish",
+    "Bitter Melon",
+    "Red radish",
+    "Onion",
+    "Sprout greens",
+    "Roasted Sesame Seeds",
+    "Peppermint",
+    "Chopped Garlic",
+    "Chopped Pepper",
+    "Hot pepper",
+    "Sugar",
+    "Fish Sauce",
+    "Cooking oil",
+    "Rice Fermented Vinegar",
+    "Mayonnaise Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca loc",
+    "kho qua",
+    "cai do radish",
+    "hanh tay",
+    "rau mam",
+    "me rang",
+    "hung ui",
+    "hanh toi bam",
+    "ot bam",
+    "ot sung",
+    "duong",
+    "nuoc mam",
+    "dau an",
+    "giam gao len men",
+    "sot mayonnaise"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nom muop dang - goi kho qua kho ca",
+      "new": "nom muop dang goi kho qua kho ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

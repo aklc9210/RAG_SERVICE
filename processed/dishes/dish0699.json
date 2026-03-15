@@ -1,0 +1,97 @@
+{
+  "id": "dish0699",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0699.json",
+  "name_vi": "Gân bò hầm tiêu xanh",
+  "name_en": "",
+  "name_normalized": "gan bo ham tieu xanh",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Gân bò",
+    "Bắp non"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Sả"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tiêu xanh tươi",
+    "Tỏi băm",
+    "Chanh",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02415",
+    "ingre01419",
+    "ingre00485",
+    "ingre04953",
+    "ingre06642",
+    "ingre07071",
+    "ingre05900",
+    "ingre01079",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Gân bò",
+    "Cà rốt",
+    "Bắp non",
+    "Nấm rơm",
+    "Tiêu xanh tươi",
+    "Tỏi băm",
+    "Sả",
+    "Chanh",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef tendon",
+    "Carrot",
+    "Green corn",
+    "Strawberry mushroom",
+    "Fresh Green Chili",
+    "Minced Garlic",
+    "Lemongrass",
+    "Lemon",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "gan bo",
+    "ca rot",
+    "bap non",
+    "nam rom",
+    "tieu xanh tuoi",
+    "toi bam",
+    "sa",
+    "chanh",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

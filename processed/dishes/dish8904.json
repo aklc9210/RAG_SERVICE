@@ -1,0 +1,99 @@
+{
+  "id": "dish8904",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8904.json",
+  "name_vi": "Khô heo cháy tỏi",
+  "name_en": "",
+  "name_normalized": "kho heo chay toi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Ngũ vị hương",
+    "Bột dầu điều",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre05900",
+    "ingre07063",
+    "ingre07966",
+    "ingre04381",
+    "ingre00647",
+    "ingre04790",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124",
+    "ingre07687"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Sả",
+    "Tỏi",
+    "Ớt",
+    "Ngũ vị hương",
+    "Bột dầu điều",
+    "Nước tương",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Đường/Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Lemongrass",
+    "Garlic",
+    "Pepper",
+    "Five-Spice Powder",
+    "Peanut oil powder",
+    "Soy Sauce",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar/MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "sa",
+    "toi",
+    "ot",
+    "ngu vi huong",
+    "bot dau dieu",
+    "nuoc tuong",
+    "nuoc mam",
+    "dau hao",
+    "dau an",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/Bột ngọt"
+    }
+  ]
+}

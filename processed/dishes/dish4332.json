@@ -1,0 +1,108 @@
+{
+  "id": "dish4332",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4332.json",
+  "name_vi": "Hàu nướng phô mai con bò cười",
+  "name_en": "",
+  "name_normalized": "hau nuong pho mai con bo cuoi",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Hàu sữa:"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi:",
+    "Phô mai con bò cười:",
+    "Sữa đặc:"
+  ],
+  "seasonings": [
+    "Sốt Mayonnaise:",
+    "Nước cốt chanh:"
+  ],
+  "ingredient_ids": [
+    "ingre02843",
+    "ingre06164",
+    "ingre05974",
+    "ingre05071",
+    "ingre06181",
+    "ingre04548"
+  ],
+  "ingredient_names_vi": [
+    "Hàu sữa:",
+    "Sữa tươi:",
+    "Sốt Mayonnaise:",
+    "Phô mai con bò cười:",
+    "Sữa đặc:",
+    "Nước cốt chanh:"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Fresh Milk",
+    "Mayonnaise",
+    "Cheese Cow Smile",
+    "Sweetened Condensed Milk",
+    "Lemon juice:"
+  ],
+  "ingredient_names_normalized": [
+    "hau sua",
+    "sua tuoi",
+    "sot mayonnaise",
+    "pho mai con bo cuoi",
+    "sua dac",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hau sua:",
+      "new": "hau sua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hàu sữa:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua tuoi:",
+      "new": "sua tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa tươi:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sot mayonnaise:",
+      "new": "sot mayonnaise",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sốt Mayonnaise:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "pho mai con bo cuoi:",
+      "new": "pho mai con bo cuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Phô mai con bò cười:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sua dac:",
+      "new": "sua dac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sữa đặc:"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc cot chanh:",
+      "new": "nuoc cot chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước cốt chanh:"
+    }
+  ]
+}

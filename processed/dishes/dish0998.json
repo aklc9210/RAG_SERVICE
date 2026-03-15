@@ -1,0 +1,87 @@
+{
+  "id": "dish0998",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0998.json",
+  "name_vi": "Bánh khoai mỡ hấp",
+  "name_en": "",
+  "name_normalized": "banh khoai mo hap",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai mỡ"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Sữa đặc",
+    "Mè"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Bột gạo",
+    "Vani",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03219",
+    "ingre00859",
+    "ingre00668",
+    "ingre06144",
+    "ingre06174",
+    "ingre03925",
+    "ingre07140",
+    "ingre07583",
+    "ingre03746",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Khoai mỡ",
+    "Bột nếp",
+    "Bột gạo",
+    "Sữa tươi",
+    "Sữa đặc",
+    "Mè",
+    "Vani",
+    "Đường",
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Glutinous rice flour",
+    "Rice flour",
+    "Fresh Milk",
+    "Sweetened Condensed Milk",
+    "Tamarind",
+    "Vanilla",
+    "Sugar",
+    "Salt",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mo",
+    "bot nep",
+    "bot gao",
+    "sua tuoi",
+    "sua dac",
+    "me",
+    "vani",
+    "duong",
+    "muoi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

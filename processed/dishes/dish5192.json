@@ -1,0 +1,112 @@
+{
+  "id": "dish5192",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5192.json",
+  "name_vi": "Bao tử heo xào sả ớt",
+  "name_en": "",
+  "name_normalized": "bao tu heo xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Rau quế"
+  ],
+  "seasonings": [
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Nghệ băm",
+    "Chanh",
+    "Hoa hồi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre05900",
+    "ingre08026",
+    "ingre07071",
+    "ingre02774",
+    "ingre04305",
+    "ingre01079",
+    "ingre05354",
+    "ingre02584",
+    "ingre02124",
+    "ingre02080",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Sả",
+    "Ớt hiểm",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Nghệ băm",
+    "Chanh",
+    "Rau quế",
+    "Hoa hồi",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Lemongrass",
+    "Hot pepper",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Ginger paste",
+    "Lemon",
+    "Sage",
+    "Rose",
+    "Cooking oil",
+    "Soy sauce",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "sa",
+    "ot hiem",
+    "toi bam",
+    "hanh tim bam",
+    "nghe bam",
+    "chanh",
+    "rau que",
+    "hoa hoi",
+    "dau an",
+    "dau hao",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

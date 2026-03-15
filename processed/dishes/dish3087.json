@@ -1,0 +1,72 @@
+{
+  "id": "dish3087",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3087.json",
+  "name_vi": "Chè ngô (bắp) cốm",
+  "name_en": "",
+  "name_normalized": "che ngo bap com",
+  "category": "mon che",
+  "main_ingredients": [
+    "Ngô",
+    "Cốm"
+  ],
+  "secondary_ingredients": [
+    "Nước",
+    "Lá dứa",
+    "Dừa bào sợi"
+  ],
+  "seasonings": [
+    "Đường",
+    "Bột sắn dây"
+  ],
+  "ingredient_ids": [
+    "ingre04362",
+    "ingre01831",
+    "ingre04490",
+    "ingre03417",
+    "ingre07583",
+    "ingre00928",
+    "ingre02164"
+  ],
+  "ingredient_names_vi": [
+    "Ngô",
+    "Cốm",
+    "Nước",
+    "Lá dứa",
+    "Đường",
+    "Bột sắn dây",
+    "Dừa bào sợi"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Rice cake",
+    "Water",
+    "Pandan叶",
+    "Sugar",
+    "Tapioca starch",
+    "Coconut shred"
+  ],
+  "ingredient_names_normalized": [
+    "ngo",
+    "com",
+    "nuoc",
+    "la dua",
+    "duong",
+    "bot san day",
+    "dua bao soi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "che ngo (bap) com",
+      "new": "che ngo bap com",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "dish8339",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8339.json",
+  "name_vi": "Gỏi cá diêu hồng",
+  "name_en": "",
+  "name_normalized": "goi ca dieu hong",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá diêu hồng",
+    "Gạo",
+    "Nghệ"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Rau",
+    "Nước"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt",
+    "Men chua",
+    "Bột thính",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01513",
+    "ingre02436",
+    "ingre02485",
+    "ingre04304",
+    "ingre05900",
+    "ingre07966",
+    "ingre05197",
+    "ingre03668",
+    "ingre00943",
+    "ingre04490",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng",
+    "Gạo",
+    "Gừng",
+    "Nghệ",
+    "Sả",
+    "Ớt",
+    "Rau",
+    "Men chua",
+    "Bột thính",
+    "Nước",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Red snapper",
+    "Rice",
+    "Ginger",
+    "Turmeric",
+    "Lemongrass",
+    "Pepper",
+    "Leaf vegetable",
+    "Pickled mustard greens",
+    "Rice flour",
+    "Water",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong",
+    "gao",
+    "gung",
+    "nghe",
+    "sa",
+    "ot",
+    "rau",
+    "men chua",
+    "bot thinh",
+    "nuoc",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

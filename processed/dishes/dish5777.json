@@ -1,0 +1,111 @@
+{
+  "id": "dish5777",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5777.json",
+  "name_vi": "Cá he kho lạt",
+  "name_en": "",
+  "name_normalized": "ca he kho lat",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá he",
+    "Me non",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01520",
+    "ingre03656",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre02124",
+    "ingre08026",
+    "ingre05420",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá he",
+    "Me non",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Dầu ăn",
+    "Ớt hiểm",
+    "Rau ăn kèm",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Mint",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Hot pepper",
+    "Side vegetable",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca he",
+    "me non",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "dau an",
+    "ot hiem",
+    "rau an kem",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish7755",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7755.json",
+  "name_vi": "Lẩu xương bò",
+  "name_en": "",
+  "name_normalized": "lau xuong bo",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Xương bò",
+    "Gân bò"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Hoa hồi",
+    "Quế chi",
+    "Gia vị bò kho",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07413",
+    "ingre02415",
+    "ingre05900",
+    "ingre02584",
+    "ingre05187",
+    "ingre02280",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Xương bò",
+    "Gân bò",
+    "Sả",
+    "Hoa hồi",
+    "Quế chi",
+    "Gia vị bò kho",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Beef bone",
+    "Beef tendon",
+    "Lemongrass",
+    "Rose",
+    "Star Anise",
+    "Beef braising seasoning",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "xuong bo",
+    "gan bo",
+    "sa",
+    "hoa hoi",
+    "que chi",
+    "gia vi bo kho",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "dish9644",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9644.json",
+  "name_vi": "Smoothie cải kale, chuối, nước dừa",
+  "name_en": "",
+  "name_normalized": "smoothie cai kale chuoi nuoc dua",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Lá cải kale"
+  ],
+  "secondary_ingredients": [
+    "Nước dừa",
+    "Đậu hũ trắng",
+    "Bơ đậu phộng nguyên chất",
+    "Chà là bỏ hạt",
+    "Chuối"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre03408",
+    "ingre04622",
+    "ingre07755",
+    "ingre00418",
+    "ingre01214",
+    "ingre01160"
+  ],
+  "ingredient_names_vi": [
+    "Lá cải kale",
+    "Nước dừa",
+    "Đậu hũ trắng",
+    "Bơ đậu phộng nguyên chất",
+    "Chà là bỏ hạt",
+    "Chuối"
+  ],
+  "ingredient_names_en": [
+    "Kale",
+    "Coconut water",
+    "Tofu",
+    "Natural Peanut Butter",
+    "Staranberry",
+    "Banana"
+  ],
+  "ingredient_names_normalized": [
+    "la cai kale",
+    "nuoc dua",
+    "dau hu trang",
+    "bo dau phong nguyen chat",
+    "cha la bo hat",
+    "chuoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "smoothie cai kale, chuoi, nuoc dua",
+      "new": "smoothie cai kale chuoi nuoc dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

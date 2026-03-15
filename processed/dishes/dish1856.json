@@ -1,0 +1,88 @@
+{
+  "id": "dish1856",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1856.json",
+  "name_vi": "Bánh bột lọc nhân đậu xanh",
+  "name_en": "",
+  "name_normalized": "banh bot loc nhan dau xanh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu xanh tách vỏ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Tắc"
+  ],
+  "seasonings": [
+    "Bột năng",
+    "Cà rốt",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00849",
+    "ingre07852",
+    "ingre02768",
+    "ingre01419",
+    "ingre07057",
+    "ingre07966",
+    "ingre02124",
+    "ingre04697",
+    "ingre02997",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Bột năng",
+    "Đậu xanh tách vỏ",
+    "Hành tím",
+    "Cà rốt",
+    "Tắc",
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm chay",
+    "Hạt nêm chay",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cornstarch",
+    "Green split peas",
+    "Shallot",
+    "Carrot",
+    "Tamarind",
+    "Pepper",
+    "Cooking oil",
+    "Vegetarian fish sauce",
+    "Vegetarian Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bot nang",
+    "dau xanh tach vo",
+    "hanh tim",
+    "ca rot",
+    "tac",
+    "ot",
+    "dau an",
+    "nuoc mam chay",
+    "hat nem chay",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

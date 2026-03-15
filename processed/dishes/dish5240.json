@@ -1,0 +1,117 @@
+{
+  "id": "dish5240",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5240.json",
+  "name_vi": "Mực xào mướp",
+  "name_en": "",
+  "name_normalized": "muc xao muop",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mướp hương",
+    "Mực ống",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Rau răm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Gừng",
+    "Bột năng",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04104",
+    "ingre04281",
+    "ingre04936",
+    "ingre07791",
+    "ingre08055",
+    "ingre02485",
+    "ingre05359",
+    "ingre02768",
+    "ingre00849",
+    "ingre02124",
+    "ingre03011"
+  ],
+  "ingredient_names_vi": [
+    "Mướp hương",
+    "Mực ống",
+    "Nấm mèo khô",
+    "Đậu phộng rang",
+    "Ớt sừng",
+    "Gừng",
+    "Rau răm",
+    "Hành tím",
+    "Bột năng",
+    "Dầu ăn",
+    "Hạt nêm/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Luffa",
+    "Tube squid",
+    "Dried cat's ear mushroom",
+    "Roasted Peanut",
+    "Hot pepper",
+    "Ginger",
+    "Vietnamese coriander",
+    "Shallot",
+    "Cornstarch",
+    "Cooking oil",
+    "Seasoning/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muop huong",
+    "muc ong",
+    "nam meo kho",
+    "dau phong rang",
+    "ot sung",
+    "gung",
+    "rau ram",
+    "hanh tim",
+    "bot nang",
+    "dau an",
+    "hat nem tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mướp hương"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu",
+      "new": "hat nem tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ tiêu"
+    }
+  ]
+}

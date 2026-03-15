@@ -1,0 +1,121 @@
+{
+  "id": "dish7776",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7776.json",
+  "name_vi": "Lẩu kim chi hải sản Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "lau kim chi hai san han quoc",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Bạch tuộc",
+    "Thịt bò",
+    "Tôm",
+    "Nghêu"
+  ],
+  "secondary_ingredients": [
+    "Nấm đùi gà",
+    "Nấm kim châm",
+    "Hành tím",
+    "Hành tây",
+    "Kim chi",
+    "Mì gói Hàn Quốc",
+    "Bánh gạo"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Bột ớt God sauce",
+    "Dầu ăn",
+    "Rượu gạo Hàn Quốc"
+  ],
+  "ingredient_ids": [
+    "ingre00434",
+    "ingre06300",
+    "ingre06930",
+    "ingre04303",
+    "ingre04974",
+    "ingre04921",
+    "ingre02768",
+    "ingre02741",
+    "ingre03277",
+    "ingre02485",
+    "ingre01020",
+    "ingre02124",
+    "ingre05533",
+    "ingre03965",
+    "ingre00085"
+  ],
+  "ingredient_names_vi": [
+    "Bạch tuộc",
+    "Thịt bò",
+    "Tôm",
+    "Nghêu",
+    "Nấm đùi gà",
+    "Nấm kim châm",
+    "Hành tím",
+    "Hành tây",
+    "Kim chi",
+    "Gừng",
+    "Bột ớt God sauce",
+    "Dầu ăn",
+    "Rượu gạo Hàn Quốc",
+    "Mì gói Hàn Quốc",
+    "Bánh gạo"
+  ],
+  "ingredient_names_en": [
+    "Squid",
+    "Beef",
+    "Shrimp",
+    "Clam",
+    "Chicken mushroom",
+    "Mushroom",
+    "Shallot",
+    "Onion",
+    "Kimchi -> Kimchi (Kimchi is a Korean fermented dish, not a Vietnamese ingredient, but since it's included in the list, it remains",
+    "Ginger",
+    "Red Pepper Powder",
+    "Cooking oil",
+    "Korean rice wine",
+    "Instant noodles (Korean)",
+    "Glutinous Rice Cake"
+  ],
+  "ingredient_names_normalized": [
+    "bach tuoc",
+    "thit bo",
+    "tom",
+    "ngheu",
+    "nam dui ga",
+    "nam kim cham",
+    "hanh tim",
+    "hanh tay",
+    "kim chi",
+    "gung",
+    "bot ot god sauce",
+    "dau an",
+    "ruou gao han quoc",
+    "mi goi han quoc",
+    "banh gao"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mussel",
+      "new": "Clam",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Nghêu"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish1049",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1049.json",
+  "name_vi": "Bánh hòn nhân thịt",
+  "name_en": "",
+  "name_normalized": "banh hon nhan thit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt băm",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo ngâm nở",
+    "Nấm hương ngâm mềm",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột gạo tẻ",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00675",
+    "ingre06329",
+    "ingre02673",
+    "ingre04938",
+    "ingre04914",
+    "ingre02768",
+    "ingre03746",
+    "ingre07583",
+    "ingre06612",
+    "ingre04694",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bột gạo tẻ",
+    "Thịt băm",
+    "Hành lá",
+    "Nấm mèo ngâm nở",
+    "Nấm hương ngâm mềm",
+    "Hành tím",
+    "Muối",
+    "Đường",
+    "Tiêu",
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rice flour",
+    "Minced meat",
+    "Scallion",
+    "Bloomed Shiitake Mushrooms",
+    "Softened shiitake mushrooms",
+    "Shallot",
+    "Salt",
+    "Sugar",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bot gao te",
+    "thit bam",
+    "hanh la",
+    "nam meo ngam no",
+    "nam huong ngam mem",
+    "hanh tim",
+    "muoi",
+    "duong",
+    "tieu",
+    "nuoc mam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

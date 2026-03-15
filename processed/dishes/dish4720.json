@@ -1,0 +1,83 @@
+{
+  "id": "dish4720",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4720.json",
+  "name_vi": "Xúc xích xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "xuc xich xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Màu dầu điều",
+    "Ngò rí",
+    "Xà lách"
+  ],
+  "seasonings": [
+    "Tương ớt chua ngọt",
+    "Ớt bột",
+    "Tỏi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07396",
+    "ingre07032",
+    "ingre07977",
+    "ingre02768",
+    "ingre07063",
+    "ingre03849",
+    "ingre02124",
+    "ingre04343",
+    "ingre07351"
+  ],
+  "ingredient_names_vi": [
+    "Xúc xích",
+    "Tương ớt chua ngọt",
+    "Ớt bột",
+    "Hành tím",
+    "Tỏi",
+    "Màu dầu điều",
+    "Dầu ăn",
+    "Ngò rí",
+    "Xà lách"
+  ],
+  "ingredient_names_en": [
+    "Sausage",
+    "Sweet and Sour Chili Sauce",
+    "Chili powder",
+    "Shallot",
+    "Garlic",
+    "Peanut oil color",
+    "Cooking oil",
+    "Parsley",
+    "Lettuce"
+  ],
+  "ingredient_names_normalized": [
+    "xuc xich",
+    "tuong ot chua ngot",
+    "ot bot",
+    "hanh tim",
+    "toi",
+    "mau dau dieu",
+    "dau an",
+    "ngo ri",
+    "xa lach"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

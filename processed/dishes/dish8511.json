@@ -1,0 +1,62 @@
+{
+  "id": "dish8511",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8511.json",
+  "name_vi": "Hạt nêm từ thịt gà",
+  "name_en": "",
+  "name_normalized": "hat nem tu thit ga",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Thịt ức gà"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre05900"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Sả"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "sa"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

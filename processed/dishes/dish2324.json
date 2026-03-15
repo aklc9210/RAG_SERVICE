@@ -1,0 +1,97 @@
+{
+  "id": "dish2324",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2324.json",
+  "name_vi": "Bánh xếp nhân gà",
+  "name_en": "",
+  "name_normalized": "banh xep nhan ga",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt gà",
+    "Vỏ hoành thánh",
+    "Bí ngòi"
+  ],
+  "secondary_ingredients": [
+    "Sữa nguyên kem",
+    "Giấy nến",
+    "Dầu mè",
+    "Hành trắng"
+  ],
+  "seasonings": [
+    "Tinh bột khoai tây",
+    "Tỏi",
+    "Giấm",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre07265",
+    "ingre00237",
+    "ingre06136",
+    "ingre06566",
+    "ingre02387",
+    "ingre02094",
+    "ingre07063",
+    "ingre02740",
+    "ingre02355",
+    "ingre04790",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Vỏ hoành thánh",
+    "Bí ngòi",
+    "Sữa nguyên kem",
+    "Tinh bột khoai tây",
+    "Giấy nến",
+    "Dầu mè",
+    "Tỏi",
+    "Hành trắng",
+    "Giấm",
+    "Nước tương",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Springroll wrapper",
+    "Eggplant",
+    "Whole milk",
+    "Potato starch",
+    "Candle paper",
+    "Sesame oil",
+    "Garlic",
+    "White Onion",
+    "Vinegar",
+    "Soy Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "vo hoanh thanh",
+    "bi ngoi",
+    "sua nguyen kem",
+    "tinh bot khoai tay",
+    "giay nen",
+    "dau me",
+    "toi",
+    "hanh trang",
+    "giam",
+    "nuoc tuong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

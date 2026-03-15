@@ -1,0 +1,27 @@
+{
+  "id": "ingre05370",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05370.json",
+  "name_vi": "rau răm/ thì là",
+  "name_en": "Parsley/Coriander",
+  "name_normalized": "rau ram thi la",
+  "synonyms": [
+    "răm",
+    "là"
+  ],
+  "synonyms_normalized": [
+    "ram",
+    "la"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ram/ thi la",
+      "new": "rau ram thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

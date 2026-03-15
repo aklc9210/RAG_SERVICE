@@ -1,0 +1,113 @@
+{
+  "id": "dish8953",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8953.json",
+  "name_vi": "Pate gan",
+  "name_en": "",
+  "name_normalized": "pate gan",
+  "category": "an vat",
+  "main_ingredients": [
+    "Gan heo",
+    "Thịt heo xay",
+    "Mỡ heo",
+    "Bánh mì sandwich"
+  ],
+  "secondary_ingredients": [
+    "Sữa tươi",
+    "Hành tím",
+    "Bơ lạt",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02242",
+    "ingre06414",
+    "ingre04192",
+    "ingre00117",
+    "ingre06144",
+    "ingre07063",
+    "ingre02768",
+    "ingre00382",
+    "ingre04343",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Gan heo",
+    "Thịt heo xay",
+    "Mỡ heo",
+    "Bánh mì sandwich",
+    "Sữa tươi",
+    "Tỏi",
+    "Hành tím",
+    "Bơ lạt",
+    "Ngò rí",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork liver",
+    "Ground Pork",
+    "Pork fat",
+    "Sandwich bread",
+    "Fresh Milk",
+    "Garlic",
+    "Shallot",
+    "Butter",
+    "Parsley",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "gan heo",
+    "thit heo xay",
+    "mo heo",
+    "banh mi sandwich",
+    "sua tuoi",
+    "toi",
+    "hanh tim",
+    "bo lat",
+    "ngo ri",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

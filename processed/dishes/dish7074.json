@@ -1,0 +1,76 @@
+{
+  "id": "dish7074",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7074.json",
+  "name_vi": "Cá mú sốt me",
+  "name_en": "",
+  "name_normalized": "ca mu sot me",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá mú"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột bắp",
+    "Tỏi",
+    "Nước cốt me",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01568",
+    "ingre00564",
+    "ingre07063",
+    "ingre04581",
+    "ingre07028",
+    "ingre06984",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Cá mú",
+    "Bột bắp",
+    "Tỏi",
+    "Nước cốt me",
+    "Tương ớt",
+    "Tương cà",
+    "Dầu ăn",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Snapper",
+    "Corn starch",
+    "Garlic",
+    "Lime juice",
+    "Hot Sauce",
+    "Miso酱",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca mu",
+    "bot bap",
+    "toi",
+    "nuoc cot me",
+    "tuong ot",
+    "tuong ca",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

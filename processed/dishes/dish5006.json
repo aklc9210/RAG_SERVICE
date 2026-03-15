@@ -1,0 +1,99 @@
+{
+  "id": "dish5006",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5006.json",
+  "name_vi": "Bồn bồn xào tôm thịt",
+  "name_en": "",
+  "name_normalized": "bon bon xao tom thit",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bồn bồn",
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre00502",
+    "ingre06930",
+    "ingre06275",
+    "ingre02768",
+    "ingre02673",
+    "ingre04343",
+    "ingre02080",
+    "ingre02124",
+    "ingre03810"
+  ],
+  "ingredient_names_vi": [
+    "Bồn bồn",
+    "Tôm",
+    "Thịt ba chỉ",
+    "Hành tím",
+    "Hành lá",
+    "Ngò rí",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Basil",
+    "Shrimp",
+    "Pork belly",
+    "Shallot",
+    "Scallion",
+    "Parsley",
+    "Soy sauce",
+    "Cooking oil",
+    "Table Salt/Soy Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bon bon",
+    "tom",
+    "thit ba chi",
+    "hanh tim",
+    "hanh la",
+    "ngo ri",
+    "dau hao",
+    "dau an",
+    "muoi hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ hat nem",
+      "new": "muoi hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ hạt nêm"
+    }
+  ]
+}

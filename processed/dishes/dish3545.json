@@ -1,0 +1,60 @@
+{
+  "id": "dish3545",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3545.json",
+  "name_vi": "Kem chanh dây (chanh leo)",
+  "name_en": "",
+  "name_normalized": "kem chanh day chanh leo",
+  "category": "mon kem",
+  "main_ingredients": [
+    "Kem sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Chanh leo",
+    "Bột gelatin",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03147",
+    "ingre01086",
+    "ingre00652",
+    "ingre06174",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Kem sữa tươi",
+    "Chanh leo",
+    "Bột gelatin",
+    "Sữa đặc",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Sweetened Condensed Milk",
+    "Tamarind",
+    "Gelatin powder",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "kem sua tuoi",
+    "chanh leo",
+    "bot gelatin",
+    "sua dac",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kem chanh day (chanh leo)",
+      "new": "kem chanh day chanh leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

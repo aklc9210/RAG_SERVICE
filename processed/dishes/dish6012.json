@@ -1,0 +1,82 @@
+{
+  "id": "dish6012",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6012.json",
+  "name_vi": "Củ sen kho hạt sen",
+  "name_en": "",
+  "name_normalized": "cu sen kho hat sen",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Củ sen",
+    "Hạt sen"
+  ],
+  "secondary_ingredients": [
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Dầu hào chay",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01916",
+    "ingre03029",
+    "ingre01419",
+    "ingre01079",
+    "ingre02081",
+    "ingre04790",
+    "ingre04672",
+    "ingre02124",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Củ sen",
+    "Hạt sen",
+    "Cà rốt",
+    "Chanh",
+    "Dầu hào chay",
+    "Nước tương",
+    "Nước màu",
+    "Dầu ăn",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Lotus root",
+    "Lotus seed",
+    "Carrot",
+    "Lemon",
+    "Vegetarian soy sauce",
+    "Soy Sauce",
+    "Food coloring",
+    "Cooking oil",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "cu sen",
+    "hat sen",
+    "ca rot",
+    "chanh",
+    "dau hao chay",
+    "nuoc tuong",
+    "nuoc mau",
+    "dau an",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

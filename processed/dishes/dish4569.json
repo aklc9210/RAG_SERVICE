@@ -1,0 +1,88 @@
+{
+  "id": "dish4569",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4569.json",
+  "name_vi": "Đu đủ xào nấm đông cô",
+  "name_en": "",
+  "name_normalized": "du du xao nam dong co",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Đu đu hườm",
+    "Nấm đông cô tươi",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07490",
+    "ingre04971",
+    "ingre05359",
+    "ingre02645",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Đu đu hườm",
+    "Nấm đông cô tươi",
+    "Rau răm",
+    "Hành boa rô",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Bitter gourd",
+    "Fresh enoki mushrooms",
+    "Vietnamese coriander",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "du du huom",
+    "nam dong co tuoi",
+    "rau ram",
+    "hanh boa ro",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

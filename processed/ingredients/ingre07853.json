@@ -1,0 +1,25 @@
+{
+  "id": "ingre07853",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07853.json",
+  "name_vi": "đậu xanh tươi.",
+  "name_en": "Green beans",
+  "name_normalized": "dau xanh tuoi",
+  "synonyms": [
+    "đậu xanh"
+  ],
+  "synonyms_normalized": [
+    "dau xanh"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau xanh tuoi.",
+      "new": "dau xanh tuoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

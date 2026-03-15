@@ -1,0 +1,66 @@
+{
+  "id": "dish9518",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9518.json",
+  "name_vi": "Thơm sấy muối ớt",
+  "name_en": "",
+  "name_normalized": "thom say muoi ot",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thơm/dứa"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Muối tôm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06254",
+    "ingre07966",
+    "ingre03786",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thơm/dứa",
+    "Ớt",
+    "Muối tôm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Pepper",
+    "Shrimp salt",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thom dua",
+    "ot",
+    "muoi tom",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thom/dua",
+      "new": "thom dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thơm/dứa"
+    }
+  ]
+}

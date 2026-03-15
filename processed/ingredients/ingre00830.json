@@ -1,0 +1,29 @@
+{
+  "id": "ingre00830",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00830.json",
+  "name_vi": "bột ngọt/ tiêu xay/ bột nêm",
+  "name_en": "Monosodium Glutamate/ Ground Pepper/ Seasoning Powder",
+  "name_normalized": "bot ngot tieu xay bot nem",
+  "synonyms": [
+    "mì chính",
+    "bột vị",
+    "bột nêm gia vị"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot vi",
+    "bot nem gia vi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot ngot/ tieu xay/ bot nem",
+      "new": "bot ngot tieu xay bot nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

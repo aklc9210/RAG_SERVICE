@@ -1,0 +1,109 @@
+{
+  "id": "dish7802",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7802.json",
+  "name_vi": "Lẩu cá tầm măng chua",
+  "name_en": "",
+  "name_normalized": "lau ca tam mang chua",
+  "category": "mon lau",
+  "main_ingredients": [
+    "Cá tầm",
+    "Măng chua",
+    "Me chua"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Hành lá",
+    "Ngò gai/ rau ngổ/ ngò rí",
+    "Bún tươi"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Giấm ăn",
+    "Nước mắm",
+    "Đường/ Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01646",
+    "ingre04072",
+    "ingre03644",
+    "ingre01354",
+    "ingre07966",
+    "ingre02673",
+    "ingre04336",
+    "ingre00357",
+    "ingre02377",
+    "ingre04694",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Cá tầm",
+    "Măng chua",
+    "Me chua",
+    "Cà chua",
+    "Ớt",
+    "Hành lá",
+    "Ngò gai/ rau ngổ/ ngò rí",
+    "Bún tươi",
+    "Giấm ăn",
+    "Nước mắm",
+    "Đường/ Muối"
+  ],
+  "ingredient_names_en": [
+    "Sturgeon",
+    "Pickled bamboo shoots",
+    "Mint",
+    "Tomato",
+    "Pepper",
+    "Scallion",
+    "Cilantro",
+    "Fresh noodle",
+    "vinegar",
+    "Fish Sauce",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca tam",
+    "mang chua",
+    "me chua",
+    "ca chua",
+    "ot",
+    "hanh la",
+    "ngo gai rau ngo ngo ri",
+    "bun tuoi",
+    "giam an",
+    "nuoc mam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ngo gai/ rau ngo/ ngo ri",
+      "new": "ngo gai rau ngo ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Ngò gai/ rau ngổ/ ngò rí"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ Muối"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dish3146",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3146.json",
+  "name_vi": "Chả cua Huế",
+  "name_en": "",
+  "name_normalized": "cha cua hue",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Thịt nạc đùi heo",
+    "Mỡ heo",
+    "Thịt cua",
+    "Đầu hành lá"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước đá viên",
+    "Màu gạch cua"
+  ],
+  "seasonings": [
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Hạt tiêu đen",
+    "Bột khoai tây",
+    "Bột nở",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06480",
+    "ingre04192",
+    "ingre06349",
+    "ingre07717",
+    "ingre02768",
+    "ingre04856",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre03050",
+    "ingre00713",
+    "ingre00867",
+    "ingre02124",
+    "ingre03852"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc đùi heo",
+    "Mỡ heo",
+    "Thịt cua",
+    "Đầu hành lá",
+    "Hành tím",
+    "Nước đá viên",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Hạt tiêu đen",
+    "Bột khoai tây",
+    "Bột nở",
+    "Dầu ăn",
+    "Màu gạch cua"
+  ],
+  "ingredient_names_en": [
+    "Pork Belly",
+    "Pork fat",
+    "Shrimp肉",
+    "Chive;top",
+    "Shallot",
+    "Ice cube",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Black Pepper",
+    "Potato starch",
+    "Baking powder",
+    "Cooking oil",
+    "Crayfish color"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac dui heo",
+    "mo heo",
+    "thit cua",
+    "dau hanh la",
+    "hanh tim",
+    "nuoc da vien",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "hat tieu den",
+    "bot khoai tay",
+    "bot no",
+    "dau an",
+    "mau gach cua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

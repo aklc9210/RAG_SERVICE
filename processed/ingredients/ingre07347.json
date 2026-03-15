@@ -1,0 +1,25 @@
+{
+  "id": "ingre07347",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07347.json",
+  "name_vi": "xoài:",
+  "name_en": "Mango",
+  "name_normalized": "xoai",
+  "synonyms": [
+    "dứa"
+  ],
+  "synonyms_normalized": [
+    "dua"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xoai:",
+      "new": "xoai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

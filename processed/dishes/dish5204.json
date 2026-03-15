@@ -1,0 +1,83 @@
+{
+  "id": "dish5204",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5204.json",
+  "name_vi": "Mít xào nấm đùi gà chay",
+  "name_en": "",
+  "name_normalized": "mit xao nam dui ga chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mít thái",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau cần tàu"
+  ],
+  "seasonings": [
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu hào chay",
+    "Nước tương",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04037",
+    "ingre04974",
+    "ingre02768",
+    "ingre05241",
+    "ingre02997",
+    "ingre07583",
+    "ingre02081",
+    "ingre04790",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mít thái",
+    "Nấm đùi gà",
+    "Hành tím",
+    "Rau cần tàu",
+    "Hạt nêm chay",
+    "Đường",
+    "Dầu hào chay",
+    "Nước tương",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pineapple",
+    "Chicken mushroom",
+    "Shallot",
+    "Watercress",
+    "Vegetarian Seasoning",
+    "Sugar",
+    "Vegetarian soy sauce",
+    "Soy Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mit thai",
+    "nam dui ga",
+    "hanh tim",
+    "rau can tau",
+    "hat nem chay",
+    "duong",
+    "dau hao chay",
+    "nuoc tuong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

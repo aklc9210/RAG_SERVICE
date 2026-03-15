@@ -1,0 +1,29 @@
+{
+  "id": "ingre07672",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07672.json",
+  "name_vi": "đường-hạt nêm-tiêu-bột ngọt",
+  "name_en": "Soy Sauce-Sugar-Black Pepper-Soybean Sauce",
+  "name_normalized": "duong hat nem tieu bot ngot",
+  "synonyms": [
+    "mì chính",
+    "bột nêm",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot nem",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong-hat nem-tieu-bot ngot",
+      "new": "duong hat nem tieu bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "dish1663",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1663.json",
+  "name_vi": "Bánh mì Ciabatta",
+  "name_en": "",
+  "name_normalized": "banh mi ciabatta",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant",
+    "Dầu oliu",
+    "Nước ấm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột mì",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00759",
+    "ingre03687",
+    "ingre02104",
+    "ingre03746",
+    "ingre04879"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột mì",
+    "Men nở instant",
+    "Dầu oliu",
+    "Muối",
+    "Nước ấm"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Wheat Flour",
+    "Instant Yeast",
+    "Olive oil",
+    "Salt",
+    "Warm water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot mi",
+    "men no instant",
+    "dau oliu",
+    "muoi",
+    "nuoc am"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

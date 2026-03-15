@@ -1,0 +1,109 @@
+{
+  "id": "dish0066",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0066.json",
+  "name_vi": "Canh chua tép cà chua thơm",
+  "name_en": "",
+  "name_normalized": "canh chua tep ca chua thom",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tép",
+    "Giá",
+    "Đậu bắp"
+  ],
+  "secondary_ingredients": [
+    "Cà chua",
+    "Thơm",
+    "Hành tím",
+    "Ngò gai",
+    "Me"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt tươi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06915",
+    "ingre02329",
+    "ingre07729",
+    "ingre01354",
+    "ingre06247",
+    "ingre02768",
+    "ingre07063",
+    "ingre08078",
+    "ingre04329",
+    "ingre03643",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tép",
+    "Giá",
+    "Đậu bắp",
+    "Cà chua",
+    "Thơm",
+    "Hành tím",
+    "Tỏi",
+    "Ớt tươi",
+    "Ngò gai",
+    "Me",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Mint",
+    "Green beans",
+    "Tomato",
+    "Basil",
+    "Shallot",
+    "Garlic",
+    "Fresh chili",
+    "Culantro",
+    "Tamarind",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tep",
+    "gia",
+    "dau bap",
+    "ca chua",
+    "thom",
+    "hanh tim",
+    "toi",
+    "ot tuoi",
+    "ngo gai",
+    "me",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

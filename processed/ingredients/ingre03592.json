@@ -1,0 +1,27 @@
+{
+  "id": "ingre03592",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03592.json",
+  "name_vi": "lòng đỏ trứng muối nghiền nhuyễn (hơn 1 quả)",
+  "name_en": "Salted egg yolk paste (from more than 1 egg)",
+  "name_normalized": "long do trung muoi nghien nhuyen hon 1 qua",
+  "synonyms": [
+    "kem trứng muối",
+    "kem trứng muối nghiền"
+  ],
+  "synonyms_normalized": [
+    "kem trung muoi",
+    "kem trung muoi nghien"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "long do trung muoi nghien nhuyen (hon 1 qua)",
+      "new": "long do trung muoi nghien nhuyen hon 1 qua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

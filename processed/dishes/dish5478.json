@@ -1,0 +1,121 @@
+{
+  "id": "dish5478",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5478.json",
+  "name_vi": "Mì tương đen rau củ",
+  "name_en": "",
+  "name_normalized": "mi tuong den rau cu",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì udon khô",
+    "Nấm đông cô khô",
+    "Nấm mỡ",
+    "Bắp cải"
+  ],
+  "secondary_ingredients": [
+    "Bí ngòi",
+    "Dưa leo",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Tương đậu đen",
+    "Dầu hào chay",
+    "Bột bắp",
+    "Đường/Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04012",
+    "ingre04969",
+    "ingre04945",
+    "ingre00457",
+    "ingre00237",
+    "ingre02020",
+    "ingre02741",
+    "ingre02673",
+    "ingre02485",
+    "ingre07063",
+    "ingre07023",
+    "ingre02081",
+    "ingre00564",
+    "ingre07691",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì udon khô",
+    "Nấm đông cô khô",
+    "Nấm mỡ",
+    "Bắp cải",
+    "Bí ngòi",
+    "Dưa leo",
+    "Hành tây",
+    "Hành lá",
+    "Gừng",
+    "Tỏi",
+    "Tương đậu đen",
+    "Dầu hào chay",
+    "Bột bắp",
+    "Đường/Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Dry Udon Noodles",
+    "Dried shiitake mushrooms",
+    "Fried mushroom",
+    "Cabbage",
+    "Eggplant",
+    "Cucumber",
+    "Onion",
+    "Scallion",
+    "Ginger",
+    "Garlic",
+    "Black soybean sauce",
+    "Vegetarian soy sauce",
+    "Corn starch",
+    "Sugar/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi udon kho",
+    "nam dong co kho",
+    "nam mo",
+    "bap cai",
+    "bi ngoi",
+    "dua leo",
+    "hanh tay",
+    "hanh la",
+    "gung",
+    "toi",
+    "tuong dau den",
+    "dau hao chay",
+    "bot bap",
+    "duong tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/tieu",
+      "new": "duong tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/Tiêu"
+    }
+  ]
+}

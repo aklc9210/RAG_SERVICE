@@ -1,0 +1,25 @@
+{
+  "id": "ingre03291",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03291.json",
+  "name_vi": "kiwi xanh:",
+  "name_en": "Green kiwi",
+  "name_normalized": "kiwi xanh",
+  "synonyms": [
+    "ổi xanh"
+  ],
+  "synonyms_normalized": [
+    "oi xanh"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kiwi xanh:",
+      "new": "kiwi xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

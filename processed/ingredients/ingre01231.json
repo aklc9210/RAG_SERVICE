@@ -1,0 +1,29 @@
+{
+  "id": "ingre01231",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01231.json",
+  "name_vi": "chân giò",
+  "name_en": "Pork hock",
+  "name_normalized": "chan gio",
+  "synonyms": [
+    "thịt ba chỉ",
+    "thịt đùi sau"
+  ],
+  "synonyms_normalized": [
+    "thit ba chi",
+    "thit dui sau"
+  ],
+  "category": "fresh_meat",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Pork belly",
+      "new": "Pork hock",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish8034",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8034.json",
+  "name_vi": "Gỏi mít non chay",
+  "name_en": "",
+  "name_normalized": "goi mit non chay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Mít non",
+    "Đậu phộng rang",
+    "Rau thơm"
+  ],
+  "secondary_ingredients": [
+    "Rau xà lách",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Ớt",
+    "Chanh",
+    "Đường",
+    "Hạt nêm chay",
+    "Nước mắm chay"
+  ],
+  "ingredient_ids": [
+    "ingre04035",
+    "ingre07791",
+    "ingre05385",
+    "ingre05410",
+    "ingre07071",
+    "ingre07966",
+    "ingre02768",
+    "ingre01079",
+    "ingre07583",
+    "ingre02997",
+    "ingre04697"
+  ],
+  "ingredient_names_vi": [
+    "Mít non",
+    "Đậu phộng rang",
+    "Rau thơm",
+    "Rau xà lách",
+    "Tỏi băm",
+    "Ớt",
+    "Hành tím",
+    "Chanh",
+    "Đường",
+    "Hạt nêm chay",
+    "Nước mắm chay"
+  ],
+  "ingredient_names_en": [
+    "Young banana blossom",
+    "Roasted Peanut",
+    "Basil",
+    "lettuce",
+    "Minced Garlic",
+    "Pepper",
+    "Shallot",
+    "Lemon",
+    "Sugar",
+    "Vegetarian Seasoning",
+    "Vegetarian fish sauce"
+  ],
+  "ingredient_names_normalized": [
+    "mit non",
+    "dau phong rang",
+    "rau thom",
+    "rau xa lach",
+    "toi bam",
+    "ot",
+    "hanh tim",
+    "chanh",
+    "duong",
+    "hat nem chay",
+    "nuoc mam chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

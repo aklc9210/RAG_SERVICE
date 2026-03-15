@@ -1,0 +1,98 @@
+{
+  "id": "dish6395",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6395.json",
+  "name_vi": "Chuột chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "chuot chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Mỡ heo",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Chuột đồng",
+    "Ớt",
+    "Tỏi",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt",
+    "Tương ớt",
+    "Bột ngũ vị hương"
+  ],
+  "ingredient_ids": [
+    "ingre01201",
+    "ingre07966",
+    "ingre02768",
+    "ingre07063",
+    "ingre04192",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre00819",
+    "ingre07028",
+    "ingre00815",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Chuột đồng",
+    "Ớt",
+    "Hành tím",
+    "Tỏi",
+    "Mỡ heo",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt",
+    "Tương ớt",
+    "Bột ngũ vị hương",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Rat",
+    "Pepper",
+    "Shallot",
+    "Garlic",
+    "Pork fat",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "MSG",
+    "Hot Sauce",
+    "Five-Spice Powder",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "chuot dong",
+    "ot",
+    "hanh tim",
+    "toi",
+    "mo heo",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "bot ngot",
+    "tuong ot",
+    "bot ngu vi huong",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

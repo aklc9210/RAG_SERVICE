@@ -1,0 +1,76 @@
+{
+  "id": "dish6132",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6132.json",
+  "name_vi": "Ếch kho tộ",
+  "name_en": "",
+  "name_normalized": "ech kho to",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Ếch"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành lá",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre02768",
+    "ingre07966",
+    "ingre07063",
+    "ingre02673",
+    "ingre04672"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Hành tím",
+    "Ớt",
+    "Tỏi",
+    "Hành lá",
+    "Nước màu"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Shallot",
+    "Pepper",
+    "Garlic",
+    "Scallion",
+    "Food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "hanh tim",
+    "ot",
+    "toi",
+    "hanh la",
+    "nuoc mau"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

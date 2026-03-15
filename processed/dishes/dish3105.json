@@ -1,0 +1,97 @@
+{
+  "id": "dish3105",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3105.json",
+  "name_vi": "Bánh canh cá bã trầu",
+  "name_en": "",
+  "name_normalized": "banh canh ca ba trau",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá bã trầu",
+    "Củ nén",
+    "Chả quết"
+  ],
+  "secondary_ingredients": [
+    "Bánh canh",
+    "Hành tây",
+    "Dầu phộng nấu với dầu gấc",
+    "Hành lá/ ngò rí",
+    "Nước hầm xương cô đặc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Muối",
+    "Bột nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01465",
+    "ingre01908",
+    "ingre01304",
+    "ingre00071",
+    "ingre02741",
+    "ingre02109",
+    "ingre02702",
+    "ingre04694",
+    "ingre03746",
+    "ingre00838",
+    "ingre06644",
+    "ingre04648"
+  ],
+  "ingredient_names_vi": [
+    "Cá bã trầu",
+    "Củ nén",
+    "Chả quết",
+    "Bánh canh",
+    "Hành tây",
+    "Dầu phộng nấu với dầu gấc",
+    "Hành lá/ ngò rí",
+    "Nước mắm",
+    "Muối",
+    "Bột nêm",
+    "Tiêu xay",
+    "Nước hầm xương cô đặc"
+  ],
+  "ingredient_names_en": [
+    "Betel nut seed",
+    "Celery",
+    "Grilled pork sausage",
+    "Snail Soup",
+    "Onion",
+    "Peanut oil cooked with annatto oil",
+    "Chives",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning Powder",
+    "Ground pepper",
+    "Concentrated Bone Broth"
+  ],
+  "ingredient_names_normalized": [
+    "ca ba trau",
+    "cu nen",
+    "cha quet",
+    "banh canh",
+    "hanh tay",
+    "dau phong nau voi dau gac",
+    "hanh la ngo ri",
+    "nuoc mam",
+    "muoi",
+    "bot nem",
+    "tieu xay",
+    "nuoc ham xuong co dac"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

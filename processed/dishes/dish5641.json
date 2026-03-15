@@ -1,0 +1,77 @@
+{
+  "id": "dish5641",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5641.json",
+  "name_vi": "Cà ri vịt",
+  "name_en": "",
+  "name_normalized": "ca ri vit",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Vịt xiêm",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Bột cà ri",
+    "Ớt",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre07219",
+    "ingre03222",
+    "ingre01419",
+    "ingre02741",
+    "ingre00631",
+    "ingre05900",
+    "ingre07966",
+    "ingre04554"
+  ],
+  "ingredient_names_vi": [
+    "Vịt xiêm",
+    "Khoai tây",
+    "Cà rốt",
+    "Hành tây",
+    "Bột cà ri",
+    "Sả",
+    "Ớt",
+    "Nước cốt dừa"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Potato",
+    "Carrot",
+    "Onion",
+    "Curry powder",
+    "Lemongrass",
+    "Pepper",
+    "Coconut milk"
+  ],
+  "ingredient_names_normalized": [
+    "vit xiem",
+    "khoai tay",
+    "ca rot",
+    "hanh tay",
+    "bot ca ri",
+    "sa",
+    "ot",
+    "nuoc cot dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

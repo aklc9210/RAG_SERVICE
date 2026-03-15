@@ -1,0 +1,110 @@
+{
+  "id": "dish3335",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3335.json",
+  "name_vi": "Bắp bò hầm đậu gà (Công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "bap bo ham dau ga cong thuc duoc chia se tu nguoi dung",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Bắp bò",
+    "Đậu phộng"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Hành tím",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Rượu vang đỏ",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước tương",
+    "Tương ớt",
+    "Đường vàng",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre07781",
+    "ingre01419",
+    "ingre03222",
+    "ingre05592",
+    "ingre02768",
+    "ingre02741",
+    "ingre02995",
+    "ingre02124",
+    "ingre04790",
+    "ingre07028",
+    "ingre07661",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Đậu phộng",
+    "Cà rốt",
+    "Khoai tây",
+    "Rượu vang đỏ",
+    "Hành tím",
+    "Hành tây",
+    "Hạt nêm",
+    "Dầu ăn",
+    "Nước tương",
+    "Tương ớt",
+    "Đường vàng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Peanut",
+    "Carrot",
+    "Potato",
+    "Red wine",
+    "Shallot",
+    "Onion",
+    "Seasoning",
+    "Cooking oil",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Yellow Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "dau phong",
+    "ca rot",
+    "khoai tay",
+    "ruou vang do",
+    "hanh tim",
+    "hanh tay",
+    "hat nem",
+    "dau an",
+    "nuoc tuong",
+    "tuong ot",
+    "duong vang",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bap bo ham dau ga (cong thuc duoc chia se tu nguoi dung)",
+      "new": "bap bo ham dau ga cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dish4088",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4088.json",
+  "name_vi": "Chân giò nướng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "chan gio nuong noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt chân giò",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Lá nguyệt quế khô"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06342",
+    "ingre02768",
+    "ingre07063",
+    "ingre03484",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt chân giò",
+    "Hành tím",
+    "Tỏi",
+    "Lá nguyệt quế khô",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork trotter",
+    "Shallot",
+    "Garlic",
+    "Dried Laurel Leaves",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit chan gio",
+    "hanh tim",
+    "toi",
+    "la nguyet que kho",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

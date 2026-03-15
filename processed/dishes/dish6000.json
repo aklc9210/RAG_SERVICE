@@ -1,0 +1,111 @@
+{
+  "id": "dish6000",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6000.json",
+  "name_vi": "Khô cá chét chưng thịt ba rọi",
+  "name_en": "",
+  "name_normalized": "kho ca chet chung thit ba roi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Khô cá chét",
+    "Thịt ba rọi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành tây",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Gừng",
+    "Hành phi",
+    "Tỏi phi",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03244",
+    "ingre06289",
+    "ingre07966",
+    "ingre02485",
+    "ingre02768",
+    "ingre02741",
+    "ingre02673",
+    "ingre02730",
+    "ingre07096",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá chét",
+    "Thịt ba rọi",
+    "Ớt",
+    "Gừng",
+    "Hành tím",
+    "Hành tây",
+    "Hành lá",
+    "Hành phi",
+    "Tỏi phi",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dried anchovy",
+    "Pork belly",
+    "Pepper",
+    "Ginger",
+    "Shallot",
+    "Onion",
+    "Scallion",
+    "Garlic Fried",
+    "Garlic flakes",
+    "Sugar",
+    "MSG",
+    "Ground pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca chet",
+    "thit ba roi",
+    "ot",
+    "gung",
+    "hanh tim",
+    "hanh tay",
+    "hanh la",
+    "hanh phi",
+    "toi phi",
+    "duong",
+    "bot ngot",
+    "tieu xay",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

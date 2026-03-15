@@ -1,0 +1,29 @@
+{
+  "id": "ingre01404",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01404.json",
+  "name_vi": "cà phê nguyên hạt :",
+  "name_en": "Whole coffee beans ->",
+  "name_normalized": "ca phe nguyen hat",
+  "synonyms": [
+    "bột cà phê",
+    "cà phê xay"
+  ],
+  "synonyms_normalized": [
+    "bot ca phe",
+    "ca phe xay"
+  ],
+  "category": "beverages",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca phe nguyen hat :",
+      "new": "ca phe nguyen hat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre03832",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03832.json",
+  "name_vi": "muối: 1/2 muỗng cà phê",
+  "name_en": "Salt: 1/2 teaspoon",
+  "name_normalized": "muoi 1 2 muong ca phe",
+  "synonyms": [
+    "đường muối",
+    "mặn",
+    "hạt muối"
+  ],
+  "synonyms_normalized": [
+    "duong muoi",
+    "man",
+    "hat muoi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi: 1/2 muong ca phe",
+      "new": "muoi 1 2 muong ca phe",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

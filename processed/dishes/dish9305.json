@@ -1,0 +1,45 @@
+{
+  "id": "dish9305",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9305.json",
+  "name_vi": "Cách luộc đậu phộng (lạc)",
+  "name_en": "",
+  "name_normalized": "cach luoc dau phong lac",
+  "category": "an vat",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cach luoc dau phong (lac)",
+      "new": "cach luoc dau phong lac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

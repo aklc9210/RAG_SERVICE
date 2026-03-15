@@ -1,0 +1,100 @@
+{
+  "id": "dish3270",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3270.json",
+  "name_vi": "Bún cá mòi",
+  "name_en": "",
+  "name_normalized": "bun ca moi",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá mòi",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Thơm"
+  ],
+  "seasonings": [
+    "Nước dùng",
+    "Gừng",
+    "Đường phèn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01562",
+    "ingre01354",
+    "ingre04602",
+    "ingre05900",
+    "ingre02485",
+    "ingre02741",
+    "ingre06247",
+    "ingre07635",
+    "ingre02124",
+    "ingre04694",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Cá mòi",
+    "Cà chua",
+    "Nước dùng",
+    "Sả",
+    "Gừng",
+    "Hành tây",
+    "Thơm",
+    "Đường phèn",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Shrimp paste",
+    "Tomato",
+    "Chicken Stock",
+    "Lemongrass",
+    "Ginger",
+    "Onion",
+    "Basil",
+    "Brown Sugar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ca moi",
+    "ca chua",
+    "nuoc dung",
+    "sa",
+    "gung",
+    "hanh tay",
+    "thom",
+    "duong phen",
+    "dau an",
+    "nuoc mam",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột ngọt"
+    }
+  ]
+}

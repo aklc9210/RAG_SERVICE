@@ -1,0 +1,111 @@
+{
+  "id": "dish8725",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8725.json",
+  "name_vi": "Bánh tráng cuốn trứng lòng đào",
+  "name_en": "",
+  "name_normalized": "banh trang cuon trung long dao",
+  "category": "an vat",
+  "main_ingredients": [
+    "Trứng cút",
+    "Hành tím",
+    "Cóc lớn"
+  ],
+  "secondary_ingredients": [
+    "Khô bò sợi",
+    "Đậu phộng rang",
+    "Rau răm",
+    "Me chua"
+  ],
+  "seasonings": [
+    "Muối tôm",
+    "Tương ớt",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Giấm ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06816",
+    "ingre02768",
+    "ingre01710",
+    "ingre03240",
+    "ingre07791",
+    "ingre05359",
+    "ingre03644",
+    "ingre03786",
+    "ingre07028",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre02377"
+  ],
+  "ingredient_names_vi": [
+    "Trứng cút",
+    "Hành tím",
+    "Cóc lớn",
+    "Khô bò sợi",
+    "Đậu phộng rang",
+    "Rau răm",
+    "Me chua",
+    "Muối tôm",
+    "Tương ớt",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Giấm ăn"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Shallot",
+    "Large frog",
+    "Beef丝干制品",
+    "Roasted Peanut",
+    "Vietnamese coriander",
+    "Mint",
+    "Shrimp salt",
+    "Hot Sauce",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "vinegar"
+  ],
+  "ingredient_names_normalized": [
+    "trung cut",
+    "hanh tim",
+    "coc lon",
+    "kho bo soi",
+    "dau phong rang",
+    "rau ram",
+    "me chua",
+    "muoi tom",
+    "tuong ot",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "giam an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

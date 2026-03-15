@@ -1,0 +1,92 @@
+{
+  "id": "dish4553",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4553.json",
+  "name_vi": "Mì udon xào trứng cà chua",
+  "name_en": "",
+  "name_normalized": "mi udon xao trung ca chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Mì udon",
+    "Tôm",
+    "Cà chua chín"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Nước lọc",
+    "Ngò tây"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Sốt cà chua",
+    "Ớt bột",
+    "Muối/ Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04011",
+    "ingre06930",
+    "ingre01357",
+    "ingre06823",
+    "ingre05947",
+    "ingre02645",
+    "ingre04665",
+    "ingre04351",
+    "ingre07977",
+    "ingre03814",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì udon",
+    "Tôm",
+    "Cà chua chín",
+    "Trứng gà",
+    "Sốt cà chua",
+    "Hành boa rô",
+    "Nước lọc",
+    "Ngò tây",
+    "Ớt bột",
+    "Muối/ Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Udon noodles",
+    "Shrimp",
+    "Ripe Tomato",
+    "Chicken egg",
+    "Tomato sauce",
+    "Garlic",
+    "Tap water",
+    "Chives",
+    "Chili powder",
+    "Salt/Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi udon",
+    "tom",
+    "ca chua chin",
+    "trung ga",
+    "sot ca chua",
+    "hanh boa ro",
+    "nuoc loc",
+    "ngo tay",
+    "ot bot",
+    "muoi tieu",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu"
+    }
+  ]
+}

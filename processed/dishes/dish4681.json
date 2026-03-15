@@ -1,0 +1,92 @@
+{
+  "id": "dish4681",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4681.json",
+  "name_vi": "Bao tử heo xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "bao tu heo xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bao tử heo",
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Me chín",
+    "Hành tây",
+    "Sả",
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Tương cà",
+    "Giấm",
+    "Muối",
+    "Hạt nêm",
+    "Đường trắng"
+  ],
+  "ingredient_ids": [
+    "ingre00025",
+    "ingre06247",
+    "ingre06984",
+    "ingre03647",
+    "ingre02741",
+    "ingre05900",
+    "ingre01354",
+    "ingre02355",
+    "ingre03746",
+    "ingre02995",
+    "ingre07652"
+  ],
+  "ingredient_names_vi": [
+    "Bao tử heo",
+    "Thơm",
+    "Tương cà",
+    "Me chín",
+    "Hành tây",
+    "Sả",
+    "Cà chua",
+    "Giấm",
+    "Muối",
+    "Hạt nêm",
+    "Đường trắng"
+  ],
+  "ingredient_names_en": [
+    "Pork stomach",
+    "Basil",
+    "Miso酱",
+    "Ripe mango",
+    "Onion",
+    "Lemongrass",
+    "Tomato",
+    "Vinegar",
+    "Salt",
+    "Seasoning",
+    "White sugar"
+  ],
+  "ingredient_names_normalized": [
+    "bao tu heo",
+    "thom",
+    "tuong ca",
+    "me chin",
+    "hanh tay",
+    "sa",
+    "ca chua",
+    "giam",
+    "muoi",
+    "hat nem",
+    "duong trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

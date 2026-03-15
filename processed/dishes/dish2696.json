@@ -1,0 +1,92 @@
+{
+  "id": "dish2696",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2696.json",
+  "name_vi": "Bánh quy lá dứa nhân dừa truyền thống",
+  "name_en": "",
+  "name_normalized": "banh quy la dua nhan dua truyen thong",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu phộng",
+    "Dừa tươi nạo vụn"
+  ],
+  "secondary_ingredients": [
+    "Mè",
+    "Nước lá dứa"
+  ],
+  "seasonings": [
+    "Đường thốt nốt",
+    "Nước cốt dừa",
+    "Bột bánh dẻo",
+    "Bột nếp",
+    "Bột tàn mì",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre07781",
+    "ingre02204",
+    "ingre07647",
+    "ingre04554",
+    "ingre03925",
+    "ingre00532",
+    "ingre00859",
+    "ingre00970",
+    "ingre04660",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Đậu phộng",
+    "Dừa tươi nạo vụn",
+    "Đường thốt nốt",
+    "Nước cốt dừa",
+    "Mè",
+    "Bột bánh dẻo",
+    "Bột nếp",
+    "Bột tàn mì",
+    "Nước lá dứa",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Coconut shredded",
+    "Cane Sugar",
+    "Coconut milk",
+    "Tamarind",
+    "Sweet Rice Flour",
+    "Glutinous rice flour",
+    "Baking Soda",
+    "Pineapple leaf juice",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "dau phong",
+    "dua tuoi nao vun",
+    "duong thot not",
+    "nuoc cot dua",
+    "me",
+    "bot banh deo",
+    "bot nep",
+    "bot tan mi",
+    "nuoc la dua",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "dish10638",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10638.json",
+  "name_vi": "Mì trộn trứng muối",
+  "name_en": "",
+  "name_normalized": "mi tron trung muoi",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Mì gói"
+  ],
+  "secondary_ingredients": [
+    "Xúc xích",
+    "Sữa tươi",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Lòng đỏ trứng muối",
+    "Trứng gà",
+    "Cải ngọt",
+    "Bột ớt",
+    "Tỏi băm",
+    "Gừng",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre03963",
+    "ingre03587",
+    "ingre06823",
+    "ingre07396",
+    "ingre01787",
+    "ingre06144",
+    "ingre02673",
+    "ingre01015",
+    "ingre07071",
+    "ingre02485",
+    "ingre03818",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Mì gói",
+    "Lòng đỏ trứng muối",
+    "Trứng gà",
+    "Xúc xích",
+    "Cải ngọt",
+    "Sữa tươi",
+    "Hành lá",
+    "Bột ớt",
+    "Tỏi băm",
+    "Gừng",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Noodles",
+    "Salted Egg Yolk",
+    "Chicken egg",
+    "Sausage",
+    "Sweet cabbage",
+    "Fresh Milk",
+    "Scallion",
+    "Red Pepper Powder",
+    "Minced Garlic",
+    "Ginger",
+    "Salt/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "mi goi",
+    "long do trung muoi",
+    "trung ga",
+    "xuc xich",
+    "cai ngot",
+    "sua tuoi",
+    "hanh la",
+    "bot ot",
+    "toi bam",
+    "gung",
+    "muoi duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

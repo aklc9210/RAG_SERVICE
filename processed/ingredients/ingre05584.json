@@ -1,0 +1,29 @@
+{
+  "id": "ingre05584",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05584.json",
+  "name_vi": "rượu trắng/ rượu nấu ăn",
+  "name_en": "White Wine/Sewing Wine",
+  "name_normalized": "ruou trang ruou nau an",
+  "synonyms": [
+    "rượu nếp",
+    "rượu nấu",
+    "rượu pha"
+  ],
+  "synonyms_normalized": [
+    "ruou nep",
+    "ruou nau",
+    "ruou pha"
+  ],
+  "category": "alcoholic_beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ruou trang/ ruou nau an",
+      "new": "ruou trang ruou nau an",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

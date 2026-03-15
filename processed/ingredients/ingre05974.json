@@ -1,0 +1,31 @@
+{
+  "id": "ingre05974",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05974.json",
+  "name_vi": "sốt mayonnaise:",
+  "name_en": "Mayonnaise",
+  "name_normalized": "sot mayonnaise",
+  "synonyms": [
+    "mayonaise",
+    "mayonnaise",
+    "kem mayonnaise"
+  ],
+  "synonyms_normalized": [
+    "mayonaise",
+    "mayonnaise",
+    "kem mayonnaise"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sot mayonnaise:",
+      "new": "sot mayonnaise",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

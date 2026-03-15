@@ -1,0 +1,101 @@
+{
+  "id": "dish5353",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5353.json",
+  "name_vi": "Nấm mỡ xào thịt bò",
+  "name_en": "",
+  "name_normalized": "nam mo xao thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò phi lê",
+    "Nấm mỡ",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Bông cải trắng",
+    "Hành tây",
+    "Mè trắng rang",
+    "Dầu oliu"
+  ],
+  "seasonings": [
+    "Ớt chuông vàng",
+    "Ớt chuông đỏ",
+    "Hành tím/ tỏi",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06318",
+    "ingre04945",
+    "ingre00282",
+    "ingre00281",
+    "ingre08007",
+    "ingre08014",
+    "ingre02741",
+    "ingre02806",
+    "ingre03936",
+    "ingre02104",
+    "ingre02995",
+    "ingre03746",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò phi lê",
+    "Nấm mỡ",
+    "Bông cải xanh",
+    "Bông cải trắng",
+    "Ớt chuông vàng",
+    "Ớt chuông đỏ",
+    "Hành tây",
+    "Hành tím/ tỏi",
+    "Mè trắng rang",
+    "Dầu oliu",
+    "Hạt nêm",
+    "Muối",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Beef sirloin",
+    "Fried mushroom",
+    "Cabbage",
+    "Yellow Bell Pepper",
+    "Red bell pepper",
+    "Onion",
+    "Garlic/Scallion",
+    "Roasted White Sesame",
+    "Olive oil",
+    "Seasoning",
+    "Salt",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo phi le",
+    "nam mo",
+    "bong cai xanh",
+    "bong cai trang",
+    "ot chuong vang",
+    "ot chuong do",
+    "hanh tay",
+    "hanh tim toi",
+    "me trang rang",
+    "dau oliu",
+    "hat nem",
+    "muoi",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim/ toi",
+      "new": "hanh tim toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím/ tỏi"
+    }
+  ]
+}

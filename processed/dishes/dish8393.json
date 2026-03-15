@@ -1,0 +1,88 @@
+{
+  "id": "dish8393",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8393.json",
+  "name_vi": "Gỏi da bò đu đủ",
+  "name_en": "",
+  "name_normalized": "goi da bo du du",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Da bò",
+    "Đu đủ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Lá húng quế",
+    "Tắc",
+    "Củ cải trắng"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Cà rốt",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01930",
+    "ingre07491",
+    "ingre02768",
+    "ingre02485",
+    "ingre01419",
+    "ingre02741",
+    "ingre07966",
+    "ingre03439",
+    "ingre07057",
+    "ingre01868"
+  ],
+  "ingredient_names_vi": [
+    "Da bò",
+    "Đu đủ",
+    "Hành tím",
+    "Gừng",
+    "Cà rốt",
+    "Hành tây",
+    "Ớt",
+    "Lá húng quế",
+    "Tắc",
+    "Củ cải trắng"
+  ],
+  "ingredient_names_en": [
+    "BeefSkin",
+    "Papaya",
+    "Shallot",
+    "Ginger",
+    "Carrot",
+    "Onion",
+    "Pepper",
+    "Rosemary",
+    "Tamarind",
+    "White radish"
+  ],
+  "ingredient_names_normalized": [
+    "da bo",
+    "du du",
+    "hanh tim",
+    "gung",
+    "ca rot",
+    "hanh tay",
+    "ot",
+    "la hung que",
+    "tac",
+    "cu cai trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

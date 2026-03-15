@@ -1,0 +1,29 @@
+{
+  "id": "ingre02900",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02900.json",
+  "name_vi": "hạnh nhân:",
+  "name_en": "Almond",
+  "name_normalized": "hanh nhan",
+  "synonyms": [
+    "hạnh nhân tươi",
+    "hạnh nhân rang",
+    "hạt hạnh nhân"
+  ],
+  "synonyms_normalized": [
+    "hanh nhan tuoi",
+    "hanh nhan rang",
+    "hat hanh nhan"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh nhan:",
+      "new": "hanh nhan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

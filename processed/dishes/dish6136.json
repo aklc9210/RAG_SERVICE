@@ -1,0 +1,82 @@
+{
+  "id": "dish6136",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6136.json",
+  "name_vi": "Lườn cá hồi kho tiêu",
+  "name_en": "",
+  "name_normalized": "luon ca hoi kho tieu",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Lườn cá hồi",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03598",
+    "ingre02768",
+    "ingre07028",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Lườn cá hồi",
+    "Hành tím",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Salmon rib",
+    "Shallot",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "luon ca hoi",
+    "hanh tim",
+    "tuong ot",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

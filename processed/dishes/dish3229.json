@@ -1,0 +1,121 @@
+{
+  "id": "dish3229",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3229.json",
+  "name_vi": "Bò kho bằng nồi áp suất",
+  "name_en": "",
+  "name_normalized": "bo kho bang noi ap suat",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Dẻ sườn bò",
+    "Gân bò",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Hành tím",
+    "Nước dừa tươi",
+    "Nước bò kho"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Tỏi",
+    "Gừng",
+    "Rượu trắng",
+    "Đường",
+    "Muối",
+    "Bột nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02142",
+    "ingre02415",
+    "ingre05900",
+    "ingre01419",
+    "ingre03222",
+    "ingre02768",
+    "ingre07063",
+    "ingre02485",
+    "ingre04626",
+    "ingre04494",
+    "ingre05574",
+    "ingre07583",
+    "ingre03746",
+    "ingre00838",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Dẻ sườn bò",
+    "Gân bò",
+    "Sả",
+    "Cà rốt",
+    "Khoai tây",
+    "Hành tím",
+    "Tỏi",
+    "Gừng",
+    "Nước dừa tươi",
+    "Nước bò kho",
+    "Rượu trắng",
+    "Đường",
+    "Muối",
+    "Bột nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef rib",
+    "Beef tendon",
+    "Lemongrass",
+    "Carrot",
+    "Potato",
+    "Shallot",
+    "Garlic",
+    "Ginger",
+    "Coconut water",
+    "Beef broth",
+    "White wine",
+    "Sugar",
+    "Salt",
+    "Seasoning Powder",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "de suon bo",
+    "gan bo",
+    "sa",
+    "ca rot",
+    "khoai tay",
+    "hanh tim",
+    "toi",
+    "gung",
+    "nuoc dua tuoi",
+    "nuoc bo kho",
+    "ruou trang",
+    "duong",
+    "muoi",
+    "bot nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

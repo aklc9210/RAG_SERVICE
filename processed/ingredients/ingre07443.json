@@ -1,0 +1,25 @@
+{
+  "id": "ingre07443",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07443.json",
+  "name_vi": "xả/gừng",
+  "name_en": "Lemongrass/Ginger",
+  "name_normalized": "xa gung",
+  "synonyms": [
+    "gừng tươi"
+  ],
+  "synonyms_normalized": [
+    "gung tuoi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa/gung",
+      "new": "xa gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

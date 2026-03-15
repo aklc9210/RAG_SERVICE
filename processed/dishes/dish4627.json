@@ -1,0 +1,71 @@
+{
+  "id": "dish4627",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4627.json",
+  "name_vi": "Thịt ốc bươu xào sả ớt",
+  "name_en": "",
+  "name_normalized": "thit oc buou xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ốc bươu",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Gừng",
+    "Lá chanh",
+    "Bột nghệ"
+  ],
+  "ingredient_ids": [
+    "ingre06540",
+    "ingre05900",
+    "ingre08055",
+    "ingre07063",
+    "ingre02485",
+    "ingre03370",
+    "ingre00804"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ốc bươu",
+    "Sả",
+    "Ớt sừng",
+    "Tỏi",
+    "Gừng",
+    "Lá chanh",
+    "Bột nghệ"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Hot pepper",
+    "Garlic",
+    "Ginger",
+    "Lime leaf",
+    "Turmeric Powder"
+  ],
+  "ingredient_names_normalized": [
+    "thit oc buou",
+    "sa",
+    "ot sung",
+    "toi",
+    "gung",
+    "la chanh",
+    "bot nghe"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

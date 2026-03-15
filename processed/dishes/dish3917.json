@@ -1,0 +1,67 @@
+{
+  "id": "dish3917",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3917.json",
+  "name_vi": "Tôm nướng sa tế bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "tom nuong sa te bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Tôm"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Sa tế",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06930",
+    "ingre05900",
+    "ingre05621",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Tôm",
+    "Sả",
+    "Sa tế",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Lemongrass",
+    "Fish sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "tom",
+    "sa",
+    "sa te",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "dish4976",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4976.json",
+  "name_vi": "Ốc bươu xào cà ri",
+  "name_en": "",
+  "name_normalized": "oc buou xao ca ri",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ốc bươu",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Cà ri dầu",
+    "Cà ri bột",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06540",
+    "ingre05900",
+    "ingre07966",
+    "ingre02774",
+    "ingre07071",
+    "ingre01417",
+    "ingre01416",
+    "ingre04694",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ốc bươu",
+    "Sả",
+    "Ớt",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Cà ri dầu",
+    "Cà ri bột",
+    "Nước mắm",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Pepper",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Curry Oil",
+    "Curry powder",
+    "Fish Sauce",
+    "Salt",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit oc buou",
+    "sa",
+    "ot",
+    "hanh tim bam",
+    "toi bam",
+    "ca ri dau",
+    "ca ri bot",
+    "nuoc mam",
+    "muoi",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

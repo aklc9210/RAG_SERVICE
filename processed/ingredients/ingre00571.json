@@ -1,0 +1,27 @@
+{
+  "id": "ingre00571",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00571.json",
+  "name_vi": "bột bắp/ bột mì",
+  "name_en": "Cornstarch/FLOUR",
+  "name_normalized": "bot bap bot mi",
+  "synonyms": [
+    "bột ngô",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "bot ngo",
+    "bot ngot"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot bap/ bot mi",
+      "new": "bot bap bot mi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

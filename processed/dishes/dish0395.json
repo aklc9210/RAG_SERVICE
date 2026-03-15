@@ -1,0 +1,106 @@
+{
+  "id": "dish0395",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0395.json",
+  "name_vi": "Canh trai nấu rau ngót",
+  "name_en": "",
+  "name_normalized": "canh trai nau rau ngot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Trai",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Rau răm",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Rau ngót",
+    "Bột canh",
+    "Tương hạt",
+    "Dầu ăn",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06682",
+    "ingre05334",
+    "ingre01354",
+    "ingre02673",
+    "ingre05359",
+    "ingre00587",
+    "ingre06993",
+    "ingre02124",
+    "ingre04821",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Trai",
+    "Rau ngót",
+    "Cà chua",
+    "Hành lá",
+    "Rau răm",
+    "Bột canh",
+    "Tương hạt",
+    "Dầu ăn",
+    "Nước vo gạo",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Green pea",
+    "Spinach",
+    "Tomato",
+    "Scallion",
+    "Vietnamese coriander",
+    "Cornstarch",
+    "Sesame paste",
+    "Cooking oil",
+    "Rice washing water",
+    "Salt",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "trai",
+    "rau ngot",
+    "ca chua",
+    "hanh la",
+    "rau ram",
+    "bot canh",
+    "tuong hat",
+    "dau an",
+    "nuoc vo gao",
+    "muoi",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

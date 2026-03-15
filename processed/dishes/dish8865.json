@@ -1,0 +1,87 @@
+{
+  "id": "dish8865",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8865.json",
+  "name_vi": "Chân vịt ngâm sả ớt",
+  "name_en": "",
+  "name_normalized": "chan vit ngam sa ot",
+  "category": "an vat",
+  "main_ingredients": [
+    "Chân vịt",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Quất",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Ớt",
+    "Gừng",
+    "Giấm",
+    "Rượu trắng",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01247",
+    "ingre04694",
+    "ingre05900",
+    "ingre07966",
+    "ingre02485",
+    "ingre02355",
+    "ingre05182",
+    "ingre05574",
+    "ingre07583",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Chân vịt",
+    "Nước mắm",
+    "Sả",
+    "Ớt",
+    "Gừng",
+    "Giấm",
+    "Quất",
+    "Rượu trắng",
+    "Đường",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Pennywort",
+    "Fish Sauce",
+    "Lemongrass",
+    "Pepper",
+    "Ginger",
+    "Vinegar",
+    "Kumquat",
+    "White wine",
+    "Sugar",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "chan vit",
+    "nuoc mam",
+    "sa",
+    "ot",
+    "gung",
+    "giam",
+    "quat",
+    "ruou trang",
+    "duong",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

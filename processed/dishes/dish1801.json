@@ -1,0 +1,82 @@
+{
+  "id": "dish1801",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1801.json",
+  "name_vi": "Hamburger xúc xích",
+  "name_en": "",
+  "name_normalized": "hamburger xuc xich",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Vỏ bánh Hamburger",
+    "Xúc xích xông khói"
+  ],
+  "secondary_ingredients": [
+    "Phô mai Mozzarella bào sợi",
+    "Hành tây chiên"
+  ],
+  "seasonings": [
+    "Mù tạt vàng",
+    "Tương cà",
+    "Tương ớt",
+    "Dưa leo muối chua",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre07229",
+    "ingre07408",
+    "ingre04055",
+    "ingre06984",
+    "ingre07028",
+    "ingre05095",
+    "ingre02025",
+    "ingre02749",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Vỏ bánh Hamburger",
+    "Xúc xích xông khói",
+    "Mù tạt vàng",
+    "Tương cà",
+    "Tương ớt",
+    "Phô mai Mozzarella bào sợi",
+    "Dưa leo muối chua",
+    "Hành tây chiên",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Hamburger bun",
+    "Smoked sausage",
+    "Mustard Yellow",
+    "Miso酱",
+    "Hot Sauce",
+    "Mozzarella cheese shredded",
+    "Pickled cucumber",
+    "Onion fried",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "vo banh hamburger",
+    "xuc xich xong khoi",
+    "mu tat vang",
+    "tuong ca",
+    "tuong ot",
+    "pho mai mozzarella bao soi",
+    "dua leo muoi chua",
+    "hanh tay chien",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

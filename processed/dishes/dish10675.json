@@ -1,0 +1,106 @@
+{
+  "id": "dish10675",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10675.json",
+  "name_vi": "Bánh cuốn tôm chua",
+  "name_en": "",
+  "name_normalized": "banh cuon tom chua",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Bánh phở",
+    "Bánh tráng",
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Thơm",
+    "Chuối xanh",
+    "Xà lách",
+    "Rau thơm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng băm",
+    "Ớt băm",
+    "Sả băm",
+    "Mắm nêm",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00139",
+    "ingre00178",
+    "ingre06275",
+    "ingre01419",
+    "ingre02020",
+    "ingre06247",
+    "ingre01191",
+    "ingre07351",
+    "ingre05385",
+    "ingre02492",
+    "ingre07971",
+    "ingre05905",
+    "ingre04148",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Bánh phở",
+    "Bánh tráng",
+    "Thịt ba chỉ",
+    "Cà rốt",
+    "Dưa leo",
+    "Thơm",
+    "Chuối xanh",
+    "Xà lách",
+    "Rau thơm",
+    "Gừng băm",
+    "Ớt băm",
+    "Sả băm",
+    "Mắm nêm",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Noodle sheet",
+    "Rice Paper",
+    "Pork belly",
+    "Carrot",
+    "Cucumber",
+    "Basil",
+    "Green banana",
+    "Lettuce",
+    "Ginger paste",
+    "Chopped Pepper",
+    "Garlic Paste",
+    "Fish sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh pho",
+    "banh trang",
+    "thit ba chi",
+    "ca rot",
+    "dua leo",
+    "thom",
+    "chuoi xanh",
+    "xa lach",
+    "rau thom",
+    "gung bam",
+    "ot bam",
+    "sa bam",
+    "mam nem",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dish7282",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7282.json",
+  "name_vi": "Rau củ chiên giòn chấm sốt tương hột",
+  "name_en": "",
+  "name_normalized": "rau cu chien gion cham sot tuong hot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà tím",
+    "Bí đỏ",
+    "Nấm linh chi trắng",
+    "Đậu bắp",
+    "Đậu đũa"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tương hột",
+    "Ớt sừng",
+    "Chanh",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm chay",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre00253",
+    "ingre04927",
+    "ingre07729",
+    "ingre07867",
+    "ingre06994",
+    "ingre08055",
+    "ingre01079",
+    "ingre02673",
+    "ingre00598",
+    "ingre02124",
+    "ingre07028",
+    "ingre04697",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Bí đỏ",
+    "Nấm linh chi trắng",
+    "Đậu bắp",
+    "Đậu đũa",
+    "Tương hột",
+    "Ớt sừng",
+    "Chanh",
+    "Hành lá",
+    "Bột chiên giòn",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm chay",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Pumpkin",
+    "Reishi White Mushroom",
+    "Green beans",
+    "Soy sauce",
+    "Hot pepper",
+    "Lemon",
+    "Scallion",
+    "Puffed Rice Powder",
+    "Cooking oil",
+    "Hot Sauce",
+    "Vegetarian fish sauce",
+    "Pepper",
+    "Sugar",
+    "Salt",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "bi do",
+    "nam linh chi trang",
+    "dau bap",
+    "dau dua",
+    "tuong hot",
+    "ot sung",
+    "chanh",
+    "hanh la",
+    "bot chien gion",
+    "dau an",
+    "tuong ot",
+    "nuoc mam chay",
+    "tieu",
+    "duong",
+    "muoi",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

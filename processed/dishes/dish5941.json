@@ -1,0 +1,83 @@
+{
+  "id": "dish5941",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5941.json",
+  "name_vi": "Thịt heo kho chao",
+  "name_en": "",
+  "name_normalized": "thit heo kho chao",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt ba chỉ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Chao"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt hiểm",
+    "Hạt nêm",
+    "Đường cát vàng",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06275",
+    "ingre07063",
+    "ingre02768",
+    "ingre08026",
+    "ingre01106",
+    "ingre02995",
+    "ingre07602",
+    "ingre04694",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba chỉ",
+    "Tỏi",
+    "Hành tím",
+    "Ớt hiểm",
+    "Chao",
+    "Hạt nêm",
+    "Đường cát vàng",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Garlic",
+    "Shallot",
+    "Hot pepper",
+    "Pickled plum",
+    "Seasoning",
+    "Yellow Sand Sugar",
+    "Fish Sauce",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba chi",
+    "toi",
+    "hanh tim",
+    "ot hiem",
+    "chao",
+    "hat nem",
+    "duong cat vang",
+    "nuoc mam",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

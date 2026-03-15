@@ -1,0 +1,98 @@
+{
+  "id": "dish0174",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0174.json",
+  "name_vi": "Canh hàu nấu măng chua",
+  "name_en": "",
+  "name_normalized": "canh hau nau mang chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Măng củ chua",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Củ hành hoa",
+    "Thì là",
+    "Húng quế"
+  ],
+  "seasonings": [
+    "Ruột hàu",
+    "Ớt",
+    "Hành khô",
+    "Nước mắm",
+    "Gừng",
+    "Bột mì",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05501",
+    "ingre04080",
+    "ingre01354",
+    "ingre07966",
+    "ingre02667",
+    "ingre04694",
+    "ingre02485",
+    "ingre01885",
+    "ingre00759",
+    "ingre06233",
+    "ingre02862",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ruột hàu",
+    "Măng củ chua",
+    "Cà chua",
+    "Ớt",
+    "Hành khô",
+    "Nước mắm",
+    "Gừng",
+    "Củ hành hoa",
+    "Bột mì",
+    "Thì là",
+    "Húng quế",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Mussel intestine",
+    "Sour bamboo shoot",
+    "Tomato",
+    "Pepper",
+    "Garlic Powder",
+    "Fish Sauce",
+    "Ginger",
+    "Bulb Chive",
+    "Wheat Flour",
+    "Dill",
+    "Cinnamon basil",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ruot hau",
+    "mang cu chua",
+    "ca chua",
+    "ot",
+    "hanh kho",
+    "nuoc mam",
+    "gung",
+    "cu hanh hoa",
+    "bot mi",
+    "thi la",
+    "hung que",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

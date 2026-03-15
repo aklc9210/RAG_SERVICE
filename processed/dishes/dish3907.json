@@ -1,0 +1,107 @@
+{
+  "id": "dish3907",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3907.json",
+  "name_vi": "Gà nướng nguyên con nhồi gạo nếp",
+  "name_en": "",
+  "name_normalized": "ga nuong nguyen con nhoi gao nep",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Gạo nếp"
+  ],
+  "secondary_ingredients": [
+    "Lá kinh giới",
+    "Nho khô",
+    "Hạt óc chó",
+    "Nhân sâm",
+    "Hành tây",
+    "Bơ lạt",
+    "Chồi đậu Hà Lan/rau cải mầm"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tiêu",
+    "Tỏi",
+    "Muối",
+    "Giấm"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre02450",
+    "ingre01079",
+    "ingre06612",
+    "ingre03452",
+    "ingre04398",
+    "ingre03060",
+    "ingre04422",
+    "ingre07063",
+    "ingre03746",
+    "ingre02741",
+    "ingre00382",
+    "ingre02355",
+    "ingre01312"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Gạo nếp",
+    "Chanh",
+    "Tiêu",
+    "Lá kinh giới",
+    "Nho khô",
+    "Hạt óc chó",
+    "Nhân sâm",
+    "Tỏi",
+    "Muối",
+    "Hành tây",
+    "Bơ lạt",
+    "Giấm",
+    "Chồi đậu Hà Lan/rau cải mầm"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "sticky rice",
+    "Lemon",
+    "Pepper",
+    "Basil",
+    "Dried grape",
+    "Hazelnut",
+    "Ginseng",
+    "Garlic",
+    "Salt",
+    "Onion",
+    "Butter",
+    "Vinegar",
+    "Green Bean Sprouts/Mung Bean Sprouts"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "gao nep",
+    "chanh",
+    "tieu",
+    "la kinh gioi",
+    "nho kho",
+    "hat oc cho",
+    "nhan sam",
+    "toi",
+    "muoi",
+    "hanh tay",
+    "bo lat",
+    "giam",
+    "choi dau ha lan rau cai mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "choi dau ha lan/rau cai mam",
+      "new": "choi dau ha lan rau cai mam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chồi đậu Hà Lan/rau cải mầm"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre01937",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01937.json",
+  "name_vi": "da heo khô/bóng bì",
+  "name_en": "Pork Skin",
+  "name_normalized": "da heo kho bong bi",
+  "synonyms": [
+    "bóng bì",
+    "bì heo",
+    "bì khô"
+  ],
+  "synonyms_normalized": [
+    "bong bi",
+    "bi heo",
+    "bi kho"
+  ],
+  "category": "dried_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "da heo kho/bong bi",
+      "new": "da heo kho bong bi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

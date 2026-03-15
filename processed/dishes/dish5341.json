@@ -1,0 +1,87 @@
+{
+  "id": "dish5341",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5341.json",
+  "name_vi": "Ốc mít xào cay",
+  "name_en": "",
+  "name_normalized": "oc mit xao cay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ốc mít"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Giấm trắng",
+    "Tỏi băm",
+    "Gừng băm",
+    "Đường",
+    "Nước mắm",
+    "Lá chanh",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre07947",
+    "ingre07966",
+    "ingre02370",
+    "ingre07071",
+    "ingre02492",
+    "ingre05900",
+    "ingre07583",
+    "ingre04694",
+    "ingre03370",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Ốc mít",
+    "Ớt",
+    "Giấm trắng",
+    "Tỏi băm",
+    "Gừng băm",
+    "Sả",
+    "Đường",
+    "Nước mắm",
+    "Lá chanh",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pumpkin snail",
+    "Pepper",
+    "White vinegar",
+    "Minced Garlic",
+    "Ginger paste",
+    "Lemongrass",
+    "Sugar",
+    "Fish Sauce",
+    "Lime leaf",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "oc mit",
+    "ot",
+    "giam trang",
+    "toi bam",
+    "gung bam",
+    "sa",
+    "duong",
+    "nuoc mam",
+    "la chanh",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

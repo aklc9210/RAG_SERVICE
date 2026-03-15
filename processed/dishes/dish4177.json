@@ -1,0 +1,83 @@
+{
+  "id": "dish4177",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4177.json",
+  "name_vi": "Thịt bò nướng đá",
+  "name_en": "",
+  "name_normalized": "thit bo nuong da",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng rang",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Tỏi băm",
+    "Ớt chuông xanh và đỏ",
+    "Nước cốt me",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre07063",
+    "ingre07071",
+    "ingre08009",
+    "ingre04581",
+    "ingre07583",
+    "ingre04694",
+    "ingre07791",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Tỏi",
+    "Tỏi băm",
+    "Ớt chuông xanh và đỏ",
+    "Nước cốt me",
+    "Đường",
+    "Nước mắm",
+    "Đậu phộng rang",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Garlic",
+    "Minced Garlic",
+    "Green and Red Bell Peppers",
+    "Lime juice",
+    "Sugar",
+    "Fish Sauce",
+    "Roasted Peanut",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "toi",
+    "toi bam",
+    "ot chuong xanh va do",
+    "nuoc cot me",
+    "duong",
+    "nuoc mam",
+    "dau phong rang",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "dish1411",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1411.json",
+  "name_vi": "Tàu hủ Singapore - beancurd",
+  "name_en": "",
+  "name_normalized": "tau hu singapore beancurd",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Đậu nành"
+  ],
+  "secondary_ingredients": [
+    "Kem tươi"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Gelatin bột"
+  ],
+  "ingredient_ids": [
+    "ingre07772",
+    "ingre06147",
+    "ingre03157",
+    "ingre02256"
+  ],
+  "ingredient_names_vi": [
+    "Đậu nành",
+    "Sữa tươi không đường",
+    "Kem tươi",
+    "Gelatin bột"
+  ],
+  "ingredient_names_en": [
+    "Soybean",
+    "Fat-free Milk",
+    "Fresh cream",
+    "Gelatin Powder"
+  ],
+  "ingredient_names_normalized": [
+    "dau nanh",
+    "sua tuoi khong duong",
+    "kem tuoi",
+    "gelatin bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tau hu singapore - beancurd",
+      "new": "tau hu singapore beancurd",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

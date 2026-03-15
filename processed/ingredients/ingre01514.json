@@ -1,0 +1,25 @@
+{
+  "id": "ingre01514",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01514.json",
+  "name_vi": "cá diêu hồng (hoặc cá sộp",
+  "name_en": "Red snapper (or Red seabream)",
+  "name_normalized": "ca dieu hong hoac ca sop",
+  "synonyms": [
+    "cá bớp"
+  ],
+  "synonyms_normalized": [
+    "ca bop"
+  ],
+  "category": "seafood_&_fish_balls",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca dieu hong (hoac ca sop",
+      "new": "ca dieu hong hoac ca sop",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

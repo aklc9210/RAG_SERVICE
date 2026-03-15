@@ -1,0 +1,29 @@
+{
+  "id": "ingre02865",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02865.json",
+  "name_vi": "húng quế tây - basil",
+  "name_en": "Basil",
+  "name_normalized": "hung que tay basil",
+  "synonyms": [
+    "basilisk",
+    "húng quế",
+    "húng quế nhà"
+  ],
+  "synonyms_normalized": [
+    "basilisk",
+    "hung que",
+    "hung que nha"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hung que tay - basil",
+      "new": "hung que tay basil",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

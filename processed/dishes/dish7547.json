@@ -1,0 +1,72 @@
+{
+  "id": "dish7547",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7547.json",
+  "name_vi": "Sắn hấp nước cốt dừa",
+  "name_en": "",
+  "name_normalized": "san hap nuoc cot dua",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Củ sắn"
+  ],
+  "secondary_ingredients": [
+    "Lá dứa",
+    "Dừa bào sợi",
+    "Lạc",
+    "Vừng trắng"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01920",
+    "ingre04554",
+    "ingre03417",
+    "ingre02164",
+    "ingre03607",
+    "ingre07302",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Củ sắn",
+    "Nước cốt dừa",
+    "Lá dứa",
+    "Dừa bào sợi",
+    "Lạc",
+    "Vừng trắng",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Coconut milk",
+    "Pandan叶",
+    "Coconut shred",
+    "Peanut",
+    "Branched Caraway Seeds",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "cu san",
+    "nuoc cot dua",
+    "la dua",
+    "dua bao soi",
+    "lac",
+    "vung trang",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

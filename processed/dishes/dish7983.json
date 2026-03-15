@@ -1,0 +1,97 @@
+{
+  "id": "dish7983",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7983.json",
+  "name_vi": "Gỏi vịt hành tây",
+  "name_en": "",
+  "name_normalized": "goi vit hanh tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Lòng vịt",
+    "Thịt ức vịt",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Xoài xanh",
+    "Dưa leo",
+    "Rau húng/ rau quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt đỏ",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03582",
+    "ingre06547",
+    "ingre02741",
+    "ingre07342",
+    "ingre02020",
+    "ingre07063",
+    "ingre08097",
+    "ingre05271",
+    "ingre04694",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lòng vịt",
+    "Thịt ức vịt",
+    "Hành tây",
+    "Xoài xanh",
+    "Dưa leo",
+    "Tỏi",
+    "Ớt đỏ",
+    "Rau húng/ rau quế",
+    "Nước mắm",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Duck liver",
+    "Duck breast",
+    "Onion",
+    "Green mango",
+    "Cucumber",
+    "Garlic",
+    "Red pepper",
+    "Cilantro",
+    "Fish Sauce",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "long vit",
+    "thit uc vit",
+    "hanh tay",
+    "xoai xanh",
+    "dua leo",
+    "toi",
+    "ot do",
+    "rau hung rau que",
+    "nuoc mam",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau hung/ rau que",
+      "new": "rau hung rau que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau húng/ rau quế"
+    }
+  ]
+}

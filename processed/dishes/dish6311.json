@@ -1,0 +1,101 @@
+{
+  "id": "dish6311",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6311.json",
+  "name_vi": "Cá bống kho rau răm",
+  "name_en": "",
+  "name_normalized": "ca bong kho rau ram",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá bống",
+    "Rau răm",
+    "Tóp mỡ"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nghệ tươi"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu hào",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01477",
+    "ingre05359",
+    "ingre06927",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre04308",
+    "ingre02080",
+    "ingre04694",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cá bống",
+    "Rau răm",
+    "Tóp mỡ",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Nghệ tươi",
+    "Dầu hào",
+    "Nước mắm",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Carp",
+    "Vietnamese coriander",
+    "Pork rind",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Ginger",
+    "Soy sauce",
+    "Fish Sauce",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca bong",
+    "rau ram",
+    "top mo",
+    "hanh tim",
+    "toi",
+    "ot",
+    "nghe tuoi",
+    "dau hao",
+    "nuoc mam",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

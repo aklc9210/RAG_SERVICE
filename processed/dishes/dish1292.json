@@ -1,0 +1,77 @@
+{
+  "id": "dish1292",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1292.json",
+  "name_vi": "Bánh nếp chiên nhân thịt",
+  "name_en": "",
+  "name_normalized": "banh nep chien nhan thit",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt xay",
+    "Nguyên liệu"
+  ],
+  "secondary_ingredients": [
+    "Mè"
+  ],
+  "seasonings": [
+    "Đường",
+    "Hạt nêm",
+    "Dầu hào",
+    "Nước mắm",
+    "Bột nếp"
+  ],
+  "ingredient_ids": [
+    "ingre06521",
+    "ingre04313",
+    "ingre07583",
+    "ingre02995",
+    "ingre02080",
+    "ingre04694",
+    "ingre00859",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xay",
+    "Nguyên liệu",
+    "Đường",
+    "Hạt nêm",
+    "Dầu hào",
+    "Nước mắm",
+    "Bột nếp",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Ground Beef",
+    "Ingredient",
+    "Sugar",
+    "Seasoning",
+    "Soy sauce",
+    "Fish Sauce",
+    "Glutinous rice flour",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "thit xay",
+    "nguyen lieu",
+    "duong",
+    "hat nem",
+    "dau hao",
+    "nuoc mam",
+    "bot nep",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

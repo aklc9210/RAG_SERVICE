@@ -1,0 +1,63 @@
+{
+  "id": "dish6002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6002.json",
+  "name_vi": "Chả lụa kho nước tương",
+  "name_en": "",
+  "name_normalized": "cha lua kho nuoc tuong",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Chả lụa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Nước tương",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01292",
+    "ingre02768",
+    "ingre04790",
+    "ingre07583",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Chả lụa",
+    "Hành tím",
+    "Nước tương",
+    "Đường",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Pork floss",
+    "Shallot",
+    "Soy Sauce",
+    "Sugar",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "cha lua",
+    "hanh tim",
+    "nuoc tuong",
+    "duong",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

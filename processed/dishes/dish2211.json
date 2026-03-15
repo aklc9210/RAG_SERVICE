@@ -1,0 +1,112 @@
+{
+  "id": "dish2211",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2211.json",
+  "name_vi": "Bánh burrito trứng phô mai",
+  "name_en": "",
+  "name_normalized": "banh burrito trung pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Thịt xông khói",
+    "Cà chua bi",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Mùi tây",
+    "Bánh Tortilla",
+    "Bơ lạt",
+    "Phô mai cheddar",
+    "Sữa đặc",
+    "Sữa tươi"
+  ],
+  "seasonings": [
+    "Trứng",
+    "Tỏi băm",
+    "Ớt xanh",
+    "Mayonnaise",
+    "Tương ớt",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre06523",
+    "ingre06801",
+    "ingre01355",
+    "ingre02741",
+    "ingre04060",
+    "ingre07071",
+    "ingre08083",
+    "ingre00174",
+    "ingre00382",
+    "ingre05064",
+    "ingre03639",
+    "ingre06174",
+    "ingre06144",
+    "ingre07028",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Thịt xông khói",
+    "Trứng",
+    "Cà chua bi",
+    "Hành tây",
+    "Mùi tây",
+    "Tỏi băm",
+    "Ớt xanh",
+    "Bánh Tortilla",
+    "Bơ lạt",
+    "Phô mai cheddar",
+    "Mayonnaise",
+    "Sữa đặc",
+    "Sữa tươi",
+    "Tương ớt",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Smoked Pork",
+    "Egg",
+    "Tomato",
+    "Onion",
+    "Mint",
+    "Minced Garlic",
+    "Green Pepper",
+    "Tortilla",
+    "Butter",
+    "Cheddar cheese",
+    "Mayonnaise",
+    "Sweetened Condensed Milk",
+    "Fresh Milk",
+    "Hot Sauce",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit xong khoi",
+    "trung",
+    "ca chua bi",
+    "hanh tay",
+    "mui tay",
+    "toi bam",
+    "ot xanh",
+    "banh tortilla",
+    "bo lat",
+    "pho mai cheddar",
+    "mayonnaise",
+    "sua dac",
+    "sua tuoi",
+    "tuong ot",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre08089",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre08089.json",
+  "name_vi": "ớt xay/ đậu phộng rang giã nhỏ/tỏi",
+  "name_en": "Ground chili/roasted peanuts crushed/smashed garlic",
+  "name_normalized": "ot xay dau phong rang gia nho toi",
+  "synonyms": [
+    "pepper paste",
+    "peanut paste",
+    "garlic paste"
+  ],
+  "synonyms_normalized": [
+    "pepper paste",
+    "peanut paste",
+    "garlic paste"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ot xay/ dau phong rang gia nho/toi",
+      "new": "ot xay dau phong rang gia nho toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

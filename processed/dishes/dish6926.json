@@ -1,0 +1,76 @@
+{
+  "id": "dish6926",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6926.json",
+  "name_vi": "Trứng cuộn tôm thịt",
+  "name_en": "",
+  "name_normalized": "trung cuon tom thit",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Tôm",
+    "Thịt heo",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06930",
+    "ingre06398",
+    "ingre02673",
+    "ingre04694",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Tôm",
+    "Thịt heo",
+    "Hành lá",
+    "Nước mắm",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Shrimp",
+    "Pork",
+    "Scallion",
+    "Fish Sauce",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "tom",
+    "thit heo",
+    "hanh la",
+    "nuoc mam",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

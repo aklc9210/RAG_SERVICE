@@ -1,0 +1,27 @@
+{
+  "id": "ingre00042",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00042.json",
+  "name_vi": "boa - rô",
+  "name_en": "Snail",
+  "name_normalized": "boa ro",
+  "synonyms": [
+    "bột nở"
+  ],
+  "synonyms_normalized": [
+    "bot no"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "boa - ro",
+      "new": "boa ro",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

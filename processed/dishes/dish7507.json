@@ -1,0 +1,87 @@
+{
+  "id": "dish7507",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7507.json",
+  "name_vi": "Cá trắm hấp sả gừng",
+  "name_en": "",
+  "name_normalized": "ca tram hap sa gung",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá trắm",
+    "Nhỏ lá sả"
+  ],
+  "secondary_ingredients": [
+    "Lá sả",
+    "Hành lá/ thì là"
+  ],
+  "seasonings": [
+    "Bột nghệ",
+    "Gừng",
+    "Ớt tươi",
+    "Bột canh",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre01641",
+    "ingre00804",
+    "ingre04444",
+    "ingre03523",
+    "ingre02485",
+    "ingre08078",
+    "ingre02710",
+    "ingre00587",
+    "ingre06644",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Cá trắm",
+    "Bột nghệ",
+    "Nhỏ lá sả",
+    "Lá sả",
+    "Gừng",
+    "Ớt tươi",
+    "Hành lá/ thì là",
+    "Bột canh",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Catfish",
+    "Turmeric Powder",
+    "Citronella Leaf",
+    "Citronella Grass",
+    "Ginger",
+    "Fresh chili",
+    "Chives/Coriander",
+    "Cornstarch",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "ca tram",
+    "bot nghe",
+    "nho la sa",
+    "la sa",
+    "gung",
+    "ot tuoi",
+    "hanh la thi la",
+    "bot canh",
+    "tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ thi la",
+      "new": "hanh la thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ thì là"
+    }
+  ]
+}

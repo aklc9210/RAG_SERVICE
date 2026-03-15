@@ -1,0 +1,123 @@
+{
+  "id": "dish1828",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1828.json",
+  "name_vi": "Bánh Trung Thu nhân xôi xéo thịt kho",
+  "name_en": "",
+  "name_normalized": "banh trung thu nhan xoi xeo thit kho",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ đậu phộng",
+    "Chà bông",
+    "Đậu xanh"
+  ],
+  "secondary_ingredients": [
+    "Lạp xưởng",
+    "Thịt ba rọi",
+    "Hành tím",
+    "Siro bắp",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Baking soda",
+    "Nước đường bánh nướng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00416",
+    "ingre00018",
+    "ingre01202",
+    "ingre07836",
+    "ingre03618",
+    "ingre06289",
+    "ingre02768",
+    "ingre04860",
+    "ingre05676",
+    "ingre04672",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre06612",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ đậu phộng",
+    "Baking soda",
+    "Chà bông",
+    "Đậu xanh",
+    "Lạp xưởng",
+    "Thịt ba rọi",
+    "Hành tím",
+    "Nước đường bánh nướng",
+    "Siro bắp",
+    "Nước màu",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Peanut butter",
+    "Baking soda",
+    "Pork floss",
+    "Green beans",
+    "Sausage",
+    "Pork belly",
+    "Shallot",
+    "Syrup for baked goods",
+    "Corn syrup",
+    "Food coloring",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Pepper",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo dau phong",
+    "baking soda",
+    "cha bong",
+    "dau xanh",
+    "lap xuong",
+    "thit ba roi",
+    "hanh tim",
+    "nuoc duong banh nuong",
+    "siro bap",
+    "nuoc mau",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "hat nem",
+    "tieu",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dish6058",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6058.json",
+  "name_vi": "Cá mòi kho sườn non",
+  "name_en": "",
+  "name_normalized": "ca moi kho suon non",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn heo",
+    "Cá mòi hộp",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hạt điều đỏ",
+    "Nước dừa tươi"
+  ],
+  "seasonings": [
+    "Tiêu xanh",
+    "Cà rốt",
+    "Tương cà",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Ớt sừng trâu",
+    "Tiêu xay",
+    "Hành băm",
+    "Hành tỏi băm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre06640",
+    "ingre01564",
+    "ingre01419",
+    "ingre03222",
+    "ingre02673",
+    "ingre06984",
+    "ingre02995",
+    "ingre07583",
+    "ingre00819",
+    "ingre08066",
+    "ingre06644",
+    "ingre03072",
+    "ingre02657",
+    "ingre04626",
+    "ingre02817",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Tiêu xanh",
+    "Cá mòi hộp",
+    "Cà rốt",
+    "Khoai tây",
+    "Hành lá",
+    "Tương cà",
+    "Hạt nêm",
+    "Đường",
+    "Bột ngọt",
+    "Ớt sừng trâu",
+    "Tiêu xay",
+    "Hạt điều đỏ",
+    "Hành băm",
+    "Nước dừa tươi",
+    "Hành tỏi băm",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Green pepper",
+    "Shrimp paste",
+    "Carrot",
+    "Potato",
+    "Scallion",
+    "Miso酱",
+    "Seasoning",
+    "Sugar",
+    "MSG",
+    "Hot pepper",
+    "Ground pepper",
+    "Red Peanut",
+    "Chopped Garlic",
+    "Coconut water",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "tieu xanh",
+    "ca moi hop",
+    "ca rot",
+    "khoai tay",
+    "hanh la",
+    "tuong ca",
+    "hat nem",
+    "duong",
+    "bot ngot",
+    "ot sung trau",
+    "tieu xay",
+    "hat dieu do",
+    "hanh bam",
+    "nuoc dua tuoi",
+    "hanh toi bam",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

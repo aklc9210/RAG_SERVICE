@@ -1,0 +1,62 @@
+{
+  "id": "dish6666",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6666.json",
+  "name_vi": "Cua rang muối Hồng Kông",
+  "name_en": "",
+  "name_normalized": "cua rang muoi hong kong",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cua gạch hoặc cua thịt"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Đầu hành"
+  ],
+  "seasonings": [
+    "Hành tím & tỏi & ớt xay",
+    "Nước dùng"
+  ],
+  "ingredient_ids": [
+    "ingre01338",
+    "ingre02741",
+    "ingre07714",
+    "ingre02769",
+    "ingre04602"
+  ],
+  "ingredient_names_vi": [
+    "Cua gạch hoặc cua thịt",
+    "Hành tây",
+    "Đầu hành",
+    "Hành tím & tỏi & ớt xay",
+    "Nước dùng"
+  ],
+  "ingredient_names_en": [
+    "Shrimp Crab or Meat Crab",
+    "Onion",
+    "Garlic cloves",
+    "Green onion & garlic & ground chili &-pepper",
+    "Chicken Stock"
+  ],
+  "ingredient_names_normalized": [
+    "cua gach hoac cua thit",
+    "hanh tay",
+    "dau hanh",
+    "hanh tim toi ot xay",
+    "nuoc dung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh tim & toi & ot xay",
+      "new": "hanh tim toi ot xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành tím & tỏi & ớt xay"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish3936",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3936.json",
+  "name_vi": "Khoai tây nướng phô mai bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "khoai tay nuong pho mai bang noi chien khong dau",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Khoai tây",
+    "Whipping cream",
+    "Cream cheese"
+  ],
+  "secondary_ingredients": [
+    "Phô mai cheddar",
+    "Phô mai parmesan",
+    "Dầu ô liu",
+    "Cỏ xạ hương",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Sốt mayonnaise",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre07313",
+    "ingre01324",
+    "ingre05064",
+    "ingre05104",
+    "ingre07063",
+    "ingre05970",
+    "ingre02120",
+    "ingre01827",
+    "ingre00382",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Whipping cream",
+    "Cream cheese",
+    "Phô mai cheddar",
+    "Phô mai parmesan",
+    "Tỏi",
+    "Sốt mayonnaise",
+    "Dầu ô liu",
+    "Cỏ xạ hương",
+    "Bơ lạt",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Whipping cream",
+    "Cream cheese",
+    "Cheddar cheese",
+    "Parmesan Cheese",
+    "Garlic",
+    "Mayonnaise Sauce",
+    "Olive oil",
+    "Mugwort",
+    "Butter",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "whipping cream",
+    "cream cheese",
+    "pho mai cheddar",
+    "pho mai parmesan",
+    "toi",
+    "sot mayonnaise",
+    "dau o liu",
+    "co xa huong",
+    "bo lat",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre02707",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02707.json",
+  "name_vi": "hành lá/ rau răm",
+  "name_en": "Parsley/Cilantro",
+  "name_normalized": "hanh la rau ram",
+  "synonyms": [
+    "rau thơm",
+    "rau mùi"
+  ],
+  "synonyms_normalized": [
+    "rau thom",
+    "rau mui"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ rau ram",
+      "new": "hanh la rau ram",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

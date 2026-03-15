@@ -1,0 +1,88 @@
+{
+  "id": "dish6217",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6217.json",
+  "name_vi": "Tàu hũ ky tươi rim cay sả ớt",
+  "name_en": "",
+  "name_normalized": "tau hu ky tuoi rim cay sa ot",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tàu hũ ky tươi",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Tương cà",
+    "Tương ớt",
+    "Nước tương",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06878",
+    "ingre05900",
+    "ingre07966",
+    "ingre02124",
+    "ingre06984",
+    "ingre07028",
+    "ingre04790",
+    "ingre04694",
+    "ingre07675"
+  ],
+  "ingredient_names_vi": [
+    "Tàu hũ ky tươi",
+    "Sả",
+    "Ớt",
+    "Dầu ăn",
+    "Tương cà",
+    "Tương ớt",
+    "Nước tương",
+    "Nước mắm",
+    "Đường/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Firm tofu",
+    "Lemongrass",
+    "Pepper",
+    "Cooking oil",
+    "Miso酱",
+    "Hot Sauce",
+    "Soy Sauce",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "tau hu ky tuoi",
+    "sa",
+    "ot",
+    "dau an",
+    "tuong ca",
+    "tuong ot",
+    "nuoc tuong",
+    "nuoc mam",
+    "duong bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

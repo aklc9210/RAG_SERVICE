@@ -1,0 +1,86 @@
+{
+  "id": "dish9469",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9469.json",
+  "name_vi": "Xếp trái cây, rau củ tạo hình cây thông Noel",
+  "name_en": "",
+  "name_normalized": "xep trai cay rau cu tao hinh cay thong noel",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Súp lơ xanh",
+    "Táo Mỹ"
+  ],
+  "secondary_ingredients": [
+    "Cà chua bi",
+    "Dâu",
+    "Quýt",
+    "Cơm trắng",
+    "Hạt bắp"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt chuông",
+    "Bột mì"
+  ],
+  "ingredient_ids": [
+    "ingre05844",
+    "ingre06896",
+    "ingre01419",
+    "ingre01355",
+    "ingre01958",
+    "ingre05147",
+    "ingre01767",
+    "ingre02912",
+    "ingre07999",
+    "ingre00759"
+  ],
+  "ingredient_names_vi": [
+    "Súp lơ xanh",
+    "Táo Mỹ",
+    "Cà rốt",
+    "Cà chua bi",
+    "Dâu",
+    "Quýt",
+    "Cơm trắng",
+    "Hạt bắp",
+    "Ớt chuông",
+    "Bột mì"
+  ],
+  "ingredient_names_en": [
+    "Green cabbage",
+    "Apple",
+    "Carrot",
+    "Tomato",
+    "Strawberry",
+    "Orange",
+    "White Rice",
+    "Corn kernel",
+    "Bell pepper",
+    "Wheat Flour"
+  ],
+  "ingredient_names_normalized": [
+    "sup lo xanh",
+    "tao my",
+    "ca rot",
+    "ca chua bi",
+    "dau",
+    "quyt",
+    "com trang",
+    "hat bap",
+    "ot chuong",
+    "bot mi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xep trai cay, rau cu tao hinh cay thong noel",
+      "new": "xep trai cay rau cu tao hinh cay thong noel",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "dish4404",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4404.json",
+  "name_vi": "Tôm tít rang me",
+  "name_en": "",
+  "name_normalized": "tom tit rang me",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Tôm tít"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Dầu màu điều",
+    "Rau răm ăn kèm và lạc rang"
+  ],
+  "seasonings": [
+    "Nước sốt me",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt tiêu",
+    "Nước màu đường",
+    "Dầu hào",
+    "Bột nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06962",
+    "ingre04762",
+    "ingre07063",
+    "ingre07966",
+    "ingre05900",
+    "ingre02485",
+    "ingre04694",
+    "ingre00819",
+    "ingre03043",
+    "ingre04685",
+    "ingre02080",
+    "ingre00838",
+    "ingre02093",
+    "ingre06644",
+    "ingre05363"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tít",
+    "Nước sốt me",
+    "Tỏi",
+    "Ớt",
+    "Sả",
+    "Gừng",
+    "Nước mắm",
+    "Bột ngọt",
+    "Hạt tiêu",
+    "Nước màu đường",
+    "Dầu hào",
+    "Bột nêm",
+    "Dầu màu điều",
+    "Tiêu xay",
+    "Rau răm ăn kèm và lạc rang"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Tamarind Sauce",
+    "Garlic",
+    "Pepper",
+    "Lemongrass",
+    "Ginger",
+    "Fish Sauce",
+    "MSG",
+    "Food coloring suger",
+    "Soy sauce",
+    "Seasoning Powder",
+    "Peanut-colored food coloring",
+    "Ground pepper",
+    "Coriander and Fried Peanuts"
+  ],
+  "ingredient_names_normalized": [
+    "tom tit",
+    "nuoc sot me",
+    "toi",
+    "ot",
+    "sa",
+    "gung",
+    "nuoc mam",
+    "bot ngot",
+    "hat tieu",
+    "nuoc mau duong",
+    "dau hao",
+    "bot nem",
+    "dau mau dieu",
+    "tieu xay",
+    "rau ram an kem va lac rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

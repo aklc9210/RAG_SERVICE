@@ -1,0 +1,86 @@
+{
+  "id": "dish4926",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4926.json",
+  "name_vi": "Ếch xào sả ớt",
+  "name_en": "",
+  "name_normalized": "ech xao sa ot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt ếch",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Hành tím băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06537",
+    "ingre05900",
+    "ingre07966",
+    "ingre02774",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ếch",
+    "Sả",
+    "Ớt",
+    "Hành tím băm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Frog Meat",
+    "Lemongrass",
+    "Pepper",
+    "Chopped Scallion",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit ech",
+    "sa",
+    "ot",
+    "hanh tim bam",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "dish0179",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0179.json",
+  "name_vi": "Khô cá đuối nấu canh chua với đậu bắp",
+  "name_en": "",
+  "name_normalized": "kho ca duoi nau canh chua voi dau bap",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khô cá đuối",
+    "Đậu bắp"
+  ],
+  "secondary_ingredients": [
+    "Hành ngò"
+  ],
+  "seasonings": [
+    "Tỏi phi",
+    "Ớt",
+    "Chanh",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre03259",
+    "ingre07729",
+    "ingre07096",
+    "ingre07966",
+    "ingre02724",
+    "ingre01079",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Khô cá đuối",
+    "Đậu bắp",
+    "Tỏi phi",
+    "Ớt",
+    "Hành ngò",
+    "Chanh",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Dried Trevally Fish",
+    "Green beans",
+    "Garlic flakes",
+    "Pepper",
+    "Chives",
+    "Lemon",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "kho ca duoi",
+    "dau bap",
+    "toi phi",
+    "ot",
+    "hanh ngo",
+    "chanh",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

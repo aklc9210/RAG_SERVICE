@@ -1,0 +1,95 @@
+{
+  "id": "dish1618",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1618.json",
+  "name_vi": "bánh khúc cây Giáng sinh - Buche de noel",
+  "name_en": "",
+  "name_normalized": "banh khuc cay giang sinh buche de noel",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Whipping cream",
+    "Chocolate đen",
+    "G bơ n",
+    "Whipping cream nóng"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Bột mì",
+    "Bột ca cao",
+    "Trứng gà",
+    "Đường",
+    "Cream of tartar"
+  ],
+  "ingredient_ids": [
+    "ingre06147",
+    "ingre00382",
+    "ingre02124",
+    "ingre00759",
+    "ingre00572",
+    "ingre06823",
+    "ingre07583",
+    "ingre01328",
+    "ingre07313",
+    "ingre01153",
+    "ingre02224",
+    "ingre07318"
+  ],
+  "ingredient_names_vi": [
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Bột mì",
+    "Bột ca cao",
+    "Trứng gà",
+    "Đường",
+    "Cream of tartar",
+    "Whipping cream",
+    "Chocolate đen",
+    "G bơ n",
+    "Whipping cream nóng"
+  ],
+  "ingredient_names_en": [
+    "Fat-free Milk",
+    "Butter",
+    "Cooking oil",
+    "Wheat Flour",
+    "Cocoa powder",
+    "Chicken egg",
+    "Sugar",
+    "Cream of tartar",
+    "Whipping cream",
+    "Dark chocolate",
+    "Whipping cream warm"
+  ],
+  "ingredient_names_normalized": [
+    "sua tuoi khong duong",
+    "bo lat",
+    "dau an",
+    "bot mi",
+    "bot ca cao",
+    "trung ga",
+    "duong",
+    "cream of tartar",
+    "whipping cream",
+    "chocolate den",
+    "g bo n",
+    "whipping cream nong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh khuc cay giang sinh - buche de noel",
+      "new": "banh khuc cay giang sinh buche de noel",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

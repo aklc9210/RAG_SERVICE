@@ -1,0 +1,25 @@
+{
+  "id": "ingre00019",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00019.json",
+  "name_vi": "baking soda (muối nở)",
+  "name_en": "Baking Soda",
+  "name_normalized": "baking soda muoi no",
+  "synonyms": [
+    "bột nở"
+  ],
+  "synonyms_normalized": [
+    "bot no"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "baking soda (muoi no)",
+      "new": "baking soda muoi no",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish2355",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2355.json",
+  "name_vi": "Bánh Cheese Stick - bánh quy phô mai que",
+  "name_en": "",
+  "name_normalized": "banh cheese stick banh quy pho mai que",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lòng đỏ trứng gà",
+    "Bơ nhạt",
+    "Nước",
+    "Lá mùi tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 8",
+    "Bột bắp",
+    "Bột năng",
+    "Bột phô mai",
+    "Muối",
+    "Dầu ăn",
+    "Đường trắng"
+  ],
+  "ingredient_ids": [
+    "ingre00783",
+    "ingre00564",
+    "ingre00849",
+    "ingre00879",
+    "ingre03584",
+    "ingre00402",
+    "ingre03746",
+    "ingre04490",
+    "ingre02124",
+    "ingre07652",
+    "ingre03474"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 8",
+    "Bột bắp",
+    "Bột năng",
+    "Bột phô mai",
+    "Lòng đỏ trứng gà",
+    "Bơ nhạt",
+    "Muối",
+    "Nước",
+    "Dầu ăn",
+    "Đường trắng",
+    "Lá mùi tây"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Cornstarch",
+    "Mozzarella cheese powder",
+    "Egg yolk",
+    "Margarine",
+    "Salt",
+    "Water",
+    "Cooking oil",
+    "White sugar",
+    "Basil叶"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 8",
+    "bot bap",
+    "bot nang",
+    "bot pho mai",
+    "long do trung ga",
+    "bo nhat",
+    "muoi",
+    "nuoc",
+    "dau an",
+    "duong trang",
+    "la mui tay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cheese stick - banh quy pho mai que",
+      "new": "banh cheese stick banh quy pho mai que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

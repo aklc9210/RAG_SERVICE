@@ -1,0 +1,101 @@
+{
+  "id": "dish3941",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3941.json",
+  "name_vi": "Dê nướng chao",
+  "name_en": "",
+  "name_normalized": "de nuong chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Thịt dê",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Đậu bắp",
+    "Cà tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Dầu ăn",
+    "Sa tế",
+    "Dầu hào",
+    "Nước chao",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre06366",
+    "ingre05900",
+    "ingre07063",
+    "ingre07729",
+    "ingre01444",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre02124",
+    "ingre05621",
+    "ingre02080",
+    "ingre04515",
+    "ingre07028"
+  ],
+  "ingredient_names_vi": [
+    "Thịt dê",
+    "Sả",
+    "Tỏi",
+    "Đậu bắp",
+    "Cà tím",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Dầu ăn",
+    "Sa tế",
+    "Dầu hào",
+    "Nước chao",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Goat肉",
+    "Lemongrass",
+    "Garlic",
+    "Green beans",
+    "Purple cabbage",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Cooking oil",
+    "Fish sauce",
+    "Soy sauce",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "thit de",
+    "sa",
+    "toi",
+    "dau bap",
+    "ca tim",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "dau an",
+    "sa te",
+    "dau hao",
+    "nuoc chao",
+    "tuong ot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

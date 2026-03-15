@@ -1,0 +1,29 @@
+{
+  "id": "ingre05396",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05396.json",
+  "name_vi": "rau thơm/ ngò rí/ húng lủi",
+  "name_en": "Parsley",
+  "name_normalized": "rau thom ngo ri hung lui",
+  "synonyms": [
+    "ngò",
+    "húng",
+    "húng quế"
+  ],
+  "synonyms_normalized": [
+    "ngo",
+    "hung",
+    "hung que"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau thom/ ngo ri/ hung lui",
+      "new": "rau thom ngo ri hung lui",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

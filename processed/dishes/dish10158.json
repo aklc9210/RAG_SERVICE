@@ -1,0 +1,71 @@
+{
+  "id": "dish10158",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10158.json",
+  "name_vi": "Sinh tố protein bánh chanh (Key lime pie protein smoothie)",
+  "name_en": "",
+  "name_normalized": "sinh to protein banh chanh key lime pie protein smoothie",
+  "category": "sinh to",
+  "main_ingredients": [
+    "Vụn bánh quy nguyên cám",
+    "Lá bạc hà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột protein hương vani",
+    "Sữa hạnh nhân không đường",
+    "Nước cốt chanh",
+    "Vỏ chanh bào",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00885",
+    "ingre06125",
+    "ingre04538",
+    "ingre07254",
+    "ingre03746",
+    "ingre07287",
+    "ingre03365"
+  ],
+  "ingredient_names_vi": [
+    "Bột protein hương vani",
+    "Sữa hạnh nhân không đường",
+    "Nước cốt chanh",
+    "Vỏ chanh bào",
+    "Muối",
+    "Vụn bánh quy nguyên cám",
+    "Lá bạc hà"
+  ],
+  "ingredient_names_en": [
+    "Vanilla-flavored protein powder",
+    "Almond milk",
+    "Lemon juice",
+    "Lemon zest",
+    "Salt",
+    "Oatmeal Cookie Crumbs",
+    "Mint Leaf"
+  ],
+  "ingredient_names_normalized": [
+    "bot protein huong vani",
+    "sua hanh nhan khong duong",
+    "nuoc cot chanh",
+    "vo chanh bao",
+    "muoi",
+    "vun banh quy nguyen cam",
+    "la bac ha"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sinh to protein banh chanh (key lime pie protein smoothie)",
+      "new": "sinh to protein banh chanh key lime pie protein smoothie",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

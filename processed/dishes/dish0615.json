@@ -1,0 +1,112 @@
+{
+  "id": "dish0615",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0615.json",
+  "name_vi": "Canh khoai môn nấu tôm khô",
+  "name_en": "",
+  "name_normalized": "canh khoai mon nau tom kho",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Khoai môn",
+    "Tôm khô",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Ngò rí",
+    "Ngò gai",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ bột canh"
+  ],
+  "ingredient_ids": [
+    "ingre03208",
+    "ingre06941",
+    "ingre02673",
+    "ingre04343",
+    "ingre04329",
+    "ingre07063",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03007"
+  ],
+  "ingredient_names_vi": [
+    "Khoai môn",
+    "Tôm khô",
+    "Hành lá",
+    "Ngò rí",
+    "Ngò gai",
+    "Tỏi",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Hạt nêm/ bột canh"
+  ],
+  "ingredient_names_en": [
+    "Yam",
+    "Dried Shrimp",
+    "Scallion",
+    "Parsley",
+    "Culantro",
+    "Garlic",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "khoai mon",
+    "tom kho",
+    "hanh la",
+    "ngo ri",
+    "ngo gai",
+    "toi",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "hat nem bot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Culantro",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Ngò gai"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot canh",
+      "new": "hat nem bot canh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ bột canh"
+    }
+  ]
+}

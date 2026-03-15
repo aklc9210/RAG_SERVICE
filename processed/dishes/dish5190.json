@@ -1,0 +1,112 @@
+{
+  "id": "dish5190",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5190.json",
+  "name_vi": "Bánh đa cua xào lòng gà",
+  "name_en": "",
+  "name_normalized": "banh da cua xao long ga",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bánh đa cua",
+    "Lòng gà",
+    "Cải thìa"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00219",
+    "ingre03571",
+    "ingre01792",
+    "ingre01079",
+    "ingre07063",
+    "ingre07966",
+    "ingre02768",
+    "ingre04790",
+    "ingre07028",
+    "ingre02080",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bánh đa cua",
+    "Lòng gà",
+    "Cải thìa",
+    "Chanh",
+    "Tỏi",
+    "Ớt",
+    "Hành tím",
+    "Nước tương",
+    "Tương ớt",
+    "Dầu hào",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Shrimp春卷",
+    "Chicken liver",
+    "Chinese cabbage",
+    "Lemon",
+    "Garlic",
+    "Pepper",
+    "Shallot",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "banh da cua",
+    "long ga",
+    "cai thia",
+    "chanh",
+    "toi",
+    "ot",
+    "hanh tim",
+    "nuoc tuong",
+    "tuong ot",
+    "dau hao",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

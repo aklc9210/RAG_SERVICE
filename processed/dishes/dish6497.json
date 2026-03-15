@@ -1,0 +1,96 @@
+{
+  "id": "dish6497",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6497.json",
+  "name_vi": "Trứng chiên đậu hũ thịt cua",
+  "name_en": "",
+  "name_normalized": "trung chien dau hu thit cua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt cua",
+    "Đậu hũ trắng"
+  ],
+  "secondary_ingredients": [
+    "Cà chua bi",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Dầu ăn",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06349",
+    "ingre07755",
+    "ingre01355",
+    "ingre02768",
+    "ingre02673",
+    "ingre02124",
+    "ingre07583",
+    "ingre06612",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Thịt cua",
+    "Đậu hũ trắng",
+    "Cà chua bi",
+    "Hành tím",
+    "Hành lá",
+    "Dầu ăn",
+    "Đường",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Shrimp肉",
+    "Tofu",
+    "Tomato",
+    "Shallot",
+    "Scallion",
+    "Cooking oil",
+    "Sugar",
+    "Pepper",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "thit cua",
+    "dau hu trang",
+    "ca chua bi",
+    "hanh tim",
+    "hanh la",
+    "dau an",
+    "duong",
+    "tieu",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

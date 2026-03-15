@@ -1,0 +1,119 @@
+{
+  "id": "dish7010",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7010.json",
+  "name_vi": "Cơm rang cay",
+  "name_en": "",
+  "name_normalized": "com rang cay",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội"
+  ],
+  "secondary_ingredients": [
+    "Đậu que",
+    "Hành tím",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Củ cải/cà rốt",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01755",
+    "ingre06823",
+    "ingre01878",
+    "ingre07818",
+    "ingre02768",
+    "ingre02673",
+    "ingre07063",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Trứng gà",
+    "Củ cải/cà rốt",
+    "Đậu que",
+    "Hành tím",
+    "Hành lá",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Chicken egg",
+    "Carrot/Cabbage",
+    "Green beans",
+    "Shallot",
+    "Scallion",
+    "Garlic",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "trung ga",
+    "cu cai ca rot",
+    "dau que",
+    "hanh tim",
+    "hanh la",
+    "toi",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "cu cai/ca rot",
+      "new": "cu cai ca rot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Củ cải/cà rốt"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

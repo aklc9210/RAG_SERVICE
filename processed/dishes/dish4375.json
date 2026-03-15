@@ -1,0 +1,81 @@
+{
+  "id": "dish4375",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4375.json",
+  "name_vi": "Lẩu cháo lòng",
+  "name_en": "",
+  "name_normalized": "lau chao long",
+  "category": "mon chao",
+  "main_ingredients": [
+    "Đồ lòng",
+    "Thịt dải"
+  ],
+  "secondary_ingredients": [
+    "Cuống họng",
+    "Tiết heo",
+    "Gan nếp",
+    "Mỡ lá",
+    "Gạo tẻ",
+    "Đậu phộng giã dập",
+    "Hành lá/ rau răm/ rau ngổ/ rau húng"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre07900",
+    "ingre06371",
+    "ingre01350",
+    "ingre06669",
+    "ingre02245",
+    "ingre04201",
+    "ingre02464",
+    "ingre07786",
+    "ingre02708"
+  ],
+  "ingredient_names_vi": [
+    "Đồ lòng",
+    "Thịt dải",
+    "Cuống họng",
+    "Tiết heo",
+    "Gan nếp",
+    "Mỡ lá",
+    "Gạo tẻ",
+    "Đậu phộng giã dập",
+    "Hành lá/ rau răm/ rau ngổ/ rau húng"
+  ],
+  "ingredient_names_en": [
+    "Tripe",
+    "Striped pork",
+    "Throat",
+    "Pig's blood",
+    "Glutinous rice cake",
+    "Lard Leaf",
+    "White Rice",
+    "Crushed Peanuts",
+    "Parsley/Cilantro/Mugwort/Garlic Chives"
+  ],
+  "ingredient_names_normalized": [
+    "do long",
+    "thit dai",
+    "cuong hong",
+    "tiet heo",
+    "gan nep",
+    "mo la",
+    "gao te",
+    "dau phong gia dap",
+    "hanh la rau ram rau ngo rau hung"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ rau ram/ rau ngo/ rau hung",
+      "new": "hanh la rau ram rau ngo rau hung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ rau răm/ rau ngổ/ rau húng"
+    }
+  ]
+}

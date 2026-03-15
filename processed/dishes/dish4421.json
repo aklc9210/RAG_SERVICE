@@ -1,0 +1,111 @@
+{
+  "id": "dish4421",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4421.json",
+  "name_vi": "Tokbokki rose",
+  "name_en": "",
+  "name_normalized": "tokbokki rose",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Bánh gạo",
+    "Thịt ba rọi xông khói",
+    "Xúc xích mini"
+  ],
+  "secondary_ingredients": [
+    "Hành tây cỡ vừa",
+    "Phô mai mozzarella bào sợi",
+    "Hành lá",
+    "Sữa tươi nguyên kem",
+    "Kem béo"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Trứng gà",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc",
+    "Nước tương/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre00085",
+    "ingre06295",
+    "ingre07401",
+    "ingre02756",
+    "ingre07063",
+    "ingre05095",
+    "ingre02673",
+    "ingre06823",
+    "ingre07036",
+    "ingre07983",
+    "ingre06157",
+    "ingre03121",
+    "ingre04815"
+  ],
+  "ingredient_names_vi": [
+    "Bánh gạo",
+    "Thịt ba rọi xông khói",
+    "Xúc xích mini",
+    "Hành tây cỡ vừa",
+    "Tỏi",
+    "Phô mai mozzarella bào sợi",
+    "Hành lá",
+    "Trứng gà",
+    "Tương ớt Hàn Quốc",
+    "Ớt bột Hàn Quốc",
+    "Sữa tươi nguyên kem",
+    "Kem béo",
+    "Nước tương/ đường"
+  ],
+  "ingredient_names_en": [
+    "Glutinous Rice Cake",
+    "Smoked pork belly",
+    "Mini sausage",
+    "Yellow Onion",
+    "Garlic",
+    "Mozzarella cheese shredded",
+    "Scallion",
+    "Chicken egg",
+    "Korean chili paste",
+    "Korean chili powder",
+    "Whole Milk Powder",
+    "Milk Cream",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "banh gao",
+    "thit ba roi xong khoi",
+    "xuc xich mini",
+    "hanh tay co vua",
+    "toi",
+    "pho mai mozzarella bao soi",
+    "hanh la",
+    "trung ga",
+    "tuong ot han quoc",
+    "ot bot han quoc",
+    "sua tuoi nguyen kem",
+    "kem beo",
+    "nuoc tuong duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "nuoc tuong/ duong",
+      "new": "nuoc tuong duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Nước tương/ đường"
+    }
+  ]
+}

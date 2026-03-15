@@ -1,0 +1,76 @@
+{
+  "id": "dish1172",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1172.json",
+  "name_vi": "Mango pie - bánh rán nhân xoài",
+  "name_en": "",
+  "name_normalized": "mango pie banh ran nhan xoai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Shorrtening",
+    "Xoài"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Trứng gà",
+    "Đường",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00564",
+    "ingre05655",
+    "ingre07329",
+    "ingre06823",
+    "ingre07583",
+    "ingre03746",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Shorrtening",
+    "Xoài",
+    "Trứng gà",
+    "Đường",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Shortening",
+    "Mango",
+    "Chicken egg",
+    "Sugar",
+    "Salt",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot bap",
+    "shorrtening",
+    "xoai",
+    "trung ga",
+    "duong",
+    "muoi",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "mango pie - banh ran nhan xoai",
+      "new": "mango pie banh ran nhan xoai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

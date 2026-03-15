@@ -1,0 +1,93 @@
+{
+  "id": "dish0884",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0884.json",
+  "name_vi": "Bánh bắp phô mai",
+  "name_en": "",
+  "name_normalized": "banh bap pho mai",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước",
+    "Phô mai bào sợi",
+    "Kinh giới tây khô",
+    "Bắp",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Đường",
+    "Muối",
+    "Men",
+    "Trứng gà",
+    "Bột chiên xù"
+  ],
+  "ingredient_ids": [
+    "ingre00759",
+    "ingre07583",
+    "ingre03746",
+    "ingre03665",
+    "ingre04490",
+    "ingre06823",
+    "ingre05060",
+    "ingre03285",
+    "ingre00448",
+    "ingre00609",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Đường",
+    "Muối",
+    "Men",
+    "Nước",
+    "Trứng gà",
+    "Phô mai bào sợi",
+    "Kinh giới tây khô",
+    "Bắp",
+    "Bột chiên xù",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Sugar",
+    "Salt",
+    "Mold",
+    "Water",
+    "Chicken egg",
+    "Shredded cheese",
+    "Japanese Mint Dry",
+    "Corn",
+    "Puffed Rice Powder",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "duong",
+    "muoi",
+    "men",
+    "nuoc",
+    "trung ga",
+    "pho mai bao soi",
+    "kinh gioi tay kho",
+    "bap",
+    "bot chien xu",
+    "hanh la"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

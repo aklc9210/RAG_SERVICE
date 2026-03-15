@@ -1,0 +1,78 @@
+{
+  "id": "dish2034",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2034.json",
+  "name_vi": "Bánh quy hành vừng",
+  "name_en": "",
+  "name_normalized": "banh quy hanh vung",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Men nở instant"
+  ],
+  "secondary_ingredients": [
+    "Vừng trắng",
+    "Hạt chia",
+    "Dầu thực vật",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì hữu cơ",
+    "Trứng gà",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00767",
+    "ingre03687",
+    "ingre07302",
+    "ingre02922",
+    "ingre06823",
+    "ingre02113",
+    "ingre02673",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì hữu cơ",
+    "Men nở instant",
+    "Vừng trắng",
+    "Hạt chia",
+    "Trứng gà",
+    "Dầu thực vật",
+    "Hành lá",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Organic Flour",
+    "Instant Yeast",
+    "Branched Caraway Seeds",
+    "Chia Seeds",
+    "Chicken egg",
+    "Vegetable oil",
+    "Scallion",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi huu co",
+    "men no instant",
+    "vung trang",
+    "hat chia",
+    "trung ga",
+    "dau thuc vat",
+    "hanh la",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

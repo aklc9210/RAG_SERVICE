@@ -1,0 +1,82 @@
+{
+  "id": "dish4098",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4098.json",
+  "name_vi": "Mực nướng chao",
+  "name_en": "",
+  "name_normalized": "muc nuong chao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Mực ống",
+    "Chao"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Tương ớt",
+    "Tỏi phi",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre01106",
+    "ingre07977",
+    "ingre07028",
+    "ingre05900",
+    "ingre07096",
+    "ingre03746",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Chao",
+    "Ớt bột",
+    "Tương ớt",
+    "Sả",
+    "Tỏi phi",
+    "Muối",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Pickled plum",
+    "Chili powder",
+    "Hot Sauce",
+    "Lemongrass",
+    "Garlic flakes",
+    "Salt",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "chao",
+    "ot bot",
+    "tuong ot",
+    "sa",
+    "toi phi",
+    "muoi",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

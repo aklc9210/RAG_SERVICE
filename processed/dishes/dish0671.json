@@ -1,0 +1,81 @@
+{
+  "id": "dish0671",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0671.json",
+  "name_vi": "Canh cải cúc (tần ô) thịt băm",
+  "name_en": "",
+  "name_normalized": "canh cai cuc tan o thit bam",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cải cúc",
+    "Thịt băm"
+  ],
+  "secondary_ingredients": [
+    "Hành ngò"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01780",
+    "ingre06329",
+    "ingre02724",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cải cúc",
+    "Thịt băm",
+    "Hành ngò",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chinese cabbage",
+    "Minced meat",
+    "Chives",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "cai cuc",
+    "thit bam",
+    "hanh ngo",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh cai cuc (tan o) thit bam",
+      "new": "canh cai cuc tan o thit bam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

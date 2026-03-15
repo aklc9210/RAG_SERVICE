@@ -1,0 +1,111 @@
+{
+  "id": "dish7472",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7472.json",
+  "name_vi": "Vịt rang muối",
+  "name_en": "",
+  "name_normalized": "vit rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt vịt ."
+  ],
+  "secondary_ingredients": [
+    "Gạo nếp",
+    "Gạo tẻ",
+    "Đậu xanh bỏ vỏ"
+  ],
+  "seasonings": [
+    "Bột năng :",
+    "Trứng gà",
+    "Nước mắm",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Gừng",
+    "Rượu trắng",
+    "Muối trắng"
+  ],
+  "ingredient_ids": [
+    "ingre06516",
+    "ingre00851",
+    "ingre06823",
+    "ingre04694",
+    "ingre00819",
+    "ingre06644",
+    "ingre02124",
+    "ingre02485",
+    "ingre05574",
+    "ingre02450",
+    "ingre02464",
+    "ingre07838",
+    "ingre03784"
+  ],
+  "ingredient_names_vi": [
+    "Thịt vịt .",
+    "Bột năng :",
+    "Trứng gà",
+    "Nước mắm",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Gừng",
+    "Rượu trắng",
+    "Gạo nếp",
+    "Gạo tẻ",
+    "Đậu xanh bỏ vỏ",
+    "Muối trắng"
+  ],
+  "ingredient_names_en": [
+    "Duck Meat",
+    "Cornstarch : ->",
+    "Chicken egg",
+    "Fish Sauce",
+    "MSG",
+    "Ground pepper",
+    "Cooking oil",
+    "Ginger",
+    "White wine",
+    "sticky rice",
+    "White Rice",
+    "Green peas",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit vit",
+    "bot nang",
+    "trung ga",
+    "nuoc mam",
+    "bot ngot",
+    "tieu xay",
+    "dau an",
+    "gung",
+    "ruou trang",
+    "gao nep",
+    "gao te",
+    "dau xanh bo vo",
+    "muoi trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "thit vit .",
+      "new": "thit vit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Thịt vịt ."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot nang :",
+      "new": "bot nang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột năng :"
+    }
+  ]
+}

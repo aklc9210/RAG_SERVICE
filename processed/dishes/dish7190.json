@@ -1,0 +1,103 @@
+{
+  "id": "dish7190",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7190.json",
+  "name_vi": "Mực nhồi thịt chiên nước mắm",
+  "name_en": "",
+  "name_normalized": "muc nhoi thit chien nuoc mam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mực ống",
+    "Thịt heo xay",
+    "Nấm mèo khô"
+  ],
+  "secondary_ingredients": [
+    "Bún tàu",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04281",
+    "ingre06414",
+    "ingre04936",
+    "ingre00355",
+    "ingre02768",
+    "ingre07063",
+    "ingre05574",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Mực ống",
+    "Thịt heo xay",
+    "Nấm mèo khô",
+    "Bún tàu",
+    "Hành tím",
+    "Tỏi",
+    "Rượu trắng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Tube squid",
+    "Ground Pork",
+    "Dried cat's ear mushroom",
+    "Noodle",
+    "Shallot",
+    "Garlic",
+    "White wine",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "muc ong",
+    "thit heo xay",
+    "nam meo kho",
+    "bun tau",
+    "hanh tim",
+    "toi",
+    "ruou trang",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

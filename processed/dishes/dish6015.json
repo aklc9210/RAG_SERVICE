@@ -1,0 +1,63 @@
+{
+  "id": "dish6015",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6015.json",
+  "name_vi": "Ếch kho nghệ",
+  "name_en": "",
+  "name_normalized": "ech kho nghe",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Ếch"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Tía tô"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột nghệ"
+  ],
+  "ingredient_ids": [
+    "ingre07930",
+    "ingre02673",
+    "ingre06925",
+    "ingre07063",
+    "ingre00804"
+  ],
+  "ingredient_names_vi": [
+    "Ếch",
+    "Hành lá",
+    "Tía tô",
+    "Tỏi",
+    "Bột nghệ"
+  ],
+  "ingredient_names_en": [
+    "Frog",
+    "Scallion",
+    "Cilantro",
+    "Garlic",
+    "Turmeric Powder"
+  ],
+  "ingredient_names_normalized": [
+    "ech",
+    "hanh la",
+    "tia to",
+    "toi",
+    "bot nghe"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

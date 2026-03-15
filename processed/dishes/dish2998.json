@@ -1,0 +1,108 @@
+{
+  "id": "dish2998",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2998.json",
+  "name_vi": "Bánh gạo cay Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "banh gao cay han quoc",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bánh gạo",
+    "Hành tây",
+    "Chả cá",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Trứng luộc",
+    "Siro bắp",
+    "Nước cá cơm khô",
+    "Hạt mè"
+  ],
+  "seasonings": [
+    "Tương ớt",
+    "Ớt bột",
+    "Nước tương",
+    "Đường",
+    "Rượu trắng",
+    "Tỏi băm"
+  ],
+  "ingredient_ids": [
+    "ingre00085",
+    "ingre02741",
+    "ingre01268",
+    "ingre02673",
+    "ingre06846",
+    "ingre07028",
+    "ingre07977",
+    "ingre04790",
+    "ingre05676",
+    "ingre07583",
+    "ingre05574",
+    "ingre07071",
+    "ingre04527",
+    "ingre02972"
+  ],
+  "ingredient_names_vi": [
+    "Bánh gạo",
+    "Hành tây",
+    "Chả cá",
+    "Hành lá",
+    "Trứng luộc",
+    "Tương ớt",
+    "Ớt bột",
+    "Nước tương",
+    "Siro bắp",
+    "Đường",
+    "Rượu trắng",
+    "Tỏi băm",
+    "Nước cá cơm khô",
+    "Hạt mè"
+  ],
+  "ingredient_names_en": [
+    "Glutinous Rice Cake",
+    "Onion",
+    "Fish cake",
+    "Scallion",
+    "Boiled egg",
+    "Hot Sauce",
+    "Chili powder",
+    "Soy Sauce",
+    "Corn syrup",
+    "Sugar",
+    "White wine",
+    "Minced Garlic",
+    "Dried mackerel water",
+    "Sesame Seeds"
+  ],
+  "ingredient_names_normalized": [
+    "banh gao",
+    "hanh tay",
+    "cha ca",
+    "hanh la",
+    "trung luoc",
+    "tuong ot",
+    "ot bot",
+    "nuoc tuong",
+    "siro bap",
+    "duong",
+    "ruou trang",
+    "toi bam",
+    "nuoc ca com kho",
+    "hat me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

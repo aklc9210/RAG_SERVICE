@@ -1,0 +1,81 @@
+{
+  "id": "dish8276",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8276.json",
+  "name_vi": "Nộm dưa chuột, dứa",
+  "name_en": "",
+  "name_normalized": "nom dua chuot dua",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Thơm"
+  ],
+  "secondary_ingredients": [
+    "Húng quế",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Dưa chuột",
+    "Nước cốt chanh",
+    "Ớt băm",
+    "Nước mắm",
+    "Tỏi băm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre02000",
+    "ingre06247",
+    "ingre02862",
+    "ingre07791",
+    "ingre04538",
+    "ingre07971",
+    "ingre04694",
+    "ingre07071",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Dưa chuột",
+    "Thơm",
+    "Húng quế",
+    "Đậu phộng rang",
+    "Nước cốt chanh",
+    "Ớt băm",
+    "Nước mắm",
+    "Tỏi băm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Basil",
+    "Cinnamon basil",
+    "Roasted Peanut",
+    "Lemon juice",
+    "Chopped Pepper",
+    "Fish Sauce",
+    "Minced Garlic",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dua chuot",
+    "thom",
+    "hung que",
+    "dau phong rang",
+    "nuoc cot chanh",
+    "ot bam",
+    "nuoc mam",
+    "toi bam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nom dua chuot, dua",
+      "new": "nom dua chuot dua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

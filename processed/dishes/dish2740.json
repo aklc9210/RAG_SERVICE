@@ -1,0 +1,83 @@
+{
+  "id": "dish2740",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2740.json",
+  "name_vi": "Mì cọng chiên",
+  "name_en": "",
+  "name_normalized": "mi cong chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu",
+    "Ớt bột"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre03222",
+    "ingre02673",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819",
+    "ingre03746",
+    "ingre06612",
+    "ingre07977"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Khoai tây",
+    "Hành lá",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Muối",
+    "Tiêu",
+    "Ớt bột"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Potato",
+    "Scallion",
+    "Sugar",
+    "Seasoning",
+    "MSG",
+    "Salt",
+    "Pepper",
+    "Chili powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "khoai tay",
+    "hanh la",
+    "duong",
+    "hat nem",
+    "bot ngot",
+    "muoi",
+    "tieu",
+    "ot bot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

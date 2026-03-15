@@ -1,0 +1,83 @@
+{
+  "id": "dish0569",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0569.json",
+  "name_vi": "Canh bí đao nấu tôm tươi",
+  "name_en": "",
+  "name_normalized": "canh bi dao nau tom tuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Tôm tươi",
+    "Bí đao"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hành boa rô"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06963",
+    "ingre00247",
+    "ingre02768",
+    "ingre02645",
+    "ingre02124",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Tôm tươi",
+    "Bí đao",
+    "Hành tím",
+    "Hành boa rô",
+    "Dầu ăn",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Fresh shrimp",
+    "Cucumber",
+    "Shallot",
+    "Garlic",
+    "Cooking oil",
+    "Salt",
+    "MSG",
+    "Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "tom tuoi",
+    "bi dao",
+    "hanh tim",
+    "hanh boa ro",
+    "dau an",
+    "muoi",
+    "bot ngot",
+    "hat nem",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

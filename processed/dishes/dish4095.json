@@ -1,0 +1,87 @@
+{
+  "id": "dish4095",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4095.json",
+  "name_vi": "Xôi thịt nướng",
+  "name_en": "",
+  "name_normalized": "xoi thit nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gạo nếp",
+    "Thịt ba chỉ heo"
+  ],
+  "secondary_ingredients": [
+    "Nước màu",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Tỏi băm",
+    "Hành tím băm",
+    "Nước mắm",
+    "Nước cốt dừa",
+    "Muối/ Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02450",
+    "ingre06280",
+    "ingre07071",
+    "ingre02774",
+    "ingre04694",
+    "ingre04672",
+    "ingre06174",
+    "ingre04554",
+    "ingre03818",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Gạo nếp",
+    "Thịt ba chỉ heo",
+    "Tỏi băm",
+    "Hành tím băm",
+    "Nước mắm",
+    "Nước màu",
+    "Sữa đặc",
+    "Nước cốt dừa",
+    "Muối/ Đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Pork belly",
+    "Minced Garlic",
+    "Chopped Scallion",
+    "Fish Sauce",
+    "Food coloring",
+    "Sweetened Condensed Milk",
+    "Coconut milk",
+    "Salt/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "gao nep",
+    "thit ba chi heo",
+    "toi bam",
+    "hanh tim bam",
+    "nuoc mam",
+    "nuoc mau",
+    "sua dac",
+    "nuoc cot dua",
+    "muoi duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

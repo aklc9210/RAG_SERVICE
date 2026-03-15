@@ -1,0 +1,71 @@
+{
+  "id": "dish7002",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7002.json",
+  "name_vi": "Cơm chiên chà bông từ cơm nguội",
+  "name_en": "",
+  "name_normalized": "com chien cha bong tu com nguoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cơm nguội"
+  ],
+  "secondary_ingredients": [
+    "Chà bông",
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01322",
+    "ingre01113",
+    "ingre02541",
+    "ingre02124",
+    "ingre03012"
+  ],
+  "ingredient_names_vi": [
+    "Cơm nguội",
+    "Chà bông",
+    "Hành lá",
+    "Dầu ăn",
+    "Hạt nêm/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Cold Rice",
+    "Pork floss",
+    "Scallion",
+    "Cooking oil",
+    "Seasoned Salt/Powdered Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "com nguoi",
+    "cha bong",
+    "hanh la",
+    "dau an",
+    "hat nem tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ tieu xay",
+      "new": "hat nem tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ Tiêu xay"
+    }
+  ]
+}

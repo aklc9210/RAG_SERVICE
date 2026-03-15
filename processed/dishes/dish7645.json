@@ -1,0 +1,87 @@
+{
+  "id": "dish7645",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7645.json",
+  "name_vi": "Bê hấp gừng",
+  "name_en": "",
+  "name_normalized": "be hap gung",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Thịt bê",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Lá tía tô"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06298",
+    "ingre02485",
+    "ingre05900",
+    "ingre07063",
+    "ingre03544",
+    "ingre04694",
+    "ingre06644",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bê",
+    "Gừng",
+    "Sả",
+    "Tỏi",
+    "Lá tía tô",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Ginger",
+    "Lemongrass",
+    "Garlic",
+    "Cilantro",
+    "Fish Sauce",
+    "Ground pepper",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit be",
+    "gung",
+    "sa",
+    "toi",
+    "la tia to",
+    "nuoc mam",
+    "tieu xay",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

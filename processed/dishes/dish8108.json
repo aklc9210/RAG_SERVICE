@@ -1,0 +1,78 @@
+{
+  "id": "dish8108",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8108.json",
+  "name_vi": "Gỏi hoa chuối trộn nấm bào cư",
+  "name_en": "",
+  "name_normalized": "goi hoa chuoi tron nam bao cu",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bắp chuối bào",
+    "Mì căn"
+  ],
+  "secondary_ingredients": [
+    "Nấm bào ngư",
+    "Đậu phộng rang",
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Dưa chuột",
+    "Ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00453",
+    "ingre03960",
+    "ingre04894",
+    "ingre07791",
+    "ingre01419",
+    "ingre02000",
+    "ingre07966",
+    "ingre05359"
+  ],
+  "ingredient_names_vi": [
+    "Bắp chuối bào",
+    "Mì căn",
+    "Nấm bào ngư",
+    "Đậu phộng rang",
+    "Cà rốt",
+    "Dưa chuột",
+    "Ớt",
+    "Rau răm"
+  ],
+  "ingredient_names_en": [
+    "Banana sprout",
+    "Glass noodle",
+    "Oyster mushroom",
+    "Roasted Peanut",
+    "Carrot",
+    "Cucumber",
+    "Pepper",
+    "Vietnamese coriander"
+  ],
+  "ingredient_names_normalized": [
+    "bap chuoi bao",
+    "mi can",
+    "nam bao ngu",
+    "dau phong rang",
+    "ca rot",
+    "dua chuot",
+    "ot",
+    "rau ram"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

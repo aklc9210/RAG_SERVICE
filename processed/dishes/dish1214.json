@@ -1,0 +1,73 @@
+{
+  "id": "dish1214",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1214.json",
+  "name_vi": "Bánh mì nướng bằng chảo",
+  "name_en": "",
+  "name_normalized": "banh mi nuong bang chao",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước ấm",
+    "Bơ lạt",
+    "Mè trắng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì số 13",
+    "Men nở",
+    "Trứng gà",
+    "Muối",
+    "Đường",
+    "Sữa tươi không đường"
+  ],
+  "ingredient_ids": [
+    "ingre00782",
+    "ingre03686",
+    "ingre04879",
+    "ingre06823",
+    "ingre03746",
+    "ingre07583",
+    "ingre06147",
+    "ingre00382",
+    "ingre03935"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì số 13",
+    "Men nở",
+    "Nước ấm",
+    "Trứng gà",
+    "Muối",
+    "Đường",
+    "Sữa tươi không đường",
+    "Bơ lạt",
+    "Mè trắng"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Baking Powder",
+    "Warm water",
+    "Chicken egg",
+    "Salt",
+    "Sugar",
+    "Fat-free Milk",
+    "Butter",
+    "White sesame"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi so 13",
+    "men no",
+    "nuoc am",
+    "trung ga",
+    "muoi",
+    "duong",
+    "sua tuoi khong duong",
+    "bo lat",
+    "me trang"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

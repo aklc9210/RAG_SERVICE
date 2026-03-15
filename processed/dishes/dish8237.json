@@ -1,0 +1,97 @@
+{
+  "id": "dish8237",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8237.json",
+  "name_vi": "Salad cầu vồng chay",
+  "name_en": "",
+  "name_normalized": "salad cau vong chay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Dưa leo",
+    "Cà chua",
+    "Cần tây"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ chiên",
+    "Hạt điều",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Giấm tiều",
+    "Gừng",
+    "Hạt nêm chay",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02020",
+    "ingre01354",
+    "ingre01812",
+    "ingre07999",
+    "ingre07742",
+    "ingre02369",
+    "ingre03062",
+    "ingre03929",
+    "ingre02485",
+    "ingre02997",
+    "ingre03818",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Dưa leo",
+    "Cà chua",
+    "Cần tây",
+    "Ớt chuông",
+    "Đậu hũ chiên",
+    "Giấm tiều",
+    "Hạt điều",
+    "Mè rang",
+    "Gừng",
+    "Hạt nêm chay",
+    "Muối/ đường",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Cucumber",
+    "Tomato",
+    "Celery",
+    "Bell pepper",
+    "Fried Tofu",
+    "Rice vinegar",
+    "Peanut",
+    "Roasted Sesame Seeds",
+    "Ginger",
+    "Vegetarian Seasoning",
+    "Salt/Sugar",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "dua leo",
+    "ca chua",
+    "can tay",
+    "ot chuong",
+    "dau hu chien",
+    "giam tieu",
+    "hat dieu",
+    "me rang",
+    "gung",
+    "hat nem chay",
+    "muoi duong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

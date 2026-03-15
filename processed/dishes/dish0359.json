@@ -1,0 +1,126 @@
+{
+  "id": "dish0359",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0359.json",
+  "name_vi": "Canh chua lươn nấu bắp chuối",
+  "name_en": "",
+  "name_normalized": "canh chua luon nau bap chuoi",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Lươn",
+    "Bắp chuối đã bào sẵn",
+    "Me chua",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Lá húng quế"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03596",
+    "ingre00456",
+    "ingre03644",
+    "ingre01354",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre03439",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lươn",
+    "Bắp chuối đã bào sẵn",
+    "Me chua",
+    "Cà chua",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Lá húng quế",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Eel",
+    "Frozen Corn",
+    "Mint",
+    "Tomato",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Rosemary",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "luon",
+    "bap chuoi da bao san",
+    "me chua",
+    "ca chua",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "ot",
+    "chanh",
+    "la hung que",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

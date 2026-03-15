@@ -1,0 +1,113 @@
+{
+  "id": "dish5676",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5676.json",
+  "name_vi": "Cá nục kho thịt ba chỉ với riềng",
+  "name_en": "",
+  "name_normalized": "ca nuc kho thit ba chi voi rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá nục",
+    "Thịt ba chỉ",
+    "Riềng tươi",
+    "Nước dừa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Tiêu đen nguyên hạt",
+    "Rượu trắng",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01598",
+    "ingre06275",
+    "ingre05443",
+    "ingre04626",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre01079",
+    "ingre06654",
+    "ingre05574",
+    "ingre04672",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá nục",
+    "Thịt ba chỉ",
+    "Riềng tươi",
+    "Nước dừa tươi",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Chanh",
+    "Tiêu đen nguyên hạt",
+    "Rượu trắng",
+    "Nước màu",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Mackerel",
+    "Pork belly",
+    "Fresh Ginger",
+    "Coconut water",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Lemon",
+    "Black Pepper Corns",
+    "White wine",
+    "Food coloring",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca nuc",
+    "thit ba chi",
+    "rieng tuoi",
+    "nuoc dua tuoi",
+    "hanh tim",
+    "toi",
+    "ot",
+    "chanh",
+    "tieu den nguyen hat",
+    "ruou trang",
+    "nuoc mau",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

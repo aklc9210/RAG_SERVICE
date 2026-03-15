@@ -1,0 +1,66 @@
+{
+  "id": "dish9925",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9925.json",
+  "name_vi": "Siro húng quất (tắc) đường phèn diếp cá",
+  "name_en": "",
+  "name_normalized": "siro hung quat tac duong phen diep ca",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Quả quất"
+  ],
+  "secondary_ingredients": [
+    "Lá diếp cá",
+    "Nước"
+  ],
+  "seasonings": [
+    "Lá húng chanh",
+    "Gừng",
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre05169",
+    "ingre03436",
+    "ingre03413",
+    "ingre02485",
+    "ingre07635",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Quả quất",
+    "Lá húng chanh",
+    "Lá diếp cá",
+    "Gừng",
+    "Đường phèn",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Kumquat",
+    "Lime basil",
+    "Fish leaf lettuce",
+    "Ginger",
+    "Brown Sugar",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "qua quat",
+    "la hung chanh",
+    "la diep ca",
+    "gung",
+    "duong phen",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "siro hung quat (tac) duong phen diep ca",
+      "new": "siro hung quat tac duong phen diep ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

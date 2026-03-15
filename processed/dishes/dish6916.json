@@ -1,0 +1,73 @@
+{
+  "id": "dish6916",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6916.json",
+  "name_vi": "Trứng lòng đào sốt me",
+  "name_en": "",
+  "name_normalized": "trung long dao sot me",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Trứng vịt"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Đường thốt nốt",
+    "Nước mắm",
+    "Nước cốt me",
+    "Nước bột bắp",
+    "Hành phi"
+  ],
+  "ingredient_ids": [
+    "ingre06853",
+    "ingre07647",
+    "ingre04694",
+    "ingre04581",
+    "ingre04496",
+    "ingre02730",
+    "ingre02673"
+  ],
+  "ingredient_names_vi": [
+    "Trứng vịt",
+    "Đường thốt nốt",
+    "Nước mắm",
+    "Nước cốt me",
+    "Nước bột bắp",
+    "Hành phi",
+    "Hành lá"
+  ],
+  "ingredient_names_en": [
+    "Quail egg",
+    "Cane Sugar",
+    "Fish Sauce",
+    "Lime juice",
+    "Cornstarch Water",
+    "Garlic Fried",
+    "Scallion"
+  ],
+  "ingredient_names_normalized": [
+    "trung vit",
+    "duong thot not",
+    "nuoc mam",
+    "nuoc cot me",
+    "nuoc bot bap",
+    "hanh phi",
+    "hanh la"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre00153",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00153.json",
+  "name_vi": "bánh quy m&m",
+  "name_en": "M&M Cookies",
+  "name_normalized": "banh quy m m",
+  "synonyms": [
+    "m&m",
+    "kẹo m&m"
+  ],
+  "synonyms_normalized": [
+    "m m",
+    "keo m m"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy m&m",
+      "new": "banh quy m m",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

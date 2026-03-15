@@ -1,0 +1,66 @@
+{
+  "id": "dish2045",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2045.json",
+  "name_vi": "Bánh trái cây khô - fruit cake",
+  "name_en": "",
+  "name_normalized": "banh trai cay kho fruit cake",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dâu tây xay",
+    "Xoài xay"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lòng trắng trứng",
+    "Đường",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre03579",
+    "ingre07583",
+    "ingre01965",
+    "ingre07344",
+    "ingre03746",
+    "ingre04538"
+  ],
+  "ingredient_names_vi": [
+    "Lòng trắng trứng",
+    "Đường",
+    "Dâu tây xay",
+    "Xoài xay",
+    "Muối",
+    "Nước cốt chanh"
+  ],
+  "ingredient_names_en": [
+    "Egg white",
+    "Sugar",
+    "Strawberry puree",
+    "Mashed Banana",
+    "Salt",
+    "Lemon juice"
+  ],
+  "ingredient_names_normalized": [
+    "long trang trung",
+    "duong",
+    "dau tay xay",
+    "xoai xay",
+    "muoi",
+    "nuoc cot chanh"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh trai cay kho - fruit cake",
+      "new": "banh trai cay kho fruit cake",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

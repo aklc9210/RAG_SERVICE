@@ -1,0 +1,97 @@
+{
+  "id": "dish4133",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4133.json",
+  "name_vi": "Ốc tỏi nướng nước mắm",
+  "name_en": "",
+  "name_normalized": "oc toi nuong nuoc mam",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Tắc",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ốc tỏi",
+    "Tỏi",
+    "Ớt",
+    "Nước cốt chanh",
+    "Nước dùng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre07955",
+    "ingre07063",
+    "ingre07966",
+    "ingre07057",
+    "ingre05359",
+    "ingre04538",
+    "ingre04602",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Ốc tỏi",
+    "Tỏi",
+    "Ớt",
+    "Tắc",
+    "Rau răm",
+    "Nước cốt chanh",
+    "Nước dùng",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Garlic snail",
+    "Garlic",
+    "Pepper",
+    "Tamarind",
+    "Vietnamese coriander",
+    "Lemon juice",
+    "Chicken Stock",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "oc toi",
+    "toi",
+    "ot",
+    "tac",
+    "rau ram",
+    "nuoc cot chanh",
+    "nuoc dung",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "tieu"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

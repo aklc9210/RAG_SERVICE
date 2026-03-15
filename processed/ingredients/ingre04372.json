@@ -1,0 +1,25 @@
+{
+  "id": "ingre04372",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04372.json",
+  "name_vi": "ngô/ bắp nếp",
+  "name_en": "Corn",
+  "name_normalized": "ngo bap nep",
+  "synonyms": [
+    "bắp ngô"
+  ],
+  "synonyms_normalized": [
+    "bap ngo"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngo/ bap nep",
+      "new": "ngo bap nep",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "dish9370",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9370.json",
+  "name_vi": "Bì cuốn miền Tây",
+  "name_en": "",
+  "name_normalized": "bi cuon mien tay",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt ba rọi rút sườn",
+    "Da bì tươi"
+  ],
+  "secondary_ingredients": [
+    "Thính gạo",
+    "Rau cuốn gỏi/ bánh tráng phơi sương"
+  ],
+  "seasonings": [
+    "Tỏi ớt băm",
+    "Bột ngũ vị hương",
+    "Đường thốt nốt",
+    "Giấm",
+    "Nước cốt chanh",
+    "Ít cà rốt bào sợi",
+    "Tỏi phi",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06293",
+    "ingre01929",
+    "ingre07118",
+    "ingre00815",
+    "ingre07647",
+    "ingre02355",
+    "ingre04538",
+    "ingre07465",
+    "ingre07096",
+    "ingre06241",
+    "ingre05218",
+    "ingre03746",
+    "ingre07583",
+    "ingre04694",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi rút sườn",
+    "Da bì tươi",
+    "Tỏi ớt băm",
+    "Bột ngũ vị hương",
+    "Đường thốt nốt",
+    "Giấm",
+    "Nước cốt chanh",
+    "Ít cà rốt bào sợi",
+    "Tỏi phi",
+    "Thính gạo",
+    "Rau cuốn gỏi/ bánh tráng phơi sương",
+    "Muối",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Fresh pigskin",
+    "Minced chili garlic",
+    "Five-Spice Powder",
+    "Cane Sugar",
+    "Vinegar",
+    "Lemon juice",
+    "Carrot Shreds",
+    "Garlic flakes",
+    "Rice flour",
+    "Spring Roll Herb/Rice Paper",
+    "Salt",
+    "Sugar",
+    "Fish Sauce",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi rut suon",
+    "da bi tuoi",
+    "toi ot bam",
+    "bot ngu vi huong",
+    "duong thot not",
+    "giam",
+    "nuoc cot chanh",
+    "it ca rot bao soi",
+    "toi phi",
+    "thinh gao",
+    "rau cuon goi banh trang phoi suong",
+    "muoi",
+    "duong",
+    "nuoc mam",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau cuon goi/ banh trang phoi suong",
+      "new": "rau cuon goi banh trang phoi suong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau cuốn gỏi/ bánh tráng phơi sương"
+    }
+  ]
+}

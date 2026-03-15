@@ -1,0 +1,27 @@
+{
+  "id": "ingre00149",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00149.json",
+  "name_vi": "bánh quy cracker/ bánh quy giòn",
+  "name_en": "Cracker",
+  "name_normalized": "banh quy cracker banh quy gion",
+  "synonyms": [
+    "bánh quy giòn",
+    "cracker"
+  ],
+  "synonyms_normalized": [
+    "banh quy gion",
+    "cracker"
+  ],
+  "category": "snacks",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh quy cracker/ banh quy gion",
+      "new": "banh quy cracker banh quy gion",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

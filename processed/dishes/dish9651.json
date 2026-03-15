@@ -1,0 +1,45 @@
+{
+  "id": "dish9651",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9651.json",
+  "name_vi": "Cà phê ủ lạnh (coffee cold brew)",
+  "name_en": "",
+  "name_normalized": "ca phe u lanh coffee cold brew",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Hạt cà phê",
+    "Nước lọc"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre02925",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Hạt cà phê",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Coffee bean",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "hat ca phe",
+    "nuoc loc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca phe u lanh (coffee cold brew)",
+      "new": "ca phe u lanh coffee cold brew",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

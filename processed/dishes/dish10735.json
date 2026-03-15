@@ -1,0 +1,97 @@
+{
+  "id": "dish10735",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10735.json",
+  "name_vi": "Thịt heo luộc",
+  "name_en": "",
+  "name_normalized": "thit heo luoc",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Thịt đùi"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Sả",
+    "Bánh tráng cuốn",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Mắm nêm",
+    "Nước cốt chanh",
+    "Ớt",
+    "Tỏi",
+    "Gừng",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06527",
+    "ingre04148",
+    "ingre04538",
+    "ingre07966",
+    "ingre07063",
+    "ingre06247",
+    "ingre05900",
+    "ingre02485",
+    "ingre00186",
+    "ingre05420",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Thịt đùi",
+    "Mắm nêm",
+    "Nước cốt chanh",
+    "Ớt",
+    "Tỏi",
+    "Thơm",
+    "Sả",
+    "Gừng",
+    "Bánh tráng cuốn",
+    "Rau ăn kèm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pork thigh",
+    "Fish sauce",
+    "Lemon juice",
+    "Pepper",
+    "Garlic",
+    "Basil",
+    "Lemongrass",
+    "Ginger",
+    "Spring roll wrapper",
+    "Side vegetable",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "thit dui",
+    "mam nem",
+    "nuoc cot chanh",
+    "ot",
+    "toi",
+    "thom",
+    "sa",
+    "gung",
+    "banh trang cuon",
+    "rau an kem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

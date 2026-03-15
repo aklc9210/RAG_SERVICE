@@ -1,0 +1,96 @@
+{
+  "id": "dish4347",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4347.json",
+  "name_vi": "Kimbap nướng/gimbap nướng",
+  "name_en": "",
+  "name_normalized": "kimbap nuong gimbap nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Lá rong biển",
+    "Xúc xích"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Trứng",
+    "Bột mì đa dụng",
+    "Sữa tươi không đường",
+    "Cà rốt",
+    "Cream of tartar",
+    "Đường",
+    "Muối",
+    "Vani",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre06801",
+    "ingre00791",
+    "ingre06147",
+    "ingre03509",
+    "ingre07396",
+    "ingre01419",
+    "ingre01328",
+    "ingre07583",
+    "ingre03746",
+    "ingre07140",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Trứng",
+    "Bột mì đa dụng",
+    "Sữa tươi không đường",
+    "Lá rong biển",
+    "Xúc xích",
+    "Cà rốt",
+    "Cream of tartar",
+    "Đường",
+    "Muối",
+    "Vani",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Egg",
+    "All-purpose flour",
+    "Fat-free Milk",
+    "Kelp",
+    "Sausage",
+    "Carrot",
+    "Cream of tartar",
+    "Sugar",
+    "Salt",
+    "Vanilla",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "trung",
+    "bot mi da dung",
+    "sua tuoi khong duong",
+    "la rong bien",
+    "xuc xich",
+    "ca rot",
+    "cream of tartar",
+    "duong",
+    "muoi",
+    "vani",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "kimbap nuong/gimbap nuong",
+      "new": "kimbap nuong gimbap nuong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

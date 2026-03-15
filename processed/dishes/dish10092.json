@@ -1,0 +1,64 @@
+{
+  "id": "dish10092",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10092.json",
+  "name_vi": "Yaourt phúc bồn tử (quả mâm xôi)",
+  "name_en": "",
+  "name_normalized": "yaourt phuc bon tu qua mam xoi",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Phúc bồn tử"
+  ],
+  "secondary_ingredients": [
+    "Yaourt",
+    "Nước đá lạnh"
+  ],
+  "seasonings": [
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05126",
+    "ingre07448",
+    "ingre04855",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Phúc bồn tử",
+    "Yaourt",
+    "Nước đá lạnh",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Raspberry",
+    "Yogurt",
+    "Ice cubes",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "phuc bon tu",
+    "yaourt",
+    "nuoc da lanh",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "yaourt phuc bon tu (qua mam xoi)",
+      "new": "yaourt phuc bon tu qua mam xoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre07352",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07352.json",
+  "name_vi": "xà lách & rau thơm & dưa leo",
+  "name_en": "Lettuce & Herb & Cucumber",
+  "name_normalized": "xa lach rau thom dua leo",
+  "synonyms": [
+    "xà lách iceberg",
+    "rau mùi",
+    "rau húng quế"
+  ],
+  "synonyms_normalized": [
+    "xa lach iceberg",
+    "rau mui",
+    "rau hung que"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "xa lach & rau thom & dua leo",
+      "new": "xa lach rau thom dua leo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

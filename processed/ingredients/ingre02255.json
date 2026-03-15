@@ -1,0 +1,27 @@
+{
+  "id": "ingre02255",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02255.json",
+  "name_vi": "gelatin (kem trứng)",
+  "name_en": "Egg white gelatin",
+  "name_normalized": "gelatin kem trung",
+  "synonyms": [
+    "kem tươi whipping",
+    "kem tươi đánh bông"
+  ],
+  "synonyms_normalized": [
+    "kem tuoi whipping",
+    "kem tuoi danh bong"
+  ],
+  "category": "others",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "gelatin (kem trung)",
+      "new": "gelatin kem trung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

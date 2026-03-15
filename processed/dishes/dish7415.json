@@ -1,0 +1,73 @@
+{
+  "id": "dish7415",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7415.json",
+  "name_vi": "Xiên que cá chẽm chiên giòn sốt thì là",
+  "name_en": "",
+  "name_normalized": "xien que ca chem chien gion sot thi la",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Phi lê cá chẽm",
+    "Bí ngòi xanh"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Thì là"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Nước cốt chanh",
+    "Bột tẩm khô chiên giòn"
+  ],
+  "ingredient_ids": [
+    "ingre05030",
+    "ingre00239",
+    "ingre03222",
+    "ingre01419",
+    "ingre06233",
+    "ingre04538",
+    "ingre00975"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá chẽm",
+    "Bí ngòi xanh",
+    "Khoai tây",
+    "Cà rốt",
+    "Thì là",
+    "Nước cốt chanh",
+    "Bột tẩm khô chiên giòn"
+  ],
+  "ingredient_names_en": [
+    "Cod liver",
+    "Green bitter melon",
+    "Potato",
+    "Carrot",
+    "Dill",
+    "Lemon juice",
+    "Puffed Seasoned Powder"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca chem",
+    "bi ngoi xanh",
+    "khoai tay",
+    "ca rot",
+    "thi la",
+    "nuoc cot chanh",
+    "bot tam kho chien gion"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    }
+  ]
+}

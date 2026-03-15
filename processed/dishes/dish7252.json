@@ -1,0 +1,81 @@
+{
+  "id": "dish7252",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7252.json",
+  "name_vi": "Thịt nhồi cà tím sốt cà",
+  "name_en": "",
+  "name_normalized": "thit nhoi ca tim sot ca",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà tím",
+    "Thịt heo xay"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Tương cà",
+    "Sốt cà chua",
+    "Xì dầu",
+    "Dầu ăn",
+    "Bột bắp",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01444",
+    "ingre06414",
+    "ingre07071",
+    "ingre06984",
+    "ingre05947",
+    "ingre07381",
+    "ingre02124",
+    "ingre00564",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Cà tím",
+    "Thịt heo xay",
+    "Tỏi băm",
+    "Tương cà",
+    "Sốt cà chua",
+    "Xì dầu",
+    "Dầu ăn",
+    "Bột bắp",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Purple cabbage",
+    "Ground Pork",
+    "Minced Garlic",
+    "Miso酱",
+    "Tomato sauce",
+    "Soy Sauce",
+    "Cooking oil",
+    "Corn starch",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca tim",
+    "thit heo xay",
+    "toi bam",
+    "tuong ca",
+    "sot ca chua",
+    "xi dau",
+    "dau an",
+    "bot bap",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

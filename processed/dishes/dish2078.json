@@ -1,0 +1,66 @@
+{
+  "id": "dish2078",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2078.json",
+  "name_vi": "Bánh bò bông caramel - Huat Kueh",
+  "name_en": "",
+  "name_normalized": "banh bo bong caramel huat kueh",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Lá dứa",
+    "Nước nóng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì Self raising",
+    "Nước cốt dừa",
+    "Tinh bột bắp",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00775",
+    "ingre04554",
+    "ingre06562",
+    "ingre03417",
+    "ingre07583",
+    "ingre04738"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì Self raising",
+    "Nước cốt dừa",
+    "Tinh bột bắp",
+    "Lá dứa",
+    "Đường",
+    "Nước nóng"
+  ],
+  "ingredient_names_en": [
+    "Self-Rising Flour",
+    "Coconut milk",
+    "Corn starch",
+    "Pandan叶",
+    "Sugar",
+    "Hot water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi self raising",
+    "nuoc cot dua",
+    "tinh bot bap",
+    "la dua",
+    "duong",
+    "nuoc nong"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bo bong caramel - huat kueh",
+      "new": "banh bo bong caramel huat kueh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

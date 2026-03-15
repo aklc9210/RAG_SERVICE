@@ -1,0 +1,134 @@
+{
+  "id": "dish8986",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8986.json",
+  "name_vi": "Khô gà lá chanh",
+  "name_en": "",
+  "name_normalized": "kho ga la chanh",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt ức gà",
+    "Hành tím",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Màu điều"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Gừng",
+    "Ớt sừng",
+    "Lá chanh",
+    "Ớt bột Hàn Quốc",
+    "Bột ngũ vị hương",
+    "Bột cà ri",
+    "Dầu ăn",
+    "Dầu hào",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06544",
+    "ingre07063",
+    "ingre02768",
+    "ingre05900",
+    "ingre02485",
+    "ingre08055",
+    "ingre02741",
+    "ingre03370",
+    "ingre07983",
+    "ingre00815",
+    "ingre00631",
+    "ingre02124",
+    "ingre02080",
+    "ingre03907",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ức gà",
+    "Tỏi",
+    "Hành tím",
+    "Sả",
+    "Gừng",
+    "Ớt sừng",
+    "Hành tây",
+    "Lá chanh",
+    "Ớt bột Hàn Quốc",
+    "Bột ngũ vị hương",
+    "Bột cà ri",
+    "Dầu ăn",
+    "Dầu hào",
+    "Màu điều",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Garlic",
+    "Shallot",
+    "Lemongrass",
+    "Ginger",
+    "Hot pepper",
+    "Onion",
+    "Lime leaf",
+    "Korean chili powder",
+    "Five-Spice Powder",
+    "Curry powder",
+    "Cooking oil",
+    "Soy sauce",
+    "Pumpkinseed oil",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit uc ga",
+    "toi",
+    "hanh tim",
+    "sa",
+    "gung",
+    "ot sung",
+    "hanh tay",
+    "la chanh",
+    "ot bot han quoc",
+    "bot ngu vi huong",
+    "bot ca ri",
+    "dau an",
+    "dau hao",
+    "mau dieu",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dish4994",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4994.json",
+  "name_vi": "Ngó môn xào tỏi",
+  "name_en": "",
+  "name_normalized": "ngo mon xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Ngó môn"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi băm",
+    "Tỏi",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre04360",
+    "ingre07071",
+    "ingre07063",
+    "ingre08078",
+    "ingre02124",
+    "ingre07678"
+  ],
+  "ingredient_names_vi": [
+    "Ngó môn",
+    "Tỏi băm",
+    "Tỏi",
+    "Ớt tươi",
+    "Dầu ăn",
+    "Đường/ hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Green onions",
+    "Minced Garlic",
+    "Garlic",
+    "Fresh chili",
+    "Cooking oil",
+    "Soy Sauce/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ngo mon",
+    "toi bam",
+    "toi",
+    "ot tuoi",
+    "dau an",
+    "duong hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ hạt nêm"
+    }
+  ]
+}

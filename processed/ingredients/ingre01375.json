@@ -1,0 +1,29 @@
+{
+  "id": "ingre01375",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre01375.json",
+  "name_vi": "cà chua/ dưa leo/ xà lách/ tương cà",
+  "name_en": "Tomato/Cucumber/Lettuce/Corn Soy Sauce",
+  "name_normalized": "ca chua dua leo xa lach tuong ca",
+  "synonyms": [
+    "dưa chua",
+    "quả cà chua",
+    "lá xà lách"
+  ],
+  "synonyms_normalized": [
+    "dua chua",
+    "qua ca chua",
+    "la xa lach"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca chua/ dua leo/ xa lach/ tuong ca",
+      "new": "ca chua dua leo xa lach tuong ca",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

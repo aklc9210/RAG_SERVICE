@@ -1,0 +1,66 @@
+{
+  "id": "dish9642",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9642.json",
+  "name_vi": "Cold Brew cam",
+  "name_en": "",
+  "name_normalized": "cold brew cam",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Cà phê hạt"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc",
+    "Đá viên",
+    "Cam vàng",
+    "Siro cam sả",
+    "Sả"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre01402",
+    "ingre04665",
+    "ingre07522",
+    "ingre01053",
+    "ingre05679",
+    "ingre05900"
+  ],
+  "ingredient_names_vi": [
+    "Cà phê hạt",
+    "Nước lọc",
+    "Đá viên",
+    "Cam vàng",
+    "Siro cam sả",
+    "Sả"
+  ],
+  "ingredient_names_en": [
+    "Coffee Bean",
+    "Tap water",
+    "Ice cube",
+    "Orange",
+    "Lemongrass Orange Syrup",
+    "Lemongrass"
+  ],
+  "ingredient_names_normalized": [
+    "ca phe hat",
+    "nuoc loc",
+    "da vien",
+    "cam vang",
+    "siro cam sa",
+    "sa"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

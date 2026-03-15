@@ -1,0 +1,121 @@
+{
+  "id": "dish4086",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4086.json",
+  "name_vi": "Vịt nướng dầu hào",
+  "name_en": "",
+  "name_normalized": "vit nuong dau hao",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Đùi vịt",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Sả",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Dầu hào",
+    "Rượu trắng",
+    "Giấm",
+    "Tỏi",
+    "Gừng",
+    "Nước cốt chanh",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Ớt bột",
+    "Ngũ vị hương"
+  ],
+  "ingredient_ids": [
+    "ingre07568",
+    "ingre02080",
+    "ingre05574",
+    "ingre04124",
+    "ingre02355",
+    "ingre02673",
+    "ingre07063",
+    "ingre05900",
+    "ingre02485",
+    "ingre04538",
+    "ingre06644",
+    "ingre02995",
+    "ingre07977",
+    "ingre04381",
+    "ingre02094"
+  ],
+  "ingredient_names_vi": [
+    "Đùi vịt",
+    "Dầu hào",
+    "Rượu trắng",
+    "Mật ong",
+    "Giấm",
+    "Hành lá",
+    "Tỏi",
+    "Sả",
+    "Gừng",
+    "Nước cốt chanh",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Ớt bột",
+    "Ngũ vị hương",
+    "Dầu mè"
+  ],
+  "ingredient_names_en": [
+    "鸭腿",
+    "Soy sauce",
+    "White wine",
+    "Honey",
+    "Vinegar",
+    "Scallion",
+    "Garlic",
+    "Lemongrass",
+    "Ginger",
+    "Lemon juice",
+    "Ground pepper",
+    "Seasoning",
+    "Chili powder",
+    "Five-Spice Powder",
+    "Sesame oil"
+  ],
+  "ingredient_names_normalized": [
+    "dui vit",
+    "dau hao",
+    "ruou trang",
+    "mat ong",
+    "giam",
+    "hanh la",
+    "toi",
+    "sa",
+    "gung",
+    "nuoc cot chanh",
+    "tieu xay",
+    "hat nem",
+    "ot bot",
+    "ngu vi huong",
+    "dau me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

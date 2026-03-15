@@ -1,0 +1,117 @@
+{
+  "id": "dish7447",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7447.json",
+  "name_vi": "Gà rán bằng nồi chiên không dầu",
+  "name_en": "",
+  "name_normalized": "ga ran bang noi chien khong dau",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cái Đùi à",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bột chiên xù",
+    "Bột chiên giòn",
+    "Trứng gà",
+    "Gừng",
+    "Tỏi",
+    "Hạt nêm",
+    "Ớt bột",
+    "Bột nghệ",
+    "Tiêu xay",
+    "Tương ớt",
+    "Đường",
+    "Muối",
+    "Rượu trắng"
+  ],
+  "ingredient_ids": [
+    "ingre01688",
+    "ingre00609",
+    "ingre00598",
+    "ingre06144",
+    "ingre06823",
+    "ingre02485",
+    "ingre07063",
+    "ingre02768",
+    "ingre02995",
+    "ingre07977",
+    "ingre00804",
+    "ingre06644",
+    "ingre07028",
+    "ingre07583",
+    "ingre03746",
+    "ingre05574"
+  ],
+  "ingredient_names_vi": [
+    "Cái Đùi à",
+    "Bột chiên xù",
+    "Bột chiên giòn",
+    "Sữa tươi",
+    "Trứng gà",
+    "Gừng",
+    "Tỏi",
+    "Hành tím",
+    "Hạt nêm",
+    "Ớt bột",
+    "Bột nghệ",
+    "Tiêu xay",
+    "Tương ớt",
+    "Đường",
+    "Muối",
+    "Rượu trắng"
+  ],
+  "ingredient_names_en": [
+    "Chicken Thigh",
+    "Puffed Rice Powder",
+    "Fresh Milk",
+    "Chicken egg",
+    "Ginger",
+    "Garlic",
+    "Shallot",
+    "Seasoning",
+    "Chili powder",
+    "Turmeric Powder",
+    "Ground pepper",
+    "Hot Sauce",
+    "Sugar",
+    "Salt",
+    "White wine"
+  ],
+  "ingredient_names_normalized": [
+    "cai dui a",
+    "bot chien xu",
+    "bot chien gion",
+    "sua tuoi",
+    "trung ga",
+    "gung",
+    "toi",
+    "hanh tim",
+    "hat nem",
+    "ot bot",
+    "bot nghe",
+    "tieu xay",
+    "tuong ot",
+    "duong",
+    "muoi",
+    "ruou trang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ingre03193",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03193.json",
+  "name_vi": "khoai lang mật :",
+  "name_en": "Sweet Potato",
+  "name_normalized": "khoai lang mat",
+  "synonyms": [
+    "khoai lang",
+    "lang",
+    "khoai lang vàng"
+  ],
+  "synonyms_normalized": [
+    "khoai lang",
+    "lang",
+    "khoai lang vang"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "khoai lang mat :",
+      "new": "khoai lang mat",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

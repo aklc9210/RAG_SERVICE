@@ -1,0 +1,146 @@
+{
+  "id": "dish4048",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4048.json",
+  "name_vi": "Cá lóc nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "ca loc nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá lóc",
+    "Mỡ heo",
+    "Bún",
+    "Hành lá",
+    "Thì là"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Lạc rang",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Chanh",
+    "Nước mắm",
+    "Bột nghệ",
+    "Tiêu",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre04192",
+    "ingre00338",
+    "ingre02673",
+    "ingre06233",
+    "ingre07063",
+    "ingre07966",
+    "ingre02485",
+    "ingre05900",
+    "ingre02768",
+    "ingre01079",
+    "ingre03609",
+    "ingre04694",
+    "ingre00804",
+    "ingre06612",
+    "ingre02995",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Mỡ heo",
+    "Bún",
+    "Hành lá",
+    "Thì là",
+    "Tỏi",
+    "Ớt",
+    "Gừng",
+    "Sả",
+    "Hành tím",
+    "Chanh",
+    "Lạc rang",
+    "Nước mắm",
+    "Bột nghệ",
+    "Tiêu",
+    "Hạt nêm",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Pork fat",
+    "Noodle",
+    "Scallion",
+    "Dill",
+    "Garlic",
+    "Pepper",
+    "Ginger",
+    "Lemongrass",
+    "Shallot",
+    "Lemon",
+    "Roasted Peanut",
+    "Fish Sauce",
+    "Turmeric Powder",
+    "Seasoning",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "mo heo",
+    "bun",
+    "hanh la",
+    "thi la",
+    "toi",
+    "ot",
+    "gung",
+    "sa",
+    "hanh tim",
+    "chanh",
+    "lac rang",
+    "nuoc mam",
+    "bot nghe",
+    "tieu",
+    "hat nem",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

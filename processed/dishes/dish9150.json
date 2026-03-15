@@ -1,0 +1,71 @@
+{
+  "id": "dish9150",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9150.json",
+  "name_vi": "Nước chấm ốc chanh dây",
+  "name_en": "",
+  "name_normalized": "nuoc cham oc chanh day",
+  "category": "an vat",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Chanh dây",
+    "Gừng",
+    "Ớt",
+    "Lá chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01081",
+    "ingre02485",
+    "ingre07966",
+    "ingre05900",
+    "ingre03370",
+    "ingre04694",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Chanh dây",
+    "Gừng",
+    "Ớt",
+    "Sả",
+    "Lá chanh",
+    "Nước mắm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Watermelon vine tendril",
+    "Ginger",
+    "Pepper",
+    "Lemongrass",
+    "Lime leaf",
+    "Fish Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "chanh day",
+    "gung",
+    "ot",
+    "sa",
+    "la chanh",
+    "nuoc mam",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

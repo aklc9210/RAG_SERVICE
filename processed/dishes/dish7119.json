@@ -1,0 +1,96 @@
+{
+  "id": "dish7119",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7119.json",
+  "name_vi": "Sườn sốt me chua ngọt",
+  "name_en": "",
+  "name_normalized": "suon sot me chua ngot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn heo",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Nước sốt me",
+    "Tỏi",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre05882",
+    "ingre04762",
+    "ingre01354",
+    "ingre02768",
+    "ingre07063",
+    "ingre04124",
+    "ingre02124",
+    "ingre07028",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Sườn heo",
+    "Nước sốt me",
+    "Cà chua",
+    "Hành tím",
+    "Tỏi",
+    "Mật ong",
+    "Dầu ăn",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Rib Pork",
+    "Tamarind Sauce",
+    "Tomato",
+    "Shallot",
+    "Garlic",
+    "Honey",
+    "Cooking oil",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "suon heo",
+    "nuoc sot me",
+    "ca chua",
+    "hanh tim",
+    "toi",
+    "mat ong",
+    "dau an",
+    "tuong ot",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

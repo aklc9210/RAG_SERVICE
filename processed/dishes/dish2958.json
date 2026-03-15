@@ -1,0 +1,77 @@
+{
+  "id": "dish2958",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2958.json",
+  "name_vi": "Bánh dừa chiên",
+  "name_en": "",
+  "name_normalized": "banh dua chien",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước lọc",
+    "Men khô"
+  ],
+  "secondary_ingredients": [
+    "Dừa nạo",
+    "Mè"
+  ],
+  "seasonings": [
+    "Đường trắng",
+    "Muối",
+    "Bột mì",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre04665",
+    "ingre03674",
+    "ingre07652",
+    "ingre03746",
+    "ingre00759",
+    "ingre02182",
+    "ingre03925",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Nước lọc",
+    "Men khô",
+    "Đường trắng",
+    "Muối",
+    "Bột mì",
+    "Dừa nạo",
+    "Mè",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Tap water",
+    "Dried yeast",
+    "White sugar",
+    "Salt",
+    "Wheat Flour",
+    "Coconut grated",
+    "Tamarind",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc loc",
+    "men kho",
+    "duong trang",
+    "muoi",
+    "bot mi",
+    "dua nao",
+    "me",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

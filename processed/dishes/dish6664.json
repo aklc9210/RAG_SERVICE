@@ -1,0 +1,79 @@
+{
+  "id": "dish6664",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6664.json",
+  "name_vi": "Bắp - ngô chiên bơ",
+  "name_en": "",
+  "name_normalized": "bap ngo chien bo",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bắp mỹ"
+  ],
+  "secondary_ingredients": [
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột mì",
+    "Trứng gà",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre00479",
+    "ingre00598",
+    "ingre00759",
+    "ingre06823",
+    "ingre00382",
+    "ingre02124",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Bắp mỹ",
+    "Bột chiên giòn",
+    "Bột mì",
+    "Trứng gà",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Corn",
+    "Puffed Rice Powder",
+    "Wheat Flour",
+    "Chicken egg",
+    "Butter",
+    "Cooking oil",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bap my",
+    "bot chien gion",
+    "bot mi",
+    "trung ga",
+    "bo lat",
+    "dau an",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bap - ngo chien bo",
+      "new": "bap ngo chien bo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

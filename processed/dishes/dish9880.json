@@ -1,0 +1,53 @@
+{
+  "id": "dish9880",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9880.json",
+  "name_vi": "Cà phê bạc xỉu nóng",
+  "name_en": "",
+  "name_normalized": "ca phe bac xiu nong",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Nước sôi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột cà phê đen",
+    "Sữa tươi không đường",
+    "Nước cốt dừa"
+  ],
+  "ingredient_ids": [
+    "ingre00629",
+    "ingre06174",
+    "ingre06147",
+    "ingre04554",
+    "ingre04743"
+  ],
+  "ingredient_names_vi": [
+    "Bột cà phê đen",
+    "Sữa đặc",
+    "Sữa tươi không đường",
+    "Nước cốt dừa",
+    "Nước sôi"
+  ],
+  "ingredient_names_en": [
+    "Coffee Powder",
+    "Sweetened Condensed Milk",
+    "Fat-free Milk",
+    "Coconut milk",
+    "Boiling water"
+  ],
+  "ingredient_names_normalized": [
+    "bot ca phe den",
+    "sua dac",
+    "sua tuoi khong duong",
+    "nuoc cot dua",
+    "nuoc soi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

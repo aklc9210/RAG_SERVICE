@@ -1,0 +1,78 @@
+{
+  "id": "dish0384",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0384.json",
+  "name_vi": "Chân gà hầm thuốc bắc",
+  "name_en": "",
+  "name_normalized": "chan ga ham thuoc bac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Chân gà"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gia vị tiềm thuốc bắc",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Dầu hào",
+    "Tỏi"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre02318",
+    "ingre02995",
+    "ingre00819",
+    "ingre07583",
+    "ingre02080",
+    "ingre07063",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Gia vị tiềm thuốc bắc",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Đường",
+    "Dầu hào",
+    "Tỏi",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Chinese herb seasoning",
+    "Seasoning",
+    "MSG",
+    "Sugar",
+    "Soy sauce",
+    "Garlic",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "gia vi tiem thuoc bac",
+    "hat nem",
+    "bot ngot",
+    "duong",
+    "dau hao",
+    "toi",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

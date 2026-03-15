@@ -1,0 +1,29 @@
+{
+  "id": "ingre00966",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00966.json",
+  "name_vi": "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím",
+  "name_en": "Green tea powder/Red koji powder/Purple sweet potato powder",
+  "name_normalized": "bot tra xanh bot men gao do bot khoai lang tim",
+  "synonyms": [
+    "bột trà xanh",
+    "bột matcha",
+    "bột xanh-matcha"
+  ],
+  "synonyms_normalized": [
+    "bot tra xanh",
+    "bot matcha",
+    "bot xanh matcha"
+  ],
+  "category": "grains_staples",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot tra xanh/ bot men gao do/ bot khoai lang tim",
+      "new": "bot tra xanh bot men gao do bot khoai lang tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

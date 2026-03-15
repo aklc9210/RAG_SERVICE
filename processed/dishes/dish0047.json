@@ -1,0 +1,93 @@
+{
+  "id": "dish0047",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0047.json",
+  "name_vi": "Canh sủi cảo",
+  "name_en": "",
+  "name_normalized": "canh sui cao",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bánh sủi cảo",
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Trứng gà",
+    "Nước mắm",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00173",
+    "ingre06300",
+    "ingre07063",
+    "ingre02673",
+    "ingre06823",
+    "ingre04694",
+    "ingre02995",
+    "ingre02094",
+    "ingre06644",
+    "ingre02124",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bánh sủi cảo",
+    "Thịt bò",
+    "Tỏi",
+    "Hành lá",
+    "Trứng gà",
+    "Nước mắm",
+    "Hạt nêm",
+    "Dầu mè",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Dumpling",
+    "Beef",
+    "Garlic",
+    "Scallion",
+    "Chicken egg",
+    "Fish Sauce",
+    "Seasoning",
+    "Sesame oil",
+    "Ground pepper",
+    "Cooking oil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "banh sui cao",
+    "thit bo",
+    "toi",
+    "hanh la",
+    "trung ga",
+    "nuoc mam",
+    "hat nem",
+    "dau me",
+    "tieu xay",
+    "dau an",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

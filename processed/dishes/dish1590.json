@@ -1,0 +1,62 @@
+{
+  "id": "dish1590",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1590.json",
+  "name_vi": "Bánh chưng gù Hà Giang",
+  "name_en": "",
+  "name_normalized": "banh chung gu ha giang",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nếp"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Đậu xanh",
+    "Lá riềng"
+  ],
+  "seasonings": [
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04983",
+    "ingre06275",
+    "ingre07836",
+    "ingre03508",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Nếp",
+    "Thịt ba chỉ",
+    "Đậu xanh",
+    "Lá riềng",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rice glutinous",
+    "Pork belly",
+    "Green beans",
+    "Turmeric Leaf",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nep",
+    "thit ba chi",
+    "dau xanh",
+    "la rieng",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

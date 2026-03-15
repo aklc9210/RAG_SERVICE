@@ -1,0 +1,80 @@
+{
+  "id": "dish8751",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8751.json",
+  "name_vi": "Lạc rang tỏi ớt (lạc rang cháy tỏi)",
+  "name_en": "",
+  "name_normalized": "lac rang toi ot lac rang chay toi",
+  "category": "an vat",
+  "main_ingredients": [
+    "Lạc nhân"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi nhỏ",
+    "Ớt sừng",
+    "Trứng gà",
+    "Tương ớt",
+    "Bột ngô",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre03608",
+    "ingre07094",
+    "ingre08055",
+    "ingre06823",
+    "ingre07028",
+    "ingre00813",
+    "ingre07583",
+    "ingre04694",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Lạc nhân",
+    "Tỏi nhỏ",
+    "Ớt sừng",
+    "Trứng gà",
+    "Tương ớt",
+    "Bột ngô",
+    "Đường",
+    "Nước mắm",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Peanut",
+    "Garlic Clove",
+    "Hot pepper",
+    "Chicken egg",
+    "Hot Sauce",
+    "Corn flour",
+    "Sugar",
+    "Fish Sauce",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "lac nhan",
+    "toi nho",
+    "ot sung",
+    "trung ga",
+    "tuong ot",
+    "bot ngo",
+    "duong",
+    "nuoc mam",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "lac rang toi ot (lac rang chay toi)",
+      "new": "lac rang toi ot lac rang chay toi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

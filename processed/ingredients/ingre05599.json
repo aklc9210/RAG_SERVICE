@@ -1,0 +1,25 @@
+{
+  "id": "ingre05599",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05599.json",
+  "name_vi": "rượu/ giấm",
+  "name_en": "Rice Vinegar",
+  "name_normalized": "ruou giam",
+  "synonyms": [
+    "mắm giấm"
+  ],
+  "synonyms_normalized": [
+    "mam giam"
+  ],
+  "category": "alcoholic_beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ruou/ giam",
+      "new": "ruou giam",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

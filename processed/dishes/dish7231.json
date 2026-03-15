@@ -1,0 +1,61 @@
+{
+  "id": "dish7231",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7231.json",
+  "name_vi": "Tóp mỡ rang muối ớt",
+  "name_en": "",
+  "name_normalized": "top mo rang muoi ot",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Mỡ heo"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Lá chanh",
+    "Bột ớt",
+    "Tỏi băm",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04192",
+    "ingre03370",
+    "ingre01015",
+    "ingre07071",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Mỡ heo",
+    "Lá chanh",
+    "Bột ớt",
+    "Tỏi băm",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork fat",
+    "Lime leaf",
+    "Red Pepper Powder",
+    "Minced Garlic",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "mo heo",
+    "la chanh",
+    "bot ot",
+    "toi bam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay"
+    }
+  ]
+}

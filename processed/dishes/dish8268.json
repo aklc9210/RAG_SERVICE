@@ -1,0 +1,108 @@
+{
+  "id": "dish8268",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8268.json",
+  "name_vi": "Gỏi rau càng cua tôm khô",
+  "name_en": "",
+  "name_normalized": "goi rau cang cua tom kho",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau càng cua",
+    "Đậu phộng",
+    "Tôm khô",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Rau húng lủi"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Ớt tươi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre05219",
+    "ingre07781",
+    "ingre06941",
+    "ingre01354",
+    "ingre02768",
+    "ingre05262",
+    "ingre01079",
+    "ingre07063",
+    "ingre08078",
+    "ingre04694",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Rau càng cua",
+    "Đậu phộng",
+    "Tôm khô",
+    "Cà chua",
+    "Hành tím",
+    "Rau húng lủi",
+    "Chanh",
+    "Tỏi",
+    "Ớt tươi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Water spinach",
+    "Peanut",
+    "Dried Shrimp",
+    "Tomato",
+    "Shallot",
+    "Peppermint",
+    "Lemon",
+    "Garlic",
+    "Fresh chili",
+    "Fish Sauce",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "rau cang cua",
+    "dau phong",
+    "tom kho",
+    "ca chua",
+    "hanh tim",
+    "rau hung lui",
+    "chanh",
+    "toi",
+    "ot tuoi",
+    "nuoc mam",
+    "dau an",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

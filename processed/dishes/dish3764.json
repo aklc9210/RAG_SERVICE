@@ -1,0 +1,67 @@
+{
+  "id": "dish3764",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3764.json",
+  "name_vi": "Cá bò hòm nướng",
+  "name_en": "",
+  "name_normalized": "ca bo hom nuong",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Cá bò hòm"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01470",
+    "ingre07063",
+    "ingre05900",
+    "ingre07966",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá bò hòm",
+    "Tỏi",
+    "Sả",
+    "Ớt",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Box Turtle Fish",
+    "Garlic",
+    "Lemongrass",
+    "Pepper",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca bo hom",
+    "toi",
+    "sa",
+    "ot",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

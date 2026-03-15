@@ -1,0 +1,92 @@
+{
+  "id": "dish7313",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7313.json",
+  "name_vi": "Fish and Chips kèm đậu nghiền",
+  "name_en": "",
+  "name_normalized": "fish and chips kem dau nghien",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Phi lê cá basa",
+    "Đậu Hà Lan",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [
+    "Bia",
+    "Bơ lạt",
+    "Lá bạc hà",
+    "Mật ong"
+  ],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Chanh vàng",
+    "Bột nở",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05029",
+    "ingre07736",
+    "ingre03222",
+    "ingre00791",
+    "ingre00033",
+    "ingre00382",
+    "ingre01096",
+    "ingre03365",
+    "ingre00867",
+    "ingre04124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Phi lê cá basa",
+    "Đậu Hà Lan",
+    "Khoai tây",
+    "Bột mì đa dụng",
+    "Bia",
+    "Bơ lạt",
+    "Chanh vàng",
+    "Lá bạc hà",
+    "Bột nở",
+    "Mật ong",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Basa fillet",
+    "Green beans",
+    "Potato",
+    "All-purpose flour",
+    "Beer",
+    "Butter",
+    "Lemon",
+    "Mint Leaf",
+    "Baking powder",
+    "Honey",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "phi le ca basa",
+    "dau ha lan",
+    "khoai tay",
+    "bot mi da dung",
+    "bia",
+    "bo lat",
+    "chanh vang",
+    "la bac ha",
+    "bot no",
+    "mat ong",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

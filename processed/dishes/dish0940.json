@@ -1,0 +1,76 @@
+{
+  "id": "dish0940",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0940.json",
+  "name_vi": "Bánh bò mã lai - bánh bò Malaysia",
+  "name_en": "",
+  "name_normalized": "banh bo ma lai banh bo malaysia",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Sữa đặc",
+    "Bơ lạt",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Đường thốt nốt",
+    "Baking soda",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00867",
+    "ingre07647",
+    "ingre06174",
+    "ingre00018",
+    "ingre00382",
+    "ingre06823",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Đường thốt nốt",
+    "Sữa đặc",
+    "Baking soda",
+    "Bơ lạt",
+    "Trứng gà",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Baking powder",
+    "Cane Sugar",
+    "Sweetened Condensed Milk",
+    "Baking soda",
+    "Butter",
+    "Chicken egg",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot no",
+    "duong thot not",
+    "sua dac",
+    "baking soda",
+    "bo lat",
+    "trung ga",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bo ma lai - banh bo malaysia",
+      "new": "banh bo ma lai banh bo malaysia",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ingre05337",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05337.json",
+  "name_vi": "rau ngổ/ mùi tàu/ hành lá",
+  "name_en": "Cilantro",
+  "name_normalized": "rau ngo mui tau hanh la",
+  "synonyms": [
+    "mùi đinh ba",
+    "hành lá nhà vườn"
+  ],
+  "synonyms_normalized": [
+    "mui dinh ba",
+    "hanh la nha vuon"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "rau ngo/ mui tau/ hanh la",
+      "new": "rau ngo mui tau hanh la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

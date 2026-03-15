@@ -1,0 +1,82 @@
+{
+  "id": "dish8018",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8018.json",
+  "name_vi": "Gỏi đu đủ",
+  "name_en": "",
+  "name_normalized": "goi du du",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Đu đủ xanh",
+    "Rau thơm ăn kèm"
+  ],
+  "secondary_ingredients": [
+    "Đậu phộng"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Ớt sừng",
+    "Tỏi",
+    "Nước mắm",
+    "Bột canh",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre07500",
+    "ingre05391",
+    "ingre07781",
+    "ingre01079",
+    "ingre08055",
+    "ingre07063",
+    "ingre04694",
+    "ingre00587",
+    "ingre07680"
+  ],
+  "ingredient_names_vi": [
+    "Đu đủ xanh",
+    "Rau thơm ăn kèm",
+    "Đậu phộng",
+    "Chanh",
+    "Ớt sừng",
+    "Tỏi",
+    "Nước mắm",
+    "Bột canh",
+    "Đường/ muối"
+  ],
+  "ingredient_names_en": [
+    "Green papaya",
+    "Basil",
+    "Peanut",
+    "Lemon",
+    "Hot pepper",
+    "Garlic",
+    "Fish Sauce",
+    "Cornstarch",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "du du xanh",
+    "rau thom an kem",
+    "dau phong",
+    "chanh",
+    "ot sung",
+    "toi",
+    "nuoc mam",
+    "bot canh",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "dish0533",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0533.json",
+  "name_vi": "Canh hàu lá lốt",
+  "name_en": "",
+  "name_normalized": "canh hau la lot",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hàu sữa",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Gừng",
+    "Dầu ăn",
+    "Bột canh",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02840",
+    "ingre01354",
+    "ingre03461",
+    "ingre02485",
+    "ingre02768",
+    "ingre02124",
+    "ingre00587",
+    "ingre00819",
+    "ingre06644",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Hàu sữa",
+    "Cà chua",
+    "Lá lốt",
+    "Gừng",
+    "Hành tím",
+    "Dầu ăn",
+    "Bột canh",
+    "Bột ngọt",
+    "Tiêu xay",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Mussel",
+    "Tomato",
+    "Cinnamon Leaf",
+    "Ginger",
+    "Shallot",
+    "Cooking oil",
+    "Cornstarch",
+    "MSG",
+    "Ground pepper",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "hau sua",
+    "ca chua",
+    "la lot",
+    "gung",
+    "hanh tim",
+    "dau an",
+    "bot canh",
+    "bot ngot",
+    "tieu xay",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

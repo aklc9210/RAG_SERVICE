@@ -1,0 +1,72 @@
+{
+  "id": "dish8682",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8682.json",
+  "name_vi": "Bò bít tết sốt bbq",
+  "name_en": "",
+  "name_normalized": "bo bit tet sot bbq",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt thăn bò"
+  ],
+  "secondary_ingredients": [
+    "Nước hầm bò",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Sốt ướp thịt nướng",
+    "Tương ớt",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06497",
+    "ingre06038",
+    "ingre04643",
+    "ingre00382",
+    "ingre07028",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Thịt thăn bò",
+    "Sốt ướp thịt nướng",
+    "Nước hầm bò",
+    "Bơ lạt",
+    "Tương ớt",
+    "Dầu ăn",
+    "Muối/ Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Barbecue marinade",
+    "Beef broth",
+    "Butter",
+    "Hot Sauce",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "thit than bo",
+    "sot uop thit nuong",
+    "nuoc ham bo",
+    "bo lat",
+    "tuong ot",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu xay"
+    }
+  ]
+}

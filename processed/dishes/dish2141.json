@@ -1,0 +1,118 @@
+{
+  "id": "dish2141",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2141.json",
+  "name_vi": "Bánh burrito rau củ",
+  "name_en": "",
+  "name_normalized": "banh burrito rau cu",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Khoai tây",
+    "Đậu hũ non",
+    "Cải bó xôi",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Hạt bí rang",
+    "Lá húng khô"
+  ],
+  "seasonings": [
+    "Tương cà",
+    "Bột đậu gà",
+    "Bột tỏi",
+    "Bột hành tây",
+    "Bột ớt",
+    "Bột nghệ",
+    "Tiêu",
+    "Muối",
+    "Muối tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre03222",
+    "ingre07752",
+    "ingre01771",
+    "ingre01354",
+    "ingre02768",
+    "ingre06984",
+    "ingre02905",
+    "ingre01010",
+    "ingre00978",
+    "ingre00683",
+    "ingre01015",
+    "ingre03437",
+    "ingre00804",
+    "ingre06612",
+    "ingre03746",
+    "ingre03783"
+  ],
+  "ingredient_names_vi": [
+    "Khoai tây",
+    "Đậu hũ non",
+    "Cải bó xôi",
+    "Cà chua",
+    "Hành tím",
+    "Tương cà",
+    "Hạt bí rang",
+    "Bột đậu gà",
+    "Bột tỏi",
+    "Bột hành tây",
+    "Bột ớt",
+    "Lá húng khô",
+    "Bột nghệ",
+    "Tiêu",
+    "Muối",
+    "Muối tiêu"
+  ],
+  "ingredient_names_en": [
+    "Potato",
+    "Firm Tofu",
+    "Bokchoy",
+    "Tomato",
+    "Shallot",
+    "Miso酱",
+    "Pumpkin seeds roasted",
+    "Chicken Powder",
+    "Garlic powder",
+    "Onion powder",
+    "Red Pepper Powder",
+    "Dried Mint",
+    "Turmeric Powder",
+    "Pepper",
+    "Salt",
+    "Salt Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "khoai tay",
+    "dau hu non",
+    "cai bo xoi",
+    "ca chua",
+    "hanh tim",
+    "tuong ca",
+    "hat bi rang",
+    "bot dau ga",
+    "bot toi",
+    "bot hanh tay",
+    "bot ot",
+    "la hung kho",
+    "bot nghe",
+    "tieu",
+    "muoi",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

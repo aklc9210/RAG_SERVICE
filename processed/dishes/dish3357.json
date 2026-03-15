@@ -1,0 +1,124 @@
+{
+  "id": "dish3357",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3357.json",
+  "name_vi": "Bánh tầm (bánh tằm) cay Cà Mau",
+  "name_en": "",
+  "name_normalized": "banh tam banh tam cay ca mau",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Vịt",
+    "Bánh tằm"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tây",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Bột cà ri",
+    "Sa tế tôm",
+    "Sả băm",
+    "Tỏi băm",
+    "Dầu ăn",
+    "Bột năng",
+    "Lá chanh",
+    "Muối hạt",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre07211",
+    "ingre00216",
+    "ingre00631",
+    "ingre05626",
+    "ingre05900",
+    "ingre05905",
+    "ingre07071",
+    "ingre02741",
+    "ingre02124",
+    "ingre00849",
+    "ingre03370",
+    "ingre05420",
+    "ingre03760",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Vịt",
+    "Bánh tằm",
+    "Bột cà ri",
+    "Sa tế tôm",
+    "Sả",
+    "Sả băm",
+    "Tỏi băm",
+    "Hành tây",
+    "Dầu ăn",
+    "Bột năng",
+    "Lá chanh",
+    "Rau ăn kèm",
+    "Muối hạt",
+    "Muối",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Duck",
+    "Rice noodle sheet",
+    "Curry powder",
+    "Shrimp paste",
+    "Lemongrass",
+    "Garlic Paste",
+    "Minced Garlic",
+    "Onion",
+    "Cooking oil",
+    "Cornstarch",
+    "Lime leaf",
+    "Side vegetable",
+    "Fenugreek seeds",
+    "Salt",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "vit",
+    "banh tam",
+    "bot ca ri",
+    "sa te tom",
+    "sa",
+    "sa bam",
+    "toi bam",
+    "hanh tay",
+    "dau an",
+    "bot nang",
+    "la chanh",
+    "rau an kem",
+    "muoi hat",
+    "muoi",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh tam (banh tam) cay ca mau",
+      "new": "banh tam banh tam cay ca mau",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish8134",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8134.json",
+  "name_vi": "Salad gà áp chảo",
+  "name_en": "",
+  "name_normalized": "salad ga ap chao",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Ức gà",
+    "Xà lách",
+    "Dưa leo",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Sữa chua",
+    "Mật ong",
+    "Mè rang"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Ngũ vị hương",
+    "Sốt mè rang",
+    "Mayonnaise",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_ids": [
+    "ingre08103",
+    "ingre07351",
+    "ingre02020",
+    "ingre02741",
+    "ingre07999",
+    "ingre06088",
+    "ingre04381",
+    "ingre04124",
+    "ingre03929",
+    "ingre05980",
+    "ingre03639",
+    "ingre04790",
+    "ingre02124",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Ức gà",
+    "Xà lách",
+    "Dưa leo",
+    "Hành tây",
+    "Ớt chuông",
+    "Sữa chua",
+    "Ngũ vị hương",
+    "Mật ong",
+    "Mè rang",
+    "Sốt mè rang",
+    "Mayonnaise",
+    "Nước tương",
+    "Dầu ăn",
+    "Muối/ Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken breast",
+    "Lettuce",
+    "Cucumber",
+    "Onion",
+    "Bell pepper",
+    "Yogurt",
+    "Five-Spice Powder",
+    "Honey",
+    "Roasted Sesame Seeds",
+    "Roasted Sesame Sauce",
+    "Mayonnaise",
+    "Soy Sauce",
+    "Cooking oil",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "uc ga",
+    "xa lach",
+    "dua leo",
+    "hanh tay",
+    "ot chuong",
+    "sua chua",
+    "ngu vi huong",
+    "mat ong",
+    "me rang",
+    "sot me rang",
+    "mayonnaise",
+    "nuoc tuong",
+    "dau an",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Đường"
+    }
+  ]
+}

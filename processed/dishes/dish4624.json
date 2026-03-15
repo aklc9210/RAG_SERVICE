@@ -1,0 +1,122 @@
+{
+  "id": "dish4624",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4624.json",
+  "name_vi": "Thịt bò xào thập cẩm",
+  "name_en": "",
+  "name_normalized": "thit bo xao thap cam",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt bò",
+    "Cà chua",
+    "Bông cải xanh"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tây",
+    "Rau mùi tàu"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Cà rốt",
+    "Tỏi băm",
+    "Gừng băm",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Tiêu",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre07999",
+    "ingre01354",
+    "ingre01419",
+    "ingre00282",
+    "ingre02673",
+    "ingre02741",
+    "ingre07071",
+    "ingre02492",
+    "ingre05310",
+    "ingre02080",
+    "ingre04790",
+    "ingre02124",
+    "ingre06612",
+    "ingre02995",
+    "ingre07583",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Ớt chuông",
+    "Cà chua",
+    "Cà rốt",
+    "Bông cải xanh",
+    "Hành lá",
+    "Hành tây",
+    "Tỏi băm",
+    "Gừng băm",
+    "Rau mùi tàu",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn",
+    "Tiêu",
+    "Hạt nêm",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Bell pepper",
+    "Tomato",
+    "Carrot",
+    "Cabbage",
+    "Scallion",
+    "Onion",
+    "Minced Garlic",
+    "Ginger paste",
+    "Chinese parsley",
+    "Soy sauce",
+    "Cooking oil",
+    "Pepper",
+    "Seasoning",
+    "Sugar",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "ot chuong",
+    "ca chua",
+    "ca rot",
+    "bong cai xanh",
+    "hanh la",
+    "hanh tay",
+    "toi bam",
+    "gung bam",
+    "rau mui tau",
+    "dau hao",
+    "nuoc tuong",
+    "dau an",
+    "tieu",
+    "hat nem",
+    "duong",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

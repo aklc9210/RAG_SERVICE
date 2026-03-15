@@ -1,0 +1,29 @@
+{
+  "id": "ingre07991",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07991.json",
+  "name_vi": "ớt bột:",
+  "name_en": "Chili powder:",
+  "name_normalized": "ot bot",
+  "synonyms": [
+    "bột ớt",
+    "ớt xay thành bột"
+  ],
+  "synonyms_normalized": [
+    "bot ot",
+    "ot xay thanh bot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ot bot:",
+      "new": "ot bot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

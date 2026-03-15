@@ -1,0 +1,76 @@
+{
+  "id": "dish2676",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2676.json",
+  "name_vi": "Bánh cookie cream cheese - Bánh quy phô mai kem",
+  "name_en": "",
+  "name_normalized": "banh cookie cream cheese banh quy pho mai kem",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Lem phô mai"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Muối",
+    "Bột nở",
+    "Đường",
+    "Chiết xuất vani",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre03746",
+    "ingre00867",
+    "ingre00382",
+    "ingre03348",
+    "ingre07583",
+    "ingre01139",
+    "ingre06823"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Muối",
+    "Bột nở",
+    "Bơ lạt",
+    "Lem phô mai",
+    "Đường",
+    "Chiết xuất vani",
+    "Trứng gà"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Salt",
+    "Baking powder",
+    "Butter",
+    "Processed Cheese",
+    "Sugar",
+    "Vanilla extract",
+    "Chicken egg"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "muoi",
+    "bot no",
+    "bo lat",
+    "lem pho mai",
+    "duong",
+    "chiet xuat vani",
+    "trung ga"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh cookie cream cheese - banh quy pho mai kem",
+      "new": "banh cookie cream cheese banh quy pho mai kem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

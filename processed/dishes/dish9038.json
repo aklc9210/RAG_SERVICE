@@ -1,0 +1,67 @@
+{
+  "id": "dish9038",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9038.json",
+  "name_vi": "Muối Hồng Kông",
+  "name_en": "",
+  "name_normalized": "muoi hong kong",
+  "category": "an vat",
+  "main_ingredients": [
+    "Tôm khô"
+  ],
+  "secondary_ingredients": [
+    "Hạt điều"
+  ],
+  "seasonings": [
+    "Bột chiên xù",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06941",
+    "ingre03062",
+    "ingre00609",
+    "ingre04381",
+    "ingre00587",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Tôm khô",
+    "Hạt điều",
+    "Bột chiên xù",
+    "Ngũ vị hương",
+    "Bột canh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Dried Shrimp",
+    "Peanut",
+    "Puffed Rice Powder",
+    "Five-Spice Powder",
+    "Cornstarch",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "tom kho",
+    "hat dieu",
+    "bot chien xu",
+    "ngu vi huong",
+    "bot canh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

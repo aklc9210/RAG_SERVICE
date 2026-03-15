@@ -1,0 +1,25 @@
+{
+  "id": "ingre00591",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00591.json",
+  "name_vi": "bột canh/tiêu bắc",
+  "name_en": "Fish Sauce Powder/Cantonese Pepper粉",
+  "name_normalized": "bot canh tieu bac",
+  "synonyms": [
+    "tiêu xanh"
+  ],
+  "synonyms_normalized": [
+    "tieu xanh"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot canh/tieu bac",
+      "new": "bot canh tieu bac",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

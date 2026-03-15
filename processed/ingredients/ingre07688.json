@@ -1,0 +1,29 @@
+{
+  "id": "ingre07688",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07688.json",
+  "name_vi": "đường/hạt nêm",
+  "name_en": "Soy Sauce/Salt",
+  "name_normalized": "duong hat nem",
+  "synonyms": [
+    "mì chính",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

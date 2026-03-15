@@ -1,0 +1,76 @@
+{
+  "id": "dish0943",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0943.json",
+  "name_vi": "Bánh mì nhân trứng sữa (Custard)",
+  "name_en": "",
+  "name_normalized": "banh mi nhan trung sua custard",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Men nở instant",
+    "Lòng đỏ trứng gà",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Sữa tươi không đường",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00564",
+    "ingre00382",
+    "ingre03687",
+    "ingre03584",
+    "ingre06147",
+    "ingre07583",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột bắp",
+    "Bơ lạt",
+    "Men nở instant",
+    "Lòng đỏ trứng gà",
+    "Sữa tươi không đường",
+    "Đường",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Corn starch",
+    "Butter",
+    "Instant Yeast",
+    "Egg yolk",
+    "Fat-free Milk",
+    "Sugar",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot bap",
+    "bo lat",
+    "men no instant",
+    "long do trung ga",
+    "sua tuoi khong duong",
+    "duong",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh mi nhan trung sua (custard)",
+      "new": "banh mi nhan trung sua custard",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

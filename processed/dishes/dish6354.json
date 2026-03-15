@@ -1,0 +1,78 @@
+{
+  "id": "dish6354",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6354.json",
+  "name_vi": "Trứng bác cà chua",
+  "name_en": "",
+  "name_normalized": "trung bac ca chua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cà chua lớn"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tương cà",
+    "Dầu ăn",
+    "Muối",
+    "Nước tương",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre01365",
+    "ingre02673",
+    "ingre06984",
+    "ingre02124",
+    "ingre03746",
+    "ingre04790",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Cà chua lớn",
+    "Hành lá",
+    "Tương cà",
+    "Dầu ăn",
+    "Muối",
+    "Nước tương",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Large Tomato",
+    "Scallion",
+    "Miso酱",
+    "Cooking oil",
+    "Salt",
+    "Soy Sauce",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "ca chua lon",
+    "hanh la",
+    "tuong ca",
+    "dau an",
+    "muoi",
+    "nuoc tuong",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

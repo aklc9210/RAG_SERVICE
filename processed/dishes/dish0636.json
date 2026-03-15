@@ -1,0 +1,82 @@
+{
+  "id": "dish0636",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0636.json",
+  "name_vi": "Canh bí đao nấu nấm bào ngư",
+  "name_en": "",
+  "name_normalized": "canh bi dao nau nam bao ngu",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Nấm bào ngư",
+    "Bí đao"
+  ],
+  "secondary_ingredients": [
+    "Hành lá/ ngò rí"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre04894",
+    "ingre00247",
+    "ingre07966",
+    "ingre02702",
+    "ingre02124",
+    "ingre02997",
+    "ingre03746",
+    "ingre06644",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Nấm bào ngư",
+    "Bí đao",
+    "Ớt",
+    "Hành lá/ ngò rí",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Muối",
+    "Tiêu xay",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Oyster mushroom",
+    "Cucumber",
+    "Pepper",
+    "Chives",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Ground pepper",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "nam bao ngu",
+    "bi dao",
+    "ot",
+    "hanh la ngo ri",
+    "dau an",
+    "hat nem chay",
+    "muoi",
+    "tieu xay",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hanh la/ ngo ri",
+      "new": "hanh la ngo ri",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hành lá/ ngò rí"
+    }
+  ]
+}

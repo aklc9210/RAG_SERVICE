@@ -1,0 +1,60 @@
+{
+  "id": "dish3905",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3905.json",
+  "name_vi": "Ngao (nghêu) nướng mỡ hành",
+  "name_en": "",
+  "name_normalized": "ngao ngheu nuong mo hanh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Ngao",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt cay"
+  ],
+  "ingredient_ids": [
+    "ingre04301",
+    "ingre02673",
+    "ingre07993"
+  ],
+  "ingredient_names_vi": [
+    "Ngao",
+    "Hành lá",
+    "Ớt cay"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Scallion",
+    "Hot pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ngao",
+    "hanh la",
+    "ot cay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ngao (ngheu) nuong mo hanh",
+      "new": "ngao ngheu nuong mo hanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "dish0707",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0707.json",
+  "name_vi": "Canh gà hầm sả chay",
+  "name_en": "",
+  "name_normalized": "canh ga ham sa chay",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Đùi gà chay"
+  ],
+  "secondary_ingredients": [
+    "Nấm rơm",
+    "Sả",
+    "Đậu hũ trắng"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Củ cải muối",
+    "Gừng",
+    "Gừng băm",
+    "Sả băm",
+    "Hạt nêm chay",
+    "Dầu ăn thực vật",
+    "Nước mắm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre07552",
+    "ingre01419",
+    "ingre01865",
+    "ingre04953",
+    "ingre05900",
+    "ingre02485",
+    "ingre07755",
+    "ingre02492",
+    "ingre05905",
+    "ingre02997",
+    "ingre02130",
+    "ingre04697",
+    "ingre03818"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà chay",
+    "Cà rốt",
+    "Củ cải muối",
+    "Nấm rơm",
+    "Sả",
+    "Gừng",
+    "Đậu hũ trắng",
+    "Gừng băm",
+    "Sả băm",
+    "Hạt nêm chay",
+    "Dầu ăn thực vật",
+    "Nước mắm chay",
+    "Muối/ đường"
+  ],
+  "ingredient_names_en": [
+    "Vegetarian chicken thigh",
+    "Carrot",
+    "Pickled radish",
+    "Strawberry mushroom",
+    "Lemongrass",
+    "Ginger",
+    "Tofu",
+    "Ginger paste",
+    "Garlic Paste",
+    "Vegetarian Seasoning",
+    "Vegetable oil",
+    "Vegetarian fish sauce",
+    "Salt/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga chay",
+    "ca rot",
+    "cu cai muoi",
+    "nam rom",
+    "sa",
+    "gung",
+    "dau hu trang",
+    "gung bam",
+    "sa bam",
+    "hat nem chay",
+    "dau an thuc vat",
+    "nuoc mam chay",
+    "muoi duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ duong",
+      "new": "muoi duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ đường"
+    }
+  ]
+}

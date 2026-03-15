@@ -1,0 +1,96 @@
+{
+  "id": "dish5400",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5400.json",
+  "name_vi": "Chà bông (ruốc) thịt bò",
+  "name_en": "",
+  "name_normalized": "cha bong ruoc thit bo",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thăn bò"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Hành tím băm",
+    "Tỏi băm",
+    "Bột gừng",
+    "Ớt bột",
+    "Sa tế",
+    "Nước mắm",
+    "Dầu hào",
+    "Xì dầu",
+    "Dầu ăn",
+    "Tiêu xay/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre06244",
+    "ingre02774",
+    "ingre07071",
+    "ingre00678",
+    "ingre07977",
+    "ingre05621",
+    "ingre04694",
+    "ingre02080",
+    "ingre07381",
+    "ingre02124",
+    "ingre06649"
+  ],
+  "ingredient_names_vi": [
+    "Thăn bò",
+    "Hành tím băm",
+    "Tỏi băm",
+    "Bột gừng",
+    "Ớt bột",
+    "Sa tế",
+    "Nước mắm",
+    "Dầu hào",
+    "Xì dầu",
+    "Dầu ăn",
+    "Tiêu xay/ đường"
+  ],
+  "ingredient_names_en": [
+    "Beef tenderloin",
+    "Chopped Scallion",
+    "Minced Garlic",
+    "Ginger powder",
+    "Chili powder",
+    "Fish sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Ground pepper/sugar"
+  ],
+  "ingredient_names_normalized": [
+    "than bo",
+    "hanh tim bam",
+    "toi bam",
+    "bot gung",
+    "ot bot",
+    "sa te",
+    "nuoc mam",
+    "dau hao",
+    "xi dau",
+    "dau an",
+    "tieu xay duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cha bong (ruoc) thit bo",
+      "new": "cha bong ruoc thit bo",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu xay/ duong",
+      "new": "tieu xay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu xay/ đường"
+    }
+  ]
+}

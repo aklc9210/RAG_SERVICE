@@ -1,0 +1,87 @@
+{
+  "id": "dish4539",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4539.json",
+  "name_vi": "Thịt lợn xào lá móc mật",
+  "name_en": "",
+  "name_normalized": "thit lon xao la moc mat",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt lợn",
+    "Móc mật",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Chanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06431",
+    "ingre04040",
+    "ingre02768",
+    "ingre07063",
+    "ingre01079",
+    "ingre02080",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt lợn",
+    "Móc mật",
+    "Hành tím",
+    "Tỏi",
+    "Chanh",
+    "Dầu hào",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Dandelion",
+    "Shallot",
+    "Garlic",
+    "Lemon",
+    "Soy sauce",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit lon",
+    "moc mat",
+    "hanh tim",
+    "toi",
+    "chanh",
+    "dau hao",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "dish4640",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4640.json",
+  "name_vi": "Thịt nai xào hành tây",
+  "name_en": "",
+  "name_normalized": "thit nai xao hanh tay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt nai",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Dưa leo",
+    "Cà chua",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu",
+    "Bột canh",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre06447",
+    "ingre02741",
+    "ingre08008",
+    "ingre08014",
+    "ingre02020",
+    "ingre01354",
+    "ingre05900",
+    "ingre07063",
+    "ingre04694",
+    "ingre02080",
+    "ingre02124",
+    "ingre06612",
+    "ingre00587",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nai",
+    "Hành tây",
+    "Ớt chuông xanh",
+    "Ớt chuông đỏ",
+    "Dưa leo",
+    "Cà chua",
+    "Sả",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu hào",
+    "Dầu ăn",
+    "Tiêu",
+    "Bột canh",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Deer meat",
+    "Onion",
+    "Green Bell Pepper",
+    "Red bell pepper",
+    "Cucumber",
+    "Tomato",
+    "Lemongrass",
+    "Garlic",
+    "Fish Sauce",
+    "Soy sauce",
+    "Cooking oil",
+    "Pepper",
+    "Cornstarch",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "thit nai",
+    "hanh tay",
+    "ot chuong xanh",
+    "ot chuong do",
+    "dua leo",
+    "ca chua",
+    "sa",
+    "toi",
+    "nuoc mam",
+    "dau hao",
+    "dau an",
+    "tieu",
+    "bot canh",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

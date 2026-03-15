@@ -1,0 +1,87 @@
+{
+  "id": "dish10095",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10095.json",
+  "name_vi": "Trà sữa thái đỏ panna cotta",
+  "name_en": "",
+  "name_normalized": "tra sua thai do panna cotta",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Trà thái đỏ",
+    "Sữa tươi",
+    "Whipping cream"
+  ],
+  "secondary_ingredients": [
+    "Sữa đặc",
+    "Đá viên",
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Bột rau câu dẻo",
+    "Bột béo",
+    "Đường cát vàng",
+    "Đường/ muối"
+  ],
+  "ingredient_ids": [
+    "ingre06722",
+    "ingre06144",
+    "ingre07313",
+    "ingre00897",
+    "ingre00556",
+    "ingre07602",
+    "ingre06174",
+    "ingre07522",
+    "ingre07680",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Trà thái đỏ",
+    "Sữa tươi",
+    "Whipping cream",
+    "Bột rau câu dẻo",
+    "Bột béo",
+    "Đường cát vàng",
+    "Sữa đặc",
+    "Đá viên",
+    "Đường/ muối",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Red tea",
+    "Fresh Milk",
+    "Whipping cream",
+    "Agar powder",
+    "Shortening Powder",
+    "Yellow Sand Sugar",
+    "Sweetened Condensed Milk",
+    "Ice cube",
+    "Sugar/Salt",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "tra thai do",
+    "sua tuoi",
+    "whipping cream",
+    "bot rau cau deo",
+    "bot beo",
+    "duong cat vang",
+    "sua dac",
+    "da vien",
+    "duong muoi",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ muối"
+    }
+  ]
+}

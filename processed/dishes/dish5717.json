@@ -1,0 +1,71 @@
+{
+  "id": "dish5717",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5717.json",
+  "name_vi": "Đậu hũ kho nấm rơm, cà chua",
+  "name_en": "",
+  "name_normalized": "dau hu kho nam rom ca chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Đậu hũ",
+    "Nấm rơm"
+  ],
+  "secondary_ingredients": [
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre04953",
+    "ingre01354",
+    "ingre07977",
+    "ingre04790",
+    "ingre02124",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Nấm rơm",
+    "Cà chua",
+    "Ớt bột",
+    "Nước tương",
+    "Dầu ăn",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Strawberry mushroom",
+    "Tomato",
+    "Chili powder",
+    "Soy Sauce",
+    "Cooking oil",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "nam rom",
+    "ca chua",
+    "ot bot",
+    "nuoc tuong",
+    "dau an",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dau hu kho nam rom, ca chua",
+      "new": "dau hu kho nam rom ca chua",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

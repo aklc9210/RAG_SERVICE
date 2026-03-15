@@ -1,0 +1,102 @@
+{
+  "id": "dish0028",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0028.json",
+  "name_vi": "Canh chua bông súng",
+  "name_en": "",
+  "name_normalized": "canh chua bong sung",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bông súng",
+    "Rau ngò ôm"
+  ],
+  "secondary_ingredients": [
+    "Me",
+    "Tàu hũ",
+    "Thịt khóm chín",
+    "Nước"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Nước mắm chay",
+    "Tỏi phi",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre00291",
+    "ingre05332",
+    "ingre07966",
+    "ingre03643",
+    "ingre06867",
+    "ingre06429",
+    "ingre04490",
+    "ingre07583",
+    "ingre02995",
+    "ingre03746",
+    "ingre04697",
+    "ingre07096",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Bông súng",
+    "Rau ngò ôm",
+    "Ớt",
+    "Me",
+    "Tàu hũ",
+    "Thịt khóm chín",
+    "Nước",
+    "Đường",
+    "Hạt nêm",
+    "Muối",
+    "Nước mắm chay",
+    "Tỏi phi",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Mallow花椰菜",
+    "Parsley",
+    "Pepper",
+    "Tamarind",
+    "Tofu",
+    "Ripe papaya",
+    "Water",
+    "Sugar",
+    "Seasoning",
+    "Salt",
+    "Vegetarian fish sauce",
+    "Garlic flakes",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "bong sung",
+    "rau ngo om",
+    "ot",
+    "me",
+    "tau hu",
+    "thit khom chin",
+    "nuoc",
+    "duong",
+    "hat nem",
+    "muoi",
+    "nuoc mam chay",
+    "toi phi",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

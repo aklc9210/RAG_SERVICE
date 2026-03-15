@@ -1,0 +1,121 @@
+{
+  "id": "dish7192",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7192.json",
+  "name_vi": "Cá lăng chiên riềng",
+  "name_en": "",
+  "name_normalized": "ca lang chien rieng",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cá lăng",
+    "Trứng vịt",
+    "Sả",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Riềng",
+    "Dầu điều",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Bột sư tử",
+    "Bột năng",
+    "Sa tế",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre06853",
+    "ingre05900",
+    "ingre02768",
+    "ingre05436",
+    "ingre07063",
+    "ingre00919",
+    "ingre00849",
+    "ingre05621",
+    "ingre02134",
+    "ingre02094",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Trứng vịt",
+    "Sả",
+    "Hành tím",
+    "Riềng",
+    "Tỏi",
+    "Bột sư tử",
+    "Bột năng",
+    "Sa tế",
+    "Dầu điều",
+    "Dầu mè",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Quail egg",
+    "Lemongrass",
+    "Shallot",
+    "Galangal",
+    "Garlic",
+    "Tiger's milk powder",
+    "Cornstarch",
+    "Fish sauce",
+    "Peanut oil",
+    "Sesame oil",
+    "Cooking oil",
+    "MSG",
+    "Seasoning",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "trung vit",
+    "sa",
+    "hanh tim",
+    "rieng",
+    "toi",
+    "bot su tu",
+    "bot nang",
+    "sa te",
+    "dau dieu",
+    "dau me",
+    "dau an",
+    "bot ngot",
+    "hat nem",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

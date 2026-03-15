@@ -1,0 +1,134 @@
+{
+  "id": "dish3434",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3434.json",
+  "name_vi": "Bún cá rô phi",
+  "name_en": "",
+  "name_normalized": "bun ca ro phi",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Cá rô phi",
+    "Bún",
+    "Thơm",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Thì là",
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Bột chiên giòn",
+    "Bột bắp",
+    "Nước mắm",
+    "Dấm bỗng",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01610",
+    "ingre00338",
+    "ingre06247",
+    "ingre01354",
+    "ingre02485",
+    "ingre06233",
+    "ingre02673",
+    "ingre02768",
+    "ingre02124",
+    "ingre00598",
+    "ingre00564",
+    "ingre04694",
+    "ingre02049",
+    "ingre02995",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô phi",
+    "Bún",
+    "Thơm",
+    "Cà chua",
+    "Gừng",
+    "Thì là",
+    "Hành lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Bột chiên giòn",
+    "Bột bắp",
+    "Nước mắm",
+    "Dấm bỗng",
+    "Hạt nêm",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "tilapia",
+    "Noodle",
+    "Basil",
+    "Tomato",
+    "Ginger",
+    "Dill",
+    "Scallion",
+    "Shallot",
+    "Cooking oil",
+    "Puffed Rice Powder",
+    "Corn starch",
+    "Fish Sauce",
+    "Apple cider vinegar",
+    "Seasoning",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro phi",
+    "bun",
+    "thom",
+    "ca chua",
+    "gung",
+    "thi la",
+    "hanh la",
+    "hanh tim",
+    "dau an",
+    "bot chien gion",
+    "bot bap",
+    "nuoc mam",
+    "dam bong",
+    "hat nem",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Dill",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Thì là"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

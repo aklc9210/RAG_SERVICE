@@ -1,0 +1,29 @@
+{
+  "id": "ingre02805",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02805.json",
+  "name_vi": "hành tím/ gừng",
+  "name_en": "Green Onion/Ginger",
+  "name_normalized": "hanh tim gung",
+  "synonyms": [
+    "gừng tươi",
+    "hành tây",
+    "tỏi"
+  ],
+  "synonyms_normalized": [
+    "gung tuoi",
+    "hanh tay",
+    "toi"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tim/ gung",
+      "new": "hanh tim gung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

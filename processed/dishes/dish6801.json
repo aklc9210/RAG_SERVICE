@@ -1,0 +1,52 @@
+{
+  "id": "dish6801",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6801.json",
+  "name_vi": "Sườn non chay rim nước dừa",
+  "name_en": "",
+  "name_normalized": "suon non chay rim nuoc dua",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Sườn non chay",
+    "Dừa tươi nhỏ",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre05890",
+    "ingre02200",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Sườn non chay",
+    "Dừa tươi nhỏ",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Vegetable spare ribs",
+    "Coconut",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "suon non chay",
+    "dua tuoi nho",
+    "hanh tim"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

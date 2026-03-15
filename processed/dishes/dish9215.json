@@ -1,0 +1,61 @@
+{
+  "id": "dish9215",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9215.json",
+  "name_vi": "Kẹo marshmallow nhúng socola trắng",
+  "name_en": "",
+  "name_normalized": "keo marshmallow nhung socola trang",
+  "category": "an vat",
+  "main_ingredients": [
+    "Kẹo mashmallow"
+  ],
+  "secondary_ingredients": [
+    "Socola trắng",
+    "Kẹo cây gậy",
+    "Dầu dừa",
+    "Màu xanh/ màu hồng thực phẩm"
+  ],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre03317",
+    "ingre05758",
+    "ingre03305",
+    "ingre02067",
+    "ingre03905"
+  ],
+  "ingredient_names_vi": [
+    "Kẹo mashmallow",
+    "Socola trắng",
+    "Kẹo cây gậy",
+    "Dầu dừa",
+    "Màu xanh/ màu hồng thực phẩm"
+  ],
+  "ingredient_names_en": [
+    "Mallow candy",
+    "White chocolate",
+    "Cane Sugar Candy",
+    "Coconut oil",
+    "Food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "keo mashmallow",
+    "socola trang",
+    "keo cay gay",
+    "dau dua",
+    "mau xanh mau hong thuc pham"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mau xanh/ mau hong thuc pham",
+      "new": "mau xanh mau hong thuc pham",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Màu xanh/ màu hồng thực phẩm"
+    }
+  ]
+}

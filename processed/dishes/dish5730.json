@@ -1,0 +1,102 @@
+{
+  "id": "dish5730",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5730.json",
+  "name_vi": "Cá ngạnh kho riềng",
+  "name_en": "",
+  "name_normalized": "ca nganh kho rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá ngạnh",
+    "Thịt ba chỉ",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Củ riềng",
+    "Sả",
+    "Nước màu dừa"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre01577",
+    "ingre06275",
+    "ingre01354",
+    "ingre01913",
+    "ingre02485",
+    "ingre05900",
+    "ingre08026",
+    "ingre04694",
+    "ingre04675",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583"
+  ],
+  "ingredient_names_vi": [
+    "Cá ngạnh",
+    "Thịt ba chỉ",
+    "Cà chua",
+    "Củ riềng",
+    "Gừng",
+    "Sả",
+    "Ớt hiểm",
+    "Nước mắm",
+    "Nước màu dừa",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường"
+  ],
+  "ingredient_names_en": [
+    "Clam",
+    "Pork belly",
+    "Tomato",
+    "Galangal",
+    "Ginger",
+    "Lemongrass",
+    "Hot pepper",
+    "Fish Sauce",
+    "Coconut food coloring",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "ca nganh",
+    "thit ba chi",
+    "ca chua",
+    "cu rieng",
+    "gung",
+    "sa",
+    "ot hiem",
+    "nuoc mam",
+    "nuoc mau dua",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

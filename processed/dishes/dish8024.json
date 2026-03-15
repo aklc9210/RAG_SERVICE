@@ -1,0 +1,107 @@
+{
+  "id": "dish8024",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8024.json",
+  "name_vi": "Gỏi hoa chuối tôm thịt sốt chua ngọt",
+  "name_en": "",
+  "name_normalized": "goi hoa chuoi tom thit sot chua ngot",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Bắp chuối",
+    "Tôm tươi",
+    "Thịt ba chỉ heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Đậu phộng",
+    "Rau húng lủi",
+    "Bánh phồng tôm"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Hành phi",
+    "Tỏi ớt băm",
+    "Nước mắm",
+    "Giấm",
+    "Đường/muối"
+  ],
+  "ingredient_ids": [
+    "ingre00452",
+    "ingre06963",
+    "ingre06280",
+    "ingre01419",
+    "ingre02741",
+    "ingre07781",
+    "ingre01079",
+    "ingre02730",
+    "ingre07118",
+    "ingre05262",
+    "ingre00135",
+    "ingre04694",
+    "ingre02355",
+    "ingre07690"
+  ],
+  "ingredient_names_vi": [
+    "Bắp chuối",
+    "Tôm tươi",
+    "Thịt ba chỉ heo",
+    "Cà rốt",
+    "Hành tây",
+    "Đậu phộng",
+    "Chanh",
+    "Hành phi",
+    "Tỏi ớt băm",
+    "Rau húng lủi",
+    "Bánh phồng tôm",
+    "Nước mắm",
+    "Giấm",
+    "Đường/muối"
+  ],
+  "ingredient_names_en": [
+    "Banana",
+    "Fresh shrimp",
+    "Pork belly",
+    "Carrot",
+    "Onion",
+    "Peanut",
+    "Lemon",
+    "Garlic Fried",
+    "Minced chili garlic",
+    "Peppermint",
+    "Puffed Shrimp Cake",
+    "Fish Sauce",
+    "Vinegar",
+    "Sugar/Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bap chuoi",
+    "tom tuoi",
+    "thit ba chi heo",
+    "ca rot",
+    "hanh tay",
+    "dau phong",
+    "chanh",
+    "hanh phi",
+    "toi ot bam",
+    "rau hung lui",
+    "banh phong tom",
+    "nuoc mam",
+    "giam",
+    "duong muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/muoi",
+      "new": "duong muoi",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/muối"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dish3988",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3988.json",
+  "name_vi": "Pizza xúc xích viền phô mai",
+  "name_en": "",
+  "name_normalized": "pizza xuc xich vien pho mai",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Dầu ô-liu",
+    "Nước",
+    "Mật ong",
+    "Xúc xích",
+    "Phô mai mozzarella"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì",
+    "Muối",
+    "Men nở",
+    "Sốt cà chua",
+    "Sốt mayonnaise",
+    "Tương ớt"
+  ],
+  "ingredient_ids": [
+    "ingre00314",
+    "ingre03737",
+    "ingre03683",
+    "ingre01990",
+    "ingre04473",
+    "ingre03920",
+    "ingre05836",
+    "ingre07350",
+    "ingre05092",
+    "ingre05837",
+    "ingre07025"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì",
+    "Muối",
+    "Men nở",
+    "Dầu ô-liu",
+    "Nước",
+    "Mật ong",
+    "Sốt cà chua",
+    "Xúc xích",
+    "Phô mai mozzarella",
+    "Sốt mayonnaise",
+    "Tương ớt"
+  ],
+  "ingredient_names_en": [
+    "Wheat Flour",
+    "Salt",
+    "Baking Powder",
+    "Olive oil",
+    "Water",
+    "Honey",
+    "Tomato sauce",
+    "Sausage",
+    "Mozzarella cheese",
+    "Mayonnaise Sauce",
+    "Hot Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi",
+    "muoi",
+    "men no",
+    "dau o liu",
+    "nuoc",
+    "mat ong",
+    "sot ca chua",
+    "xuc xich",
+    "pho mai mozzarella",
+    "sot mayonnaise",
+    "tuong ot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "dau o-liu",
+      "new": "dau o liu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Dầu ô-liu"
+    }
+  ]
+}

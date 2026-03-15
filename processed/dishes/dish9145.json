@@ -1,0 +1,89 @@
+{
+  "id": "dish9145",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9145.json",
+  "name_vi": "Cơm cuộn (kimbap) hoa đậu biếc",
+  "name_en": "",
+  "name_normalized": "com cuon kimbap hoa dau biec",
+  "category": "an vat",
+  "main_ingredients": [
+    "Gạo dẻo",
+    "Hoa đậu biếc"
+  ],
+  "secondary_ingredients": [
+    "Ức gà",
+    "Dưa leo",
+    "Rong biển"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre02439",
+    "ingre02610",
+    "ingre08103",
+    "ingre06823",
+    "ingre01419",
+    "ingre02020",
+    "ingre05448",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Gạo dẻo",
+    "Hoa đậu biếc",
+    "Ức gà",
+    "Trứng gà",
+    "Cà rốt",
+    "Dưa leo",
+    "Rong biển",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "sticky rice",
+    "Bluebell Flower",
+    "Chicken breast",
+    "Chicken egg",
+    "Carrot",
+    "Cucumber",
+    "Kelp",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "gao deo",
+    "hoa dau biec",
+    "uc ga",
+    "trung ga",
+    "ca rot",
+    "dua leo",
+    "rong bien",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "com cuon (kimbap) hoa dau biec",
+      "new": "com cuon kimbap hoa dau biec",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

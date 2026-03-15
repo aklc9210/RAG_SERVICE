@@ -1,0 +1,97 @@
+{
+  "id": "dish3912",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3912.json",
+  "name_vi": "Gà nướng kiểu Anh",
+  "name_en": "",
+  "name_normalized": "ga nuong kieu anh",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Bơ lạt",
+    "Lá ngò tây"
+  ],
+  "secondary_ingredients": [
+    "Lá xô thơm",
+    "Dầu ô liu",
+    "Hành tây"
+  ],
+  "seasonings": [
+    "Lá Thyme",
+    "Chanh vàng",
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Muối/tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre00382",
+    "ingre03487",
+    "ingre03548",
+    "ingre03527",
+    "ingre02120",
+    "ingre01096",
+    "ingre02485",
+    "ingre02741",
+    "ingre07063",
+    "ingre05574",
+    "ingre03826"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Bơ lạt",
+    "Lá ngò tây",
+    "Lá xô thơm",
+    "Lá Thyme",
+    "Dầu ô liu",
+    "Chanh vàng",
+    "Gừng",
+    "Hành tây",
+    "Tỏi",
+    "Rượu trắng",
+    "Muối/tiêu"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Butter",
+    "parsley",
+    "Sage Leaves",
+    "Thyme",
+    "Olive oil",
+    "Lemon",
+    "Ginger",
+    "Onion",
+    "Garlic",
+    "White wine",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "bo lat",
+    "la ngo tay",
+    "la xo thom",
+    "la thyme",
+    "dau o liu",
+    "chanh vang",
+    "gung",
+    "hanh tay",
+    "toi",
+    "ruou trang",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/tiêu"
+    }
+  ]
+}

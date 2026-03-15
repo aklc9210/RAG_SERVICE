@@ -1,0 +1,103 @@
+{
+  "id": "dish5184",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5184.json",
+  "name_vi": "Gà xào lăn sữa tươi",
+  "name_en": "",
+  "name_normalized": "ga xao lan sua tuoi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt gà",
+    "Sữa tươi",
+    "Nấm mèo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Sả băm",
+    "Tỏi băm",
+    "Bột nghệ",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre06144",
+    "ingre04930",
+    "ingre02768",
+    "ingre05905",
+    "ingre07071",
+    "ingre00804",
+    "ingre02080",
+    "ingre02124",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Sữa tươi",
+    "Nấm mèo",
+    "Hành tím",
+    "Sả băm",
+    "Tỏi băm",
+    "Bột nghệ",
+    "Dầu hào",
+    "Dầu ăn",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Fresh Milk",
+    "Mushroom",
+    "Shallot",
+    "Garlic Paste",
+    "Minced Garlic",
+    "Turmeric Powder",
+    "Soy sauce",
+    "Cooking oil",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "sua tuoi",
+    "nam meo",
+    "hanh tim",
+    "sa bam",
+    "toi bam",
+    "bot nghe",
+    "dau hao",
+    "dau an",
+    "hat nem",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

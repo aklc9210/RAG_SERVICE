@@ -1,0 +1,56 @@
+{
+  "id": "dish9863",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9863.json",
+  "name_vi": "Sữa óc chó, hạnh nhân truyền thống",
+  "name_en": "",
+  "name_normalized": "sua oc cho hanh nhan truyen thong",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Hạnh nhân"
+  ],
+  "secondary_ingredients": [
+    "Hạt óc chó",
+    "Dứa"
+  ],
+  "seasonings": [
+    "Đường phèn"
+  ],
+  "ingredient_ids": [
+    "ingre02889",
+    "ingre03060",
+    "ingre07635",
+    "ingre02151"
+  ],
+  "ingredient_names_vi": [
+    "Hạnh nhân",
+    "Hạt óc chó",
+    "Đường phèn",
+    "Dứa"
+  ],
+  "ingredient_names_en": [
+    "Almond",
+    "Hazelnut",
+    "Brown Sugar",
+    "Pineapple"
+  ],
+  "ingredient_names_normalized": [
+    "hanh nhan",
+    "hat oc cho",
+    "duong phen",
+    "dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua oc cho, hanh nhan truyen thong",
+      "new": "sua oc cho hanh nhan truyen thong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

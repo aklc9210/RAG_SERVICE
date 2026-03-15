@@ -1,0 +1,72 @@
+{
+  "id": "dish4854",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4854.json",
+  "name_vi": "Nấm mỡ xào tỏi",
+  "name_en": "",
+  "name_normalized": "nam mo xao toi",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nấm mỡ"
+  ],
+  "secondary_ingredients": [
+    "Hành tây",
+    "Ngò rí",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre04945",
+    "ingre07063",
+    "ingre02741",
+    "ingre04343",
+    "ingre00382",
+    "ingre02124",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Nấm mỡ",
+    "Tỏi",
+    "Hành tây",
+    "Ngò rí",
+    "Bơ lạt",
+    "Dầu ăn",
+    "Muối/ tiêu"
+  ],
+  "ingredient_names_en": [
+    "Fried mushroom",
+    "Garlic",
+    "Onion",
+    "Parsley",
+    "Butter",
+    "Cooking oil",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nam mo",
+    "toi",
+    "hanh tay",
+    "ngo ri",
+    "bo lat",
+    "dau an",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu"
+    }
+  ]
+}

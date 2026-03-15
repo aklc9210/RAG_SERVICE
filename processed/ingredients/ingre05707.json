@@ -1,0 +1,25 @@
+{
+  "id": "ingre05707",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05707.json",
+  "name_vi": "siro ngô/bắp",
+  "name_en": "Corn syrup",
+  "name_normalized": "siro ngo bap",
+  "synonyms": [
+    "siro bắp"
+  ],
+  "synonyms_normalized": [
+    "siro bap"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "siro ngo/bap",
+      "new": "siro ngo bap",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

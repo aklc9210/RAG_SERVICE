@@ -1,0 +1,98 @@
+{
+  "id": "dish8081",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8081.json",
+  "name_vi": "Salad đào nướng",
+  "name_en": "",
+  "name_normalized": "salad dao nuong",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Đào",
+    "Mật ong"
+  ],
+  "secondary_ingredients": [
+    "Thịt ức gà",
+    "Cà chua bi",
+    "Dưa leo",
+    "Hành tím",
+    "Hạt hồ đào",
+    "Dầu ô liu",
+    "Rau xanh tùy sở thích"
+  ],
+  "seasonings": [
+    "Giấm balsamic",
+    "Tiêu xay",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02356",
+    "ingre07507",
+    "ingre04124",
+    "ingre06544",
+    "ingre01355",
+    "ingre02020",
+    "ingre06644",
+    "ingre02768",
+    "ingre02955",
+    "ingre03746",
+    "ingre02120",
+    "ingre05408"
+  ],
+  "ingredient_names_vi": [
+    "Giấm balsamic",
+    "Đào",
+    "Mật ong",
+    "Thịt ức gà",
+    "Cà chua bi",
+    "Dưa leo",
+    "Tiêu xay",
+    "Hành tím",
+    "Hạt hồ đào",
+    "Muối",
+    "Dầu ô liu",
+    "Rau xanh tùy sở thích"
+  ],
+  "ingredient_names_en": [
+    "Balsamic vinegar",
+    "Peach",
+    "Honey",
+    "Chicken breast",
+    "Tomato",
+    "Cucumber",
+    "Ground pepper",
+    "Shallot",
+    "Apricot kernel",
+    "Salt",
+    "Olive oil",
+    "Leafy Greens"
+  ],
+  "ingredient_names_normalized": [
+    "giam balsamic",
+    "dao",
+    "mat ong",
+    "thit uc ga",
+    "ca chua bi",
+    "dua leo",
+    "tieu xay",
+    "hanh tim",
+    "hat ho dao",
+    "muoi",
+    "dau o liu",
+    "rau xanh tuy so thich"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "dish5740",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5740.json",
+  "name_vi": "Cá lóc kho măng tươi",
+  "name_en": "",
+  "name_normalized": "ca loc kho mang tuoi",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá lóc",
+    "Búp măng non",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Ớt sừng",
+    "Tỏi",
+    "Nước mắm",
+    "Ớt sa tế",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre01549",
+    "ingre00363",
+    "ingre08055",
+    "ingre02768",
+    "ingre07063",
+    "ingre04694",
+    "ingre02093",
+    "ingre08050",
+    "ingre02355",
+    "ingre02124",
+    "ingre03746",
+    "ingre07583",
+    "ingre00838",
+    "ingre06612"
+  ],
+  "ingredient_names_vi": [
+    "Cá lóc",
+    "Búp măng non",
+    "Ớt sừng",
+    "Hành tím",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu màu điều",
+    "Ớt sa tế",
+    "Giấm",
+    "Dầu ăn",
+    "Muối",
+    "Đường",
+    "Bột nêm",
+    "Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Gilthead seabream",
+    "Fresh bamboo shoots buds",
+    "Hot pepper",
+    "Shallot",
+    "Garlic",
+    "Fish Sauce",
+    "Peanut-colored food coloring",
+    "Bird's Eye Chili",
+    "Vinegar",
+    "Cooking oil",
+    "Salt",
+    "Sugar",
+    "Seasoning Powder",
+    "Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "ca loc",
+    "bup mang non",
+    "ot sung",
+    "hanh tim",
+    "toi",
+    "nuoc mam",
+    "dau mau dieu",
+    "ot sa te",
+    "giam",
+    "dau an",
+    "muoi",
+    "duong",
+    "bot nem",
+    "tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

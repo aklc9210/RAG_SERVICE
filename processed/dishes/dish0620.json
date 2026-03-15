@@ -1,0 +1,96 @@
+{
+  "id": "dish0620",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0620.json",
+  "name_vi": "Canh hoa thiên lý nấu thịt băm với sấu",
+  "name_en": "",
+  "name_normalized": "canh hoa thien ly nau thit bam voi sau",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Hoa thiên lý",
+    "Thịt heo",
+    "Sấu"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02601",
+    "ingre06398",
+    "ingre05925",
+    "ingre02673",
+    "ingre02768",
+    "ingre02124",
+    "ingre04694",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Hoa thiên lý",
+    "Thịt heo",
+    "Sấu",
+    "Hành lá",
+    "Hành tím",
+    "Dầu ăn",
+    "Nước mắm",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Passionflower",
+    "Pork",
+    "Sour sop",
+    "Scallion",
+    "Shallot",
+    "Cooking oil",
+    "Fish Sauce",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "hoa thien ly",
+    "thit heo",
+    "sau",
+    "hanh la",
+    "hanh tim",
+    "dau an",
+    "nuoc mam",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

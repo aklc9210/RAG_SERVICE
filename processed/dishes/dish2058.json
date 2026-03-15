@@ -1,0 +1,80 @@
+{
+  "id": "dish2058",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2058.json",
+  "name_vi": "Cốt bánh gato (bông lan)",
+  "name_en": "",
+  "name_normalized": "cot banh gato bong lan",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Tinh chất vani"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Tinh bột bắp",
+    "Đường",
+    "Muối",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Nước cốt canh"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00791",
+    "ingre06562",
+    "ingre07583",
+    "ingre03746",
+    "ingre06147",
+    "ingre02124",
+    "ingre06592",
+    "ingre04536"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bột mì đa dụng",
+    "Tinh bột bắp",
+    "Đường",
+    "Muối",
+    "Sữa tươi không đường",
+    "Dầu ăn",
+    "Tinh chất vani",
+    "Nước cốt canh"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "All-purpose flour",
+    "Corn starch",
+    "Sugar",
+    "Salt",
+    "Fat-free Milk",
+    "Cooking oil",
+    "Vanilla extract",
+    "Chicken broth juice"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bot mi da dung",
+    "tinh bot bap",
+    "duong",
+    "muoi",
+    "sua tuoi khong duong",
+    "dau an",
+    "tinh chat vani",
+    "nuoc cot canh"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "cot banh gato (bong lan)",
+      "new": "cot banh gato bong lan",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

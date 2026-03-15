@@ -1,0 +1,67 @@
+{
+  "id": "dish9452",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9452.json",
+  "name_vi": "Thịt muối chua",
+  "name_en": "",
+  "name_normalized": "thit muoi chua",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Thịt mông heo"
+  ],
+  "secondary_ingredients": [
+    "Thính gạo",
+    "Lá ổi",
+    "Lá đinh lăng",
+    "Lá sung"
+  ],
+  "seasonings": [
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06443",
+    "ingre06241",
+    "ingre03556",
+    "ingre03554",
+    "ingre03519",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Thịt mông heo",
+    "Thính gạo",
+    "Lá ổi",
+    "Lá đinh lăng",
+    "Lá sung",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pork butt",
+    "Rice flour",
+    "Lemon basil",
+    "Echinacea Leaf",
+    "Sage Leaf",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit mong heo",
+    "thinh gao",
+    "la oi",
+    "la dinh lang",
+    "la sung",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "dish0015",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0015.json",
+  "name_vi": "Cá nấu dọc mùng miền Bắc",
+  "name_en": "",
+  "name_normalized": "ca nau doc mung mien bac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá diêu hồng (hoặc cá sộp",
+    "Dọc mùng",
+    "Mẻ",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Tỏi",
+    "Hành khô",
+    "Gừng",
+    "Rau om/ ớt/ hành lá/ thì là",
+    "Muối",
+    "Hạt nêm",
+    "Hạt tiêu",
+    "Dầu ăn",
+    "Bột canh",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01514",
+    "ingre02147",
+    "ingre04165",
+    "ingre01354",
+    "ingre07063",
+    "ingre02667",
+    "ingre02485",
+    "ingre05351",
+    "ingre03746",
+    "ingre02995",
+    "ingre03043",
+    "ingre02124",
+    "ingre00587",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Cá diêu hồng (hoặc cá sộp",
+    "Dọc mùng",
+    "Mẻ",
+    "Cà chua",
+    "Tỏi",
+    "Hành khô",
+    "Gừng",
+    "Rau om/ ớt/ hành lá/ thì là",
+    "Muối",
+    "Hạt nêm",
+    "Hạt tiêu",
+    "Dầu ăn",
+    "Bột canh",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Red snapper (or Red seabream)",
+    "Water spinach",
+    "Tamarind",
+    "Tomato",
+    "Garlic",
+    "Garlic Powder",
+    "Ginger",
+    "Basil/Paprika/Cilantro/Thyme",
+    "Salt",
+    "Seasoning",
+    "Pepper",
+    "Cooking oil",
+    "Cornstarch",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca dieu hong hoac ca sop",
+    "doc mung",
+    "me",
+    "ca chua",
+    "toi",
+    "hanh kho",
+    "gung",
+    "rau om ot hanh la thi la",
+    "muoi",
+    "hat nem",
+    "hat tieu",
+    "dau an",
+    "bot canh",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "ca dieu hong (hoac ca sop",
+      "new": "ca dieu hong hoac ca sop",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Cá diêu hồng (hoặc cá sộp"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "rau om/ ot/ hanh la/ thi la",
+      "new": "rau om ot hanh la thi la",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Rau om/ ớt/ hành lá/ thì là"
+    }
+  ]
+}

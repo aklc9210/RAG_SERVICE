@@ -1,0 +1,25 @@
+{
+  "id": "ingre04593",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04593.json",
+  "name_vi": "nước cốt tắc/chanh",
+  "name_en": "Tamarind/Jasmine Juice",
+  "name_normalized": "nuoc cot tac chanh",
+  "synonyms": [
+    "nước cốt me"
+  ],
+  "synonyms_normalized": [
+    "nuoc cot me"
+  ],
+  "category": "beverages",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc cot tac/chanh",
+      "new": "nuoc cot tac chanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

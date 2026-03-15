@@ -1,0 +1,119 @@
+{
+  "id": "dish7566",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7566.json",
+  "name_vi": "Cá lăng hấp",
+  "name_en": "",
+  "name_normalized": "ca lang hap",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá lăng",
+    "Nấm đông cô"
+  ],
+  "secondary_ingredients": [
+    "Hành lá",
+    "Hành tím",
+    "Sả"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01551",
+    "ingre04966",
+    "ingre02485",
+    "ingre02673",
+    "ingre02768",
+    "ingre07063",
+    "ingre05900",
+    "ingre07966",
+    "ingre04694",
+    "ingre02124",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cá lăng",
+    "Nấm đông cô",
+    "Gừng",
+    "Hành lá",
+    "Hành tím",
+    "Tỏi",
+    "Sả",
+    "Ớt",
+    "Nước mắm",
+    "Dầu ăn",
+    "Đường",
+    "Muối",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Pike perch",
+    "Mushroom",
+    "Ginger",
+    "Scallion",
+    "Shallot",
+    "Garlic",
+    "Lemongrass",
+    "Pepper",
+    "Fish Sauce",
+    "Cooking oil",
+    "Sugar",
+    "Salt",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca lang",
+    "nam dong co",
+    "gung",
+    "hanh la",
+    "hanh tim",
+    "toi",
+    "sa",
+    "ot",
+    "nuoc mam",
+    "dau an",
+    "duong",
+    "muoi",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

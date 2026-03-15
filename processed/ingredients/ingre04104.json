@@ -1,0 +1,29 @@
+{
+  "id": "ingre04104",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre04104.json",
+  "name_vi": "mướp hương",
+  "name_en": "Luffa",
+  "name_normalized": "muop huong",
+  "synonyms": [
+    "dưa hấu",
+    "dưa leo"
+  ],
+  "synonyms_normalized": [
+    "dua hau",
+    "dua leo"
+  ],
+  "category": "vegetables",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_en",
+      "old": "Bittermelon",
+      "new": "Luffa",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping."
+    }
+  ]
+}

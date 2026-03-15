@@ -1,0 +1,107 @@
+{
+  "id": "dish5183",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5183.json",
+  "name_vi": "Dồi trường xào cải chua",
+  "name_en": "",
+  "name_normalized": "doi truong xao cai chua",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Dồi trường",
+    "Cải chua",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Rượu trắng",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre02148",
+    "ingre01777",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre05574",
+    "ingre02355",
+    "ingre02124",
+    "ingre04694",
+    "ingre06644",
+    "ingre07583",
+    "ingre03746",
+    "ingre00819",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Dồi trường",
+    "Cải chua",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Rượu trắng",
+    "Giấm",
+    "Dầu ăn",
+    "Nước mắm",
+    "Tiêu xay",
+    "Đường",
+    "Muối",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Pork blood sausage",
+    "Pickled cabbage",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "White wine",
+    "Vinegar",
+    "Cooking oil",
+    "Fish Sauce",
+    "Ground pepper",
+    "Sugar",
+    "Salt",
+    "MSG",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "doi truong",
+    "cai chua",
+    "gung",
+    "hanh tim",
+    "toi",
+    "ruou trang",
+    "giam",
+    "dau an",
+    "nuoc mam",
+    "tieu xay",
+    "duong",
+    "muoi",
+    "bot ngot",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

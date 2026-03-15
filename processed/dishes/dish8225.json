@@ -1,0 +1,98 @@
+{
+  "id": "dish8225",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8225.json",
+  "name_vi": "Gỏi xoài Thái Lan",
+  "name_en": "",
+  "name_normalized": "goi xoai thai lan",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Xoài xanh",
+    "Tôm khô",
+    "Cà chua bi"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu phộng rang",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Đường thốt nốt",
+    "Nước mắm",
+    "Nước cốt me",
+    "Nước cốt chanh"
+  ],
+  "ingredient_ids": [
+    "ingre07342",
+    "ingre06941",
+    "ingre01355",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre07647",
+    "ingre04694",
+    "ingre04581",
+    "ingre04538",
+    "ingre07791",
+    "ingre04343"
+  ],
+  "ingredient_names_vi": [
+    "Xoài xanh",
+    "Tôm khô",
+    "Cà chua bi",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Đường thốt nốt",
+    "Nước mắm",
+    "Nước cốt me",
+    "Nước cốt chanh",
+    "Đậu phộng rang",
+    "Ngò rí"
+  ],
+  "ingredient_names_en": [
+    "Green mango",
+    "Dried Shrimp",
+    "Tomato",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Cane Sugar",
+    "Fish Sauce",
+    "Lime juice",
+    "Lemon juice",
+    "Roasted Peanut",
+    "Parsley"
+  ],
+  "ingredient_names_normalized": [
+    "xoai xanh",
+    "tom kho",
+    "ca chua bi",
+    "hanh tim",
+    "toi",
+    "ot",
+    "duong thot not",
+    "nuoc mam",
+    "nuoc cot me",
+    "nuoc cot chanh",
+    "dau phong rang",
+    "ngo ri"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

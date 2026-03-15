@@ -1,0 +1,27 @@
+{
+  "id": "ingre07678",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07678.json",
+  "name_vi": "đường/ hạt nêm",
+  "name_en": "Soy Sauce/Sugar",
+  "name_normalized": "duong hat nem",
+  "synonyms": [
+    "mì chính",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "mi chinh",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ hat nem",
+      "new": "duong hat nem",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

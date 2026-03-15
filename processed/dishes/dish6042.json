@@ -1,0 +1,73 @@
+{
+  "id": "dish6042",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6042.json",
+  "name_vi": "Thịt heo kho gừng",
+  "name_en": "",
+  "name_normalized": "thit heo kho gung",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt heo"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Nước màu dừa"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Tỏi",
+    "Ớt",
+    "Tiêu xanh"
+  ],
+  "ingredient_ids": [
+    "ingre06398",
+    "ingre02485",
+    "ingre02768",
+    "ingre07063",
+    "ingre07966",
+    "ingre06640",
+    "ingre04675"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo",
+    "Gừng",
+    "Hành tím",
+    "Tỏi",
+    "Ớt",
+    "Tiêu xanh",
+    "Nước màu dừa"
+  ],
+  "ingredient_names_en": [
+    "Pork",
+    "Ginger",
+    "Shallot",
+    "Garlic",
+    "Pepper",
+    "Green pepper",
+    "Coconut food coloring"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo",
+    "gung",
+    "hanh tim",
+    "toi",
+    "ot",
+    "tieu xanh",
+    "nuoc mau dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

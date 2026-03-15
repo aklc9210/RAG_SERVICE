@@ -1,0 +1,98 @@
+{
+  "id": "dish8015",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8015.json",
+  "name_vi": "Rau càng cua trộn trứng thịt",
+  "name_en": "",
+  "name_normalized": "rau cang cua tron trung thit",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Rau càng cua",
+    "Thịt ba chỉ heo",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Trứng gà",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05219",
+    "ingre06280",
+    "ingre01354",
+    "ingre06823",
+    "ingre02768",
+    "ingre07063",
+    "ingre04538",
+    "ingre07583",
+    "ingre03746",
+    "ingre02995",
+    "ingre06644",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Rau càng cua",
+    "Thịt ba chỉ heo",
+    "Cà chua",
+    "Trứng gà",
+    "Hành tím",
+    "Tỏi",
+    "Nước cốt chanh",
+    "Đường",
+    "Muối",
+    "Hạt nêm",
+    "Tiêu xay",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Water spinach",
+    "Pork belly",
+    "Tomato",
+    "Chicken egg",
+    "Shallot",
+    "Garlic",
+    "Lemon juice",
+    "Sugar",
+    "Salt",
+    "Seasoning",
+    "Ground pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "rau cang cua",
+    "thit ba chi heo",
+    "ca chua",
+    "trung ga",
+    "hanh tim",
+    "toi",
+    "nuoc cot chanh",
+    "duong",
+    "muoi",
+    "hat nem",
+    "tieu xay",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

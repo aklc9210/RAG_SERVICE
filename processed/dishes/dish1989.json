@@ -1,0 +1,53 @@
+{
+  "id": "dish1989",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1989.json",
+  "name_vi": "Bánh quy que chà bông mặn",
+  "name_en": "",
+  "name_normalized": "banh quy que cha bong man",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bơ lạt",
+    "Chà bông"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00382",
+    "ingre01202",
+    "ingre06147",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bơ lạt",
+    "Chà bông",
+    "Sữa tươi không đường",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Butter",
+    "Pork floss",
+    "Fat-free Milk",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bo lat",
+    "cha bong",
+    "sua tuoi khong duong",
+    "muoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dish1006",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1006.json",
+  "name_vi": "Bánh bắp chiên giòn",
+  "name_en": "",
+  "name_normalized": "banh bap chien gion",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Bắp Mỹ",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột chiên giòn",
+    "Bột gạo",
+    "Ớt",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre00598",
+    "ingre00668",
+    "ingre00479",
+    "ingre02673",
+    "ingre07966",
+    "ingre02124",
+    "ingre02997",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Bột chiên giòn",
+    "Bột gạo",
+    "Bắp Mỹ",
+    "Hành lá",
+    "Ớt",
+    "Dầu ăn",
+    "Hạt nêm chay",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Puffed Rice Powder",
+    "Rice flour",
+    "Corn",
+    "Scallion",
+    "Pepper",
+    "Cooking oil",
+    "Vegetarian Seasoning",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "bot chien gion",
+    "bot gao",
+    "bap my",
+    "hanh la",
+    "ot",
+    "dau an",
+    "hat nem chay",
+    "tieu xay"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

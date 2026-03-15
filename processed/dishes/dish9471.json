@@ -1,0 +1,62 @@
+{
+  "id": "dish9471",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9471.json",
+  "name_vi": "Khoai lang nghiền",
+  "name_en": "",
+  "name_normalized": "khoai lang nghien",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Khoai lang"
+  ],
+  "secondary_ingredients": [
+    "Kem sữa half and half",
+    "Bơ lạt"
+  ],
+  "seasonings": [
+    "Đường nâu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre03186",
+    "ingre03145",
+    "ingre00382",
+    "ingre07628",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Khoai lang",
+    "Kem sữa half and half",
+    "Bơ lạt",
+    "Đường nâu",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Sweet Potato",
+    "Half and Half",
+    "Butter",
+    "Brown Sugar",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "khoai lang",
+    "kem sua half and half",
+    "bo lat",
+    "duong nau",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "dish9747",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9747.json",
+  "name_vi": "Trà chanh - gừng - mật ong",
+  "name_en": "",
+  "name_normalized": "tra chanh gung mat ong",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Túi trà túi lọc"
+  ],
+  "secondary_ingredients": [
+    "Mật ong",
+    "Nước"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh"
+  ],
+  "ingredient_ids": [
+    "ingre06975",
+    "ingre02485",
+    "ingre04124",
+    "ingre01079",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Túi trà túi lọc",
+    "Gừng",
+    "Mật ong",
+    "Chanh",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Tea Bag",
+    "Ginger",
+    "Honey",
+    "Lemon",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "tui tra tui loc",
+    "gung",
+    "mat ong",
+    "chanh",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "tra chanh - gung - mat ong",
+      "new": "tra chanh gung mat ong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

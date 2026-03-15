@@ -1,0 +1,63 @@
+{
+  "id": "dish1022",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1022.json",
+  "name_vi": "Muffin cà rốt chà là",
+  "name_en": "",
+  "name_normalized": "muffin ca rot cha la",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Chà là",
+    "Dầu thực vật",
+    "Sữa tươi"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Cà rốt",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre00791",
+    "ingre00867",
+    "ingre01419",
+    "ingre01213",
+    "ingre06823",
+    "ingre02113",
+    "ingre06144"
+  ],
+  "ingredient_names_vi": [
+    "Bột mì đa dụng",
+    "Bột nở",
+    "Cà rốt",
+    "Chà là",
+    "Trứng gà",
+    "Dầu thực vật",
+    "Sữa tươi"
+  ],
+  "ingredient_names_en": [
+    "All-purpose flour",
+    "Baking powder",
+    "Carrot",
+    "Staranberry",
+    "Chicken egg",
+    "Vegetable oil",
+    "Fresh Milk"
+  ],
+  "ingredient_names_normalized": [
+    "bot mi da dung",
+    "bot no",
+    "ca rot",
+    "cha la",
+    "trung ga",
+    "dau thuc vat",
+    "sua tuoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

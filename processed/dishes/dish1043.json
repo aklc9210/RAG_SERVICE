@@ -1,0 +1,58 @@
+{
+  "id": "dish1043",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1043.json",
+  "name_vi": "Bánh xèo vỏ",
+  "name_en": "",
+  "name_normalized": "banh xeo vo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Gạo"
+  ],
+  "secondary_ingredients": [
+    "Hành lá"
+  ],
+  "seasonings": [
+    "Muối",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre02436",
+    "ingre03746",
+    "ingre02673",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Gạo",
+    "Muối",
+    "Hành lá",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Rice",
+    "Salt",
+    "Scallion",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "gao",
+    "muoi",
+    "hanh la",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

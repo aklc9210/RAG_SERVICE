@@ -1,0 +1,61 @@
+{
+  "id": "dish8451",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8451.json",
+  "name_vi": "Gà nấu rượu gừng",
+  "name_en": "",
+  "name_normalized": "ga nau ruou gung",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Thịt gà"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Gừng",
+    "Rượu trắng",
+    "Nước cốt chanh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre06380",
+    "ingre02485",
+    "ingre05574",
+    "ingre04538",
+    "ingre03807"
+  ],
+  "ingredient_names_vi": [
+    "Thịt gà",
+    "Gừng",
+    "Rượu trắng",
+    "Nước cốt chanh",
+    "Muối/ bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Ginger",
+    "White wine",
+    "Lemon juice",
+    "Monosodium Glutamate"
+  ],
+  "ingredient_names_normalized": [
+    "thit ga",
+    "gung",
+    "ruou trang",
+    "nuoc cot chanh",
+    "muoi bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

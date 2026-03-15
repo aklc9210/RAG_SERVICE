@@ -1,0 +1,25 @@
+{
+  "id": "ingre05748",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre05748.json",
+  "name_vi": "socola m&ms",
+  "name_en": "M&M's Chocolate Candies",
+  "name_normalized": "socola m ms",
+  "synonyms": [
+    "kẹo m&ms"
+  ],
+  "synonyms_normalized": [
+    "keo m ms"
+  ],
+  "category": "candies",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "socola m&ms",
+      "new": "socola m ms",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

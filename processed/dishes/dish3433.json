@@ -1,0 +1,121 @@
+{
+  "id": "dish3433",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3433.json",
+  "name_vi": "Mì lòng bò",
+  "name_en": "",
+  "name_normalized": "mi long bo",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Lòng bò",
+    "Mì trứng",
+    "Tóp mỡ"
+  ],
+  "secondary_ingredients": [
+    "Trái thảo",
+    "Củ cải trắng",
+    "Hành tím",
+    "Hành tây",
+    "Sả"
+  ],
+  "seasonings": [
+    "Cải ngọt",
+    "Rượu trắng",
+    "Hoa hồi",
+    "Quế",
+    "Gừng",
+    "Giấm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre03567",
+    "ingre04001",
+    "ingre01787",
+    "ingre06927",
+    "ingre05574",
+    "ingre02584",
+    "ingre05186",
+    "ingre06772",
+    "ingre01868",
+    "ingre02768",
+    "ingre02741",
+    "ingre02485",
+    "ingre02355",
+    "ingre05900",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Lòng bò",
+    "Mì trứng",
+    "Cải ngọt",
+    "Tóp mỡ",
+    "Rượu trắng",
+    "Hoa hồi",
+    "Quế",
+    "Trái thảo",
+    "Củ cải trắng",
+    "Hành tím",
+    "Hành tây",
+    "Gừng",
+    "Giấm",
+    "Sả",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef tripe",
+    "Egg noodles",
+    "Sweet cabbage",
+    "Pork rind",
+    "White wine",
+    "Rose",
+    "Cinnamon",
+    "Mint",
+    "White radish",
+    "Shallot",
+    "Onion",
+    "Ginger",
+    "Vinegar",
+    "Lemongrass",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "long bo",
+    "mi trung",
+    "cai ngot",
+    "top mo",
+    "ruou trang",
+    "hoa hoi",
+    "que",
+    "trai thao",
+    "cu cai trang",
+    "hanh tim",
+    "hanh tay",
+    "gung",
+    "giam",
+    "sa",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

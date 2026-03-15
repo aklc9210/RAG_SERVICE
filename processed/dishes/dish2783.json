@@ -1,0 +1,82 @@
+{
+  "id": "dish2783",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2783.json",
+  "name_vi": "bánh mochi đậu biếc nhân kem oreo",
+  "name_en": "",
+  "name_normalized": "banh mochi dau biec nhan kem oreo",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Nước nóng"
+  ],
+  "secondary_ingredients": [
+    "Dầu dừa",
+    "Bánh oreo",
+    "Kem tươi (Whipping Cream)",
+    "Sữa đặc"
+  ],
+  "seasonings": [
+    "Bột nếp",
+    "Đường",
+    "Sữa tươi không đường",
+    "Bột bánh dẻo"
+  ],
+  "ingredient_ids": [
+    "ingre04738",
+    "ingre00859",
+    "ingre07583",
+    "ingre06147",
+    "ingre02067",
+    "ingre00128",
+    "ingre03158",
+    "ingre06174",
+    "ingre00532"
+  ],
+  "ingredient_names_vi": [
+    "Nước nóng",
+    "Bột nếp",
+    "Đường",
+    "Sữa tươi không đường",
+    "Dầu dừa",
+    "Bánh oreo",
+    "Kem tươi (Whipping Cream)",
+    "Sữa đặc",
+    "Bột bánh dẻo"
+  ],
+  "ingredient_names_en": [
+    "Hot water",
+    "Glutinous rice flour",
+    "Sugar",
+    "Fat-free Milk",
+    "Coconut oil",
+    "Oreo cookie",
+    "Whipping Cream",
+    "Sweetened Condensed Milk",
+    "Sweet Rice Flour"
+  ],
+  "ingredient_names_normalized": [
+    "nuoc nong",
+    "bot nep",
+    "duong",
+    "sua tuoi khong duong",
+    "dau dua",
+    "banh oreo",
+    "kem tuoi whipping cream",
+    "sua dac",
+    "bot banh deo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "kem tuoi (whipping cream)",
+      "new": "kem tuoi whipping cream",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Kem tươi (Whipping Cream)"
+    }
+  ]
+}

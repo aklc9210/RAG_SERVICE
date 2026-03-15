@@ -1,0 +1,58 @@
+{
+  "id": "dish6720",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6720.json",
+  "name_vi": "Trứng chiên khoai tây bắp cải",
+  "name_en": "",
+  "name_normalized": "trung chien khoai tay bap cai",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Bắp cải",
+    "Khoai tây"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre00457",
+    "ingre03222",
+    "ingre03746",
+    "ingre06612",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Bắp cải",
+    "Khoai tây",
+    "Muối",
+    "Tiêu",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Cabbage",
+    "Potato",
+    "Salt",
+    "Pepper",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "bap cai",
+    "khoai tay",
+    "muoi",
+    "tieu",
+    "dau an"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

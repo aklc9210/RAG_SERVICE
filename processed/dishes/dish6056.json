@@ -1,0 +1,125 @@
+{
+  "id": "dish6056",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6056.json",
+  "name_vi": "Phá lấu tai heo nước dừa",
+  "name_en": "",
+  "name_normalized": "pha lau tai heo nuoc dua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Tai heo",
+    "Lưỡi heo",
+    "Nước dừa tươi",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Muối",
+    "Gừng",
+    "Giấm",
+    "Tỏi",
+    "Hạt nêm",
+    "Đường trắng",
+    "Tiêu",
+    "Bột ngũ vị hương",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06185",
+    "ingre03605",
+    "ingre04626",
+    "ingre05900",
+    "ingre03746",
+    "ingre02485",
+    "ingre02355",
+    "ingre02768",
+    "ingre07063",
+    "ingre02995",
+    "ingre07652",
+    "ingre06612",
+    "ingre00815",
+    "ingre02080",
+    "ingre04790",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Tai heo",
+    "Lưỡi heo",
+    "Nước dừa tươi",
+    "Sả",
+    "Muối",
+    "Gừng",
+    "Giấm",
+    "Hành tím",
+    "Tỏi",
+    "Hạt nêm",
+    "Đường trắng",
+    "Tiêu",
+    "Bột ngũ vị hương",
+    "Dầu hào",
+    "Nước tương",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Pork ear",
+    "Pork chop",
+    "Coconut water",
+    "Lemongrass",
+    "Salt",
+    "Ginger",
+    "Vinegar",
+    "Shallot",
+    "Garlic",
+    "Seasoning",
+    "White sugar",
+    "Pepper",
+    "Five-Spice Powder",
+    "Soy sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "tai heo",
+    "luoi heo",
+    "nuoc dua tuoi",
+    "sa",
+    "muoi",
+    "gung",
+    "giam",
+    "hanh tim",
+    "toi",
+    "hat nem",
+    "duong trang",
+    "tieu",
+    "bot ngu vi huong",
+    "dau hao",
+    "nuoc tuong",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

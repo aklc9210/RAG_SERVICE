@@ -1,0 +1,62 @@
+{
+  "id": "dish9500",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9500.json",
+  "name_vi": "Thạch rau câu hình cá chép",
+  "name_en": "",
+  "name_normalized": "thach rau cau hinh ca chep",
+  "category": "ngay le tet",
+  "main_ingredients": [
+    "Màu thực phẩm đỏ - vàng",
+    "Nho khô",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột rau câu dẻo",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre00897",
+    "ingre07583",
+    "ingre03892",
+    "ingre04398",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột rau câu dẻo",
+    "Đường",
+    "Màu thực phẩm đỏ - vàng",
+    "Nho khô",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Agar powder",
+    "Sugar",
+    "Food coloring red-yellow",
+    "Dried grape",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot rau cau deo",
+    "duong",
+    "mau thuc pham do vang",
+    "nho kho",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "mau thuc pham do - vang",
+      "new": "mau thuc pham do vang",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Màu thực phẩm đỏ - vàng"
+    }
+  ]
+}

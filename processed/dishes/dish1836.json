@@ -1,0 +1,51 @@
+{
+  "id": "dish1836",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish1836.json",
+  "name_vi": "Nước đường bánh Trung thu nướng",
+  "name_en": "",
+  "name_normalized": "nuoc duong banh trung thu nuong",
+  "category": "mon banh",
+  "main_ingredients": [],
+  "secondary_ingredients": [
+    "Nước"
+  ],
+  "seasonings": [
+    "Đường trắng",
+    "Chanh vàng (hoặc chanh xanh)"
+  ],
+  "ingredient_ids": [
+    "ingre07652",
+    "ingre01097",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Đường trắng",
+    "Chanh vàng (hoặc chanh xanh)",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "White sugar",
+    "Lemon",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "duong trang",
+    "chanh vang hoac chanh xanh",
+    "nuoc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "chanh vang (hoac chanh xanh)",
+      "new": "chanh vang hoac chanh xanh",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Chanh vàng (hoặc chanh xanh)"
+    }
+  ]
+}

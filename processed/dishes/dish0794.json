@@ -1,0 +1,73 @@
+{
+  "id": "dish0794",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0794.json",
+  "name_vi": "Gỏi rau càng cua cá hộp",
+  "name_en": "",
+  "name_normalized": "goi rau cang cua ca hop",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Rau càng cua",
+    "Cá hộp"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Đậu phộng rang"
+  ],
+  "seasonings": [
+    "Chanh",
+    "Tỏi",
+    "Trứng gà"
+  ],
+  "ingredient_ids": [
+    "ingre05219",
+    "ingre01535",
+    "ingre01079",
+    "ingre02768",
+    "ingre07063",
+    "ingre06823",
+    "ingre07791"
+  ],
+  "ingredient_names_vi": [
+    "Rau càng cua",
+    "Cá hộp",
+    "Chanh",
+    "Hành tím",
+    "Tỏi",
+    "Trứng gà",
+    "Đậu phộng rang"
+  ],
+  "ingredient_names_en": [
+    "Water spinach",
+    "Canned Fish",
+    "Lemon",
+    "Shallot",
+    "Garlic",
+    "Chicken egg",
+    "Roasted Peanut"
+  ],
+  "ingredient_names_normalized": [
+    "rau cang cua",
+    "ca hop",
+    "chanh",
+    "hanh tim",
+    "toi",
+    "trung ga",
+    "dau phong rang"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

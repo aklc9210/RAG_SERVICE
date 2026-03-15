@@ -1,0 +1,107 @@
+{
+  "id": "dish8698",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8698.json",
+  "name_vi": "Đậu hũ nhồi nấm",
+  "name_en": "",
+  "name_normalized": "dau hu nhoi nam",
+  "category": "mon chay",
+  "main_ingredients": [
+    "Đậu hũ",
+    "Nấm rơm",
+    "Nấm đùi gà",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Nước lọc"
+  ],
+  "seasonings": [
+    "Hành tím băm",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07740",
+    "ingre04953",
+    "ingre04974",
+    "ingre02673",
+    "ingre02774",
+    "ingre04790",
+    "ingre02080",
+    "ingre07028",
+    "ingre06644",
+    "ingre02124",
+    "ingre07583",
+    "ingre00819",
+    "ingre02995",
+    "ingre04665"
+  ],
+  "ingredient_names_vi": [
+    "Đậu hũ",
+    "Nấm rơm",
+    "Nấm đùi gà",
+    "Hành lá",
+    "Hành tím băm",
+    "Nước tương",
+    "Dầu hào",
+    "Tương ớt",
+    "Tiêu xay",
+    "Dầu ăn",
+    "Đường",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Nước lọc"
+  ],
+  "ingredient_names_en": [
+    "Tofu",
+    "Strawberry mushroom",
+    "Chicken mushroom",
+    "Scallion",
+    "Chopped Scallion",
+    "Soy Sauce",
+    "Hot Sauce",
+    "Ground pepper",
+    "Cooking oil",
+    "Sugar",
+    "MSG",
+    "Seasoning",
+    "Tap water"
+  ],
+  "ingredient_names_normalized": [
+    "dau hu",
+    "nam rom",
+    "nam dui ga",
+    "hanh la",
+    "hanh tim bam",
+    "nuoc tuong",
+    "dau hao",
+    "tuong ot",
+    "tieu xay",
+    "dau an",
+    "duong",
+    "bot ngot",
+    "hat nem",
+    "nuoc loc"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dish8778",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8778.json",
+  "name_vi": "Cách làm me hạt dẻo",
+  "name_en": "",
+  "name_normalized": "cach lam me hat deo",
+  "category": "an vat",
+  "main_ingredients": [
+    "Me"
+  ],
+  "secondary_ingredients": [
+    "Dứa"
+  ],
+  "seasonings": [
+    "Muối hột",
+    "Baking soda",
+    "Đường"
+  ],
+  "ingredient_ids": [
+    "ingre03643",
+    "ingre03766",
+    "ingre00018",
+    "ingre07583",
+    "ingre02151"
+  ],
+  "ingredient_names_vi": [
+    "Me",
+    "Muối hột",
+    "Baking soda",
+    "Đường",
+    "Dứa"
+  ],
+  "ingredient_names_en": [
+    "Tamarind",
+    "Sea salt",
+    "Baking soda",
+    "Sugar",
+    "Pineapple"
+  ],
+  "ingredient_names_normalized": [
+    "me",
+    "muoi hot",
+    "baking soda",
+    "duong",
+    "dua"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

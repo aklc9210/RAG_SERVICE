@@ -1,0 +1,113 @@
+{
+  "id": "dish4130",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4130.json",
+  "name_vi": "Gà nướng lá sen",
+  "name_en": "",
+  "name_normalized": "ga nuong la sen",
+  "category": "mon nuong",
+  "main_ingredients": [
+    "Gà",
+    "Lá sen",
+    "Hành tím"
+  ],
+  "secondary_ingredients": [
+    "Dây lá chuối",
+    "Lá dứa",
+    "Lá quế"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm ăn",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre02392",
+    "ingre03516",
+    "ingre02768",
+    "ingre02485",
+    "ingre01977",
+    "ingre03417",
+    "ingre03500",
+    "ingre02124",
+    "ingre04694",
+    "ingre02377",
+    "ingre07583",
+    "ingre06612",
+    "ingre00819",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Gà",
+    "Lá sen",
+    "Hành tím",
+    "Gừng",
+    "Dây lá chuối",
+    "Lá dứa",
+    "Lá quế",
+    "Dầu ăn",
+    "Nước mắm",
+    "Giấm ăn",
+    "Đường",
+    "Tiêu",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken",
+    "Lotus leaf",
+    "Shallot",
+    "Ginger",
+    "Banana leaf",
+    "Pandan叶",
+    "Bayleaf",
+    "Cooking oil",
+    "Fish Sauce",
+    "vinegar",
+    "Sugar",
+    "Pepper",
+    "MSG",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ga",
+    "la sen",
+    "hanh tim",
+    "gung",
+    "day la chuoi",
+    "la dua",
+    "la que",
+    "dau an",
+    "nuoc mam",
+    "giam an",
+    "duong",
+    "tieu",
+    "bot ngot",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

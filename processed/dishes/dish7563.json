@@ -1,0 +1,122 @@
+{
+  "id": "dish7563",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7563.json",
+  "name_vi": "Ốc đắng hấp sả húng quế (kiểu Thái)",
+  "name_en": "",
+  "name_normalized": "oc dang hap sa hung que kieu thai",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Ốc đắng",
+    "Sả",
+    "Húng quế"
+  ],
+  "secondary_ingredients": [
+    "Me",
+    "Nước"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Ớt",
+    "Dầu ăn",
+    "Tương cà",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_ids": [
+    "ingre07958",
+    "ingre07063",
+    "ingre05900",
+    "ingre02862",
+    "ingre03643",
+    "ingre07966",
+    "ingre04490",
+    "ingre02124",
+    "ingre06984",
+    "ingre07028",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre02995"
+  ],
+  "ingredient_names_vi": [
+    "Ốc đắng",
+    "Tỏi",
+    "Sả",
+    "Húng quế",
+    "Me",
+    "Ớt",
+    "Nước",
+    "Dầu ăn",
+    "Tương cà",
+    "Tương ớt",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Hạt nêm"
+  ],
+  "ingredient_names_en": [
+    "Bitter Snail",
+    "Garlic",
+    "Lemongrass",
+    "Cinnamon basil",
+    "Tamarind",
+    "Pepper",
+    "Water",
+    "Cooking oil",
+    "Miso酱",
+    "Hot Sauce",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "oc dang",
+    "toi",
+    "sa",
+    "hung que",
+    "me",
+    "ot",
+    "nuoc",
+    "dau an",
+    "tuong ca",
+    "tuong ot",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "hat nem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "oc dang hap sa hung que (kieu thai)",
+      "new": "oc dang hap sa hung que kieu thai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Mouse",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Me"
+    }
+  ]
+}

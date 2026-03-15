@@ -1,0 +1,83 @@
+{
+  "id": "dish10686",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10686.json",
+  "name_vi": "Chả cá cuốn rau răm",
+  "name_en": "",
+  "name_normalized": "cha ca cuon rau ram",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Chả cá",
+    "Rau răm"
+  ],
+  "secondary_ingredients": [
+    "Xoài xanh",
+    "Cóc"
+  ],
+  "seasonings": [
+    "Tương ớt",
+    "Tỏi băm nhuyễn",
+    "Dầu ăn",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre01268",
+    "ingre05359",
+    "ingre07342",
+    "ingre01708",
+    "ingre07028",
+    "ingre07072",
+    "ingre02124",
+    "ingre07583",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Chả cá",
+    "Rau răm",
+    "Xoài xanh",
+    "Cóc",
+    "Tương ớt",
+    "Tỏi băm nhuyễn",
+    "Dầu ăn",
+    "Đường",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Fish cake",
+    "Vietnamese coriander",
+    "Green mango",
+    "Frog",
+    "Hot Sauce",
+    "Minced garlic",
+    "Cooking oil",
+    "Sugar",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "cha ca",
+    "rau ram",
+    "xoai xanh",
+    "coc",
+    "tuong ot",
+    "toi bam nhuyen",
+    "dau an",
+    "duong",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

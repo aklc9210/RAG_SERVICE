@@ -1,0 +1,101 @@
+{
+  "id": "dish5701",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5701.json",
+  "name_vi": "Sườn bò hầm Hàn Quốc",
+  "name_en": "",
+  "name_normalized": "suon bo ham han quoc",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Sườn bò",
+    "Nấm đùi gà"
+  ],
+  "secondary_ingredients": [
+    "Hành boa rô",
+    "Hành tây",
+    "Hạt dẻ",
+    "Dầu mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Ớt xanh",
+    "Rượu trắng",
+    "Nước tương",
+    "Gừng",
+    "Tỏi",
+    "Tiêu/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre05872",
+    "ingre04974",
+    "ingre01419",
+    "ingre02645",
+    "ingre02741",
+    "ingre08083",
+    "ingre02934",
+    "ingre02094",
+    "ingre05574",
+    "ingre04790",
+    "ingre02485",
+    "ingre07063",
+    "ingre06662"
+  ],
+  "ingredient_names_vi": [
+    "Sườn bò",
+    "Nấm đùi gà",
+    "Cà rốt",
+    "Hành boa rô",
+    "Hành tây",
+    "Ớt xanh",
+    "Hạt dẻ",
+    "Dầu mè",
+    "Rượu trắng",
+    "Nước tương",
+    "Gừng",
+    "Tỏi",
+    "Tiêu/ đường"
+  ],
+  "ingredient_names_en": [
+    "Beef ribs",
+    "Chicken mushroom",
+    "Carrot",
+    "Garlic",
+    "Onion",
+    "Green Pepper",
+    "Walnut",
+    "Sesame oil",
+    "White wine",
+    "Soy Sauce",
+    "Ginger",
+    "Pepper/Sugar"
+  ],
+  "ingredient_names_normalized": [
+    "suon bo",
+    "nam dui ga",
+    "ca rot",
+    "hanh boa ro",
+    "hanh tay",
+    "ot xanh",
+    "hat de",
+    "dau me",
+    "ruou trang",
+    "nuoc tuong",
+    "gung",
+    "toi",
+    "tieu duong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ duong",
+      "new": "tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ đường"
+    }
+  ]
+}

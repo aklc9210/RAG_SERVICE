@@ -1,0 +1,82 @@
+{
+  "id": "dish0992",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0992.json",
+  "name_vi": "Tiramisu kẹo đường dalgona",
+  "name_en": "",
+  "name_normalized": "tiramisu keo duong dalgona",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Phô mai Mascarpone",
+    "Whipping cream",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột làm bánh (Cake flour)",
+    "Bột cà phê hòa tan",
+    "Baking powder",
+    "Trứng gà",
+    "Đường",
+    "Đường bột"
+  ],
+  "ingredient_ids": [
+    "ingre00720",
+    "ingre00623",
+    "ingre00013",
+    "ingre05083",
+    "ingre07313",
+    "ingre06823",
+    "ingre06592",
+    "ingre07583",
+    "ingre07589"
+  ],
+  "ingredient_names_vi": [
+    "Bột làm bánh (Cake flour)",
+    "Bột cà phê hòa tan",
+    "Baking powder",
+    "Phô mai Mascarpone",
+    "Whipping cream",
+    "Trứng gà",
+    "Tinh chất vani",
+    "Đường",
+    "Đường bột"
+  ],
+  "ingredient_names_en": [
+    "Cake flour",
+    "Instant coffee",
+    "Baking powder",
+    "Mascarpone Cheese",
+    "Whipping cream",
+    "Chicken egg",
+    "Vanilla extract",
+    "Sugar",
+    "Sugar Powder"
+  ],
+  "ingredient_names_normalized": [
+    "bot lam banh cake flour",
+    "bot ca phe hoa tan",
+    "baking powder",
+    "pho mai mascarpone",
+    "whipping cream",
+    "trung ga",
+    "tinh chat vani",
+    "duong",
+    "duong bot"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "bot lam banh (cake flour)",
+      "new": "bot lam banh cake flour",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Bột làm bánh (Cake flour)"
+    }
+  ]
+}

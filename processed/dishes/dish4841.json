@@ -1,0 +1,108 @@
+{
+  "id": "dish4841",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish4841.json",
+  "name_vi": "Nui xào cà chua chay",
+  "name_en": "",
+  "name_normalized": "nui xao ca chua chay",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Nui khô",
+    "Nấm đùi gà",
+    "Đậu hũ trắng",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Hành tím",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Tỏi",
+    "Dầu ăn",
+    "Xì dầu",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04452",
+    "ingre04974",
+    "ingre07755",
+    "ingre01354",
+    "ingre02768",
+    "ingre07063",
+    "ingre04343",
+    "ingre02124",
+    "ingre07381",
+    "ingre02997",
+    "ingre03746",
+    "ingre07583",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Nui khô",
+    "Nấm đùi gà",
+    "Đậu hũ trắng",
+    "Cà chua",
+    "Hành tím",
+    "Tỏi",
+    "Ngò rí",
+    "Dầu ăn",
+    "Xì dầu",
+    "Hạt nêm chay",
+    "Muối",
+    "Đường",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Dry vermicelli",
+    "Chicken mushroom",
+    "Tofu",
+    "Tomato",
+    "Shallot",
+    "Garlic",
+    "Parsley",
+    "Cooking oil",
+    "Soy Sauce",
+    "Vegetarian Seasoning",
+    "Salt",
+    "Sugar",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "nui kho",
+    "nam dui ga",
+    "dau hu trang",
+    "ca chua",
+    "hanh tim",
+    "toi",
+    "ngo ri",
+    "dau an",
+    "xi dau",
+    "hat nem chay",
+    "muoi",
+    "duong",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

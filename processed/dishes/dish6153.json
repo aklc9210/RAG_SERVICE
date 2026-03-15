@@ -1,0 +1,92 @@
+{
+  "id": "dish6153",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6153.json",
+  "name_vi": "Bắp bò kho mật mía",
+  "name_en": "",
+  "name_normalized": "bap bo kho mat mia",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Bắp bò",
+    "Mật mía"
+  ],
+  "secondary_ingredients": [
+    "Sả"
+  ],
+  "seasonings": [
+    "Rượu trắng",
+    "Hành khô",
+    "Tỏi khô",
+    "Ớt bột",
+    "Tiêu xay",
+    "Thanh quế",
+    "Gừng",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre00450",
+    "ingre05574",
+    "ingre04123",
+    "ingre02667",
+    "ingre07089",
+    "ingre07977",
+    "ingre06644",
+    "ingre06210",
+    "ingre02485",
+    "ingre05900",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Bắp bò",
+    "Rượu trắng",
+    "Mật mía",
+    "Hành khô",
+    "Tỏi khô",
+    "Ớt bột",
+    "Tiêu xay",
+    "Thanh quế",
+    "Gừng",
+    "Sả",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "White wine",
+    "Molasses",
+    "Garlic Powder",
+    "Dried Garlic",
+    "Chili powder",
+    "Ground pepper",
+    "Cinnamon",
+    "Ginger",
+    "Lemongrass",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "bap bo",
+    "ruou trang",
+    "mat mia",
+    "hanh kho",
+    "toi kho",
+    "ot bot",
+    "tieu xay",
+    "thanh que",
+    "gung",
+    "sa",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

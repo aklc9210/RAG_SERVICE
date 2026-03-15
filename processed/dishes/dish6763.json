@@ -1,0 +1,67 @@
+{
+  "id": "dish6763",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6763.json",
+  "name_vi": "Chân gà rang muối",
+  "name_en": "",
+  "name_normalized": "chan ga rang muoi",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Chân gà"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Gạo nếp",
+    "Đậu xanh"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre05900",
+    "ingre03370",
+    "ingre02450",
+    "ingre07836",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Sả",
+    "Lá chanh",
+    "Gạo nếp",
+    "Đậu xanh",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Lemongrass",
+    "Lime leaf",
+    "sticky rice",
+    "Green beans",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "sa",
+    "la chanh",
+    "gao nep",
+    "dau xanh",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

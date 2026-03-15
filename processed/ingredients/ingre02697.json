@@ -1,0 +1,25 @@
+{
+  "id": "ingre02697",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02697.json",
+  "name_vi": "hành lá/ húng quế",
+  "name_en": "Chives/ MediaTek Pepper",
+  "name_normalized": "hanh la hung que",
+  "synonyms": [
+    "húng thơm"
+  ],
+  "synonyms_normalized": [
+    "hung thom"
+  ],
+  "category": "vegetables",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh la/ hung que",
+      "new": "hanh la hung que",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

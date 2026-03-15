@@ -1,0 +1,29 @@
+{
+  "id": "ingre03817",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre03817.json",
+  "name_vi": "muối/ tiêu xay/ đường",
+  "name_en": "Ground Salt/Pepper/Sugar",
+  "name_normalized": "muoi tieu xay duong",
+  "synonyms": [
+    "tiêu xay",
+    "bột tiêu",
+    "bột ngọt"
+  ],
+  "synonyms_normalized": [
+    "tieu xay",
+    "bot tieu",
+    "bot ngot"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "muoi/ tieu xay/ duong",
+      "new": "muoi tieu xay duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

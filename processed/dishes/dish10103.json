@@ -1,0 +1,59 @@
+{
+  "id": "dish10103",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10103.json",
+  "name_vi": "Sinh tố matcha bơ kiwi",
+  "name_en": "",
+  "name_normalized": "sinh to matcha bo kiwi",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Kiwi",
+    "Cải xoăn",
+    "Bơ",
+    "Hạt điều",
+    "Nước"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột matcha"
+  ],
+  "ingredient_ids": [
+    "ingre00736",
+    "ingre03287",
+    "ingre01800",
+    "ingre00367",
+    "ingre03062",
+    "ingre04490"
+  ],
+  "ingredient_names_vi": [
+    "Bột matcha",
+    "Kiwi",
+    "Cải xoăn",
+    "Bơ",
+    "Hạt điều",
+    "Nước"
+  ],
+  "ingredient_names_en": [
+    "Matcha Powder",
+    "Kiwi -> Kiwi",
+    "Bokchoy",
+    "Butter",
+    "Peanut",
+    "Water"
+  ],
+  "ingredient_names_normalized": [
+    "bot matcha",
+    "kiwi",
+    "cai xoan",
+    "bo",
+    "hat dieu",
+    "nuoc"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

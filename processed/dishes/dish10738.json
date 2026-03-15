@@ -1,0 +1,63 @@
+{
+  "id": "dish10738",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10738.json",
+  "name_vi": "Sushi trứng cuộn",
+  "name_en": "",
+  "name_normalized": "sushi trung cuon",
+  "category": "mon cuon - tron",
+  "main_ingredients": [
+    "Hành ngò băm nhuyễn",
+    "Lá rong biển khô",
+    "Cơm nguội"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Trứng gà",
+    "Cà rốt cắt nhỏ",
+    "Sốt mayonaise",
+    "Giấm trắng"
+  ],
+  "ingredient_ids": [
+    "ingre06823",
+    "ingre01427",
+    "ingre02725",
+    "ingre05968",
+    "ingre02370",
+    "ingre03510",
+    "ingre01755"
+  ],
+  "ingredient_names_vi": [
+    "Trứng gà",
+    "Cà rốt cắt nhỏ",
+    "Hành ngò băm nhuyễn",
+    "Sốt mayonaise",
+    "Giấm trắng",
+    "Lá rong biển khô",
+    "Cơm nguội"
+  ],
+  "ingredient_names_en": [
+    "Chicken egg",
+    "Carrot diced",
+    "Chopped Shallot Garlic",
+    "Mayonnaise",
+    "White vinegar",
+    "Kelp Leaves Dry",
+    "Cold Rice"
+  ],
+  "ingredient_names_normalized": [
+    "trung ga",
+    "ca rot cat nho",
+    "hanh ngo bam nhuyen",
+    "sot mayonaise",
+    "giam trang",
+    "la rong bien kho",
+    "com nguoi"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

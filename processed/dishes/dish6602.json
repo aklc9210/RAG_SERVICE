@@ -1,0 +1,119 @@
+{
+  "id": "dish6602",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6602.json",
+  "name_vi": "Sườn cốt lết áp chảo kèm táo rim",
+  "name_en": "",
+  "name_normalized": "suon cot let ap chao kem tao rim",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Táo xanh",
+    "Bơ lạt"
+  ],
+  "secondary_ingredients": [
+    "Nước dùng gà",
+    "Heavy cream"
+  ],
+  "seasonings": [
+    "Sườn cốt lết",
+    "Tỏi/ Hành tím",
+    "Rượu brandy",
+    "Mù tạt vàng",
+    "Hạt mù tạt",
+    "Hoa hồi",
+    "Đinh hương",
+    "Quế",
+    "Dầu ăn",
+    "Đường nâu",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_ids": [
+    "ingre05876",
+    "ingre06908",
+    "ingre07122",
+    "ingre00382",
+    "ingre05521",
+    "ingre04607",
+    "ingre02558",
+    "ingre04055",
+    "ingre02979",
+    "ingre02584",
+    "ingre07486",
+    "ingre05186",
+    "ingre02124",
+    "ingre07628",
+    "ingre03814"
+  ],
+  "ingredient_names_vi": [
+    "Sườn cốt lết",
+    "Táo xanh",
+    "Tỏi/ Hành tím",
+    "Bơ lạt",
+    "Rượu brandy",
+    "Nước dùng gà",
+    "Heavy cream",
+    "Mù tạt vàng",
+    "Hạt mù tạt",
+    "Hoa hồi",
+    "Đinh hương",
+    "Quế",
+    "Dầu ăn",
+    "Đường nâu",
+    "Muối/ Tiêu"
+  ],
+  "ingredient_names_en": [
+    "Rib Lettuce Spare Ribs",
+    "Green apple",
+    "Garlic/Scallion",
+    "Butter",
+    "Brandy",
+    "Chicken broth",
+    "Heavy cream",
+    "Mustard Yellow",
+    "Mustard seed",
+    "Rose",
+    "Cinnamon",
+    "Cooking oil",
+    "Brown Sugar",
+    "Salt/Pepper"
+  ],
+  "ingredient_names_normalized": [
+    "suon cot let",
+    "tao xanh",
+    "toi hanh tim",
+    "bo lat",
+    "ruou brandy",
+    "nuoc dung ga",
+    "heavy cream",
+    "mu tat vang",
+    "hat mu tat",
+    "hoa hoi",
+    "dinh huong",
+    "que",
+    "dau an",
+    "duong nau",
+    "muoi tieu"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "toi/ hanh tim",
+      "new": "toi hanh tim",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tỏi/ Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu",
+      "new": "muoi tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ Tiêu"
+    }
+  ]
+}

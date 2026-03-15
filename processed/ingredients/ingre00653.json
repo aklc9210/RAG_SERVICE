@@ -1,0 +1,29 @@
+{
+  "id": "ingre00653",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre00653.json",
+  "name_vi": "bột gelatin:",
+  "name_en": "Gelatin Powder:",
+  "name_normalized": "bot gelatin",
+  "synonyms": [
+    "gelatin",
+    "gelatine"
+  ],
+  "synonyms_normalized": [
+    "gelatin",
+    "gelatine"
+  ],
+  "category": "others",
+  "audit_flags": [
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "bot gelatin:",
+      "new": "bot gelatin",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

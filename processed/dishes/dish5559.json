@@ -1,0 +1,103 @@
+{
+  "id": "dish5559",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5559.json",
+  "name_vi": "Nghêu xào chua ngọt",
+  "name_en": "",
+  "name_normalized": "ngheu xao chua ngot",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Thịt nghêu",
+    "Cà chua",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Thơm",
+    "Cần tây",
+    "Đầu hành lá băm nhuyễn"
+  ],
+  "seasonings": [
+    "Ớt chuông",
+    "Tỏi",
+    "Dầu ăn",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Sa-tế"
+  ],
+  "ingredient_ids": [
+    "ingre06450",
+    "ingre01354",
+    "ingre02741",
+    "ingre06247",
+    "ingre07999",
+    "ingre01812",
+    "ingre07063",
+    "ingre07719",
+    "ingre02124",
+    "ingre06612",
+    "ingre07583",
+    "ingre03746",
+    "ingre05632"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nghêu",
+    "Cà chua",
+    "Hành tây",
+    "Thơm",
+    "Ớt chuông",
+    "Cần tây",
+    "Tỏi",
+    "Đầu hành lá băm nhuyễn",
+    "Dầu ăn",
+    "Tiêu",
+    "Đường",
+    "Muối",
+    "Sa-tế"
+  ],
+  "ingredient_names_en": [
+    "Mussel meat",
+    "Tomato",
+    "Onion",
+    "Basil",
+    "Bell pepper",
+    "Celery",
+    "Garlic",
+    "Chopped Green Onion Tops",
+    "Cooking oil",
+    "Pepper",
+    "Sugar",
+    "Salt",
+    "Satay"
+  ],
+  "ingredient_names_normalized": [
+    "thit ngheu",
+    "ca chua",
+    "hanh tay",
+    "thom",
+    "ot chuong",
+    "can tay",
+    "toi",
+    "dau hanh la bam nhuyen",
+    "dau an",
+    "tieu",
+    "duong",
+    "muoi",
+    "sa te"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "sa-te",
+      "new": "sa te",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Sa-tế"
+    }
+  ]
+}

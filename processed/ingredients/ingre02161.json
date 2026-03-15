@@ -1,0 +1,27 @@
+{
+  "id": "ingre02161",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre02161.json",
+  "name_vi": "dứa/ thơm",
+  "name_en": "Pineapple",
+  "name_normalized": "dua thom",
+  "synonyms": [
+    "dưa hấu",
+    "quả dứa"
+  ],
+  "synonyms_normalized": [
+    "dua hau",
+    "qua dua"
+  ],
+  "category": "fresh_fruits",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "dua/ thom",
+      "new": "dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

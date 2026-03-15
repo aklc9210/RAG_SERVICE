@@ -1,0 +1,91 @@
+{
+  "id": "dish0109",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0109.json",
+  "name_vi": "Canh cua chua",
+  "name_en": "",
+  "name_normalized": "canh cua chua",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cua đồng",
+    "Cà chua"
+  ],
+  "secondary_ingredients": [
+    "Rau thì là",
+    "Hành tím",
+    "Mẻ chua",
+    "Dầu màu điều"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01344",
+    "ingre01354",
+    "ingre05383",
+    "ingre02768",
+    "ingre04166",
+    "ingre04694",
+    "ingre02093",
+    "ingre02124",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Cua đồng",
+    "Cà chua",
+    "Rau thì là",
+    "Hành tím",
+    "Mẻ chua",
+    "Nước mắm",
+    "Dầu màu điều",
+    "Dầu ăn",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "River crab",
+    "Tomato",
+    "Basil",
+    "Shallot",
+    "Tamarind",
+    "Fish Sauce",
+    "Peanut-colored food coloring",
+    "Cooking oil",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "cua dong",
+    "ca chua",
+    "rau thi la",
+    "hanh tim",
+    "me chua",
+    "nuoc mam",
+    "dau mau dieu",
+    "dau an",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

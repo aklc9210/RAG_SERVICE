@@ -1,0 +1,88 @@
+{
+  "id": "dish7999",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7999.json",
+  "name_vi": "Gỏi cà đắng cá khô",
+  "name_en": "",
+  "name_normalized": "goi ca dang ca kho",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cà đắng",
+    "Cá khô",
+    "Rau thơm"
+  ],
+  "secondary_ingredients": [
+    "Rau răm"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre01448",
+    "ingre01537",
+    "ingre05385",
+    "ingre05359",
+    "ingre07966",
+    "ingre07063",
+    "ingre01079",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819"
+  ],
+  "ingredient_names_vi": [
+    "Cà đắng",
+    "Cá khô",
+    "Rau thơm",
+    "Rau răm",
+    "Ớt",
+    "Tỏi",
+    "Chanh",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Bitter Melon",
+    "Dried fish",
+    "Basil",
+    "Vietnamese coriander",
+    "Pepper",
+    "Garlic",
+    "Lemon",
+    "Fish Sauce",
+    "Sugar",
+    "MSG"
+  ],
+  "ingredient_names_normalized": [
+    "ca dang",
+    "ca kho",
+    "rau thom",
+    "rau ram",
+    "ot",
+    "toi",
+    "chanh",
+    "nuoc mam",
+    "duong",
+    "bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

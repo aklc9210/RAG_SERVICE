@@ -1,0 +1,70 @@
+{
+  "id": "dish6140",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6140.json",
+  "name_vi": "Heo quay kho cải chua",
+  "name_en": "",
+  "name_normalized": "heo quay kho cai chua",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Thịt heo quay",
+    "Dưa chua"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Tỏi",
+    "Nước tương",
+    "Đường/ bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06411",
+    "ingre01998",
+    "ingre07966",
+    "ingre07063",
+    "ingre04790",
+    "ingre07675",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Thịt heo quay",
+    "Dưa chua",
+    "Ớt",
+    "Tỏi",
+    "Nước tương",
+    "Đường/ bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Roasted Pork",
+    "Pickled cucumber",
+    "Pepper",
+    "Garlic",
+    "Soy Sauce",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "thit heo quay",
+    "dua chua",
+    "ot",
+    "toi",
+    "nuoc tuong",
+    "duong bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong/ bot ngot",
+      "new": "duong bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường/ bột ngọt"
+    }
+  ]
+}

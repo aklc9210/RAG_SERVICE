@@ -1,0 +1,75 @@
+{
+  "id": "dish0110",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0110.json",
+  "name_vi": "Canh bề bề (canh tôm tít)",
+  "name_en": "",
+  "name_normalized": "canh be be canh tom tit",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Bề bề"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Rau ngót",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre00494",
+    "ingre05334",
+    "ingre07063",
+    "ingre04694",
+    "ingre02124",
+    "ingre00819",
+    "ingre02995",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Bề bề",
+    "Rau ngót",
+    "Tỏi",
+    "Nước mắm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Hạt nêm",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Prawns",
+    "Spinach",
+    "Garlic",
+    "Fish Sauce",
+    "Cooking oil",
+    "MSG",
+    "Seasoning",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "be be",
+    "rau ngot",
+    "toi",
+    "nuoc mam",
+    "dau an",
+    "bot ngot",
+    "hat nem",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "canh be be (canh tom tit)",
+      "new": "canh be be canh tom tit",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

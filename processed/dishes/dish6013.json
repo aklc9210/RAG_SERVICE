@@ -1,0 +1,67 @@
+{
+  "id": "dish6013",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6013.json",
+  "name_vi": "Cá rô phi kho tương riềng",
+  "name_en": "",
+  "name_normalized": "ca ro phi kho tuong rieng",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá rô phi"
+  ],
+  "secondary_ingredients": [
+    "Thịt ba chỉ",
+    "Riềng",
+    "Sả"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Tương bần"
+  ],
+  "ingredient_ids": [
+    "ingre01610",
+    "ingre06275",
+    "ingre05436",
+    "ingre05900",
+    "ingre07966",
+    "ingre06981"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô phi",
+    "Thịt ba chỉ",
+    "Riềng",
+    "Sả",
+    "Ớt",
+    "Tương bần"
+  ],
+  "ingredient_names_en": [
+    "tilapia",
+    "Pork belly",
+    "Galangal",
+    "Lemongrass",
+    "Pepper",
+    "Fish sauce"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro phi",
+    "thit ba chi",
+    "rieng",
+    "sa",
+    "ot",
+    "tuong ban"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

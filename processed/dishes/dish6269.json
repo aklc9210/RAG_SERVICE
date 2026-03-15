@@ -1,0 +1,100 @@
+{
+  "id": "dish6269",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish6269.json",
+  "name_vi": "Cá măng kho dứa (thơm)",
+  "name_en": "",
+  "name_normalized": "ca mang kho dua thom",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Cá măng",
+    "Hành lá"
+  ],
+  "secondary_ingredients": [
+    "Dứa",
+    "Cần tây",
+    "Nước vo gạo"
+  ],
+  "seasonings": [
+    "Ớt",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01570",
+    "ingre02673",
+    "ingre07966",
+    "ingre02151",
+    "ingre01812",
+    "ingre04821",
+    "ingre02124",
+    "ingre04694",
+    "ingre07583",
+    "ingre00819",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Cá măng",
+    "Hành lá",
+    "Ớt",
+    "Dứa",
+    "Cần tây",
+    "Nước vo gạo",
+    "Dầu ăn",
+    "Nước mắm",
+    "Đường",
+    "Bột ngọt",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Pineapple fish",
+    "Scallion",
+    "Pepper",
+    "Pineapple",
+    "Celery",
+    "Rice washing water",
+    "Cooking oil",
+    "Fish Sauce",
+    "Sugar",
+    "MSG",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "ca mang",
+    "hanh la",
+    "ot",
+    "dua",
+    "can tay",
+    "nuoc vo gao",
+    "dau an",
+    "nuoc mam",
+    "duong",
+    "bot ngot",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "ca mang kho dua (thom)",
+      "new": "ca mang kho dua thom",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

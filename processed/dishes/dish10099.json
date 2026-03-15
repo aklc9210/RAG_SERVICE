@@ -1,0 +1,51 @@
+{
+  "id": "dish10099",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish10099.json",
+  "name_vi": "Nước ép mãng cầu xiêm (mãng cầu gai)",
+  "name_en": "",
+  "name_normalized": "nuoc ep mang cau xiem mang cau gai",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Mãng cầu xiêm",
+    "Tinh chất vani"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Bột quế"
+  ],
+  "ingredient_ids": [
+    "ingre03924",
+    "ingre00888",
+    "ingre06592"
+  ],
+  "ingredient_names_vi": [
+    "Mãng cầu xiêm",
+    "Bột quế",
+    "Tinh chất vani"
+  ],
+  "ingredient_names_en": [
+    "Dragonfruit",
+    "Cinnamon粉",
+    "Vanilla extract"
+  ],
+  "ingredient_names_normalized": [
+    "mang cau xiem",
+    "bot que",
+    "tinh chat vani"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "nuoc ep mang cau xiem (mang cau gai)",
+      "new": "nuoc ep mang cau xiem mang cau gai",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

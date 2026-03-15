@@ -1,0 +1,29 @@
+{
+  "id": "ingre07679",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07679.json",
+  "name_vi": "đường/ hạt tiêu",
+  "name_en": "Sugar/Cumin Seeds",
+  "name_normalized": "duong hat tieu",
+  "synonyms": [
+    "cát",
+    "hạt ớt",
+    "gia vị hạt tiêu"
+  ],
+  "synonyms_normalized": [
+    "cat",
+    "hat ot",
+    "gia vi hat tieu"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "duong/ hat tieu",
+      "new": "duong hat tieu",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

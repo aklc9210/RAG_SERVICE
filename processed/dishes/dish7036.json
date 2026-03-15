@@ -1,0 +1,67 @@
+{
+  "id": "dish7036",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7036.json",
+  "name_vi": "Chả cốm thịt bằm",
+  "name_en": "",
+  "name_normalized": "cha com thit bam",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Thịt nạc vai băm"
+  ],
+  "secondary_ingredients": [
+    "Cốm khô",
+    "Giò sống",
+    "Lá chuối/ lá sen"
+  ],
+  "seasonings": [
+    "Nước mắm",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre06470",
+    "ingre01837",
+    "ingre02350",
+    "ingre04694",
+    "ingre02124",
+    "ingre03394"
+  ],
+  "ingredient_names_vi": [
+    "Thịt nạc vai băm",
+    "Cốm khô",
+    "Giò sống",
+    "Nước mắm",
+    "Dầu ăn",
+    "Lá chuối/ lá sen"
+  ],
+  "ingredient_names_en": [
+    "Ground Pork Shoulder",
+    "Dry rice cake",
+    "Fresh sausage",
+    "Fish Sauce",
+    "Cooking oil",
+    "Banana leaf/Lotus leaf"
+  ],
+  "ingredient_names_normalized": [
+    "thit nac vai bam",
+    "com kho",
+    "gio song",
+    "nuoc mam",
+    "dau an",
+    "la chuoi la sen"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "la chuoi/ la sen",
+      "new": "la chuoi la sen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Lá chuối/ lá sen"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dish2741",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish2741.json",
+  "name_vi": "Bánh bông lan Đài Loan cà phê - Castella cà phê",
+  "name_en": "",
+  "name_normalized": "banh bong lan dai loan ca phe castella ca phe",
+  "category": "mon banh",
+  "main_ingredients": [
+    "Dầu thực vật"
+  ],
+  "secondary_ingredients": [
+    "Cà phê hòa tan"
+  ],
+  "seasonings": [
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Nước cốt chanh",
+    "Đường",
+    "Bột mì số 8"
+  ],
+  "ingredient_ids": [
+    "ingre02113",
+    "ingre06147",
+    "ingre06823",
+    "ingre01398",
+    "ingre04538",
+    "ingre07583",
+    "ingre00783"
+  ],
+  "ingredient_names_vi": [
+    "Dầu thực vật",
+    "Sữa tươi không đường",
+    "Trứng gà",
+    "Cà phê hòa tan",
+    "Nước cốt chanh",
+    "Đường",
+    "Bột mì số 8"
+  ],
+  "ingredient_names_en": [
+    "Vegetable oil",
+    "Fat-free Milk",
+    "Chicken egg",
+    "Instant coffee",
+    "Lemon juice",
+    "Sugar",
+    "All-purpose flour"
+  ],
+  "ingredient_names_normalized": [
+    "dau thuc vat",
+    "sua tuoi khong duong",
+    "trung ga",
+    "ca phe hoa tan",
+    "nuoc cot chanh",
+    "duong",
+    "bot mi so 8"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "banh bong lan dai loan ca phe - castella ca phe",
+      "new": "banh bong lan dai loan ca phe castella ca phe",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

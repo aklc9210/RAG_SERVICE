@@ -1,0 +1,88 @@
+{
+  "id": "dish3479",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish3479.json",
+  "name_vi": "Bánh canh hẹ",
+  "name_en": "",
+  "name_normalized": "banh canh he",
+  "category": "mon nuoc",
+  "main_ingredients": [
+    "Xương heo",
+    "Cá thu"
+  ],
+  "secondary_ingredients": [
+    "Chả cá",
+    "Trứng cút",
+    "Nấm rơm",
+    "Cải trắng",
+    "Hẹ",
+    "Hành",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Bánh canh bột gạo"
+  ],
+  "ingredient_ids": [
+    "ingre07422",
+    "ingre01625",
+    "ingre00072",
+    "ingre01268",
+    "ingre06816",
+    "ingre04953",
+    "ingre01796",
+    "ingre03085",
+    "ingre02636",
+    "ingre02768"
+  ],
+  "ingredient_names_vi": [
+    "Xương heo",
+    "Cá thu",
+    "Bánh canh bột gạo",
+    "Chả cá",
+    "Trứng cút",
+    "Nấm rơm",
+    "Cải trắng",
+    "Hẹ",
+    "Hành",
+    "Hành tím"
+  ],
+  "ingredient_names_en": [
+    "Pork bone",
+    "Codfish",
+    "Rice noodle soup",
+    "Fish cake",
+    "Quail egg",
+    "Strawberry mushroom",
+    "Cabbage",
+    "Garlic Chives",
+    "Garlic",
+    "Shallot"
+  ],
+  "ingredient_names_normalized": [
+    "xuong heo",
+    "ca thu",
+    "banh canh bot gao",
+    "cha ca",
+    "trung cut",
+    "nam rom",
+    "cai trang",
+    "he",
+    "hanh",
+    "hanh tim"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

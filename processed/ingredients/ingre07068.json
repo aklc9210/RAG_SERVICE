@@ -1,0 +1,25 @@
+{
+  "id": "ingre07068",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre07068.json",
+  "name_vi": "tỏi (1/2 băm nhuyễn",
+  "name_en": "Garlic (1/2 minced)",
+  "name_normalized": "toi 1 2 bam nhuyen",
+  "synonyms": [
+    "tỏi băm nhuyễn"
+  ],
+  "synonyms_normalized": [
+    "toi bam nhuyen"
+  ],
+  "category": "seasonings",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "toi (1/2 bam nhuyen",
+      "new": "toi 1 2 bam nhuyen",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

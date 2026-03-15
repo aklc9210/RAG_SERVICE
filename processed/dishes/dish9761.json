@@ -1,0 +1,53 @@
+{
+  "id": "dish9761",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9761.json",
+  "name_vi": "Cocktail Negroni",
+  "name_en": "",
+  "name_normalized": "cocktail negroni",
+  "category": "thuc uong",
+  "main_ingredients": [
+    "Hương thảo",
+    "Vỏ cam vàng"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Rượu Gin",
+    "Rượu Sweet Vermouth",
+    "Rượu Campari"
+  ],
+  "ingredient_ids": [
+    "ingre05528",
+    "ingre05569",
+    "ingre05523",
+    "ingre02881",
+    "ingre07252"
+  ],
+  "ingredient_names_vi": [
+    "Rượu Gin",
+    "Rượu Sweet Vermouth",
+    "Rượu Campari",
+    "Hương thảo",
+    "Vỏ cam vàng"
+  ],
+  "ingredient_names_en": [
+    "Gin",
+    "Sweet Vermouth",
+    "Campari",
+    "Mint",
+    "Orange peel"
+  ],
+  "ingredient_names_normalized": [
+    "ruou gin",
+    "ruou sweet vermouth",
+    "ruou campari",
+    "huong thao",
+    "vo cam vang"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": []
+}

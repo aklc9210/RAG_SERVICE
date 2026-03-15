@@ -1,0 +1,97 @@
+{
+  "id": "dish0452",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0452.json",
+  "name_vi": "Canh mọc ngũ sắc",
+  "name_en": "",
+  "name_normalized": "canh moc ngu sac",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Mọc",
+    "Nấm hương khô"
+  ],
+  "secondary_ingredients": [
+    "Su hào",
+    "Trứng cút",
+    "Nước hầm xương",
+    "Hành lá",
+    "Súp lơ"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Gừng",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre04175",
+    "ingre04913",
+    "ingre01419",
+    "ingre05787",
+    "ingre06816",
+    "ingre02485",
+    "ingre04647",
+    "ingre02673",
+    "ingre05842",
+    "ingre02995",
+    "ingre00819",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Mọc",
+    "Nấm hương khô",
+    "Cà rốt",
+    "Su hào",
+    "Trứng cút",
+    "Gừng",
+    "Nước hầm xương",
+    "Hành lá",
+    "Súp lơ",
+    "Hạt nêm",
+    "Bột ngọt",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Herb",
+    "Dried Shiitake Mushrooms",
+    "Carrot",
+    "Quail egg",
+    "Ginger",
+    "Bone broth",
+    "Scallion",
+    "Broccoli",
+    "Seasoning",
+    "MSG",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "moc",
+    "nam huong kho",
+    "ca rot",
+    "su hao",
+    "trung cut",
+    "gung",
+    "nuoc ham xuong",
+    "hanh la",
+    "sup lo",
+    "hat nem",
+    "bot ngot",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Chives",
+      "new": "Scallion",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành lá"
+    }
+  ]
+}

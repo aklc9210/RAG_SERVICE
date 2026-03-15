@@ -1,0 +1,62 @@
+{
+  "id": "dish9036",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish9036.json",
+  "name_vi": "Rong biển rang muối mè",
+  "name_en": "",
+  "name_normalized": "rong bien rang muoi me",
+  "category": "an vat",
+  "main_ingredients": [
+    "Rong biển"
+  ],
+  "secondary_ingredients": [
+    "Mè trắng"
+  ],
+  "seasonings": [
+    "Ớt bột",
+    "Muối/ bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_ids": [
+    "ingre05448",
+    "ingre03935",
+    "ingre07977",
+    "ingre03807",
+    "ingre02124"
+  ],
+  "ingredient_names_vi": [
+    "Rong biển",
+    "Mè trắng",
+    "Ớt bột",
+    "Muối/ bột ngọt",
+    "Dầu ăn"
+  ],
+  "ingredient_names_en": [
+    "Kelp",
+    "White sesame",
+    "Chili powder",
+    "Monosodium Glutamate",
+    "Cooking oil"
+  ],
+  "ingredient_names_normalized": [
+    "rong bien",
+    "me trang",
+    "ot bot",
+    "muoi bot ngot",
+    "dau an"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ bot ngot",
+      "new": "muoi bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ bột ngọt"
+    }
+  ]
+}

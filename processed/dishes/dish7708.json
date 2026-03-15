@@ -1,0 +1,51 @@
+{
+  "id": "dish7708",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7708.json",
+  "name_vi": "Cua hấp bia",
+  "name_en": "",
+  "name_normalized": "cua hap bia",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cua biển",
+    "Sả",
+    "Bia"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [],
+  "ingredient_ids": [
+    "ingre01335",
+    "ingre05900",
+    "ingre00033"
+  ],
+  "ingredient_names_vi": [
+    "Cua biển",
+    "Sả",
+    "Bia"
+  ],
+  "ingredient_names_en": [
+    "Shrimp",
+    "Lemongrass",
+    "Beer"
+  ],
+  "ingredient_names_normalized": [
+    "cua bien",
+    "sa",
+    "bia"
+  ],
+  "grouping_mode": "combined",
+  "audit_flags": [
+    "missing_name_en",
+    "ingredient_grouping_low_confidence"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dish7551",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7551.json",
+  "name_vi": "Cá mú hấp dưa chua",
+  "name_en": "",
+  "name_normalized": "ca mu hap dua chua",
+  "category": "mon hap",
+  "main_ingredients": [
+    "Cá mú",
+    "Dưa cải chua"
+  ],
+  "secondary_ingredients": [
+    "Sả",
+    "Hành tím",
+    "Ngò rí"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Ớt đỏ",
+    "Nước mắm",
+    "Gia vị thông thường"
+  ],
+  "ingredient_ids": [
+    "ingre01568",
+    "ingre02006",
+    "ingre02485",
+    "ingre05900",
+    "ingre08097",
+    "ingre02768",
+    "ingre04694",
+    "ingre04343",
+    "ingre02315"
+  ],
+  "ingredient_names_vi": [
+    "Cá mú",
+    "Dưa cải chua",
+    "Gừng",
+    "Sả",
+    "Ớt đỏ",
+    "Hành tím",
+    "Nước mắm",
+    "Ngò rí",
+    "Gia vị thông thường"
+  ],
+  "ingredient_names_en": [
+    "Snapper",
+    "Pickled Chinese cabbage",
+    "Ginger",
+    "Lemongrass",
+    "Red pepper",
+    "Shallot",
+    "Fish Sauce",
+    "Parsley",
+    "Spice"
+  ],
+  "ingredient_names_normalized": [
+    "ca mu",
+    "dua cai chua",
+    "gung",
+    "sa",
+    "ot do",
+    "hanh tim",
+    "nuoc mam",
+    "ngo ri",
+    "gia vi thong thuong"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

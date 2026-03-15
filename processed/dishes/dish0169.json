@@ -1,0 +1,67 @@
+{
+  "id": "dish0169",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish0169.json",
+  "name_vi": "Canh cải cá rô",
+  "name_en": "",
+  "name_normalized": "canh cai ca ro",
+  "category": "mon canh",
+  "main_ingredients": [
+    "Cá rô đồng"
+  ],
+  "secondary_ingredients": [
+    "Rau cải xanh"
+  ],
+  "seasonings": [
+    "Gừng",
+    "Chanh",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre01612",
+    "ingre05236",
+    "ingre02485",
+    "ingre01079",
+    "ingre04694",
+    "ingre03815"
+  ],
+  "ingredient_names_vi": [
+    "Cá rô đồng",
+    "Rau cải xanh",
+    "Gừng",
+    "Chanh",
+    "Nước mắm",
+    "Muối/ tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pond罗非鱼 (Note: This is a direct translation based on the Vietnamese name \"cá rô đồng\". The exact English name might vary",
+    "Green cabbage",
+    "Ginger",
+    "Lemon",
+    "Fish Sauce",
+    "Ground Salt/Paprika"
+  ],
+  "ingredient_names_normalized": [
+    "ca ro dong",
+    "rau cai xanh",
+    "gung",
+    "chanh",
+    "nuoc mam",
+    "muoi tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "muoi/ tieu xay",
+      "new": "muoi tieu xay",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Muối/ tiêu xay"
+    }
+  ]
+}

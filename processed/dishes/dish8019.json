@@ -1,0 +1,104 @@
+{
+  "id": "dish8019",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8019.json",
+  "name_vi": "Gỏi chân gà rút xương cà rốt hành tây",
+  "name_en": "",
+  "name_normalized": "goi chan ga rut xuong ca rot hanh tay",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Chân gà",
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Rau răm",
+    "Mè"
+  ],
+  "seasonings": [
+    "Cà rốt",
+    "Chanh",
+    "Tỏi",
+    "Ớt sừng",
+    "Giấm",
+    "Tiêu/ đường"
+  ],
+  "ingredient_ids": [
+    "ingre01238",
+    "ingre02741",
+    "ingre01419",
+    "ingre01079",
+    "ingre07063",
+    "ingre05359",
+    "ingre08055",
+    "ingre02355",
+    "ingre06662",
+    "ingre03925"
+  ],
+  "ingredient_names_vi": [
+    "Chân gà",
+    "Hành tây",
+    "Cà rốt",
+    "Chanh",
+    "Tỏi",
+    "Rau răm",
+    "Ớt sừng",
+    "Giấm",
+    "Tiêu/ đường",
+    "Mè"
+  ],
+  "ingredient_names_en": [
+    "Chicken feet",
+    "Onion",
+    "Carrot",
+    "Lemon",
+    "Garlic",
+    "Vietnamese coriander",
+    "Hot pepper",
+    "Vinegar",
+    "Pepper/Sugar",
+    "Tamarind"
+  ],
+  "ingredient_names_normalized": [
+    "chan ga",
+    "hanh tay",
+    "ca rot",
+    "chanh",
+    "toi",
+    "rau ram",
+    "ot sung",
+    "giam",
+    "tieu duong",
+    "me"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "tieu/ duong",
+      "new": "tieu duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Tiêu/ đường"
+    },
+    {
+      "field": "ingredients[].name_en",
+      "old": "Sesame",
+      "new": "Tamarind",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Mè"
+    }
+  ]
+}

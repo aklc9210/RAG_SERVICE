@@ -1,0 +1,72 @@
+{
+  "id": "dish7494",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish7494.json",
+  "name_vi": "Cua ram me",
+  "name_en": "",
+  "name_normalized": "cua ram me",
+  "category": "mon chien",
+  "main_ingredients": [
+    "Cua thịt",
+    "Me chín"
+  ],
+  "secondary_ingredients": [
+    "Hành tây xắt múi cau",
+    "Dưa leo"
+  ],
+  "seasonings": [
+    "Tỏi băm nhuyễn",
+    "Bột năng",
+    "Đường - tiêu - hạt nêm - ớt"
+  ],
+  "ingredient_ids": [
+    "ingre01342",
+    "ingre03647",
+    "ingre07072",
+    "ingre02765",
+    "ingre00849",
+    "ingre07587",
+    "ingre02020"
+  ],
+  "ingredient_names_vi": [
+    "Cua thịt",
+    "Me chín",
+    "Tỏi băm nhuyễn",
+    "Hành tây xắt múi cau",
+    "Bột năng",
+    "Đường - tiêu - hạt nêm - ớt",
+    "Dưa leo"
+  ],
+  "ingredient_names_en": [
+    "Pork meat",
+    "Ripe mango",
+    "Minced garlic",
+    "Onion sliced in wedges",
+    "Cornstarch",
+    "Sugar - Salt - Seasoning - Chili",
+    "Cucumber"
+  ],
+  "ingredient_names_normalized": [
+    "cua thit",
+    "me chin",
+    "toi bam nhuyen",
+    "hanh tay xat mui cau",
+    "bot nang",
+    "duong tieu hat nem ot",
+    "dua leo"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "duong - tieu - hat nem - ot",
+      "new": "duong tieu hat nem ot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Đường - tiêu - hạt nêm - ớt"
+    }
+  ]
+}

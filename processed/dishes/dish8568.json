@@ -1,0 +1,103 @@
+{
+  "id": "dish8568",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8568.json",
+  "name_vi": "Bò bít tết kiểu Pháp sốt kem tiêu",
+  "name_en": "",
+  "name_normalized": "bo bit tet kieu phap sot kem tieu",
+  "category": "mon tu bo",
+  "main_ingredients": [
+    "Thịt bò"
+  ],
+  "secondary_ingredients": [
+    "Khoai tây",
+    "Hành tím",
+    "Kem béo",
+    "Bơ lạt",
+    "Dầu cải",
+    "Ngò tây tươi"
+  ],
+  "seasonings": [
+    "Tiêu đen",
+    "Tiêu xanh",
+    "Nước dùng bò",
+    "Rượu mạnh",
+    "Dầu ăn",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre06300",
+    "ingre06653",
+    "ingre06640",
+    "ingre03222",
+    "ingre02768",
+    "ingre03121",
+    "ingre04603",
+    "ingre05548",
+    "ingre00382",
+    "ingre02064",
+    "ingre02124",
+    "ingre04354",
+    "ingre03746"
+  ],
+  "ingredient_names_vi": [
+    "Thịt bò",
+    "Tiêu đen",
+    "Tiêu xanh",
+    "Khoai tây",
+    "Hành tím",
+    "Kem béo",
+    "Nước dùng bò",
+    "Rượu mạnh",
+    "Bơ lạt",
+    "Dầu cải",
+    "Dầu ăn",
+    "Ngò tây tươi",
+    "Muối"
+  ],
+  "ingredient_names_en": [
+    "Beef",
+    "Black Pepper",
+    "Green pepper",
+    "Potato",
+    "Shallot",
+    "Milk Cream",
+    "Beef broth",
+    "Strong alcohol",
+    "Butter",
+    "Mustard oil",
+    "Cooking oil",
+    "Chervil",
+    "Salt"
+  ],
+  "ingredient_names_normalized": [
+    "thit bo",
+    "tieu den",
+    "tieu xanh",
+    "khoai tay",
+    "hanh tim",
+    "kem beo",
+    "nuoc dung bo",
+    "ruou manh",
+    "bo lat",
+    "dau cai",
+    "dau an",
+    "ngo tay tuoi",
+    "muoi"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}

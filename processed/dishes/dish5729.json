@@ -1,0 +1,123 @@
+{
+  "id": "dish5729",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5729.json",
+  "name_vi": "Mít non om chao đỏ",
+  "name_en": "",
+  "name_normalized": "mit non om chao do",
+  "category": "mon kho",
+  "main_ingredients": [
+    "Mít non",
+    "Nấm rơm",
+    "Chuối sáp luộc chín",
+    "Hành boa rô",
+    "Nước dừa"
+  ],
+  "secondary_ingredients": [
+    "Đậu hũ bi chiên",
+    "Chao đỏ",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Dầu điều"
+  ],
+  "seasonings": [
+    "Nước cốt dừa",
+    "Dầu ăn",
+    "Đường",
+    "Nước chao",
+    "Ớt hiểm",
+    "Bột ngọt",
+    "Hạt nêm chay"
+  ],
+  "ingredient_ids": [
+    "ingre04035",
+    "ingre04953",
+    "ingre01180",
+    "ingre02645",
+    "ingre04622",
+    "ingre04554",
+    "ingre07535",
+    "ingre01112",
+    "ingre05359",
+    "ingre07791",
+    "ingre02124",
+    "ingre02134",
+    "ingre07583",
+    "ingre04515",
+    "ingre08026",
+    "ingre00320",
+    "ingre02997"
+  ],
+  "ingredient_names_vi": [
+    "Mít non",
+    "Nấm rơm",
+    "Chuối sáp luộc chín",
+    "Hành boa rô",
+    "Nước dừa",
+    "Nước cốt dừa",
+    "Đậu hũ bi chiên",
+    "Chao đỏ",
+    "Rau răm",
+    "Đậu phộng rang",
+    "Dầu ăn",
+    "Dầu điều",
+    "Đường",
+    "Nước chao",
+    "Ớt hiểm",
+    "Bột ngọt",
+    "Hạt nêm chay"
+  ],
+  "ingredient_names_en": [
+    "Young banana blossom",
+    "Strawberry mushroom",
+    "Ripe Steamed Banana",
+    "Garlic",
+    "Coconut water",
+    "Coconut milk",
+    "Fried bean curd balls",
+    "Red chili",
+    "Vietnamese coriander",
+    "Roasted Peanut",
+    "Cooking oil",
+    "Peanut oil",
+    "Sugar",
+    "Fish sauce",
+    "Hot pepper",
+    "MSG",
+    "Vegetarian Seasoning"
+  ],
+  "ingredient_names_normalized": [
+    "mit non",
+    "nam rom",
+    "chuoi sap luoc chin",
+    "hanh boa ro",
+    "nuoc dua",
+    "nuoc cot dua",
+    "dau hu bi chien",
+    "chao do",
+    "rau ram",
+    "dau phong rang",
+    "dau an",
+    "dau dieu",
+    "duong",
+    "nuoc chao",
+    "ot hiem",
+    "bot ngot",
+    "hat nem chay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Parsley",
+      "new": "Vietnamese coriander",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Rau răm"
+    }
+  ]
+}

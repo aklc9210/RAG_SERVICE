@@ -1,0 +1,100 @@
+{
+  "id": "dish8831",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8831.json",
+  "name_vi": "Cách làm thịt heo khô",
+  "name_en": "",
+  "name_normalized": "cach lam thit heo kho",
+  "category": "an vat",
+  "main_ingredients": [
+    "Thịt ba rọi",
+    "Sả"
+  ],
+  "secondary_ingredients": [],
+  "seasonings": [
+    "Ớt",
+    "Dầu hào",
+    "Gừng",
+    "Ngũ vị hương",
+    "Nước tương",
+    "Tương ớt",
+    "Bột nêm gà",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_ids": [
+    "ingre06289",
+    "ingre05900",
+    "ingre07966",
+    "ingre02080",
+    "ingre02485",
+    "ingre04381",
+    "ingre04790",
+    "ingre07028",
+    "ingre00842",
+    "ingre04694",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644"
+  ],
+  "ingredient_names_vi": [
+    "Thịt ba rọi",
+    "Sả",
+    "Ớt",
+    "Dầu hào",
+    "Gừng",
+    "Ngũ vị hương",
+    "Nước tương",
+    "Tương ớt",
+    "Bột nêm gà",
+    "Nước mắm",
+    "Muối",
+    "Đường",
+    "Tiêu xay"
+  ],
+  "ingredient_names_en": [
+    "Pork belly",
+    "Lemongrass",
+    "Pepper",
+    "Soy sauce",
+    "Ginger",
+    "Five-Spice Powder",
+    "Hot Sauce",
+    "Chicken Seasoning Powder",
+    "Fish Sauce",
+    "Salt",
+    "Sugar",
+    "Ground pepper"
+  ],
+  "ingredient_names_normalized": [
+    "thit ba roi",
+    "sa",
+    "ot",
+    "dau hao",
+    "gung",
+    "ngu vi huong",
+    "nuoc tuong",
+    "tuong ot",
+    "bot nem ga",
+    "nuoc mam",
+    "muoi",
+    "duong",
+    "tieu xay"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

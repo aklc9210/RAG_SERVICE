@@ -1,0 +1,116 @@
+{
+  "id": "dish8147",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8147.json",
+  "name_vi": "Gỏi cá mòi",
+  "name_en": "",
+  "name_normalized": "goi ca moi",
+  "category": "mon goi - salad",
+  "main_ingredients": [
+    "Cá mòi",
+    "Sả"
+  ],
+  "secondary_ingredients": [
+    "Thính",
+    "Riềng",
+    "Trứng vịt",
+    "Gạo",
+    "Rau ăn kèm"
+  ],
+  "seasonings": [
+    "Lá lốt",
+    "Lá chanh",
+    "Ớt",
+    "Hành tím băm",
+    "Mắm tôm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối"
+  ],
+  "ingredient_ids": [
+    "ingre01562",
+    "ingre05900",
+    "ingre03461",
+    "ingre03370",
+    "ingre06240",
+    "ingre05436",
+    "ingre06853",
+    "ingre02436",
+    "ingre07966",
+    "ingre02774",
+    "ingre04159",
+    "ingre02124",
+    "ingre00819",
+    "ingre07583",
+    "ingre03746",
+    "ingre05420"
+  ],
+  "ingredient_names_vi": [
+    "Cá mòi",
+    "Sả",
+    "Lá lốt",
+    "Lá chanh",
+    "Thính",
+    "Riềng",
+    "Trứng vịt",
+    "Gạo",
+    "Ớt",
+    "Hành tím băm",
+    "Mắm tôm",
+    "Dầu ăn",
+    "Bột ngọt",
+    "Đường",
+    "Muối",
+    "Rau ăn kèm"
+  ],
+  "ingredient_names_en": [
+    "Shrimp paste",
+    "Lemongrass",
+    "Cinnamon Leaf",
+    "Lime leaf",
+    "Rice flour",
+    "Galangal",
+    "Quail egg",
+    "Rice",
+    "Pepper",
+    "Chopped Scallion",
+    "Cooking oil",
+    "MSG",
+    "Sugar",
+    "Salt",
+    "Side vegetable"
+  ],
+  "ingredient_names_normalized": [
+    "ca moi",
+    "sa",
+    "la lot",
+    "la chanh",
+    "thinh",
+    "rieng",
+    "trung vit",
+    "gao",
+    "ot",
+    "hanh tim bam",
+    "mam tom",
+    "dau an",
+    "bot ngot",
+    "duong",
+    "muoi",
+    "rau an kem"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Garlic Chili",
+      "new": "Lemongrass",
+      "confidence": "high",
+      "reason": "Vietnamese 'Sa' corresponds to lemongrass.",
+      "ingredient_name_vi": "Sả"
+    }
+  ]
+}

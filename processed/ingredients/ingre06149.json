@@ -1,0 +1,25 @@
+{
+  "id": "ingre06149",
+  "type": "ingredient",
+  "source_file": "kb_old/ingredients/ingre06149.json",
+  "name_vi": "sữa tươi không đường -",
+  "name_en": "Fat-free Milk",
+  "name_normalized": "sua tuoi khong duong",
+  "synonyms": [
+    "trứng gà tươi"
+  ],
+  "synonyms_normalized": [
+    "trung ga tuoi"
+  ],
+  "category": "milk",
+  "audit_flags": [],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "sua tuoi khong duong -",
+      "new": "sua tuoi khong duong",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    }
+  ]
+}

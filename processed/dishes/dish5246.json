@@ -1,0 +1,64 @@
+{
+  "id": "dish5246",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish5246.json",
+  "name_vi": "Hành tây xào cà chua (Công thức được chia sẻ từ người dùng)",
+  "name_en": "",
+  "name_normalized": "hanh tay xao ca chua cong thuc duoc chia se tu nguoi dung",
+  "category": "mon xao",
+  "main_ingredients": [
+    "Hành tây"
+  ],
+  "secondary_ingredients": [
+    "Cà chua"
+  ],
+  "seasonings": [
+    "Dầu ăn",
+    "Hạt nêm/ Bột ngọt"
+  ],
+  "ingredient_ids": [
+    "ingre02741",
+    "ingre01354",
+    "ingre02124",
+    "ingre03008"
+  ],
+  "ingredient_names_vi": [
+    "Hành tây",
+    "Cà chua",
+    "Dầu ăn",
+    "Hạt nêm/ Bột ngọt"
+  ],
+  "ingredient_names_en": [
+    "Onion",
+    "Tomato",
+    "Cooking oil",
+    "Seasoning Powder"
+  ],
+  "ingredient_names_normalized": [
+    "hanh tay",
+    "ca chua",
+    "dau an",
+    "hat nem bot ngot"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en"
+  ],
+  "correction_log": [
+    {
+      "field": "name_normalized",
+      "old": "hanh tay xao ca chua (cong thuc duoc chia se tu nguoi dung)",
+      "new": "hanh tay xao ca chua cong thuc duoc chia se tu nguoi dung",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name."
+    },
+    {
+      "field": "ingredients[].name_normalized",
+      "old": "hat nem/ bot ngot",
+      "new": "hat nem bot ngot",
+      "confidence": "high",
+      "reason": "Normalized name must be deterministic from Vietnamese name.",
+      "ingredient_name_vi": "Hạt nêm/ Bột ngọt"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "dish8413",
+  "type": "dish",
+  "source_file": "kb_old/dishes/dish8413.json",
+  "name_vi": "Giò gà xào",
+  "name_en": "",
+  "name_normalized": "gio ga xao",
+  "category": "mon tu ga",
+  "main_ingredients": [
+    "Đùi gà ta",
+    "Chân gà",
+    "Da lợn"
+  ],
+  "secondary_ingredients": [
+    "Nấm mèo khô",
+    "Hành tây",
+    "Hành tím"
+  ],
+  "seasonings": [
+    "Lá chanh",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu xay",
+    "Nước mắm"
+  ],
+  "ingredient_ids": [
+    "ingre07560",
+    "ingre01238",
+    "ingre01939",
+    "ingre04936",
+    "ingre02741",
+    "ingre03370",
+    "ingre02768",
+    "ingre02995",
+    "ingre03746",
+    "ingre07583",
+    "ingre06644",
+    "ingre04694"
+  ],
+  "ingredient_names_vi": [
+    "Đùi gà ta",
+    "Chân gà",
+    "Da lợn",
+    "Nấm mèo khô",
+    "Hành tây",
+    "Lá chanh",
+    "Hành tím",
+    "Hạt nêm",
+    "Muối",
+    "Đường",
+    "Tiêu xay",
+    "Nước mắm"
+  ],
+  "ingredient_names_en": [
+    "Chicken thigh",
+    "Chicken feet",
+    "Porkskin",
+    "Dried cat's ear mushroom",
+    "Onion",
+    "Lime leaf",
+    "Shallot",
+    "Seasoning",
+    "Salt",
+    "Sugar",
+    "Ground pepper",
+    "Fish Sauce"
+  ],
+  "ingredient_names_normalized": [
+    "dui ga ta",
+    "chan ga",
+    "da lon",
+    "nam meo kho",
+    "hanh tay",
+    "la chanh",
+    "hanh tim",
+    "hat nem",
+    "muoi",
+    "duong",
+    "tieu xay",
+    "nuoc mam"
+  ],
+  "grouping_mode": "split",
+  "audit_flags": [
+    "missing_name_en",
+    "needs_manual_review_translation"
+  ],
+  "correction_log": [
+    {
+      "field": "ingredients[].name_en",
+      "old": "Green onion",
+      "new": "Shallot",
+      "confidence": "high",
+      "reason": "High-confidence Vietnamese-English culinary mapping.",
+      "ingredient_name_vi": "Hành tím"
+    }
+  ]
+}
