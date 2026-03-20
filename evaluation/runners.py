@@ -31,11 +31,7 @@ class EvaluationCoordinator:
         adapter = LiveRAGAdapter.build_default()
         writer = ReportWriter(self.paths.outputs_root)
 
-        # Incremental persistence: clear output files at run start, then append per-case.
-        writer.reset_layer_rows("layerA_results.jsonl")
-        writer.reset_layer_rows("layerB_results.jsonl")
-        writer.reset_layer_rows("layerC_results.jsonl")
-        writer.reset_layer_rows("layerA_detailed_output.jsonl")
+        # Keep previous outputs and append new rows for resume runs.
 
         layer_a_rows = self._run_layer_a(adapter, writer)
         layer_b_rows = self._run_layer_b(adapter, writer)

@@ -8,7 +8,7 @@ from .io_jsonl import read_jsonl
 
 
 def load_dish_query_cases(paths: EvaluationPaths) -> List[DishQueryCase]:
-    rows = read_jsonl(paths.dish_query_in_kb) + read_jsonl(paths.dish_query_out_kb)
+    rows = (read_jsonl(paths.dish_query_in_kb) + read_jsonl(paths.dish_query_out_kb))[1286:]
     return [DishQueryCase.model_validate(row) for row in rows]
 
 
