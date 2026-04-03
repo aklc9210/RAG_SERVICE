@@ -20,8 +20,6 @@ def load_jsonl(path: Path) -> List[Dict[str, Any]]:
 def _mean(rows: Iterable[Dict[str, Any]], key: str) -> float:
     vals: List[float] = []
     for row in rows:
-        if str(row.get("split", "")) == "in_kb" and float(row.get("f1_all", 0.0)) <= 0.65:
-            continue
         value = row.get(key)
         if value is None:
             continue

@@ -115,6 +115,12 @@ class EvaluationCoordinator:
             for item in case.input_ingredients.items:
                 name = str(item.get("name_vi") or item.get("name") or "").strip().lower()
                 ing_id = str(item.get("ingredient_id") or "").strip()
+
+                # id-only/mixed inputs may miss name fields; recover name from ontology.
+                if not name and ing_id:
+                    ontology_ing = adapter.ontology_service.ingredients.get(ing_id) or {}
+                    name = str(ontology_ing.get("name_vi") or "").strip().lower()
+
                 if name and ing_id:
                     name_to_id[name] = ing_id
 

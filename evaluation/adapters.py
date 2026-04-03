@@ -74,7 +74,24 @@ class LiveRAGAdapter(DishPipelineAdapter, ConflictAdapter, ReplacementAdapter):
         self._trace_hooked = True
 
     def detect_conflicts(self, items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        return self.conflict_service.check_conflicts("", items)
+        normalized_items: List[Dict[str, Any]] = []
+        for item in items or []:
+            ingredient_id = item.get("ingredient_id")
+            name_vi = item.get("name_vi") or item.get("vietnamese_name") or item.get("name")
+
+            # Layer B id/mixed cases may provide only ingredient_id; enrich with ontology name.
+            if not name_vi and ingredient_id:
+                ontology_ing = self.ontology_service.ingredients.get(str(ingredient_id)) or {}
+                name_vi = ontology_ing.get("name_vi")
+
+            normalized_items.append(
+                {
+                    "ingredient_id": ingredient_id,
+                    "name_vi": name_vi,
+                }
+            )
+
+        return self.conflict_service.check_conflicts("", normalized_items)
 
     def suggest_replacements(self, target_id: str, exclude_ids: Set[str], max_suggestions: int) -> List[Dict[str, Any]]:
         return self.ontology_service.get_replacement_suggestions(
