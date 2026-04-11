@@ -8,11 +8,13 @@ Wraps the existing dense Retriever (Pinecone) and augments its output with:
     score_final(d) = λ * rag_score(d) + (1-λ) * relatedness(query_dish, d)
     where relatedness is computed from shared ingredients + category.
 
-  Task 2 — Flavor-enhancing ingredients via PMI:
-    Given a dish, return non-core ingredients ranked by mean PMI with core ingredients.
+  Task 2 — Flavor-enhancing ingredients via NPMI + category prior:
+    Given a dish, return non-core ingredients ranked by mean NPMI with core ingredients.
+    Ingredients in the "seasonings" category get a small prior boost (more likely flavor-enhancing).
 
   Task 3 — Related dishes via Dish Relatedness:
-    Relatedness(A, B) = α * Jaccard(A, B) + β * same_category(A, B)
+    Relatedness(A, B) = α * IDF-weighted-Jaccard(A, B) + β * same_category(A, B)
+    IDF weight: w(i) = log(N / df(i)) — rare shared ingredients count more than common ones (e.g. muối)
 
 All dish data is loaded from processed/dishes/*.json (no Pinecone needed for ontology parts).
 
@@ -39,8 +41,14 @@ from typing import Any, Dict, List, Optional, Set
 
 ROOT = Path(__file__).resolve().parent.parent
 DISHES_DIR = ROOT / "processed" / "dishes"
-PMI_PATH = ROOT / "app" / "data" / "cooccurrence" / "pmi.json"
+NPMI_PATH = ROOT / "app" / "data" / "cooccurrence" / "npmi.json"
+PMI_PATH = ROOT / "app" / "data" / "cooccurrence" / "pmi.json"   # fallback if npmi.json absent
+FREQ_PATH = ROOT / "app" / "data" / "cooccurrence" / "frequency.json"
+META_PATH = ROOT / "app" / "data" / "cooccurrence" / "metadata.json"
 IKB_PATH = ROOT / "app" / "data" / "knowledge_base" / "ingredient_knowledge_base.json"
+
+# Ingredient categories considered flavor-enhancing by nature
+_FLAVOR_CATEGORIES = {"seasonings"}
 
 
 def _normalize(text: str) -> str:
@@ -55,6 +63,20 @@ def _jaccard(a: Set[str], b: Set[str]) -> float:
     inter = len(a & b)
     union = len(a | b)
     return inter / union if union > 0 else 0.0
+
+
+def _idf_jaccard(a: Set[str], b: Set[str], idf: Dict[str, float]) -> float:
+    """
+    IDF-weighted Jaccard similarity.
+    Rare shared ingredients (high IDF) contribute more than common ones (e.g. muối, nước mắm).
+    """
+    if not a or not b:
+        return 0.0
+    inter = a & b
+    union = a | b
+    w_inter = sum(idf.get(i, 1.0) for i in inter)
+    w_union = sum(idf.get(i, 1.0) for i in union)
+    return w_inter / w_union if w_union > 0 else 0.0
 
 
 class OntologyRetriever:
@@ -89,8 +111,10 @@ class OntologyRetriever:
         self._name_to_ids: Dict[str, List[str]] = {}  # normalized name → [dish_id]
 
         self._load_dishes(dish_ids)
-        self._pmi: Dict[str, Dict[str, float]] = self._load_pmi()
+        self._pmi: Dict[str, Dict[str, float]] = self._load_npmi_or_pmi()
+        self._idf: Dict[str, float] = self._load_idf()
         self._id_to_name_vi: Dict[str, str] = self._load_ingredient_names()
+        self._flavor_category_ids: Set[str] = self._load_flavor_category_ids()
 
     # ------------------------------------------------------------------
     # Public API
@@ -150,6 +174,9 @@ class OntologyRetriever:
             mean_pmi = sum(pmi_vals) / len(pmi_vals)
             if mean_pmi < min_pmi:
                 continue
+            # Category prior: seasonings are more likely to be flavor-enhancing
+            if cand_id in self._flavor_category_ids:
+                mean_pmi *= 1.15
             scored.append({
                 "ingredient_id": cand_id,
                 "name_vi": self._id_to_name_vi.get(cand_id, ""),
@@ -188,7 +215,7 @@ class OntologyRetriever:
             if not dish_b:
                 continue
 
-            j = _jaccard(ing_a, dish_b["ingredient_ids_set"])
+            j = _idf_jaccard(ing_a, dish_b["ingredient_ids_set"], self._idf)
             same_cat = 1 if cat_a == dish_b["category"] else 0
             relatedness = self.alpha * j + self.beta * same_cat
 
@@ -249,10 +276,32 @@ class OntologyRetriever:
             if name_norm:
                 self._name_to_ids.setdefault(name_norm, []).append(did)
 
-    def _load_pmi(self) -> Dict[str, Dict[str, float]]:
+    def _load_npmi_or_pmi(self) -> Dict[str, Dict[str, float]]:
+        """Load NPMI if available (preferred), fall back to PMI."""
+        if NPMI_PATH.exists():
+            return json.loads(NPMI_PATH.read_text(encoding="utf-8"))
         if PMI_PATH.exists():
             return json.loads(PMI_PATH.read_text(encoding="utf-8"))
         return {}
+
+    def _load_idf(self) -> Dict[str, float]:
+        """
+        Compute IDF weights from ingredient frequency data.
+        idf(i) = log(N / df(i))  where df = number of dishes containing ingredient i.
+        """
+        if not FREQ_PATH.exists() or not META_PATH.exists():
+            return {}
+        freq = json.loads(FREQ_PATH.read_text(encoding="utf-8"))
+        meta = json.loads(META_PATH.read_text(encoding="utf-8"))
+        N = meta.get("total_dishes", 1)
+        return {iid: math.log(N / max(1, count)) for iid, count in freq.items()}
+
+    def _load_flavor_category_ids(self) -> Set[str]:
+        """Return set of ingredient_ids whose category is in _FLAVOR_CATEGORIES."""
+        if not IKB_PATH.exists():
+            return set()
+        ikb = json.loads(IKB_PATH.read_text(encoding="utf-8"))
+        return {e["id"] for e in ikb if e.get("category") in _FLAVOR_CATEGORIES and e.get("id")}
 
     def _load_ingredient_names(self) -> Dict[str, str]:
         if not IKB_PATH.exists():

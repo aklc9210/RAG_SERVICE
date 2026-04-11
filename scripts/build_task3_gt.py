@@ -3,12 +3,15 @@
 Build Dish Relatedness scores and ground truth for Task 3 — Related Dishes.
 
 Formula (no region field available):
-    Relatedness(A, B) = 0.7 * Jaccard(A, B) + 0.3 * same_category(A, B)
+    Relatedness(A, B) = 0.7 * IDF-Jaccard(A, B) + 0.3 * same_category(A, B)
 
-    Jaccard(A, B) = |ingredients_A ∩ ingredients_B| / |ingredients_A ∪ ingredients_B|
+    IDF-Jaccard(A, B) = Σ_{i∈A∩B} idf(i) / Σ_{i∈A∪B} idf(i)
+    idf(i) = log(N / df(i))   — rare shared ingredients count more than common ones
+
+    (Previously used plain Jaccard; switched to IDF-Jaccard to match OntologyRetriever.)
 
 For each dish in the test set, compute Relatedness against all OTHER dishes in the test set,
-then take top-5 as ground truth.
+then take top-10 as ground truth (larger pool makes P@5 ≠ Recall@5).
 
 Reads:
     data/splits/test_ids.txt
@@ -37,28 +40,43 @@ Usage:
 
 import argparse
 import json
+import math
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DISHES_DIR = ROOT / "processed" / "dishes"
 SPLITS_DIR = ROOT / "data" / "splits"
 OUT_DIR = ROOT / "evaluation" / "data" / "datasets"
+FREQ_PATH = ROOT / "app" / "data" / "cooccurrence" / "frequency.json"
+META_PATH = ROOT / "app" / "data" / "cooccurrence" / "metadata.json"
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Build ground truth for Task 3.")
-    parser.add_argument("--top-k", type=int, default=5)
-    parser.add_argument("--alpha", type=float, default=0.7, help="Jaccard weight")
+    parser.add_argument("--top-k", type=int, default=10,
+                        help="GT pool size per dish (default 10, so P@5 != Recall@5)")
+    parser.add_argument("--alpha", type=float, default=0.7, help="IDF-Jaccard weight")
     parser.add_argument("--beta", type=float, default=0.3, help="Category weight")
     return parser.parse_args()
 
 
-def jaccard(set_a, set_b):
+def load_idf():
+    if not FREQ_PATH.exists() or not META_PATH.exists():
+        return {}
+    freq = json.loads(FREQ_PATH.read_text(encoding="utf-8"))
+    meta = json.loads(META_PATH.read_text(encoding="utf-8"))
+    N = meta.get("total_dishes", 1)
+    return {iid: math.log(N / max(1, count)) for iid, count in freq.items()}
+
+
+def idf_jaccard(set_a, set_b, idf):
     if not set_a or not set_b:
         return 0.0
-    inter = len(set_a & set_b)
-    union = len(set_a | set_b)
-    return inter / union if union > 0 else 0.0
+    inter = set_a & set_b
+    union = set_a | set_b
+    w_inter = sum(idf.get(i, 1.0) for i in inter)
+    w_union = sum(idf.get(i, 1.0) for i in union)
+    return w_inter / w_union if w_union > 0 else 0.0
 
 
 def main():
@@ -70,6 +88,10 @@ def main():
     test_ids = (SPLITS_DIR / "test_ids.txt").read_text(encoding="utf-8").splitlines()
     test_ids = [x for x in test_ids if x.strip()]
     print(f"Test dishes: {len(test_ids)}")
+
+    print("Loading IDF weights...")
+    idf = load_idf()
+    print(f"  IDF entries: {len(idf)}")
 
     # Load all test dishes
     dishes = {}
@@ -103,7 +125,7 @@ def main():
             ing_b = dish_b["ingredient_ids"]
             cat_b = dish_b["category"]
 
-            j = jaccard(ing_a, ing_b)
+            j = idf_jaccard(ing_a, ing_b, idf)
             same_cat = 1 if cat_a == cat_b else 0
             relatedness = args.alpha * j + args.beta * same_cat
 
@@ -112,7 +134,7 @@ def main():
                     "dish_id": other_id,
                     "dish_name": dish_b["name_vi"],
                     "relatedness": round(relatedness, 4),
-                    "jaccard": round(j, 4),
+                    "idf_jaccard": round(j, 4),
                     "same_category": bool(same_cat),
                 })
 
@@ -162,6 +184,7 @@ def main():
         "beta": args.beta,
         "gamma": 0.0,
         "region_available": False,
+        "jaccard_type": "idf_weighted",
         "avg_relatedness_across_top5": round(avg_relatedness, 4),
     }
     out_stats.write_text(json.dumps(stats, indent=2), encoding="utf-8")

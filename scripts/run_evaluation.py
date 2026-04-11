@@ -363,38 +363,93 @@ def evaluate_task2(bm25, ontology_ret, gt_entries, k=5, pinecone_retriever=None)
 # Task 3 Evaluation
 # ============================================================
 
-def evaluate_task3(bm25, ontology_ret, gt_entries, k=5):
+def ndcg_graded(ranked_ids: list, gt_relevance: dict, k: int) -> float:
+    """
+    NDCG@k using graded float relevance scores from GT (relatedness values).
+    gt_relevance: {dish_id: float_score}
+    """
+    gains = [gt_relevance.get(did, 0.0) for did in ranked_ids[:k]]
+    ideal = sorted(gt_relevance.values(), reverse=True)
+    actual_dcg = sum(g / math.log2(i + 2) for i, g in enumerate(gains))
+    ideal_dcg = sum(g / math.log2(i + 2) for i, g in enumerate(ideal[:k]))
+    return actual_dcg / ideal_dcg if ideal_dcg > 0 else 0.0
+
+
+def _rag_only_related(dish_id, dish_name, ingredient_names, pinecone_retriever, k):
+    """
+    RAG-only related dish retrieval.
+    Queries Pinecone with a text combining dish name + ingredient names so the
+    embedding captures ingredient overlap — a stronger signal than dish name alone.
+    """
+    if ingredient_names:
+        query_text = dish_name + " " + " ".join(ingredient_names[:20])
+    else:
+        query_text = dish_name
+    raw = pinecone_retriever.search_filtered(
+        query_text=query_text, top_k=k + 10, type_filter="dish"
+    )
+    return [r["entity_id"] for r in raw
+            if r.get("entity_id") and r["entity_id"] != dish_id][:k]
+
+
+def evaluate_task3(bm25, ontology_ret, gt_entries, k=5, pinecone_retriever=None):
     """
     Evaluate Task 3 (Related Dishes).
 
-    BM25 system: returns dishes ranked by BM25 score against the dish name.
-    RAG+Ontology: uses Dish Relatedness (Jaccard + Category).
+    BM25:          keyword search on dish name, exclude self.
+    RAG-only:      Pinecone dense search with dish name + ingredient names, exclude self.
+                   (ingredient-augmented query is a stronger baseline than name-only)
+    RAG+Ontology:  IDF-weighted Jaccard + same_category Dish Relatedness.
+
+    Metrics:
+      Precision@k  — fraction of top-k predictions that are in GT
+      Recall@k     — fraction of GT dishes found in top-k (meaningful when GT size > k)
+      NDCG@k       — ranking quality using graded GT relatedness scores
     """
     systems = {
-        "BM25": {"precision": [], "recall": []},
-        "RAG+Ontology": {"precision": [], "recall": []},
+        "BM25": {"precision": [], "recall": [], "ndcg": []},
+        "RAG+Ontology": {"precision": [], "recall": [], "ndcg": []},
     }
+    if pinecone_retriever is not None:
+        systems["RAG-only"] = {"precision": [], "recall": [], "ndcg": []}
+
+    # Load ingredient name lookup from OntologyRetriever
+    id_to_name = ontology_ret._id_to_name_vi
 
     for entry in gt_entries:
         dish_id = entry["dish_id"]
         dish_name = entry["dish_name"]
         gt_related_ids = {r["dish_id"] for r in entry["related"]}
+        # Graded relevance: dish_id → relatedness float score
+        gt_relevance = {r["dish_id"]: r["relatedness"] for r in entry["related"]}
         if not gt_related_ids:
             continue
+
+        # Ingredient names for query augmentation
+        ing_ids = entry.get("ingredient_ids", [])
+        ing_names = [id_to_name.get(iid, "") for iid in ing_ids if id_to_name.get(iid)]
 
         # --- BM25: search using dish name, exclude self
         bm25_results = bm25.search(dish_name, top_k=k + 1)
         bm25_ids = [r["dish_id"] for r in bm25_results if r["dish_id"] != dish_id][:k]
-
         systems["BM25"]["precision"].append(precision_at_k(bm25_ids, gt_related_ids, k))
         systems["BM25"]["recall"].append(recall_at_k_set(bm25_ids, gt_related_ids, k))
+        systems["BM25"]["ndcg"].append(ndcg_graded(bm25_ids, gt_relevance, k))
 
-        # --- RAG+Ontology: Dish Relatedness
+        # --- RAG-only: dish name + ingredient names query, exclude self
+        if pinecone_retriever is not None:
+            rag_ids = _rag_only_related(dish_id, dish_name, ing_names,
+                                        pinecone_retriever, k)
+            systems["RAG-only"]["precision"].append(precision_at_k(rag_ids, gt_related_ids, k))
+            systems["RAG-only"]["recall"].append(recall_at_k_set(rag_ids, gt_related_ids, k))
+            systems["RAG-only"]["ndcg"].append(ndcg_graded(rag_ids, gt_relevance, k))
+
+        # --- RAG+Ontology: IDF-weighted Jaccard + category
         ont_results = ontology_ret.get_related_dishes(dish_id, top_k=k)
         ont_ids = [r["dish_id"] for r in ont_results]
-
         systems["RAG+Ontology"]["precision"].append(precision_at_k(ont_ids, gt_related_ids, k))
         systems["RAG+Ontology"]["recall"].append(recall_at_k_set(ont_ids, gt_related_ids, k))
+        systems["RAG+Ontology"]["ndcg"].append(ndcg_graded(ont_ids, gt_relevance, k))
 
     def avg(lst):
         return round(sum(lst) / len(lst), 4) if lst else 0.0
@@ -404,6 +459,7 @@ def evaluate_task3(bm25, ontology_ret, gt_entries, k=5):
         results[sys_name] = {
             f"Precision@{k}": avg(metrics["precision"]),
             f"Recall@{k}": avg(metrics["recall"]),
+            f"NDCG@{k}": avg(metrics["ndcg"]),
             "n_dishes": len(metrics["precision"]),
         }
     return results
@@ -475,9 +531,9 @@ def main():
         print("\n--- Task 3: Related Dishes ---")
         gt = [json.loads(l) for l in (DATASETS_DIR / "task3_related_gt.jsonl").read_text().splitlines() if l]
         print(f"  Dishes: {len(gt)}")
-        t3 = evaluate_task3(bm25, ont, gt, k=5)
+        t3 = evaluate_task3(bm25, ont, gt, k=5, pinecone_retriever=pinecone_ret)
         for sys_name, metrics in t3.items():
-            print(f"  [{sys_name}] P@5={metrics['Precision@5']}  Recall@5={metrics['Recall@5']}")
+            print(f"  [{sys_name}] P@5={metrics['Precision@5']}  Recall@5={metrics['Recall@5']}  NDCG@5={metrics['NDCG@5']}")
         (OUT_DIR / "ir_task3_results.json").write_text(json.dumps(t3, indent=2))
         all_results["task3"] = t3
 
@@ -508,10 +564,10 @@ def _print_ablation_table(all_results):
 
     if "task3" in all_results:
         print("\nTask 3 — Related Dishes")
-        print(f"{'System':<20} {'P@5':>10} {'Recall@5':>12}")
-        print("-" * 45)
+        print(f"{'System':<20} {'P@5':>10} {'Recall@5':>12} {'NDCG@5':>10}")
+        print("-" * 55)
         for sys_name, m in all_results["task3"].items():
-            print(f"{sys_name:<20} {m['Precision@5']:>10} {m['Recall@5']:>12}")
+            print(f"{sys_name:<20} {m['Precision@5']:>10} {m['Recall@5']:>12} {m['NDCG@5']:>10}")
 
 
 if __name__ == "__main__":

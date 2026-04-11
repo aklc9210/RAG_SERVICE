@@ -1,23 +1,22 @@
 {
-  "task1": {
+  "task3": {
     "BM25": {
-      "nDCG@10": 0.3614,
-      "MRR@10": 0.8074,
-      "Recall@10": 0.0179,
-      "n_queries": 675
-    },
-    "RAG-only": {
-      "nDCG@10": 0.4359,
-      "MRR@10": 0.8227,
-      "Recall@10": 0.0238,
-      "n_queries": 675
+      "Precision@5": 0.0468,
+      "Recall@5": 0.0234,
+      "NDCG@5": 0.05,
+      "n_dishes": 2148
     },
     "RAG+Ontology": {
-      "nDCG@10": 0.4083,
-      "MRR@10": 0.6828,
-      "Recall@10": 0.0238,
-      "n_queries": 675
+      "Precision@5": 0.2072,
+      "Recall@5": 0.1036,
+      "NDCG@5": 0.2226,
+      "n_dishes": 2148
+    },
+    "RAG-only": {
+      "Precision@5": 0.0567,
+      "Recall@5": 0.0284,
+      "NDCG@5": 0.0613,
+      "n_dishes": 2148
     }
-  },
-  "_note": "Task 2 and Task 3 results removed: ground truth was built with the same formula as the retrieval system (PMI for Task 2, Jaccard+Category for Task 3), making evaluation circular. Pending: manual annotation (Task 2) and RAG-only dish embedding baseline (Task 3)."
+  }
 }
