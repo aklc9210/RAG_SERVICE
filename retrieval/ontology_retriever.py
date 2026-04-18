@@ -316,6 +316,29 @@ class OntologyRetriever:
             return self._pmi[y][x]
         return None
 
+    def _is_exact_name_query(self, query_norm: str, rag_results: List[Dict[str, Any]]) -> bool:
+        """
+        Detect if query is an exact-name match.
+        True if: top RAG hit's name contains the query (or vice versa),
+        AND score gap between #1 and #2 is large (>15%).
+        """
+        if not rag_results:
+            return False
+        top_did = rag_results[0]["dish_id"]
+        top_name = self._dishes.get(top_did, {}).get("name_normalized", "")
+        # Check name overlap
+        query_tokens = set(query_norm.split())
+        name_tokens = set(top_name.split())
+        if not query_tokens or not name_tokens:
+            return False
+        overlap = len(query_tokens & name_tokens) / len(query_tokens)
+        # Check score gap
+        if len(rag_results) >= 2 and rag_results[0]["score"] > 0:
+            gap = (rag_results[0]["score"] - rag_results[1]["score"]) / rag_results[0]["score"]
+        else:
+            gap = 1.0
+        return overlap >= 0.5 and gap >= 0.15
+
     def _rerank(
         self,
         query_norm: str,
@@ -323,32 +346,36 @@ class OntologyRetriever:
         top_k: int,
     ) -> List[Dict[str, Any]]:
         """
-        Rerank RAG results using ontology signals.
+        Adaptive rerank: skip reranking for exact-name queries, apply ontology
+        reranking only for category/exploratory queries.
 
-        Strategy:
-          1. Category voting: find the dominant category among top RAG hits.
-             Dishes in that category get an ontology bonus.
-          2. Ingredient overlap: boost dishes that share ingredients with the
-             top-3 RAG hits collectively (majority-anchor, not single-anchor).
+        Ontology strategy (when applied):
+          1. Category voting: dominant category among top RAG hits gets bonus.
+          2. Ingredient overlap: Jaccard with top-3 RAG hits' ingredient pool.
 
         final_score = rag_lambda * rag_score_norm + (1 - rag_lambda) * ontology_score
-        ontology_score = 0.5 * category_match + 0.5 * avg_jaccard_with_top3
         """
         if not rag_results:
             return []
 
-        # Normalize RAG scores to [0, 1]
+        # Adaptive: skip reranking for exact-name queries
+        if self._is_exact_name_query(query_norm, rag_results):
+            return [
+                {
+                    "dish_id": r["dish_id"],
+                    "dish_name": r.get("dish_name", self._dishes.get(r["dish_id"], {}).get("name_vi", "")),
+                    "score": r["score"],
+                    "rag_score": r["score"],
+                    "ontology_score": 0.0,
+                    "category": self._dishes.get(r["dish_id"], {}).get("category", ""),
+                }
+                for r in rag_results[:top_k]
+            ]
+
+        # --- Category/exploratory query: apply ontology reranking ---
         scores = [r["score"] for r in rag_results]
         max_score = max(scores) or 1.0
-
-        # Adaptive lambda: if top hit is much higher than 2nd (exact-name query),
-        # trust RAG more so the exact match stays at #1.
-        if len(scores) >= 2 and scores[1] > 0:
-            top_gap = (scores[0] - scores[1]) / scores[0]  # relative gap
-        else:
-            top_gap = 1.0
-        # High gap → exact match → rag_lambda closer to 1.0
-        rag_lambda = min(0.95, self.rag_lambda + top_gap * (1 - self.rag_lambda))
+        rag_lambda = self.rag_lambda
 
         # --- Category voting: pick the most common category in top-5 RAG hits ---
         top5_ids = [r["dish_id"] for r in rag_results[:5]]

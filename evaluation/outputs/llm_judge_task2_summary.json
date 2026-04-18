@@ -1,0 +1,48 @@
+{
+  "models": {
+    "qwen2.5:7b": {
+      "n_valid": 1654,
+      "parse_failures": 0,
+      "mean_score": 1.159,
+      "distribution": {
+        "0": 253,
+        "1": 885,
+        "2": 516
+      }
+    },
+    "llama3.1:8b": {
+      "n_valid": 1654,
+      "parse_failures": 0,
+      "mean_score": 1.4148,
+      "distribution": {
+        "0": 18,
+        "1": 932,
+        "2": 704
+      }
+    },
+    "gemma2:9b": {
+      "n_valid": 1654,
+      "parse_failures": 0,
+      "mean_score": 1.3809,
+      "distribution": {
+        "0": 162,
+        "1": 700,
+        "2": 792
+      }
+    },
+    "mistral:7b": {
+      "n_valid": 1654,
+      "parse_failures": 0,
+      "mean_score": 1.4401,
+      "distribution": {
+        "0": 131,
+        "1": 664,
+        "2": 859
+      }
+    }
+  },
+  "aggregate": {
+    "n_valid": 1654,
+    "mean_score": 1.3487
+  }
+}

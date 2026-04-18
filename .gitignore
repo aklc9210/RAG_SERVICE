@@ -20,6 +20,10 @@ htmlcov/
 # Environment and local config
 .env
 .env.*
+.claude/
+
+# Ontology build artifacts (regenerable)
+app/data/ontology/.hierarchy_checkpoint.json
 
 # Legacy source data
 kb_old/

@@ -1,22 +1,22 @@
 {
-  "task3": {
+  "task1": {
     "BM25": {
-      "Precision@5": 0.0468,
-      "Recall@5": 0.0234,
-      "NDCG@5": 0.05,
-      "n_dishes": 2148
-    },
-    "RAG+Ontology": {
-      "Precision@5": 0.2072,
-      "Recall@5": 0.1036,
-      "NDCG@5": 0.2226,
-      "n_dishes": 2148
+      "nDCG@10": 0.2472,
+      "MRR@10": 0.4878,
+      "Recall@10": 0.0581,
+      "n_queries": 530
     },
     "RAG-only": {
-      "Precision@5": 0.0567,
-      "Recall@5": 0.0284,
-      "NDCG@5": 0.0613,
-      "n_dishes": 2148
+      "nDCG@10": 0.2932,
+      "MRR@10": 0.477,
+      "Recall@10": 0.0588,
+      "n_queries": 530
+    },
+    "RAG+Ontology": {
+      "nDCG@10": 0.2805,
+      "MRR@10": 0.4115,
+      "Recall@10": 0.0588,
+      "n_queries": 530
     }
   }
 }

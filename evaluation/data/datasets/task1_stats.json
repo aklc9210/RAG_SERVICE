@@ -1,8 +1,13 @@
 {
-  "total_queries": 675,
-  "exact_name_queries": 600,
-  "category_queries": 75,
+  "total_queries": 530,
+  "by_type": {
+    "exact_name": 200,
+    "category": 75,
+    "ingredient": 155,
+    "paraphrase": 100
+  },
   "n_test_dishes": 2148,
   "n_categories": 25,
+  "n_useful_ingredients": 739,
   "seed": 42
 }
