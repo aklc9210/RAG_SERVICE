@@ -77,6 +77,12 @@ def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _strip_accents(text: str) -> str:
+    """Remove Vietnamese diacritics: nghêu → ngheu, bò → bo."""
+    nfkd = unicodedata.normalize("NFD", text)
+    return "".join(c for c in nfkd if unicodedata.category(c) != "Mn")
+
+
 def _tokenize(text: str):
     return _normalize(text).split()
 
@@ -121,91 +127,143 @@ def resolve_ingredient_name(name, name_to_id, norm_to_id):
 
 
 # ------------------------------------------------------------------
-# 1. substitutes(A, B, context) — dish name pairs differing by 1 token
+# Hierarchy loader (for substitute & complement filtering)
 # ------------------------------------------------------------------
 
-def _ingredient_slot_tokens(ing):
-    """
-    Candidate slot-token forms for an ingredient.
-    E.g. ingredient 'Thịt bò' (normalized 'thit bo') → {'thit bo', 'bo'}
-    The last token is the head noun and commonly appears in dish names.
-    """
+HIERARCHY_PATH = ROOT / "app" / "data" / "ontology" / "ingredient_hierarchy.json"
+
+
+def load_hierarchy():
+    """Load hierarchy; return (ing_to_class, classes) or (None, None)."""
+    if not HIERARCHY_PATH.exists():
+        return None, None
+    h = json.loads(HIERARCHY_PATH.read_text(encoding="utf-8"))
+    return h.get("ingredient_to_class", {}), h.get("classes", {})
+
+
+def _get_parent_class(cls, classes):
+    """Get the level-1 (top-level) ancestor of a leaf class."""
+    cur = cls
+    while cur and classes.get(cur, {}).get("parent") \
+          and classes[cur]["parent"] != "Ingredient":
+        cur = classes[cur]["parent"]
+    return cur
+
+
+# ------------------------------------------------------------------
+# 1. substitutes(A, B, context) — two strategies combined
+# ------------------------------------------------------------------
+
+def _ingredient_name_tokens(ing):
+    """All token forms that might appear in a dish name for this ingredient."""
     nn = (ing.get("name_normalized") or "").lower().strip()
     if not nn:
         return set()
     toks = nn.split()
     out = {nn}
     if toks:
-        out.add(toks[-1])   # head noun (bò, gà, cá, ...)
+        out.add(toks[-1])          # head noun: bò, gà, tôm
+    if len(toks) >= 2:
+        out.add(" ".join(toks[-2:]))  # 2-gram tail: cá lóc, thịt bò
     return out
+
+
+def _remove_ingredient_from_name(dish_tokens, ing_tokens):
+    """Remove ingredient tokens from dish name, return template string or None.
+    Compares using accent-stripped forms since name_normalized has no accents
+    but dish names do.
+    """
+    name = " ".join(dish_tokens)
+    name_stripped = _strip_accents(name)
+    for form in sorted(ing_tokens, key=len, reverse=True):
+        form_stripped = _strip_accents(form)
+        if form_stripped in name_stripped:
+            # Find position in stripped string, replace in original
+            idx = name_stripped.find(form_stripped)
+            # Map back: count chars to find corresponding position in original
+            tmpl = name[:idx].rstrip() + " _ " + name[idx + len(form_stripped):].lstrip()
+            tmpl = re.sub(r"\s+", " ", tmpl).strip()
+            if tmpl and tmpl != "_":
+                return tmpl
+    return None
 
 
 def derive_substitutes(dishes, id_to_meta, name_to_id, norm_to_id):
     """
-    For each pair of dishes whose names differ by exactly one position,
-    check if both slot tokens map to a main ingredient (importance >= 2) of
-    their respective dish — either the full normalized name or its head noun.
-    If yes, record substitutes(A, B, context=remaining_template).
+    Strategy A: For each dish, extract its primary ingredient (importance=3)
+    and build a template = dish_name minus that ingredient. Group dishes by
+    template → primary ingredients in the same group are substitutes.
+
+    Filter: both ingredients must share the same top-level ontology class
+    (Protein, Produce, Seasoning, Staple) if hierarchy is available,
+    otherwise fall back to same flat category.
     """
-    # Pre-compute per-dish: token_list, and for each main ingredient the set of
-    # slot forms. Build template bucket = (tuple of tokens with slot replaced by "_").
-    buckets = defaultdict(list)   # template_tuple → [(dish, slot_token, ing)]
+    i2c, classes = load_hierarchy()
+
+    # Build template → [(dish, primary_ingredient)] mapping
+    buckets = defaultdict(list)
 
     for d in dishes:
-        tokens = _tokenize(d.get("name_vi", ""))
-        n = len(tokens)
-        if n < 2 or n > 8:
+        dtokens = _tokenize(d.get("name_vi", ""))
+        if len(dtokens) < 2 or len(dtokens) > 10:
             continue
-        mains = [ing for ing in d.get("ingredients", [])
-                 if ing.get("importance", 0) >= 2]
-        for ing in mains:
-            slot_forms = _ingredient_slot_tokens(ing)
-            for idx in range(n):
-                tok = tokens[idx]
-                # Single-token match (head noun in dish name)
-                if tok in slot_forms:
-                    template = tuple(tokens[:idx] + ["_"] + tokens[idx + 1:])
-                    buckets[template].append((d, tok, ing))
-                    continue
-                # 2-token match for 'thit bo' style ingredients in a 'thit _' window
-                if idx + 1 < n:
-                    bigram = f"{tok} {tokens[idx + 1]}"
-                    if bigram in slot_forms:
-                        template = tuple(tokens[:idx] + ["_"] + tokens[idx + 2:])
-                        buckets[template].append((d, bigram, ing))
+        # Get primary ingredients (importance=3 first, then importance=2)
+        primaries = [ing for ing in d.get("ingredients", [])
+                     if ing.get("importance", 0) == 3]
+        if not primaries:
+            primaries = [ing for ing in d.get("ingredients", [])
+                         if ing.get("importance", 0) == 2]
+        if not primaries:
+            continue
+        # Use the first primary ingredient
+        main = primaries[0]
+        name_forms = _ingredient_name_tokens(main)
+        tmpl = _remove_ingredient_from_name(dtokens, name_forms)
+        if tmpl:
+            buckets[tmpl].append((d, main))
 
     subs = []
     seen = set()
-    for template, entries in buckets.items():
+    for tmpl, entries in buckets.items():
         if len(entries) < 2:
             continue
-        # Deduplicate by (dish_id, ing_id) so we don't pair a dish with itself
+        # Collect unique ingredients in this template
         for i in range(len(entries)):
             for j in range(i + 1, len(entries)):
-                di, slot_i, ing_i = entries[i]
-                dj, slot_j, ing_j = entries[j]
-                if di["id"] == dj["id"]:
+                di, ing_i = entries[i]
+                dj, ing_j = entries[j]
+                aid = ing_i["ingredient_id"]
+                bid = ing_j["ingredient_id"]
+                if aid == bid or di["id"] == dj["id"]:
                     continue
-                if ing_i["ingredient_id"] == ing_j["ingredient_id"]:
-                    continue
-                # Same-category filter reduces spurious pairs
-                # (e.g. 'chanh' ↔ 'coca cola' in context 'bánh')
-                cat_i = id_to_meta.get(ing_i["ingredient_id"], {}).get("category")
-                cat_j = id_to_meta.get(ing_j["ingredient_id"], {}).get("category")
-                if not cat_i or cat_i != cat_j:
-                    continue
-                a, b = sorted([ing_i["ingredient_id"], ing_j["ingredient_id"]])
-                context = " ".join(t for t in template if t != "_")
-                key = (a, b, context)
+                a, b = sorted([aid, bid])
+                key = (a, b, tmpl)
                 if key in seen:
                     continue
+                # Filter: same leaf class (hierarchy) or same category
+                if i2c and classes:
+                    cls_a = i2c.get(a)
+                    cls_b = i2c.get(b)
+                    if cls_a and cls_b:
+                        if cls_a != cls_b:
+                            continue
+                    else:
+                        ca = id_to_meta.get(a, {}).get("category")
+                        cb = id_to_meta.get(b, {}).get("category")
+                        if not ca or ca != cb:
+                            continue
+                else:
+                    ca = id_to_meta.get(a, {}).get("category")
+                    cb = id_to_meta.get(b, {}).get("category")
+                    if not ca or ca != cb:
+                        continue
                 seen.add(key)
                 subs.append({
                     "a": a,
                     "b": b,
                     "a_name": id_to_meta.get(a, {}).get("name_vi", ""),
                     "b_name": id_to_meta.get(b, {}).get("name_vi", ""),
-                    "context": context,
+                    "context": tmpl.replace("_", "…"),
                     "evidence": [di["id"], dj["id"]],
                 })
     return subs
@@ -217,18 +275,15 @@ def derive_substitutes(dishes, id_to_meta, name_to_id, norm_to_id):
 
 def derive_flavor_complements(npmi, id_to_meta, threshold=0.3):
     """
-    NPMI >= threshold AND both ingredients share the same flat category.
-    (Category acts as a proxy for 'same parent class' until Person B's hierarchy
-    is ready; swap in hierarchy lookup in Day 2 integration.)
+    NPMI >= threshold AND both ingredients share the same top-level ontology
+    class (via hierarchy) or same flat category as fallback.
     """
+    i2c, classes = load_hierarchy()
     complements = []
     seen = set()
     for a, peers in npmi.items():
         meta_a = id_to_meta.get(a)
         if not meta_a:
-            continue
-        cat_a = meta_a.get("category")
-        if not cat_a:
             continue
         for b, score in peers.items():
             if score < threshold or a == b:
@@ -236,8 +291,20 @@ def derive_flavor_complements(npmi, id_to_meta, threshold=0.3):
             meta_b = id_to_meta.get(b)
             if not meta_b:
                 continue
-            if meta_b.get("category") != cat_a:
-                continue
+            # Same-class filter: hierarchy top-level or flat category
+            if i2c and classes:
+                cls_a = i2c.get(a)
+                cls_b = i2c.get(b)
+                if cls_a and cls_b:
+                    if _get_parent_class(cls_a, classes) != \
+                       _get_parent_class(cls_b, classes):
+                        continue
+                else:
+                    if meta_a.get("category") != meta_b.get("category"):
+                        continue
+            else:
+                if meta_a.get("category") != meta_b.get("category"):
+                    continue
             x, y = sorted([a, b])
             if (x, y) in seen:
                 continue
@@ -247,7 +314,6 @@ def derive_flavor_complements(npmi, id_to_meta, threshold=0.3):
                 "b": y,
                 "a_name": id_to_meta.get(x, {}).get("name_vi", ""),
                 "b_name": id_to_meta.get(y, {}).get("name_vi", ""),
-                "category": cat_a,
                 "npmi": round(score, 4),
             })
     complements.sort(key=lambda r: r["npmi"], reverse=True)
@@ -408,7 +474,7 @@ def main():
     if complements:
         print("\nflavorComplements[0–2] (top NPMI):")
         for c in complements[:3]:
-            print(f"  {c['a_name']} + {c['b_name']} [{c['category']}] npmi={c['npmi']}")
+            print(f"  {c['a_name']} + {c['b_name']} npmi={c['npmi']}")
     if conflicts:
         print("\nconflictsWith[0–2]:")
         for c in conflicts[:3]:
