@@ -152,6 +152,143 @@ class FoodOntology:
                 return filtered
         return entries
 
+    def get_substitutes_for_dish(
+        self, dish_id: str, ing_id: str,
+        constraint: Optional[str] = None,
+        strategy: str = "full_ontology",
+        top_k: int = 5,
+    ) -> List[dict]:
+        """
+        Task 2: Find substitutes for `ing_id` in the context of `dish_id`.
+
+        Strategies:
+          - random_class:   random ingredients from same leaf class
+          - npmi_only:      rank by NPMI with dish's other ingredients
+          - full_ontology:  ontology substitutes + constraint filter + NPMI rerank
+
+        Constraints: "vegetarian", "no_seafood", "no_meat", "no_dairy", None
+
+        Returns: [{"id", "name", "score", "reason"}, ...]
+        """
+        dish_meta = self._get_dish_ingredients(dish_id)
+        other_ings = [i for i in dish_meta if i != ing_id]
+        ing_class = self.ing_to_class.get(ing_id)
+
+        if strategy == "random_class":
+            return self._sub_random_class(ing_id, ing_class, constraint, top_k)
+        elif strategy == "npmi_only":
+            return self._sub_npmi_only(ing_id, other_ings, ing_class, constraint, top_k)
+        else:
+            return self._sub_full_ontology(ing_id, dish_id, other_ings, ing_class, constraint, top_k)
+
+    def _get_dish_ingredients(self, dish_id: str) -> List[str]:
+        """Get ingredient IDs for a dish from KB."""
+        if not hasattr(self, "_dish_kb"):
+            dkb_path = ROOT / "app" / "data" / "knowledge_base" / "dish_knowledge_base.json"
+            dkb = json.loads(dkb_path.read_text("utf-8"))
+            self._dish_kb = {d["id"]: d for d in dkb}
+        dish = self._dish_kb.get(dish_id, {})
+        return [i["ingredient_id"] for i in dish.get("ingredients", [])]
+
+    def _passes_constraint(self, cand_id: str, constraint: Optional[str]) -> bool:
+        if not constraint:
+            return True
+        cls = self.ing_to_class.get(cand_id, "Other")
+        ancestors = set()
+        cur = cls
+        while cur:
+            ancestors.add(cur)
+            cur = self.classes.get(cur, {}).get("parent")
+        if constraint == "vegetarian":
+            return "AnimalProtein" not in ancestors
+        elif constraint == "no_seafood":
+            return "Seafood" not in ancestors
+        elif constraint == "no_meat":
+            return "Meat" not in ancestors and "Poultry" not in ancestors
+        elif constraint == "no_dairy":
+            return "Dairy" not in ancestors
+        return True
+
+    def _npmi_score_with_others(self, cand_id: str, other_ings: List[str]) -> float:
+        comps = {e["id"]: e["npmi"] for e in self._comps.get(cand_id, [])}
+        scores = [comps.get(o, 0.0) for o in other_ings if o in comps]
+        return sum(scores) / len(scores) if scores else 0.0
+
+    def _sub_random_class(self, ing_id, ing_class, constraint, top_k):
+        import random
+        members = list(self.class_members.get(ing_class, []))
+        members = [m for m in members if m != ing_id and self._passes_constraint(m, constraint)]
+        random.shuffle(members)
+        results = []
+        for m in members[:top_k]:
+            meta = self.ing_meta.get(m, {})
+            results.append({"id": m, "name": meta.get("name_vi", ""), "score": 0.0, "reason": "random_class"})
+        return results
+
+    def _sub_npmi_only(self, ing_id, other_ings, ing_class, constraint, top_k):
+        members = list(self.class_members.get(ing_class, []))
+        members = [m for m in members if m != ing_id and self._passes_constraint(m, constraint)]
+        scored = []
+        for m in members:
+            s = self._npmi_score_with_others(m, other_ings)
+            scored.append((m, s))
+        scored.sort(key=lambda x: -x[1])
+        results = []
+        for m, s in scored[:top_k]:
+            meta = self.ing_meta.get(m, {})
+            results.append({"id": m, "name": meta.get("name_vi", ""), "score": round(s, 4), "reason": "npmi"})
+        return results
+
+    def _sub_full_ontology(self, ing_id, dish_id, other_ings, ing_class, constraint, top_k):
+        # 1. Get ontology substitutes with context
+        dish_meta = self._dish_kb.get(dish_id, {})
+        dish_cat = dish_meta.get("category", "")
+        ont_subs = self.get_substitutes(ing_id, context=dish_cat)
+
+        # 2. Also include same-class members as fallback
+        class_members = set(self.class_members.get(ing_class, []))
+        # Include sibling classes too
+        parent = self.classes.get(ing_class, {}).get("parent")
+        if parent:
+            for sib in self.classes.get(parent, {}).get("children", []):
+                class_members |= set(self.class_members.get(sib, []))
+
+        # If constraint filters out entire class, expand to alternative classes
+        if constraint == "vegetarian":
+            class_members |= set(self.get_descendants("PlantProtein"))
+            class_members |= set(self.get_descendants("Mushroom"))
+        elif constraint == "no_seafood" and ing_class and self.is_subclass_of(ing_class, "Seafood"):
+            class_members |= set(self.get_descendants("Meat"))
+            class_members |= set(self.get_descendants("Poultry"))
+            class_members |= set(self.get_descendants("PlantProtein"))
+
+        candidates = set()
+        for s in ont_subs:
+            candidates.add(s["id"])
+        candidates |= class_members
+        candidates.discard(ing_id)
+
+        # 3. Filter constraint
+        candidates = {c for c in candidates if self._passes_constraint(c, constraint)}
+
+        # 4. Score: ontology bonus + NPMI with other ingredients
+        scored = []
+        ont_ids = {s["id"] for s in ont_subs}
+        for c in candidates:
+            npmi = self._npmi_score_with_others(c, other_ings)
+            ont_bonus = 0.3 if c in ont_ids else 0.0
+            same_leaf = 0.2 if self.ing_to_class.get(c) == ing_class else 0.0
+            total = npmi + ont_bonus + same_leaf
+            scored.append((c, total))
+        scored.sort(key=lambda x: -x[1])
+
+        results = []
+        for c, s in scored[:top_k]:
+            meta = self.ing_meta.get(c, {})
+            reason = "ontology+npmi" if c in ont_ids else "class+npmi"
+            results.append({"id": c, "name": meta.get("name_vi", ""), "score": round(s, 4), "reason": reason})
+        return results
+
     def get_complements(self, ing_id: str, top_k: int = 20) -> List[dict]:
         """Top flavor complements by NPMI."""
         entries = self._comps.get(ing_id, [])
