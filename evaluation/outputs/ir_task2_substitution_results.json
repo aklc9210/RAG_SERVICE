@@ -1,0 +1,5754 @@
+{
+  "summary": {
+    "random_class": {
+      "mean_score": 0.73,
+      "accept_rate": 0.44,
+      "good_rate": 0.29,
+      "score_dist": {
+        "0": 56,
+        "1": 15,
+        "2": 29
+      },
+      "n_empty": 8,
+      "n_cases": 100
+    },
+    "npmi_only": {
+      "mean_score": 0.61,
+      "accept_rate": 0.37,
+      "good_rate": 0.24,
+      "score_dist": {
+        "0": 63,
+        "1": 13,
+        "2": 24
+      },
+      "n_empty": 8,
+      "n_cases": 100
+    },
+    "full_ontology": {
+      "mean_score": 0.73,
+      "accept_rate": 0.41,
+      "good_rate": 0.32,
+      "score_dist": {
+        "0": 59,
+        "1": 9,
+        "2": 32
+      },
+      "n_empty": 0,
+      "n_cases": 100
+    }
+  },
+  "cases": [
+    {
+      "dish_id": "dish2777",
+      "dish_name": "Bánh kem cam - bánh gato cam",
+      "ingredient_id": "ingre01054",
+      "ingredient_name": "Cam vàng Mỹ",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish2777",
+      "dish_name": "Bánh kem cam - bánh gato cam",
+      "ingredient_id": "ingre07313",
+      "ingredient_name": "Whipping cream",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8852",
+      "dish_name": "Sương sáo đen hạt chia",
+      "ingredient_id": "ingre00925",
+      "ingredient_name": "Bột sương sáo đen",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8852",
+      "dish_name": "Sương sáo đen hạt chia",
+      "ingredient_id": "ingre02922",
+      "ingredient_name": "Hạt chia",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3535",
+      "dish_name": "Bánh canh Quy Nhơn",
+      "ingredient_id": "ingre06050",
+      "ingredient_name": "Sợi bánh canh",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3535",
+      "dish_name": "Bánh canh Quy Nhơn",
+      "ingredient_id": "ingre06816",
+      "ingredient_name": "Trứng cút",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish2827",
+      "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+      "ingredient_id": "ingre07453",
+      "ingredient_name": "Yến mạch",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish2827",
+      "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+      "ingredient_id": "ingre02220",
+      "ingredient_name": "G  hướng dương",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish2828",
+      "dish_name": "Bánh mì Hy Lạp",
+      "ingredient_id": "ingre00782",
+      "ingredient_name": "Bột mì số 13",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish2828",
+      "dish_name": "Bánh mì Hy Lạp",
+      "ingredient_id": "ingre03686",
+      "ingredient_name": "Men nở",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish7001",
+      "dish_name": "Cá hường chiên nước mắm",
+      "ingredient_id": "ingre01523",
+      "ingredient_name": "Cá hường",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish7001",
+      "dish_name": "Cá hường chiên nước mắm",
+      "ingredient_id": "ingre08078",
+      "ingredient_name": "Ớt tươi",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish5902",
+      "dish_name": "Đậu hũ kho sườn chay",
+      "ingredient_id": "ingre05874",
+      "ingredient_name": "Sườn chay khô",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish5902",
+      "dish_name": "Đậu hũ kho sườn chay",
+      "ingredient_id": "ingre02645",
+      "ingredient_name": "Hành boa rô",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish5526",
+      "dish_name": "Mực xào nấm hương",
+      "ingredient_id": "ingre04278",
+      "ingredient_name": "Mực tươi",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish5526",
+      "dish_name": "Mực xào nấm hương",
+      "ingredient_id": "ingre01419",
+      "ingredient_name": "Cà rốt",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish7779",
+      "dish_name": "Lẩu bạch tuộc nấu nấm",
+      "ingredient_id": "ingre00434",
+      "ingredient_name": "Bạch tuộc",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish7779",
+      "dish_name": "Lẩu bạch tuộc nấu nấm",
+      "ingredient_id": "ingre04921",
+      "ingredient_name": "Nấm kim châm",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish0297",
+      "dish_name": "Đầu cá hồi nấu ngót",
+      "ingredient_id": "ingre07706",
+      "ingredient_name": "Đầu cá hồi",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish0297",
+      "dish_name": "Đầu cá hồi nấu ngót",
+      "ingredient_id": "ingre07966",
+      "ingredient_name": "Ớt",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6786",
+      "dish_name": "Cá chẽm sốt chua ngọt",
+      "ingredient_id": "ingre01503",
+      "ingredient_name": "Cá chẽm",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish6786",
+      "dish_name": "Cá chẽm sốt chua ngọt",
+      "ingredient_id": "ingre02487",
+      "ingredient_name": "Gừng 1 củ nhỏ",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish2008",
+      "dish_name": "Bánh sò socola - madeleine chocolat",
+      "ingredient_id": "ingre00584",
+      "ingredient_name": "Bột cake flour",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish2008",
+      "dish_name": "Bánh sò socola - madeleine chocolat",
+      "ingredient_id": "ingre00018",
+      "ingredient_name": "Baking soda",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish7435",
+      "dish_name": "Bông cải cuộn thịt chiên giòn",
+      "ingredient_id": "ingre06400",
+      "ingredient_name": "Thịt heo ba chỉ cắt lát",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish7435",
+      "dish_name": "Bông cải cuộn thịt chiên giòn",
+      "ingredient_id": "ingre00282",
+      "ingredient_name": "Bông cải xanh",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish2174",
+      "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+      "ingredient_id": "ingre06492",
+      "ingredient_name": "Thịt sầu riêng",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish2174",
+      "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+      "ingredient_id": "ingre03147",
+      "ingredient_name": "Kem sữa tươi",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish0809",
+      "dish_name": "Canh cua rau đay mồng tơi",
+      "ingredient_id": "ingre01344",
+      "ingredient_name": "Cua đồng",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish0809",
+      "dish_name": "Canh cua rau đay mồng tơi",
+      "ingredient_id": "ingre05431",
+      "ingredient_name": "Rau đay",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8417",
+      "dish_name": "Chà bông gà cay (ruốc gà cay)",
+      "ingredient_id": "ingre08103",
+      "ingredient_name": "Ức gà",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish8417",
+      "dish_name": "Chà bông gà cay (ruốc gà cay)",
+      "ingredient_id": "ingre02584",
+      "ingredient_name": "Hoa hồi",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish10089",
+      "dish_name": "Nước mía lau củ năng hạt chia",
+      "ingredient_id": "ingre01910",
+      "ingredient_name": "Củ năng",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish10089",
+      "dish_name": "Nước mía lau củ năng hạt chia",
+      "ingredient_id": "ingre04027",
+      "ingredient_name": "Mía lau",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish9311",
+      "dish_name": "Bánh quy lưỡi mèo",
+      "ingredient_id": "ingre00783",
+      "ingredient_name": "Bột mì số 8",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish9311",
+      "dish_name": "Bánh quy lưỡi mèo",
+      "ingredient_id": "ingre03580",
+      "ingredient_name": "Lòng trắng trứng gà",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish5204",
+      "dish_name": "Mít xào nấm đùi gà chay",
+      "ingredient_id": "ingre04037",
+      "ingredient_name": "Mít thái",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish5204",
+      "dish_name": "Mít xào nấm đùi gà chay",
+      "ingredient_id": "ingre02768",
+      "ingredient_name": "Hành tím",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish6490",
+      "dish_name": "Vây cá hồi chiên nước mắm me",
+      "ingredient_id": "ingre07179",
+      "ingredient_name": "Vây cá hồi",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6490",
+      "dish_name": "Vây cá hồi chiên nước mắm me",
+      "ingredient_id": "ingre07971",
+      "ingredient_name": "Ớt băm",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish8983",
+      "dish_name": "Thạch chanh dây",
+      "ingredient_id": "ingre01081",
+      "ingredient_name": "Chanh dây",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish8983",
+      "dish_name": "Thạch chanh dây",
+      "ingredient_id": "ingre05222",
+      "ingredient_name": "Rau câu dẻo",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish4999",
+      "dish_name": "Xúc xích xào nấm, ớt chuông",
+      "ingredient_id": "ingre07396",
+      "ingredient_name": "Xúc xích",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish4999",
+      "dish_name": "Xúc xích xào nấm, ớt chuông",
+      "ingredient_id": "ingre01354",
+      "ingredient_name": "Cà chua",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish10506",
+      "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+      "ingredient_id": "ingre06100",
+      "ingredient_name": "Sữa chua không đường",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish10506",
+      "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+      "ingredient_id": "ingre06085",
+      "ingredient_name": "Sữa bột công thức",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3849",
+      "dish_name": "Thịt heo nướng lu",
+      "ingredient_id": "ingre06214",
+      "ingredient_name": "Thịt ba chỉ",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3849",
+      "dish_name": "Thịt heo nướng lu",
+      "ingredient_id": "ingre00631",
+      "ingredient_name": "Bột cà ri",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish9109",
+      "dish_name": "Chân gà ngâm sả tắc chay",
+      "ingredient_id": "ingre01239",
+      "ingredient_name": "Chân gà chay",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish9109",
+      "dish_name": "Chân gà ngâm sả tắc chay",
+      "ingredient_id": "ingre05900",
+      "ingredient_name": "Sả",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish10208",
+      "dish_name": "Trà sữa bơ",
+      "ingredient_id": "ingre00372",
+      "ingredient_name": "Bơ chín",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish10208",
+      "dish_name": "Trà sữa bơ",
+      "ingredient_id": "ingre06705",
+      "ingredient_name": "Trà Lipton",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6532",
+      "dish_name": "Cá đuối chiên nước mắm",
+      "ingredient_id": "ingre01659",
+      "ingredient_name": "Cá đuối",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6532",
+      "dish_name": "Cá đuối chiên nước mắm",
+      "ingredient_id": "ingre02768",
+      "ingredient_name": "Hành tím",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish3094",
+      "dish_name": "Chè sắn mochi",
+      "ingredient_id": "ingre01920",
+      "ingredient_name": "Củ sắn",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish3094",
+      "dish_name": "Chè sắn mochi",
+      "ingredient_id": "ingre02922",
+      "ingredient_name": "Hạt chia",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish0891",
+      "dish_name": "Bánh Canele",
+      "ingredient_id": "ingre06801",
+      "ingredient_name": "Trứng",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish0891",
+      "dish_name": "Bánh Canele",
+      "ingredient_id": "ingre07652",
+      "ingredient_name": "Đường trắng",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6824",
+      "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+      "ingredient_id": "ingre01124",
+      "ingredient_name": "Chim bồ câu",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6824",
+      "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+      "ingredient_id": "ingre01079",
+      "ingredient_name": "Chanh",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish5220",
+      "dish_name": "Thịt heo xào đậu đũa",
+      "ingredient_id": "ingre07867",
+      "ingredient_name": "Đậu đũa",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish5220",
+      "dish_name": "Thịt heo xào đậu đũa",
+      "ingredient_id": "ingre04694",
+      "ingredient_name": "Nước mắm",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish5236",
+      "dish_name": "Bún tàu xào nấm mối",
+      "ingredient_id": "ingre04942",
+      "ingredient_name": "Nấm mối",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish5236",
+      "dish_name": "Bún tàu xào nấm mối",
+      "ingredient_id": "ingre02673",
+      "ingredient_name": "Hành lá",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish1366",
+      "dish_name": "Bánh pizza bằng khoai tây",
+      "ingredient_id": "ingre06823",
+      "ingredient_name": "Trứng gà",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish1366",
+      "dish_name": "Bánh pizza bằng khoai tây",
+      "ingredient_id": "ingre03222",
+      "ingredient_name": "Khoai tây",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish0884",
+      "dish_name": "Bánh bắp phô mai",
+      "ingredient_id": "ingre00759",
+      "ingredient_name": "Bột mì",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish0884",
+      "dish_name": "Bánh bắp phô mai",
+      "ingredient_id": "ingre03665",
+      "ingredient_name": "Men",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish4253",
+      "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+      "ingredient_id": "ingre05876",
+      "ingredient_name": "Sườn cốt lết",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish4253",
+      "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+      "ingredient_id": "ingre05088",
+      "ingredient_name": "Phô mai miếng",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8725",
+      "dish_name": "Bánh tráng cuốn trứng lòng đào",
+      "ingredient_id": "ingre06816",
+      "ingredient_name": "Trứng cút",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish8725",
+      "dish_name": "Bánh tráng cuốn trứng lòng đào",
+      "ingredient_id": "ingre03240",
+      "ingredient_name": "Khô bò sợi",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish2374",
+      "dish_name": "Bánh tart hành tây nhân phô mai",
+      "ingredient_id": "ingre00779",
+      "ingredient_name": "Bột mì số 11",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish2374",
+      "dish_name": "Bánh tart hành tây nhân phô mai",
+      "ingredient_id": "ingre00382",
+      "ingredient_name": "Bơ lạt",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8403",
+      "dish_name": "Chân gà ngâm mắm",
+      "ingredient_id": "ingre01238",
+      "ingredient_name": "Chân gà",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish8403",
+      "dish_name": "Chân gà ngâm mắm",
+      "ingredient_id": "ingre07063",
+      "ingredient_name": "Tỏi",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish0072",
+      "dish_name": "Canh chua khô cá dứa dọc mùng",
+      "ingredient_id": "ingre03250",
+      "ingredient_name": "Khô cá dứa một nắng",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish0072",
+      "dish_name": "Canh chua khô cá dứa dọc mùng",
+      "ingredient_id": "ingre07729",
+      "ingredient_name": "Đậu bắp",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish3241",
+      "dish_name": "Mì somen truyền thống",
+      "ingredient_id": "ingre03990",
+      "ingredient_name": "Mì somen",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish3241",
+      "dish_name": "Mì somen truyền thống",
+      "ingredient_id": "ingre04763",
+      "ingredient_name": "Nước sốt Mentsuyu",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish10168",
+      "dish_name": "Trà sữa phô mai tươi",
+      "ingredient_id": "ingre06741",
+      "ingredient_name": "Trà đen",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish10168",
+      "dish_name": "Trà sữa phô mai tươi",
+      "ingredient_id": "ingre06147",
+      "ingredient_name": "Sữa tươi không đường",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3265",
+      "dish_name": "Hủ tiếu dê",
+      "ingredient_id": "ingre03111",
+      "ingredient_name": "Hủ tiếu",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3265",
+      "dish_name": "Hủ tiếu dê",
+      "ingredient_id": "ingre05420",
+      "ingredient_name": "Rau ăn kèm",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish2614",
+      "dish_name": "Bánh pizza keto rau củ",
+      "ingredient_id": "ingre05842",
+      "ingredient_name": "Súp lơ",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish2614",
+      "dish_name": "Bánh pizza keto rau củ",
+      "ingredient_id": "ingre01354",
+      "ingredient_name": "Cà chua",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish7268",
+      "dish_name": "Đậu hủ non chiên chà bông",
+      "ingredient_id": "ingre07765",
+      "ingredient_name": "Đậu hủ non",
+      "constraint": "vegetarian"
+    },
+    {
+      "dish_id": "dish7268",
+      "dish_name": "Đậu hủ non chiên chà bông",
+      "ingredient_id": "ingre01202",
+      "ingredient_name": "Chà bông",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8252",
+      "dish_name": "Gỏi nấm chanh dây",
+      "ingredient_id": "ingre04511",
+      "ingredient_name": "Nước chanh dây cả hạt",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish8252",
+      "dish_name": "Gỏi nấm chanh dây",
+      "ingredient_id": "ingre04694",
+      "ingredient_name": "Nước mắm",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish3373",
+      "dish_name": "Bún ốc cay",
+      "ingredient_id": "ingre07947",
+      "ingredient_name": "Ốc mít",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish3373",
+      "dish_name": "Bún ốc cay",
+      "ingredient_id": "ingre03370",
+      "ingredient_name": "Lá chanh",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish4584",
+      "dish_name": "Gà xào húng quế",
+      "ingredient_id": "ingre08103",
+      "ingredient_name": "Ức gà",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish4584",
+      "dish_name": "Gà xào húng quế",
+      "ingredient_id": "ingre00804",
+      "ingredient_name": "Bột nghệ",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish5915",
+      "dish_name": "Cá ngừ kho dưa gang muối",
+      "ingredient_id": "ingre01579",
+      "ingredient_name": "Cá ngừ",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish5915",
+      "dish_name": "Cá ngừ kho dưa gang muối",
+      "ingredient_id": "ingre07063",
+      "ingredient_name": "Tỏi",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish6015",
+      "dish_name": "Ếch kho nghệ",
+      "ingredient_id": "ingre07930",
+      "ingredient_name": "Ếch",
+      "constraint": "no_seafood"
+    },
+    {
+      "dish_id": "dish6015",
+      "dish_name": "Ếch kho nghệ",
+      "ingredient_id": "ingre02673",
+      "ingredient_name": "Hành lá",
+      "constraint": "no_meat"
+    },
+    {
+      "dish_id": "dish6610",
+      "dish_name": "Chả giò rế tôm thịt",
+      "ingredient_id": "ingre06963",
+      "ingredient_name": "Tôm tươi",
+      "constraint": null
+    },
+    {
+      "dish_id": "dish6610",
+      "dish_name": "Chả giò rế tôm thịt",
+      "ingredient_id": "ingre06823",
+      "ingredient_name": "Trứng gà",
+      "constraint": null
+    }
+  ],
+  "detailed": {
+    "random_class": [
+      {
+        "case": {
+          "dish_id": "dish2777",
+          "dish_name": "Bánh kem cam - bánh gato cam",
+          "ingredient_id": "ingre01054",
+          "ingredient_name": "Cam vàng Mỹ",
+          "constraint": "no_seafood"
+        },
+        "top1": "đu đủ hườm",
+        "top1_id": "ingre07495",
+        "score": 0,
+        "all_subs": [
+          "đu đủ hườm",
+          "quýt to",
+          "trái vải"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2777",
+          "dish_name": "Bánh kem cam - bánh gato cam",
+          "ingredient_id": "ingre07313",
+          "ingredient_name": "Whipping cream",
+          "constraint": null
+        },
+        "top1": "nước sôi để pha trà",
+        "top1_id": "ingre04746",
+        "score": 0,
+        "all_subs": [
+          "nước sôi để pha trà",
+          "trái sake",
+          "các sợi lạt để ói bánh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8852",
+          "dish_name": "Sương sáo đen hạt chia",
+          "ingredient_id": "ingre00925",
+          "ingredient_name": "Bột sương sáo đen",
+          "constraint": null
+        },
+        "top1": "kem tươi yến mạch",
+        "top1_id": "ingre03167",
+        "score": 0,
+        "all_subs": [
+          "kem tươi yến mạch",
+          "vỏ bánh tart",
+          "patê"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8852",
+          "dish_name": "Sương sáo đen hạt chia",
+          "ingredient_id": "ingre02922",
+          "ingredient_name": "Hạt chia",
+          "constraint": null
+        },
+        "top1": "nhân bánh trung thu",
+        "top1_id": "ingre04416",
+        "score": 0,
+        "all_subs": [
+          "nhân bánh trung thu",
+          "nhái",
+          "mandu"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3535",
+          "dish_name": "Bánh canh Quy Nhơn",
+          "ingredient_id": "ingre06050",
+          "ingredient_name": "Sợi bánh canh",
+          "constraint": null
+        },
+        "top1": "bánh đa nem",
+        "top1_id": "ingre00222",
+        "score": 1,
+        "all_subs": [
+          "bánh đa nem",
+          "bánh tráng ngọt",
+          "mì mug"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3535",
+          "dish_name": "Bánh canh Quy Nhơn",
+          "ingredient_id": "ingre06816",
+          "ingredient_name": "Trứng cút",
+          "constraint": null
+        },
+        "top1": "trứng-",
+        "top1_id": "ingre06863",
+        "score": 0,
+        "all_subs": [
+          "trứng-",
+          "trứng gà size m",
+          "trứng ở"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2827",
+          "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+          "ingredient_id": "ingre07453",
+          "ingredient_name": "Yến mạch",
+          "constraint": "no_meat"
+        },
+        "top1": "gạo nếp + gạo tẻ",
+        "top1_id": "ingre02451",
+        "score": 2,
+        "all_subs": [
+          "gạo nếp + gạo tẻ",
+          "nếp bắc",
+          "nước vo gạo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2827",
+          "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+          "ingredient_id": "ingre02220",
+          "ingredient_name": "G  hướng dương",
+          "constraint": null
+        },
+        "top1": "tinh chất than tre",
+        "top1_id": "ingre06591",
+        "score": 0,
+        "all_subs": [
+          "tinh chất than tre",
+          "đường thôt nốt",
+          "whipped cream"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2828",
+          "dish_name": "Bánh mì Hy Lạp",
+          "ingredient_id": "ingre00782",
+          "ingredient_name": "Bột mì số 13",
+          "constraint": null
+        },
+        "top1": "bột mì số 8",
+        "top1_id": "ingre00783",
+        "score": 1,
+        "all_subs": [
+          "bột mì số 8",
+          "bột mì ngũ cốc",
+          "dầu thưc vật"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2828",
+          "dish_name": "Bánh mì Hy Lạp",
+          "ingredient_id": "ingre03686",
+          "ingredient_name": "Men nở",
+          "constraint": "no_seafood"
+        },
+        "top1": "đường/tiêu xay",
+        "top1_id": "ingre07692",
+        "score": 0,
+        "all_subs": [
+          "đường/tiêu xay",
+          "rượu hoa tiêu",
+          "sốt tương đen"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7001",
+          "dish_name": "Cá hường chiên nước mắm",
+          "ingredient_id": "ingre01523",
+          "ingredient_name": "Cá hường",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish7001",
+          "dish_name": "Cá hường chiên nước mắm",
+          "ingredient_id": "ingre08078",
+          "ingredient_name": "Ớt tươi",
+          "constraint": "vegetarian"
+        },
+        "top1": "bột điều",
+        "top1_id": "ingre01004",
+        "score": 0,
+        "all_subs": [
+          "bột điều",
+          "ớt hiểm cắt nhỏ",
+          "đinh hương khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5902",
+          "dish_name": "Đậu hũ kho sườn chay",
+          "ingredient_id": "ingre05874",
+          "ingredient_name": "Sườn chay khô",
+          "constraint": null
+        },
+        "top1": "màu xanh thực phẩm   (2 giọt)",
+        "top1_id": "ingre03903",
+        "score": 0,
+        "all_subs": [
+          "màu xanh thực phẩm   (2 giọt)",
+          "đậu hũ phô mai",
+          "da bì tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5902",
+          "dish_name": "Đậu hũ kho sườn chay",
+          "ingredient_id": "ingre02645",
+          "ingredient_name": "Hành boa rô",
+          "constraint": "no_meat"
+        },
+        "top1": "rau ăn kèm: cà tím; rau muống; mướp; bông súng; rau đắng;",
+        "top1_id": "ingre05428",
+        "score": 2,
+        "all_subs": [
+          "rau ăn kèm: cà tím; rau muống; mướp; bông súng; rau đắng;",
+          "cải kale",
+          "xà lách lolo xanh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5526",
+          "dish_name": "Mực xào nấm hương",
+          "ingredient_id": "ingre04278",
+          "ingredient_name": "Mực tươi",
+          "constraint": null
+        },
+        "top1": "hỗn hợp hải sản đông lạnh",
+        "top1_id": "ingre03109",
+        "score": 1,
+        "all_subs": [
+          "hỗn hợp hải sản đông lạnh",
+          "ếch băm",
+          "tàu hũ cá"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5526",
+          "dish_name": "Mực xào nấm hương",
+          "ingredient_id": "ingre01419",
+          "ingredient_name": "Cà rốt",
+          "constraint": "vegetarian"
+        },
+        "top1": "khoai lang hấp",
+        "top1_id": "ingre03188",
+        "score": 1,
+        "all_subs": [
+          "khoai lang hấp",
+          "lá móc mật",
+          "củ cải đỏ radish"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7779",
+          "dish_name": "Lẩu bạch tuộc nấu nấm",
+          "ingredient_id": "ingre00434",
+          "ingredient_name": "Bạch tuộc",
+          "constraint": "no_meat"
+        },
+        "top1": "cá suối",
+        "top1_id": "ingre01617",
+        "score": 0,
+        "all_subs": [
+          "cá suối",
+          "phi lê cá",
+          "bạch tuộc baby"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7779",
+          "dish_name": "Lẩu bạch tuộc nấu nấm",
+          "ingredient_id": "ingre04921",
+          "ingredient_name": "Nấm kim châm",
+          "constraint": "no_seafood"
+        },
+        "top1": "nấm rơm băm nhỏ",
+        "top1_id": "ingre04955",
+        "score": 0,
+        "all_subs": [
+          "nấm rơm băm nhỏ",
+          "nấm đông cô",
+          "nấm mỡ trắng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0297",
+          "dish_name": "Đầu cá hồi nấu ngót",
+          "ingredient_id": "ingre07706",
+          "ingredient_name": "Đầu cá hồi",
+          "constraint": null
+        },
+        "top1": "tôm tít",
+        "top1_id": "ingre06962",
+        "score": 0,
+        "all_subs": [
+          "tôm tít",
+          "cá chua",
+          "trứng cá ngừ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0297",
+          "dish_name": "Đầu cá hồi nấu ngót",
+          "ingredient_id": "ingre07966",
+          "ingredient_name": "Ớt",
+          "constraint": null
+        },
+        "top1": "sốt xo",
+        "top1_id": "ingre06024",
+        "score": 0,
+        "all_subs": [
+          "sốt xo",
+          "ớt bột cay",
+          "tiêu xay đen"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6786",
+          "dish_name": "Cá chẽm sốt chua ngọt",
+          "ingredient_id": "ingre01503",
+          "ingredient_name": "Cá chẽm",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish6786",
+          "dish_name": "Cá chẽm sốt chua ngọt",
+          "ingredient_id": "ingre02487",
+          "ingredient_name": "Gừng 1 củ nhỏ",
+          "constraint": "vegetarian"
+        },
+        "top1": "tỏi/hành tím",
+        "top1_id": "ingre07127",
+        "score": 0,
+        "all_subs": [
+          "tỏi/hành tím",
+          "lá dứa thơm",
+          "nghệ tươi nhỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2008",
+          "dish_name": "Bánh sò socola - madeleine chocolat",
+          "ingredient_id": "ingre00584",
+          "ingredient_name": "Bột cake flour",
+          "constraint": "no_meat"
+        },
+        "top1": "hạt sago",
+        "top1_id": "ingre03028",
+        "score": 0,
+        "all_subs": [
+          "hạt sago",
+          "dầu đậu phộng hoặc dầu ăn thông thường",
+          "thính"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2008",
+          "dish_name": "Bánh sò socola - madeleine chocolat",
+          "ingredient_id": "ingre00018",
+          "ingredient_name": "Baking soda",
+          "constraint": "no_seafood"
+        },
+        "top1": "dầu oilu",
+        "top1_id": "ingre02103",
+        "score": 0,
+        "all_subs": [
+          "dầu oilu",
+          "phẩm màu thực phẩm",
+          "mứt trang trí"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7435",
+          "dish_name": "Bông cải cuộn thịt chiên giòn",
+          "ingredient_id": "ingre06400",
+          "ingredient_name": "Thịt heo ba chỉ cắt lát",
+          "constraint": null
+        },
+        "top1": "đùi gà ta",
+        "top1_id": "ingre07560",
+        "score": 2,
+        "all_subs": [
+          "đùi gà ta",
+          "vịt đã làm sạch",
+          "cúm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7435",
+          "dish_name": "Bông cải cuộn thịt chiên giòn",
+          "ingredient_id": "ingre00282",
+          "ingredient_name": "Bông cải xanh",
+          "constraint": "vegetarian"
+        },
+        "top1": "cải bẹ dưa",
+        "top1_id": "ingre01773",
+        "score": 0,
+        "all_subs": [
+          "cải bẹ dưa",
+          "hành tím lớn",
+          "bắp cải trắng bào sợi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2174",
+          "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+          "ingredient_id": "ingre06492",
+          "ingredient_name": "Thịt sầu riêng",
+          "constraint": "no_seafood"
+        },
+        "top1": "móc mật",
+        "top1_id": "ingre04040",
+        "score": 0,
+        "all_subs": [
+          "móc mật",
+          "nước sôi để nguội",
+          "nước để luộc"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2174",
+          "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+          "ingredient_id": "ingre03147",
+          "ingredient_name": "Kem sữa tươi",
+          "constraint": "vegetarian"
+        },
+        "top1": "double cream",
+        "top1_id": "ingre01951",
+        "score": 0,
+        "all_subs": [
+          "double cream",
+          "sữa tươi không đường - đun nóng 60 độ",
+          "bột sữa tươi nguyên kem a2"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0809",
+          "dish_name": "Canh cua rau đay mồng tơi",
+          "ingredient_id": "ingre01344",
+          "ingredient_name": "Cua đồng",
+          "constraint": null
+        },
+        "top1": "cá chai",
+        "top1_id": "ingre01484",
+        "score": 1,
+        "all_subs": [
+          "cá chai",
+          "cá hồi muối",
+          "thịt cá hồi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0809",
+          "dish_name": "Canh cua rau đay mồng tơi",
+          "ingredient_id": "ingre05431",
+          "ingredient_name": "Rau đay",
+          "constraint": null
+        },
+        "top1": "rau canh chua",
+        "top1_id": "ingre05213",
+        "score": 1,
+        "all_subs": [
+          "rau canh chua",
+          "rau má đồng",
+          "cải làn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8417",
+          "dish_name": "Chà bông gà cay (ruốc gà cay)",
+          "ingredient_id": "ingre08103",
+          "ingredient_name": "Ức gà",
+          "constraint": "no_meat"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish8417",
+          "dish_name": "Chà bông gà cay (ruốc gà cay)",
+          "ingredient_id": "ingre02584",
+          "ingredient_name": "Hoa hồi",
+          "constraint": null
+        },
+        "top1": "dầu điều",
+        "top1_id": "ingre02134",
+        "score": 0,
+        "all_subs": [
+          "dầu điều",
+          "nước màu thốt nốt",
+          "sốt majonnaise"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10089",
+          "dish_name": "Nước mía lau củ năng hạt chia",
+          "ingredient_id": "ingre01910",
+          "ingredient_name": "Củ năng",
+          "constraint": "no_seafood"
+        },
+        "top1": "củ năng cắt hạt lựu",
+        "top1_id": "ingre01911",
+        "score": 2,
+        "all_subs": [
+          "củ năng cắt hạt lựu",
+          "củ cải/cà rốt",
+          "củ hồi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10089",
+          "dish_name": "Nước mía lau củ năng hạt chia",
+          "ingredient_id": "ingre04027",
+          "ingredient_name": "Mía lau",
+          "constraint": "no_meat"
+        },
+        "top1": "đá viên",
+        "top1_id": "ingre07522",
+        "score": 0,
+        "all_subs": [
+          "đá viên",
+          "màu thực phẩm xanh dương",
+          "lá chúng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9311",
+          "dish_name": "Bánh quy lưỡi mèo",
+          "ingredient_id": "ingre00783",
+          "ingredient_name": "Bột mì số 8",
+          "constraint": "vegetarian"
+        },
+        "top1": "bột làm bánh",
+        "top1_id": "ingre00313",
+        "score": 2,
+        "all_subs": [
+          "bột làm bánh",
+          "dầu hạt nho",
+          "cơm dừa nạo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9311",
+          "dish_name": "Bánh quy lưỡi mèo",
+          "ingredient_id": "ingre03580",
+          "ingredient_name": "Lòng trắng trứng gà",
+          "constraint": "no_meat"
+        },
+        "top1": "tương ớt ăn kèm",
+        "top1_id": "ingre07044",
+        "score": 0,
+        "all_subs": [
+          "tương ớt ăn kèm",
+          "chao trắng",
+          "nước mắm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5204",
+          "dish_name": "Mít xào nấm đùi gà chay",
+          "ingredient_id": "ingre04037",
+          "ingredient_name": "Mít thái",
+          "constraint": "vegetarian"
+        },
+        "top1": "mơ tươi",
+        "top1_id": "ingre04096",
+        "score": 0,
+        "all_subs": [
+          "mơ tươi",
+          "dừa non",
+          "khoai môn tím"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5204",
+          "dish_name": "Mít xào nấm đùi gà chay",
+          "ingredient_id": "ingre02768",
+          "ingredient_name": "Hành tím",
+          "constraint": "vegetarian"
+        },
+        "top1": "rau tàu bay",
+        "top1_id": "ingre05403",
+        "score": 2,
+        "all_subs": [
+          "rau tàu bay",
+          "ớt chuông",
+          "rong biển tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6490",
+          "dish_name": "Vây cá hồi chiên nước mắm me",
+          "ingredient_id": "ingre07179",
+          "ingredient_name": "Vây cá hồi",
+          "constraint": null
+        },
+        "top1": "ghẹ sữa",
+        "top1_id": "ingre02270",
+        "score": 0,
+        "all_subs": [
+          "ghẹ sữa",
+          "tôm tươi bóc vỏ",
+          "ốc gai"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6490",
+          "dish_name": "Vây cá hồi chiên nước mắm me",
+          "ingredient_id": "ingre07971",
+          "ingredient_name": "Ớt băm",
+          "constraint": "no_seafood"
+        },
+        "top1": "bột ớt đỏ",
+        "top1_id": "ingre01030",
+        "score": 2,
+        "all_subs": [
+          "bột ớt đỏ",
+          "hạt mù tạt",
+          "ớt tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8983",
+          "dish_name": "Thạch chanh dây",
+          "ingredient_id": "ingre01081",
+          "ingredient_name": "Chanh dây",
+          "constraint": "vegetarian"
+        },
+        "top1": "xoài chín giòn",
+        "top1_id": "ingre07334",
+        "score": 1,
+        "all_subs": [
+          "xoài chín giòn",
+          "thanh long",
+          "dưa bồn bồn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8983",
+          "dish_name": "Thạch chanh dây",
+          "ingredient_id": "ingre05222",
+          "ingredient_name": "Rau câu dẻo",
+          "constraint": "no_meat"
+        },
+        "top1": "gấc xay",
+        "top1_id": "ingre02475",
+        "score": 0,
+        "all_subs": [
+          "gấc xay",
+          "rượu gừng",
+          "nước súp gà"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4999",
+          "dish_name": "Xúc xích xào nấm, ớt chuông",
+          "ingredient_id": "ingre07396",
+          "ingredient_name": "Xúc xích",
+          "constraint": "no_seafood"
+        },
+        "top1": "xúc xích xông khói",
+        "top1_id": "ingre07408",
+        "score": 2,
+        "all_subs": [
+          "xúc xích xông khói",
+          "giăm bông hấp",
+          "sụn dê"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4999",
+          "dish_name": "Xúc xích xào nấm, ớt chuông",
+          "ingredient_id": "ingre01354",
+          "ingredient_name": "Cà chua",
+          "constraint": "no_meat"
+        },
+        "top1": "rong sụn tươi",
+        "top1_id": "ingre05481",
+        "score": 0,
+        "all_subs": [
+          "rong sụn tươi",
+          "lá sách bò",
+          "g bắp"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10506",
+          "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+          "ingredient_id": "ingre06100",
+          "ingredient_name": "Sữa chua không đường",
+          "constraint": null
+        },
+        "top1": "yaourt",
+        "top1_id": "ingre07448",
+        "score": 2,
+        "all_subs": [
+          "yaourt",
+          "sữa chua dứa",
+          "sữa chua thanh long đỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10506",
+          "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+          "ingredient_id": "ingre06085",
+          "ingredient_name": "Sữa bột công thức",
+          "constraint": null
+        },
+        "top1": "sữa ấm",
+        "top1_id": "ingre06182",
+        "score": 0,
+        "all_subs": [
+          "sữa ấm",
+          "kem whipping cream:",
+          "nước đậu nành"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3849",
+          "dish_name": "Thịt heo nướng lu",
+          "ingredient_id": "ingre06214",
+          "ingredient_name": "Thịt ba chỉ",
+          "constraint": null
+        },
+        "top1": "sườn nguyên tảng",
+        "top1_id": "ingre05887",
+        "score": 1,
+        "all_subs": [
+          "sườn nguyên tảng",
+          "miếng sườn cốt lết",
+          "nạm gân bò"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3849",
+          "dish_name": "Thịt heo nướng lu",
+          "ingredient_id": "ingre00631",
+          "ingredient_name": "Bột cà ri",
+          "constraint": null
+        },
+        "top1": "đồ chua ăn kèm",
+        "top1_id": "ingre07899",
+        "score": 0,
+        "all_subs": [
+          "đồ chua ăn kèm",
+          "vỏ bánh oreo xay nhuyễn",
+          "bột chiên giòn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9109",
+          "dish_name": "Chân gà ngâm sả tắc chay",
+          "ingredient_id": "ingre01239",
+          "ingredient_name": "Chân gà chay",
+          "constraint": "vegetarian"
+        },
+        "top1": "đế bánh ngàn lớp",
+        "top1_id": "ingre07882",
+        "score": 0,
+        "all_subs": [
+          "đế bánh ngàn lớp",
+          "chiếc chân à",
+          "nhung hươu tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9109",
+          "dish_name": "Chân gà ngâm sả tắc chay",
+          "ingredient_id": "ingre05900",
+          "ingredient_name": "Sả",
+          "constraint": null
+        },
+        "top1": "gừng cắt lát",
+        "top1_id": "ingre02497",
+        "score": 2,
+        "all_subs": [
+          "gừng cắt lát",
+          "hành tây   lớn",
+          "lá gừng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10208",
+          "dish_name": "Trà sữa bơ",
+          "ingredient_id": "ingre00372",
+          "ingredient_name": "Bơ chín",
+          "constraint": "vegetarian"
+        },
+        "top1": "thanh long ruột đỏ",
+        "top1_id": "ingre06205",
+        "score": 0,
+        "all_subs": [
+          "thanh long ruột đỏ",
+          "vỏ cam bào mịn",
+          "chuối sáp hấp chín"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10208",
+          "dish_name": "Trà sữa bơ",
+          "ingredient_id": "ingre06705",
+          "ingredient_name": "Trà Lipton",
+          "constraint": null
+        },
+        "top1": "bột bánh xèo pha sẵn",
+        "top1_id": "ingre00555",
+        "score": 0,
+        "all_subs": [
+          "bột bánh xèo pha sẵn",
+          "mì udon đông lạnh",
+          "hoành thánh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6532",
+          "dish_name": "Cá đuối chiên nước mắm",
+          "ingredient_id": "ingre01659",
+          "ingredient_name": "Cá đuối",
+          "constraint": null
+        },
+        "top1": "cua da",
+        "top1_id": "ingre01336",
+        "score": 1,
+        "all_subs": [
+          "cua da",
+          "cá biển phi lê",
+          "bào ngư tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6532",
+          "dish_name": "Cá đuối chiên nước mắm",
+          "ingredient_id": "ingre02768",
+          "ingredient_name": "Hành tím",
+          "constraint": "vegetarian"
+        },
+        "top1": "cơm dừa xắt sợi",
+        "top1_id": "ingre01748",
+        "score": 0,
+        "all_subs": [
+          "cơm dừa xắt sợi",
+          "lá chuối/ lá sen",
+          "hoa atiso"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3094",
+          "dish_name": "Chè sắn mochi",
+          "ingredient_id": "ingre01920",
+          "ingredient_name": "Củ sắn",
+          "constraint": "vegetarian"
+        },
+        "top1": "khoai lang nhật",
+        "top1_id": "ingre03196",
+        "score": 1,
+        "all_subs": [
+          "khoai lang nhật",
+          "hạt ngô non",
+          "cà rốt bào sợi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3094",
+          "dish_name": "Chè sắn mochi",
+          "ingredient_id": "ingre02922",
+          "ingredient_name": "Hạt chia",
+          "constraint": "no_seafood"
+        },
+        "top1": "màu điều",
+        "top1_id": "ingre03907",
+        "score": 0,
+        "all_subs": [
+          "màu điều",
+          "cá lòng tong tươi",
+          "chà bông/ màu thực phẩm/ socola đen"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0891",
+          "dish_name": "Bánh Canele",
+          "ingredient_id": "ingre06801",
+          "ingredient_name": "Trứng",
+          "constraint": null
+        },
+        "top1": "trứng gà to",
+        "top1_id": "ingre06838",
+        "score": 2,
+        "all_subs": [
+          "trứng gà to",
+          "trứng cút",
+          "trứng gà size m"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0891",
+          "dish_name": "Bánh Canele",
+          "ingredient_id": "ingre07652",
+          "ingredient_name": "Đường trắng",
+          "constraint": null
+        },
+        "top1": "siro bắp",
+        "top1_id": "ingre05676",
+        "score": 0,
+        "all_subs": [
+          "siro bắp",
+          "nước tương ngọt đậm",
+          "bột dâu tây"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6824",
+          "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+          "ingredient_id": "ingre01124",
+          "ingredient_name": "Chim bồ câu",
+          "constraint": null
+        },
+        "top1": "thịt vai",
+        "top1_id": "ingre06512",
+        "score": 1,
+        "all_subs": [
+          "thịt vai",
+          "phi lê thịt đùi gà",
+          "đùi gà tỏi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6824",
+          "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+          "ingredient_id": "ingre01079",
+          "ingredient_name": "Chanh",
+          "constraint": "no_seafood"
+        },
+        "top1": "táo đỏ",
+        "top1_id": "ingre06911",
+        "score": 0,
+        "all_subs": [
+          "táo đỏ",
+          "g  dứa",
+          "đu đu hườm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5220",
+          "dish_name": "Thịt heo xào đậu đũa",
+          "ingredient_id": "ingre07867",
+          "ingredient_name": "Đậu đũa",
+          "constraint": null
+        },
+        "top1": "lá chùm ruột",
+        "top1_id": "ingre03398",
+        "score": 1,
+        "all_subs": [
+          "lá chùm ruột",
+          "đậu xanh hạt",
+          "cải chíp"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5220",
+          "dish_name": "Thịt heo xào đậu đũa",
+          "ingredient_id": "ingre04694",
+          "ingredient_name": "Nước mắm",
+          "constraint": null
+        },
+        "top1": "garlic and herb seasoning",
+        "top1_id": "ingre02249",
+        "score": 2,
+        "all_subs": [
+          "garlic and herb seasoning",
+          "mắm",
+          "muối hồng himalaya"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5236",
+          "dish_name": "Bún tàu xào nấm mối",
+          "ingredient_id": "ingre04942",
+          "ingredient_name": "Nấm mối",
+          "constraint": null
+        },
+        "top1": "nấm kim chi",
+        "top1_id": "ingre04919",
+        "score": 2,
+        "all_subs": [
+          "nấm kim chi",
+          "tai nấm hương",
+          "nấm kim châm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5236",
+          "dish_name": "Bún tàu xào nấm mối",
+          "ingredient_id": "ingre02673",
+          "ingredient_name": "Hành lá",
+          "constraint": null
+        },
+        "top1": "củ cần",
+        "top1_id": "ingre01879",
+        "score": 2,
+        "all_subs": [
+          "củ cần",
+          "đậu hũ cây",
+          "lá vông vang"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish1366",
+          "dish_name": "Bánh pizza bằng khoai tây",
+          "ingredient_id": "ingre06823",
+          "ingredient_name": "Trứng gà",
+          "constraint": "vegetarian"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish1366",
+          "dish_name": "Bánh pizza bằng khoai tây",
+          "ingredient_id": "ingre03222",
+          "ingredient_name": "Khoai tây",
+          "constraint": "no_seafood"
+        },
+        "top1": "củ kiệu tươi",
+        "top1_id": "ingre01900",
+        "score": 0,
+        "all_subs": [
+          "củ kiệu tươi",
+          "củ sắn",
+          "củ kiệu ngâm chua"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0884",
+          "dish_name": "Bánh bắp phô mai",
+          "ingredient_id": "ingre00759",
+          "ingredient_name": "Bột mì",
+          "constraint": null
+        },
+        "top1": "bột ngô",
+        "top1_id": "ingre00321",
+        "score": 2,
+        "all_subs": [
+          "bột ngô",
+          "gạo trắng",
+          "cốm gạo rang"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0884",
+          "dish_name": "Bánh bắp phô mai",
+          "ingredient_id": "ingre03665",
+          "ingredient_name": "Men",
+          "constraint": null
+        },
+        "top1": "bột bánh rán",
+        "top1_id": "ingre00548",
+        "score": 0,
+        "all_subs": [
+          "bột bánh rán",
+          "tinh bột sắn",
+          "baking powder  (bột nở)"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4253",
+          "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+          "ingredient_id": "ingre05876",
+          "ingredient_name": "Sườn cốt lết",
+          "constraint": "no_seafood"
+        },
+        "top1": "ức gà có xương",
+        "top1_id": "ingre08106",
+        "score": 2,
+        "all_subs": [
+          "ức gà có xương",
+          "sườn sụn bò",
+          "thịt nạc"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4253",
+          "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+          "ingredient_id": "ingre05088",
+          "ingredient_name": "Phô mai miếng",
+          "constraint": null
+        },
+        "top1": "phô mai emmental",
+        "top1_id": "ingre05073",
+        "score": 2,
+        "all_subs": [
+          "phô mai emmental",
+          "phô mai chedder",
+          "phô mai sợi cheddar"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8725",
+          "dish_name": "Bánh tráng cuốn trứng lòng đào",
+          "ingredient_id": "ingre06816",
+          "ingredient_name": "Trứng cút",
+          "constraint": "vegetarian"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish8725",
+          "dish_name": "Bánh tráng cuốn trứng lòng đào",
+          "ingredient_id": "ingre03240",
+          "ingredient_name": "Khô bò sợi",
+          "constraint": "no_seafood"
+        },
+        "top1": "giò",
+        "top1_id": "ingre02345",
+        "score": 0,
+        "all_subs": [
+          "giò",
+          "sụn vai",
+          "xúc xích thịt heo loại ngon"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2374",
+          "dish_name": "Bánh tart hành tây nhân phô mai",
+          "ingredient_id": "ingre00779",
+          "ingredient_name": "Bột mì số 11",
+          "constraint": "no_seafood"
+        },
+        "top1": "bột mì số 8 - cake flour",
+        "top1_id": "ingre00784",
+        "score": 2,
+        "all_subs": [
+          "bột mì số 8 - cake flour",
+          "bột bánh xèo hương xưa",
+          "thính"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2374",
+          "dish_name": "Bánh tart hành tây nhân phô mai",
+          "ingredient_id": "ingre00382",
+          "ingredient_name": "Bơ lạt",
+          "constraint": null
+        },
+        "top1": "hành lá/gừng hồng/sốt takoyaki/sốt mayonnaise/rong biển khô/cá ngừ bào khô",
+        "top1_id": "ingre02714",
+        "score": 0,
+        "all_subs": [
+          "hành lá/gừng hồng/sốt takoyaki/sốt mayonnaise/rong biển khô/cá ngừ bào khô",
+          "kem trà xanh   (viên)",
+          "kỷ tử khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8403",
+          "dish_name": "Chân gà ngâm mắm",
+          "ingredient_id": "ingre01238",
+          "ingredient_name": "Chân gà",
+          "constraint": "vegetarian"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish8403",
+          "dish_name": "Chân gà ngâm mắm",
+          "ingredient_id": "ingre07063",
+          "ingredient_name": "Tỏi",
+          "constraint": "vegetarian"
+        },
+        "top1": "tỏi băm nhỏ",
+        "top1_id": "ingre07073",
+        "score": 2,
+        "all_subs": [
+          "tỏi băm nhỏ",
+          "nước cốt hành",
+          "củ riềng:"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0072",
+          "dish_name": "Canh chua khô cá dứa dọc mùng",
+          "ingredient_id": "ingre03250",
+          "ingredient_name": "Khô cá dứa một nắng",
+          "constraint": "vegetarian"
+        },
+        "top1": "hoa kim châm khô",
+        "top1_id": "ingre02591",
+        "score": 0,
+        "all_subs": [
+          "hoa kim châm khô",
+          "vụn dâu tây sấy giòn",
+          "mận bắc"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0072",
+          "dish_name": "Canh chua khô cá dứa dọc mùng",
+          "ingredient_id": "ingre07729",
+          "ingredient_name": "Đậu bắp",
+          "constraint": "vegetarian"
+        },
+        "top1": "đọt đu đủ",
+        "top1_id": "ingre07897",
+        "score": 2,
+        "all_subs": [
+          "đọt đu đủ",
+          "múi mít thái",
+          "bắp mỹ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3241",
+          "dish_name": "Mì somen truyền thống",
+          "ingredient_id": "ingre03990",
+          "ingredient_name": "Mì somen",
+          "constraint": "vegetarian"
+        },
+        "top1": "mì tagliatelle",
+        "top1_id": "ingre03998",
+        "score": 1,
+        "all_subs": [
+          "mì tagliatelle",
+          "mì tảo bẹ",
+          "miến khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3241",
+          "dish_name": "Mì somen truyền thống",
+          "ingredient_id": "ingre04763",
+          "ingredient_name": "Nước sốt Mentsuyu",
+          "constraint": null
+        },
+        "top1": "rong biển cháy tỏi",
+        "top1_id": "ingre05451",
+        "score": 0,
+        "all_subs": [
+          "rong biển cháy tỏi",
+          "hạt mè trắng",
+          "nước đường phèn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10168",
+          "dish_name": "Trà sữa phô mai tươi",
+          "ingredient_id": "ingre06741",
+          "ingredient_name": "Trà đen",
+          "constraint": "vegetarian"
+        },
+        "top1": "nước cà phê đen",
+        "top1_id": "ingre04523",
+        "score": 1,
+        "all_subs": [
+          "nước cà phê đen",
+          "cà phê cold brew",
+          "cà phê đen pha sẵn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10168",
+          "dish_name": "Trà sữa phô mai tươi",
+          "ingredient_id": "ingre06147",
+          "ingredient_name": "Sữa tươi không đường",
+          "constraint": null
+        },
+        "top1": "fresh cream",
+        "top1_id": "ingre02216",
+        "score": 2,
+        "all_subs": [
+          "fresh cream",
+          "kem tươi dạng lỏng",
+          "milo bột"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3265",
+          "dish_name": "Hủ tiếu dê",
+          "ingredient_id": "ingre03111",
+          "ingredient_name": "Hủ tiếu",
+          "constraint": null
+        },
+        "top1": "mì quảng",
+        "top1_id": "ingre03981",
+        "score": 2,
+        "all_subs": [
+          "mì quảng",
+          "mì quảng tươi",
+          "bánh tráng ngọt"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3265",
+          "dish_name": "Hủ tiếu dê",
+          "ingredient_id": "ingre05420",
+          "ingredient_name": "Rau ăn kèm",
+          "constraint": "vegetarian"
+        },
+        "top1": "cà xanh trứng",
+        "top1_id": "ingre01447",
+        "score": 0,
+        "all_subs": [
+          "cà xanh trứng",
+          "bông súp lơ trắng",
+          "bí đỏ da xanh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2614",
+          "dish_name": "Bánh pizza keto rau củ",
+          "ingredient_id": "ingre05842",
+          "ingredient_name": "Súp lơ",
+          "constraint": null
+        },
+        "top1": "rau diếp",
+        "top1_id": "ingre05249",
+        "score": 2,
+        "all_subs": [
+          "rau diếp",
+          "xà lách xoong nhật",
+          "ớt chuông xanh/ vàng/ đỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2614",
+          "dish_name": "Bánh pizza keto rau củ",
+          "ingredient_id": "ingre01354",
+          "ingredient_name": "Cà chua",
+          "constraint": null
+        },
+        "top1": "bắp cải tím",
+        "top1_id": "ingre00468",
+        "score": 2,
+        "all_subs": [
+          "bắp cải tím",
+          "cà tím dài",
+          "cải bó xôi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7268",
+          "dish_name": "Đậu hủ non chiên chà bông",
+          "ingredient_id": "ingre07765",
+          "ingredient_name": "Đậu hủ non",
+          "constraint": "vegetarian"
+        },
+        "top1": "đậu hũ tươi",
+        "top1_id": "ingre07759",
+        "score": 2,
+        "all_subs": [
+          "đậu hũ tươi",
+          "bột protein",
+          "đậu hũ ky"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7268",
+          "dish_name": "Đậu hủ non chiên chà bông",
+          "ingredient_id": "ingre01202",
+          "ingredient_name": "Chà bông",
+          "constraint": null
+        },
+        "top1": "mè",
+        "top1_id": "ingre03925",
+        "score": 0,
+        "all_subs": [
+          "mè",
+          "nước bột chiên giòn",
+          "sa tế mì"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8252",
+          "dish_name": "Gỏi nấm chanh dây",
+          "ingredient_id": "ingre04511",
+          "ingredient_name": "Nước chanh dây cả hạt",
+          "constraint": null
+        },
+        "top1": "sốt tương ớt hàn quốc",
+        "top1_id": "ingre06017",
+        "score": 0,
+        "all_subs": [
+          "sốt tương ớt hàn quốc",
+          "bơ lỏng",
+          "đường quế"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8252",
+          "dish_name": "Gỏi nấm chanh dây",
+          "ingredient_id": "ingre04694",
+          "ingredient_name": "Nước mắm",
+          "constraint": "no_meat"
+        },
+        "top1": "nước hàng",
+        "top1_id": "ingre04636",
+        "score": 2,
+        "all_subs": [
+          "nước hàng",
+          "gia vị hun khói",
+          "sốt nêm thịt heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3373",
+          "dish_name": "Bún ốc cay",
+          "ingredient_id": "ingre07947",
+          "ingredient_name": "Ốc mít",
+          "constraint": null
+        },
+        "top1": "mực ống làm sạch",
+        "top1_id": "ingre04282",
+        "score": 0,
+        "all_subs": [
+          "mực ống làm sạch",
+          "tôm lớn",
+          "đầu cá lăng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3373",
+          "dish_name": "Bún ốc cay",
+          "ingredient_id": "ingre03370",
+          "ingredient_name": "Lá chanh",
+          "constraint": null
+        },
+        "top1": "lá sung",
+        "top1_id": "ingre03519",
+        "score": 2,
+        "all_subs": [
+          "lá sung",
+          "rau răm/ lá quế",
+          "húng quế khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4584",
+          "dish_name": "Gà xào húng quế",
+          "ingredient_id": "ingre08103",
+          "ingredient_name": "Ức gà",
+          "constraint": null
+        },
+        "top1": "thịt nạc heo xay",
+        "top1_id": "ingre06465",
+        "score": 1,
+        "all_subs": [
+          "thịt nạc heo xay",
+          "sườn non heo",
+          "thịt thăn heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4584",
+          "dish_name": "Gà xào húng quế",
+          "ingredient_id": "ingre00804",
+          "ingredient_name": "Bột nghệ",
+          "constraint": null
+        },
+        "top1": "bột cà phê espresso",
+        "top1_id": "ingre00621",
+        "score": 0,
+        "all_subs": [
+          "bột cà phê espresso",
+          "bột oregano",
+          "ớt xanh/ ớt đỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5915",
+          "dish_name": "Cá ngừ kho dưa gang muối",
+          "ingredient_id": "ingre01579",
+          "ingredient_name": "Cá ngừ",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish5915",
+          "dish_name": "Cá ngừ kho dưa gang muối",
+          "ingredient_id": "ingre07063",
+          "ingredient_name": "Tỏi",
+          "constraint": "no_seafood"
+        },
+        "top1": "hành tỏi băm",
+        "top1_id": "ingre02817",
+        "score": 2,
+        "all_subs": [
+          "hành tỏi băm",
+          "gừng nạo",
+          "hành lá và tỏi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6015",
+          "dish_name": "Ếch kho nghệ",
+          "ingredient_id": "ingre07930",
+          "ingredient_name": "Ếch",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish6015",
+          "dish_name": "Ếch kho nghệ",
+          "ingredient_id": "ingre02673",
+          "ingredient_name": "Hành lá",
+          "constraint": "no_meat"
+        },
+        "top1": "rau ăn lẩu",
+        "top1_id": "ingre05429",
+        "score": 0,
+        "all_subs": [
+          "rau ăn lẩu",
+          "măng củ",
+          "bắp cải trắng rí)"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6610",
+          "dish_name": "Chả giò rế tôm thịt",
+          "ingredient_id": "ingre06963",
+          "ingredient_name": "Tôm tươi",
+          "constraint": null
+        },
+        "top1": "khô cá đù",
+        "top1_id": "ingre03260",
+        "score": 0,
+        "all_subs": [
+          "khô cá đù",
+          "cream tartar",
+          "cá bè"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6610",
+          "dish_name": "Chả giò rế tôm thịt",
+          "ingredient_id": "ingre06823",
+          "ingredient_name": "Trứng gà",
+          "constraint": null
+        },
+        "top1": "trứng   gà",
+        "top1_id": "ingre06802",
+        "score": 2,
+        "all_subs": [
+          "trứng   gà",
+          "g trứng nguyên",
+          "lòng đỏ trứng"
+        ]
+      }
+    ],
+    "npmi_only": [
+      {
+        "case": {
+          "dish_id": "dish2777",
+          "dish_name": "Bánh kem cam - bánh gato cam",
+          "ingredient_id": "ingre01054",
+          "ingredient_name": "Cam vàng Mỹ",
+          "constraint": "no_seafood"
+        },
+        "top1": "bí đỏ",
+        "top1_id": "ingre00037",
+        "score": 0,
+        "all_subs": [
+          "bí đỏ",
+          "blueberries:",
+          "bơ   thực vật"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2777",
+          "dish_name": "Bánh kem cam - bánh gato cam",
+          "ingredient_id": "ingre07313",
+          "ingredient_name": "Whipping cream",
+          "constraint": null
+        },
+        "top1": "bong bóng",
+        "top1_id": "ingre00048",
+        "score": 0,
+        "all_subs": [
+          "bong bóng",
+          "bánh ốc quế",
+          "bã đậu nành"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8852",
+          "dish_name": "Sương sáo đen hạt chia",
+          "ingredient_id": "ingre00925",
+          "ingredient_name": "Bột sương sáo đen",
+          "constraint": null
+        },
+        "top1": "hạt hỗn hợp sấy khô",
+        "top1_id": "ingre02957",
+        "score": 0,
+        "all_subs": [
+          "hạt hỗn hợp sấy khô",
+          "mè đen đã rang",
+          "ngũ cốc nướng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8852",
+          "dish_name": "Sương sáo đen hạt chia",
+          "ingredient_id": "ingre02922",
+          "ingredient_name": "Hạt chia",
+          "constraint": null
+        },
+        "top1": "cơm dừa bào sợi",
+        "top1_id": "ingre01729",
+        "score": 0,
+        "all_subs": [
+          "cơm dừa bào sợi",
+          "bột béo",
+          "bột sương sáo đen"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3535",
+          "dish_name": "Bánh canh Quy Nhơn",
+          "ingredient_id": "ingre06050",
+          "ingredient_name": "Sợi bánh canh",
+          "constraint": null
+        },
+        "top1": "bánh phở tươi",
+        "top1_id": "ingre00029",
+        "score": 1,
+        "all_subs": [
+          "bánh phở tươi",
+          "bánh phở vuông",
+          "bánh canh bột gạo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3535",
+          "dish_name": "Bánh canh Quy Nhơn",
+          "ingredient_id": "ingre06816",
+          "ingredient_name": "Trứng cút",
+          "constraint": null
+        },
+        "top1": "g trứng nguyên",
+        "top1_id": "ingre02234",
+        "score": 1,
+        "all_subs": [
+          "g trứng nguyên",
+          "gà mái",
+          "lòng đỏ trứng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2827",
+          "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+          "ingredient_id": "ingre07453",
+          "ingredient_name": "Yến mạch",
+          "constraint": "no_meat"
+        },
+        "top1": "bread flour",
+        "top1_id": "ingre00055",
+        "score": 0,
+        "all_subs": [
+          "bread flour",
+          "bánh lọt bột gạo",
+          "bánh ướt"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2827",
+          "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+          "ingredient_id": "ingre02220",
+          "ingredient_name": "G  hướng dương",
+          "constraint": null
+        },
+        "top1": "bong bóng",
+        "top1_id": "ingre00048",
+        "score": 0,
+        "all_subs": [
+          "bong bóng",
+          "bánh ốc quế",
+          "bã đậu nành"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2828",
+          "dish_name": "Bánh mì Hy Lạp",
+          "ingredient_id": "ingre00782",
+          "ingredient_name": "Bột mì số 13",
+          "constraint": null
+        },
+        "top1": "baking powder",
+        "top1_id": "ingre00013",
+        "score": 0,
+        "all_subs": [
+          "baking powder",
+          "baking powder  (bột nở)",
+          "baking powder hữu cơ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2828",
+          "dish_name": "Bánh mì Hy Lạp",
+          "ingredient_id": "ingre03686",
+          "ingredient_name": "Men nở",
+          "constraint": "no_seafood"
+        },
+        "top1": "bột cam",
+        "top1_id": "ingre00586",
+        "score": 0,
+        "all_subs": [
+          "bột cam",
+          "bột gia vị ý",
+          "cà chua đóng lon"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7001",
+          "dish_name": "Cá hường chiên nước mắm",
+          "ingredient_id": "ingre01523",
+          "ingredient_name": "Cá hường",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish7001",
+          "dish_name": "Cá hường chiên nước mắm",
+          "ingredient_id": "ingre08078",
+          "ingredient_name": "Ớt tươi",
+          "constraint": "vegetarian"
+        },
+        "top1": "ớt sừng cắt sừng",
+        "top1_id": "ingre08063",
+        "score": 0,
+        "all_subs": [
+          "ớt sừng cắt sừng",
+          "ớt",
+          "sốt ớt tabasco"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5902",
+          "dish_name": "Đậu hũ kho sườn chay",
+          "ingredient_id": "ingre05874",
+          "ingredient_name": "Sườn chay khô",
+          "constraint": null
+        },
+        "top1": "bo bo",
+        "top1_id": "ingre00041",
+        "score": 2,
+        "all_subs": [
+          "bo bo",
+          "boa rô bằm nhuyễn",
+          "bong bóng heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5902",
+          "dish_name": "Đậu hũ kho sườn chay",
+          "ingredient_id": "ingre02645",
+          "ingredient_name": "Hành boa rô",
+          "constraint": "no_meat"
+        },
+        "top1": "bắp non",
+        "top1_id": "ingre00485",
+        "score": 0,
+        "all_subs": [
+          "bắp non",
+          "su hào",
+          "đậu hà lan"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5526",
+          "dish_name": "Mực xào nấm hương",
+          "ingredient_id": "ingre04278",
+          "ingredient_name": "Mực tươi",
+          "constraint": null
+        },
+        "top1": "ba ba",
+        "top1_id": "ingre00004",
+        "score": 1,
+        "all_subs": [
+          "ba ba",
+          "ba khía",
+          "bao tử cá"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5526",
+          "dish_name": "Mực xào nấm hương",
+          "ingredient_id": "ingre01419",
+          "ingredient_name": "Cà rốt",
+          "constraint": "vegetarian"
+        },
+        "top1": "củ cải đỏ radish",
+        "top1_id": "ingre01877",
+        "score": 1,
+        "all_subs": [
+          "củ cải đỏ radish",
+          "hạt ngô non",
+          "su hào nhỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7779",
+          "dish_name": "Lẩu bạch tuộc nấu nấm",
+          "ingredient_id": "ingre00434",
+          "ingredient_name": "Bạch tuộc",
+          "constraint": "no_meat"
+        },
+        "top1": "ba ba",
+        "top1_id": "ingre00004",
+        "score": 0,
+        "all_subs": [
+          "ba ba",
+          "ba khía",
+          "bao tử cá"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7779",
+          "dish_name": "Lẩu bạch tuộc nấu nấm",
+          "ingredient_id": "ingre04921",
+          "ingredient_name": "Nấm kim châm",
+          "constraint": "no_seafood"
+        },
+        "top1": "nấm mỗi loại",
+        "top1_id": "ingre04943",
+        "score": 0,
+        "all_subs": [
+          "nấm mỗi loại",
+          "nấm linh chi trắng",
+          "nấm bào ngư  nấm kim châm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0297",
+          "dish_name": "Đầu cá hồi nấu ngót",
+          "ingredient_id": "ingre07706",
+          "ingredient_name": "Đầu cá hồi",
+          "constraint": null
+        },
+        "top1": "ba ba",
+        "top1_id": "ingre00004",
+        "score": 1,
+        "all_subs": [
+          "ba ba",
+          "ba khía",
+          "bao tử cá"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0297",
+          "dish_name": "Đầu cá hồi nấu ngót",
+          "ingredient_id": "ingre07966",
+          "ingredient_name": "Ớt",
+          "constraint": null
+        },
+        "top1": "chai tươn ớt",
+        "top1_id": "ingre01078",
+        "score": 0,
+        "all_subs": [
+          "chai tươn ớt",
+          "hạt tiêu đập dập",
+          "ớt nhỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6786",
+          "dish_name": "Cá chẽm sốt chua ngọt",
+          "ingredient_id": "ingre01503",
+          "ingredient_name": "Cá chẽm",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish6786",
+          "dish_name": "Cá chẽm sốt chua ngọt",
+          "ingredient_id": "ingre02487",
+          "ingredient_name": "Gừng 1 củ nhỏ",
+          "constraint": "vegetarian"
+        },
+        "top1": "hành tím bào nhỏ",
+        "top1_id": "ingre02773",
+        "score": 0,
+        "all_subs": [
+          "hành tím bào nhỏ",
+          "nước gừng",
+          "hành boa - rô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2008",
+          "dish_name": "Bánh sò socola - madeleine chocolat",
+          "ingredient_id": "ingre00584",
+          "ingredient_name": "Bột cake flour",
+          "constraint": "no_meat"
+        },
+        "top1": "bột yến mạch xay",
+        "top1_id": "ingre00998",
+        "score": 0,
+        "all_subs": [
+          "bột yến mạch xay",
+          "bột bắp khô",
+          "bột chuối"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2008",
+          "dish_name": "Bánh sò socola - madeleine chocolat",
+          "ingredient_id": "ingre00018",
+          "ingredient_name": "Baking soda",
+          "constraint": "no_seafood"
+        },
+        "top1": "dầu dừa nguyên chất",
+        "top1_id": "ingre02068",
+        "score": 0,
+        "all_subs": [
+          "dầu dừa nguyên chất",
+          "sour cream",
+          "chiết xuất va ni"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7435",
+          "dish_name": "Bông cải cuộn thịt chiên giòn",
+          "ingredient_id": "ingre06400",
+          "ingredient_name": "Thịt heo ba chỉ cắt lát",
+          "constraint": null
+        },
+        "top1": "bồ câu",
+        "top1_id": "ingre00500",
+        "score": 0,
+        "all_subs": [
+          "bồ câu",
+          "cá bớp phi lê",
+          "chim bồ câu"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7435",
+          "dish_name": "Bông cải cuộn thịt chiên giòn",
+          "ingredient_id": "ingre00282",
+          "ingredient_name": "Bông cải xanh",
+          "constraint": "vegetarian"
+        },
+        "top1": "bia tươi",
+        "top1_id": "ingre00035",
+        "score": 0,
+        "all_subs": [
+          "bia tươi",
+          "bí ngòi",
+          "bầu"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2174",
+          "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+          "ingredient_id": "ingre06492",
+          "ingredient_name": "Thịt sầu riêng",
+          "constraint": "no_seafood"
+        },
+        "top1": "bong bóng",
+        "top1_id": "ingre00048",
+        "score": 0,
+        "all_subs": [
+          "bong bóng",
+          "bánh ốc quế",
+          "bã đậu nành"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2174",
+          "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+          "ingredient_id": "ingre03147",
+          "ingredient_name": "Kem sữa tươi",
+          "constraint": "vegetarian"
+        },
+        "top1": "sữa dừa không đường",
+        "top1_id": "ingre06120",
+        "score": 2,
+        "all_subs": [
+          "sữa dừa không đường",
+          "sữa thực vật không đường",
+          "heavycream"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0809",
+          "dish_name": "Canh cua rau đay mồng tơi",
+          "ingredient_id": "ingre01344",
+          "ingredient_name": "Cua đồng",
+          "constraint": null
+        },
+        "top1": "tôm khô",
+        "top1_id": "ingre06941",
+        "score": 1,
+        "all_subs": [
+          "tôm khô",
+          "ba ba",
+          "ba khía"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0809",
+          "dish_name": "Canh cua rau đay mồng tơi",
+          "ingredient_id": "ingre05431",
+          "ingredient_name": "Rau đay",
+          "constraint": null
+        },
+        "top1": "mướp",
+        "top1_id": "ingre04103",
+        "score": 1,
+        "all_subs": [
+          "mướp",
+          "rau dền",
+          "rau cải xanh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8417",
+          "dish_name": "Chà bông gà cay (ruốc gà cay)",
+          "ingredient_id": "ingre08103",
+          "ingredient_name": "Ức gà",
+          "constraint": "no_meat"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish8417",
+          "dish_name": "Chà bông gà cay (ruốc gà cay)",
+          "ingredient_id": "ingre02584",
+          "ingredient_name": "Hoa hồi",
+          "constraint": null
+        },
+        "top1": "hoa đậu biếc sấy khô",
+        "top1_id": "ingre02612",
+        "score": 0,
+        "all_subs": [
+          "hoa đậu biếc sấy khô",
+          "nước ớt đặc",
+          "ớt xay nhuyễn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10089",
+          "dish_name": "Nước mía lau củ năng hạt chia",
+          "ingredient_id": "ingre01910",
+          "ingredient_name": "Củ năng",
+          "constraint": "no_seafood"
+        },
+        "top1": "bông cải",
+        "top1_id": "ingre00280",
+        "score": 0,
+        "all_subs": [
+          "bông cải",
+          "bông cải trắng",
+          "bạch chi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10089",
+          "dish_name": "Nước mía lau củ năng hạt chia",
+          "ingredient_id": "ingre04027",
+          "ingredient_name": "Mía lau",
+          "constraint": "no_meat"
+        },
+        "top1": "bồ công anh",
+        "top1_id": "ingre00501",
+        "score": 0,
+        "all_subs": [
+          "bồ công anh",
+          "bột agar giòn",
+          "bột chanh dây"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9311",
+          "dish_name": "Bánh quy lưỡi mèo",
+          "ingredient_id": "ingre00783",
+          "ingredient_name": "Bột mì số 8",
+          "constraint": "vegetarian"
+        },
+        "top1": "bột làm bánh",
+        "top1_id": "ingre00313",
+        "score": 2,
+        "all_subs": [
+          "bột làm bánh",
+          "đường ngô",
+          "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9311",
+          "dish_name": "Bánh quy lưỡi mèo",
+          "ingredient_id": "ingre03580",
+          "ingredient_name": "Lòng trắng trứng gà",
+          "constraint": "no_meat"
+        },
+        "top1": "lòng trắng trứng",
+        "top1_id": "ingre03579",
+        "score": 2,
+        "all_subs": [
+          "lòng trắng trứng",
+          "shorterning",
+          "bột sương sáo hạt é"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5204",
+          "dish_name": "Mít xào nấm đùi gà chay",
+          "ingredient_id": "ingre04037",
+          "ingredient_name": "Mít thái",
+          "constraint": "vegetarian"
+        },
+        "top1": "chôm chôm",
+        "top1_id": "ingre01251",
+        "score": 0,
+        "all_subs": [
+          "chôm chôm",
+          "dừa",
+          "thơm/ dứa"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5204",
+          "dish_name": "Mít xào nấm đùi gà chay",
+          "ingredient_id": "ingre02768",
+          "ingredient_name": "Hành tím",
+          "constraint": "vegetarian"
+        },
+        "top1": "rau cần tàu",
+        "top1_id": "ingre05241",
+        "score": 2,
+        "all_subs": [
+          "rau cần tàu",
+          "rau cải cúc",
+          "cây súp lơ 1 củ khoai môn 1  ngô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6490",
+          "dish_name": "Vây cá hồi chiên nước mắm me",
+          "ingredient_id": "ingre07179",
+          "ingredient_name": "Vây cá hồi",
+          "constraint": null
+        },
+        "top1": "ba ba",
+        "top1_id": "ingre00004",
+        "score": 0,
+        "all_subs": [
+          "ba ba",
+          "ba khía",
+          "bao tử cá"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6490",
+          "dish_name": "Vây cá hồi chiên nước mắm me",
+          "ingredient_id": "ingre07971",
+          "ingredient_name": "Ớt băm",
+          "constraint": "no_seafood"
+        },
+        "top1": "ớt hiểm cắt lát",
+        "top1_id": "ingre08030",
+        "score": 2,
+        "all_subs": [
+          "ớt hiểm cắt lát",
+          "ớt hiểm đỏ",
+          "ớt đỏ khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8983",
+          "dish_name": "Thạch chanh dây",
+          "ingredient_id": "ingre01081",
+          "ingredient_name": "Chanh dây",
+          "constraint": "vegetarian"
+        },
+        "top1": "nước mía",
+        "top1_id": "ingre04688",
+        "score": 0,
+        "all_subs": [
+          "nước mía",
+          "cam tươi",
+          "mít"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8983",
+          "dish_name": "Thạch chanh dây",
+          "ingredient_id": "ingre05222",
+          "ingredient_name": "Rau câu dẻo",
+          "constraint": "no_meat"
+        },
+        "top1": "axit citric",
+        "top1_id": "ingre00003",
+        "score": 0,
+        "all_subs": [
+          "axit citric",
+          "baking power",
+          "baking power - bột nở"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4999",
+          "dish_name": "Xúc xích xào nấm, ớt chuông",
+          "ingredient_id": "ingre07396",
+          "ingredient_name": "Xúc xích",
+          "constraint": "no_seafood"
+        },
+        "top1": "ba rọi xông khói",
+        "top1_id": "ingre00011",
+        "score": 2,
+        "all_subs": [
+          "ba rọi xông khói",
+          "bacon",
+          "bì khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4999",
+          "dish_name": "Xúc xích xào nấm, ớt chuông",
+          "ingredient_id": "ingre01354",
+          "ingredient_name": "Cà chua",
+          "constraint": "no_meat"
+        },
+        "top1": "bí tròn",
+        "top1_id": "ingre00245",
+        "score": 0,
+        "all_subs": [
+          "bí tròn",
+          "cần",
+          "hoa hướng dương"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10506",
+          "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+          "ingredient_id": "ingre06100",
+          "ingredient_name": "Sữa chua không đường",
+          "constraint": null
+        },
+        "top1": "kem chua",
+        "top1_id": "ingre03129",
+        "score": 1,
+        "all_subs": [
+          "kem chua",
+          "sữa chua",
+          "sữa chua không đường"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10506",
+          "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+          "ingredient_id": "ingre06085",
+          "ingredient_name": "Sữa bột công thức",
+          "constraint": null
+        },
+        "top1": "heavycream",
+        "top1_id": "ingre02561",
+        "score": 0,
+        "all_subs": [
+          "heavycream",
+          "sữa bột nguyên kem",
+          "sữa công thức"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3849",
+          "dish_name": "Thịt heo nướng lu",
+          "ingredient_id": "ingre06214",
+          "ingredient_name": "Thịt ba chỉ",
+          "constraint": null
+        },
+        "top1": "ba chỉ",
+        "top1_id": "ingre00005",
+        "score": 2,
+        "all_subs": [
+          "ba chỉ",
+          "ba chỉ bò",
+          "ba chỉ bò mỹ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3849",
+          "dish_name": "Thịt heo nướng lu",
+          "ingredient_id": "ingre00631",
+          "ingredient_name": "Bột cà ri",
+          "constraint": null
+        },
+        "top1": "bánh mì",
+        "top1_id": "ingre00028",
+        "score": 0,
+        "all_subs": [
+          "bánh mì",
+          "bánh quy lotus",
+          "bánh bao không nhân"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9109",
+          "dish_name": "Chân gà ngâm sả tắc chay",
+          "ingredient_id": "ingre01239",
+          "ingredient_name": "Chân gà chay",
+          "constraint": "vegetarian"
+        },
+        "top1": "bo bo",
+        "top1_id": "ingre00041",
+        "score": 0,
+        "all_subs": [
+          "bo bo",
+          "boa rô bằm nhuyễn",
+          "bong bóng heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9109",
+          "dish_name": "Chân gà ngâm sả tắc chay",
+          "ingredient_id": "ingre05900",
+          "ingredient_name": "Sả",
+          "constraint": null
+        },
+        "top1": "tỏi nguyên tép",
+        "top1_id": "ingre07093",
+        "score": 1,
+        "all_subs": [
+          "tỏi nguyên tép",
+          "sả xây",
+          "hành lá cắt nhuyễn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10208",
+          "dish_name": "Trà sữa bơ",
+          "ingredient_id": "ingre00372",
+          "ingredient_name": "Bơ chín",
+          "constraint": "vegetarian"
+        },
+        "top1": "bí đỏ",
+        "top1_id": "ingre00037",
+        "score": 0,
+        "all_subs": [
+          "bí đỏ",
+          "blueberries:",
+          "bơ   thực vật"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10208",
+          "dish_name": "Trà sữa bơ",
+          "ingredient_id": "ingre06705",
+          "ingredient_name": "Trà Lipton",
+          "constraint": null
+        },
+        "top1": "bánh tráng đông lạnh:",
+        "top1_id": "ingre00212",
+        "score": 0,
+        "all_subs": [
+          "bánh tráng đông lạnh:",
+          "bột bánh bao pha sẵn",
+          "bột bánh bông lan pha sẵn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6532",
+          "dish_name": "Cá đuối chiên nước mắm",
+          "ingredient_id": "ingre01659",
+          "ingredient_name": "Cá đuối",
+          "constraint": null
+        },
+        "top1": "ba ba",
+        "top1_id": "ingre00004",
+        "score": 2,
+        "all_subs": [
+          "ba ba",
+          "ba khía",
+          "bao tử cá"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6532",
+          "dish_name": "Cá đuối chiên nước mắm",
+          "ingredient_id": "ingre02768",
+          "ingredient_name": "Hành tím",
+          "constraint": "vegetarian"
+        },
+        "top1": "cần tây",
+        "top1_id": "ingre01812",
+        "score": 0,
+        "all_subs": [
+          "cần tây",
+          "bia tươi",
+          "bí ngòi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3094",
+          "dish_name": "Chè sắn mochi",
+          "ingredient_id": "ingre01920",
+          "ingredient_name": "Củ sắn",
+          "constraint": "vegetarian"
+        },
+        "top1": "bông cải",
+        "top1_id": "ingre00280",
+        "score": 0,
+        "all_subs": [
+          "bông cải",
+          "bông cải trắng",
+          "bạch chi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3094",
+          "dish_name": "Chè sắn mochi",
+          "ingredient_id": "ingre02922",
+          "ingredient_name": "Hạt chia",
+          "constraint": "no_seafood"
+        },
+        "top1": "bo bo",
+        "top1_id": "ingre00041",
+        "score": 2,
+        "all_subs": [
+          "bo bo",
+          "boa rô bằm nhuyễn",
+          "bong bóng heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0891",
+          "dish_name": "Bánh Canele",
+          "ingredient_id": "ingre06801",
+          "ingredient_name": "Trứng",
+          "constraint": null
+        },
+        "top1": "trứng gà tươi",
+        "top1_id": "ingre06839",
+        "score": 2,
+        "all_subs": [
+          "trứng gà tươi",
+          "g trứng nguyên",
+          "gà mái"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0891",
+          "dish_name": "Bánh Canele",
+          "ingredient_id": "ingre07652",
+          "ingredient_name": "Đường trắng",
+          "constraint": null
+        },
+        "top1": "nước đường bánh nướng  (hoặc thay bằng mật ong)",
+        "top1_id": "ingre04861",
+        "score": 0,
+        "all_subs": [
+          "nước đường bánh nướng  (hoặc thay bằng mật ong)",
+          "nước tương ngọt",
+          "đường mịn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6824",
+          "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+          "ingredient_id": "ingre01124",
+          "ingredient_name": "Chim bồ câu",
+          "constraint": null
+        },
+        "top1": "bồ câu",
+        "top1_id": "ingre00500",
+        "score": 2,
+        "all_subs": [
+          "bồ câu",
+          "cá bớp phi lê",
+          "chim bồ câu đã sơ chế"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6824",
+          "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+          "ingredient_id": "ingre01079",
+          "ingredient_name": "Chanh",
+          "constraint": "no_seafood"
+        },
+        "top1": "ngọc trúc",
+        "top1_id": "ingre04389",
+        "score": 0,
+        "all_subs": [
+          "ngọc trúc",
+          "giá sống",
+          "táo tàu"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5220",
+          "dish_name": "Thịt heo xào đậu đũa",
+          "ingredient_id": "ingre07867",
+          "ingredient_name": "Đậu đũa",
+          "constraint": null
+        },
+        "top1": "bia tươi",
+        "top1_id": "ingre00035",
+        "score": 0,
+        "all_subs": [
+          "bia tươi",
+          "bí ngòi",
+          "bầu"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5220",
+          "dish_name": "Thịt heo xào đậu đũa",
+          "ingredient_id": "ingre04694",
+          "ingredient_name": "Nước mắm",
+          "constraint": null
+        },
+        "top1": "bột ngọt",
+        "top1_id": "ingre00819",
+        "score": 2,
+        "all_subs": [
+          "bột ngọt",
+          "hạt nêm",
+          "tiêu xay"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5236",
+          "dish_name": "Bún tàu xào nấm mối",
+          "ingredient_id": "ingre04942",
+          "ingredient_name": "Nấm mối",
+          "constraint": null
+        },
+        "top1": "bột nấm",
+        "top1_id": "ingre00858",
+        "score": 1,
+        "all_subs": [
+          "bột nấm",
+          "chân nấm hương khô",
+          "chân nấm đông cô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5236",
+          "dish_name": "Bún tàu xào nấm mối",
+          "ingredient_id": "ingre02673",
+          "ingredient_name": "Hành lá",
+          "constraint": null
+        },
+        "top1": "mướp",
+        "top1_id": "ingre04103",
+        "score": 0,
+        "all_subs": [
+          "mướp",
+          "bia tươi",
+          "bí ngòi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish1366",
+          "dish_name": "Bánh pizza bằng khoai tây",
+          "ingredient_id": "ingre06823",
+          "ingredient_name": "Trứng gà",
+          "constraint": "vegetarian"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish1366",
+          "dish_name": "Bánh pizza bằng khoai tây",
+          "ingredient_id": "ingre03222",
+          "ingredient_name": "Khoai tây",
+          "constraint": "no_seafood"
+        },
+        "top1": "bông cải",
+        "top1_id": "ingre00280",
+        "score": 0,
+        "all_subs": [
+          "bông cải",
+          "bông cải trắng",
+          "bạch chi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0884",
+          "dish_name": "Bánh bắp phô mai",
+          "ingredient_id": "ingre00759",
+          "ingredient_name": "Bột mì",
+          "constraint": null
+        },
+        "top1": "bột mì số  11",
+        "top1_id": "ingre00777",
+        "score": 2,
+        "all_subs": [
+          "bột mì số  11",
+          "bột bán",
+          "bột sắn dây hoặc bột năng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0884",
+          "dish_name": "Bánh bắp phô mai",
+          "ingredient_id": "ingre03665",
+          "ingredient_name": "Men",
+          "constraint": null
+        },
+        "top1": "bột bán",
+        "top1_id": "ingre00518",
+        "score": 0,
+        "all_subs": [
+          "bột bán",
+          "bột sắn dây hoặc bột năng",
+          "tinh bột mì"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4253",
+          "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+          "ingredient_id": "ingre05876",
+          "ingredient_name": "Sườn cốt lết",
+          "constraint": "no_seafood"
+        },
+        "top1": "ba chỉ",
+        "top1_id": "ingre00005",
+        "score": 1,
+        "all_subs": [
+          "ba chỉ",
+          "ba chỉ bò",
+          "ba chỉ bò mỹ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4253",
+          "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+          "ingredient_id": "ingre05088",
+          "ingredient_name": "Phô mai miếng",
+          "constraint": null
+        },
+        "top1": "bột phô mai",
+        "top1_id": "ingre00879",
+        "score": 0,
+        "all_subs": [
+          "bột phô mai",
+          "bột phô mai lắc",
+          "cheese cream"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8725",
+          "dish_name": "Bánh tráng cuốn trứng lòng đào",
+          "ingredient_id": "ingre06816",
+          "ingredient_name": "Trứng cút",
+          "constraint": "vegetarian"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish8725",
+          "dish_name": "Bánh tráng cuốn trứng lòng đào",
+          "ingredient_id": "ingre03240",
+          "ingredient_name": "Khô bò sợi",
+          "constraint": "no_seafood"
+        },
+        "top1": "chả bò mini",
+        "top1_id": "ingre01259",
+        "score": 2,
+        "all_subs": [
+          "chả bò mini",
+          "khô bò  xé sợi",
+          "khô bò đen"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2374",
+          "dish_name": "Bánh tart hành tây nhân phô mai",
+          "ingredient_id": "ingre00779",
+          "ingredient_name": "Bột mì số 11",
+          "constraint": "no_seafood"
+        },
+        "top1": "bún ăn kèm",
+        "top1_id": "ingre00362",
+        "score": 0,
+        "all_subs": [
+          "bún ăn kèm",
+          "bột làm bánh",
+          "baking powder"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2374",
+          "dish_name": "Bánh tart hành tây nhân phô mai",
+          "ingredient_id": "ingre00382",
+          "ingredient_name": "Bơ lạt",
+          "constraint": null
+        },
+        "top1": "kem whipping",
+        "top1_id": "ingre03174",
+        "score": 2,
+        "all_subs": [
+          "kem whipping",
+          "muối nở",
+          "hành lá/ lá chanh  ."
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8403",
+          "dish_name": "Chân gà ngâm mắm",
+          "ingredient_id": "ingre01238",
+          "ingredient_name": "Chân gà",
+          "constraint": "vegetarian"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish8403",
+          "dish_name": "Chân gà ngâm mắm",
+          "ingredient_id": "ingre07063",
+          "ingredient_name": "Tỏi",
+          "constraint": "vegetarian"
+        },
+        "top1": "riềng",
+        "top1_id": "ingre05436",
+        "score": 2,
+        "all_subs": [
+          "riềng",
+          "dầu tỏi phi thơm",
+          "g hành  và ngò rí"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0072",
+          "dish_name": "Canh chua khô cá dứa dọc mùng",
+          "ingredient_id": "ingre03250",
+          "ingredient_name": "Khô cá dứa một nắng",
+          "constraint": "vegetarian"
+        },
+        "top1": "cải thảo sấy khô",
+        "top1_id": "ingre01795",
+        "score": 0,
+        "all_subs": [
+          "cải thảo sấy khô",
+          "me chua khô",
+          "chuối khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0072",
+          "dish_name": "Canh chua khô cá dứa dọc mùng",
+          "ingredient_id": "ingre07729",
+          "ingredient_name": "Đậu bắp",
+          "constraint": "vegetarian"
+        },
+        "top1": "rau",
+        "top1_id": "ingre05197",
+        "score": 0,
+        "all_subs": [
+          "rau",
+          "riềng tươi",
+          "cơm dừa xắt sợi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3241",
+          "dish_name": "Mì somen truyền thống",
+          "ingredient_id": "ingre03990",
+          "ingredient_name": "Mì somen",
+          "constraint": "vegetarian"
+        },
+        "top1": "bánh phở tươi",
+        "top1_id": "ingre00029",
+        "score": 0,
+        "all_subs": [
+          "bánh phở tươi",
+          "bánh phở vuông",
+          "bánh canh bột gạo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3241",
+          "dish_name": "Mì somen truyền thống",
+          "ingredient_id": "ingre04763",
+          "ingredient_name": "Nước sốt Mentsuyu",
+          "constraint": null
+        },
+        "top1": "hoa hồi",
+        "top1_id": "ingre02584",
+        "score": 0,
+        "all_subs": [
+          "hoa hồi",
+          "axit citric",
+          "baking power"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10168",
+          "dish_name": "Trà sữa phô mai tươi",
+          "ingredient_id": "ingre06741",
+          "ingredient_name": "Trà đen",
+          "constraint": "vegetarian"
+        },
+        "top1": "macchiato",
+        "top1_id": "ingre03632",
+        "score": 0,
+        "all_subs": [
+          "macchiato",
+          "trà lài túi lọc",
+          "trà sen"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10168",
+          "dish_name": "Trà sữa phô mai tươi",
+          "ingredient_id": "ingre06147",
+          "ingredient_name": "Sữa tươi không đường",
+          "constraint": null
+        },
+        "top1": "sữa hâm nóng",
+        "top1_id": "ingre06123",
+        "score": 2,
+        "all_subs": [
+          "sữa hâm nóng",
+          "sữa tươi 40 độ",
+          "sữa tươi không đường"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3265",
+          "dish_name": "Hủ tiếu dê",
+          "ingredient_id": "ingre03111",
+          "ingredient_name": "Hủ tiếu",
+          "constraint": null
+        },
+        "top1": "bánh phở tươi",
+        "top1_id": "ingre00029",
+        "score": 0,
+        "all_subs": [
+          "bánh phở tươi",
+          "bánh phở vuông",
+          "bánh canh bột gạo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3265",
+          "dish_name": "Hủ tiếu dê",
+          "ingredient_id": "ingre05420",
+          "ingredient_name": "Rau ăn kèm",
+          "constraint": "vegetarian"
+        },
+        "top1": "bia tươi",
+        "top1_id": "ingre00035",
+        "score": 0,
+        "all_subs": [
+          "bia tươi",
+          "bí ngòi",
+          "bầu"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2614",
+          "dish_name": "Bánh pizza keto rau củ",
+          "ingredient_id": "ingre05842",
+          "ingredient_name": "Súp lơ",
+          "constraint": null
+        },
+        "top1": "dọc mùng",
+        "top1_id": "ingre02147",
+        "score": 2,
+        "all_subs": [
+          "dọc mùng",
+          "đậu bắp",
+          "cần tây"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2614",
+          "dish_name": "Bánh pizza keto rau củ",
+          "ingredient_id": "ingre01354",
+          "ingredient_name": "Cà chua",
+          "constraint": null
+        },
+        "top1": "ngô ngọt",
+        "top1_id": "ingre04368",
+        "score": 1,
+        "all_subs": [
+          "ngô ngọt",
+          "mọc",
+          "su hào"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7268",
+          "dish_name": "Đậu hủ non chiên chà bông",
+          "ingredient_id": "ingre07765",
+          "ingredient_name": "Đậu hủ non",
+          "constraint": "vegetarian"
+        },
+        "top1": "bò băm",
+        "top1_id": "ingre00263",
+        "score": 0,
+        "all_subs": [
+          "bò băm",
+          "bò lát chay",
+          "bó đòn chay"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7268",
+          "dish_name": "Đậu hủ non chiên chà bông",
+          "ingredient_id": "ingre01202",
+          "ingredient_name": "Chà bông",
+          "constraint": null
+        },
+        "top1": "bánh mì",
+        "top1_id": "ingre00028",
+        "score": 0,
+        "all_subs": [
+          "bánh mì",
+          "bánh quy lotus",
+          "bánh bao không nhân"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8252",
+          "dish_name": "Gỏi nấm chanh dây",
+          "ingredient_id": "ingre04511",
+          "ingredient_name": "Nước chanh dây cả hạt",
+          "constraint": null
+        },
+        "top1": "axit citric",
+        "top1_id": "ingre00003",
+        "score": 2,
+        "all_subs": [
+          "axit citric",
+          "baking power",
+          "baking power - bột nở"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8252",
+          "dish_name": "Gỏi nấm chanh dây",
+          "ingredient_id": "ingre04694",
+          "ingredient_name": "Nước mắm",
+          "constraint": "no_meat"
+        },
+        "top1": "bột ngọt",
+        "top1_id": "ingre00320",
+        "score": 0,
+        "all_subs": [
+          "bột ngọt",
+          "bạch đậu khấu",
+          "bột canh gà"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3373",
+          "dish_name": "Bún ốc cay",
+          "ingredient_id": "ingre07947",
+          "ingredient_name": "Ốc mít",
+          "constraint": null
+        },
+        "top1": "chả nấm",
+        "top1_id": "ingre01300",
+        "score": 0,
+        "all_subs": [
+          "chả nấm",
+          "gạch cua còn nguyên",
+          "cua đồng xay"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3373",
+          "dish_name": "Bún ốc cay",
+          "ingredient_id": "ingre03370",
+          "ingredient_name": "Lá chanh",
+          "constraint": null
+        },
+        "top1": "rau cần ta",
+        "top1_id": "ingre05240",
+        "score": 2,
+        "all_subs": [
+          "rau cần ta",
+          "rau dớn tươi",
+          "bần"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4584",
+          "dish_name": "Gà xào húng quế",
+          "ingredient_id": "ingre08103",
+          "ingredient_name": "Ức gà",
+          "constraint": null
+        },
+        "top1": "ba chỉ",
+        "top1_id": "ingre00005",
+        "score": 1,
+        "all_subs": [
+          "ba chỉ",
+          "ba chỉ bò",
+          "ba chỉ bò mỹ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4584",
+          "dish_name": "Gà xào húng quế",
+          "ingredient_id": "ingre00804",
+          "ingredient_name": "Bột nghệ",
+          "constraint": null
+        },
+        "top1": "cà chua xay nhuyễn",
+        "top1_id": "ingre01371",
+        "score": 0,
+        "all_subs": [
+          "cà chua xay nhuyễn",
+          "axit citric",
+          "baking power"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5915",
+          "dish_name": "Cá ngừ kho dưa gang muối",
+          "ingredient_id": "ingre01579",
+          "ingredient_name": "Cá ngừ",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish5915",
+          "dish_name": "Cá ngừ kho dưa gang muối",
+          "ingredient_id": "ingre07063",
+          "ingredient_name": "Tỏi",
+          "constraint": "no_seafood"
+        },
+        "top1": "tỏi (cắt lát",
+        "top1_id": "ingre07069",
+        "score": 2,
+        "all_subs": [
+          "tỏi (cắt lát",
+          "gừng xắt sợi",
+          "tỏi băm/ hành băm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6015",
+          "dish_name": "Ếch kho nghệ",
+          "ingredient_id": "ingre07930",
+          "ingredient_name": "Ếch",
+          "constraint": "no_seafood"
+        },
+        "top1": null,
+        "score": 0
+      },
+      {
+        "case": {
+          "dish_id": "dish6015",
+          "dish_name": "Ếch kho nghệ",
+          "ingredient_id": "ingre02673",
+          "ingredient_name": "Hành lá",
+          "constraint": "no_meat"
+        },
+        "top1": "củ cải vàng muối",
+        "top1_id": "ingre01873",
+        "score": 0,
+        "all_subs": [
+          "củ cải vàng muối",
+          "hành lá/ ớt",
+          "giềng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6610",
+          "dish_name": "Chả giò rế tôm thịt",
+          "ingredient_id": "ingre06963",
+          "ingredient_name": "Tôm tươi",
+          "constraint": null
+        },
+        "top1": "g mực",
+        "top1_id": "ingre02231",
+        "score": 2,
+        "all_subs": [
+          "g mực",
+          "sá sùng khô",
+          "thịt tôm băm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6610",
+          "dish_name": "Chả giò rế tôm thịt",
+          "ingredient_id": "ingre06823",
+          "ingredient_name": "Trứng gà",
+          "constraint": null
+        },
+        "top1": "g trứng nguyên",
+        "top1_id": "ingre02234",
+        "score": 2,
+        "all_subs": [
+          "g trứng nguyên",
+          "gà mái",
+          "lòng đỏ trứng"
+        ]
+      }
+    ],
+    "full_ontology": [
+      {
+        "case": {
+          "dish_id": "dish2777",
+          "dish_name": "Bánh kem cam - bánh gato cam",
+          "ingredient_id": "ingre01054",
+          "ingredient_name": "Cam vàng Mỹ",
+          "constraint": "no_seafood"
+        },
+        "top1": "quả cà đắng",
+        "top1_id": "ingre05158",
+        "score": 0,
+        "all_subs": [
+          "quả cà đắng",
+          "vỏ cam tươi",
+          "kiwi vàng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2777",
+          "dish_name": "Bánh kem cam - bánh gato cam",
+          "ingredient_id": "ingre07313",
+          "ingredient_name": "Whipping cream",
+          "constraint": null
+        },
+        "top1": "đá lạnh",
+        "top1_id": "ingre07519",
+        "score": 0,
+        "all_subs": [
+          "đá lạnh",
+          "rễ sâm",
+          "thịt thanh long ruột đỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8852",
+          "dish_name": "Sương sáo đen hạt chia",
+          "ingredient_id": "ingre00925",
+          "ingredient_name": "Bột sương sáo đen",
+          "constraint": null
+        },
+        "top1": "ngũ cốc nướng",
+        "top1_id": "ingre04376",
+        "score": 0,
+        "all_subs": [
+          "ngũ cốc nướng",
+          "ngũ cốc socola",
+          "mè đen đã rang"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8852",
+          "dish_name": "Sương sáo đen hạt chia",
+          "ingredient_id": "ingre02922",
+          "ingredient_name": "Hạt chia",
+          "constraint": null
+        },
+        "top1": "cơm dừa bào sợi",
+        "top1_id": "ingre01729",
+        "score": 0,
+        "all_subs": [
+          "cơm dừa bào sợi",
+          "bột sương sáo đen",
+          "bột béo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3535",
+          "dish_name": "Bánh canh Quy Nhơn",
+          "ingredient_id": "ingre06050",
+          "ingredient_name": "Sợi bánh canh",
+          "constraint": null
+        },
+        "top1": "bánh tráng mè đen",
+        "top1_id": "ingre00197",
+        "score": 0,
+        "all_subs": [
+          "bánh tráng mè đen",
+          "sợi mì ý",
+          "mì misua"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3535",
+          "dish_name": "Bánh canh Quy Nhơn",
+          "ingredient_id": "ingre06816",
+          "ingredient_name": "Trứng cút",
+          "constraint": null
+        },
+        "top1": "mai cua sạch",
+        "top1_id": "ingre03633",
+        "score": 0,
+        "all_subs": [
+          "mai cua sạch",
+          "tóp mỡ băm nhỏ",
+          "bong bóng cá khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2827",
+          "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+          "ingredient_id": "ingre07453",
+          "ingredient_name": "Yến mạch",
+          "constraint": "no_meat"
+        },
+        "top1": "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím",
+        "top1_id": "ingre00966",
+        "score": 2,
+        "all_subs": [
+          "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím",
+          "nui ngôi sao",
+          "đậu nành lông"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2827",
+          "dish_name": "Cách làm Granola bar - thanh ngũ cốc",
+          "ingredient_id": "ingre02220",
+          "ingredient_name": "G  hướng dương",
+          "constraint": null
+        },
+        "top1": "đá lạnh",
+        "top1_id": "ingre07519",
+        "score": 0,
+        "all_subs": [
+          "đá lạnh",
+          "rễ sâm",
+          "thịt thanh long ruột đỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2828",
+          "dish_name": "Bánh mì Hy Lạp",
+          "ingredient_id": "ingre00782",
+          "ingredient_name": "Bột mì số 13",
+          "constraint": null
+        },
+        "top1": "bột há cảo",
+        "top1_id": "ingre00684",
+        "score": 0,
+        "all_subs": [
+          "bột há cảo",
+          "bánh hỏi",
+          "bột trà xanh nguyên chất"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2828",
+          "dish_name": "Bánh mì Hy Lạp",
+          "ingredient_id": "ingre03686",
+          "ingredient_name": "Men nở",
+          "constraint": "no_seafood"
+        },
+        "top1": "bơ.",
+        "top1_id": "ingre00421",
+        "score": 0,
+        "all_subs": [
+          "bơ.",
+          "sốt cà cô đặc",
+          "bột cam"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7001",
+          "dish_name": "Cá hường chiên nước mắm",
+          "ingredient_id": "ingre01523",
+          "ingredient_name": "Cá hường",
+          "constraint": "no_seafood"
+        },
+        "top1": "thịt xương heo",
+        "top1_id": "ingre06526",
+        "score": 0,
+        "all_subs": [
+          "thịt xương heo",
+          "trứng gà",
+          "suawnf heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7001",
+          "dish_name": "Cá hường chiên nước mắm",
+          "ingredient_id": "ingre08078",
+          "ingredient_name": "Ớt tươi",
+          "constraint": "vegetarian"
+        },
+        "top1": "ớt sừng cắt sừng",
+        "top1_id": "ingre08063",
+        "score": 0,
+        "all_subs": [
+          "ớt sừng cắt sừng",
+          "ớt",
+          "ớt khô xay nhỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5902",
+          "dish_name": "Đậu hũ kho sườn chay",
+          "ingredient_id": "ingre05874",
+          "ingredient_name": "Sườn chay khô",
+          "constraint": null
+        },
+        "top1": "hạt me chua",
+        "top1_id": "ingre02969",
+        "score": 0,
+        "all_subs": [
+          "hạt me chua",
+          "chả quế chay",
+          "kataifi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5902",
+          "dish_name": "Đậu hũ kho sườn chay",
+          "ingredient_id": "ingre02645",
+          "ingredient_name": "Hành boa rô",
+          "constraint": "no_meat"
+        },
+        "top1": "bắp non",
+        "top1_id": "ingre00485",
+        "score": 0,
+        "all_subs": [
+          "bắp non",
+          "su hào",
+          "đậu hà lan"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5526",
+          "dish_name": "Mực xào nấm hương",
+          "ingredient_id": "ingre04278",
+          "ingredient_name": "Mực tươi",
+          "constraint": null
+        },
+        "top1": "chân vịt rút xương",
+        "top1_id": "ingre01248",
+        "score": 0,
+        "all_subs": [
+          "chân vịt rút xương",
+          "cá chình",
+          "cá chạch"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5526",
+          "dish_name": "Mực xào nấm hương",
+          "ingredient_id": "ingre01419",
+          "ingredient_name": "Cà rốt",
+          "constraint": "vegetarian"
+        },
+        "top1": "củ cải đỏ radish",
+        "top1_id": "ingre01877",
+        "score": 1,
+        "all_subs": [
+          "củ cải đỏ radish",
+          "hạt ngô non",
+          "su hào nhỏ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7779",
+          "dish_name": "Lẩu bạch tuộc nấu nấm",
+          "ingredient_id": "ingre00434",
+          "ingredient_name": "Bạch tuộc",
+          "constraint": "no_meat"
+        },
+        "top1": "cá chình",
+        "top1_id": "ingre01498",
+        "score": 0,
+        "all_subs": [
+          "cá chình",
+          "cá chạch",
+          "cá mú"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7779",
+          "dish_name": "Lẩu bạch tuộc nấu nấm",
+          "ingredient_id": "ingre04921",
+          "ingredient_name": "Nấm kim châm",
+          "constraint": "no_seafood"
+        },
+        "top1": "nấm rơm",
+        "top1_id": "ingre04953",
+        "score": 2,
+        "all_subs": [
+          "nấm rơm",
+          "nấm bào ngư",
+          "nấm mỗi loại"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0297",
+          "dish_name": "Đầu cá hồi nấu ngót",
+          "ingredient_id": "ingre07706",
+          "ingredient_name": "Đầu cá hồi",
+          "constraint": null
+        },
+        "top1": "cá ngát",
+        "top1_id": "ingre01575",
+        "score": 2,
+        "all_subs": [
+          "cá ngát",
+          "cá lăng",
+          "cá tầm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0297",
+          "dish_name": "Đầu cá hồi nấu ngót",
+          "ingredient_id": "ingre07966",
+          "ingredient_name": "Ớt",
+          "constraint": null
+        },
+        "top1": "chai tươn ớt",
+        "top1_id": "ingre01078",
+        "score": 0,
+        "all_subs": [
+          "chai tươn ớt",
+          "hạt tiêu đập dập",
+          "mắm cá chốt"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6786",
+          "dish_name": "Cá chẽm sốt chua ngọt",
+          "ingredient_id": "ingre01503",
+          "ingredient_name": "Cá chẽm",
+          "constraint": "no_seafood"
+        },
+        "top1": "thịt xương heo",
+        "top1_id": "ingre06526",
+        "score": 0,
+        "all_subs": [
+          "thịt xương heo",
+          "trứng gà",
+          "suawnf heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6786",
+          "dish_name": "Cá chẽm sốt chua ngọt",
+          "ingredient_id": "ingre02487",
+          "ingredient_name": "Gừng 1 củ nhỏ",
+          "constraint": "vegetarian"
+        },
+        "top1": "nước gừng",
+        "top1_id": "ingre04631",
+        "score": 0,
+        "all_subs": [
+          "nước gừng",
+          "hành tím bào nhỏ",
+          "hành boa - rô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2008",
+          "dish_name": "Bánh sò socola - madeleine chocolat",
+          "ingredient_id": "ingre00584",
+          "ingredient_name": "Bột cake flour",
+          "constraint": "no_meat"
+        },
+        "top1": "bột yến mạch xay",
+        "top1_id": "ingre00998",
+        "score": 0,
+        "all_subs": [
+          "bột yến mạch xay",
+          "bột bắp khô",
+          "bột chuối"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2008",
+          "dish_name": "Bánh sò socola - madeleine chocolat",
+          "ingredient_id": "ingre00018",
+          "ingredient_name": "Baking soda",
+          "constraint": "no_seafood"
+        },
+        "top1": "dầu dừa nguyên chất",
+        "top1_id": "ingre02068",
+        "score": 0,
+        "all_subs": [
+          "dầu dừa nguyên chất",
+          "sour cream",
+          "chiết xuất va ni"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7435",
+          "dish_name": "Bông cải cuộn thịt chiên giòn",
+          "ingredient_id": "ingre06400",
+          "ingredient_name": "Thịt heo ba chỉ cắt lát",
+          "constraint": null
+        },
+        "top1": "thịt nạt vai",
+        "top1_id": "ingre06485",
+        "score": 2,
+        "all_subs": [
+          "thịt nạt vai",
+          "thịt ức gà xay",
+          "thịt gà phi lê"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7435",
+          "dish_name": "Bông cải cuộn thịt chiên giòn",
+          "ingredient_id": "ingre00282",
+          "ingredient_name": "Bông cải xanh",
+          "constraint": "vegetarian"
+        },
+        "top1": "măng tây",
+        "top1_id": "ingre04088",
+        "score": 0,
+        "all_subs": [
+          "măng tây",
+          "rau diếp cá",
+          "cải kale"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2174",
+          "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+          "ingredient_id": "ingre06492",
+          "ingredient_name": "Thịt sầu riêng",
+          "constraint": "no_seafood"
+        },
+        "top1": "nhãn",
+        "top1_id": "ingre04434",
+        "score": 0,
+        "all_subs": [
+          "nhãn",
+          "nhãn nhục",
+          "đá lạnh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2174",
+          "dish_name": "Bánh rán doremon nhân kem sầu riêng",
+          "ingredient_id": "ingre03147",
+          "ingredient_name": "Kem sữa tươi",
+          "constraint": "vegetarian"
+        },
+        "top1": "sữa dừa không đường",
+        "top1_id": "ingre06120",
+        "score": 2,
+        "all_subs": [
+          "sữa dừa không đường",
+          "sữa thực vật không đường",
+          "váng sữa"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0809",
+          "dish_name": "Canh cua rau đay mồng tơi",
+          "ingredient_id": "ingre01344",
+          "ingredient_name": "Cua đồng",
+          "constraint": null
+        },
+        "top1": "tôm khô",
+        "top1_id": "ingre06941",
+        "score": 1,
+        "all_subs": [
+          "tôm khô",
+          "chân vịt rút xương",
+          "cá chình"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0809",
+          "dish_name": "Canh cua rau đay mồng tơi",
+          "ingredient_id": "ingre05431",
+          "ingredient_name": "Rau đay",
+          "constraint": null
+        },
+        "top1": "mướp",
+        "top1_id": "ingre04103",
+        "score": 1,
+        "all_subs": [
+          "mướp",
+          "củ mì",
+          "rau dền"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8417",
+          "dish_name": "Chà bông gà cay (ruốc gà cay)",
+          "ingredient_id": "ingre08103",
+          "ingredient_name": "Ức gà",
+          "constraint": "no_meat"
+        },
+        "top1": "huyết bò",
+        "top1_id": "ingre02625",
+        "score": 0,
+        "all_subs": [
+          "huyết bò",
+          "trứng gà",
+          "chân vịt rút xương"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8417",
+          "dish_name": "Chà bông gà cay (ruốc gà cay)",
+          "ingredient_id": "ingre02584",
+          "ingredient_name": "Hoa hồi",
+          "constraint": null
+        },
+        "top1": "nước ớt đặc",
+        "top1_id": "ingre04882",
+        "score": 0,
+        "all_subs": [
+          "nước ớt đặc",
+          "hoa đậu biếc sấy khô",
+          "ớt xay nhuyễn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10089",
+          "dish_name": "Nước mía lau củ năng hạt chia",
+          "ingredient_id": "ingre01910",
+          "ingredient_name": "Củ năng",
+          "constraint": "no_seafood"
+        },
+        "top1": "củ dền",
+        "top1_id": "ingre01880",
+        "score": 2,
+        "all_subs": [
+          "củ dền",
+          "khoai lang tím",
+          "khoai mì"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10089",
+          "dish_name": "Nước mía lau củ năng hạt chia",
+          "ingredient_id": "ingre04027",
+          "ingredient_name": "Mía lau",
+          "constraint": "no_meat"
+        },
+        "top1": "bột chanh dây",
+        "top1_id": "ingre00594",
+        "score": 0,
+        "all_subs": [
+          "bột chanh dây",
+          "mía nướng",
+          "bồ công anh"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9311",
+          "dish_name": "Bánh quy lưỡi mèo",
+          "ingredient_id": "ingre00783",
+          "ingredient_name": "Bột mì số 8",
+          "constraint": "vegetarian"
+        },
+        "top1": "đường ngô",
+        "top1_id": "ingre07624",
+        "score": 0,
+        "all_subs": [
+          "đường ngô",
+          "bột làm bánh",
+          "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9311",
+          "dish_name": "Bánh quy lưỡi mèo",
+          "ingredient_id": "ingre03580",
+          "ingredient_name": "Lòng trắng trứng gà",
+          "constraint": "no_meat"
+        },
+        "top1": "lòng trắng trứng",
+        "top1_id": "ingre03579",
+        "score": 2,
+        "all_subs": [
+          "lòng trắng trứng",
+          "shorterning",
+          "lòng trắng trứng đánh bông"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5204",
+          "dish_name": "Mít xào nấm đùi gà chay",
+          "ingredient_id": "ingre04037",
+          "ingredient_name": "Mít thái",
+          "constraint": "vegetarian"
+        },
+        "top1": "chôm chôm",
+        "top1_id": "ingre01251",
+        "score": 0,
+        "all_subs": [
+          "chôm chôm",
+          "dừa",
+          "thơm/ dứa"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5204",
+          "dish_name": "Mít xào nấm đùi gà chay",
+          "ingredient_id": "ingre02768",
+          "ingredient_name": "Hành tím",
+          "constraint": "vegetarian"
+        },
+        "top1": "rau cần tàu",
+        "top1_id": "ingre05241",
+        "score": 2,
+        "all_subs": [
+          "rau cần tàu",
+          "rau cải cúc",
+          "rau muống chẻ"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6490",
+          "dish_name": "Vây cá hồi chiên nước mắm me",
+          "ingredient_id": "ingre07179",
+          "ingredient_name": "Vây cá hồi",
+          "constraint": null
+        },
+        "top1": "cá cam",
+        "top1_id": "ingre01482",
+        "score": 1,
+        "all_subs": [
+          "cá cam",
+          "cá ngừ",
+          "cá diêu hồng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6490",
+          "dish_name": "Vây cá hồi chiên nước mắm me",
+          "ingredient_id": "ingre07971",
+          "ingredient_name": "Ớt băm",
+          "constraint": "no_seafood"
+        },
+        "top1": "ớt hiểm cắt lát",
+        "top1_id": "ingre08030",
+        "score": 2,
+        "all_subs": [
+          "ớt hiểm cắt lát",
+          "ớt hiểm đỏ",
+          "ớt đỏ khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8983",
+          "dish_name": "Thạch chanh dây",
+          "ingredient_id": "ingre01081",
+          "ingredient_name": "Chanh dây",
+          "constraint": "vegetarian"
+        },
+        "top1": "mít",
+        "top1_id": "ingre04031",
+        "score": 0,
+        "all_subs": [
+          "mít",
+          "nước mía",
+          "cam tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8983",
+          "dish_name": "Thạch chanh dây",
+          "ingredient_id": "ingre05222",
+          "ingredient_name": "Rau câu dẻo",
+          "constraint": "no_meat"
+        },
+        "top1": "bột kem trứng",
+        "top1_id": "ingre00706",
+        "score": 0,
+        "all_subs": [
+          "bột kem trứng",
+          "sô cô la đen nguyên chất",
+          "bột nở  (baking powder)"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4999",
+          "dish_name": "Xúc xích xào nấm, ớt chuông",
+          "ingredient_id": "ingre07396",
+          "ingredient_name": "Xúc xích",
+          "constraint": "no_seafood"
+        },
+        "top1": "mề gà",
+        "top1_id": "ingre04173",
+        "score": 2,
+        "all_subs": [
+          "mề gà",
+          "sụn gà",
+          "dồi trường"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4999",
+          "dish_name": "Xúc xích xào nấm, ớt chuông",
+          "ingredient_id": "ingre01354",
+          "ingredient_name": "Cà chua",
+          "constraint": "no_meat"
+        },
+        "top1": "ớt chuông",
+        "top1_id": "ingre07999",
+        "score": 2,
+        "all_subs": [
+          "ớt chuông",
+          "bông cải xanh",
+          "hành tây cắt múi cau"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10506",
+          "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+          "ingredient_id": "ingre06100",
+          "ingredient_name": "Sữa chua không đường",
+          "constraint": null
+        },
+        "top1": "sữa chua có đường",
+        "top1_id": "ingre06091",
+        "score": 1,
+        "all_subs": [
+          "sữa chua có đường",
+          "sữa chua:",
+          "sữa chua"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10506",
+          "dish_name": "Sữa chua dẻo cho bé ăn dặm",
+          "ingredient_id": "ingre06085",
+          "ingredient_name": "Sữa bột công thức",
+          "constraint": null
+        },
+        "top1": "heavycream",
+        "top1_id": "ingre02561",
+        "score": 0,
+        "all_subs": [
+          "heavycream",
+          "viên phô mai",
+          "phô mai mềm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3849",
+          "dish_name": "Thịt heo nướng lu",
+          "ingredient_id": "ingre06214",
+          "ingredient_name": "Thịt ba chỉ",
+          "constraint": null
+        },
+        "top1": "thịt xương heo",
+        "top1_id": "ingre06526",
+        "score": 0,
+        "all_subs": [
+          "thịt xương heo",
+          "suawnf heo",
+          "thì là"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3849",
+          "dish_name": "Thịt heo nướng lu",
+          "ingredient_id": "ingre00631",
+          "ingredient_name": "Bột cà ri",
+          "constraint": null
+        },
+        "top1": "đậu hũ viên chiên",
+        "top1_id": "ingre07760",
+        "score": 0,
+        "all_subs": [
+          "đậu hũ viên chiên",
+          "bánh quy vani",
+          "g bánh phồng m (đã chiên giòn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9109",
+          "dish_name": "Chân gà ngâm sả tắc chay",
+          "ingredient_id": "ingre01239",
+          "ingredient_name": "Chân gà chay",
+          "constraint": "vegetarian"
+        },
+        "top1": "hạt me chua",
+        "top1_id": "ingre02969",
+        "score": 0,
+        "all_subs": [
+          "hạt me chua",
+          "chả quế chay",
+          "kataifi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish9109",
+          "dish_name": "Chân gà ngâm sả tắc chay",
+          "ingredient_id": "ingre05900",
+          "ingredient_name": "Sả",
+          "constraint": null
+        },
+        "top1": "tỏi nguyên tép",
+        "top1_id": "ingre07093",
+        "score": 1,
+        "all_subs": [
+          "tỏi nguyên tép",
+          "sả xây",
+          "hạt nêm; muối; đường; bột ngọt"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10208",
+          "dish_name": "Trà sữa bơ",
+          "ingredient_id": "ingre00372",
+          "ingredient_name": "Bơ chín",
+          "constraint": "vegetarian"
+        },
+        "top1": "quả cà đắng",
+        "top1_id": "ingre05158",
+        "score": 0,
+        "all_subs": [
+          "quả cà đắng",
+          "vỏ cam tươi",
+          "kiwi vàng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10208",
+          "dish_name": "Trà sữa bơ",
+          "ingredient_id": "ingre06705",
+          "ingredient_name": "Trà Lipton",
+          "constraint": null
+        },
+        "top1": "mì ramen hoặc mì udon ăn liền",
+        "top1_id": "ingre03984",
+        "score": 0,
+        "all_subs": [
+          "mì ramen hoặc mì udon ăn liền",
+          "mì indomie",
+          "soda vải"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6532",
+          "dish_name": "Cá đuối chiên nước mắm",
+          "ingredient_id": "ingre01659",
+          "ingredient_name": "Cá đuối",
+          "constraint": null
+        },
+        "top1": "chân vịt rút xương",
+        "top1_id": "ingre01248",
+        "score": 0,
+        "all_subs": [
+          "chân vịt rút xương",
+          "cá chình",
+          "cá chạch"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6532",
+          "dish_name": "Cá đuối chiên nước mắm",
+          "ingredient_id": "ingre02768",
+          "ingredient_name": "Hành tím",
+          "constraint": "vegetarian"
+        },
+        "top1": "cần tây",
+        "top1_id": "ingre01812",
+        "score": 0,
+        "all_subs": [
+          "cần tây",
+          "cà rốt",
+          "lá cà ri"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3094",
+          "dish_name": "Chè sắn mochi",
+          "ingredient_id": "ingre01920",
+          "ingredient_name": "Củ sắn",
+          "constraint": "vegetarian"
+        },
+        "top1": "khoai mì",
+        "top1_id": "ingre03204",
+        "score": 2,
+        "all_subs": [
+          "khoai mì",
+          "đủ đủ",
+          "củ năng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3094",
+          "dish_name": "Chè sắn mochi",
+          "ingredient_id": "ingre02922",
+          "ingredient_name": "Hạt chia",
+          "constraint": "no_seafood"
+        },
+        "top1": "hạt me chua",
+        "top1_id": "ingre02969",
+        "score": 1,
+        "all_subs": [
+          "hạt me chua",
+          "chả quế chay",
+          "kataifi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0891",
+          "dish_name": "Bánh Canele",
+          "ingredient_id": "ingre06801",
+          "ingredient_name": "Trứng",
+          "constraint": null
+        },
+        "top1": "trứng gà tươi",
+        "top1_id": "ingre06839",
+        "score": 2,
+        "all_subs": [
+          "trứng gà tươi",
+          "sụn ức gà",
+          "thịt lạp"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0891",
+          "dish_name": "Bánh Canele",
+          "ingredient_id": "ingre07652",
+          "ingredient_name": "Đường trắng",
+          "constraint": null
+        },
+        "top1": "nước đường bánh nướng  (hoặc thay bằng mật ong)",
+        "top1_id": "ingre04861",
+        "score": 0,
+        "all_subs": [
+          "nước đường bánh nướng  (hoặc thay bằng mật ong)",
+          "bột sư tử  (custard powder)",
+          "lòng đỏ trứng muối nghiền nhuyễn  (hơn 1 quả)"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6824",
+          "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+          "ingredient_id": "ingre01124",
+          "ingredient_name": "Chim bồ câu",
+          "constraint": null
+        },
+        "top1": "đùi gà",
+        "top1_id": "ingre07551",
+        "score": 2,
+        "all_subs": [
+          "đùi gà",
+          "chân gà",
+          "chim cúm núm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6824",
+          "dish_name": "Chim bồ câu quay ngũ vị bằng dầu",
+          "ingredient_id": "ingre01079",
+          "ingredient_name": "Chanh",
+          "constraint": "no_seafood"
+        },
+        "top1": "ngọc trúc",
+        "top1_id": "ingre04389",
+        "score": 0,
+        "all_subs": [
+          "ngọc trúc",
+          "giá sống",
+          "rau quế/ ngò gai"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5220",
+          "dish_name": "Thịt heo xào đậu đũa",
+          "ingredient_id": "ingre07867",
+          "ingredient_name": "Đậu đũa",
+          "constraint": null
+        },
+        "top1": "lá cà ri",
+        "top1_id": "ingre03402",
+        "score": 0,
+        "all_subs": [
+          "lá cà ri",
+          "rau nhút lặt sạch",
+          "dưa leo/ cà chua"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5220",
+          "dish_name": "Thịt heo xào đậu đũa",
+          "ingredient_id": "ingre04694",
+          "ingredient_name": "Nước mắm",
+          "constraint": null
+        },
+        "top1": "bột ngọt",
+        "top1_id": "ingre00819",
+        "score": 2,
+        "all_subs": [
+          "bột ngọt",
+          "hạt nêm",
+          "tiêu xay"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5236",
+          "dish_name": "Bún tàu xào nấm mối",
+          "ingredient_id": "ingre04942",
+          "ingredient_name": "Nấm mối",
+          "constraint": null
+        },
+        "top1": "nấm bào ngư",
+        "top1_id": "ingre04894",
+        "score": 2,
+        "all_subs": [
+          "nấm bào ngư",
+          "nấm kim châm",
+          "nấm rơm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5236",
+          "dish_name": "Bún tàu xào nấm mối",
+          "ingredient_id": "ingre02673",
+          "ingredient_name": "Hành lá",
+          "constraint": null
+        },
+        "top1": "rau ngò/ rau húng/ diếp cá/ tía tô",
+        "top1_id": "ingre05333",
+        "score": 2,
+        "all_subs": [
+          "rau ngò/ rau húng/ diếp cá/ tía tô",
+          "hành lá/ rau mùi",
+          "mướp"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish1366",
+          "dish_name": "Bánh pizza bằng khoai tây",
+          "ingredient_id": "ingre06823",
+          "ingredient_name": "Trứng gà",
+          "constraint": "vegetarian"
+        },
+        "top1": "nấm mỗi loại",
+        "top1_id": "ingre04943",
+        "score": 0,
+        "all_subs": [
+          "nấm mỗi loại",
+          "mộc hoa",
+          "mộc nhĩ tươi"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish1366",
+          "dish_name": "Bánh pizza bằng khoai tây",
+          "ingredient_id": "ingre03222",
+          "ingredient_name": "Khoai tây",
+          "constraint": "no_seafood"
+        },
+        "top1": "khoai sọ",
+        "top1_id": "ingre03221",
+        "score": 2,
+        "all_subs": [
+          "khoai sọ",
+          "củ cải trắng",
+          "rau bí"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0884",
+          "dish_name": "Bánh bắp phô mai",
+          "ingredient_id": "ingre00759",
+          "ingredient_name": "Bột mì",
+          "constraint": null
+        },
+        "top1": "bột mì số  11",
+        "top1_id": "ingre00777",
+        "score": 2,
+        "all_subs": [
+          "bột mì số  11",
+          "bột bán",
+          "bột sắn dây hoặc bột năng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0884",
+          "dish_name": "Bánh bắp phô mai",
+          "ingredient_id": "ingre03665",
+          "ingredient_name": "Men",
+          "constraint": null
+        },
+        "top1": "bột bán",
+        "top1_id": "ingre00518",
+        "score": 0,
+        "all_subs": [
+          "bột bán",
+          "bột sắn dây hoặc bột năng",
+          "tinh bột mì"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4253",
+          "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+          "ingredient_id": "ingre05876",
+          "ingredient_name": "Sườn cốt lết",
+          "constraint": "no_seafood"
+        },
+        "top1": "ức gà",
+        "top1_id": "ingre08103",
+        "score": 2,
+        "all_subs": [
+          "ức gà",
+          "thịt heo",
+          "sườn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4253",
+          "dish_name": "Sườn cốt lết cuộn phô mai bằng nồi chiên không dầu",
+          "ingredient_id": "ingre05088",
+          "ingredient_name": "Phô mai miếng",
+          "constraint": null
+        },
+        "top1": "creamcheese",
+        "top1_id": "ingre01332",
+        "score": 2,
+        "all_subs": [
+          "creamcheese",
+          "phô mai ricotta",
+          "miếng phô mai mozzarella"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8725",
+          "dish_name": "Bánh tráng cuốn trứng lòng đào",
+          "ingredient_id": "ingre06816",
+          "ingredient_name": "Trứng cút",
+          "constraint": "vegetarian"
+        },
+        "top1": "nấm rơm búp",
+        "top1_id": "ingre04954",
+        "score": 0,
+        "all_subs": [
+          "nấm rơm búp",
+          "nấm mỗi loại",
+          "đậu hủ khuôn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8725",
+          "dish_name": "Bánh tráng cuốn trứng lòng đào",
+          "ingredient_id": "ingre03240",
+          "ingredient_name": "Khô bò sợi",
+          "constraint": "no_seafood"
+        },
+        "top1": "khô bò đen",
+        "top1_id": "ingre03241",
+        "score": 2,
+        "all_subs": [
+          "khô bò đen",
+          "khô bò  xé sợi",
+          "đậu phộng."
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2374",
+          "dish_name": "Bánh tart hành tây nhân phô mai",
+          "ingredient_id": "ingre00779",
+          "ingredient_name": "Bột mì số 11",
+          "constraint": "no_seafood"
+        },
+        "top1": "bún ăn kèm",
+        "top1_id": "ingre00362",
+        "score": 0,
+        "all_subs": [
+          "bún ăn kèm",
+          "bột làm bánh",
+          "bột há cảo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2374",
+          "dish_name": "Bánh tart hành tây nhân phô mai",
+          "ingredient_id": "ingre00382",
+          "ingredient_name": "Bơ lạt",
+          "constraint": null
+        },
+        "top1": "kem whipping",
+        "top1_id": "ingre03174",
+        "score": 2,
+        "all_subs": [
+          "kem whipping",
+          "muối nở",
+          "sốt tomyum cô đặc"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8403",
+          "dish_name": "Chân gà ngâm mắm",
+          "ingredient_id": "ingre01238",
+          "ingredient_name": "Chân gà",
+          "constraint": "vegetarian"
+        },
+        "top1": "nấm mỗi loại",
+        "top1_id": "ingre04943",
+        "score": 0,
+        "all_subs": [
+          "nấm mỗi loại",
+          "đậu hủ khuôn",
+          "nấm hương"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8403",
+          "dish_name": "Chân gà ngâm mắm",
+          "ingredient_id": "ingre07063",
+          "ingredient_name": "Tỏi",
+          "constraint": "vegetarian"
+        },
+        "top1": "riềng",
+        "top1_id": "ingre05436",
+        "score": 2,
+        "all_subs": [
+          "riềng",
+          "húng ủi",
+          "dầu tỏi phi thơm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0072",
+          "dish_name": "Canh chua khô cá dứa dọc mùng",
+          "ingredient_id": "ingre03250",
+          "ingredient_name": "Khô cá dứa một nắng",
+          "constraint": "vegetarian"
+        },
+        "top1": "trái giác",
+        "top1_id": "ingre06765",
+        "score": 0,
+        "all_subs": [
+          "trái giác",
+          "cải thảo sấy khô",
+          "me chua khô"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish0072",
+          "dish_name": "Canh chua khô cá dứa dọc mùng",
+          "ingredient_id": "ingre07729",
+          "ingredient_name": "Đậu bắp",
+          "constraint": "vegetarian"
+        },
+        "top1": "rau",
+        "top1_id": "ingre05197",
+        "score": 0,
+        "all_subs": [
+          "rau",
+          "riềng tươi",
+          "trái giác"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3241",
+          "dish_name": "Mì somen truyền thống",
+          "ingredient_id": "ingre03990",
+          "ingredient_name": "Mì somen",
+          "constraint": "vegetarian"
+        },
+        "top1": "bánh tráng mè đen",
+        "top1_id": "ingre00197",
+        "score": 0,
+        "all_subs": [
+          "bánh tráng mè đen",
+          "sợi mì ý",
+          "mì misua"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3241",
+          "dish_name": "Mì somen truyền thống",
+          "ingredient_id": "ingre04763",
+          "ingredient_name": "Nước sốt Mentsuyu",
+          "constraint": null
+        },
+        "top1": "hoa hồi",
+        "top1_id": "ingre02584",
+        "score": 0,
+        "all_subs": [
+          "hoa hồi",
+          "sả",
+          "quế"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10168",
+          "dish_name": "Trà sữa phô mai tươi",
+          "ingredient_id": "ingre06741",
+          "ingredient_name": "Trà đen",
+          "constraint": "vegetarian"
+        },
+        "top1": "trà xanh khô",
+        "top1_id": "ingre06733",
+        "score": 2,
+        "all_subs": [
+          "trà xanh khô",
+          "trà đen dạng lá nhuyễn",
+          "trà đào lipton"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish10168",
+          "dish_name": "Trà sữa phô mai tươi",
+          "ingredient_id": "ingre06147",
+          "ingredient_name": "Sữa tươi không đường",
+          "constraint": null
+        },
+        "top1": "sữa tươi 40 độ",
+        "top1_id": "ingre06145",
+        "score": 2,
+        "all_subs": [
+          "sữa tươi 40 độ",
+          "sữa hâm nóng",
+          "sữa tươi không đường"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3265",
+          "dish_name": "Hủ tiếu dê",
+          "ingredient_id": "ingre03111",
+          "ingredient_name": "Hủ tiếu",
+          "constraint": null
+        },
+        "top1": "mì cay",
+        "top1_id": "ingre03953",
+        "score": 0,
+        "all_subs": [
+          "mì cay",
+          "bánh tráng mè đen",
+          "sợi mì ý"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3265",
+          "dish_name": "Hủ tiếu dê",
+          "ingredient_id": "ingre05420",
+          "ingredient_name": "Rau ăn kèm",
+          "constraint": "vegetarian"
+        },
+        "top1": "đậu hũ non",
+        "top1_id": "ingre07752",
+        "score": 0,
+        "all_subs": [
+          "đậu hũ non",
+          "lá cà ri",
+          "rau nhút lặt sạch"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2614",
+          "dish_name": "Bánh pizza keto rau củ",
+          "ingredient_id": "ingre05842",
+          "ingredient_name": "Súp lơ",
+          "constraint": null
+        },
+        "top1": "dọc mùng",
+        "top1_id": "ingre02147",
+        "score": 2,
+        "all_subs": [
+          "dọc mùng",
+          "đậu bắp",
+          "cần tây"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish2614",
+          "dish_name": "Bánh pizza keto rau củ",
+          "ingredient_id": "ingre01354",
+          "ingredient_name": "Cà chua",
+          "constraint": null
+        },
+        "top1": "khổ qua",
+        "top1_id": "ingre03271",
+        "score": 0,
+        "all_subs": [
+          "khổ qua",
+          "cần tây",
+          "ngô ngọt"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7268",
+          "dish_name": "Đậu hủ non chiên chà bông",
+          "ingredient_id": "ingre07765",
+          "ingredient_name": "Đậu hủ non",
+          "constraint": "vegetarian"
+        },
+        "top1": "đậu hủ khuôn",
+        "top1_id": "ingre07764",
+        "score": 1,
+        "all_subs": [
+          "đậu hủ khuôn",
+          "đậu đen",
+          "đậu hũ trắng:100 g"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish7268",
+          "dish_name": "Đậu hủ non chiên chà bông",
+          "ingredient_id": "ingre01202",
+          "ingredient_name": "Chà bông",
+          "constraint": null
+        },
+        "top1": "đậu hũ viên chiên",
+        "top1_id": "ingre07760",
+        "score": 2,
+        "all_subs": [
+          "đậu hũ viên chiên",
+          "bánh quy vani",
+          "g bánh phồng m (đã chiên giòn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8252",
+          "dish_name": "Gỏi nấm chanh dây",
+          "ingredient_id": "ingre04511",
+          "ingredient_name": "Nước chanh dây cả hạt",
+          "constraint": null
+        },
+        "top1": "ớt",
+        "top1_id": "ingre07966",
+        "score": 0,
+        "all_subs": [
+          "ớt",
+          "hạt nêm",
+          "bột ngọt"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish8252",
+          "dish_name": "Gỏi nấm chanh dây",
+          "ingredient_id": "ingre04694",
+          "ingredient_name": "Nước mắm",
+          "constraint": "no_meat"
+        },
+        "top1": "nước chanh dây cả hạt",
+        "top1_id": "ingre04511",
+        "score": 2,
+        "all_subs": [
+          "nước chanh dây cả hạt",
+          "hành tây bào",
+          "nước mắm mặn"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3373",
+          "dish_name": "Bún ốc cay",
+          "ingredient_id": "ingre07947",
+          "ingredient_name": "Ốc mít",
+          "constraint": null
+        },
+        "top1": "chả nấm",
+        "top1_id": "ingre01300",
+        "score": 0,
+        "all_subs": [
+          "chả nấm",
+          "gạch cua còn nguyên",
+          "cua đồng xay"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish3373",
+          "dish_name": "Bún ốc cay",
+          "ingredient_id": "ingre03370",
+          "ingredient_name": "Lá chanh",
+          "constraint": null
+        },
+        "top1": "rau cần ta",
+        "top1_id": "ingre05240",
+        "score": 2,
+        "all_subs": [
+          "rau cần ta",
+          "rau dớn tươi",
+          "bần"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4584",
+          "dish_name": "Gà xào húng quế",
+          "ingredient_id": "ingre08103",
+          "ingredient_name": "Ức gà",
+          "constraint": null
+        },
+        "top1": "thịt ba rọi",
+        "top1_id": "ingre06289",
+        "score": 1,
+        "all_subs": [
+          "thịt ba rọi",
+          "sườn sụn",
+          "thịt đùi heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish4584",
+          "dish_name": "Gà xào húng quế",
+          "ingredient_id": "ingre00804",
+          "ingredient_name": "Bột nghệ",
+          "constraint": null
+        },
+        "top1": "cà chua xay nhuyễn",
+        "top1_id": "ingre01371",
+        "score": 0,
+        "all_subs": [
+          "cà chua xay nhuyễn",
+          "bột gia vị nêm sẵn lẩu thái",
+          "ớt khô xay"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5915",
+          "dish_name": "Cá ngừ kho dưa gang muối",
+          "ingredient_id": "ingre01579",
+          "ingredient_name": "Cá ngừ",
+          "constraint": "no_seafood"
+        },
+        "top1": "thịt xương heo",
+        "top1_id": "ingre06526",
+        "score": 0,
+        "all_subs": [
+          "thịt xương heo",
+          "trứng gà",
+          "suawnf heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish5915",
+          "dish_name": "Cá ngừ kho dưa gang muối",
+          "ingredient_id": "ingre07063",
+          "ingredient_name": "Tỏi",
+          "constraint": "no_seafood"
+        },
+        "top1": "tỏi (cắt lát",
+        "top1_id": "ingre07069",
+        "score": 2,
+        "all_subs": [
+          "tỏi (cắt lát",
+          "tỏi và hành tím băm nhỏ",
+          "tỏi băm/ hành băm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6015",
+          "dish_name": "Ếch kho nghệ",
+          "ingredient_id": "ingre07930",
+          "ingredient_name": "Ếch",
+          "constraint": "no_seafood"
+        },
+        "top1": "thịt xương heo",
+        "top1_id": "ingre06526",
+        "score": 0,
+        "all_subs": [
+          "thịt xương heo",
+          "trứng gà",
+          "suawnf heo"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6015",
+          "dish_name": "Ếch kho nghệ",
+          "ingredient_id": "ingre02673",
+          "ingredient_name": "Hành lá",
+          "constraint": "no_meat"
+        },
+        "top1": "củ cải vàng muối",
+        "top1_id": "ingre01873",
+        "score": 0,
+        "all_subs": [
+          "củ cải vàng muối",
+          "hành lá/ ớt",
+          "giềng"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6610",
+          "dish_name": "Chả giò rế tôm thịt",
+          "ingredient_id": "ingre06963",
+          "ingredient_name": "Tôm tươi",
+          "constraint": null
+        },
+        "top1": "sá sùng khô",
+        "top1_id": "ingre05810",
+        "score": 2,
+        "all_subs": [
+          "sá sùng khô",
+          "g mực",
+          "thịt tôm băm"
+        ]
+      },
+      {
+        "case": {
+          "dish_id": "dish6610",
+          "dish_name": "Chả giò rế tôm thịt",
+          "ingredient_id": "ingre06823",
+          "ingredient_name": "Trứng gà",
+          "constraint": null
+        },
+        "top1": "thịt mỡ heo",
+        "top1_id": "ingre06446",
+        "score": 0,
+        "all_subs": [
+          "thịt mỡ heo",
+          "sá sùng khô",
+          "thịt tôm băm"
+        ]
+      }
+    ]
+  }
+}
