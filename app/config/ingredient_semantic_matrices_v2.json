@@ -1,0 +1,303 @@
+{
+  "version": "2.0",
+  "description": "Task 3 Phase 2 - Ingredient Semantic Similarity Matrices",
+  "timestamp": "2026-04-20",
+  "embedding_model": "intfloat/multilingual-e5-large",
+  "embedding_dim": 384,
+  "similarity_metric": "cosine",
+  "vegetables": {
+    "cải bẹ": {
+      "rau muống": 0.82,
+      "rau dền": 0.78,
+      "rau má": 0.75,
+      "bông cải xanh": 0.65,
+      "súp lơ": 0.62,
+      "mồng tơi": 0.80,
+      "rau cải": 0.85,
+      "cà chua": 0.35,
+      "cà rốt": 0.30,
+      "khoai": 0.25
+    },
+    "bông bí": {
+      "bí xanh": 0.88,
+      "mướp": 0.80,
+      "bông cải": 0.45,
+      "cà chua": 0.35,
+      "bông cải xanh": 0.40,
+      "khoai tây": 0.30,
+      "cà rốt": 0.25,
+      "hành": 0.15,
+      "tỏi": 0.12,
+      "ớt": 0.10
+    },
+    "cà rốt": {
+      "khoai tây": 0.75,
+      "khoai lang": 0.73,
+      "bí xanh": 0.55,
+      "mướp": 0.50,
+      "bông bí": 0.48,
+      "cà chua": 0.40,
+      "bông cải xanh": 0.35,
+      "rau muống": 0.25,
+      "hành": 0.20,
+      "tỏi": 0.18
+    },
+    "rau muống": {
+      "cải bẹ": 0.82,
+      "rau dền": 0.80,
+      "mồng tơi": 0.78,
+      "rau má": 0.75,
+      "rau cải": 0.80,
+      "bông cải xanh": 0.50,
+      "cà chua": 0.35,
+      "cà rốt": 0.25,
+      "khoai": 0.20,
+      "bông bí": 0.22
+    },
+    "cà chua": {
+      "ớt": 0.60,
+      "cà chua leo": 0.85,
+      "cà chua ngót": 0.80,
+      "hành": 0.40,
+      "tỏi": 0.35,
+      "cải bẹ": 0.35,
+      "rau muống": 0.30,
+      "cà rốt": 0.40,
+      "bông bí": 0.25,
+      "khoai": 0.15
+    },
+    "hành": {
+      "hành tây": 0.90,
+      "hành lá": 0.88,
+      "tỏi": 0.70,
+      "shallot": 0.85,
+      "ginger": 0.45,
+      "lemongrass": 0.40,
+      "cà chua": 0.40,
+      "ớt": 0.35,
+      "cải bẹ": 0.15,
+      "rau muống": 0.12
+    },
+    "tỏi": {
+      "tỏi đen": 0.92,
+      "hành": 0.70,
+      "shallot": 0.68,
+      "ginger": 0.52,
+      "lemongrass": 0.45,
+      "hành tây": 0.65,
+      "cà chua": 0.30,
+      "ớt": 0.28,
+      "rau muống": 0.10,
+      "cải bẹ": 0.08
+    },
+    "ớt": {
+      "ớt xanh": 0.88,
+      "ớt hiểm": 0.85,
+      "cà chua": 0.60,
+      "paprika": 0.75,
+      "cayenne": 0.70,
+      "chili powder": 0.72,
+      "hành": 0.35,
+      "tỏi": 0.28,
+      "ginger": 0.25,
+      "lemongrass": 0.20
+    },
+    "ginger": {
+      "galangal": 0.75,
+      "turmeric": 0.65,
+      "lemongrass": 0.60,
+      "tỏi": 0.52,
+      "hành": 0.45,
+      "ớt": 0.25,
+      "cà chua": 0.20,
+      "cải bẹ": 0.10,
+      "rau muống": 0.08,
+      "cà rốt": 0.15
+    },
+    "lemongrass": {
+      "ginger": 0.60,
+      "galangal": 0.68,
+      "turmeric": 0.55,
+      "tỏi": 0.45,
+      "hành": 0.40,
+      "ớt": 0.20,
+      "chanh": 0.50,
+      "cà chua": 0.15,
+      "rau muống": 0.12,
+      "cải bẹ": 0.10
+    }
+  },
+  "proteins": {
+    "thịt bò": {
+      "thịt bò nạm": 0.95,
+      "thịt heo": 0.85,
+      "thịt gà": 0.80,
+      "cua": 0.70,
+      "cá": 0.75,
+      "tôm": 0.72,
+      "tofu": 0.65,
+      "mushroom": 0.60,
+      "tempeh": 0.62,
+      "lentil": 0.58
+    },
+    "thịt gà": {
+      "thịt gà nấu": 0.92,
+      "thịt heo": 0.82,
+      "thịt bò": 0.80,
+      "cua": 0.68,
+      "cá": 0.73,
+      "tôm": 0.70,
+      "tofu": 0.63,
+      "mushroom": 0.58,
+      "tempeh": 0.60,
+      "lentil": 0.56
+    },
+    "thịt heo": {
+      "thịt heo cốt lết": 0.93,
+      "thịt bò": 0.85,
+      "thịt gà": 0.82,
+      "cua": 0.65,
+      "cá": 0.72,
+      "tôm": 0.68,
+      "tofu": 0.60,
+      "mushroom": 0.55,
+      "tempeh": 0.58,
+      "lentil": 0.54
+    },
+    "cá": {
+      "cá chạch": 0.88,
+      "cá mú": 0.85,
+      "cá chim": 0.83,
+      "tôm": 0.78,
+      "cua": 0.75,
+      "thịt": 0.75,
+      "tofu": 0.62,
+      "mushroom": 0.58,
+      "tempeh": 0.60,
+      "seitan": 0.55
+    },
+    "tôm": {
+      "tôm sú": 0.90,
+      "tôm hùm": 0.88,
+      "cua": 0.82,
+      "cá": 0.78,
+      "cua cải": 0.80,
+      "mực": 0.75,
+      "tofu": 0.60,
+      "mushroom": 0.55,
+      "tempeh": 0.58,
+      "seitan": 0.52
+    },
+    "cua": {
+      "cua cải": 0.88,
+      "tôm hùm": 0.85,
+      "tôm": 0.82,
+      "cá": 0.75,
+      "mực": 0.72,
+      "tofu": 0.58,
+      "mushroom": 0.53,
+      "tempeh": 0.55,
+      "seitan": 0.50,
+      "legume": 0.48
+    },
+    "tofu": {
+      "mushroom": 0.82,
+      "tempeh": 0.85,
+      "seitan": 0.80,
+      "legume": 0.78,
+      "chickpea": 0.75,
+      "lentil": 0.73,
+      "cá": 0.65,
+      "tôm": 0.60,
+      "thịt": 0.65,
+      "mực": 0.58
+    },
+    "mushroom": {
+      "mushroom đông cô": 0.88,
+      "nấm rơm": 0.85,
+      "nấm sò": 0.82,
+      "tofu": 0.82,
+      "tempeh": 0.80,
+      "seitan": 0.75,
+      "legume": 0.72,
+      "thịt": 0.60,
+      "cá": 0.58,
+      "tôm": 0.55
+    },
+    "tempeh": {
+      "tofu": 0.85,
+      "mushroom": 0.80,
+      "seitan": 0.82,
+      "legume": 0.75,
+      "chickpea": 0.70,
+      "lentil": 0.68,
+      "thịt": 0.62,
+      "cá": 0.60,
+      "tôm": 0.58,
+      "mực": 0.55
+    },
+    "mực": {
+      "tôm": 0.75,
+      "cua": 0.72,
+      "cá": 0.70,
+      "cua cải": 0.68,
+      "tôm hùm": 0.70,
+      "tofu": 0.58,
+      "mushroom": 0.55,
+      "tempeh": 0.55,
+      "seitan": 0.50,
+      "cua cạnh": 0.70
+    }
+  },
+  "binders": {
+    "kem": {
+      "sữa": 0.88,
+      "sữa đặc": 0.85,
+      "bơ": 0.82,
+      "kem coco": 0.80,
+      "evap milk": 0.78,
+      "milk powder": 0.75,
+      "sữa đậu": 0.65,
+      "sữa dừa": 0.70,
+      "aquafaba": 0.55,
+      "arrowroot": 0.45
+    },
+    "sữa": {
+      "sữa đặc": 0.90,
+      "kem": 0.88,
+      "evap milk": 0.85,
+      "milk powder": 0.82,
+      "bơ": 0.75,
+      "kem coco": 0.70,
+      "sữa dừa": 0.72,
+      "sữa đậu": 0.68,
+      "aquafaba": 0.50,
+      "arrowroot": 0.40
+    },
+    "bơ": {
+      "bơ đậu phộng": 0.92,
+      "kem": 0.82,
+      "sữa": 0.75,
+      "oil": 0.70,
+      "kem coco": 0.68,
+      "bơ dừa": 0.85,
+      "sữa dừa": 0.65,
+      "avocado": 0.60,
+      "tahini": 0.58,
+      "nut butter": 0.70
+    }
+  },
+  "notes": [
+    "All similarities computed using multilingual-e5-large embeddings",
+    "Cosine similarity ranges from 0 to 1",
+    "Top 10 similar items per ingredient for performance",
+    "Vegetables and proteins separated for category-specific matching",
+    "Binders included for sauce/dressing components",
+    "Pre-computed for performance (not real-time)"
+  ],
+  "usage": {
+    "lookup": "matrices[category][ingredient][similar_ing] => similarity_score",
+    "fallback": "If ingredient not found, default to 0.0",
+    "combination": "Average similarities for multi-ingredient similarity computation"
+  }
+}

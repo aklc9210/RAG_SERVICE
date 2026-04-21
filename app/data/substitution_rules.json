@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "description": "Role-based ingredient substitution rules",
+  "rules": {
+    "PRIMARY_PROTEIN": {
+      "no_constraint": {
+        "from": [
+          "cá",
+          "tôm",
+          "thịt",
+          "tofu",
+          "đậu"
+        ],
+        "compatible": {
+          "cá": [
+            "cá chạch",
+            "cá mú",
+            "cá chim",
+            "tofu",
+            "mushroom",
+            "seitan"
+          ],
+          "thịt": [
+            "thịt heo",
+            "thịt bò",
+            "gà",
+            "tofu",
+            "mushroom",
+            "lentil"
+          ],
+          "tôm": [
+            "cá",
+            "cua",
+            "tofu",
+            "mushroom",
+            "tempeh"
+          ],
+          "tofu": [
+            "mushroom",
+            "seitan",
+            "legume",
+            "tempeh"
+          ]
+        }
+      },
+      "vegetarian": {
+        "from": [
+          "cá",
+          "thịt",
+          "tôm",
+          "trứng"
+        ],
+        "to": [
+          "tofu",
+          "mushroom",
+          "lentil",
+          "chickpea",
+          "seitan",
+          "tempeh",
+          "legume"
+        ]
+      },
+      "no_meat": {
+        "from": [
+          "thịt",
+          "cua"
+        ],
+        "to": [
+          "cá",
+          "tôm",
+          "tofu",
+          "mushroom",
+          "legume",
+          "tempeh"
+        ]
+      },
+      "no_seafood": {
+        "from": [
+          "cá",
+          "tôm",
+          "cua",
+          "mực"
+        ],
+        "to": [
+          "thịt",
+          "gà",
+          "tofu",
+          "mushroom",
+          "legume",
+          "seitan"
+        ]
+      }
+    },
+    "BINDER": {
+      "no_constraint": {
+        "from": [
+          "kem",
+          "sữa",
+          "bơ"
+        ],
+        "compatible": {
+          "kem": [
+            "sữa đặc",
+            "bơ",
+            "kem coco",
+            "evap milk"
+          ],
+          "sữa": [
+            "sữa đặc",
+            "kem coco",
+            "milk powder"
+          ],
+          "bơ": [
+            "kem",
+            "sữa đặc",
+            "bơ đậu phộng"
+          ]
+        }
+      },
+      "vegan": {
+        "from": [
+          "kem",
+          "sữa",
+          "bơ",
+          "trứng"
+        ],
+        "to": [
+          "kem coco",
+          "aquafaba",
+          "arrowroot",
+          "bột mì"
+        ]
+      }
+    },
+    "AROMATIC": {
+      "no_constraint": {
+        "hành": [
+          "hành tây",
+          "hành lá",
+          "tỏi"
+        ],
+        "tỏi": [
+          "hành",
+          "ginger",
+          "shallot"
+        ],
+        "ginger": [
+          "galangal",
+          "turmeric",
+          "lemongrass"
+        ],
+        "ớt": [
+          "paprika",
+          "cayenne",
+          "chili powder"
+        ],
+        "chanh": [
+          "lime",
+          "lemon",
+          "vinegar"
+        ]
+      }
+    },
+    "VEGETABLE": {
+      "no_constraint": {
+        "leafy": [
+          "cải bẹ",
+          "rau dền",
+          "rau má",
+          "rau muống"
+        ],
+        "flower": [
+          "bông bí",
+          "hoa đậu"
+        ],
+        "root": [
+          "cà rốt",
+          "cải cứng",
+          "khoai"
+        ],
+        "cruciferous": [
+          "bông cải xanh",
+          "cải bẹ",
+          "súp lơ"
+        ]
+      }
+    }
+  }
+}

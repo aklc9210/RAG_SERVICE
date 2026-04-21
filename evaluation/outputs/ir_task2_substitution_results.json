@@ -13,25 +13,25 @@
       "n_cases": 100
     },
     "npmi_only": {
-      "mean_score": 0.61,
-      "accept_rate": 0.37,
-      "good_rate": 0.24,
+      "mean_score": 0.62,
+      "accept_rate": 0.36,
+      "good_rate": 0.26,
       "score_dist": {
-        "0": 63,
-        "1": 13,
-        "2": 24
+        "0": 64,
+        "1": 10,
+        "2": 26
       },
       "n_empty": 8,
       "n_cases": 100
     },
     "full_ontology": {
-      "mean_score": 0.73,
-      "accept_rate": 0.41,
-      "good_rate": 0.32,
+      "mean_score": 0.79,
+      "accept_rate": 0.45,
+      "good_rate": 0.34,
       "score_dist": {
-        "0": 59,
-        "1": 9,
-        "2": 32
+        "0": 55,
+        "1": 11,
+        "2": 34
       },
       "n_empty": 0,
       "n_cases": 100
@@ -1198,7 +1198,7 @@
         },
         "top1": "double cream",
         "top1_id": "ingre01951",
-        "score": 0,
+        "score": 1,
         "all_subs": [
           "double cream",
           "sữa tươi không đường - đun nóng 60 độ",
@@ -1702,7 +1702,7 @@
         },
         "top1": "siro bắp",
         "top1_id": "ingre05676",
-        "score": 0,
+        "score": 1,
         "all_subs": [
           "siro bắp",
           "nước tương ngọt đậm",
@@ -1719,7 +1719,7 @@
         },
         "top1": "thịt vai",
         "top1_id": "ingre06512",
-        "score": 1,
+        "score": 0,
         "all_subs": [
           "thịt vai",
           "phi lê thịt đùi gà",
@@ -2075,7 +2075,7 @@
         },
         "top1": "nước cà phê đen",
         "top1_id": "ingre04523",
-        "score": 1,
+        "score": 0,
         "all_subs": [
           "nước cà phê đen",
           "cà phê cold brew",
@@ -2473,7 +2473,7 @@
         },
         "top1": "bánh phở tươi",
         "top1_id": "ingre00029",
-        "score": 1,
+        "score": 2,
         "all_subs": [
           "bánh phở tươi",
           "bánh phở vuông",
@@ -2490,7 +2490,7 @@
         },
         "top1": "g trứng nguyên",
         "top1_id": "ingre02234",
-        "score": 1,
+        "score": 2,
         "all_subs": [
           "g trứng nguyên",
           "gà mái",
@@ -2705,7 +2705,7 @@
         },
         "top1": "ba ba",
         "top1_id": "ingre00004",
-        "score": 1,
+        "score": 0,
         "all_subs": [
           "ba ba",
           "ba khía",
@@ -3322,7 +3322,7 @@
         },
         "top1": "bo bo",
         "top1_id": "ingre00041",
-        "score": 2,
+        "score": 1,
         "all_subs": [
           "bo bo",
           "boa rô bằm nhuyễn",
@@ -3441,7 +3441,7 @@
         },
         "top1": "bột nấm",
         "top1_id": "ingre00858",
-        "score": 1,
+        "score": 2,
         "all_subs": [
           "bột nấm",
           "chân nấm hương khô",
@@ -4057,13 +4057,13 @@
           "ingredient_name": "Cam vàng Mỹ",
           "constraint": "no_seafood"
         },
-        "top1": "quả cà đắng",
-        "top1_id": "ingre05158",
+        "top1": "mít ráo chín nguyên hạt",
+        "top1_id": "ingre04036",
         "score": 0,
         "all_subs": [
-          "quả cà đắng",
-          "vỏ cam tươi",
-          "kiwi vàng"
+          "mít ráo chín nguyên hạt",
+          "puree thanh long đỏ",
+          "dừa non"
         ]
       },
       {
@@ -4074,13 +4074,13 @@
           "ingredient_name": "Whipping cream",
           "constraint": null
         },
-        "top1": "đá lạnh",
-        "top1_id": "ingre07519",
+        "top1": "ô liu",
+        "top1_id": "ingre07472",
         "score": 0,
         "all_subs": [
-          "đá lạnh",
-          "rễ sâm",
-          "thịt thanh long ruột đỏ"
+          "ô liu",
+          "bột màu thực phẩm cam",
+          "vỏ hộp sữa"
         ]
       },
       {
@@ -4097,7 +4097,7 @@
         "all_subs": [
           "ngũ cốc nướng",
           "ngũ cốc socola",
-          "mè đen đã rang"
+          "hạt hỗn hợp sấy khô"
         ]
       },
       {
@@ -4125,13 +4125,13 @@
           "ingredient_name": "Sợi bánh canh",
           "constraint": null
         },
-        "top1": "bánh tráng mè đen",
-        "top1_id": "ingre00197",
-        "score": 0,
+        "top1": "mì lẩu",
+        "top1_id": "ingre03977",
+        "score": 1,
         "all_subs": [
-          "bánh tráng mè đen",
-          "sợi mì ý",
-          "mì misua"
+          "mì lẩu",
+          "bánh đa nem",
+          "đậu ván khô"
         ]
       },
       {
@@ -4142,12 +4142,12 @@
           "ingredient_name": "Trứng cút",
           "constraint": null
         },
-        "top1": "mai cua sạch",
-        "top1_id": "ingre03633",
+        "top1": "tóp mỡ băm nhỏ",
+        "top1_id": "ingre06928",
         "score": 0,
         "all_subs": [
-          "mai cua sạch",
           "tóp mỡ băm nhỏ",
+          "mai cua sạch",
           "bong bóng cá khô"
         ]
       },
@@ -4164,8 +4164,8 @@
         "score": 2,
         "all_subs": [
           "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím",
-          "nui ngôi sao",
-          "đậu nành lông"
+          "nếp",
+          "bột nếp lọc"
         ]
       },
       {
@@ -4176,13 +4176,13 @@
           "ingredient_name": "G  hướng dương",
           "constraint": null
         },
-        "top1": "đá lạnh",
-        "top1_id": "ingre07519",
+        "top1": "ô liu",
+        "top1_id": "ingre07472",
         "score": 0,
         "all_subs": [
-          "đá lạnh",
-          "rễ sâm",
-          "thịt thanh long ruột đỏ"
+          "ô liu",
+          "bột màu thực phẩm cam",
+          "vỏ hộp sữa"
         ]
       },
       {
@@ -4193,13 +4193,13 @@
           "ingredient_name": "Bột mì số 13",
           "constraint": null
         },
-        "top1": "bột há cảo",
-        "top1_id": "ingre00684",
+        "top1": "bột làm bánh",
+        "top1_id": "ingre00313",
         "score": 0,
         "all_subs": [
-          "bột há cảo",
-          "bánh hỏi",
-          "bột trà xanh nguyên chất"
+          "bột làm bánh",
+          "bột yến mạch xay",
+          "tinh bột đậu xanh"
         ]
       },
       {
@@ -4210,13 +4210,13 @@
           "ingredient_name": "Men nở",
           "constraint": "no_seafood"
         },
-        "top1": "bơ.",
-        "top1_id": "ingre00421",
+        "top1": "sốt cà cô đặc",
+        "top1_id": "ingre05951",
         "score": 0,
         "all_subs": [
-          "bơ.",
           "sốt cà cô đặc",
-          "bột cam"
+          "bột cam",
+          "bơ."
         ]
       },
       {
@@ -4227,13 +4227,13 @@
           "ingredient_name": "Cá hường",
           "constraint": "no_seafood"
         },
-        "top1": "thịt xương heo",
-        "top1_id": "ingre06526",
+        "top1": "sườn thăn heo",
+        "top1_id": "ingre05897",
         "score": 0,
         "all_subs": [
-          "thịt xương heo",
-          "trứng gà",
-          "suawnf heo"
+          "sườn thăn heo",
+          "trứng cút",
+          "giã đỗ"
         ]
       },
       {
@@ -4250,7 +4250,7 @@
         "all_subs": [
           "ớt sừng cắt sừng",
           "ớt",
-          "ớt khô xay nhỏ"
+          "tỏi và ớt băm nhỏ"
         ]
       },
       {
@@ -4261,13 +4261,13 @@
           "ingredient_name": "Sườn chay khô",
           "constraint": null
         },
-        "top1": "hạt me chua",
-        "top1_id": "ingre02969",
-        "score": 0,
+        "top1": "hoành thánh lá khô",
+        "top1_id": "ingre02622",
+        "score": 1,
         "all_subs": [
-          "hạt me chua",
-          "chả quế chay",
-          "kataifi"
+          "hoành thánh lá khô",
+          "tổ yến thô",
+          "bánh chưng"
         ]
       },
       {
@@ -4295,13 +4295,13 @@
           "ingredient_name": "Mực tươi",
           "constraint": null
         },
-        "top1": "chân vịt rút xương",
-        "top1_id": "ingre01248",
-        "score": 0,
+        "top1": "tôm càng",
+        "top1_id": "ingre06934",
+        "score": 1,
         "all_subs": [
-          "chân vịt rút xương",
-          "cá chình",
-          "cá chạch"
+          "tôm càng",
+          "phi lê cá mòi",
+          "chả cá thác lác sống"
         ]
       },
       {
@@ -4312,13 +4312,13 @@
           "ingredient_name": "Cà rốt",
           "constraint": "vegetarian"
         },
-        "top1": "củ cải đỏ radish",
-        "top1_id": "ingre01877",
-        "score": 1,
+        "top1": "hạt ngô non",
+        "top1_id": "ingre02990",
+        "score": 0,
         "all_subs": [
-          "củ cải đỏ radish",
           "hạt ngô non",
-          "su hào nhỏ"
+          "su hào nhỏ",
+          "củ cải đỏ radish"
         ]
       },
       {
@@ -4329,13 +4329,13 @@
           "ingredient_name": "Bạch tuộc",
           "constraint": "no_meat"
         },
-        "top1": "cá chình",
-        "top1_id": "ingre01498",
+        "top1": "cá mú",
+        "top1_id": "ingre01568",
         "score": 0,
         "all_subs": [
-          "cá chình",
-          "cá chạch",
-          "cá mú"
+          "cá mú",
+          "mực một nắng",
+          "răng mực"
         ]
       },
       {
@@ -4348,7 +4348,7 @@
         },
         "top1": "nấm rơm",
         "top1_id": "ingre04953",
-        "score": 2,
+        "score": 0,
         "all_subs": [
           "nấm rơm",
           "nấm bào ngư",
@@ -4363,13 +4363,13 @@
           "ingredient_name": "Đầu cá hồi",
           "constraint": null
         },
-        "top1": "cá ngát",
-        "top1_id": "ingre01575",
+        "top1": "cá chép giòn",
+        "top1_id": "ingre01493",
         "score": 2,
         "all_subs": [
+          "cá chép giòn",
           "cá ngát",
-          "cá lăng",
-          "cá tầm"
+          "cá lăng"
         ]
       },
       {
@@ -4397,13 +4397,13 @@
           "ingredient_name": "Cá chẽm",
           "constraint": "no_seafood"
         },
-        "top1": "thịt xương heo",
-        "top1_id": "ingre06526",
+        "top1": "sườn thăn heo",
+        "top1_id": "ingre05897",
         "score": 0,
         "all_subs": [
-          "thịt xương heo",
-          "trứng gà",
-          "suawnf heo"
+          "sườn thăn heo",
+          "trứng cút",
+          "giã đỗ"
         ]
       },
       {
@@ -4470,8 +4470,8 @@
         "score": 2,
         "all_subs": [
           "thịt nạt vai",
-          "thịt ức gà xay",
-          "thịt gà phi lê"
+          "viên thả lẩu",
+          "xương gà"
         ]
       },
       {
@@ -4487,8 +4487,8 @@
         "score": 0,
         "all_subs": [
           "măng tây",
-          "rau diếp cá",
-          "cải kale"
+          "bắp cải tím",
+          "khổ qua"
         ]
       },
       {
@@ -4499,13 +4499,13 @@
           "ingredient_name": "Thịt sầu riêng",
           "constraint": "no_seafood"
         },
-        "top1": "nhãn",
-        "top1_id": "ingre04434",
-        "score": 0,
+        "top1": "nhãn nhục",
+        "top1_id": "ingre04438",
+        "score": 2,
         "all_subs": [
-          "nhãn",
           "nhãn nhục",
-          "đá lạnh"
+          "nhãn",
+          "ô liu"
         ]
       },
       {
@@ -4522,7 +4522,7 @@
         "all_subs": [
           "sữa dừa không đường",
           "sữa thực vật không đường",
-          "váng sữa"
+          "sữa chua để dùng làm men"
         ]
       },
       {
@@ -4538,8 +4538,8 @@
         "score": 1,
         "all_subs": [
           "tôm khô",
-          "chân vịt rút xương",
-          "cá chình"
+          "tôm càng",
+          "phi lê cá mòi"
         ]
       },
       {
@@ -4567,13 +4567,13 @@
           "ingredient_name": "Ức gà",
           "constraint": "no_meat"
         },
-        "top1": "huyết bò",
-        "top1_id": "ingre02625",
+        "top1": "trứng cút",
+        "top1_id": "ingre06795",
         "score": 0,
         "all_subs": [
-          "huyết bò",
-          "trứng gà",
-          "chân vịt rút xương"
+          "trứng cút",
+          "tôm càng",
+          "phi lê cá mòi"
         ]
       },
       {
@@ -4589,8 +4589,8 @@
         "score": 0,
         "all_subs": [
           "nước ớt đặc",
-          "hoa đậu biếc sấy khô",
-          "ớt xay nhuyễn"
+          "ớt xay nhuyễn",
+          "hoa đậu biếc sấy khô"
         ]
       },
       {
@@ -4601,13 +4601,13 @@
           "ingredient_name": "Củ năng",
           "constraint": "no_seafood"
         },
-        "top1": "củ dền",
-        "top1_id": "ingre01880",
+        "top1": "khoai mì",
+        "top1_id": "ingre03203",
         "score": 2,
         "all_subs": [
-          "củ dền",
-          "khoai lang tím",
-          "khoai mì"
+          "khoai mì",
+          "khoai lang",
+          "khoai lang tím"
         ]
       },
       {
@@ -4618,12 +4618,12 @@
           "ingredient_name": "Mía lau",
           "constraint": "no_meat"
         },
-        "top1": "bột chanh dây",
-        "top1_id": "ingre00594",
+        "top1": "lá sen khô",
+        "top1_id": "ingre03517",
         "score": 0,
         "all_subs": [
-          "bột chanh dây",
-          "mía nướng",
+          "lá sen khô",
+          "hạnh nhân ngọt",
           "bồ công anh"
         ]
       },
@@ -4635,12 +4635,12 @@
           "ingredient_name": "Bột mì số 8",
           "constraint": "vegetarian"
         },
-        "top1": "đường ngô",
-        "top1_id": "ingre07624",
-        "score": 0,
+        "top1": "bột làm bánh",
+        "top1_id": "ingre00313",
+        "score": 2,
         "all_subs": [
-          "đường ngô",
           "bột làm bánh",
+          "đường ngô",
           "bột trà xanh/ bột men gạo đỏ/ bột khoai lang tím"
         ]
       },
@@ -4658,7 +4658,7 @@
         "all_subs": [
           "lòng trắng trứng",
           "shorterning",
-          "lòng trắng trứng đánh bông"
+          "bột sương sáo hạt é"
         ]
       },
       {
@@ -4692,7 +4692,7 @@
         "all_subs": [
           "rau cần tàu",
           "rau cải cúc",
-          "rau muống chẻ"
+          "củ cần"
         ]
       },
       {
@@ -4703,13 +4703,13 @@
           "ingredient_name": "Vây cá hồi",
           "constraint": null
         },
-        "top1": "cá cam",
-        "top1_id": "ingre01482",
+        "top1": "cá chim",
+        "top1_id": "ingre01485",
         "score": 1,
         "all_subs": [
-          "cá cam",
-          "cá ngừ",
-          "cá diêu hồng"
+          "cá chim",
+          "cá chẽm",
+          "cá nục"
         ]
       },
       {
@@ -4754,13 +4754,13 @@
           "ingredient_name": "Rau câu dẻo",
           "constraint": "no_meat"
         },
-        "top1": "bột kem trứng",
-        "top1_id": "ingre00706",
+        "top1": "hạt sen bỏ tim",
+        "top1_id": "ingre03030",
         "score": 0,
         "all_subs": [
-          "bột kem trứng",
-          "sô cô la đen nguyên chất",
-          "bột nở  (baking powder)"
+          "hạt sen bỏ tim",
+          "bột cacao nâu",
+          "tỏi phi"
         ]
       },
       {
@@ -4771,13 +4771,13 @@
           "ingredient_name": "Xúc xích",
           "constraint": "no_seafood"
         },
-        "top1": "mề gà",
-        "top1_id": "ingre04173",
+        "top1": "dồi trường",
+        "top1_id": "ingre02148",
         "score": 2,
         "all_subs": [
-          "mề gà",
-          "sụn gà",
-          "dồi trường"
+          "dồi trường",
+          "chả lụa",
+          "sụn gà"
         ]
       },
       {
@@ -4794,7 +4794,7 @@
         "all_subs": [
           "ớt chuông",
           "bông cải xanh",
-          "hành tây cắt múi cau"
+          "rau mầm hoặc xà lách"
         ]
       },
       {
@@ -4805,13 +4805,13 @@
           "ingredient_name": "Sữa chua không đường",
           "constraint": null
         },
-        "top1": "sữa chua có đường",
-        "top1_id": "ingre06091",
-        "score": 1,
+        "top1": "sữa ông thọ",
+        "top1_id": "ingre06167",
+        "score": 2,
         "all_subs": [
-          "sữa chua có đường",
-          "sữa chua:",
-          "sữa chua"
+          "sữa ông thọ",
+          "sữa chua uống ít đường",
+          "sữa chua"
         ]
       },
       {
@@ -4827,8 +4827,8 @@
         "score": 0,
         "all_subs": [
           "heavycream",
-          "viên phô mai",
-          "phô mai mềm"
+          "sữa chua uống ít đường",
+          "viên phô mai"
         ]
       },
       {
@@ -4839,13 +4839,13 @@
           "ingredient_name": "Thịt ba chỉ",
           "constraint": null
         },
-        "top1": "thịt xương heo",
-        "top1_id": "ingre06526",
-        "score": 0,
+        "top1": "sườn thăn heo",
+        "top1_id": "ingre05897",
+        "score": 2,
         "all_subs": [
-          "thịt xương heo",
-          "suawnf heo",
-          "thì là"
+          "sườn thăn heo",
+          "mỡ miếng",
+          "gà nguyên"
         ]
       },
       {
@@ -4856,13 +4856,13 @@
           "ingredient_name": "Bột cà ri",
           "constraint": null
         },
-        "top1": "đậu hũ viên chiên",
-        "top1_id": "ingre07760",
+        "top1": "hành tím ngâm chua",
+        "top1_id": "ingre02787",
         "score": 0,
         "all_subs": [
-          "đậu hũ viên chiên",
+          "hành tím ngâm chua",
           "bánh quy vani",
-          "g bánh phồng m (đã chiên giòn"
+          "chả chiên"
         ]
       },
       {
@@ -4873,13 +4873,13 @@
           "ingredient_name": "Chân gà chay",
           "constraint": "vegetarian"
         },
-        "top1": "hạt me chua",
-        "top1_id": "ingre02969",
+        "top1": "hoành thánh lá khô",
+        "top1_id": "ingre02622",
         "score": 0,
         "all_subs": [
-          "hạt me chua",
-          "chả quế chay",
-          "kataifi"
+          "hoành thánh lá khô",
+          "tổ yến thô",
+          "bánh chưng"
         ]
       },
       {
@@ -4907,13 +4907,13 @@
           "ingredient_name": "Bơ chín",
           "constraint": "vegetarian"
         },
-        "top1": "quả cà đắng",
-        "top1_id": "ingre05158",
-        "score": 0,
+        "top1": "mít ráo chín nguyên hạt",
+        "top1_id": "ingre04036",
+        "score": 2,
         "all_subs": [
-          "quả cà đắng",
-          "vỏ cam tươi",
-          "kiwi vàng"
+          "mít ráo chín nguyên hạt",
+          "puree thanh long đỏ",
+          "dừa non"
         ]
       },
       {
@@ -4924,13 +4924,13 @@
           "ingredient_name": "Trà Lipton",
           "constraint": null
         },
-        "top1": "mì ramen hoặc mì udon ăn liền",
-        "top1_id": "ingre03984",
+        "top1": "mì yakisoba nấu sẵn",
+        "top1_id": "ingre04018",
         "score": 0,
         "all_subs": [
-          "mì ramen hoặc mì udon ăn liền",
-          "mì indomie",
-          "soda vải"
+          "mì yakisoba nấu sẵn",
+          "men nở khô instant không cần kích hoạt",
+          "men bánh mì loại instant"
         ]
       },
       {
@@ -4941,13 +4941,13 @@
           "ingredient_name": "Cá đuối",
           "constraint": null
         },
-        "top1": "chân vịt rút xương",
-        "top1_id": "ingre01248",
-        "score": 0,
+        "top1": "tôm càng",
+        "top1_id": "ingre06934",
+        "score": 1,
         "all_subs": [
-          "chân vịt rút xương",
-          "cá chình",
-          "cá chạch"
+          "tôm càng",
+          "phi lê cá mòi",
+          "chả cá thác lác sống"
         ]
       },
       {
@@ -4964,7 +4964,7 @@
         "all_subs": [
           "cần tây",
           "cà rốt",
-          "lá cà ri"
+          "hành tây nhỏ"
         ]
       },
       {
@@ -4980,8 +4980,8 @@
         "score": 2,
         "all_subs": [
           "khoai mì",
-          "đủ đủ",
-          "củ năng"
+          "khoai mì",
+          "ít cà rốt bào sợi"
         ]
       },
       {
@@ -4992,13 +4992,13 @@
           "ingredient_name": "Hạt chia",
           "constraint": "no_seafood"
         },
-        "top1": "hạt me chua",
-        "top1_id": "ingre02969",
-        "score": 1,
+        "top1": "hoành thánh lá khô",
+        "top1_id": "ingre02622",
+        "score": 0,
         "all_subs": [
-          "hạt me chua",
-          "chả quế chay",
-          "kataifi"
+          "hoành thánh lá khô",
+          "tổ yến thô",
+          "bánh chưng"
         ]
       },
       {
@@ -5014,8 +5014,8 @@
         "score": 2,
         "all_subs": [
           "trứng gà tươi",
-          "sụn ức gà",
-          "thịt lạp"
+          "thịt lạp",
+          "xúc xích thịt heo loại ngon"
         ]
       },
       {
@@ -5031,8 +5031,8 @@
         "score": 0,
         "all_subs": [
           "nước đường bánh nướng  (hoặc thay bằng mật ong)",
-          "bột sư tử  (custard powder)",
-          "lòng đỏ trứng muối nghiền nhuyễn  (hơn 1 quả)"
+          "lòng đỏ trứng muối nghiền nhuyễn  (hơn 1 quả)",
+          "bột sư tử  (custard powder)"
         ]
       },
       {
@@ -5043,13 +5043,13 @@
           "ingredient_name": "Chim bồ câu",
           "constraint": null
         },
-        "top1": "đùi gà",
-        "top1_id": "ingre07551",
+        "top1": "thịt ức ngan",
+        "top1_id": "ingre06546",
         "score": 2,
         "all_subs": [
-          "đùi gà",
-          "chân gà",
-          "chim cúm núm"
+          "thịt ức ngan",
+          "chim cút",
+          "đùi gà"
         ]
       },
       {
@@ -5066,7 +5066,7 @@
         "all_subs": [
           "ngọc trúc",
           "giá sống",
-          "rau quế/ ngò gai"
+          "hoàng kỳ"
         ]
       },
       {
@@ -5077,13 +5077,13 @@
           "ingredient_name": "Đậu đũa",
           "constraint": null
         },
-        "top1": "lá cà ri",
-        "top1_id": "ingre03402",
+        "top1": "hành tây nhỏ",
+        "top1_id": "ingre02759",
         "score": 0,
         "all_subs": [
-          "lá cà ri",
-          "rau nhút lặt sạch",
-          "dưa leo/ cà chua"
+          "hành tây nhỏ",
+          "cải xoong baby",
+          "ve sầu"
         ]
       },
       {
@@ -5145,12 +5145,12 @@
           "ingredient_name": "Trứng gà",
           "constraint": "vegetarian"
         },
-        "top1": "nấm mỗi loại",
-        "top1_id": "ingre04943",
+        "top1": "mộc hoa",
+        "top1_id": "ingre04178",
         "score": 0,
         "all_subs": [
-          "nấm mỗi loại",
           "mộc hoa",
+          "nấm   cây",
           "mộc nhĩ tươi"
         ]
       },
@@ -5167,8 +5167,8 @@
         "score": 2,
         "all_subs": [
           "khoai sọ",
-          "củ cải trắng",
-          "rau bí"
+          "khoai lang",
+          "khoai lang tím"
         ]
       },
       {
@@ -5184,8 +5184,8 @@
         "score": 2,
         "all_subs": [
           "bột mì số  11",
-          "bột bán",
-          "bột sắn dây hoặc bột năng"
+          "bột sắn dây hoặc bột năng",
+          "bột bán"
         ]
       },
       {
@@ -5196,12 +5196,12 @@
           "ingredient_name": "Men",
           "constraint": null
         },
-        "top1": "bột bán",
-        "top1_id": "ingre00518",
-        "score": 0,
+        "top1": "bột sắn dây hoặc bột năng",
+        "top1_id": "ingre00929",
+        "score": 2,
         "all_subs": [
-          "bột bán",
           "bột sắn dây hoặc bột năng",
+          "bột bán",
           "tinh bột mì"
         ]
       },
@@ -5213,13 +5213,13 @@
           "ingredient_name": "Sườn cốt lết",
           "constraint": "no_seafood"
         },
-        "top1": "ức gà",
-        "top1_id": "ingre08103",
-        "score": 2,
+        "top1": "thịt ba chỉ",
+        "top1_id": "ingre06275",
+        "score": 1,
         "all_subs": [
-          "ức gà",
-          "thịt heo",
-          "sườn"
+          "thịt ba chỉ",
+          "sườn que",
+          "sườn non"
         ]
       },
       {
@@ -5230,13 +5230,13 @@
           "ingredient_name": "Phô mai miếng",
           "constraint": null
         },
-        "top1": "creamcheese",
-        "top1_id": "ingre01332",
+        "top1": "phomai mozzarella",
+        "top1_id": "ingre05050",
         "score": 2,
         "all_subs": [
-          "creamcheese",
-          "phô mai ricotta",
-          "miếng phô mai mozzarella"
+          "phomai mozzarella",
+          "phô mai morazella",
+          "phô mai gouda"
         ]
       },
       {
@@ -5252,8 +5252,8 @@
         "score": 0,
         "all_subs": [
           "nấm rơm búp",
-          "nấm mỗi loại",
-          "đậu hủ khuôn"
+          "giã đỗ",
+          "nấm bào ngư xám"
         ]
       },
       {
@@ -5264,13 +5264,13 @@
           "ingredient_name": "Khô bò sợi",
           "constraint": "no_seafood"
         },
-        "top1": "khô bò đen",
-        "top1_id": "ingre03241",
+        "top1": "khô bò  xé sợi",
+        "top1_id": "ingre03239",
         "score": 2,
         "all_subs": [
-          "khô bò đen",
           "khô bò  xé sợi",
-          "đậu phộng."
+          "xương heo hoặc xương ống",
+          "ức gà xay nhuyễn"
         ]
       },
       {
@@ -5287,7 +5287,7 @@
         "all_subs": [
           "bún ăn kèm",
           "bột làm bánh",
-          "bột há cảo"
+          "bột làm bánh"
         ]
       },
       {
@@ -5315,13 +5315,13 @@
           "ingredient_name": "Chân gà",
           "constraint": "vegetarian"
         },
-        "top1": "nấm mỗi loại",
-        "top1_id": "ingre04943",
+        "top1": "giã đỗ",
+        "top1_id": "ingre02344",
         "score": 0,
         "all_subs": [
-          "nấm mỗi loại",
-          "đậu hủ khuôn",
-          "nấm hương"
+          "giã đỗ",
+          "nấm bào ngư xám",
+          "tảo bẹ"
         ]
       },
       {
@@ -5337,8 +5337,8 @@
         "score": 2,
         "all_subs": [
           "riềng",
-          "húng ủi",
-          "dầu tỏi phi thơm"
+          "dầu tỏi phi thơm",
+          "húng ủi"
         ]
       },
       {
@@ -5354,8 +5354,8 @@
         "score": 0,
         "all_subs": [
           "trái giác",
-          "cải thảo sấy khô",
-          "me chua khô"
+          "me chua khô",
+          "cải thảo sấy khô"
         ]
       },
       {
@@ -5383,13 +5383,13 @@
           "ingredient_name": "Mì somen",
           "constraint": "vegetarian"
         },
-        "top1": "bánh tráng mè đen",
-        "top1_id": "ingre00197",
-        "score": 0,
+        "top1": "mì lẩu",
+        "top1_id": "ingre03977",
+        "score": 1,
         "all_subs": [
-          "bánh tráng mè đen",
-          "sợi mì ý",
-          "mì misua"
+          "mì lẩu",
+          "bánh đa nem",
+          "đậu ván khô"
         ]
       },
       {
@@ -5417,13 +5417,13 @@
           "ingredient_name": "Trà đen",
           "constraint": "vegetarian"
         },
-        "top1": "trà xanh khô",
-        "top1_id": "ingre06733",
-        "score": 2,
+        "top1": "macchiato",
+        "top1_id": "ingre03632",
+        "score": 0,
         "all_subs": [
-          "trà xanh khô",
-          "trà đen dạng lá nhuyễn",
-          "trà đào lipton"
+          "macchiato",
+          "trà túi lọc atiso",
+          "trà xanh hoa nhài"
         ]
       },
       {
@@ -5456,8 +5456,8 @@
         "score": 0,
         "all_subs": [
           "mì cay",
-          "bánh tráng mè đen",
-          "sợi mì ý"
+          "mì lẩu",
+          "bánh đa nem"
         ]
       },
       {
@@ -5473,8 +5473,8 @@
         "score": 0,
         "all_subs": [
           "đậu hũ non",
-          "lá cà ri",
-          "rau nhút lặt sạch"
+          "hành tây nhỏ",
+          "cải xoong baby"
         ]
       },
       {
@@ -5519,13 +5519,13 @@
           "ingredient_name": "Đậu hủ non",
           "constraint": "vegetarian"
         },
-        "top1": "đậu hủ khuôn",
-        "top1_id": "ingre07764",
+        "top1": "giã đỗ",
+        "top1_id": "ingre02344",
         "score": 1,
         "all_subs": [
-          "đậu hủ khuôn",
-          "đậu đen",
-          "đậu hũ trắng:100 g"
+          "giã đỗ",
+          "tàu hũ ki lá",
+          "đậu hũ trắng"
         ]
       },
       {
@@ -5536,13 +5536,13 @@
           "ingredient_name": "Chà bông",
           "constraint": null
         },
-        "top1": "đậu hũ viên chiên",
-        "top1_id": "ingre07760",
-        "score": 2,
+        "top1": "hành tím ngâm chua",
+        "top1_id": "ingre02787",
+        "score": 0,
         "all_subs": [
-          "đậu hũ viên chiên",
+          "hành tím ngâm chua",
           "bánh quy vani",
-          "g bánh phồng m (đã chiên giòn"
+          "chả chiên"
         ]
       },
       {
@@ -5576,7 +5576,7 @@
         "all_subs": [
           "nước chanh dây cả hạt",
           "hành tây bào",
-          "nước mắm mặn"
+          "muối biển"
         ]
       },
       {
@@ -5587,12 +5587,12 @@
           "ingredient_name": "Ốc mít",
           "constraint": null
         },
-        "top1": "chả nấm",
-        "top1_id": "ingre01300",
+        "top1": "gạch cua còn nguyên",
+        "top1_id": "ingre02430",
         "score": 0,
         "all_subs": [
-          "chả nấm",
           "gạch cua còn nguyên",
+          "chả nấm",
           "cua đồng xay"
         ]
       },
@@ -5604,12 +5604,12 @@
           "ingredient_name": "Lá chanh",
           "constraint": null
         },
-        "top1": "rau cần ta",
-        "top1_id": "ingre05240",
+        "top1": "rau dớn tươi",
+        "top1_id": "ingre05253",
         "score": 2,
         "all_subs": [
-          "rau cần ta",
           "rau dớn tươi",
+          "rau cần ta",
           "bần"
         ]
       },
@@ -5621,13 +5621,13 @@
           "ingredient_name": "Ức gà",
           "constraint": null
         },
-        "top1": "thịt ba rọi",
-        "top1_id": "ingre06289",
-        "score": 1,
+        "top1": "sườn sụn",
+        "top1_id": "ingre05894",
+        "score": 0,
         "all_subs": [
-          "thịt ba rọi",
           "sườn sụn",
-          "thịt đùi heo"
+          "thịt lợn mán",
+          "lòng bò"
         ]
       },
       {
@@ -5655,13 +5655,13 @@
           "ingredient_name": "Cá ngừ",
           "constraint": "no_seafood"
         },
-        "top1": "thịt xương heo",
-        "top1_id": "ingre06526",
+        "top1": "sườn thăn heo",
+        "top1_id": "ingre05897",
         "score": 0,
         "all_subs": [
-          "thịt xương heo",
-          "trứng gà",
-          "suawnf heo"
+          "sườn thăn heo",
+          "trứng cút",
+          "giã đỗ"
         ]
       },
       {
@@ -5677,8 +5677,8 @@
         "score": 2,
         "all_subs": [
           "tỏi (cắt lát",
-          "tỏi và hành tím băm nhỏ",
-          "tỏi băm/ hành băm"
+          "gừng xắt sợi",
+          "tỏi và hành tím băm nhỏ"
         ]
       },
       {
@@ -5689,13 +5689,13 @@
           "ingredient_name": "Ếch",
           "constraint": "no_seafood"
         },
-        "top1": "thịt xương heo",
-        "top1_id": "ingre06526",
+        "top1": "sườn thăn heo",
+        "top1_id": "ingre05897",
         "score": 0,
         "all_subs": [
-          "thịt xương heo",
-          "trứng gà",
-          "suawnf heo"
+          "sườn thăn heo",
+          "trứng cút",
+          "giã đỗ"
         ]
       },
       {

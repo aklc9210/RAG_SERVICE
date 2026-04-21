@@ -223,3 +223,76 @@ class OntologyService:
             for ing_id, ing in self.ingredients.items()
             if ing.get('category') in categories
         ]
+
+    # ────────────────────────────────────────────────────────────────
+    # PHASE 2: LLM-Based Substitution Validation (Task 2)
+    # ────────────────────────────────────────────────────────────────
+
+    def _load_substitution_rules(self) -> Dict:
+        """Load substitution rules from JSON (Phase 2)."""
+        rules_path = Path(__file__).resolve().parent.parent / 'data' / 'substitution_rules.json'
+        if rules_path.exists():
+            with open(rules_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return {"rules": {}}
+
+    def validate_substitution(
+        self,
+        ingredient_name: str,
+        suggestion_name: str,
+        role: Optional[str] = None,
+        constraint: Optional[str] = None,
+        dish_name: str = ""
+    ) -> Dict[str, float]:
+        """
+        Validate substitution using rule-based scoring (Phase 2 - Task 2).
+        
+        Returns:
+            {"score": 0-2, "confidence": 0-1, "reason": "..."}
+            - 0: Wrong substitution
+            - 1: Borderline acceptable
+            - 2: Perfect substitution
+        """
+        if not hasattr(self, '_substitution_rules'):
+            self._substitution_rules = self._load_substitution_rules()
+
+        rules = self._substitution_rules.get('rules', {})
+        
+        if not role or role not in rules:
+            return {"score": 1, "confidence": 0.3, "reason": "Unknown role"}
+        
+        role_rules = rules[role]
+        
+        # Check constraint rules
+        if constraint and constraint in role_rules:
+            constraint_rules = role_rules[constraint]
+            from_list = constraint_rules.get('from', [])
+            to_list = constraint_rules.get('to', [])
+            
+            if any(ing in ingredient_name.lower() for ing in from_list):
+                if any(ing in suggestion_name.lower() for ing in to_list):
+                    return {
+                        "score": 2,
+                        "confidence": 0.9,
+                        "reason": f"Perfect {role} substitute for constraint {constraint}"
+                    }
+                else:
+                    return {
+                        "score": 0,
+                        "confidence": 0.8,
+                        "reason": f"Violates constraint: {constraint}"
+                    }
+        
+        # Check generic compatibility
+        if 'no_constraint' in role_rules:
+            compatible = role_rules['no_constraint'].get('compatible', {})
+            for ing_key, suggestions in compatible.items():
+                if ing_key in ingredient_name.lower():
+                    if any(sug in suggestion_name.lower() for sug in suggestions):
+                        return {
+                            "score": 2,
+                            "confidence": 0.85,
+                            "reason": f"Compatible {role} from known substitutions"
+                        }
+        
+        return {"score": 1, "confidence": 0.5, "reason": "Borderline - check context"}

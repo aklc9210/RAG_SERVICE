@@ -1,0 +1,271 @@
+{
+  "task1": {
+    "total_queries": 200,
+    "system_performance": {
+      "BM25": {
+        "P@20": 0.2298,
+        "R@20": 0.0152,
+        "F1@20": 0.0223,
+        "AP": 0.0065,
+        "NDCG@20": 0.2322
+      },
+      "BM25+Expansion": {
+        "P@20": 0.2945,
+        "R@20": 0.0148,
+        "F1@20": 0.0223,
+        "AP": 0.0067,
+        "NDCG@20": 0.2976
+      },
+      "RAG-only": {
+        "P@20": 0.3385,
+        "R@20": 0.0232,
+        "F1@20": 0.0343,
+        "AP": 0.0119,
+        "NDCG@20": 0.3443
+      },
+      "RAG+Ontology": {
+        "P@20": 0.4462,
+        "R@20": 0.0326,
+        "F1@20": 0.0483,
+        "AP": 0.0194,
+        "NDCG@20": 0.4717
+      }
+    },
+    "ontology_contribution": {
+      "rag_only_ndcg": 0.3443,
+      "rag_ontology_ndcg": 0.4717,
+      "absolute_gain": 0.1274,
+      "relative_gain_pct": 37.0
+    },
+    "query_type_distribution": {
+      "single_class": 50,
+      "multi_class": 50,
+      "negation": 50,
+      "cooking_method": 50
+    },
+    "estimated_error_breakdown": {
+      "hierarchy_miss": "20-30% (incomplete class mappings)",
+      "expansion_sai": "10-15% (wrong expansion)",
+      "precision_loss": "15-20% (too strict filtering)",
+      "semantic_gap": "10-15% (LLM parsing issues)",
+      "negation_handling": "10-15% (NOT queries)"
+    },
+    "key_findings": [
+      "RAG+Ontology achieves 37.0% improvement over RAG-only",
+      "Query expansion helps BM25: 0.2322 → 0.2976 NDCG (+28%)",
+      "Ontology particularly helps for class-level and ingredient-based queries"
+    ]
+  },
+  "task2": {
+    "total_cases": 100,
+    "mean_gt_score": 0.35,
+    "score_distribution": {
+      "0": 67,
+      "1": 31,
+      "2": 2
+    },
+    "baseline_scores": {
+      "random": 0.73,
+      "npmi_only": 0.61,
+      "full_ontology": 0.73,
+      "gt_llm_judge": 0.35
+    },
+    "constraint_analysis": {
+      "no_seafood": {
+        "total": 18,
+        "score_0_pct": 61.1,
+        "score_2_pct": 5.6
+      },
+      "none": {
+        "total": 28,
+        "score_0_pct": 67.9,
+        "score_2_pct": 3.6
+      },
+      "vegetarian": {
+        "total": 24,
+        "score_0_pct": 62.5,
+        "score_2_pct": 0.0
+      },
+      "low_sodium": {
+        "total": 30,
+        "score_0_pct": 73.3,
+        "score_2_pct": 0.0
+      }
+    },
+    "sample_worst_cases": [
+      {
+        "case_id": 1,
+        "dish": "Mứt mơ ngào đường",
+        "main_ing": "quả mơ",
+        "substitute": "lá tàu hũ ky khô",
+        "constraint": "none",
+        "gt_score": 0
+      },
+      {
+        "case_id": 2,
+        "dish": "Mứt mơ ngào đường",
+        "main_ing": "nước cốt chanh",
+        "substitute": "gạch tôm xào dầu ăn",
+        "constraint": "vegetarian",
+        "gt_score": 0
+      },
+      {
+        "case_id": 3,
+        "dish": "Bánh bông lan đào caramel",
+        "main_ing": "sữa tươi không đường",
+        "substitute": "sữa tươi 40 độ",
+        "constraint": "low_sodium",
+        "gt_score": 1
+      },
+      {
+        "case_id": 4,
+        "dish": "Bánh bông lan đào caramel",
+        "main_ing": "tinh bột bắp",
+        "substitute": "nui khô",
+        "constraint": "vegetarian",
+        "gt_score": 1
+      },
+      {
+        "case_id": 5,
+        "dish": "Bánh bông lan đào caramel",
+        "main_ing": "siro đào",
+        "substitute": "nước cốt đặc",
+        "constraint": "no_seafood",
+        "gt_score": 1
+      },
+      {
+        "case_id": 6,
+        "dish": "Canh rau lang nấu thịt băm",
+        "main_ing": "thịt heo xay",
+        "substitute": "thịt đùi vịt",
+        "constraint": "no_seafood",
+        "gt_score": 1
+      },
+      {
+        "case_id": 7,
+        "dish": "Canh rau lang nấu thịt băm",
+        "main_ing": "dầu ăn",
+        "substitute": "mật ong",
+        "constraint": "low_sodium",
+        "gt_score": 0
+      },
+      {
+        "case_id": 8,
+        "dish": "Canh rau lang nấu thịt băm",
+        "main_ing": "hạt nêm",
+        "substitute": "nước tương vị nhật b",
+        "constraint": "vegetarian",
+        "gt_score": 1
+      },
+      {
+        "case_id": 9,
+        "dish": "Thịt bò xào cần tỏi",
+        "main_ing": "thịt bò",
+        "substitute": "gà nguyên con",
+        "constraint": "no_seafood",
+        "gt_score": 0
+      },
+      {
+        "case_id": 10,
+        "dish": "Thịt bò xào cần tỏi",
+        "main_ing": "thịt bò",
+        "substitute": "vú heo",
+        "constraint": "low_sodium",
+        "gt_score": 0
+      }
+    ],
+    "critical_findings": [
+      "67% of cases score 0 (completely unacceptable)",
+      "Only 2% score 2 (perfect)",
+      "All baselines (0.61-0.73) >> GT (0.35) → 53% gap!",
+      "Constraint types similar failure rates (~61-73%)",
+      "Substitution ≠ class-match + flavor-complement"
+    ]
+  },
+  "task3": {
+    "total_pairs": 2148,
+    "predicted_pairs": 21480,
+    "metrics": {
+      "pearson_correlation": 0.7577,
+      "spearman_correlation": 0.7685,
+      "mae": 0.0945,
+      "rmse": 0.1103
+    },
+    "worst_20_distribution": {
+      "overpredicted": 16,
+      "underpredicted": 4,
+      "avg_error": 0.3098
+    },
+    "component_analysis": {
+      "high_class_overlap_count": 16,
+      "low_idf_jaccard_count": 4,
+      "note": "ClassOverlap dominates (55% of worst 20 have >0.7)"
+    },
+    "sample_errors": [
+      {
+        "dish_a": "Chùm ruột ngâm đường",
+        "dish_b": "Mứt chanh dây (chanh leo)",
+        "predicted": 0.5,
+        "gt": 0.067,
+        "error": 0.433,
+        "type": "over"
+      },
+      {
+        "dish_a": "Bánh áp chao Lạng Sơn",
+        "dish_b": "Bột nếp tươi và bột nếp khô",
+        "predicted": 0.078,
+        "gt": 0.414,
+        "error": 0.336,
+        "type": "under"
+      },
+      {
+        "dish_a": "Bột nếp tươi và bột nếp khô",
+        "dish_b": "Bánh áp chao Lạng Sơn",
+        "predicted": 0.094,
+        "gt": 0.414,
+        "error": 0.32,
+        "type": "under"
+      },
+      {
+        "dish_a": "Canh cải bẹ xanh nấu tôm tươi",
+        "dish_b": "Canh bông bí nấu tôm",
+        "predicted": 0.818,
+        "gt": 0.499,
+        "error": 0.319,
+        "type": "over"
+      },
+      {
+        "dish_a": "Canh bông bí nấu tôm",
+        "dish_b": "Canh cải bẹ xanh nấu tôm tươi",
+        "predicted": 0.818,
+        "gt": 0.499,
+        "error": 0.319,
+        "type": "over"
+      }
+    ],
+    "missing_relations": [
+      "Ingredient-specific (beef cuts, poultry types)",
+      "Dish-type clustering (phở variants, canh types)",
+      "Regional variants (Northern vs Southern)",
+      "Flavor/texture dimensions (nước vs khô, spicy vs mild)"
+    ],
+    "key_findings": [
+      "Pearson correlation=0.7577, MAE=0.0945ClassOverlap too dominant (β=0.25 but drives 55% of worst errors)",
+      "Missing ingredient-specific relations (different beef cuts same class)",
+      "No explicit dish-type clustering (all phở treated similar)"
+    ]
+  },
+  "synthesis": {
+    "cross_task_patterns": [
+      "Ontology helps all tasks but limited to class-level reasoning",
+      "Ingredient-specific variations not captured",
+      "Task 2 shows substitution fundamentally different from class-matching"
+    ],
+    "common_gaps": [
+      "Missing ingredient-specific flavor attributes",
+      "No explicit dish-type clustering",
+      "Regional variants not modeled",
+      "Context-dependency underutilized"
+    ]
+  }
+}
