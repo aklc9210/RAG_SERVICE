@@ -1,0 +1,83 @@
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Dataset and Implementation}
+
+The corpus contains 10{,}741 Vietnamese dishes with structured fields (name, ingredients, category, region). The ontology covers 8{,}112 ingredients across 49 classes (4 levels, 38 leaves) and 7 named relations (Table~\ref{tab:relations}). Dense retrieval uses \texttt{multilingual-e5-large} (1024-dim) with Pinecone as the vector store. BM25 uses Okapi BM25 over dish name and ingredient text.
+
+\subsection{Systems}
+
+Four systems are compared for Task~1:
+\begin{itemize}
+  \item \textbf{BM25}: keyword matching baseline.
+  \item \textbf{BM25+Expansion}: BM25 with flat synonym expansion from the ingredient KB (no hierarchy).
+  \item \textbf{RAG-only}: dense retrieval without ontology.
+  \item \textbf{RAG+Ontology}: dense retrieval with ontology query expansion, constraint filtering, and hierarchy-aware similarity.
+\end{itemize}
+Task~2 compares three substitution strategies (random\_class, npmi\_only, full\_ontology). Task~3 compares BM25, RAG-only, and RAG+Ontology.
+
+\subsection{Results}
+
+\textbf{Task~1: Class-Based Retrieval} (Table~\ref{tab:task1}).
+RAG+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming RAG-only by +32\% and +37\% respectively, and BM25 by +94\% and +103\%. The gain from ontology hierarchy (+32\% over RAG-only) exceeds the gain from flat synonym expansion (+28\% BM25+Expansion over BM25), confirming that structured class expansion is more effective than flat lookup.
+
+\begin{table}[t]
+\centering
+\caption{Task~1: Class-based retrieval (200 queries, top-20).}
+\label{tab:task1}
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{System} & \textbf{P@20} & \textbf{NDCG@20} & \textbf{MAP} \\
+\midrule
+BM25              & 0.230 & 0.232 & 0.007 \\
+BM25+Expansion    & 0.295 & 0.298 & 0.007 \\
+RAG-only          & 0.339 & 0.344 & 0.012 \\
+\textbf{RAG+Ontology} & \textbf{0.446} & \textbf{0.472} & \textbf{0.019} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Task~2: Constrained Substitution} (Table~\ref{tab:task2}).
+The full ontology strategy achieves a mean score of 0.79 and a good rate of 34\%, outperforming both random\_class (0.73, 29\%) and npmi\_only (0.62, 26\%). The npmi\_only strategy underperforms random\_class because NPMI favors co-occurrence frequency rather than substitution semantics. The ontology contributes through typed \emph{substitutes} relations and hierarchy-based constraint filtering, though the 55\% failure rate indicates that substitution quality depends on factors beyond class structure, such as texture and cultural acceptability.
+
+\begin{table}[t]
+\centering
+\caption{Task~2: Constrained substitution (100 cases, LLM-judge).}
+\label{tab:task2}
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Strategy} & \textbf{Mean} & \textbf{Accept \%} & \textbf{Good \%} \\
+\midrule
+random\_class     & 0.73 & 44\% & 29\% \\
+npmi\_only        & 0.62 & 36\% & 26\% \\
+\textbf{full\_ontology} & \textbf{0.79} & \textbf{45\%} & \textbf{34\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Task~3: Related-Dish Recommendation} (Table~\ref{tab:task3}).
+RAG+Ontology achieves P@5\,=\,0.207 and NDCG@5\,=\,0.223, outperforming RAG-only by 3.6$\times$ on P@5. The hierarchy-aware similarity formula (Eq.~\ref{eq:sim}) yields MAE\,=\,0.0809 and Spearman $\rho$\,=\,0.70 against 3-judge aggregated relatedness, confirming strong ranking correlation. Optimized weights ($\alpha$\,=\,0.50, $\beta$\,=\,0.25, $\gamma$\,=\,0.15, $\delta$\,=\,0.10) show that ontology-derived components (ClassOverlap, MethodMatch, SemanticSim) collectively account for 50\% of the similarity signal.
+
+\begin{table}[t]
+\centering
+\caption{Task~3: Related-dish recommendation (2{,}148 dishes, 21{,}480 pairs).}
+\label{tab:task3}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MAE} & \textbf{Spearman $\rho$} \\
+\midrule
+BM25              & 0.047 & 0.050 & --- & --- \\
+RAG-only          & 0.057 & 0.061 & --- & --- \\
+\textbf{RAG+Ontology} & \textbf{0.207} & \textbf{0.223} & \textbf{0.081} & \textbf{0.701} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Discussion}
+
+Across all three tasks, ontology-enhanced retrieval outperforms baselines, with the largest relative gains in Task~3 (P@5 +265\% over RAG-only) and Task~1 (NDCG@20 +37\%). The gain decomposition for Task~1 shows that hierarchy expansion (+32\%) contributes more than flat synonym expansion (+28\%) or semantic understanding alone (+16\%), supporting the claim that structured class knowledge complements neural retrieval.
+
+Task~2 shows more modest gains (+8.2\% mean score), indicating that ontology provides necessary but not sufficient structure for ingredient substitution. The finding that npmi\_only underperforms random\_class is noteworthy: statistical co-occurrence alone can mislead substitution ranking, whereas ontology-attested substitutes grounded in dish-name variation provide more reliable candidates.

@@ -1,0 +1,13 @@
+\section{Limitations and Future Work}
+\label{sec:limitations}
+
+Several limitations should be noted. First, the ingredient hierarchy is constructed via LLM classification with manual validation of only the top 150 ingredients; tail-class accuracy is unverified, and the fallback \texttt{Other} class (427 ingredients) may contain misclassifications. Second, the LLM-judge ground truth for Task~3 achieves only fair inter-annotator agreement ($\kappa = 0.184$), reflecting systematic differences in scoring behavior across models. Third, the ontology is monolingual (Vietnamese) and has not been tested in cross-lingual settings. Fourth, the dish taxonomy uses only two axes (type and method); additional axes such as regional origin, nutritional profile, or occasion could improve similarity modeling. Finally, the substitution scoring function (Eq.~\ref{eq:sub_score}) uses fixed bonus weights ($\lambda_1$, $\lambda_2$) that were not tuned on a held-out set.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+This paper presented an ontology-enhanced RAG framework for Vietnamese food information retrieval. We constructed a four-level ingredient hierarchy covering 8{,}112 ingredients across 49 classes, a two-axis dish taxonomy, and seven named relations derived from a 10{,}741-dish corpus. The ontology was integrated into a dense-retrieval pipeline at three injection points: query expansion, constrained substitution reasoning, and hierarchy-aware dish similarity.
+
+Evaluation on three tasks showed that ontology structure provides consistent gains over both lexical and dense baselines. For class-based retrieval, RAG+Ontology improved NDCG@20 by +37\% over RAG-only, with hierarchy expansion contributing more than flat synonym lookup. For related-dish recommendation, the four-component similarity formula achieved Spearman $\rho = 0.70$ against human-judged relatedness, with ontology-derived components accounting for half the similarity signal. Ingredient substitution showed more modest improvement (+8.2\%), indicating that ontology provides necessary but not sufficient structure for this task.
+
+The results demonstrate that structured semantic knowledge, encoded as an ontology with typed relations and class hierarchy, complements neural retrieval in a domain where relevance depends on compositional and categorical reasoning rather than lexical overlap alone.

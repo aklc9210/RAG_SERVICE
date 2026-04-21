@@ -1,0 +1,40 @@
+\section{Task Definitions}
+\label{sec:tasks}
+
+We define three evaluation tasks, each designed to isolate a specific ontology contribution. All tasks share the same corpus of 10{,}741 Vietnamese dishes and the same ontology (Section~\ref{sec:framework}). Each task follows a common template: motivation, input/output specification, ground-truth construction, and evaluation metrics.
+
+% ──────────────────────────────────────────────────────────────
+\subsection{Task~1: Class-Based Dish Retrieval}
+\label{ssec:task1}
+
+\textbf{Motivation.} Users frequently issue class-level queries such as \textit{``m\'{o}n n\'\acircumflex{}m''} (mushroom dishes) or \textit{``m\'{o}n th\d{i}t kh\^{o}ng cay''} (meat dishes without spice). Dense retrieval cannot resolve these without hierarchical expansion, because the query does not lexically match individual ingredient names.
+
+\textbf{Input/Output.} Input is a natural-language query containing one or more class references and optional negation or cooking-method constraints. Output is a ranked list of dish IDs.
+
+\textbf{Ground truth.} We construct 200 queries across four types (50 each): \emph{single-class} (e.g., ``m\'{o}n n\'\acircumflex{}m''), \emph{multi-class} (e.g., ``v\d{i}t n\'\acircumflex{}u v\'\ohorn{}i me'', requiring both Poultry and SourSeasoning), \emph{negation} (e.g., ``m\'{o}n th\d{i}t kh\^{o}ng cay'', requiring Meat but excluding Spicy), and \emph{cooking-method} (e.g., ``h\h{a}i s\h{a}n n\uhorn\'\ohorn{}ng'', requiring Seafood with method Grill). A dish is labeled positive if it contains at least one ingredient from every positive class, no ingredient from any negative class, and matches the required cooking method (if specified). Labels are generated automatically via the \texttt{FoodOntology} API over all 10{,}741 dishes. We manually validate 20 random queries to confirm label correctness. Average ground-truth set size varies by type: single-class $\approx$1{,}500, multi-class $\approx$350, negation $\approx$1{,}200, cooking-method $\approx$150.
+
+\textbf{Metrics.} P@20, NDCG@20, and MAP. Recall@20 is reported but expected to be low due to large ground-truth sets relative to the top-20 cutoff.
+
+% ──────────────────────────────────────────────────────────────
+\subsection{Task~2: Constrained Ingredient Substitution}
+\label{ssec:task2}
+
+\textbf{Motivation.} Replacing an ingredient under a dietary constraint (e.g., vegetarian, no-seafood) requires typed relations and class-based filtering that flat embeddings cannot provide.
+
+\textbf{Input/Output.} Input is a tuple (dish, target ingredient, constraint). Output is a ranked list of top-5 candidate substitutes.
+
+\textbf{Ground truth.} We select 100 test cases covering diverse dishes and constraints (vegetarian, no-seafood, unconstrained). Each candidate substitute is scored by a single LLM judge (Qwen-2.5 7B, temperature~0) on a 0/1/2 scale: 0~=~unsuitable, 1~=~acceptable, 2~=~good. Three strategies are compared: \emph{random\_class} (random same-class member), \emph{npmi\_only} (NPMI-ranked same-class), and \emph{full\_ontology} (ontology substitutes + constraint filter + NPMI rerank, Eq.~\ref{eq:sub_score}).
+
+\textbf{Metrics.} Mean LLM-judge score, accept rate (score $\geq$ 1), and good rate (score = 2).
+
+% ──────────────────────────────────────────────────────────────
+\subsection{Task~3: Related-Dish Recommendation}
+\label{ssec:task3}
+
+\textbf{Motivation.} Flat Jaccard over ingredient bags treats all ingredient differences equally, failing to distinguish within-class substitutions (beef $\to$ chicken, both AnimalProtein) from cross-class ones (beef $\to$ tofu).
+
+\textbf{Input/Output.} Input is a dish ID. Output is a ranked list of related dishes.
+
+\textbf{Ground truth.} We select 200 anchor dishes stratified across dish categories. For each anchor, candidate dishes are scored by three LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) on a 0/1/2 relatedness scale; the mean across judges serves as the ground-truth label. We exclude Qwen-2.5 7B from the panel due to systematic low-scoring bias (score~2 assigned in only 0.8\% of cases, pairwise agreement 39--62\% with other judges). The remaining three judges achieve Fleiss' $\kappa = 0.184$ (fair agreement) and pairwise exact agreement of 72--88\%. This yields 21{,}480 scored pairs in total.
+
+\textbf{Metrics.} P@5, NDCG@5, and MAE against judge-aggregated relatedness. Spearman $\rho$ is reported as the primary correlation metric.
