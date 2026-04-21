@@ -3,8 +3,52 @@
 > **Mục tiêu:** Nâng cấp từ "KB + Statistics" thành Ontology thực sự (hierarchy + named relations + inference) và redesign 3 evaluation tasks để isolate ontology contribution.
 >
 > **Ngày tạo:** 2026-04-18
+> **Cập nhật lần cuối:** 2026-04-21
 > **Thời lượng:** 7 ngày
 > **Nhân sự:** 2 người (A + B), làm song song tối đa
+>
+> **TIẾN ĐỘ TỔNG QUAN:** Day 1–5 ✅ DONE | Day 6 🔄 IN PROGRESS | Day 7 ⏳ TODO
+
+---
+
+## Tiến độ cập nhật (2026-04-21)
+
+### ✅ Implementation DONE (Day 1–5)
+- `ingredient_hierarchy.json`: 8,112 ingredients → 49 classes, 4 levels, 38 leaves
+- `relations.json`: substitutes, flavorComplements, conflictsWith, cookedBy
+- `retrieval/ontology.py`: FoodOntology API (expand_query, get_substitutes_for_dish, ingredient_class_overlap, cooking_method_match)
+- Task 1: 200 queries, 4 systems evaluated (BM25, BM25+Exp, RAG-only, RAG+Ontology)
+- Task 2: 100 cases, 3 strategies (random_class, npmi_only, full_ontology)
+- Task 3: 21,480 pairs, 4-component similarity (Jaccard + ClassOverlap + CookingMethod + Semantic)
+- Phase 2 semantic enhancement: MAE -44.7% (Task 3)
+
+### ✅ IAA Analysis DONE
+- Loại Qwen2.5:7b (scoring bias: score 2 chỉ 0.8%, agreement 39–62%)
+- Giữ 3 judges: Llama3.1, Gemma2, Mistral → Fleiss' κ = 0.184, pairwise 72–88%
+- Task 3 GT re-aggregated với 3 judges, re-evaluated
+- Backup: `task3_related_gt.4judges.bak.jsonl`
+
+### 🔄 Paper Writing IN PROGRESS (Day 6)
+| Section | File | Status |
+|---|---|---|
+| I. Introduction (~0.5 trang) | `paper/introduction.tex` | ✅ Done |
+| II. Related Work (~0.4 trang) | `paper/related_work.tex` | ✅ Done |
+| III. Methodology (~1.0 trang) | `paper/methodology.tex` | ✅ Done |
+| IV. Task Definitions | `paper/experiments.tex` | ✅ Done |
+| V. Experiments & Results | `paper/experiments.tex` | ✅ Done (cần update Task 3 numbers với 3-judge GT) |
+| VI. Conclusion & Limitations | — | ⏳ TODO |
+| Figures (Mermaid) | `paper/figures.md` | ✅ Done (Fig 1: T-box/A-box, Fig 2: Pipeline) |
+| References | `paper/references.bib` | ✅ Done (25 refs) |
+| IAA notes | `paper/iaa_notes.md` | ✅ Done |
+
+### ⏳ TODO (Day 7)
+- [ ] Viết Section Conclusion & Limitations
+- [ ] Update Task 3 numbers trong experiments.tex (MAE 0.0809, Spearman ρ 0.70)
+- [ ] Ablation table V0–V4 (chưa có đủ — chỉ có Task 1 ablation 530 queries)
+- [ ] Statistical significance tests (Wilcoxon, bootstrap CI)
+- [ ] Vẽ figures chính thức từ Mermaid drafts
+- [ ] Cross-read, fix inconsistencies
+- [ ] Final formatting cho IEEE template
 
 ---
 
@@ -16,33 +60,33 @@
 
 ---
 
-## Day 1 — Foundation (parallel)
+## Day 1 — Foundation (parallel) ✅ DONE
 
 ### Người A — Relations Derivation (automated)
 **Output:** `app/data/ontology/relations.json`
 
-- [ ] Derive `substitutes(A, B, context)` từ dish-name patterns
+- [x] Derive `substitutes(A, B, context)` từ dish-name patterns
   - Script: tìm cặp dish chỉ khác 1 token ("Phở bò" vs "Phở gà") → `substitutes(bò, gà, "phở")`
-- [ ] Derive `flavorComplements(A, B)` từ NPMI > 0.3 + same parent class
-- [ ] Format `conflictsWith(A, B)` từ `app/data/conflict/` hiện có
-- [ ] Build `cookedBy(dish, method)` từ dish category/name patterns
+- [x] Derive `flavorComplements(A, B)` từ NPMI > 0.3 + same parent class
+- [x] Format `conflictsWith(A, B)` từ `app/data/conflict/` hiện có
+- [x] Build `cookedBy(dish, method)` từ dish category/name patterns
 
 ### Người B — Ingredient Hierarchy (manual curation)
 **Output:** `app/data/ontology/ingredient_hierarchy.json`
 
-- [ ] Design 4-level tree (Protein / Produce / Seasoning / Staple → subclasses → leaves)
-- [ ] Map 20 flat categories → vị trí trong tree
-- [ ] Manual review 100 ingredient phổ biến nhất để đảm bảo correct placement
-- [ ] Spot-check 50 ingredient random → fix edge cases
+- [x] Design 4-level tree (Protein / Produce / Seasoning / Staple → subclasses → leaves)
+- [x] Map 20 flat categories → vị trí trong tree
+- [x] Manual review 100 ingredient phổ biến nhất để đảm bảo correct placement
+- [x] Spot-check 50 ingredient random → fix edge cases
 
-**Deliverable Day 1:** `relations.json` + `ingredient_hierarchy.json` version 1
+**Deliverable Day 1:** ✅ `relations.json` + `ingredient_hierarchy.json` version 1
 
 ---
 
-## Day 2 — Ontology Integration + Task Design
+## Day 2 — Ontology Integration + Task Design ✅ DONE
 
 ### Người A — Ontology API
-**Output:** `retrieval/ontology.py` (class mới)
+**Output:** `retrieval/ontology.py` ✅
 
 ```python
 class FoodOntology:
@@ -54,70 +98,70 @@ class FoodOntology:
     def expand_query(query) -> List[str]  # "món protein thực vật" → [đậu hũ, ...]
 ```
 
-- [ ] Implement API trên
-- [ ] Unit test mỗi method
+- [x] Implement API trên
+- [x] Unit test mỗi method
 
 ### Người B — GT cho Task 1 + Dish Hierarchy
 
-- [ ] Build dish hierarchy (25 dish categories → byType × byMethod matrix)
-- [ ] Generate 200 class-level queries cho Task 1:
+- [x] Build dish hierarchy (25 dish categories → byType × byMethod matrix)
+- [x] Generate 200 class-level queries cho Task 1:
   - "Món protein thực vật" → GT: dishes có main_ingredient ∈ descendants(PlantProtein)
   - "Món rau thơm" → GT: dishes có ingredient ∈ Herb
   - "Món không hải sản" → GT: dishes không có ingredient ∈ Seafood
   - Mix: 50 multi-class, 50 negation, 50 cooking-method, 50 region-like
-- [ ] Manual validate 20 queries ngẫu nhiên
+- [x] Manual validate 20 queries ngẫu nhiên
 
-**🔔 Sync end of Day 2:** Review ontology + task queries cùng nhau
+**🔔 Sync end of Day 2:** ✅ Review ontology + task queries cùng nhau
 
 ---
 
-## Day 3 — Task 1 + Task 3 Implementation (parallel)
+## Day 3 — Task 1 + Task 3 Implementation (parallel) ✅ DONE
 
 ### Người A — Task 1: Class-based Retrieval
 
-- [ ] Implement query expansion: "món protein thực vật" → retrieve với expanded terms
-- [ ] 3 systems: BM25 / RAG-only / RAG+Ontology (with expansion)
-- [ ] Run on 200 queries → initial numbers
-- [ ] Save `evaluation/outputs/ir_task1_ontology_results.json`
+- [x] Implement query expansion: "món protein thực vật" → retrieve với expanded terms
+- [x] 3 systems: BM25 / RAG-only / RAG+Ontology (with expansion)
+- [x] Run on 200 queries → initial numbers
+- [x] Save `evaluation/outputs/ir_task1_ontology_results.json`
 
 ### Người B — Task 3: Hierarchy-aware Similarity
 
-- [ ] Extend `get_related_dishes()`:
+- [x] Extend `get_related_dishes()`:
   ```
   Sim(A, B) = α·IDF-Jaccard + β·ClassOverlap + γ·CookingMethodMatch
   ```
-- [ ] ClassOverlap: 2 ingredient cùng subclass tính 0.5; cùng leaf tính 1.0
-- [ ] Tuning α, β, γ trên 50 cases
-- [ ] Run on existing 200-dish LLM-judge subset
+- [x] ClassOverlap: 2 ingredient cùng subclass tính 0.5; cùng leaf tính 1.0
+- [x] Tuning α, β, γ trên 50 cases
+- [x] Run on existing 200-dish LLM-judge subset
 
-**Deliverable Day 3:** Task 1 + Task 3 có initial results
+**Deliverable Day 3:** ✅ Task 1 + Task 3 có initial results
 
 ---
 
-## Day 4 — Task 2 (Substitution)
+## Day 4 — Task 2 (Substitution) ✅ DONE
 
 ### Người A — Substitution Logic
 
-- [ ] Implement `get_substitutes(dish, ingredient, constraint)`:
+- [x] Implement `get_substitutes(dish, ingredient, constraint)`:
   1. Lookup `substitutes` relation với context = dish category
   2. Filter theo constraint (vegetarian → PlantProtein only)
   3. Rank bằng flavor compatibility với các ingredient còn lại trong dish
-- [ ] 3 baselines: Random-from-category / NPMI-only / Full-ontology
+- [x] 3 baselines: Random-from-category / NPMI-only / Full-ontology
 
 ### Người B — GT cho Task 2 via LLM-Judge
 
-- [ ] Select 100 substitution test cases:
+- [x] Select 100 substitution test cases:
   - 50 dishes × 2 ingredient replacement each
   - Mix constraints: vegetarian, no-seafood, low-sodium
-- [ ] Run LLM-judge (reuse existing qwen / llama / gemma / mistral setup) với prompt:
+- [x] Run LLM-judge (reuse existing qwen / llama / gemma / mistral setup) với prompt:
   > "Is [X] an acceptable substitute for [Y] in [dish]? Score 0/1/2"
-- [ ] Aggregate mean score as GT
+- [x] Aggregate mean score as GT
 
-**🔔 Sync end of Day 4:** Tất cả 3 tasks có initial results
+**🔔 Sync end of Day 4:** ✅ Tất cả 3 tasks có initial results
 
 ---
 
-## Day 5 — Evaluation + Ablation (parallel)
+## Day 5 — Evaluation + Ablation (parallel) ✅ DONE
 
 ### Người A — Ablation Study
 
@@ -131,54 +175,56 @@ Cho mỗi task, run 5 variants:
 | V3 | + relations (substitutes / complements) |
 | V4 | + inference rules |
 
-- [ ] Build ablation table
-- [ ] Statistical test: paired Wilcoxon giữa V0 ↔ V4
-- [ ] Bootstrap 95% CI cho mỗi metric
+- [x] Build ablation table (partial — Task 1 only, 530 queries)
+- [ ] Statistical test: paired Wilcoxon giữa V0 ↔ V4 ⚠️ TODO
+- [ ] Bootstrap 95% CI cho mỗi metric ⚠️ TODO
 
 ### Người B — Error Analysis
 
-- [ ] Task 1: 20 queries fail → phân loại lỗi (hierarchy miss, expansion sai, ...)
-- [ ] Task 2: 20 substitution bad → so NPMI-only vs Ontology, tìm lý do
-- [ ] Task 3: 20 related dish sai → thiếu relation nào
+- [x] Task 1: 20 queries fail → phân loại lỗi (hierarchy miss, expansion sai, ...)
+- [x] Task 2: 20 substitution bad → so NPMI-only vs Ontology, tìm lý do
+- [x] Task 3: 20 related dish sai → thiếu relation nào
 
-**Deliverable Day 5:** Bảng kết quả cuối + error patterns
+**Deliverable Day 5:** ✅ Bảng kết quả cuối + error patterns (ablation chưa đầy đủ)
 
 ---
 
-## Day 6 — Writeup (parallel)
+## Day 6 — Writeup (parallel) 🔄 IN PROGRESS
 
 ### Người A
 
-- [ ] **Section 3: Methodology**
-  - 3.1 Ontology construction (từ dataset hiện có → hierarchy + relations)
-  - 3.2 Formal definition (T-box, A-box, relations)
-  - 3.3 Task-specific ontology usage (query expansion / substitution / similarity)
-- [ ] **Section 5: Experimental Setup** — Dataset, splits, metrics, baselines
-- [ ] **Tables** (results + ablation)
+- [x] **Section 3: Methodology** → `paper/methodology.tex`
+  - 3.1 Formal definition (T-box, A-box, 7 relations)
+  - 3.2 Ingredient hierarchy (4-level, 49 classes) + Dish taxonomy
+  - 3.3 Relation derivation (substitutes, NPMI, conflicts, cookedBy)
+  - 3.4 Ontology integration (3 injection points)
+- [x] **Section 5: Experimental Setup + Results** → `paper/experiments.tex`
+- [x] **Tables** (Task 1/2/3 results)
+- [x] **IAA analysis** → `paper/iaa_notes.md` (loại Qwen, κ=0.184)
+- [x] **Re-evaluate Task 3** với 3-judge GT (MAE=0.0809, Spearman ρ=0.70)
 
 ### Người B
 
-- [ ] **Section 4: Tasks**
-  - Task 1 / 2 / 3 định nghĩa + motivation
-  - GT construction + validation
-- [ ] **Section 6: Results & Discussion**
-  - Per-task analysis
-  - Ablation interpretation
-  - Error analysis
-- [ ] **Section 7: Limitations**
+- [x] **Section 1: Introduction** → `paper/introduction.tex` (~0.5 trang)
+- [x] **Section 2: Related Work** → `paper/related_work.tex` (~0.4 trang)
+- [x] **Section 4: Task Definitions** → `paper/experiments.tex`
+- [x] **Figures (Mermaid drafts)** → `paper/figures.md` (T-box/A-box + Pipeline)
+- [x] **References** → `paper/references.bib` (25 refs)
+- [ ] **Section 6: Conclusion & Limitations** ⏳ TODO
 
 ---
 
-## Day 7 — Polish (together)
+## Day 7 — Polish (together) ⏳ TODO
 
-- [ ] **Figures:**
-  - Fig 1: Ontology structure diagram (class hierarchy + relations)
-  - Fig 2: Query expansion example (visualize cho Task 1)
-  - Fig 3: Ablation bar chart
+- [ ] Viết Section Conclusion & Limitations
+- [ ] Update Task 3 numbers trong experiments.tex (MAE 0.0809, Spearman ρ 0.70)
+- [ ] Ablation table V0–V4 đầy đủ 3 tasks (hiện chỉ có Task 1)
+- [ ] Statistical significance tests (Wilcoxon, bootstrap CI)
+- [ ] Vẽ figures chính thức từ Mermaid drafts (Fig 1: T-box/A-box, Fig 2: Pipeline)
 - [ ] Cross-read sections, fix inconsistencies
-- [ ] Abstract + Intro + Conclusion
+- [ ] Abstract + final Intro polish
 - [ ] Reference check
-- [ ] Final submit prep
+- [ ] Final IEEE template formatting
 
 ---
 
@@ -195,13 +241,13 @@ Cho mỗi task, run 5 variants:
 
 ## Checklist tổng — cuối Day 7
 
-- [ ] `ingredient_hierarchy.json` (4-level, 8,112 ingredients)
-- [ ] `relations.json` (substitutes, complements, conflicts, cookedBy)
-- [ ] `task1_class_queries.jsonl` (200 queries)
-- [ ] `task2_substitution_cases.jsonl` (100 cases + LLM-judge GT)
-- [ ] `task3_hierarchy_sim.json` (200 dishes)
-- [ ] `ablation_table.json` (3 tasks × 5 variants)
-- [ ] Paper draft 6–8 trang
+- [x] `ingredient_hierarchy.json` (4-level, 8,112 ingredients)
+- [x] `relations.json` (substitutes, complements, conflicts, cookedBy)
+- [x] `task1_class_queries.jsonl` (200 queries)
+- [x] `task2_substitution_cases.jsonl` (100 cases + LLM-judge GT)
+- [x] `task3_hierarchy_sim.json` (200 dishes, re-evaluated with 3 judges)
+- [ ] `ablation_table.json` (3 tasks × 5 variants) ⚠️ Partial
+- [ ] Paper draft 6–8 trang ⚠️ 5/6 sections done, missing Conclusion
 
 ---
 
