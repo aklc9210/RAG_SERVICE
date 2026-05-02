@@ -87,7 +87,7 @@ Validation: manual check 20 random queries.
 Metrics: nDCG@10, MRR@10, Recall@10.
 
 B. Task 2: Constrained Ingredient Substitution (~170w)
-
+sửa đim
 Input: (dish, target_ingredient, constraint) — ví dụ (Phở bò, thịt bò, vegetarian).
 Output: top-k candidate substitutes, ranked.
 GT: 100 cases via LLM-judge (mean score across 4 judges: qwen/llama/gemma/mistral) với rubric 0/1/2.

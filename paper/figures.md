@@ -78,12 +78,12 @@ graph TD
         d2 ---|"cookedBy: Boil"| d2b["  "]
     end
 
-    %% Link T-box to A-box
-    Meat -.->|instanceOf| i1
-    Poultry -.->|instanceOf| i2
-    PlantProtein -.->|instanceOf| i3
-    Seafood -.->|instanceOf| i4
-    Herb -.->|instanceOf| i5
+    %% Link A-box to T-box
+    i1 -.->|instanceOf| Meat
+    i2 -.->|instanceOf| Poultry
+    i3 -.->|instanceOf| PlantProtein
+    i4 -.->|instanceOf| Seafood
+    i5 -.->|instanceOf| Herb
 
     style TBOX fill:#fdf2e9,stroke:#e67e22,stroke-width:2px
     style ABOX fill:#eaf2f8,stroke:#2980b9,stroke-width:2px
@@ -114,6 +114,103 @@ graph TD
 
 ---
 
+# Figure 1b: A-box (Instances & Assertions) — Standalone
+
+> Scenario: User hỏi *"Nấu bún bò Huế mà hết giò heo thì thay bằng gì?"*
+
+```mermaid
+graph LR
+    subgraph MEAT["🥩 Meat / Poultry"]
+        i1["🦴 giò heo\nMeat"]
+        i2["🥩 thịt bò\nMeat"]
+        i6["🐔 thịt gà\nPoultry"]
+        i7["🐷 thịt heo\nMeat"]
+    end
+
+    subgraph SEAFOOD["🦐 Seafood"]
+        i8["🦐 tôm\nSeafood"]
+        i9["🦑 mực\nSeafood"]
+    end
+
+    subgraph HERB["🌿 Herb / Seasoning"]
+        i3["🌿 sả\nHerb"]
+        i4["🫙 mắm ruốc\nSeasoning"]
+        i10["🧅 hành tím\nHerb"]
+        i11["🌶️ ớt\nHerb"]
+    end
+
+    subgraph STAPLE["🍜 Staple"]
+        i5["🍜 bún\nStaple"]
+        i12["🍝 mì\nStaple"]
+    end
+
+    subgraph DISHES["🍲 Dish Instances"]
+        d1["🍲 Bún bò Huế\nMonNuoc · Boil"]
+        d2["🍜 Phở bò\nMonNuoc · Boil"]
+        d3["🍜 Bún thịt nướng\nMonKho · Grill"]
+    end
+
+    %% hasIngredient — Bún bò Huế
+    d1 -->|"hasIngredient"| i1
+    d1 -->|"hasIngredient"| i2
+    d1 -->|"hasIngredient"| i3
+    d1 -->|"hasIngredient"| i4
+    d1 -->|"hasIngredient"| i5
+    d1 -->|"hasIngredient"| i10
+    d1 -->|"hasIngredient"| i11
+
+    %% hasIngredient — Phở bò
+    d2 -->|"hasIngredient"| i2
+    d2 -->|"hasIngredient"| i10
+    d2 -->|"hasIngredient"| i12
+
+    %% hasIngredient — Bún thịt nướng
+    d3 -->|"hasIngredient"| i7
+    d3 -->|"hasIngredient"| i5
+    d3 -->|"hasIngredient"| i3
+
+    %% substitutes
+    i1 -->|"substitutes\n(ctx=bún bò Huế)"| i2
+    i1 -->|"substitutes\n(ctx=bún bò Huế)"| i7
+    i5 -->|"substitutes\n(ctx=general)"| i12
+
+    %% flavorComplements
+    i2 -->|"flavorComplements"| i3
+    i2 -->|"flavorComplements"| i4
+    i8 -->|"flavorComplements"| i11
+
+    %% conflictsWith
+    i4 ---|"conflictsWith"| i9
+
+    %% relatedDish
+    d1 -.->|"relatedDish\n(Meat+Staple+Boil)"| d2
+    d1 -.->|"relatedDish\n(Meat+Bún)"| d3
+
+    style MEAT fill:#fde8e8,stroke:#e74c3c,stroke-width:1.5px
+    style SEAFOOD fill:#fde8e8,stroke:#e74c3c,stroke-width:1.5px
+    style HERB fill:#e9f7ef,stroke:#27ae60,stroke-width:1.5px
+    style STAPLE fill:#f3e8fd,stroke:#8e44ad,stroke-width:1.5px
+    style DISHES fill:#e8f8f5,stroke:#27ae60,stroke-width:2px
+
+    style i1 fill:#e74c3c,color:#fff
+    style i2 fill:#e74c3c,color:#fff
+    style i6 fill:#e74c3c,color:#fff
+    style i7 fill:#e74c3c,color:#fff
+    style i8 fill:#c0392b,color:#fff
+    style i9 fill:#c0392b,color:#fff
+    style i3 fill:#27ae60,color:#fff
+    style i4 fill:#f39c12,color:#fff
+    style i10 fill:#27ae60,color:#fff
+    style i11 fill:#27ae60,color:#fff
+    style i5 fill:#8e44ad,color:#fff
+    style i12 fill:#8e44ad,color:#fff
+    style d1 fill:#2c3e50,color:#fff
+    style d2 fill:#2c3e50,color:#fff
+    style d3 fill:#2c3e50,color:#fff
+```
+
+---
+
 # Figure 2: RAG Pipeline with 3 Ontology Injection Points
 
 ```mermaid
@@ -124,7 +221,7 @@ flowchart LR
 
     subgraph ONTOLOGY["Food Ontology"]
         direction TB
-        H["Class Hierarchy<br/>49 classes, 4 levels"]
+        H["Class Hierarchy<br/>4 levels"]
         R["Named Relations<br/>substitutes, complements,<br/>conflicts, cookedBy"]
     end
 
@@ -138,11 +235,11 @@ flowchart LR
         DR["Dense Retrieval<br/>(multilingual embedding)"]
 
         subgraph IP2["② Substitution Reasoning<br/><i>Task 2: Constrained Substitution</i>"]
-            SR["lookup substitutes(ing, ctx)<br/>→ filter by constraint via hierarchy<br/>→ rank by NPMI with dish"]
+            SR["lookup_substitutes(ing, ctx)<br/>→ filter by constraint via hierarchy<br/>→ rank by NPMI with dish"]
         end
 
         subgraph IP3["③ Hierarchy-aware Similarity<br/><i>Task 3: Related-Dish Recommendation</i>"]
-            HS["Sim = α·Jaccard<br/>+ β·ClassOverlap<br/>+ γ·MethodMatch"]
+            HS["Sim = α·Jaccard + β·ClassOverlap + γ·MethodMatch"]
         end
     end
 
@@ -153,18 +250,17 @@ flowchart LR
     end
 
     Q --> IP1
-    H --> IP1
+    ONTOLOGY --> IP1
     IP1 --> DR
     DR --> O1
 
     Q --> IP2
-    H --> IP2
-    R --> IP2
+    ONTOLOGY --> IP2
     IP2 --> O2
 
     DR --> IP3
-    H --> IP3
-    R --> IP3
+    IP2 --> IP3
+    ONTOLOGY --> IP3
     IP3 --> O3
 
     style INPUT fill:#ecf0f1,stroke:#bdc3c7

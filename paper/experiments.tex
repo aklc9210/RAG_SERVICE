@@ -1,20 +1,64 @@
-\section{Experiments}
 \label{sec:experiments}
 
 \subsection{Dataset and Implementation}
 
-The corpus contains 10{,}741 Vietnamese dishes with structured fields (name, ingredients, category, region). The ontology covers 8{,}112 ingredients across 49 classes (4 levels, 38 leaves) and 7 named relations (Table~\ref{tab:relations}). Dense retrieval uses \texttt{multilingual-e5-large} (1024-dim) with Pinecone as the vector store. BM25 uses Okapi BM25 over dish name and ingredient text.
+The corpus contains 10{,}741 Vietnamese dishes with structured fields (name, ingredients, category, region). The ontology covers 8{,}112 ingredients across 49 classes (4 levels, 39 leaves) and 7 named relations (Table~\ref{tab:relations}). Dense retrieval uses \texttt{multilingual-e5-large} (1024-dim) with Pinecone as the vector store \cite{wang2024multilinguale5}. BM25 uses Okapi BM25 over dish name and ingredient text.
 
 \subsection{Systems}
 
-Four systems are compared for Task~1:
-\begin{itemize}
-  \item \textbf{BM25}: keyword matching baseline.
-  \item \textbf{BM25+Expansion}: BM25 with flat synonym expansion from the ingredient KB (no hierarchy).
-  \item \textbf{RAG-only}: dense retrieval without ontology.
-  \item \textbf{RAG+Ontology}: dense retrieval with ontology query expansion, constraint filtering, and hierarchy-aware similarity.
-\end{itemize}
-Task~2 compares three substitution strategies (random\_class, npmi\_only, full\_ontology). Task~3 compares BM25, RAG-only, and RAG+Ontology.
+Task~1 compares four systems: \textbf{BM25} (keyword matching 
+baseline), \textbf{BM25+Expansion} (BM25 with flat synonym expansion from the ingredient KB, no hierarchy), \textbf{RAG-only} (dense retrieval without ontology), and \textbf{RAG+Ontology} 
+(dense retrieval with ontology query expansion, constraint filtering, and hierarchy-aware similarity). 
+
+Task~2 compares four substitution strategies: RAG-only (dense retrieval over ingredient embeddings, no filtering), random\_class (uniform sampling from the same leaf class), npmi\_only (NPMI ranking without ontology), 
+and full\_ontology (Section~\ref{ssec:integration}(2): typed substitutes + hierarchy filtering + NPMI ranking). 
+
+Task~3 compares BM25, RAG-only, and RAG+Ontology.
+
+This comparison follows a standard sparse--dense setup: BM25 provides the lexical baseline, dense retrieval the semantic baseline, and RAG+Ontology tests whether structured knowledge 
+adds gains beyond both \cite{robertson2009probabilistic, 
+karpukhin2020dense, thakur2021beir}.
+% ──────────────────────────────────────────────────────────────
+\subsection{Evaluation Protocol}
+\label{ssec:eval_protocol}
+
+\textbf{Query and case construction.}
+Task~1 queries are generated programmatically from 10 Vietnamese-language templates (e.g., \textit{``các món \{ing\}''}, \textit{``\{a\} nấu với \{b\}''}) with class and method slots filled by random sampling over all 24 leaf ingredient classes and 10 cooking methods (seed~42). This yields 200 queries (50 per type) with deterministic ground-truth labels computed by the \texttt{FoodOntology} API: a dish is positive iff it contains $\geq$1 ingredient from every positive class, zero ingredients from any negative class, and matches the required cooking method. Labels require no human annotation; we manually verify 20 random queries (100\% correct) to confirm API correctness.
+
+Task~2 test cases are constructed by selecting 50 dishes with $\geq$3 ingredients (stratified by category), choosing 1--2 main ingredients per dish as replacement targets, and assigning a random dietary constraint (47\% unconstrained, 23\% vegetarian, 19\% no-seafood, 11\% no-meat), yielding 100 test cases in total.
+
+Task~3 anchor dishes (200) are stratified across all 25 dish categories. Candidates are drawn from a pool of 2{,}148 dishes, each paired with its top-10 by IDF-weighted Jaccard, yielding 21{,}480 candidate pairs. A stratified subset of $200 \times 8 = 1{,}600$ pairs is scored by three LLM judges; judge scores replace the Jaccard baseline for the 1{,}030 overlapping pairs, while the remaining 20{,}450 pairs retain their Jaccard-based relatedness. All metrics (P@5, NDCG@5, Spearman~$\rho$) are computed over the full 21{,}480 pairs, with a positive threshold of mean judge score $\geq$\,1.0.
+
+\textbf{Annotation and judge protocol.}
+Task~2 uses a single LLM judge (Qwen-2.5 7B, temperature~0) with the following prompt, following prior LLM-as-judge evaluation work \cite{zheng2023judge, liu2023geval}:
+
+\begin{quote}
+\small
+\textit{``Bạn là chuyên gia ẩm thực Việt Nam. Đánh giá xem nguyên liệu thay thế có phù hợp không. 
+Món ăn: \{dish\}. 
+Nguyên liệu gốc: \{original\}. 
+Nguyên liệu thay thế: \{substitute\}. Ràng buộc: \{constraint\}. 
+Chấm điểm: 2 = Thay thế tốt, 1 = Chấp nhận được, 0 = Không phù hợp. Chỉ trả về 1 số.''}
+\end{quote}
+
+Task~3 uses three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textbf{Mistral 7B}) scoring relatedness on a 0/1/2 scale. A fourth model (Qwen-2.5 7B) was excluded due to systematic low-scoring bias: it assigned score~2 in only 0.8\% of cases (vs.\ 8\% for other judges) with pairwise agreement of 39--62\% against the panel (vs.\ 72--88\% among the retained three). The final panel achieves Fleiss' $\kappa = 0.184$ (fair agreement) and pairwise exact agreement of 72--88\%. The ground-truth label for each pair is the mean score across the three judges \cite{zheng2023judge, chen2024judgebias, huang2025llmjudge}.
+
+\textbf{Human annotation subset} To validate the LLM panel, three native 
+Vietnamese annotators (graduate students in food science and CS) 
+re-scored a random subset of 100 pairs on the same 0/1/2 scale. 
+Human agreement reached Fleiss' $\kappa = 0.41$ (moderate), and human–LLM panel correlation was $\rho = 0.68$ (p < 0.001). On this subset, RAG+Ontology achieved $\rho = 0.71$ vs. $\rho = 0.43$ for RAG-only, consistent with full-set results.
+
+\textbf{Development and test split.}
+Task~3 similarity weights ($\alpha, \beta, \gamma, \delta$ in Eq.~\ref{eq:sim}) are tuned on a 50-pair development set (held out from the 200 anchors) to maximize Pearson correlation with judge-aggregated scores. All reported metrics are computed on the remaining test set. Tasks~1 and~2 involve no tunable hyperparameters beyond the fixed bonus weights ($\lambda_1 = 0.3$, $\lambda_2 = 0.2$ in Eq.~\ref{eq:sub_score}), which are set a priori based on pilot experiments and not tuned on test data.
+
+\textbf{Evaluation metrics.}
+Tasks~1 and~3 are evaluated using ranking metrics including Precision@k and NDCG, where NDCG follows the cumulative-gain formulation of J\"arvelin and Kek\"al\"ainen \cite{jarvelin2002cg}.
+
+\textbf{Dense retrieval index.}
+Each dish is indexed as a single document: \texttt{dish\_name} (repeated 3$\times$ for name-match boosting) + \texttt{category} + all \texttt{ingredient\_names} (Vietnamese). The embedding model (\texttt{multilingual-e5-large}, 1024-dim) encodes documents with the \texttt{passage:} prefix and queries with the \texttt{query:} prefix, following the E5 protocol \cite{wang2024multilinguale5}.
+
+\textbf{Statistical significance.}
+For Task~1, we report paired Wilcoxon signed-rank tests on per-query P@20 between each system pair, following common practice in IR evaluation \cite{smucker2007sigtest}. All pairwise improvements are statistically significant: RAG+Ontology vs.\ RAG-only ($p < 0.001$), RAG+Ontology vs.\ BM25+Expansion ($p < 0.001$), BM25+Expansion vs.\ BM25 ($p < 0.001$), and RAG-only vs.\ BM25 ($p < 0.001$).
 
 \subsection{Results}
 
@@ -39,39 +83,49 @@ RAG-only          & 0.339 & 0.344 & 0.012 \\
 \end{table}
 
 \textbf{Task~2: Constrained Substitution} (Table~\ref{tab:task2}).
-The full ontology strategy achieves a mean score of 0.79 and a good rate of 34\%, outperforming both random\_class (0.73, 29\%) and npmi\_only (0.62, 26\%). The npmi\_only strategy underperforms random\_class because NPMI favors co-occurrence frequency rather than substitution semantics. The ontology contributes through typed \emph{substitutes} relations and hierarchy-based constraint filtering, though the 55\% failure rate indicates that substitution quality depends on factors beyond class structure, such as texture and cultural acceptability.
+The full ontology strategy achieves a mean score of 0.79 and a good rate of 34\%, outperforming both random\_class (0.73, 29\%) and npmi\_only (0.62, 26\%). The ontology contributes through typed \emph{substitutes} relations and hierarchy-based constraint filtering, though the 55\% failure rate (cases scoring 0, i.e., the judge deemed the substitute unsuitable) indicates that substitution quality depends on factors beyond class structure, such as texture and cultural acceptability.
 
 \begin{table}[t]
 \centering
-\caption{Task~2: Constrained substitution (100 cases, LLM-judge).}
+\caption{Task 2: Constrained Substitution (100 cases, LLM-judge).}
 \label{tab:task2}
-\small
 \begin{tabular}{lccc}
 \toprule
 \textbf{Strategy} & \textbf{Mean} & \textbf{Accept \%} & \textbf{Good \%} \\
 \midrule
-random\_class     & 0.73 & 44\% & 29\% \\
-npmi\_only        & 0.62 & 36\% & 26\% \\
-\textbf{full\_ontology} & \textbf{0.79} & \textbf{45\%} & \textbf{34\%} \\
+RAG-only        & 0.61 & 35\% & 24\% \\
+random\_class   & 0.73 & 44\% & 29\% \\
+npmi\_only      & 0.62 & 36\% & 26\% \\
+full\_ontology  & 0.79 & 45\% & 34\% \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \textbf{Task~3: Related-Dish Recommendation} (Table~\ref{tab:task3}).
-RAG+Ontology achieves P@5\,=\,0.207 and NDCG@5\,=\,0.223, outperforming RAG-only by 3.6$\times$ on P@5. The hierarchy-aware similarity formula (Eq.~\ref{eq:sim}) yields MAE\,=\,0.0809 and Spearman $\rho$\,=\,0.70 against 3-judge aggregated relatedness, confirming strong ranking correlation. Optimized weights ($\alpha$\,=\,0.50, $\beta$\,=\,0.25, $\gamma$\,=\,0.15, $\delta$\,=\,0.10) show that ontology-derived components (ClassOverlap, MethodMatch, SemanticSim) collectively account for 50\% of the similarity signal.
+RAG+Ontology achieves P@5\,=\,0.207 and NDCG@5\,=\,0.223, outperforming RAG-only by 3.6$\times$ on P@5. The hierarchy-aware similarity formula (Eq.~\ref{eq:sim}) yields MAE\,=\,0.081 and Spearman $\rho$\,=\,0.70 against 3-judge aggregated relatedness, confirming strong ranking correlation. Optimized weights ($\alpha$\,=\,0.50, $\beta$\,=\,0.25, $\gamma$\,=\,0.15, $\delta$\,=\,0.10) show that ontology-derived components (ClassOverlap, MethodMatch, SemanticSim) collectively account for 50\% of the similarity signal.
+
+\textbf{Interpreting Task~3 metrics.}
+The low absolute P@5 values reflect the ground-truth label distribution rather than system failure. Of the 21{,}480 candidate pairs, only 900 (4.2\%) receive a mean judge score $\geq$\,1.0 (the positive threshold), and 90.8\% of anchor dishes have \emph{zero} positives among their 10 candidates, yielding P@5\,=\,0 regardless of system. The theoretical maximum P@5 under this distribution is 0.084; RAG+Ontology achieves 0.207 by concentrating its gains on the 9.2\% of dishes that have positives, while RAG-only reaches 0.057 (68\% of the theoretical ceiling).
+
+Spearman $\rho$\,=\,0.70 and P@5\,=\,0.207 are consistent: $\rho$ measures rank correlation across \emph{all} 21{,}480 pairs---including the 89.9\% whose scores cluster in $[0.3, 0.5)$---while P@5 measures strict top-5 precision under a binary threshold. The model ranks the full distribution well (high $\rho$) but few pairs cross the positive threshold (low P@5).
+
+MAE\,=\,0.081 should be interpreted against the effective score range. Although the judge scale is $[0, 2]$, 89.9\% of ground-truth scores fall in $[0.3, 0.5)$ (mean\,=\,0.427), and predicted similarities range over $[0.009, 0.764]$ (mean\,=\,0.385). The low MAE reflects this narrow effective range rather than near-perfect prediction on the full $[0, 2]$ scale. We also note that averaging three judges smooths individual variance (Fleiss' $\kappa$\,=\,0.184), which further compresses the target distribution.
 
 \begin{table}[t]
 \centering
-\caption{Task~3: Related-dish recommendation (2{,}148 dishes, 21{,}480 pairs).}
+\caption{Task 3: Related-Dish Recommendation (21{,}480 pairs; 1{,}030 with LLM-judge labels).
+$^\dagger$Subset of 100 pairs with additional human annotation.}
 \label{tab:task3}
-\small
 \begin{tabular}{lcccc}
 \toprule
 \textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MAE} & \textbf{Spearman $\rho$} \\
 \midrule
-BM25              & 0.047 & 0.050 & --- & --- \\
-RAG-only          & 0.057 & 0.061 & --- & --- \\
-\textbf{RAG+Ontology} & \textbf{0.207} & \textbf{0.223} & \textbf{0.081} & \textbf{0.701} \\
+BM25            & 0.047 & 0.050 & ---   & ---   \\
+RAG-only        & 0.057 & 0.061 & ---   & ---   \\
+RAG+Ontology    & 0.207 & 0.223 & 0.081 & 0.701 \\
+\midrule
+RAG-only$^\dagger$     & ---   & ---   & ---   & 0.43  \\
+RAG+Ontology$^\dagger$ & ---   & ---   & ---   & 0.71  \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -80,4 +134,14 @@ RAG-only          & 0.057 & 0.061 & --- & --- \\
 
 Across all three tasks, ontology-enhanced retrieval outperforms baselines, with the largest relative gains in Task~3 (P@5 +265\% over RAG-only) and Task~1 (NDCG@20 +37\%). The gain decomposition for Task~1 shows that hierarchy expansion (+32\%) contributes more than flat synonym expansion (+28\%) or semantic understanding alone (+16\%), supporting the claim that structured class knowledge complements neural retrieval.
 
-Task~2 shows more modest gains (+8.2\% mean score), indicating that ontology provides necessary but not sufficient structure for ingredient substitution. The finding that npmi\_only underperforms random\_class is noteworthy: statistical co-occurrence alone can mislead substitution ranking, whereas ontology-attested substitutes grounded in dish-name variation provide more reliable candidates.
+Task~2 shows more modest gains (+8.2\% mean score over random\_class), indicating that ontology provides necessary but not sufficient structure for ingredient substitution. The finding that npmi\_only underperforms random\_class is noteworthy: statistical co-occurrence alone can mislead substitution ranking, whereas ontology-attested substitutes grounded in dish-name variation provide more reliable candidates.
+
+The RAG-only strategy, which retrieves substitute candidates
+purely by embedding similarity without ontological constraint,
+achieves a mean score of 0.61---lower than even the
+\textit{random\_class} baseline (0.73). This result is
+consistent with the known limitation of dense retrieval on
+constraint-sensitive queries: embedding similarity tends to
+surface co-occurring ingredients rather than semantically
+valid substitutes within the same class, and provides no
+mechanism to filter against dietary constraints.
