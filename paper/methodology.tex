@@ -1,7 +1,7 @@
-\section{Ontology-Enhanced RAG Framework}
+\section{Ontology-Enhanced Retrieval Framework}
 \label{sec:framework}
 
-This section presents the ontology construction process and its integration into the RAG pipeline. Section~\ref{ssec:formal} gives formal definitions. Section~\ref{ssec:hierarchy} describes the ingredient hierarchy and dish taxonomy. Section~\ref{ssec:relations} details relation derivation. Section~\ref{ssec:integration} explains the three ontology injection points.
+This section presents the ontology construction process and its integration into the retrieval pipeline. Section~\ref{ssec:formal} gives formal definitions. Section~\ref{ssec:hierarchy} describes the ingredient hierarchy and dish taxonomy. Section~\ref{ssec:relations} details relation derivation. Section~\ref{ssec:integration} explains the three ontology injection points.
 
 % ──────────────────────────────────────────────────────────────
 \subsection{Formal Definition}
@@ -79,10 +79,10 @@ All pairs with $\text{NPMI} > 0.3$ are retained, yielding 15{,}119 complement pa
 The cooking method is mapped from the dish category field using a 15-entry lookup table (e.g., ``m\'{o}n x\`{a}o'' $\to$ \texttt{StirFry}), covering all 10{,}741 dishes.
 
 % ──────────────────────────────────────────────────────────────
-\subsection{Ontology Integration with RAG}
+\subsection{Ontology Integration with Dense Retrieval}
 \label{ssec:integration}
 
-The ontology is injected into the dense-retrieval RAG pipeline at three points, each targeting one of the failure modes identified in Section~\ref{sec:introduction}. Fig.~\ref{fig:pipeline} illustrates the overall architecture.
+The ontology is injected into the dense-retrieval pipeline at three points, each targeting one of the failure modes identified in Section~\ref{sec:introduction}. Fig.~\ref{fig:pipeline} illustrates the overall architecture.
 
 % --- FIGURE: Pipeline ---
 \begin{figure}[t]
@@ -93,7 +93,7 @@ The ontology is injected into the dense-retrieval RAG pipeline at three points, 
 \textbf{Substitution request} $\xrightarrow{\text{(2) lookup + filter}}$ Ranked substitutes\\[4pt]
 \textbf{Dish} $\xrightarrow{\text{(3) hierarchy-aware sim}}$ Related dishes
 }}
-\caption{Ontology injection points in the RAG pipeline.}
+\caption{Ontology injection points in the retrieval pipeline.}
 \label{fig:pipeline}
 \end{figure}
 

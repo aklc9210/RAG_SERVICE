@@ -7,15 +7,15 @@ The corpus contains 10{,}741 Vietnamese dishes with structured fields (name, ing
 \subsection{Systems}
 
 Task~1 compares four systems: \textbf{BM25} (keyword matching 
-baseline), \textbf{BM25+Expansion} (BM25 with flat synonym expansion from the ingredient KB, no hierarchy), \textbf{RAG-only} (dense retrieval without ontology), and \textbf{RAG+Ontology} 
+baseline), \textbf{BM25+Expansion} (BM25 with flat synonym expansion from the ingredient KB, no hierarchy), \textbf{Dense} (dense retrieval without ontology), and \textbf{Dense+Ontology} 
 (dense retrieval with ontology query expansion, constraint filtering, and hierarchy-aware similarity). 
 
-Task~2 compares four substitution strategies: RAG-only (dense retrieval over ingredient embeddings, no filtering), random\_class (uniform sampling from the same leaf class), npmi\_only (NPMI ranking without ontology), 
+Task~2 compares four substitution strategies: Dense (dense retrieval over ingredient embeddings, no filtering), random\_class (uniform sampling from the same leaf class), npmi\_only (NPMI ranking without ontology), 
 and full\_ontology (Section~\ref{ssec:integration}(2): typed substitutes + hierarchy filtering + NPMI ranking). 
 
-Task~3 compares BM25, RAG-only, and RAG+Ontology.
+Task~3 compares BM25, Dense, and Dense+Ontology.
 
-This comparison follows a standard sparse--dense setup: BM25 provides the lexical baseline, dense retrieval the semantic baseline, and RAG+Ontology tests whether structured knowledge 
+This comparison follows a standard sparse--dense setup: BM25 provides the lexical baseline, dense retrieval the semantic baseline, and Dense+Ontology tests whether structured knowledge 
 adds gains beyond both \cite{robertson2009probabilistic, 
 karpukhin2020dense, thakur2021beir}.
 % ──────────────────────────────────────────────────────────────
@@ -46,7 +46,7 @@ Task~3 uses three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textb
 \textbf{Human annotation subset} To validate the LLM panel, three native 
 Vietnamese annotators (graduate students in food science and CS) 
 re-scored a random subset of 100 pairs on the same 0/1/2 scale. 
-Human agreement reached Fleiss' $\kappa = 0.41$ (moderate), and human–LLM panel correlation was $\rho = 0.68$ (p < 0.001). On this subset, RAG+Ontology achieved $\rho = 0.71$ vs. $\rho = 0.43$ for RAG-only, consistent with full-set results.
+Human agreement reached Fleiss' $\kappa = 0.41$ (moderate), and human–LLM panel correlation was $\rho = 0.68$ (p < 0.001). On this subset, Dense+Ontology achieved $\rho = 0.71$ vs. $\rho = 0.43$ for Dense, consistent with full-set results.
 
 \textbf{Development and test split.}
 Task~3 similarity weights ($\alpha, \beta, \gamma, \delta$ in Eq.~\ref{eq:sim}) are tuned on a 50-pair development set (held out from the 200 anchors) to maximize Pearson correlation with judge-aggregated scores. All reported metrics are computed on the remaining test set. Tasks~1 and~2 involve no tunable hyperparameters beyond the fixed bonus weights ($\lambda_1 = 0.3$, $\lambda_2 = 0.2$ in Eq.~\ref{eq:sub_score}), which are set a priori based on pilot experiments and not tuned on test data.
@@ -58,12 +58,12 @@ Tasks~1 and~3 are evaluated using ranking metrics including Precision@k and NDCG
 Each dish is indexed as a single document: \texttt{dish\_name} (repeated 3$\times$ for name-match boosting) + \texttt{category} + all \texttt{ingredient\_names} (Vietnamese). The embedding model (\texttt{multilingual-e5-large}, 1024-dim) encodes documents with the \texttt{passage:} prefix and queries with the \texttt{query:} prefix, following the E5 protocol \cite{wang2024multilinguale5}.
 
 \textbf{Statistical significance.}
-For Task~1, we report paired Wilcoxon signed-rank tests on per-query P@20 between each system pair, following common practice in IR evaluation \cite{smucker2007sigtest}. All pairwise improvements are statistically significant: RAG+Ontology vs.\ RAG-only ($p < 0.001$), RAG+Ontology vs.\ BM25+Expansion ($p < 0.001$), BM25+Expansion vs.\ BM25 ($p < 0.001$), and RAG-only vs.\ BM25 ($p < 0.001$).
+For Task~1, we report paired Wilcoxon signed-rank tests on per-query P@20 between each system pair, following common practice in IR evaluation \cite{smucker2007sigtest}. All pairwise improvements are statistically significant: Dense+Ontology vs.\ Dense ($p < 0.001$), Dense+Ontology vs.\ BM25+Expansion ($p < 0.001$), BM25+Expansion vs.\ BM25 ($p < 0.001$), and Dense vs.\ BM25 ($p < 0.001$).
 
 \subsection{Results}
 
 \textbf{Task~1: Class-Based Retrieval} (Table~\ref{tab:task1}).
-RAG+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming RAG-only by +32\% and +37\% respectively, and BM25 by +94\% and +103\%. The gain from ontology hierarchy (+32\% over RAG-only) exceeds the gain from flat synonym expansion (+28\% BM25+Expansion over BM25), confirming that structured class expansion is more effective than flat lookup.
+Dense+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming Dense by +32\% and +37\% respectively, and BM25 by +94\% and +103\%. The gain from ontology hierarchy (+32\% over Dense) exceeds the gain from flat synonym expansion (+28\% BM25+Expansion over BM25), confirming that structured class expansion is more effective than flat lookup.
 
 \begin{table}[t]
 \centering
@@ -76,8 +76,8 @@ RAG+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming RAG-on
 \midrule
 BM25              & 0.230 & 0.232 & 0.007 \\
 BM25+Expansion    & 0.295 & 0.298 & 0.007 \\
-RAG-only          & 0.339 & 0.344 & 0.012 \\
-\textbf{RAG+Ontology} & \textbf{0.446} & \textbf{0.472} & \textbf{0.019} \\
+Dense             & 0.339 & 0.344 & 0.012 \\
+\textbf{Dense+Ontology} & \textbf{0.446} & \textbf{0.472} & \textbf{0.019} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -93,7 +93,7 @@ The full ontology strategy achieves a mean score of 0.79 and a good rate of 34\%
 \toprule
 \textbf{Strategy} & \textbf{Mean} & \textbf{Accept \%} & \textbf{Good \%} \\
 \midrule
-RAG-only        & 0.61 & 35\% & 24\% \\
+Dense           & 0.61 & 35\% & 24\% \\
 random\_class   & 0.73 & 44\% & 29\% \\
 npmi\_only      & 0.62 & 36\% & 26\% \\
 full\_ontology  & 0.79 & 45\% & 34\% \\
@@ -102,10 +102,10 @@ full\_ontology  & 0.79 & 45\% & 34\% \\
 \end{table}
 
 \textbf{Task~3: Related-Dish Recommendation} (Table~\ref{tab:task3}).
-RAG+Ontology achieves P@5\,=\,0.207 and NDCG@5\,=\,0.223, outperforming RAG-only by 3.6$\times$ on P@5. The hierarchy-aware similarity formula (Eq.~\ref{eq:sim}) yields MAE\,=\,0.081 and Spearman $\rho$\,=\,0.70 against 3-judge aggregated relatedness, confirming strong ranking correlation. Optimized weights ($\alpha$\,=\,0.50, $\beta$\,=\,0.25, $\gamma$\,=\,0.15, $\delta$\,=\,0.10) show that ontology-derived components (ClassOverlap, MethodMatch, SemanticSim) collectively account for 50\% of the similarity signal.
+Dense+Ontology achieves P@5\,=\,0.207 and NDCG@5\,=\,0.223, outperforming Dense by 3.6$\times$ on P@5. The hierarchy-aware similarity formula (Eq.~\ref{eq:sim}) yields MAE\,=\,0.081 and Spearman $\rho$\,=\,0.70 against 3-judge aggregated relatedness, confirming strong ranking correlation. Optimized weights ($\alpha$\,=\,0.50, $\beta$\,=\,0.25, $\gamma$\,=\,0.15, $\delta$\,=\,0.10) show that ontology-derived components (ClassOverlap, MethodMatch, SemanticSim) collectively account for 50\% of the similarity signal.
 
 \textbf{Interpreting Task~3 metrics.}
-The low absolute P@5 values reflect the ground-truth label distribution rather than system failure. Of the 21{,}480 candidate pairs, only 900 (4.2\%) receive a mean judge score $\geq$\,1.0 (the positive threshold), and 90.8\% of anchor dishes have \emph{zero} positives among their 10 candidates, yielding P@5\,=\,0 regardless of system. The theoretical maximum P@5 under this distribution is 0.084; RAG+Ontology achieves 0.207 by concentrating its gains on the 9.2\% of dishes that have positives, while RAG-only reaches 0.057 (68\% of the theoretical ceiling).
+The low absolute P@5 values reflect the ground-truth label distribution rather than system failure. Of the 21{,}480 candidate pairs, only 900 (4.2\%) receive a mean judge score $\geq$\,1.0 (the positive threshold), and 90.8\% of anchor dishes have \emph{zero} positives among their 10 candidates, yielding P@5\,=\,0 regardless of system. The theoretical maximum P@5 under this distribution is 0.084; Dense+Ontology achieves 0.207 by concentrating its gains on the 9.2\% of dishes that have positives, while Dense reaches 0.057 (68\% of the theoretical ceiling).
 
 Spearman $\rho$\,=\,0.70 and P@5\,=\,0.207 are consistent: $\rho$ measures rank correlation across \emph{all} 21{,}480 pairs---including the 89.9\% whose scores cluster in $[0.3, 0.5)$---while P@5 measures strict top-5 precision under a binary threshold. The model ranks the full distribution well (high $\rho$) but few pairs cross the positive threshold (low P@5).
 
@@ -121,22 +121,22 @@ $^\dagger$Subset of 100 pairs with additional human annotation.}
 \textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MAE} & \textbf{Spearman $\rho$} \\
 \midrule
 BM25            & 0.047 & 0.050 & ---   & ---   \\
-RAG-only        & 0.057 & 0.061 & ---   & ---   \\
-RAG+Ontology    & 0.207 & 0.223 & 0.081 & 0.701 \\
+Dense           & 0.057 & 0.061 & ---   & ---   \\
+Dense+Ontology  & 0.207 & 0.223 & 0.081 & 0.701 \\
 \midrule
-RAG-only$^\dagger$     & ---   & ---   & ---   & 0.43  \\
-RAG+Ontology$^\dagger$ & ---   & ---   & ---   & 0.71  \\
+Dense$^\dagger$        & ---   & ---   & ---   & 0.43  \\
+Dense+Ontology$^\dagger$ & ---   & ---   & ---   & 0.71  \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \subsection{Discussion}
 
-Across all three tasks, ontology-enhanced retrieval outperforms baselines, with the largest relative gains in Task~3 (P@5 +265\% over RAG-only) and Task~1 (NDCG@20 +37\%). The gain decomposition for Task~1 shows that hierarchy expansion (+32\%) contributes more than flat synonym expansion (+28\%) or semantic understanding alone (+16\%), supporting the claim that structured class knowledge complements neural retrieval.
+Across all three tasks, ontology-enhanced retrieval outperforms baselines, with the largest relative gains in Task~3 (P@5 +265\% over Dense) and Task~1 (NDCG@20 +37\%). The gain decomposition for Task~1 shows that hierarchy expansion (+32\%) contributes more than flat synonym expansion (+28\%) or semantic understanding alone (+16\%), supporting the claim that structured class knowledge complements neural retrieval.
 
 Task~2 shows more modest gains (+8.2\% mean score over random\_class), indicating that ontology provides necessary but not sufficient structure for ingredient substitution. The finding that npmi\_only underperforms random\_class is noteworthy: statistical co-occurrence alone can mislead substitution ranking, whereas ontology-attested substitutes grounded in dish-name variation provide more reliable candidates.
 
-The RAG-only strategy, which retrieves substitute candidates
+The Dense strategy, which retrieves substitute candidates
 purely by embedding similarity without ontological constraint,
 achieves a mean score of 0.61---lower than even the
 \textit{random\_class} baseline (0.73). This result is
