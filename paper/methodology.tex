@@ -34,14 +34,14 @@ cookedBy           & dish $\times$ method         & category pattern   & 10{,}74
 \label{ssec:hierarchy}
 
 \textbf{Ingredient hierarchy.}
-The ingredient hierarchy is a four-level rooted tree with 49 classes (39 leaf classes) covering 8{,}112 Vietnamese ingredients. Level~0 is the root \texttt{Ingredient}; Level~1 contains nine top categories (\texttt{Protein}, \texttt{Produce}, \texttt{Seasoning}, \texttt{Staple}, \texttt{Dairy}, \texttt{Beverage}, \texttt{Sweet}, \texttt{Processed}, \texttt{Other}); Level~2 and Level~3 provide finer distinctions (e.g., \texttt{Protein} $\to$ \texttt{AnimalProtein} $\to$ \texttt{Seafood}). Construction follows a two-stage process: (1)~manual design of the class tree based on Vietnamese culinary conventions, and (2)~automated classification of each ingredient into a leaf class using an LLM classifier (Qwen-2.5 7B, temperature~0, batch size~25), with manual validation of the 100 most frequent ingredients and spot-checking of 50 random samples. Ingredients that cannot be resolved are assigned to a fallback \texttt{Other} class. Fig.~\ref{fig:hierarchy} illustrates the top three levels.
+The ingredient hierarchy is a four-level rooted tree with 49 classes (39 leaf classes) covering 2{,}112 Vietnamese ingredients. Level~0 is the root \texttt{Ingredient}; Level~1 contains nine top categories (\texttt{Protein}, \texttt{Produce}, \texttt{Seasoning}, \texttt{Staple}, \texttt{Dairy}, \texttt{Beverage}, \texttt{Sweet}, \texttt{Processed}, \texttt{Other}); Level~2 and Level~3 provide finer distinctions (e.g., \texttt{Protein} $\to$ \texttt{AnimalProtein} $\to$ \texttt{Seafood}). Construction follows a two-stage process: (1)~manual design of the class tree based on Vietnamese culinary conventions, and (2)~automated classification of each ingredient into a leaf class using an LLM classifier (Qwen-2.5 7B, temperature~0, batch size~25), with manual validation of the 100 most frequent ingredients and spot-checking of 50 random samples. Ingredients that cannot be resolved are assigned to a fallback \texttt{Other} class. Fig.~\ref{fig:hierarchy} illustrates the top three levels.
 
 % --- FIGURE: Hierarchy tree ---
 \begin{figure}[t]
 \centering
 % \includegraphics[width=\columnwidth]{figures/hierarchy_tree.pdf}
 \fbox{\parbox{0.92\columnwidth}{\centering\small
-\texttt{Ingredient} (8{,}112)\\[2pt]
+\texttt{Ingredient} (2{,}112)\\[2pt]
 \texttt{Protein} (1{,}273) \quad \texttt{Produce} (1{,}834) \quad \texttt{Seasoning} (2{,}508) \quad \texttt{Staple} (571) \quad \ldots\\[2pt]
 \texttt{AnimalProtein} \quad \texttt{PlantProtein}(69) \quad \texttt{Herb}(402) \quad \texttt{Vegetable}(591) \quad \ldots\\[2pt]
 \texttt{Seafood}(519) \quad \texttt{Meat}(333) \quad \texttt{Poultry}(85) \quad \texttt{Egg}(46) \quad \ldots
@@ -118,4 +118,20 @@ Dish similarity combines four components:
 \text{Sim}(A, B) = \alpha \cdot J + \beta \cdot C + \gamma \cdot M + \delta \cdot S
 \end{equation}
 %
-where $J = \text{Jaccard}(A, B)$ is standard set overlap on ingredient IDs; $C = \text{ClassOverlap}(A, B)$ uses greedy bipartite matching over ingredient classes (same-leaf $\to$ 1.0, same-parent $\to$ 0.5, normalized by $\max(|A|, |B|)$); $M = \text{MethodMatch}(A, B)$ returns 1.0 if both dishes share the same cooking method; and $S = \text{SemanticSim}(A, B)$ captures pre-computed ingredient-level semantic similarity from embedding-based matrices. Weights are tuned on a 50-pair development set to maximize Pearson correlation with human-judged relatedness, yielding $\alpha = 0.50$, $\beta = 0.25$, $\gamma = 0.15$, $\delta = 0.10$.
+where $A$ and $B$ are two dishes represented by their ingredient sets, and $\alpha, \beta, \gamma, \delta$ are tunable weights (summing to 1.0) determined via 5-fold cross-validation (Section~\ref{ssec:eval_protocol}). The four components are:
+
+\begin{itemize}
+  \item $J = \text{WeightedJaccard}(A, B)$: Ingredient overlap weighted by role importance. Each ingredient $i$ receives weight $w_i \in \{3.0, 1.5, 0.5\}$ for main, secondary, and seasoning roles respectively:
+  \[
+    J = \frac{\sum_{i \in A \cap B} w_i}{\sum_{i \in A \cup B} w_i}
+  \]
+
+  \item $C = \text{WeightedClassOverlap}(A, B)$: Greedy bipartite matching over ontology classes. Each matched pair scores 1.0 (same leaf class) or 0.5 (same parent class), multiplied by the ingredient's role weight $w_i$, normalized by total weight:
+  \[
+    C = \frac{\sum_{a \in A} w_a \cdot \text{match}(a, B)}{\sum_{a \in A} w_a}
+  \]
+
+  \item $M = \text{MethodMatch}(A, B)$: Returns 1.0 if both dishes share the same cooking method (e.g., both stir-fried), 0.0 otherwise.
+
+  \item $S = \text{SemanticSim}(A, B)$: Mean pairwise semantic similarity between ingredients of $A$ and $B$, computed from pre-trained embedding matrices.
+\end{itemize}

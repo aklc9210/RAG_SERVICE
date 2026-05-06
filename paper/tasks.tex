@@ -1,7 +1,7 @@
 \section{Task Definitions}
 \label{sec:tasks}
 
-We define three evaluation tasks, each designed to isolate a specific ontology contribution. All tasks share the same corpus of 10{,}741 Vietnamese dishes and the same ontology (Section~\ref{sec:framework}). Each task follows a common template: motivation, input/output specification, ground-truth construction, and evaluation metrics.
+We define three evaluation tasks, each designed to isolate a specific ontology contribution. All tasks share the same corpus of 10{,}741 Vietnamese dishes and the same ontology (Section~\ref{sec:framework}).
 
 % ──────────────────────────────────────────────────────────────
 \subsection{Task~1: Class-Based Dish Retrieval}
@@ -11,9 +11,9 @@ We define three evaluation tasks, each designed to isolate a specific ontology c
 
 \textbf{Input/Output.} Input is a natural-language query containing one or more class references and optional negation or cooking-method constraints. Output is a ranked list of dish IDs.
 
-\textbf{Ground truth.} We construct 200 queries across four types (50 each): \emph{single-class} (e.g., ``m\'{o}n n\'\acircumflex{}m''), \emph{multi-class} (e.g., ``v\d{i}t n\'\acircumflex{}u v\'\ohorn{}i me'', requiring both Poultry and SourSeasoning), \emph{negation} (e.g., ``m\'{o}n th\d{i}t kh\^{o}ng cay'', requiring Meat but excluding Spicy), and \emph{cooking-method} (e.g., ``h\h{a}i s\h{a}n n\uhorn\'\ohorn{}ng'', requiring Seafood with method Grill). A dish is labeled positive if it contains at least one ingredient from every positive class, no ingredient from any negative class, and matches the required cooking method (if specified). Labels are generated automatically via the \texttt{FoodOntology} API over all 10{,}741 dishes. We manually validate 20 random queries to confirm label correctness. Average ground-truth set size varies by type: single-class $\approx$1{,}500, multi-class $\approx$350, negation $\approx$1{,}200, cooking-method $\approx$150.
+\textbf{Ground truth.} 200 queries across four types (50 each): single-class, multi-class, negation, and cooking-method. Labels are generated automatically via the \texttt{FoodOntology} API. Construction details are given in Section~\ref{ssec:eval_protocol}.
 
-\textbf{Metrics.} P@20, NDCG@20, and MAP. Recall@20 is reported but expected to be low due to large ground-truth sets relative to the top-20 cutoff.
+\textbf{Metrics.} P@20, NDCG@20, and MRR@20.
 
 % ──────────────────────────────────────────────────────────────
 \subsection{Task~2: Constrained Ingredient Substitution}
@@ -23,7 +23,7 @@ We define three evaluation tasks, each designed to isolate a specific ontology c
 
 \textbf{Input/Output.} Input is a tuple (dish, target ingredient, constraint). Output is a ranked list of top-5 candidate substitutes.
 
-\textbf{Ground truth.} We select 100 test cases covering diverse dishes and constraints (vegetarian, no-seafood, unconstrained). Each candidate substitute is scored by a single LLM judge (Qwen-2.5 7B, temperature~0) on a 0/1/2 scale: 0~=~unsuitable, 1~=~acceptable, 2~=~good. Three strategies are compared: \emph{random\_class} (random same-class member), \emph{npmi\_only} (NPMI-ranked same-class), and \emph{full\_ontology} (ontology substitutes + constraint filter + NPMI rerank, Eq.~\ref{eq:sub_score}).
+\textbf{Ground truth.} 100 test cases scored by a single LLM judge (Qwen-2.5 7B, temperature~0) on a 0/1/2 scale. Construction and judge protocol are given in Section~\ref{ssec:eval_protocol}.
 
 \textbf{Metrics.} Mean LLM-judge score, accept rate (score $\geq$ 1), and good rate (score = 2).
 
@@ -35,6 +35,6 @@ We define three evaluation tasks, each designed to isolate a specific ontology c
 
 \textbf{Input/Output.} Input is a dish ID. Output is a ranked list of related dishes.
 
-\textbf{Ground truth.} We select 200 anchor dishes stratified across dish categories. For each anchor, candidate dishes are scored by three LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) on a 0/1/2 relatedness scale; the mean across judges serves as the ground-truth label. We exclude Qwen-2.5 7B from the panel due to systematic low-scoring bias (score~2 assigned in only 0.8\% of cases, pairwise agreement 39--62\% with other judges). The remaining three judges achieve Fleiss' $\kappa = 0.184$ (fair agreement) and pairwise exact agreement of 72--88\%. This yields 21{,}480 scored pairs in total.
+\textbf{Ground truth.} For each of 200 anchor dishes, we construct a diverse candidate set from four sources: top-Jaccard, mid-range similarity, same-category with low Jaccard, and random negatives (${\sim}$20 candidates per anchor). Three LLM judges score each pair. Construction details are given in Section~\ref{ssec:eval_protocol}.
 
-\textbf{Metrics.} P@5, NDCG@5, and MAE against judge-aggregated relatedness. Spearman $\rho$ is reported as the primary correlation metric.
+\textbf{Metrics.} P@5, NDCG@5, and MRR@5.
