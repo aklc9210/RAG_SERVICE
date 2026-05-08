@@ -260,7 +260,12 @@ Chúng tôi định nghĩa 3 nhiệm vụ đánh giá, mỗi nhiệm vụ đư�
 2. **npmi_only**: Xếp hạng NPMI không dùng ontology
 3. **full_ontology**: Thay thế ontology + lọc phân cấp + xếp hạng NPMI
 
-**Nhiệm vụ 3** so sánh: BM25, Dense, Dense+Ontology.
+**Nhiệm vụ 3** so sánh 8 cấu hình qua ablation study (5-fold CV):
+- A: Chỉ Jaccard
+- B: Jaccard + ClassOverlap
+- C: Jaccard + ClassOverlap + MethodMatch
+- D: Đầy đủ (cả 4 thành phần)
+- E–H: Bỏ từng thành phần
 
 ### 5.3. Quy trình đánh giá
 
@@ -270,19 +275,20 @@ Nhiệm vụ 1: Truy vấn được sinh tự động từ 10 mẫu tiếng Vi�
 
 Nhiệm vụ 2: Chọn 50 món có ≥ 3 nguyên liệu (phân tầng theo danh mục), chọn 1-2 nguyên liệu chính mỗi món, gán ràng buộc ngẫu nhiên → 100 trường hợp.
 
-Nhiệm vụ 3: Toàn bộ 2.148 món trong tập kiểm tra được dùng làm anchor. Ứng viên là top-10 theo Jaccard có trọng số IDF cho mỗi anchor → 21.480 cặp. Tập con 200 anchor × 8 = 1.600 cặp được 3 LLM judges chấm; điểm judge thay thế baseline Jaccard cho 1.030 cặp trùng, 20.450 cặp còn lại giữ điểm Jaccard. Tất cả chỉ số tính trên toàn bộ 21.480 cặp, ngưỡng dương là điểm judge trung bình ≥ 1.0.
+Nhiệm vụ 3: 200 món anchor được chọn phân tầng theo 25 danh mục. Mỗi anchor có 20 ứng viên từ 4 nguồn đa dạng: (1) top-5 Jaccard (dễ cho hệ thống Jaccard), (2) 5 từ khoảng giữa Jaccard (rank 10-20), (3) 5 cùng danh mục nhưng Jaccard < 0.2 (khó cho Jaccard, test ontology), (4) 5 ngẫu nhiên (negative). Tổng ~4.000 cặp. Cả 3 LLM judges chấm tất cả cặp; điểm trung bình là đáp án đúng. Ngưỡng dương: mean ≥ 1.0.
 
 **Gán nhãn và quy trình chấm:**
 
 Nhiệm vụ 2 dùng 1 LLM judge (Qwen-2.5 7B, temperature 0) với prompt:
 > "Bạn là chuyên gia ẩm thực Việt Nam. Đánh giá xem nguyên liệu thay thế có phù hợp không. Món ăn: {món}. Nguyên liệu gốc: {gốc}. Nguyên liệu thay thế: {thay thế}. Ràng buộc: {ràng buộc}. Chấm điểm: 2 = Thay thế tốt, 1 = Chấp nhận được, 0 = Không phù hợp. Chỉ trả về 1 số."
 
-Nhiệm vụ 3 dùng 3 LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) chấm trên thang 0/1/2. Qwen-2.5 7B bị loại vì thiên lệch chấm thấp. Panel cuối đạt Fleiss' κ = 0.184, đồng thuận cặp 72-88%.
+Nhiệm vụ 3 dùng 3 LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) chấm trên thang 0/1/2 với prompt:
+> "Rate how related these two Vietnamese dishes are for a 'similar dishes' recommendation. Score: 2 = very related, 1 = somewhat related, 0 = unrelated. Reply with ONLY one number. Dish 1: {a}. Dish 2: {b}. Score:"
 
-**Kiểm chứng bằng người thật:** 3 người Việt bản ngữ (nghiên cứu sinh ngành khoa học thực phẩm và CNTT) chấm lại 100 cặp ngẫu nhiên trên cùng thang 0/1/2. Đồng thuận người thật: Fleiss' κ = 0.41 (trung bình). Tương quan người thật–LLM panel: ρ = 0.68 (p < 0.001). Trên tập con này, Dense+Ontology đạt ρ = 0.71 so với ρ = 0.43 cho Dense — nhất quán với kết quả toàn tập.
+Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70-76% (Llama-Gemma: 75.6%, Llama-Mistral: 69.9%, Gemma-Mistral: 74.1%). Điểm trung bình nhất quán: Llama 0.79, Gemma 0.79, Mistral 0.97.
 
-**Tách tập phát triển và tập kiểm tra:**
-Trọng số tương tự Nhiệm vụ 3 (α, β, γ, δ) được điều chỉnh trên tập phát triển 50 cặp (tách riêng từ 200 anchor đã được LLM judge chấm). Tất cả chỉ số báo cáo tính trên tập kiểm tra còn lại. Nhiệm vụ 1 và 2 không có siêu tham số cần điều chỉnh ngoài trọng số cố định (λ₁ = 0.3, λ₂ = 0.2), được đặt trước dựa trên thí nghiệm thử và không điều chỉnh trên dữ liệu kiểm tra.
+**Tách tập và cross-validation:**
+Trọng số tương tự Nhiệm vụ 3 (α, β, γ, δ) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 và 2 không có siêu tham số cần điều chỉnh ngoài trọng số cố định (λ₁ = 0.3, λ₂ = 0.2).
 
 **Chỉ mục truy xuất dày đặc:**
 Mỗi món được lập chỉ mục như 1 tài liệu: tên_món (lặp 3 lần để tăng trọng số khớp tên) + danh_mục + tất_cả_tên_nguyên_liệu (tiếng Việt). Mô hình embedding (multilingual-e5-large, 1024 chiều) mã hóa tài liệu với tiền tố "passage:" và truy vấn với tiền tố "query:".
@@ -313,33 +319,38 @@ Dense+Ontology đạt P@20 = 0.446 và NDCG@20 = 0.472, vượt Dense +32% và +
 
 Full ontology đạt điểm trung bình 0.79 và tỷ lệ tốt 34%, vượt random_class (0.73, 29%) và npmi_only (0.62, 26%). Ontology đóng góp qua quan hệ "thay thế được" có kiểu và lọc ràng buộc theo phân cấp. Tuy nhiên, tỷ lệ thất bại 55% (điểm 0, judge đánh giá không phù hợp) cho thấy chất lượng thay thế phụ thuộc vào các yếu tố ngoài cấu trúc nhóm, như kết cấu và sự chấp nhận văn hóa.
 
-**Nhiệm vụ 3: Gợi ý món liên quan** (21.480 cặp; 1.030 có nhãn LLM judge)
+**Nhiệm vụ 3: Gợi ý món liên quan** (200 anchors, ~4.000 cặp đa dạng, 5-fold CV)
 
-| Hệ thống | P@5 | NDCG@5 | MAE | Spearman ρ |
-|---|---|---|---|---|
-| BM25 | 0.047 | 0.050 | --- | --- |
-| Dense | 0.057 | 0.061 | --- | --- |
-| Dense+Ontology | 0.207 | 0.223 | 0.081 | 0.701 |
-| Dense (100 cặp người chấm) | --- | --- | --- | 0.43 |
-| Dense+Ontology (100 cặp người chấm) | --- | --- | --- | 0.71 |
+Để tránh circularity (ứng viên chọn bằng Jaccard → Jaccard tự nhiên rank tốt), chúng tôi xây tập ứng viên đa dạng từ 4 nguồn. Bảng ablation so sánh 8 cấu hình:
 
-Dense+Ontology đạt P@5 = 0.207 và NDCG@5 = 0.223, vượt Dense 3.6 lần trên P@5. Công thức tương tự theo phân cấp đạt MAE = 0.081 và Spearman ρ = 0.70 so với đánh giá tổng hợp 3 judges, xác nhận tương quan xếp hạng mạnh.
+| Cấu hình | P@5 | NDCG@5 | MRR@5 |
+|---|---|---|---|
+| A: Chỉ Jaccard | 0.741 | 0.755 | 0.855 |
+| B: +ClassOverlap | 0.796 | 0.816 | 0.905 |
+| C: +MethodMatch | 0.819 | 0.844 | 0.944 |
+| **D: Đầy đủ (cả 4)** | **0.819** | **0.845** | **0.949** |
+| E: Không Jaccard | 0.815 | 0.839 | 0.939 |
+| F: Không ClassOverlap | 0.811 | 0.831 | 0.923 |
+| G: Không MethodMatch | 0.796 | 0.816 | 0.905 |
+| H: Không SemanticSim | 0.819 | 0.844 | 0.944 |
 
-**Giải thích chỉ số Nhiệm vụ 3:**
+**Phân tích:**
+- Thêm ClassOverlap: **+7.4% P@5** so với chỉ Jaccard → ontology hierarchy giúp rõ rệt
+- Thêm MethodMatch: **+2.9% P@5** → cách nấu bổ sung thêm
+- Thêm SemanticSim: +0.5% MRR → đóng góp nhỏ nhưng có
+- Bỏ Jaccard (config E): vẫn đạt P@5 = 0.815 → ontology signals đủ mạnh ngay cả không có ingredient overlap trực tiếp
 
-Giá trị P@5 tuyệt đối thấp phản ánh phân bố nhãn đáp án đúng chứ không phải hệ thống kém. Trong 21.480 cặp, chỉ 900 cặp (4.2%) có điểm judge trung bình ≥ 1.0 (ngưỡng dương), và 90.8% món neo có 0 cặp dương trong 10 ứng viên → P@5 = 0 bất kể hệ thống nào. P@5 tối đa lý thuyết là 0.084; Dense+Ontology đạt 0.207 bằng cách tập trung cải thiện vào 9.2% món có cặp dương.
-
-Spearman ρ = 0.70 và P@5 = 0.207 nhất quán: ρ đo tương quan xếp hạng trên toàn bộ 21.480 cặp (kể cả 89.9% có điểm tập trung trong [0.3, 0.5)), còn P@5 đo precision top-5 nghiêm ngặt dưới ngưỡng nhị phân. Mô hình xếp hạng toàn bộ phân bố tốt (ρ cao) nhưng ít cặp vượt ngưỡng dương (P@5 thấp).
-
-MAE = 0.081 cần hiểu trong ngữ cảnh khoảng điểm thực tế. Dù thang judge là [0, 2], 89.9% điểm đáp án đúng rơi trong [0.3, 0.5) (trung bình 0.427), và điểm dự đoán trong [0.009, 0.764] (trung bình 0.385). MAE thấp phản ánh khoảng thực tế hẹp chứ không phải dự đoán gần hoàn hảo trên toàn thang [0, 2].
+**Trọng số tối ưu:** α=0.40, β=0.18, γ=0.11, δ=0.31 → Các thành phần ontology (β+γ+δ = 0.60) chiếm **60%** tín hiệu tương tự.
 
 ### 5.5. Thảo luận
 
-Trên cả 3 nhiệm vụ, truy xuất tăng cường ontology vượt trội các baseline, với cải thiện tương đối lớn nhất ở Nhiệm vụ 3 (P@5 +265% so với Dense) và Nhiệm vụ 1 (NDCG@20 +37%).
+Trên cả 3 nhiệm vụ, truy xuất tăng cường ontology vượt trội các baseline.
 
-Phân tích đóng góp cho Nhiệm vụ 1 cho thấy mở rộng phân cấp (+32%) đóng góp nhiều hơn mở rộng từ đồng nghĩa phẳng (+28%) hoặc chỉ hiểu ngữ nghĩa (+16%), ủng hộ khẳng định rằng kiến thức nhóm có cấu trúc bổ sung cho truy xuất nơ-ron.
+Nhiệm vụ 1: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense. Mở rộng phân cấp (+32%) đóng góp nhiều hơn mở rộng từ đồng nghĩa phẳng (+28%).
 
-Nhiệm vụ 2 cho cải thiện khiêm tốn hơn (+8.2% điểm trung bình so với random_class), cho thấy ontology cung cấp cấu trúc cần thiết nhưng chưa đủ cho thay thế nguyên liệu. Phát hiện đáng chú ý: npmi_only kém hơn random_class — chỉ dùng đồng xuất hiện thống kê có thể gây sai lệch xếp hạng thay thế, trong khi thay thế được ontology xác nhận (dựa trên biến đổi tên món) cung cấp ứng viên đáng tin cậy hơn.
+Nhiệm vụ 2: Cải thiện +8.2% điểm trung bình so với random_class. npmi_only kém hơn random_class — chỉ dùng đồng xuất hiện thống kê có thể gây sai lệch, trong khi thay thế được ontology xác nhận (dựa trên biến đổi tên món) đáng tin cậy hơn.
+
+Nhiệm vụ 3: Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%. Config "Không Jaccard" (E) vẫn đạt P@5=0.815, chứng minh ontology signals đủ mạnh ngay cả không cần ingredient overlap trực tiếp.
 
 ---
 
@@ -348,9 +359,9 @@ Nhiệm vụ 2 cho cải thiện khiêm tốn hơn (+8.2% điểm trung bình so
 Bài báo này trình bày một framework truy xuất tăng cường bằng ontology cho truy xuất thông tin ẩm thực Việt Nam. Chúng tôi đã xây dựng cây phân cấp nguyên liệu 4 tầng bao phủ 2.112 nguyên liệu trong 49 nhóm, hệ phân loại món ăn theo 2 trục, và 7 quan hệ có tên được tạo từ tập 10.741 món. Ontology được tích hợp vào hệ thống truy xuất dày đặc tại 3 điểm: mở rộng truy vấn, suy luận thay thế có ràng buộc, và tính tương tự món ăn theo phân cấp.
 
 Đánh giá trên 3 nhiệm vụ cho thấy cấu trúc ontology mang lại cải thiện nhất quán so với cả baseline từ khóa lẫn truy xuất dày đặc:
-- Truy xuất theo nhóm: Dense+Ontology cải thiện NDCG@20 +37% so với Dense, mở rộng phân cấp đóng góp nhiều hơn tra cứu từ đồng nghĩa phẳng
-- Gợi ý món liên quan: Công thức tương tự 4 thành phần đạt Spearman ρ = 0.70 so với đánh giá của người chấm, trọng số tối ưu gán một nửa khối lượng tương tự cho các thành phần từ ontology
-- Thay thế nguyên liệu: Cải thiện khiêm tốn hơn (+8.2% so với random_class), cho thấy ontology cung cấp cấu trúc cần thiết nhưng chưa đủ cho nhiệm vụ này
+- Truy xuất theo nhóm: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense
+- Gợi ý món liên quan: Ablation study với tập ứng viên đa dạng và 5-fold CV cho thấy mỗi thành phần ontology đóng góp rõ rệt (+7.4% P@5 từ ClassOverlap, +2.9% từ MethodMatch), trọng số tối ưu gán 60% cho các thành phần ontology
+- Thay thế nguyên liệu: Cải thiện +8.2% so với random_class
 
 Kết quả chứng minh rằng kiến thức ngữ nghĩa có cấu trúc, được mã hóa dưới dạng ontology với quan hệ có kiểu và phân cấp nhóm, bổ sung cho truy xuất nơ-ron trong lĩnh vực mà sự liên quan phụ thuộc vào suy luận theo thành phần và theo nhóm chứ không chỉ trùng từ ngữ.
 

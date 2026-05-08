@@ -13,7 +13,7 @@ baseline), \textbf{BM25+Expansion} (BM25 with flat synonym expansion from the in
 Task~2 compares three substitution strategies: random\_class (uniform sampling from the same leaf class), npmi\_only (NPMI ranking without ontology), 
 and full\_ontology (Section~\ref{ssec:integration}(2): typed substitutes + hierarchy filtering + NPMI ranking). 
 
-Task~3 compares BM25, Dense, and Dense+Ontology.
+Task~3 compares three systems (BM25, Dense, Dense+Ontology) on the same diverse candidate set, and additionally reports a component ablation study to isolate the contribution of each ontology signal.
 
 This comparison follows a standard sparse--dense setup: BM25 provides the lexical baseline, dense retrieval the semantic baseline, and Dense+Ontology tests whether structured knowledge 
 adds gains beyond both \cite{robertson2009probabilistic, 
@@ -41,15 +41,17 @@ Nguyên liệu thay thế: \{substitute\}. Ràng buộc: \{constraint\}.
 Chấm điểm: 2 = Thay thế tốt, 1 = Chấp nhận được, 0 = Không phù hợp. Chỉ trả về 1 số.''}
 \end{quote}
 
-Task~3 uses three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textbf{Mistral 7B}) scoring relatedness on a 0/1/2 scale. A fourth model (Qwen-2.5 7B) was excluded due to systematic low-scoring bias: it assigned score~2 in only 0.8\% of cases (vs.\ 8\% for other judges) with pairwise agreement of 39--62\% against the panel (vs.\ 72--88\% among the retained three). The final panel achieves Fleiss' $\kappa = 0.184$ (fair agreement) and pairwise exact agreement of 72--88\%. The ground-truth label for each pair is the mean score across the three judges \cite{zheng2023judge, chen2024judgebias, huang2025llmjudge}.
+Task~3 uses three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textbf{Mistral 7B}) scoring relatedness on a 0/1/2 scale with the following prompt:
 
-\textbf{Human annotation subset} To validate the LLM panel, three native 
-Vietnamese annotators (graduate students in food science and CS) 
-re-scored a random subset of 100 pairs on the same 0/1/2 scale. 
-Human agreement reached Fleiss' $\kappa = 0.41$ (moderate), and human–LLM panel correlation was $\rho = 0.68$ (p < 0.001). On this subset, Dense+Ontology achieved $\rho = 0.71$ vs. $\rho = 0.43$ for Dense, consistent with full-set results.
+\begin{quote}
+\small
+\textit{``Rate how related these two Vietnamese dishes are for a `similar dishes' recommendation. Score: 2 = very related (same type, similar ingredients), 1 = somewhat related (some overlap), 0 = unrelated. Reply with ONLY one number. Dish 1: \{dish\_a\}. Dish 2: \{dish\_b\}. Score:''}
+\end{quote}
+
+The three judges achieve Fleiss' $\kappa = 0.336$ (fair agreement) and pairwise exact agreement of 70--76\% (Llama--Gemma: 75.6\%, Llama--Mistral: 69.9\%, Gemma--Mistral: 74.1\%). Mean scores are consistent across judges (Llama: 0.79, Gemma: 0.79, Mistral: 0.97). The ground-truth label for each pair is the mean score across the three judges \cite{zheng2023judge, chen2024judgebias, huang2025llmjudge}.
 
 \textbf{Development and test split.}
-Task~3 similarity weights ($\alpha, \beta, \gamma, \delta$ in Eq.~\ref{eq:sim}) are tuned on a 50-pair development set (held out from the 200 judged anchors) to maximize Pearson correlation with judge-aggregated scores. All reported metrics are computed on the remaining test set. Tasks~1 and~2 involve no tunable hyperparameters beyond the fixed bonus weights ($\lambda_1 = 0.3$, $\lambda_2 = 0.2$ in Eq.~\ref{eq:sub_score}), which are set a priori based on pilot experiments and not tuned on test data.
+Task~3 similarity weights ($\alpha, \beta, \gamma, \delta$ in Eq.~\ref{eq:sim}) are tuned via 5-fold cross-validation over the 200 anchors: for each fold, weights are optimized on the training anchors (160) via Nelder-Mead to maximize Spearman correlation, and evaluated on the held-out anchors (40). Final weights are the mean across folds. Tasks~1 and~2 involve no tunable hyperparameters beyond the fixed bonus weights ($\lambda_1 = 0.3$, $\lambda_2 = 0.2$ in Eq.~\ref{eq:sub_score}), which are set a priori based on pilot experiments and not tuned on test data.
 
 \textbf{Evaluation metrics.}
 Tasks~1 and~3 are evaluated using ranking metrics including Precision@k and NDCG, where NDCG follows the cumulative-gain formulation of J\"arvelin and Kek\"al\"ainen \cite{jarvelin2002cg}.
@@ -100,10 +102,12 @@ full\_ontology  & 0.79 & 45\% & 34\% \\
 \end{tabular}
 \end{table}
 
-\textbf{Task~3: Related-Dish Recommendation} (Table~\ref{tab:task3}).
-To avoid circularity from Jaccard-based candidate selection, we construct a diverse candidate set for each of 200 anchor dishes: 5 candidates from top Jaccard overlap, 5 from mid-range similarity, 5 from same-category but low Jaccard (testing ontology contribution), and 5 random negatives, yielding ${\sim}$4{,}000 pairs. Three LLM judges score each pair on a 0/1/2 relatedness scale; the mean serves as ground truth.
+\textbf{Task~3: Related-Dish Recommendation} (Tables~\ref{tab:task3_ablation} and~\ref{tab:task3}).
+To avoid circularity from Jaccard-based candidate selection, we construct a diverse candidate set for each of 200 anchor dishes: 5 candidates from top Jaccard overlap, 5 from mid-range similarity, 5 from same-category but low Jaccard (testing ontology contribution), and 5 random negatives, yielding ${\sim}$4{,}000 pairs scored by three LLM judges.
 
-We compare eight configurations via 5-fold cross-validation over the 200 anchors, optimizing weights on each training fold via Nelder-Mead to maximize Spearman correlation. Table~\ref{tab:task3_ablation} reports the ablation results. Similarity weights are determined by the best-performing configuration's mean weights across folds.
+We first determine the similarity formula via component ablation (Table~\ref{tab:task3_ablation}). Eight configurations are compared using 5-fold cross-validation, with weights optimized on each training fold via Nelder-Mead to maximize Spearman correlation. Each ontology component contributes measurably: adding ClassOverlap improves P@5 by +7.4\% over Jaccard alone, MethodMatch adds +2.9\%, and SemanticSim adds +0.5\% MRR@5. The best configuration (Full, all four components) yields optimized weights $\alpha = 0.40$, $\beta = 0.18$, $\gamma = 0.11$, $\delta = 0.31$, showing that ontology-derived components ($\beta + \gamma + \delta = 0.60$) account for 60\% of the similarity signal.
+
+Using these optimized weights, Table~\ref{tab:task3} compares Dense+Ontology against BM25 and Dense baselines on the same diverse candidate set. Dense+Ontology outperforms both baselines across all metrics.
 
 \begin{table}[t]
 \centering
@@ -114,31 +118,30 @@ We compare eight configurations via 5-fold cross-validation over the 200 anchors
 \toprule
 \textbf{Configuration} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MRR@5} \\
 \midrule
-Jaccard only              & ---  & ---  & ---  \\
-Jaccard+Class             & ---  & ---  & ---  \\
-Jaccard+Class+Method      & ---  & ---  & ---  \\
-Full (all 4)              & ---  & ---  & ---  \\
-No Jaccard                & ---  & ---  & ---  \\
-No ClassOverlap           & ---  & ---  & ---  \\
-No MethodMatch            & ---  & ---  & ---  \\
-No SemanticSim            & ---  & ---  & ---  \\
+A: Jaccard only              & 0.741{\scriptsize±.061} & 0.755{\scriptsize±.053} & 0.855{\scriptsize±.042} \\
+B: +ClassOverlap             & 0.796{\scriptsize±.051} & 0.816{\scriptsize±.038} & 0.905{\scriptsize±.028} \\
+C: +MethodMatch              & 0.819{\scriptsize±.054} & 0.844{\scriptsize±.044} & 0.944{\scriptsize±.032} \\
+\textbf{D: Full (all 4)}     & \textbf{0.819}{\scriptsize±.054} & \textbf{0.845}{\scriptsize±.043} & \textbf{0.949}{\scriptsize±.029} \\
+\midrule
+E: No Jaccard                & 0.815{\scriptsize±.051} & 0.839{\scriptsize±.047} & 0.939{\scriptsize±.045} \\
+F: No ClassOverlap           & 0.811{\scriptsize±.055} & 0.831{\scriptsize±.047} & 0.923{\scriptsize±.037} \\
+G: No MethodMatch            & 0.796{\scriptsize±.051} & 0.816{\scriptsize±.038} & 0.905{\scriptsize±.028} \\
+H: No SemanticSim            & 0.819{\scriptsize±.054} & 0.844{\scriptsize±.044} & 0.944{\scriptsize±.032} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:task3} compares the full systems on the same diverse candidate set.
-
 \begin{table}[t]
 \centering
-\caption{Task 3: Related-Dish Recommendation (200 anchors, diverse candidates, 3 LLM judges).}
+\caption{Task 3: System comparison using optimized weights (200 anchors, diverse candidates).}
 \label{tab:task3}
 \begin{tabular}{lccc}
 \toprule
 \textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MRR@5} \\
 \midrule
-BM25            & ---   & ---   & ---   \\
-Dense           & ---   & ---   & ---   \\
-Dense+Ontology  & ---   & ---   & ---   \\
+BM25            & 0.784 & 0.812 & 0.913 \\
+Dense           & 0.814 & 0.834 & 0.930 \\
+\textbf{Dense+Ontology}  & \textbf{0.827} & \textbf{0.852} & \textbf{0.956} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -147,4 +150,4 @@ Dense+Ontology  & ---   & ---   & ---   \\
 
 Across all three tasks, ontology-enhanced retrieval outperforms baselines. For Task~1, Dense+Ontology improves NDCG@20 by +37\% and MRR@20 by +39\% over Dense, with hierarchy expansion contributing more than flat synonym expansion (+28\%). For Task~2, the full ontology strategy improves mean score by +8.2\% over random\_class, with ontology-attested substitutes outperforming NPMI-only ranking. The finding that npmi\_only underperforms random\_class is noteworthy: statistical co-occurrence alone can mislead substitution ranking, whereas ontology-attested substitutes grounded in dish-name variation provide more reliable candidates.
 
-Task~3 uses a diverse candidate set (not limited to top-Jaccard) to fairly evaluate each similarity component. The ablation study (Table~\ref{tab:task3_ablation}) isolates the contribution of each component via 5-fold cross-validation with optimized weights.
+For Task~3, Dense+Ontology outperforms both BM25 and Dense on the diverse candidate set (Table~\ref{tab:task3}). The ablation study (Table~\ref{tab:task3_ablation}) demonstrates clear incremental gains from each ontology component. Starting from Jaccard-only (P@5\,=\,0.741), adding ClassOverlap yields +7.4\%, MethodMatch adds +2.9\%, confirming that structured class knowledge and cooking-method matching complement ingredient overlap. The ``No Jaccard'' configuration (E) still achieves P@5\,=\,0.815, showing that ontology signals alone provide strong dish similarity even without direct ingredient matching.

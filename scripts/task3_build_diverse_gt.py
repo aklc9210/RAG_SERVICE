@@ -136,18 +136,10 @@ print(f"\nSaved {total_pairs} candidate pairs → {OUTPUT_CANDIDATES}")
 
 # ── LLM Judge ────────────────────────────────────────────────────
 
-JUDGE_PROMPT = """Bạn là chuyên gia ẩm thực Việt Nam. Đánh giá mức độ liên quan giữa 2 món ăn.
-Hai món "liên quan" nghĩa là: có thể gợi ý món này khi người dùng đang xem món kia (vì nguyên liệu tương tự, cách nấu tương tự, hoặc cùng loại món).
-
+JUDGE_PROMPT = """Chấm mức liên quan giữa 2 món (0=không, 1=một phần, 2=rất liên quan). Trả lời CHỈ 1 SỐ.
 Món 1: {dish_a}
 Món 2: {dish_b}
-
-Chấm điểm:
-2 = Rất liên quan (cùng loại, nguyên liệu tương tự)
-1 = Liên quan một phần (có điểm chung nhưng khác biệt rõ)
-0 = Không liên quan
-
-Chỉ trả về 1 số (0, 1, hoặc 2)."""
+Điểm:"""
 
 
 def judge_pair(dish_a_name, dish_b_name, model, max_retries=3):
@@ -158,7 +150,7 @@ def judge_pair(dish_a_name, dish_b_name, model, max_retries=3):
                 "model": model,
                 "messages": [{"role": "user", "content": prompt}],
                 "stream": False,
-                "options": {"temperature": 0, "num_predict": 5},
+                "options": {"temperature": 0, "num_predict": 3},
             }, timeout=30)
             text = resp.json()["message"]["content"].strip()
             for ch in text:

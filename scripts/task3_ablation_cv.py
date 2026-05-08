@@ -29,7 +29,7 @@ sys.path.insert(0, str(ROOT))
 from retrieval.ontology import FoodOntology
 
 GT_PATH = ROOT / "evaluation" / "data" / "datasets" / "task3_related_gt.jsonl"
-JUDGE_PATH = ROOT / "evaluation" / "outputs" / "llm_judge_task3_3judges.json"
+JUDGE_PATH = ROOT / "evaluation" / "outputs" / "task3_diverse_judged.json"
 OUTPUT_PATH = ROOT / "evaluation" / "outputs" / "task3_ablation_cv_results.json"
 
 ont = FoodOntology()
@@ -43,9 +43,10 @@ with open(GT_PATH, encoding="utf-8") as f:
         dish_meta[e["dish_id"]] = e["ingredient_ids"]
 
 judges = json.loads(JUDGE_PATH.read_text("utf-8"))
-judge_pairs = [(it["query_dish_id"], it["candidate_dish_id"], it["new_mean_3j"])
-               for it in judges["items"]
-               if it["query_dish_id"] in dish_meta and it["candidate_dish_id"] in dish_meta]
+judge_pairs = [(it["anchor_id"], it["candidate_id"], it["mean_score"])
+               for it in judges["results"]
+               if it["mean_score"] is not None
+               and it["anchor_id"] in dish_meta and it["candidate_id"] in dish_meta]
 print(f"Loaded {len(judge_pairs)} valid judge pairs")
 
 # Group by anchor for ranking metrics
@@ -322,11 +323,113 @@ for name, res in all_results.items():
 
 # Best config
 best = max(all_results.items(), key=lambda x: x[1]["metrics_mean"]["NDCG@5"])
+best_w = np.array([best[1]['mean_weights']['alpha'], best[1]['mean_weights']['beta'],
+                   best[1]['mean_weights']['gamma'], best[1]['mean_weights']['delta']])
 print(f"\nBEST: {best[0]}")
-print(f"  Recommended weights: α={best[1]['mean_weights']['alpha']:.4f}, "
-      f"β={best[1]['mean_weights']['beta']:.4f}, "
-      f"γ={best[1]['mean_weights']['gamma']:.4f}, "
-      f"δ={best[1]['mean_weights']['delta']:.4f}")
+print(f"  Recommended weights: α={best_w[0]:.4f}, β={best_w[1]:.4f}, γ={best_w[2]:.4f}, δ={best_w[3]:.4f}")
+
+# ── System comparison: BM25, Dense, Dense+Ontology ───────────────
+
+print(f"\n{'='*70}")
+print("SYSTEM COMPARISON (using best weights from ablation)")
+print(f"{'='*70}")
+
+# BM25
+from retrieval.bm25_retriever import BM25Retriever
+print("\nBuilding BM25...")
+bm25 = BM25Retriever()
+bm25_rankings = {}
+for i, anchor in enumerate(anchors):
+    d = _dish_kb.get(anchor, {})
+    name = d.get("name_vi", "")
+    res = bm25.search(name, top_k=200)
+    bm25_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
+    if (i + 1) % 50 == 0:
+        print(f"  BM25: {i+1}/{len(anchors)}")
+
+# Dense (embedding)
+print("Building Dense (embedding)...")
+from ingestion.embedding import EmbeddingModel
+em = EmbeddingModel()
+dishes_dir = ROOT / "processed" / "dishes"
+corpus_ids = []
+corpus_texts = []
+for f in sorted(dishes_dir.glob("*.json")):
+    try:
+        d = json.loads(f.read_text("utf-8"))
+    except:
+        continue
+    text = d.get("name_vi", "")
+    ings = d.get("main_ingredients", []) + d.get("secondary_ingredients", [])
+    if ings:
+        text += " " + " ".join(ings[:10])
+    corpus_ids.append(d["id"])
+    corpus_texts.append(text)
+
+print(f"  Embedding {len(corpus_ids)} dishes...")
+all_vecs = []
+for i in range(0, len(corpus_texts), 128):
+    vecs = em.embed_documents(corpus_texts[i:i+128])
+    all_vecs.extend(vecs)
+corpus_matrix = np.array(all_vecs)
+id_to_idx = {did: idx for idx, did in enumerate(corpus_ids)}
+
+dense_rankings = {}
+for i, anchor in enumerate(anchors):
+    a_idx = id_to_idx.get(anchor)
+    if a_idx is not None:
+        qvec = corpus_matrix[a_idx]
+    else:
+        name = _dish_kb.get(anchor, {}).get("name_vi", "")
+        qvec = np.array(em.embed_query(name))
+    scores = (corpus_matrix @ qvec).flatten()
+    cand_scores = {}
+    for cand_id, _ in anchor_groups[anchor]:
+        c_idx = id_to_idx.get(cand_id)
+        cand_scores[cand_id] = float(scores[c_idx]) if c_idx is not None else 0.0
+    dense_rankings[anchor] = cand_scores
+    if (i + 1) % 50 == 0:
+        print(f"  Dense: {i+1}/{len(anchors)}")
+
+# Dense+Ontology: use pre-computed components with best weights
+ontology_rankings = {}
+for anchor in anchors:
+    cand_scores = {}
+    for cand_id, gt_score, comps in anchor_data[anchor]:
+        cand_scores[cand_id] = float(comps @ best_w)
+    ontology_rankings[anchor] = cand_scores
+
+# Compute metrics for each system
+def system_metrics(rankings):
+    p5_list, ndcg5_list, mrr5_list = [], [], []
+    for anchor in anchors:
+        candidates = anchor_groups[anchor]
+        r = rankings.get(anchor, {})
+        sorted_cands = sorted(candidates, key=lambda x: r.get(x[0], 0), reverse=True)
+        top5 = sorted_cands[:5]
+        rels = [1 if gt >= POSITIVE_THRESHOLD else 0 for _, gt in top5]
+        p5_list.append(sum(rels) / 5)
+        dcg = sum(rel / math.log2(i + 2) for i, rel in enumerate(rels))
+        n_pos = sum(1 for _, gt in sorted_cands if gt >= POSITIVE_THRESHOLD)
+        ideal = sum(1 / math.log2(i + 2) for i in range(min(n_pos, 5)))
+        ndcg5_list.append(dcg / ideal if ideal > 0 else 0.0)
+        mrr = 0.0
+        for i, rel in enumerate(rels):
+            if rel:
+                mrr = 1.0 / (i + 1)
+                break
+        mrr5_list.append(mrr)
+    return {"P@5": float(np.mean(p5_list)), "NDCG@5": float(np.mean(ndcg5_list)), "MRR@5": float(np.mean(mrr5_list))}
+
+bm25_m = system_metrics(bm25_rankings)
+dense_m = system_metrics(dense_rankings)
+ont_m = system_metrics(ontology_rankings)
+
+print(f"\n{'System':<18} {'P@5':<8} {'NDCG@5':<8} {'MRR@5':<8}")
+print("-" * 42)
+print(f"{'BM25':<18} {bm25_m['P@5']:.4f}  {bm25_m['NDCG@5']:.4f}  {bm25_m['MRR@5']:.4f}")
+print(f"{'Dense':<18} {dense_m['P@5']:.4f}  {dense_m['NDCG@5']:.4f}  {dense_m['MRR@5']:.4f}")
+print(f"{'Dense+Ontology':<18} {ont_m['P@5']:.4f}  {ont_m['NDCG@5']:.4f}  {ont_m['MRR@5']:.4f}")
 
 # ── Save ─────────────────────────────────────────────────────────
 
@@ -338,6 +441,7 @@ output = {
     "configs": all_results,
     "best_config": best[0],
     "best_weights": best[1]["mean_weights"],
+    "system_comparison": {"BM25": bm25_m, "Dense": dense_m, "Dense+Ontology": ont_m},
 }
 OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False), "utf-8")
 print(f"\nSaved → {OUTPUT_PATH}")

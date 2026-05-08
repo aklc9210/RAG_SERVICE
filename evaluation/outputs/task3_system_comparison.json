@@ -1,0 +1,27 @@
+{
+  "n_anchors": 200,
+  "positive_threshold": 1.0,
+  "weights": {
+    "alpha": 0.4,
+    "beta": 0.18,
+    "gamma": 0.11,
+    "delta": 0.31
+  },
+  "systems": {
+    "BM25": {
+      "P@5": 0.784,
+      "NDCG@5": 0.8118,
+      "MRR@5": 0.9127
+    },
+    "Dense": {
+      "P@5": 0.814,
+      "NDCG@5": 0.8337,
+      "MRR@5": 0.9296
+    },
+    "Dense+Ontology": {
+      "P@5": 0.827,
+      "NDCG@5": 0.852,
+      "MRR@5": 0.9531
+    }
+  }
+}
