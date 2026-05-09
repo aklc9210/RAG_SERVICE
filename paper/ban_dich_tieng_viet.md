@@ -325,14 +325,14 @@ Full ontology đạt điểm trung bình 0.79 và tỷ lệ tốt 34%, vượt r
 
 | Cấu hình | P@5 | NDCG@5 | MRR@5 |
 |---|---|---|---|
-| A: Chỉ Jaccard | 0.741 | 0.755 | 0.855 |
-| B: +ClassOverlap | 0.796 | 0.816 | 0.905 |
-| C: +MethodMatch | 0.819 | 0.844 | 0.944 |
-| **D: Đầy đủ (cả 4)** | **0.819** | **0.845** | **0.949** |
-| E: Không Jaccard | 0.815 | 0.839 | 0.939 |
-| F: Không ClassOverlap | 0.811 | 0.831 | 0.923 |
-| G: Không MethodMatch | 0.796 | 0.816 | 0.905 |
-| H: Không SemanticSim | 0.819 | 0.844 | 0.944 |
+| A: Chỉ Jaccard | 0.741±.061 | 0.755±.053 | 0.855±.042 |
+| B: +ClassOverlap | 0.796±.051 | 0.816±.038 | 0.905±.028 |
+| C: +MethodMatch | 0.819±.054 | 0.844±.044 | 0.944±.032 |
+| **D: Đầy đủ (cả 4)** | **0.819±.054** | **0.845±.043** | **0.949±.029** |
+| E: Không Jaccard | 0.815±.051 | 0.839±.047 | 0.939±.045 |
+| F: Không ClassOverlap | 0.811±.055 | 0.831±.047 | 0.923±.037 |
+| G: Không MethodMatch | 0.796±.051 | 0.816±.038 | 0.905±.028 |
+| H: Không SemanticSim | 0.819±.054 | 0.844±.044 | 0.944±.032 |
 
 **Phân tích:**
 - Thêm ClassOverlap: **+7.4% P@5** so với chỉ Jaccard → ontology hierarchy giúp rõ rệt
@@ -341,6 +341,16 @@ Full ontology đạt điểm trung bình 0.79 và tỷ lệ tốt 34%, vượt r
 - Bỏ Jaccard (config E): vẫn đạt P@5 = 0.815 → ontology signals đủ mạnh ngay cả không có ingredient overlap trực tiếp
 
 **Trọng số tối ưu:** α=0.40, β=0.18, γ=0.11, δ=0.31 → Các thành phần ontology (β+γ+δ = 0.60) chiếm **60%** tín hiệu tương tự.
+
+**So sánh hệ thống** (dùng trọng số tối ưu từ ablation):
+
+| Hệ thống | P@5 | NDCG@5 | MRR@5 |
+|---|---|---|---|
+| BM25 | 0.784 | 0.812 | 0.913 |
+| Dense | 0.814 | 0.834 | 0.930 |
+| **Dense+Ontology** | **0.827** | **0.852** | **0.956** |
+
+Dense+Ontology vượt Dense +1.6% P@5, +2.2% NDCG@5, +2.8% MRR@5. Vượt BM25 +5.5% P@5.
 
 ### 5.5. Thảo luận
 

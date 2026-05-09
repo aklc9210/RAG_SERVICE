@@ -174,6 +174,70 @@ def get_substitutes_weighted_npmi(dish_id, ing_id, constraint, top_k=5):
     return results
 
 
+# ── Hybrid: Dense + Ontology ──────────────────────────────────────
+
+def get_substitutes_hybrid(dish_id, ing_id, constraint, dense_fn, top_k=5):
+    """Combine embedding similarity + ontology signals + constraint filter.
+    Score = 0.5*cosine + 0.3*npmi_weighted + 0.2*ontology_bonus, filtered by constraint.
+    """
+    dish = dish_map.get(dish_id, {})
+    other_ings = [(i["ingredient_id"], i.get("importance", 1))
+                  for i in dish.get("ingredients", []) if i["ingredient_id"] != ing_id]
+    ing_class = ont.ing_to_class.get(ing_id)
+
+    # Get dense candidates (top-30, pre-filtered by constraint)
+    dense_results = dense_fn(ing_id, constraint, top_k=30)
+    dense_scores = {r["id"]: r["score"] for r in dense_results}
+
+    # Also get ontology candidates
+    ont_subs = ont.get_substitutes(ing_id)
+    ont_ids = {s["id"] for s in ont_subs}
+    class_members = set(ont.class_members.get(ing_class, []))
+    parent = ont.classes.get(ing_class, {}).get("parent")
+    if parent:
+        for sib in ont.classes.get(parent, {}).get("children", []):
+            class_members |= set(ont.class_members.get(sib, []))
+    if constraint == "vegetarian":
+        class_members |= set(ont.get_descendants("PlantProtein"))
+        class_members |= set(ont.get_descendants("Mushroom"))
+
+    # Union of candidates
+    all_candidates = set(dense_scores.keys()) | ont_ids | class_members
+    all_candidates.discard(ing_id)
+    all_candidates = {c for c in all_candidates if ont._passes_constraint(c, constraint)}
+
+    # Score each candidate
+    scored = []
+    for c in all_candidates:
+        # Cosine similarity (normalize to 0-1)
+        cosine = dense_scores.get(c, 0.0)
+
+        # Weighted NPMI with other dish ingredients
+        comps = ont._comps.get(c, [])
+        comp_map = {e["id"]: e["npmi"] for e in comps} if isinstance(comps, list) else {}
+        weighted_sum = 0.0
+        total_weight = 0.0
+        for oid, imp in other_ings:
+            w = {3: 3.0, 2: 1.5}.get(imp, 0.5)
+            weighted_sum += w * comp_map.get(oid, 0.0)
+            total_weight += w
+        npmi = weighted_sum / total_weight if total_weight else 0.0
+
+        # Ontology bonus
+        ont_bonus = 0.2 if c in ont_ids else 0.0
+        same_leaf = 0.1 if ont.ing_to_class.get(c) == ing_class else 0.0
+
+        total = 0.5 * cosine + 0.3 * npmi + ont_bonus + same_leaf
+        scored.append((c, total))
+
+    scored.sort(key=lambda x: -x[1])
+    results = []
+    for c, s in scored[:top_k]:
+        meta = ont.ing_meta.get(c, {})
+        results.append({"id": c, "name": meta.get("name_vi", ""), "score": round(s, 4)})
+    return results
+
+
 # ── LLM Judge ────────────────────────────────────────────────────
 
 JUDGE_PROMPT = """Rate this ingredient substitution (0=bad, 1=acceptable, 2=good). Reply with ONLY one number.
@@ -236,7 +300,7 @@ def main():
     dense_fn = build_dense_substitution()
 
     # Strategies
-    strategies = ["random_class", "dense", "weighted_ontology"]
+    strategies = ["random_class", "dense", "weighted_ontology", "hybrid"]
 
     start, all_results = load_checkpoint()
     t0 = time.time()
@@ -253,6 +317,9 @@ def main():
             elif strat == "weighted_ontology":
                 subs = get_substitutes_weighted_npmi(
                     case["dish_id"], case["ingredient_id"], case["constraint"], top_k=5)
+            elif strat == "hybrid":
+                subs = get_substitutes_hybrid(
+                    case["dish_id"], case["ingredient_id"], case["constraint"], dense_fn, top_k=5)
             else:
                 subs = ont.get_substitutes_for_dish(
                     case["dish_id"], case["ingredient_id"],
