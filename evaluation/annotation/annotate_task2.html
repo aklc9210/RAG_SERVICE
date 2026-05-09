@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gán nhãn Task 2 — Món ăn liên quan</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-2: #334155;
+    --border: #475569;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --success-hover: #059669;
+    --danger: #ef4444;
+    --danger-hover: #dc2626;
+    --warn: #f59e0b;
+    --warn-hover: #d97706;
+    --highlight: #fde68a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container { max-width: 1100px; width: 100%; }
+  h1 { margin-top: 0; font-size: 1.5rem; }
+  h2 { font-size: 1.1rem; margin: 0 0 10px 0; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+  p { line-height: 1.5; margin: 0.5em 0; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  .hidden { display: none !important; }
+  .card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 9px 16px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn.primary { background: var(--primary); color: white; }
+  .btn.primary:hover { background: var(--primary-hover); }
+  .btn.success { background: var(--success); color: white; }
+  .btn.success:hover { background: var(--success-hover); }
+  .btn.danger { background: var(--danger); color: white; }
+  .btn.danger:hover { background: var(--danger-hover); }
+  .btn.warn { background: var(--warn); color: white; }
+  .btn.warn:hover { background: var(--warn-hover); }
+  .btn.secondary { background: var(--card-2); color: var(--text); border: 1px solid var(--border); }
+  .btn.secondary:hover { background: var(--border); }
+  .btn.big { padding: 14px 24px; font-size: 1.05rem; }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+  /* Score buttons - selected state */
+  .score-btn { flex: 1; justify-content: center; opacity: 0.55; }
+  .score-btn:hover { opacity: 0.85; }
+  .score-btn.selected { opacity: 1; box-shadow: 0 0 0 3px rgba(59,130,246,0.5); transform: scale(1.02); }
+
+  input, select, textarea {
+    background: var(--card-2);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    width: 100%;
+    font-family: inherit;
+  }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primary); }
+  label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; font-weight: 500; }
+
+  .row { display: flex; gap: 12px; align-items: center; }
+  .row.end { justify-content: flex-end; }
+  .row.between { justify-content: space-between; align-items: center; }
+
+  /* Progress */
+  .progress-wrap { background: var(--card-2); border-radius: 8px; overflow: hidden; height: 8px; margin: 10px 0; }
+  .progress-bar { background: var(--primary); height: 100%; transition: width 0.3s; }
+  .progress-info { display: flex; justify-content: space-between; font-size: 0.9rem; color: var(--muted); }
+
+  /* Anchor card (top of the page) */
+  .anchor-card {
+    background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(59,130,246,0.03));
+    border: 2px solid var(--primary);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(6px);
+  }
+  .anchor-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .anchor-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #dbeafe;
+    margin-bottom: 8px;
+  }
+  .dish-category-badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    padding: 3px 10px;
+    background: var(--card-2);
+    border-radius: 999px;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    margin-right: 8px;
+  }
+
+  /* Candidate row */
+  .candidate {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border);
+    transition: all 0.15s;
+  }
+  .candidate.scored { border-color: var(--success); background: rgba(16,185,129,0.05); }
+  .candidate-head { display: flex; justify-content: space-between; align-items: start; margin-bottom: 10px; gap: 12px; }
+  .candidate-name { font-size: 1.1rem; font-weight: 700; }
+  .candidate-idx { color: var(--muted); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; }
+
+  /* Ingredients display */
+  .ing-line {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin: 6px 0;
+  }
+  .ing-line strong { color: var(--text); font-size: 0.83rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
+  .ing-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 2px 3px 2px 0;
+    background: var(--card-2);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    border: 1px solid var(--border);
+  }
+  .ing-tag.shared {
+    background: rgba(251, 191, 36, 0.25);
+    color: var(--highlight);
+    border-color: rgba(251, 191, 36, 0.5);
+    font-weight: 600;
+  }
+
+  /* Same / different category */
+  .cat-match {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+  .cat-match.same { background: rgba(16,185,129,0.2); color: #6ee7b7; border: 1px solid rgba(16,185,129,0.4); }
+  .cat-match.diff { background: rgba(239,68,68,0.15); color: #fca5a5; border: 1px solid rgba(239,68,68,0.3); }
+
+  /* Score buttons row */
+  .score-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .kbd {
+    display: inline-block;
+    padding: 1px 7px;
+    font-family: monospace;
+    font-size: 0.82rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--success);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s;
+    z-index: 1000;
+    pointer-events: none;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+  .toast.error { background: var(--danger); }
+
+  .landing-options { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px; }
+  @media (max-width: 600px) { .landing-options { grid-template-columns: 1fr; } }
+  .option-card {
+    background: var(--card-2);
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+  }
+  .option-card:hover { border-color: var(--primary); transform: translateY(-2px); }
+
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 10px 0; }
+  .stat { background: var(--card-2); padding: 12px; border-radius: 8px; text-align: center; }
+  .stat-value { font-size: 1.3rem; font-weight: 700; }
+  .stat-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+
+  /* Navigation bar */
+  .nav-bar {
+    position: sticky;
+    bottom: 0;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 14px 20px;
+    margin: 0 -20px -20px -20px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .notes-field { margin-top: 10px; }
+  .notes-field input { font-size: 0.85rem; padding: 6px 10px; }
+
+  .help-bar {
+    font-size: 0.85rem;
+    color: var(--muted);
+    padding: 10px 14px;
+    background: rgba(59,130,246,0.08);
+    border-radius: 8px;
+    border-left: 3px solid var(--primary);
+    margin-bottom: 16px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- LANDING PAGE -->
+<!-- ══════════════════════════════════════════════════ -->
+<div id="landing">
+  <div class="card">
+    <h1>🍜 Gán nhãn Task 2 — Món ăn liên quan</h1>
+    <p class="muted">Workflow tối ưu cho Task 2: <strong>xem 1 món gốc + chấm tất cả 6 ứng viên cùng lúc</strong> để so sánh nhanh hơn.</p>
+
+    <h2>1. Chọn annotator</h2>
+    <div class="row">
+      <div style="flex:1">
+        <label>Bạn là</label>
+        <select id="annotator-select">
+          <option value="annotator_1">Annotator 1</option>
+          <option value="annotator_2">Annotator 2</option>
+        </select>
+      </div>
+    </div>
+
+    <h2 style="margin-top:20px">2. Tải file CSV</h2>
+    <p class="muted">Chọn <code>task2_human_annotation.csv</code> (hoặc file bạn đang làm dở).</p>
+    <input type="file" id="file-input" accept=".csv" />
+
+    <div id="resume-hint" class="hidden" style="background: rgba(59,130,246,0.1); border: 1px solid var(--primary); padding: 12px; border-radius: 8px; margin-top: 14px;">
+      <p style="margin:0">💾 Tìm thấy tiến độ đã lưu: <strong id="saved-count">0</strong> nhãn. Sẽ tự khôi phục khi load file.</p>
+    </div>
+
+    <h2 style="margin-top: 24px;">Thang điểm</h2>
+    <ul style="line-height: 1.8; color: var(--text);">
+      <li><strong style="color: #fca5a5;">0 — Không liên quan:</strong> khác nguyên liệu chính, khác phong cách nấu</li>
+      <li><strong style="color: #fde68a;">1 — Liên quan:</strong> có điểm chung về nguyên liệu hoặc phong cách</li>
+      <li><strong style="color: #6ee7b7;">2 — Rất liên quan:</strong> nhiều nguyên liệu chung, cùng phong cách, có thể thay thế</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- ANNOTATION VIEW (grouped by anchor) -->
+<!-- ══════════════════════════════════════════════════ -->
+<div id="annotation-view" class="hidden">
+
+  <div class="card">
+    <div class="row between">
+      <div>
+        <div class="muted" id="header-info" style="font-size: 0.85rem;">Task 2 · Annotator</div>
+        <h1 id="anchor-progress-title" style="margin:4px 0 0 0;">Anchor #1 / 50</h1>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <button class="btn secondary" onclick="showStats()">📊</button>
+        <button class="btn secondary" onclick="downloadCSV()">📥 Tải CSV</button>
+        <button class="btn danger" onclick="exitAnnotation()">Thoát</button>
+      </div>
+    </div>
+
+    <div class="progress-info" style="margin-top: 14px;">
+      <span id="progress-text">0 / 0 đã gán</span>
+      <span id="progress-percent">0%</span>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-bar" id="progress-bar" style="width: 0%;"></div>
+    </div>
+  </div>
+
+  <div class="help-bar">
+    💡 <strong>Mẹo:</strong> Xem món gốc (khung xanh trên) → Chấm tất cả 6 ứng viên bên dưới → Nhấn <span class="kbd">→</span> để chuyển anchor kế tiếp. Nguyên liệu <strong style="color: var(--highlight);">tô vàng</strong> là chung với anchor.
+  </div>
+
+  <!-- Anchor card (sticky) -->
+  <div class="anchor-card" id="anchor-display"></div>
+
+  <!-- Candidates list -->
+  <div id="candidates-list"></div>
+
+  <div class="nav-bar">
+    <div>
+      <button class="btn secondary" onclick="prevAnchor()">← Anchor trước</button>
+      <button class="btn primary" onclick="nextAnchor()">Anchor sau →</button>
+    </div>
+    <div style="display:flex; gap:6px; align-items:center;">
+      <label for="jump-input" style="display:inline; margin:0;">Nhảy đến anchor:</label>
+      <input type="number" id="jump-input" style="width: 70px; padding: 6px;" min="1" />
+      <button class="btn secondary" onclick="jumpToAnchor()">Go</button>
+    </div>
+  </div>
+</div>
+
+<!-- Stats modal -->
+<div id="stats-modal" class="hidden" style="position:fixed; inset:0; background:rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; z-index:100;">
+  <div class="card" style="max-width: 500px; width: 90%; margin: 0;">
+    <div class="row between" style="margin-bottom: 16px;">
+      <h2 style="margin:0">📊 Thống kê</h2>
+      <button class="btn secondary" onclick="document.getElementById('stats-modal').classList.add('hidden')">×</button>
+    </div>
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="stat-total">0</div>
+        <div class="stat-label">Tổng</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-labeled" style="color: var(--success);">0</div>
+        <div class="stat-label">Đã gán</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-remaining" style="color: var(--warn);">0</div>
+        <div class="stat-label">Còn lại</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-anchors" style="color: var(--primary);">0</div>
+        <div class="stat-label">Anchors</div>
+      </div>
+    </div>
+    <h2 style="margin-top: 20px;">Phân bố nhãn</h2>
+    <div id="stat-distribution"></div>
+    <div class="row" style="margin-top: 20px;">
+      <button class="btn primary" onclick="downloadCSV()" style="flex:1;">📥 Tải CSV kết quả</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+</div>
+
+<script>
+// =============================================================================
+// State
+// =============================================================================
+const STATE = {
+  annotator: null,
+  headers: [],
+  rows: [],
+  anchorOrder: [],       // array of unique anchor_dish_id in file order
+  groupByAnchor: {},     // anchor_dish_id -> array of row indices
+  currentAnchor: 0,      // index into anchorOrder
+  storageKey: null,
+};
+
+// =============================================================================
+// Landing / Setup
+// =============================================================================
+function getStorageKey() {
+  return `annot_task2_${STATE.annotator}`;
+}
+
+function updateSavedHint() {
+  const annotator = document.getElementById('annotator-select').value;
+  const key = `annot_task2_${annotator}`;
+  const saved = localStorage.getItem(key);
+  const hint = document.getElementById('resume-hint');
+  if (saved) {
+    try {
+      const data = JSON.parse(saved);
+      const count = Object.values(data).filter(v => v.label !== '').length;
+      document.getElementById('saved-count').textContent = count;
+      hint.classList.remove('hidden');
+    } catch { hint.classList.add('hidden'); }
+  } else {
+    hint.classList.add('hidden');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('annotator-select').addEventListener('change', updateSavedHint);
+  document.getElementById('file-input').addEventListener('change', handleFile);
+  updateSavedHint();
+});
+
+// =============================================================================
+// CSV parsing
+// =============================================================================
+function parseCSV(text) {
+  // Strip BOM
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+  const lines = text.split(/\r?\n/).filter(l => l.length);
+  const rows = [];
+  for (const line of lines) {
+    const row = [];
+    let cur = '', inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+      const c = line[i];
+      if (c === '"' && line[i+1] === '"' && inQuotes) { cur += '"'; i++; }
+      else if (c === '"') { inQuotes = !inQuotes; }
+      else if (c === ',' && !inQuotes) { row.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    row.push(cur);
+    rows.push(row);
+  }
+  const headers = rows[0];
+  const data = rows.slice(1).map(r => {
+    const obj = {};
+    headers.forEach((h, i) => { obj[h] = r[i] !== undefined ? r[i] : ''; });
+    return obj;
+  });
+  return { headers, rows: data };
+}
+
+function toCSV(headers, rows) {
+  const escape = v => {
+    const s = String(v ?? '');
+    if (s.includes(',') || s.includes('"') || s.includes('\n')) {
+      return '"' + s.replace(/"/g, '""') + '"';
+    }
+    return s;
+  };
+  const lines = [headers.join(',')];
+  for (const r of rows) lines.push(headers.map(h => escape(r[h])).join(','));
+  return lines.join('\n');
+}
+
+// =============================================================================
+// File load
+// =============================================================================
+async function handleFile(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const text = await file.text();
+  const { headers, rows } = parseCSV(text);
+
+  // Validate: expect Task 2 format
+  if (!headers.includes('anchor_dish_id') || !headers.includes('candidate_dish_id')) {
+    toast('❌ File không đúng định dạng Task 2 (thiếu anchor_dish_id hoặc candidate_dish_id)', 'error');
+    return;
+  }
+
+  STATE.headers = headers;
+  STATE.rows = rows;
+  STATE.annotator = document.getElementById('annotator-select').value;
+  STATE.storageKey = getStorageKey();
+
+  // Restore from localStorage
+  const saved = localStorage.getItem(STATE.storageKey);
+  if (saved) {
+    try {
+      const savedMap = JSON.parse(saved);
+      STATE.rows.forEach((r, i) => {
+        const k = rowKey(r, i);
+        if (savedMap[k]) {
+          r[STATE.annotator] = savedMap[k].label;
+          r.notes = savedMap[k].notes;
+        }
+      });
+    } catch {}
+  }
+
+  // Group by anchor
+  STATE.groupByAnchor = {};
+  STATE.anchorOrder = [];
+  STATE.rows.forEach((r, i) => {
+    const aid = r.anchor_dish_id;
+    if (!STATE.groupByAnchor[aid]) {
+      STATE.groupByAnchor[aid] = [];
+      STATE.anchorOrder.push(aid);
+    }
+    STATE.groupByAnchor[aid].push(i);
+  });
+
+  // Find first anchor with unlabeled candidates
+  let firstIdx = 0;
+  for (let i = 0; i < STATE.anchorOrder.length; i++) {
+    const aid = STATE.anchorOrder[i];
+    const rowIdxs = STATE.groupByAnchor[aid];
+    if (rowIdxs.some(ri => !STATE.rows[ri][STATE.annotator])) {
+      firstIdx = i;
+      break;
+    }
+  }
+  STATE.currentAnchor = firstIdx;
+
+  document.getElementById('landing').classList.add('hidden');
+  document.getElementById('annotation-view').classList.remove('hidden');
+  document.getElementById('header-info').textContent =
+    `Task 2 · ${STATE.annotator.replace('_', ' ')}`;
+
+  render();
+}
+
+// =============================================================================
+// Rendering
+// =============================================================================
+function rowKey(r, i) {
+  return `${r.anchor_dish_id}__${r.candidate_dish_id}__${i}`;
+}
+
+function parseIngredients(str) {
+  if (!str) return [];
+  return str.split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+}
+
+function normalizeIngName(name) {
+  return name.toLowerCase().trim();
+}
+
+function renderAnchor(anchorRow) {
+  const ings = parseIngredients(anchorRow.anchor_ingredients_preview);
+  const el = document.getElementById('anchor-display');
+  el.innerHTML = `
+    <div class="anchor-label">🍲 Món gốc (Anchor)</div>
+    <div class="anchor-name">${escape(anchorRow.anchor_dish_name)}</div>
+    <div>
+      <span class="dish-category-badge">${escape(anchorRow.anchor_category)}</span>
+    </div>
+    <div class="ing-line" style="margin-top: 10px;">
+      <strong>Nguyên liệu:</strong><br>
+      ${ings.map(i => `<span class="ing-tag">${escape(i)}</span>`).join('')}
+    </div>
+  `;
+}
+
+function renderCandidate(rowIdx, anchorRow, position, total) {
+  const r = STATE.rows[rowIdx];
+  const anchorIngs = new Set(parseIngredients(anchorRow.anchor_ingredients_preview));
+  const candIngs = parseIngredients(r.candidate_ingredients_preview);
+  const shared = candIngs.filter(i => anchorIngs.has(i));
+  const sameCat = r.candidate_category === anchorRow.anchor_category;
+  const currentLabel = r[STATE.annotator] || '';
+  const scored = currentLabel !== '';
+
+  const catBadge = sameCat
+    ? `<span class="cat-match same">✓ Cùng danh mục</span>`
+    : `<span class="cat-match diff">≠ Khác danh mục</span>`;
+
+  const sharedSummary = shared.length > 0
+    ? `<span class="cat-match same" style="background: rgba(251, 191, 36, 0.2); color: var(--highlight); border-color: rgba(251, 191, 36, 0.4);">⚡ ${shared.length} nguyên liệu chung</span>`
+    : `<span class="cat-match diff">⊘ Không có nguyên liệu chung</span>`;
+
+  const ingTags = candIngs.map(i => {
+    const cls = anchorIngs.has(i) ? 'ing-tag shared' : 'ing-tag';
+    return `<span class="${cls}">${escape(i)}</span>`;
+  }).join('');
+
+  return `
+    <div class="candidate ${scored ? 'scored' : ''}" id="cand-${rowIdx}">
+      <div class="candidate-head">
+        <div style="flex:1">
+          <div class="candidate-idx">Ứng viên ${position} / ${total}</div>
+          <div class="candidate-name">${escape(r.candidate_dish_name)}</div>
+          <div style="margin-top: 4px;">
+            <span class="dish-category-badge">${escape(r.candidate_category)}</span>
+            ${catBadge}
+            ${sharedSummary}
+          </div>
+        </div>
+      </div>
+      <div class="ing-line">
+        <strong>Nguyên liệu:</strong><br>
+        ${ingTags}
+      </div>
+      <div class="score-row">
+        <button class="btn danger score-btn ${currentLabel === '0' ? 'selected' : ''}" onclick="setLabel(${rowIdx}, '0')">0 — Không liên quan</button>
+        <button class="btn warn score-btn ${currentLabel === '1' ? 'selected' : ''}" onclick="setLabel(${rowIdx}, '1')">1 — Liên quan</button>
+        <button class="btn success score-btn ${currentLabel === '2' ? 'selected' : ''}" onclick="setLabel(${rowIdx}, '2')">2 — Rất liên quan</button>
+      </div>
+      <div class="notes-field">
+        <input type="text" placeholder="Ghi chú (tùy chọn)..." value="${escape(r.notes || '')}" onchange="setNote(${rowIdx}, this.value)" />
+      </div>
+    </div>
+  `;
+}
+
+function escape(s) {
+  return String(s ?? '').replace(/[<>&"']/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function render() {
+  const aid = STATE.anchorOrder[STATE.currentAnchor];
+  const rowIdxs = STATE.groupByAnchor[aid];
+  const anchorRow = STATE.rows[rowIdxs[0]];
+
+  document.getElementById('anchor-progress-title').textContent =
+    `Anchor #${STATE.currentAnchor + 1} / ${STATE.anchorOrder.length}`;
+  document.getElementById('jump-input').value = STATE.currentAnchor + 1;
+
+  renderAnchor(anchorRow);
+
+  const listEl = document.getElementById('candidates-list');
+  listEl.innerHTML = rowIdxs.map((ri, i) => renderCandidate(ri, anchorRow, i + 1, rowIdxs.length)).join('');
+
+  // Scroll to top of page
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = STATE.rows.length;
+  const labeled = STATE.rows.filter(r => r[STATE.annotator]).length;
+  const pct = total ? (labeled / total * 100) : 0;
+  document.getElementById('progress-text').textContent = `${labeled} / ${total} đã gán`;
+  document.getElementById('progress-percent').textContent = `${pct.toFixed(1)}%`;
+  document.getElementById('progress-bar').style.width = `${pct}%`;
+}
+
+// =============================================================================
+// Labeling
+// =============================================================================
+function setLabel(rowIdx, val) {
+  STATE.rows[rowIdx][STATE.annotator] = val;
+  saveProgress();
+  // Re-render just the candidate card to update visual state
+  const aid = STATE.anchorOrder[STATE.currentAnchor];
+  const rowIdxs = STATE.groupByAnchor[aid];
+  const pos = rowIdxs.indexOf(rowIdx);
+  const anchorRow = STATE.rows[rowIdxs[0]];
+  const el = document.getElementById(`cand-${rowIdx}`);
+  if (el) {
+    el.outerHTML = renderCandidate(rowIdx, anchorRow, pos + 1, rowIdxs.length);
+  }
+  updateProgress();
+
+  // Auto-advance if all candidates in current anchor are scored
+  const allScored = rowIdxs.every(ri => STATE.rows[ri][STATE.annotator]);
+  if (allScored) {
+    toast(`✅ Hoàn thành anchor! Tự chuyển sau 1s...`);
+    setTimeout(() => {
+      if (STATE.currentAnchor < STATE.anchorOrder.length - 1) {
+        STATE.currentAnchor++;
+        render();
+      }
+    }, 1000);
+  } else {
+    toast(`✓ Nhãn ${val}`);
+  }
+}
+
+function setNote(rowIdx, val) {
+  STATE.rows[rowIdx].notes = val;
+  saveProgress();
+}
+
+function nextAnchor() {
+  if (STATE.currentAnchor < STATE.anchorOrder.length - 1) {
+    STATE.currentAnchor++;
+    render();
+  } else {
+    toast('🎉 Đã đến anchor cuối cùng');
+  }
+}
+
+function prevAnchor() {
+  if (STATE.currentAnchor > 0) {
+    STATE.currentAnchor--;
+    render();
+  }
+}
+
+function jumpToAnchor() {
+  const n = parseInt(document.getElementById('jump-input').value);
+  if (!isNaN(n) && n >= 1 && n <= STATE.anchorOrder.length) {
+    STATE.currentAnchor = n - 1;
+    render();
+  }
+}
+
+// =============================================================================
+// Storage
+// =============================================================================
+function saveProgress() {
+  const map = {};
+  STATE.rows.forEach((r, i) => {
+    if (r[STATE.annotator] || r.notes) {
+      map[rowKey(r, i)] = { label: r[STATE.annotator] || '', notes: r.notes || '' };
+    }
+  });
+  localStorage.setItem(STATE.storageKey, JSON.stringify(map));
+}
+
+// =============================================================================
+// Export
+// =============================================================================
+function downloadCSV() {
+  const csv = toCSV(STATE.headers, STATE.rows);
+  const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 16);
+  a.href = url;
+  a.download = `task2_${STATE.annotator}_${ts}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('💾 Đã tải xuống CSV');
+}
+
+// =============================================================================
+// Stats
+// =============================================================================
+function showStats() {
+  const total = STATE.rows.length;
+  const labeled = STATE.rows.filter(r => r[STATE.annotator]).length;
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-labeled').textContent = labeled;
+  document.getElementById('stat-remaining').textContent = total - labeled;
+  document.getElementById('stat-anchors').textContent = STATE.anchorOrder.length;
+
+  const dist = {};
+  STATE.rows.forEach(r => {
+    const l = r[STATE.annotator] || '(chưa gán)';
+    dist[l] = (dist[l] || 0) + 1;
+  });
+  const distEl = document.getElementById('stat-distribution');
+  distEl.innerHTML = Object.entries(dist).sort().map(([k, v]) => {
+    const pct = (v / total * 100).toFixed(1);
+    return `<div style="display:flex; justify-content:space-between; padding: 6px 0; border-bottom: 1px solid var(--border);"><span>Nhãn <strong>${k}</strong></span><span class="muted">${v} (${pct}%)</span></div>`;
+  }).join('');
+
+  document.getElementById('stats-modal').classList.remove('hidden');
+}
+
+function exitAnnotation() {
+  if (!confirm('Thoát? Tiến độ đã được lưu tự động.')) return;
+  document.getElementById('annotation-view').classList.add('hidden');
+  document.getElementById('landing').classList.remove('hidden');
+  STATE.rows = [];
+}
+
+// =============================================================================
+// Toast
+// =============================================================================
+let toastTimer;
+function toast(msg, type) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.toggle('error', type === 'error');
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 1800);
+}
+
+// =============================================================================
+// Keyboard shortcuts
+// =============================================================================
+document.addEventListener('keydown', (e) => {
+  if (document.getElementById('annotation-view').classList.contains('hidden')) return;
+  const tag = document.activeElement.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA') {
+    if (document.activeElement.id === 'jump-input' && e.key === 'Enter') {
+      jumpToAnchor(); e.preventDefault();
+    }
+    return;
+  }
+  if (e.key === 'ArrowRight') { nextAnchor(); e.preventDefault(); }
+  else if (e.key === 'ArrowLeft') { prevAnchor(); e.preventDefault(); }
+});
+
+// Auto-save every 30s
+setInterval(() => {
+  if (STATE.rows.length && STATE.storageKey) saveProgress();
+}, 30000);
+
+// Warn before close
+window.addEventListener('beforeunload', (e) => {
+  if (STATE.rows.length > 0) {
+    const labeled = STATE.rows.filter(r => r[STATE.annotator]).length;
+    if (labeled > 0 && labeled < STATE.rows.length) {
+      e.preventDefault();
+      e.returnValue = '';
+    }
+  }
+});
+</script>
+</body>
+</html>
