@@ -211,7 +211,7 @@ graph LR
 
 ---
 
-# Figure 2: RAG Pipeline with 3 Ontology Injection Points
+# Figure 2: RAG Pipeline with 2 Ontology Injection Points
 
 ```mermaid
 flowchart LR
@@ -234,19 +234,14 @@ flowchart LR
 
         DR["Dense Retrieval<br/>(multilingual embedding)"]
 
-        subgraph IP2["② Substitution Reasoning<br/><i>Task 2: Constrained Substitution</i>"]
-            SR["lookup_substitutes(ing, ctx)<br/>→ filter by constraint via hierarchy<br/>→ rank by NPMI with dish"]
-        end
-
-        subgraph IP3["③ Hierarchy-aware Similarity<br/><i>Task 3: Related-Dish Recommendation</i>"]
-            HS["Sim = α·Jaccard + β·ClassOverlap + γ·MethodMatch"]
+        subgraph IP2["② Hierarchy-aware Similarity<br/><i>Task 2: Related-Dish Recommendation</i>"]
+            HS["Sim = α·Jaccard + β·ClassOverlap + γ·MethodMatch + δ·SemanticSim"]
         end
     end
 
     subgraph OUTPUT["Output"]
         O1["Ranked Dishes"]
-        O2["Ranked Substitutes"]
-        O3["Related Dishes"]
+        O2["Related Dishes"]
     end
 
     Q --> IP1
@@ -254,14 +249,9 @@ flowchart LR
     IP1 --> DR
     DR --> O1
 
-    Q --> IP2
+    DR --> IP2
     ONTOLOGY --> IP2
     IP2 --> O2
-
-    DR --> IP3
-    IP2 --> IP3
-    ONTOLOGY --> IP3
-    IP3 --> O3
 
     style INPUT fill:#ecf0f1,stroke:#bdc3c7
     style ONTOLOGY fill:#fdf2e9,stroke:#f39c12
@@ -269,5 +259,4 @@ flowchart LR
     style OUTPUT fill:#e8f8f5,stroke:#27ae60
     style IP1 fill:#fadbd8,stroke:#e74c3c
     style IP2 fill:#fadbd8,stroke:#e74c3c
-    style IP3 fill:#fadbd8,stroke:#e74c3c
 ```

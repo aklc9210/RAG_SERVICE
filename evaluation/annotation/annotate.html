@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gán nhãn dữ liệu — Vietnamese Food IR</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card-2: #334155;
+    --border: #475569;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --success: #10b981;
+    --success-hover: #059669;
+    --danger: #ef4444;
+    --danger-hover: #dc2626;
+    --warn: #f59e0b;
+    --warn-hover: #d97706;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container {
+    max-width: 900px;
+    width: 100%;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 0 0 12px 0;
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  p { line-height: 1.5; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  .hidden { display: none !important; }
+  .card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+  }
+  .card.highlight {
+    border-color: var(--primary);
+    background: linear-gradient(135deg, rgba(59,130,246,0.1), transparent);
+  }
+  .btn {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn.primary { background: var(--primary); color: white; }
+  .btn.primary:hover { background: var(--primary-hover); }
+  .btn.success { background: var(--success); color: white; }
+  .btn.success:hover { background: var(--success-hover); }
+  .btn.danger { background: var(--danger); color: white; }
+  .btn.danger:hover { background: var(--danger-hover); }
+  .btn.warn { background: var(--warn); color: white; }
+  .btn.warn:hover { background: var(--warn-hover); }
+  .btn.secondary { background: var(--card-2); color: var(--text); border: 1px solid var(--border); }
+  .btn.secondary:hover { background: var(--border); }
+  .btn.big { padding: 16px 28px; font-size: 1.1rem; }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  input, select, textarea {
+    background: var(--card-2);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    width: 100%;
+    font-family: inherit;
+  }
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .row > * { flex: 1; }
+  .row.end { justify-content: flex-end; }
+  .row.between { justify-content: space-between; align-items: center; }
+
+  /* Progress bar */
+  .progress-wrap {
+    background: var(--card-2);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 8px;
+    margin: 10px 0;
+  }
+  .progress-bar {
+    background: var(--primary);
+    height: 100%;
+    transition: width 0.3s;
+  }
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  /* Meta pills */
+  .pill {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--card-2);
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    border: 1px solid var(--border);
+  }
+  .pill.pos { background: rgba(16,185,129,0.15); color: #6ee7b7; border-color: rgba(16,185,129,0.3); }
+  .pill.neg { background: rgba(239,68,68,0.15); color: #fca5a5; border-color: rgba(239,68,68,0.3); }
+  .pill.score { background: rgba(251,191,36,0.15); color: #fde68a; border-color: rgba(251,191,36,0.3); }
+
+  /* Dish display */
+  .dish {
+    padding: 14px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .dish-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .dish-category {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--muted);
+    padding: 2px 8px;
+    background: var(--card-2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .dish-ingredients {
+    font-size: 0.92rem;
+    color: #cbd5e1;
+    line-height: 1.5;
+  }
+  .dish-ingredients strong { color: var(--text); }
+
+  /* Side-by-side for Task 2 */
+  .side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  @media (max-width: 700px) {
+    .side-by-side { grid-template-columns: 1fr; }
+  }
+
+  .label-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  .label-buttons .btn {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+  }
+
+  .kbd {
+    display: inline-block;
+    padding: 2px 8px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    background: var(--card-2);
+    border: 1px solid var(--border);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    color: var(--text);
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--success);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s;
+    z-index: 1000;
+    pointer-events: none;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  .query-box {
+    background: rgba(59,130,246,0.08);
+    border-left: 3px solid var(--primary);
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  .query-text {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  .help {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  .help .kbd { margin: 0 2px; }
+
+  /* Landing */
+  .landing-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  @media (max-width: 600px) { .landing-options { grid-template-columns: 1fr; } }
+  .option-card {
+    background: var(--card-2);
+    padding: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+  }
+  .option-card:hover { border-color: var(--primary); transform: translateY(-2px); }
+  .option-card h3 { margin-top: 0; }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .stat {
+    background: var(--card-2);
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .stat-value { font-size: 1.4rem; font-weight: 700; }
+  .stat-label { font-size: 0.8rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- LANDING PAGE -->
+<!-- ══════════════════════════════════════════════════ -->
+<div id="landing">
+  <div class="card">
+    <h1>🏷️ Gán nhãn dữ liệu — Vietnamese Food IR</h1>
+    <p class="muted">Công cụ gán nhãn đơn giản cho Task 1 (truy xuất theo nhóm nguyên liệu) và Task 2 (gợi ý món liên quan). Tiến độ sẽ được lưu tự động vào trình duyệt.</p>
+
+    <h2>1. Chọn task</h2>
+    <div class="landing-options">
+      <div class="option-card" onclick="chooseTask('task1')">
+        <h3>Task 1 — Truy xuất theo nhóm</h3>
+        <p class="muted">Đánh giá món ăn có khớp với truy vấn theo nhóm nguyên liệu / phương pháp nấu không (nhãn 0/1).</p>
+        <p class="muted"><strong>500 dòng · ~40–60 phút</strong></p>
+      </div>
+      <div class="option-card" onclick="chooseTask('task2')">
+        <h3>Task 2 — Món liên quan</h3>
+        <p class="muted">Chấm điểm mức độ liên quan giữa 2 món ăn (thang 0/1/2).</p>
+        <p class="muted"><strong>300 dòng · ~30–45 phút</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="task-setup" class="card hidden">
+    <h2>2. Chọn annotator</h2>
+    <div class="row">
+      <div>
+        <label>Bạn là</label>
+        <select id="annotator-select">
+          <option value="annotator_1">Annotator 1</option>
+          <option value="annotator_2">Annotator 2</option>
+        </select>
+      </div>
+    </div>
+
+    <h2 style="margin-top:20px">3. Tải file CSV</h2>
+    <p class="muted">Chọn file <code id="csv-filename">task1_human_annotation.csv</code> (hoặc phiên bản bạn đã lưu giữa chừng).</p>
+    <input type="file" id="file-input" accept=".csv" />
+
+    <div id="resume-hint" class="hidden card" style="background: rgba(59,130,246,0.1); border-color: var(--primary); margin-top: 14px;">
+      <p style="margin:0">💾 Tìm thấy tiến độ đã lưu: <strong id="saved-count">0</strong> nhãn. Sẽ tự động khôi phục khi load file.</p>
+    </div>
+
+    <div class="row end" style="margin-top: 20px;">
+      <button class="btn secondary" onclick="backToTask()">← Quay lại</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ -->
+<!-- ANNOTATION VIEW -->
+<!-- ══════════════════════════════════════════════════ -->
+<div id="annotation-view" class="hidden">
+
+  <div class="card">
+    <div class="row between">
+      <div>
+        <div class="muted" id="header-info" style="font-size: 0.85rem;">Task · Annotator</div>
+        <h1 id="item-title" style="margin:4px 0 0 0;">Item #1</h1>
+      </div>
+      <div>
+        <button class="btn secondary" onclick="downloadCSV()">📥 Tải CSV</button>
+        <button class="btn secondary" onclick="showStats()">📊</button>
+        <button class="btn danger" onclick="exitAnnotation()">Thoát</button>
+      </div>
+    </div>
+
+    <div class="progress-info" style="margin-top: 16px;">
+      <span id="progress-text">0 / 0 đã gán</span>
+      <span id="progress-percent">0%</span>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-bar" id="progress-bar" style="width: 0%;"></div>
+    </div>
+  </div>
+
+  <!-- Task 1 view -->
+  <div id="task1-content" class="hidden">
+    <div class="card highlight">
+      <h2>🔍 Truy vấn</h2>
+      <div class="query-box">
+        <div class="query-text" id="t1-query"></div>
+        <div id="t1-query-meta"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🍽️ Món ứng viên</h2>
+      <div class="dish">
+        <div class="dish-name" id="t1-dish-name"></div>
+        <span class="dish-category" id="t1-dish-category"></span>
+        <div class="dish-ingredients"><strong>Nguyên liệu:</strong> <span id="t1-dish-ingredients"></span></div>
+      </div>
+
+      <div class="label-buttons">
+        <button class="btn success big" onclick="setLabel('1')">1 — Có khớp <span class="kbd">1</span></button>
+        <button class="btn danger big" onclick="setLabel('0')">0 — Không khớp <span class="kbd">0</span></button>
+      </div>
+      <div class="help">
+        Phím tắt: <span class="kbd">1</span> / <span class="kbd">0</span> gán nhãn · <span class="kbd">←</span> trước · <span class="kbd">→</span> sau · <span class="kbd">S</span> skip
+      </div>
+    </div>
+  </div>
+
+  <!-- Task 2 view -->
+  <div id="task2-content" class="hidden">
+    <div class="card">
+      <h2>🍽️ Hai món ăn — mức độ liên quan</h2>
+      <div class="side-by-side">
+        <div class="dish">
+          <div class="muted" style="font-size:0.8rem;">Món gốc</div>
+          <div class="dish-name" id="t2-anchor-name"></div>
+          <span class="dish-category" id="t2-anchor-category"></span>
+          <div class="dish-ingredients"><span id="t2-anchor-ingredients"></span></div>
+        </div>
+        <div class="dish">
+          <div class="muted" style="font-size:0.8rem;">Món ứng viên</div>
+          <div class="dish-name" id="t2-cand-name"></div>
+          <span class="dish-category" id="t2-cand-category"></span>
+          <div class="dish-ingredients"><span id="t2-cand-ingredients"></span></div>
+        </div>
+      </div>
+
+      <div class="label-buttons">
+        <button class="btn danger big" onclick="setLabel('0')">0 — Không liên quan <span class="kbd">0</span></button>
+        <button class="btn warn big" onclick="setLabel('1')">1 — Liên quan <span class="kbd">1</span></button>
+        <button class="btn success big" onclick="setLabel('2')">2 — Rất liên quan <span class="kbd">2</span></button>
+      </div>
+      <div class="help">
+        Phím tắt: <span class="kbd">0</span>/<span class="kbd">1</span>/<span class="kbd">2</span> gán nhãn · <span class="kbd">←</span> trước · <span class="kbd">→</span> sau · <span class="kbd">S</span> skip
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <label>Ghi chú (tùy chọn)</label>
+    <textarea id="notes-input" rows="2" placeholder="VD: không rõ ràng, cần xem kỹ hơn..."></textarea>
+
+    <div class="row between" style="margin-top: 16px;">
+      <div>
+        <button class="btn secondary" onclick="prevItem()">← Trước</button>
+        <button class="btn secondary" onclick="nextItem()">Sau →</button>
+      </div>
+      <div>
+        <label for="jump-input" style="display:inline; margin-right:6px;">Nhảy đến:</label>
+        <input type="number" id="jump-input" style="width: 80px; display: inline-block;" min="1" />
+        <button class="btn secondary" onclick="jumpToItem()">Go</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="current-label-info" class="card muted" style="text-align:center; font-size: 0.9rem;">
+    Nhãn hiện tại: <strong id="current-label-text">(chưa gán)</strong>
+  </div>
+</div>
+
+<!-- Stats modal -->
+<div id="stats-modal" class="hidden" style="position:fixed; inset:0; background:rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; z-index:100;">
+  <div class="card" style="max-width: 500px; width: 90%; margin: 0;">
+    <div class="row between" style="margin-bottom: 16px;">
+      <h2 style="margin:0">📊 Thống kê</h2>
+      <button class="btn secondary" onclick="document.getElementById('stats-modal').classList.add('hidden')">×</button>
+    </div>
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="stat-total">0</div>
+        <div class="stat-label">Tổng</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-labeled" style="color: var(--success);">0</div>
+        <div class="stat-label">Đã gán</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-remaining" style="color: var(--warn);">0</div>
+        <div class="stat-label">Còn lại</div>
+      </div>
+    </div>
+    <h2 style="margin-top: 20px;">Phân bố nhãn</h2>
+    <div id="stat-distribution"></div>
+    <div class="row" style="margin-top: 20px;">
+      <button class="btn primary" onclick="downloadCSV()" style="flex:1;">📥 Tải CSV kết quả</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+</div>
+
+<script>
+// =============================================================================
+// State
+// =============================================================================
+const STATE = {
+  task: null,            // 'task1' or 'task2'
+  annotator: null,       // 'annotator_1' or 'annotator_2'
+  headers: [],
+  rows: [],              // all CSV rows
+  idx: 0,                // current row index
+  storageKey: null,      // localStorage key
+};
+
+const TASK_FILES = {
+  task1: 'task1_human_annotation.csv',
+  task2: 'task2_human_annotation.csv',
+};
+
+// =============================================================================
+// Landing / Setup
+// =============================================================================
+function chooseTask(task) {
+  STATE.task = task;
+  document.getElementById('csv-filename').textContent = TASK_FILES[task];
+  document.getElementById('task-setup').classList.remove('hidden');
+  updateSavedHint();
+}
+
+function backToTask() {
+  document.getElementById('task-setup').classList.add('hidden');
+  STATE.task = null;
+}
+
+function getStorageKey() {
+  return `annot_${STATE.task}_${STATE.annotator}`;
+}
+
+function updateSavedHint() {
+  const annotator = document.getElementById('annotator-select').value;
+  const key = `annot_${STATE.task}_${annotator}`;
+  const saved = localStorage.getItem(key);
+  const hint = document.getElementById('resume-hint');
+  if (saved) {
+    try {
+      const data = JSON.parse(saved);
+      const count = Object.values(data).filter(v => v.label !== '').length;
+      document.getElementById('saved-count').textContent = count;
+      hint.classList.remove('hidden');
+    } catch {
+      hint.classList.add('hidden');
+    }
+  } else {
+    hint.classList.add('hidden');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('annotator-select').addEventListener('change', updateSavedHint);
+  document.getElementById('file-input').addEventListener('change', handleFile);
+});
+
+// =============================================================================
+// CSV parsing
+// =============================================================================
+function parseCSV(text) {
+  // Simple but robust CSV parser (handles quoted fields with commas)
+  const lines = text.split(/\r?\n/).filter(l => l.length);
+  const rows = [];
+  for (const line of lines) {
+    const row = [];
+    let cur = '';
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+      const c = line[i];
+      if (c === '"' && line[i+1] === '"' && inQuotes) { cur += '"'; i++; }
+      else if (c === '"') { inQuotes = !inQuotes; }
+      else if (c === ',' && !inQuotes) { row.push(cur); cur = ''; }
+      else { cur += c; }
+    }
+    row.push(cur);
+    rows.push(row);
+  }
+  const headers = rows[0];
+  const data = rows.slice(1).map(r => {
+    const obj = {};
+    headers.forEach((h, i) => { obj[h] = r[i] !== undefined ? r[i] : ''; });
+    return obj;
+  });
+  return { headers, rows: data };
+}
+
+function toCSV(headers, rows) {
+  const escape = v => {
+    const s = String(v ?? '');
+    if (s.includes(',') || s.includes('"') || s.includes('\n')) {
+      return '"' + s.replace(/"/g, '""') + '"';
+    }
+    return s;
+  };
+  const lines = [headers.join(',')];
+  for (const r of rows) {
+    lines.push(headers.map(h => escape(r[h])).join(','));
+  }
+  return lines.join('\n');
+}
+
+// =============================================================================
+// File load
+// =============================================================================
+async function handleFile(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const text = await file.text();
+  const { headers, rows } = parseCSV(text);
+  STATE.headers = headers;
+  STATE.rows = rows;
+  STATE.annotator = document.getElementById('annotator-select').value;
+  STATE.storageKey = getStorageKey();
+
+  // Restore saved labels from localStorage
+  const saved = localStorage.getItem(STATE.storageKey);
+  if (saved) {
+    try {
+      const savedMap = JSON.parse(saved);
+      STATE.rows.forEach((r, i) => {
+        const key = rowKey(r, i);
+        if (savedMap[key]) {
+          r[STATE.annotator] = savedMap[key].label;
+          r.notes = savedMap[key].notes;
+        }
+      });
+    } catch {}
+  }
+
+  // Find first unlabeled item
+  STATE.idx = STATE.rows.findIndex(r => !r[STATE.annotator]);
+  if (STATE.idx === -1) STATE.idx = 0;
+
+  document.getElementById('landing').classList.add('hidden');
+  document.getElementById('annotation-view').classList.remove('hidden');
+  document.getElementById('header-info').textContent =
+    `${STATE.task.toUpperCase()} · ${STATE.annotator.replace('_', ' ')}`;
+
+  // Show task-specific content
+  document.getElementById('task1-content').classList.toggle('hidden', STATE.task !== 'task1');
+  document.getElementById('task2-content').classList.toggle('hidden', STATE.task !== 'task2');
+
+  render();
+}
+
+// =============================================================================
+// Rendering
+// =============================================================================
+function rowKey(r, i) {
+  // Unique row key for localStorage
+  if (STATE.task === 'task1') return `${r.query_id}__${r.candidate_dish_id}__${i}`;
+  return `${r.anchor_dish_id}__${r.candidate_dish_id}__${i}`;
+}
+
+function render() {
+  const r = STATE.rows[STATE.idx];
+  if (!r) return;
+
+  document.getElementById('item-title').textContent = `Item #${STATE.idx + 1} / ${STATE.rows.length}`;
+
+  if (STATE.task === 'task1') {
+    document.getElementById('t1-query').textContent = `"${r.query}"`;
+    const meta = [];
+    meta.push(`<span class="pill">Loại: ${r.query_type}</span>`);
+    if (r.classes_positive) meta.push(`<span class="pill pos">Phải có: ${r.classes_positive}</span>`);
+    if (r.classes_negative) meta.push(`<span class="pill neg">Không được có: ${r.classes_negative}</span>`);
+    if (r.cooking_method) meta.push(`<span class="pill">Cách nấu: ${r.cooking_method}</span>`);
+    document.getElementById('t1-query-meta').innerHTML = meta.join(' ');
+
+    document.getElementById('t1-dish-name').textContent = r.candidate_dish_name;
+    document.getElementById('t1-dish-category').textContent = r.candidate_category;
+    document.getElementById('t1-dish-ingredients').textContent = r.candidate_ingredients_preview;
+  } else {
+    document.getElementById('t2-anchor-name').textContent = r.anchor_dish_name;
+    document.getElementById('t2-anchor-category').textContent = r.anchor_category;
+    document.getElementById('t2-anchor-ingredients').textContent = r.anchor_ingredients_preview;
+    document.getElementById('t2-cand-name').textContent = r.candidate_dish_name;
+    document.getElementById('t2-cand-category').textContent = r.candidate_category;
+    document.getElementById('t2-cand-ingredients').textContent = r.candidate_ingredients_preview;
+  }
+
+  document.getElementById('notes-input').value = r.notes || '';
+  document.getElementById('jump-input').value = STATE.idx + 1;
+
+  updateProgress();
+  updateCurrentLabel();
+}
+
+function updateProgress() {
+  const total = STATE.rows.length;
+  const labeled = STATE.rows.filter(r => r[STATE.annotator]).length;
+  const pct = total ? (labeled / total * 100) : 0;
+  document.getElementById('progress-text').textContent = `${labeled} / ${total} đã gán`;
+  document.getElementById('progress-percent').textContent = `${pct.toFixed(1)}%`;
+  document.getElementById('progress-bar').style.width = `${pct}%`;
+}
+
+function updateCurrentLabel() {
+  const r = STATE.rows[STATE.idx];
+  const label = r[STATE.annotator];
+  const el = document.getElementById('current-label-text');
+  if (label === '' || label == null) {
+    el.textContent = '(chưa gán)';
+    el.style.color = 'var(--muted)';
+  } else {
+    el.textContent = label;
+    el.style.color = 'var(--primary)';
+  }
+}
+
+// =============================================================================
+// Labeling
+// =============================================================================
+function setLabel(val) {
+  const r = STATE.rows[STATE.idx];
+  r[STATE.annotator] = val;
+  r.notes = document.getElementById('notes-input').value;
+  saveProgress();
+  toast(`✓ Đã gán ${val}`);
+  // Auto-advance
+  setTimeout(nextItem, 150);
+}
+
+function nextItem() {
+  // Save notes even without label
+  STATE.rows[STATE.idx].notes = document.getElementById('notes-input').value;
+  saveProgress();
+  if (STATE.idx < STATE.rows.length - 1) {
+    STATE.idx++;
+    render();
+  } else {
+    toast('🎉 Đã đến item cuối cùng');
+  }
+}
+
+function prevItem() {
+  STATE.rows[STATE.idx].notes = document.getElementById('notes-input').value;
+  saveProgress();
+  if (STATE.idx > 0) {
+    STATE.idx--;
+    render();
+  }
+}
+
+function jumpToItem() {
+  const n = parseInt(document.getElementById('jump-input').value);
+  if (!isNaN(n) && n >= 1 && n <= STATE.rows.length) {
+    STATE.rows[STATE.idx].notes = document.getElementById('notes-input').value;
+    saveProgress();
+    STATE.idx = n - 1;
+    render();
+  }
+}
+
+// =============================================================================
+// Storage
+// =============================================================================
+function saveProgress() {
+  const map = {};
+  STATE.rows.forEach((r, i) => {
+    if (r[STATE.annotator] || r.notes) {
+      map[rowKey(r, i)] = { label: r[STATE.annotator] || '', notes: r.notes || '' };
+    }
+  });
+  localStorage.setItem(STATE.storageKey, JSON.stringify(map));
+}
+
+// =============================================================================
+// Export
+// =============================================================================
+function downloadCSV() {
+  const csv = toCSV(STATE.headers, STATE.rows);
+  const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 16);
+  a.href = url;
+  a.download = `${STATE.task}_${STATE.annotator}_${ts}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('💾 Đã tải xuống CSV');
+}
+
+// =============================================================================
+// Stats modal
+// =============================================================================
+function showStats() {
+  const total = STATE.rows.length;
+  const labeled = STATE.rows.filter(r => r[STATE.annotator]).length;
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-labeled').textContent = labeled;
+  document.getElementById('stat-remaining').textContent = total - labeled;
+
+  const dist = {};
+  STATE.rows.forEach(r => {
+    const l = r[STATE.annotator] || '(chưa gán)';
+    dist[l] = (dist[l] || 0) + 1;
+  });
+  const distEl = document.getElementById('stat-distribution');
+  distEl.innerHTML = Object.entries(dist).sort().map(([k, v]) => {
+    const pct = (v / total * 100).toFixed(1);
+    return `<div style="display:flex; justify-content:space-between; padding: 6px 0;"><span>Nhãn <strong>${k}</strong></span><span class="muted">${v} (${pct}%)</span></div>`;
+  }).join('');
+
+  document.getElementById('stats-modal').classList.remove('hidden');
+}
+
+// =============================================================================
+// Exit
+// =============================================================================
+function exitAnnotation() {
+  if (!confirm('Thoát? Tiến độ đã được lưu tự động.')) return;
+  document.getElementById('annotation-view').classList.add('hidden');
+  document.getElementById('landing').classList.remove('hidden');
+  STATE.rows = [];
+  STATE.idx = 0;
+}
+
+// =============================================================================
+// Toast
+// =============================================================================
+let toastTimer;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 1500);
+}
+
+// =============================================================================
+// Keyboard shortcuts
+// =============================================================================
+document.addEventListener('keydown', (e) => {
+  if (document.getElementById('annotation-view').classList.contains('hidden')) return;
+  const tag = document.activeElement.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA') {
+    // Still allow arrow navigation if in notes field and it's the number input
+    if (document.activeElement.id === 'jump-input' && e.key === 'Enter') {
+      jumpToItem();
+      e.preventDefault();
+    }
+    return;
+  }
+  if (e.key === 'ArrowRight') { nextItem(); e.preventDefault(); }
+  else if (e.key === 'ArrowLeft') { prevItem(); e.preventDefault(); }
+  else if (e.key === 's' || e.key === 'S') { nextItem(); e.preventDefault(); }
+  else if (STATE.task === 'task1' && (e.key === '0' || e.key === '1')) { setLabel(e.key); e.preventDefault(); }
+  else if (STATE.task === 'task2' && ['0', '1', '2'].includes(e.key)) { setLabel(e.key); e.preventDefault(); }
+});
+
+// Auto-save every 30s as safety
+setInterval(() => {
+  if (STATE.rows.length && STATE.storageKey) saveProgress();
+}, 30000);
+
+// Warn before close
+window.addEventListener('beforeunload', (e) => {
+  if (STATE.rows.length > 0) {
+    const labeled = STATE.rows.filter(r => r[STATE.annotator]).length;
+    if (labeled > 0 && labeled < STATE.rows.length) {
+      e.preventDefault();
+      e.returnValue = '';
+    }
+  }
+});
+</script>
+</body>
+</html>

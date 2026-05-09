@@ -1,7 +1,7 @@
 \section{Task Definitions}
 \label{sec:tasks}
 
-We define three evaluation tasks, each designed to isolate a specific ontology contribution. All tasks share the same corpus of 10{,}741 Vietnamese dishes and the same ontology (Section~\ref{sec:framework}).
+We define two evaluation tasks, each designed to isolate a specific ontology contribution. All tasks share the same corpus of 10{,}741 Vietnamese dishes and the same ontology (Section~\ref{sec:framework}).
 
 % ──────────────────────────────────────────────────────────────
 \subsection{Task~1: Class-Based Dish Retrieval}
@@ -16,20 +16,8 @@ We define three evaluation tasks, each designed to isolate a specific ontology c
 \textbf{Metrics.} P@20, NDCG@20, and MRR@20.
 
 % ──────────────────────────────────────────────────────────────
-\subsection{Task~2: Constrained Ingredient Substitution}
+\subsection{Task~2: Related-Dish Recommendation}
 \label{ssec:task2}
-
-\textbf{Motivation.} Replacing an ingredient under a dietary constraint (e.g., vegetarian, no-seafood) requires typed relations and class-based filtering that flat embeddings cannot provide.
-
-\textbf{Input/Output.} Input is a tuple (dish, target ingredient, constraint). Output is a ranked list of top-5 candidate substitutes.
-
-\textbf{Ground truth.} 100 test cases scored by a single LLM judge (Qwen-2.5 7B, temperature~0) on a 0/1/2 scale. Construction and judge protocol are given in Section~\ref{ssec:eval_protocol}.
-
-\textbf{Metrics.} Mean LLM-judge score, accept rate (score $\geq$ 1), and good rate (score = 2).
-
-% ──────────────────────────────────────────────────────────────
-\subsection{Task~3: Related-Dish Recommendation}
-\label{ssec:task3}
 
 \textbf{Motivation.} Flat Jaccard over ingredient bags treats all ingredient differences equally, failing to distinguish within-class substitutions (beef $\to$ chicken, both AnimalProtein) from cross-class ones (beef $\to$ tofu).
 

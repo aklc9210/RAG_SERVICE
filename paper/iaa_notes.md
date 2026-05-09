@@ -20,7 +20,7 @@ Qwen2.5:7b exhibits systematic scoring bias incompatible with the other three ju
 - Gemma2 vs Mistral: 72.9%
 - Llama3.1 vs Mistral: 72.2%
 
-### Suggested paper text (Section IV, Task 3 GT construction)
+### Suggested paper text (Section IV, Task 2 GT construction)
 
 "We initially employed four LLM judges (Qwen-2.5 7B, Llama-3.1 8B, Gemma-2 9B,
 Mistral 7B). Qwen-2.5 exhibited a systematic low-scoring bias, assigning score 2
@@ -31,7 +31,7 @@ and report results using the three remaining judges, which yield Fleiss' κ = 0.
 
 ### Impact on results after re-evaluation
 
-**Task 3 (3 judges GT, re-evaluated):**
+**Task 2 (3 judges GT, re-evaluated):**
 | Metric | 4 judges | 3 judges | Note |
 |---|---|---|---|
 | MAE | 0.0523 | 0.0809 | GT scale shifted |
@@ -42,5 +42,3 @@ and report results using the three remaining judges, which yield Fleiss' κ = 0.
 Pearson dropped because 3-judge GT has higher mean (0.956 vs 0.825) and
 compressed variance. Spearman ρ = 0.70 confirms ranking quality is preserved.
 → Report Spearman as primary correlation metric in paper.
-
-**Task 2:** Uses single LLM judge (not the 4-model panel), no change needed.

@@ -1,7 +1,7 @@
 \section{Ontology-Enhanced Retrieval Framework}
 \label{sec:framework}
 
-This section presents the ontology construction process and its integration into the retrieval pipeline. Section~\ref{ssec:formal} gives formal definitions. Section~\ref{ssec:hierarchy} describes the ingredient hierarchy and dish taxonomy. Section~\ref{ssec:relations} details relation derivation. Section~\ref{ssec:integration} explains the three ontology injection points.
+This section presents the ontology construction process and its integration into the retrieval pipeline. Section~\ref{ssec:formal} gives formal definitions. Section~\ref{ssec:hierarchy} describes the ingredient hierarchy and dish taxonomy. Section~\ref{ssec:relations} details relation derivation. Section~\ref{ssec:integration} explains the two ontology injection points.
 
 % ──────────────────────────────────────────────────────────────
 \subsection{Formal Definition}
@@ -70,7 +70,7 @@ We compute Normalized Pointwise Mutual Information (NPMI) over ingredient co-occ
 \text{NPMI}(A, B) = \frac{\log \frac{P(A, B)}{P(A)\,P(B)}}{-\log P(A, B)}
 \end{equation}
 %
-All pairs with $\text{NPMI} > 0.3$ are retained, yielding 15{,}119 complement pairs. No additional class filter is applied at derivation time; class-based filtering is performed downstream during substitution reasoning (Section~\ref{ssec:integration}).
+All pairs with $\text{NPMI} > 0.3$ are retained, yielding 15{,}119 complement pairs.
 
 \textbf{conflictsWith($A$, $B$).}
 139 nutritional and medical conflict rules are imported from an existing curated conflict database and normalized to ontology ingredient identifiers.
@@ -82,7 +82,7 @@ The cooking method is mapped from the dish category field using a 15-entry looku
 \subsection{Ontology Integration with Dense Retrieval}
 \label{ssec:integration}
 
-The ontology is injected into the dense-retrieval pipeline at three points, each targeting one of the failure modes identified in Section~\ref{sec:introduction}. Fig.~\ref{fig:pipeline} illustrates the overall architecture.
+The ontology is injected into the dense-retrieval pipeline at two points, each targeting one of the failure modes identified in Section~\ref{sec:introduction}. Fig.~\ref{fig:pipeline} illustrates the overall architecture.
 
 % --- FIGURE: Pipeline ---
 \begin{figure}[t]
@@ -90,8 +90,7 @@ The ontology is injected into the dense-retrieval pipeline at three points, each
 % \includegraphics[width=\columnwidth]{figures/pipeline.pdf}
 \fbox{\parbox{0.92\columnwidth}{\centering\small
 \textbf{Query} $\xrightarrow{\text{(1) expand}}$ Expanded Query $\xrightarrow{\text{dense retrieval}}$ Candidates\\[4pt]
-\textbf{Substitution request} $\xrightarrow{\text{(2) lookup + filter}}$ Ranked substitutes\\[4pt]
-\textbf{Dish} $\xrightarrow{\text{(3) hierarchy-aware sim}}$ Related dishes
+\textbf{Dish} $\xrightarrow{\text{(2) hierarchy-aware sim}}$ Related dishes
 }}
 \caption{Ontology injection points in the retrieval pipeline.}
 \label{fig:pipeline}
@@ -100,17 +99,7 @@ The ontology is injected into the dense-retrieval pipeline at three points, each
 \textbf{(1) Query expansion (Task~1).}
 For class-level queries such as \textit{``m\'{o}n protein th\d{u}c v\d{a}t''}, the system maps the class term to an ontology node and retrieves all descendant ingredient names via \texttt{get\_descendants}. The expanded ingredient list is appended to the original query before dense encoding. Negation queries (e.g., ``m\'{o}n kh\^{o}ng h\h{a}i s\h{a}n'') expand the positive class and exclude matching dishes at retrieval time.
 
-\textbf{(2) Constrained substitution reasoning (Task~2).}
-Given a dish, a target ingredient, and a dietary constraint (e.g., vegetarian), the system: (a)~looks up \emph{substitutes} relations filtered by dish context, (b)~expands candidates to same-class and sibling-class members, (c)~filters candidates through the class hierarchy (e.g., vegetarian $\to$ exclude \texttt{AnimalProtein} descendants), and (d)~ranks survivors by NPMI compatibility with the remaining dish ingredients:
-%
-\begin{equation}
-\label{eq:sub_score}
-\text{Score}(c) = \text{NPMI}_{\text{avg}}(c, \text{others}) + \lambda_1 \cdot \mathbb{1}[\text{ont\_sub}] + \lambda_2 \cdot \mathbb{1}[\text{same\_leaf}]
-\end{equation}
-%
-where $\lambda_1 = 0.3$ and $\lambda_2 = 0.2$ are bonus weights for ontology-attested substitutes and same-leaf-class candidates, respectively.
-
-\textbf{(3) Hierarchy-aware dish similarity (Task~3).}
+\textbf{(2) Hierarchy-aware dish similarity (Task~2).}
 Dish similarity combines four components:
 %
 \begin{equation}

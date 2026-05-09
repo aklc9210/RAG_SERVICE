@@ -4,22 +4,20 @@
 
 ## TÓM TẮT (Abstract)
 
-Các hệ thống truy xuất dày đặc (dense retrieval) dựa vào embedding (biểu diễn vector) để so khớp ngữ nghĩa. Tuy nhiên, trong lĩnh vực ẩm thực, sự liên quan thường phụ thuộc vào kiến thức nấu ăn có cấu trúc mà chỉ dùng embedding thì không nắm bắt được. Các truy vấn theo nhóm nguyên liệu, thay thế nguyên liệu có ràng buộc, và tìm món tương tự theo phân cấp — tất cả đều cần suy luận trên các nhóm nguyên liệu và các mối quan hệ có tên gọi.
+Các hệ thống truy xuất dày đặc (dense retrieval) dựa vào embedding (biểu diễn vector) để so khớp ngữ nghĩa. Tuy nhiên, trong lĩnh vực ẩm thực, sự liên quan thường phụ thuộc vào kiến thức nấu ăn có cấu trúc mà chỉ dùng embedding thì không nắm bắt được. Các truy vấn theo nhóm nguyên liệu và tìm món tương tự theo phân cấp — cả hai đều cần suy luận trên các nhóm nguyên liệu và các mối quan hệ có tên gọi.
 
 Bài báo này đề xuất một framework truy xuất tăng cường bằng ontology (hệ thống phân loại tri thức) cho truy xuất thông tin ẩm thực Việt Nam. Chúng tôi xây dựng:
 - Cây phân cấp nguyên liệu 4 tầng (2.112 nguyên liệu, 49 nhóm)
 - Hệ phân loại món ăn theo 2 trục
 - 7 loại quan hệ có tên gọi, trên tập dữ liệu 10.741 món ăn Việt Nam
 
-Ontology được tích hợp vào hệ thống truy xuất tại 3 điểm:
+Ontology được tích hợp vào hệ thống truy xuất tại 2 điểm:
 1. **Mở rộng truy vấn** bằng cách lấy tất cả nguyên liệu con của một nhóm
-2. **Thay thế nguyên liệu có ràng buộc** bằng quan hệ có kiểu và lọc theo phân cấp
-3. **Tính độ tương tự món ăn** bằng hàm 4 thành phần: trùng nguyên liệu (Jaccard), trùng nhóm nguyên liệu, trùng cách nấu, và tương tự ngữ nghĩa
+2. **Tính độ tương tự món ăn** bằng hàm 4 thành phần: trùng nguyên liệu (Jaccard), trùng nhóm nguyên liệu, trùng cách nấu, và tương tự ngữ nghĩa
 
-Đánh giá trên 3 nhiệm vụ cho thấy cải thiện nhất quán:
+Đánh giá trên 2 nhiệm vụ cho thấy cải thiện nhất quán:
 - Truy xuất theo nhóm: cải thiện +37% NDCG@20 so với chỉ dùng truy xuất dày đặc
-- Gợi ý món liên quan: đạt Spearman ρ = 0.70, trong đó các thành phần ontology chiếm 50% tín hiệu tương tự
-- Thay thế nguyên liệu có ràng buộc: cải thiện +8.2% điểm trung bình
+- Gợi ý món liên quan: đạt Spearman ρ = 0.70, trong đó các thành phần ontology chiếm 60% tín hiệu tương tự
 
 Kết quả chứng minh rằng kiến thức có cấu trúc (ontology) bổ sung cho truy xuất bằng mạng nơ-ron khi sự liên quan phụ thuộc vào suy luận theo thành phần và theo nhóm.
 
@@ -29,13 +27,11 @@ Kết quả chứng minh rằng kiến thức có cấu trúc (ontology) bổ su
 
 Truy xuất thông tin trong lĩnh vực ẩm thực đặt ra những thách thức vượt xa việc so khớp văn bản thông thường, bởi vì sự liên quan phụ thuộc vào kiến thức nấu ăn có cấu trúc — thành phần nguyên liệu, phân cấp nhóm, cách chế biến, và sự tương hợp hương vị — chứ không chỉ là trùng từ ngữ. Khó khăn này càng lớn hơn trong ẩm thực Việt Nam, nơi có sự biến đổi dấu thanh, đặt tên song ngữ, và đa dạng vùng miền kết hợp với vốn từ vựng nguyên liệu rất lớn.
 
-Các hệ thống truy xuất dày đặc cải thiện so khớp ngữ nghĩa so với phương pháp từ khóa bằng cách mã hóa truy vấn và tài liệu trong cùng không gian embedding, nhưng chỉ dùng truy xuất dày đặc thì gặp **3 lỗi lặp đi lặp lại** trong lĩnh vực ẩm thực:
+Các hệ thống truy xuất dày đặc cải thiện so khớp ngữ nghĩa so với phương pháp từ khóa bằng cách mã hóa truy vấn và tài liệu trong cùng không gian embedding, nhưng chỉ dùng truy xuất dày đặc thì gặp **2 lỗi lặp đi lặp lại** trong lĩnh vực ẩm thực:
 
 1. **Truy vấn theo nhóm nguyên liệu**: Ví dụ "món protein thực vật" — không thể giải quyết nếu không có cơ chế phân cấp để mở rộng truy vấn thành danh sách các nguyên liệu con. Hệ thống tìm kiếm thông thường không hiểu "protein thực vật" bao gồm đậu hũ, đậu nành, nấm, v.v.
 
-2. **Thay thế nguyên liệu có ràng buộc**: Ví dụ thay thịt bò trong điều kiện ăn chay — cần các quan hệ có kiểu và lọc theo nhóm, điều mà embedding phẳng không có.
-
-3. **Gợi ý món liên quan**: Tính trùng nguyên liệu bằng Jaccard thông thường không phân biệt được thay thế cùng nhóm (bò → gà, cùng nhóm Protein Động Vật) với thay thế khác nhóm (bò → đậu hũ).
+2. **Gợi ý món liên quan**: Tính trùng nguyên liệu bằng Jaccard thông thường không phân biệt được thay thế cùng nhóm (bò → gà, cùng nhóm Protein Động Vật) với thay thế khác nhóm (bò → đậu hũ).
 
 Ontology (hệ thống phân loại tri thức) giải quyết các hạn chế này bằng cách mã hóa:
 - Quan hệ **cha-con** giữa các nhóm (ví dụ: Hải Sản là con của Protein Động Vật)
@@ -46,9 +42,9 @@ Ontology (hệ thống phân loại tri thức) giải quyết các hạn chế 
 
 1. Xây dựng ontology ẩm thực Việt Nam trên ~10.000 món, gồm cây phân cấp nguyên liệu 4 tầng, hệ phân loại món ăn theo 2 trục (loại món × cách nấu), và 7 quan hệ có tên.
 
-2. Tích hợp ontology vào hệ thống truy xuất dày đặc tại 3 điểm: mở rộng truy vấn, suy luận thay thế có ràng buộc, và tính điểm tương tự theo phân cấp.
+2. Tích hợp ontology vào hệ thống truy xuất dày đặc tại 2 điểm: mở rộng truy vấn và tính điểm tương tự theo phân cấp.
 
-3. Ba nhiệm vụ đánh giá tách biệt đóng góp của ontology: truy xuất theo nhóm (200 truy vấn), thay thế có ràng buộc (100 trường hợp với đánh giá bởi LLM), và gợi ý món liên quan (2.148 món, 1.600 cặp có nhãn LLM judge), có báo cáo độ đồng thuận giữa người chấm.
+3. Hai nhiệm vụ đánh giá tách biệt đóng góp của ontology: truy xuất theo nhóm (200 truy vấn) và gợi ý món liên quan (2.148 món, ~4.000 cặp có nhãn LLM judge), có báo cáo độ đồng thuận giữa người chấm.
 
 4. So sánh 4 hệ thống với kiểm định thống kê ghép cặp, cung cấp bằng chứng trực tiếp cho đóng góp độc lập của phân cấp, quan hệ có kiểu, và quy tắc suy luận.
 
@@ -76,18 +72,13 @@ Các nghiên cứu gần đây coi tìm kiếm thực phẩm là bài toán truy
 
 Trong khi đó, các hệ thống truy xuất dày đặc đã trở thành mô hình chủ đạo cho các tác vụ cần nhiều kiến thức, nhưng phân tích các lỗi của truy xuất dày đặc cho thấy nó gặp khó khăn với truy vấn theo nhóm và truy vấn kết hợp cần suy luận có cấu trúc. Không nghiên cứu nào đặt ontology làm trung tâm của hệ thống truy xuất như cơ chế làm giàu trước khi embedding cho truy vấn thực phẩm.
 
-### 2.3. Thay thế nguyên liệu và độ tương tự món ăn
+### 2.3. Độ tương tự món ăn
 
-Thay thế nguyên liệu đã được nghiên cứu qua cả đồ thị tri thức và học máy:
-- Shirai và cộng sự xác định thay thế bằng đồ thị tri thức thực phẩm
-- Fatemi và cộng sự học mẫu thay thế từ tập công thức
-- **FlavorGraph** xây dựng đồ thị thực phẩm-hóa học quy mô lớn nắm bắt sự tương hợp hương vị
-
-Tuy nhiên, các phương pháp thay thế hiện có thiếu lọc theo ràng buộc qua phân cấp nhóm, và độ tương tự món ăn thường tính bằng Jaccard phẳng trên túi nguyên liệu mà không phân biệt khác biệt cùng nhóm với khác nhóm.
+Độ tương tự món ăn thường tính bằng Jaccard phẳng trên túi nguyên liệu mà không phân biệt khác biệt cùng nhóm với khác nhóm. **FlavorGraph** xây dựng đồ thị thực phẩm-hóa học quy mô lớn nắm bắt sự tương hợp hương vị, nhưng vẫn chưa tích hợp phân cấp nhóm vào hàm tính tương tự.
 
 ### 2.4. Vị trí của nghiên cứu này
 
-Nghiên cứu của chúng tôi kết nối 3 hướng trên bằng cách: (1) xây dựng ontology đặc thù cho Việt Nam từ tập 10K món, (2) tích hợp vào hệ thống truy xuất dày đặc như cơ chế làm giàu trước embedding cho 3 tác vụ truy xuất thực phẩm, và (3) cung cấp thí nghiệm loại bỏ rõ ràng tách biệt đóng góp của phân cấp, quan hệ có kiểu, và quy tắc suy luận.
+Nghiên cứu của chúng tôi kết nối các hướng trên bằng cách: (1) xây dựng ontology đặc thù cho Việt Nam từ tập 10K món, (2) tích hợp vào hệ thống truy xuất dày đặc như cơ chế làm giàu trước embedding cho 2 tác vụ truy xuất thực phẩm, và (3) cung cấp thí nghiệm loại bỏ rõ ràng tách biệt đóng góp của phân cấp, quan hệ có kiểu, và quy tắc suy luận.
 
 ---
 
@@ -160,7 +151,7 @@ Phương pháp nấu được ánh xạ từ trường danh mục món bằng b�
 
 ### 3.4. Tích hợp Ontology vào hệ thống truy xuất dày đặc
 
-Ontology được đưa vào hệ thống truy xuất dày đặc tại 3 điểm, mỗi điểm nhắm vào 1 trong 3 lỗi đã nêu ở phần Giới thiệu:
+Ontology được đưa vào hệ thống truy xuất dày đặc tại 2 điểm, mỗi điểm nhắm vào 1 trong 2 lỗi đã nêu ở phần Giới thiệu:
 
 **Điểm 1: Mở rộng truy vấn (cho Nhiệm vụ 1)**
 
@@ -171,19 +162,7 @@ Với truy vấn theo nhóm như "món protein thực vật":
 
 Với truy vấn phủ định (ví dụ: "món không hải sản"): mở rộng nhóm dương và loại trừ các món khớp tại thời điểm truy xuất.
 
-**Điểm 2: Suy luận thay thế có ràng buộc (cho Nhiệm vụ 2)**
-
-Cho một món ăn, một nguyên liệu cần thay, và một ràng buộc chế độ ăn (ví dụ: ăn chay):
-1. Tra cứu quan hệ "thay thế được" lọc theo ngữ cảnh món
-2. Mở rộng ứng viên sang các thành viên cùng nhóm và nhóm anh em
-3. Lọc ứng viên qua phân cấp nhóm (ví dụ: ăn chay → loại bỏ hậu duệ của Protein Động Vật)
-4. Xếp hạng các ứng viên còn lại theo độ tương hợp NPMI với các nguyên liệu còn lại của món:
-
-> Điểm(c) = NPMI trung bình(c, các nguyên liệu khác) + 0.3 × [là thay thế ontology] + 0.2 × [cùng nhóm lá]
-
-Trong đó 0.3 là điểm thưởng cho ứng viên đã được ontology xác nhận là thay thế được, và 0.2 là điểm thưởng cho ứng viên cùng nhóm lá.
-
-**Điểm 3: Tính độ tương tự món ăn theo phân cấp (cho Nhiệm vụ 3)**
+**Điểm 2: Tính độ tương tự món ăn theo phân cấp (cho Nhiệm vụ 2)**
 
 Độ tương tự món ăn kết hợp 4 thành phần:
 
@@ -201,7 +180,7 @@ Trọng số (α, β, γ, δ) được xác định bằng 5-fold cross-validati
 
 ## 4. ĐỊNH NGHĨA CÁC NHIỆM VỤ ĐÁNH GIÁ (Task Definitions)
 
-Chúng tôi định nghĩa 3 nhiệm vụ đánh giá, mỗi nhiệm vụ được thiết kế để tách biệt một đóng góp cụ thể của ontology. Tất cả dùng chung tập 10.741 món ăn Việt Nam và cùng ontology.
+Chúng tôi định nghĩa 2 nhiệm vụ đánh giá, mỗi nhiệm vụ được thiết kế để tách biệt một đóng góp cụ thể của ontology. Tất cả dùng chung tập 10.741 món ăn Việt Nam và cùng ontology.
 
 ### Nhiệm vụ 1: Truy xuất món ăn theo nhóm nguyên liệu
 
@@ -214,27 +193,16 @@ Chúng tôi định nghĩa 3 nhiệm vụ đánh giá, mỗi nhiệm vụ đư�
 
 **Chỉ số đánh giá:** P@20, NDCG@20, MRR@20.
 
-### Nhiệm vụ 2: Thay thế nguyên liệu có ràng buộc
-
-**Tại sao cần?** Thay thế nguyên liệu dưới ràng buộc chế độ ăn (ăn chay, không hải sản) cần quan hệ có kiểu và lọc theo nhóm mà embedding phẳng không cung cấp được.
-
-**Đầu vào:** Bộ ba (món ăn, nguyên liệu cần thay, ràng buộc).
-**Đầu ra:** Danh sách top-5 nguyên liệu thay thế.
-
-**Đáp án đúng:** 100 trường hợp, chấm bởi 1 LLM judge (Qwen-2.5 7B, temperature 0) trên thang 0/1/2. Chi tiết xem Mục 5.3.
-
-**Chỉ số đánh giá:** Điểm trung bình LLM judge, tỷ lệ chấp nhận (điểm ≥ 1), tỷ lệ tốt (điểm = 2).
-
-### Nhiệm vụ 3: Gợi ý món ăn liên quan
+### Nhiệm vụ 2: Gợi ý món ăn liên quan
 
 **Tại sao cần?** Jaccard phẳng trên túi nguyên liệu coi mọi khác biệt nguyên liệu là như nhau, không phân biệt thay thế cùng nhóm (bò → gà, cùng Protein Động Vật) với khác nhóm (bò → đậu hũ).
 
 **Đầu vào:** Mã món ăn.
 **Đầu ra:** Danh sách món liên quan xếp hạng.
 
-**Đáp án đúng:** Toàn bộ 2.148 món trong tập kiểm tra làm anchor → 21.480 cặp. Tập con 1.600 cặp được 3 LLM judges chấm. Chi tiết xem Mục 5.3.
+**Đáp án đúng:** Toàn bộ 2.148 món trong tập kiểm tra làm anchor. Tập con 200 anchors × 20 candidates ≈ 4.000 cặp được 3 LLM judges chấm. Chi tiết xem Mục 5.3.
 
-**Chỉ số đánh giá:** P@5, NDCG@5, MAE, Spearman ρ (chỉ số chính).
+**Chỉ số đánh giá:** P@5, NDCG@5, MRR@5.
 
 ---
 
@@ -255,17 +223,14 @@ Chúng tôi định nghĩa 3 nhiệm vụ đánh giá, mỗi nhiệm vụ đư�
 3. **Dense (Truy xuất dày đặc)**: Truy xuất dày đặc không có ontology
 4. **Dense+Ontology**: Truy xuất dày đặc với mở rộng truy vấn ontology, lọc ràng buộc, và tương tự theo phân cấp
 
-**Nhiệm vụ 2** so sánh 3 chiến lược thay thế:
-1. **random_class**: Chọn ngẫu nhiên từ cùng nhóm lá
-2. **npmi_only**: Xếp hạng NPMI không dùng ontology
-3. **full_ontology**: Thay thế ontology + lọc phân cấp + xếp hạng NPMI
-
-**Nhiệm vụ 3** so sánh 8 cấu hình qua ablation study (5-fold CV):
+**Nhiệm vụ 2** so sánh 8 cấu hình qua ablation study (5-fold CV):
 - A: Chỉ Jaccard
 - B: Jaccard + ClassOverlap
 - C: Jaccard + ClassOverlap + MethodMatch
 - D: Đầy đủ (cả 4 thành phần)
 - E–H: Bỏ từng thành phần
+
+Ngoài ra, so sánh 3 hệ thống đầy đủ (BM25, Dense, Dense+Ontology) dùng trọng số tối ưu từ ablation.
 
 ### 5.3. Quy trình đánh giá
 
@@ -273,22 +238,17 @@ Chúng tôi định nghĩa 3 nhiệm vụ đánh giá, mỗi nhiệm vụ đư�
 
 Nhiệm vụ 1: Truy vấn được sinh tự động từ 10 mẫu tiếng Việt (ví dụ: "các món {nguyên liệu}", "{a} nấu với {b}") với các ô nhóm và cách nấu được điền bằng lấy mẫu ngẫu nhiên trên 24 nhóm lá nguyên liệu và 10 cách nấu (seed 42). Tạo ra 200 truy vấn (50 mỗi loại) với nhãn đáp án đúng xác định tự động: một món là đúng khi và chỉ khi chứa ≥ 1 nguyên liệu từ mỗi nhóm dương, 0 nguyên liệu từ nhóm âm, và khớp cách nấu. Nhãn không cần gán thủ công; kiểm tra 20 truy vấn ngẫu nhiên → 100% chính xác.
 
-Nhiệm vụ 2: Chọn 50 món có ≥ 3 nguyên liệu (phân tầng theo danh mục), chọn 1-2 nguyên liệu chính mỗi món, gán ràng buộc ngẫu nhiên → 100 trường hợp.
-
-Nhiệm vụ 3: 200 món anchor được chọn phân tầng theo 25 danh mục. Mỗi anchor có 20 ứng viên từ 4 nguồn đa dạng: (1) top-5 Jaccard (dễ cho hệ thống Jaccard), (2) 5 từ khoảng giữa Jaccard (rank 10-20), (3) 5 cùng danh mục nhưng Jaccard < 0.2 (khó cho Jaccard, test ontology), (4) 5 ngẫu nhiên (negative). Tổng ~4.000 cặp. Cả 3 LLM judges chấm tất cả cặp; điểm trung bình là đáp án đúng. Ngưỡng dương: mean ≥ 1.0.
+Nhiệm vụ 2: 200 món anchor được chọn phân tầng theo 25 danh mục. Mỗi anchor có 20 ứng viên từ 4 nguồn đa dạng: (1) top-5 Jaccard (dễ cho hệ thống Jaccard), (2) 5 từ khoảng giữa Jaccard (rank 10-20), (3) 5 cùng danh mục nhưng Jaccard < 0.2 (khó cho Jaccard, test ontology), (4) 5 ngẫu nhiên (negative). Tổng ~4.000 cặp. Cả 3 LLM judges chấm tất cả cặp; điểm trung bình là đáp án đúng. Ngưỡng dương: mean ≥ 1.0.
 
 **Gán nhãn và quy trình chấm:**
 
-Nhiệm vụ 2 dùng 1 LLM judge (Qwen-2.5 7B, temperature 0) với prompt:
-> "Bạn là chuyên gia ẩm thực Việt Nam. Đánh giá xem nguyên liệu thay thế có phù hợp không. Món ăn: {món}. Nguyên liệu gốc: {gốc}. Nguyên liệu thay thế: {thay thế}. Ràng buộc: {ràng buộc}. Chấm điểm: 2 = Thay thế tốt, 1 = Chấp nhận được, 0 = Không phù hợp. Chỉ trả về 1 số."
-
-Nhiệm vụ 3 dùng 3 LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) chấm trên thang 0/1/2 với prompt:
+Nhiệm vụ 2 dùng 3 LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) chấm trên thang 0/1/2 với prompt:
 > "Rate how related these two Vietnamese dishes are for a 'similar dishes' recommendation. Score: 2 = very related, 1 = somewhat related, 0 = unrelated. Reply with ONLY one number. Dish 1: {a}. Dish 2: {b}. Score:"
 
 Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70-76% (Llama-Gemma: 75.6%, Llama-Mistral: 69.9%, Gemma-Mistral: 74.1%). Điểm trung bình nhất quán: Llama 0.79, Gemma 0.79, Mistral 0.97.
 
 **Tách tập và cross-validation:**
-Trọng số tương tự Nhiệm vụ 3 (α, β, γ, δ) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 và 2 không có siêu tham số cần điều chỉnh ngoài trọng số cố định (λ₁ = 0.3, λ₂ = 0.2).
+Trọng số tương tự Nhiệm vụ 2 (α, β, γ, δ) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 không có siêu tham số cần điều chỉnh.
 
 **Chỉ mục truy xuất dày đặc:**
 Mỗi món được lập chỉ mục như 1 tài liệu: tên_món (lặp 3 lần để tăng trọng số khớp tên) + danh_mục + tất_cả_tên_nguyên_liệu (tiếng Việt). Mô hình embedding (multilingual-e5-large, 1024 chiều) mã hóa tài liệu với tiền tố "passage:" và truy vấn với tiền tố "query:".
@@ -309,17 +269,7 @@ Nhiệm vụ 1: Kiểm định Wilcoxon signed-rank ghép cặp trên P@20 mỗi
 
 Dense+Ontology đạt P@20 = 0.446 và NDCG@20 = 0.472, vượt Dense +32% và +37%, vượt BM25 +94% và +103%. Cải thiện từ phân cấp ontology (+32% so với Dense) lớn hơn cải thiện từ mở rộng từ đồng nghĩa phẳng (+28% BM25+Mở rộng so với BM25), xác nhận mở rộng theo cấu trúc nhóm hiệu quả hơn tra cứu phẳng.
 
-**Nhiệm vụ 2: Thay thế có ràng buộc** (100 trường hợp, LLM judge)
-
-| Chiến lược | Điểm TB | Tỷ lệ chấp nhận | Tỷ lệ tốt |
-|---|---|---|---|
-| random_class | 0.73 | 44% | 29% |
-| npmi_only | 0.62 | 36% | 26% |
-| **full_ontology** | **0.79** | **45%** | **34%** |
-
-Full ontology đạt điểm trung bình 0.79 và tỷ lệ tốt 34%, vượt random_class (0.73, 29%) và npmi_only (0.62, 26%). Ontology đóng góp qua quan hệ "thay thế được" có kiểu và lọc ràng buộc theo phân cấp. Tuy nhiên, tỷ lệ thất bại 55% (điểm 0, judge đánh giá không phù hợp) cho thấy chất lượng thay thế phụ thuộc vào các yếu tố ngoài cấu trúc nhóm, như kết cấu và sự chấp nhận văn hóa.
-
-**Nhiệm vụ 3: Gợi ý món liên quan** (200 anchors, ~4.000 cặp đa dạng, 5-fold CV)
+**Nhiệm vụ 2: Gợi ý món liên quan** (200 anchors, ~4.000 cặp đa dạng, 5-fold CV)
 
 Để tránh circularity (ứng viên chọn bằng Jaccard → Jaccard tự nhiên rank tốt), chúng tôi xây tập ứng viên đa dạng từ 4 nguồn. Bảng ablation so sánh 8 cấu hình:
 
@@ -354,24 +304,21 @@ Dense+Ontology vượt Dense +1.6% P@5, +2.2% NDCG@5, +2.8% MRR@5. Vượt BM25 
 
 ### 5.5. Thảo luận
 
-Trên cả 3 nhiệm vụ, truy xuất tăng cường ontology vượt trội các baseline.
+Trên cả 2 nhiệm vụ, truy xuất tăng cường ontology vượt trội các baseline.
 
 Nhiệm vụ 1: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense. Mở rộng phân cấp (+32%) đóng góp nhiều hơn mở rộng từ đồng nghĩa phẳng (+28%).
 
-Nhiệm vụ 2: Cải thiện +8.2% điểm trung bình so với random_class. npmi_only kém hơn random_class — chỉ dùng đồng xuất hiện thống kê có thể gây sai lệch, trong khi thay thế được ontology xác nhận (dựa trên biến đổi tên món) đáng tin cậy hơn.
-
-Nhiệm vụ 3: Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%. Config "Không Jaccard" (E) vẫn đạt P@5=0.815, chứng minh ontology signals đủ mạnh ngay cả không cần ingredient overlap trực tiếp.
+Nhiệm vụ 2: Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%. Config "Không Jaccard" (E) vẫn đạt P@5=0.815, chứng minh ontology signals đủ mạnh ngay cả không cần ingredient overlap trực tiếp.
 
 ---
 
 ## 6. KẾT LUẬN (Conclusion)
 
-Bài báo này trình bày một framework truy xuất tăng cường bằng ontology cho truy xuất thông tin ẩm thực Việt Nam. Chúng tôi đã xây dựng cây phân cấp nguyên liệu 4 tầng bao phủ 2.112 nguyên liệu trong 49 nhóm, hệ phân loại món ăn theo 2 trục, và 7 quan hệ có tên được tạo từ tập 10.741 món. Ontology được tích hợp vào hệ thống truy xuất dày đặc tại 3 điểm: mở rộng truy vấn, suy luận thay thế có ràng buộc, và tính tương tự món ăn theo phân cấp.
+Bài báo này trình bày một framework truy xuất tăng cường bằng ontology cho truy xuất thông tin ẩm thực Việt Nam. Chúng tôi đã xây dựng cây phân cấp nguyên liệu 4 tầng bao phủ 2.112 nguyên liệu trong 49 nhóm, hệ phân loại món ăn theo 2 trục, và 7 quan hệ có tên được tạo từ tập 10.741 món. Ontology được tích hợp vào hệ thống truy xuất dày đặc tại 2 điểm: mở rộng truy vấn và tính tương tự món ăn theo phân cấp.
 
-Đánh giá trên 3 nhiệm vụ cho thấy cấu trúc ontology mang lại cải thiện nhất quán so với cả baseline từ khóa lẫn truy xuất dày đặc:
+Đánh giá trên 2 nhiệm vụ cho thấy cấu trúc ontology mang lại cải thiện nhất quán so với cả baseline từ khóa lẫn truy xuất dày đặc:
 - Truy xuất theo nhóm: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense
 - Gợi ý món liên quan: Ablation study với tập ứng viên đa dạng và 5-fold CV cho thấy mỗi thành phần ontology đóng góp rõ rệt (+7.4% P@5 từ ClassOverlap, +2.9% từ MethodMatch), trọng số tối ưu gán 60% cho các thành phần ontology
-- Thay thế nguyên liệu: Cải thiện +8.2% so với random_class
 
 Kết quả chứng minh rằng kiến thức ngữ nghĩa có cấu trúc, được mã hóa dưới dạng ontology với quan hệ có kiểu và phân cấp nhóm, bổ sung cho truy xuất nơ-ron trong lĩnh vực mà sự liên quan phụ thuộc vào suy luận theo thành phần và theo nhóm chứ không chỉ trùng từ ngữ.
 
