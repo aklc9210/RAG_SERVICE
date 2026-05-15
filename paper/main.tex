@@ -1,0 +1,82 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{algorithm}
+\usepackage{hyperref}
+\usepackage{bm} 
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnam]{babel}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Ontology-Augmented for Vietnamese Food Information Retrieval}
+
+\author{
+\IEEEauthorblockN{Thao Nguyen Thi Phuong}
+\IEEEauthorblockA{\textit{Posts and Telecommunications}\\
+\textit{Institute of Technology}\\
+HoChiMinh, Vietnam\\
+n21dccn078@student.ptithcm.edu.vn}
+\and
+\IEEEauthorblockN{Thu Nguyen Thi Minh}
+\IEEEauthorblockA{\textit{Posts and Telecommunications}\\
+\textit{Institute of Technology}\\
+HoChiMinh, Vietnam\\
+n21dccn082@student.ptithcm.edu.vn}
+\and
+\IEEEauthorblockN{Hai Nguyen Thi Tuyet}
+\IEEEauthorblockA{\textit{Posts and Telecommunications}\\
+\textit{Institute of Technology}\\
+HoChiMinh, Vietnam\\
+Tuyethai@ptithcm.edu.vn}
+}
+
+\maketitle
+
+\begin{abstract}
+Dense retrieval pipelines rely on learned embeddings for semantic matching, yet in the food domain, relevance often depends on structured culinary knowledge that embeddings alone cannot capture. Class-level queries and hierarchy-aware dish similarity both require reasoning over ingredient categories and typed relations. This paper proposes an ontology-enhanced retrieval framework for Vietnamese food information retrieval. We construct a four-level ingredient hierarchy (2{,}112 ingredients, 49 classes), a two-axis dish taxonomy, and six named relations over a corpus of 10{,}741 Vietnamese dishes. The ontology is integrated into a dense-retrieval pipeline at two injection points: query expansion via class descendants, and dish similarity via a five-component scoring function combining Jaccard overlap, class overlap, cooking-method match, semantic similarity, and flavor complementarity. Evaluation on two tasks shows consistent gains: class-based retrieval improves by +37\% NDCG@20 and +39\% MRR@20 over dense retrieval alone, and a component ablation on related-dish recommendation with diverse candidates isolates the independent contribution of each ontology signal. The results demonstrate that structured ontological knowledge complements neural retrieval when relevance depends on compositional and categorical reasoning.
+\end{abstract}
+
+\begin{IEEEkeywords}
+information retrieval, ontology-enhanced retrieval, food domain, dish retrieval, ingredient retrieval
+\end{IEEEkeywords}
+
+\section{Introduction}
+\input{sections/01_introduction}
+
+\section{Related Work}
+\input{sections/02_related_work}
+
+\section{Ontology-Enhanced Retrieval Framework}
+\input{sections/03_framework}
+
+\section{Task Definitions}
+\input{sections/02,1_task_definitions}
+
+\section{Experimental Results}
+\input{sections/04_experiments}
+
+\section{Limitations and Future Work}
+\input{sections/05_limitations}
+
+\section{Conclusion}
+\input{sections/06_conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

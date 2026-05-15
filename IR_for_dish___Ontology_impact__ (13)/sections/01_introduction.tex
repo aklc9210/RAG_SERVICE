@@ -1,0 +1,21 @@
+\label{sec:introduction}
+
+Information retrieval in the food domain poses challenges beyond standard lexical matching, because relevance often depends on ingredient composition, preparation context, and multiple interacting user preferences rather than term overlap alone \cite{robertson2009probabilistic, karpukhin2020dense, zhang2023recipempr, hu2024bridging}. This difficulty is further amplified in Vietnamese cuisine, where regional naming variation, informal transliteration, and bilingual dish references create additional mismatch between user queries and indexed recipes.
+
+Dense retrieval pipelines improve semantic matching over lexical methods by encoding queries and documents in a shared embedding space \cite{karpukhin2020dense, thakur2021beir}, yet dense retrieval alone exhibits two recurrent failure modes in the food domain. First, \emph{class-level queries} such as \textit{``mon protein thuc vat''} (plant-protein dishes) cannot be resolved without a hierarchical mechanism to expand the query into descendant ingredients. Second, \emph{related-dish recommendation} via ingredient overlap cannot distinguish within-class substitutions from cross-class ones, because flat Jaccard treats both equivalently \cite{park2021flavorgraph}.
+
+
+An ontology addresses these limitations by encoding \emph{subclass-of} relations, named relations (\emph{substitutes}, \emph{flavorComplements}, \emph{cookedBy}), and inference rules that enable class-level query resolution through ancestor--descendant traversal \cite{gruber1993translation, dooley2018foodon}. Prior work confirms that explicit concept-level structure improves retrieval precision in specialized domains \cite{vallet2005ontology, fernandez2011semantic, castells2007adaptation}, and recent studies further show that retrieval can benefit from explicit graph-structured reasoning when queries require compositional or multi-hop semantic connections \cite{he2024g, hipporag2024, kg2rag2025}.
+
+
+This paper proposes an ontology-enhanced retrieval framework for Vietnamese food IR. Our contributions are fourfold:
+\begin{itemize}
+  \item A Vietnamese food ontology over ${\sim}$10{,}000 dishes, comprising a four-level ingredient hierarchy, a two-axis dish taxonomy (\emph{byType} $\times$ \emph{byMethod}), and six named relations (Section~\ref{sec:framework}).
+    \item Integration of the ontology into a dense-retrieval pipeline at two injection points: query expansion and hierarchy-aware similarity scoring.
+
+    \item Two evaluation tasks isolating ontology contribution: class-based retrieval (200 queries) and related-dish recommendation (200 anchors with diverse candidates and component ablation), with inter-annotator agreement reported (Section~\ref{sec:tasks}).
+
+  \item A four-system comparison with paired significance tests, providing direct evidence for the independent contribution of hierarchy, typed relations, and inference rules.
+\end{itemize}
+
+Section~\ref{sec:related_work} reviews related work. Section~\ref{sec:framework} presents the ontology-enhanced framework. Section~\ref{sec:tasks} defines the evaluation tasks. Section~\ref{sec:experiments} reports results and ablation. Section~\ref{sec:conclusion} concludes.

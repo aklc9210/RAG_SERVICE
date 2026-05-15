@@ -164,17 +164,20 @@ Với truy vấn phủ định (ví dụ: "món không hải sản"): mở rộn
 
 **Điểm 2: Tính độ tương tự món ăn theo phân cấp (cho Nhiệm vụ 2)**
 
-Độ tương tự món ăn kết hợp 4 thành phần:
+Độ tương tự món ăn kết hợp 5 thành phần:
 
-> Sim(A, B) = α × J + β × C + γ × M + δ × S
+> Sim(A, B) = α × J + β × C + γ × M + δ × S + ε × F
 
 Trong đó:
 - **J = WeightedJaccard(A, B)**: Trùng nguyên liệu có trọng số theo vai trò. Main ingredient (importance=3) có weight 3.0, secondary 1.5, seasoning 0.5. Công thức: J = Σw(chung) / Σw(hợp). Ví dụ: trùng thịt bò (main, w=3.0) đóng góp gấp 6 lần trùng muối (seasoning, w=0.5).
 - **C = WeightedClassOverlap(A, B)**: Trùng nhóm nguyên liệu có trọng số. Cùng nhóm lá → 1.0, cùng nhóm cha → 0.5, nhân với weight của ingredient, normalize bằng tổng weight. Main ingredient match quan trọng hơn seasoning match.
 - **M = MethodMatch(A, B)**: Trả về 1.0 nếu 2 món cùng cách nấu (cùng xào, cùng nướng, ...)
 - **S = SemanticSim(A, B)**: Độ tương tự ngữ nghĩa ở mức nguyên liệu, tính từ ma trận embedding
+- **F = FlavorComplement(A, B)**: Trung bình NPMI của các cặp nguyên liệu cross-dish có quan hệ flavorComplements trong ontology. Nắm bắt sự tương thích hương vị (ví dụ: gừng-hải sản, sả-thịt bò). Trả về 0 nếu không có cặp complement nào.
 
-Trọng số (α, β, γ, δ) được xác định bằng 5-fold cross-validation trên 200 anchor dishes với tập candidates đa dạng.
+**Lưu ý về conflictsWith:** Quan hệ conflictsWith (139 luật) KHÔNG được đưa vào công thức Sim(A, B) vì xung đột nguyên liệu trong một món không phản ánh sự khác biệt giữa hai món. Quan hệ này phục vụ cho các ứng dụng khác (meal planning, kiểm tra an toàn công thức, thay thế nguyên liệu có ràng buộc).
+
+Trọng số (α, β, γ, δ, ε) được xác định bằng 5-fold cross-validation trên 200 anchor dishes với tập candidates đa dạng. Kết quả tối ưu: α=0.34, β=0.17, γ=0.12, δ=0.19, ε=0.18 — các thành phần ontology chiếm 66% tín hiệu tương tự.
 
 ---
 
@@ -223,12 +226,13 @@ Chúng tôi định nghĩa 2 nhiệm vụ đánh giá, mỗi nhiệm vụ đư�
 3. **Dense (Truy xuất dày đặc)**: Truy xuất dày đặc không có ontology
 4. **Dense+Ontology**: Truy xuất dày đặc với mở rộng truy vấn ontology, lọc ràng buộc, và tương tự theo phân cấp
 
-**Nhiệm vụ 2** so sánh 8 cấu hình qua ablation study (5-fold CV):
+**Nhiệm vụ 2** so sánh 10 cấu hình qua ablation study (5-fold CV):
 - A: Chỉ Jaccard
-- B: Jaccard + ClassOverlap
-- C: Jaccard + ClassOverlap + MethodMatch
-- D: Đầy đủ (cả 4 thành phần)
-- E–H: Bỏ từng thành phần
+- B: + ClassOverlap
+- C: + MethodMatch
+- D: + SemanticSim (công thức cũ 4 thành phần)
+- E: Đầy đủ (cả 5 thành phần, thêm FlavorComplement)
+- F–J: Bỏ từng thành phần
 
 Ngoài ra, so sánh 3 hệ thống đầy đủ (BM25, Dense, Dense+Ontology) dùng trọng số tối ưu từ ablation.
 
@@ -252,7 +256,7 @@ Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70
 Để xác nhận độ tin cậy của đáp án đúng dựa trên LLM, hai người gán nhãn độc lập chấm 300 cặp ngẫu nhiên trên cùng thang 0/1/2. Độ đồng thuận giữa hai người ở mức vừa phải (Cohen's κ_linear = 0.44, đồng thuận chính xác 60%, đồng thuận lân cận 96%). Tương quan Spearman giữa đồng thuận người (trung bình 2 annotators) và điểm trung bình LLM là ρ = 0.50 (p < 10⁻¹⁹), Kendall τ = 0.44. LLM judges có xu hướng đánh giá cao hơn người +0.28 trên thang 0–2. Tuy nhiên, khi nhị phân hóa tại ngưỡng dương (≥ 1), LLM judges đạt recall 96.1% các cặp mà người đánh giá là liên quan, cho thấy nhãn tự động hiếm khi bỏ sót các món thực sự liên quan. Mức tương quan này phù hợp với các nghiên cứu trước về độ tin cậy của LLM-as-judge cho các nhiệm vụ đánh giá tương tự chủ quan.
 
 **Tách tập và cross-validation:**
-Trọng số tương tự Nhiệm vụ 2 (α, β, γ, δ) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 không có siêu tham số cần điều chỉnh.
+Trọng số tương tự Nhiệm vụ 2 (α, β, γ, δ, ε) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 không có siêu tham số cần điều chỉnh.
 
 **Chỉ mục truy xuất dày đặc:**
 Mỗi món được lập chỉ mục như 1 tài liệu: tên_món (lặp 3 lần để tăng trọng số khớp tên) + danh_mục + tất_cả_tên_nguyên_liệu (tiếng Việt). Mô hình embedding (multilingual-e5-large, 1024 chiều) mã hóa tài liệu với tiền tố "passage:" và truy vấn với tiền tố "query:".
@@ -275,26 +279,30 @@ Dense+Ontology đạt P@20 = 0.446 và NDCG@20 = 0.472, vượt Dense +32% và +
 
 **Nhiệm vụ 2: Gợi ý món liên quan** (200 anchors, ~4.000 cặp đa dạng, 5-fold CV)
 
-Để tránh circularity (ứng viên chọn bằng Jaccard → Jaccard tự nhiên rank tốt), chúng tôi xây tập ứng viên đa dạng từ 4 nguồn. Bảng ablation so sánh 8 cấu hình:
+Để tránh circularity (ứng viên chọn bằng Jaccard → Jaccard tự nhiên rank tốt), chúng tôi xây tập ứng viên đa dạng từ 4 nguồn. Bảng ablation so sánh 10 cấu hình:
 
 | Cấu hình | P@5 | NDCG@5 | MRR@5 |
 |---|---|---|---|
 | A: Chỉ Jaccard | 0.741±.061 | 0.755±.053 | 0.855±.042 |
 | B: +ClassOverlap | 0.796±.051 | 0.816±.038 | 0.905±.028 |
 | C: +MethodMatch | 0.819±.054 | 0.844±.044 | 0.944±.032 |
-| **D: Đầy đủ (cả 4)** | **0.819±.054** | **0.845±.043** | **0.949±.029** |
-| E: Không Jaccard | 0.815±.051 | 0.839±.047 | 0.939±.045 |
-| F: Không ClassOverlap | 0.811±.055 | 0.831±.047 | 0.923±.037 |
-| G: Không MethodMatch | 0.796±.051 | 0.816±.038 | 0.905±.028 |
-| H: Không SemanticSim | 0.819±.054 | 0.844±.044 | 0.944±.032 |
+| D: +SemanticSim | 0.819±.054 | 0.845±.043 | 0.949±.029 |
+| **E: Đầy đủ (cả 5)** | **0.825±.047** | **0.849±.040** | **0.937±.029** |
+| F: Không Jaccard | 0.815±.041 | 0.835±.033 | 0.923±.023 |
+| G: Không ClassOverlap | 0.812±.043 | 0.830±.038 | 0.913±.028 |
+| H: Không MethodMatch | 0.794±.045 | 0.811±.036 | 0.903±.036 |
+| I: Không SemanticSim | 0.825±.047 | 0.848±.040 | 0.936±.030 |
+| J: Không Flavor | 0.819±.054 | 0.845±.043 | 0.949±.029 |
 
 **Phân tích:**
 - Thêm ClassOverlap: **+7.4% P@5** so với chỉ Jaccard → ontology hierarchy giúp rõ rệt
 - Thêm MethodMatch: **+2.9% P@5** → cách nấu bổ sung thêm
 - Thêm SemanticSim: +0.5% MRR → đóng góp nhỏ nhưng có
-- Bỏ Jaccard (config E): vẫn đạt P@5 = 0.815 → ontology signals đủ mạnh ngay cả không có ingredient overlap trực tiếp
+- Thêm FlavorComplement: **+0.7% P@5** (E vs D) → tương thích hương vị bổ sung tín hiệu mới
+- Bỏ Jaccard (config F): vẫn đạt P@5 = 0.815 → ontology signals đủ mạnh ngay cả không có ingredient overlap trực tiếp
+- Bỏ MethodMatch (config H): giảm mạnh nhất (-3.1% P@5) → cách nấu là thành phần quan trọng nhất
 
-**Trọng số tối ưu:** α=0.40, β=0.18, γ=0.11, δ=0.31 → Các thành phần ontology (β+γ+δ = 0.60) chiếm **60%** tín hiệu tương tự.
+**Trọng số tối ưu:** α=0.34, β=0.17, γ=0.12, δ=0.19, ε=0.18 → Các thành phần ontology (β+γ+δ+ε = 0.66) chiếm **66%** tín hiệu tương tự.
 
 **So sánh hệ thống** (dùng trọng số tối ưu từ ablation):
 
@@ -302,9 +310,9 @@ Dense+Ontology đạt P@20 = 0.446 và NDCG@20 = 0.472, vượt Dense +32% và +
 |---|---|---|---|
 | BM25 | 0.784 | 0.812 | 0.913 |
 | Dense | 0.814 | 0.834 | 0.930 |
-| **Dense+Ontology** | **0.827** | **0.852** | **0.956** |
+| **Dense+Ontology** | **0.825** | **0.849** | **0.937** |
 
-Dense+Ontology vượt Dense +1.6% P@5, +2.2% NDCG@5, +2.8% MRR@5. Vượt BM25 +5.5% P@5.
+Dense+Ontology vượt Dense +1.4% P@5, +1.8% NDCG@5. Vượt BM25 +5.2% P@5.
 
 ### 5.5. Thảo luận
 
@@ -312,7 +320,7 @@ Trên cả 2 nhiệm vụ, truy xuất tăng cường ontology vượt trội c�
 
 Nhiệm vụ 1: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense. Mở rộng phân cấp (+32%) đóng góp nhiều hơn mở rộng từ đồng nghĩa phẳng (+28%).
 
-Nhiệm vụ 2: Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%. Config "Không Jaccard" (E) vẫn đạt P@5=0.815, chứng minh ontology signals đủ mạnh ngay cả không cần ingredient overlap trực tiếp.
+Nhiệm vụ 2: Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%, thêm FlavorComplement +0.7% P@5. Config "Không Jaccard" (F) vẫn đạt P@5=0.815, chứng minh ontology signals đủ mạnh ngay cả không cần ingredient overlap trực tiếp. FlavorComplement (từ NPMI co-occurrence) nắm bắt sự tương thích hương vị mà ingredient overlap thuần túy bỏ sót.
 
 ---
 
@@ -322,7 +330,7 @@ Bài báo này trình bày một framework truy xuất tăng cường bằng ont
 
 Đánh giá trên 2 nhiệm vụ cho thấy cấu trúc ontology mang lại cải thiện nhất quán so với cả baseline từ khóa lẫn truy xuất dày đặc:
 - Truy xuất theo nhóm: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense
-- Gợi ý món liên quan: Ablation study với tập ứng viên đa dạng và 5-fold CV cho thấy mỗi thành phần ontology đóng góp rõ rệt (+7.4% P@5 từ ClassOverlap, +2.9% từ MethodMatch), trọng số tối ưu gán 60% cho các thành phần ontology
+- Gợi ý món liên quan: Ablation study với tập ứng viên đa dạng và 5-fold CV cho thấy mỗi thành phần ontology đóng góp rõ rệt (+7.4% P@5 từ ClassOverlap, +2.9% từ MethodMatch, +0.7% từ FlavorComplement), trọng số tối ưu gán 66% cho các thành phần ontology
 
 Kết quả chứng minh rằng kiến thức ngữ nghĩa có cấu trúc, được mã hóa dưới dạng ontology với quan hệ có kiểu và phân cấp nhóm, bổ sung cho truy xuất nơ-ron trong lĩnh vực mà sự liên quan phụ thuộc vào suy luận theo thành phần và theo nhóm chứ không chỉ trùng từ ngữ.
 

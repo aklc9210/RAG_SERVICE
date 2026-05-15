@@ -394,3 +394,50 @@ class FoodOntology:
         if ma and mb and ma == mb:
             return 1.0
         return 0.0
+
+    def flavor_complement_score(self, ings_a: List[str], ings_b: List[str]) -> float:
+        """Fraction of cross-dish ingredient pairs that are flavor complements.
+
+        For each ingredient in A, check how many ingredients in B are listed
+        as flavorComplements (NPMI > threshold). Return the mean NPMI of all
+        complement pairs found, normalized to [0, 1]. Returns 0 if no
+        complement pairs exist.
+        """
+        if not ings_a or not ings_b:
+            return 0.0
+        set_b = set(ings_b)
+        total_npmi = 0.0
+        count = 0
+        for a in ings_a:
+            comps = self._comps.get(a, [])
+            for entry in comps:
+                if entry["id"] in set_b:
+                    total_npmi += entry["npmi"]
+                    count += 1
+        if count == 0:
+            return 0.0
+        # Normalize: mean NPMI (already in [0,1] since threshold was 0.3)
+        return total_npmi / count
+
+    def conflict_penalty(self, ings_a: List[str], ings_b: List[str]) -> float:
+        """Penalty score based on conflicting ingredient pairs between two dishes.
+
+        Returns a value in [0, 1] where 0 means many conflicts (bad) and
+        1 means no conflicts (good). This allows the score to be used
+        additively in the similarity formula (higher = more similar).
+
+        Severity weights: high=1.0, medium=0.7, low=0.3
+        """
+        if not ings_a or not ings_b:
+            return 1.0  # no conflict possible
+        set_b = set(ings_b)
+        severity_weights = {"high": 1.0, "medium": 0.7, "low": 0.3}
+        penalty = 0.0
+        for a in ings_a:
+            confs = self._confs.get(a, [])
+            for entry in confs:
+                if entry["id"] in set_b:
+                    penalty += severity_weights.get(entry.get("severity", "medium"), 0.7)
+        # Cap penalty at 1.0 and invert so 1 = no conflict, 0 = max conflict
+        penalty = min(penalty, 3.0) / 3.0  # normalize: 3 medium conflicts → full penalty
+        return 1.0 - penalty

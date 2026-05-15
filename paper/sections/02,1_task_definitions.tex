@@ -1,0 +1,28 @@
+\label{sec:tasks}
+
+We define two evaluation tasks, each designed to isolate a specific ontology contribution. All tasks share the same corpus of 10{,}741 Vietnamese dishes and the same ontology (Section~\ref{sec:framework}).
+
+% ──────────────────────────────────────────────────────────────
+\subsection{Task~1: Class-Based Dish Retrieval}
+\label{ssec:task1}
+
+\textbf{Motivation.} Users frequently issue class-level queries such as \textit{``m\'{o}n n\'\acircumflex{}m''} (mushroom dishes) or \textit{``m\'{o}n th\d{i}t kh\^{o}ng cay''} (meat dishes without spice). Dense retrieval cannot resolve these without hierarchical expansion, because the query does not lexically match individual ingredient names.
+
+\textbf{Input/Output.} Input is a natural-language query containing one or more class references and optional negation or cooking-method constraints. Output is a ranked list of dish IDs.
+
+\textbf{Ground truth.} 200 queries across four types (50 each): single-class, multi-class, negation, and cooking-method. Labels are generated automatically via the \texttt{FoodOntology} API. Construction details are given in Section~\ref{ssec:eval_protocol}.
+
+\textbf{Metrics.} P@20, NDCG@20, and MRR@20.\footnote{\label{fn:metrics}P@$k$: Precision at rank $k$; NDCG: Normalized Discounted Cumulative Gain; MRR: Mean Reciprocal Rank.}
+
+
+\subsection{Task~2: Related-Dish Recommendation}
+\label{ssec:task2}
+
+\textbf{Motivation.} Flat Jaccard over ingredient bags treats all ingredient differences equally, failing to distinguish within-class substitutions (beef $\to$ chicken, both AnimalProtein) from cross-class ones (beef $\to$ tofu).
+
+\textbf{Input/Output.} Input is a dish ID. Output is a ranked list of related dishes.
+
+\textbf{Ground truth.} For each of 200 anchor dishes, we construct a diverse candidate set from four sources: top-Jaccard, mid-range similarity, same-category with low Jaccard, and random negatives (${\sim}$20 candidates per anchor). Three LLM judges score each pair. Construction details are given in Section~\ref{ssec:eval_protocol}.
+
+\textbf{Metrics.} P@5, NDCG@5, and MRR@5
+

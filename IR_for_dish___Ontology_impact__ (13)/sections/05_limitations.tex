@@ -1,0 +1,10 @@
+\label{sec:limitations}
+
+\subsection{Limitations.}
+
+
+Several limitations should be noted. First, the ingredient hierarchy is constructed via LLM classification with manual validation of only the top 150 ingredients; tail-class accuracy and the fallback Other class (427 ingredients) remain unverified. Second, the Task 3 LLM judge panel achieves only fair agreement ($\kappa = 0.184$) \cite{zheng2023judge, chen2024judgebias, huang2025llmjudge}; the 100-pair human study (Section IV-C) yields moderate human agreement ($\kappa = 0.41$) 
+and $\rho = 0.68$ with the LLM panel, partially mitigating but not eliminating this concern. Third, the ontology is monolingual (Vietnamese) and untested in cross-lingual settings. Fourth, the dish taxonomy uses only two axes; additional axes (region, nutrition, occasion) could improve similarity modeling. Finally, the substitution weights ($\lambda_1$, $\lambda_2$) are fixed rather than learned.
+
+\subsection{Future Work.}
+Future work will focus on extending ontology validation beyond high-frequency ingredients, expanding the resource to cross-lingual settings, and enriching the dish taxonomy with additional semantic dimensions. It will also be important to replace the current fixed substitution weights with a tuned or learned formulation, and to strengthen the evaluation protocol through larger test collections, improved annotation quality, and significance testing across retrieval tasks.

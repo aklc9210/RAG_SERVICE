@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """Task 3: Ablation + Cross-validation weight tuning with ranking metrics.
 
-Compares configurations:
+Compares configurations (5 components):
   A: Jaccard only
-  B: Jaccard + ClassOverlap
-  C: Jaccard + ClassOverlap + MethodMatch
-  D: Jaccard + ClassOverlap + MethodMatch + SemanticSim (full)
-  E: No Jaccard (ClassOverlap + MethodMatch + SemanticSim)
-  F: No ClassOverlap
-  G: No MethodMatch
-  H: No SemanticSim
+  B: + ClassOverlap
+  C: + MethodMatch
+  D: + SemanticSim
+  E: Full (all 5: J + C + M + S + Flavor)
+  F: No Jaccard
+  G: No ClassOverlap
+  H: No MethodMatch
+  I: No SemanticSim
+  J: No Flavor
 
-For each config: 5-fold CV on 1,600 judge pairs, optimize weights via Nelder-Mead.
+For each config: 5-fold CV on judge pairs, optimize weights via Nelder-Mead.
 Metrics: P@5, NDCG@5, MRR@5 (positive threshold: judge mean >= 1.0)
 """
 import json
@@ -118,7 +120,10 @@ def compute_components(dish_a, dish_b):
                     sims.append(sem_matrices[a][b])
     semantic = sum(sims) / len(sims) if sims else 0.0
 
-    return np.array([jaccard, class_overlap, method_match, semantic])
+    # FlavorComplement: fraction of cross-dish pairs that are complements
+    flavor = ont.flavor_complement_score(ings_a, ings_b)
+
+    return np.array([jaccard, class_overlap, method_match, semantic, flavor])
 
 
 def _weighted_class_overlap(ings_a, ings_b, w_a, w_b):
@@ -212,30 +217,33 @@ def ranking_metrics(anchor_list, weights):
 
 # ── Configurations ───────────────────────────────────────────────
 
-# mask: which components are active [jaccard, class_overlap, method_match, semantic]
+# mask: which components are active [jaccard, class_overlap, method_match, semantic, flavor]
 CONFIGS = {
-    "A: Jaccard only":           [1, 0, 0, 0],
-    "B: Jaccard+Class":          [1, 1, 0, 0],
-    "C: Jaccard+Class+Method":   [1, 1, 1, 0],
-    "D: Full (all 4)":           [1, 1, 1, 1],
-    "E: No Jaccard":             [0, 1, 1, 1],
-    "F: No ClassOverlap":        [1, 0, 1, 1],
-    "G: No MethodMatch":         [1, 1, 0, 1],
-    "H: No SemanticSim":         [1, 1, 1, 0],
+    "A: Jaccard only":           [1, 0, 0, 0, 0],
+    "B: +ClassOverlap":          [1, 1, 0, 0, 0],
+    "C: +MethodMatch":           [1, 1, 1, 0, 0],
+    "D: +SemanticSim":           [1, 1, 1, 1, 0],
+    "E: Full (all 5)":           [1, 1, 1, 1, 1],
+    "F: No Jaccard":             [0, 1, 1, 1, 1],
+    "G: No ClassOverlap":        [1, 0, 1, 1, 1],
+    "H: No MethodMatch":         [1, 1, 0, 1, 1],
+    "I: No SemanticSim":         [1, 1, 1, 0, 1],
+    "J: No Flavor":              [1, 1, 1, 1, 0],
 }
 
 # ── 5-fold CV ────────────────────────────────────────────────────
 
 def optimize_weights(train_anchors, mask):
     """Optimize weights on train anchors, return normalized weights."""
+    n_components = 5
     active = [i for i, m in enumerate(mask) if m]
     if len(active) == 1:
-        w = np.zeros(4)
+        w = np.zeros(n_components)
         w[active[0]] = 1.0
         return w
 
     def neg_spearman(raw_w):
-        w = np.zeros(4)
+        w = np.zeros(n_components)
         for i, idx in enumerate(active):
             w[idx] = abs(raw_w[i])
         s = w.sum()
@@ -254,7 +262,7 @@ def optimize_weights(train_anchors, mask):
     x0 = np.ones(len(active)) / len(active)
     result = minimize(neg_spearman, x0, method="Nelder-Mead",
                       options={"maxiter": 5000, "xatol": 0.005})
-    w = np.zeros(4)
+    w = np.zeros(n_components)
     for i, idx in enumerate(active):
         w[idx] = abs(result.x[i])
     w /= w.sum()
@@ -296,7 +304,7 @@ for config_name, mask in CONFIGS.items():
     std_metrics = {k: float(np.std([m[k] for m in fold_metrics])) for k in fold_metrics[0]}
     mean_weights = np.mean(fold_weights, axis=0).tolist()
 
-    print(f"  Weights (mean): α={mean_weights[0]:.3f} β={mean_weights[1]:.3f} γ={mean_weights[2]:.3f} δ={mean_weights[3]:.3f}")
+    print(f"  Weights (mean): a={mean_weights[0]:.3f} b={mean_weights[1]:.3f} g={mean_weights[2]:.3f} d={mean_weights[3]:.3f} e={mean_weights[4]:.3f}")
     print(f"  P@5:    {mean_metrics['P@5']:.4f} ± {std_metrics['P@5']:.4f}")
     print(f"  NDCG@5: {mean_metrics['NDCG@5']:.4f} ± {std_metrics['NDCG@5']:.4f}")
     print(f"  MRR@5:  {mean_metrics['MRR@5']:.4f} ± {std_metrics['MRR@5']:.4f}")
@@ -304,7 +312,8 @@ for config_name, mask in CONFIGS.items():
     all_results[config_name] = {
         "mask": mask,
         "mean_weights": {"alpha": mean_weights[0], "beta": mean_weights[1],
-                         "gamma": mean_weights[2], "delta": mean_weights[3]},
+                         "gamma": mean_weights[2], "delta": mean_weights[3],
+                         "epsilon": mean_weights[4]},
         "metrics_mean": mean_metrics,
         "metrics_std": std_metrics,
         "fold_weights": fold_weights,
@@ -324,9 +333,10 @@ for name, res in all_results.items():
 # Best config
 best = max(all_results.items(), key=lambda x: x[1]["metrics_mean"]["NDCG@5"])
 best_w = np.array([best[1]['mean_weights']['alpha'], best[1]['mean_weights']['beta'],
-                   best[1]['mean_weights']['gamma'], best[1]['mean_weights']['delta']])
+                   best[1]['mean_weights']['gamma'], best[1]['mean_weights']['delta'],
+                   best[1]['mean_weights']['epsilon']])
 print(f"\nBEST: {best[0]}")
-print(f"  Recommended weights: α={best_w[0]:.4f}, β={best_w[1]:.4f}, γ={best_w[2]:.4f}, δ={best_w[3]:.4f}")
+print(f"  Recommended weights: a={best_w[0]:.4f}, b={best_w[1]:.4f}, g={best_w[2]:.4f}, d={best_w[3]:.4f}, e={best_w[4]:.4f}")
 
 # ── System comparison: BM25, Dense, Dense+Ontology ───────────────
 

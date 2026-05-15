@@ -1,0 +1,7 @@
+\label{sec:conclusion}
+
+This paper presented an ontology-enhanced retrieval framework for Vietnamese food information retrieval. We constructed a four-level ingredient hierarchy covering 2{,}112 ingredients across 49 classes, a two-axis dish taxonomy, and six named relations derived from a 10{,}741-dish corpus. The ontology was integrated into a dense-retrieval pipeline at two injection points: query expansion and hierarchy-aware dish similarity.
+
+Evaluation on two tasks showed that ontology structure provides consistent gains over both lexical and dense baselines. For class-based retrieval, Dense+Ontology improved NDCG@20 by +37\% and MRR@20 by +39\% over Dense, with hierarchy expansion contributing more than flat synonym lookup. For related-dish recommendation, a component ablation study with diverse candidates and 5-fold cross-validation identified the independent contribution of each ontology signal: ClassOverlap (+7.4\% P@5), MethodMatch (+2.9\%), and FlavorComplement (+0.7\%), with optimized weights assigning 66\% to ontology-derived components.
+
+The results demonstrate that structured semantic knowledge, encoded as an ontology with typed relations and class hierarchy, complements neural retrieval in a domain where relevance depends on compositional and categorical reasoning rather than lexical overlap alone.

@@ -135,17 +135,23 @@ class Task3Evaluator:
             "class_overlap": self._class_overlap(ings_a, ings_b),
             "cooking_method_match": self._cooking_method_match(dish_a_id, dish_b_id),
             "ingredient_semantic": self._ingredient_semantic(ings_a, ings_b),
+            "flavor_complement": self.ontology.flavor_complement_score(ings_a, ings_b),
+            "conflict_penalty": self.ontology.conflict_penalty(ings_a, ings_b),
         }
 
     def compute_similarity(
-        self, components: Dict[str, float], alpha: float, beta: float, gamma: float, delta: float = 0.0
+        self, components: Dict[str, float],
+        alpha: float, beta: float, gamma: float, delta: float = 0.0,
+        epsilon: float = 0.0, zeta: float = 0.0
     ) -> float:
-        """Weighted combination of 4 components."""
+        """Weighted combination of 6 components."""
         return (
             alpha * components["idf_jaccard"]
             + beta * components["class_overlap"]
             + gamma * components["cooking_method_match"]
             + delta * components["ingredient_semantic"]
+            + epsilon * components["flavor_complement"]
+            + zeta * components["conflict_penalty"]
         )
 
     def tune_weights(self, sample_size: int = 50) -> Tuple[float, float, float, float]:
