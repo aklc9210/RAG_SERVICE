@@ -236,7 +236,7 @@ Ngoài ra, so sánh 3 hệ thống đầy đủ (BM25, Dense, Dense+Ontology) d�
 
 **Cách tạo truy vấn và trường hợp thử:**
 
-Nhiệm vụ 1: Truy vấn được sinh tự động từ 10 mẫu tiếng Việt (ví dụ: "các món {nguyên liệu}", "{a} nấu với {b}") với các ô nhóm và cách nấu được điền bằng lấy mẫu ngẫu nhiên trên 24 nhóm lá nguyên liệu và 10 cách nấu (seed 42). Tạo ra 200 truy vấn (50 mỗi loại) với nhãn đáp án đúng xác định tự động: một món là đúng khi và chỉ khi chứa ≥ 1 nguyên liệu từ mỗi nhóm dương, 0 nguyên liệu từ nhóm âm, và khớp cách nấu. Nhãn không cần gán thủ công; kiểm tra 20 truy vấn ngẫu nhiên → 100% chính xác.
+Nhiệm vụ 1: Truy vấn được sinh tự động từ 10 mẫu tiếng Việt (ví dụ: "các món {nguyên liệu}", "{a} nấu với {b}") với các ô nhóm và cách nấu được điền bằng lấy mẫu ngẫu nhiên trên 24 nhóm lá nguyên liệu và 10 cách nấu (seed 42). Tạo ra 200 truy vấn (50 mỗi loại) với nhãn đáp án đúng xác định tự động: một món là đúng khi và chỉ khi chứa ≥ 1 nguyên liệu từ mỗi nhóm dương, 0 nguyên liệu từ nhóm âm, và khớp cách nấu. Nhãn không cần gán thủ công và hoàn toàn xác định dựa trên ontology. Để kiểm chứng chất lượng nhãn, hai người gán nhãn độc lập đánh giá 500 cặp (truy vấn, món) ngẫu nhiên. Độ đồng thuận giữa hai người gán nhãn đạt mức đáng kể (Cohen's κ = 0.62, đồng thuận chính xác 83.4%). Nhãn rule so với đồng thuận đa số của người đạt κ = 0.50 (F1 = 0.72, recall = 0.81). Bất đồng chủ yếu xảy ra ở truy vấn đa nhóm (κ = 0.31) khi người gán nhãn không chắc về phân loại nguyên liệu (ví dụ: "bột năng" thuộc nhóm Tinh bột?); truy vấn cách nấu (κ = 0.63) và phủ định (κ = 0.57) có đồng thuận cao.
 
 Nhiệm vụ 2: 200 món anchor được chọn phân tầng theo 25 danh mục. Mỗi anchor có 20 ứng viên từ 4 nguồn đa dạng: (1) top-5 Jaccard (dễ cho hệ thống Jaccard), (2) 5 từ khoảng giữa Jaccard (rank 10-20), (3) 5 cùng danh mục nhưng Jaccard < 0.2 (khó cho Jaccard, test ontology), (4) 5 ngẫu nhiên (negative). Tổng ~4.000 cặp. Cả 3 LLM judges chấm tất cả cặp; điểm trung bình là đáp án đúng. Ngưỡng dương: mean ≥ 1.0.
 
@@ -246,6 +246,10 @@ Nhiệm vụ 2 dùng 3 LLM judges (Llama-3.1 8B, Gemma-2 9B, Mistral 7B) chấm 
 > "Rate how related these two Vietnamese dishes are for a 'similar dishes' recommendation. Score: 2 = very related, 1 = somewhat related, 0 = unrelated. Reply with ONLY one number. Dish 1: {a}. Dish 2: {b}. Score:"
 
 Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70-76% (Llama-Gemma: 75.6%, Llama-Mistral: 69.9%, Gemma-Mistral: 74.1%). Điểm trung bình nhất quán: Llama 0.79, Gemma 0.79, Mistral 0.97.
+
+**Kiểm chứng LLM judges bằng người:**
+
+Để xác nhận độ tin cậy của đáp án đúng dựa trên LLM, hai người gán nhãn độc lập chấm 300 cặp ngẫu nhiên trên cùng thang 0/1/2. Độ đồng thuận giữa hai người ở mức vừa phải (Cohen's κ_linear = 0.44, đồng thuận chính xác 60%, đồng thuận lân cận 96%). Tương quan Spearman giữa đồng thuận người (trung bình 2 annotators) và điểm trung bình LLM là ρ = 0.50 (p < 10⁻¹⁹), Kendall τ = 0.44. LLM judges có xu hướng đánh giá cao hơn người +0.28 trên thang 0–2. Tuy nhiên, khi nhị phân hóa tại ngưỡng dương (≥ 1), LLM judges đạt recall 96.1% các cặp mà người đánh giá là liên quan, cho thấy nhãn tự động hiếm khi bỏ sót các món thực sự liên quan. Mức tương quan này phù hợp với các nghiên cứu trước về độ tin cậy của LLM-as-judge cho các nhiệm vụ đánh giá tương tự chủ quan.
 
 **Tách tập và cross-validation:**
 Trọng số tương tự Nhiệm vụ 2 (α, β, γ, δ) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 không có siêu tham số cần điều chỉnh.
