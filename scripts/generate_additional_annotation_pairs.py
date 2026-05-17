@@ -105,7 +105,17 @@ print(f"\nSelected {len(selected_anchors)} anchors")
 # If a bin doesn't have enough, fill from the next available bin
 
 def select_6_candidates(anchor_id):
-    """Select 6 diverse candidates for an anchor."""
+    """Select 6 diverse candidates for an anchor.
+    
+    Target distribution (matching original 300 pairs):
+      - 1 from high LLM score (>=1.5) — very related
+      - 4 from medium LLM score (0.5-1.5) — related/borderline (bulk)
+      - 1 from low LLM score (<0.5) — negative
+    
+    Original 300 had: 6% high, 91% mid+borderline, 2% low
+    We target: ~1 high, ~4 mid, ~1 low per anchor (17%/67%/17%)
+    This gives slightly more negatives than original but still focuses on related pairs.
+    """
     items = available_anchors[anchor_id]
     
     high = [it for it in items if it["mean_score"] >= 1.5]
@@ -117,16 +127,19 @@ def select_6_candidates(anchor_id):
     random.shuffle(low)
     
     selected = []
-    # Target: 2 high, 2 mid, 2 low
-    selected.extend(high[:2])
-    selected.extend(mid[:2])
-    selected.extend(low[:2])
+    # Target: 1 high, 4 mid, 1 low
+    selected.extend(high[:1])
+    selected.extend(mid[:4])
+    selected.extend(low[:1])
     
-    # If not enough in some bin, fill from others
+    # If not enough in some bin, fill from mid (largest pool, most relevant)
     if len(selected) < 6:
-        remaining = [it for it in items if it not in selected]
-        random.shuffle(remaining)
-        selected.extend(remaining[:6 - len(selected)])
+        used = set(it["candidate_id"] for it in selected)
+        remaining_mid = [it for it in mid if it["candidate_id"] not in used]
+        remaining_all = [it for it in items if it["candidate_id"] not in used]
+        filler = remaining_mid if remaining_mid else remaining_all
+        random.shuffle(filler)
+        selected.extend(filler[:6 - len(selected)])
     
     return selected[:6]
 
