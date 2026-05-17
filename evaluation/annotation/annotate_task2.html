@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Gán nhãn Task 2 — Món ăn liên quan</title>
+<title>Gán nhãn Task 2 — Món ăn liên quan (200 pairs bổ sung)</title>
 <style>
   :root {
     --bg: #0f172a;
@@ -278,8 +278,8 @@
 <!-- ══════════════════════════════════════════════════ -->
 <div id="landing">
   <div class="card">
-    <h1>🍜 Gán nhãn Task 2 — Món ăn liên quan</h1>
-    <p class="muted">Workflow tối ưu cho Task 2: <strong>xem 1 món gốc + chấm tất cả 6 ứng viên cùng lúc</strong> để so sánh nhanh hơn.</p>
+    <h1>🍜 Gán nhãn Task 2 — Món ăn liên quan (200 pairs bổ sung)</h1>
+    <p class="muted">Workflow tối ưu cho Task 2: <strong>xem 1 món gốc + chấm tất cả ứng viên cùng lúc</strong> để so sánh nhanh hơn.</p>
 
     <h2>1. Chọn annotator</h2>
     <div class="row">
@@ -293,7 +293,7 @@
     </div>
 
     <h2 style="margin-top:20px">2. Tải file CSV</h2>
-    <p class="muted">Chọn <code>task2_human_annotation.csv</code> (hoặc file bạn đang làm dở).</p>
+    <p class="muted">Chọn <code>task3_annotation_extra_200.csv</code> (200 cặp bổ sung mới).</p>
     <input type="file" id="file-input" accept=".csv" />
 
     <div id="resume-hint" class="hidden" style="background: rgba(59,130,246,0.1); border: 1px solid var(--primary); padding: 12px; border-radius: 8px; margin-top: 14px;">
@@ -317,7 +317,7 @@
   <div class="card">
     <div class="row between">
       <div>
-        <div class="muted" id="header-info" style="font-size: 0.85rem;">Task 2 · Annotator</div>
+        <div class="muted" id="header-info" style="font-size: 0.85rem;">Task 2 (Extra 200) · Annotator</div>
         <h1 id="anchor-progress-title" style="margin:4px 0 0 0;">Anchor #1 / 50</h1>
       </div>
       <div style="display:flex; gap:8px;">
@@ -414,12 +414,12 @@ const STATE = {
 // Landing / Setup
 // =============================================================================
 function getStorageKey() {
-  return `annot_task2_${STATE.annotator}`;
+  return `annot_task2_extra200_${STATE.annotator}`;
 }
 
 function updateSavedHint() {
   const annotator = document.getElementById('annotator-select').value;
-  const key = `annot_task2_${annotator}`;
+  const key = `annot_task2_extra200_${annotator}`;
   const saved = localStorage.getItem(key);
   const hint = document.getElementById('resume-hint');
   if (saved) {
@@ -545,7 +545,7 @@ async function handleFile(e) {
   document.getElementById('landing').classList.add('hidden');
   document.getElementById('annotation-view').classList.remove('hidden');
   document.getElementById('header-info').textContent =
-    `Task 2 · ${STATE.annotator.replace('_', ' ')}`;
+    `Task 2 (Extra 200) · ${STATE.annotator.replace('_', ' ')}`;
 
   render();
 }
@@ -750,7 +750,7 @@ function downloadCSV() {
   const a = document.createElement('a');
   const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 16);
   a.href = url;
-  a.download = `task2_${STATE.annotator}_${ts}.csv`;
+  a.download = `task3_extra200_${STATE.annotator}_${ts}.csv`;
   a.click();
   URL.revokeObjectURL(url);
   toast('💾 Đã tải xuống CSV');

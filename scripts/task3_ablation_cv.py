@@ -338,7 +338,7 @@ best_w = np.array([best[1]['mean_weights']['alpha'], best[1]['mean_weights']['be
 print(f"\nBEST: {best[0]}")
 print(f"  Recommended weights: a={best_w[0]:.4f}, b={best_w[1]:.4f}, g={best_w[2]:.4f}, d={best_w[3]:.4f}, e={best_w[4]:.4f}")
 
-# ── System comparison: BM25, Dense, Dense+Ontology ───────────────
+# ── System comparison: BM25, BM25+Expansion, Dense, Dense+Ontology ───
 
 print(f"\n{'='*70}")
 print("SYSTEM COMPARISON (using best weights from ablation)")
@@ -356,6 +356,43 @@ for i, anchor in enumerate(anchors):
     bm25_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
     if (i + 1) % 50 == 0:
         print(f"  BM25: {i+1}/{len(anchors)}")
+
+# BM25+Expansion (flat synonym expansion from ingredient KB)
+print("\nBuilding BM25+Expansion (synonym expansion)...")
+# Load ingredient KB for synonym lookup (same approach as Task 1)
+_ikb = json.loads((ROOT / "app" / "data" / "knowledge_base" /
+                   "ingredient_knowledge_base.json").read_text("utf-8"))
+# Build keyword → synonyms map (flat, no hierarchy)
+_keyword_to_names = {}
+for entry in _ikb:
+    name = entry.get("name_vi", "").lower().strip()
+    syns = [s.lower().strip() for s in (entry.get("synonyms") or [])]
+    if name:
+        _keyword_to_names[name] = syns + [name]
+        for s in syns:
+            _keyword_to_names.setdefault(s, []).append(name)
+
+# Build id → name_vi map for quick lookup
+_ing_id_to_name = {entry["id"]: entry.get("name_vi", "").lower().strip() for entry in _ikb}
+
+bm25_exp_rankings = {}
+for i, anchor in enumerate(anchors):
+    d = _dish_kb.get(anchor, {})
+    name = d.get("name_vi", "")
+    # Build expanded query: dish name + ingredient names + their synonyms
+    query_parts = [name]
+    for ing in d.get("ingredients", []):
+        ing_name = ing.get("name_vi", "").lower().strip()
+        if ing_name:
+            query_parts.append(ing_name)
+            # Add synonyms for this ingredient (max 3 per ingredient to avoid noise)
+            syns = _keyword_to_names.get(ing_name, [])
+            query_parts.extend(syns[:3])
+    expanded_query = " ".join(query_parts)
+    res = bm25.search(expanded_query, top_k=200)
+    bm25_exp_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
+    if (i + 1) % 50 == 0:
+        print(f"  BM25+Expansion: {i+1}/{len(anchors)}")
 
 # Dense (embedding)
 print("Building Dense (embedding)...")
@@ -432,12 +469,14 @@ def system_metrics(rankings):
     return {"P@5": float(np.mean(p5_list)), "NDCG@5": float(np.mean(ndcg5_list)), "MRR@5": float(np.mean(mrr5_list))}
 
 bm25_m = system_metrics(bm25_rankings)
+bm25_exp_m = system_metrics(bm25_exp_rankings)
 dense_m = system_metrics(dense_rankings)
 ont_m = system_metrics(ontology_rankings)
 
 print(f"\n{'System':<18} {'P@5':<8} {'NDCG@5':<8} {'MRR@5':<8}")
 print("-" * 42)
 print(f"{'BM25':<18} {bm25_m['P@5']:.4f}  {bm25_m['NDCG@5']:.4f}  {bm25_m['MRR@5']:.4f}")
+print(f"{'BM25+Expansion':<18} {bm25_exp_m['P@5']:.4f}  {bm25_exp_m['NDCG@5']:.4f}  {bm25_exp_m['MRR@5']:.4f}")
 print(f"{'Dense':<18} {dense_m['P@5']:.4f}  {dense_m['NDCG@5']:.4f}  {dense_m['MRR@5']:.4f}")
 print(f"{'Dense+Ontology':<18} {ont_m['P@5']:.4f}  {ont_m['NDCG@5']:.4f}  {ont_m['MRR@5']:.4f}")
 
@@ -451,7 +490,7 @@ output = {
     "configs": all_results,
     "best_config": best[0],
     "best_weights": best[1]["mean_weights"],
-    "system_comparison": {"BM25": bm25_m, "Dense": dense_m, "Dense+Ontology": ont_m},
+    "system_comparison": {"BM25": bm25_m, "BM25+Expansion": bm25_exp_m, "Dense": dense_m, "Dense+Ontology": ont_m},
 }
 OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False), "utf-8")
 print(f"\nSaved → {OUTPUT_PATH}")

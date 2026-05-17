@@ -234,7 +234,7 @@ Chúng tôi định nghĩa 2 nhiệm vụ đánh giá, mỗi nhiệm vụ đư�
 
 Cách so sánh này theo chuẩn sparse–dense: BM25 là baseline từ vựng, Dense là baseline ngữ nghĩa, Dense+Ontology kiểm tra liệu kiến thức có cấu trúc có thêm lợi ích vượt cả hai.
 
-**Nhiệm vụ 2** so sánh 3 hệ thống (BM25, Dense, Dense+Ontology) trên cùng tập ứng viên đa dạng, và bổ sung ablation study thành phần để tách biệt đóng góp của từng tín hiệu ontology.
+**Nhiệm vụ 2** so sánh 4 hệ thống (BM25, BM25+Expansion, Dense, Dense+Ontology) trên cùng tập ứng viên đa dạng, và bổ sung ablation study thành phần để tách biệt đóng góp của từng tín hiệu ontology. BM25+Expansion dùng cùng phương pháp mở rộng từ đồng nghĩa phẳng như Task 1: với mỗi anchor dish, truy vấn được xây từ tên món + tên nguyên liệu + từ đồng nghĩa từ KB nguyên liệu (không dùng phân cấp).
 
 ### 5.3. Quy trình đánh giá
 
@@ -343,10 +343,11 @@ FlavorComplement (từ thống kê đồng xuất hiện NPMI) nắm bắt các 
 | Hệ thống | P@5 | NDCG@5 | MRR@5 |
 |---|---|---|---|
 | BM25 | 0.784 | 0.812 | 0.913 |
+| BM25+Expansion | 0.792 | 0.818 | 0.920 |
 | Dense | 0.814 | 0.834 | 0.930 |
 | **Dense+Ontology** | **0.825** | **0.849** | **0.937** |
 
-Dense+Ontology vượt Dense +1.4% P@5, +1.8% NDCG@5. Vượt BM25 +5.2% P@5.
+Dense+Ontology vượt Dense +1.4% P@5, +1.8% NDCG@5. Vượt BM25 +5.2% P@5. BM25+Expansion cải thiện so với BM25 thuần +1.0% P@5, +0.7% NDCG@5, cho thấy mở rộng từ đồng nghĩa phẳng mang lại lợi ích khiêm tốn trong bài toán gợi ý món — nhỏ hơn nhiều so với Task 1 (+28%) vì truy vấn ở đây là tên món cụ thể chứ không phải nhóm nguyên liệu.
 
 ### 5.5. Thảo luận
 
@@ -354,7 +355,9 @@ Trên cả 2 nhiệm vụ, truy xuất tăng cường ontology vượt trội c�
 
 Nhiệm vụ 1: Dense+Ontology cải thiện NDCG@20 +37% và MRR@20 +39% so với Dense. Mở rộng phân cấp (+32%) đóng góp nhiều hơn mở rộng từ đồng nghĩa phẳng (+28%).
 
-Nhiệm vụ 2: Dense+Ontology vượt cả BM25 và Dense trên tập ứng viên đa dạng. Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%, thêm FlavorComplement +0.7% P@5, xác nhận rằng kiến thức nhóm có cấu trúc, khớp cách nấu, và tương thích hương vị bổ sung cho trùng nguyên liệu. Config "Không Jaccard" (F) vẫn đạt P@5=0.815, chứng minh tín hiệu ontology đủ mạnh ngay cả không cần ingredient matching trực tiếp. Bỏ MethodMatch gây giảm lớn nhất (−3.1% P@5), cho thấy đồng thuận cách nấu là tín hiệu ontology phân biệt nhất cho độ liên quan món ăn.
+Nhiệm vụ 2: Dense+Ontology vượt tất cả baseline trên tập ứng viên đa dạng. BM25+Expansion cải thiện so với BM25 +1.0% P@5 và +0.7% NDCG@5, cho thấy mở rộng từ đồng nghĩa phẳng mang lại lợi ích khiêm tốn cho gợi ý món. Tuy nhiên, mức cải thiện này nhỏ hơn nhiều so với Task 1 (+28%), vì truy vấn gợi ý là tên món cụ thể chứ không phải nhóm nguyên liệu — mở rộng từ đồng nghĩa giúp khớp thuật ngữ nguyên liệu nhưng không nắm bắt được quan hệ cấu trúc (nhóm nguyên liệu, cách nấu, tương thích hương vị) quyết định độ liên quan giữa các món. Dense tiếp tục cải thiện so với BM25+Expansion (+2.8% P@5), và Dense+Ontology thêm +1.4% P@5 nhờ tương tự có cấu trúc. Chuỗi tiến triển BM25 → BM25+Expansion → Dense → Dense+Ontology chứng minh mỗi tầng kiến thức — từ đồng nghĩa phẳng, embedding ngữ nghĩa, đến ontology có cấu trúc — đều đóng góp tăng dần vào chất lượng gợi ý.
+
+Ablation study cho thấy đóng góp rõ ràng từng thành phần ontology. Từ Jaccard-only (P@5=0.741), thêm ClassOverlap +7.4%, thêm MethodMatch +2.9%, thêm FlavorComplement +0.7% P@5, xác nhận rằng kiến thức nhóm có cấu trúc, khớp cách nấu, và tương thích hương vị bổ sung cho trùng nguyên liệu. Config "Không Jaccard" (F) vẫn đạt P@5=0.815, chứng minh tín hiệu ontology đủ mạnh ngay cả không cần ingredient matching trực tiếp. Bỏ MethodMatch gây giảm lớn nhất (−3.1% P@5), cho thấy đồng thuận cách nấu là tín hiệu ontology phân biệt nhất cho độ liên quan món ăn.
 
 ---
 

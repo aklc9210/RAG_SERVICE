@@ -10,7 +10,7 @@ Task~1 compares four systems: \textbf{BM25} (keyword matching
 baseline), \textbf{BM25+Expansion} (BM25 with flat synonym expansion from the ingredient KB, no hierarchy), \textbf{Dense} (dense retrieval without ontology), and \textbf{Dense+Ontology}
 (dense retrieval with ontology query expansion, constraint filtering, and hierarchy-aware similarity).
 
-Task~2 compares three systems (BM25, Dense, Dense+Ontology) on the same diverse candidate set, and additionally reports a component ablation study to isolate the contribution of each ontology signal.
+Task~2 compares four systems (BM25, BM25+Expansion, Dense, Dense+Ontology) on the same diverse candidate set, and additionally reports a component ablation study to isolate the contribution of each ontology signal. BM25+Expansion uses the same flat synonym expansion as in Task~1: for each anchor dish, the query is constructed from the dish name plus all ingredient names and their synonyms from the ingredient knowledge base (no hierarchy).
 
 This comparison follows a standard sparse--dense setup: BM25 provides the lexical baseline, dense retrieval the semantic baseline, and Dense+Ontology tests whether structured knowledge
 adds gains beyond both \cite{robertson2009probabilistic,
@@ -78,7 +78,7 @@ To avoid circularity from Jaccard-based candidate selection, we construct a dive
 
 We first determine the similarity formula via component ablation (Table~\ref{tab:task2_ablation}). Ten configurations are compared using 5-fold cross-validation, with weights optimized on each training fold via Nelder-Mead to maximize Spearman correlation. Each ontology component contributes measurably: adding ClassOverlap improves P@5 by +7.4\% over Jaccard alone, MethodMatch adds +2.9\%, SemanticSim adds +0.5\% MRR@5, and FlavorComplement adds +0.7\% P@5. The best configuration (Full, all five components) yields optimized weights $\alpha = 0.34$, $\beta = 0.17$, $\gamma = 0.12$, $\delta = 0.19$, $\varepsilon = 0.18$, showing that ontology-derived components ($\beta + \gamma + \delta + \varepsilon = 0.66$) account for 66\% of the similarity signal.
 
-Using these optimized weights, Table~\ref{tab:task2} compares Dense+Ontology against BM25 and Dense baselines on the same diverse candidate set. Dense+Ontology outperforms both baselines across all metrics.
+Using these optimized weights, Table~\ref{tab:task2} compares Dense+Ontology against BM25, BM25+Expansion, and Dense baselines on the same diverse candidate set. Dense+Ontology outperforms all baselines across all metrics. Notably, BM25+Expansion improves over plain BM25 (+1.0\% P@5, +0.7\% NDCG@5), confirming that ingredient-level synonym expansion provides a modest gain even in the recommendation setting. However, the improvement is smaller than in Task~1 (+28\%), because Task~2 queries are dish-specific rather than class-level---synonym expansion helps match ingredient terms but does not address the structural similarity that ontology components capture.
 
 \begin{table}[t]
 \centering
@@ -92,14 +92,14 @@ Using these optimized weights, Table~\ref{tab:task2} compares Dense+Ontology aga
 A: Jaccard only              & 0.741{\scriptsize$\pm$.061} & 0.755{\scriptsize$\pm$.053} & 0.855{\scriptsize$\pm$.042} \\
 B: +ClassOverlap             & 0.796{\scriptsize$\pm$.051} & 0.816{\scriptsize$\pm$.038} & 0.905{\scriptsize$\pm$.028} \\
 C: +MethodMatch              & 0.819{\scriptsize$\pm$.054} & 0.844{\scriptsize$\pm$.044} & 0.944{\scriptsize$\pm$.032} \\
-D: +SemanticSim              & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & 0.949{\scriptsize$\pm$.029} \\
-\textbf{E: Full (all 5)}     & \textbf{0.825}{\scriptsize$\pm$.047} & \textbf{0.849}{\scriptsize$\pm$.040} & \textbf{0.937}{\scriptsize$\pm$.029} \\
+D: +SemanticSim              & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & \textbf{0.949}{\scriptsize$\pm$.029} \\
+E: +FlavorComponent    & \textbf{0.825}{\scriptsize$\pm$.047} & \textbf{0.849}{\scriptsize$\pm$.040} & 0.937{\scriptsize$\pm$.029} \\
 \midrule
 F: No Jaccard                & 0.815{\scriptsize$\pm$.041} & 0.835{\scriptsize$\pm$.033} & 0.923{\scriptsize$\pm$.023} \\
 G: No ClassOverlap           & 0.812{\scriptsize$\pm$.043} & 0.830{\scriptsize$\pm$.038} & 0.913{\scriptsize$\pm$.028} \\
 H: No MethodMatch            & 0.794{\scriptsize$\pm$.045} & 0.811{\scriptsize$\pm$.036} & 0.903{\scriptsize$\pm$.036} \\
 I: No SemanticSim            & 0.825{\scriptsize$\pm$.047} & 0.848{\scriptsize$\pm$.040} & 0.936{\scriptsize$\pm$.030} \\
-J: No Flavor                 & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & 0.949{\scriptsize$\pm$.029} \\
+J: No Flavor                 & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & \textbf{0.949}{\scriptsize$\pm$.029} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -113,6 +113,7 @@ J: No Flavor                 & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\
 \textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MRR@5} \\
 \midrule
 BM25            & 0.784 & 0.812 & 0.913 \\
+BM25+Expansion  & 0.792 & 0.818 & 0.920 \\
 Dense           & 0.814 & 0.834 & 0.930 \\
 \textbf{Dense+Ontology}  & \textbf{0.825} & \textbf{0.849} & \textbf{0.937} \\
 \bottomrule
@@ -123,6 +124,6 @@ Dense           & 0.814 & 0.834 & 0.930 \\
 
 Across both tasks, ontology-enhanced retrieval outperforms baselines. For Task~1, Dense+Ontology improves NDCG@20 by +37\% and MRR@20 by +39\% over Dense, with hierarchy expansion contributing more than flat synonym expansion (+28\%).
 
-For Task~2, Dense+Ontology outperforms both BM25 and Dense on the diverse candidate set (Table~\ref{tab:task2}). The ablation study (Table~\ref{tab:task2_ablation}) demonstrates clear incremental gains from each ontology component. Starting from Jaccard-only (P@5\,=\,0.741), adding ClassOverlap yields +7.4\%, MethodMatch adds +2.9\%, and FlavorComplement adds +0.7\% P@5, confirming that structured class knowledge, cooking-method matching, and flavor affinity complement ingredient overlap. The ``No Jaccard'' configuration (F) still achieves P@5\,=\,0.815, showing that ontology signals alone provide strong dish similarity even without direct ingredient matching. Removing MethodMatch causes the largest drop ($-$3.1\% P@5), indicating that cooking-method agreement is the single most discriminative ontology signal for dish relatedness.
+For Task~2, Dense+Ontology outperforms all baselines on the diverse candidate set (Table~\ref{tab:task2}). BM25+Expansion improves over BM25 by +1.0\% P@5 and +0.7\% NDCG@5, showing that flat synonym expansion provides a modest benefit for dish recommendation. However, this gain is substantially smaller than in Task~1 (+28\%), because recommendation queries are dish-specific rather than class-level: synonym expansion helps match ingredient terms across dishes but cannot capture structural relationships (class membership, cooking method, flavor compatibility) that drive dish relatedness. Dense retrieval further improves over BM25+Expansion (+2.8\% P@5), and Dense+Ontology adds another +1.4\% P@5 through structured similarity. The progression BM25 $\rightarrow$ BM25+Expansion $\rightarrow$ Dense $\rightarrow$ Dense+Ontology demonstrates that each layer of knowledge---flat synonyms, semantic embeddings, and structured ontology---contributes incrementally to recommendation quality. The ablation study (Table~\ref{tab:task2_ablation}) demonstrates clear incremental gains from each ontology component. Starting from Jaccard-only (P@5\,=\,0.741), adding ClassOverlap yields +7.4\%, MethodMatch adds +2.9\%, and FlavorComplement adds +0.7\% P@5, confirming that structured class knowledge, cooking-method matching, and flavor affinity complement ingredient overlap. The ``No Jaccard'' configuration (F) still achieves P@5\,=\,0.815, showing that ontology signals alone provide strong dish similarity even without direct ingredient matching. Removing MethodMatch causes the largest drop ($-$3.1\% P@5), indicating that cooking-method agreement is the single most discriminative ontology signal for dish relatedness.
 
 The FlavorComplement component, derived from NPMI co-occurrence statistics (Eq.~\ref{eq:npmi}), captures complementary flavor profiles that pure ingredient overlap misses. Over 51\% of dish pairs exhibit at least one complement relationship, providing a dense signal that the optimizer assigns meaningful weight ($\varepsilon = 0.18$).
