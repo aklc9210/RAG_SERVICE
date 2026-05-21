@@ -270,11 +270,11 @@ Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70
 
 **Kiểm chứng LLM judges bằng người:**
 
-Để xác nhận độ tin cậy của đáp án đúng dựa trên LLM, hai người gán nhãn độc lập chấm 300 cặp ngẫu nhiên trên cùng thang 0/1/2:
-- Độ đồng thuận giữa hai người: Cohen's κ_linear = 0.44 (vừa phải), đồng thuận chính xác 60%, đồng thuận lân cận 96%
-- Tương quan Spearman giữa đồng thuận người và điểm trung bình LLM: ρ = 0.50 (p < 10⁻¹⁹), Kendall τ = 0.44
-- LLM judges có xu hướng đánh giá cao hơn người +0.28 trên thang 0–2
-- Khi nhị phân hóa tại ngưỡng dương (≥ 1), LLM judges đạt recall 96.1% các cặp mà người đánh giá là liên quan → nhãn tự động hiếm khi bỏ sót các món thực sự liên quan
+Để xác nhận độ tin cậy của đáp án đúng dựa trên LLM, hai người gán nhãn độc lập chấm 504 cặp (84 anchors × 6 candidates) trên cùng thang 0/1/2:
+- Độ đồng thuận giữa hai người: Cohen's κ_linear = 0.50 (vừa phải đến đáng kể), đồng thuận chính xác 67.3%, đồng thuận lân cận 97.2%
+- Tương quan Spearman giữa đồng thuận người và điểm trung bình LLM: ρ = 0.56 (p < 10⁻⁴³), Kendall τ = 0.50
+- LLM judges có xu hướng đánh giá cao hơn người +0.38 trên thang 0–2
+- Khi nhị phân hóa tại ngưỡng dương (≥ 1), LLM judges đạt recall 95.9% các cặp mà người đánh giá là liên quan → nhãn tự động hiếm khi bỏ sót các món thực sự liên quan
 
 Mức tương quan này phù hợp với các nghiên cứu trước về độ tin cậy của LLM-as-judge cho các nhiệm vụ đánh giá tương tự chủ quan.
 
@@ -367,7 +367,7 @@ Một số hạn chế cần lưu ý:
 
 1. **Độ chính xác phân loại đuôi dài:** Cây phân cấp nguyên liệu được xây dựng bằng phân loại LLM với kiểm tra thủ công chỉ 150 nguyên liệu phổ biến nhất; độ chính xác của các nhóm đuôi dài và nhóm dự phòng "Khác" (427 nguyên liệu) chưa được xác minh.
 
-2. **Độ đồng thuận LLM judge:** Panel LLM judge cho Nhiệm vụ 2 chỉ đạt đồng thuận khá (κ = 0.336); nghiên cứu 300 cặp với người (Mục 5.3) cho đồng thuận vừa phải (κ_linear = 0.44) và ρ = 0.50 với panel LLM, giảm nhẹ nhưng không loại bỏ hoàn toàn mối lo này.
+2. **Độ đồng thuận LLM judge:** Panel LLM judge cho Nhiệm vụ 2 chỉ đạt đồng thuận khá (κ = 0.336); nghiên cứu 504 cặp với người (Mục 5.3) cho đồng thuận vừa phải đến đáng kể (κ_linear = 0.50) và ρ = 0.56 với panel LLM, giảm nhẹ nhưng không loại bỏ hoàn toàn mối lo này.
 
 3. **Đơn ngữ:** Ontology là đơn ngữ (tiếng Việt) và chưa được kiểm tra trong bối cảnh xuyên ngôn ngữ.
 

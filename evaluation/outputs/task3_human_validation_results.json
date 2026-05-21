@@ -1,0 +1,38 @@
+{
+  "n_pairs_total": 504,
+  "n_pairs_original": 300,
+  "n_pairs_extra": 204,
+  "inter_annotator_agreement": {
+    "cohen_kappa_linear": 0.503,
+    "cohen_kappa_nominal": 0.4324,
+    "exact_agreement": 0.6726,
+    "adjacent_agreement": 0.9722
+  },
+  "human_vs_llm": {
+    "spearman_rho": 0.5624,
+    "spearman_p": 2.2259869386930342e-43,
+    "kendall_tau": 0.4963,
+    "kendall_p": 9.60525424801517e-39,
+    "human_mean": 0.5565,
+    "llm_mean": 0.9385,
+    "llm_bias": 0.382
+  },
+  "binarized_threshold_1.0": {
+    "n_human_positive": 170,
+    "n_llm_positive": 356,
+    "recall": 0.9588,
+    "precision": 0.4579
+  },
+  "score_distribution": {
+    "annotator_1": {
+      "0": 321,
+      "1": 131,
+      "2": 52
+    },
+    "annotator_2": {
+      "0": 247,
+      "1": 188,
+      "2": 69
+    }
+  }
+}
