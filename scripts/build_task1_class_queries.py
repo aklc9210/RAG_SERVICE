@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Generate 200 class-level queries + GT for Task 1.
+"""Generate 1000 class-level queries + GT for Task 1.
 
 Queries are hand-crafted templates with randomized class/method slots,
 producing natural Vietnamese search phrases. No LLM needed.
 
 Usage:
     python scripts/build_task1_class_queries.py
+    python scripts/build_task1_class_queries.py --n-per-type 250
 """
+import argparse
 import json
 import random
 import sys
@@ -130,6 +132,12 @@ def build_gt(pos, neg, method, ont, dishes):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--n-per-type", type=int, default=250,
+                    help="Number of queries per type (default 250, total = 4x)")
+    args = ap.parse_args()
+    N = args.n_per_type
+
     random.seed(42)
     FoodOntology._instance = None
     ont = FoodOntology()
@@ -149,50 +157,52 @@ def main():
         })
         return True
 
-    # ── single_class: 50 ──
+    # ── single_class: N ──
     random.shuffle(classes)
     i = 0
-    while sum(1 for r in results if r["type"] == "single_class") < 50:
+    while sum(1 for r in results if r["type"] == "single_class") < N:
         cls = classes[i % len(classes)]
         tmpl = random.choice(SINGLE_TEMPLATES)
         q = tmpl.format(ing=pick(VI, cls))
         add(q, "single_class", [cls], [], None)
         i += 1
+        if i > N * 4:
+            break
 
-    # ── multi_class: 50 ──
+    # ── multi_class: N ──
     i = 0
-    while sum(1 for r in results if r["type"] == "multi_class") < 50:
+    while sum(1 for r in results if r["type"] == "multi_class") < N:
         a, b = random.sample(classes, 2)
         tmpl = random.choice(MULTI_TEMPLATES)
         q = tmpl.format(a=pick(VI, a), b=pick(VI, b))
         add(q, "multi_class", [a, b], [], None)
         i += 1
-        if i > 200:
+        if i > N * 4:
             break
 
-    # ── negation: 50 ──
+    # ── negation: N ──
     i = 0
-    while sum(1 for r in results if r["type"] == "negation") < 50:
+    while sum(1 for r in results if r["type"] == "negation") < N:
         pos_cls = random.choice(classes)
         neg_cls = random.choice([c for c in classes if c != pos_cls])
         tmpl = random.choice(NEG_TEMPLATES)
         q = tmpl.format(pos=pick(VI, pos_cls), neg=pick(VI, neg_cls))
         add(q, "negation", [pos_cls], [neg_cls], None)
         i += 1
-        if i > 200:
+        if i > N * 4:
             break
 
-    # ── cooking_method: 50 ──
+    # ── cooking_method: N ──
     methods = list(METHOD_VI.keys())
     i = 0
-    while sum(1 for r in results if r["type"] == "cooking_method") < 50:
+    while sum(1 for r in results if r["type"] == "cooking_method") < N:
         cls = random.choice(classes)
         m = random.choice(methods)
         tmpl = random.choice(METHOD_TEMPLATES)
         q = tmpl.format(ing=pick(VI, cls), method=random.choice(METHOD_VI[m]))
         add(q, "cooking_method", [cls], [], m)
         i += 1
-        if i > 200:
+        if i > N * 4:
             break
 
     # Assign IDs

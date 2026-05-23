@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
 """Day 3 — Person A — Task 1: Class-based Retrieval Evaluation.
 
-3 systems compared on 200 class-level queries:
+3 systems compared on class-level queries:
   1. BM25         — keyword matching on dish name + ingredients
   2. Dense        — embedding similarity (multilingual-e5-large)
   3. Ontology+BM25 — BM25 with ontology query expansion
 
-Metrics: Precision@k, Recall@k, F1@k, MAP, NDCG@k
+Metrics: Precision@k, NDCG@k, MRR@k for k in {5, 10, 20}
 
 Usage:
     python scripts/eval_task1_retrieval.py
-    python scripts/eval_task1_retrieval.py --top-k 20
 """
 import argparse
 import json
 import math
 import sys
 import time
-from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Set
 
@@ -54,16 +52,11 @@ def ndcg_at_k(retrieved: List[str], relevant: Set[str], k: int) -> float:
     return dcg / ideal if ideal else 0
 
 
-def compute_metrics(retrieved: List[str], relevant: Set[str], k: int) -> dict:
-    p = precision_at_k(retrieved, relevant, k)
-    r = recall_at_k(retrieved, relevant, k)
-    return {
-        f"P@{k}": round(p, 4),
-        f"R@{k}": round(r, 4),
-        f"F1@{k}": round(f1_at_k(p, r), 4),
-        "AP": round(average_precision(retrieved, relevant), 4),
-        f"NDCG@{k}": round(ndcg_at_k(retrieved, relevant, k), 4),
-    }
+def mrr_at_k(retrieved: List[str], relevant: Set[str], k: int) -> float:
+    for i, d in enumerate(retrieved[:k]):
+        if d in relevant:
+            return 1.0 / (i + 1)
+    return 0.0
 
 
 # ── System 1: BM25 ──────────────────────────────────────────────
@@ -221,9 +214,8 @@ def build_rag_ontology_system(dense_search_fn):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--top-k", type=int, default=20)
     args = ap.parse_args()
-    K = args.top_k
+    K = 20
 
     # Load queries
     queries = []
@@ -253,7 +245,7 @@ def main():
     systems["RAG+Ontology"] = ont_fn
 
     # Run evaluation
-    print(f"\nEvaluating {len(queries)} queries × {len(systems)} systems @ top-{K}...")
+    print(f"\nEvaluating {len(queries)} queries × {len(systems)} systems @ k={K}...")
     all_results = {}
 
     for sys_name, search_fn in systems.items():
@@ -273,34 +265,22 @@ def main():
             except Exception as e:
                 retrieved = []
 
-            m = compute_metrics(retrieved, gt, K)
-            metrics_list.append(m)
+            p = precision_at_k(retrieved, gt, K)
+            ndcg = ndcg_at_k(retrieved, gt, K)
+            mrr = mrr_at_k(retrieved, gt, K)
+            metrics_list.append({"P@20": p, "NDCG@20": ndcg, "MRR@20": mrr})
 
             if (i + 1) % 50 == 0:
                 elapsed = time.time() - t0
                 print(f"    {i+1}/{len(queries)} ({elapsed:.1f}s)")
 
         # Aggregate
-        agg = {}
-        for key in metrics_list[0]:
-            vals = [m[key] for m in metrics_list]
-            agg[key] = round(sum(vals) / len(vals), 4)
+        agg = {k: round(sum(m[k] for m in metrics_list) / len(metrics_list), 4)
+               for k in metrics_list[0]}
 
-        all_results[sys_name] = {
-            "mean_metrics": agg,
-            "n_queries": len(queries),
-            "top_k": K,
-        }
+        all_results[sys_name] = {"mean_metrics": agg, "n_queries": len(queries)}
         elapsed = time.time() - t0
-        print(f"    Done in {elapsed:.1f}s")
-        print(f"    {agg}")
-
-    # Per-type breakdown
-    for sys_name in all_results:
-        by_type = defaultdict(list)
-        for i, q in enumerate(queries):
-            # Re-run would be slow; compute from stored metrics
-            pass  # Skip per-type for now, use aggregate
+        print(f"    Done in {elapsed:.1f}s — {agg}")
 
     # Save
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -308,11 +288,11 @@ def main():
     print(f"\nSaved → {OUT_PATH}")
 
     # Summary table
-    print(f"\n{'System':<20} {'P@'+str(K):<8} {'R@'+str(K):<8} {'F1@'+str(K):<8} {'MAP':<8} {'NDCG@'+str(K):<8}")
-    print("-" * 60)
+    print(f"\n{'System':<20} {'P@20':<8} {'NDCG@20':<8} {'MRR@20':<8}")
+    print("-" * 44)
     for sys_name, data in all_results.items():
         m = data["mean_metrics"]
-        print(f"{sys_name:<20} {m[f'P@{K}']:<8} {m[f'R@{K}']:<8} {m[f'F1@{K}']:<8} {m['AP']:<8} {m[f'NDCG@{K}']:<8}")
+        print(f"{sys_name:<20} {m['P@20']:<8} {m['NDCG@20']:<8} {m['MRR@20']:<8}")
 
 
 if __name__ == "__main__":
