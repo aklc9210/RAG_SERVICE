@@ -1,38 +1,36 @@
 {
-  "n_pairs_total": 504,
-  "n_pairs_original": 300,
-  "n_pairs_extra": 204,
+  "n_pairs_total": 500,
   "inter_annotator_agreement": {
-    "cohen_kappa_linear": 0.503,
-    "cohen_kappa_nominal": 0.4324,
-    "exact_agreement": 0.6726,
-    "adjacent_agreement": 0.9722
+    "cohen_kappa_linear": 0.4369,
+    "cohen_kappa_nominal": 0.3468,
+    "exact_agreement": 0.7,
+    "adjacent_agreement": 0.984
   },
   "human_vs_llm": {
-    "spearman_rho": 0.5624,
-    "spearman_p": 2.2259869386930342e-43,
-    "kendall_tau": 0.4963,
-    "kendall_p": 9.60525424801517e-39,
-    "human_mean": 0.5565,
-    "llm_mean": 0.9385,
-    "llm_bias": 0.382
+    "spearman_rho": 0.5174,
+    "spearman_p": 1.3837549491327606e-35,
+    "kendall_tau": 0.465,
+    "kendall_p": 4.0653013697806655e-33,
+    "human_mean": 0.362,
+    "llm_mean": 0.826,
+    "llm_bias": 0.464
   },
   "binarized_threshold_1.0": {
-    "n_human_positive": 170,
-    "n_llm_positive": 356,
-    "recall": 0.9588,
-    "precision": 0.4579
+    "n_human_positive": 94,
+    "n_llm_positive": 304,
+    "recall": 0.9362,
+    "precision": 0.2895
   },
   "score_distribution": {
     "annotator_1": {
-      "0": 321,
-      "1": 131,
-      "2": 52
+      "0": 400,
+      "1": 77,
+      "2": 23
     },
     "annotator_2": {
-      "0": 247,
-      "1": 188,
-      "2": 69
+      "0": 307,
+      "1": 147,
+      "2": 46
     }
   }
 }

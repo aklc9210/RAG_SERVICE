@@ -1,7 +1,7 @@
 {
   "method": "Weights trained on LLM labels, evaluated on human annotations",
-  "n_anchors": 84,
-  "n_pairs": 504,
+  "n_anchors": 25,
+  "n_pairs": 500,
   "positive_threshold": 1.0,
   "weights_used": {
     "alpha": 0.3379249828392578,
@@ -12,24 +12,24 @@
   },
   "results": {
     "BM25": {
-      "P@5": 0.3595,
-      "NDCG@5": 0.6739,
-      "MRR@5": 0.7042
+      "P@5": 0.292,
+      "NDCG@5": 0.6916,
+      "MRR@5": 0.825
     },
     "BM25+Expansion": {
-      "P@5": 0.3595,
-      "NDCG@5": 0.6784,
-      "MRR@5": 0.7008
+      "P@5": 0.244,
+      "NDCG@5": 0.5772,
+      "MRR@5": 0.693
     },
     "Dense": {
-      "P@5": 0.3833,
-      "NDCG@5": 0.7182,
-      "MRR@5": 0.7048
+      "P@5": 0.308,
+      "NDCG@5": 0.6463,
+      "MRR@5": 0.731
     },
     "Dense+Ontology": {
-      "P@5": 0.3786,
-      "NDCG@5": 0.681,
-      "MRR@5": 0.6637
+      "P@5": 0.32,
+      "NDCG@5": 0.6543,
+      "MRR@5": 0.6868
     }
   }
 }

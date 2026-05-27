@@ -48,16 +48,11 @@ def load_annotation_csv(path):
     return rows
 
 
-CSV_ORIGINAL = ROOT / "evaluation" / "annotation" / "task2_human_annotation.csv"
-CSV_EXTRA = ROOT / "evaluation" / "annotation" / "task3_annotation_extra_200.csv"
+CSV_PATH = ROOT / "evaluation" / "annotation" / "task2_human_annotation_v2.csv"
 
-rows_orig = load_annotation_csv(CSV_ORIGINAL)
-rows_extra = load_annotation_csv(CSV_EXTRA)
-all_rows = rows_orig + rows_extra
+all_rows = load_annotation_csv(CSV_PATH)
 
-print(f"Original pairs: {len(rows_orig)}")
-print(f"Extra pairs:    {len(rows_extra)}")
-print(f"Total pairs:    {len(all_rows)}")
+print(f"Total pairs: {len(all_rows)}")
 
 if len(all_rows) == 0:
     print("ERROR: No valid annotated pairs found!")
@@ -225,8 +220,6 @@ OUTPUT_PATH = ROOT / "evaluation" / "outputs" / "task3_human_validation_results.
 
 results = {
     "n_pairs_total": len(all_rows),
-    "n_pairs_original": len(rows_orig),
-    "n_pairs_extra": len(rows_extra),
     "inter_annotator_agreement": {
         "cohen_kappa_linear": round(kappa_linear, 4),
         "cohen_kappa_nominal": round(kappa_nominal, 4),
