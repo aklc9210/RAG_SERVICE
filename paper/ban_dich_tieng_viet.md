@@ -238,9 +238,21 @@ Cách so sánh này theo chuẩn sparse–dense: BM25 là baseline từ vựng, 
 
 ### 5.3. Quy trình đánh giá
 
-**Cách tạo truy vấn và trường hợp thử:**
+**Chỉ mục truy xuất dày đặc:**
 
-Nhiệm vụ 1: Truy vấn được sinh tự động từ 10 mẫu tiếng Việt (ví dụ: "các món {nguyên liệu}", "{a} nấu với {b}") với các ô nhóm và cách nấu được điền bằng lấy mẫu ngẫu nhiên trên tất cả 24 nhóm lá nguyên liệu và 10 cách nấu (seed 42). Tạo ra 200 truy vấn (50 mỗi loại) với nhãn đáp án đúng xác định tự động bằng API FoodOntology: một món là đúng khi và chỉ khi chứa ≥1 nguyên liệu từ mỗi nhóm dương, 0 nguyên liệu từ nhóm âm, và khớp cách nấu yêu cầu. Nhãn không cần gán thủ công và hoàn toàn xác định dựa trên ontology.
+Mỗi món được lập chỉ mục như 1 tài liệu: `tên_món` (lặp 3× để tăng trọng số khớp tên) + `danh_mục` + tất cả `tên_nguyên_liệu` (tiếng Việt). Mô hình embedding (multilingual-e5-large, 1024 chiều) mã hóa tài liệu với tiền tố "passage:" và truy vấn với tiền tố "query:", theo giao thức E5.
+
+**Chỉ số đánh giá:**
+
+Cả 2 nhiệm vụ đều dùng các chỉ số xếp hạng gồm Precision@k và NDCG, trong đó NDCG theo công thức cumulative-gain của Järvelin và Kekäläinen.
+
+#### 5.3.1. Quy trình Nhiệm vụ 1: Truy xuất theo nhóm nguyên liệu
+
+**Xây dựng truy vấn:**
+
+Truy vấn được sinh tự động từ 10 mẫu tiếng Việt (ví dụ: "các món {nguyên liệu}", "{a} nấu với {b}") với các ô nhóm và cách nấu được điền bằng lấy mẫu ngẫu nhiên trên tất cả 24 nhóm lá nguyên liệu và 10 cách nấu (seed 42). Tạo ra 200 truy vấn (50 mỗi loại) với nhãn đáp án đúng xác định tự động bằng API FoodOntology: một món là đúng khi và chỉ khi chứa ≥1 nguyên liệu từ mỗi nhóm dương, 0 nguyên liệu từ nhóm âm, và khớp cách nấu yêu cầu. Nhãn không cần gán thủ công và hoàn toàn xác định dựa trên ontology.
+
+**Kiểm chứng nhãn rule bằng người:**
 
 Để kiểm chứng chất lượng nhãn, hai người gán nhãn độc lập đánh giá 500 cặp (truy vấn, món) ngẫu nhiên:
 - Độ đồng thuận giữa hai người: Cohen's κ = 0.62 (đáng kể), đồng thuận chính xác 83.4%
@@ -248,17 +260,23 @@ Nhiệm vụ 1: Truy vấn được sinh tự động từ 10 mẫu tiếng Vi�
 - Bất đồng chủ yếu ở truy vấn đa nhóm (κ = 0.31) khi người gán nhãn không chắc về phân loại nguyên liệu (ví dụ: "bột năng" thuộc nhóm Tinh bột?)
 - Truy vấn cách nấu (κ = 0.63) và phủ định (κ = 0.57) có đồng thuận cao
 
-Nhiệm vụ 2: 200 món anchor được chọn phân tầng theo 25 danh mục. Mỗi anchor có 20 ứng viên từ 4 nguồn đa dạng:
+Nhiệm vụ 1 không có siêu tham số cần điều chỉnh.
+
+#### 5.3.2. Quy trình Nhiệm vụ 2: Gợi ý món liên quan
+
+**Xây dựng tập ứng viên:**
+
+200 món anchor được chọn phân tầng theo 25 danh mục. Mỗi anchor có 20 ứng viên từ 4 nguồn đa dạng:
 1. Top-5 theo Jaccard có trọng số IDF (dễ cho hệ thống Jaccard)
 2. 5 từ khoảng giữa Jaccard (rank 10-20)
 3. 5 cùng danh mục nhưng Jaccard < 0.2 (khó cho Jaccard, test ontology)
 4. 5 ngẫu nhiên (negative)
 
-Tổng ~4.000 cặp. Cả 3 LLM judges chấm tất cả cặp; điểm trung bình là đáp án đúng. Ngưỡng dương: mean ≥ 1.0.
+Tổng ~4.000 cặp. Ngưỡng dương: mean judge score ≥ 1.0. Chỉ số: P@5, NDCG@5, MRR@5.
 
-**Gán nhãn và quy trình chấm:**
+**Quy trình chấm bằng LLM:**
 
-Nhiệm vụ 2 dùng 3 LLM judges (**Llama-3.1 8B**, **Gemma-2 9B**, **Mistral 7B**) chấm trên thang 0/1/2 với prompt:
+Tất cả cặp được chấm bởi 3 LLM judges (**Llama-3.1 8B**, **Gemma-2 9B**, **Mistral 7B**) trên thang 0/1/2 với prompt:
 > "Rate how related these two Vietnamese dishes are for a 'similar dishes' recommendation. Score: 2 = very related (same type, similar ingredients), 1 = somewhat related (some overlap), 0 = unrelated. Reply with ONLY one number. Dish 1: {dish_a}. Dish 2: {dish_b}. Score:"
 
 Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70-76%:
@@ -266,11 +284,11 @@ Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70
 - Llama-Mistral: 69.9%
 - Gemma-Mistral: 74.1%
 
-Điểm trung bình nhất quán: Llama 0.79, Gemma 0.79, Mistral 0.97.
+Điểm trung bình nhất quán: Llama 0.79, Gemma 0.79, Mistral 0.97. Đáp án đúng cho mỗi cặp là điểm trung bình của 3 judges.
 
 **Kiểm chứng LLM judges bằng người:**
 
-Để xác nhận độ tin cậy của đáp án đúng dựa trên LLM, hai người gán nhãn độc lập chấm 504 cặp (84 anchors × 6 candidates) trên cùng thang 0/1/2:
+Hai người gán nhãn độc lập chấm 504 cặp (84 anchors × 6 candidates) trên cùng thang 0/1/2:
 - Độ đồng thuận giữa hai người: Cohen's κ_linear = 0.50 (vừa phải đến đáng kể), đồng thuận chính xác 67.3%, đồng thuận lân cận 97.2%
 - Tương quan Spearman giữa đồng thuận người và điểm trung bình LLM: ρ = 0.56 (p < 10⁻⁴³), Kendall τ = 0.50
 - LLM judges có xu hướng đánh giá cao hơn người +0.38 trên thang 0–2
@@ -278,21 +296,9 @@ Panel đạt Fleiss' κ = 0.336 (đồng thuận khá), đồng thuận cặp 70
 
 Mức tương quan này phù hợp với các nghiên cứu trước về độ tin cậy của LLM-as-judge cho các nhiệm vụ đánh giá tương tự chủ quan.
 
-**Tách tập và cross-validation:**
+**Tối ưu trọng số:**
 
-Trọng số tương tự Nhiệm vụ 2 (α, β, γ, δ, ε) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors (Nelder-Mead, maximize Spearman), đánh giá trên 40 anchors. Weights cuối là trung bình qua 5 folds. Nhiệm vụ 1 không có siêu tham số cần điều chỉnh.
-
-**Chỉ mục truy xuất dày đặc:**
-
-Mỗi món được lập chỉ mục như 1 tài liệu: `tên_món` (lặp 3× để tăng trọng số khớp tên) + `danh_mục` + tất cả `tên_nguyên_liệu` (tiếng Việt). Mô hình embedding (multilingual-e5-large, 1024 chiều) mã hóa tài liệu với tiền tố "passage:" và truy vấn với tiền tố "query:", theo giao thức E5.
-
-**Kiểm định thống kê:**
-
-Nhiệm vụ 1: Kiểm định Wilcoxon signed-rank ghép cặp trên P@20 mỗi truy vấn. Tất cả cải thiện đều có ý nghĩa thống kê:
-- Dense+Ontology vs Dense (p < 0.001)
-- Dense+Ontology vs BM25+Expansion (p < 0.001)
-- BM25+Expansion vs BM25 (p < 0.001)
-- Dense vs BM25 (p < 0.001)
+Trọng số tương tự (α, β, γ, δ, ε trong Eq. Sim) được xác định bằng 5-fold cross-validation trên 200 anchors: mỗi fold tối ưu weights trên 160 anchors huấn luyện (Nelder-Mead, maximize Spearman correlation), đánh giá trên 40 anchors kiểm tra. Weights cuối là trung bình qua 5 folds.
 
 ### 5.4. Kết quả
 
@@ -305,7 +311,7 @@ Nhiệm vụ 1: Kiểm định Wilcoxon signed-rank ghép cặp trên P@20 mỗi
 | Dense | 0.339 | 0.344 | 0.511 |
 | **Dense+Ontology** | **0.446** | **0.472** | **0.711** |
 
-Dense+Ontology đạt P@20 = 0.446 và NDCG@20 = 0.472, vượt Dense +32% và +37%, vượt BM25 +94% và +103%. Cải thiện từ phân cấp ontology (+32% so với Dense) lớn hơn cải thiện từ mở rộng từ đồng nghĩa phẳng (+28% BM25+Expansion so với BM25), xác nhận mở rộng theo cấu trúc nhóm hiệu quả hơn tra cứu phẳng.
+Dense+Ontology đạt P@20 = 0.446 và NDCG@20 = 0.472, vượt Dense +32% và +37%, vượt BM25 +94% và +103%. Cải thiện từ phân cấp ontology (+32% so với Dense) lớn hơn cải thiện từ mở rộng từ đồng nghĩa phẳng (+28% BM25+Expansion so với BM25), xác nhận mở rộng theo cấu trúc nhóm hiệu quả hơn tra cứu phẳng. Kiểm định Wilcoxon signed-rank ghép cặp trên P@20 mỗi truy vấn xác nhận tất cả cải thiện đều có ý nghĩa thống kê (p < 0.001 cho tất cả các cặp).
 
 **Nhiệm vụ 2: Gợi ý món liên quan** (200 anchors, ~4.000 cặp đa dạng, 5-fold CV)
 
