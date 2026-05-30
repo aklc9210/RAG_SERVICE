@@ -13,6 +13,7 @@ Usage:
 import csv
 import json
 import math
+import os
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -26,12 +27,18 @@ from retrieval.ontology import FoodOntology
 
 # Paths
 HUMAN_FILE = ROOT / "evaluation" / "annotation" / "task2_human_annotation_v2.csv"
-WEIGHTS_PATH = ROOT / "evaluation" / "outputs" / "task3_ablation_cv_results_5comp.json"
 GT_PATH = ROOT / "evaluation" / "data" / "datasets" / "task3_related_gt.jsonl"
-OUTPUT_PATH = ROOT / "evaluation" / "outputs" / "task2_human_eval_results.json"
 
+K = int(os.getenv("TASK_K", "5"))
 POSITIVE_THRESHOLD = 1.0
-K = 5
+
+LEGACY_WEIGHTS_PATH = ROOT / "evaluation" / "outputs" / "task3_ablation_cv_results_5comp.json"
+DEFAULT_WEIGHTS_PATH = ROOT / "evaluation" / "outputs" / f"task3_ablation_cv_results_k{K}.json"
+WEIGHTS_PATH = Path(os.getenv("WEIGHTS_PATH")) if os.getenv("WEIGHTS_PATH") else (
+    LEGACY_WEIGHTS_PATH if K == 5 and LEGACY_WEIGHTS_PATH.exists() else DEFAULT_WEIGHTS_PATH
+)
+
+OUTPUT_PATH = ROOT / "evaluation" / "outputs" / f"task2_human_eval_results_k{K}.json"
 
 # ── Load human annotations ───────────────────────────────────────
 
@@ -186,10 +193,11 @@ def compute_ranking_metrics(anchor_groups, score_fn):
                 break
         mrr5_list.append(mrr)
 
+    k_label = str(K)
     return {
-        "P@5": round(float(np.mean(p5_list)), 4),
-        "NDCG@5": round(float(np.mean(ndcg5_list)), 4),
-        "MRR@5": round(float(np.mean(mrr5_list)), 4),
+        f"P@{k_label}": round(float(np.mean(p5_list)), 4),
+        f"NDCG@{k_label}": round(float(np.mean(ndcg5_list)), 4),
+        f"MRR@{k_label}": round(float(np.mean(mrr5_list)), 4),
     }
 
 
@@ -315,14 +323,14 @@ def main():
     systems = build_systems(human_groups, weights)
 
     print(f"\nEvaluating on {sum(len(v) for v in human_groups.values())} human-annotated pairs ({len(human_groups)} anchors)...")
-    print(f"\n{'System':<18} {'P@5':<8} {'NDCG@5':<8} {'MRR@5':<8}")
+    print(f"\n{'System':<18} {'P@'+str(K):<8} {'NDCG@'+str(K):<8} {'MRR@'+str(K):<8}")
     print("-" * 42)
 
     results = {}
     for sys_name, score_fn in systems.items():
         m = compute_ranking_metrics(human_groups, score_fn)
         results[sys_name] = m
-        print(f"{sys_name:<18} {m['P@5']:<8} {m['NDCG@5']:<8} {m['MRR@5']:<8}")
+        print(f"{sys_name:<18} {m['P@'+str(K)]:<8} {m['NDCG@'+str(K)]:<8} {m['MRR@'+str(K)]:<8}")
 
     # Save
     output = {

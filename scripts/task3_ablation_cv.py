@@ -18,6 +18,7 @@ Metrics: P@5, NDCG@5, MRR@5 (positive threshold: judge mean >= 1.0)
 """
 import json
 import math
+import os
 import sys
 from pathlib import Path
 
@@ -32,7 +33,8 @@ from retrieval.ontology import FoodOntology
 
 GT_PATH = ROOT / "evaluation" / "data" / "datasets" / "task3_related_gt.jsonl"
 JUDGE_PATH = ROOT / "evaluation" / "outputs" / "task3_diverse_judged.json"
-OUTPUT_PATH = ROOT / "evaluation" / "outputs" / "task3_ablation_cv_results.json"
+K = int(os.getenv("TASK_K", "5"))
+OUTPUT_PATH = ROOT / "evaluation" / "outputs" / f"task3_ablation_cv_results_k{K}.json"
 
 ont = FoodOntology()
 
@@ -179,7 +181,7 @@ print("Done.")
 POSITIVE_THRESHOLD = 1.0
 
 def ranking_metrics(anchor_list, weights):
-    """Compute P@5, NDCG@5, MRR@5 over a list of anchors."""
+    """Compute P@K, NDCG@K, MRR@K over a list of anchors."""
     p5_scores, ndcg5_scores, mrr5_scores = [], [], []
 
     for anchor in anchor_list:
@@ -189,16 +191,16 @@ def ranking_metrics(anchor_list, weights):
         scored.sort(key=lambda x: -x[1])  # rank by predicted score desc
 
         # Binary relevance: positive if judge mean >= threshold
-        top5 = scored[:5]
+        top5 = scored[:K]
         rels = [1 if gt >= POSITIVE_THRESHOLD else 0 for gt, _ in top5]
 
         # P@5
-        p5_scores.append(sum(rels) / 5)
+        p5_scores.append(sum(rels) / K)
 
         # NDCG@5
         dcg = sum(r / math.log2(i + 2) for i, r in enumerate(rels))
         n_pos = sum(1 for gt, _ in scored if gt >= POSITIVE_THRESHOLD)
-        ideal = sum(1 / math.log2(i + 2) for i in range(min(n_pos, 5)))
+        ideal = sum(1 / math.log2(i + 2) for i in range(min(n_pos, K)))
         ndcg5_scores.append(dcg / ideal if ideal > 0 else 0.0)
 
         # MRR@5
@@ -210,9 +212,9 @@ def ranking_metrics(anchor_list, weights):
         mrr5_scores.append(mrr)
 
     return {
-        "P@5": float(np.mean(p5_scores)),
-        "NDCG@5": float(np.mean(ndcg5_scores)),
-        "MRR@5": float(np.mean(mrr5_scores)),
+        f"P@{K}": float(np.mean(p5_scores)),
+        f"NDCG@{K}": float(np.mean(ndcg5_scores)),
+        f"MRR@{K}": float(np.mean(mrr5_scores)),
     }
 
 # ── Configurations ───────────────────────────────────────────────
@@ -305,9 +307,9 @@ for config_name, mask in CONFIGS.items():
     mean_weights = np.mean(fold_weights, axis=0).tolist()
 
     print(f"  Weights (mean): a={mean_weights[0]:.3f} b={mean_weights[1]:.3f} g={mean_weights[2]:.3f} d={mean_weights[3]:.3f} e={mean_weights[4]:.3f}")
-    print(f"  P@5:    {mean_metrics['P@5']:.4f} ± {std_metrics['P@5']:.4f}")
-    print(f"  NDCG@5: {mean_metrics['NDCG@5']:.4f} ± {std_metrics['NDCG@5']:.4f}")
-    print(f"  MRR@5:  {mean_metrics['MRR@5']:.4f} ± {std_metrics['MRR@5']:.4f}")
+    print(f"  P@{K}:    {mean_metrics[f'P@{K}']:.4f} ± {std_metrics[f'P@{K}']:.4f}")
+    print(f"  NDCG@{K}: {mean_metrics[f'NDCG@{K}']:.4f} ± {std_metrics[f'NDCG@{K}']:.4f}")
+    print(f"  MRR@{K}:  {mean_metrics[f'MRR@{K}']:.4f} ± {std_metrics[f'MRR@{K}']:.4f}")
 
     all_results[config_name] = {
         "mask": mask,
@@ -323,162 +325,162 @@ for config_name, mask in CONFIGS.items():
 # ── Summary table ────────────────────────────────────────────────
 
 print(f"\n{'='*70}")
-print(f"{'Config':<28} {'P@5':<12} {'NDCG@5':<12} {'MRR@5':<12}")
+print(f"{'Config':<28} {'P@'+str(K):<12} {'NDCG@'+str(K):<12} {'MRR@'+str(K):<12}")
 print(f"{'-'*70}")
 for name, res in all_results.items():
     m = res["metrics_mean"]
     s = res["metrics_std"]
-    print(f"{name:<28} {m['P@5']:.4f}±{s['P@5']:.3f}  {m['NDCG@5']:.4f}±{s['NDCG@5']:.3f}  {m['MRR@5']:.4f}±{s['MRR@5']:.3f}")
+    print(f"{name:<28} {m[f'P@{K}']:.4f}±{s[f'P@{K}']:.3f}  {m[f'NDCG@{K}']:.4f}±{s[f'NDCG@{K}']:.3f}  {m[f'MRR@{K}']:.4f}±{s[f'MRR@{K}']:.3f}")
 
 # Best config
-best = max(all_results.items(), key=lambda x: x[1]["metrics_mean"]["NDCG@5"])
+best = max(all_results.items(), key=lambda x: x[1]["metrics_mean"][f"NDCG@{K}"])
 best_w = np.array([best[1]['mean_weights']['alpha'], best[1]['mean_weights']['beta'],
                    best[1]['mean_weights']['gamma'], best[1]['mean_weights']['delta'],
                    best[1]['mean_weights']['epsilon']])
 print(f"\nBEST: {best[0]}")
 print(f"  Recommended weights: a={best_w[0]:.4f}, b={best_w[1]:.4f}, g={best_w[2]:.4f}, d={best_w[3]:.4f}, e={best_w[4]:.4f}")
 
-# ── System comparison: BM25, BM25+Expansion, Dense, Dense+Ontology ───
+# # ── System comparison: BM25, BM25+Expansion, Dense, Dense+Ontology ───
 
-print(f"\n{'='*70}")
-print("SYSTEM COMPARISON (using best weights from ablation)")
-print(f"{'='*70}")
+# print(f"\n{'='*70}")
+# print("SYSTEM COMPARISON (using best weights from ablation)")
+# print(f"{'='*70}")
 
-# BM25
-from retrieval.bm25_retriever import BM25Retriever
-print("\nBuilding BM25...")
-bm25 = BM25Retriever()
-bm25_rankings = {}
-for i, anchor in enumerate(anchors):
-    d = _dish_kb.get(anchor, {})
-    name = d.get("name_vi", "")
-    res = bm25.search(name, top_k=200)
-    bm25_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
-    if (i + 1) % 50 == 0:
-        print(f"  BM25: {i+1}/{len(anchors)}")
+# # BM25
+# from retrieval.bm25_retriever import BM25Retriever
+# print("\nBuilding BM25...")
+# bm25 = BM25Retriever()
+# bm25_rankings = {}
+# for i, anchor in enumerate(anchors):
+#     d = _dish_kb.get(anchor, {})
+#     name = d.get("name_vi", "")
+#     res = bm25.search(name, top_k=200)
+#     bm25_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
+#     if (i + 1) % 50 == 0:
+#         print(f"  BM25: {i+1}/{len(anchors)}")
 
-# BM25+Expansion (flat synonym expansion from ingredient KB)
-print("\nBuilding BM25+Expansion (synonym expansion)...")
-# Load ingredient KB for synonym lookup (same approach as Task 1)
-_ikb = json.loads((ROOT / "app" / "data" / "knowledge_base" /
-                   "ingredient_knowledge_base.json").read_text("utf-8"))
-# Build keyword → synonyms map (flat, no hierarchy)
-_keyword_to_names = {}
-for entry in _ikb:
-    name = entry.get("name_vi", "").lower().strip()
-    syns = [s.lower().strip() for s in (entry.get("synonyms") or [])]
-    if name:
-        _keyword_to_names[name] = syns + [name]
-        for s in syns:
-            _keyword_to_names.setdefault(s, []).append(name)
+# # BM25+Expansion (flat synonym expansion from ingredient KB)
+# print("\nBuilding BM25+Expansion (synonym expansion)...")
+# # Load ingredient KB for synonym lookup (same approach as Task 1)
+# _ikb = json.loads((ROOT / "app" / "data" / "knowledge_base" /
+#                    "ingredient_knowledge_base.json").read_text("utf-8"))
+# # Build keyword → synonyms map (flat, no hierarchy)
+# _keyword_to_names = {}
+# for entry in _ikb:
+#     name = entry.get("name_vi", "").lower().strip()
+#     syns = [s.lower().strip() for s in (entry.get("synonyms") or [])]
+#     if name:
+#         _keyword_to_names[name] = syns + [name]
+#         for s in syns:
+#             _keyword_to_names.setdefault(s, []).append(name)
 
-# Build id → name_vi map for quick lookup
-_ing_id_to_name = {entry["id"]: entry.get("name_vi", "").lower().strip() for entry in _ikb}
+# # Build id → name_vi map for quick lookup
+# _ing_id_to_name = {entry["id"]: entry.get("name_vi", "").lower().strip() for entry in _ikb}
 
-bm25_exp_rankings = {}
-for i, anchor in enumerate(anchors):
-    d = _dish_kb.get(anchor, {})
-    name = d.get("name_vi", "")
-    # Build expanded query: dish name + ingredient names + their synonyms
-    query_parts = [name]
-    for ing in d.get("ingredients", []):
-        ing_name = ing.get("name_vi", "").lower().strip()
-        if ing_name:
-            query_parts.append(ing_name)
-            # Add synonyms for this ingredient (max 3 per ingredient to avoid noise)
-            syns = _keyword_to_names.get(ing_name, [])
-            query_parts.extend(syns[:3])
-    expanded_query = " ".join(query_parts)
-    res = bm25.search(expanded_query, top_k=200)
-    bm25_exp_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
-    if (i + 1) % 50 == 0:
-        print(f"  BM25+Expansion: {i+1}/{len(anchors)}")
+# bm25_exp_rankings = {}
+# for i, anchor in enumerate(anchors):
+#     d = _dish_kb.get(anchor, {})
+#     name = d.get("name_vi", "")
+#     # Build expanded query: dish name + ingredient names + their synonyms
+#     query_parts = [name]
+#     for ing in d.get("ingredients", []):
+#         ing_name = ing.get("name_vi", "").lower().strip()
+#         if ing_name:
+#             query_parts.append(ing_name)
+#             # Add synonyms for this ingredient (max 3 per ingredient to avoid noise)
+#             syns = _keyword_to_names.get(ing_name, [])
+#             query_parts.extend(syns[:3])
+#     expanded_query = " ".join(query_parts)
+#     res = bm25.search(expanded_query, top_k=200)
+#     bm25_exp_rankings[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(res)}
+#     if (i + 1) % 50 == 0:
+#         print(f"  BM25+Expansion: {i+1}/{len(anchors)}")
 
-# Dense (embedding)
-print("Building Dense (embedding)...")
-from ingestion.embedding import EmbeddingModel
-em = EmbeddingModel()
-dishes_dir = ROOT / "processed" / "dishes"
-corpus_ids = []
-corpus_texts = []
-for f in sorted(dishes_dir.glob("*.json")):
-    try:
-        d = json.loads(f.read_text("utf-8"))
-    except:
-        continue
-    text = d.get("name_vi", "")
-    ings = d.get("main_ingredients", []) + d.get("secondary_ingredients", [])
-    if ings:
-        text += " " + " ".join(ings[:10])
-    corpus_ids.append(d["id"])
-    corpus_texts.append(text)
+# # Dense (embedding)
+# print("Building Dense (embedding)...")
+# from ingestion.embedding import EmbeddingModel
+# em = EmbeddingModel()
+# dishes_dir = ROOT / "processed" / "dishes"
+# corpus_ids = []
+# corpus_texts = []
+# for f in sorted(dishes_dir.glob("*.json")):
+#     try:
+#         d = json.loads(f.read_text("utf-8"))
+#     except:
+#         continue
+#     text = d.get("name_vi", "")
+#     ings = d.get("main_ingredients", []) + d.get("secondary_ingredients", [])
+#     if ings:
+#         text += " " + " ".join(ings[:10])
+#     corpus_ids.append(d["id"])
+#     corpus_texts.append(text)
 
-print(f"  Embedding {len(corpus_ids)} dishes...")
-all_vecs = []
-for i in range(0, len(corpus_texts), 128):
-    vecs = em.embed_documents(corpus_texts[i:i+128])
-    all_vecs.extend(vecs)
-corpus_matrix = np.array(all_vecs)
-id_to_idx = {did: idx for idx, did in enumerate(corpus_ids)}
+# print(f"  Embedding {len(corpus_ids)} dishes...")
+# all_vecs = []
+# for i in range(0, len(corpus_texts), 128):
+#     vecs = em.embed_documents(corpus_texts[i:i+128])
+#     all_vecs.extend(vecs)
+# corpus_matrix = np.array(all_vecs)
+# id_to_idx = {did: idx for idx, did in enumerate(corpus_ids)}
 
-dense_rankings = {}
-for i, anchor in enumerate(anchors):
-    a_idx = id_to_idx.get(anchor)
-    if a_idx is not None:
-        qvec = corpus_matrix[a_idx]
-    else:
-        name = _dish_kb.get(anchor, {}).get("name_vi", "")
-        qvec = np.array(em.embed_query(name))
-    scores = (corpus_matrix @ qvec).flatten()
-    cand_scores = {}
-    for cand_id, _ in anchor_groups[anchor]:
-        c_idx = id_to_idx.get(cand_id)
-        cand_scores[cand_id] = float(scores[c_idx]) if c_idx is not None else 0.0
-    dense_rankings[anchor] = cand_scores
-    if (i + 1) % 50 == 0:
-        print(f"  Dense: {i+1}/{len(anchors)}")
+# dense_rankings = {}
+# for i, anchor in enumerate(anchors):
+#     a_idx = id_to_idx.get(anchor)
+#     if a_idx is not None:
+#         qvec = corpus_matrix[a_idx]
+#     else:
+#         name = _dish_kb.get(anchor, {}).get("name_vi", "")
+#         qvec = np.array(em.embed_query(name))
+#     scores = (corpus_matrix @ qvec).flatten()
+#     cand_scores = {}
+#     for cand_id, _ in anchor_groups[anchor]:
+#         c_idx = id_to_idx.get(cand_id)
+#         cand_scores[cand_id] = float(scores[c_idx]) if c_idx is not None else 0.0
+#     dense_rankings[anchor] = cand_scores
+#     if (i + 1) % 50 == 0:
+#         print(f"  Dense: {i+1}/{len(anchors)}")
 
-# Dense+Ontology: use pre-computed components with best weights
-ontology_rankings = {}
-for anchor in anchors:
-    cand_scores = {}
-    for cand_id, gt_score, comps in anchor_data[anchor]:
-        cand_scores[cand_id] = float(comps @ best_w)
-    ontology_rankings[anchor] = cand_scores
+# # Dense+Ontology: use pre-computed components with best weights
+# ontology_rankings = {}
+# for anchor in anchors:
+#     cand_scores = {}
+#     for cand_id, gt_score, comps in anchor_data[anchor]:
+#         cand_scores[cand_id] = float(comps @ best_w)
+#     ontology_rankings[anchor] = cand_scores
 
-# Compute metrics for each system
-def system_metrics(rankings):
-    p5_list, ndcg5_list, mrr5_list = [], [], []
-    for anchor in anchors:
-        candidates = anchor_groups[anchor]
-        r = rankings.get(anchor, {})
-        sorted_cands = sorted(candidates, key=lambda x: r.get(x[0], 0), reverse=True)
-        top5 = sorted_cands[:5]
-        rels = [1 if gt >= POSITIVE_THRESHOLD else 0 for _, gt in top5]
-        p5_list.append(sum(rels) / 5)
-        dcg = sum(rel / math.log2(i + 2) for i, rel in enumerate(rels))
-        n_pos = sum(1 for _, gt in sorted_cands if gt >= POSITIVE_THRESHOLD)
-        ideal = sum(1 / math.log2(i + 2) for i in range(min(n_pos, 5)))
-        ndcg5_list.append(dcg / ideal if ideal > 0 else 0.0)
-        mrr = 0.0
-        for i, rel in enumerate(rels):
-            if rel:
-                mrr = 1.0 / (i + 1)
-                break
-        mrr5_list.append(mrr)
-    return {"P@5": float(np.mean(p5_list)), "NDCG@5": float(np.mean(ndcg5_list)), "MRR@5": float(np.mean(mrr5_list))}
+# # Compute metrics for each system
+# def system_metrics(rankings):
+#     p5_list, ndcg5_list, mrr5_list = [], [], []
+#     for anchor in anchors:
+#         candidates = anchor_groups[anchor]
+#         r = rankings.get(anchor, {})
+#         sorted_cands = sorted(candidates, key=lambda x: r.get(x[0], 0), reverse=True)
+#         top5 = sorted_cands[:5]
+#         rels = [1 if gt >= POSITIVE_THRESHOLD else 0 for _, gt in top5]
+#         p5_list.append(sum(rels) / 5)
+#         dcg = sum(rel / math.log2(i + 2) for i, rel in enumerate(rels))
+#         n_pos = sum(1 for _, gt in sorted_cands if gt >= POSITIVE_THRESHOLD)
+#         ideal = sum(1 / math.log2(i + 2) for i in range(min(n_pos, 5)))
+#         ndcg5_list.append(dcg / ideal if ideal > 0 else 0.0)
+#         mrr = 0.0
+#         for i, rel in enumerate(rels):
+#             if rel:
+#                 mrr = 1.0 / (i + 1)
+#                 break
+#         mrr5_list.append(mrr)
+#     return {"P@5": float(np.mean(p5_list)), "NDCG@5": float(np.mean(ndcg5_list)), "MRR@5": float(np.mean(mrr5_list))}
 
-bm25_m = system_metrics(bm25_rankings)
-bm25_exp_m = system_metrics(bm25_exp_rankings)
-dense_m = system_metrics(dense_rankings)
-ont_m = system_metrics(ontology_rankings)
+# bm25_m = system_metrics(bm25_rankings)
+# bm25_exp_m = system_metrics(bm25_exp_rankings)
+# dense_m = system_metrics(dense_rankings)
+# ont_m = system_metrics(ontology_rankings)
 
-print(f"\n{'System':<18} {'P@5':<8} {'NDCG@5':<8} {'MRR@5':<8}")
-print("-" * 42)
-print(f"{'BM25':<18} {bm25_m['P@5']:.4f}  {bm25_m['NDCG@5']:.4f}  {bm25_m['MRR@5']:.4f}")
-print(f"{'BM25+Expansion':<18} {bm25_exp_m['P@5']:.4f}  {bm25_exp_m['NDCG@5']:.4f}  {bm25_exp_m['MRR@5']:.4f}")
-print(f"{'Dense':<18} {dense_m['P@5']:.4f}  {dense_m['NDCG@5']:.4f}  {dense_m['MRR@5']:.4f}")
-print(f"{'Dense+Ontology':<18} {ont_m['P@5']:.4f}  {ont_m['NDCG@5']:.4f}  {ont_m['MRR@5']:.4f}")
+# print(f"\n{'System':<18} {'P@5':<8} {'NDCG@5':<8} {'MRR@5':<8}")
+# print("-" * 42)
+# print(f"{'BM25':<18} {bm25_m['P@5']:.4f}  {bm25_m['NDCG@5']:.4f}  {bm25_m['MRR@5']:.4f}")
+# print(f"{'BM25+Expansion':<18} {bm25_exp_m['P@5']:.4f}  {bm25_exp_m['NDCG@5']:.4f}  {bm25_exp_m['MRR@5']:.4f}")
+# print(f"{'Dense':<18} {dense_m['P@5']:.4f}  {dense_m['NDCG@5']:.4f}  {dense_m['MRR@5']:.4f}")
+# print(f"{'Dense+Ontology':<18} {ont_m['P@5']:.4f}  {ont_m['NDCG@5']:.4f}  {ont_m['MRR@5']:.4f}")
 
 # ── Save ─────────────────────────────────────────────────────────
 
@@ -490,7 +492,7 @@ output = {
     "configs": all_results,
     "best_config": best[0],
     "best_weights": best[1]["mean_weights"],
-    "system_comparison": {"BM25": bm25_m, "BM25+Expansion": bm25_exp_m, "Dense": dense_m, "Dense+Ontology": ont_m},
+    # "system_comparison": {"BM25": bm25_m, "BM25+Expansion": bm25_exp_m, "Dense": dense_m, "Dense+Ontology": ont_m},
 }
 OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False), "utf-8")
 print(f"\nSaved → {OUTPUT_PATH}")

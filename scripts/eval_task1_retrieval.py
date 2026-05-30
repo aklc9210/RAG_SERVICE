@@ -14,6 +14,7 @@ Usage:
 import argparse
 import json
 import math
+import os
 import sys
 import time
 from pathlib import Path
@@ -23,7 +24,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 QUERIES_PATH = ROOT / "evaluation" / "data" / "task1_class_queries.jsonl"
-OUT_PATH = ROOT / "evaluation" / "outputs" / "ir_task1_ontology_results.json"
+K_DEFAULT = int(os.getenv("TASK_K", "20"))
+OUT_PATH = ROOT / "evaluation" / "outputs" / f"ir_task1_ontology_results_k{K_DEFAULT}.json"
 
 
 # ── Metrics ──────────────────────────────────────────────────────
@@ -215,11 +217,11 @@ def build_rag_ontology_system(dense_search_fn):
 def main():
     ap = argparse.ArgumentParser()
     args = ap.parse_args()
-    K = 20
+    K = K_DEFAULT
 
     # Load queries
     queries = []
-    with open(QUERIES_PATH) as f:
+    with open(QUERIES_PATH, encoding="utf-8") as f:
         for line in f:
             queries.append(json.loads(line))
     print(f"Loaded {len(queries)} queries")
@@ -268,7 +270,7 @@ def main():
             p = precision_at_k(retrieved, gt, K)
             ndcg = ndcg_at_k(retrieved, gt, K)
             mrr = mrr_at_k(retrieved, gt, K)
-            metrics_list.append({"P@20": p, "NDCG@20": ndcg, "MRR@20": mrr})
+            metrics_list.append({f"P@{K}": p, f"NDCG@{K}": ndcg, f"MRR@{K}": mrr})
 
             if (i + 1) % 50 == 0:
                 elapsed = time.time() - t0
@@ -288,11 +290,11 @@ def main():
     print(f"\nSaved → {OUT_PATH}")
 
     # Summary table
-    print(f"\n{'System':<20} {'P@20':<8} {'NDCG@20':<8} {'MRR@20':<8}")
+    print(f"\n{'System':<20} {'P@'+str(K):<8} {'NDCG@'+str(K):<8} {'MRR@'+str(K):<8}")
     print("-" * 44)
     for sys_name, data in all_results.items():
         m = data["mean_metrics"]
-        print(f"{sys_name:<20} {m['P@20']:<8} {m['NDCG@20']:<8} {m['MRR@20']:<8}")
+        print(f"{sys_name:<20} {m[f'P@{K}']:<8} {m[f'NDCG@{K}']:<8} {m[f'MRR@{K}']:<8}")
 
 
 if __name__ == "__main__":

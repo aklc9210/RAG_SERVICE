@@ -6,13 +6,19 @@ We define two evaluation tasks, each designed to isolate a specific ontology con
 \subsection{Task~1: Class-Based Dish Retrieval}
 \label{ssec:task1}
 
-\textbf{Motivation.} Users frequently issue class-level queries such as \textit{``m\'{o}n n\'\acircumflex{}m''} (mushroom dishes) or \textit{``m\'{o}n th\d{i}t kh\^{o}ng cay''} (meat dishes without spice). Dense retrieval cannot resolve these without hierarchical expansion, because the query does not lexically match individual ingredient names.
+\textbf{Motivation.} Users frequently issue queries that combine category constraints with specific preparation or exclusion rules. For example, consider the query \textit{``tìm các món gỏi cá không cay''} (find fish salads that are not spicy). Analyzing this query reveals:
+\begin{itemize}
+    \item \textbf{Class/Method:} \textit{gỏi cá} (fish salad), which implies a combination of a dish type/method (\textit{gỏi}) and an ingredient class (\textit{cá}).
+    \item \textbf{Negation:} \textit{không cay} (not spicy).
+    \item \textbf{Objective:} Retrieve salad dishes made with fish but strictly excluding spicy ingredients such as chili (\textit{ớt}) or satay (\textit{sa tế}).
+\end{itemize}
+Dense retrieval cannot resolve these complex requirements without hierarchical expansion, because the query does not lexically match individual descendant ingredient names.
 
-\textbf{Input/Output.} Input is a natural-language query containing one or more class references and optional negation or cooking-method constraints. Output is a ranked list of dish IDs.
+\textbf{Input/Output.} Input is a natural-language query containing one or more class references and optional negation or cooking-method constraints. Output is a ranked list of dishes.
 
-\textbf{Ground truth.} 200 queries across four types (50 each): single-class, multi-class, negation, and cooking-method. Labels are generated automatically via the \texttt{FoodOntology} API. Construction details are given in Section~\ref{ssec:eval_protocol}.
+% \textbf{Ground truth.} 200 queries across four types (50 each): single-class, multi-class, negation, and cooking-method. Labels are generated automatically via the \texttt{FoodOntology} API. Construction details are given in Section~\ref{ssec:eval_protocol}.
 
-\textbf{Metrics.} P@20, NDCG@20, and MRR@20.\footnote{\label{fn:metrics}P@$k$: Precision at rank $k$; NDCG: Normalized Discounted Cumulative Gain; MRR: Mean Reciprocal Rank.}
+% \textbf{Metrics.} P@20, NDCG@20, and MRR@20.\footnote{\label{fn:metrics}P@$k$: Precision at rank $k$; NDCG: Normalized Discounted Cumulative Gain; MRR: Mean Reciprocal Rank.}
 
 
 \subsection{Task~2: Related-Dish Recommendation}
@@ -22,7 +28,7 @@ We define two evaluation tasks, each designed to isolate a specific ontology con
 
 \textbf{Input/Output.} Input is a dish ID. Output is a ranked list of related dishes.
 
-\textbf{Ground truth.} For each of 200 anchor dishes, we construct a diverse candidate set from four sources: top-Jaccard, mid-range similarity, same-category with low Jaccard, and random negatives (${\sim}$20 candidates per anchor). Three LLM judges score each pair. Construction details are given in Section~\ref{ssec:eval_protocol}.
+% \textbf{Ground truth.} For each of 200 anchor dishes, we construct a diverse candidate set from four sources: top-Jaccard, mid-range similarity, same-category with low Jaccard, and random negatives (${\sim}$20 candidates per anchor). Three LLM judges score each pair. Construction details are given in Section~\ref{ssec:eval_protocol}.
 
-\textbf{Metrics.} P@5, NDCG@5, and MRR@5
+% \textbf{Metrics.} P@5, NDCG@5, and MRR@5
 
