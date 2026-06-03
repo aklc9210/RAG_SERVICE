@@ -28,7 +28,7 @@ Ontology giải quyết các hạn chế này bằng cách mã hóa quan hệ ch
 
 1. Ontology ẩm thực Việt Nam trên ~10.000 món: cây phân cấp nguyên liệu 4 tầng, hệ phân loại món ăn theo 2 trục (byType × byMethod), và 6 quan hệ có tên.
 2. Tích hợp ontology vào hệ thống truy xuất dày đặc tại 2 điểm: mở rộng truy vấn và tính điểm tương tự theo phân cấp.
-3. Hai nhiệm vụ đánh giá tách biệt đóng góp của ontology: truy xuất theo nhóm (1.000 truy vấn) và gợi ý món liên quan (200 anchors với tập ứng viên đa dạng và ablation thành phần), có báo cáo độ đồng thuận giữa người chấm.
+3. Hai nhiệm vụ đánh giá tách biệt đóng góp của ontology: truy xuất theo nhóm (1.000 truy vấn) và gợi ý món liên quan (200 anchors với tập ứng viên đa dạng dùng cho tối ưu trọng số và ablation thành phần, đánh giá cuối trên tập test 25 anchors đã kiểm duyệt human), có báo cáo độ đồng thuận giữa người chấm cho cả hai nhiệm vụ.
 4. So sánh 4 hệ thống với kiểm định thống kê, cung cấp bằng chứng trực tiếp cho đóng góp độc lập của phân cấp, quan hệ có kiểu, và quy tắc suy luận.
 
 ---
@@ -72,7 +72,7 @@ Ontology thực phẩm được định nghĩa là bộ bốn O = (C, R, I, A), 
 
 ### 3.2. Cây phân cấp nguyên liệu và phân loại món ăn
 
-**Cây phân cấp nguyên liệu:** 4 tầng, 49 nhóm (24 nhóm lá), bao phủ 2.112 nguyên liệu. Tầng 0: Ingredient (gốc). Tầng 1: 9 nhóm lớn (Protein, Produce, Seasoning, Staple, Dairy, Beverage, Sweet, Processed, Other). Tầng 2–3: phân biệt chi tiết hơn, ví dụ Protein → AnimalProtein → Seafood.
+**Cây phân cấp nguyên liệu:** 4 tầng, 49 nhóm (**39 nhóm lá**), bao phủ 2.112 nguyên liệu. Tầng 0: Ingredient (gốc). Tầng 1: 9 nhóm lớn (Protein, Produce, Seasoning, Staple, Dairy, Beverage, Sweet, Processed, Other). Tầng 2–3: phân biệt chi tiết hơn, ví dụ Protein → AnimalProtein → Seafood.
 
 Cách xây dựng: (1) thiết kế thủ công cây nhóm dựa trên quy ước ẩm thực Việt Nam; (2) phân loại tự động mỗi nguyên liệu vào nhóm lá bằng LLM (Qwen-2.5 7B, temperature 0, batch 25), sau đó kiểm tra thủ công 100 nguyên liệu phổ biến nhất và kiểm tra ngẫu nhiên 50 mẫu. Nguyên liệu không phân loại được xếp vào nhóm "Other".
 
@@ -84,7 +84,7 @@ Cách xây dựng: (1) thiết kế thủ công cây nhóm dựa trên quy ướ
 
 > NPMI(A, B) = log[P(A,B) / (P(A)·P(B))] / [-log P(A,B)]
 
-**conflictsWith (139 cặp):** 139 quy tắc xung đột dinh dưỡng/y tế nhập từ cơ sở dữ liệu đã kiểm duyệt. Quan hệ này không đưa vào công thức tương tự món ăn (xung đột nguyên liệu trong một món không phản ánh sự khác biệt giữa hai món), phục vụ cho ứng dụng hạ nguồn như lập kế hoạch bữa ăn và kiểm tra an toàn công thức.
+**conflictsWith (139 cặp):** 139 quy tắc xung đột dinh dưỡng/y tế nhập từ cơ sở dữ liệu đã kiểm duyệt (nguồn: [aklc9210/RAG_SERVICE, ingredient_conflict.json](https://github.com/aklc9210/RAG_SERVICE/blob/main/app/data/conflict/ingredient_conflict.json)). Quan hệ này không đưa vào công thức tương tự món ăn (xung đột nguyên liệu trong một món không phản ánh sự khác biệt giữa hai món), phục vụ cho ứng dụng hạ nguồn như lập kế hoạch bữa ăn và kiểm tra an toàn công thức.
 
 **cookedBy (10.741):** Ánh xạ từ trường danh mục món bằng bảng tra 25 mục.
 
