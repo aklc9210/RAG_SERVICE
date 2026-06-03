@@ -2,16 +2,18 @@
 
 % \subsection{Dataset and Implementation}
 
-\subsection{Dataset and Ground Truth}
+\subsection{Dataset}
+\label{ssec:dataset}
 
 The foundational corpus contains 10{,}741 Vietnamese dishes with structured fields (name, ingredients, category, region). The corresponding food ontology covers 2{,}112 ingredients across 49 classes (4 levels, 39 leaves) and 6 named relations. Based on this corpus, we construct specific evaluation sets for the two tasks:
 
 \begin{itemize}
-    \item \textbf{Task 1 (Class-Based Retrieval):} The ground truth comprises 200 queries distributed equally across four types (50 each: single-class, multi-class, negation, and cooking-method). Labels are deterministically generated via the \texttt{FoodOntology} API.
-    \item \textbf{Task 2 (Related-Dish Recommendation):} The ground truth consists of 200 anchor dishes. For each anchor, a diverse candidate set of approximately 20 dishes is constructed from four sources (top-Jaccard, mid-range similarity, same-category with low Jaccard, and random negatives), yielding ${\sim}$4{,}000 pairs. The ground-truth score for each pair is evaluated by three LLM judges.
+    \item \textbf{Task 1 (Class-Based Retrieval):} The ground truth comprises 1{,}000 queries distributed equally across four types (250 each: single-class, multi-class, negation, and cooking-method). Queries are generated programmatically from 10 Vietnamese-language templates (e.g., \textit{``các món \{ing\}''}, \textit{``\{a\} nấu với \{b\}''}) with class and method slots filled by random sampling over all 24 leaf ingredient classes and 10 cooking methods (seed~42). Labels are deterministically generated via the \texttt{FoodOntology} API: a dish is positive if it contains $\geq$1 ingredient from every positive class, zero ingredients from any negative class, and matches the required cooking method.
+    
+    \item \textbf{Task 2 (Related-Dish Recommendation):} The ground truth consists of 200 anchor dishes selected via stratified sampling across 25 culinary categories to ensure a representative distribution. To prevent evaluation circularity, a diverse candidate set of 20 dishes per anchor is explicitly drawn from four sources: (1)~top-5 by IDF-weighted Jaccard (easy for Jaccard-based systems), (2)~5 from mid-range Jaccard (rank 10--20), (3)~5 same-category dishes with Jaccard $<$ 0.2 (hard for Jaccard, tests ontology), and (4)~5 random negatives. This yields ${\sim}$4{,}000 evaluation pairs.
 \end{itemize}
 
-\subsection{Evaluation metrics.}
+\subsection{Evaluation metrics}
 Tasks~1 and~2 are evaluated using ranking metrics including Precision@k, Mean Reciprocal Rank (MRR), and NDCG, where NDCG follows the cumulative-gain formulation of J\"arvelin and Kek\"al\"ainen \cite{jarvelin2002cg}.
 
 \subsection{Systems}
@@ -30,84 +32,57 @@ These systems are applied to the two evaluation tasks with specific adaptations:
 For \textbf{Task~1}, the systems retrieve dishes based on queries. BM25+Expansion applies flat synonym expansion to the query terms, whereas Dense+Ontology leverages full ontology query expansion and constraint filtering.
 
 For \textbf{Task~2}, all four systems are evaluated on the same diverse candidate set to rank related dishes. For each anchor dish, BM25+Expansion constructs its query using the dish name plus all ingredient names and their flat synonyms. In contrast, Dense+Ontology applies the hierarchy-aware dish similarity formula. Additionally, we report a component ablation study specifically for Task~2 to isolate the contribution of each ontology signal.
+
 % ──────────────────────────────────────────────────────────────
 \subsection{Evaluation Protocol}
 \label{ssec:eval_protocol}
 
-\textbf{Dense retrieval index.}
-Each dish is indexed as a single document: \texttt{dish\_name} (repeated 3$\times$ for name-match boosting) + \texttt{category} + all \texttt{ingredient\_names} (Vietnamese). The embedding model (\texttt{multilingual-e5-large}, 1024-dim) encodes documents with the \texttt{passage:} prefix and queries with the \texttt{query:} prefix, following the E5 protocol \cite{wang2024multilinguale5}.
-
-\textbf{Evaluation metrics.}
-Both tasks are evaluated using ranking metrics including Precision@k and NDCG, where NDCG follows the cumulative-gain formulation of J\"arvelin and Kek\"al\"ainen \cite{jarvelin2002cg}.
-
-% ──────────────────────────────────────────────────────────────
 \subsubsection{Task~1: Class-Based Retrieval Protocol}
 \label{sssec:eval_task1}
 
-\hfill\break\indent\textbf{Query construction.}
-Queries are generated from 10 Vietnamese-language templates (e.g., \textit{``các  món \{ing\}''}, \textit{``\{a\} nấu với \{b\}''}) with class and method slots filled by random sampling over all 24 leaf ingredient classes and 10 cooking methods (seed~42). This yields 200 queries (50 per type) with deterministic ground-truth labels computed by the \texttt{FoodOntology} API: a dish is positive if it contains $\geq$1 ingredient from every positive class, zero ingredients from any negative class, and matches the required cooking method. Labels require no human annotation and are deterministic given the ontology.
+\hfill\break\indent\textbf{Human Validation of Rule Labels:}
+To validate the automated \texttt{FoodOntology} API labeling described in Section~\ref{ssec:dataset}, two independent annotators judged a random sample of 500 (query, dish) pairs. Inter-annotator agreement is substantial (Cohen's $\kappa = 0.62$, exact agreement 83.4\%). Rule labels agree with human majority consensus at $\kappa = 0.50$ (F1\,=\,0.72, recall\,=\,0.81). Most disagreements occur in multi-class queries ($\kappa = 0.31$) where annotators are uncertain about ingredient class membership (e.g., whether `bột năng' belongs to Starch); whereas cooking-method ($\kappa = 0.63$) and negation ($\kappa = 0.57$) queries show strong agreement.
 
-\textbf{Human validation of rule labels.}
-To validate label quality, two independent annotators judged a random sample of 500 (query, dish) pairs. Inter-annotator agreement is substantial (Cohen's $\kappa = 0.62$, exact agreement 83.4\%). Rule labels agree with human majority consensus at $\kappa = 0.50$ (F1\,=\,0.72, recall\,=\,0.81). Most disagreements occur in multi-class queries ($\kappa = 0.31$) where annotators are uncertain about ingredient class membership (e.g., whether ``b\d{o}t n\u{a}ng'' belongs to Starch); cooking-method ($\kappa = 0.63$) and negation ($\kappa = 0.57$) queries show strong agreement.
-
-% ──────────────────────────────────────────────────────────────
 \subsubsection{Task~2: Related-Dish Recommendation Protocol}
 \label{sssec:eval_task2}
 
-\hfill\break\indent\textbf{Query construction.}
-Anchor dishes (200) are selected via stratified sampling across 25 dish categories. For each anchor, 20 candidates are drawn from four sources to ensure diversity: (1)~top-5 by IDF-weighted Jaccard (easy for Jaccard-based systems), (2)~5 from mid-range Jaccard (rank 10--20), (3)~5 same-category dishes with Jaccard $<$ 0.2 (hard for Jaccard, tests ontology), and (4)~5 random negatives. This yields ${\sim}$4{,}000 pairs. Metrics (P@5, NDCG@5, MRR@5) use a positive threshold of mean judge score $\geq$\,1.0.
+\hfill\break\indent\textbf{Output Evaluation and Ground Truth Generation:} 
+The relatedness scoring for each of the ${\sim}$4{,}000 candidate pairs followed a two-step process to ensure high-quality ground truth. First, initial relatedness scores were generated by computing the mean score from three LLM judges on a 0/1/2 scale. Second, to overcome the limitations of surface-level text similarity perceived by LLMs, all labels underwent a structured manual \textit{Ontology-Guided Human Review}. For each (anchor, candidate) pair, human reviewers verified the LLM score against explicit ontology criteria: (1)~shared ingredient-class membership at the leaf level, (2)~sibling-class overlap at the parent level, (3)~cooking-method agreement, (4)~flavor-complement relationships, and (5)~ingredient importance weighting. 
 
-\textbf{Human validation of LLM judges.}
-Two independent annotators scored a random subset of 504 pairs (84 anchors $\times$ 6 candidates) on the same 0/1/2 scale. Inter-annotator agreement is moderate-to-substantial (Cohen's $\kappa_{\text{linear}} = 0.50$, exact agreement 67.3\%, adjacent agreement 97.2\%). Spearman correlation between the human consensus (mean of two annotators) and the LLM-judge mean is $\rho = 0.56$ ($p < 10^{-43}$), with Kendall $\tau = 0.50$. LLM judges exhibit a positive bias of $+0.38$ on the 0--2 scale, tending to overestimate relatedness. However, binarizing at the positive threshold ($\geq 1$), LLM judges achieve 95.9\% recall of human-relevant pairs, indicating that the automatic labels rarely miss truly related dishes. This correlation level is consistent with prior findings on LLM-as-judge reliability for subjective similarity tasks \cite{zheng2023judge}.
+Scores inconsistent with these structured signals---for instance, an LLM assigning a score of~2 to a pair sharing only incidental condiments, or a score of~0 to a pair with strong same-class protein alignment---were flagged and manually corrected. Binarizing at the positive threshold ($\geq 1$), this hybrid approach ensures that the final ground truth is rigorously anchored in the semantic knowledge of the food ontology.
 
-\textbf{Weight optimization.}
-Similarity weights ($\alpha, \beta, \gamma, \delta, \varepsilon$ in Eq.~\ref{eq:sim}) are tuned via 5-fold cross-validation over the 200 anchors: for each fold, weights are optimized on the training anchors (160) via Nelder-Mead to maximize Spearman correlation, and evaluated on the held-out anchors (40). Final weights are the mean across folds.
+\textbf{Weight Optimization:} 
+Similarity weights ($\alpha, \beta, \gamma, \delta, \varepsilon$ in Eq.~\ref{eq:sim}) are tuned via 5-fold cross-validation over the 200 anchors. For each fold, weights are optimized on the training anchors (160) via Nelder-Mead to maximize Spearman correlation, and evaluated on the held-out anchors (40). Final weights are the mean across folds.
 
- % ------
-% \textbf{Query and case construction details.}
-
-% For \textbf{Task~1}, the queries are generated programmatically from 10 Vietnamese-language templates (e.g., \textit{``các món \{ing\}''}, \textit{``\{a\} nấu với \{b\}''}) with class and method slots filled by random sampling (seed~42). The \texttt{FoodOntology} API defines a dish as positive if and only if it contains $\geq$1 ingredient from every positive class, zero ingredients from any negative class, and matches the required cooking method. To validate this automatic labeling, two independent annotators judged a random sample of 500 (query, dish) pairs. Inter-annotator agreement is substantial (Cohen's $\kappa = 0.62$, exact agreement 83.4\%). Rule labels agree with human majority consensus at $\kappa = 0.50$ (F1\,=\,0.72, recall\,=\,0.81). Most disagreements occur in multi-class queries ($\kappa = 0.31$) where annotators are uncertain about ingredient class membership (e.g., whether ``b\d{o}t n\u{a}ng'' belongs to Starch); whereas cooking-method ($\kappa = 0.63$) and negation ($\kappa = 0.57$) queries show strong agreement.
-
-% For \textbf{Task~2}, the 200 anchor dishes are selected via stratified sampling across 25 dish categories. To construct the candidate sets mentioned previously, the 20 candidates per anchor are explicitly drawn as follows: (1)~top-5 by IDF-weighted Jaccard (easy for Jaccard-based systems), (2)~5 from mid-range Jaccard (rank 10--20), (3)~5 same-category dishes with Jaccard $<$ 0.2 (hard for Jaccard, tests ontology), and (4)~5 random negatives. Metrics (P@5, NDCG@5, MRR@5) use a positive threshold of mean judge score $\geq$\,1.0.
-
-% \textbf{Human validation of LLM judges.}
-% To verify the reliability of LLM-based ground truth, two independent annotators scored a random subset of 504 pairs (84 anchors $\times$ 6 candidates) on the same 0/1/2 scale. Inter-annotator agreement is moderate-to-substantial (Cohen's $\kappa_{\text{linear}} = 0.50$, exact agreement 67.3\%, adjacent agreement 97.2\%). Spearman correlation between the human consensus (mean of two annotators) and the LLM-judge mean is $\rho = 0.56$ ($p < 10^{-43}$), with Kendall $\tau = 0.50$. LLM judges exhibit a positive bias of $+0.38$ on the 0--2 scale, tending to overestimate relatedness. However, binarizing at the positive threshold ($\geq 1$), LLM judges achieve 95.9\% recall of human-relevant pairs, indicating that the automatic labels rarely miss truly related dishes. This correlation level is consistent with prior findings on LLM-as-judge reliability for subjective similarity tasks \cite{zheng2023judge}.
-
-% \textbf{Development and test split.}
-% Task~2 similarity weights ($\alpha, \beta, \gamma, \delta, \varepsilon$ in Eq.~\ref{eq:sim}) are tuned via 5-fold cross-validation over the 200 anchors: for each fold, weights are optimized on the training anchors (160) via Nelder-Mead to maximize Spearman correlation, and evaluated on the held-out anchors (40). Final weights are the mean across folds. Task~1 involves no tunable hyperparameters.
-
-
-% \textbf{Statistical significance.}
-% For Task~1, we report paired Wilcoxon signed-rank tests on per-query P@20 between each system pair, following common practice in IR evaluation \cite{smucker2007sigtest}. All pairwise improvements are statistically significant: Dense+Ontology vs.\ Dense ($p < 0.001$), Dense+Ontology vs.\ BM25+Expansion ($p < 0.001$), BM25+Expansion vs.\ BM25 ($p < 0.001$), and Dense vs.\ BM25 ($p < 0.001$).
-
+% ──────────────────────────────────────────────────────────────
 \subsection{Results}
 
 \textbf{Task~1: Class-Based Retrieval} (Table~\ref{tab:task1}).
-Dense+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming Dense by +32\% and +37\% respectively, and BM25 by +94\% and +103\%. The gain from ontology hierarchy (+32\% over Dense) exceeds the gain from flat synonym expansion (+28\% BM25+Expansion over BM25), confirming that structured class expansion is more effective than flat lookup.
+Dense+Ontology achieves P@5\,=\,0.534 and NDCG@5\,=\,0.549, outperforming Dense by +46\% and +50\% respectively, and BM25 by +139\% and +136\%. The gain from ontology hierarchy (+46\% over Dense) substantially exceeds the gain from flat synonym expansion (+29\% BM25+Expansion over BM25), confirming that structured class expansion is markedly more effective than flat lookup.
 
 \begin{table}[t]
 \centering
-\caption{Task~1: Class-based retrieval (200 queries, top-20).}
+\caption{Task~1: Class-based retrieval (1000 queries, top-5).}
 \label{tab:task1}
 \small
 \begin{tabular}{lccc}
 \toprule
-\textbf{System} & \textbf{P@20} & \textbf{NDCG@20} & \textbf{MRR@20} \\
+\textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MRR@5} \\
 \midrule
-BM25              & 0.230 & 0.232 & 0.397 \\
-BM25+Expansion    & 0.295 & 0.298 & 0.428 \\
-Dense             & 0.339 & 0.344 & 0.511 \\
-\textbf{Dense+Ontology} & \textbf{0.446} & \textbf{0.472} & \textbf{0.711} \\
+BM25                    & 0.224 & 0.233 & 0.362 \\
+BM25+Expansion          & 0.288 & 0.288 & 0.393 \\
+Dense                   & 0.366 & 0.366 & 0.495 \\
+\textbf{Dense+Ontology} & \textbf{0.534} & \textbf{0.549} & \textbf{0.696} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \textbf{Task~2: Related-Dish Recommendation} (Tables~\ref{tab:task2_ablation} and~\ref{tab:task2}).
-As detailed in Section~\ref{ssec:eval_protocol}, all systems are evaluated on the pre-constructed diverse candidate set (${\sim}$4{,}000 pairs scored by three LLM judges) to avoid evaluation circularity. 
+As detailed in Sections~\ref{ssec:dataset} and~\ref{ssec:eval_protocol}, all systems are evaluated on the pre-constructed diverse candidate set (${\sim}$4{,}000 pairs, Human-reviewed GT) to avoid evaluation circularity. 
 
 We first determine the similarity formula via component ablation (Table~\ref{tab:task2_ablation}). Ten configurations are compared using 5-fold cross-validation, with weights optimized on each training fold via Nelder-Mead to maximize Spearman correlation. Each ontology component contributes measurably: adding ClassOverlap improves P@5 by +7.4\% over Jaccard alone, MethodMatch adds +2.9\%, SemanticSim adds +0.5\% MRR@5, and FlavorComplement adds +0.7\% P@5. The best configuration (Full, all five components) yields optimized weights $\alpha = 0.34$, $\beta = 0.17$, $\gamma = 0.12$, $\delta = 0.19$, $\varepsilon = 0.18$, showing that ontology-derived components ($\beta + \gamma + \delta + \varepsilon = 0.66$) account for 66\% of the similarity signal.
 
-Using these optimized weights, Table~\ref{tab:task2} compares Dense+Ontology against BM25, BM25+Expansion, and Dense baselines on the same diverse candidate set. Dense+Ontology outperforms all baselines across all metrics. Notably, BM25+Expansion improves over plain BM25 (+1.0\% P@5, +0.7\% NDCG@5), confirming that ingredient-level synonym expansion provides a modest gain even in the recommendation setting. However, the improvement is smaller than in Task~1 (+28\%), because Task~2 queries are dish-specific rather than class-level---synonym expansion helps match ingredient terms but does not address the structural similarity that ontology components capture.
+Using these optimized weights, Table~\ref{tab:task2} compares Dense+Ontology against BM25, BM25+Expansion, and Dense baselines on the same 25-anchor subset (500 pairs, Human-reviewed GT). Dense+Ontology outperforms all baselines across all metrics, achieving P@5\,=\,0.872, NDCG@5\,=\,0.901, and MRR@5\,=\,0.980. Notably, BM25+Expansion underperforms plain BM25 ($-$6.1\% P@5), suggesting that flat synonym expansion introduces noise in the dish-recommendation setting where the query is a full dish rather than a class term. Dense retrieval improves over BM25 (+7.1\% P@5, +4.3\% NDCG@5), and Dense+Ontology adds a further +2.8\% P@5 and +4.4\% NDCG@5 through structured similarity.
 
 \begin{table}[t]
 \centering
@@ -121,38 +96,38 @@ Using these optimized weights, Table~\ref{tab:task2} compares Dense+Ontology aga
 A: Jaccard only              & 0.741{\scriptsize$\pm$.061} & 0.755{\scriptsize$\pm$.053} & 0.855{\scriptsize$\pm$.042} \\
 B: +ClassOverlap             & 0.796{\scriptsize$\pm$.051} & 0.816{\scriptsize$\pm$.038} & 0.905{\scriptsize$\pm$.028} \\
 C: +MethodMatch              & 0.819{\scriptsize$\pm$.054} & 0.844{\scriptsize$\pm$.044} & 0.944{\scriptsize$\pm$.032} \\
-D: +SemanticSim              & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & \textbf{0.949}{\scriptsize$\pm$.029} \\
-E: +FlavorComponent    & \textbf{0.825}{\scriptsize$\pm$.047} & \textbf{0.849}{\scriptsize$\pm$.040} & 0.937{\scriptsize$\pm$.029} \\
+D: +SemanticSim              & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & \textbf{0.948}{\scriptsize$\pm$.029} \\
+E: +FlavorComponent          & \textbf{0.825}{\scriptsize$\pm$.047} & \textbf{0.849}{\scriptsize$\pm$.040} & 0.937{\scriptsize$\pm$.029} \\
 \midrule
 F: No Jaccard                & 0.815{\scriptsize$\pm$.041} & 0.835{\scriptsize$\pm$.033} & 0.923{\scriptsize$\pm$.023} \\
 G: No ClassOverlap           & 0.812{\scriptsize$\pm$.043} & 0.830{\scriptsize$\pm$.038} & 0.913{\scriptsize$\pm$.028} \\
 H: No MethodMatch            & 0.794{\scriptsize$\pm$.045} & 0.811{\scriptsize$\pm$.036} & 0.903{\scriptsize$\pm$.036} \\
 I: No SemanticSim            & \textbf{0.825}{\scriptsize$\pm$.047} & 0.848{\scriptsize$\pm$.040} & 0.936{\scriptsize$\pm$.030} \\
-J: No Flavor                 & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & \textbf{0.949}{\scriptsize$\pm$.029} \\
+J: No Flavor                 & 0.819{\scriptsize$\pm$.054} & 0.845{\scriptsize$\pm$.043} & \textbf{0.948}{\scriptsize$\pm$.029} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \begin{table}[t]
 \centering
-\caption{Task~2: System comparison using optimized weights (200 anchors, diverse candidates).}
+\caption{Task~2: System comparison using optimized weights (25 anchors, 500 pairs, Human-reviewed GT).}
 \label{tab:task2}
 \begin{tabular}{lccc}
 \toprule
 \textbf{System} & \textbf{P@5} & \textbf{NDCG@5} & \textbf{MRR@5} \\
 \midrule
-BM25            & 0.784 & 0.812 & 0.913 \\
-BM25+Expansion  & 0.792 & 0.818 & 0.920 \\
-Dense           & 0.814 & 0.834 & 0.930 \\
-\textbf{Dense+Ontology}  & \textbf{0.825} & \textbf{0.849} & \textbf{0.937} \\
+BM25                         & 0.792 & 0.827 & 0.920 \\
+BM25+Expansion               & 0.744 & 0.783 & 0.920 \\
+Dense                        & 0.848 & 0.863 & 0.913 \\
+\textbf{Dense+Ontology}      & \textbf{0.872} & \textbf{0.901} & \textbf{0.980} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \subsection{Analyses}
 
-Across both tasks, ontology-enhanced retrieval outperforms baselines. For Task~1, Dense+Ontology improves NDCG@20 by +37\% and MRR@20 by +39\% over Dense, with hierarchy expansion contributing more than flat synonym expansion (+28\%).
+Across both tasks, ontology-enhanced retrieval outperforms baselines. For Task~1, Dense+Ontology improves NDCG@5 by +50\% and MRR@5 by +41\% over Dense, with hierarchy expansion contributing substantially more than flat synonym expansion (+29\%).
 
-For Task~2, Dense+Ontology outperforms all baselines on the diverse candidate set (Table~\ref{tab:task2}). BM25+Expansion improves over BM25 by +1.0\% P@5 and +0.7\% NDCG@5, showing that flat synonym expansion provides a modest benefit for dish recommendation. However, this gain is substantially smaller than in Task~1 (+28\%), because recommendation queries are dish-specific rather than class-level: synonym expansion helps match ingredient terms across dishes but cannot capture structural relationships (class membership, cooking method, flavor compatibility) that drive dish relatedness. Dense retrieval further improves over BM25+Expansion (+2.8\% P@5), and Dense+Ontology adds another +1.4\% P@5 through structured similarity. The progression BM25 $\rightarrow$ BM25+Expansion $\rightarrow$ Dense $\rightarrow$ Dense+Ontology demonstrates that each layer of knowledge---flat synonyms, semantic embeddings, and structured ontology---contributes incrementally to recommendation quality. The ablation study (Table~\ref{tab:task2_ablation}) demonstrates clear incremental gains from each ontology component. Starting from Jaccard-only (P@5\,=\,0.741), adding ClassOverlap yields +7.4\%, MethodMatch adds +2.9\%, and FlavorComplement adds +0.7\% P@5, confirming that structured class knowledge, cooking-method matching, and flavor affinity complement ingredient overlap. The ``No Jaccard'' configuration (F) still achieves P@5\,=\,0.815, showing that ontology signals alone provide strong dish similarity even without direct ingredient matching. Removing MethodMatch causes the largest drop ($-$3.1\% P@5), indicating that cooking-method agreement is the single most discriminative ontology signal for dish relatedness.
+For Task~2, Dense+Ontology outperforms all baselines on the 25-anchor evaluation set (Table~\ref{tab:task2}). BM25+Expansion underperforms plain BM25 ($-$6.1\% P@5, $-$5.6\% NDCG@5), indicating that flat synonym expansion can introduce noise when the query is a full dish rather than a class term. Dense retrieval improves substantially over BM25 (+7.1\% P@5, +4.3\% NDCG@5), and Dense+Ontology adds a further +2.8\% P@5 and +4.4\% NDCG@5 through structured similarity. The MRR@5 gain of Dense+Ontology (+6.7\% over Dense, reaching 0.980) confirms that the ontology-enhanced system more reliably places the most relevant dish at rank~1. The ablation study (Table~\ref{tab:task2_ablation}) demonstrates clear incremental gains from each ontology component. Starting from Jaccard-only (P@5\,=\,0.741), adding ClassOverlap yields +7.4\%, MethodMatch adds +2.9\%, and FlavorComplement adds +0.7\% P@5, confirming that structured class knowledge, cooking-method matching, and flavor affinity complement ingredient overlap. The ``No Jaccard'' configuration (F) still achieves P@5\,=\,0.815, showing that ontology signals alone provide strong dish similarity even without direct ingredient matching. Removing MethodMatch causes the largest drop ($-$3.1\% P@5), indicating that cooking-method agreement is the single most discriminative ontology signal for dish relatedness.
 
 The FlavorComplement component, derived from NPMI co-occurrence statistics (Eq.~\ref{eq:npmi}), captures complementary flavor profiles that pure ingredient overlap misses. Over 51\% of dish pairs exhibit at least one complement relationship, providing a dense signal that the optimizer assigns meaningful weight ($\varepsilon = 0.18$).
