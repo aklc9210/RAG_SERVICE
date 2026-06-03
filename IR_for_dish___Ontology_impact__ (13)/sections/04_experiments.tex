@@ -20,17 +20,31 @@ karpukhin2020dense, thakur2021beir}.
 \subsection{Evaluation Protocol}
 \label{ssec:eval_protocol}
 
-\textbf{Query and case construction.}
+\textbf{Dense retrieval index.}
+Each dish is indexed as a single document: \texttt{dish\_name} (repeated 3$\times$ for name-match boosting) + \texttt{category} + all \texttt{ingredient\_names} (Vietnamese). The embedding model (\texttt{multilingual-e5-large}, 1024-dim) encodes documents with the \texttt{passage:} prefix and queries with the \texttt{query:} prefix, following the E5 protocol \cite{wang2024multilinguale5}.
 
-Task~1 queries are generated programmatically from 10 Vietnamese-language templates (e.g., \textit{``các món \{ing\}''}, \textit{``\{a\} nấu với \{b\}''}) with class and method slots filled by random sampling over all 24 leaf ingredient classes and 10 cooking methods (seed~42). This yields 200 queries (50 per type) with deterministic ground-truth labels computed by the \texttt{FoodOntology} API: a dish is positive iff it contains $\geq$1 ingredient from every positive class, zero ingredients from any negative class, and matches the required cooking method. Labels require no human annotation and are deterministic given the ontology. To validate label quality, two independent annotators judged a random sample of 500 (query, dish) pairs. Inter-annotator agreement is substantial (Cohen's $\kappa = 0.62$, exact agreement 83.4\%). Rule labels agree with human majority consensus at $\kappa = 0.50$ (F1\,=\,0.72, recall\,=\,0.81). Most disagreements occur in multi-class queries ($\kappa = 0.31$) where annotators are uncertain about ingredient class membership (e.g., whether ``bột năng'' belongs to Starch); cooking-method ($\kappa = 0.63$) and negation ($\kappa = 0.57$) queries show strong agreement.
+\textbf{Evaluation metrics.}
+Both tasks are evaluated using ranking metrics including Precision@k and NDCG, where NDCG follows the cumulative-gain formulation of J\"arvelin and Kek\"al\"ainen \cite{jarvelin2002cg}.
 
+% ──────────────────────────────────────────────────────────────
+\subsubsection{Task~1: Class-Based Retrieval Protocol}
+\label{sssec:eval_task1}
+\hfill\break\indent\textbf{Query construction.}
+Queries are generated programmatically from 10 Vietnamese-language templates (e.g., \textit{``các món \{ing\}''}, \textit{``\{a\} nấu với \{b\}''}) with class and method slots filled by random sampling over all 24 leaf ingredient classes and 10 cooking methods (seed~42). This yields 200 queries (50 per type) with deterministic ground-truth labels computed by the \texttt{FoodOntology} API: a dish is positive iff it contains $\geq$1 ingredient from every positive class, zero ingredients from any negative class, and matches the required cooking method. Labels require no human annotation and are deterministic given the ontology.
 
-Task~2 anchor dishes (200) are selected via stratified sampling across 25 dish categories. For each anchor, 20 candidates are drawn from four sources to ensure diversity: (1)~top-5 by IDF-weighted Jaccard (easy for Jaccard-based systems), (2)~5 from mid-range Jaccard (rank 10--20), (3)~5 same-category dishes with Jaccard $<$ 0.2 (hard for Jaccard, tests ontology), and (4)~5 random negatives. This yields ${\sim}$4{,}000 pairs. All pairs are scored by three LLM judges; the mean score serves as ground truth. Metrics (P@5, NDCG@5, MRR@5) use a positive threshold of mean judge score $\geq$\,1.0.
+\textbf{Human validation of rule labels.}
+To validate label quality, two independent annotators judged a random sample of 500 (query, dish) pairs. Inter-annotator agreement is substantial (Cohen's $\kappa = 0.62$, exact agreement 83.4\%). Rule labels agree with human majority consensus at $\kappa = 0.50$ (F1\,=\,0.72, recall\,=\,0.81). Most disagreements occur in multi-class queries ($\kappa = 0.31$) where annotators are uncertain about ingredient class membership (e.g., whether ``bột năng'' belongs to Starch); cooking-method ($\kappa = 0.63$) and negation ($\kappa = 0.57$) queries show strong agreement.
 
+Task~1 involves no tunable hyperparameters.
 
+% ──────────────────────────────────────────────────────────────
+\subsubsection{Task~2: Related-Dish Recommendation Protocol}
+\label{sssec:eval_task2}
+\hfill\break\indent\textbf{Candidate construction.}
+Anchor dishes (200) are selected via stratified sampling across 25 dish categories. For each anchor, 20 candidates are drawn from four sources to ensure diversity: (1)~top-5 by IDF-weighted Jaccard (easy for Jaccard-based systems), (2)~5 from mid-range Jaccard (rank 10--20), (3)~5 same-category dishes with Jaccard $<$ 0.2 (hard for Jaccard, tests ontology), and (4)~5 random negatives. This yields ${\sim}$4{,}000 pairs. Metrics (P@5, NDCG@5, MRR@5) use a positive threshold of mean judge score $\geq$\,1.0.
 
-\textbf{Annotation and judge protocol.}
-Task~2 uses three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textbf{Mistral 7B}) scoring relatedness on a 0/1/2 scale with the following prompt:
+\textbf{LLM judge protocol.}
+All pairs are scored by three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textbf{Mistral 7B}) on a 0/1/2 relatedness scale with the following prompt:
 
 \begin{quote}
 \small
@@ -39,27 +53,16 @@ Task~2 uses three LLM judges (\textbf{Llama-3.1 8B}, \textbf{Gemma-2 9B}, \textb
 
 The three judges achieve Fleiss' $\kappa = 0.336$ (fair agreement) and pairwise exact agreement of 70--76\% (Llama--Gemma: 75.6\%, Llama--Mistral: 69.9\%, Gemma--Mistral: 74.1\%). Mean scores are consistent across judges (Llama: 0.79, Gemma: 0.79, Mistral: 0.97). The ground-truth label for each pair is the mean score across the three judges \cite{zheng2023judge, chen2024judgebias, huang2025llmjudge}.
 
-
 \textbf{Human validation of LLM judges.}
-To verify the reliability of LLM-based ground truth, two independent annotators scored a random subset of 300 pairs on the same 0/1/2 scale. Inter-annotator agreement is moderate (Cohen's $\kappa_{\text{linear}} = 0.44$, exact agreement 60\%, adjacent agreement 96\%). Spearman correlation between the human consensus (mean of two annotators) and the LLM-judge mean is $\rho = 0.50$ ($p < 10^{-19}$), with Kendall $\tau = 0.44$. LLM judges exhibit a positive bias of $+0.28$ on the 0--2 scale, tending to overestimate relatedness. However, binarizing at the positive threshold ($\geq 1$), LLM judges achieve 96.1\% recall of human-relevant pairs, indicating that the automatic labels rarely miss truly related dishes. This moderate correlation is consistent with prior findings on LLM-as-judge reliability for subjective similarity tasks \cite{zheng2023judge}.
+Two independent annotators scored a random subset of 300 pairs on the same 0/1/2 scale. Inter-annotator agreement is moderate (Cohen's $\kappa_{\text{linear}} = 0.44$, exact agreement 60\%, adjacent agreement 96\%). Spearman correlation between the human consensus (mean of two annotators) and the LLM-judge mean is $\rho = 0.50$ ($p < 10^{-19}$), with Kendall $\tau = 0.44$. LLM judges exhibit a positive bias of $+0.28$ on the 0--2 scale, tending to overestimate relatedness. However, binarizing at the positive threshold ($\geq 1$), LLM judges achieve 96.1\% recall of human-relevant pairs, indicating that the automatic labels rarely miss truly related dishes. This moderate correlation is consistent with prior findings on LLM-as-judge reliability for subjective similarity tasks \cite{zheng2023judge}.
 
-\textbf{Development and test split.}
-Task~2 similarity weights ($\alpha, \beta, \gamma, \delta$ in Eq.~\ref{eq:sim}) are tuned via 5-fold cross-validation over the 200 anchors: for each fold, weights are optimized on the training anchors (160) via Nelder-Mead to maximize Spearman correlation, and evaluated on the held-out anchors (40). Final weights are the mean across folds. Task~1 involves no tunable hyperparameters.
-
-
-\textbf{Evaluation metrics.}
-Tasks~1 and~2 are evaluated using ranking metrics including Precision@k and NDCG, where NDCG follows the cumulative-gain formulation of J\"arvelin and Kek\"al\"ainen \cite{jarvelin2002cg}.
-
-\textbf{Dense retrieval index.}
-Each dish is indexed as a single document: \texttt{dish\_name} (repeated 3$\times$ for name-match boosting) + \texttt{category} + all \texttt{ingredient\_names} (Vietnamese). The embedding model (\texttt{multilingual-e5-large}, 1024-dim) encodes documents with the \texttt{passage:} prefix and queries with the \texttt{query:} prefix, following the E5 protocol \cite{wang2024multilinguale5}.
-
-\textbf{Statistical significance.}
-For Task~1, we report paired Wilcoxon signed-rank tests on per-query P@20 between each system pair, following common practice in IR evaluation \cite{smucker2007sigtest}. All pairwise improvements are statistically significant: Dense+Ontology vs.\ Dense ($p < 0.001$), Dense+Ontology vs.\ BM25+Expansion ($p < 0.001$), BM25+Expansion vs.\ BM25 ($p < 0.001$), and Dense vs.\ BM25 ($p < 0.001$).
+\textbf{Weight optimization.}
+Similarity weights ($\alpha, \beta, \gamma, \delta$ in Eq.~\ref{eq:sim}) are tuned via 5-fold cross-validation over the 200 anchors: for each fold, weights are optimized on the training anchors (160) via Nelder-Mead to maximize Spearman correlation, and evaluated on the held-out anchors (40). Final weights are the mean across folds.
 
 \subsection{Results}
 
 \textbf{Task~1: Class-Based Retrieval} (Table~\ref{tab:task1}).
-Dense+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming Dense by +32\% and +37\% respectively, and BM25 by +94\% and +103\%. The gain from ontology hierarchy (+32\% over Dense) exceeds the gain from flat synonym expansion (+28\% BM25+Expansion over BM25), confirming that structured class expansion is more effective than flat lookup.
+Dense+Ontology achieves P@20\,=\,0.446 and NDCG@20\,=\,0.472, outperforming Dense by +32\% and +37\% respectively, and BM25 by +94\% and +103\%. The gain from ontology hierarchy (+32\% over Dense) exceeds the gain from flat synonym expansion (+28\% BM25+Expansion over BM25), confirming that structured class expansion is more effective than flat lookup. Paired Wilcoxon signed-rank tests on per-query P@20 \cite{smucker2007sigtest} confirm all pairwise improvements are statistically significant ($p < 0.001$ for all pairs).
 
 \begin{table}[t]
 \centering
