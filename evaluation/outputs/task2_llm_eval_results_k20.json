@@ -1,0 +1,37 @@
+{
+  "method": "Weights trained on LLM labels, evaluated on LLM-judge GT (llm_mean_score)",
+  "ground_truth": "llm_mean_score from task2_human_annotation_v2.csv",
+  "n_anchors": 25,
+  "n_pairs": 500,
+  "positive_threshold": 1.0,
+  "k": 20,
+  "weights_used": {
+    "alpha": 0.3932031384729294,
+    "beta": 0.17798045688987107,
+    "gamma": 0.11236717412900402,
+    "delta": 0.3164492305081954,
+    "epsilon": 0.0
+  },
+  "results": {
+    "BM25": {
+      "P@20": 0.608,
+      "NDCG@20": 0.9034,
+      "MRR@20": 0.9278
+    },
+    "BM25+Expansion": {
+      "P@20": 0.608,
+      "NDCG@20": 0.8872,
+      "MRR@20": 0.9278
+    },
+    "Dense": {
+      "P@20": 0.608,
+      "NDCG@20": 0.9189,
+      "MRR@20": 0.92
+    },
+    "Dense+Ontology": {
+      "P@20": 0.608,
+      "NDCG@20": 0.9503,
+      "MRR@20": 1.0
+    }
+  }
+}

@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""Task 2: Evaluate systems on human-annotated test set (504 pairs).
+"""Task 2: Evaluate systems using LLM-judge mean score as ground truth.
 
-Uses weights from task3_ablation_cv (optimized on LLM-labeled data).
+Replaces human annotations (annotator_1, annotator_2) with llm_mean_score
+from task2_human_annotation_v2.csv.
+
 Evaluates 4 systems: BM25, BM25+Expansion, Dense, Dense+Ontology.
-Reports P@5, NDCG@5, MRR@5.
+Reports P@K, NDCG@K, MRR@K.
 
-Human GT: mean of 2 annotators, positive threshold >= 1.0.
+GT: llm_mean_score column from annotation CSV, positive threshold >= 1.0.
 
 Usage:
-    python3 scripts/task2_eval_human.py
+    python3 scripts/task2_eval_llm_gt.py           # K=5 (default)
+    TASK_K=10 python3 scripts/task2_eval_llm_gt.py
+    TASK_K=20 python3 scripts/task2_eval_llm_gt.py
 """
 import csv
 import json
@@ -25,7 +29,7 @@ sys.path.insert(0, str(ROOT))
 
 from retrieval.ontology import FoodOntology
 
-# Paths
+# ── Paths ────────────────────────────────────────────────────────
 HUMAN_FILE = ROOT / "evaluation" / "annotation" / "task2_human_annotation_v2.csv"
 GT_PATH = ROOT / "evaluation" / "data" / "datasets" / "task3_related_gt.jsonl"
 
@@ -38,27 +42,32 @@ WEIGHTS_PATH = Path(os.getenv("WEIGHTS_PATH")) if os.getenv("WEIGHTS_PATH") else
     LEGACY_WEIGHTS_PATH if K == 5 and LEGACY_WEIGHTS_PATH.exists() else DEFAULT_WEIGHTS_PATH
 )
 
-OUTPUT_PATH = ROOT / "evaluation" / "outputs" / f"task2_human_eval_results_k{K}.json"
+OUTPUT_PATH = ROOT / "evaluation" / "outputs" / f"task2_llm_eval_results_k{K}.json"
 
-# ── Load human annotations ───────────────────────────────────────
+# ── Load LLM-judge pairs ─────────────────────────────────────────
 
-def load_human_pairs():
-    """Load 500 human-annotated pairs (25 anchors × 20 candidates)."""
+def load_llm_pairs():
+    """Load pairs using llm_mean_score as ground truth (ignoring human columns)."""
     rows = []
     with open(HUMAN_FILE, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
     anchor_groups = defaultdict(list)
+    skipped = 0
     for r in rows:
-        a1 = r.get("annotator_1", "").strip()
-        a2 = r.get("annotator_2", "").strip()
-        if not a1 or not a2:
-            # Not yet annotated — skip
+        llm_score_str = r.get("llm_mean_score", "").strip()
+        if not llm_score_str:
+            skipped += 1
             continue
-        human_mean = (float(a1) + float(a2)) / 2.0
-        anchor_groups[r["anchor_dish_id"]].append((r["candidate_dish_id"], human_mean))
+        try:
+            llm_score = float(llm_score_str)
+        except ValueError:
+            skipped += 1
+            continue
+        anchor_groups[r["anchor_dish_id"]].append((r["candidate_dish_id"], llm_score))
 
-    print(f"Loaded {sum(len(v) for v in anchor_groups.values())} human-annotated pairs, {len(anchor_groups)} anchors")
+    n_pairs = sum(len(v) for v in anchor_groups.values())
+    print(f"Loaded {n_pairs} pairs from {len(anchor_groups)} anchors (LLM GT, skipped={skipped})")
     return anchor_groups
 
 
@@ -68,11 +77,11 @@ def load_weights():
     data = json.loads(WEIGHTS_PATH.read_text("utf-8"))
     w = data["best_weights"]
     weights = np.array([w["alpha"], w["beta"], w["gamma"], w["delta"], w["epsilon"]])
-    print(f"Loaded weights from {WEIGHTS_PATH.name}: {weights}")
+    print(f"Loaded weights from {WEIGHTS_PATH.name}: {weights.round(4)}")
     return weights
 
 
-# ── Component computation (same as optimize script) ──────────────
+# ── Component computation (same as ablation script) ──────────────
 
 ont = FoodOntology()
 _dish_kb = {d["id"]: d for d in json.loads(
@@ -169,49 +178,47 @@ def _weighted_class_overlap(ings_a, ings_b, w_a, w_b):
 # ── Metrics ──────────────────────────────────────────────────────
 
 def compute_ranking_metrics(anchor_groups, score_fn):
-    """Compute P@5, NDCG@5, MRR@5 using score_fn(anchor, candidate) -> float."""
-    p5_list, ndcg5_list, mrr5_list = [], [], []
+    """Compute P@K, NDCG@K, MRR@K using score_fn(anchor, candidate) -> float."""
+    p_list, ndcg_list, mrr_list = [], [], []
 
     for anchor, candidates in anchor_groups.items():
-        # Score and rank candidates
-        scored = [(cand, human_gt, score_fn(anchor, cand)) for cand, human_gt in candidates]
+        scored = [(cand, llm_gt, score_fn(anchor, cand)) for cand, llm_gt in candidates]
         scored.sort(key=lambda x: -x[2])
-        top5 = scored[:K]
-        rels = [1 if gt >= POSITIVE_THRESHOLD else 0 for _, gt, _ in top5]
+        topk = scored[:K]
+        rels = [1 if gt >= POSITIVE_THRESHOLD else 0 for _, gt, _ in topk]
 
-        p5_list.append(sum(rels) / K)
+        p_list.append(sum(rels) / K)
 
         dcg = sum(r / math.log2(i + 2) for i, r in enumerate(rels))
         n_pos = sum(1 for _, gt, _ in scored if gt >= POSITIVE_THRESHOLD)
         ideal = sum(1 / math.log2(i + 2) for i in range(min(n_pos, K)))
-        ndcg5_list.append(dcg / ideal if ideal > 0 else 0.0)
+        ndcg_list.append(dcg / ideal if ideal > 0 else 0.0)
 
         mrr = 0.0
         for i, r in enumerate(rels):
             if r:
                 mrr = 1.0 / (i + 1)
                 break
-        mrr5_list.append(mrr)
+        mrr_list.append(mrr)
 
     k_label = str(K)
     return {
-        f"P@{k_label}": round(float(np.mean(p5_list)), 4),
-        f"NDCG@{k_label}": round(float(np.mean(ndcg5_list)), 4),
-        f"MRR@{k_label}": round(float(np.mean(mrr5_list)), 4),
+        f"P@{k_label}": round(float(np.mean(p_list)), 4),
+        f"NDCG@{k_label}": round(float(np.mean(ndcg_list)), 4),
+        f"MRR@{k_label}": round(float(np.mean(mrr_list)), 4),
     }
 
 
 # ── Build systems ────────────────────────────────────────────────
 
 def build_systems(anchor_groups, weights):
-    """Build scoring functions for each system."""
     all_anchors = list(anchor_groups.keys())
     all_candidates = set()
     for cands in anchor_groups.values():
         for c, _ in cands:
             all_candidates.add(c)
 
-    # Pre-compute ontology components for Dense+Ontology
+    # Pre-compute ontology components
     print("  Pre-computing ontology components...")
     ont_comps = {}
     for anchor in all_anchors:
@@ -240,7 +247,6 @@ def build_systems(anchor_groups, weights):
     from ingestion.embedding import EmbeddingModel
     em = EmbeddingModel()
 
-    # Embed all relevant dishes
     all_dish_ids = list(set(all_anchors) | all_candidates)
     dish_texts = {}
     for did in all_dish_ids:
@@ -259,15 +265,6 @@ def build_systems(anchor_groups, weights):
         all_vecs.extend(vecs)
     dish_vectors = {did: np.array(vec) for did, vec in zip(all_dish_ids, all_vecs)}
 
-    # Score functions
-    def bm25_score(anchor, cand):
-        name = _dish_kb.get(anchor, {}).get("name_vi", "")
-        results = bm25.search(name, top_k=200)
-        for idx, r in enumerate(results):
-            if r["dish_id"] == cand:
-                return 1.0 / (idx + 1)
-        return 0.0
-
     # Cache BM25 results per anchor
     print("  Caching BM25 rankings...")
     bm25_cache = {}
@@ -278,7 +275,7 @@ def build_systems(anchor_groups, weights):
         results = bm25.search(name, top_k=200)
         bm25_cache[anchor] = {r["dish_id"]: 1.0 / (idx + 1) for idx, r in enumerate(results)}
 
-        # Expanded query
+        # Expanded query: dish name + ingredient names + synonyms
         query_parts = [name]
         for ing in d.get("ingredients", []):
             ing_name = ing.get("name_vi", "").lower().strip()
@@ -313,31 +310,46 @@ def build_systems(anchor_groups, weights):
     }
 
 
+# ── Also compute ablation on LLM GT ──────────────────────────────
+
+def compute_ablation_llm_gt(anchor_groups):
+    """Compute ablation table (A–J) using LLM GT scores (same as run_ablation_5comp but
+    on the annotation CSV subset, no CV — just report using pre-trained best weights)."""
+    from evaluation.outputs import task3_ablation_cv_results_5comp  # noqa: not real import
+    pass  # ablation uses the same weights file; full CV already in task3_ablation_cv_results_5comp.json
+
+
 # ── Main ─────────────────────────────────────────────────────────
 
 def main():
-    human_groups = load_human_pairs()
+    print(f"Task 2 eval with LLM GT — K={K}")
+    print("=" * 60)
+
+    llm_groups = load_llm_pairs()
     weights = load_weights()
 
     print("\nBuilding systems...")
-    systems = build_systems(human_groups, weights)
+    systems = build_systems(llm_groups, weights)
 
-    print(f"\nEvaluating on {sum(len(v) for v in human_groups.values())} human-annotated pairs ({len(human_groups)} anchors)...")
-    print(f"\n{'System':<18} {'P@'+str(K):<8} {'NDCG@'+str(K):<8} {'MRR@'+str(K):<8}")
-    print("-" * 42)
+    n_pairs = sum(len(v) for v in llm_groups.values())
+    print(f"\nEvaluating on {n_pairs} LLM-annotated pairs ({len(llm_groups)} anchors)...")
+    print(f"\n{'System':<18} {'P@'+str(K):<10} {'NDCG@'+str(K):<10} {'MRR@'+str(K):<10}")
+    print("-" * 48)
 
     results = {}
     for sys_name, score_fn in systems.items():
-        m = compute_ranking_metrics(human_groups, score_fn)
+        m = compute_ranking_metrics(llm_groups, score_fn)
         results[sys_name] = m
-        print(f"{sys_name:<18} {m['P@'+str(K)]:<8} {m['NDCG@'+str(K)]:<8} {m['MRR@'+str(K)]:<8}")
+        print(f"{sys_name:<18} {m['P@'+str(K)]:<10} {m['NDCG@'+str(K)]:<10} {m['MRR@'+str(K)]:<10}")
 
     # Save
     output = {
-        "method": "Weights trained on LLM labels, evaluated on human annotations",
-        "n_anchors": len(human_groups),
-        "n_pairs": sum(len(v) for v in human_groups.values()),
+        "method": "Weights trained on LLM labels, evaluated on LLM-judge GT (llm_mean_score)",
+        "ground_truth": "llm_mean_score from task2_human_annotation_v2.csv",
+        "n_anchors": len(llm_groups),
+        "n_pairs": n_pairs,
         "positive_threshold": POSITIVE_THRESHOLD,
+        "k": K,
         "weights_used": {k: float(v) for k, v in zip(
             ["alpha", "beta", "gamma", "delta", "epsilon"], weights)},
         "results": results,
@@ -345,6 +357,7 @@ def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False), "utf-8")
     print(f"\nSaved → {OUTPUT_PATH}")
+    return output
 
 
 if __name__ == "__main__":
